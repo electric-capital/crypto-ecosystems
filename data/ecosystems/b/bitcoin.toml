@@ -3,7 +3,7 @@ title = "Bitcoin"
 
 sub_ecosystems = ["Lightning", "RSK Smart Bitcoin", "ZeroNet"]
 
-github_organizations = ["https://github.com/bitcoin", "https://github.com/bitcoin-core", "https://github.com/bitcoinj", "https://github.com/btcsuite", "https://github.com/libbitcoin", "https://github.com/rust-bitcoin"]
+github_organizations = ["https://github.com/bitcoin", "https://github.com/bitcoin-core", "https://github.com/bitcoinj", "https://github.com/bitcoinops", "https://github.com/btcsuite", "https://github.com/libbitcoin", "https://github.com/rust-bitcoin"]
 
 # Repositories
 [[repo]]
@@ -111,6 +111,24 @@ tags = ["Developer Tool"]
 [[repo]]
 url = "https://github.com/bitcoinknots/bitcoin"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/bitcoinops/bitcoin"
+
+[[repo]]
+url = "https://github.com/bitcoinops/bitcoinops.github.io"
+
+[[repo]]
+url = "https://github.com/bitcoinops/btc-dashboard"
+
+[[repo]]
+url = "https://github.com/bitcoinops/btcd"
+
+[[repo]]
+url = "https://github.com/bitcoinops/scaling-book"
+
+[[repo]]
+url = "https://github.com/bitcoinops/taproot"
 
 [[repo]]
 url = "https://github.com/bitpay/bitcore"

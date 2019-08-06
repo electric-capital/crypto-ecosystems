@@ -3,20 +3,33 @@ title = "Tezos"
 
 sub_ecosystems = []
 
-github_organizations = []
+github_organizations = ["https://github.com/kukai-wallet", "https://github.com/tezbridge", "https://github.com/tezos"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/AndrewKishino/sotez"
 
 [[repo]]
+url = "https://github.com/atomix-me/tezos-xcat"
+
+[[repo]]
 url = "https://github.com/baking-bad/better-call-dev"
+
+[[repo]]
+url = "https://github.com/baking-bad/netezos"
+tags = ["Library"]
+
+[[repo]]
+url = "https://github.com/baking-bad/tezzycat"
 
 [[repo]]
 url = "https://github.com/bodymindarts/tezos-habitat"
 
 [[repo]]
 url = "https://github.com/cryptiumlabs/backerei"
+
+[[repo]]
+url = "https://github.com/cryptiumlabs/tezos-governance"
 
 [[repo]]
 url = "https://github.com/Cryptonomic/Arronax"
@@ -28,6 +41,10 @@ url = "https://github.com/Cryptonomic/Conseil"
 url = "https://github.com/Cryptonomic/ConseilJS"
 
 [[repo]]
+url = "https://github.com/Cryptonomic/Nautilus"
+tags = ["Developer Tool"]
+
+[[repo]]
 url = "https://github.com/Cryptonomic/Tezori"
 
 [[repo]]
@@ -35,6 +52,12 @@ url = "https://github.com/dakk/tezpool"
 
 [[repo]]
 url = "https://github.com/DefinitelyNotAGoat/go-tezos"
+
+[[repo]]
+url = "https://github.com/DefinitelyNotAGoat/payman"
+
+[[repo]]
+url = "https://github.com/ecadlabs/signatory"
 
 [[repo]]
 url = "https://github.com/etomknudsen/tezos-baking"
@@ -56,12 +79,23 @@ url = "https://github.com/habanoz/tezos-reward-distributor"
 
 [[repo]]
 url = "https://github.com/HayekLab/TezosBook"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://github.com/jansorg/tezos-intellij"
 
 [[repo]]
 url = "https://github.com/keefertaylor/TezosKit"
 
 [[repo]]
+url = "https://github.com/kukai-wallet/alphanet"
+
+[[repo]]
 url = "https://github.com/kukai-wallet/kukai"
+tags = ["Wallet"]
+
+[[repo]]
+url = "https://github.com/kukai-wallet/kukai-wallet.github.io"
 
 [[repo]]
 url = "https://github.com/moneytrackio/tezos_client"
@@ -85,10 +119,16 @@ url = "https://github.com/obsidiansystems/ledger-app-tezos"
 url = "https://github.com/OCamlPro/liquidity"
 
 [[repo]]
+url = "https://github.com/OCamlPro/techelson"
+
+[[repo]]
 url = "https://github.com/OCamlPro/tzscan"
 
 [[repo]]
 url = "https://github.com/postables/Tezos-Developer-Resources"
+
+[[repo]]
+url = "https://github.com/s6ruby/ruby-to-michelson"
 
 [[repo]]
 url = "https://github.com/simplestaking/tezos-rs"
@@ -100,6 +140,9 @@ url = "https://github.com/simplestaking/tezos-wallet"
 url = "https://github.com/stove-labs/granary"
 
 [[repo]]
+url = "https://github.com/t3wallet/T3Wallet"
+
+[[repo]]
 url = "https://github.com/tacoinfra/remote-signer"
 
 [[repo]]
@@ -109,8 +152,35 @@ url = "https://github.com/teamzednode/gingerbread"
 url = "https://github.com/tezbridge/tezbridge.github.io"
 
 [[repo]]
+url = "https://github.com/tezos/bips"
+
+[[repo]]
+url = "https://github.com/tezos/Flex"
+
+[[repo]]
+url = "https://github.com/tezos/fundraiser-tools"
+
+[[repo]]
+url = "https://github.com/tezos/irmin"
+
+[[repo]]
+url = "https://github.com/tezos/optimal_stack"
+
+[[repo]]
 url = "https://github.com/tezos/tezos"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/tezos/tezos-explorer"
+
+[[repo]]
+url = "https://github.com/tezos/tezos-papers"
+
+[[repo]]
+url = "https://github.com/tezos/tezoscoq"
+
+[[repo]]
+url = "https://github.com/tezos/zarith-benchmark"
 
 [[repo]]
 url = "https://github.com/TezosRio/taps"
@@ -129,9 +199,11 @@ url = "https://github.com/zastrin/tezos-voting-dapp"
 
 [[repo]]
 url = "https://gitlab.com/tezos/cortez-android"
+tags = ["Wallet"]
 
 [[repo]]
 url = "https://gitlab.com/tezos/tezos"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://gitlab.com/tezos/tezos-faucet"

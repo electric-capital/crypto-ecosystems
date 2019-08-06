@@ -1,9 +1,9 @@
 # Ecosystem Level Information
 title = "Ethereum"
 
-sub_ecosystems = ["0x", "Aragon", "Augur", "Aztec Protocol", "Bancor", "Bloom", "Compound", "Connext Network", "Consensys", "Decentraland", "Dharma Protocol", "Enjin Coin", "FunFair", "Gitcoin", "Gnosis", "Golem", "InstaDApp", "Kyber Network", "Loom Network", "Maker", "Matic Network", "Matter Labs", "Melon", "Moloch", "MyBit", "NuCypher", "Nuo Lend", "OmiseGo", "Origin Protocol", "Pisa Research", "Plasma", "POA Network", "Set Protocol", "Status", "Storj", "Synthetix", "The Graph", "Truffle", "Uma Protocol", "Uniswap", "uPort"]
+sub_ecosystems = ["0x", "Aragon", "Augur", "Aztec Protocol", "Bancor", "Bloom", "Celer Network", "Compound", "Connext Network", "Consensys", "Counterfactual", "Decentraland", "Dharma Protocol", "Enigma", "Enjin Coin", "FunFair", "Gitcoin", "Gnosis", "Golem", "InstaDApp", "Kyber Network", "Loom Network", "Maker", "Matic Network", "Matter Labs", "Melon", "MetaMask", "Moloch", "MyBit", "NuCypher", "Nuo Lend", "OmiseGo", "Origin Protocol", "Pisa Research", "Plasma", "POA Network", "Set Protocol", "Skale Network", "SpankChain", "Status", "Storj", "Synthetix", "The Graph", "Truffle", "Uma Protocol", "Uniswap", "uPort"]
 
-github_organizations = ["https://github.com/ethereum", "https://github.com/PegaSysEng", "https://github.com/prysmaticlabs"]
+github_organizations = ["https://github.com/ethereum", "https://github.com/PegaSysEng", "https://github.com/prysmaticlabs", "https://github.com/sigp", "https://github.com/yeeth"]
 
 # Repositories
 [[repo]]
@@ -115,6 +115,14 @@ url = "https://github.com/canyacoin/canwork-web-ui"
 tags = ["Dapp"]
 
 [[repo]]
+url = "https://github.com/ChainSafe/bls-js"
+tags = ["Library"]
+
+[[repo]]
+url = "https://github.com/ChainSafe/lodestar"
+tags = ["Protocol"]
+
+[[repo]]
 url = "https://github.com/chriseth/browser-solidity"
 
 [[repo]]
@@ -147,6 +155,10 @@ url = "https://github.com/ConsenSys/mythril"
 
 [[repo]]
 url = "https://github.com/ConsenSys/solidity-parser"
+
+[[repo]]
+url = "https://github.com/cosmos/ethermint"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/cryptape/ruby-ethereum"
@@ -208,6 +220,14 @@ url = "https://github.com/dbrainio/Soltsice"
 [[repo]]
 url = "https://github.com/DecentLabs/proof-of-love"
 tags = ["Dapp"]
+
+[[repo]]
+url = "https://github.com/deltap2p/genesis"
+tags = ["Developer Tool"]
+
+[[repo]]
+url = "https://github.com/deltap2p/hobbits"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/Distense/distense-ui"
@@ -954,6 +974,10 @@ url = "https://github.com/gnosis/dx-contracts"
 tags = ["Dapp"]
 
 [[repo]]
+url = "https://github.com/goerli/testnet"
+tags = ["Testnet"]
+
+[[repo]]
 url = "https://github.com/Great-Hill-Corporation/quickBlocks"
 tags = ["Dapp"]
 
@@ -1261,8 +1285,12 @@ url = "https://github.com/polyalpha/PolyAlpha-DAPP"
 tags = ["Dapp"]
 
 [[repo]]
+url = "https://github.com/portis-project/provider-engine"
+tags = ["Library"]
+
+[[repo]]
 url = "https://github.com/portis-project/web-sdk"
-tags = ["Dapp"]
+tags = ["Developer Tool"]
 
 [[repo]]
 url = "https://github.com/protofire/solhint"
@@ -1376,6 +1404,131 @@ url = "https://github.com/segovro/Community-Currency"
 url = "https://github.com/Shimmi/smart-contracts-skeleton"
 
 [[repo]]
+url = "https://github.com/sigp/audit-fantom-multisig-wallet"
+
+[[repo]]
+url = "https://github.com/sigp/audit-fantom-tokensale"
+
+[[repo]]
+url = "https://github.com/sigp/audit-horizon-state-token-sale"
+
+[[repo]]
+url = "https://github.com/sigp/audit-skrilla-token-sale"
+
+[[repo]]
+url = "https://github.com/sigp/beacon_chain"
+
+[[repo]]
+url = "https://github.com/sigp/bls"
+
+[[repo]]
+url = "https://github.com/sigp/casper"
+
+[[repo]]
+url = "https://github.com/sigp/cbc-casper-js"
+
+[[repo]]
+url = "https://github.com/sigp/ds-math"
+
+[[repo]]
+url = "https://github.com/sigp/E2E"
+
+[[repo]]
+url = "https://github.com/sigp/ecies-parity"
+
+[[repo]]
+url = "https://github.com/sigp/eth2.0-fuzzing"
+
+[[repo]]
+url = "https://github.com/sigp/eth2.0-resources"
+
+[[repo]]
+url = "https://github.com/sigp/eth2.0-specs"
+
+[[repo]]
+url = "https://github.com/sigp/eth2.0-test-generators"
+
+[[repo]]
+url = "https://github.com/sigp/eth2.0-tests"
+
+[[repo]]
+url = "https://github.com/sigp/ethereum-pubkey-collector"
+
+[[repo]]
+url = "https://github.com/sigp/EthereumMiningCalculator"
+
+[[repo]]
+url = "https://github.com/sigp/go-web3"
+
+[[repo]]
+url = "https://github.com/sigp/havven-audit"
+
+[[repo]]
+url = "https://github.com/sigp/lighthouse"
+tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/sigp/lighthouse-docker"
+
+[[repo]]
+url = "https://github.com/sigp/lighthouse-pm"
+
+[[repo]]
+url = "https://github.com/sigp/milagro_bls"
+
+[[repo]]
+url = "https://github.com/sigp/nest"
+
+[[repo]]
+url = "https://github.com/sigp/opcode-purity"
+
+[[repo]]
+url = "https://github.com/sigp/positions-vacant"
+
+[[repo]]
+url = "https://github.com/sigp/presentations"
+
+[[repo]]
+url = "https://github.com/sigp/public-audits"
+
+[[repo]]
+url = "https://github.com/sigp/reduced_tree_fork_choice"
+
+[[repo]]
+url = "https://github.com/sigp/rust-libp2p"
+tags = ["Library"]
+
+[[repo]]
+url = "https://github.com/sigp/rust-websocket"
+
+[[repo]]
+url = "https://github.com/sigp/serenity-benches"
+
+[[repo]]
+url = "https://github.com/sigp/serialization_sandbox"
+
+[[repo]]
+url = "https://github.com/sigp/shuffling_sandbox"
+
+[[repo]]
+url = "https://github.com/sigp/signature-schemes"
+
+[[repo]]
+url = "https://github.com/sigp/solidity-security-blog"
+
+[[repo]]
+url = "https://github.com/sigp/specs"
+
+[[repo]]
+url = "https://github.com/sigp/yaml-rust"
+
+[[repo]]
+url = "https://github.com/sigp/zcash-pow"
+
+[[repo]]
+url = "https://github.com/sigp/zcbmark"
+
+[[repo]]
 url = "https://github.com/SilentCicero/ethtoolbox"
 tags = ["Dapp"]
 
@@ -1450,6 +1603,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/stobiewan/scorchable-payments"
 tags = ["Dapp"]
+
+[[repo]]
+url = "https://github.com/stonecoldpat/statechannels"
 
 [[repo]]
 url = "https://github.com/SunPaz/EtherTrack"
@@ -1528,6 +1684,51 @@ tags = ["Dapp"]
 [[repo]]
 url = "https://github.com/XinFinOrg/MyContract"
 tags = ["Dapp"]
+
+[[repo]]
+url = "https://github.com/yeeth/Base58.swift"
+
+[[repo]]
+url = "https://github.com/yeeth/BeaconChain.swift"
+
+[[repo]]
+url = "https://github.com/yeeth/BLS.swift"
+
+[[repo]]
+url = "https://github.com/yeeth/bound-2.0"
+
+[[repo]]
+url = "https://github.com/yeeth/Hobbits.swift"
+
+[[repo]]
+url = "https://github.com/yeeth/keccak256.swift"
+
+[[repo]]
+url = "https://github.com/yeeth/KSG.swift"
+
+[[repo]]
+url = "https://github.com/yeeth/libp2p.swift"
+
+[[repo]]
+url = "https://github.com/yeeth/Multiaddr.swift"
+
+[[repo]]
+url = "https://github.com/yeeth/Multihash.swift"
+
+[[repo]]
+url = "https://github.com/yeeth/Pablo.swift"
+
+[[repo]]
+url = "https://github.com/yeeth/Rendezvous.swift"
+
+[[repo]]
+url = "https://github.com/yeeth/SimpleSerialize.swift"
+
+[[repo]]
+url = "https://github.com/yeeth/website"
+
+[[repo]]
+url = "https://github.com/yeeth/wei.swift"
 
 [[repo]]
 url = "https://github.com/yep/eth-tweet"

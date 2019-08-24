@@ -1,16 +1,17 @@
 """
 basic example to analyse the repos
+
+more information
+https://pygithub.readthedocs.io
+https://developer.github.com/v3
 """
 
 import toml
 import os
 import time
-
 from github import Github
 
 g = Github()
-
-
 
 def get_info():
     """ get all information from github repos """
@@ -30,6 +31,7 @@ def get_info():
     return [orgs,repos]
 
 def basic_example(repos, name):
+    """ simple example which looks for a name in the repo and checks the stars """
     c = 0
     for r in repos[:]:    
         if name in r["url"]:
@@ -38,6 +40,8 @@ def basic_example(repos, name):
             stars = repo.stargazers_count
             if stars > 100:
                 print ("repo ", repo_name, " stars", stars)
+                #contribs = repo.get_contributors()
+                #print (contribs)
                 c+=1
             time.sleep(0.1)
 

@@ -1,9 +1,9 @@
 """
-basic example to analyse the repos
+basic example to analyze the repos
 
 more information
-https://pygithub.readthedocs.io
-https://developer.github.com/v3
+github rest api: https://developer.github.com/v3
+python wrapper: https://pygithub.readthedocs.io
 """
 
 import toml
@@ -14,7 +14,7 @@ from github import Github
 g = Github()
 
 def get_info():
-    """ get all information from github repos """
+    """ get all information from github repos index on disk """
     datadir = "data/ecosystems"
     dd = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', datadir))
     print ("analysing ",dd)
@@ -27,7 +27,6 @@ def get_info():
                 orgs.append(content["title"])
                 if "repo" in content.keys():
                     repos.extend(content["repo"])
-                    #break
     return [orgs,repos]
 
 def basic_example(repos, name):
@@ -47,9 +46,11 @@ def basic_example(repos, name):
 
     print ("repos with %s in its name %i and more than %i stars"%(name,c,100))
 
-[orgs,repos] = get_info()
-print ("orgs ", len(orgs))
-print ("repos ", len(repos))
-basic_example(repos, "bitcoin")
-#basic_example(repos, "trading")
+
+if __name__ == '__main__':
+    [orgs,repos] = get_info()
+    print ("orgs ", len(orgs))
+    print ("repos ", len(repos))
+    basic_example(repos, "bitcoin")
+    #basic_example(repos, "trading")
 

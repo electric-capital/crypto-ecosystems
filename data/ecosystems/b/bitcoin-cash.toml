@@ -3,9 +3,12 @@ title = "Bitcoin Cash"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/bitcoincashorg"]
+github_organizations = ["https://github.com/bitcoincashorg", "https://github.com/Electron-Cash", "https://github.com/gcash", "https://github.com/simpleledger"]
 
 # Repositories
+[[repo]]
+url = "https://bitbucket.org/o-studio/spedn/src/master"
+
 [[repo]]
 url = "https://github.com/4ops/docker-bitcoin-abc"
 
@@ -104,10 +107,107 @@ url = "https://github.com/dsmurrell/awesome-bitcoin-cash"
 url = "https://github.com/Ekliptor/cashp"
 
 [[repo]]
+url = "https://github.com/Electron-Cash/android-platform-ndk"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/android-vendor-freebsd"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/buildozer"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/chaquopy-ec-source"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/Electron-Cash"
+tags = ["Wallet"]
+
+[[repo]]
+url = "https://github.com/Electron-Cash/Electron-Cash-Java"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/electroncash-docs"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/electroncash.org"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/electronx-blacklist"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/electrum-icons"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/electrum-locale"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/electrumx"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/keys-n-hashes"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/openssl"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/pyinstaller"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/python-for-android"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/rubicon-objc"
+
+[[repo]]
+url = "https://github.com/Electron-Cash/secp256k1"
+
+[[repo]]
+url = "https://github.com/EyeOfPython/pyspv"
+
+[[repo]]
+url = "https://github.com/EyeOfPython/slpdex"
+
+[[repo]]
 url = "https://github.com/fountainhead-cash/bitd"
 
 [[repo]]
 url = "https://github.com/fountainhead-cash/bitserve"
+
+[[repo]]
+url = "https://github.com/gcash/android-neutrino"
+
+[[repo]]
+url = "https://github.com/gcash/avalache-web"
+
+[[repo]]
+url = "https://github.com/gcash/bchd"
+
+[[repo]]
+url = "https://github.com/gcash/bchd-web"
+
+[[repo]]
+url = "https://github.com/gcash/bchlog"
+
+[[repo]]
+url = "https://github.com/gcash/bchutil"
+
+[[repo]]
+url = "https://github.com/gcash/bchwallet"
+
+[[repo]]
+url = "https://github.com/gcash/dnsseeder"
+
+[[repo]]
+url = "https://github.com/gcash/meep"
+
+[[repo]]
+url = "https://github.com/gcash/neutrino"
+
+[[repo]]
+url = "https://github.com/gcash/neutrino-web"
+
+[[repo]]
+url = "https://github.com/gcash/overlaynetwork"
 
 [[repo]]
 url = "https://github.com/graphsense/bch-client"
@@ -129,6 +229,18 @@ url = "https://github.com/johneas10/cashBar"
 
 [[repo]]
 url = "https://github.com/k4m4/bitcoincash-regex"
+
+[[repo]]
+url = "https://github.com/KarolTrzeszczkowski/Coinsplitter-Plugin"
+
+[[repo]]
+url = "https://github.com/KarolTrzeszczkowski/Electron-Cash-Last-Will-Plugin"
+
+[[repo]]
+url = "https://github.com/KarolTrzeszczkowski/Electron-Cash-Plugin-Template"
+
+[[repo]]
+url = "https://github.com/KarolTrzeszczkowski/Inter-Wallet-Transfer-EC-plugin"
 
 [[repo]]
 url = "https://github.com/kevinejohn/Cashmunity"
@@ -173,6 +285,13 @@ url = "https://github.com/panda-suite/pandacash-cli"
 url = "https://github.com/panda-suite/pandacash-explorer"
 
 [[repo]]
+url = "https://github.com/pokkst/bitcoincashj"
+tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/pokkst/tipbitcoin.cash"
+
+[[repo]]
 url = "https://github.com/PortalNetwork/bcns"
 
 [[repo]]
@@ -200,6 +319,93 @@ url = "https://github.com/segoverflow/izubitcoin"
 url = "https://github.com/shesek/bcash-instadump"
 
 [[repo]]
+url = "https://github.com/simpleledger/badger"
+
+[[repo]]
+url = "https://github.com/simpleledger/bch-hd-keyring"
+
+[[repo]]
+url = "https://github.com/simpleledger/bch-keyring-controller"
+
+[[repo]]
+url = "https://github.com/simpleledger/bchaddrjs"
+
+[[repo]]
+url = "https://github.com/simpleledger/bigjq"
+
+[[repo]]
+url = "https://github.com/simpleledger/bitcoin-rpc-promise"
+
+[[repo]]
+url = "https://github.com/simpleledger/BitcoinFilesJS"
+
+[[repo]]
+url = "https://github.com/simpleledger/bitqueryd"
+
+[[repo]]
+url = "https://github.com/simpleledger/cashaddrjs"
+
+[[repo]]
+url = "https://github.com/simpleledger/conceptual-specification-obsolete"
+
+[[repo]]
+url = "https://github.com/simpleledger/Electron-Cash-SLP"
+
+[[repo]]
+url = "https://github.com/simpleledger/electrum-icons"
+
+[[repo]]
+url = "https://github.com/simpleledger/electrum-locale"
+
+[[repo]]
+url = "https://github.com/simpleledger/faucet"
+
+[[repo]]
+url = "https://github.com/simpleledger/rs-proof-lib"
+
+[[repo]]
+url = "https://github.com/simpleledger/SimpleToken.cash"
+
+[[repo]]
+url = "https://github.com/simpleledger/slips"
+
+[[repo]]
+url = "https://github.com/simpleledger/slp-explorer"
+
+[[repo]]
+url = "https://github.com/simpleledger/slp-list"
+
+[[repo]]
+url = "https://github.com/simpleledger/slp-specifications"
+
+[[repo]]
+url = "https://github.com/simpleledger/slp-telegram-bot"
+
+[[repo]]
+url = "https://github.com/simpleledger/slp-unit-test-data"
+
+[[repo]]
+url = "https://github.com/simpleledger/slp-web"
+
+[[repo]]
+url = "https://github.com/simpleledger/SLPassets"
+
+[[repo]]
+url = "https://github.com/simpleledger/SLPDB"
+
+[[repo]]
+url = "https://github.com/simpleledger/slpdb_test"
+
+[[repo]]
+url = "https://github.com/simpleledger/slpjs"
+
+[[repo]]
+url = "https://github.com/simpleledger/sockserve"
+
+[[repo]]
+url = "https://github.com/simpleledger/web4bch"
+
+[[repo]]
 url = "https://github.com/SpendBCH/bch-stresstest-web"
 
 [[repo]]
@@ -216,6 +422,12 @@ url = "https://github.com/WeProgramIT/cryptowoo-bitcoin-cash-addon"
 
 [[repo]]
 url = "https://github.com/yenom/bitbox-watch-tx"
+
+[[repo]]
+url = "https://gitlab.com/pokkst/bchgallery.git"
+
+[[repo]]
+url = "https://gitlab.com/pokkst/crescentcash.git"
 
 [[repo]]
 url = "https://reviews.bitcoinabc.org/source/bitcoin-abc"

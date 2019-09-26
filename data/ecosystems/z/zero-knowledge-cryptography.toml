@@ -3,9 +3,12 @@ title = "Zero Knowledge Cryptography"
 
 sub_ecosystems = []
 
-github_organizations = []
+github_organizations = ["https://github.com/zkcrypto"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/elibensasson/libSTARK"
+
 [[repo]]
 url = "https://github.com/iden3/circomlib"
 
@@ -32,3 +35,21 @@ url = "https://github.com/scipr-lab/marlin"
 
 [[repo]]
 url = "https://github.com/scipr-lab/zexe"
+
+[[repo]]
+url = "https://github.com/zkcrypto/bellman"
+
+[[repo]]
+url = "https://github.com/zkcrypto/bls12_381"
+
+[[repo]]
+url = "https://github.com/zkcrypto/ff"
+
+[[repo]]
+url = "https://github.com/zkcrypto/groth16"
+
+[[repo]]
+url = "https://github.com/zkcrypto/jubjub"
+
+[[repo]]
+url = "https://github.com/zkcrypto/pairing"

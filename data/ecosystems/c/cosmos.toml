@@ -1,9 +1,9 @@
 # Ecosystem Level Information
 title = "Cosmos"
 
-sub_ecosystems = []
+sub_ecosystems = ["Interchain"]
 
-github_organizations = ["https://github.com/cosmos"]
+github_organizations = ["https://github.com/cosmos", "https://github.com/luniehq"]
 
 # Repositories
 [[repo]]
@@ -165,6 +165,15 @@ url = "https://github.com/forbole/gaia_bot_monitor"
 
 [[repo]]
 url = "https://github.com/interchainio/funding"
+
+[[repo]]
+url = "https://github.com/luniehq/cosmos-api"
+
+[[repo]]
+url = "https://github.com/luniehq/cosmos-keys"
+
+[[repo]]
+url = "https://github.com/luniehq/cosmos-ledger"
 
 [[repo]]
 url = "https://github.com/luniehq/lunie"

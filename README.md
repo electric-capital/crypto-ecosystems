@@ -1,7 +1,7 @@
 # Crypto Ecosystems
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 [![Build Status](https://dev.azure.com/electric-capital/crypto-ecosystems/_apis/build/status/electric-capital.crypto-ecosystems?branchName=master)](https://dev.azure.com/electric-capital/crypto-ecosystems/_build/latest?definitionId=1&branchName=master)
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 
 🌲 Crypto Ecosystems is a taxonomy for sharing data around open source cryptocurrency, blockchain, and decentralized ecosystems and tying them to github organizations and code repositories.  All of the ecosystems are specified in [TOML](https://github.com/toml-lang/toml) configuration files.
 
@@ -71,6 +71,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/gcharang"><img src="https://avatars3.githubusercontent.com/u/21151592?v=4" width="100px;" alt="gcharang"/><br /><sub><b>gcharang</b></sub></a><br /><a href="#content-gcharang" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/pikatos"><img src="https://avatars3.githubusercontent.com/u/2621796?v=4" width="100px;" alt="pikatos"/><br /><sub><b>pikatos</b></sub></a><br /><a href="#content-pikatos" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/benjyz"><img src="https://avatars3.githubusercontent.com/u/5390515?v=4" width="100px;" alt="Benjamin Cordes"/><br /><sub><b>Benjamin Cordes</b></sub></a><br /><a href="#content-benjyz" title="Content">🖋</a> <a href="https://github.com/electric-capital/crypto-ecosystems/commits?author=benjyz" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/nijynot"><img src="https://avatars0.githubusercontent.com/u/16340977?v=4" width="100px;" alt="nijynot"/><br /><sub><b>nijynot</b></sub></a><br /><a href="#content-nijynot" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/cuongleqq"><img src="https://avatars0.githubusercontent.com/u/3232472?v=4" width="100px;" alt="Cuong Le"/><br /><sub><b>Cuong Le</b></sub></a><br /><a href="#content-cuongleqq" title="Content">🖋</a></td>
   </tr>
 </table>
 

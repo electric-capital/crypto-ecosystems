@@ -3,7 +3,7 @@ title = "Ethereum"
 
 sub_ecosystems = ["0x", "Aave", "Alethio", "Aragon", "Augur", "Aztec Protocol", "Bancor", "Bloom", "Cartesi", "Celer Network", "Compound", "Connext Network", "Consensys", "Counterfactual", "Decentraland", "Dharma Protocol", "Enigma", "Enjin Coin", "FunFair", "Gitcoin", "Gnosis", "Golem", "InstaDApp", "Keep network", "Kyber Network", "Loom Network", "Maker", "Matic Network", "Matter Labs", "Melon", "MetaMask", "Moloch", "MyBit", "NuCypher", "Nuo Lend", "OmiseGo", "Origin Protocol", "Pisa Research", "Plasma", "POA Network", "Set Protocol", "Skale Network", "SpankChain", "Status", "Storj", "Synthetix", "The Graph", "Truffle", "Uma Protocol", "Uniswap", "uPort", "ZoKrates"]
 
-github_organizations = ["https://github.com/argentlabs", "https://github.com/crytic", "https://github.com/ethereum", "https://github.com/ewasm", "https://github.com/fortmatic", "https://github.com/NethermindEth", "https://github.com/nomiclabs", "https://github.com/PegaSysEng", "https://github.com/prysmaticlabs", "https://github.com/sigp", "https://github.com/Tenderly", "https://github.com/umbracle", "https://github.com/yeeth"]
+github_organizations = ["https://github.com/argentlabs", "https://github.com/crytic", "https://github.com/ethereum", "https://github.com/ethereum934", "https://github.com/ewasm", "https://github.com/fortmatic", "https://github.com/NethermindEth", "https://github.com/nomiclabs", "https://github.com/PegaSysEng", "https://github.com/prysmaticlabs", "https://github.com/sigp", "https://github.com/Tenderly", "https://github.com/umbracle", "https://github.com/yeeth"]
 
 # Repositories
 [[repo]]
@@ -429,11 +429,20 @@ url = "https://github.com/ethereum-alarm-clock/ethereum-alarm-clock"
 tags = ["Dapp"]
 
 [[repo]]
+url = "https://github.com/ethereum/act"
+
+[[repo]]
+url = "https://github.com/ethereum/aio-run-in-process"
+
+[[repo]]
 url = "https://github.com/ethereum/aleth"
 tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/ethereum/alethzero"
+
+[[repo]]
+url = "https://github.com/ethereum/async-service"
 
 [[repo]]
 url = "https://github.com/ethereum/asyncio-cancel-token"
@@ -550,6 +559,9 @@ url = "https://github.com/ethereum/ens"
 
 [[repo]]
 url = "https://github.com/ethereum/ens-registrar-dapp"
+
+[[repo]]
+url = "https://github.com/ethereum/esp-website"
 
 [[repo]]
 url = "https://github.com/ethereum/eth-abi"
@@ -1113,6 +1125,18 @@ url = "https://github.com/ethereum/yellowpaper"
 url = "https://github.com/ethereum/yul-semantics"
 
 [[repo]]
+url = "https://github.com/ethereum934/eth-mimblewimble"
+
+[[repo]]
+url = "https://github.com/ethereum934/ethereum934.org"
+
+[[repo]]
+url = "https://github.com/ethereum934/py-goblin"
+
+[[repo]]
+url = "https://github.com/ethereum934/react-native-client"
+
+[[repo]]
 url = "https://github.com/etherex/etherex"
 
 [[repo]]
@@ -1135,6 +1159,9 @@ url = "https://github.com/ewasm/awesome-phase2"
 
 [[repo]]
 url = "https://github.com/ewasm/benchmarking"
+
+[[repo]]
+url = "https://github.com/ewasm/biturbo"
 
 [[repo]]
 url = "https://github.com/ewasm/bn"
@@ -1237,6 +1264,9 @@ url = "https://github.com/ewasm/testnet"
 
 [[repo]]
 url = "https://github.com/ewasm/tests"
+
+[[repo]]
+url = "https://github.com/ewasm/turbo-evm"
 
 [[repo]]
 url = "https://github.com/ewasm/wabt"
@@ -1492,6 +1522,15 @@ tags = ["Dapp"]
 url = "https://github.com/NethermindEth/bls"
 
 [[repo]]
+url = "https://github.com/NethermindEth/cortex"
+
+[[repo]]
+url = "https://github.com/NethermindEth/cortex-cryptography-bls"
+
+[[repo]]
+url = "https://github.com/NethermindEth/cortex-ssz"
+
+[[repo]]
 url = "https://github.com/NethermindEth/Dirichlet"
 
 [[repo]]
@@ -1635,6 +1674,9 @@ url = "https://github.com/PegaSysEng/aiakos-contracts"
 url = "https://github.com/PegaSysEng/aiakos-sdk-java"
 
 [[repo]]
+url = "https://github.com/PegaSysEng/anmlee"
+
+[[repo]]
 url = "https://github.com/PegaSysEng/ansible-role-besu"
 
 [[repo]]
@@ -1661,6 +1703,9 @@ url = "https://github.com/PegaSysEng/chocolatey-pantheon"
 
 [[repo]]
 url = "https://github.com/PegaSysEng/dco-check"
+
+[[repo]]
+url = "https://github.com/PegaSysEng/doc.common"
 
 [[repo]]
 url = "https://github.com/PegaSysEng/doc.ethsigner"
@@ -1820,6 +1865,9 @@ url = "https://github.com/prysmaticlabs/prysm-light"
 url = "https://github.com/prysmaticlabs/prysm-testnet-site"
 
 [[repo]]
+url = "https://github.com/prysmaticlabs/prysmaticlabs.gitbook.io"
+
+[[repo]]
 url = "https://github.com/prysmaticlabs/relic"
 
 [[repo]]
@@ -1913,6 +1961,9 @@ url = "https://github.com/sigp/beacon_chain"
 url = "https://github.com/sigp/bls"
 
 [[repo]]
+url = "https://github.com/sigp/bls-eth-rust"
+
+[[repo]]
 url = "https://github.com/sigp/casper"
 
 [[repo]]
@@ -1929,6 +1980,9 @@ url = "https://github.com/sigp/E2E"
 
 [[repo]]
 url = "https://github.com/sigp/ecies-parity"
+
+[[repo]]
+url = "https://github.com/sigp/eth2-testnets"
 
 [[repo]]
 url = "https://github.com/sigp/eth2.0-APIs"
@@ -1981,6 +2035,9 @@ url = "https://github.com/sigp/lighthouse-docs"
 
 [[repo]]
 url = "https://github.com/sigp/lighthouse-interop-docs"
+
+[[repo]]
+url = "https://github.com/sigp/lighthouse-metrics"
 
 [[repo]]
 url = "https://github.com/sigp/lighthouse-pm"
@@ -2039,6 +2096,9 @@ url = "https://github.com/sigp/solidity-security-blog"
 
 [[repo]]
 url = "https://github.com/sigp/specs"
+
+[[repo]]
+url = "https://github.com/sigp/unsafe-eth2-deposit-contract"
 
 [[repo]]
 url = "https://github.com/sigp/yaml-rust"

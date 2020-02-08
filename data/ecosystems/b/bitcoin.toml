@@ -1,9 +1,9 @@
 # Ecosystem Level Information
 title = "Bitcoin"
 
-sub_ecosystems = ["Lightning", "RSK Smart Bitcoin", "ZeroNet"]
+sub_ecosystems = ["Bitcoin JS", "Lightning", "RSK Smart Bitcoin", "ZeroNet"]
 
-github_organizations = ["https://github.com/bitcoin", "https://github.com/bitcoin-core", "https://github.com/bitcoinj", "https://github.com/bitcoinops", "https://github.com/btcsuite", "https://github.com/libbitcoin", "https://github.com/rust-bitcoin", "https://github.com/Samourai-Wallet", "https://github.com/zkSNACKs"]
+github_organizations = ["https://github.com/bitcoin", "https://github.com/bitcoin-core", "https://github.com/bitcoinj", "https://github.com/bitcoinjs", "https://github.com/bitcoinops", "https://github.com/btcsuite", "https://github.com/libbitcoin", "https://github.com/rust-bitcoin", "https://github.com/Samourai-Wallet", "https://github.com/zkSNACKs"]
 
 # Repositories
 [[repo]]
@@ -120,8 +120,110 @@ url = "https://github.com/bitcoinj/httpseed"
 url = "https://github.com/bitcoinj/wallet-template"
 
 [[repo]]
+url = "https://github.com/bitcoinjs/bech32"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bip174"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bip21"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bip32"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bip32-utils"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bip32-wallet"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bip38"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bip39"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bip44-constants"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bip65"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bip66"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bip68"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bip69"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bitcoin-ops"
+
+[[repo]]
 url = "https://github.com/bitcoinjs/bitcoinjs-lib"
 tags = ["Developer Tool"]
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bitcoinjs-message"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bitcoinjs.github.io"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/blkdat-stream"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bolt11"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bs58check"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/coinselect"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/fast-dat-parser"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/indexd"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/merkle-lib"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/minimaldata"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/playground"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/pushdata-bitcoin"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/regtest-client"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/regtest-server"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/tif"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/tiny-secp256k1"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/tiny-secp256k1-native"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/utxo"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/varuint-bitcoin"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/wif"
 
 [[repo]]
 url = "https://github.com/bitcoinknots/bitcoin"
@@ -666,6 +768,9 @@ url = "https://github.com/zkSNACKs/WalletWasabi"
 
 [[repo]]
 url = "https://github.com/zkSNACKs/WasabiBenchmark"
+
+[[repo]]
+url = "https://github.com/zkSNACKs/WasabiDeploy"
 
 [[repo]]
 url = "https://github.com/zkSNACKs/WasabiDesign"

@@ -1,9 +1,9 @@
 # Ecosystem Level Information
 title = "Handshake"
 
-sub_ecosystems = []
+sub_ecosystems = ["Namebase"]
 
-github_organizations = ["https://github.com/handshake-org"]
+github_organizations = ["https://github.com/handshake-org", "https://github.com/HandshakeAlliance"]
 
 # Repositories
 [[repo]]
@@ -62,3 +62,6 @@ url = "https://github.com/handshake-org/libhns"
 
 [[repo]]
 url = "https://github.com/handshake-org/urkel"
+
+[[repo]]
+url = "https://github.com/HandshakeAlliance/hsd"

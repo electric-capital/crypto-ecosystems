@@ -1,0 +1,32 @@
+# Ecosystem Level Information
+title = "Cyber"
+
+# Sub Ecosystems
+# These are the titles of other ecosystems in different .toml files in the /data/ecosystems directory
+sub_ecosystems = []
+
+# Github Organizations
+# This is a list of links to associated github organizations.
+github_organizations = ["https://github.com/cybercongress"]
+
+# Repositories
+# These are structs including a url and tags for a git repository.  These URLS do not have to be on github.
+[[repo]]
+url = "https://github.com/cybercongress/go-cyber"
+tags = [ "Protocol"]
+
+[[repo]]
+url = "https://github.com/cybercongress/dot-cyber"
+tags = [ "Application"]
+
+[[repo]]
+url = "https://github.com/cybercongress/cyber-foundation"
+tags = [ "cyber~Foundation DAO"]
+
+[[repo]]
+url = "https://github.com/cybercongress/cyb-virus"
+tags = [ "App extension"]
+
+[[repo]]
+url = "https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md"
+tags = [ "Documentation"]

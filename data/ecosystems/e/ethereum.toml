@@ -1,9 +1,9 @@
 # Ecosystem Level Information
 title = "Ethereum"
 
-sub_ecosystems = ["0x", "Aave", "Alethio", "Aragon", "Arbitrum", "Augur", "Aztec Protocol", "Bancor", "Bloom", "Cartesi", "Celer Network", "Compound", "Connext Network", "Consensys", "Counterfactual", "Decentraland", "Dharma Protocol", "Enigma", "Enjin Coin", "Erasure", "FunFair", "Gitcoin", "Gnosis", "Golem", "InstaDApp", "Keep network", "Kyber Network", "Loom Network", "Maker", "Matic Network", "Matter Labs", "Melon", "MetaMask", "Moloch", "MyBit", "NuCypher", "Nuo Lend", "OmiseGo", "Origin Protocol", "Pisa Research", "Plasma", "POA Network", "Raiden Network", "Set Protocol", "Skale Network", "SpankChain", "Status", "Storj", "Synthetix", "The Graph", "Truffle", "Uma Protocol", "Uniswap", "Unlock Protocol", "uPort", "Web3 JS", "Web3 Python", "yEarn Finance", "ZoKrates"]
+sub_ecosystems = ["0x", "Aave", "Alethio", "Aragon", "Arbitrum", "Augur", "Aztec Protocol", "Balancer", "Bancor", "Bloom", "Cartesi", "Celer Network", "Compound", "Connext Network", "Consensys", "Counterfactual", "Decentraland", "Dharma Protocol", "Enigma", "Enjin Coin", "Erasure", "FunFair", "Gitcoin", "Gnosis", "Golem", "InstaDApp", "Keep network", "Kyber Network", "Loom Network", "Maker", "Matic Network", "Matter Labs", "Melon", "MetaMask", "Moloch", "MyBit", "NuCypher", "Nuo Lend", "OmiseGo", "Origin Protocol", "Pisa Research", "Plasma", "POA Network", "Primitive Finance", "Raiden Network", "Set Protocol", "Skale Network", "SpankChain", "Status", "Storj", "Synthetix", "The Graph", "Truffle", "Uma Protocol", "Uniswap", "Unlock Protocol", "uPort", "Web3 JS", "Web3 Python", "yearn.finance", "ZoKrates"]
 
-github_organizations = ["https://github.com/argentlabs", "https://github.com/crytic", "https://github.com/curvefi", "https://github.com/ethereum", "https://github.com/ethereum-ts", "https://github.com/ethereum934", "https://github.com/ethers-io", "https://github.com/ewasm", "https://github.com/fortmatic", "https://github.com/NethermindEth", "https://github.com/nomiclabs", "https://github.com/PegaSysEng", "https://github.com/prysmaticlabs", "https://github.com/rainbow-me", "https://github.com/randao", "https://github.com/sigp", "https://github.com/tasitlabs", "https://github.com/Tenderly", "https://github.com/umbracle", "https://github.com/vyperlang", "https://github.com/web3j", "https://github.com/yeeth"]
+github_organizations = ["https://github.com/argentlabs", "https://github.com/crytic", "https://github.com/curvefi", "https://github.com/ethereum", "https://github.com/ethereum-ts", "https://github.com/ethereum934", "https://github.com/ethers-io", "https://github.com/ewasm", "https://github.com/fortmatic", "https://github.com/NethermindEth", "https://github.com/nomiclabs", "https://github.com/PegaSysEng", "https://github.com/prysmaticlabs", "https://github.com/rainbow-me", "https://github.com/randao", "https://github.com/sigp", "https://github.com/tasitlabs", "https://github.com/Tenderly", "https://github.com/umbracle", "https://github.com/vyperlang", "https://github.com/web3j", "https://github.com/yeeth", "https://github.com/zkopru-network"]
 
 # Repositories
 [[repo]]
@@ -127,6 +127,9 @@ url = "https://github.com/argentlabs/use-dai"
 
 [[repo]]
 url = "https://github.com/argentlabs/walletconnect-monorepo"
+
+[[repo]]
+url = "https://github.com/argentlabs/WalletConnectSwift"
 
 [[repo]]
 url = "https://github.com/argentlabs/web3.swift"
@@ -354,6 +357,9 @@ url = "https://github.com/curvefi/curve-measure-profit"
 
 [[repo]]
 url = "https://github.com/curvefi/curve-metapool"
+
+[[repo]]
+url = "https://github.com/curvefi/curve-pool-registry"
 
 [[repo]]
 url = "https://github.com/curvefi/curve-ui"
@@ -672,6 +678,9 @@ url = "https://github.com/ethereum/eth-net-intelligence-api"
 url = "https://github.com/ethereum/eth-netstats"
 
 [[repo]]
+url = "https://github.com/ethereum/eth-orm"
+
+[[repo]]
 url = "https://github.com/ethereum/eth-rlp"
 
 [[repo]]
@@ -697,6 +706,12 @@ url = "https://github.com/ethereum/eth2-client-tests"
 
 [[repo]]
 url = "https://github.com/ethereum/eth2.0-APIs"
+
+[[repo]]
+url = "https://github.com/ethereum/eth2.0-deposit"
+
+[[repo]]
+url = "https://github.com/ethereum/eth2.0-deposit-cli"
 
 [[repo]]
 url = "https://github.com/ethereum/eth2.0-metrics"
@@ -1156,6 +1171,9 @@ url = "https://github.com/ethereum/solidity.js"
 url = "https://github.com/ethereum/source-verify"
 
 [[repo]]
+url = "https://github.com/ethereum/sourcify"
+
+[[repo]]
 url = "https://github.com/ethereum/stake-voice"
 
 [[repo]]
@@ -1363,6 +1381,9 @@ url = "https://github.com/ewasm/evm2wasm"
 
 [[repo]]
 url = "https://github.com/ewasm/evm2wasm-frontend"
+
+[[repo]]
+url = "https://github.com/ewasm/evm384_f6m_mul"
 
 [[repo]]
 url = "https://github.com/ewasm/ewasm-cleanup"
@@ -1733,6 +1754,9 @@ url = "https://github.com/NethermindEth/eth2.0-specs"
 url = "https://github.com/NethermindEth/hive"
 
 [[repo]]
+url = "https://github.com/NethermindEth/int256"
+
+[[repo]]
 url = "https://github.com/NethermindEth/NDM-consumer-samples"
 
 [[repo]]
@@ -1758,6 +1782,9 @@ url = "https://github.com/NethermindEth/scrypt"
 
 [[repo]]
 url = "https://github.com/NethermindEth/secp256k1"
+
+[[repo]]
+url = "https://github.com/NethermindEth/timber"
 
 [[repo]]
 url = "https://github.com/NethermindEth/truffleTest"
@@ -1876,6 +1903,12 @@ url = "https://github.com/PegaSysEng/anmlee"
 url = "https://github.com/PegaSysEng/ansible-role-besu"
 
 [[repo]]
+url = "https://github.com/PegaSysEng/ansible-role-openjdk11"
+
+[[repo]]
+url = "https://github.com/PegaSysEng/ansible-role-orion"
+
+[[repo]]
 url = "https://github.com/PegaSysEng/ansible-role-pantheon"
 
 [[repo]]
@@ -1925,6 +1958,9 @@ url = "https://github.com/PegaSysEng/BountiedWork"
 url = "https://github.com/PegaSysEng/chocolatey-pantheon"
 
 [[repo]]
+url = "https://github.com/PegaSysEng/codewitness"
+
+[[repo]]
 url = "https://github.com/PegaSysEng/dco-check"
 
 [[repo]]
@@ -1944,6 +1980,9 @@ url = "https://github.com/PegaSysEng/doc.pantheon"
 
 [[repo]]
 url = "https://github.com/PegaSysEng/doc.teku"
+
+[[repo]]
+url = "https://github.com/PegaSysEng/Ecies"
 
 [[repo]]
 url = "https://github.com/PegaSysEng/eip-testnet"
@@ -1968,6 +2007,9 @@ url = "https://github.com/PegaSysEng/homebrew-pantheon"
 
 [[repo]]
 url = "https://github.com/PegaSysEng/hyperledger-besu-ethers"
+
+[[repo]]
+url = "https://github.com/PegaSysEng/LTACFC"
 
 [[repo]]
 url = "https://github.com/PegaSysEng/orchestrate-demo-api"
@@ -2035,6 +2077,9 @@ url = "https://github.com/PegaSysEng/sidechains-web3j"
 
 [[repo]]
 url = "https://github.com/PegaSysEng/signers"
+
+[[repo]]
+url = "https://github.com/PegaSysEng/signingservice"
 
 [[repo]]
 url = "https://github.com/PegaSysEng/stateless-ethereum-specs"
@@ -2438,6 +2483,9 @@ url = "https://github.com/sigp/unsafe-eth2-deposit-contract"
 url = "https://github.com/sigp/unsigned-varint"
 
 [[repo]]
+url = "https://github.com/sigp/witti"
+
+[[repo]]
 url = "https://github.com/sigp/yaml-rust"
 
 [[repo]]
@@ -2567,7 +2615,16 @@ url = "https://github.com/tasitlabs/tools-we-like"
 url = "https://github.com/Tenderly/buidler"
 
 [[repo]]
+url = "https://github.com/Tenderly/ens"
+
+[[repo]]
 url = "https://github.com/Tenderly/ethberlinzwei-maglev"
+
+[[repo]]
+url = "https://github.com/Tenderly/ethereumjs-util"
+
+[[repo]]
+url = "https://github.com/Tenderly/ethereumjs-wallet"
 
 [[repo]]
 url = "https://github.com/Tenderly/ethparis-txflow"
@@ -2613,6 +2670,12 @@ url = "https://github.com/Tenderly/tenderly-remix-plugin"
 
 [[repo]]
 url = "https://github.com/Tenderly/tenderly-trace"
+
+[[repo]]
+url = "https://github.com/Tenderly/truffle"
+
+[[repo]]
+url = "https://github.com/Tenderly/web3.js"
 
 [[repo]]
 url = "https://github.com/thenextblock/thenextblock.github.io"
@@ -2703,6 +2766,9 @@ url = "https://github.com/vyperlang/k-vyper"
 url = "https://github.com/vyperlang/language-vyper"
 
 [[repo]]
+url = "https://github.com/vyperlang/pyodide"
+
+[[repo]]
 url = "https://github.com/vyperlang/sublime-vyper"
 
 [[repo]]
@@ -2721,7 +2787,13 @@ url = "https://github.com/vyperlang/vyper"
 url = "https://github.com/vyperlang/vyper-debug"
 
 [[repo]]
+url = "https://github.com/vyperlang/vyper-in-browser"
+
+[[repo]]
 url = "https://github.com/vyperlang/vyper-semantics"
+
+[[repo]]
+url = "https://github.com/vyperlang/vyper-static-linux-build"
 
 [[repo]]
 url = "https://github.com/web3j/aion-samples"
@@ -2895,3 +2967,12 @@ url = "https://github.com/yep/eth-tweet"
 [[repo]]
 url = "https://github.com/ylv-io/coinpledge"
 tags = ["Dapp"]
+
+[[repo]]
+url = "https://github.com/zkopru-network/docs"
+
+[[repo]]
+url = "https://github.com/zkopru-network/website"
+
+[[repo]]
+url = "https://github.com/zkopru-network/zkopru"

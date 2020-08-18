@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Cosmos"
 
-sub_ecosystems = ["Interchain"]
+sub_ecosystems = ["Band Protocol", "Binance Coin", "Crypto.com Chain", "Interchain", "IRIS Network", "IRISnet", "Kava Labs", "Loom", "Loom Network", "Tendermint", "Terra", "THORChain"]
 
 github_organizations = ["https://github.com/cosmos", "https://github.com/luniehq"]
 
@@ -13,13 +13,35 @@ url = "https://github.com/alexanderbez/juno"
 url = "https://github.com/aura-systems/Aura-Operating-System"
 
 [[repo]]
+url = "https://github.com/bandprotocol/bandchain"
+
+[[repo]]
+url = "https://github.com/cbarraford/cosmos-multisig"
+
+[[repo]]
 url = "https://github.com/certusone/chain_exporter"
 
 [[repo]]
 url = "https://github.com/certusone/testnet_deploy"
 
 [[repo]]
+url = "https://github.com/ChainAgnostic/CAIPs"
+
+[[repo]]
+url = "https://github.com/ChainSafe/ChainBridge"
+tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/chuanwu/cosmos-crypto-lib"
+
+[[repo]]
+url = "https://github.com/commercionetwork/sacco.go"
+
+[[repo]]
 url = "https://github.com/CosmicBridge/server"
+
+[[repo]]
+url = "https://github.com/cosmos/advocates"
 
 [[repo]]
 url = "https://github.com/cosmos/amino-js"
@@ -98,6 +120,9 @@ url = "https://github.com/cosmos/governance"
 url = "https://github.com/cosmos/hellochain"
 
 [[repo]]
+url = "https://github.com/cosmos/iavl"
+
+[[repo]]
 url = "https://github.com/cosmos/ics"
 
 [[repo]]
@@ -114,6 +139,9 @@ url = "https://github.com/cosmos/ledger-cosmos-go"
 
 [[repo]]
 url = "https://github.com/cosmos/ledger-cosmos-js"
+
+[[repo]]
+url = "https://github.com/cosmos/ledger-cosmos-obsolete"
 
 [[repo]]
 url = "https://github.com/cosmos/ledger-go"
@@ -173,7 +201,25 @@ url = "https://github.com/cosmostation/cosmostation-mobile"
 url = "https://github.com/cwgoes/haskell-abci"
 
 [[repo]]
+url = "https://github.com/cwgoes/ibc-idris-ref"
+
+[[repo]]
+url = "https://github.com/cybercongress/cyb"
+
+[[repo]]
+url = "https://github.com/cybercongress/cyb-snap"
+tags = ["Wallet"]
+
+[[repo]]
+url = "https://github.com/cybercongress/cyb-virus"
+tags = ["Dapp"]
+
+[[repo]]
 url = "https://github.com/cybercongress/cyberd"
+
+[[repo]]
+url = "https://github.com/cybercongress/go-cyber"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/cybercongress/js-amino"
@@ -182,13 +228,59 @@ url = "https://github.com/cybercongress/js-amino"
 url = "https://github.com/cybercongress/js-cosmos"
 
 [[repo]]
+url = "https://github.com/cybercongress/launch-kit"
+tags = ["Developer Tool"]
+
+[[repo]]
+url = "https://github.com/datachainlab/cross"
+
+[[repo]]
 url = "https://github.com/dawn-network/dawn"
+
+[[repo]]
+url = "https://github.com/desmos-labs/go-key-manager"
+
+[[repo]]
+url = "https://github.com/dexc-library/dexc-web"
+
+[[repo]]
+url = "https://github.com/eco/linkedup"
+
+[[repo]]
+url = "https://github.com/eco/linkedup-app"
+
+[[repo]]
+url = "https://github.com/elvin-du/cosmos-sdk-code-analysis"
+
+[[repo]]
+url = "https://github.com/fissionlabsio/juno"
+tags = ["Developer Tool"]
+
+[[repo]]
+url = "https://github.com/forbole/big-dipper"
+tags = ["Developer Tool"]
 
 [[repo]]
 url = "https://github.com/forbole/big_dipper"
 
 [[repo]]
 url = "https://github.com/forbole/gaia_bot_monitor"
+
+[[repo]]
+url = "https://github.com/forbole/telescope"
+
+[[repo]]
+url = "https://github.com/hukkinj1/cosmospy"
+tags = ["Wallet"]
+
+[[repo]]
+url = "https://github.com/hukkinj1/cosmosvanity"
+
+[[repo]]
+url = "https://github.com/hupay/Blockchain-Tech"
+
+[[repo]]
+url = "https://github.com/informalsystems/ibc-rs"
 
 [[repo]]
 url = "https://github.com/interchainio/funding"
@@ -198,6 +290,16 @@ url = "https://github.com/iqlusioninc/relayer"
 
 [[repo]]
 url = "https://github.com/iqlusioninc/sagan"
+
+[[repo]]
+url = "https://github.com/k5trismegistus/cosmos-sdk-tutorial"
+
+[[repo]]
+url = "https://github.com/keywolf/try-cosmos-dev"
+
+[[repo]]
+url = "https://github.com/lovincyrus/cosmonauts-world"
+tags = ["Documentation"]
 
 [[repo]]
 url = "https://github.com/luniehq/cosmos-api"
@@ -221,7 +323,16 @@ url = "https://github.com/luniehq/livepeer-graphql-api"
 url = "https://github.com/luniehq/lunie"
 
 [[repo]]
+url = "https://github.com/luniehq/Open-Grants-Program"
+
+[[repo]]
 url = "https://github.com/luniehq/Web3-collaboration"
+
+[[repo]]
+url = "https://github.com/nbltrust/jadepool-hub-golib-cosmos"
+
+[[repo]]
+url = "https://github.com/noah-blockchain/noah-go-node"
 
 [[repo]]
 url = "https://github.com/nomic-io/lotion"
@@ -230,13 +341,23 @@ url = "https://github.com/nomic-io/lotion"
 url = "https://github.com/OpenGenus/cosmos-search"
 
 [[repo]]
+url = "https://github.com/qdriven/cosmos-gaia-ansible"
+
+[[repo]]
 url = "https://github.com/reforest/fungus"
+
+[[repo]]
+url = "https://github.com/SaifRehman/tendermint"
 
 [[repo]]
 url = "https://github.com/SaifRehman/tendermint-chat-app"
 
 [[repo]]
 url = "https://github.com/Siaranite-Solutions/AIC-Framework"
+
+[[repo]]
+url = "https://github.com/SimplyVC/panic_cosmos"
+tags = ["Developer Tool"]
 
 [[repo]]
 url = "https://github.com/swswsw/predictionmkt"
@@ -246,3 +367,15 @@ url = "https://github.com/tendermint/clearchain"
 
 [[repo]]
 url = "https://github.com/tendermint/rust-abci"
+
+[[repo]]
+url = "https://github.com/TruStory/truchain"
+
+[[repo]]
+url = "https://github.com/TTCECO/carnot"
+
+[[repo]]
+url = "https://github.com/universelabs/universe-blockchain"
+
+[[repo]]
+url = "https://github.com/xbc30/blockchain"

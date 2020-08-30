@@ -2,7 +2,7 @@ use failure::Fail;
 use glob::glob;
 use quicli::prelude::*;
 use serde::Deserialize;
-use std::collections::HashMap;
+use std::collections::{HashMap, HashSet};
 use std::path::{Path, PathBuf};
 use structopt::StructOpt;
 
@@ -80,8 +80,8 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<EcosystemMap> {
 }
 
 fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Result<()> {
-    let mut repo_count = 0;
     let mut tagmap: HashMap<String, u32> = HashMap::new();
+    let mut repo_set = HashSet::new();
     for ecosystem in ecosystem_map.values() {
         if let Some(ref sub_ecosystems) = ecosystem.sub_ecosystems {
             for sub in sub_ecosystems {
@@ -94,8 +94,8 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Result<()> {
             }
         }
         if let Some(ref repos) = ecosystem.repo {
-            repo_count += repos.len();
             for repo in repos {
+                repo_set.insert(repo.url.clone());
                 if let Some(tags) = &repo.tags {
                     for tag in tags {
                         let counter = tagmap.entry(tag.to_string()).or_insert(0);
@@ -108,7 +108,7 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Result<()> {
     println!(
         "Validated {} ecosystems and {} repos",
         ecosystem_map.len(),
-        repo_count,
+        repo_set.len(),
     );
     println!("\nTags");
     for (tag, count) in tagmap {

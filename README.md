@@ -5,7 +5,9 @@
 
 🌲 Crypto Ecosystems is a taxonomy for sharing data around open source cryptocurrency, blockchain, and decentralized ecosystems and tying them to github organizations and code repositories.  All of the ecosystems are specified in [TOML](https://github.com/toml-lang/toml) configuration files.
 
-This repository is not complete, and hopefully it never is as there are new ecosystems created everyday.
+This repository is not complete, and hopefully it never is as there are new ecosystems and repositories created everyday.
+
+[Browse Ecosystems Here](https://electric-capital.github.io)
 
 #### Data Format
 

@@ -1,9 +1,138 @@
 # Ecosystem Level Information
 title = "Ethereum"
 
-sub_ecosystems = ["0x", "3Box", "Aave", "Alethio", "Aragon", "Arbitrum", "Augur", "Axie Infinity", "Aztec Protocol", "Balancer", "Bancor", "Bloom", "Cartesi", "Celer Network", "Celsius", "CoFix", "Compound", "Connext Network", "Consensys", "Counterfactual", "Curve", "Decentraland", "Dharma Protocol", "Enigma", "Enjin Coin", "Erasure", "Frax", "Fuel", "FunFair", "Gitcoin", "Gnosis", "Golem", "HedgeTrade", "Idle Finance", "InstaDApp", "Keep network", "Kyber Network", "Loom Network", "Maker", "Matic Network", "Matter Labs", "Melon", "MetaMask", "Moloch", "MyBit", "NEST Protocol", "Nomic Labs", "NuCypher", "Nuo Lend", "OmiseGo", "Optimism", "Origin Protocol", "Pisa Research", "Plasma", "POA Network", "PoolTogether", "Primitive Finance", "Raiden Network", "Set Protocol", "Skale Network", "SpankChain", "State Channels", "Status", "Storj", "Synthetix", "The Graph", "Uma Protocol", "Uniswap", "Unlock Protocol", "uPort", "Web3 JS", "Web3 Python", "xDai", "xDai Chain", "yearn.finance", "Zerion", "ZoKrates"]
+sub_ecosystems = [
+  "0x",
+  "1inch",
+  "3Box",
+  "Aave",
+  "Alethio",
+  "Ampleforth",
+  "Aragon",
+  "Arbitrum",
+  "Argent",
+  "Audius",
+  "Augmint",
+  "Augur",
+  "Axie Infinity",
+  "Aztec Protocol",
+  "Balancer",
+  "Bancor",
+  "Basic Attention Token",
+  "Bloom",
+  "bZx Protocol",
+  "Cartesi",
+  "Celer Network",
+  "Celsius",
+  "CoFix",
+  "Compound",
+  "Connext Network",
+  "Consensys",
+  "Counterfactual",
+  "Curve",
+  "Decentraland",
+  "Dharma Protocol",
+  "dYdX",
+  "Enigma",
+  "Enjin Coin",
+  "Erasure",
+  "Ethereum Name Service",
+  "Frax",
+  "Fuel",
+  "FunFair",
+  "Gitcoin",
+  "Giveth",
+  "Gnosis",
+  "Golem",
+  "HedgeTrade",
+  "Idle Finance",
+  "iExec RLC",
+  "InstaDApp",
+  "Keep network",
+  "Kleros",
+  "Kyber Network",
+  "Loom Network",
+  "Loopring",
+  "Maker",
+  "Market Protocol",
+  "Matic Network",
+  "Matter Labs",
+  "Melon",
+  "MetaMask",
+  "Moloch",
+  "MyBit",
+  "NEST Protocol",
+  "Nexus Mutual",
+  "Nomic Labs",
+  "NuCypher",
+  "Nuo Lend",
+  "Ocean Protocol",
+  "OmiseGo",
+  "OpenSea",
+  "OpenZeppelin",
+  "Optimism",
+  "Opyn",
+  "Origin Protocol",
+  "Perun",
+  "Pisa Research",
+  "Plasma",
+  "POA Network",
+  "PoolTogether",
+  "Primitive Finance",
+  "Raiden Network",
+  "Ren",
+  "Request",
+  "Set Protocol",
+  "Skale Network",
+  "SpankChain",
+  "State Channels",
+  "Status",
+  "Storj",
+  "Sushi Swap",
+  "Synthetix",
+  "Teller Protocol",
+  "Tenderly",
+  "The Graph",
+  "Uma Protocol",
+  "Uniswap",
+  "Unlock Protocol",
+  "uPort",
+  "Vyper",
+  "Web3 JS",
+  "Web3 Python",
+  "xDai",
+  "xDai Chain",
+  "xToken",
+  "yearn.finance",
+  "Yield Protocol",
+  "Zerion",
+  "ZoKrates",
+]
 
-github_organizations = ["https://github.com/argentlabs", "https://github.com/crytic", "https://github.com/curvefi", "https://github.com/ensdomains", "https://github.com/ethereum", "https://github.com/ethereum-ts", "https://github.com/ethereum934", "https://github.com/ethers-io", "https://github.com/ethersphere", "https://github.com/ewasm", "https://github.com/fortmatic", "https://github.com/multi-geth", "https://github.com/NethermindEth", "https://github.com/nomiclabs", "https://github.com/NutBerry", "https://github.com/PegaSysEng", "https://github.com/prysmaticlabs", "https://github.com/rainbow-me", "https://github.com/randao", "https://github.com/sigp", "https://github.com/tasitlabs", "https://github.com/Tenderly", "https://github.com/umbracle", "https://github.com/vyperlang", "https://github.com/web3j", "https://github.com/yeeth", "https://github.com/zkopru-network"]
+github_organizations = [
+  "https://github.com/crytic",
+  "https://github.com/ethereum",
+  "https://github.com/ethereum-ts",
+  "https://github.com/ethereum934",
+  "https://github.com/ethers-io",
+  "https://github.com/ethersphere",
+  "https://github.com/ewasm",
+  "https://github.com/fortmatic",
+  "https://github.com/multi-geth",
+  "https://github.com/NethermindEth",
+  "https://github.com/NutBerry",
+  "https://github.com/PegaSysEng",
+  "https://github.com/pipeos-one",
+  "https://github.com/prysmaticlabs",
+  "https://github.com/rainbow-me",
+  "https://github.com/randao",
+  "https://github.com/sigp",
+  "https://github.com/tasitlabs",
+  "https://github.com/umbracle",
+  "https://github.com/web3j",
+  "https://github.com/yeeth",
+  "https://github.com/zkopru-network",
+]
 
 # Repositories
 [[repo]]
@@ -169,6 +298,9 @@ tags = ["Dapp"]
 url = "https://github.com/austintgriffith/scaffold-eth"
 
 [[repo]]
+url = "https://github.com/AutarkLabs/open-enterprise"
+
+[[repo]]
 url = "https://github.com/axic/tinyoracle"
 
 [[repo]]
@@ -220,6 +352,9 @@ url = "https://github.com/chriseth/solidity-examples"
 tags = ["Documentation"]
 
 [[repo]]
+url = "https://github.com/Chrono-Tech/ChronoMint"
+
+[[repo]]
 url = "https://github.com/claudebarde/MarriageOnTheBlock"
 tags = ["Dapp"]
 
@@ -249,6 +384,9 @@ url = "https://github.com/ConsenSys/solidity-parser"
 [[repo]]
 url = "https://github.com/cosmos/ethermint"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/cosmos/peggy"
 
 [[repo]]
 url = "https://github.com/cryptape/ruby-ethereum"
@@ -688,6 +826,9 @@ url = "https://github.com/etherapis/etherapis"
 [[repo]]
 url = "https://github.com/ethereum-alarm-clock/ethereum-alarm-clock"
 tags = ["Dapp"]
+
+[[repo]]
+url = "https://github.com/ethereum-oasis/baseline"
 
 [[repo]]
 url = "https://github.com/ethereum-ts/bn.js-typings"
@@ -2077,8 +2218,14 @@ tags = ["Protocol"]
 url = "https://github.com/HyperLink-Technology/brownie"
 
 [[repo]]
+url = "https://github.com/iamtrask/Sonar"
+
+[[repo]]
 url = "https://github.com/ico-busses/token-transfer-dapp"
 tags = ["Dapp"]
+
+[[repo]]
+url = "https://github.com/immutable/platform-contracts"
 
 [[repo]]
 url = "https://github.com/intellij-solidity/intellij-solidity"
@@ -2116,6 +2263,9 @@ tags = ["Dapp"]
 [[repo]]
 url = "https://github.com/JohnOrionYoung/johnorionyoung"
 tags = ["Dapp"]
+
+[[repo]]
+url = "https://github.com/JoinColony/colonyNetwork"
 
 [[repo]]
 url = "https://github.com/juanfranblanco/vscode-solidity"
@@ -2465,6 +2615,9 @@ url = "https://github.com/paritytech/ink"
 tags = ["Developer Tool"]
 
 [[repo]]
+url = "https://github.com/paritytech/parity-bridge"
+
+[[repo]]
 url = "https://github.com/paritytech/parity-ethereum"
 tags = ["Protocol"]
 
@@ -2717,6 +2870,69 @@ url = "https://github.com/philippphb/Ethychat"
 tags = ["Dapp"]
 
 [[repo]]
+url = "https://github.com/pipeos-one/chaincompare"
+
+[[repo]]
+url = "https://github.com/pipeos-one/chainlens"
+
+[[repo]]
+url = "https://github.com/pipeos-one/dType"
+
+[[repo]]
+url = "https://github.com/pipeos-one/dType-fs"
+
+[[repo]]
+url = "https://github.com/pipeos-one/dtypei"
+
+[[repo]]
+url = "https://github.com/pipeos-one/eth-contract-sources"
+
+[[repo]]
+url = "https://github.com/pipeos-one/etherscan-scraper"
+
+[[repo]]
+url = "https://github.com/pipeos-one/evmasm"
+
+[[repo]]
+url = "https://github.com/pipeos-one/guify"
+
+[[repo]]
+url = "https://github.com/pipeos-one/openapi-examples"
+
+[[repo]]
+url = "https://github.com/pipeos-one/pipeline"
+
+[[repo]]
+url = "https://github.com/pipeos-one/pipeline-ees"
+
+[[repo]]
+url = "https://github.com/pipeos-one/pipeline-meteor"
+
+[[repo]]
+url = "https://github.com/pipeos-one/pipeliners"
+
+[[repo]]
+url = "https://github.com/pipeos-one/PipEm"
+
+[[repo]]
+url = "https://github.com/pipeos-one/pipeos-contracts"
+
+[[repo]]
+url = "https://github.com/pipeos-one/provable.dev"
+
+[[repo]]
+url = "https://github.com/pipeos-one/solidity"
+
+[[repo]]
+url = "https://github.com/pipeos-one/spec"
+
+[[repo]]
+url = "https://github.com/pipeos-one/visual-dtype"
+
+[[repo]]
+url = "https://github.com/pipeos-one/vue-ethabi"
+
+[[repo]]
 url = "https://github.com/pipermerriam/ethereum-computation-market"
 
 [[repo]]
@@ -2735,6 +2951,9 @@ tags = ["Dapp"]
 [[repo]]
 url = "https://github.com/polyalpha/PolyAlpha-DAPP"
 tags = ["Dapp"]
+
+[[repo]]
+url = "https://github.com/PolymathNetwork/polymath-core"
 
 [[repo]]
 url = "https://github.com/portis-project/provider-engine"
@@ -3187,6 +3406,9 @@ url = "https://github.com/slockit/smart-contract"
 url = "https://github.com/slothbag/EthHypeDns"
 
 [[repo]]
+url = "https://github.com/smartcontractkit/chainlink"
+
+[[repo]]
 url = "https://github.com/snailking/lordsofthesnails"
 tags = ["Dapp"]
 
@@ -3409,6 +3631,9 @@ url = "https://github.com/trailofbits/manticore"
 
 [[repo]]
 url = "https://github.com/trailofbits/not-so-smart-contracts"
+
+[[repo]]
+url = "https://github.com/trufflesuite/ganache"
 
 [[repo]]
 url = "https://github.com/tvanepps/State-of-the-Mixers-Summer-2019"

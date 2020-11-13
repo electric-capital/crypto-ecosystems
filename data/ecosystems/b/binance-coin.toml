@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Binance Coin"
 
-sub_ecosystems = []
+sub_ecosystems = ["StableXswap"]
 
 github_organizations = ["https://github.com/binance-chain"]
 
@@ -54,6 +54,9 @@ url = "https://github.com/binance-chain/bsc-relayer"
 
 [[repo]]
 url = "https://github.com/binance-chain/bsc-relayer-config"
+
+[[repo]]
+url = "https://github.com/binance-chain/bsc-use-wallet"
 
 [[repo]]
 url = "https://github.com/binance-chain/canonical-upgradeable-bep20"

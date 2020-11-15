@@ -3,7 +3,11 @@ title = "Zero Knowledge Cryptography"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/zeropoolnetwork", "https://github.com/zkcrypto"]
+github_organizations = [
+  "https://github.com/arkworks-rs",
+  "https://github.com/zeropoolnetwork",
+  "https://github.com/zkcrypto",
+]
 
 # Repositories
 [[repo]]
@@ -29,6 +33,42 @@ url = "https://github.com/akosba/xjsnark"
 
 [[repo]]
 url = "https://github.com/AntoineRondelet/snark-mixer"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/algebra"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/crypto-primitives"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/curves"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/gm17"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/groth16"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/marlin"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/nonnative"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/poly-commit"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/r1cs-std"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/snark"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/template"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/utils"
 
 [[repo]]
 url = "https://github.com/AztecProtocol/AZTEC"

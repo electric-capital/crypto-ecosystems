@@ -11,6 +11,7 @@ sub_ecosystems = [
   "Ampleforth",
   "Aragon",
   "Arbitrum",
+  "ARCX",
   "Argent",
   "Audius",
   "Augmint",
@@ -19,7 +20,9 @@ sub_ecosystems = [
   "Aztec Protocol",
   "Balancer",
   "Bancor",
+  "Band Protocol",
   "Basic Attention Token",
+  "Betoken",
   "Bloom",
   "bZx Protocol",
   "Cartesi",
@@ -31,22 +34,36 @@ sub_ecosystems = [
   "Connext Network",
   "Consensys",
   "Counterfactual",
+  "Cream Finance",
+  "Creaton",
   "Curve",
   "Decentraland",
+  "DeFiner",
+  "Dego Finance",
+  "DFI.money (formerly YFII)",
   "Dharma Protocol",
   "dYdX",
+  "EmptySet Finance",
   "Enigma",
   "Enjin Coin",
   "Erasure",
   "Ethereum Name Service",
+  "Fairmint",
+  "Flexa",
+  "ForTube",
   "Frax",
   "Fuel",
   "FunFair",
+  "Futureswap",
   "Gitcoin",
   "Giveth",
   "Gnosis",
   "Golem",
+  "Hades Finance",
   "HedgeTrade",
+  "Hegic",
+  "Helena",
+  "Hydro Protocol",
   "Idle Finance",
   "iExec RLC",
   "Index Coop",
@@ -56,47 +73,65 @@ sub_ecosystems = [
   "Kyber Network",
   "Loom Network",
   "Loopring",
+  "Mainframe",
   "Maker",
   "Market Protocol",
   "Matic Network",
   "Matter Labs",
+  "MCDEX",
   "Melon",
   "MetaMask",
+  "Metronome",
   "Moloch",
+  "mstable",
   "MyBit",
   "NEST Protocol",
   "Nexus Mutual",
   "Nomic Labs",
+  "Nsure Network",
   "NuCypher",
   "Nuo Lend",
   "Ocean Protocol",
+  "OctoFi",
   "OmiseGo",
   "OpenSea",
   "OpenZeppelin",
   "Optimism",
   "Opyn",
   "Origin Protocol",
+  "Paraswap",
   "Perun",
+  "Pickle Finance",
+  "PieDAO BTC++",
   "Pisa Research",
   "Plasma",
+  "PlotX",
   "POA Network",
+  "Polymarket",
   "PoolTogether",
   "Primitive Finance",
+  "Project Serum",
   "Raiden Network",
+  "Rari Capital",
+  "Reality Cards",
+  "Reflexer",
   "Ren",
   "Request",
   "Set Protocol",
   "Skale Network",
   "Snowball.money",
   "SpankChain",
+  "Staked",
   "State Channels",
   "Status",
   "Storj",
   "Sushi Swap",
   "Synthetix",
   "Teller Protocol",
+  "Tellor",
   "Tenderly",
   "The Graph",
+  "Totle",
   "Uma Protocol",
   "Uniswap",
   "Unlock Protocol",
@@ -107,8 +142,10 @@ sub_ecosystems = [
   "xDai",
   "xDai Chain",
   "xToken",
+  "YAM Finance",
   "yearn.finance",
   "Yield Protocol",
+  "Zapper.fi",
   "Zerion",
   "ZoKrates",
 ]
@@ -1666,6 +1703,9 @@ url = "https://github.com/ethereum934/py-goblin"
 url = "https://github.com/ethereum934/react-native-client"
 
 [[repo]]
+url = "https://github.com/ethereumbook/ethereumbook"
+
+[[repo]]
 url = "https://github.com/etherex/etherex"
 
 [[repo]]
@@ -1718,6 +1758,9 @@ url = "https://github.com/ethersphere/bee"
 
 [[repo]]
 url = "https://github.com/ethersphere/bee-argo"
+
+[[repo]]
+url = "https://github.com/ethersphere/bee-clef"
 
 [[repo]]
 url = "https://github.com/ethersphere/bee-js"
@@ -1798,6 +1841,9 @@ url = "https://github.com/ethersphere/frontier-guide"
 url = "https://github.com/ethersphere/frontier-release"
 
 [[repo]]
+url = "https://github.com/ethersphere/frontpage.github.io"
+
+[[repo]]
 url = "https://github.com/ethersphere/gethkey"
 
 [[repo]]
@@ -1838,6 +1884,9 @@ url = "https://github.com/ethersphere/homebrew-ethereum"
 
 [[repo]]
 url = "https://github.com/ethersphere/homebrew-ethereum_go"
+
+[[repo]]
+url = "https://github.com/ethersphere/homebrew-tap"
 
 [[repo]]
 url = "https://github.com/ethersphere/kibana-exports"
@@ -2404,6 +2453,9 @@ tags = ["Dapp"]
 [[repo]]
 url = "https://github.com/Nethereum/Nethereum"
 tags = ["Dapp"]
+
+[[repo]]
+url = "https://github.com/NethermindEth/baseline"
 
 [[repo]]
 url = "https://github.com/NethermindEth/bls"
@@ -3271,6 +3323,9 @@ url = "https://github.com/sigp/havven-audit"
 url = "https://github.com/sigp/herumi_bls"
 
 [[repo]]
+url = "https://github.com/sigp/hyper"
+
+[[repo]]
 url = "https://github.com/sigp/incubator-milagro-crypto-rust"
 
 [[repo]]
@@ -3332,6 +3387,9 @@ url = "https://github.com/sigp/py_ecc"
 url = "https://github.com/sigp/reduced_tree_fork_choice"
 
 [[repo]]
+url = "https://github.com/sigp/reqwest"
+
+[[repo]]
 url = "https://github.com/sigp/rust-bls-remote-signer"
 
 [[repo]]
@@ -3373,6 +3431,9 @@ url = "https://github.com/sigp/unsafe-eth2-deposit-contract"
 
 [[repo]]
 url = "https://github.com/sigp/unsigned-varint"
+
+[[repo]]
+url = "https://github.com/sigp/warp"
 
 [[repo]]
 url = "https://github.com/sigp/witti"

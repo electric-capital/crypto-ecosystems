@@ -10,7 +10,7 @@ type Result<T> = std::result::Result<T, failure::Error>;
 
 #[derive(Debug, StructOpt)]
 #[structopt(about = "Taxonomy of crypto open source repositories")]
-#[structopt(name = "crypto-ecosystems", rename_all = "kebab-case", author = "")]
+#[structopt(name = "crypto-ecosystems", rename_all = "kebab-case")]
 enum Cli {
     /// Validate all of the toml configuration files
     Validate {

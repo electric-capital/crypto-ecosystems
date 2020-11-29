@@ -28,4 +28,4 @@ build:  ## Build the ecosystems validation code with cargo
 
 .PHONY: validate 
 validate:  ## Validate the ecosystems toml files 
-	cargo run --release -- data/ecosystems
+	cargo run --release -- validate data/ecosystems 

@@ -1,24 +1,33 @@
-use failure::Fail;
+use failure::{Fail, Fallible};
 use glob::glob;
-use quicli::prelude::*;
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
+use std::fs::{read_to_string, File};
 use std::path::{Path, PathBuf};
 use structopt::StructOpt;
 
 type Result<T> = std::result::Result<T, failure::Error>;
 
-/// Validate all of the toml configuration files
 #[derive(Debug, StructOpt)]
-struct Cli {
-    /// Path to top level directory containing ecosystem toml files
-    data_path: String,
+#[structopt(about = "Taxonomy of crypto open source repositories")]
+#[structopt(name = "crypto-ecosystems", rename_all = "kebab-case", author = "")]
+enum Cli {
+    /// Validate all of the toml configuration files
+    Validate {
+        /// Path to top level directory containing ecosystem toml files
+        data_path: String,
+    },
+    /// Export list of ecosystems and repos to a JSON file
+    Export {
+        /// Path to top level directory containing ecosystem toml files
+        data_path: String,
 
-    #[structopt(flatten)]
-    verbosity: Verbosity,
+        /// JSON File to export the list of repos
+        output_path: String,
+    },
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 struct Ecosystem {
     pub title: String,
     pub github_organizations: Option<Vec<String>>,
@@ -26,9 +35,10 @@ struct Ecosystem {
     pub repo: Option<Vec<Repo>>,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 struct Repo {
     pub url: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub tags: Option<Vec<String>>,
 }
 
@@ -62,7 +72,7 @@ fn get_toml_files(dir: &Path) -> Result<Vec<PathBuf>> {
 fn parse_toml_files(paths: &[PathBuf]) -> Result<EcosystemMap> {
     let mut ecosystems: HashMap<String, Ecosystem> = HashMap::new();
     for toml_path in paths {
-        let contents = read_file(&toml_path)?;
+        let contents = read_to_string(toml_path)?;
         match toml::from_str::<Ecosystem>(&contents) {
             Ok(ecosystem) => {
                 let title = ecosystem.title.clone();
@@ -117,10 +127,8 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Result<()> {
     Ok(())
 }
 
-fn main() -> CliResult {
-    let args = Cli::from_args();
-    args.verbosity.setup_env_logger("main")?;
-    let toml_files = get_toml_files(Path::new(&args.data_path))?;
+fn validate(data_path: String) -> Fallible<()> {
+    let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
         Ok(ecosystem_map) => {
             if let Err(err) = validate_ecosystems(&ecosystem_map) {
@@ -133,5 +141,37 @@ fn main() -> CliResult {
             std::process::exit(-1);
         }
     };
+    Ok(())
+}
+
+fn export(data_path: String, output_path: String) -> Fallible<()> {
+    let toml_files = get_toml_files(Path::new(&data_path))?;
+    match parse_toml_files(&toml_files) {
+        Ok(ecosystem_map) => {
+            if let Err(err) = validate_ecosystems(&ecosystem_map) {
+                println!("{}", err);
+                std::process::exit(-1);
+            }
+            serde_json::to_writer_pretty(File::create(output_path)?, &ecosystem_map)?;
+        }
+        Err(err) => {
+            println!("\t{}", err);
+            std::process::exit(-1);
+        }
+    };
+    Ok(())
+}
+
+fn main() -> Fallible<()> {
+    let args = Cli::from_args();
+    match args {
+        Cli::Validate { data_path } => {
+            validate(data_path)?;
+        }
+        Cli::Export {
+            data_path,
+            output_path,
+        } => export(data_path, output_path)?,
+    }
     Ok(())
 }

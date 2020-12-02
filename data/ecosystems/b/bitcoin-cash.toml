@@ -4,6 +4,7 @@ title = "Bitcoin Cash"
 sub_ecosystems = []
 
 github_organizations = [
+  "https://github.com/bitcoin-cash-node",
   "https://github.com/bitcoincashorg",
   "https://github.com/Electron-Cash",
   "https://github.com/gcash",
@@ -13,12 +14,6 @@ github_organizations = [
 # Repositories
 [[repo]]
 url = "https://bitbucket.org/o-studio/spedn/src/master"
-
-[[repo]]
-url = "https://github.com/4ops/docker-bitcoin-abc"
-
-[[repo]]
-url = "https://github.com/4ops/terraform-digitalocean-bitcoin-abc"
 
 [[repo]]
 url = "https://github.com/abrkn/tipmebch"
@@ -36,19 +31,19 @@ url = "https://github.com/arilot/bitcoincashd"
 url = "https://github.com/avilches/nchain-bch-toolkit"
 
 [[repo]]
-url = "https://github.com/bcext/cashutil"
-
-[[repo]]
-url = "https://github.com/bcext/cashwallet"
-
-[[repo]]
-url = "https://github.com/bcext/gcash"
-
-[[repo]]
-url = "https://github.com/Bitcoin-ABC/bitcoin-abc"
-
-[[repo]]
 url = "https://github.com/Bitcoin-Cash-JP/guidelines"
+
+[[repo]]
+url = "https://github.com/bitcoin-cash-node/bchnode-web"
+
+[[repo]]
+url = "https://github.com/bitcoin-cash-node/bitcoin-cash-node"
+
+[[repo]]
+url = "https://github.com/bitcoin-cash-node/checkstyle2junit"
+
+[[repo]]
+url = "https://github.com/bitcoin-cash-node/docker-bcn-buildenv"
 
 [[repo]]
 url = "https://github.com/Bitcoin-com/cashscript"
@@ -483,11 +478,11 @@ url = "https://github.com/WeProgramIT/cryptowoo-bitcoin-cash-addon"
 url = "https://github.com/yenom/bitbox-watch-tx"
 
 [[repo]]
+url = "https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node"
+tags = ["Protocol"]
+
+[[repo]]
 url = "https://gitlab.com/pokkst/bchgallery.git"
 
 [[repo]]
 url = "https://gitlab.com/pokkst/crescentcash.git"
-
-[[repo]]
-url = "https://reviews.bitcoinabc.org/source/bitcoin-abc"
-tags = ["Protocol"]

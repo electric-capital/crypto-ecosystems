@@ -3,9 +3,12 @@ title = "DAML"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/digital-asset/"]
+github_organizations = ["https://github.com/digital-asset"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/blockchaintp/daml-on-sawtooth"
+
 [[repo]]
 url = "https://github.com/digital-asset/daml"
 
@@ -13,4 +16,4 @@ url = "https://github.com/digital-asset/daml"
 url = "https://github.com/digital-asset/daml-on-fabric"
 
 [[repo]]
-url = "https://github.com/blockchaintp/daml-on-sawtooth"
+url = "https://github.com/digital-asset/haskell-lsp"

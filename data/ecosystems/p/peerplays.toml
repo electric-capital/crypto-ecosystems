@@ -3,9 +3,52 @@ title = "Peerplays"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/PBSA"]
+github_organizations = [
+    "https://github.com/PBSA",
+    "https://github.com/peerplays-network",
+    "https://gitlab.com/PBSA/",
+
+    ]
 
 # Repositories
+
+# Blockchain
+[[repo]]
+url = "https://github.com/peerplays-network/peerplays"
+[[repo]]
+url = "https://github.com/peerplays-network/peerplays-fc"
+tags = ["Protocol"]
+
+
+[[repo]]
+url = "https://github.com/PBSA/Technical-Documents"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://github.com/PBSA/PeerID-docs"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://github.com/PBSA/community-project-docs"
+tags = ["Documentation"]
+
+
+# Libraries
+[[repo]]
+url = "https://github.com/peerplays-network/python-peerplays"
+
+[[repo]]
+url = "https://github.com/peerplays-network/peerplaysjs-lib"
+
+[[repo]]
+url = "https://gitlab.com/PBSA/tools-libs/peerplays-ruby"
+
+[[repo]]
+url = "https://github.com/peerplays-network/nft-store"
+
+[[repo]]
+url = "https://github.com/peerplays-network/peerplays-dex"
+
 [[repo]]
 url = "https://github.com/PBSA/block-explorer"
 
@@ -34,9 +77,6 @@ url = "https://github.com/PBSA/bos-mint"
 url = "https://github.com/PBSA/bos-sync"
 
 [[repo]]
-url = "https://github.com/PBSA/community-project-docs"
-
-[[repo]]
 url = "https://github.com/PBSA/Couch-Potato"
 
 [[repo]]
@@ -61,13 +101,7 @@ url = "https://github.com/PBSA/NH5050-Frontend"
 url = "https://github.com/PBSA/peerid-backend"
 
 [[repo]]
-url = "https://github.com/PBSA/PeerID-docs"
-
-[[repo]]
 url = "https://github.com/PBSA/peerid-gui"
-
-[[repo]]
-url = "https://github.com/PBSA/peerplays"
 
 [[repo]]
 url = "https://github.com/PBSA/peerplays-0.1-fc"
@@ -82,19 +116,16 @@ url = "https://github.com/PBSA/peerplays-electron-build"
 url = "https://github.com/PBSA/peerplays-electron-build-bookie"
 
 [[repo]]
-url = "https://github.com/PBSA/peerplays-fc"
-
-[[repo]]
 url = "https://github.com/PBSA/peerplaysjs-lib"
 
 [[repo]]
 url = "https://github.com/PBSA/peerplaysjs-ws"
 
 [[repo]]
-url = "https://github.com/PBSA/python-peerplays"
-
-[[repo]]
-url = "https://github.com/PBSA/Technical-Documents"
-
-[[repo]]
 url = "https://github.com/PBSA/testnet"
+
+[[repo]]
+url = "https://github.com/peerplays-network/peerplays-core-gui"
+
+[[repo]]
+url = "https://github.com/peerplays-network/peerplays-utils"

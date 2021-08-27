@@ -120,7 +120,6 @@ sub_ecosystems = [
   "Reflexer",
   "Ren",
   "Request",
-  "Saddle",
   "Set Protocol",
   "Skale Network",
   "Snowball.money",
@@ -142,8 +141,6 @@ sub_ecosystems = [
   "Unlock Protocol",
   "uPort",
   "Vyper",
-  "Web3 JS",
-  "Web3 Python",
   "xDai",
   "xDai Chain",
   "xToken",
@@ -1358,6 +1355,9 @@ url = "https://github.com/ethereum/cbc-casper"
 url = "https://github.com/ethereum/clef-ui"
 
 [[repo]]
+url = "https://github.com/ethereum/clrfund"
+
+[[repo]]
 url = "https://github.com/ethereum/common"
 
 [[repo]]
@@ -1405,6 +1405,9 @@ url = "https://github.com/ethereum/devp2p"
 
 [[repo]]
 url = "https://github.com/ethereum/diary"
+
+[[repo]]
+url = "https://github.com/ethereum/discv4-crawl"
 
 [[repo]]
 url = "https://github.com/ethereum/discv4-dns-lists"
@@ -1759,6 +1762,9 @@ url = "https://github.com/ethereum/mist-ui"
 
 [[repo]]
 url = "https://github.com/ethereum/mix"
+
+[[repo]]
+url = "https://github.com/ethereum/monorepo"
 
 [[repo]]
 url = "https://github.com/ethereum/moon-browser"
@@ -2235,6 +2241,9 @@ url = "https://github.com/ethersphere/ethereum-plexus"
 url = "https://github.com/ethersphere/ethereum-simulator"
 
 [[repo]]
+url = "https://github.com/ethersphere/exportSwarmKey"
+
+[[repo]]
 url = "https://github.com/ethersphere/feeds"
 
 [[repo]]
@@ -2314,6 +2323,9 @@ url = "https://github.com/ethersphere/release-staging"
 
 [[repo]]
 url = "https://github.com/ethersphere/resolver"
+
+[[repo]]
+url = "https://github.com/ethersphere/salt-formula"
 
 [[repo]]
 url = "https://github.com/ethersphere/simple-p2p-d3"
@@ -2532,6 +2544,9 @@ url = "https://github.com/ewasm/sentinel-governance"
 url = "https://github.com/ewasm/sentinel-rs"
 
 [[repo]]
+url = "https://github.com/ewasm/solidity"
+
+[[repo]]
 url = "https://github.com/ewasm/testnet"
 
 [[repo]]
@@ -2583,6 +2598,9 @@ url = "https://github.com/fivedogit/solidity-baby-steps"
 url = "https://github.com/flashbots/ethers.js"
 
 [[repo]]
+url = "https://github.com/flashbots/evmone"
+
+[[repo]]
 url = "https://github.com/flashbots/mev-geth"
 
 [[repo]]
@@ -2602,6 +2620,9 @@ url = "https://github.com/flashbots/mev-research"
 
 [[repo]]
 url = "https://github.com/flashbots/pm"
+
+[[repo]]
+url = "https://github.com/flashbots/silkworm"
 
 [[repo]]
 url = "https://github.com/flex-dapps/enzypt"
@@ -2914,7 +2935,13 @@ url = "https://github.com/NethermindEth/eip2537rustwrapper"
 url = "https://github.com/NethermindEth/eth-net-intelligence-api"
 
 [[repo]]
+url = "https://github.com/NethermindEth/eth1.0-specs"
+
+[[repo]]
 url = "https://github.com/NethermindEth/eth2.0-specs"
+
+[[repo]]
+url = "https://github.com/NethermindEth/evmone"
 
 [[repo]]
 url = "https://github.com/NethermindEth/ewc-validator-node-install-scripts"
@@ -2924,6 +2951,9 @@ url = "https://github.com/NethermindEth/hive"
 
 [[repo]]
 url = "https://github.com/NethermindEth/int256"
+
+[[repo]]
+url = "https://github.com/NethermindEth/Math.Gmp.Native"
 
 [[repo]]
 url = "https://github.com/NethermindEth/mcl"
@@ -2953,6 +2983,9 @@ url = "https://github.com/NethermindEth/nethermind.packager"
 url = "https://github.com/NethermindEth/nsec"
 
 [[repo]]
+url = "https://github.com/NethermindEth/posdao-contracts"
+
+[[repo]]
 url = "https://github.com/NethermindEth/posdao-test-setup"
 
 [[repo]]
@@ -2966,6 +2999,9 @@ url = "https://github.com/NethermindEth/scrypt"
 
 [[repo]]
 url = "https://github.com/NethermindEth/secp256k1"
+
+[[repo]]
+url = "https://github.com/NethermindEth/silkworm"
 
 [[repo]]
 url = "https://github.com/NethermindEth/terraform-nethermind"
@@ -3468,6 +3504,9 @@ url = "https://github.com/protolambda/muskoka-client"
 url = "https://github.com/prysmaticlabs/bazel-go-ethereum"
 
 [[repo]]
+url = "https://github.com/prysmaticlabs/bbolt"
+
+[[repo]]
 url = "https://github.com/prysmaticlabs/bls-eth-go-binary"
 
 [[repo]]
@@ -3496,6 +3535,12 @@ url = "https://github.com/prysmaticlabs/go-bls"
 
 [[repo]]
 url = "https://github.com/prysmaticlabs/go-ssz"
+
+[[repo]]
+url = "https://github.com/prysmaticlabs/grpc-gateway"
+
+[[repo]]
+url = "https://github.com/prysmaticlabs/grpc-gateway-cast"
 
 [[repo]]
 url = "https://github.com/prysmaticlabs/mcl"
@@ -3569,6 +3614,9 @@ url = "https://github.com/rainbow-me/asset-overrides"
 url = "https://github.com/rainbow-me/make-color-more-chill"
 
 [[repo]]
+url = "https://github.com/rainbow-me/optimism-balance-checker"
+
+[[repo]]
 url = "https://github.com/rainbow-me/parse-eth-tokens"
 
 [[repo]]
@@ -3591,6 +3639,9 @@ url = "https://github.com/rainbow-me/react-native-animated-charts"
 
 [[repo]]
 url = "https://github.com/rainbow-me/react-native-animated-number"
+
+[[repo]]
+url = "https://github.com/rainbow-me/react-native-bottom-sheet"
 
 [[repo]]
 url = "https://github.com/rainbow-me/react-native-radial-gradient"
@@ -3673,6 +3724,9 @@ url = "https://github.com/segovro/Community-Currency"
 
 [[repo]]
 url = "https://github.com/Shimmi/smart-contracts-skeleton"
+
+[[repo]]
+url = "https://github.com/sigp/async"
 
 [[repo]]
 url = "https://github.com/sigp/audit-fantom-multisig-wallet"
@@ -3802,6 +3856,9 @@ url = "https://github.com/sigp/lighthouse-metrics"
 url = "https://github.com/sigp/lighthouse-pm"
 
 [[repo]]
+url = "https://github.com/sigp/mergenet-tutorial"
+
+[[repo]]
 url = "https://github.com/sigp/milagro_bls"
 
 [[repo]]
@@ -3829,6 +3886,9 @@ url = "https://github.com/sigp/public-audits"
 url = "https://github.com/sigp/py_ecc"
 
 [[repo]]
+url = "https://github.com/sigp/rayonism"
+
+[[repo]]
 url = "https://github.com/sigp/reduced_tree_fork_choice"
 
 [[repo]]
@@ -3852,6 +3912,9 @@ url = "https://github.com/sigp/serenity-benches"
 
 [[repo]]
 url = "https://github.com/sigp/serialization_sandbox"
+
+[[repo]]
+url = "https://github.com/sigp/shelp"
 
 [[repo]]
 url = "https://github.com/sigp/shuffling_sandbox"

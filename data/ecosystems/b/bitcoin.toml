@@ -1,14 +1,7 @@
 # Ecosystem Level Information
 title = "Bitcoin"
 
-sub_ecosystems = [
-  "Bitcoin JS",
-  "Fabric.fm",
-  "Keep network",
-  "Lightning",
-  "RSK Smart Bitcoin",
-  "ZeroNet",
-]
+sub_ecosystems = ["Fabric.fm", "Keep network", "Lightning", "RSK Smart Bitcoin", "ZeroNet"]
 
 github_organizations = [
   "https://github.com/bitcoin",
@@ -578,6 +571,9 @@ url = "https://github.com/lamassu/lamassu-machine"
 
 [[repo]]
 url = "https://github.com/lian/bitcoin-ruby"
+
+[[repo]]
+url = "https://github.com/libbitcoin/electrum"
 
 [[repo]]
 url = "https://github.com/libbitcoin/libbitcoin-blockchain"

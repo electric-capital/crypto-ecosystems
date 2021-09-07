@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "IPFS"
 
-sub_ecosystems = ["Berty", "OrbitDB", "3Box"]
+sub_ecosystems = ["3Box", "Berty", "OrbitDB"]
 
 github_organizations = ["https://github.com/ipfs", "https://github.com/ipfs-shipyard"]
 
@@ -67,6 +67,9 @@ url = "https://github.com/ipfs-shipyard/dnslink-dnsimple"
 url = "https://github.com/ipfs-shipyard/ecosystem-dashboard"
 
 [[repo]]
+url = "https://github.com/ipfs-shipyard/ecosystem-directory"
+
+[[repo]]
 url = "https://github.com/ipfs-shipyard/experiments.peerpad.net"
 
 [[repo]]
@@ -77,6 +80,9 @@ url = "https://github.com/ipfs-shipyard/git-remote-ipld"
 
 [[repo]]
 url = "https://github.com/ipfs-shipyard/go-dumpotron"
+
+[[repo]]
+url = "https://github.com/ipfs-shipyard/go-ipfs-desktop"
 
 [[repo]]
 url = "https://github.com/ipfs-shipyard/gomobile-ipfs"
@@ -170,6 +176,9 @@ url = "https://github.com/ipfs-shipyard/ipfs-postmsg-proxy"
 
 [[repo]]
 url = "https://github.com/ipfs-shipyard/ipfs-primer"
+
+[[repo]]
+url = "https://github.com/ipfs-shipyard/ipfs-protocol-compliance-suite"
 
 [[repo]]
 url = "https://github.com/ipfs-shipyard/ipfs-provider"
@@ -289,6 +298,12 @@ url = "https://github.com/ipfs-shipyard/js-versidag"
 url = "https://github.com/ipfs-shipyard/kipster"
 
 [[repo]]
+url = "https://github.com/ipfs-shipyard/nft-school-examples"
+
+[[repo]]
+url = "https://github.com/ipfs-shipyard/nft.storage"
+
+[[repo]]
 url = "https://github.com/ipfs-shipyard/nomios-web"
 
 [[repo]]
@@ -302,6 +317,9 @@ url = "https://github.com/ipfs-shipyard/npm-ipfs-registry-fetch"
 
 [[repo]]
 url = "https://github.com/ipfs-shipyard/npm-on-ipfs"
+
+[[repo]]
+url = "https://github.com/ipfs-shipyard/nuxt-module-ecosystem-directory"
 
 [[repo]]
 url = "https://github.com/ipfs-shipyard/package-table"
@@ -419,6 +437,9 @@ url = "https://github.com/ipfs-shipyard/workshop-todo-dapp"
 
 [[repo]]
 url = "https://github.com/ipfs-shipyard/y-ipfs-connector"
+
+[[repo]]
+url = "https://github.com/ipfs-shipyard/zarr-examples"
 
 [[repo]]
 url = "https://github.com/ipfs/2016-IPFS-Workshop-Lisbon"
@@ -556,6 +577,12 @@ url = "https://github.com/ipfs/dnslink-deploy"
 url = "https://github.com/ipfs/dnslink-dnsimple"
 
 [[repo]]
+url = "https://github.com/ipfs/dnslink-website"
+
+[[repo]]
+url = "https://github.com/ipfs/dnslink.dev"
+
+[[repo]]
 url = "https://github.com/ipfs/docs"
 
 [[repo]]
@@ -563,6 +590,9 @@ url = "https://github.com/ipfs/dweblink-infra"
 
 [[repo]]
 url = "https://github.com/ipfs/dynamic-data-and-capabilities"
+
+[[repo]]
+url = "https://github.com/ipfs/ecosystem-directory"
 
 [[repo]]
 url = "https://github.com/ipfs/eslint-config-aegir"
@@ -575,6 +605,9 @@ url = "https://github.com/ipfs/example-plugin"
 
 [[repo]]
 url = "https://github.com/ipfs/examples"
+
+[[repo]]
+url = "https://github.com/ipfs/explore.ipld.io"
 
 [[repo]]
 url = "https://github.com/ipfs/faq"
@@ -592,7 +625,13 @@ url = "https://github.com/ipfs/fs-stress-test"
 url = "https://github.com/ipfs/get-gh-contributors"
 
 [[repo]]
+url = "https://github.com/ipfs/gh-issue-form-test"
+
+[[repo]]
 url = "https://github.com/ipfs/glossary"
+
+[[repo]]
+url = "https://github.com/ipfs/go-bitfield"
 
 [[repo]]
 url = "https://github.com/ipfs/go-bitswap"
@@ -620,6 +659,12 @@ url = "https://github.com/ipfs/go-cidutil"
 
 [[repo]]
 url = "https://github.com/ipfs/go-commands"
+
+[[repo]]
+url = "https://github.com/ipfs/go-dagservice"
+
+[[repo]]
+url = "https://github.com/ipfs/go-dagwriter"
 
 [[repo]]
 url = "https://github.com/ipfs/go-datastore"
@@ -674,6 +719,9 @@ url = "https://github.com/ipfs/go-ds-sql"
 
 [[repo]]
 url = "https://github.com/ipfs/go-ds-swift"
+
+[[repo]]
+url = "https://github.com/ipfs/go-fetcher"
 
 [[repo]]
 url = "https://github.com/ipfs/go-filestore"
@@ -784,6 +832,9 @@ url = "https://github.com/ipfs/go-ipld-format"
 url = "https://github.com/ipfs/go-ipld-git"
 
 [[repo]]
+url = "https://github.com/ipfs/go-ipld-legacy"
+
+[[repo]]
 url = "https://github.com/ipfs/go-ipld-zcash"
 
 [[repo]]
@@ -817,6 +868,9 @@ url = "https://github.com/ipfs/go-metrics-prometheus"
 url = "https://github.com/ipfs/go-mfs"
 
 [[repo]]
+url = "https://github.com/ipfs/go-namesys"
+
+[[repo]]
 url = "https://github.com/ipfs/go-path"
 
 [[repo]]
@@ -842,6 +896,9 @@ url = "https://github.com/ipfs/go-todocounter"
 
 [[repo]]
 url = "https://github.com/ipfs/go-unixfs"
+
+[[repo]]
+url = "https://github.com/ipfs/go-unixfsnode"
 
 [[repo]]
 url = "https://github.com/ipfs/go-verifcid"
@@ -898,10 +955,19 @@ url = "https://github.com/ipfs/interop"
 url = "https://github.com/ipfs/ipfs"
 
 [[repo]]
+url = "https://github.com/ipfs/ipfs-blog"
+
+[[repo]]
 url = "https://github.com/ipfs/ipfs-cluster"
 
 [[repo]]
 url = "https://github.com/ipfs/ipfs-cluster-website"
+
+[[repo]]
+url = "https://github.com/ipfs/ipfs-companion"
+
+[[repo]]
+url = "https://github.com/ipfs/ipfs-desktop"
 
 [[repo]]
 url = "https://github.com/ipfs/ipfs-docs"
@@ -955,10 +1021,22 @@ url = "https://github.com/ipfs/ipfs-update"
 url = "https://github.com/ipfs/ipfs-web-app"
 
 [[repo]]
+url = "https://github.com/ipfs/ipfs-website"
+
+[[repo]]
+url = "https://github.com/ipfs/ipfs-webui"
+
+[[repo]]
 url = "https://github.com/ipfs/ipfs.js"
 
 [[repo]]
 url = "https://github.com/ipfs/ipget"
+
+[[repo]]
+url = "https://github.com/ipfs/ipld-explorer"
+
+[[repo]]
+url = "https://github.com/ipfs/ipld-explorer-components"
 
 [[repo]]
 url = "https://github.com/ipfs/iptb"
@@ -980,6 +1058,9 @@ url = "https://github.com/ipfs/jenkins-libs"
 
 [[repo]]
 url = "https://github.com/ipfs/jest-environment-aegir"
+
+[[repo]]
+url = "https://github.com/ipfs/js-blockstore-datastore-adapter"
 
 [[repo]]
 url = "https://github.com/ipfs/js-core"
@@ -1012,6 +1093,9 @@ url = "https://github.com/ipfs/js-docker-base"
 url = "https://github.com/ipfs/js-fs-pull-blob-store"
 
 [[repo]]
+url = "https://github.com/ipfs/js-hamt-sharding"
+
+[[repo]]
 url = "https://github.com/ipfs/js-idb-pull-blob-store"
 
 [[repo]]
@@ -1028,6 +1112,9 @@ url = "https://github.com/ipfs/js-ipfs-http-client"
 
 [[repo]]
 url = "https://github.com/ipfs/js-ipfs-http-response"
+
+[[repo]]
+url = "https://github.com/ipfs/js-ipfs-interfaces"
 
 [[repo]]
 url = "https://github.com/ipfs/js-ipfs-merkle-dag"
@@ -1223,6 +1310,9 @@ url = "https://github.com/ipfs/swift-ipfs-api"
 
 [[repo]]
 url = "https://github.com/ipfs/swift-ipfs-http-client"
+
+[[repo]]
+url = "https://github.com/ipfs/tar-utils"
 
 [[repo]]
 url = "https://github.com/ipfs/team-mgmt"

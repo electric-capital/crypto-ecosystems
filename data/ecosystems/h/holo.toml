@@ -1,22 +1,13 @@
 # Ecosystem Level Information
 title = "Holo"
 
-sub_ecosystems = [
-  "_Prtcl",
-  "HoloREA",
-  "Hylo",
-  "Junto",
-  "Omni Project",
-  "Orion Protocol",
-  "Set Match Games",
-]
+sub_ecosystems = []
 
-github_organizations = ["https://github.com/holochain"]
+github_organizations = []
 
 # Repositories
 [[repo]]
 url = "https://github.com/cosmicsurfers/humm-publisher"
-tags = ["Dapp"]
 
 [[repo]]
 url = "https://github.com/Holo-Host/holo"
@@ -293,7 +284,6 @@ url = "https://github.com/holochain/holochain-proto-types"
 
 [[repo]]
 url = "https://github.com/holochain/holochain-rust"
-tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/holochain/holochain-serialization"
@@ -570,11 +560,9 @@ url = "https://github.com/holochain/website"
 
 [[repo]]
 url = "https://github.com/MightyAlex200/Comet"
-tags = ["Dapp"]
 
 [[repo]]
 url = "https://github.com/proftomwbell/Ulex"
-tags = ["Dapp"]
 
 [[repo]]
 url = "https://github.com/webcaetano/holo-game-avatar"

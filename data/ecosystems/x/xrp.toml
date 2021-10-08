@@ -1,9 +1,9 @@
 # Ecosystem Level Information
 title = "XRP"
 
-sub_ecosystems = ["Codius", "Interledger"]
+sub_ecosystems = ["Codius", "Interledger", "PayString"]
 
-github_organizations = ["https://github.com/ripple", "https://github.com/ripple-unmaintained"]
+github_organizations = ["https://github.com/ripple", "https://github.com/xpring-eng", "https://github.com/ripple-unmaintained"]
 
 # Repositories
 [[repo]]
@@ -516,6 +516,9 @@ url = "https://github.com/ripple/ripple-hashes"
 
 [[repo]]
 url = "https://github.com/ripple/ripple-keypairs"
+
+[[repo]]
+url = "https://github.com/XRPLF/xrpl.js"
 
 [[repo]]
 url = "https://github.com/ripple/ripple-lib"

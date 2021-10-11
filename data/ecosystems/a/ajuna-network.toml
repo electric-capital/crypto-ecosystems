@@ -1,0 +1,20 @@
+# Ecosystem Level Information
+title = "Ajuna Network"
+
+# Sub Ecosystems
+# These are the titles of other ecosystems in different .toml files in the /data/ecosystems directory
+sub_ecosystems = [ "DOTMog", "NewOmega"]
+
+# Github Organizations
+# This is a list of links to associated github organizations.
+github_organizations = ["https://github.com/ajuna-network", "https://github.com/mogwaicoin", "https://github.com/dotmog"]
+
+# Repositories
+# These are structs including a url and tags for a git repository.  These URLS do not have to be on github.
+[[repo]]
+url = "https://github.com/ajuna-network/substrate"
+tags = [ "Protocol"]
+
+[[repo]]
+url = "https://github.com/ajuna-network/Ajuna.NetApi"
+tags = [ "API"]

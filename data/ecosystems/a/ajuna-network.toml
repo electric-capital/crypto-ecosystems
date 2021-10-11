@@ -7,7 +7,7 @@ sub_ecosystems = [ "DOTMog", "NewOmega"]
 
 # Github Organizations
 # This is a list of links to associated github organizations.
-github_organizations = ["https://github.com/ajuna-network", "https://github.com/mogwaicoin", "https://github.com/dotmog"]
+github_organizations = ["https://github.com/ajuna-network"]
 
 # Repositories
 # These are structs including a url and tags for a git repository.  These URLS do not have to be on github.
@@ -17,4 +17,16 @@ tags = [ "Protocol"]
 
 [[repo]]
 url = "https://github.com/ajuna-network/Ajuna.NetApi"
-tags = [ "API"]
+tags = [ "Substrate API"]
+
+[[repo]]
+url = "https://github.com/ajuna-network/SubstrateNetApi"
+tags = [ "Substrate API"]
+
+[[repo]]
+url = "https://github.com/ajuna-network/Ajuna.ServiceLayer"
+tags = [ "Service Layer"]
+
+[[repo]]
+url = "https://github.com/ajuna-network/Ajuna.RestApi"
+tags = [ "REST API"]

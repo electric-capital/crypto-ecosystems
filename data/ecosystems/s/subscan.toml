@@ -3,36 +3,50 @@ sub_ecosystems = []
 github_organizations = ["https://github.com/itering/"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/itering/subscan-issue-tracker"
 
 [[repo]]
- url = "https://github.com/itering/subscan-essentials"
+url = "https://github.com/itering/subscan-multisig-backend"
 
 [[repo]]
- url = "https://github.com/itering/subscan-issue-tracker"
+url = "https://github.com/itering/scale.rb"
 
 [[repo]]
- url = "https://github.com/itering/subscan-multisig-react"
+url = "https://github.com/itering/subscan-multisig-ui"
 
 [[repo]]
- url = "https://github.com/itering/subscan-multisig-backend"
+url = "https://github.com/itering/substrate-node-tool"
 
 [[repo]]
- url = "https://github.com/itering/scale.rb"
+url = "https://github.com/itering/substrate_client.rb"
 
 [[repo]]
- url = "https://github.com/itering/subscan-api-docs"
+url = "https://github.com/itering/subscan-api-docs"
+tags = [ "API", "Documentation" ]
 
 [[repo]]
- url = "https://github.com/itering/substrate-api-rpc"
+url = "https://github.com/itering/subscan-issue-tracker"
 
 [[repo]]
- url = "https://github.com/itering/scale.go"
+url = "https://github.com/itering/parachain-projects-info"
+tags = [ "Parachain" ]
 
 [[repo]]
- url = "https://github.com/itering/subscan-multisig-ui"
+url = "https://github.com/itering/subscan-treasury-proposals"
 
 [[repo]]
- url = "https://github.com/itering/substrate-node-tool"
+url = "https://github.com/itering/subscan-essentials"
+tags = [ "Explorer" ]
 
 [[repo]]
- url = "https://github.com/itering/substrate_client.rb"
+url = "https://github.com/itering/scale.go"
+tags = [ "RPC", "Scale-Decoder" ]
+
+[[repo]]
+url = "https://github.com/itering/substrate-api-rpc"
+tags = [ "RPC" ]
+
+[[repo]]
+url = "https://github.com/itering/subscan-multisig-react"
+tags = [ "Multisig" ]

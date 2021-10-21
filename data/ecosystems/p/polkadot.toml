@@ -24,12 +24,115 @@ sub_ecosystems = [
   "Ternoa",
   "TokenSoft",
   "Vertua",
+  "Crust",
+  "Centrifuge",
+  "Bifrost",
+  "HydraDX",
+  "Kylin Network",
+  "MANTRA DAO",
+  "Matter Labs",
+  "Moonbeam",
+  "Adoria Soft",
+  "AirGap",
+  "Aleph Zero",
+  "Ankr",
+  "Apron Labs",
+  "Astar Network",
+  "Automata Network",
+  "Aventus",
+  "Band Protocol",
+  "Bit.country",
+  "Bluzelle",
+  "Borlaug Web Services",
+  "Caelum Labs",
+  "Celer Network",
+  "Cere",
+  "Chainlink",
+  "ChainSafe",
+  "ChainX",
+  "Chronicled",
+  "Creator",
+  "Data Highway",
+  "DatDot",
+  "DeepBrainChain",
+  "Deeper Network",
+  "DIA",
+  "Dora Factory",
+  "DOTMog",
+  "dTrade",
+  "Encointer",
+  "Energy Web Foundation",
+  "Enjin",
+  "Equilibrium",
+  "ETCDEV",
+  "Evercity",
+  "Fractal",
+  "Figment",
+  "FlexDapps",
+  "GameDAO",
+  "Geefu",
+  "Halva",
+  "Injective Protocol",
+  "Integritee",
+  "Kulupu",
+  "Limechain",
+  "Litentry",
+  "Manta Network",
+  "MathChain",
+  "MixBytes",
+  "Moonpay",
+  "Node Factory",
+  "Nodle",
+  "OAX",
+  "Obsidian Labs",
+  "OnFinality",
+  "Ontology",
+  "OriginTrail",
+  "Parallel Finance",
+  "Patract Labs",
+  "Polkadex",
+  "Polkahub",
+  "Polkascan",
+  "Polkassembly",
+  "Polkastats",
+  "Polkaswap",
+  "Polkawallet",
+  "Polymath",
+  "Pontem Network",
+  "ProChain",
+  "RenVM",
+  "RioDefi",
+  "Robonomics",
+  "SafePal",
+  "SecondState",
+  "Sensorium",
+  "Shift",
+  "Shyft Network",
+  "Snowfork",
+  "Social Network",
+  "Subscan",
+  "Subspace Network",
+  "Subsquid",
+  "Subsocial",
+  "Subquery",
+  "t3rn",
+  "Tea Project",
+  "Totem",
+  "TPFS",
+  "Trust Wallet",
+  "Unique Network",
+  "Virto Network",
+  "zCloak Network",
+  "ZeroPool",
+  "Zondax",
+  "Zeitgeist",
 ]
 
 github_organizations = [
   "https://github.com/polkadot-js",
   "https://github.com/vue-polkadot",
   "https://github.com/w3f",
+  "https://github.com/paritytech",
 ]
 
 # Repositories
@@ -760,6 +863,7 @@ url = "https://github.com/paritytech/cargo-contract"
 
 [[repo]]
 url = "https://github.com/paritytech/cumulus"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/paritytech/desub"
@@ -782,6 +886,7 @@ url = "https://github.com/paritytech/grandpa-bridge-gadget"
 
 [[repo]]
 url = "https://github.com/paritytech/ink"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/paritytech/ink-types-node-runtime"
@@ -853,6 +958,10 @@ url = "https://github.com/paritytech/subdb"
 
 [[repo]]
 url = "https://github.com/paritytech/substrate"
+tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/paritytech/substrate-node-template"
 tags = ["Protocol"]
 
 [[repo]]
@@ -1312,9 +1421,6 @@ url = "https://github.com/uvfive/substrate-lesson"
 
 [[repo]]
 url = "https://github.com/ValeryiaKarpenko/cafe-substrate"
-
-[[repo]]
-url = "https://github.com/valibre-org/node"
 
 [[repo]]
 url = "https://github.com/validitylabs/hopr-polkadot"
@@ -2048,3 +2154,73 @@ url = "https://github.com/Zondax/ledger-polkadot-js"
 
 [[repo]]
 url = "https://github.com/Zondax/ledger-polkadot-vm"
+
+[[repo]]
+ url = "https://github.com/polkascan/polkascan-pre-harvester"
+
+[[repo]]
+ url = "https://github.com/polkascan/py-scale-codec"
+
+[[repo]]
+ url = "https://github.com/polkascan/polkascan-pre-explorer-api"
+
+[[repo]]
+ url = "https://github.com/polkascan/polkascan-pre-explorer-gui"
+
+[[repo]]
+ url = "https://github.com/polkascan/polkascan-os"
+
+[[repo]]
+ url = "https://github.com/polkascan/py-substrate-interface"
+
+[[repo]]
+ url = "https://github.com/polkascan/substrate-interface-api"
+
+[[repo]]
+ url = "https://github.com/polkascan/substrate-interface-gui"
+
+[[repo]]
+ url = "https://github.com/polkascan/substrate-interface"
+
+[[repo]]
+ url = "https://github.com/polkascan/polkascan-explorer-gui"
+
+[[repo]]
+ url = "https://github.com/polkascan/social-contract"
+
+[[repo]]
+ url = "https://github.com/polkascan/py-sr25519-bindings"
+
+[[repo]]
+ url = "https://github.com/polkascan/py-bip39-bindings"
+
+[[repo]]
+ url = "https://github.com/polkascan/py-ed25519-bindings"
+
+[[repo]]
+ url = "https://github.com/polkascan/polkadapt"
+
+[[repo]]
+ url = "https://github.com/polkascan/polkascan-ui"
+
+[[repo]]
+ url = "https://github.com/polkascan/explorer-api"
+
+[[repo]]
+ url = "https://github.com/polkascan/py-subwasm-bindings"
+
+[[repo]]
+ url = "https://github.com/AvadoDServer"
+
+[[repo]]
+ url = "https://github.com/Apron-Network/apron-node"
+
+[[repo]]
+ url = "https://github.com/ChainSafe/gossamer"
+
+[[repo]]
+ url = "https://github.com/ChainSafe/ChainBridge"
+
+[[repo]]
+ url = "https://github.com/ChainSafe/polkadot-spec"
+

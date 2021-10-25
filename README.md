@@ -1,6 +1,5 @@
 # Crypto Ecosystems
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-[![Build Status](https://dev.azure.com/electric-capital/crypto-ecosystems/_apis/build/status/electric-capital.crypto-ecosystems?branchName=master)](https://dev.azure.com/electric-capital/crypto-ecosystems/_build/latest?definitionId=1&branchName=master)
 [![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 
 🌲 Crypto Ecosystems is a taxonomy for sharing data around open source cryptocurrency, blockchain, and decentralized ecosystems and tying them to github organizations and code repositories.  All of the ecosystems are specified in [TOML](https://github.com/toml-lang/toml) configuration files.

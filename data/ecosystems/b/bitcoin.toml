@@ -2,10 +2,14 @@
 title = "Bitcoin"
 
 sub_ecosystems = [
-  "Bitcoin JS",
+  "Blockonomics",
+  "Blockstack",
+  "BTCPayServer",
   "Fabric.fm",
-  "Keep network",
+  "Keep Network",
   "Lightning",
+  "Lightning Bitcoin",
+  "Opennode",
   "RSK Smart Bitcoin",
   "ZeroNet",
 ]
@@ -72,6 +76,9 @@ url = "https://github.com/bitcoin-core/btcdeb"
 url = "https://github.com/bitcoin-core/crc32c"
 
 [[repo]]
+url = "https://github.com/bitcoin-core/crc32c-subtree"
+
+[[repo]]
 url = "https://github.com/bitcoin-core/ctaes"
 
 [[repo]]
@@ -84,7 +91,13 @@ url = "https://github.com/bitcoin-core/gitian.sigs"
 url = "https://github.com/bitcoin-core/gui"
 
 [[repo]]
+url = "https://github.com/bitcoin-core/gui-qml"
+
+[[repo]]
 url = "https://github.com/bitcoin-core/guix-channel"
+
+[[repo]]
+url = "https://github.com/bitcoin-core/guix.sigs"
 
 [[repo]]
 url = "https://github.com/bitcoin-core/HWI"
@@ -94,6 +107,9 @@ url = "https://github.com/bitcoin-core/leveldb"
 
 [[repo]]
 url = "https://github.com/bitcoin-core/leveldb-old"
+
+[[repo]]
+url = "https://github.com/bitcoin-core/leveldb-subtree"
 
 [[repo]]
 url = "https://github.com/bitcoin-core/packaging"
@@ -110,6 +126,9 @@ tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/bitcoin-core/univalue"
+
+[[repo]]
+url = "https://github.com/bitcoin-core/univalue-subtree"
 
 [[repo]]
 url = "https://github.com/bitcoin-s/bitcoin-s"
@@ -208,6 +227,9 @@ url = "https://github.com/bitcoinjs/bitcoinjs-message"
 
 [[repo]]
 url = "https://github.com/bitcoinjs/bitcoinjs.github.io"
+
+[[repo]]
+url = "https://github.com/bitcoinjs/bitcoinjs.org"
 
 [[repo]]
 url = "https://github.com/bitcoinjs/blkdat-stream"
@@ -322,6 +344,12 @@ url = "https://github.com/blockchain/My-Wallet"
 tags = ["Wallet"]
 
 [[repo]]
+url = "https://github.com/blockstack/blockstack-browser"
+
+[[repo]]
+url = "https://github.com/blockstack/blockstack.js"
+
+[[repo]]
 url = "https://github.com/blocktrail/blocktrail-sdk-nodejs"
 
 [[repo]]
@@ -336,6 +364,9 @@ url = "https://github.com/blocktrail/blocktrail-webwallet"
 [[repo]]
 url = "https://github.com/BlueWallet/BlueWallet"
 tags = ["Wallet"]
+
+[[repo]]
+url = "https://github.com/bmoscon/cryptofeed"
 
 [[repo]]
 url = "https://github.com/BobWallet/BobWallet"
@@ -470,6 +501,18 @@ url = "https://github.com/cryptocoinjs/awesome-cryptocoinjs"
 url = "https://github.com/dangrier/gobtcmarkets"
 
 [[repo]]
+url = "https://github.com/decentralized-identity/ion"
+
+[[repo]]
+url = "https://github.com/DeFiCh/app"
+
+[[repo]]
+url = "https://github.com/EdgeApp/edge-currency-plugins"
+
+[[repo]]
+url = "https://github.com/EdgeApp/edge-reports-server"
+
+[[repo]]
 url = "https://github.com/ElementsProject/elements"
 tags = ["Developer Tool"]
 
@@ -578,6 +621,9 @@ url = "https://github.com/lamassu/lamassu-machine"
 
 [[repo]]
 url = "https://github.com/lian/bitcoin-ruby"
+
+[[repo]]
+url = "https://github.com/libbitcoin/electrum"
 
 [[repo]]
 url = "https://github.com/libbitcoin/libbitcoin-blockchain"
@@ -865,10 +911,22 @@ url = "https://github.com/sr-gi/bitcoin_tools"
 url = "https://github.com/straumat/blockchain2graph"
 
 [[repo]]
+url = "https://github.com/strudel-finance/monorepo"
+
+[[repo]]
 url = "https://github.com/summa-tx/bitcoins-rs"
 
 [[repo]]
+url = "https://github.com/tatumio/tatum-js"
+
+[[repo]]
+url = "https://github.com/tatumio/tatum-kms"
+
+[[repo]]
 url = "https://github.com/trezor/hd-wallet"
+
+[[repo]]
+url = "https://github.com/trustee-wallet/trusteeWallet"
 
 [[repo]]
 url = "https://github.com/tsileo/txwatcher"
@@ -899,6 +957,12 @@ url = "https://github.com/yasaricli/chainradar-api"
 url = "https://github.com/yenom/BitcoinKit"
 
 [[repo]]
+url = "https://github.com/ZeusLN/zeus"
+
+[[repo]]
+url = "https://github.com/zkSNACKs/MempoolSyncer"
+
+[[repo]]
 url = "https://github.com/zkSNACKs/Meta"
 
 [[repo]]
@@ -924,6 +988,9 @@ url = "https://github.com/zkSNACKs/WasabiDoc"
 
 [[repo]]
 url = "https://github.com/zkSNACKs/WasabiResearchClub"
+
+[[repo]]
+url = "https://github.com/zkSNACKs/WasabiResearchExperience"
 
 [[repo]]
 url = "https://github.com/zkSNACKs/WasabiStatTwitterBot"

@@ -1,7 +1,14 @@
 # Ecosystem Level Information
 title = "Near Protocol"
 
-sub_ecosystems = ["Flux Protocol", "Mintbase"]
+sub_ecosystems = [
+  "Aurora NEAR",
+  "Band Protocol",
+  "Chainlink",
+  "Flux Protocol",
+  "Mintbase",
+  "Paras",
+]
 
 github_organizations = [
   "https://github.com/near",
@@ -320,6 +327,12 @@ url = "https://github.com/myblockchainx/auto_send_coin_js"
 url = "https://github.com/NarwalletGH/NW-light-near-api-test"
 
 [[repo]]
+url = "https://github.com/near-daos/sputnik-dao-ui-reskin"
+
+[[repo]]
+url = "https://github.com/near-examples/account-gifter"
+
+[[repo]]
 url = "https://github.com/near-examples/activity--cross-contract-calls"
 
 [[repo]]
@@ -341,13 +354,31 @@ url = "https://github.com/near-examples/chat"
 url = "https://github.com/near-examples/code-hash-generator"
 
 [[repo]]
+url = "https://github.com/near-examples/collection-examples-as"
+
+[[repo]]
 url = "https://github.com/near-examples/collection-examples-rs"
+
+[[repo]]
+url = "https://github.com/near-examples/cookbook"
 
 [[repo]]
 url = "https://github.com/near-examples/counter"
 
 [[repo]]
 url = "https://github.com/near-examples/cross-contract-calls"
+
+[[repo]]
+url = "https://github.com/near-examples/cross-contract-rust-counter"
+
+[[repo]]
+url = "https://github.com/near-examples/crossword-tutorial-chapter-1"
+
+[[repo]]
+url = "https://github.com/near-examples/crud-tutorial"
+
+[[repo]]
+url = "https://github.com/near-examples/DeCash-Rust"
 
 [[repo]]
 url = "https://github.com/near-examples/delegation-app"
@@ -368,7 +399,22 @@ url = "https://github.com/near-examples/free-place"
 url = "https://github.com/near-examples/FT"
 
 [[repo]]
+url = "https://github.com/near-examples/gnr8"
+
+[[repo]]
 url = "https://github.com/near-examples/guest-book"
+
+[[repo]]
+url = "https://github.com/near-examples/guest-book-tutorial"
+
+[[repo]]
+url = "https://github.com/near-examples/hackathon-starter-kit"
+
+[[repo]]
+url = "https://github.com/near-examples/indexer-tutorials"
+
+[[repo]]
+url = "https://github.com/near-examples/jestnet"
 
 [[repo]]
 url = "https://github.com/near-examples/listens-counter"
@@ -377,16 +423,43 @@ url = "https://github.com/near-examples/listens-counter"
 url = "https://github.com/near-examples/near-account-utils"
 
 [[repo]]
+url = "https://github.com/near-examples/near-api-rest-server"
+
+[[repo]]
+url = "https://github.com/near-examples/near-api-server"
+
+[[repo]]
+url = "https://github.com/near-examples/near-crossword"
+
+[[repo]]
 url = "https://github.com/near-examples/near-dashboard"
 
 [[repo]]
 url = "https://github.com/near-examples/near-pet-shop"
 
 [[repo]]
+url = "https://github.com/near-examples/near-rest-api-server"
+
+[[repo]]
 url = "https://github.com/near-examples/nearlib-account"
 
 [[repo]]
+url = "https://github.com/near-examples/nearnames"
+
+[[repo]]
 url = "https://github.com/near-examples/NFT"
+
+[[repo]]
+url = "https://github.com/near-examples/nft-exquisite-corpse"
+
+[[repo]]
+url = "https://github.com/near-examples/nft-launcher"
+
+[[repo]]
+url = "https://github.com/near-examples/nft-market"
+
+[[repo]]
+url = "https://github.com/near-examples/nft-series"
 
 [[repo]]
 url = "https://github.com/near-examples/oracle"
@@ -423,6 +496,9 @@ url = "https://github.com/near-examples/rust-multisig-example"
 
 [[repo]]
 url = "https://github.com/near-examples/rust-status-message"
+
+[[repo]]
+url = "https://github.com/near-examples/rust-template"
 
 [[repo]]
 url = "https://github.com/near-examples/simple_counter_as"
@@ -470,7 +546,16 @@ url = "https://github.com/near-examples/workshop--exploring-assemblyscript-contr
 url = "https://github.com/near-examples/workshop--exploring-near-apis"
 
 [[repo]]
+url = "https://github.com/near/abomonation"
+
+[[repo]]
+url = "https://github.com/near/abomonation_derive"
+
+[[repo]]
 url = "https://github.com/near/account-lookup"
+
+[[repo]]
+url = "https://github.com/near/actix-extras"
 
 [[repo]]
 url = "https://github.com/near/all-contributors"
@@ -485,16 +570,28 @@ url = "https://github.com/near/as-base58"
 url = "https://github.com/near/as-base64"
 
 [[repo]]
+url = "https://github.com/near/assemblyscript-json"
+
+[[repo]]
 url = "https://github.com/near/awesome-near"
 
 [[repo]]
 url = "https://github.com/near/balancer-core"
 
 [[repo]]
+url = "https://github.com/near/berry-pickers"
+
+[[repo]]
 url = "https://github.com/near/bn"
 
 [[repo]]
 url = "https://github.com/near/borsh"
+
+[[repo]]
+url = "https://github.com/near/borsh-construct-py"
+
+[[repo]]
+url = "https://github.com/near/borsh-go"
 
 [[repo]]
 url = "https://github.com/near/borsh-js"
@@ -512,6 +609,12 @@ url = "https://github.com/near/borshj"
 url = "https://github.com/near/bounties"
 
 [[repo]]
+url = "https://github.com/near/bridge-analytics"
+
+[[repo]]
+url = "https://github.com/near/calibrator"
+
+[[repo]]
 url = "https://github.com/near/community"
 
 [[repo]]
@@ -521,7 +624,16 @@ url = "https://github.com/near/core-contracts"
 url = "https://github.com/near/core-contracts-as"
 
 [[repo]]
+url = "https://github.com/near/corgis"
+
+[[repo]]
 url = "https://github.com/near/create-near-app"
+
+[[repo]]
+url = "https://github.com/near/dev-platform"
+
+[[repo]]
+url = "https://github.com/near/devrel"
 
 [[repo]]
 url = "https://github.com/near/devx"
@@ -530,13 +642,40 @@ url = "https://github.com/near/devx"
 url = "https://github.com/near/docs"
 
 [[repo]]
+url = "https://github.com/near/ecosystem"
+
+[[repo]]
+url = "https://github.com/near/ecosystem-data-center"
+
+[[repo]]
+url = "https://github.com/near/ecosystem-map"
+
+[[repo]]
+url = "https://github.com/near/ecosystem-metrics"
+
+[[repo]]
+url = "https://github.com/near/eth-connector"
+
+[[repo]]
 url = "https://github.com/near/eth-object"
 
 [[repo]]
 url = "https://github.com/near/eth-util-lite"
 
 [[repo]]
+url = "https://github.com/near/evm"
+
+[[repo]]
+url = "https://github.com/near/evm-bully"
+
+[[repo]]
 url = "https://github.com/near/evm-relayer"
+
+[[repo]]
+url = "https://github.com/near/grants"
+
+[[repo]]
+url = "https://github.com/near/hashbrown"
 
 [[repo]]
 url = "https://github.com/near/initial-contracts"
@@ -545,10 +684,37 @@ url = "https://github.com/near/initial-contracts"
 url = "https://github.com/near/introverse"
 
 [[repo]]
+url = "https://github.com/near/jsonrpc-benchmark"
+
+[[repo]]
+url = "https://github.com/near/lang-DAO-grants"
+
+[[repo]]
+url = "https://github.com/near/learn"
+
+[[repo]]
+url = "https://github.com/near/local"
+
+[[repo]]
+url = "https://github.com/near/market-data-analytics"
+
+[[repo]]
+url = "https://github.com/near/metabuidl-profiles"
+
+[[repo]]
+url = "https://github.com/near/metabuidl-teams"
+
+[[repo]]
 url = "https://github.com/near/multisig-tool"
 
 [[repo]]
 url = "https://github.com/near/multistaker"
+
+[[repo]]
+url = "https://github.com/near/nayduck"
+
+[[repo]]
+url = "https://github.com/near/near-api-helper"
 
 [[repo]]
 url = "https://github.com/near/near-api-js"
@@ -563,13 +729,25 @@ url = "https://github.com/near/near-api-swift"
 url = "https://github.com/near/near-api-unity"
 
 [[repo]]
+url = "https://github.com/near/near-blake2"
+
+[[repo]]
 url = "https://github.com/near/near-cli"
+
+[[repo]]
+url = "https://github.com/near/near-cli-rs"
 
 [[repo]]
 url = "https://github.com/near/near-contract-helper"
 
 [[repo]]
+url = "https://github.com/near/near-data"
+
+[[repo]]
 url = "https://github.com/near/near-drop-demo"
+
+[[repo]]
+url = "https://github.com/near/near-erc20-connector"
 
 [[repo]]
 url = "https://github.com/near/near-eth-rpc"
@@ -593,6 +771,9 @@ url = "https://github.com/near/near-indexer-for-explorer"
 url = "https://github.com/near/near-indexer-for-wallet"
 
 [[repo]]
+url = "https://github.com/near/near-jsonrpc-client-rs"
+
+[[repo]]
 url = "https://github.com/near/near-ledger-app"
 
 [[repo]]
@@ -602,16 +783,28 @@ url = "https://github.com/near/near-ledger-js"
 url = "https://github.com/near/near-linkdrop"
 
 [[repo]]
+url = "https://github.com/near/near-memory-tracker"
+
+[[repo]]
+url = "https://github.com/near/near-multi-key"
+
+[[repo]]
 url = "https://github.com/near/near-redpacket"
 
 [[repo]]
 url = "https://github.com/near/near-sdk-as"
 
 [[repo]]
+url = "https://github.com/near/near-sdk-gr"
+
+[[repo]]
 url = "https://github.com/near/near-sdk-rs"
 
 [[repo]]
 url = "https://github.com/near/near-sdk-tools"
+
+[[repo]]
+url = "https://github.com/near/near-sdk-zig"
 
 [[repo]]
 url = "https://github.com/near/near-seed-phrase"
@@ -621,6 +814,9 @@ url = "https://github.com/near/near-shell"
 
 [[repo]]
 url = "https://github.com/near/near-wallet"
+
+[[repo]]
+url = "https://github.com/near/near-wallet-roadmap"
 
 [[repo]]
 url = "https://github.com/near/near-web3-provider"
@@ -638,6 +834,18 @@ url = "https://github.com/near/NEPs"
 url = "https://github.com/near/octopus"
 
 [[repo]]
+url = "https://github.com/near/openethereum"
+
+[[repo]]
+url = "https://github.com/near/openweb-jobs"
+
+[[repo]]
+url = "https://github.com/near/openweb-profiles"
+
+[[repo]]
+url = "https://github.com/near/paperclip"
+
+[[repo]]
 url = "https://github.com/near/partners-arterra"
 
 [[repo]]
@@ -651,6 +859,9 @@ url = "https://github.com/near/rainbow-bridge"
 
 [[repo]]
 url = "https://github.com/near/rainbow-bridge-cli"
+
+[[repo]]
+url = "https://github.com/near/rainbow-bridge-client"
 
 [[repo]]
 url = "https://github.com/near/rainbow-bridge-frontend"
@@ -668,7 +879,13 @@ url = "https://github.com/near/rainbow-bridge-rs"
 url = "https://github.com/near/rainbow-bridge-sol"
 
 [[repo]]
+url = "https://github.com/near/rainbow-non-fungible-token-connector"
+
+[[repo]]
 url = "https://github.com/near/rainbow-token-connector"
+
+[[repo]]
+url = "https://github.com/near/repro-near-funcall"
 
 [[repo]]
 url = "https://github.com/near/rfp"
@@ -677,7 +894,28 @@ url = "https://github.com/near/rfp"
 url = "https://github.com/near/rfp-specs"
 
 [[repo]]
+url = "https://github.com/near/runner"
+
+[[repo]]
+url = "https://github.com/near/runner-jest"
+
+[[repo]]
+url = "https://github.com/near/runner-js"
+
+[[repo]]
+url = "https://github.com/near/runner-rs"
+
+[[repo]]
+url = "https://github.com/near/sandbox"
+
+[[repo]]
+url = "https://github.com/near/sdk-docs"
+
+[[repo]]
 url = "https://github.com/near/seed-recovery"
+
+[[repo]]
+url = "https://github.com/near/send-json"
 
 [[repo]]
 url = "https://github.com/near/staking-contract"
@@ -689,7 +927,19 @@ url = "https://github.com/near/sysinfo"
 url = "https://github.com/near/the-guard-bot"
 
 [[repo]]
+url = "https://github.com/near/treasury-dao"
+
+[[repo]]
 url = "https://github.com/near/twiggy"
+
+[[repo]]
+url = "https://github.com/near/units-js"
+
+[[repo]]
+url = "https://github.com/near/units-rs"
+
+[[repo]]
+url = "https://github.com/near/wallet-data-analytics"
 
 [[repo]]
 url = "https://github.com/near/wasm"
@@ -698,10 +948,19 @@ url = "https://github.com/near/wasm"
 url = "https://github.com/near/wasm-corpus"
 
 [[repo]]
+url = "https://github.com/near/wasm-utils"
+
+[[repo]]
 url = "https://github.com/near/wasm_sizer"
 
 [[repo]]
 url = "https://github.com/near/wasmer"
+
+[[repo]]
+url = "https://github.com/near/wasmtime"
+
+[[repo]]
+url = "https://github.com/near/wiki"
 
 [[repo]]
 url = "https://github.com/nearprotocol/_archived_bsonfy"

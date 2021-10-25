@@ -6,7 +6,6 @@ sub_ecosystems = [
   "Akash Network",
   "Althea",
   "Band Protocol",
-  "Binance Coin",
   "commercio.network",
   "CosmWasm",
   "Crypto.com Chain",
@@ -40,6 +39,7 @@ sub_ecosystems = [
   "Tendermint",
   "Terra",
   "THORChain",
+  "xfund",
 ]
 
 github_organizations = [
@@ -59,6 +59,9 @@ url = "https://github.com/aura-systems/Aura-Operating-System"
 url = "https://github.com/bandprotocol/bandchain"
 
 [[repo]]
+url = "https://github.com/bandprotocol/bandchain.js"
+
+[[repo]]
 url = "https://github.com/cbarraford/cosmos-multisig"
 
 [[repo]]
@@ -71,8 +74,14 @@ url = "https://github.com/certusone/testnet_deploy"
 url = "https://github.com/ChainAgnostic/CAIPs"
 
 [[repo]]
+url = "https://github.com/chainapsis/keplr-extension"
+
+[[repo]]
 url = "https://github.com/ChainSafe/ChainBridge"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/cheqd/cheqd-sdk"
 
 [[repo]]
 url = "https://github.com/chuanwu/cosmos-crypto-lib"
@@ -82,6 +91,9 @@ url = "https://github.com/commercionetwork/sacco.go"
 
 [[repo]]
 url = "https://github.com/CosmicBridge/server"
+
+[[repo]]
+url = "https://github.com/cosmos/admin-module"
 
 [[repo]]
 url = "https://github.com/cosmos/advocates"
@@ -99,16 +111,31 @@ url = "https://github.com/cosmos/autoalias"
 url = "https://github.com/cosmos/awesome"
 
 [[repo]]
+url = "https://github.com/cosmos/b9-checkers-academy-draft"
+
+[[repo]]
 url = "https://github.com/cosmos/belt"
 
 [[repo]]
+url = "https://github.com/cosmos/beta.cosmos.network"
+
+[[repo]]
+url = "https://github.com/cosmos/btcutil"
+
+[[repo]]
 url = "https://github.com/cosmos/burner-chains"
+
+[[repo]]
+url = "https://github.com/cosmos/cips"
 
 [[repo]]
 url = "https://github.com/cosmos/clearchain"
 
 [[repo]]
 url = "https://github.com/cosmos/cobra"
+
+[[repo]]
+url = "https://github.com/cosmos/conversations-site"
 
 [[repo]]
 url = "https://github.com/cosmos/cosmjs"
@@ -119,6 +146,9 @@ tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/cosmos/cosmos-academy"
+
+[[repo]]
+url = "https://github.com/cosmos/cosmos-proto"
 
 [[repo]]
 url = "https://github.com/cosmos/cosmos-registrar"
@@ -134,6 +164,9 @@ url = "https://github.com/cosmos/cosmos-sdk-js"
 
 [[repo]]
 url = "https://github.com/cosmos/cosmos.network"
+
+[[repo]]
+url = "https://github.com/cosmos/docs"
 
 [[repo]]
 url = "https://github.com/cosmos/ethermint"
@@ -187,7 +220,22 @@ url = "https://github.com/cosmos/go-bip39"
 url = "https://github.com/cosmos/governance"
 
 [[repo]]
+url = "https://github.com/cosmos/gravity"
+
+[[repo]]
+url = "https://github.com/cosmos/gravity-bridge"
+
+[[repo]]
+url = "https://github.com/cosmos/gravity-bridge-site"
+
+[[repo]]
+url = "https://github.com/cosmos/gravity-dex-site"
+
+[[repo]]
 url = "https://github.com/cosmos/hackatom2020"
+
+[[repo]]
+url = "https://github.com/cosmos/hackatom2021"
 
 [[repo]]
 url = "https://github.com/cosmos/hellochain"
@@ -199,10 +247,37 @@ url = "https://github.com/cosmos/hub.cosmos.network"
 url = "https://github.com/cosmos/iavl"
 
 [[repo]]
+url = "https://github.com/cosmos/ibc"
+
+[[repo]]
+url = "https://github.com/cosmos/ibc-docs"
+
+[[repo]]
+url = "https://github.com/cosmos/ibc-go"
+
+[[repo]]
+url = "https://github.com/cosmos/ibc-temp"
+
+[[repo]]
 url = "https://github.com/cosmos/ics"
 
 [[repo]]
+url = "https://github.com/cosmos/interchain-account"
+
+[[repo]]
+url = "https://github.com/cosmos/interchain-accounts"
+
+[[repo]]
+url = "https://github.com/cosmos/interchain-security"
+
+[[repo]]
 url = "https://github.com/cosmos/jobs"
+
+[[repo]]
+url = "https://github.com/cosmos/keyring"
+
+[[repo]]
+url = "https://github.com/cosmos/keystone"
 
 [[repo]]
 url = "https://github.com/cosmos/launch"
@@ -235,7 +310,10 @@ url = "https://github.com/cosmos/mainnet"
 url = "https://github.com/cosmos/modules"
 
 [[repo]]
-url = "https://github.com/cosmos/gravity-bridge"
+url = "https://github.com/cosmos/new-cosmos.network"
+
+[[repo]]
+url = "https://github.com/cosmos/peggy"
 
 [[repo]]
 url = "https://github.com/cosmos/peggy-original"
@@ -271,6 +349,9 @@ url = "https://github.com/cosmos/sig"
 url = "https://github.com/cosmos/stargate"
 
 [[repo]]
+url = "https://github.com/cosmos/stargate-launch"
+
+[[repo]]
 url = "https://github.com/cosmos/telegram-moderator-bot"
 
 [[repo]]
@@ -284,6 +365,12 @@ url = "https://github.com/cosmos/tools"
 
 [[repo]]
 url = "https://github.com/cosmos/types"
+
+[[repo]]
+url = "https://github.com/cosmos/v1.cosmos.network"
+
+[[repo]]
+url = "https://github.com/cosmos/vega-test"
 
 [[repo]]
 url = "https://github.com/cosmos/vuepress-theme-cosmos"
@@ -301,6 +388,9 @@ url = "https://github.com/CosmWasm/big-dipper"
 url = "https://github.com/CosmWasm/cawesome-wasm"
 
 [[repo]]
+url = "https://github.com/CosmWasm/chat.cosmwasm.com"
+
+[[repo]]
 url = "https://github.com/CosmWasm/code-explorer"
 
 [[repo]]
@@ -308,6 +398,9 @@ url = "https://github.com/CosmWasm/core"
 
 [[repo]]
 url = "https://github.com/CosmWasm/cosmjs"
+
+[[repo]]
+url = "https://github.com/CosmWasm/cosmos-discord-faucet"
 
 [[repo]]
 url = "https://github.com/CosmWasm/cosmos-sdk"
@@ -331,13 +424,31 @@ url = "https://github.com/CosmWasm/cosmwasm-template"
 url = "https://github.com/CosmWasm/cosmwasm-verify"
 
 [[repo]]
+url = "https://github.com/CosmWasm/cw-cron"
+
+[[repo]]
+url = "https://github.com/CosmWasm/cw-examples"
+
+[[repo]]
+url = "https://github.com/CosmWasm/cw-nfts"
+
+[[repo]]
+url = "https://github.com/CosmWasm/cw-plus"
+
+[[repo]]
 url = "https://github.com/CosmWasm/cw-storage"
+
+[[repo]]
+url = "https://github.com/CosmWasm/cw-template"
 
 [[repo]]
 url = "https://github.com/CosmWasm/CWIPs"
 
 [[repo]]
 url = "https://github.com/CosmWasm/dApps"
+
+[[repo]]
+url = "https://github.com/CosmWasm/discord-faucet"
 
 [[repo]]
 url = "https://github.com/CosmWasm/docs"
@@ -349,6 +460,12 @@ url = "https://github.com/CosmWasm/docs-old"
 url = "https://github.com/CosmWasm/drand-verify"
 
 [[repo]]
+url = "https://github.com/CosmWasm/fix-ci-issues"
+
+[[repo]]
+url = "https://github.com/CosmWasm/gaia"
+
+[[repo]]
 url = "https://github.com/CosmWasm/go-cosmwasm"
 
 [[repo]]
@@ -356,6 +473,9 @@ url = "https://github.com/CosmWasm/ibc-visualizer"
 
 [[repo]]
 url = "https://github.com/CosmWasm/ics"
+
+[[repo]]
+url = "https://github.com/CosmWasm/InterWasmDAO"
 
 [[repo]]
 url = "https://github.com/CosmWasm/jsonparser"
@@ -368,6 +488,9 @@ url = "https://github.com/CosmWasm/keplr-extension"
 
 [[repo]]
 url = "https://github.com/CosmWasm/name-app"
+
+[[repo]]
+url = "https://github.com/CosmWasm/relayer"
 
 [[repo]]
 url = "https://github.com/CosmWasm/rust-optimizer"
@@ -386,6 +509,12 @@ url = "https://github.com/CosmWasm/terra-contracts"
 
 [[repo]]
 url = "https://github.com/CosmWasm/testnets"
+
+[[repo]]
+url = "https://github.com/CosmWasm/tinyjson"
+
+[[repo]]
+url = "https://github.com/CosmWasm/ts-proto"
 
 [[repo]]
 url = "https://github.com/CosmWasm/wasmd"
@@ -543,6 +672,9 @@ url = "https://github.com/luniehq/Open-Grants-Program"
 url = "https://github.com/luniehq/Web3-collaboration"
 
 [[repo]]
+url = "https://github.com/microsoft/kafka-connect-cosmosdb"
+
+[[repo]]
 url = "https://github.com/nbltrust/jadepool-hub-golib-cosmos"
 
 [[repo]]
@@ -553,6 +685,9 @@ url = "https://github.com/nomic-io/lotion"
 
 [[repo]]
 url = "https://github.com/OpenGenus/cosmos-search"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/osmosis"
 
 [[repo]]
 url = "https://github.com/qdriven/cosmos-gaia-ansible"

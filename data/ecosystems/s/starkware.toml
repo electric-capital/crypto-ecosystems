@@ -1,19 +1,40 @@
 # Ecosystem Level Information
 title = "StarkWare"
 
-sub_ecosystems = []
+sub_ecosystems = ["Sorare"]
 
 github_organizations = ["https://github.com/starkware-libs"]
 
 # Repositories
 [[repo]]
+url = "https://github.com/starkware-libs/cairo-examples"
+
+[[repo]]
+url = "https://github.com/starkware-libs/cairo-lang"
+
+[[repo]]
+url = "https://github.com/starkware-libs/crypto-cpp"
+
+[[repo]]
 url = "https://github.com/starkware-libs/ethSTARK"
+
+[[repo]]
+url = "https://github.com/starkware-libs/formal-proofs"
+
+[[repo]]
+url = "https://github.com/starkware-libs/stark-perpetual"
 
 [[repo]]
 url = "https://github.com/starkware-libs/starkex-contracts"
 
 [[repo]]
+url = "https://github.com/starkware-libs/starkex-for-spot-trading"
+
+[[repo]]
 url = "https://github.com/starkware-libs/starkex-resources"
+
+[[repo]]
+url = "https://github.com/starkware-libs/starkex-resources-wip"
 
 [[repo]]
 url = "https://github.com/starkware-libs/veedo"

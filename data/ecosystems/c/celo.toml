@@ -1,46 +1,3929 @@
-# Ecosystem Level Information
+github_organizations = [
+    "https://github.com/celo-org",
+    "https://github.com/celo-tools",
+]
+sub_ecosystems = [
+    "Keep Network",
+]
 title = "Celo"
 
-sub_ecosystems = ["Keep Network"]
-
-github_organizations = ["https://github.com/celo-org", "https://github.com/celo-tools"]
-
-# Repositories
 [[repo]]
-url = "https://code.bld.ai/doni/Doni"
+url = "https://github.com/celo-org/celo-monorepo"
 
 [[repo]]
-url = "https://github.com/1baga/celo-listener"
+url = "https://github.com/celo-org/celo-blockchain"
 
 [[repo]]
-url = "https://github.com/aadorian/Celo_Truffle"
+url = "https://github.com/celo-org/celo-proposals"
 
 [[repo]]
-url = "https://github.com/abellinii/moola"
+url = "https://github.com/gakonst/ethers-rs"
 
 [[repo]]
-url = "https://github.com/aglamadrid19/celo-helpi-interface"
+url = "https://github.com/celo-org/celo-bls-snark-rs"
 
 [[repo]]
-url = "https://github.com/aglamadrid19/celo-sc-deploy"
+url = "https://github.com/critesjosh/celo-dappkit"
 
 [[repo]]
-url = "https://github.com/aglamadrid19/celo-sc-dev"
+url = "https://github.com/critesjosh/helloCelo"
 
 [[repo]]
-url = "https://github.com/aglamadrid19/helpi-factory-lp"
+url = "https://github.com/valora-inc/wallet"
+
+[[repo]]
+url = "https://github.com/celo-org/governance"
+
+[[repo]]
+url = "https://github.com/celo-tools/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/dexfair/celo-remix-plugin"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-threshold-bls-rs"
+
+[[repo]]
+url = "https://github.com/Open-C/CeloHub"
+
+[[repo]]
+url = "https://github.com/celo-org/use-contractkit"
+
+[[repo]]
+url = "https://github.com/celo-org/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/celo-org/website"
+
+[[repo]]
+url = "https://github.com/zviadm/celoterminal"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-bls-go"
+
+[[repo]]
+url = "https://github.com/farm-army/farm-army-backend"
+
+[[repo]]
+url = "https://github.com/critesjosh/hello_contract-truffle"
+
+[[repo]]
+url = "https://github.com/dsrvlabs/celo-validator-monitoring"
+
+[[repo]]
+url = "https://github.com/dacadeorg/celo-marketplace-dapp"
+
+[[repo]]
+url = "https://github.com/ericet/celo-learn"
+
+[[repo]]
+url = "https://github.com/keyko-io/celo-monitoring"
+
+[[repo]]
+url = "https://github.com/tompollard/celo-IAP"
+
+[[repo]]
+url = "https://github.com/blaize-tech/celo-sdk-py"
+
+[[repo]]
+url = "https://github.com/celo-org/celostats-server"
+
+[[repo]]
+url = "https://github.com/farm-army/farm-army-frontend"
+
+[[repo]]
+url = "https://github.com/BEYOND-Ewha-Yonsei/Mark-at"
+
+[[repo]]
+url = "https://github.com/celo-org/eksportisto"
+
+[[repo]]
+url = "https://github.com/codabl/celo-datasets"
+
+[[repo]]
+url = "https://github.com/dacadeorg/celo-boilerplate-web-dapp"
+
+[[repo]]
+url = "https://github.com/celo-org/kliento"
+
+[[repo]]
+url = "https://github.com/krypt007/celoBackend"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-oracle"
+
+[[repo]]
+url = "https://github.com/bdev07/green-deeds-celo"
+
+[[repo]]
+url = "https://github.com/critesjosh/celo-transactions-lesson"
+
+[[repo]]
+url = "https://github.com/ChorusOne/celo-light-client"
+
+[[repo]]
+url = "https://github.com/seungwon2/Celo-hackathon"
+
+[[repo]]
+url = "https://github.com/Blisado1/Dao-Dapp"
+
+[[repo]]
+url = "https://github.com/greatnessss/Book-Library"
+
+[[repo]]
+url = "https://github.com/LedgerHQ/app-celo-spender"
+
+[[repo]]
+url = "https://github.com/blaize-tech/celo-sdk-java"
+
+[[repo]]
+url = "https://github.com/emmanuelJet/celoshop-dacade"
+
+[[repo]]
+url = "https://github.com/anhnt4288/celo-food-dapp"
+
+[[repo]]
+url = "https://github.com/celo-tools/celo-ethers-wrapper"
+
+[[repo]]
+url = "https://github.com/IMEF-FEMI/Celo-Dice-Betting-Game"
+
+[[repo]]
+url = "https://github.com/ogSuccess/https-Celo-book-charity"
+
+[[repo]]
+url = "https://github.com/Sethmichael01/CeloRealEstate"
+
+[[repo]]
+url = "https://github.com/joelaghina/Multi-Signature-Wallet"
+
+[[repo]]
+url = "https://github.com/witnet/data-feed-app"
+
+[[repo]]
+url = "https://github.com/RabbyHub/Rabby"
+
+[[repo]]
+url = "https://github.com/prestwich/celo-ethers-provider"
+
+[[repo]]
+url = "https://github.com/Mujhtech/celo-dapp"
+
+[[repo]]
+url = "https://github.com/codabl/celo-etl"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-forkmon"
+
+[[repo]]
+url = "https://github.com/ced000/Celo-Petagram"
+
+[[repo]]
+url = "https://github.com/daryakaviani/celo-micropayments"
+
+[[repo]]
+url = "https://github.com/celo-org/hello-celo-contractkit"
+
+[[repo]]
+url = "https://github.com/mrsmkl/celo-election-comparison"
+
+[[repo]]
+url = "https://github.com/virtualhive/celo-network-validator-exporter"
+
+[[repo]]
+url = "https://github.com/celo-org/reserve-site"
+
+[[repo]]
+url = "https://github.com/Biscoint/celo-hot-wallet"
+
+[[repo]]
+url = "https://github.com/celo-org/simple-address-statistics"
+
+[[repo]]
+url = "https://github.com/trungng1992/celo-dapp-gofun-room"
+
+[[repo]]
+url = "https://github.com/moritzfelipe/celo-marketplace-dapp"
+
+[[repo]]
+url = "https://github.com/avalonche/loaner-celo"
+
+[[repo]]
+url = "https://github.com/therealjpn/celo-token-generator"
+
+[[repo]]
+url = "https://github.com/jim380/Celory"
+
+[[repo]]
+url = "https://github.com/Mkungusi/Celo-network"
+
+[[repo]]
+url = "https://github.com/garvazsof/CeloSHM"
+
+[[repo]]
+url = "https://github.com/NeoSPU/celo_nft_market"
+
+[[repo]]
+url = "https://github.com/celo-org/celostats-frontend"
+
+[[repo]]
+url = "https://github.com/terminal-fi/celo-devchain"
+
+[[repo]]
+url = "https://github.com/Mutugiii/crowdfund_dApp"
+
+[[repo]]
+url = "https://github.com/lucasespinosa28/Celo-Tutorial"
+
+[[repo]]
+url = "https://github.com/Favour-dgreat/gymnaseum-dacade"
+
+[[repo]]
+url = "https://github.com/IMEF-FEMI/Celo-IPFS-Image-Upload-dApp"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-ledger-web-app"
+
+[[repo]]
+url = "https://github.com/forbole/big-dipper-celo-server"
+
+[[repo]]
+url = "https://github.com/ismaelsadeeq/dush-api"
+
+[[repo]]
+url = "https://github.com/secretshardul/the-graph-celo"
+
+[[repo]]
+url = "https://github.com/clevernyyyy/celo-sms"
+
+[[repo]]
+url = "https://github.com/bakoushin/celo-box"
+
+[[repo]]
+url = "https://github.com/Celo-Mail/celo-mail"
+
+[[repo]]
+url = "https://github.com/ChainSafe/chainbridge-celo"
+
+[[repo]]
+url = "https://github.com/Yanda1/celo"
+
+[[repo]]
+url = "https://github.com/zviadm/celovote-app"
+
+[[repo]]
+url = "https://github.com/mrsmkl/celo-web3-stub"
+
+[[repo]]
+url = "https://github.com/abraham-yusuf/celo"
+
+[[repo]]
+url = "https://github.com/hussamkhatib/celo"
+
+[[repo]]
+url = "https://github.com/mantalabs/validator-elector"
+
+[[repo]]
+url = "https://github.com/daoauth/celo-metamask-signer"
+
+[[repo]]
+url = "https://github.com/Chainflow/celo"
+
+[[repo]]
+url = "https://github.com/dsrvlabs/celo"
+
+[[repo]]
+url = "https://github.com/Chethan-4255/celo"
+
+[[repo]]
+url = "https://github.com/linjinkai/celo"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo"
+
+[[repo]]
+url = "https://github.com/blockchain-academy-chile/Celo"
+
+[[repo]]
+url = "https://github.com/varsh1408/celo"
+
+[[repo]]
+url = "https://github.com/bitmamahq/celo"
+
+[[repo]]
+url = "https://github.com/paychant/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/celotium/celo"
+
+[[repo]]
+url = "https://github.com/septembermd/celo"
+
+[[repo]]
+url = "https://github.com/infamousdegen/celo"
+
+[[repo]]
+url = "https://github.com/helpicelo/helpi-celo-interface"
+
+[[repo]]
+url = "https://github.com/wildchain/celo"
+
+[[repo]]
+url = "https://github.com/lopeselio/Celogram-CeloFellowship-21"
+
+[[repo]]
+url = "https://github.com/allanhboyd/celo"
+
+[[repo]]
+url = "https://github.com/rajanpaulsarella/CELO"
+
+[[repo]]
+url = "https://github.com/Owhyze1/celo"
+
+[[repo]]
+url = "https://github.com/cnusrini/celo_hellocontract"
+
+[[repo]]
+url = "https://github.com/midou10/Celo_Network_demo"
+
+[[repo]]
+url = "https://github.com/Jteo10/Celo_demo"
+
+[[repo]]
+url = "https://github.com/kabir-kapur/Celo"
+
+[[repo]]
+url = "https://github.com/ChainSafe/chainbridge-celo-solidity"
+
+[[repo]]
+url = "https://github.com/Sameerkash/celo-dart-monorepo"
+
+[[repo]]
+url = "https://github.com/Blisado1/Celo-Blockchain-Tutorial"
+
+[[repo]]
+url = "https://github.com/Agreum/AgriUT"
+
+[[repo]]
+url = "https://github.com/gagankeshav/celoTests"
+
+[[repo]]
+url = "https://github.com/bi23com/CeloDance"
+
+[[repo]]
+url = "https://github.com/krypt007/kotanipay-USSD"
+
+[[repo]]
+url = "https://github.com/ishitamaru/celoTests"
+
+[[repo]]
+url = "https://github.com/ubinix-warun/CELO-pathway"
+
+[[repo]]
+url = "https://github.com/Thompsonmina/CeloTasks"
+
+[[repo]]
+url = "https://github.com/cok263/celo"
+
+[[repo]]
+url = "https://github.com/kevinkrom787/CeloFarmer"
+
+[[repo]]
+url = "https://github.com/dahnny/CeloDealer"
+
+[[repo]]
+url = "https://github.com/urashid64/CeloApp"
+
+[[repo]]
+url = "https://github.com/AntonioBMN/celoMarketplace"
+
+[[repo]]
+url = "https://github.com/leon-do/celo1155"
+
+[[repo]]
+url = "https://github.com/christuchez/CeloGraph"
+
+[[repo]]
+url = "https://github.com/FlakesGG/celo1"
+
+[[repo]]
+url = "https://github.com/aaronmgdr/CeloBalance"
+
+[[repo]]
+url = "https://github.com/alexreyes/Celo-NFT-Tutorial-Part1"
+
+[[repo]]
+url = "https://github.com/abellinii/celoMonitoringScripts"
+
+[[repo]]
+url = "https://github.com/cult-leader-en/black-magic"
+
+[[repo]]
+url = "https://github.com/ced000/Celagram"
+
+[[repo]]
+url = "https://github.com/aphlatova/Sending-CELO-and-cUSD"
+
+[[repo]]
+url = "https://github.com/sudo-vaibhav/celo2g"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-replit-hello-celo"
+
+[[repo]]
+url = "https://github.com/Ubeswap/hardhat-celo"
+
+[[repo]]
+url = "https://github.com/ChorusOne/celo-cosmos-bridge"
+
+[[repo]]
+url = "https://github.com/WisangAnggoro/CeloContractDeploy"
+
+[[repo]]
+url = "https://github.com/d-mooers/CeloPunkFarm"
+
+[[repo]]
+url = "https://github.com/codyborn/CeloSnapFilters"
+
+[[repo]]
+url = "https://github.com/reachjason/celo-developer-tools-list"
+
+[[repo]]
+url = "https://github.com/jcosta1234/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/critesjosh/celo-burner-alfa"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-configuration"
+
+[[repo]]
+url = "https://github.com/reachjason/celo-ecosystem"
+
+[[repo]]
+url = "https://github.com/AllanM007/celo-dapp"
+
+[[repo]]
+url = "https://github.com/LeafGlobalFintech/celo_hello_world"
+
+[[repo]]
+url = "https://github.com/LeafGlobalFintech/celo_smartcontract_forno"
+
+[[repo]]
+url = "https://github.com/JoE11-y/web_dapp"
+
+[[repo]]
+url = "https://github.com/CaptainVarun/helloCelo"
+
+[[repo]]
+url = "https://github.com/celo-org/brand"
+
+[[repo]]
+url = "https://github.com/swatistealth004/celorepo"
+
+[[repo]]
+url = "https://github.com/multiplycharity/celo-bridge"
+
+[[repo]]
+url = "https://github.com/Harold-Kinet/celo-d-event"
+
+[[repo]]
+url = "https://github.com/Celo-ecosystem/celo-ecosystem.github.io"
+
+[[repo]]
+url = "https://github.com/helpicelo/hardhat-celo"
+
+[[repo]]
+url = "https://github.com/TessellatedGeometry/celo-monitor-serverless"
+
+[[repo]]
+url = "https://github.com/ummiye/celo-badge"
+
+[[repo]]
+url = "https://github.com/usnggogogo/celo-stake-off.md"
+
+[[repo]]
+url = "https://github.com/coinoceros/celo-beginner"
+
+[[repo]]
+url = "https://github.com/ashishb/celo-notes"
+
+[[repo]]
+url = "https://github.com/Blockdaemon/bpm-celo"
+
+[[repo]]
+url = "https://github.com/Mkungusi/Celo-Contract"
+
+[[repo]]
+url = "https://github.com/aslawson/my-first-subgraph"
+
+[[repo]]
+url = "https://github.com/BEYOND-Ewha-Yonsei/Celo_Docs_KOR"
+
+[[repo]]
+url = "https://github.com/celo-org/typechain-target-web3-v1-celo"
+
+[[repo]]
+url = "https://github.com/barbaraliau/celo-docs"
+
+[[repo]]
+url = "https://github.com/joenyzio/assets"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-replit-simple-token"
+
+[[repo]]
+url = "https://github.com/g2entgroup/celo-contracts"
+
+[[repo]]
+url = "https://github.com/eli-d/celo-dev-feedback"
+
+[[repo]]
+url = "https://github.com/aaronwinter/replay-celo-bug"
+
+[[repo]]
+url = "https://github.com/infibridge/browser-extension-wallet"
+
+[[repo]]
+url = "https://github.com/yestech/celow"
+
+[[repo]]
+url = "https://github.com/legalfabdotcom/celocamp"
+
+[[repo]]
+url = "https://github.com/conclave-dev/celoist"
+
+[[repo]]
+url = "https://github.com/cmdzro/celocli"
+
+[[repo]]
+url = "https://github.com/JoE11-y/Event-planer-web-dapp"
+
+[[repo]]
+url = "https://github.com/PhoenixTechAfrica/celodapp"
+
+[[repo]]
+url = "https://github.com/zviadm/celogovernance"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-replit-change-owner"
+
+[[repo]]
+url = "https://github.com/kondica/celocamp"
+
+[[repo]]
+url = "https://github.com/astarinmymind/celobounties"
+
+[[repo]]
+url = "https://github.com/critesjosh/celo-wc-demo"
+
+[[repo]]
+url = "https://github.com/JustineUgo/celobet"
+
+[[repo]]
+url = "https://github.com/TruStartUp/celodemo"
+
+[[repo]]
+url = "https://github.com/pgold/celophane"
+
+[[repo]]
+url = "https://github.com/ogSuccess/celocharity"
+
+[[repo]]
+url = "https://github.com/ianmunge0/celolearnpathway"
+
+[[repo]]
+url = "https://github.com/doafab/celocamp"
+
+[[repo]]
+url = "https://github.com/AlexBHarley/celofaq"
+
+[[repo]]
+url = "https://github.com/TruStartUp/celoapi"
+
+[[repo]]
+url = "https://github.com/forbole/big-dipper-celo-client"
+
+[[repo]]
+url = "https://github.com/blockchainone-dwater/celocamp"
+
+[[repo]]
+url = "https://github.com/chainwikinet/wikijs-celo-content"
+
+[[repo]]
+url = "https://github.com/Biscoint/celo-spv"
+
+[[repo]]
+url = "https://github.com/conclave-dev/celo-proposer"
+
+[[repo]]
+url = "https://github.com/critesjosh/hello_celo"
+
+[[repo]]
+url = "https://github.com/jessefriend/sendCELOTokens"
+
+[[repo]]
+url = "https://github.com/nambrot/celo-metadata"
+
+[[repo]]
+url = "https://github.com/wahyu243/HelloCelo"
+
+[[repo]]
+url = "https://github.com/gabrielfior/celo-hackathon"
+
+[[repo]]
+url = "https://github.com/AlexBHarley/celo-lottery"
+
+[[repo]]
+url = "https://github.com/yash-sharma1/celo-tutorial"
+
+[[repo]]
+url = "https://github.com/nobody9647/celo-learn"
+
+[[repo]]
+url = "https://github.com/valora-inc/celo-tracker"
+
+[[repo]]
+url = "https://github.com/Promise-Protocol/celo-credit"
+
+[[repo]]
+url = "https://github.com/critesjosh/celo-transak"
+
+[[repo]]
+url = "https://github.com/pretoria-research-lab/celo-cauldron"
+
+[[repo]]
+url = "https://github.com/mohammad/celo-validator"
+
+[[repo]]
+url = "https://github.com/nestorbonilla/celo-template"
+
+[[repo]]
+url = "https://github.com/trianglesphere/celo-pay"
+
+[[repo]]
+url = "https://github.com/hspen4/celo-feedback"
+
+[[repo]]
+url = "https://github.com/BEYOND-Ewha-Yonsei/Celo_Tutorials"
+
+[[repo]]
+url = "https://github.com/crispymangoes/helloCelo"
+
+[[repo]]
+url = "https://github.com/cmdzro/celo-test"
+
+[[repo]]
+url = "https://github.com/devarellin/celo-boilerplate"
+
+[[repo]]
+url = "https://github.com/Proteensheykh/Hello-Celo"
+
+[[repo]]
+url = "https://github.com/naaa187/celo-dappkit"
+
+[[repo]]
+url = "https://github.com/yoandresaav/celo-crowdfunding"
+
+[[repo]]
+url = "https://github.com/cult-leader-en/celo-figment"
+
+[[repo]]
+url = "https://github.com/yeabu369/testing-celo"
+
+[[repo]]
+url = "https://github.com/Tahlil/celo-kickstarter"
+
+[[repo]]
+url = "https://github.com/critesjosh/gitpod-test"
+
+[[repo]]
+url = "https://github.com/iscke/celo-writeup"
+
+[[repo]]
+url = "https://github.com/ubinix-warun/celo-metacoin"
+
+[[repo]]
+url = "https://github.com/magiclabs/example-celo"
+
+[[repo]]
+url = "https://github.com/hcote/example-celo"
+
+[[repo]]
+url = "https://github.com/norens/celo_example"
+
+[[repo]]
+url = "https://github.com/lopeselio/Celo-YBlockchain"
+
+[[repo]]
+url = "https://github.com/bowd/celo-onboarding"
+
+[[repo]]
+url = "https://github.com/catimmins/celo-feedback"
 
 [[repo]]
 url = "https://github.com/AktaryTech/celosquares-contracts"
 
 [[repo]]
-url = "https://github.com/Light-Ideas-Labs/citizen-mobile"
+url = "https://github.com/Inosuke200/CELO-CAMP"
+
+[[repo]]
+url = "https://github.com/jiyuu-jin/celo-dapp"
+
+[[repo]]
+url = "https://github.com/edmonddoan/helloCelo"
+
+[[repo]]
+url = "https://github.com/AlexBHarley/celo-token"
+
+[[repo]]
+url = "https://github.com/iamochuko/celo-badge"
+
+[[repo]]
+url = "https://github.com/samirabis/kudos-celo"
+
+[[repo]]
+url = "https://github.com/fffrrreeegithub/helloCelo"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/celo-voting"
+
+[[repo]]
+url = "https://github.com/ahayder/celo-crowd"
+
+[[repo]]
+url = "https://github.com/kotani254/celo-camp"
+
+[[repo]]
+url = "https://github.com/m-chrzan/celo-metadata"
+
+[[repo]]
+url = "https://github.com/paychant/celo-merchant"
+
+[[repo]]
+url = "https://github.com/jeamick/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/MugglePay/celo-toolkit"
+
+[[repo]]
+url = "https://github.com/Bijan-Massoumi/Celo-Scripts"
+
+[[repo]]
+url = "https://github.com/abellinii/celo-defi"
+
+[[repo]]
+url = "https://github.com/kcelestinomaria/Tenderbox-Celo"
+
+[[repo]]
+url = "https://github.com/AlexBHarley/celo-walletconnect"
+
+[[repo]]
+url = "https://github.com/mananmonga/celo_testing"
+
+[[repo]]
+url = "https://github.com/redstone-finance/komodo-celo"
+
+[[repo]]
+url = "https://github.com/zviadm/celo-hellocontracts"
+
+[[repo]]
+url = "https://github.com/priyanshiiit/Celo-Transactions"
+
+[[repo]]
+url = "https://github.com/edwardtay/celo-memes"
+
+[[repo]]
+url = "https://github.com/azizyano/celo-spin"
+
+[[repo]]
+url = "https://github.com/Parallax18/celo-news"
+
+[[repo]]
+url = "https://github.com/siovanus/celo-ontid"
+
+[[repo]]
+url = "https://github.com/conclave-dev/celoist-backend"
+
+[[repo]]
+url = "https://github.com/1baga/celo-listener"
+
+[[repo]]
+url = "https://github.com/antisaa/celo-tutorial"
+
+[[repo]]
+url = "https://github.com/AktaryTech/celosquares-server"
+
+[[repo]]
+url = "https://github.com/deepakhb2/celo-dev"
+
+[[repo]]
+url = "https://github.com/RobertsOrleans/Flask_Celojumi"
+
+[[repo]]
+url = "https://github.com/saharshagrawal/celo_baf"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-status"
+
+[[repo]]
+url = "https://github.com/chainlayer/celo-checksigs"
+
+[[repo]]
+url = "https://github.com/stasmytarov/celo-node"
+
+[[repo]]
+url = "https://github.com/reachjason/celo-fullstack"
+
+[[repo]]
+url = "https://github.com/priyanshiiit/Celo-Dappkit"
+
+[[repo]]
+url = "https://github.com/aadorian/Celo_Truffle"
+
+[[repo]]
+url = "https://github.com/WisangAnggoro/HelloCelo"
+
+[[repo]]
+url = "https://github.com/buidl-labs/celo-indexer"
+
+[[repo]]
+url = "https://github.com/MohinishTeja/celo_project"
+
+[[repo]]
+url = "https://github.com/critesjosh/celo-hardhat"
+
+[[repo]]
+url = "https://github.com/Celinho069/teste-celo"
+
+[[repo]]
+url = "https://github.com/ignatiusnata/celo-frontend"
+
+[[repo]]
+url = "https://github.com/heymate-works/Celo-integration"
+
+[[repo]]
+url = "https://github.com/AlexBHarley/celo-tools"
+
+[[repo]]
+url = "https://github.com/bkimotho/celo-memes"
+
+[[repo]]
+url = "https://github.com/idekel/celo_sdk"
+
+[[repo]]
+url = "https://github.com/figment-networks/celo-indexer"
+
+[[repo]]
+url = "https://github.com/w3mone/celo-pathway"
+
+[[repo]]
+url = "https://github.com/critesjosh/celo-memes"
+
+[[repo]]
+url = "https://github.com/Bild96/helloCelo"
+
+[[repo]]
+url = "https://github.com/raulfraile/celo-memes"
+
+[[repo]]
+url = "https://github.com/Glr17/celo-usd"
+
+[[repo]]
+url = "https://github.com/tuff-knight/celo-tutorials"
+
+[[repo]]
+url = "https://github.com/enopeters/Celo-crowdfunding"
+
+[[repo]]
+url = "https://github.com/critesjosh/celo_coins"
+
+[[repo]]
+url = "https://github.com/Tahlil/hardhat-celo"
+
+[[repo]]
+url = "https://github.com/figment-networks/celo-proxy"
+
+[[repo]]
+url = "https://github.com/ChorusOne/Icarus"
+
+[[repo]]
+url = "https://github.com/Kite-Financial/celo-demo"
+
+[[repo]]
+url = "https://github.com/fakecoinbase/celo-orgslashrosetta"
 
 [[repo]]
 url = "https://github.com/AktaryTech/celosquares-frontend"
 
 [[repo]]
-url = "https://github.com/AktaryTech/celosquares-server"
+url = "https://github.com/Abbracx/celo-trustfund"
+
+[[repo]]
+url = "https://github.com/victorfrancax1/celo-tutorial"
+
+[[repo]]
+url = "https://github.com/manticorevault/celo_network"
+
+[[repo]]
+url = "https://github.com/mkaczanowski/celo-bridge"
+
+[[repo]]
+url = "https://github.com/Sam-Devs/Celo-Client"
+
+[[repo]]
+url = "https://github.com/jlh1186/Celos-Marketplace-"
+
+[[repo]]
+url = "https://github.com/wpranata/CELO-TEST"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-number-storage"
+
+[[repo]]
+url = "https://github.com/thelazyceo1/duniaxcelo"
+
+[[repo]]
+url = "https://github.com/Asvoria/celo_kuneko_gitcoin_kudos_badge_fun"
+
+[[repo]]
+url = "https://github.com/rcroessmann/my-celo-sdk-py"
+
+[[repo]]
+url = "https://github.com/valora-inc/indexer"
+
+[[repo]]
+url = "https://github.com/block-m3/BlockM3.Nethereum.Celo"
+
+[[repo]]
+url = "https://github.com/LeastAuthority/plumo-zexe"
+
+[[repo]]
+url = "https://github.com/mul1sh/mars"
+
+[[repo]]
+url = "https://github.com/jcortejoso/celo-blockchain-test-operator"
+
+[[repo]]
+url = "https://github.com/sandymandy12/tool-rental-celo"
+
+[[repo]]
+url = "https://github.com/anranga95/cpwa"
+
+[[repo]]
+url = "https://github.com/JoE11-y/Auction-dapp"
+
+[[repo]]
+url = "https://github.com/Bloinx/bloinx-mobile"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-replit-simple-wallet"
+
+[[repo]]
+url = "https://github.com/JoE11-y/Multi-Sig-Wallet-Celo"
+
+[[repo]]
+url = "https://github.com/osas2211/Pet-Shop"
+
+[[repo]]
+url = "https://github.com/alexreyes/Celo-Crowdfunding-Tutorial-2"
+
+[[repo]]
+url = "https://github.com/kabir-kapur/cRES"
+
+[[repo]]
+url = "https://github.com/celowsky/BayesNetPlayer_celowsky"
+
+[[repo]]
+url = "https://github.com/dacarva/AgroCity-Celo-landing"
+
+[[repo]]
+url = "https://github.com/AlexBHarley/celo-metadata-repository"
+
+[[repo]]
+url = "https://github.com/electrone901/celo-lawyerApp"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-bls-go-windows"
+
+[[repo]]
+url = "https://github.com/Teuul/celo-exchange-subgraph"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-bls-go-linux"
+
+[[repo]]
+url = "https://github.com/matiasbn/celo-contractkit-to-api"
+
+[[repo]]
+url = "https://github.com/chews/ZapoteMachine"
+
+[[repo]]
+url = "https://github.com/chanceDira/Street-Food-Kigali"
+
+[[repo]]
+url = "https://github.com/centfinance/Symmetric.MiningScript-celo"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-replit-simple-supply-chain"
+
+[[repo]]
+url = "https://github.com/brunocarvalho7/exemploCeloCardoso"
+
+[[repo]]
+url = "https://github.com/jackdfields/celo-learn-to-send"
+
+[[repo]]
+url = "https://github.com/Aidandedecker/Celo-full-node-"
+
+[[repo]]
+url = "https://github.com/moritzfelipe/celo-boilerplate-web-dapp"
+
+[[repo]]
+url = "https://github.com/celosad-lab/celosad-lab.github.io"
+
+[[repo]]
+url = "https://github.com/kobigurk/celo-bls-go-wrapper"
+
+[[repo]]
+url = "https://github.com/Shard-Labs/celo-ganache-monorepo"
+
+[[repo]]
+url = "https://github.com/lqlrock/Celo-Dapp-Development-001"
+
+[[repo]]
+url = "https://github.com/Abbracx/celo-marketplace-dapp"
+
+[[repo]]
+url = "https://github.com/coinoceros/celo-intermediate-1"
+
+[[repo]]
+url = "https://github.com/anhnt4288/celo-smart-contract-basic"
+
+[[repo]]
+url = "https://github.com/protofire/chainlink-celo-node"
+
+[[repo]]
+url = "https://github.com/Teuul/celo-reserve-subgraph"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-hardhat-number-storage"
+
+[[repo]]
+url = "https://github.com/nestorbonilla/celo-leccion-transacciones"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-social-network"
+
+[[repo]]
+url = "https://github.com/anhnt4288/celo-marketplace-dapp-basic"
+
+[[repo]]
+url = "https://github.com/vitwit/celo-alert-bot"
+
+[[repo]]
+url = "https://github.com/sudo-vaibhav/celo-india-fellowship-playground"
+
+[[repo]]
+url = "https://github.com/ced000/celo-web-dapp"
+
+[[repo]]
+url = "https://github.com/magiclabs/example-celo-guide-rn"
+
+[[repo]]
+url = "https://github.com/murilooon/celo-smart-contract"
+
+[[repo]]
+url = "https://github.com/iamochuko/hello_contract-celo-truffle"
+
+[[repo]]
+url = "https://github.com/TheCeloReis/TheCeloReis"
+
+[[repo]]
+url = "https://github.com/kharioki/Celo_Marketplace_DApp"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-ledger-token-data"
+
+[[repo]]
+url = "https://github.com/NAKsir-melody/hw-app-eth-celo"
+
+[[repo]]
+url = "https://github.com/hary49/celo-memes-hary"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-hardhat-simple-nft"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-tic-tac-toe"
+
+[[repo]]
+url = "https://github.com/Celontro/celontro.github.io"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-bls-go-android"
+
+[[repo]]
+url = "https://github.com/alexreyes/figment_celo_tutorials"
+
+[[repo]]
+url = "https://github.com/aglamadrid19/celo-sc-dev"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-replit-counter"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-truffle-change-owner"
+
+[[repo]]
+url = "https://github.com/Alphonce-Mutebi/react-magic-celo-wallet"
+
+[[repo]]
+url = "https://github.com/dexfair/celo-web-signer"
+
+[[repo]]
+url = "https://github.com/Jordan-type/Celo-Camp-USSD-Ubricoin"
+
+[[repo]]
+url = "https://github.com/critesjosh/celo-walletconnect-test"
+
+[[repo]]
+url = "https://github.com/V2dha/Celo-Health-Records"
+
+[[repo]]
+url = "https://github.com/Abbracx/celo-trust-dapp"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-bls-go-other"
+
+[[repo]]
+url = "https://github.com/Into-The-Verse/Dungeon-Hunt-Celo"
+
+[[repo]]
+url = "https://github.com/RAWcom/V2.Celonpharma"
+
+[[repo]]
+url = "https://github.com/moritzfelipe/celo-development-101-data"
+
+[[repo]]
+url = "https://github.com/AlexBHarley/celo-web3modal"
+
+[[repo]]
+url = "https://github.com/prestwich/celo-metamask-page"
+
+[[repo]]
+url = "https://github.com/jshprz/send-celo-and-cusd"
+
+[[repo]]
+url = "https://github.com/edwardtay/deploy-celo-contract"
+
+[[repo]]
+url = "https://github.com/hcote/example-celo-rn"
+
+[[repo]]
+url = "https://github.com/Teuul/celo-lockedgold-subgraph"
+
+[[repo]]
+url = "https://github.com/Ruthbuhriah/celo-swap-test"
+
+[[repo]]
+url = "https://github.com/MaxMohammadi/Celo-For-Dummies"
+
+[[repo]]
+url = "https://github.com/aglamadrid19/celo-helpi-interface"
+
+[[repo]]
+url = "https://github.com/anhnt4288/celo-gym-shop"
+
+[[repo]]
+url = "https://github.com/anhnt4288/send-celo-cusd-basic"
+
+[[repo]]
+url = "https://github.com/Mutugiii/celo_intro_dApp"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-hardhat-simple-wallet"
+
+[[repo]]
+url = "https://github.com/alchemydc/celo-network-monitor"
+
+[[repo]]
+url = "https://github.com/buidl-labs/celo-voting-validator-backend"
+
+[[repo]]
+url = "https://github.com/alexreyes/Celo-Crowdfunding-Tutorial-3"
+
+[[repo]]
+url = "https://github.com/dacadeorg/celo-development-101"
+
+[[repo]]
+url = "https://github.com/Teuul/celo-escrow-subgraph"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-replit-simple-nft"
+
+[[repo]]
+url = "https://github.com/Alphonce-Mutebi/celo-smart-contracts"
+
+[[repo]]
+url = "https://github.com/nambrot/ethers-celo-ledger"
+
+[[repo]]
+url = "https://github.com/alexreyes/Testing-With-Celo"
+
+[[repo]]
+url = "https://github.com/alexreyes/Celo-Deploying-With-Truffle"
+
+[[repo]]
+url = "https://github.com/critesjosh/celo-metamask-connection"
+
+[[repo]]
+url = "https://github.com/aglamadrid19/celo-sc-deploy"
+
+[[repo]]
+url = "https://github.com/maxx6262/celo-send-bounty1"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-bls-go-ios"
+
+[[repo]]
+url = "https://github.com/barbaraliau/celo-dapp-example"
+
+[[repo]]
+url = "https://github.com/Ubeswap/celo-utility-contracts"
+
+[[repo]]
+url = "https://github.com/ChainSafe/chainbridge-celo-module"
+
+[[repo]]
+url = "https://github.com/Alex-Neo-Projects/Coperacha-app"
+
+[[repo]]
+url = "https://github.com/Jordan-type/USSD-Celo-Ubricoin-Contracts"
+
+[[repo]]
+url = "https://github.com/TeggerDLTInc/tgr-celo-challenge"
+
+[[repo]]
+url = "https://github.com/alexreyes/Celo-Crowdfunding-Tutorial"
+
+[[repo]]
+url = "https://github.com/alchemydc/zanshindojo"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-bls-go-macos"
+
+[[repo]]
+url = "https://github.com/AndersonMelo123/Work4me-Celo"
+
+[[repo]]
+url = "https://github.com/nambrot/celo-addr-gen"
+
+[[repo]]
+url = "https://github.com/daoauth/celo-metamask-signer-sample"
+
+[[repo]]
+url = "https://github.com/celo-tipbot/celo-github-bot"
+
+[[repo]]
+url = "https://github.com/LeastAuthority/celo-bls-snark-rs"
+
+[[repo]]
+url = "https://github.com/lordvins226/my-first-celo-app"
+
+[[repo]]
+url = "https://github.com/ivanmolto/celo-mobile-defi-tutorial"
+
+[[repo]]
+url = "https://github.com/TrustWorksIo/celo-works-wallet"
+
+[[repo]]
+url = "https://github.com/Teuul/celo-election-subgraph"
+
+[[repo]]
+url = "https://github.com/devmdavidson/Celo-IPFS-image-Gallery"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-truffle-counter"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-hardhat-simple-token"
+
+[[repo]]
+url = "https://github.com/SamuelWanyoike/USSD-Celo-Ubricoin-Contracts"
+
+[[repo]]
+url = "https://github.com/conclave-dev/celo-social-backend"
+
+[[repo]]
+url = "https://github.com/dsrvlabs/celo-extension-wallet-usage"
+
+[[repo]]
+url = "https://github.com/moritzfelipe/celo-01-course-content"
+
+[[repo]]
+url = "https://github.com/kobigurk/celo-bls-go-darwin"
+
+[[repo]]
+url = "https://github.com/Teuul/celo-governance-subgraph"
+
+[[repo]]
+url = "https://github.com/Tero-Labs/moola-scan-celo-blockchain"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-truffle-coin"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-replit-coin"
+
+[[repo]]
+url = "https://github.com/matiasbn/celo-contracts-js-signing"
+
+[[repo]]
+url = "https://github.com/LimeChain/celo-tickets-playground"
+
+[[repo]]
+url = "https://github.com/Thendog26/celo-ethdev-feedback"
+
+[[repo]]
+url = "https://github.com/celo-org/release-celo-deployments-19"
+
+[[repo]]
+url = "https://github.com/helpicelo/celo-ledger-bridge-keyring"
+
+[[repo]]
+url = "https://github.com/IMEF-FEMI/Dacade-Celo-course"
+
+[[repo]]
+url = "https://github.com/AlexBHarley/celo-wallet-lite"
+
+[[repo]]
+url = "https://github.com/CyprianTinasheAarons/Sending-celo-and-cusd"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-truffle-number-storage"
+
+[[repo]]
+url = "https://github.com/critesjosh/celo-contracts-workshop"
+
+[[repo]]
+url = "https://github.com/eldoradoio/celo-accounts-subgraph"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-full-stack"
+
+[[repo]]
+url = "https://github.com/gastonponti/celo-recovery-wallet-contract"
+
+[[repo]]
+url = "https://github.com/SergeWilfried/erc20-celo"
+
+[[repo]]
+url = "https://github.com/fakecoinbase/celo-orgslashcelo-blockchain"
+
+[[repo]]
+url = "https://github.com/goods-and-services/Celo-Validation-Scripts"
+
+[[repo]]
+url = "https://github.com/alexreyes/Celo-cUSD-tutorial"
+
+[[repo]]
+url = "https://github.com/david-trustworks/celo-works-wallet"
+
+[[repo]]
+url = "https://github.com/sudo-vaibhav/celo-push-notification-service"
+
+[[repo]]
+url = "https://github.com/Mlhozgr/DeploySmartContractOnCelo"
+
+[[repo]]
+url = "https://github.com/alexreyes/Celo-NFT-Tutorial-Part2"
+
+[[repo]]
+url = "https://github.com/buidl-labs/celo-vg-voting-tool-frontend"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-validator-signer-app"
+
+[[repo]]
+url = "https://github.com/prin-r/Synthetic-stock-app-on-Celo"
+
+[[repo]]
+url = "https://github.com/bdev07/celo-contract-from-ethereum-tutorial"
+
+[[repo]]
+url = "https://github.com/Alphonce-Mutebi/magic-x-celo-react-native"
+
+[[repo]]
+url = "https://github.com/girishnuli/infibridge-extension-wallet"
+
+[[repo]]
+url = "https://github.com/celopad/contract"
+
+[[repo]]
+url = "https://github.com/mantalabs/proxy-informer"
+
+[[repo]]
+url = "https://github.com/JadamsGameDev/RestAPICeloTest"
+
+[[repo]]
+url = "https://github.com/duniapay/contactkit"
+
+[[repo]]
+url = "https://github.com/DigitalTeamMDT/EduCoin"
+
+[[repo]]
+url = "https://github.com/Unikha/unikha-service"
+
+[[repo]]
+url = "https://github.com/Open-C/Minima"
+
+[[repo]]
+url = "https://github.com/Frankie971121/finalYearProject"
+
+[[repo]]
+url = "https://github.com/Sameerkash/FundMeCoin"
+
+[[repo]]
+url = "https://github.com/Aidandedecker/Setting-up-a-Celo-full-node-"
+
+[[repo]]
+url = "https://github.com/H34D/celo-release-gold-deployments-1b"
+
+[[repo]]
+url = "https://github.com/joenyzio/celo-deploy-a-contract-local-node"
+
+[[repo]]
+url = "https://github.com/helpicelo/helpi-token"
+
+[[repo]]
+url = "https://github.com/Kukuza/kukuza-v1-core"
+
+[[repo]]
+url = "https://github.com/critesjosh/contractkit-demo"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-ledger-spender-app-w-docker-build-tools"
+
+[[repo]]
+url = "https://github.com/Stojmilova/ASP.NET-ToDoApp-Reworked-N-Tier-Celosna"
+
+[[repo]]
+url = "https://github.com/celo-org/blind-threshold-bls-neon"
+
+[[repo]]
+url = "https://github.com/Stephl2/https-github.com-dacadeorg-celo-boilerplate-web-dapp"
+
+[[repo]]
+url = "https://github.com/joigno/blockchain-fees-simulator"
+
+[[repo]]
+url = "https://github.com/Kukuza/kukuza-interface"
+
+[[repo]]
+url = "https://github.com/ysongh/Reservation-NFT"
+
+[[repo]]
+url = "https://github.com/aryzle/paadna"
+
+[[repo]]
+url = "https://github.com/Favour-dgreat/Gymnaseum"
+
+[[repo]]
+url = "https://github.com/gabrieladeniji/forwarder_factory"
+
+[[repo]]
+url = "https://github.com/King-Steve-Kuria/DApp"
+
+[[repo]]
+url = "https://github.com/poppinfresch/Case_Study_Valora"
+
+[[repo]]
+url = "https://github.com/mantalabs/proxy-init"
+
+[[repo]]
+url = "https://github.com/Tero-Labs/smart-contract-demo"
+
+[[repo]]
+url = "https://github.com/frankiefab100/Smart-Contract-Market"
+
+[[repo]]
+url = "https://github.com/alecps/ValidatorGroupDAO"
+
+[[repo]]
+url = "https://github.com/naaa187/dappkit"
+
+[[repo]]
+url = "https://github.com/kharioki/Voting-DApp"
+
+[[repo]]
+url = "https://github.com/GoodnessEzeokafor/bitmama-enterprise-nodesdk"
+
+[[repo]]
+url = "https://github.com/Kukuza/kukuza-website"
+
+[[repo]]
+url = "https://github.com/KampusVire/HackNPitch_TitanicX_KampusVire"
+
+[[repo]]
+url = "https://github.com/ced000/Cwitch"
+
+[[repo]]
+url = "https://github.com/t-phoenix/tokenshop"
+
+[[repo]]
+url = "https://github.com/bdab-x/Gold-Souk"
+
+[[repo]]
+url = "https://github.com/tokensoft/wrapped-tokenlist"
+
+[[repo]]
+url = "https://github.com/dsrvlabs/celo-extension-wallet"
+
+[[repo]]
+url = "https://github.com/poofcash/poof-core"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-dappkit"
+
+[[repo]]
+url = "https://github.com/usersolidity/website"
+
+[[repo]]
+url = "https://github.com/bernstagram/celo-datasets"
+
+[[repo]]
+url = "https://github.com/mrsmkl/celo-proposals"
+
+[[repo]]
+url = "https://github.com/spector-in-london/celo-monitoring"
+
+[[repo]]
+url = "https://github.com/alphavirtual/celo-monitoring"
+
+[[repo]]
+url = "https://github.com/daoauth/celo-proposals"
+
+[[repo]]
+url = "https://github.com/seungwon2/Mark-at"
+
+[[repo]]
+url = "https://github.com/Jumper7969/celo-proposals"
+
+[[repo]]
+url = "https://github.com/djleraul/governance"
+
+[[repo]]
+url = "https://github.com/marceljay/celo-proposals"
+
+[[repo]]
+url = "https://github.com/soohyun99/Celo-hackathon"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/Dao-Dapp"
+
+[[repo]]
+url = "https://github.com/spector-in-london/celo-proposals"
+
+[[repo]]
+url = "https://github.com/spector-in-london/governance"
+
+[[repo]]
+url = "https://github.com/luisgj/governance"
+
+[[repo]]
+url = "https://github.com/silasbw/CIPs"
+
+[[repo]]
+url = "https://github.com/malikankit/celo-proposals"
+
+[[repo]]
+url = "https://github.com/qkrybin/Celo-hackathon"
+
+[[repo]]
+url = "https://github.com/dukejones/celo-proposals"
+
+[[repo]]
+url = "https://github.com/viktorbunin/celo-proposals"
+
+[[repo]]
+url = "https://github.com/pkrasam/celo-proposals"
+
+[[repo]]
+url = "https://github.com/bcamacho/celo-burner-alfa"
+
+[[repo]]
+url = "https://github.com/anhnt4288/Dao-Dapp"
+
+[[repo]]
+url = "https://github.com/zviadm/CIPs"
+
+[[repo]]
+url = "https://github.com/smartfreelancing/duniapaycelowallet"
+
+[[repo]]
+url = "https://github.com/YazzyYaz/celostats-server"
+
+[[repo]]
+url = "https://github.com/mkaczanowski/celo-proposals"
+
+[[repo]]
+url = "https://github.com/usersolidity/celostats-server"
+
+[[repo]]
+url = "https://github.com/jcortejoso/celostats-server"
+
+[[repo]]
+url = "https://github.com/0x3bfc/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/conclave-dev/celo-proposals"
+
+[[repo]]
+url = "https://github.com/Pinotio/celo-proposals"
+
+[[repo]]
+url = "https://github.com/rcroessmann/governance"
+
+[[repo]]
+url = "https://github.com/m-chrzan/governance"
+
+[[repo]]
+url = "https://github.com/naoba108/governance"
+
+[[repo]]
+url = "https://github.com/soohyun99/Mark-at"
+
+[[repo]]
+url = "https://github.com/hashcloak/celo-proposals"
+
+[[repo]]
+url = "https://github.com/BubblyOrca/celo-proposals"
+
+[[repo]]
+url = "https://github.com/dexfair/celo-proposals"
+
+[[repo]]
+url = "https://github.com/joe-bowman/celo-proposals"
+
+[[repo]]
+url = "https://github.com/moolamarket/celo-proposals"
+
+[[repo]]
+url = "https://github.com/SergeWilfried/Mark-at"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-monitoring"
+
+[[repo]]
+url = "https://github.com/marekolszewski/CIPs"
+
+[[repo]]
+url = "https://github.com/naaa187/Celo-hackathon"
+
+[[repo]]
+url = "https://github.com/LetzBake/celo-monitoring"
+
+[[repo]]
+url = "https://github.com/critesjosh/celo-docs"
+
+[[repo]]
+url = "https://github.com/gunray88/celo-proposals"
+
+[[repo]]
+url = "https://github.com/alchemydc/celo-proposals"
+
+[[repo]]
+url = "https://github.com/twoshark/celo-proposals"
+
+[[repo]]
+url = "https://github.com/yorhodes/governance"
+
+[[repo]]
+url = "https://github.com/martinvol/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/JamesCowling/celo-proposals"
+
+[[repo]]
+url = "https://github.com/MugglePay/celo-proposals"
+
+[[repo]]
+url = "https://github.com/dahnny/Dao-Dapp"
+
+[[repo]]
+url = "https://github.com/AL-S4H3R/new-synthetix-celo"
+
+[[repo]]
+url = "https://github.com/helpicelo/celo-utility-contracts"
+
+[[repo]]
+url = "https://github.com/ericnakagawa/website-1"
+
+[[repo]]
+url = "https://github.com/mrsmkl/kliento"
+
+[[repo]]
+url = "https://github.com/jcortejoso/website"
+
+[[repo]]
+url = "https://github.com/rachmatullahrumbu/eksportisto"
+
+[[repo]]
+url = "https://github.com/spector-in-london/kliento"
+
+[[repo]]
+url = "https://github.com/spector-in-london/eksportisto"
+
+[[repo]]
+url = "https://github.com/sekmet/celo-light-client"
+
+[[repo]]
+url = "https://github.com/GreyHyphen/website"
+
+[[repo]]
+url = "https://github.com/sudo-vaibhav/website"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/Event-planer-web-dapp"
+
+[[repo]]
+url = "https://github.com/L-KH/celo-lotto"
+
+[[repo]]
+url = "https://github.com/BriungRi/celo-extension-wallet"
+
+[[repo]]
+url = "https://github.com/taariq/celo-credit"
+
+[[repo]]
+url = "https://github.com/ChorusOne/celo-validator-monitoring"
+
+[[repo]]
+url = "https://github.com/celo-org/celoterminal"
+
+[[repo]]
+url = "https://github.com/dukejones/celoterminal"
+
+[[repo]]
+url = "https://github.com/Wearoft/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/marktoda/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/mintprotocol/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/gmaf/celo-IAP"
+
+[[repo]]
+url = "https://github.com/fnl-Africa/Tanza-projects"
+
+[[repo]]
+url = "https://github.com/afrknChld/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/Book-Library"
+
+[[repo]]
+url = "https://github.com/blockafrica/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/KimKyungup/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/keep-network/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/BrianMillsJr/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/anustro/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/spector-in-london/simple-address-statistics"
+
+[[repo]]
+url = "https://github.com/crypto-zone/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/aaitor/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/tangz1987/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/joeabbey-anchor/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/redleafolu/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/rileymintable/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/v0nNemizez/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/crezam/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/rachit77/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/diminator/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/natebolam/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/zviadm/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/bitshareslabs/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/kostasp-skg/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/dahnny/Pet-Shop"
+
+[[repo]]
+url = "https://github.com/dqdinh/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/H34D/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/ChainSafe/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/developgo/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/codyborn/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/Yx11xY/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/silasbw/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/spindriftur/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/anhnt4288/tool-rental-celo"
+
+[[repo]]
+url = "https://github.com/innomon/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/malikankit/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/tmptmptmp53451/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/jcortejoso/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/CSP197/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/mnaboka/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/will7455/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/hernandezzapata/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/tdiede/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/cgzhou/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/carlinhocr/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/danielbluegate/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/julien123123/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/waymobetta/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/bcamacho/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/FabijanC/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/emmanuelJet/gamify"
+
+[[repo]]
+url = "https://github.com/redransil/celo-IAP"
+
+[[repo]]
+url = "https://github.com/djflorez/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/pupuhouse/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/piersy/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/dahnny/Book-Library"
+
+[[repo]]
+url = "https://github.com/wargfi/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/hqueue/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/herlew/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/conclave-dev/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/glottologist/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/usersolidity/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/ahamino/celo-IAP"
+
+[[repo]]
+url = "https://github.com/kilic/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/swipswaps/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/alipostaci2001/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/Joseph-Cardwell/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/ced000/Book-Library"
+
+[[repo]]
+url = "https://github.com/Favour-dgreat/Book-Library"
+
+[[repo]]
+url = "https://github.com/abhi0syal/celo-IAP"
+
+[[repo]]
+url = "https://github.com/hackbolaji/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/Blockdaemon/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/toparc077/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/emmanuelJet/celo-voting"
+
+[[repo]]
+url = "https://github.com/BubblyOrca/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/Gauravbhatia1211/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/cenglm/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/juliekhov/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/prestwich/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/lzh37/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/fuzzcorp/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/spector-in-london/hello-celo-contractkit"
+
+[[repo]]
+url = "https://github.com/Thompsonmina/Pet-Shop"
+
+[[repo]]
+url = "https://github.com/zhangwei812/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/KenMan79/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/vslavich/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/cheerhd/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/bowd/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/mobiusAMM/tokenbridge-frontend"
+
+[[repo]]
+url = "https://github.com/fcqjfcqj/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/aaronwinter/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/arnesethiago/celo-IAP"
+
+[[repo]]
+url = "https://github.com/cosmosinnovate/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/NAKsir-melody/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/cla-bel/celo-IAP"
+
+[[repo]]
+url = "https://github.com/ocotopdf/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/mkaczanowski/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/woody-72/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/yvesmessy/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/Enxhi369/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/pshail/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/wrappedfi/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/FresaClub/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/SmartLoan/pineapple-dappkit"
+
+[[repo]]
+url = "https://github.com/secretshardul/react-celo-paywall"
+
+[[repo]]
+url = "https://github.com/critesjosh/hello-celo-graph"
+
+[[repo]]
+url = "https://github.com/mstraka100/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Blockdaemon/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/chrisspanton/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Wendyzhu766/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/LimeChain/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/kphed/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/gastonponti/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/bowd/celo-bls-go"
+
+[[repo]]
+url = "https://github.com/0xruff/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/critesjosh/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/medhakothari/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/tylerlevine/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/jackdfields/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Baystef/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/ReSource-Network/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/cangshu888/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/enopeters/https-Celo-book-charity"
+
+[[repo]]
+url = "https://github.com/dahnny/Multi-Signature-Wallet"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/Multi-Signature-Wallet"
+
+[[repo]]
+url = "https://github.com/szym/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/chris-remus/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/tdrozdovsky/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/krisboit/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/H34D/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/semistrict/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/zviadm/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/BisonDee/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/lucasege/celo-bls-go"
+
+[[repo]]
+url = "https://github.com/wchaering/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/MuckT/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Scorpia83/nfterra-core"
+
+[[repo]]
+url = "https://github.com/piersy/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/dwyfrequency/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/nicowin1992/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/anhnt4288/Multi-Signature-Wallet"
+
+[[repo]]
+url = "https://github.com/SergeWilfried/scaffold-celo"
+
+[[repo]]
+url = "https://github.com/palak2011/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/bgeihsgt/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Kesholabs/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/tangz1987/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/cla-bel/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/robtg4/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/napolean0/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/TessellatedGeometry/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/ShubhamPalriwala/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/nixoid/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/spector-in-london/celo-forkmon"
+
+[[repo]]
+url = "https://github.com/seanwangDAO/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/rleifke/poof-core"
+
+[[repo]]
+url = "https://github.com/3plcoins/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/bcamacho/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/luisgj/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Moshiach770/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/sharppanda/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/shihao-anchor/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Nyakinyua/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/will7455/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/KabbalahOracle/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/rahuldotar/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/viktorbunin/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/carlinhocr/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/keriat/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/dwyfrequency/hello_contract-truffle"
+
+[[repo]]
+url = "https://github.com/TheNewAutonomy/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/yorhodes/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/rahultripathi21/hello_contract-truffle"
+
+[[repo]]
+url = "https://github.com/vmdario/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Nghiavu0709/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Gauravbhatia1211/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/johnmadero/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/foolsmallwhite/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/JupiterM/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/anmoljaiswal076/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/dexfair/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/kcelestinomaria/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Anurupasinha-cmd/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/codyborn/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/matiasbn/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Artazor/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/ArnSch/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/gbunea/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/NeoSPU/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/klyed/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/kevjue/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/lgs/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/GreyHyphen/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/usersolidity/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/fvncent/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Pedro-vk/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/pserg1/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/gonwi/hello_contract-truffle"
+
+[[repo]]
+url = "https://github.com/reachjason/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/conclave-dev/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/alchemydc/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/bcamacho/celo-forkmon"
+
+[[repo]]
+url = "https://github.com/gregv21v/hello_contract-truffle"
+
+[[repo]]
+url = "https://github.com/UltraViolentLight/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/AbdurRahmanMk/moola-scan-celo-blockchain"
+
+[[repo]]
+url = "https://github.com/mercurylit/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/mrsmkl/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/shellygr/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/obernardovieira/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Wearoft/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/censusworks/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/michellewong793/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/mrsmkl/celo-bls-go"
+
+[[repo]]
+url = "https://github.com/nategraf/celo-bls-go"
+
+[[repo]]
+url = "https://github.com/gozder/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/TrustWorksIo/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/twoshark/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/naaa187/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Megoy-Tambayan/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Curve-Labs/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/TebelloX/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/jessarce/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/bharath107/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/diminator/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/marcelotaube/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/khadorkin/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/leojoy95/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/jcortejoso/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/yourcodesucks/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/nestorbonilla/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/sauryap/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/ewilz/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/keir/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/dannywillems/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/sebasaenz/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/marceljay/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/dsrvlabs/eth-account"
+
+[[repo]]
+url = "https://github.com/tincho4t/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/gonwi/celo-datasets"
+
+[[repo]]
+url = "https://github.com/safepayment/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/natebolam/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Alive29/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/toozwu/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/bidalihq/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/k0kk0k/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Shard-Labs/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/pretoria-research-lab/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/0xChanwoo/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/ltfschoen/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/mnaboka/celo-bls-go"
+
+[[repo]]
+url = "https://github.com/tobikuhlmann/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/leetdev/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/nomishdr/hello_contract-truffle"
+
+[[repo]]
+url = "https://github.com/Deepcryptodive/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/BriungRi/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/https-Celo-book-charity"
+
+[[repo]]
+url = "https://github.com/esrdapp/poof-core"
+
+[[repo]]
+url = "https://github.com/fidelanders/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Samuel0X/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/lili2311/lerna-celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Felicious/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/keefertaylor/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/krypt007/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/kvdv80/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/SimplyVC/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/ipelaez-simtlix/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Celo-Works/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/waldyrious/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/RichardBatka/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/crystalshah/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Magixlife/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/adamk72/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/aryzle/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/dadaphl/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/chrisf15/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/ismaelyounger1/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Tjudice/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/sundafa/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Acsill/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/bonham000/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/ADORORG/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/malikankit/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/impactMarket/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/gwongz/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/aaitor/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/barbaraliau/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/pkrasam/celo-monorepo-1"
+
+[[repo]]
+url = "https://github.com/celo-tipbot/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/erazhu31/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/arthurgousset/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/ericnakagawa/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/sharat9211/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/V2dha/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/spruceid/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/marekolszewski/celo-monorepo-1"
+
+[[repo]]
+url = "https://github.com/denissnykio/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/joeabbey/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/MugglePay/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/lahabana/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/hqueue/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/karbafoo/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/berti441/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/soohyun99/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/AGx10k/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/steffenkrogmann/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/bugme-not/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/quantumflight/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/BubblyOrca/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/wargfi/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/jmrossy/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/easy2stake/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/thelazyceo1/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/bitcoinbender/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/air-protocol/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/KotaniLabs/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/dwetterau/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/pranaymohan/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/elopio/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/prasincs/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Dee297/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/patricknbaron/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/gabrielllemic/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/krishangupta/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/bitshareslabs/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/barbaraliau/hello_contract-truffle"
+
+[[repo]]
+url = "https://github.com/rleifke/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/doubleoroos/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/lastperson/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/rootwarp/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-ledger-spender-app-archived"
+
+[[repo]]
+url = "https://github.com/gitteri/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/silasbw/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/amy-jung/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/jaynoel/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/WarFollowsMe/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Certora/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/RafaelMri/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Mikerah/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/alex-m24/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/y3v63n/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/nitaxmx/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/nalandajay/hello_contract-truffle"
+
+[[repo]]
+url = "https://github.com/developerfred/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/girishnuli/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/catimmins/hello_contract-truffle"
+
+[[repo]]
+url = "https://github.com/eelanagaraj/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/BobinMathew/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/willkraft/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/emmanuelJet/celo-book-charity"
+
+[[repo]]
+url = "https://github.com/gtank/celo-bls-go"
+
+[[repo]]
+url = "https://github.com/mreinke1/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Adeniyii/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Sameerkash/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/ashishb/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/pkrasam/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/aaronmgdr/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/bi23com/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Creamers158/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/mnugumanova/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Bambarello/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/djflorez/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/i1skn/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Kisgus/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/joe-bowman/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/kailehok/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Nickeshk/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/Irvine/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/daoauth/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/mattharrop/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/alexandergalitski/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/ErinHales/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/imparag28/hello_contract-truffle-1"
+
+[[repo]]
+url = "https://github.com/sayerrrr/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/deepakhb2/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/V2dha/celo-box"
+
+[[repo]]
+url = "https://github.com/lopeselio/celo-box"
+
+[[repo]]
+url = "https://github.com/lyiriyah/website-celos"
+
+[[repo]]
+url = "https://github.com/mdb1710/helloCelo"
+
+[[repo]]
+url = "https://github.com/mattsse/ethers-rs"
+
+[[repo]]
+url = "https://github.com/pawanjay176/ethers-rs"
+
+[[repo]]
+url = "https://github.com/stephenwalker2020/ethers-rs"
+
+[[repo]]
+url = "https://github.com/jeryaiwei/ethers-rs"
+
+[[repo]]
+url = "https://github.com/Robbiekruszynski/celo-dappkit"
+
+[[repo]]
+url = "https://github.com/anhagape/ethers-rs"
+
+[[repo]]
+url = "https://github.com/AdvaithD/ethers-rs"
+
+[[repo]]
+url = "https://github.com/amonmoce/wallet"
+
+[[repo]]
+url = "https://github.com/BitFlexLABS/BitFLEX-Wallet-"
+
+[[repo]]
+url = "https://github.com/odyslam/ethers-rs"
+
+[[repo]]
+url = "https://github.com/cloudhead/ethers-rs"
+
+[[repo]]
+url = "https://github.com/Ryanmtate/ethers-rs"
+
+[[repo]]
+url = "https://github.com/terryhash/ethers-rs"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/celoshop-dacade"
+
+[[repo]]
+url = "https://github.com/lopeselio/CeloHub"
+
+[[repo]]
+url = "https://github.com/shawnmichaelGT/celo-token-generator"
+
+[[repo]]
+url = "https://github.com/LaplaceKorea/ethers-rs"
+
+[[repo]]
+url = "https://github.com/Jordan-type/celo-dappkit"
+
+[[repo]]
+url = "https://github.com/rauljareno/wallet"
+
+[[repo]]
+url = "https://github.com/shekhirin/ethers-rs"
+
+[[repo]]
+url = "https://github.com/lerencao/ethers-rs"
+
+[[repo]]
+url = "https://github.com/SamWilsn/ethers-rs"
+
+[[repo]]
+url = "https://github.com/TendRer/Celo-Crowdfunding-Tutorial-3"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/gymnaseum-dacade"
+
+[[repo]]
+url = "https://github.com/NimraPro/CeloHub"
+
+[[repo]]
+url = "https://github.com/0xlucius/ethers-rs"
+
+[[repo]]
+url = "https://github.com/corsali/celohub"
+
+[[repo]]
+url = "https://github.com/aidenbenner/ethers-rs"
+
+[[repo]]
+url = "https://github.com/AlexBHarley/wallet"
+
+[[repo]]
+url = "https://github.com/Rust-rs/ethers-rs"
+
+[[repo]]
+url = "https://github.com/bernstagram/celo-etl"
+
+[[repo]]
+url = "https://github.com/alexlee85/ethers-rs"
+
+[[repo]]
+url = "https://github.com/lightclient/ethers-rs"
+
+[[repo]]
+url = "https://github.com/hanyunx/ethers-rs"
+
+[[repo]]
+url = "https://github.com/naaa187/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/nhynes/ethers-rs"
+
+[[repo]]
+url = "https://github.com/auterium/ethers-rs"
+
+[[repo]]
+url = "https://github.com/superjc2017/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/guanqun/ethers-rs"
+
+[[repo]]
+url = "https://github.com/Adebayonew/celoshop-dacade"
+
+[[repo]]
+url = "https://github.com/iqlusioninc/ethers-rs"
+
+[[repo]]
+url = "https://github.com/kobigurk/ethers-rs"
+
+[[repo]]
+url = "https://github.com/tkporter/celo-ethers-wrapper"
+
+[[repo]]
+url = "https://github.com/Joseph-Cardwell/ethers-rs"
+
+[[repo]]
+url = "https://github.com/Ibrahimng/CeloHub"
+
+[[repo]]
+url = "https://github.com/wolflo/ethers-rs"
+
+[[repo]]
+url = "https://github.com/dahnny/crowdfund_dApp"
+
+[[repo]]
+url = "https://github.com/roynalnaruto/ethers-rs-1"
+
+[[repo]]
+url = "https://github.com/anhnt4288/gymnaseum-dacade"
+
+[[repo]]
+url = "https://github.com/azizyano/celo-lotto"
+
+[[repo]]
+url = "https://github.com/kvutien/celo-dappkit"
+
+[[repo]]
+url = "https://github.com/nepoche/ethers-rs"
+
+[[repo]]
+url = "https://github.com/MyEthWorks/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/celo-org/celo-devchain"
+
+[[repo]]
+url = "https://github.com/jierlich/ethers-rs"
+
+[[repo]]
+url = "https://github.com/WilfredTA/ethers-rs"
+
+[[repo]]
+url = "https://github.com/prestwich/ethers-rs"
+
+[[repo]]
+url = "https://github.com/nknganda/kotanipay-USSD"
+
+[[repo]]
+url = "https://github.com/joebalancio/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/aadorian/celo-dappkit"
+
+[[repo]]
+url = "https://github.com/aadorian/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/zk-liangliang/ethers-rs"
+
+[[repo]]
+url = "https://github.com/gelfand/ethers-rs"
+
+[[repo]]
+url = "https://github.com/anhnt4288/crowdfund_dApp"
+
+[[repo]]
+url = "https://github.com/barbaraliau/celo-dappkit"
+
+[[repo]]
+url = "https://github.com/jaketarnow/ethers-rs"
+
+[[repo]]
+url = "https://github.com/1saf/ethers-rs"
+
+[[repo]]
+url = "https://github.com/priyanshiiit/celo-transactions-lesson"
+
+[[repo]]
+url = "https://github.com/andrepiper/wallet"
+
+[[repo]]
+url = "https://github.com/Pedro-vk/wallet"
+
+[[repo]]
+url = "https://github.com/shawnmichaelGT/celo-dappkit"
+
+[[repo]]
+url = "https://github.com/brockelmore/ethers-rs"
+
+[[repo]]
+url = "https://github.com/codyborn/celo-validator-monitoring"
+
+[[repo]]
+url = "https://github.com/savinay1986/ethers-rs"
+
+[[repo]]
+url = "https://github.com/hannydevelop/ethers-rs"
+
+[[repo]]
+url = "https://github.com/soohyun99/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/Sasha-pitch/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/cambricorp/ethers-rs"
+
+[[repo]]
+url = "https://github.com/spruceid/celo-wallet"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/steffenkrogmann/celo-transactions-lesson"
+
+[[repo]]
+url = "https://github.com/codyborn/wallet"
+
+[[repo]]
+url = "https://github.com/lopeselio/celo-transactions-lesson"
+
+[[repo]]
+url = "https://github.com/icyicymev/ethers-rs"
+
+[[repo]]
+url = "https://github.com/shamatar/ethers-rs"
+
+[[repo]]
+url = "https://github.com/aliatiia/ethers-rs"
+
+[[repo]]
+url = "https://github.com/qkrybin/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/echo-sg/celo-dappkit"
+
+[[repo]]
+url = "https://github.com/TheHated1/wallet"
+
+[[repo]]
+url = "https://github.com/sbihel/ethers-rs"
+
+[[repo]]
+url = "https://github.com/userevolution/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/anyawal/ethers-rs"
+
+[[repo]]
+url = "https://github.com/bidalihq/wallet"
+
+[[repo]]
+url = "https://github.com/domsteil/ethers-rs"
+
+[[repo]]
+url = "https://github.com/0xalpharush/ethers-rs"
+
+[[repo]]
+url = "https://github.com/greatnessss/celoshop-dacade"
+
+[[repo]]
+url = "https://github.com/nambrot/celo-ethers-wrapper"
+
+[[repo]]
+url = "https://github.com/LetzBake/celo-validator-monitoring"
+
+[[repo]]
+url = "https://github.com/franono/celo-validator-monitoring"
+
+[[repo]]
+url = "https://github.com/jubos/ethers-rs"
+
+[[repo]]
+url = "https://github.com/austinabell/ethers-rs"
+
+[[repo]]
+url = "https://github.com/ianmunge0/celo-dappkit-pineapple"
+
+[[repo]]
+url = "https://github.com/onbjerg/ethers-rs"
+
+[[repo]]
+url = "https://github.com/xJonathanLEI/ethers-rs"
+
+[[repo]]
+url = "https://github.com/nategraf/wallet"
+
+[[repo]]
+url = "https://github.com/kyledewy/ethers-rs"
+
+[[repo]]
+url = "https://github.com/alecps/celo-wallet"
+
+[[repo]]
+url = "https://github.com/sezu/ethers-rs"
+
+[[repo]]
+url = "https://github.com/darrylyeo/arbo"
+
+[[repo]]
+url = "https://github.com/urashid64/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/ArturVargas/celo-dappkit"
+
+[[repo]]
+url = "https://github.com/gabriellemic/celo-web-wallet"
+
+[[repo]]
+url = "https://github.com/lopeselio/celo-dappkit"
+
+[[repo]]
+url = "https://github.com/ubinix-warun/helloworld-celo-dappkit"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/Celo-crowdfunding"
+
+[[repo]]
+url = "https://github.com/avocadochicken/ethers-rs"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/celo-token-generator"
+
+[[repo]]
+url = "https://github.com/x04/ethers-rs"
+
+[[repo]]
+url = "https://github.com/JeMeSouviens/celo"
+
+[[repo]]
+url = "https://github.com/realbigsean/ethers-rs"
+
+[[repo]]
+url = "https://github.com/KoenBal/celo-monorepo"
+
+[[repo]]
+url = "https://github.com/TumTum23/ethers-rs"
+
+[[repo]]
+url = "https://github.com/RachidaSK/kotanipay-USSD"
+
+[[repo]]
+url = "https://github.com/Favour-dgreat/celoshop-dacade"
+
+[[repo]]
+url = "https://github.com/emmanuelJet/gymnaseum"
+
+[[repo]]
+url = "https://github.com/sanjanak2002/celo-dappkit"
+
+[[repo]]
+url = "https://github.com/sekmet/ethers-rs"
+
+[[repo]]
+url = "https://github.com/GCdePaula/ethers-rs"
+
+[[repo]]
+url = "https://github.com/doytsujin/ethers-rs"
+
+[[repo]]
+url = "https://github.com/georgewhewell/ethers-rs"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/crowdfund_dApp"
+
+[[repo]]
+url = "https://github.com/selemis-organization/ethers-rs"
+
+[[repo]]
+url = "https://github.com/1Chr1s/wallet"
+
+[[repo]]
+url = "https://github.com/jacobkaufmann/ethers-rs"
+
+[[repo]]
+url = "https://github.com/consensuscon/celo-validator-monitoring"
+
+[[repo]]
+url = "https://github.com/steadylearner/ethers-rs"
+
+[[repo]]
+url = "https://github.com/icyicy0/ethers-rs"
+
+[[repo]]
+url = "https://github.com/betty2020/wallet"
+
+[[repo]]
+url = "https://github.com/isgasho/ethers-rs"
+
+[[repo]]
+url = "https://github.com/cajubelt/wallet"
+
+[[repo]]
+url = "https://github.com/webb-tools/ethers-rs"
+
+[[repo]]
+url = "https://github.com/WakalaDAO/wallet"
+
+[[repo]]
+url = "https://github.com/CeloWalletHQ/CeloWallet"
+
+[[repo]]
+url = "https://github.com/0xftrestech/ethers-rs"
+
+[[repo]]
+url = "https://github.com/kobigurk-clabs/ethers-rs"
+
+[[repo]]
+url = "https://github.com/knarz/ethers-rs"
+
+[[repo]]
+url = "https://github.com/Kukuza/wallet"
+
+[[repo]]
+url = "https://github.com/adlerjohn/ethers-rs"
+
+[[repo]]
+url = "https://github.com/ber-gz/ethers-rs"
+
+[[repo]]
+url = "https://github.com/Joera/ethers-rs"
+
+[[repo]]
+url = "https://github.com/sebastinez/ethers-rs"
+
+[[repo]]
+url = "https://github.com/PlaySkyPortal/mobile-defi-hackathon"
+
+[[repo]]
+url = "https://github.com/mahmoudAljaabsi/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/shivanshxyz/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/walterjrey/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/iqbalerani/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/fernandosam/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/codista/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/varunbhalerao56/mobile-defi-hackathon"
+
+[[repo]]
+url = "https://github.com/abellinii/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/CyprianTinasheAarons/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/foxcryptoboss/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/baby636/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/celo-dapp-gofun-room"
+
+[[repo]]
+url = "https://github.com/shaddamciv/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/IKalonji/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/menty44/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/Kapersky1337/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/t-phoenix/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/Omitage/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/NestedFinance/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/fredyteheranto/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/Bayurzx/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/aleksandargolubovic/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/anhnt4288/celo-dapp-gofun-room"
+
+[[repo]]
+url = "https://github.com/mmastro31/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/lisaqyli/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/annaalexakr/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/rleifke/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/Amirtharaj2/neighbournet"
+
+[[repo]]
+url = "https://github.com/anranga95/celo-dpwa"
+
+[[repo]]
+url = "https://github.com/asharma13524/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/TheEhsanSarshar/mobile-defi-hackathon"
+
+[[repo]]
+url = "https://github.com/gedyeyasu/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/vporton/make-crypto-mobile-hackathon"
+
+[[repo]]
+url = "https://github.com/reachjason/helloCelo"
+
+[[repo]]
+url = "https://github.com/BreezeRo/helloCelo"
+
+[[repo]]
+url = "https://github.com/luisantoniocrag/helloCelo"
+
+[[repo]]
+url = "https://github.com/Into-The-Verse/celo-contracts-workshop"
+
+[[repo]]
+url = "https://github.com/salma2020-moringa/helloCelo"
+
+[[repo]]
+url = "https://github.com/maxx6262/helloCelo"
+
+[[repo]]
+url = "https://github.com/francov99/helloCelo"
+
+[[repo]]
+url = "https://github.com/joaquinrepetto/helloCelo"
+
+[[repo]]
+url = "https://github.com/dwyfrequency/helloCelo"
+
+[[repo]]
+url = "https://github.com/captaincryptic/helloCelo"
+
+[[repo]]
+url = "https://github.com/juanbenitez/helloCelo"
+
+[[repo]]
+url = "https://github.com/vymarkov/helloCelo"
+
+[[repo]]
+url = "https://github.com/PrastianHD/helloCelo"
+
+[[repo]]
+url = "https://github.com/mtcaddy/helloCelo"
+
+[[repo]]
+url = "https://github.com/marklar21/helloCelo"
+
+[[repo]]
+url = "https://github.com/gregv21v/helloCelo"
+
+[[repo]]
+url = "https://github.com/honorguard42/helloCelo"
+
+[[repo]]
+url = "https://github.com/mariocao/data-feed-app"
+
+[[repo]]
+url = "https://github.com/rootial/helloCelo"
+
+[[repo]]
+url = "https://github.com/nalandajay/helloCelo"
+
+[[repo]]
+url = "https://github.com/TendRer/green-deeds-celo"
+
+[[repo]]
+url = "https://github.com/Jessie-Mills/green-deeds-celo"
+
+[[repo]]
+url = "https://github.com/seungwon2/Celo-NFT-Tutorial-Part1"
+
+[[repo]]
+url = "https://github.com/shawnmichaelGT/green-deeds-celo"
+
+[[repo]]
+url = "https://github.com/Jinxto94/farm-army-frontend"
+
+[[repo]]
+url = "https://github.com/DAPPOPS/farm-army-backend"
+
+[[repo]]
+url = "https://github.com/lopeselio/Coperacha-app"
+
+[[repo]]
+url = "https://github.com/dahnny/celo-food-dapp"
+
+[[repo]]
+url = "https://github.com/unsplashcode/celo-food-dapp"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/celo-food-dapp"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/CeloTasks"
+
+[[repo]]
+url = "https://github.com/daniloesser/celorodovalho"
+
+[[repo]]
+url = "https://github.com/Thompsonmina/celo-news"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/celo-news"
+
+[[repo]]
+url = "https://github.com/haotruongnhat/celowhales-interface"
+
+[[repo]]
+url = "https://github.com/CraftyChimera/Celo-YBlockchain"
+
+[[repo]]
+url = "https://github.com/saadahmadhere/celo-dapp"
+
+[[repo]]
+url = "https://github.com/yeabu369/celo-tools"
+
+[[repo]]
+url = "https://github.com/WriteRaven/celo-blockchain"
+
+[[repo]]
+url = "https://github.com/SergeWilfried/celo.build"
+
+[[repo]]
+url = "https://github.com/trungng1992/celo-news"
+
+[[repo]]
+url = "https://github.com/dahnny/celo-news"
+
+[[repo]]
+url = "https://github.com/Santym-Inc/celo-tools"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/celo-dapp"
+
+[[repo]]
+url = "https://github.com/poojitha611/celo_project"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/Pet-Shop"
+
+[[repo]]
+url = "https://github.com/Tamara-Ebi-Pere-Victor/celo-boilerplate-web-dapp"
+
+[[repo]]
+url = "https://github.com/adetayot/celo-marketplace-dapp"
+
+[[repo]]
+url = "https://github.com/AdrenallinePRO/celo-remix-plugin"
+
+[[repo]]
+url = "https://github.com/lexycole/celo-marketplace-dapp"
+
+[[repo]]
+url = "https://github.com/gustavorobertux/celo-bls-snark-rs"
+
+[[repo]]
+url = "https://github.com/fesergi/celo-bls-snark-rs"
+
+[[repo]]
+url = "https://github.com/adetayot/celo-development-101"
+
+[[repo]]
+url = "https://github.com/browep/celo-sdk-java"
+
+[[repo]]
+url = "https://github.com/dnzengou/celo-boilerplate-web-dapp"
+
+[[repo]]
+url = "https://github.com/lopeselio/Celo-Health-Records"
+
+[[repo]]
+url = "https://github.com/MatWaller/celo-development-101"
+
+[[repo]]
+url = "https://github.com/albertomartin/celo-development-101"
+
+[[repo]]
+url = "https://github.com/Jmunapo/celo-marketplace-dapp"
+
+[[repo]]
+url = "https://github.com/ChorusOne/celo-bls-snark-rs"
+
+[[repo]]
+url = "https://github.com/quazzuk/celo-sdk-py"
+
+[[repo]]
+url = "https://github.com/Tradegen/celo-alfajores-blocks"
+
+[[repo]]
+url = "https://github.com/matabeitt/celo-defi-app"
+
+[[repo]]
+url = "https://github.com/josephamune/celo-boilerplate-web-dapp"
+
+[[repo]]
+url = "https://github.com/celo-org/gitcoin"
+
+[[repo]]
+url = "https://github.com/johanns/Celox"
+
+[[repo]]
+url = "https://github.com/celo-org/optics-monorepo"
+
+[[repo]]
+url = "https://github.com/kerneltoast/sultan-kernel-celox"
+
+[[repo]]
+url = "https://github.com/celo-org/docs"
+
+[[repo]]
+url = "https://github.com/crypto5000/celody"
+
+[[repo]]
+url = "https://github.com/0xNeffarion/CELO-Enhanced"
+
+[[repo]]
+url = "https://github.com/celo-org/rosetta"
+
+[[repo]]
+url = "https://github.com/celo-org/savings-circle-demo"
+
+[[repo]]
+url = "https://github.com/celo-org/plumo-prover"
+
+[[repo]]
+url = "https://github.com/RosboneMako/MakoCelo"
+
+[[repo]]
+url = "https://github.com/celo-org/shrubs"
+
+[[repo]]
+url = "https://github.com/celo-org/ganache-cli"
+
+[[repo]]
+url = "https://github.com/celo-org/ethereumjs-vm"
+
+[[repo]]
+url = "https://github.com/celo-org/snark-setup-operator"
+
+[[repo]]
+url = "https://github.com/celo-org/blockscout"
+
+[[repo]]
+url = "https://github.com/celo-org/snark-setup"
+
+[[repo]]
+url = "https://github.com/celo-org/dappkit-web-starter"
+
+[[repo]]
+url = "https://github.com/celo-org/plumo-ceremony-attestations"
+
+[[repo]]
+url = "https://github.com/celo-org/ganache-core"
+
+[[repo]]
+url = "https://github.com/celo-org/snark-setup-coordinator"
+
+[[repo]]
+url = "https://github.com/celo-org/komenci"
+
+[[repo]]
+url = "https://github.com/celo-org/truffle-plugin-blockscout-verify"
+
+[[repo]]
+url = "https://github.com/celo-org/interview_challenge"
+
+[[repo]]
+url = "https://github.com/celo-org/react-native-geth"
+
+[[repo]]
+url = "https://github.com/celo-org/payments"
+
+[[repo]]
+url = "https://github.com/celo-org/qa-interview-assignment"
+
+[[repo]]
+url = "https://github.com/celo-org/bls-embedded"
+
+[[repo]]
+url = "https://github.com/celo-org/dappkit-base"
+
+[[repo]]
+url = "https://github.com/celo-org/geth_exporter"
+
+[[repo]]
+url = "https://github.com/celo-org/bls12377js"
+
+[[repo]]
+url = "https://github.com/celo-org/ethstats-server"
+
+[[repo]]
+url = "https://github.com/coh2-org/MakoCelo"
+
+[[repo]]
+url = "https://github.com/software-celo/meta-ces"
+
+[[repo]]
+url = "https://github.com/Celo-Fi/romulus-interface"
+
+[[repo]]
+url = "https://github.com/celo-org/zexe"
+
+[[repo]]
+url = "https://github.com/NateJose123/CeloSample"
+
+[[repo]]
+url = "https://github.com/pnoken/CeloXpace"
+
+[[repo]]
+url = "https://github.com/celo-org/DevRel"
+
+[[repo]]
+url = "https://github.com/celo-org/react-native-confirm-device-credentials"
+
+[[repo]]
+url = "https://github.com/celo-org/react-native-bip39"
+
+[[repo]]
+url = "https://github.com/software-celo/linux-fslc"
+
+[[repo]]
+url = "https://github.com/celo-tipbot/.github"
+
+[[repo]]
+url = "https://github.com/ndvo/celo"
+
+[[repo]]
+url = "https://github.com/omertarikkoc/CELO"
+
+[[repo]]
+url = "https://github.com/celo-org/TypeChain"
+
+[[repo]]
+url = "https://github.com/RalfsUpelnieks/flask_celojums-majas-lapa"
+
+[[repo]]
+url = "https://github.com/TendRer/celoBackend"
+
+[[repo]]
+url = "https://github.com/celo-org/react-native-blind-threshold-bls"
+
+[[repo]]
+url = "https://github.com/celowallet/CeloWallet"
+
+[[repo]]
+url = "https://github.com/udms100/celoBackend"
+
+[[repo]]
+url = "https://github.com/paulstancu/problema-celor-n-spectacole"
+
+[[repo]]
+url = "https://github.com/zanderthuo/USSD-Celo-Ubricoin-Contracts"
+
+[[repo]]
+url = "https://github.com/kingsley-einstein/celo-mobile-wallet-pwa"
+
+[[repo]]
+url = "https://github.com/celol/celol.github.io"
+
+[[repo]]
+url = "https://github.com/musayann/celo-course-content"
+
+[[repo]]
+url = "https://github.com/buidl-labs/celo-onchain-data-service"
+
+[[repo]]
+url = "https://github.com/kobigurk/celo-bls-go-linux"
+
+[[repo]]
+url = "https://github.com/celodesign/celodesign.github.io"
+
+[[repo]]
+url = "https://github.com/shivanshxyz/celo-discord-bot"
+
+[[repo]]
+url = "https://github.com/magiclabs/example-celo-guide"
+
+[[repo]]
+url = "https://github.com/Najafaza26/celo-add1"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/CeloDealer"
+
+[[repo]]
+url = "https://github.com/emmanuelJet/CeloIPFSImage"
+
+[[repo]]
+url = "https://github.com/celo/smirtips"
+
+[[repo]]
+url = "https://github.com/celo/mascate"
+
+[[repo]]
+url = "https://github.com/celo/dotfiles"
+
+[[repo]]
+url = "https://github.com/emmanuelJet/CeloRealEstate"
+
+[[repo]]
+url = "https://github.com/celo-org/bls12_381"
+
+[[repo]]
+url = "https://github.com/Emmanuel-umeh/CeloRealEstate"
+
+[[repo]]
+url = "https://github.com/bcamacho/celo-android-java-sdk-test-example"
+
+[[repo]]
+url = "https://github.com/aadorian/celo.git"
+
+[[repo]]
+url = "https://github.com/poofcash/make-it-mobile-submission"
+
+[[repo]]
+url = "https://github.com/BrittanyDeventer/green-deeds-celo"
+
+[[repo]]
+url = "github.com/bild96/helloCello"
+
+[[repo]]
+url = "https://github.com/helpicelo"
+
+[[repo]]
+url = "https://github.com/Bild96/helloCello/"
+
+[[repo]]
+url = "https://github.com/Open-C/Centro"
+
+[[repo]]
+url = "https://github.com/dhruv10/nft-museum"
+
+[[repo]]
+url = "https://github.com/Asvoria/pineapple_token"
+
+[[repo]]
+url = "https://github.com/ivankragoff/MobileFirstDefiMarket"
+
+[[repo]]
+url = "https://github.com/AL-S4H3R/cryptify-client"
+
+[[repo]]
+url = "https://github.com/dhruv10/yogdaan"
+
+[[repo]]
+url = "https://github.com/HemabhKamboj/NFT-Mesuem-frontend"
+
+[[repo]]
+url = "https://github.com/davidmitesh/celopatti"
+
+[[repo]]
+url = "https://github.com/V2dha/HashImage"
+
+[[repo]]
+url = "https://github.com/HemabhKamboj/nft-museum-api"
+
+[[repo]]
+url = "https://code.bld.ai/doni/Doni"
+
+[[repo]]
+url = "https://github.com/abellinii/moola"
+
+[[repo]]
+url = "https://github.com/aglamadrid19/helpi-factory-lp"
+
+[[repo]]
+url = "https://github.com/Light-Ideas-Labs/citizen-mobile"
 
 [[repo]]
 url = "https://github.com/AL-S4H3R/cryptify-finance"
@@ -49,19 +3932,7 @@ url = "https://github.com/AL-S4H3R/cryptify-finance"
 url = "https://github.com/AL-S4H3R/graphene-pay"
 
 [[repo]]
-url = "https://github.com/alchemydc/celo-network-monitor"
-
-[[repo]]
-url = "https://github.com/Alex-Neo-Projects/Coperacha-app"
-
-[[repo]]
 url = "https://github.com/Alex-Neo-Projects/Coperacha-contracts"
-
-[[repo]]
-url = "https://github.com/AlexBHarley/celo-lottery"
-
-[[repo]]
-url = "https://github.com/AlexBHarley/celo-tools"
 
 [[repo]]
 url = "https://github.com/AlexBHarley/plock.fi"
@@ -70,94 +3941,19 @@ url = "https://github.com/AlexBHarley/plock.fi"
 url = "https://github.com/AlexBHarley/use-contractkit"
 
 [[repo]]
-url = "https://github.com/alexreyes/Celo-Crowdfunding-Tutorial"
-
-[[repo]]
-url = "https://github.com/alexreyes/Celo-Crowdfunding-Tutorial-2"
-
-[[repo]]
-url = "https://github.com/alexreyes/Celo-Crowdfunding-Tutorial-3"
-
-[[repo]]
-url = "https://github.com/alexreyes/Celo-cUSD-tutorial"
-
-[[repo]]
-url = "https://github.com/alexreyes/Celo-Deploying-With-Truffle"
-
-[[repo]]
-url = "https://github.com/alexreyes/Celo-NFT-Tutorial-Part1"
-
-[[repo]]
-url = "https://github.com/alexreyes/Celo-NFT-Tutorial-Part2"
-
-[[repo]]
-url = "https://github.com/alexreyes/figment_celo_tutorials"
-
-[[repo]]
 url = "https://github.com/AndersonMelo123/Work4me-Alfajores"
 
 [[repo]]
 url = "https://github.com/AndersonMelo123/Work4me-App"
 
 [[repo]]
-url = "https://github.com/antisaa/celo-tutorial"
-
-[[repo]]
-url = "https://github.com/aryzle/paadna"
-
-[[repo]]
-url = "https://github.com/Asvoria/pineapple_token"
-
-[[repo]]
-url = "https://github.com/avalonche/loaner-celo"
-
-[[repo]]
 url = "https://github.com/avcdsld/figment-learn-tutorials"
-
-[[repo]]
-url = "https://github.com/azizyano/celo-spin"
-
-[[repo]]
-url = "https://github.com/bakoushin/celo-box"
-
-[[repo]]
-url = "https://github.com/bdev07/green-deeds-celo"
 
 [[repo]]
 url = "https://github.com/BEYOND-Ewha-Yonsei/Mark-at_Contract"
 
 [[repo]]
 url = "https://github.com/bi23com/thecelo"
-
-[[repo]]
-url = "https://github.com/Bild96/helloCelo"
-
-[[repo]]
-url = "https://github.com/Biscoint/celo-hot-wallet"
-
-[[repo]]
-url = "https://github.com/Biscoint/celo-spv"
-
-[[repo]]
-url = "https://github.com/blaize-tech/celo-sdk-java"
-
-[[repo]]
-url = "https://github.com/blaize-tech/celo-sdk-py"
-
-[[repo]]
-url = "https://github.com/block-m3/BlockM3.Nethereum.Celo"
-
-[[repo]]
-url = "https://github.com/Blockdaemon/bpm-celo"
-
-[[repo]]
-url = "https://github.com/buidl-labs/celo-voting-validator-backend"
-
-[[repo]]
-url = "https://github.com/CaptainVarun/helloCelo"
-
-[[repo]]
-url = "https://github.com/catimmins/celo-feedback"
 
 [[repo]]
 url = "https://github.com/celo-org/0x-monorepo"
@@ -178,95 +3974,16 @@ url = "https://github.com/celo-org/app-celo-spender-upstream"
 url = "https://github.com/celo-org/blake2s-js"
 
 [[repo]]
-url = "https://github.com/celo-org/blind-threshold-bls-neon"
-
-[[repo]]
 url = "https://github.com/celo-org/blind-threshold-bls-wasm"
-
-[[repo]]
-url = "https://github.com/celo-org/blockscout"
-
-[[repo]]
-url = "https://github.com/celo-org/bls-embedded"
 
 [[repo]]
 url = "https://github.com/celo-org/bls-zexe"
 
 [[repo]]
-url = "https://github.com/celo-org/bls12377js"
-
-[[repo]]
 url = "https://github.com/celo-org/bls12377js-blind"
 
 [[repo]]
-url = "https://github.com/celo-org/bls12_381"
-
-[[repo]]
-url = "https://github.com/celo-org/brand"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-blockchain"
-tags = ["Protocol"]
-
-[[repo]]
-url = "https://github.com/celo-org/celo-bls-go"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-bls-go-android"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-bls-go-ios"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-bls-go-linux"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-bls-go-macos"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-bls-go-other"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-bls-go-windows"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-bls-snark-rs"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-dappkit"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-devchain"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-forkmon"
-
-[[repo]]
 url = "https://github.com/celo-org/celo-ledger-spender-app"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-ledger-spender-app-archived"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-ledger-spender-app-w-docker-build-tools"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-ledger-token-data"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-ledger-web-app"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-monitoring"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-monorepo"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-oracle"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-proposals"
 
 [[repo]]
 url = "https://github.com/celo-org/celo-release-gold-deployments"
@@ -287,29 +4004,10 @@ url = "https://github.com/celo-org/celo-release-gold-deployments-4"
 url = "https://github.com/celo-org/celo-spender-app"
 
 [[repo]]
-url = "https://github.com/celo-org/celo-status"
-
-[[repo]]
 url = "https://github.com/celo-org/celo-swarm"
 
 [[repo]]
-url = "https://github.com/celo-org/celo-threshold-bls-rs"
-
-[[repo]]
-url = "https://github.com/celo-org/celo-validator-signer-app"
-
-[[repo]]
-url = "https://github.com/celo-org/celostats-frontend"
-
-[[repo]]
-url = "https://github.com/celo-org/celostats-server"
-
-[[repo]]
-url = "https://github.com/celo-org/celoterminal"
-
-[[repo]]
 url = "https://github.com/celo-org/CIPs"
-tags = ["RFC"]
 
 [[repo]]
 url = "https://github.com/celo-org/clipboard"
@@ -327,19 +4025,7 @@ url = "https://github.com/celo-org/crypto-primitives"
 url = "https://github.com/celo-org/curves"
 
 [[repo]]
-url = "https://github.com/celo-org/dappkit-base"
-
-[[repo]]
-url = "https://github.com/celo-org/dappkit-web-starter"
-
-[[repo]]
 url = "https://github.com/celo-org/dev-cli"
-
-[[repo]]
-url = "https://github.com/celo-org/DevRel"
-
-[[repo]]
-url = "https://github.com/celo-org/docs"
 
 [[repo]]
 url = "https://github.com/celo-org/draft-irtf-cfrg-hash-to-curve"
@@ -351,34 +4037,10 @@ url = "https://github.com/celo-org/draft-irtf-cfrg-pairing-friendly-curves"
 url = "https://github.com/celo-org/economics-scripts"
 
 [[repo]]
-url = "https://github.com/celo-org/eksportisto"
-
-[[repo]]
-url = "https://github.com/celo-org/ethereumjs-vm"
-
-[[repo]]
-url = "https://github.com/celo-org/ethstats-server"
-
-[[repo]]
-url = "https://github.com/celo-org/ganache-cli"
-
-[[repo]]
-url = "https://github.com/celo-org/ganache-core"
-
-[[repo]]
 url = "https://github.com/celo-org/gcloud-kubectl-docker"
 
 [[repo]]
-url = "https://github.com/celo-org/geth_exporter"
-
-[[repo]]
-url = "https://github.com/celo-org/gitcoin"
-
-[[repo]]
 url = "https://github.com/celo-org/gosigar"
-
-[[repo]]
-url = "https://github.com/celo-org/governance"
 
 [[repo]]
 url = "https://github.com/celo-org/groth16"
@@ -390,28 +4052,16 @@ url = "https://github.com/celo-org/hardfork-testing"
 url = "https://github.com/celo-org/health-checker-docker"
 
 [[repo]]
-url = "https://github.com/celo-org/hello-celo-contractkit"
-
-[[repo]]
 url = "https://github.com/celo-org/hummingbot"
 
 [[repo]]
 url = "https://github.com/celo-org/infrastructure"
 
 [[repo]]
-url = "https://github.com/celo-org/interview_challenge"
-
-[[repo]]
 url = "https://github.com/celo-org/issues"
 
 [[repo]]
 url = "https://github.com/celo-org/jubjub"
-
-[[repo]]
-url = "https://github.com/celo-org/kliento"
-
-[[repo]]
-url = "https://github.com/celo-org/komenci"
 
 [[repo]]
 url = "https://github.com/celo-org/ledger-app-celo"
@@ -424,9 +4074,6 @@ url = "https://github.com/celo-org/ledgerjs-examples"
 
 [[repo]]
 url = "https://github.com/celo-org/macstadium-ansible-playbooks"
-
-[[repo]]
-url = "https://github.com/celo-org/make-crypto-mobile-hackathon"
 
 [[repo]]
 url = "https://github.com/celo-org/marlin"
@@ -453,37 +4100,13 @@ url = "https://github.com/celo-org/nonnative"
 url = "https://github.com/celo-org/OpenSSL-headers"
 
 [[repo]]
-url = "https://github.com/celo-org/optics-monorepo"
-
-[[repo]]
-url = "https://github.com/celo-org/payments"
-
-[[repo]]
-url = "https://github.com/celo-org/plumo-ceremony-attestations"
-
-[[repo]]
-url = "https://github.com/celo-org/plumo-prover"
-
-[[repo]]
 url = "https://github.com/celo-org/poly-commit"
-
-[[repo]]
-url = "https://github.com/celo-org/qa-interview-assignment"
 
 [[repo]]
 url = "https://github.com/celo-org/r1cs-std"
 
 [[repo]]
 url = "https://github.com/celo-org/react-modal-video"
-
-[[repo]]
-url = "https://github.com/celo-org/react-native-bip39"
-
-[[repo]]
-url = "https://github.com/celo-org/react-native-blind-threshold-bls"
-
-[[repo]]
-url = "https://github.com/celo-org/react-native-confirm-device-credentials"
 
 [[repo]]
 url = "https://github.com/celo-org/react-native-contacts"
@@ -496,9 +4119,6 @@ url = "https://github.com/celo-org/react-native-firebase"
 
 [[repo]]
 url = "https://github.com/celo-org/react-native-fs"
-
-[[repo]]
-url = "https://github.com/celo-org/react-native-geth"
 
 [[repo]]
 url = "https://github.com/celo-org/react-native-google-recaptcha-v2"
@@ -564,9 +4184,6 @@ url = "https://github.com/celo-org/release-celo-deployments-16"
 url = "https://github.com/celo-org/release-celo-deployments-17"
 
 [[repo]]
-url = "https://github.com/celo-org/release-celo-deployments-19"
-
-[[repo]]
 url = "https://github.com/celo-org/release-celo-deployments-7"
 
 [[repo]]
@@ -574,12 +4191,6 @@ url = "https://github.com/celo-org/release-celo-deployments-8"
 
 [[repo]]
 url = "https://github.com/celo-org/release-celo-deployments-9"
-
-[[repo]]
-url = "https://github.com/celo-org/reserve-site"
-
-[[repo]]
-url = "https://github.com/celo-org/rosetta"
 
 [[repo]]
 url = "https://github.com/celo-org/rosetta-client"
@@ -606,31 +4217,13 @@ url = "https://github.com/celo-org/safe-react"
 url = "https://github.com/celo-org/safe-transaction-service"
 
 [[repo]]
-url = "https://github.com/celo-org/savings-circle-demo"
-
-[[repo]]
 url = "https://github.com/celo-org/securify"
-
-[[repo]]
-url = "https://github.com/celo-org/shrubs"
-
-[[repo]]
-url = "https://github.com/celo-org/simple-address-statistics"
 
 [[repo]]
 url = "https://github.com/celo-org/slips"
 
 [[repo]]
 url = "https://github.com/celo-org/snark"
-
-[[repo]]
-url = "https://github.com/celo-org/snark-setup"
-
-[[repo]]
-url = "https://github.com/celo-org/snark-setup-coordinator"
-
-[[repo]]
-url = "https://github.com/celo-org/snark-setup-operator"
 
 [[repo]]
 url = "https://github.com/celo-org/stokado"
@@ -640,18 +4233,6 @@ url = "https://github.com/celo-org/sys"
 
 [[repo]]
 url = "https://github.com/celo-org/terraform-azure"
-
-[[repo]]
-url = "https://github.com/celo-org/truffle-plugin-blockscout-verify"
-
-[[repo]]
-url = "https://github.com/celo-org/TypeChain"
-
-[[repo]]
-url = "https://github.com/celo-org/typechain-target-web3-v1-celo"
-
-[[repo]]
-url = "https://github.com/celo-org/use-contractkit"
 
 [[repo]]
 url = "https://github.com/celo-org/utils"
@@ -672,22 +4253,7 @@ url = "https://github.com/celo-org/web3j"
 url = "https://github.com/celo-org/web3j-cli"
 
 [[repo]]
-url = "https://github.com/celo-org/website"
-
-[[repo]]
 url = "https://github.com/celo-org/xgo"
-
-[[repo]]
-url = "https://github.com/celo-org/zexe"
-
-[[repo]]
-url = "https://github.com/celo-tipbot/celo-github-bot"
-
-[[repo]]
-url = "https://github.com/celo-tools/celo-ethers-wrapper"
-
-[[repo]]
-url = "https://github.com/celo-tools/celo-web-wallet"
 
 [[repo]]
 url = "https://github.com/celo-tools/use-contractkit"
@@ -699,19 +4265,7 @@ url = "https://github.com/CeloShark/api_celo_blockchain"
 url = "https://github.com/centfinance/Symmetric.Core"
 
 [[repo]]
-url = "https://github.com/chainlayer/celo-checksigs"
-
-[[repo]]
 url = "https://github.com/ChorusOne/anthem"
-
-[[repo]]
-url = "https://github.com/ChorusOne/Icarus"
-
-[[repo]]
-url = "https://github.com/clevernyyyy/celo-sms"
-
-[[repo]]
-url = "https://github.com/cok263/celo"
 
 [[repo]]
 url = "https://github.com/conclave-dev/autonomous-voter"
@@ -720,46 +4274,13 @@ url = "https://github.com/conclave-dev/autonomous-voter"
 url = "https://github.com/crispymangoes/hello_contract-truffle"
 
 [[repo]]
-url = "https://github.com/crispymangoes/helloCelo"
-
-[[repo]]
-url = "https://github.com/critesjosh/celo-contracts-workshop"
-
-[[repo]]
-url = "https://github.com/critesjosh/celo-dappkit"
-
-[[repo]]
-url = "https://github.com/critesjosh/celo-transactions-lesson"
-
-[[repo]]
-url = "https://github.com/critesjosh/celo-transak"
-
-[[repo]]
-url = "https://github.com/critesjosh/hello_celo"
-
-[[repo]]
-url = "https://github.com/critesjosh/hello_contract-truffle"
-
-[[repo]]
-url = "https://github.com/critesjosh/helloCelo"
-
-[[repo]]
 url = "https://github.com/critesjosh/send-cUSD-Valora"
 
 [[repo]]
 url = "https://github.com/crypto-ll/DataHub-learn"
 
 [[repo]]
-url = "https://github.com/cult-leader-en/celo-figment"
-
-[[repo]]
 url = "https://github.com/d-mooers/Arbo-Contracts"
-
-[[repo]]
-url = "https://github.com/daoauth/celo-metamask-signer"
-
-[[repo]]
-url = "https://github.com/daoauth/celo-metamask-signer-sample"
 
 [[repo]]
 url = "https://github.com/dedane/CelloStudies"
@@ -768,28 +4289,10 @@ url = "https://github.com/dedane/CelloStudies"
 url = "https://github.com/deephil0226/rent-my-tent"
 
 [[repo]]
-url = "https://github.com/dexfair/celo-proposals"
-
-[[repo]]
-url = "https://github.com/dexfair/celo-remix-plugin"
-
-[[repo]]
-url = "https://github.com/dexfair/celo-web-signer"
-
-[[repo]]
 url = "https://github.com/dexfair/dexfair.github.io"
 
 [[repo]]
 url = "https://github.com/diminator/validator-react-app"
-
-[[repo]]
-url = "https://github.com/dsrvlabs/celo"
-
-[[repo]]
-url = "https://github.com/dsrvlabs/celo-extension-wallet"
-
-[[repo]]
-url = "https://github.com/dsrvlabs/celo-validator-monitoring"
 
 [[repo]]
 url = "https://github.com/dsrvlabs/ethereumjs-tx-celo"
@@ -804,9 +4307,6 @@ url = "https://github.com/dukejones/auto-ubeswap-hardhat"
 url = "https://github.com/duniapay/celowallet"
 
 [[repo]]
-url = "https://github.com/duniapay/contactkit"
-
-[[repo]]
 url = "https://github.com/duniapay/duniapaycelowallet"
 
 [[repo]]
@@ -819,73 +4319,19 @@ url = "https://github.com/dxania/Whistleblower_Protection"
 url = "https://github.com/eelanagaraj/test-dapp"
 
 [[repo]]
-url = "https://github.com/electrone901/celo-lawyerApp"
-
-[[repo]]
-url = "https://github.com/eli-d/celo-dev-feedback"
-
-[[repo]]
-url = "https://github.com/ericet/celo-learn"
-
-[[repo]]
-url = "https://github.com/figment-networks/celo-indexer"
-
-[[repo]]
-url = "https://github.com/figment-networks/celo-proxy"
-
-[[repo]]
 url = "https://github.com/figment-networks/datahub-learn"
-
-[[repo]]
-url = "https://github.com/FlakesGG/celo1"
-
-[[repo]]
-url = "https://github.com/forbole/big-dipper-celo-client"
-
-[[repo]]
-url = "https://github.com/forbole/big-dipper-celo-server"
-
-[[repo]]
-url = "https://github.com/gakonst/ethers-rs"
-
-[[repo]]
-url = "https://github.com/gastonponti/celo-recovery-wallet-contract"
 
 [[repo]]
 url = "https://github.com/Good-Ghosting/goodghosting-smart-contracts"
 
 [[repo]]
-url = "https://github.com/Harold-Kinet/celo-d-event"
-
-[[repo]]
 url = "https://github.com/hashcloak/private-celo-onboarding"
-
-[[repo]]
-url = "https://github.com/helpicelo/celo-utility-contracts"
-
-[[repo]]
-url = "https://github.com/helpicelo/hardhat-celo"
-
-[[repo]]
-url = "https://github.com/helpicelo/helpi-celo-interface"
-
-[[repo]]
-url = "https://github.com/helpicelo/helpi-token"
 
 [[repo]]
 url = "https://github.com/helpicelo/rock3t-core-contracts-main"
 
 [[repo]]
 url = "https://github.com/helpicelo/vault-dapp"
-
-[[repo]]
-url = "https://github.com/hspen4/celo-feedback"
-
-[[repo]]
-url = "https://github.com/iamochuko/hello_contract-celo-truffle"
-
-[[repo]]
-url = "https://github.com/ianmunge0/celolearnpathway"
 
 [[repo]]
 url = "https://github.com/ieethczar/bloinxapp"
@@ -906,52 +4352,16 @@ url = "https://github.com/impactMarket/smart-contracts"
 url = "https://github.com/imparag28/hello_contract-truffle"
 
 [[repo]]
-url = "https://github.com/iscke/celo-writeup"
-
-[[repo]]
-url = "https://github.com/ismaelsadeeq/dush-api"
-
-[[repo]]
-url = "https://github.com/jackdfields/celo-learn-to-send"
-
-[[repo]]
-url = "https://github.com/jessefriend/sendCELOTokens"
-
-[[repo]]
 url = "https://github.com/jettandres/rent-my-tent"
 
 [[repo]]
 url = "https://github.com/jiten-gupta/celo"
 
 [[repo]]
-url = "https://github.com/joigno/blockchain-fees-simulator"
-
-[[repo]]
-url = "https://github.com/Jordan-type/USSD-Celo-Ubricoin-Contracts"
-
-[[repo]]
-url = "https://github.com/jshprz/send-celo-and-cusd"
-
-[[repo]]
-url = "https://github.com/Jteo10/Celo_demo"
-
-[[repo]]
-url = "https://github.com/kabir-kapur/Celo"
-
-[[repo]]
 url = "https://github.com/kabir-kapur/pollen-glue"
 
 [[repo]]
-url = "https://github.com/kcelestinomaria/Tenderbox-Celo"
-
-[[repo]]
 url = "https://github.com/Kesholabs/celoBackend"
-
-[[repo]]
-url = "https://github.com/kingsley-einstein/celo-mobile-wallet-pwa"
-
-[[repo]]
-url = "https://github.com/Kite-Financial/celo-demo"
 
 [[repo]]
 url = "https://github.com/KotaniLabs/kotanipay"
@@ -963,40 +4373,13 @@ url = "https://github.com/KotaniLabs/kotaniswap"
 url = "https://github.com/krypt007/kotanipay"
 
 [[repo]]
-url = "https://github.com/krypt007/kotanipay-USSD"
-
-[[repo]]
 url = "https://github.com/kurackamartin/RNNFT"
-
-[[repo]]
-url = "https://github.com/LeafGlobalFintech/celo_hello_world"
-
-[[repo]]
-url = "https://github.com/LeafGlobalFintech/celo_smartcontract_forno"
 
 [[repo]]
 url = "https://github.com/LeafGlobalFintech/leafcelo"
 
 [[repo]]
-url = "https://github.com/LedgerHQ/app-celo-spender"
-
-[[repo]]
-url = "https://github.com/leon-do/celo1155"
-
-[[repo]]
-url = "https://github.com/lordvins226/my-first-celo-app"
-
-[[repo]]
-url = "https://github.com/lucasespinosa28/Celo-Tutorial"
-
-[[repo]]
 url = "https://github.com/Machu-Pichu/ETHDenver_2021"
-
-[[repo]]
-url = "https://github.com/mananmonga/celo_testing"
-
-[[repo]]
-url = "https://github.com/mantalabs/validator-elector"
 
 [[repo]]
 url = "https://github.com/MapleHero/VirtualHabit"
@@ -1008,28 +4391,10 @@ url = "https://github.com/marcomontesneri/honoro"
 url = "https://github.com/martinhricov/Learn-to-send-CELO-and-cUSD"
 
 [[repo]]
-url = "https://github.com/matiasbn/celo-contractkit-to-api"
-
-[[repo]]
-url = "https://github.com/matiasbn/celo-contracts-js-signing"
-
-[[repo]]
 url = "https://github.com/matiasbn/celo_demo"
 
 [[repo]]
 url = "https://github.com/matiasbn/justokens-backend"
-
-[[repo]]
-url = "https://github.com/midou10/Celo_Network_demo"
-
-[[repo]]
-url = "https://github.com/Mkungusi/Celo-Contract"
-
-[[repo]]
-url = "https://github.com/Mkungusi/Celo-network"
-
-[[repo]]
-url = "https://github.com/Mlhozgr/DeploySmartContractOnCelo"
 
 [[repo]]
 url = "https://github.com/moolamarket/liquidation-bot"
@@ -1038,28 +4403,7 @@ url = "https://github.com/moolamarket/liquidation-bot"
 url = "https://github.com/moolamarket/moola"
 
 [[repo]]
-url = "https://github.com/moritzfelipe/celo-boilerplate-web-dapp"
-
-[[repo]]
-url = "https://github.com/moritzfelipe/celo-development-101-data"
-
-[[repo]]
-url = "https://github.com/moritzfelipe/celo-marketplace-dapp"
-
-[[repo]]
-url = "https://github.com/MugglePay/celo-toolkit"
-
-[[repo]]
 url = "https://github.com/MugglePay/MugglePay"
-
-[[repo]]
-url = "https://github.com/murilooon/celo-smart-contract"
-
-[[repo]]
-url = "https://github.com/naaa187/celo-dappkit"
-
-[[repo]]
-url = "https://github.com/NeoSPU/celo_nft_market"
 
 [[repo]]
 url = "https://github.com/nestorbonilla/bienvenir"
@@ -1071,22 +4415,10 @@ url = "https://github.com/nikbhintade/celo-beginner"
 url = "https://github.com/nikbhintade/celo-intermediate-1"
 
 [[repo]]
-url = "https://github.com/norens/celo_example"
-
-[[repo]]
 url = "https://github.com/Novel-Chain-Labs/citizen-backend"
 
 [[repo]]
 url = "https://github.com/onepercentio/instant-burn-sdk-js"
-
-[[repo]]
-url = "https://github.com/Open-C/Centro"
-
-[[repo]]
-url = "https://github.com/paychant/celo-merchant"
-
-[[repo]]
-url = "https://github.com/paychant/celo-web-wallet"
 
 [[repo]]
 url = "https://github.com/PlanetShakers256/WATCH_GUARD"
@@ -1101,18 +4433,6 @@ url = "https://github.com/poofcash/poofcash"
 url = "https://github.com/poofcash/poofcash-stats"
 
 [[repo]]
-url = "https://github.com/pretoria-research-lab/celo-cauldron"
-
-[[repo]]
-url = "https://github.com/prin-r/Synthetic-stock-app-on-Celo"
-
-[[repo]]
-url = "https://github.com/protofire/chainlink-celo-node"
-
-[[repo]]
-url = "https://github.com/rajanpaulsarella/CELO"
-
-[[repo]]
 url = "https://github.com/rango527/react-node-coperacha"
 
 [[repo]]
@@ -1122,37 +4442,16 @@ url = "https://github.com/ReSource-Network/ReSource-contracts"
 url = "https://github.com/ribonapp/celocamp-mvp"
 
 [[repo]]
-url = "https://github.com/saharshagrawal/celo_baf"
-
-[[repo]]
 url = "https://github.com/sallyjyl/contractKit-test"
 
 [[repo]]
 url = "https://github.com/SamuelWanyoike/GlobalGatewayUSSD"
 
 [[repo]]
-url = "https://github.com/SamuelWanyoike/USSD-Celo-Ubricoin-Contracts"
-
-[[repo]]
-url = "https://github.com/secretshardul/react-celo-paywall"
-
-[[repo]]
-url = "https://github.com/secretshardul/the-graph-celo"
-
-[[repo]]
-url = "https://github.com/septembermd/celo"
-
-[[repo]]
 url = "https://github.com/shamb0/ssec-swc-115-tx.origin"
 
 [[repo]]
-url = "https://github.com/shivanshxyz/celo-discord-bot"
-
-[[repo]]
 url = "https://github.com/skhiearth/BlockStore"
-
-[[repo]]
-url = "https://github.com/SmartLoan/pineapple-dappkit"
 
 [[repo]]
 url = "https://github.com/SmartLoan/pineapple-smartloan-contracts"
@@ -1161,31 +4460,13 @@ url = "https://github.com/SmartLoan/pineapple-smartloan-contracts"
 url = "https://github.com/spvyerra/meldXonlinePlatform"
 
 [[repo]]
-url = "https://github.com/stasmytarov/celo-node"
-
-[[repo]]
 url = "https://github.com/sudo-vaibhav/DCompute"
 
 [[repo]]
 url = "https://github.com/summa-tx/riemann-ether"
 
 [[repo]]
-url = "https://github.com/TeggerDLTInc/tgr-celo-challenge"
-
-[[repo]]
-url = "https://github.com/trianglesphere/celo-pay"
-
-[[repo]]
-url = "https://github.com/tuff-knight/celo-tutorials"
-
-[[repo]]
 url = "https://github.com/Tylerholland12/Mobile-DApp-Test"
-
-[[repo]]
-url = "https://github.com/Ubeswap/celo-utility-contracts"
-
-[[repo]]
-url = "https://github.com/Ubeswap/hardhat-celo"
 
 [[repo]]
 url = "https://github.com/Ubeswap/ubeswap"
@@ -1206,46 +4487,13 @@ url = "https://github.com/Ubeswap/ubeswap-moola"
 url = "https://github.com/Ubeswap/ubeswap-sdk"
 
 [[repo]]
-url = "https://github.com/ubinix-warun/celo-metacoin"
-
-[[repo]]
-url = "https://github.com/ubinix-warun/CELO-pathway"
-
-[[repo]]
-url = "https://github.com/ubinix-warun/helloworld-celo-dappkit"
-
-[[repo]]
 url = "https://github.com/vaanicodes/offsetgo"
-
-[[repo]]
-url = "https://github.com/victorfrancax1/celo-tutorial"
 
 [[repo]]
 url = "https://github.com/vorcigernix/icebakers"
 
 [[repo]]
-url = "https://github.com/wildchain/celo"
-
-[[repo]]
-url = "https://github.com/ysongh/Reservation-NFT"
-
-[[repo]]
-url = "https://github.com/zanderthuo/USSD-Celo-Ubricoin-Contracts"
-
-[[repo]]
 url = "https://github.com/zviadm/celo-devchain"
-
-[[repo]]
-url = "https://github.com/zviadm/celo-hellocontracts"
-
-[[repo]]
-url = "https://github.com/zviadm/celogovernance"
-
-[[repo]]
-url = "https://github.com/zviadm/celoterminal"
-
-[[repo]]
-url = "https://github.com/zviadm/celovote-app"
 
 [[repo]]
 url = "https://github.com/zviadm/savingscelo"
@@ -1273,6 +4521,3 @@ url = "https://gitlab.com/pretoria-research-lab/celo-cauldron"
 
 [[repo]]
 url = "https://gitlab.com/pretoria-research-lab/celo-faucet-api"
-
-[[repo]]
-url = "https://github.com/Into-The-Verse/Dungeon-Hunt-Celo"

@@ -2,6 +2,7 @@ use failure::{Fail, Fallible};
 use glob::glob;
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
+use std::fmt::{Display, Formatter};
 use std::fs::{read_to_string, File};
 use std::path::{Path, PathBuf};
 use structopt::StructOpt;
@@ -27,6 +28,21 @@ enum Cli {
     },
 }
 
+#[derive(Debug)]
+enum ValidationError {
+    MissingSubecosystem { parent: String, child: String },
+}
+
+impl Display for ValidationError {
+    fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
+        match self {
+            ValidationError::MissingSubecosystem { parent, child } => {
+                write!(f, "Invalid subecosystem for {} -> {}", parent, child)
+            }
+        }
+    }
+}
+
 #[derive(Debug, Deserialize, Serialize)]
 struct Ecosystem {
     pub title: String,
@@ -49,8 +65,6 @@ enum CEError {
         path: String,
         toml_error: toml::de::Error,
     },
-    #[fail(display = "Ecosystem Data Integrity Issue: {}", _0)]
-    EcosystemDataError(String),
 }
 
 type EcosystemMap = HashMap<String, Ecosystem>;
@@ -89,17 +103,18 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<EcosystemMap> {
     Ok(ecosystems)
 }
 
-fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Result<()> {
+fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
     let mut tagmap: HashMap<String, u32> = HashMap::new();
     let mut repo_set = HashSet::new();
+    let mut errors = vec![];
     for ecosystem in ecosystem_map.values() {
         if let Some(ref sub_ecosystems) = ecosystem.sub_ecosystems {
             for sub in sub_ecosystems {
                 if !ecosystem_map.contains_key(sub) {
-                    return Err(CEError::EcosystemDataError(format!(
-                        "Missing subecosystem: {}",
-                        sub
-                    )))?;
+                    errors.push(ValidationError::MissingSubecosystem {
+                        parent: ecosystem.title.clone(),
+                        child: sub.clone(),
+                    });
                 }
             }
         }
@@ -115,24 +130,29 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Result<()> {
             }
         }
     }
-    println!(
-        "Validated {} ecosystems and {} repos",
-        ecosystem_map.len(),
-        repo_set.len(),
-    );
-    println!("\nTags");
-    for (tag, count) in tagmap {
-        println!("\t{}: {}", tag, count);
+    if errors.len() == 0 {
+        println!(
+            "Validated {} ecosystems and {} repos",
+            ecosystem_map.len(),
+            repo_set.len(),
+        );
+        println!("\nTags");
+        for (tag, count) in tagmap {
+            println!("\t{}: {}", tag, count);
+        }
     }
-    Ok(())
+    errors
 }
 
 fn validate(data_path: String) -> Fallible<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
         Ok(ecosystem_map) => {
-            if let Err(err) = validate_ecosystems(&ecosystem_map) {
-                println!("{}", err);
+            let errors = validate_ecosystems(&ecosystem_map);
+            if errors.len() > 0 {
+                for err in errors {
+                    println!("{}", err);
+                }
                 std::process::exit(-1);
             }
         }
@@ -148,8 +168,8 @@ fn export(data_path: String, output_path: String) -> Fallible<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
         Ok(ecosystem_map) => {
-            if let Err(err) = validate_ecosystems(&ecosystem_map) {
-                println!("{}", err);
+            let errors = validate_ecosystems(&ecosystem_map);
+            if errors.len() > 0 {
                 std::process::exit(-1);
             }
             serde_json::to_writer_pretty(File::create(output_path)?, &ecosystem_map)?;

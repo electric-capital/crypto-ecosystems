@@ -3,7 +3,11 @@ title = "Nervos"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/NervosFoundation", "https://github.com/nervosnetwork"]
+github_organizations = [
+  "https://github.com/glias",
+  "https://github.com/NervosFoundation",
+  "https://github.com/nervosnetwork",
+]
 
 # Repositories
 [[repo]]
@@ -67,7 +71,43 @@ url = "https://github.com/DylanOpenDev/ckb-dex-test"
 url = "https://github.com/glias/deal-maker-cli"
 
 [[repo]]
+url = "https://github.com/glias/dex-amm-contract"
+
+[[repo]]
+url = "https://github.com/glias/dex-contracts"
+
+[[repo]]
+url = "https://github.com/glias/dex-query-api"
+
+[[repo]]
+url = "https://github.com/glias/dex-sudt-amm-contract"
+
+[[repo]]
 url = "https://github.com/glias/dex-ui"
+
+[[repo]]
+url = "https://github.com/glias/faucet-frontend"
+
+[[repo]]
+url = "https://github.com/glias/faucet-server"
+
+[[repo]]
+url = "https://github.com/glias/glia-sudt-swap-matcher"
+
+[[repo]]
+url = "https://github.com/glias/glia-swap-matcher"
+
+[[repo]]
+url = "https://github.com/glias/liquidity-pool-contract"
+
+[[repo]]
+url = "https://github.com/glias/order-book-contract"
+
+[[repo]]
+url = "https://github.com/glias/pool"
+
+[[repo]]
+url = "https://github.com/glias/token-list"
 
 [[repo]]
 url = "https://github.com/GrowFi-labs/UDTswap"
@@ -446,6 +486,9 @@ url = "https://github.com/nervosnetwork/godwoken-js-sdk"
 url = "https://github.com/nervosnetwork/godwoken-polyjuice"
 
 [[repo]]
+url = "https://github.com/nervosnetwork/godwoken-public"
+
+[[repo]]
 url = "https://github.com/nervosnetwork/godwoken-scripts"
 
 [[repo]]
@@ -479,6 +522,9 @@ url = "https://github.com/nervosnetwork/keyper"
 url = "https://github.com/nervosnetwork/keypering"
 
 [[repo]]
+url = "https://github.com/nervosnetwork/layer2-evm-documentation"
+
+[[repo]]
 url = "https://github.com/nervosnetwork/linked-hash-map"
 
 [[repo]]
@@ -495,6 +541,12 @@ url = "https://github.com/nervosnetwork/mbedtls"
 
 [[repo]]
 url = "https://github.com/nervosnetwork/mercury"
+
+[[repo]]
+url = "https://github.com/nervosnetwork/mercury-benchmark"
+
+[[repo]]
+url = "https://github.com/nervosnetwork/mercury-devops"
 
 [[repo]]
 url = "https://github.com/nervosnetwork/merkle-mountain-range"

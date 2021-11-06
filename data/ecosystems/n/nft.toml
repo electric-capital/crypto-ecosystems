@@ -1,10 +1,13 @@
 # Ecosystem Level Information
 title = "NFT"
 
-sub_ecosystems = []
+sub_ecosystems = ["Blockparty", "Webaverse", "Zero"]
 
-github_organizations = ["https://github.com/Blockparty-Global"]
+github_organizations = ["https://github.com/Blockparty-Global", "https://github.com/iroiro"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/Blockparty-Global/code-pipeline-slack"
+
+[[repo]]
+url = "https://github.com/iroiro/merkle-distributor"

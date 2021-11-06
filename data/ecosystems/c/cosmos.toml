@@ -6,7 +6,9 @@ sub_ecosystems = [
   "Akash Network",
   "Althea",
   "Band Protocol",
+  "Bitsong",
   "commercio.network",
+  "Confrio",
   "CosmWasm",
   "Crypto.com Chain",
   "Cyber",
@@ -16,12 +18,15 @@ sub_ecosystems = [
   "Enigma",
   "Fetch",
   "FOAM",
+  "GravityDEX",
   "HBTC Chain",
   "Injective Protocol",
   "Interchain",
   "IRIS Network",
+  "IRISnet",
   "IRITA Consortium Blockchain",
   "ixo",
+  "Juno",
   "Kava Labs",
   "Kira",
   "Kuchain Network",
@@ -31,21 +36,31 @@ sub_ecosystems = [
   "Nomic",
   "Nym",
   "OKEX Chain",
+  "OmniFlix",
+  "Osmosis",
   "Persistence",
   "Regen Network",
   "Sentinel",
+  "Shade Protocol",
   "Sifchain",
+  "Sputnik Network",
   "Starname",
   "Tendermint",
   "Terra",
+  "Tharsis",
   "THORChain",
   "xfund",
 ]
 
 github_organizations = [
+  "https://github.com/celestiaorg",
+  "https://github.com/chainapsis",
+  "https://github.com/cheqd",
   "https://github.com/cosmos",
   "https://github.com/CosmWasm",
+  "https://github.com/liubaninc",
   "https://github.com/luniehq",
+  "https://github.com/PeggyJV",
 ]
 
 # Repositories
@@ -65,6 +80,36 @@ url = "https://github.com/bandprotocol/bandchain.js"
 url = "https://github.com/cbarraford/cosmos-multisig"
 
 [[repo]]
+url = "https://github.com/celestiaorg/cosmos-sdk"
+
+[[repo]]
+url = "https://github.com/celestiaorg/go-ipfs"
+
+[[repo]]
+url = "https://github.com/celestiaorg/go-multihash"
+
+[[repo]]
+url = "https://github.com/celestiaorg/go-verifcid"
+
+[[repo]]
+url = "https://github.com/celestiaorg/hive"
+
+[[repo]]
+url = "https://github.com/celestiaorg/ibc"
+
+[[repo]]
+url = "https://github.com/celestiaorg/ibc-go"
+
+[[repo]]
+url = "https://github.com/celestiaorg/leopard"
+
+[[repo]]
+url = "https://github.com/celestiaorg/multicodec"
+
+[[repo]]
+url = "https://github.com/celestiaorg/spec"
+
+[[repo]]
 url = "https://github.com/certusone/chain_exporter"
 
 [[repo]]
@@ -74,7 +119,28 @@ url = "https://github.com/certusone/testnet_deploy"
 url = "https://github.com/ChainAgnostic/CAIPs"
 
 [[repo]]
+url = "https://github.com/chainapsis/cosmos-sdk"
+
+[[repo]]
+url = "https://github.com/chainapsis/GameOfZones"
+
+[[repo]]
+url = "https://github.com/chainapsis/ics"
+
+[[repo]]
 url = "https://github.com/chainapsis/keplr-extension"
+
+[[repo]]
+url = "https://github.com/chainapsis/osmosis"
+
+[[repo]]
+url = "https://github.com/chainapsis/relayer"
+
+[[repo]]
+url = "https://github.com/chainapsis/SecretNetwork"
+
+[[repo]]
+url = "https://github.com/chainapsis/terra-oracle"
 
 [[repo]]
 url = "https://github.com/ChainSafe/ChainBridge"
@@ -688,6 +754,12 @@ url = "https://github.com/OpenGenus/cosmos-search"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis"
+
+[[repo]]
+url = "https://github.com/PeggyJV/cellars"
+
+[[repo]]
+url = "https://github.com/PeggyJV/uniswap-v2-subgraph"
 
 [[repo]]
 url = "https://github.com/qdriven/cosmos-gaia-ansible"

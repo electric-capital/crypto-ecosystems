@@ -1,9 +1,14 @@
 # Ecosystem Level Information
 title = "Cardano"
 
-sub_ecosystems = []
+sub_ecosystems = ["Berry", "Minswap"]
 
-github_organizations = ["https://github.com/input-output-hk"]
+github_organizations = [
+  "https://github.com/armada-alliance",
+  "https://github.com/CardanoSolutions",
+  "https://github.com/input-output-hk",
+  "https://github.com/stakhanovite-io",
+]
 
 # Repositories
 [[repo]]
@@ -19,10 +24,28 @@ url = "https://github.com/a-traveller/cardan"
 url = "https://github.com/Akagi201/learning-cardano"
 
 [[repo]]
+url = "https://github.com/armada-alliance/alpine-rpi-os"
+
+[[repo]]
 url = "https://github.com/armada-alliance/armada-alliance"
 
 [[repo]]
+url = "https://github.com/armada-alliance/cardano-db-sync"
+
+[[repo]]
+url = "https://github.com/armada-alliance/cardanocli-js"
+
+[[repo]]
+url = "https://github.com/armada-alliance/cardanocli-rest"
+
+[[repo]]
+url = "https://github.com/armada-alliance/essential-cardano"
+
+[[repo]]
 url = "https://github.com/armada-alliance/master"
+
+[[repo]]
+url = "https://github.com/armada-alliance/NFT-Metadata-Standard-CIP"
 
 [[repo]]
 url = "https://github.com/cardano-community/concepts"
@@ -35,6 +58,12 @@ url = "https://github.com/cardano-community/support-faq"
 
 [[repo]]
 url = "https://github.com/cardanofans/homeland"
+
+[[repo]]
+url = "https://github.com/CardanoSolutions/json-bigint"
+
+[[repo]]
+url = "https://github.com/CardanoSolutions/json-schema-to-typescript"
 
 [[repo]]
 url = "https://github.com/CardanoUmbrella/awesome-cardano"
@@ -956,6 +985,9 @@ url = "https://github.com/input-output-hk/nixpkgs-channels"
 url = "https://github.com/input-output-hk/nomad"
 
 [[repo]]
+url = "https://github.com/input-output-hk/nomad-driver-nix"
+
+[[repo]]
 url = "https://github.com/input-output-hk/nomad-driver-nspawn-nixos-container"
 
 [[repo]]
@@ -1080,6 +1112,9 @@ url = "https://github.com/input-output-hk/purescript-base58"
 
 [[repo]]
 url = "https://github.com/input-output-hk/purescript-bridge"
+
+[[repo]]
+url = "https://github.com/input-output-hk/purescript-datetime-iso"
 
 [[repo]]
 url = "https://github.com/input-output-hk/purescript-echarts"

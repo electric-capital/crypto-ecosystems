@@ -11,7 +11,11 @@ sub_ecosystems = [
   "Set Match Games",
 ]
 
-github_organizations = ["https://github.com/holochain"]
+github_organizations = [
+  "https://github.com/holochain",
+  "https://github.com/holochain-gym",
+  "https://github.com/holochain-open-dev",
+]
 
 # Repositories
 [[repo]]
@@ -47,6 +51,12 @@ url = "https://github.com/Holo-Host/servicelogger"
 
 [[repo]]
 url = "https://github.com/holochain-community-resources/design-workshop"
+
+[[repo]]
+url = "https://github.com/holochain-open-dev/blog"
+
+[[repo]]
+url = "https://github.com/holochain-open-dev/minimal-hdk-unit-test-example"
 
 [[repo]]
 url = "https://github.com/holochain/acorn"

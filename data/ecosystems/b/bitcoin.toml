@@ -2,29 +2,43 @@
 title = "Bitcoin"
 
 sub_ecosystems = [
+  "Bitccess",
+  "Blocknative",
   "Blockonomics",
   "Blockstack",
   "BTCPayServer",
+  "DeFiChain",
   "Fabric.fm",
+  "Interlay",
   "Keep Network",
   "Lightning",
   "Lightning Bitcoin",
+  "Lonero Team",
+  "Money on Chain",
   "Opennode",
   "RSK Smart Bitcoin",
+  "Run On Flux",
+  "Swingby",
   "ZeroNet",
 ]
 
 github_organizations = [
+  "https://github.com/bitaccess",
   "https://github.com/bitcoin",
   "https://github.com/bitcoin-core",
   "https://github.com/bitcoinj",
   "https://github.com/bitcoinjs",
   "https://github.com/bitcoinops",
   "https://github.com/btcsuite",
+  "https://github.com/chaincodelabs",
+  "https://github.com/coinos",
+  "https://github.com/EdgeApp",
   "https://github.com/haskoin",
   "https://github.com/libbitcoin",
+  "https://github.com/peakshift",
   "https://github.com/rust-bitcoin",
   "https://github.com/Samourai-Wallet",
+  "https://github.com/ZeusLN",
   "https://github.com/zkSNACKs",
 ]
 
@@ -47,6 +61,78 @@ url = "https://github.com/bcext/neutrino"
 [[repo]]
 url = "https://github.com/bcoin-org/bcoin"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/bitaccess/bitcoin"
+
+[[repo]]
+url = "https://github.com/bitaccess/bitcoin-core"
+
+[[repo]]
+url = "https://github.com/bitaccess/bitcoin-wallet"
+
+[[repo]]
+url = "https://github.com/bitaccess/bitcoincashjs"
+
+[[repo]]
+url = "https://github.com/bitaccess/bitcoinjs-lib"
+
+[[repo]]
+url = "https://github.com/bitaccess/bitcore"
+
+[[repo]]
+url = "https://github.com/bitaccess/bitcore-explorers"
+
+[[repo]]
+url = "https://github.com/bitaccess/blockbook"
+
+[[repo]]
+url = "https://github.com/bitaccess/Blockchain-Known-Pools"
+
+[[repo]]
+url = "https://github.com/bitaccess/card-swipe"
+
+[[repo]]
+url = "https://github.com/bitaccess/discourse-slack-plugin"
+
+[[repo]]
+url = "https://github.com/bitaccess/eth-lightwallet"
+
+[[repo]]
+url = "https://github.com/bitaccess/heroku-buildpack-monorepo"
+
+[[repo]]
+url = "https://github.com/bitaccess/insight"
+
+[[repo]]
+url = "https://github.com/bitaccess/insight-api"
+
+[[repo]]
+url = "https://github.com/bitaccess/LndHub"
+
+[[repo]]
+url = "https://github.com/bitaccess/node-cache-manager-ioredis"
+
+[[repo]]
+url = "https://github.com/bitaccess/nodejs-getting-started"
+
+[[repo]]
+url = "https://github.com/bitaccess/paymentrequest"
+
+[[repo]]
+url = "https://github.com/bitaccess/python-shamir-mnemonic"
+
+[[repo]]
+url = "https://github.com/bitaccess/slate"
+
+[[repo]]
+url = "https://github.com/bitaccess/speedtest.net"
+
+[[repo]]
+url = "https://github.com/bitaccess/subdir-heroku-buildpack"
+
+[[repo]]
+url = "https://github.com/bitaccess/zbar"
 
 [[repo]]
 url = "https://github.com/bitcoin-abe/bitcoin-abe"
@@ -471,6 +557,9 @@ url = "https://github.com/chaincodelabs/bitcoin-curriculum"
 url = "https://github.com/chaincodelabs/bitcoinperf"
 
 [[repo]]
+url = "https://github.com/chaincodelabs/codespeed"
+
+[[repo]]
 url = "https://github.com/chaincodelabs/study-groups"
 
 [[repo]]
@@ -481,6 +570,15 @@ url = "https://github.com/chris-belcher/electrum-personal-server"
 
 [[repo]]
 url = "https://github.com/cloudhead/nakamoto"
+
+[[repo]]
+url = "https://github.com/coinos/coinos-ui"
+
+[[repo]]
+url = "https://github.com/coinos/lnft"
+
+[[repo]]
+url = "https://github.com/coinos/marina-provider"
 
 [[repo]]
 url = "https://github.com/coinspark/php-OP_RETURN"
@@ -507,10 +605,166 @@ url = "https://github.com/decentralized-identity/ion"
 url = "https://github.com/DeFiCh/app"
 
 [[repo]]
+url = "https://github.com/EdgeApp/airbitz-exchange-rate-lib"
+
+[[repo]]
+url = "https://github.com/EdgeApp/asmcrypto.js"
+
+[[repo]]
+url = "https://github.com/EdgeApp/augur"
+
+[[repo]]
+url = "https://github.com/EdgeApp/augur-ui-react-components"
+
+[[repo]]
+url = "https://github.com/EdgeApp/augur.js"
+
+[[repo]]
+url = "https://github.com/EdgeApp/bcoin"
+
+[[repo]]
+url = "https://github.com/EdgeApp/bitcoin.org"
+
+[[repo]]
+url = "https://github.com/EdgeApp/bitcoinjs-lib"
+
+[[repo]]
+url = "https://github.com/EdgeApp/coinify"
+
+[[repo]]
+url = "https://github.com/EdgeApp/docker-vertcoind"
+
+[[repo]]
 url = "https://github.com/EdgeApp/edge-currency-plugins"
 
 [[repo]]
 url = "https://github.com/EdgeApp/edge-reports-server"
+
+[[repo]]
+url = "https://github.com/EdgeApp/edge-ripple-keypairs"
+
+[[repo]]
+url = "https://github.com/EdgeApp/edge-sweeper"
+
+[[repo]]
+url = "https://github.com/EdgeApp/eosjs-api"
+
+[[repo]]
+url = "https://github.com/EdgeApp/eosjs-node-cli"
+
+[[repo]]
+url = "https://github.com/EdgeApp/ethereumjs-wallet"
+
+[[repo]]
+url = "https://github.com/EdgeApp/ethrpc"
+
+[[repo]]
+url = "https://github.com/EdgeApp/eztz"
+
+[[repo]]
+url = "https://github.com/EdgeApp/github-action-file-sync"
+
+[[repo]]
+url = "https://github.com/EdgeApp/js-stellar-sdk"
+
+[[repo]]
+url = "https://github.com/EdgeApp/json-csv"
+
+[[repo]]
+url = "https://github.com/EdgeApp/lcoin"
+
+[[repo]]
+url = "https://github.com/EdgeApp/libbitcoin"
+
+[[repo]]
+url = "https://github.com/EdgeApp/libwallet"
+
+[[repo]]
+url = "https://github.com/EdgeApp/mymonero-core-js"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-background-fetch"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-background-task"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-camera"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-contacts"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-contacts-wrapper"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-dropdownalert"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-extra-dimensions-android"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-firebase"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-flip-view"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-fs"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-image-picker"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-mail"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-material-kit"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-material-textfield"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-menu"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-progress"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-randombytes"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-router-flux"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-size-matters"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-smart-splash-screen"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-sortable-listview"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-tcp"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-ticker"
+
+[[repo]]
+url = "https://github.com/EdgeApp/react-native-webview-file-upload-android"
+
+[[repo]]
+url = "https://github.com/EdgeApp/Request-for-Payment-Address"
+
+[[repo]]
+url = "https://github.com/EdgeApp/ripple-lib"
+
+[[repo]]
+url = "https://github.com/EdgeApp/whorlwind"
+
+[[repo]]
+url = "https://github.com/EdgeApp/wuc-new"
 
 [[repo]]
 url = "https://github.com/ElementsProject/elements"
@@ -708,6 +962,27 @@ url = "https://github.com/nextcashtech/bitcoin"
 
 [[repo]]
 url = "https://github.com/Overtorment/Cashier-BTC"
+
+[[repo]]
+url = "https://github.com/peakshift/beacon_chain"
+
+[[repo]]
+url = "https://github.com/peakshift/ethereum-libraries"
+
+[[repo]]
+url = "https://github.com/peakshift/gherkin-scenario-builder"
+
+[[repo]]
+url = "https://github.com/peakshift/photon-app"
+
+[[repo]]
+url = "https://github.com/peakshift/telegram-dogecoin"
+
+[[repo]]
+url = "https://github.com/peakshift/vyper"
+
+[[repo]]
+url = "https://github.com/peakshift/web3.py"
 
 [[repo]]
 url = "https://github.com/piotrnar/gocoin"
@@ -955,6 +1230,15 @@ url = "https://github.com/yasaricli/chainradar-api"
 
 [[repo]]
 url = "https://github.com/yenom/BitcoinKit"
+
+[[repo]]
+url = "https://github.com/ZeusLN/bitcoin-tutorials"
+
+[[repo]]
+url = "https://github.com/ZeusLN/js-lnurl"
+
+[[repo]]
+url = "https://github.com/ZeusLN/raspiblitz"
 
 [[repo]]
 url = "https://github.com/ZeusLN/zeus"

@@ -1,9 +1,14 @@
 # Ecosystem Level Information
 title = "IPFS"
 
-sub_ecosystems = ["3Box", "Berty", "OrbitDB"]
+sub_ecosystems = ["3Box", "Application Research Group", "Berty", "OrbitDB", "Textile.io"]
 
-github_organizations = ["https://github.com/ipfs", "https://github.com/ipfs-shipyard"]
+github_organizations = [
+  "https://github.com/ipfs",
+  "https://github.com/ipfs-shipyard",
+  "https://github.com/oya-protocol",
+  "https://github.com/web3-storage",
+]
 
 # Repositories
 [[repo]]
@@ -988,6 +993,9 @@ url = "https://github.com/ipfs/ipfs-docs-v2"
 url = "https://github.com/ipfs/ipfs-ds-convert"
 
 [[repo]]
+url = "https://github.com/ipfs/ipfs-ds-postgres"
+
+[[repo]]
 url = "https://github.com/ipfs/ipfs-geoip"
 
 [[repo]]
@@ -1358,3 +1366,6 @@ url = "https://github.com/ipfs/websiter"
 
 [[repo]]
 url = "https://github.com/Satellite-im/Satellite-Absolute"
+
+[[repo]]
+url = "https://github.com/web3-storage/wrangler-action"

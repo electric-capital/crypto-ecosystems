@@ -1,9 +1,9 @@
 # Ecosystem Level Information
 title = "Diem"
 
-sub_ecosystems = []
+sub_ecosystems = ["Novi"]
 
-github_organizations = ["https://github.com/libra"]
+github_organizations = ["https://github.com/diem", "https://github.com/libra"]
 
 # Repositories
 [[repo]]
@@ -48,6 +48,21 @@ tags = ["Developer Tool"]
 [[repo]]
 url = "https://github.com/deshario/libra-wallet"
 tags = ["Wallet"]
+
+[[repo]]
+url = "https://github.com/diem/allure2"
+
+[[repo]]
+url = "https://github.com/diem/pre-commit-gruntwork"
+
+[[repo]]
+url = "https://github.com/diem/pre-commit-hooks"
+
+[[repo]]
+url = "https://github.com/diem/publish-unit-test-result-action"
+
+[[repo]]
+url = "https://github.com/diem/sccache"
 
 [[repo]]
 url = "https://github.com/Disk1n/LibraBrowser"

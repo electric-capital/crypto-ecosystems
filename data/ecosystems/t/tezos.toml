@@ -1,10 +1,21 @@
 # Ecosystem Level Information
 title = "Tezos"
 
-sub_ecosystems = ["Blockswap Network", "hic et nunc"]
+sub_ecosystems = [
+  "Baking Bad",
+  "Blockswap Network",
+  "DipDup",
+  "ECAD Labs Inc.",
+  "hic et nunc",
+  "Kukai Wallet",
+  "Madfish Solutions",
+  "TezEdge",
+  "Warden Finance",
+]
 
 github_organizations = [
   "https://github.com/baking-bad",
+  "https://github.com/cryptiumlabs",
   "https://github.com/hicetnunc2000",
   "https://github.com/kukai-wallet",
   "https://github.com/simplestaking",
@@ -12,6 +23,9 @@ github_organizations = [
   "https://github.com/tezbox",
   "https://github.com/tezbridge",
   "https://github.com/tezos",
+  "https://github.com/tezos-reward-distributor-organization",
+  "https://github.com/tzbutton",
+  "https://github.com/uconomy",
 ]
 
 # Repositories
@@ -356,10 +370,28 @@ url = "https://github.com/CruzMolina/tezos-smartpy-example"
 url = "https://github.com/cryptiumlabs/backerei"
 
 [[repo]]
+url = "https://github.com/cryptiumlabs/kms"
+
+[[repo]]
+url = "https://github.com/cryptiumlabs/ledger-app-tezos"
+
+[[repo]]
+url = "https://github.com/cryptiumlabs/ledger-rs"
+
+[[repo]]
+url = "https://github.com/cryptiumlabs/ledger-tendermint-rs"
+
+[[repo]]
+url = "https://github.com/cryptiumlabs/signatory"
+
+[[repo]]
 url = "https://github.com/cryptiumlabs/smarter-contracts"
 
 [[repo]]
 url = "https://github.com/cryptiumlabs/tezos-governance"
+
+[[repo]]
+url = "https://github.com/cryptiumlabs/validator-profiles"
 
 [[repo]]
 url = "https://github.com/cryptoeconomicslab/ovm.tz"

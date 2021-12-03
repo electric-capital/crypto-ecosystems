@@ -1,29 +1,28 @@
+# Ecosystem Level Information
 title = "ZeroPool"
+
 sub_ecosystems = []
-github_organizations = ["https://github.com/zeropoolnetwork/"]
+
+github_organizations = []
 
 # Repositories
+[[repo]]
+url = "https://github.com/zeropoolnetwork/libzeropool"
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/libzeropool-rs"
 
 [[repo]]
-url = "https://github.com/zeropoolnetwork/zeropool-api-js"
-
-[[repo]]
 url = "https://github.com/zeropoolnetwork/Open-Grants-Program"
 
 [[repo]]
-url = "https://github.com/zeropoolnetwork/libzeropool"
-
-[[repo]]
-url = "https://github.com/zeropoolnetwork/zeropool-relayer"
-
-[[repo]]
-url = "https://github.com/zeropoolnetwork/zeropool-frontend"
+url = "https://github.com/zeropoolnetwork/phase2-bn254"
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/pool-evm-single-l1"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-api-js"
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-console"
@@ -32,14 +31,16 @@ url = "https://github.com/zeropoolnetwork/zeropool-console"
 url = "https://github.com/zeropoolnetwork/zeropool-core"
 
 [[repo]]
-url = "https://github.com/zeropoolnetwork/zp-chrome-extension"
+url = "https://github.com/zeropoolnetwork/zeropool-frontend"
 
 [[repo]]
-url = "https://github.com/zeropoolnetwork/zeropool-utils"
+url = "https://github.com/zeropoolnetwork/zeropool-relayer"
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-substrate"
 
 [[repo]]
-url = "https://github.com/zeropoolnetwork/phase2-bn254"
+url = "https://github.com/zeropoolnetwork/zeropool-utils"
 
+[[repo]]
+url = "https://github.com/zeropoolnetwork/zp-chrome-extension"

@@ -1,41 +1,31 @@
 # Ecosystem Level Information
 title = "DOTMog"
 
-# Sub Ecosystems
-# These are the titles of other ecosystems in different .toml files in the /data/ecosystems directory
-sub_ecosystems = [ ]
+sub_ecosystems = []
 
-# Github Organizations
-# This is a list of links to associated github organizations.
-github_organizations = ["https://github.com/dotmog"]
+github_organizations = []
 
 # Repositories
-# These are structs including a url and tags for a git repository.  These URLS do not have to be on github.
+[[repo]]
+url = "https://github.com/ajuna-network/pallet-dotmog"
+
+[[repo]]
+url = "https://github.com/dotmog/barnacle"
+
+[[repo]]
+url = "https://github.com/dotmog/DOTMogNode"
+
+[[repo]]
+url = "https://github.com/dotmog/Grant-Milestone-Delivery"
+
+[[repo]]
+url = "https://github.com/dotmog/Schnorrkel"
+
 [[repo]]
 url = "https://github.com/dotmog/substrate"
-tags = [ "Protocol"]
 
 [[repo]]
-url = "https://github.com/dotmog/pallet-dotmog"
-tags = [ "Game"]
+url = "https://github.com/dotmog/SubstrateUnityWalletSimple"
 
 [[repo]]
- url = "https://github.com/dotmog/Unity3DExample"
-
-[[repo]]
- url = "https://github.com/dotmog/substrate"
-
-[[repo]]
- url = "https://github.com/dotmog/Schnorrkel"
-
-[[repo]]
- url = "https://github.com/dotmog/Grant-Milestone-Delivery"
-
-[[repo]]
- url = "https://github.com/dotmog/SubstrateUnityWalletSimple"
-
-[[repo]]
- url = "https://github.com/dotmog/barnacle"
-
-[[repo]]
- url = "https://github.com/dotmog/DOTMogNode"
+url = "https://github.com/dotmog/Unity3DExample"

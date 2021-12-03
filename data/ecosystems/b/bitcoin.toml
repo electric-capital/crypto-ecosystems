@@ -2,11 +2,13 @@
 title = "Bitcoin"
 
 sub_ecosystems = [
+  "BiFi",
   "Bitccess",
   "Blocknative",
   "Blockonomics",
-  "Stacks",
   "BTCPayServer",
+  "Cosmic Bridge",
+  "Crown Platform",
   "DeFiChain",
   "Fabric.fm",
   "Interlay",
@@ -18,6 +20,8 @@ sub_ecosystems = [
   "Opennode",
   "RSK Smart Bitcoin",
   "Run On Flux",
+  "Sparrow Wallet",
+  "Stacks",
   "Swingby",
   "ZeroNet",
 ]
@@ -31,6 +35,7 @@ github_organizations = [
   "https://github.com/bitcoinops",
   "https://github.com/btcsuite",
   "https://github.com/chaincodelabs",
+  "https://github.com/chainpoint",
   "https://github.com/coinos",
   "https://github.com/EdgeApp",
   "https://github.com/haskoin",
@@ -199,6 +204,9 @@ url = "https://github.com/bitcoin-abe/bitcoin-abe"
 
 [[repo]]
 url = "https://github.com/bitcoin-core/apple-sdk-tools"
+
+[[repo]]
+url = "https://github.com/bitcoin-core/asmap-data"
 
 [[repo]]
 url = "https://github.com/bitcoin-core/bitcoin-acks"
@@ -645,6 +653,96 @@ url = "https://github.com/chaincodelabs/seminars"
 
 [[repo]]
 url = "https://github.com/chaincodelabs/study-groups"
+
+[[repo]]
+url = "https://github.com/chainpoint/bitcoin-header-node"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-binary"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-cli"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-client-js"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-client-web"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-connector"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-core"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-drand"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-gateway"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-influx"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-js"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-node-cli"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-ntpd"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-org"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-parse"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-proof-json-schema"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-roughtime"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-start"
+
+[[repo]]
+url = "https://github.com/chainpoint/chainpoint-validate-js"
+
+[[repo]]
+url = "https://github.com/chainpoint/ethers.js"
+
+[[repo]]
+url = "https://github.com/chainpoint/feesim"
+
+[[repo]]
+url = "https://github.com/chainpoint/go-nist-beacon"
+
+[[repo]]
+url = "https://github.com/chainpoint/homebrew-taps"
+
+[[repo]]
+url = "https://github.com/chainpoint/js-macaroon"
+
+[[repo]]
+url = "https://github.com/chainpoint/level-rocksdb"
+
+[[repo]]
+url = "https://github.com/chainpoint/nist-randomness-beacon"
+
+[[repo]]
+url = "https://github.com/chainpoint/tendermint"
+
+[[repo]]
+url = "https://github.com/chainpoint/w3id.org"
+
+[[repo]]
+url = "https://github.com/chainpoint/whitepaper"
 
 [[repo]]
 url = "https://github.com/chainside/btcnodejs"
@@ -1247,6 +1345,12 @@ url = "https://github.com/haskoin/old-haskoin-wallet"
 url = "https://github.com/haskoin/secp256k1-haskell"
 
 [[repo]]
+url = "https://github.com/hitbtc-com/hitbtc-api"
+
+[[repo]]
+url = "https://github.com/hitbtc-com/hitbtc-php-sdk"
+
+[[repo]]
 url = "https://github.com/honest-cash/honestcash"
 
 [[repo]]
@@ -1417,6 +1521,9 @@ url = "https://github.com/peakshift/bitcoin-ux"
 url = "https://github.com/peakshift/bolt.fun"
 
 [[repo]]
+url = "https://github.com/peakshift/btc-payer"
+
+[[repo]]
 url = "https://github.com/peakshift/distora"
 
 [[repo]]
@@ -1439,6 +1546,9 @@ url = "https://github.com/peakshift/issue-parser"
 
 [[repo]]
 url = "https://github.com/peakshift/lighthouse-ui"
+
+[[repo]]
+url = "https://github.com/peakshift/makers.bolt.fun"
 
 [[repo]]
 url = "https://github.com/peakshift/peakshift-contracts"
@@ -1749,6 +1859,9 @@ url = "https://github.com/ZeusLN/zeus"
 
 [[repo]]
 url = "https://github.com/ZeusLN/zeus-website"
+
+[[repo]]
+url = "https://github.com/ZeusLN/zeus-website-classic"
 
 [[repo]]
 url = "https://github.com/zkSNACKs/MempoolSyncer"

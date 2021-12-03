@@ -1,20 +1,19 @@
+# Ecosystem Level Information
 title = "Chronicled"
+
 sub_ecosystems = []
-github_organizations = ["https://github.com/chronicled"]
+
+github_organizations = []
 
 # Repositories
-
 [[repo]]
-url = "https://github.com/chronicled/substrate"
-
-[[repo]]
-url = "https://github.com/chronicled/k8s-volume-utils"
+url = "https://github.com/chronicled/fluent-plugin-amqp"
 
 [[repo]]
 url = "https://github.com/chronicled/fs-swap"
 
 [[repo]]
-url = "https://github.com/chronicled/fluent-plugin-amqp"
+url = "https://github.com/chronicled/k8s-volume-utils"
 
 [[repo]]
 url = "https://github.com/chronicled/node-postgres"
@@ -22,3 +21,5 @@ url = "https://github.com/chronicled/node-postgres"
 [[repo]]
 url = "https://github.com/chronicled/seed-testing"
 
+[[repo]]
+url = "https://github.com/chronicled/substrate"

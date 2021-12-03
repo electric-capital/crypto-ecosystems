@@ -1,11 +1,23 @@
 # Ecosystem Level Information
 title = "THORChain"
 
-sub_ecosystems = [" THORSwap"]
+sub_ecosystems = [" THORSwap", "Thorstarter", "THORWallet"]
 
-github_organizations = ["https://github.com/thorchain"]
+github_organizations = ["https://github.com/Pusher-Labs", "https://github.com/thorchain"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/Pusher-Labs/midgard-explorer"
+
+[[repo]]
+url = "https://github.com/Pusher-Labs/midgard-graphql"
+
+[[repo]]
+url = "https://github.com/Pusher-Labs/thorchain-explorer-singlechain"
+
+[[repo]]
+url = "https://github.com/Pusher-Labs/thorchain-twitter-bot"
+
 [[repo]]
 url = "https://github.com/thorchain/AEsir-Protocol"
 

@@ -1,18 +1,19 @@
+# Ecosystem Level Information
 title = "Virto Network"
+
 sub_ecosystems = []
-github_organizations = ["https://github.com/virto-network"]
 
-#Repositories
+github_organizations = []
 
+# Repositories
 [[repo]]
-url = "https://github.com/virto-network/virto-node"
-
-[[repo]]
-url = "https://github.com/virto-network/valor"
+url = "https://github.com/virto-network/libwallet"
 
 [[repo]]
 url = "https://github.com/virto-network/sube"
 
 [[repo]]
-url = "https://github.com/virto-network/libwallet"
+url = "https://github.com/virto-network/valor"
 
+[[repo]]
+url = "https://github.com/virto-network/virto-node"

@@ -1,10 +1,25 @@
+# Ecosystem Level Information
 title = "zCloak Network"
+
 sub_ecosystems = []
-github_organizations = ["https://github.com/zCloak-Network"]
+
+github_organizations = []
 
 # Repositories
 [[repo]]
-url = "https://github.com/zCloak-Network/zcloak-node"
+url = "https://github.com/zCloak-Network/apps"
+
+[[repo]]
+url = "https://github.com/zCloak-Network/cumulus"
+
+[[repo]]
+url = "https://github.com/zCloak-Network/open-runtime-module-library"
+
+[[repo]]
+url = "https://github.com/zCloak-Network/simple-merkle-tree"
+
+[[repo]]
+url = "https://github.com/zCloak-Network/starks-verifier"
 
 [[repo]]
 url = "https://github.com/zCloak-Network/substrate"
@@ -13,25 +28,13 @@ url = "https://github.com/zCloak-Network/substrate"
 url = "https://github.com/zCloak-Network/substrate-subxt"
 
 [[repo]]
-url = "https://github.com/zCloak-Network/zCloak-worker"
-
-[[repo]]
-url = "https://github.com/zCloak-Network/simple-merkle-tree"
-
-[[repo]]
-url = "https://github.com/zCloak-Network/apps"
-
-[[repo]]
-url = "https://github.com/zCloak-Network/starks-verifier"
+url = "https://github.com/zCloak-Network/winterfell"
 
 [[repo]]
 url = "https://github.com/zCloak-Network/zcloak-collator"
 
 [[repo]]
-url = "https://github.com/zCloak-Network/open-runtime-module-library"
+url = "https://github.com/zCloak-Network/zcloak-node"
 
 [[repo]]
-url = "https://github.com/zCloak-Network/winterfell"
-
-[[repo]]
-url = "https://github.com/zCloak-Network/cumulus"
+url = "https://github.com/zCloak-Network/zCloak-worker"

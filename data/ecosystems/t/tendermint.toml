@@ -1,9 +1,20 @@
 # Ecosystem Level Information
 title = "Tendermint"
 
-sub_ecosystems = []
+sub_ecosystems = [
+  "DTFN",
+  "expload",
+  "HS Chain",
+  "KiChain",
+  "Lino Network",
+  "Noah Coin",
+  "Oraichain Token",
+  "Rizon",
+  "Terra",
+  "Torus",
+]
 
-github_organizations = ["https://github.com/tendermint"]
+github_organizations = ["https://github.com/fxch-ltd", "https://github.com/tendermint"]
 
 # Repositories
 [[repo]]
@@ -50,6 +61,9 @@ url = "https://github.com/cereum/Oil-in-Gas"
 
 [[repo]]
 url = "https://github.com/certikfoundation/shentu"
+
+[[repo]]
+url = "https://github.com/chantmk/Finding-imposter"
 
 [[repo]]
 url = "https://github.com/chengwenxi/cosmos-relayer"
@@ -100,6 +114,9 @@ url = "https://github.com/e-money/em-ledger"
 url = "https://github.com/Echoinsys/echoinchain"
 
 [[repo]]
+url = "https://github.com/elpinyeknom/basecoin"
+
+[[repo]]
 url = "https://github.com/ezpod/tendermint-go-demo"
 
 [[repo]]
@@ -116,6 +133,15 @@ url = "https://github.com/fractapp/core"
 
 [[repo]]
 url = "https://github.com/FreeFlixMedia/modules"
+
+[[repo]]
+url = "https://github.com/fxch-ltd/Crypto-ACCESS"
+
+[[repo]]
+url = "https://github.com/fxch-ltd/OTC-Digital"
+
+[[repo]]
+url = "https://github.com/fxch-ltd/Self-Custody-PLEDGE"
 
 [[repo]]
 url = "https://github.com/gallactic/gallactic"
@@ -241,7 +267,13 @@ url = "https://github.com/olegabu/kvstore"
 url = "https://github.com/Oneledger/protocol"
 
 [[repo]]
+url = "https://github.com/orientwalt/htdf"
+
+[[repo]]
 url = "https://github.com/p2p-org/dwh"
+
+[[repo]]
+url = "https://github.com/ParadigmFoundation/kosu-monorepo"
 
 [[repo]]
 url = "https://github.com/paust-team/paust-db"
@@ -400,6 +432,9 @@ url = "https://github.com/tendermint/fault-tolerance-demo"
 url = "https://github.com/tendermint/flutter"
 
 [[repo]]
+url = "https://github.com/tendermint/fundraising"
+
+[[repo]]
 url = "https://github.com/tendermint/fuzz"
 
 [[repo]]
@@ -491,6 +526,9 @@ url = "https://github.com/tendermint/lunie-light"
 
 [[repo]]
 url = "https://github.com/tendermint/lunie-ng"
+
+[[repo]]
+url = "https://github.com/tendermint/mars"
 
 [[repo]]
 url = "https://github.com/tendermint/merkleeyes"

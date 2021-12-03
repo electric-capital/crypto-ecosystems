@@ -1,11 +1,19 @@
+# Ecosystem Level Information
 title = "Creator"
+
 sub_ecosystems = []
-github_organizations = ["https://github.com/creator-blockchains"]
+
+github_organizations = []
 
 # Repositories
-
 [[repo]]
 url = "https://github.com/creator-blockchains/assets"
+
+[[repo]]
+url = "https://github.com/creator-blockchains/block-explorer"
+
+[[repo]]
+url = "https://github.com/creator-blockchains/bridges"
 
 [[repo]]
 url = "https://github.com/creator-blockchains/creator-substrate-node"
@@ -14,16 +22,10 @@ url = "https://github.com/creator-blockchains/creator-substrate-node"
 url = "https://github.com/creator-blockchains/creator-token"
 
 [[repo]]
-url = "https://github.com/creator-blockchains/pallet-ethereum-frontier"
+url = "https://github.com/creator-blockchains/ink-smart-contract"
 
 [[repo]]
 url = "https://github.com/creator-blockchains/pallet-ethereum"
 
 [[repo]]
-url = "https://github.com/creator-blockchains/block-explorer"
-
-[[repo]]
-url = "https://github.com/creator-blockchains/ink-smart-contract"
-
-[[repo]]
-url = "https://github.com/creator-blockchains/bridges"
+url = "https://github.com/creator-blockchains/pallet-ethereum-frontier"

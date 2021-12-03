@@ -1,15 +1,11 @@
+# Ecosystem Level Information
 title = "SafePal"
+
 sub_ecosystems = []
-github_organizations = ["https://github.com/SafePalWallet"]
+
+github_organizations = []
 
 # Repositories
-
-[[repo]]
-url = "https://github.com/SafePalWallet/walletkit"
-
-[[repo]]
-url = "https://github.com/SafePalWallet/wallet-adapter"
-
 [[repo]]
 url = "https://github.com/SafePalWallet/ethereum-org-website"
 
@@ -17,4 +13,10 @@ url = "https://github.com/SafePalWallet/ethereum-org-website"
 url = "https://github.com/SafePalWallet/pancake-uikit"
 
 [[repo]]
+url = "https://github.com/SafePalWallet/wallet-adapter"
+
+[[repo]]
 url = "https://github.com/SafePalWallet/walletconnect-monorepo"
+
+[[repo]]
+url = "https://github.com/SafePalWallet/walletkit"

@@ -18,6 +18,7 @@ sub_ecosystems = [
   "Akropolis ",
   "Alchemix",
   "Alethio",
+  "Alpha Finance Lab",
   "AlphaWallet",
   "Altcoin Exchange",
   "AMO Coin",
@@ -74,7 +75,7 @@ sub_ecosystems = [
   "bZx Protocol",
   "C.R.E.A.M. Finance",
   "Cartesi",
-  "Celer Network",
+  "Celer Network cBridge",
   "Celsius",
   "Centrifuge",
   "Ceramic Network",
@@ -222,7 +223,6 @@ sub_ecosystems = [
   "iExec RLC",
   "Illuvium",
   "Immutable",
-  "Impermax",
   "Impermax Finance",
   "Index Coop",
   "Indexed Finance",
@@ -265,9 +265,7 @@ sub_ecosystems = [
   "Mars Poolin",
   "matataki",
   "MatrixETF",
-  "Matter Labs",
   "Mattereum",
-  "MCDEX",
   "Melon",
   "Meme",
   "MetaMask",
@@ -330,7 +328,6 @@ sub_ecosystems = [
   "Perpetual Protocol",
   "Perun",
   "PhoenixDAO",
-  "Pickle",
   "Pickle Finance",
   "PieDAO",
   "PieDAO BTC++",
@@ -393,7 +390,6 @@ sub_ecosystems = [
   "Sandbox",
   "Sarcophagus",
   "SCIFI Index",
-  "Seascape Network",
   "Securrency",
   "seedclub",
   "Seen Haus",
@@ -403,7 +399,6 @@ sub_ecosystems = [
   "Shell Protocol",
   "Shenanigan",
   "Sherlock",
-  "ShibaSwap",
   "Silo Finance",
   "Siren",
   "Skale Network",
@@ -499,7 +494,6 @@ sub_ecosystems = [
   "WitSwap",
   "Wrapped BTC",
   "xDai",
-  "xDai Chain",
   "XDeFi",
   "xfund",
   "xToken",
@@ -517,6 +511,7 @@ sub_ecosystems = [
   "Zerion",
   "Zero",
   "Zero Protocol",
+  "ZKSync",
   "zLot",
   "ZoKrates",
   "Zora",
@@ -1597,6 +1592,9 @@ url = "https://github.com/dappnode/dappnode-discourse-theme"
 url = "https://github.com/dappnode/dappnode-dweb-template"
 
 [[repo]]
+url = "https://github.com/dappnode/dappnode-package-manager"
+
+[[repo]]
 url = "https://github.com/dappnode/dappnode-pioneers"
 
 [[repo]]
@@ -1649,6 +1647,9 @@ url = "https://github.com/dappnode/DAppNodePackage-geth"
 
 [[repo]]
 url = "https://github.com/dappnode/DAppNodePackage-Gnosis-Beacon-Chain"
+
+[[repo]]
+url = "https://github.com/dappnode/DAppNodePackage-Gnosis-Beacon-Chain-Prysm"
 
 [[repo]]
 url = "https://github.com/dappnode/DAppNodePackage-Gnosis-Beacon-Chain-Testnet"
@@ -4613,7 +4614,13 @@ url = "https://github.com/nahmii-community/nahmii-2-docs"
 url = "https://github.com/nahmii-community/nahmii-2-scripts"
 
 [[repo]]
+url = "https://github.com/nahmii-community/nahmii-examples-scripts"
+
+[[repo]]
 url = "https://github.com/nahmii-community/NiiCap"
+
+[[repo]]
+url = "https://github.com/nahmii-community/remix-nahmii-compiler-plugin"
 
 [[repo]]
 url = "https://github.com/nahmii-community/status"
@@ -4783,6 +4790,9 @@ url = "https://github.com/NethermindEth/research"
 url = "https://github.com/NethermindEth/rocksdb-sharp"
 
 [[repo]]
+url = "https://github.com/NethermindEth/rocksdb-sharp-1"
+
+[[repo]]
 url = "https://github.com/NethermindEth/scrypt"
 
 [[repo]]
@@ -4817,6 +4827,9 @@ url = "https://github.com/NethermindEth/warp"
 
 [[repo]]
 url = "https://github.com/NethermindEth/warp-benchmark"
+
+[[repo]]
+url = "https://github.com/NethermindEth/warp-build-action"
 
 [[repo]]
 url = "https://github.com/NethermindEth/WarpTemplates"
@@ -5873,6 +5886,9 @@ url = "https://github.com/rainbow-me/react-native-animated-number"
 url = "https://github.com/rainbow-me/react-native-bottom-sheet"
 
 [[repo]]
+url = "https://github.com/rainbow-me/react-native-mmkv"
+
+[[repo]]
 url = "https://github.com/rainbow-me/react-native-radial-gradient"
 
 [[repo]]
@@ -6781,6 +6797,9 @@ url = "https://github.com/transmute-industries/did-wallet"
 
 [[repo]]
 url = "https://github.com/transmute-industries/did-web"
+
+[[repo]]
+url = "https://github.com/transmute-industries/dilithium"
 
 [[repo]]
 url = "https://github.com/transmute-industries/EcdsaKoblitzSignature2016"

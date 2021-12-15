@@ -3,9 +3,12 @@ title = "Solarbeam"
 
 sub_ecosystems = []
 
-github_organizations = []
+github_organizations = ["https://github.com/solarbeamio"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/solarbeamio/assets"
+
 [[repo]]
 url = "https://github.com/solarbeamio/contracts"
 
@@ -13,7 +16,13 @@ url = "https://github.com/solarbeamio/contracts"
 url = "https://github.com/solarbeamio/solarbeam-analytics"
 
 [[repo]]
+url = "https://github.com/solarbeamio/solarbeam-blocklytics"
+
+[[repo]]
 url = "https://github.com/solarbeamio/solarbeam-interface"
 
 [[repo]]
 url = "https://github.com/solarbeamio/solarbeam-subgraph"
+
+[[repo]]
+url = "https://github.com/solarbeamio/solarbeam-tokenlist"

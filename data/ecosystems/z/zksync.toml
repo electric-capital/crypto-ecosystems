@@ -1,11 +1,27 @@
 # Ecosystem Level Information
 title = "ZKSync"
 
-sub_ecosystems = []
+sub_ecosystems = ["Golem Factory"]
 
-github_organizations = ["https://github.com/matter-labs", "https://github.com/zksync-sdk"]
+github_organizations = [
+  "https://github.com/matter-labs",
+  "https://github.com/zkLinkProtocol",
+  "https://github.com/zksync-sdk",
+]
 
 # Repositories
+[[repo]]
+url = "https://github.com/argentlabs/argent-trustlists"
+
+[[repo]]
+url = "https://github.com/GomerMagog/Magog"
+
+[[repo]]
+url = "https://github.com/litezk/zksync"
+
+[[repo]]
+url = "https://github.com/litezk/zksync-wallet-vue"
+
 [[repo]]
 url = "https://github.com/madis/zkSync-demo"
 
@@ -446,6 +462,27 @@ url = "https://github.com/matter-labs/zksync.js"
 
 [[repo]]
 url = "https://github.com/matter-labs/zrust.github.io"
+
+[[repo]]
+url = "https://github.com/torusresearch/torus-documentation"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-audit-report"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-broker"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-contracts"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-homepage"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-static"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zkp-curve-circuit"
 
 [[repo]]
 url = "https://github.com/zksync-sdk/schnorr-musig-c"

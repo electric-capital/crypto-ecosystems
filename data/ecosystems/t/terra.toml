@@ -3,7 +3,9 @@ title = "Terra"
 
 sub_ecosystems = [
   "Anchor Protocol",
+  "Andromeda",
   "Astroport",
+  "Hermes Protocol",
   "Kujira",
   "Levana Protocol",
   "LoTerra",
@@ -16,17 +18,29 @@ sub_ecosystems = [
   "Pylon Protocol",
   "Spar Protocol",
   "Spectrum Protocol",
+  "Stader Labs",
   "StarTerra",
+  "Subsidium Digital",
   "TerraLand Token",
   "Terraswap",
   "Valkyrie Protocol",
 ]
 
-github_organizations = ["https://github.com/Local-Terra", "https://github.com/terra-project"]
+github_organizations = [
+  "https://github.com/Local-Terra",
+  "https://github.com/PFC-Validator",
+  "https://github.com/terra-project",
+]
 
 # Repositories
 [[repo]]
+url = "https://github.com/alecande11/station-qr-generator"
+
+[[repo]]
 url = "https://github.com/ALPAC-4/nft-market-contract"
+
+[[repo]]
+url = "https://github.com/ALPAC-4/terra-nft.js"
 
 [[repo]]
 url = "https://github.com/amrosaeed/Terra-Challenge"
@@ -41,7 +55,19 @@ url = "https://github.com/astroport-fi/astro-generator-proxy-contracts"
 url = "https://github.com/astroport-fi/astroport-periphery"
 
 [[repo]]
+url = "https://github.com/bharath-123/anchor-escrow"
+
+[[repo]]
 url = "https://github.com/bigeyestudios/Pixy"
+
+[[repo]]
+url = "https://github.com/buithanhtoan1999/astro-nft"
+
+[[repo]]
+url = "https://github.com/buithanhtoan1999/astro_contracts"
+
+[[repo]]
+url = "https://github.com/buithanhtoan1999/nft-marketplace"
 
 [[repo]]
 url = "https://github.com/Capapult/contracts"
@@ -50,10 +76,19 @@ url = "https://github.com/Capapult/contracts"
 url = "https://github.com/collectxyz/collectxyz-guestbook-tutorial-contract"
 
 [[repo]]
+url = "https://github.com/collectxyz/collectxyz-nft-contract"
+
+[[repo]]
 url = "https://github.com/crll9/tokenomics"
 
 [[repo]]
+url = "https://github.com/curest0x1021/money-market"
+
+[[repo]]
 url = "https://github.com/dakom/hello-terra"
+
+[[repo]]
+url = "https://github.com/Delorean-Protocol/smartcontract"
 
 [[repo]]
 url = "https://github.com/digitalnativeinc/quasar-cosmwasm"
@@ -62,13 +97,25 @@ url = "https://github.com/digitalnativeinc/quasar-cosmwasm"
 url = "https://github.com/duguorong009/terra-cosmwasm-test-contract"
 
 [[repo]]
+url = "https://github.com/FlipsideCrypto/terra-multisend"
+
+[[repo]]
+url = "https://github.com/foolproof/anchor-borrow-bot"
+
+[[repo]]
 url = "https://github.com/ghost810/multisig-anchor"
 
 [[repo]]
 url = "https://github.com/Hash-Nomads/edge-index-smartcontract"
 
 [[repo]]
+url = "https://github.com/hodlfish/intergalactic-planetary"
+
+[[repo]]
 url = "https://github.com/ingbond/PlutosPot"
+
+[[repo]]
+url = "https://github.com/iqlusioninc/delphi"
 
 [[repo]]
 url = "https://github.com/jonls/terranames-contracts"
@@ -78,6 +125,9 @@ url = "https://github.com/jormungandr12/tns"
 
 [[repo]]
 url = "https://github.com/kasimte/terra-send-to-burn-address"
+
+[[repo]]
+url = "https://github.com/Local-Terra/astroport-lbport"
 
 [[repo]]
 url = "https://github.com/Local-Terra/Local-Terra.github.io"
@@ -92,13 +142,118 @@ url = "https://github.com/Local-Terra/localterra-integration-tests"
 url = "https://github.com/Local-Terra/localterra-page"
 
 [[repo]]
+url = "https://github.com/luigi311/ArBluna"
+
+[[repo]]
+url = "https://github.com/mars-protocol/manifesto-contract"
+
+[[repo]]
+url = "https://github.com/miaw-cat/assets"
+
+[[repo]]
+url = "https://github.com/octalmage/multisig.money"
+
+[[repo]]
+url = "https://github.com/petegordon/terra-nft-scrape"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/actor-discord"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/assets"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/constellation"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/constellation-observer"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/constellation-price-oracle"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/constellation-shared"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/constellation-web-socket"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/cw-nfts"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/cw-plus"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/luna-rewards"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/oe4"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/pfc-mint2reserve"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/pfc-reservations"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/PFC-Validator.github.io"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/playalongs"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/rest-nft"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/SecretSimpleVote"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/SecretStablePools"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/SecretSwapAnonEdition"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/snip20-reference-impl"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/snip721-reference-impl"
+
+[[repo]]
 url = "https://github.com/PFC-Validator/terra-govna"
 
 [[repo]]
 url = "https://github.com/PFC-Validator/terra-peep721"
 
 [[repo]]
+url = "https://github.com/PFC-Validator/terra-rust"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/terra-rust-oracle-feeder"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/terra-scripts"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/terra-validator-stats-feeder"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/terra-web-app"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/terra.proto"
+
+[[repo]]
 url = "https://github.com/R-E-S-T/rest-nft"
+
+[[repo]]
+url = "https://github.com/realkibou/Terra-One-Stop-Bot"
+
+[[repo]]
+url = "https://github.com/RyanHendricks/docker-terra"
+
+[[repo]]
+url = "https://github.com/RylandCapital/Python-Mirror-TerraGraphQL"
 
 [[repo]]
 url = "https://github.com/sacredwx/anchor-leverage"
@@ -122,11 +277,29 @@ url = "https://github.com/stader-labs/stader-terra-kyv"
 url = "https://github.com/steven4354/terracamp-delta0x"
 
 [[repo]]
+url = "https://github.com/tero0x/galactic-punks-nft-scraping"
+
+[[repo]]
 url = "https://github.com/Terra-Former/terraformer-launchpad"
+
+[[repo]]
+url = "https://github.com/terra-money/awesome-terra"
 
 [[repo]]
 url = "https://github.com/terra-money/core"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/terra-money/cosmwasm-plus"
+
+[[repo]]
+url = "https://github.com/terra-money/station-mobile"
+
+[[repo]]
+url = "https://github.com/terra-money/tendermint"
+
+[[repo]]
+url = "https://github.com/terra-money/wasmvm"
 
 [[repo]]
 url = "https://github.com/terra-project/amino-decoder"
@@ -378,4 +551,13 @@ url = "https://github.com/terra-project/wormhole"
 url = "https://github.com/TerraMoon/terra-moon-forever-locking-contract"
 
 [[repo]]
+url = "https://github.com/terrashiba/terrajs-examples"
+
+[[repo]]
 url = "https://github.com/terraswap/terraswap"
+
+[[repo]]
+url = "https://github.com/TheWineSeller/winswap"
+
+[[repo]]
+url = "https://github.com/unl1k3ly/AnchorHODL"

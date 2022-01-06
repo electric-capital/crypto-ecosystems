@@ -3,9 +3,13 @@ title = "Maker"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/makerdao"]
+github_organizations = ["https://github.com/makerdao","https://github.com/makerdao-dux","https://github.com/makerdao-data","https://github.com/makerdao-rwf","https://github.com/ClioFinance","https://github.com/chronicleprotocol", "https://github.com/deco-protocol", "https://github.com/OasisDEX"]
 
 # Repositories
+
+[[repo]]
+url = "https://github.com/burningtree/bakaoh/MkrPermafeed"
+
 [[repo]]
 url = "https://github.com/burningtree/awesome-makerdao"
 
@@ -13,7 +17,43 @@ url = "https://github.com/burningtree/awesome-makerdao"
 url = "https://github.com/carlfarterson/automated-cdp"
 
 [[repo]]
+url = "https://api.github.com/chronicleprotocol/omnia"
+
+[[repo]]
+url = "https://api.github.com/chronicleprotocol/oracle-suite"
+
+[[repo]]
+url = "https://api.github.com/chronicleprotocol/fastrelay"
+
+[[repo]]
+url = "https://api.github.com/ClioFinance/spells-goerli"
+
+[[repo]]
+url = "https://api.github.com/ClioFinance/bytes32"
+
+[[repo]]
+url = "https://api.github.com/ClioFinance/dss-exec-lib"
+
+[[repo]]
+url = "https://api.github.com/ClioFinance/spells-mainnet"
+
+[[repo]]
+url = "https://api.github.com/ClioFinance/socgen-ofh-onboarding-prototype"
+
+[[repo]]
+url = "https://api.github.com/ClioFinance/ds-guard"
+
+[[repo]]
 url = "https://github.com/codevet/daipay"
+
+[[repo]]
+url = "https://api.github.com/deco-protocol/deco-base"
+
+[[repo]]
+url = "https://api.github.com/repos/deco-protocol/deco-docs"
+
+[[repo]]
+url = "https://api.github.com/repos/deco-protocol/maker-cu-transparency-reporting"
 
 [[repo]]
 url = "https://github.com/efemero/cdp-equalizer"
@@ -32,6 +72,12 @@ url = "https://github.com/joemccann/api-maker-dao"
 
 [[repo]]
 url = "https://github.com/Kaisle/node-dai"
+
+[[repo]]
+url = "https://github.com/lollike/dss-blow"
+
+[[repo]]
+url = "https://github.com/lollike/maker-support-functions-ui"
 
 [[repo]]
 url = "https://github.com/makerdao/abi-compare"
@@ -995,13 +1041,136 @@ url = "https://github.com/makerdao/wiki"
 url = "https://github.com/makerdao/wormhole-integration-tests"
 
 [[repo]]
+url = "https://github.com/makerdao-dux/chatbot-governance"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/community"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/dai.js"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/dapptools-node-circleci-docker"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/duck-name-generator"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/governance-portal-v2"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/hardhat-contract-deployer"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/transparency-reporting"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/voting-delegates"
+
+[[repo]]
+url = "https://github.com/makerdao-rwf/makerdao-dw"
+
+[[repo]]
 url = "https://github.com/nanexcool/daistats"
+
+[[repo]]
+url = "https://github.com/OasisDEX/common"
+
+[[repo]]
+url = "https://github.com/OasisDEX/dss"
+
+[[repo]]
+url = "https://github.com/OasisDEX/dss-deploy-scripts"
+
+[[repo]]
+url = "https://github.com/OasisDEX/eth2dai"
+
+[[repo]]
+url = "https://github.com/OasisDEX/mcd-cdp-portal"
+
+[[repo]]
+url = "https://github.com/OasisDEX/multiply-proxy-actions"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-borrow"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-borrow-cache"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-cdp-manager"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-dex-script"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-direct"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-direct-migrate-proxy-actions"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-direct-old"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-market"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-react"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-react-old"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-sai"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-tax"
+
+[[repo]]
+url = "https://github.com/OasisDEX/oasis-trade-stats"
+
+[[repo]]
+url = "https://github.com/OasisDEX/OasisTradeDigitalAssessmentFramework"
+
+[[repo]]
+url = "https://github.com/OasisDEX/multiply-proxy-actions"
+
+[[repo]]
+url = "https://github.com/OasisDEX/postgres-migrations"
+
+[[repo]]
+url = "https://github.com/OasisDEX/scd-mcd-migration"
+
+[[repo]]
+url = "https://github.com/OasisDEX/spock"
+
+[[repo]]
+url = "https://github.com/OasisDEX/tx-manager"
+
+[[repo]]
+url = "https://github.com/OasisDEX/vulcan.spec"
+
+[[repo]]
+url = "https://github.com/OasisDEX/vulcan0x"
+
+[[repo]]
+url = "https://github.com/OasisDEX/web3-react"
+
+[[repo]]
+url = "https://github.com/OasisDEX/xDex"
 
 [[repo]]
 url = "https://github.com/paradoxDAO/cdper"
 
 [[repo]]
 url = "https://github.com/scocoyash/Splitwise-Dapp"
+
+[[repo]]
+url =  "https://github.com/sidestream-tech/unified-auctions-ui"
 
 [[repo]]
 url = "https://github.com/snario/maker-pricefeed-tools"

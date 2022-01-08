@@ -16,6 +16,7 @@ sub_ecosystems = [
   "confio",
   "Cosmic Bridge",
   "CosmWasm",
+  "Cronos",
   "Crypto.com Chain",
   "Cudos",
   "Cyber",
@@ -28,7 +29,7 @@ sub_ecosystems = [
   "Dropil",
   "E-Money",
   "Enigma",
-  "evmos",
+  "Evmos",
   "Fetch",
   "FOAM",
   "GravityDEX",
@@ -97,7 +98,6 @@ github_organizations = [
   "https://github.com/luniehq",
   "https://github.com/PeggyJV",
   "https://github.com/tendermint",
-  "https://github.com/tharsis",
 ]
 
 # Repositories
@@ -1749,12 +1749,6 @@ url = "https://github.com/tendermint/workflow-run-cleanup-action"
 
 [[repo]]
 url = "https://github.com/tendermint/yubihsm-rs"
-
-[[repo]]
-url = "https://github.com/tharsis/ethermint"
-
-[[repo]]
-url = "https://github.com/tharsis/evmos"
 
 [[repo]]
 url = "https://github.com/tharsis/testnets"

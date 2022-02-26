@@ -3,13 +3,9 @@ title = "Maker"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/makerdao","https://github.com/makerdao-dux","https://github.com/makerdao-data","https://github.com/makerdao-rwf","https://github.com/ClioFinance","https://github.com/chronicleprotocol", "https://github.com/deco-protocol", "https://github.com/OasisDEX"]
+github_organizations = ["https://github.com/makerdao"]
 
 # Repositories
-
-[[repo]]
-url = "https://github.com/burningtree/bakaoh/MkrPermafeed"
-
 [[repo]]
 url = "https://github.com/burningtree/awesome-makerdao"
 
@@ -17,43 +13,7 @@ url = "https://github.com/burningtree/awesome-makerdao"
 url = "https://github.com/carlfarterson/automated-cdp"
 
 [[repo]]
-url = "https://api.github.com/chronicleprotocol/omnia"
-
-[[repo]]
-url = "https://api.github.com/chronicleprotocol/oracle-suite"
-
-[[repo]]
-url = "https://api.github.com/chronicleprotocol/fastrelay"
-
-[[repo]]
-url = "https://api.github.com/ClioFinance/spells-goerli"
-
-[[repo]]
-url = "https://api.github.com/ClioFinance/bytes32"
-
-[[repo]]
-url = "https://api.github.com/ClioFinance/dss-exec-lib"
-
-[[repo]]
-url = "https://api.github.com/ClioFinance/spells-mainnet"
-
-[[repo]]
-url = "https://api.github.com/ClioFinance/socgen-ofh-onboarding-prototype"
-
-[[repo]]
-url = "https://api.github.com/ClioFinance/ds-guard"
-
-[[repo]]
 url = "https://github.com/codevet/daipay"
-
-[[repo]]
-url = "https://api.github.com/deco-protocol/deco-base"
-
-[[repo]]
-url = "https://api.github.com/repos/deco-protocol/deco-docs"
-
-[[repo]]
-url = "https://api.github.com/repos/deco-protocol/maker-cu-transparency-reporting"
 
 [[repo]]
 url = "https://github.com/efemero/cdp-equalizer"
@@ -77,7 +37,37 @@ url = "https://github.com/Kaisle/node-dai"
 url = "https://github.com/lollike/dss-blow"
 
 [[repo]]
-url = "https://github.com/lollike/maker-support-functions-ui"
+url = "https://github.com/Lollike/maker-support-functions-ui"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/chatbot-governance"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/community"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/dai.js"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/dapptools-node-circleci-docker"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/duck-name-generator"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/governance-portal-v2"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/hardhat-contract-deployer"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/transparency-reporting"
+
+[[repo]]
+url = "https://github.com/makerdao-dux/voting-delegates"
+
+[[repo]]
+url = "https://github.com/makerdao-rwf/makerdao-dw"
 
 [[repo]]
 url = "https://github.com/makerdao/abi-compare"
@@ -317,6 +307,9 @@ url = "https://github.com/makerdao/dss-cat-overflow"
 url = "https://github.com/makerdao/dss-cdp-manager"
 
 [[repo]]
+url = "https://github.com/makerdao/dss-cdp-registry"
+
+[[repo]]
 url = "https://github.com/makerdao/dss-chain-log"
 
 [[repo]]
@@ -372,6 +365,9 @@ url = "https://github.com/makerdao/dss-interfaces"
 
 [[repo]]
 url = "https://github.com/makerdao/dss-lerp"
+
+[[repo]]
+url = "https://github.com/makerdao/dss-proxy"
 
 [[repo]]
 url = "https://github.com/makerdao/dss-proxy-actions"
@@ -503,6 +499,9 @@ url = "https://github.com/makerdao/governance-portal-v2"
 url = "https://github.com/makerdao/hackathons"
 
 [[repo]]
+url = "https://github.com/makerdao/helper-scripts"
+
+[[repo]]
 url = "https://github.com/makerdao/hubot-doge-utility-functions"
 
 [[repo]]
@@ -613,6 +612,9 @@ url = "https://github.com/makerdao/maker-otc-support-methods"
 [[repo]]
 url = "https://github.com/makerdao/maker-user"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/makerdao/MakerDAO-SourceCred-bot"
 
 [[repo]]
 url = "https://github.com/makerdao/makerDAO-splash"
@@ -996,6 +998,9 @@ url = "https://github.com/makerdao/univ3-lp-oracle"
 url = "https://github.com/makerdao/universal-dapp"
 
 [[repo]]
+url = "https://github.com/makerdao/vaults-checker"
+
+[[repo]]
 url = "https://github.com/makerdao/vdb-lite"
 
 [[repo]]
@@ -1039,36 +1044,6 @@ url = "https://github.com/makerdao/wiki"
 
 [[repo]]
 url = "https://github.com/makerdao/wormhole-integration-tests"
-
-[[repo]]
-url = "https://github.com/makerdao-dux/chatbot-governance"
-
-[[repo]]
-url = "https://github.com/makerdao-dux/community"
-
-[[repo]]
-url = "https://github.com/makerdao-dux/dai.js"
-
-[[repo]]
-url = "https://github.com/makerdao-dux/dapptools-node-circleci-docker"
-
-[[repo]]
-url = "https://github.com/makerdao-dux/duck-name-generator"
-
-[[repo]]
-url = "https://github.com/makerdao-dux/governance-portal-v2"
-
-[[repo]]
-url = "https://github.com/makerdao-dux/hardhat-contract-deployer"
-
-[[repo]]
-url = "https://github.com/makerdao-dux/transparency-reporting"
-
-[[repo]]
-url = "https://github.com/makerdao-dux/voting-delegates"
-
-[[repo]]
-url = "https://github.com/makerdao-rwf/makerdao-dw"
 
 [[repo]]
 url = "https://github.com/nanexcool/daistats"
@@ -1137,9 +1112,6 @@ url = "https://github.com/OasisDEX/oasis-trade-stats"
 url = "https://github.com/OasisDEX/OasisTradeDigitalAssessmentFramework"
 
 [[repo]]
-url = "https://github.com/OasisDEX/multiply-proxy-actions"
-
-[[repo]]
 url = "https://github.com/OasisDEX/postgres-migrations"
 
 [[repo]]
@@ -1170,7 +1142,7 @@ url = "https://github.com/paradoxDAO/cdper"
 url = "https://github.com/scocoyash/Splitwise-Dapp"
 
 [[repo]]
-url =  "https://github.com/sidestream-tech/unified-auctions-ui"
+url = "https://github.com/sidestream-tech/unified-auctions-ui"
 
 [[repo]]
 url = "https://github.com/snario/maker-pricefeed-tools"

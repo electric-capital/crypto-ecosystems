@@ -1,4 +1,4 @@
-use failure::{Fail, Fallible};
+use anyhow::Result;
 use glob::glob;
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
@@ -6,8 +6,7 @@ use std::fmt::{Display, Formatter};
 use std::fs::{read_to_string, File};
 use std::path::{Path, PathBuf};
 use structopt::StructOpt;
-
-type Result<T> = std::result::Result<T, failure::Error>;
+use thiserror::Error;
 
 #[derive(Debug, StructOpt)]
 #[structopt(about = "Taxonomy of crypto open source repositories")]
@@ -58,9 +57,9 @@ struct Repo {
     pub tags: Option<Vec<String>>,
 }
 
-#[derive(Debug, Fail)]
+#[derive(Debug, Error)]
 enum CEError {
-    #[fail(display = "Toml Parse Error in {}: {}", path, toml_error)]
+    #[error("Toml Parse Error in {path:?}: {toml_error:?}")]
     TomlParseError {
         path: String,
         toml_error: toml::de::Error,
@@ -144,7 +143,7 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
     errors
 }
 
-fn validate(data_path: String) -> Fallible<()> {
+fn validate(data_path: String) -> Result<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
         Ok(ecosystem_map) => {
@@ -164,7 +163,7 @@ fn validate(data_path: String) -> Fallible<()> {
     Ok(())
 }
 
-fn export(data_path: String, output_path: String) -> Fallible<()> {
+fn export(data_path: String, output_path: String) -> Result<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
         Ok(ecosystem_map) => {
@@ -182,7 +181,7 @@ fn export(data_path: String, output_path: String) -> Fallible<()> {
     Ok(())
 }
 
-fn main() -> Fallible<()> {
+fn main() -> Result<()> {
     let args = Cli::from_args();
     match args {
         Cli::Validate { data_path } => {

@@ -192,6 +192,7 @@ sub_ecosystems = [
   "Erasure",
   "Ether Cards",
   "Ethereum Consensus",
+  "Ethereum Dev Tools",
   "Ethereum Execution",
   "Ethereum Name Service",
   "Ethermon",
@@ -250,6 +251,7 @@ sub_ecosystems = [
   "Helena",
   "Hifi Finance",
   "Hop Protocol",
+  "Huff",
   "Hydro Protocol",
   "IDChain",
   "IDEX",
@@ -329,6 +331,7 @@ sub_ecosystems = [
   "Neon District",
   "Neon Labs",
   "NEST Protocol",
+  "Nethereum",
   "Nethermind",
   "New Alchemy",
   "Nexus Mutual",
@@ -369,6 +372,7 @@ sub_ecosystems = [
   "Overlay",
   "Paraswap",
   "PartyBid",
+  "PawnFi",
   "PEAKDEFI",
   "PeckShield",
   "Pendle",
@@ -398,6 +402,7 @@ sub_ecosystems = [
   "Premia",
   "PrimeDAO",
   "Primitive Finance",
+  "Privacy and Scaling Explorations",
   "Proof of Beauty",
   "Protofire",
   "Pruf",
@@ -438,6 +443,7 @@ sub_ecosystems = [
   "Sandclock",
   "Sarcophagus",
   "SCIFI Index",
+  "Scroll",
   "Securrency",
   "seedclub",
   "Seen Haus",
@@ -473,6 +479,7 @@ sub_ecosystems = [
   "Standard Protocol",
   "State Channels",
   "Status",
+  "Stereum",
   "StoneDefi",
   "Storj",
   "Streamr DATAcoin",
@@ -489,6 +496,7 @@ sub_ecosystems = [
   "SynFutures",
   "SynLev",
   "Synthetix",
+  "Taiko",
   "Tally",
   "Tangle",
   "Teller Protocol",
@@ -502,6 +510,7 @@ sub_ecosystems = [
   "The Paypr Company",
   "The Sandbox",
   "Threshold Network",
+  "Timeless",
   "Tinlake",
   "TitanSwap",
   "Tokemak",
@@ -772,6 +781,9 @@ url = "https://github.com/argentlabs/web3.swift"
 
 [[repo]]
 url = "https://github.com/argentlabs/web3j"
+
+[[repo]]
+url = "https://github.com/attestantio/vouch"
 
 [[repo]]
 url = "https://github.com/AugurProject/augur"
@@ -1061,6 +1073,9 @@ url = "https://github.com/cryptominingwar/cryptominingwar.github.io"
 tags = ["Dapp"]
 
 [[repo]]
+url = "https://github.com/crytic/.github"
+
+[[repo]]
 url = "https://github.com/crytic/abdk-libraries-solidity"
 
 [[repo]]
@@ -1068,6 +1083,9 @@ url = "https://github.com/crytic/addressarrayutils_demo"
 
 [[repo]]
 url = "https://github.com/crytic/amarna"
+
+[[repo]]
+url = "https://github.com/crytic/amarna-action"
 
 [[repo]]
 url = "https://github.com/crytic/awesome-ethereum-security"
@@ -1097,6 +1115,12 @@ url = "https://github.com/crytic/echidna-action"
 url = "https://github.com/crytic/echidna-parade"
 
 [[repo]]
+url = "https://github.com/crytic/echidna-spearbit-demo"
+
+[[repo]]
+url = "https://github.com/crytic/echidna-yacademy-demo"
+
+[[repo]]
 url = "https://github.com/crytic/embark-contract-info"
 
 [[repo]]
@@ -1124,6 +1148,9 @@ url = "https://github.com/crytic/ida-evm"
 url = "https://github.com/crytic/not-so-smart-contracts"
 
 [[repo]]
+url = "https://github.com/crytic/optik"
+
+[[repo]]
 url = "https://github.com/crytic/pyevmasm"
 
 [[repo]]
@@ -1149,6 +1176,9 @@ url = "https://github.com/crytic/solc"
 
 [[repo]]
 url = "https://github.com/crytic/solc-select"
+
+[[repo]]
+url = "https://github.com/crytic/tayt"
 
 [[repo]]
 url = "https://github.com/crytic/tealer"
@@ -1255,6 +1285,9 @@ url = "https://github.com/dapphub/ACS"
 
 [[repo]]
 url = "https://github.com/dapphub/awesome-crowdsales"
+
+[[repo]]
+url = "https://github.com/dapphub/awesome-dmap"
 
 [[repo]]
 url = "https://github.com/dapphub/bat-review"
@@ -1837,6 +1870,9 @@ url = "https://github.com/dappnode/DAppNodePackage-nethermind"
 url = "https://github.com/dappnode/DAppNodePackage-nethermind-xdai"
 
 [[repo]]
+url = "https://github.com/dappnode/DAppNodePackage-nimbus"
+
+[[repo]]
 url = "https://github.com/dappnode/DAppNodePackage-nimbus-gnosis"
 
 [[repo]]
@@ -1874,6 +1910,9 @@ url = "https://github.com/dappnode/DAppNodePackage-prysm-pyrmont"
 
 [[repo]]
 url = "https://github.com/dappnode/DAppNodePackage-prysm-ropsten"
+
+[[repo]]
+url = "https://github.com/dappnode/DAppNodePackage-prysm-sepolia"
 
 [[repo]]
 url = "https://github.com/dappnode/DAppNodePackage-prysm-zinken-beacon-chain"
@@ -1946,6 +1985,9 @@ url = "https://github.com/dappnode/DAppNodePackage-turbo-geth"
 
 [[repo]]
 url = "https://github.com/dappnode/DAppNodePackage-vipnode"
+
+[[repo]]
+url = "https://github.com/dappnode/DAppNodePackage-web3signer"
 
 [[repo]]
 url = "https://github.com/dappnode/DAppNodePackage-web3signer-gnosis"
@@ -2035,6 +2077,12 @@ url = "https://github.com/dappnode/ens-manager"
 url = "https://github.com/dappnode/eth2-keymanager-frontend"
 
 [[repo]]
+url = "https://github.com/dappnode/eth2-keymanager-frontend-dappnode"
+
+[[repo]]
+url = "https://github.com/dappnode/eth2-keymanager-frontend-dappnode-temporary"
+
+[[repo]]
 url = "https://github.com/dappnode/eth2-nft-challenge"
 
 [[repo]]
@@ -2080,6 +2128,12 @@ url = "https://github.com/dappnode/otp.github.io"
 url = "https://github.com/dappnode/panvala-bot"
 
 [[repo]]
+url = "https://github.com/dappnode/prune-slashing"
+
+[[repo]]
+url = "https://github.com/dappnode/prune-slashing-protection"
+
+[[repo]]
 url = "https://github.com/dappnode/QA"
 
 [[repo]]
@@ -2108,6 +2162,12 @@ url = "https://github.com/dappnode/usbmount"
 
 [[repo]]
 url = "https://github.com/dappnode/wagyu-key-gen"
+
+[[repo]]
+url = "https://github.com/dappnode/web3signer-import-one-by-one"
+
+[[repo]]
+url = "https://github.com/dappnode/web3signer-modules"
 
 [[repo]]
 url = "https://github.com/dappnode/welcome"
@@ -2150,6 +2210,9 @@ url = "https://github.com/databrokerglobal/DTX-staking"
 
 [[repo]]
 url = "https://github.com/databrokerglobal/dxc"
+
+[[repo]]
+url = "https://github.com/databrokerglobal/DXC-as-a-service"
 
 [[repo]]
 url = "https://github.com/databrokerglobal/erc20-bridge"
@@ -2274,6 +2337,9 @@ url = "https://github.com/deep-stack/stack-orchestrator"
 
 [[repo]]
 url = "https://github.com/deep-stack/token-distribution"
+
+[[repo]]
+url = "https://github.com/deep-stack/uniswap-watcher-ts"
 
 [[repo]]
 url = "https://github.com/deep-stack/watcher-ts"
@@ -2797,6 +2863,12 @@ url = "https://github.com/ethereum/EIPs"
 
 [[repo]]
 url = "https://github.com/ethereum/eipv"
+
+[[repo]]
+url = "https://github.com/ethereum/eipw"
+
+[[repo]]
+url = "https://github.com/ethereum/eipw-action"
 
 [[repo]]
 url = "https://github.com/ethereum/emacs-solidity"
@@ -3612,6 +3684,9 @@ url = "https://github.com/ethers-io/website"
 url = "https://github.com/ethersphere/ansible-role-bee"
 
 [[repo]]
+url = "https://github.com/ethersphere/ansible-role-gatewayproxy"
+
+[[repo]]
 url = "https://github.com/ethersphere/awesome-swarm"
 
 [[repo]]
@@ -3631,6 +3706,9 @@ url = "https://github.com/ethersphere/bee-dashboard"
 
 [[repo]]
 url = "https://github.com/ethersphere/bee-desktop"
+
+[[repo]]
+url = "https://github.com/ethersphere/bee-desktop-static-maker"
 
 [[repo]]
 url = "https://github.com/ethersphere/bee-diagrams"
@@ -3715,6 +3793,9 @@ url = "https://github.com/ethersphere/cpp-ethereum"
 
 [[repo]]
 url = "https://github.com/ethersphere/dapp-store"
+
+[[repo]]
+url = "https://github.com/ethersphere/desktop-node-installer"
 
 [[repo]]
 url = "https://github.com/ethersphere/devconV"
@@ -3954,6 +4035,9 @@ url = "https://github.com/ethersphere/swarm"
 url = "https://github.com/ethersphere/swarm-actions"
 
 [[repo]]
+url = "https://github.com/ethersphere/swarm-app-page"
+
+[[repo]]
 url = "https://github.com/ethersphere/swarm-architecture-orange-paper"
 
 [[repo]]
@@ -3972,7 +4056,13 @@ url = "https://github.com/ethersphere/swarm-cluster"
 url = "https://github.com/ethersphere/swarm-dapps"
 
 [[repo]]
+url = "https://github.com/ethersphere/swarm-desktop"
+
+[[repo]]
 url = "https://github.com/ethersphere/swarm-docs"
+
+[[repo]]
+url = "https://github.com/ethersphere/swarm-documentation"
 
 [[repo]]
 url = "https://github.com/ethersphere/swarm-expression"
@@ -4503,10 +4593,16 @@ url = "https://github.com/flashbots/evmone"
 url = "https://github.com/flashbots/flashbots-dashboard"
 
 [[repo]]
+url = "https://github.com/flashbots/flashbots-data-transparency"
+
+[[repo]]
 url = "https://github.com/flashbots/flashbots-docs"
 
 [[repo]]
 url = "https://github.com/flashbots/flashbots-repository-template"
+
+[[repo]]
+url = "https://github.com/flashbots/flashbots-writings-website"
 
 [[repo]]
 url = "https://github.com/flashbots/go-boost-utils"
@@ -4561,6 +4657,9 @@ url = "https://github.com/flashbots/mev-research"
 
 [[repo]]
 url = "https://github.com/flashbots/mev-transparency"
+
+[[repo]]
+url = "https://github.com/flashbots/nethermind"
 
 [[repo]]
 url = "https://github.com/flashbots/optimism"
@@ -5062,6 +5161,9 @@ url = "https://github.com/NethermindEth/caigo"
 url = "https://github.com/NethermindEth/Cairo-SafeMath"
 
 [[repo]]
+url = "https://github.com/NethermindEth/consensus-deployment-ansible"
+
+[[repo]]
 url = "https://github.com/NethermindEth/cortex"
 
 [[repo]]
@@ -5078,6 +5180,9 @@ url = "https://github.com/NethermindEth/Dirichlet"
 
 [[repo]]
 url = "https://github.com/NethermindEth/docs"
+
+[[repo]]
+url = "https://github.com/NethermindEth/DotNetty"
 
 [[repo]]
 url = "https://github.com/NethermindEth/drill"
@@ -5102,6 +5207,9 @@ url = "https://github.com/NethermindEth/eth2.0-specs"
 
 [[repo]]
 url = "https://github.com/NethermindEth/ethernodes-reporter"
+
+[[repo]]
+url = "https://github.com/NethermindEth/ethnode-sidecar"
 
 [[repo]]
 url = "https://github.com/NethermindEth/evmone"
@@ -5191,6 +5299,9 @@ url = "https://github.com/NethermindEth/netherverse"
 url = "https://github.com/NethermindEth/nsec"
 
 [[repo]]
+url = "https://github.com/NethermindEth/optimized_ecc_cairo"
+
+[[repo]]
 url = "https://github.com/NethermindEth/pedersen-go"
 
 [[repo]]
@@ -5218,10 +5329,16 @@ url = "https://github.com/NethermindEth/ray-tracing-bundles"
 url = "https://github.com/NethermindEth/research"
 
 [[repo]]
+url = "https://github.com/NethermindEth/research-384bit-prime-field-arithmetic-cairo"
+
+[[repo]]
 url = "https://github.com/NethermindEth/research-mnemonic"
 
 [[repo]]
 url = "https://github.com/NethermindEth/research-mnemonic-public"
+
+[[repo]]
+url = "https://github.com/NethermindEth/research-uint384-cairo"
 
 [[repo]]
 url = "https://github.com/NethermindEth/rocksdb-sharp"
@@ -5239,6 +5356,9 @@ url = "https://github.com/NethermindEth/scrypt"
 url = "https://github.com/NethermindEth/secp256k1"
 
 [[repo]]
+url = "https://github.com/NethermindEth/sedge"
+
+[[repo]]
 url = "https://github.com/NethermindEth/silkworm"
 
 [[repo]]
@@ -5249,6 +5369,9 @@ url = "https://github.com/NethermindEth/smartnode-install"
 
 [[repo]]
 url = "https://github.com/NethermindEth/solidity"
+
+[[repo]]
+url = "https://github.com/NethermindEth/teku-init-validator"
 
 [[repo]]
 url = "https://github.com/NethermindEth/terraform-nethermind"
@@ -6374,6 +6497,9 @@ url = "https://github.com/rainbow-me/asset-overrides"
 url = "https://github.com/rainbow-me/assets"
 
 [[repo]]
+url = "https://github.com/rainbow-me/assets-uploader"
+
+[[repo]]
 url = "https://github.com/rainbow-me/eip-1559-fee-suggestions-ethers"
 
 [[repo]]
@@ -6549,6 +6675,9 @@ url = "https://github.com/ScopeLift/ens-resolvers"
 url = "https://github.com/ScopeLift/fakerdao"
 
 [[repo]]
+url = "https://github.com/ScopeLift/flexible-voting"
+
+[[repo]]
 url = "https://github.com/ScopeLift/gitcoin-web"
 
 [[repo]]
@@ -6681,6 +6810,9 @@ url = "https://github.com/ShenaniganDApp/unisocks"
 url = "https://github.com/Shimmi/smart-contracts-skeleton"
 
 [[repo]]
+url = "https://github.com/sigp/aip"
+
+[[repo]]
 url = "https://github.com/sigp/ansible-role-lighthouse"
 
 [[repo]]
@@ -6781,6 +6913,9 @@ url = "https://github.com/sigp/fuzzing-lotus"
 
 [[repo]]
 url = "https://github.com/sigp/go-web3"
+
+[[repo]]
+url = "https://github.com/sigp/gossipsub-testground"
 
 [[repo]]
 url = "https://github.com/sigp/havven-audit"
@@ -6912,6 +7047,9 @@ url = "https://github.com/sigp/shuffling_sandbox"
 
 [[repo]]
 url = "https://github.com/sigp/signature-schemes"
+
+[[repo]]
+url = "https://github.com/sigp/sigp-aip-payload"
 
 [[repo]]
 url = "https://github.com/sigp/solidity-security-blog"
@@ -7300,6 +7438,9 @@ url = "https://github.com/thousandetherhomepage/thousandetherhomepage.github.io"
 url = "https://github.com/tintinweb/smart-contract-sanctuary"
 
 [[repo]]
+url = "https://github.com/tmm/wagmi"
+
+[[repo]]
 url = "https://github.com/tomlion/vim-solidity"
 
 [[repo]]
@@ -7339,6 +7480,9 @@ url = "https://github.com/transmute-industries/cbor-ld-web-transports"
 
 [[repo]]
 url = "https://github.com/transmute-industries/chapi-interop-test-suite"
+
+[[repo]]
+url = "https://github.com/transmute-industries/colab"
 
 [[repo]]
 url = "https://github.com/transmute-industries/context"
@@ -7717,6 +7861,9 @@ url = "https://github.com/umbracle/ethgo"
 url = "https://github.com/umbracle/fastrlp"
 
 [[repo]]
+url = "https://github.com/umbracle/go-devp2p"
+
+[[repo]]
 url = "https://github.com/umbracle/go-eth-bn256"
 
 [[repo]]
@@ -8042,7 +8189,13 @@ url = "https://github.com/ylv-io/coinpledge"
 tags = ["Dapp"]
 
 [[repo]]
+url = "https://github.com/z0r0z/soliditives"
+
+[[repo]]
 url = "https://github.com/zeropoolnetwork/fawkes-crypto"
+
+[[repo]]
+url = "https://github.com/zircon-tech/asset-tokenization"
 
 [[repo]]
 url = "https://github.com/zircon-tech/awesome-zircon"
@@ -8060,10 +8213,52 @@ url = "https://github.com/zircon-tech/baustelle-web"
 url = "https://github.com/zircon-tech/blockcerts-verifier"
 
 [[repo]]
+url = "https://github.com/zircon-tech/Blockchain-Training-Final-Project"
+
+[[repo]]
+url = "https://github.com/zircon-tech/Blockchain-Training-Unit-1"
+
+[[repo]]
+url = "https://github.com/zircon-tech/Blockchain-Training-Unit-3-deploy-token"
+
+[[repo]]
+url = "https://github.com/zircon-tech/Blockchain-Training-Unit-3-LocalEnvs"
+
+[[repo]]
+url = "https://github.com/zircon-tech/Blockchain-Training-Unit-3-Remix"
+
+[[repo]]
+url = "https://github.com/zircon-tech/Blockchain-Training-Unit-4"
+
+[[repo]]
 url = "https://github.com/zircon-tech/captchav3-example"
 
 [[repo]]
 url = "https://github.com/zircon-tech/cpp-development"
+
+[[repo]]
+url = "https://github.com/zircon-tech/create-your-own-blockchain-alejandrodk"
+
+[[repo]]
+url = "https://github.com/zircon-tech/create-your-own-blockchain-Betzabesp94"
+
+[[repo]]
+url = "https://github.com/zircon-tech/create-your-own-blockchain-csutherzircon"
+
+[[repo]]
+url = "https://github.com/zircon-tech/create-your-own-blockchain-gemanepa"
+
+[[repo]]
+url = "https://github.com/zircon-tech/create-your-own-blockchain-marceloacosta"
+
+[[repo]]
+url = "https://github.com/zircon-tech/create-your-own-blockchain-matucasal"
+
+[[repo]]
+url = "https://github.com/zircon-tech/create-your-own-blockchain-vanessa-oviedo"
+
+[[repo]]
+url = "https://github.com/zircon-tech/deploy-from-local-dev-environment-marceloacosta"
 
 [[repo]]
 url = "https://github.com/zircon-tech/DGA-staking"
@@ -8078,10 +8273,16 @@ url = "https://github.com/zircon-tech/forge"
 url = "https://github.com/zircon-tech/governance-dapp"
 
 [[repo]]
+url = "https://github.com/zircon-tech/hackernews-react-graphql"
+
+[[repo]]
 url = "https://github.com/zircon-tech/node-web3-eth-api"
 
 [[repo]]
 url = "https://github.com/zircon-tech/nodejs-boilerplate"
+
+[[repo]]
+url = "https://github.com/zircon-tech/PrismaNest"
 
 [[repo]]
 url = "https://github.com/zircon-tech/react-boilerplate"
@@ -8094,6 +8295,18 @@ url = "https://github.com/zircon-tech/reactjs-boilerplate"
 
 [[repo]]
 url = "https://github.com/zircon-tech/scoring-dapp"
+
+[[repo]]
+url = "https://github.com/zircon-tech/smart-contract-using-remix-alejandrodk"
+
+[[repo]]
+url = "https://github.com/zircon-tech/smart-contract-using-remix-Betzabesp94"
+
+[[repo]]
+url = "https://github.com/zircon-tech/smart-contract-using-remix-csutherzircon"
+
+[[repo]]
+url = "https://github.com/zircon-tech/smart-contract-using-remix-marceloacosta"
 
 [[repo]]
 url = "https://github.com/zircon-tech/sovryn-monorepo"
@@ -8154,3 +8367,6 @@ url = "https://github.com/zkopru-network/zkopru"
 
 [[repo]]
 url = "https://github.com/zkopru-network/zkopru-extension"
+
+[[repo]]
+url = "https://github.com/zkopru-network/zkopru-extension-onboarding-site"

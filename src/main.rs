@@ -1,19 +1,20 @@
 #![deny(elided_lifetimes_in_paths)]
+
 use anyhow::Result;
+use futures::stream::futures_unordered::FuturesUnordered;
+use futures::StreamExt;
 use glob::glob;
+use regex::Regex;
+use reqwest;
+use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
 use std::fmt::{Display, Formatter};
 use std::fs::{read_to_string, File};
 use std::path::{Path, PathBuf};
+use std::time::Duration;
 use structopt::StructOpt;
 use thiserror::Error;
-use regex::Regex;
-use std::time::Duration;
-use reqwest;
-use futures::stream::futures_unordered::FuturesUnordered;
-use futures::StreamExt;
-
 
 #[derive(Debug, StructOpt)]
 #[structopt(about = "Taxonomy of crypto open source repositories")]
@@ -21,6 +22,11 @@ use futures::StreamExt;
 enum Cli {
     /// Validate all of the toml configuration files
     Validate {
+        /// Path to top level directory containing ecosystem toml files
+        data_path: String,
+    },
+    /// Update all of the toml configuration files with latest git stats
+    Update {
         /// Path to top level directory containing ecosystem toml files
         data_path: String,
     },
@@ -62,6 +68,14 @@ struct Repo {
     pub url: String,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub tags: Option<Vec<String>>,
+    pub last_commit: Option<String>,
+    pub last_commit_time: Option<String>,
+    pub branches: Option<i32>,
+    pub tag_count: Option<i32>,
+    pub commits: Option<i32>,
+    pub stars: Option<i32>,
+    pub watching: Option<i32>,
+    pub forks: Option<i32>,
 }
 
 #[derive(Debug, Error)]
@@ -113,7 +127,6 @@ async fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationErro
     let mut tagmap: HashMap<String, u32> = HashMap::new();
     let mut repo_set = HashSet::new();
     let mut errors = vec![];
-    let mut tasks = FuturesUnordered::new();
     for ecosystem in ecosystem_map.values() {
         if let Some(ref sub_ecosystems) = ecosystem.sub_ecosystems {
             for sub in sub_ecosystems {
@@ -128,10 +141,6 @@ async fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationErro
         if let Some(ref repos) = ecosystem.repo {
             for repo in repos {
                 repo_set.insert(repo.url.clone());
-                let url_clone = repo.url.clone();
-                tasks.push(tokio::spawn(async move {
-                    get_latest_commit(url_clone).await;
-                }));
                 if let Some(tags) = &repo.tags {
                     for tag in tags {
                         let counter = tagmap.entry(tag.to_string()).or_insert(0);
@@ -152,42 +161,82 @@ async fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationErro
             println!("\t{}: {}", tag, count);
         }
     }
-
-    while let Some(finished_task) = tasks.next().await {
-        match finished_task {
-            Err(e) => { /* e is a JoinError - the task has panicked */},
-            Ok(result) => { /* result is the result of get_latest_commit */ }
-        }
-    }
-
     errors
 }
 
-async fn get_latest_commit(repo_url: String) -> Result<()> {
-    let response = reqwest::get(&repo_url).await?;
-    eprintln!("Response: {:?} {}", response.version(), response.status());
-
-    let body = response.text().await?;
-
-    let re = Regex::new(r"tree-commit/([a-z0-9]+)").unwrap();
-    for cap in re.captures_iter(&body) {
-        let latest_commit = &cap[1];
-        if !latest_commit.is_empty() {
-            println!("Latest commit response {}", latest_commit);
-            let latest_commit_url = format!("{}/commit/{}", &repo_url, latest_commit);
-            let latest_response = reqwest::get(&latest_commit_url).await?;
-            let latest_commit_body = latest_response.text().await?;
-            let datetime_re = Regex::new(r#"relative-time datetime="(\d{4}-\d{2}-\d{2}T\d{2}:\d{2})"#).unwrap();
-            for cap in datetime_re.captures_iter(&latest_commit_body) {
-                println!("Latest commit URL {}", &latest_commit_url);
-                println!("Latest commit Time\n {:?}", &cap[1]);
+async fn update_ecosystems(ecosystem_map: &EcosystemMap) -> () {
+    for ecosystem in ecosystem_map.values() {
+        if let Some(ref repos) = ecosystem.repo {
+            for repo in repos {
+                let url_clone = repo.url.clone();
+                let tags_clone = repo.tags.clone();
+                let repo_latest = get_latest_repo_details(url_clone, tags_clone).await;
+                println!("{:?}", repo_latest);
+                std::process::exit(0);
+                // if !last_commit.is_empty() {
+                //     println!("New repo {:?}", new_repo)
+                // }
             }
         }
     }
+}
 
+async fn get_latest_repo_details(repo_url: String, tags: Option<Vec<String>>) -> Repo {
+    let response = reqwest::get(&repo_url).await.unwrap();
+    eprintln!("Response: {:?} {}", response.version(), response.status());
 
-    Ok(())
-    //yield_now().await
+    let body = response.text().await.unwrap();
+    let parsed = Html::parse_fragment(&*body);
+    let re = Regex::new(r"tree-commit/([a-z0-9]+)").unwrap();
+    let selector_sidebar = Selector::parse("div.mt-2 strong").unwrap();
+    let selector_details = Selector::parse("div.Details strong").unwrap();
+    let selector_navigation = Selector::parse("div.file-navigation strong").unwrap();
+    let mut last_commit_time = None;
+    let last_commit = None;
+    for capture in re.captures_iter(&body) {
+        let last_commit = &capture[1];
+        if !last_commit.is_empty() {
+            last_commit_time = get_latest_commit(&repo_url, last_commit).await;
+        }
+    }
+    let elements_sidebar: Vec<i32> = parse_numbers_from_elements(&parsed, selector_sidebar);
+    //println!("{:?}", elements_sidebar);
+    let elements_details: Vec<i32> = parse_numbers_from_elements(&parsed, selector_details);
+    //println!("{:?}", elements_details);
+    let elements_navigation: Vec<i32> = parse_numbers_from_elements(&parsed, selector_navigation);
+    //println!("{:?}", elements_navigation);
+    Repo {
+        url: repo_url,
+        tags,
+        last_commit,
+        last_commit_time,
+        stars: Option::from(elements_sidebar[0]),
+        watching: Option::from(elements_sidebar[1]),
+        forks: Option::from(elements_sidebar[2]),
+        branches: Option::from(elements_navigation[0]),
+        tag_count: Option::from(elements_navigation[1]),
+        commits: Option::from(elements_details[0]),
+    }
+}
+
+fn parse_numbers_from_elements(html: &Html, selector: Selector) -> Vec<i32> {
+    html.select(&selector)
+        .map(|el| el.inner_html().to_string().trim().parse().unwrap_or(0))
+        .collect()
+}
+
+async fn get_latest_commit(repo_url: &String, latest_commit: &str) -> Option<String> {
+    let latest_commit_url = format!("{}/commit/{}", &repo_url, latest_commit);
+    let latest_response = reqwest::get(&latest_commit_url).await.unwrap();
+    let latest_commit_body = latest_response.text().await.unwrap();
+    let datetime_re =
+        Regex::new(r#"relative-time datetime="(\d{4}-\d{2}-\d{2}T\d{2}:\d{2})"#).unwrap();
+    for cap in datetime_re.captures_iter(&latest_commit_body) {
+        println!("Latest commit URL {}", &latest_commit_url);
+        println!("Latest commit Time\n {:?}", &cap[1]);
+        return Some(cap[1].to_owned());
+    }
+    None
 }
 
 async fn validate(data_path: String) -> Result<()> {
@@ -210,11 +259,31 @@ async fn validate(data_path: String) -> Result<()> {
     Ok(())
 }
 
+async fn update(data_path: String) -> Result<()> {
+    let toml_files = get_toml_files(Path::new(&data_path))?;
+    match parse_toml_files(&toml_files) {
+        Ok(ecosystem_map) => {
+            update_ecosystems(&ecosystem_map).await;
+            // if errors.len() > 0 {
+            //     for err in errors {
+            //         println!("{}", err);
+            //     }
+            //     std::process::exit(-1);
+            // }
+        }
+        Err(err) => {
+            println!("\t{}", err);
+            std::process::exit(-1);
+        }
+    };
+    Ok(())
+}
+
 async fn export(data_path: String, output_path: String) -> Result<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
-        Ok( ecosystem_map) => {
-            let errors = validate_ecosystems( &ecosystem_map).await;
+        Ok(ecosystem_map) => {
+            let errors = validate_ecosystems(&ecosystem_map).await;
             if errors.len() > 0 {
                 std::process::exit(-1);
             }
@@ -227,17 +296,17 @@ async fn export(data_path: String, output_path: String) -> Result<()> {
     };
     Ok(())
 }
+
 #[tokio::main]
 async fn main() -> Result<()> {
     let args = Cli::from_args();
     match args {
-        Cli::Validate { data_path } => {
-            validate(data_path).await?
-        }
+        Cli::Validate { data_path } => validate(data_path).await?,
+        Cli::Update { data_path } => update(data_path).await?,
         Cli::Export {
             data_path,
             output_path,
-        } => export(data_path, output_path).await?
+        } => export(data_path, output_path).await?,
     }
     Ok(())
 }

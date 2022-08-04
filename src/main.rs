@@ -207,7 +207,6 @@ async fn update_ecosystems(ecosystem_map: &EcosystemMap) -> () {
             }
             _ => {}
         }
-        std::process::exit(0);
     }
 }
 

@@ -1,28 +1,102 @@
-# Ecosystem Level Information
 title = "Debitum"
-
+toml_path = "data/ecosystems/d/debitum.toml"
+github_organizations = ["https://github.com/debitum"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/debitum"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/debitum/assets-microservice"
+last_commit = "30a2b97ee7089a8bdb29c015c030d2e9ab9ca414"
+last_commit_time = "2017-10-08T15:54"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 2
+stars = 0
+tag_count = 0
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/debitum/config-server"
+last_commit = "96406c9cebcccd67a49f6fcf82cb235abbe3e0c6"
+last_commit_time = "2017-08-31T06:43"
+status = "200"
+
+[repo.stats]
+branches = 1
+watching = 2
+stars = 2
+tag_count = 0
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/debitum/contracts"
+last_commit = "e83d23d81051a6b64edc19609c5806a81eacef84"
+last_commit_time = "2017-10-08T15:59"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+branches = 3
+commits = 1
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/debitum/discovery"
+last_commit = "b4379e3b73a92bd723a1c38e70233d6dd41177c6"
+last_commit_time = "2017-08-31T06:33"
+status = "200"
+
+[repo.stats]
+branches = 1
+stars = 0
+watching = 2
+tag_count = 0
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/debitum/gateway-microservice"
+last_commit = "bda4cee89464d76b43bb244b9753d9d116c0da53"
+last_commit_time = "2017-08-31T07:01"
+status = "200"
+
+[repo.stats]
+branches = 1
+stars = 1
+tag_count = 0
+commits = 1
+watching = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/debitum/ico-contracts"
+last_commit = "465b91e8d2ed426a6cdcf5bf77c4e6f9bd99f24b"
+last_commit_time = "2018-05-31T08:43"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 2
+forks = 2
+branches = 24
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/debitum/UltimateICOCalendar"
+last_commit = "c41d71635b0253f5371e1dba9d50c6f40e36a42e"
+last_commit_time = "2017-10-25T12:32"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 2
+forks = 124
+stars = 1
+branches = 242
+tag_count = 0

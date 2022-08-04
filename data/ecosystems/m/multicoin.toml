@@ -1,10 +1,18 @@
-# Ecosystem Level Information
 title = "Multicoin"
-
+toml_path = "data/ecosystems/m/multicoin.toml"
+github_organizations = ["https://github.com/Multiven-Group-BV"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Multiven-Group-BV"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Multiven-Group-BV/Multicoin"
+last_commit = "7b6a77ef01961410d44b656efe950aeede221f90"
+last_commit_time = "2018-08-29T17:01"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+branches = 45
+stars = 1
+forks = 2
+commits = 3

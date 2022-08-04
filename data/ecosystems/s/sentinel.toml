@@ -1,94 +1,396 @@
-# Ecosystem Level Information
 title = "Sentinel"
-
+toml_path = "data/ecosystems/s/sentinel.toml"
+github_organizations = ["https://github.com/sentinel-official"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/sentinel-official"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/sentinel-official/android-client"
+last_commit = "cdef5f8c3f94c564bfc14bc1393d94199b0b9079"
+last_commit_time = "2021-09-24T07:58"
+status = "200"
+
+[repo.stats]
+branches = 1
+commits = 1
+watching = 3
+stars = 2
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sentinel-official/android-client-lite"
+last_commit = "7e5b7582b38e7ae0e0a6ce4dcd538697444a83a0"
+last_commit_time = "2020-12-13T18:07"
+status = "200"
+
+[repo.stats]
+branches = 12
+stars = 17
+forks = 5
+watching = 2
+commits = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sentinel-official/big-dipper"
+last_commit = "8e977aa5ba6179eb1e80ce5a6e26a517a1d864ef"
+last_commit_time = "2021-05-29T09:16"
+status = "200"
+
+[repo.stats]
+commits = 29
+watching = 1
+tag_count = 0
+branches = 948
+stars = 0
+forks = 220
 
 [[repo]]
 url = "https://github.com/sentinel-official/cli-client"
+last_commit = "83beda2df3b0b64211812d80ece256bff0462b34"
+last_commit_time = "2021-08-12T14:57"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 2
+forks = 5
+stars = 22
+branches = 90
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sentinel-official/cosmos-sdk"
+last_commit = "1517f2907ed6a0b8f63ca2ca0afcfa1f6f9aee11"
+last_commit_time = "2021-05-25T08:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+forks = 0
+branches = 0
+commits = 94
+watching = 1
 
 [[repo]]
 url = "https://github.com/sentinel-official/desktop-client"
+last_commit = "1ac23cf416e4f5f1ae3cc3b2efdd737ce3d543e0"
+last_commit_time = "2021-06-02T10:41"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 7
+stars = 47
+branches = 135
+tag_count = 0
+forks = 11
 
 [[repo]]
 url = "https://github.com/sentinel-official/docs"
+last_commit = "74f5780fcc405bd0581e3b446a6a473dec829b7a"
+last_commit_time = "2021-09-30T13:02"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 91
+forks = 27
+watching = 6
+commits = 2
+stars = 27
 
 [[repo]]
 url = "https://github.com/sentinel-official/dvpn-node"
+status = "200"
+
+[repo.stats]
+stars = 74
+forks = 24
+watching = 10
+tag_count = 0
+branches = 239
+commits = 3
 
 [[repo]]
 url = "https://github.com/sentinel-official/explorer"
+status = "404"
+
+[repo.stats]
+branches = 0
+stars = 0
+watching = 0
+commits = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/sentinel-official/faucet"
+last_commit = "260fdc3643d0f59cf93bc05f82c0d66b42f1631f"
+last_commit_time = "2020-05-12T09:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+commits = 2
+watching = 2
+forks = 4
+branches = 8
 
 [[repo]]
 url = "https://github.com/sentinel-official/hub"
+last_commit = "ffa6156a5661966e118877f3c36c87cdfdc1ed7f"
+last_commit_time = "2022-06-20T10:11"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 33
+tag_count = 0
+watching = 9
+stars = 51
+branches = 825
 
 [[repo]]
 url = "https://github.com/sentinel-official/ios-client"
+last_commit = "e6d66e2feb6308cd904c04974fd9b7371d3b6547"
+last_commit_time = "2021-09-24T07:55"
+status = "200"
+
+[repo.stats]
+forks = 5
+tag_count = 0
+commits = 1
+watching = 3
+branches = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/sentinel-official/ios-client-lite"
+last_commit = "d2761199fd11de998bfb3f981a5a35f573350aa3"
+last_commit_time = "2021-02-06T12:47"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 3
+watching = 3
+stars = 1
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sentinel-official/launch"
+last_commit = "16542be046e2ccf93c5c1e99464f08b05edde7a6"
+last_commit_time = "2021-05-29T13:28"
+status = "200"
+
+[repo.stats]
+forks = 70
+stars = 4
+watching = 3
+branches = 107
+commits = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sentinel-official/ledger-cosmos"
+last_commit = "6c194daa28936e273f9548eabca9e72ba04bb632"
+last_commit_time = "2020-06-17T13:30"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 0
+watching = 1
+forks = 70
+branches = 527
 
 [[repo]]
 url = "https://github.com/sentinel-official/networks"
+last_commit = "03008a122bb5b485e68c341e44d056909679cd8a"
+last_commit_time = "2021-09-11T11:42"
+status = "200"
+
+[repo.stats]
+branches = 34
+forks = 24
+stars = 3
+watching = 5
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/sentinel-official/resolver"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 0
+commits = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/sentinel-official/sentinel"
+last_commit = "d0238f4ff21d0a7f2d684f645e47cff85550f0d9"
+last_commit_time = "2021-04-13T16:50"
+status = "200"
+
+[repo.stats]
+watching = 41
+commits = 6
+tag_count = 0
+branches = 0
+forks = 58
+stars = 296
 
 [[repo]]
 url = "https://github.com/sentinel-official/sentinel-analytics-engine"
+last_commit = "a8f9556589105f726f1a93fd6c2c8af9b61949b6"
+last_commit_time = "2018-08-07T16:01"
+status = "200"
+
+[repo.stats]
+branches = 1
+commits = 2
+forks = 2
+stars = 0
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/sentinel-official/sentinel-masternode"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+watching = 0
+forks = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/sentinel-official/sentinel-utilities"
+last_commit = "61fcc55fe70fbaf938a2209c1d636bb2d1050036"
+last_commit_time = "2018-08-16T17:54"
+status = "200"
+
+[repo.stats]
+watching = 4
+commits = 1
+tag_count = 0
+forks = 2
+stars = 1
+branches = 1
 
 [[repo]]
 url = "https://github.com/sentinel-official/sentinel-vpn-node"
+status = "404"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+forks = 0
+watching = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/sentinel-official/sentrix"
+last_commit = "2a986d7a3ad307209f8be1eb126d6c2b29e68509"
+last_commit_time = "2018-04-30T12:52"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 4
+watching = 7
+stars = 10
+branches = 6
 
 [[repo]]
 url = "https://github.com/sentinel-official/slips"
+last_commit = "390a8df660b7764937dd1155dad32ae26aa03a68"
+last_commit_time = "2021-03-06T16:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+commits = 7
+tag_count = 0
+watching = 1
+branches = 0
 
 [[repo]]
 url = "https://github.com/sentinel-official/stargate"
+last_commit = "add6b982152063f9695b66d341d99f9fec28d430"
+last_commit_time = "2020-11-18T08:20"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 92
+stars = 0
+branches = 335
+tag_count = 0
+commits = 12
 
 [[repo]]
 url = "https://github.com/sentinel-official/swap"
+last_commit = "8639196f26c9b3cfc122f5a2136badc16200f2ec"
+last_commit_time = "2021-03-25T10:50"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+watching = 3
+branches = 4
+commits = 1
+forks = 2
 
 [[repo]]
 url = "https://github.com/sentinel-official/tendermint"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+commits = 0
+forks = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/sentinel-official/testnets"
+last_commit = "67d37c251cfbfaeee3ba27220b6616c54f641e4a"
+last_commit_time = "2021-05-03T07:28"
+status = "200"
+
+[repo.stats]
+watching = 6
+forks = 92
+branches = 95
+commits = 2
+stars = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sentinel-official/website"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+stars = 0
+forks = 0
+branches = 0
+commits = 0

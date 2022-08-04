@@ -1,10 +1,16 @@
-# Ecosystem Level Information
 title = "eToro Australian Dollar"
-
+toml_path = "data/ecosystems/e/etoro-australian-dollar.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/etoroxlabs/eToken"
+status = "200"
+
+[repo.stats]
+forks = 9
+stars = 23
+tag_count = 0
+commits = 12
+watching = 7
+branches = 74

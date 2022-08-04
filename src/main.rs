@@ -1,5 +1,3 @@
-#![deny(elided_lifetimes_in_paths)]
-
 use anyhow::Result;
 use futures::stream::futures_unordered::FuturesUnordered;
 use futures::StreamExt;
@@ -10,6 +8,7 @@ use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
 use std::fmt::{Display, Formatter};
+use std::fs;
 use std::fs::{read_to_string, File};
 use std::path::{Path, PathBuf};
 use std::time::Duration;
@@ -58,6 +57,7 @@ impl Display for ValidationError {
 #[derive(Debug, Deserialize, Serialize, Clone)]
 struct Ecosystem {
     pub title: String,
+    pub toml_path: Option<PathBuf>,
     pub github_organizations: Option<Vec<String>>,
     pub sub_ecosystems: Option<Vec<String>>,
     pub repo: Option<Vec<Repo>>,
@@ -70,12 +70,14 @@ struct Repo {
     pub tags: Option<Vec<String>>,
     pub last_commit: Option<String>,
     pub last_commit_time: Option<String>,
-    pub branches: Option<i32>,
-    pub tag_count: Option<i32>,
-    pub commits: Option<i32>,
-    pub stars: Option<i32>,
-    pub watching: Option<i32>,
-    pub forks: Option<i32>,
+    pub status: Option<String>,
+    pub stats: Option<HashMap<String, u32>>,
+}
+
+#[derive(Debug)]
+struct FieldSelector {
+    selector: Selector,
+    fields: HashMap<String, u8>,
 }
 
 #[derive(Debug, Error)]
@@ -84,6 +86,11 @@ enum CEError {
     TomlParseError {
         path: String,
         toml_error: toml::de::Error,
+    },
+    #[error("Toml Serialization Error in {contents:?}: {toml_error:?}")]
+    TomlSerializationError {
+        contents: String,
+        toml_error: toml::ser::Error,
     },
 }
 
@@ -108,8 +115,9 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<EcosystemMap> {
     for toml_path in paths {
         let contents = read_to_string(toml_path)?;
         match toml::from_str::<Ecosystem>(&contents) {
-            Ok(ecosystem) => {
+            Ok(mut ecosystem) => {
                 let title = ecosystem.title.clone();
+                ecosystem.toml_path = Option::from(toml_path.clone());
                 ecosystems.insert(title, ecosystem);
             }
             Err(err) => {
@@ -121,6 +129,24 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<EcosystemMap> {
         }
     }
     Ok(ecosystems)
+}
+
+fn write_toml_file(ecosystem: Ecosystem) -> Result<(), CEError> {
+    if ecosystem.toml_path.is_some() {
+        match toml::to_string(&ecosystem) {
+            Ok(toml_string) => {
+                fs::write(&ecosystem.toml_path.unwrap(), &toml_string)
+                    .expect("TODO: panic message");
+            }
+            Err(err) => {
+                return Err(CEError::TomlSerializationError {
+                    contents: serde_json::to_string_pretty(&ecosystem).unwrap(),
+                    toml_error: err,
+                })?;
+            }
+        }
+    }
+    Ok(())
 }
 
 async fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
@@ -166,60 +192,92 @@ async fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationErro
 
 async fn update_ecosystems(ecosystem_map: &EcosystemMap) -> () {
     for ecosystem in ecosystem_map.values() {
+        println!("Getting updated stats for {}", ecosystem.title);
+        let mut ecosystem_latest = ecosystem.clone();
         if let Some(ref repos) = ecosystem.repo {
-            for repo in repos {
+            let mut repos_clone = repos.clone();
+            for (index, repo) in repos.iter().enumerate() {
                 let url_clone = repo.url.clone();
                 let tags_clone = repo.tags.clone();
                 let repo_latest = get_latest_repo_details(url_clone, tags_clone).await;
-                println!("{:?}", repo_latest);
-                std::process::exit(0);
-                // if !last_commit.is_empty() {
-                //     println!("New repo {:?}", new_repo)
-                // }
+                repos_clone[index] = repo_latest
             }
+            ecosystem_latest.repo = Option::from(repos_clone);
         }
+        match write_toml_file(ecosystem_latest) {
+            Err(err) => {
+                println!("{:?}", err)
+            }
+            _ => {}
+        }
+        std::process::exit(0);
     }
 }
 
-async fn get_latest_repo_details(repo_url: String, tags: Option<Vec<String>>) -> Repo {
-    let response = reqwest::get(&repo_url).await.unwrap();
-    eprintln!("Response: {:?} {}", response.version(), response.status());
+fn get_github_selectors() -> Vec<FieldSelector> {
+    Vec::from([
+        FieldSelector {
+            selector: Selector::parse("div.mt-2 strong").unwrap(),
+            fields: HashMap::from([
+                (String::from("stars"), 0),
+                (String::from("watching"), 1),
+                (String::from("forks"), 2),
+            ]),
+        },
+        FieldSelector {
+            selector: Selector::parse("div.Details strong").unwrap(),
+            fields: HashMap::from([
+                (String::from("branches"), 0),
+                (String::from("tag_count"), 1),
+            ]),
+        },
+        FieldSelector {
+            selector: Selector::parse("div.file-navigation strong").unwrap(),
+            fields: HashMap::from([(String::from("commits"), 0)]),
+        },
+    ])
+}
 
+async fn get_latest_repo_details(repo_url: String, tags: Option<Vec<String>>) -> Repo {
+    let selectors = get_github_selectors();
+    let response = reqwest::get(&repo_url).await.unwrap();
+    let status = String::from(response.status().clone().as_str());
     let body = response.text().await.unwrap();
-    let parsed = Html::parse_fragment(&*body);
-    let re = Regex::new(r"tree-commit/([a-z0-9]+)").unwrap();
-    let selector_sidebar = Selector::parse("div.mt-2 strong").unwrap();
-    let selector_details = Selector::parse("div.Details strong").unwrap();
-    let selector_navigation = Selector::parse("div.file-navigation strong").unwrap();
-    let mut last_commit_time = None;
-    let last_commit = None;
-    for capture in re.captures_iter(&body) {
-        let last_commit = &capture[1];
-        if !last_commit.is_empty() {
-            last_commit_time = get_latest_commit(&repo_url, last_commit).await;
-        }
-    }
-    let elements_sidebar: Vec<i32> = parse_numbers_from_elements(&parsed, selector_sidebar);
-    //println!("{:?}", elements_sidebar);
-    let elements_details: Vec<i32> = parse_numbers_from_elements(&parsed, selector_details);
-    //println!("{:?}", elements_details);
-    let elements_navigation: Vec<i32> = parse_numbers_from_elements(&parsed, selector_navigation);
-    //println!("{:?}", elements_navigation);
-    Repo {
+    let body_parsed = Html::parse_fragment(&*body);
+    let last_commit = find_commit_hash(body);
+    let last_commit_time = get_latest_commit(&repo_url, &last_commit.as_ref().unwrap()).await;
+    let mut repo = Repo {
         url: repo_url,
         tags,
         last_commit,
         last_commit_time,
-        stars: Option::from(elements_sidebar[0]),
-        watching: Option::from(elements_sidebar[1]),
-        forks: Option::from(elements_sidebar[2]),
-        branches: Option::from(elements_navigation[0]),
-        tag_count: Option::from(elements_navigation[1]),
-        commits: Option::from(elements_details[0]),
+        status: Option::from(status),
+        stats: None,
+    };
+    for field_selector in selectors {
+        let mut stats: HashMap<String, u32> = HashMap::new();
+        let elements = parse_numbers_from_elements(&body_parsed, field_selector.selector);
+        for (field_name, field_index) in field_selector.fields {
+            stats.insert(
+                field_name,
+                *elements.get(field_index as usize).unwrap_or(&0),
+            );
+        }
+        repo.stats = Option::from(stats);
     }
+    repo
 }
 
-fn parse_numbers_from_elements(html: &Html, selector: Selector) -> Vec<i32> {
+fn find_commit_hash(body: String) -> Option<String> {
+    let commit_regex = Regex::new(r"tree-commit/([a-z0-9]+)").unwrap();
+    for capture in commit_regex.captures_iter(&body) {
+        let last_commit = String::from(&capture[1]);
+        return Option::from(last_commit);
+    }
+    None
+}
+
+fn parse_numbers_from_elements(html: &Html, selector: Selector) -> Vec<u32> {
     html.select(&selector)
         .map(|el| el.inner_html().to_string().trim().parse().unwrap_or(0))
         .collect()
@@ -232,8 +290,6 @@ async fn get_latest_commit(repo_url: &String, latest_commit: &str) -> Option<Str
     let datetime_re =
         Regex::new(r#"relative-time datetime="(\d{4}-\d{2}-\d{2}T\d{2}:\d{2})"#).unwrap();
     for cap in datetime_re.captures_iter(&latest_commit_body) {
-        println!("Latest commit URL {}", &latest_commit_url);
-        println!("Latest commit Time\n {:?}", &cap[1]);
         return Some(cap[1].to_owned());
     }
     None
@@ -264,12 +320,6 @@ async fn update(data_path: String) -> Result<()> {
     match parse_toml_files(&toml_files) {
         Ok(ecosystem_map) => {
             update_ecosystems(&ecosystem_map).await;
-            // if errors.len() > 0 {
-            //     for err in errors {
-            //         println!("{}", err);
-            //     }
-            //     std::process::exit(-1);
-            // }
         }
         Err(err) => {
             println!("\t{}", err);

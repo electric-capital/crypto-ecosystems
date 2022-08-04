@@ -1,6 +1,4 @@
 use anyhow::Result;
-use futures::stream::futures_unordered::FuturesUnordered;
-use futures::StreamExt;
 use glob::glob;
 use regex::Regex;
 use reqwest;
@@ -11,7 +9,6 @@ use std::fmt::{Display, Formatter};
 use std::fs;
 use std::fs::{read_to_string, File};
 use std::path::{Path, PathBuf};
-use std::time::Duration;
 use structopt::StructOpt;
 use thiserror::Error;
 
@@ -245,7 +242,10 @@ async fn get_latest_repo_details(repo_url: String, tags: Option<Vec<String>>) ->
     let body = response.text().await.unwrap();
     let body_parsed = Html::parse_fragment(&*body);
     let last_commit = find_commit_hash(body);
-    let last_commit_time = get_latest_commit(&repo_url, &last_commit.as_ref().unwrap()).await;
+    let mut last_commit_time = None;
+    if last_commit.is_some() {
+        last_commit_time = get_latest_commit(&repo_url, &last_commit.as_ref().unwrap()).await;
+    }
     let mut repo = Repo {
         url: repo_url,
         tags,
@@ -254,8 +254,8 @@ async fn get_latest_repo_details(repo_url: String, tags: Option<Vec<String>>) ->
         status: Option::from(status),
         stats: None,
     };
+    let mut stats: HashMap<String, u32> = HashMap::new();
     for field_selector in selectors {
-        let mut stats: HashMap<String, u32> = HashMap::new();
         let elements = parse_numbers_from_elements(&body_parsed, field_selector.selector);
         for (field_name, field_index) in field_selector.fields {
             stats.insert(
@@ -263,8 +263,8 @@ async fn get_latest_repo_details(repo_url: String, tags: Option<Vec<String>>) ->
                 *elements.get(field_index as usize).unwrap_or(&0),
             );
         }
-        repo.stats = Option::from(stats);
     }
+    repo.stats = Option::from(stats);
     repo
 }
 

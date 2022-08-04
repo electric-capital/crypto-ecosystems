@@ -1,22 +1,74 @@
-# Ecosystem Level Information
 title = "Feeder Finance"
-
+toml_path = "data/ecosystems/f/feeder-finance.toml"
+github_organizations = ["https://github.com/FeederFinance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/FeederFinance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/FeederFinance/assets"
+last_commit = "1aa8d2c5a53907b84d27f059e1dc09c0e59aece9"
+last_commit_time = "2021-07-07T05:09"
+status = "200"
+
+[repo.stats]
+commits = 16
+watching = 0
+tag_count = 0
+forks = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/FeederFinance/feeder-contracts"
+last_commit = "ea5b955ea34e0516ee38958dc3ccb809249135be"
+last_commit_time = "2021-04-27T11:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 3
+stars = 2
+watching = 0
+branches = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/FeederFinance/hardhat"
+last_commit = "9771b9c231a49568d43d56eb0c6350c26eb46443"
+last_commit_time = "2022-02-18T00:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 0
+watching = 0
+commits = 28
+forks = 870
 
 [[repo]]
 url = "https://github.com/FeederFinance/simple-pancakeswap-sdk"
+last_commit = "138137ade993de94c4616f198a5a7c8740553cce"
+last_commit_time = "2021-06-03T07:43"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+watching = 0
+forks = 28
+branches = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/FeederFinance/snapshot-spaces"
+last_commit = "31d99f604b10b75dc93b64bdbcfbf13eeed6068f"
+last_commit_time = "2021-05-03T08:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 12
+watching = 0
+branches = 0
+forks = 0
+stars = 0

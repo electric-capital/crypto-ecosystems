@@ -1,707 +1,3205 @@
-# Ecosystem Level Information
 title = "libp2p"
-
+toml_path = "data/ecosystems/l/libp2p.toml"
+github_organizations = ["https://github.com/libp2p"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/libp2p"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/jrhea/mothra"
 tags = ["Protocol"]
+last_commit = "4f9532ac02acfe2e2a6ce95379b64d7ac872d784"
+last_commit_time = "2020-07-24T16:51"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 11
+branches = 165
+tag_count = 0
+commits = 2
+forks = 2
 
 [[repo]]
 url = "https://github.com/libp2p/.github"
+last_commit = "a30dd5387ab8d777d840969cc57ea6afee5d14dd"
+last_commit_time = "2020-11-23T04:45"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 1
+commits = 1
+watching = 8
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/awesome-libp2p"
+last_commit = "0bbe7fc519c78b671bb0c1753d3dc6ca11bc3c90"
+last_commit_time = "2020-01-02T20:57"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 1
+tag_count = 0
+forks = 1
+watching = 8
+commits = 2
 
 [[repo]]
 url = "https://github.com/libp2p/bountied-projects"
+last_commit = "89f454b0a5598e7df1ca5cf98cf1121d15da83b6"
+last_commit_time = "2019-08-16T17:42"
+status = "200"
+
+[repo.stats]
+stars = 34
+forks = 3
+tag_count = 0
+branches = 28
+commits = 1
+watching = 22
 
 [[repo]]
 url = "https://github.com/libp2p/community"
+last_commit = "581625a1b9e754c6cc68cfabcfc01e8f4c2c9d8d"
+last_commit_time = "2019-07-10T17:10"
+status = "200"
+
+[repo.stats]
+forks = 7
+tag_count = 0
+branches = 5
+commits = 4
+watching = 13
+stars = 1
 
 [[repo]]
 url = "https://github.com/libp2p/cpp-libp2p"
+status = "200"
+
+[repo.stats]
+stars = 216
+commits = 15
+forks = 58
+watching = 34
+branches = 143
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/cs-libp2p-crypto"
+last_commit = "8f2380e3d67ad8a527d9ee409a49dfd61b55587a"
+last_commit_time = "2017-06-07T19:57"
+status = "200"
+
+[repo.stats]
+forks = 3
+commits = 2
+branches = 16
+stars = 4
+watching = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/cs-libp2p-io"
+last_commit = "ada72fca439fe9b3b31ce5dcfef48587ecc9e77e"
+last_commit_time = "2017-05-30T21:49"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+commits = 1
+stars = 3
+branches = 7
+watching = 13
 
 [[repo]]
 url = "https://github.com/libp2p/cs-libp2p-peer"
+last_commit = "86704290c2bf78fd9a5f8db0dc1ef088d75c52eb"
+last_commit_time = "2017-06-07T22:04"
+status = "200"
+
+[repo.stats]
+stars = 10
+watching = 14
+forks = 4
+branches = 6
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/libp2p/cs-libp2p-protocol"
+last_commit = "e6f5c5994aa278d12981372ff372c424ea5be363"
+last_commit_time = "2017-06-07T22:01"
+status = "200"
+
+[repo.stats]
+watching = 13
+tag_count = 0
+commits = 1
+branches = 6
+forks = 5
+stars = 2
 
 [[repo]]
 url = "https://github.com/libp2p/cs-libp2p-record"
+last_commit = "4f6b9fe7e5fb2ad822b3cfaf4b7c59595c6111ee"
+last_commit_time = "2017-06-07T21:58"
+status = "200"
+
+[repo.stats]
+branches = 8
+commits = 1
+watching = 13
+forks = 3
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/cs-libp2p-utils"
+last_commit = "af4020640c203019b9205267ad20d3d0b1f6ab61"
+last_commit_time = "2017-05-31T10:36"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 11
+forks = 3
+tag_count = 0
+watching = 13
+commits = 1
 
 [[repo]]
 url = "https://github.com/libp2p/demo-multi-lang"
+last_commit = "dcad16fe67cf7449127e0ba16ddb3e211c150e36"
+last_commit_time = "2019-03-12T19:22"
+status = "200"
+
+[repo.stats]
+forks = 11
+branches = 51
+stars = 18
+tag_count = 0
+watching = 20
+commits = 10
 
 [[repo]]
 url = "https://github.com/libp2p/developer-meetings"
+last_commit = "a5c1fcb299fd1977d1245f542c10ac70e0382379"
+last_commit_time = "2018-12-29T04:57"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 46
+commits = 4
+forks = 2
+branches = 28
+stars = 7
 
 [[repo]]
 url = "https://github.com/libp2p/devgrants"
+last_commit = "89f454b0a5598e7df1ca5cf98cf1121d15da83b6"
+last_commit_time = "2019-08-16T17:42"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+stars = 34
+watching = 22
+branches = 28
+commits = 1
 
 [[repo]]
 url = "https://github.com/libp2p/dht-tracer"
+last_commit = "65ca300bbf312138639d62f16409247040a78369"
+last_commit_time = "2019-09-25T21:55"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 46
+stars = 4
+watching = 12
+tag_count = 0
+commits = 20
 
 [[repo]]
 url = "https://github.com/libp2p/dht-tracer-archived"
+last_commit = "a774722c7946ef605d2e22550b3b18c6a9c035f8"
+last_commit_time = "2019-06-27T10:07"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 7
+branches = 1
+stars = 1
+forks = 2
 
 [[repo]]
 url = "https://github.com/libp2p/dht-tracer1"
+last_commit = "57661769ac04b4330f564adb42af0715f70a1dca"
+last_commit_time = "2022-04-04T15:21"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 15
+tag_count = 0
+forks = 7
+commits = 1
+watching = 7
 
 [[repo]]
 url = "https://github.com/libp2p/dht-utils"
+last_commit = "3dd99f0c1c6cf810d83447a3193962e0ac6c4e1c"
+last_commit_time = "2022-04-04T15:19"
+status = "200"
+
+[repo.stats]
+forks = 5
+watching = 10
+stars = 6
+branches = 17
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/libp2p/dht-vis-v0"
+last_commit = "eaaacfe03c18220fe482d86cbeea6acf94b10536"
+last_commit_time = "2019-06-28T10:55"
+status = "200"
+
+[repo.stats]
+commits = 10
+tag_count = 0
+forks = 2
+branches = 2
+stars = 4
+watching = 6
 
 [[repo]]
 url = "https://github.com/libp2p/docs"
+last_commit = "4141068b14b8b39949891fa0df2b5ca671a61ace"
+last_commit_time = "2022-07-05T15:44"
+status = "200"
+
+[repo.stats]
+branches = 230
+forks = 54
+commits = 17
+stars = 33
+tag_count = 0
+watching = 41
 
 [[repo]]
 url = "https://github.com/libp2p/docs-old"
+last_commit = "170012a0a249ffc2969a3338c73ac7f210a87f0f"
+last_commit_time = "2018-08-07T00:24"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 13
+forks = 2
+commits = 1
+stars = 2
+branches = 3
 
 [[repo]]
 url = "https://github.com/libp2p/fclibp2p-zhi"
+status = "200"
+
+[repo.stats]
+commits = 0
+stars = 0
+tag_count = 0
+watching = 0
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/libp2p/github-mgmt"
+last_commit = "9c4298eab2b54f1a54c7b12e825439a00c7621a3"
+last_commit_time = "2022-07-20T15:22"
+status = "200"
+
+[repo.stats]
+watching = 9
+forks = 4
+stars = 2
+branches = 86
+tag_count = 0
+commits = 7
 
 [[repo]]
 url = "https://github.com/libp2p/go-addr-util"
+last_commit = "41335418ff84c84f565d86fade4b7ed75f3e8c3b"
+last_commit_time = "2022-01-03T10:16"
+status = "200"
+
+[repo.stats]
+branches = 119
+commits = 7
+tag_count = 0
+stars = 5
+forks = 6
+watching = 27
 
 [[repo]]
 url = "https://github.com/libp2p/go-buffer-pool"
+last_commit = "c5070857211a0615ebd7b56588154941af580a4d"
+last_commit_time = "2022-07-01T19:02"
+status = "200"
+
+[repo.stats]
+commits = 8
+tag_count = 0
+watching = 27
+stars = 48
+branches = 52
+forks = 15
 
 [[repo]]
 url = "https://github.com/libp2p/go-cidranger"
+last_commit = "dedec20f2af425ede24f9ea20b084b60c1b18c1b"
+last_commit_time = "2022-04-04T15:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 80
+commits = 11
+stars = 10
+forks = 85
+watching = 1
 
 [[repo]]
 url = "https://github.com/libp2p/go-composable-record"
+last_commit = "feaea0ca48661f2e1849691feed62af8a4b4395f"
+last_commit_time = "2022-01-14T13:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 17
+commits = 16
+branches = 77
+stars = 2
+forks = 3
 
 [[repo]]
 url = "https://github.com/libp2p/go-composable-routing"
+last_commit = "ef7319b734ddb8bf11dfd82c854d50bc39fc4690"
+last_commit_time = "2022-04-07T15:30"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+branches = 7
+tag_count = 0
+watching = 11
+forks = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-conn-security"
+last_commit = "5f8143019e00897f3f6776723f2ca9230904458b"
+last_commit_time = "2019-05-24T17:21"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 5
+watching = 26
+branches = 64
+stars = 12
+commits = 5
 
 [[repo]]
 url = "https://github.com/libp2p/go-conn-security-multistream"
+last_commit = "0b371e6ef45b3627c81e7990786b214f7847b5e0"
+last_commit_time = "2022-05-25T19:00"
+status = "200"
+
+[repo.stats]
+branches = 81
+commits = 12
+watching = 28
+stars = 7
+forks = 9
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-doh-resolver"
+last_commit = "8a8a984851693d370e76e48fa163508a3bc973ac"
+last_commit_time = "2022-04-04T15:18"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 3
+watching = 16
+stars = 1
+tag_count = 0
+branches = 33
 
 [[repo]]
 url = "https://github.com/libp2p/go-eventbus"
+last_commit = "eef4f37eb125195356b8f6fa2ac390b7cc2fc6a8"
+last_commit_time = "2022-04-04T15:12"
+status = "200"
+
+[repo.stats]
+branches = 88
+forks = 8
+stars = 14
+watching = 27
+commits = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-flow-metrics"
+last_commit = "3f13d05958e2d1be0245aed1bdb38f9ff1b4efdc"
+last_commit_time = "2022-07-09T09:57"
+status = "200"
+
+[repo.stats]
+forks = 9
+stars = 11
+watching = 28
+branches = 65
+commits = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 287
+watching = 183
+stars = 0
+branches = 0
+forks = 779
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-asn-util"
+last_commit = "5570b79e3eb5d5e9b2622fc54f12dd8a5e41b7b4"
+last_commit_time = "2022-04-21T18:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+forks = 4
+commits = 10
+watching = 16
+branches = 29
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-autonat"
+last_commit = "38a141558c2c265acd307725ca3c94153666d18e"
+last_commit_time = "2022-01-03T07:26"
+status = "200"
+
+[repo.stats]
+stars = 54
+watching = 27
+branches = 321
+tag_count = 0
+commits = 31
+forks = 12
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-autonat-svc"
+last_commit = "d3bcf1adedb4c5d6bf85fff2e2209c95edd6b0b0"
+last_commit_time = "2020-07-30T10:32"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 8
+commits = 13
+watching = 23
+branches = 96
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-backoff"
+last_commit = "0e6bde0f7b6b48811763982b2d41d1cb696d4b60"
+last_commit_time = "2022-04-04T15:43"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 10
+commits = 2
+branches = 16
+stars = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-blankhost"
+last_commit = "f4a38336016c500eb899eb211eedafaf3a7ae2ab"
+last_commit_time = "2022-05-25T19:31"
+status = "200"
+
+[repo.stats]
+stars = 7
+forks = 5
+tag_count = 0
+branches = 133
+watching = 27
+commits = 17
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-certbot"
+last_commit = "2b2672ba6a3e322c1154e3f1577893e54d6734d8"
+last_commit_time = "2022-06-01T09:54"
+status = "200"
+
+[repo.stats]
+commits = 4
+tag_count = 0
+stars = 0
+branches = 9
+watching = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-circuit"
+last_commit = "7466d7ee77a60c3ec4f2d1fe31b2f6473dc4b966"
+last_commit_time = "2022-04-04T15:47"
+status = "200"
+
+[repo.stats]
+stars = 46
+watching = 29
+forks = 15
+commits = 23
+tag_count = 0
+branches = 303
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-circuit-progs"
+last_commit = "a4a8229cff823bb1887f673f0d45dc3fa890fecd"
+last_commit_time = "2017-07-22T08:16"
+status = "200"
+
+[repo.stats]
+stars = 7
+forks = 2
+watching = 10
+commits = 2
+tag_count = 0
+branches = 7
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-conn"
+last_commit = "fd8ad28832460f1d5c05f9b33321d4dd8e85f61d"
+last_commit_time = "2018-06-08T18:54"
+status = "200"
+
+[repo.stats]
+commits = 5
+watching = 26
+branches = 154
+stars = 6
+tag_count = 0
+forks = 7
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-connmgr"
+last_commit = "68fbfa65af8d2db499720eee6e6ff50c19ccf08f"
+last_commit_time = "2022-04-19T14:48"
+status = "200"
+
+[repo.stats]
+branches = 180
+commits = 25
+forks = 18
+watching = 28
+stars = 20
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-consensus"
+last_commit = "21ac3126692c9f97a30b46701b8a34bc3b9bb15a"
+last_commit_time = "2022-04-04T11:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+forks = 2
+branches = 20
+watching = 30
+stars = 17
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-coral-dht"
+last_commit = "10cd735ab06548d09e189cf82a9f3d7318a0ef1c"
+last_commit_time = "2018-09-10T16:50"
+status = "200"
+
+[repo.stats]
+stars = 14
+branches = 12
+tag_count = 0
+watching = 14
+commits = 2
+forks = 4
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-core"
+status = "200"
+
+[repo.stats]
+watching = 32
+stars = 144
+tag_count = 0
+branches = 289
+commits = 74
+forks = 82
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-crypto"
+last_commit = "ddb6d72b5ad0ae81bf1ee77b628eac1d7237536a"
+last_commit_time = "2019-05-23T16:47"
+status = "200"
+
+[repo.stats]
+commits = 6
+watching = 32
+branches = 150
+forks = 34
+stars = 41
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-daemon"
+status = "200"
+
+[repo.stats]
+watching = 36
+branches = 467
+tag_count = 0
+commits = 20
+forks = 22
+stars = 80
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-discovery"
+status = "200"
+
+[repo.stats]
+commits = 17
+branches = 126
+stars = 53
+watching = 25
+forks = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-dummy-conn"
+last_commit = "178c8bb4713537d894b5691a2952adfc639eb691"
+last_commit_time = "2018-08-24T19:57"
+status = "200"
+
+[repo.stats]
+watching = 24
+forks = 2
+tag_count = 0
+stars = 1
+branches = 26
+commits = 1
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-examples"
+last_commit = "40b51d7cf939cdb35e83f76f3aafe683d06d5c7e"
+last_commit_time = "2021-05-12T14:13"
+status = "200"
+
+[repo.stats]
+branches = 248
+commits = 18
+watching = 36
+forks = 158
+stars = 342
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-gorpc"
+last_commit = "587aae55e60649c0b8a013f3249a3e94c0b0a885"
+last_commit_time = "2022-06-20T13:24"
+status = "200"
+
+[repo.stats]
+stars = 46
+branches = 207
+commits = 15
+tag_count = 0
+watching = 24
+forks = 15
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-gostream"
+status = "200"
+
+[repo.stats]
+forks = 15
+branches = 137
+watching = 25
+commits = 10
+tag_count = 0
+stars = 17
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-host"
+last_commit = "fb741ff65522f904e7d46f527c9a823f32346f83"
+last_commit_time = "2019-05-24T18:31"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 10
+watching = 27
+branches = 135
+forks = 7
+stars = 19
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-http"
+last_commit = "97219f27f1d149f8e28008f6fc5aa74009145b55"
+last_commit_time = "2022-06-20T13:23"
+status = "200"
+
+[repo.stats]
+watching = 29
+tag_count = 0
+commits = 12
+branches = 145
+stars = 46
+forks = 17
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-identify"
+last_commit = "cdbee45c70482e606c707a4e2c61ce428db90c70"
+last_commit_time = "2017-01-10T15:22"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 44
+tag_count = 0
+forks = 2
+commits = 3
+watching = 25
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-interface-conn"
+last_commit = "c7cda99284db0bea441058da8fd1f1373c763ed6"
+last_commit_time = "2018-06-08T18:53"
+status = "200"
+
+[repo.stats]
+commits = 3
+branches = 34
+forks = 3
+tag_count = 0
+watching = 25
+stars = 1
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-interface-connmgr"
+last_commit = "ad0549099b57dc8a5f0fe2f596467960ed1ed66b"
+last_commit_time = "2019-05-24T14:54"
+status = "200"
+
+[repo.stats]
+commits = 5
+forks = 3
+branches = 70
+tag_count = 0
+stars = 7
+watching = 26
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-interface-pnet"
+last_commit = "1357b4bb4b863afcc688f7820c88564ad79818be"
+last_commit_time = "2019-05-24T14:49"
+status = "200"
+
+[repo.stats]
+watching = 28
+stars = 6
+forks = 3
+commits = 3
+tag_count = 0
+branches = 58
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-introspection"
+last_commit = "a3ff54e227c0b9027271e250d5da63ff297cd40d"
+last_commit_time = "2022-04-04T15:53"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 19
+commits = 3
+watching = 17
+forks = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-introspector"
+last_commit = "a3ff54e227c0b9027271e250d5da63ff297cd40d"
+last_commit_time = "2022-04-04T15:53"
+status = "200"
+
+[repo.stats]
+branches = 19
+watching = 17
+forks = 3
+tag_count = 0
+commits = 3
+stars = 2
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-kad-dht"
+status = "200"
+
+[repo.stats]
+stars = 412
+branches = 0
+commits = 201
+tag_count = 0
+watching = 49
+forks = 177
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-kbucket"
+last_commit = "f0be035294ac4f5e939af13ddc1dd24273b7d881"
+last_commit_time = "2022-04-06T13:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 28
+stars = 41
+branches = 306
+forks = 26
+commits = 28
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-loggables"
+last_commit = "a122fddb1d405d2fac25a872094c58547b0acf89"
+last_commit_time = "2022-04-04T15:56"
+status = "200"
+
+[repo.stats]
+forks = 6
+stars = 6
+tag_count = 0
+branches = 112
+commits = 9
+watching = 27
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-metrics"
+last_commit = "2551ab4747111d6c216a06d963c575cebdfd5c9f"
+last_commit_time = "2019-05-24T17:47"
+status = "200"
+
+[repo.stats]
+branches = 83
+tag_count = 0
+watching = 28
+commits = 4
+stars = 6
+forks = 3
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-mplex"
+last_commit = "1ddfbfc702541bbd114bf17417fb65a7d14e908d"
+last_commit_time = "2022-05-25T18:41"
+status = "200"
+
+[repo.stats]
+forks = 9
+tag_count = 0
+branches = 102
+stars = 4
+watching = 16
+commits = 13
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-nat"
+last_commit = "045629ff4afdaf77e46ea4b40651329424c4cb02"
+last_commit_time = "2022-05-25T18:55"
+status = "200"
+
+[repo.stats]
+watching = 30
+stars = 64
+branches = 113
+forks = 18
+tag_count = 0
+commits = 9
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-net"
+last_commit = "e8fc79d2ba74e10b386a79ba9176b88680f8acb0"
+last_commit_time = "2019-05-24T17:18"
+status = "200"
+
+[repo.stats]
+watching = 29
+stars = 32
+tag_count = 0
+forks = 12
+branches = 210
+commits = 10
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-netutil"
+last_commit = "a1869dffa2d3a1d27a2b1c424790933ca9b49600"
+last_commit_time = "2022-01-03T10:33"
+status = "200"
+
+[repo.stats]
+stars = 5
+watching = 28
+forks = 7
+tag_count = 0
+commits = 15
+branches = 144
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-noise"
+last_commit = "b647b43fb34f549ac1e64a1951873ed92cd0a35d"
+last_commit_time = "2022-05-25T18:42"
+status = "200"
+
+[repo.stats]
+stars = 32
+commits = 15
+tag_count = 0
+watching = 26
+forks = 14
+branches = 223
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-peer"
+last_commit = "62676d8fb785a8fc279878cbe8e03b878f005910"
+last_commit_time = "2019-05-23T17:02"
+status = "200"
+
+[repo.stats]
+branches = 162
+stars = 41
+commits = 9
+forks = 18
+tag_count = 0
+watching = 31
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-peerstore"
+last_commit = "caf30df6bfe2a1cd88ce764146dc53c4b9426013"
+last_commit_time = "2022-07-01T15:54"
+status = "200"
+
+[repo.stats]
+branches = 571
+commits = 47
+tag_count = 0
+watching = 31
+forks = 30
+stars = 90
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-ping"
+last_commit = "e66fb46f6f610d914210482bac964022540d0b26"
+last_commit_time = "2018-08-24T20:01"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 1
+watching = 24
+branches = 26
+tag_count = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-pnet"
+last_commit = "4505c85bcc7f1247b5844df55e99617bd274f5c8"
+last_commit_time = "2022-05-25T18:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 10
+commits = 12
+stars = 13
+branches = 110
+watching = 28
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-protocol"
+last_commit = "25288782ae7dd539248ffa7dc62d521027ea311b"
+last_commit_time = "2019-05-23T17:16"
+status = "200"
+
+[repo.stats]
+stars = 6
+tag_count = 0
+commits = 1
+watching = 27
+forks = 3
+branches = 18
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-pubsub"
+status = "200"
+
+[repo.stats]
+watching = 42
+tag_count = 0
+commits = 18
+stars = 251
+forks = 126
+branches = 993
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-pubsub-DEPRECATED"
+last_commit = "1b9d5aeac3451724a186de868e41daba765d42d5"
+last_commit_time = "2018-10-05T00:20"
+status = "200"
+
+[repo.stats]
+branches = 7
+commits = 1
+stars = 0
+tag_count = 0
+watching = 24
+forks = 3
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-pubsub-router"
+last_commit = "292d99457d224853706c5e49f8ddc112740a856a"
+last_commit_time = "2022-01-14T14:08"
+status = "200"
+
+[repo.stats]
+watching = 28
+commits = 27
+branches = 216
+stars = 21
+tag_count = 0
+forks = 11
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-pubsub-tracer"
+last_commit = "1d03f4f722ae000926308cf37fb5ae96e6f9315c"
+last_commit_time = "2021-12-10T15:23"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 10
+stars = 5
+forks = 5
+watching = 27
+branches = 60
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-quic-transport"
+last_commit = "0985f6a291a2b7b9b253745443ba53243a183a78"
+last_commit_time = "2022-05-25T18:44"
+status = "200"
+
+[repo.stats]
+commits = 70
+forks = 43
+watching = 33
+branches = 398
+stars = 111
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-raft"
+status = "200"
+
+[repo.stats]
+commits = 11
+forks = 17
+tag_count = 0
+watching = 30
+stars = 49
+branches = 192
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-rcmgr"
+last_commit = "c3eae9fa61df0e6392b7e2184f6bbed462c48249"
+last_commit_time = "2022-07-27T14:01"
+status = "200"
+
+[repo.stats]
+commits = 27
+branches = 248
+forks = 4
+tag_count = 0
+watching = 18
+stars = 5
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-record"
+last_commit = "360bbf2eb2f6cfdfd128b440818e1a9be1cb6465"
+last_commit_time = "2022-04-04T16:57"
+status = "200"
+
+[repo.stats]
+watching = 28
+branches = 168
+stars = 21
+forks = 9
+tag_count = 0
+commits = 10
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-relay-daemon"
+last_commit = "58fc32b34553afb92d769905efbbf3d5b8e776a4"
+last_commit_time = "2022-07-24T20:14"
+status = "200"
+
+[repo.stats]
+stars = 9
+watching = 16
+forks = 11
+commits = 6
+branches = 62
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-rendezvous"
+last_commit = "b7dd840ce441a2eaf048a6e015573c3e4de70e38"
+last_commit_time = "2018-04-18T15:18"
+status = "200"
+
+[repo.stats]
+forks = 10
+stars = 10
+tag_count = 0
+branches = 1
+commits = 2
+watching = 31
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-resource-manager"
+last_commit = "c3eae9fa61df0e6392b7e2184f6bbed462c48249"
+last_commit_time = "2022-07-27T14:01"
+status = "200"
+
+[repo.stats]
+branches = 248
+stars = 5
+tag_count = 0
+commits = 27
+forks = 4
+watching = 18
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-routing"
+last_commit = "f4ece6c1baa8e77ee488b25014fcb1059955ed0f"
+last_commit_time = "2019-05-25T11:09"
+status = "200"
+
+[repo.stats]
+watching = 31
+stars = 24
+forks = 7
+tag_count = 0
+branches = 192
+commits = 13
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-routing-helpers"
+last_commit = "506670d53a31503f257980dbf354b3ea1b990fb7"
+last_commit_time = "2022-04-04T16:57"
+status = "200"
+
+[repo.stats]
+branches = 123
+tag_count = 0
+commits = 17
+stars = 9
+watching = 26
+forks = 6
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-secio"
+last_commit = "0d1ffa765ffe4b76196d5d8925f85a2db3c499ae"
+last_commit_time = "2021-02-24T00:55"
+status = "200"
+
+[repo.stats]
+stars = 46
+watching = 27
+tag_count = 0
+branches = 183
+commits = 18
+forks = 26
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-slog"
+last_commit = "90d0aec99033ba3a5a37c908dc0f95675c965256"
+last_commit_time = "2021-02-18T05:59"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 8
+branches = 2
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-swarm"
+last_commit = "ad3e7d53850d1282b9a642134fedb76ba3ddc553"
+last_commit_time = "2022-05-25T19:32"
+status = "200"
+
+[repo.stats]
+stars = 114
+branches = 598
+watching = 34
+tag_count = 0
+forks = 37
+commits = 68
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-testing"
+last_commit = "03facf1b59d3f27cf08e8f7c9874184e04987b5b"
+last_commit_time = "2022-07-07T21:55"
+status = "200"
+
+[repo.stats]
+commits = 28
+forks = 7
+stars = 5
+watching = 23
+tag_count = 0
+branches = 125
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-tls"
+last_commit = "8f17e3dc15723e5fb5921e611785ec7baff55dfd"
+last_commit_time = "2022-05-25T18:43"
+status = "200"
+
+[repo.stats]
+branches = 140
+commits = 21
+forks = 18
+tag_count = 0
+watching = 26
+stars = 16
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-transport"
+last_commit = "2406e91c260757c7cf63c70ad20073f5a7b29af4"
+last_commit_time = "2019-05-24T14:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 174
+commits = 12
+stars = 30
+forks = 7
+watching = 29
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-transport-upgrader"
+last_commit = "79d351c2a29af905eeb55e3ba3a9409ae814319e"
+last_commit_time = "2022-04-04T16:58"
+status = "200"
+
+[repo.stats]
+watching = 28
+branches = 185
+tag_count = 0
+forks = 8
+commits = 26
+stars = 18
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-webrtc-direct"
+last_commit = "41a3151f0a37301dfc5fa5608c15594754130bad"
+last_commit_time = "2022-04-06T10:57"
+status = "200"
+
+[repo.stats]
+stars = 73
+forks = 17
+branches = 48
+commits = 9
+watching = 29
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-websocket-star-rendezvous"
+last_commit = "9b9abf2d1acd15e4e11ff4dde0f98f18bac8651d"
+last_commit_time = "2018-03-07T13:55"
+status = "200"
+
+[repo.stats]
+branches = 2
+watching = 27
+forks = 1
+commits = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-xor"
+last_commit = "0b9f64526f9bc61443dd396f5140225abb26a01e"
+last_commit_time = "2022-04-04T16:58"
+status = "200"
+
+[repo.stats]
+watching = 20
+tag_count = 0
+forks = 4
+commits = 7
+stars = 4
+branches = 50
 
 [[repo]]
 url = "https://github.com/libp2p/go-libp2p-yamux"
+last_commit = "6e0028533cd349410593dd53eec5ae8d6e77b31c"
+last_commit_time = "2022-05-25T18:41"
+status = "200"
+
+[repo.stats]
+branches = 125
+commits = 20
+stars = 6
+forks = 8
+watching = 24
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-maddr-filter"
+last_commit = "29ae22964ec36caf9476678993c708d608be83df"
+last_commit_time = "2020-05-14T15:40"
+status = "200"
+
+[repo.stats]
+forks = 6
+branches = 54
+tag_count = 0
+commits = 4
+stars = 5
+watching = 27
 
 [[repo]]
 url = "https://github.com/libp2p/go-mplex"
+last_commit = "8cbdf39b21f58f8ab150443748dd5c74f4b9af5d"
+last_commit_time = "2022-07-02T22:51"
+status = "200"
+
+[repo.stats]
+stars = 36
+watching = 27
+branches = 259
+forks = 22
+tag_count = 0
+commits = 25
 
 [[repo]]
 url = "https://github.com/libp2p/go-msgio"
+last_commit = "3b2df5027c8b84a1cc2ffc8cf6ae137bf5700135"
+last_commit_time = "2022-04-19T10:19"
+status = "200"
+
+[repo.stats]
+commits = 9
+stars = 9
+watching = 17
+forks = 13
+branches = 111
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-nat"
+last_commit = "f775be19d726fa7532c58cfabb4a8c1640722b06"
+last_commit_time = "2022-04-04T16:58"
+status = "200"
+
+[repo.stats]
+stars = 16
+commits = 5
+tag_count = 0
+branches = 52
+watching = 16
+forks = 34
 
 [[repo]]
 url = "https://github.com/libp2p/go-netroute"
+last_commit = "1b419b1d8501985aea98cd11960b7f8f5c9fd395"
+last_commit_time = "2022-04-04T11:53"
+status = "200"
+
+[repo.stats]
+forks = 10
+commits = 6
+tag_count = 0
+stars = 13
+watching = 18
+branches = 62
 
 [[repo]]
 url = "https://github.com/libp2p/go-openssl"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 4
+forks = 228
+watching = 1
+branches = 214
+stars = 7
 
 [[repo]]
 url = "https://github.com/libp2p/go-p2pcat"
+status = "404"
+
+[repo.stats]
+forks = 0
+commits = 0
+stars = 0
+watching = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-peerstream"
+last_commit = "2679b7430e519fc39f9cfbb0c7b7d016705b4ce1"
+last_commit_time = "2018-04-16T04:36"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 18
+commits = 5
+stars = 6
+branches = 187
+forks = 19
 
 [[repo]]
 url = "https://github.com/libp2p/go-reuseport"
+status = "200"
+
+[repo.stats]
+watching = 36
+stars = 552
+branches = 185
+tag_count = 0
+commits = 12
+forks = 93
 
 [[repo]]
 url = "https://github.com/libp2p/go-reuseport-transport"
+last_commit = "bd5cfe33809392e5b69ede06c1166b909b8912bf"
+last_commit_time = "2022-05-25T18:47"
+status = "200"
+
+[repo.stats]
+branches = 110
+commits = 15
+forks = 8
+tag_count = 0
+stars = 8
+watching = 27
 
 [[repo]]
 url = "https://github.com/libp2p/go-routing-grammar"
+last_commit = "6735a3afa0072bd92dca7b00b912550a2fe4a2dd"
+last_commit_time = "2022-04-04T16:24"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 2
+watching = 10
+branches = 25
+commits = 2
 
 [[repo]]
 url = "https://github.com/libp2p/go-routing-language"
+last_commit = "6735a3afa0072bd92dca7b00b912550a2fe4a2dd"
+last_commit_time = "2022-04-04T16:24"
+status = "200"
+
+[repo.stats]
+branches = 25
+forks = 2
+tag_count = 0
+stars = 0
+watching = 10
+commits = 2
 
 [[repo]]
 url = "https://github.com/libp2p/go-smart-record"
+last_commit = "feaea0ca48661f2e1849691feed62af8a4b4395f"
+last_commit_time = "2022-01-14T13:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 3
+branches = 77
+watching = 17
+stars = 2
+commits = 16
 
 [[repo]]
 url = "https://github.com/libp2p/go-sockaddr"
+last_commit = "802a8b07df98850df23f1ce612876358e4fd9262"
+last_commit_time = "2022-01-15T16:09"
+status = "200"
+
+[repo.stats]
+commits = 6
+forks = 12
+stars = 19
+branches = 58
+watching = 27
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-socket-activation"
+status = "200"
+
+[repo.stats]
+stars = 4
+branches = 34
+watching = 24
+commits = 6
+forks = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-src-select"
+last_commit = "11c859fc8ce40fa30364c2a5d71e5171a603c790"
+last_commit_time = "2021-07-20T04:40"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 5
+watching = 15
+commits = 1
+forks = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-stream-muxer"
+last_commit = "414c06b8941c3d0b140f7b08e559bb2aa5cf43fe"
+last_commit_time = "2019-05-23T17:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 33
+watching = 28
+commits = 5
+branches = 77
+forks = 7
 
 [[repo]]
 url = "https://github.com/libp2p/go-stream-muxer-multistream"
+last_commit = "55a8f4396233c176a8c43a374f18158a5afe25e9"
+last_commit_time = "2022-05-25T18:49"
+status = "200"
+
+[repo.stats]
+watching = 15
+forks = 6
+branches = 59
+tag_count = 0
+commits = 9
+stars = 2
 
 [[repo]]
 url = "https://github.com/libp2p/go-tcp-transport"
+status = "200"
+
+[repo.stats]
+stars = 56
+watching = 30
+forks = 29
+tag_count = 0
+commits = 32
+branches = 227
 
 [[repo]]
 url = "https://github.com/libp2p/go-testutil"
+last_commit = "9a5d4c55819de9fd3e07181003d1e722621f6b84"
+last_commit_time = "2019-05-24T17:43"
+status = "200"
+
+[repo.stats]
+branches = 97
+tag_count = 0
+stars = 6
+forks = 3
+commits = 9
+watching = 25
 
 [[repo]]
 url = "https://github.com/libp2p/go-udp-transport"
+last_commit = "58bb242fd08d6e6c29b112f50de51d4b8a984251"
+last_commit_time = "2016-10-16T18:21"
+status = "200"
+
+[repo.stats]
+branches = 1
+commits = 2
+tag_count = 0
+stars = 3
+watching = 28
+forks = 3
 
 [[repo]]
 url = "https://github.com/libp2p/go-utp-transport"
+last_commit = "d588320ea331a32b079e49e8008ae810185843c4"
+last_commit_time = "2021-07-16T00:03"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 12
+tag_count = 0
+branches = 4
+watching = 26
+forks = 4
 
 [[repo]]
 url = "https://github.com/libp2p/go-wireguard"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+commits = 0
+branches = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/libp2p/go-ws-transport"
+last_commit = "5dcc4d93fe95f4e5b34b315fee7b74732aed05b0"
+last_commit_time = "2022-05-25T18:36"
+status = "200"
+
+[repo.stats]
+forks = 21
+tag_count = 0
+watching = 27
+commits = 30
+stars = 58
+branches = 263
 
 [[repo]]
 url = "https://github.com/libp2p/go-xtp"
+last_commit = "007945d2d049092510becad16a49e5b2e234ac80"
+last_commit_time = "2016-09-28T20:17"
+status = "200"
+
+[repo.stats]
+stars = 4
+branches = 5
+tag_count = 0
+commits = 1
+forks = 2
+watching = 26
 
 [[repo]]
 url = "https://github.com/libp2p/go-yamux"
+status = "200"
+
+[repo.stats]
+forks = 11
+tag_count = 0
+commits = 32
+stars = 15
+watching = 23
+branches = 306
 
 [[repo]]
 url = "https://github.com/libp2p/gossipsub-hardening"
+last_commit = "a2c45fa7f0050fede1efa3cfd52278edf1540fe1"
+last_commit_time = "2022-05-25T18:12"
+status = "200"
+
+[repo.stats]
+branches = 61
+commits = 7
+watching = 14
+tag_count = 0
+forks = 3
+stars = 6
 
 [[repo]]
 url = "https://github.com/libp2p/haskell-p2pcat"
+last_commit = "0a9e26571c751f5fb67e09e9a0822c389079b1fc"
+last_commit_time = "2017-03-29T10:42"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+stars = 1
+watching = 11
+branches = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/libp2p/hydra-booster"
+last_commit = "e79667200033e5606384cb572b97e5ed99d7c276"
+last_commit_time = "2022-06-08T15:37"
+status = "200"
+
+[repo.stats]
+branches = 311
+commits = 23
+tag_count = 0
+stars = 70
+forks = 26
+watching = 2
 
 [[repo]]
 url = "https://github.com/libp2p/hydra-booster-infra"
+last_commit = "fd874f9db822c205a87b20260bacc90640dd0b91"
+last_commit_time = "2022-07-28T15:52"
+status = "200"
+
+[repo.stats]
+branches = 25
+forks = 2
+tag_count = 0
+stars = 0
+watching = 14
+commits = 1
 
 [[repo]]
 url = "https://github.com/libp2p/interface-connection"
+last_commit = "acd42ed51ad3453ed6bf382eacf1e7b16298a032"
+last_commit_time = "2020-03-11T10:52"
+status = "200"
+
+[repo.stats]
+watching = 19
+stars = 18
+tag_count = 0
+branches = 76
+commits = 2
+forks = 10
 
 [[repo]]
 url = "https://github.com/libp2p/interface-content-routing"
+last_commit = "afbd6e05fd9cfc38e3220ba8f69f6b074a2037a5"
+last_commit_time = "2020-03-11T10:53"
+status = "200"
+
+[repo.stats]
+watching = 20
+stars = 4
+tag_count = 0
+branches = 6
+forks = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/libp2p/interface-libp2p"
+last_commit = "34910dfdd7c19ca6990ee3513865a71200754a21"
+last_commit_time = "2017-03-24T15:36"
+status = "200"
+
+[repo.stats]
+branches = 4
+commits = 1
+watching = 11
+forks = 1
+stars = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/interface-peer-discovery"
+last_commit = "499544dbc67d7f11489f0b1e2bcf60e625395c78"
+last_commit_time = "2020-03-11T10:55"
+status = "200"
+
+[repo.stats]
+watching = 20
+forks = 9
+tag_count = 0
+stars = 14
+branches = 20
+commits = 2
 
 [[repo]]
 url = "https://github.com/libp2p/interface-peer-routing"
+last_commit = "361257d65dd74c12013deac12bf79e980d30f527"
+last_commit_time = "2020-03-11T10:56"
+status = "200"
+
+[repo.stats]
+stars = 12
+watching = 19
+commits = 5
+forks = 7
+tag_count = 0
+branches = 27
 
 [[repo]]
 url = "https://github.com/libp2p/interface-record-store"
+last_commit = "b88aa43d743238efeef63d983e2249642602e43e"
+last_commit_time = "2020-03-11T10:50"
+status = "200"
+
+[repo.stats]
+stars = 9
+watching = 21
+tag_count = 0
+commits = 6
+forks = 6
+branches = 30
 
 [[repo]]
 url = "https://github.com/libp2p/interface-stream-muxer"
+last_commit = "9e7fe76b89c7c247a07064b7f90aa14bf3368f54"
+last_commit_time = "2020-03-11T10:57"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 19
+forks = 6
+tag_count = 0
+stars = 29
+branches = 124
 
 [[repo]]
 url = "https://github.com/libp2p/interface-transport"
+last_commit = "14abe1efb98dcbb3f215d20c1cdae5673523dc78"
+last_commit_time = "2020-03-11T10:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 13
+forks = 18
+stars = 34
+branches = 102
+watching = 19
 
 [[repo]]
 url = "https://github.com/libp2p/interop"
+last_commit = "0439f31970a419fb5a67a06dd5f3adc103240ee8"
+last_commit_time = "2022-06-15T18:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 14
+forks = 4
+branches = 99
+watching = 31
+commits = 9
 
 [[repo]]
 url = "https://github.com/libp2p/js-interfaces"
+status = "200"
+
+[repo.stats]
+stars = 67
+watching = 16
+branches = 0
+tag_count = 0
+commits = 29
+forks = 29
 
 [[repo]]
 url = "https://github.com/libp2p/js-iprs-record"
+last_commit = "e559439d57c0f24ae446b28f397912834053aee5"
+last_commit_time = "2018-03-19T05:23"
+status = "200"
+
+[repo.stats]
+branches = 57
+commits = 3
+tag_count = 0
+forks = 5
+stars = 7
+watching = 19
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 68
+watching = 77
+stars = 0
+branches = 0
+forks = 345
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-bootstrap"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 20
+commits = 9
+stars = 24
+forks = 20
+branches = 189
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-circuit"
+last_commit = "4f50dd0ae3fbfc6b72ed5b4651f59839512f63cf"
+last_commit_time = "2019-08-23T10:17"
+status = "200"
+
+[repo.stats]
+branches = 72
+stars = 18
+watching = 16
+forks = 10
+tag_count = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-components"
+last_commit = "74f45511b41307fb7c1de1876530ef5ef393d442"
+last_commit_time = "2022-08-03T11:50"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 1
+stars = 1
+watching = 14
+branches = 13
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-connection"
+last_commit = "6bf7e97f2bd61c1d4b45af7ebdf8bb898ce9ed7b"
+last_commit_time = "2022-06-16T20:01"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 1
+stars = 0
+branches = 11
+watching = 13
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-connection-manager"
+last_commit = "6926b3d52ad63a6d2c2f54f8cf2df946fc798ece"
+last_commit_time = "2019-08-23T10:28"
+status = "200"
+
+[repo.stats]
+forks = 9
+commits = 6
+branches = 44
+stars = 13
+watching = 26
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-crypto"
+last_commit = "b31ebdd7104c3d3254764d299fcf3326b44809b0"
+last_commit_time = "2022-08-03T10:00"
+status = "200"
+
+[repo.stats]
+commits = 10
+tag_count = 0
+stars = 74
+branches = 424
+watching = 20
+forks = 53
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-crypto-secp256k1"
+last_commit = "e4bdb6166e8e9abf677b622df64edcdb0f616e16"
+last_commit_time = "2020-04-08T10:25"
+status = "200"
+
+[repo.stats]
+watching = 16
+forks = 15
+commits = 3
+branches = 60
+stars = 9
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-daemon"
+last_commit = "601d75ff2713874bc8c12c1ceefa2d54e992b78f"
+last_commit_time = "2022-07-31T16:22"
+status = "200"
+
+[repo.stats]
+commits = 8
+watching = 14
+tag_count = 0
+stars = 12
+branches = 148
+forks = 4
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-daemon-client"
+last_commit = "6968b10a9bb2fe2104128bc059ea0684a9351a9a"
+last_commit_time = "2022-01-17T16:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 5
+commits = 13
+branches = 93
+watching = 16
+forks = 4
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-daemon-protocol"
+last_commit = "ac1e52cf5282e862cf4d8ed2ce1ef2b32680d485"
+last_commit_time = "2022-03-22T14:11"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 5
+forks = 0
+tag_count = 0
+stars = 0
+branches = 2
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-delegated-content-routing"
+last_commit = "2b2c27c92db70a1a077b2d50401f73048da16589"
+last_commit_time = "2022-06-16T13:18"
+status = "200"
+
+[repo.stats]
+watching = 17
+forks = 11
+stars = 10
+branches = 108
+tag_count = 0
+commits = 11
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-delegated-peer-routing"
+status = "200"
+
+[repo.stats]
+commits = 5
+forks = 9
+stars = 10
+watching = 18
+branches = 99
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-distributed-record-store"
+last_commit = "fa22db0849f2387e304bae899f1a26f962c261d8"
+last_commit_time = "2018-03-19T05:23"
+status = "200"
+
+[repo.stats]
+stars = 7
+watching = 19
+tag_count = 0
+commits = 24
+forks = 5
+branches = 31
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-examples"
+status = "200"
+
+[repo.stats]
+commits = 23
+branches = 64
+stars = 43
+forks = 22
+watching = 16
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-floodsub"
+last_commit = "7a71fffb519e34ed7257fd59c35054612bdbd3d9"
+last_commit_time = "2022-08-03T10:18"
+status = "200"
+
+[repo.stats]
+branches = 292
+commits = 14
+tag_count = 0
+watching = 20
+forks = 18
+stars = 44
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-identify"
+last_commit = "1933ec5b8d18b5bfdfdc8771ede9a8868d11363a"
+last_commit_time = "2019-08-23T10:27"
+status = "200"
+
+[repo.stats]
+watching = 16
+tag_count = 0
+commits = 3
+forks = 9
+stars = 6
+branches = 102
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-interfaces"
+last_commit = "089e96f483970a2408c50392e3a53de9110300ae"
+last_commit_time = "2022-08-03T08:43"
+status = "200"
+
+[repo.stats]
+watching = 16
+branches = 0
+stars = 67
+tag_count = 0
+commits = 29
+forks = 29
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-kad-dht"
+last_commit = "759e505d890203c1de454c8e48240460f1caf440"
+last_commit_time = "2022-07-31T07:35"
+status = "200"
+
+[repo.stats]
+commits = 12
+stars = 115
+tag_count = 0
+watching = 26
+forks = 55
+branches = 462
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-kad-record-store"
+last_commit = "d58d248d5d1faa6218a1f9b2235e3505ff04028a"
+last_commit_time = "2018-03-19T05:23"
+status = "200"
+
+[repo.stats]
+watching = 18
+forks = 7
+branches = 58
+commits = 103
+stars = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-kad-routing"
+last_commit = "60bedd052ce9c912183f109ea952b164b054941e"
+last_commit_time = "2018-03-19T05:23"
+status = "200"
+
+[repo.stats]
+forks = 9
+watching = 21
+branches = 78
+commits = 124
+tag_count = 0
+stars = 9
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-keychain"
+last_commit = "2a9b99cd402ed7260ebcac49d9e44905697beee0"
+last_commit_time = "2020-06-12T09:45"
+status = "200"
+
+[repo.stats]
+stars = 18
+tag_count = 0
+forks = 7
+watching = 13
+branches = 99
+commits = 7
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-logger"
+last_commit = "48023a9c448fc9b58a69e749b18325db16c1394b"
+last_commit_time = "2022-06-16T13:18"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+forks = 0
+branches = 9
+tag_count = 0
+watching = 13
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-mdns"
+status = "200"
+
+[repo.stats]
+branches = 206
+forks = 14
+commits = 6
+watching = 19
+tag_count = 0
+stars = 43
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-mplex"
+last_commit = "6f0305ec83ea2b5229758aed177cb295022dc103"
+last_commit_time = "2022-08-03T08:02"
+status = "200"
+
+[repo.stats]
+watching = 19
+tag_count = 0
+forks = 22
+commits = 6
+stars = 43
+branches = 228
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-multistream-select"
+last_commit = "960da8938013365cdeba48d14c6bb0331378c7e4"
+last_commit_time = "2022-07-31T14:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 0
+branches = 10
+commits = 1
+watching = 13
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-nat-mngr"
+last_commit = "f2dc689df6cdc889ad644b6a438efda5e2f3fa16"
+last_commit_time = "2019-04-15T10:15"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+branches = 14
+stars = 6
+forks = 1
+watching = 19
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-peer-collections"
+last_commit = "2c8f436309f1fb967b269e95ee20e6f5fa1eba06"
+last_commit_time = "2022-06-28T10:52"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 5
+commits = 1
+stars = 0
+tag_count = 0
+watching = 13
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-peer-id"
+last_commit = "22c0b278eeaec1aea20ea25c1157f6ca5289e53a"
+last_commit_time = "2022-07-31T15:08"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+branches = 22
+forks = 2
+commits = 2
+watching = 13
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-peer-record"
+last_commit = "99fa33a0977acf116b9be406b973cb7cef8fd0f4"
+last_commit_time = "2022-08-03T07:47"
+status = "200"
+
+[repo.stats]
+branches = 15
+stars = 0
+commits = 1
+forks = 1
+watching = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-peer-store"
+last_commit = "ff76148ca27b0c778e5e24806014d3cb668b9391"
+last_commit_time = "2022-08-03T09:45"
+status = "200"
+
+[repo.stats]
+watching = 13
+commits = 1
+branches = 15
+stars = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-ping"
+last_commit = "89a0ca6b85f5d253f1da12d26fd02d2d205853dd"
+last_commit_time = "2019-08-23T10:24"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 10
+forks = 8
+watching = 18
+branches = 101
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-pnet"
+last_commit = "20388f22bc08eeb126803a7ecd31b94323c42fb7"
+last_commit_time = "2019-08-23T10:23"
+status = "200"
+
+[repo.stats]
+branches = 10
+commits = 1
+forks = 1
+stars = 2
+watching = 16
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-pubsub"
+last_commit = "31dc5280b3e83bbae17f89d8c32dabf0bac8ce48"
+last_commit_time = "2022-08-03T08:23"
+status = "200"
+
+[repo.stats]
+stars = 16
+tag_count = 0
+forks = 14
+commits = 5
+branches = 129
+watching = 20
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-pubsub-peer-discovery"
+last_commit = "ed90959280d9a11622f6b0c2cca8b0de273aa45b"
+last_commit_time = "2022-08-03T12:14"
+status = "200"
+
+[repo.stats]
+watching = 13
+commits = 2
+stars = 6
+forks = 2
+branches = 37
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-record"
+last_commit = "f10161a4cb6b6d1384c13780749d6a01f3596765"
+last_commit_time = "2022-08-03T10:24"
+status = "200"
+
+[repo.stats]
+stars = 15
+watching = 18
+forks = 9
+branches = 100
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-relay-server"
+last_commit = "ef6a70c0ef7d735e211be926c9448ea96760cb20"
+last_commit_time = "2021-12-01T00:09"
+status = "200"
+
+[repo.stats]
+stars = 8
+commits = 1
+tag_count = 0
+forks = 2
+watching = 13
+branches = 22
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-rendezvous"
+last_commit = "d6d96098cfb5de1e2c30e7bae84483593ce2329a"
+last_commit_time = "2021-07-08T12:02"
+status = "200"
+
+[repo.stats]
+stars = 9
+watching = 17
+forks = 5
+tag_count = 0
+branches = 20
+commits = 5
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-secio"
+last_commit = "f056c3ffcf63aecdb5d4ae78ca4e7d9412b17fff"
+last_commit_time = "2020-12-11T11:48"
+status = "200"
+
+[repo.stats]
+forks = 22
+commits = 3
+stars = 31
+watching = 19
+tag_count = 0
+branches = 189
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-spdy"
+last_commit = "17e0b777081980ac845ce73f4854ca78811623c3"
+last_commit_time = "2021-02-26T13:01"
+status = "200"
+
+[repo.stats]
+watching = 15
+tag_count = 0
+stars = 10
+forks = 12
+commits = 2
+branches = 157
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-stardust"
+last_commit = "6215daf4aae866642c46325fd1dfa9ff95fc6ae5"
+last_commit_time = "2020-03-20T12:40"
+status = "200"
+
+[repo.stats]
+watching = 16
+tag_count = 0
+branches = 103
+forks = 4
+stars = 8
+commits = 6
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-switch"
+last_commit = "f6d4700599c2ed9f27cff41bc7df1235ba454c57"
+last_commit_time = "2019-08-23T10:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 5
+stars = 47
+watching = 22
+forks = 38
+branches = 669
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-tcp"
+last_commit = "15f4289f371596db10c60a3265c692ed31c9660b"
+last_commit_time = "2022-07-13T06:00"
+status = "200"
+
+[repo.stats]
+forks = 30
+stars = 69
+watching = 21
+branches = 298
+commits = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-topology"
+last_commit = "bc1321e6a823f02f1fd26c41841cdafb2b2702b3"
+last_commit_time = "2022-06-16T20:03"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+tag_count = 0
+branches = 9
+forks = 1
+watching = 13
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-tracked-map"
+last_commit = "372d77aabc2ca617289afa8f152c3c40a23f2c23"
+last_commit_time = "2022-07-01T09:22"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 0
+watching = 13
+tag_count = 0
+forks = 0
+branches = 9
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-udp"
+last_commit = "601d6e5af50e7ae0c203f9a0a9530853d278bf45"
+last_commit_time = "2016-10-30T19:14"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 21
+branches = 3
+tag_count = 0
+stars = 6
+commits = 2
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-udt"
+last_commit = "b3a50bb27c36437e455538d887be399c05065ded"
+last_commit_time = "2016-10-14T15:56"
+status = "200"
+
+[repo.stats]
+watching = 20
+branches = 5
+forks = 2
+tag_count = 0
+stars = 3
+commits = 2
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-utils"
+last_commit = "b1a68a23df19a595d3d12f174f57e822763bca04"
+last_commit_time = "2022-06-27T11:28"
+status = "200"
+
+[repo.stats]
+watching = 12
+commits = 2
+branches = 75
+tag_count = 0
+forks = 3
+stars = 5
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-utp"
+last_commit = "c8d2f191a7b2a9ba7df00f3e615e2808addd1845"
+last_commit_time = "2021-02-19T12:06"
+status = "200"
+
+[repo.stats]
+stars = 13
+commits = 2
+forks = 8
+watching = 19
+branches = 65
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-webrtc-direct"
+status = "200"
+
+[repo.stats]
+forks = 20
+stars = 71
+watching = 18
+branches = 87
+tag_count = 0
+commits = 39
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-webrtc-peer"
+last_commit = "a913bcbbf8dcd71397147780cf45d07ec57dee1d"
+last_commit_time = "2022-06-16T13:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 30
+forks = 0
+watching = 5
+stars = 1
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-webrtc-star"
+status = "200"
+
+[repo.stats]
+watching = 18
+branches = 539
+commits = 18
+stars = 299
+tag_count = 0
+forks = 93
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-websocket-star"
+last_commit = "415d6421168bc536ba83b197cf590b00d763d2a3"
+last_commit_time = "2020-12-12T15:29"
+status = "200"
+
+[repo.stats]
+forks = 15
+watching = 14
+stars = 39
+tag_count = 0
+branches = 266
+commits = 8
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-websocket-star-multi"
+last_commit = "f1933934bee56690b31614ccca202e1d5898dc1a"
+last_commit_time = "2020-06-10T10:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 44
+commits = 2
+watching = 14
+forks = 5
+stars = 7
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-websocket-star-rendezvous"
+last_commit = "b6d28db47bb31b18c5420ea48f41aad54a4f8eb5"
+last_commit_time = "2020-06-10T10:45"
+status = "200"
+
+[repo.stats]
+commits = 6
+branches = 83
+watching = 13
+forks = 16
+stars = 24
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-libp2p-websockets"
+last_commit = "04f162d85aa5438edb718c9ca834fb02cc2239d7"
+last_commit_time = "2022-07-12T18:03"
+status = "200"
+
+[repo.stats]
+stars = 79
+commits = 13
+tag_count = 0
+branches = 268
+watching = 19
+forks = 40
 
 [[repo]]
 url = "https://github.com/libp2p/js-p2pcat"
+last_commit = "01e837bdbd4831cffcaa64412c88506cfff16014"
+last_commit_time = "2017-03-24T15:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+branches = 2
+commits = 1
+watching = 19
+forks = 1
 
 [[repo]]
 url = "https://github.com/libp2p/js-peer-book"
+last_commit = "da097a3c3a803b2e73f9147ecd10ff36452e0783"
+last_commit_time = "2020-02-10T10:56"
+status = "200"
+
+[repo.stats]
+stars = 15
+branches = 103
+commits = 10
+tag_count = 0
+watching = 19
+forks = 16
 
 [[repo]]
 url = "https://github.com/libp2p/js-peer-id"
+status = "200"
+
+[repo.stats]
+forks = 52
+watching = 20
+branches = 323
+stars = 78
+commits = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-peer-info"
+last_commit = "ccae33d27ef9eb302faa7dadea4604ff936db1e1"
+last_commit_time = "2020-06-12T09:48"
+status = "200"
+
+[repo.stats]
+commits = 4
+stars = 37
+forks = 29
+watching = 19
+branches = 211
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/js-spdy-stream-muxer"
+last_commit = "ebf1c92a29f5a90fc927042d75365d81478f480e"
+last_commit_time = "2017-11-24T17:49"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 3
+watching = 16
+branches = 47
+tag_count = 0
+forks = 4
 
 [[repo]]
 url = "https://github.com/libp2p/jvm-libp2p"
+last_commit = "d3d7ed3c847026ef60b8da274a267423b4a3f282"
+last_commit_time = "2022-07-19T05:15"
+status = "200"
+
+[repo.stats]
+commits = 13
+stars = 149
+forks = 55
+watching = 26
+tag_count = 0
+branches = 885
 
 [[repo]]
 url = "https://github.com/libp2p/libp2p"
+status = "200"
+
+[repo.stats]
+forks = 209
+watching = 117
+stars = 0
+branches = 47
+tag_count = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/libp2p/libp2p-lw2019"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+forks = 0
+stars = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/mplex"
+last_commit = "0b9b35534582dc36dfb7fa2bbc606c37584bef42"
+last_commit_time = "2018-10-10T16:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+forks = 1
+stars = 6
+branches = 15
+watching = 36
 
 [[repo]]
 url = "https://github.com/libp2p/notes"
+last_commit = "c968c107e6e327e451afc79a61182b3b48f97475"
+last_commit_time = "2020-09-03T08:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 4
+commits = 3
+branches = 11
+stars = 33
+watching = 53
 
 [[repo]]
 url = "https://github.com/libp2p/npm-go-libp2p"
+last_commit = "6a91889769d7814400eee422e9fc4b387c92970a"
+last_commit_time = "2022-03-24T14:39"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 1
+forks = 0
+watching = 6
+branches = 7
 
 [[repo]]
 url = "https://github.com/libp2p/npm-go-libp2p-dep"
+last_commit = "83cdbb1030d8fc3b07701e71ac5e4abac34a973f"
+last_commit_time = "2021-12-29T12:28"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 1
+tag_count = 0
+forks = 2
+watching = 30
+branches = 22
 
 [[repo]]
 url = "https://github.com/libp2p/observation-deck"
+last_commit = "a50f12a2ac3582a7b7979a787e49d95eb8276577"
+last_commit_time = "2020-06-12T17:34"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+watching = 8
+branches = 16
+commits = 7
+stars = 4
 
 [[repo]]
 url = "https://github.com/libp2p/observer-toolkit"
+last_commit = "0a6a2368bdc939c297319378b25508c464419851"
+last_commit_time = "2020-06-16T09:06"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 100
+stars = 2
+watching = 8
+tag_count = 0
+commits = 31
 
 [[repo]]
 url = "https://github.com/libp2p/projects"
+last_commit = "66e654a79a75db71f8fff8ea63542e01417452e5"
+last_commit_time = "2018-06-11T20:00"
+status = "200"
+
+[repo.stats]
+forks = 1
+commits = 1
+watching = 41
+stars = 0
+tag_count = 0
+branches = 5
 
 [[repo]]
 url = "https://github.com/libp2p/pubsub-notes"
+last_commit = "82706f3ab3d0666057fa7be2b4182f891153d0b7"
+last_commit_time = "2016-09-13T23:49"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 14
+forks = 3
+branches = 22
+stars = 7
+commits = 2
 
 [[repo]]
 url = "https://github.com/libp2p/pull-mplex"
+last_commit = "3a622a4fadbe28d213686cc49ff72434ce0d8180"
+last_commit_time = "2019-05-01T15:55"
+status = "200"
+
+[repo.stats]
+watching = 22
+forks = 3
+branches = 79
+stars = 4
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/libp2p/py-libp2p"
+last_commit = "d2c2a5f933244ecf005d7422d5a93972ce681f64"
+last_commit_time = "2021-03-17T07:45"
+status = "200"
+
+[repo.stats]
+forks = 83
+tag_count = 0
+commits = 16
+stars = 349
+watching = 33
+branches = 0
 
 [[repo]]
 url = "https://github.com/libp2p/py-libp2p-slog"
+last_commit = "7ac1a4707b404865a1d851ee14908d2ef7dfcb91"
+last_commit_time = "2021-02-18T06:03"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 1
+forks = 0
+branches = 2
+tag_count = 0
+watching = 8
 
 [[repo]]
 url = "https://github.com/libp2p/py-libp2p-xor"
+last_commit = "9df87690581c0e0ce216a4ebbfd6c02bdf299018"
+last_commit_time = "2020-04-27T03:01"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+branches = 23
+watching = 8
+stars = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/libp2p/quic-go"
+status = "404"
+
+[repo.stats]
+commits = 0
+stars = 0
+forks = 0
+tag_count = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/libp2p/repl"
+last_commit = "87354b8615a54beb02e8fe55751b7d791ede9918"
+last_commit_time = "2021-12-10T12:38"
+status = "200"
+
+[repo.stats]
+watching = 26
+branches = 21
+tag_count = 0
+commits = 2
+forks = 6
+stars = 30
 
 [[repo]]
 url = "https://github.com/libp2p/research"
+last_commit = "2143aea370b3c52d6cfc7b26b30782f2f2a1a654"
+last_commit_time = "2019-11-26T03:29"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 23
+forks = 2
+stars = 8
+watching = 22
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/research-dht"
+last_commit = "dd410fe2f9ff70007cef639099c56064a784da9e"
+last_commit_time = "2020-05-03T08:37"
+status = "200"
+
+[repo.stats]
+watching = 15
+branches = 7
+stars = 21
+tag_count = 0
+forks = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/libp2p/research-pubsub"
+last_commit = "c3be93e80ef1f059dda9b6f0097330a82cdcb002"
+last_commit_time = "2018-06-28T23:28"
+status = "200"
+
+[repo.stats]
+stars = 74
+forks = 5
+branches = 12
+watching = 51
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/rust-libp2p"
+status = "200"
+
+[repo.stats]
+commits = 20
+forks = 541
+tag_count = 0
+branches = 0
+stars = 0
+watching = 89
 
 [[repo]]
 url = "https://github.com/libp2p/rust-yamux"
+last_commit = "233199d775f676b7259177bbb5569f8c5ba3b954"
+last_commit_time = "2022-06-03T14:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 99
+watching = 19
+commits = 1
+forks = 25
+branches = 303
 
 [[repo]]
 url = "https://github.com/libp2p/specs"
+status = "200"
+
+[repo.stats]
+forks = 220
+watching = 105
+branches = 718
+stars = 0
+tag_count = 0
+commits = 44
 
 [[repo]]
 url = "https://github.com/libp2p/team-mgmt"
+last_commit = "99bcdd75a8db93971434304f7d369dcd16780644"
+last_commit_time = "2020-05-04T16:11"
+status = "200"
+
+[repo.stats]
+forks = 7
+branches = 153
+commits = 12
+watching = 41
+stars = 12
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/test-plans"
+last_commit = "3f6b90969df29280df6135ed81ff5e72766de9e3"
+last_commit_time = "2022-08-02T14:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 15
+watching = 24
+stars = 21
+commits = 4
+forks = 17
 
 [[repo]]
 url = "https://github.com/libp2p/testlab"
+last_commit = "f6fdd69cb4a89e59bff9310865db15561a1c8344"
+last_commit_time = "2019-07-17T21:36"
+status = "200"
+
+[repo.stats]
+commits = 4
+forks = 8
+stars = 20
+branches = 76
+watching = 32
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/website"
+last_commit = "21b10ab51e3eacc01d16b4838418a77f2a7a0e8e"
+last_commit_time = "2022-06-22T04:16"
+status = "200"
+
+[repo.stats]
+branches = 176
+commits = 25
+watching = 18
+forks = 27
+stars = 26
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/libp2p/workspace-go-libp2p"
+last_commit = "7913daf2b50f4e70f49006b33bd760102511c1e7"
+last_commit_time = "2022-02-22T13:27"
+status = "200"
+
+[repo.stats]
+watching = 28
+tag_count = 0
+branches = 53
+commits = 5
+stars = 22
+forks = 11
 
 [[repo]]
 url = "https://github.com/libp2p/xtp"
+last_commit = "a0d0999dfa1c89db0c75cfdc8bd6eea38ecabe27"
+last_commit_time = "2016-07-11T14:46"
+status = "200"
+
+[repo.stats]
+branches = 7
+commits = 1
+watching = 18
+forks = 2
+tag_count = 0
+stars = 33
 
 [[repo]]
 url = "https://github.com/libp2p/zeroconf"
+last_commit = "af1f1d3ada857d2e9f9ecd40a6f50c6a49b7c0d3"
+last_commit_time = "2022-06-23T10:20"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 4
+forks = 124
+commits = 6
+branches = 205
+tag_count = 0

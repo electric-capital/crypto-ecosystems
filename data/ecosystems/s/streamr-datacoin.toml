@@ -1,364 +1,1664 @@
-# Ecosystem Level Information
 title = "Streamr DATAcoin"
-
+toml_path = "data/ecosystems/s/streamr-datacoin.toml"
+github_organizations = ["https://github.com/streamr-dev"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/streamr-dev"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/streamr-dev/airtraffic"
+last_commit = "2317bde1a9cd8ab3bfca38ea444fda6b8882b309"
+last_commit_time = "2019-07-03T08:50"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 9
+commits = 4
+forks = 0
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/streamr-dev/api-explorer"
+last_commit = "7781e17677ac34ef723c269656049afd6fe07ea8"
+last_commit_time = "2021-04-27T20:01"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 0
+commits = 11
+watching = 4
+forks = 43
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/broker"
+last_commit = "0144614286c620c74e5bae4baae9bf1e403ff2ea"
+last_commit_time = "2021-06-18T13:03"
+status = "200"
+
+[repo.stats]
+stars = 12
+tag_count = 0
+branches = 0
+commits = 17
+watching = 12
+forks = 7
 
 [[repo]]
 url = "https://github.com/streamr-dev/browser-node-test"
+last_commit = "94b4998ca0cf2d2208b0594a3249357680331daa"
+last_commit_time = "2021-07-21T14:10"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+forks = 0
+tag_count = 0
+watching = 4
+branches = 7
 
 [[repo]]
 url = "https://github.com/streamr-dev/brubeck-rewards"
+last_commit = "6f364211d76486656aa69eefc29fe2f328f8711e"
+last_commit_time = "2022-08-01T18:02"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 0
+tag_count = 0
+branches = 46
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/cassandra"
+last_commit = "006a92c291960b6c977fb736ae8b47efc45856b0"
+last_commit_time = "2021-06-15T14:45"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 1
+stars = 0
+branches = 5
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/chat"
+last_commit = "d2b029fe052b3b2d9cc782c45c3023a26b73cafc"
+last_commit_time = "2022-08-03T13:13"
+status = "200"
+
+[repo.stats]
+branches = 907
+stars = 3
+watching = 3
+tag_count = 0
+commits = 4
+forks = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/cli-tools"
+last_commit = "ac0ab7c7582ac3957bee84ae92134044f3e21233"
+last_commit_time = "2021-06-18T13:08"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+branches = 94
+commits = 9
+watching = 3
+stars = 2
 
 [[repo]]
 url = "https://github.com/streamr-dev/cloud-broker"
+last_commit = "8d789b1c64eb3eea7e0a581216dfbfca14400b40"
+last_commit_time = "2019-10-03T09:35"
+status = "200"
+
+[repo.stats]
+watching = 12
+forks = 1
+tag_count = 0
+branches = 139
+commits = 7
+stars = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/coldchain-demo"
+last_commit = "b1069fa79739914bfde0ffaed0109f3175b31330"
+last_commit_time = "2018-11-09T06:49"
+status = "200"
+
+[repo.stats]
+branches = 3
+commits = 1
+watching = 5
+stars = 2
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/connection-tester"
+last_commit = "a43d8f6b91e7672e5d6426d16fd906b5bf4410e2"
+last_commit_time = "2021-06-18T09:05"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+branches = 8
+watching = 3
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/core-api"
+last_commit = "f56436c72d4d77239c3fd8cc71181c408ee69f8c"
+last_commit_time = "2022-07-27T11:38"
+status = "200"
+
+[repo.stats]
+stars = 52
+tag_count = 0
+branches = 0
+forks = 9
+commits = 19
+watching = 15
 
 [[repo]]
 url = "https://github.com/streamr-dev/core-frontend"
+last_commit = "f345b180db97f8ff086e895d23e4d1b3501893e0"
+last_commit_time = "2022-07-29T18:06"
+status = "200"
+
+[repo.stats]
+forks = 20
+stars = 26
+branches = 0
+watching = 14
+commits = 133
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/countdown-script"
+last_commit = "36ff66d64c7fdcc2860dadfda986cd5f2014710b"
+last_commit_time = "2021-10-11T13:06"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+tag_count = 0
+watching = 4
+forks = 0
+branches = 13
 
 [[repo]]
 url = "https://github.com/streamr-dev/crypto-github-stats"
+last_commit = "9db94c046adaabfba68163f59d43b49047a01a03"
+last_commit_time = "2018-05-07T12:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 3
+stars = 2
+forks = 0
+branches = 30
 
 [[repo]]
 url = "https://github.com/streamr-dev/data-api"
+last_commit = "c9e78c221194bb04b188c85a3bbbe57fa7a61ad9"
+last_commit_time = "2019-10-03T09:34"
+status = "200"
+
+[repo.stats]
+watching = 12
+forks = 0
+stars = 8
+tag_count = 0
+commits = 17
+branches = 283
 
 [[repo]]
 url = "https://github.com/streamr-dev/data-integration-hackathon"
+last_commit = "d1c4c32bb31489d88f03471684ac14a57efeb480"
+last_commit_time = "2018-05-07T11:04"
+status = "200"
+
+[repo.stats]
+branches = 29
+commits = 1
+stars = 2
+tag_count = 0
+forks = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/streamr-dev/data-union"
+last_commit = "c60f56170c7f90f5413c5810786b7d5b4ac24938"
+last_commit_time = "2022-07-29T12:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 5
+branches = 344
+forks = 4
+watching = 13
+commits = 22
 
 [[repo]]
 url = "https://github.com/streamr-dev/data-union-admin-tools"
+last_commit = "5e90d40d0f132199439ce87a887105f1e90ab626"
+last_commit_time = "2021-05-18T19:00"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+commits = 14
+watching = 8
+branches = 48
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/data-union-server"
+last_commit = "eda2cbb05ff4c3096738dd7606682f987c3e3f10"
+last_commit_time = "2021-10-04T15:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 12
+forks = 3
+tag_count = 0
+branches = 465
+commits = 28
 
 [[repo]]
 url = "https://github.com/streamr-dev/data-union-solidity"
+last_commit = "c60f56170c7f90f5413c5810786b7d5b4ac24938"
+last_commit_time = "2022-07-29T12:51"
+status = "200"
+
+[repo.stats]
+watching = 13
+stars = 5
+forks = 4
+tag_count = 0
+branches = 344
+commits = 22
 
 [[repo]]
 url = "https://github.com/streamr-dev/DATAv2"
+last_commit = "1ac7574055338106fd11c3cf80ab661778e97b79"
+last_commit_time = "2022-07-15T16:03"
+status = "200"
+
+[repo.stats]
+forks = 1
+commits = 12
+watching = 9
+stars = 3
+tag_count = 0
+branches = 62
 
 [[repo]]
 url = "https://github.com/streamr-dev/default-token-list"
+last_commit = "cf0bc55587da92b30734011c836b7791c9b48263"
+last_commit_time = "2021-03-16T13:12"
+status = "200"
+
+[repo.stats]
+forks = 664
+branches = 218
+stars = 0
+tag_count = 0
+commits = 4
+watching = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/design-assets"
+last_commit = "8a7db6676e4ddaea9ecf185b02c5a0a77ef8df9f"
+last_commit_time = "2022-04-04T07:22"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 2
+tag_count = 0
+commits = 1
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/draggabilly"
+last_commit = "4bc161d686ea831d2354f006f382f00ed402dfe5"
+last_commit_time = "2017-02-08T08:55"
+status = "200"
+
+[repo.stats]
+forks = 408
+tag_count = 0
+watching = 13
+branches = 170
+stars = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/streamr-dev/DU-App-Integration-Example"
+last_commit = "bd4fe8ba5c0bf17e4ea9f166b5be50397cfcdea9"
+last_commit_time = "2020-07-30T13:24"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+stars = 0
+branches = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/engine-and-editor"
+last_commit = "f56436c72d4d77239c3fd8cc71181c408ee69f8c"
+last_commit_time = "2022-07-27T11:38"
+status = "200"
+
+[repo.stats]
+watching = 15
+tag_count = 0
+stars = 52
+branches = 0
+commits = 19
+forks = 9
 
 [[repo]]
 url = "https://github.com/streamr-dev/eslint-config-streamr"
+last_commit = "09d7097f4966112dc3e9b728c94e9ae8b965d435"
+last_commit_time = "2022-07-19T10:03"
+status = "200"
+
+[repo.stats]
+branches = 100
+stars = 0
+commits = 12
+forks = 0
+watching = 12
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/esports-dapp"
+last_commit = "de5fc3dc9a9977d25355edf118d85b5df05df320"
+last_commit_time = "2019-04-03T06:52"
+status = "200"
+
+[repo.stats]
+branches = 11
+watching = 4
+forks = 0
+tag_count = 0
+commits = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/streamr-dev/eth-contract-metadata"
+last_commit = "0c24bbc5a226e52ef3caa9e067228869232f000f"
+last_commit_time = "2018-10-08T13:21"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+forks = 922
+stars = 0
+branches = 332
+commits = 3
 
 [[repo]]
 url = "https://github.com/streamr-dev/examples"
+last_commit = "e7da58c5c961dd166aa8615fa2d2fe3261a69621"
+last_commit_time = "2022-07-08T08:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+watching = 3
+branches = 120
+commits = 5
+stars = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/experimental-streamr-get"
+last_commit = "b9521514d52732c8bb28b732c12c2994f4ec6901"
+last_commit_time = "2021-11-04T10:25"
+status = "200"
+
+[repo.stats]
+branches = 5
+commits = 1
+watching = 5
+tag_count = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/extracted-webrtc"
+last_commit = "00b3bc9fb50871b2eda4431760be5cdfd54e4a83"
+last_commit_time = "2020-07-21T13:09"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 9
+commits = 8
+watching = 5
+forks = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/extracted-webrtc-browser"
+last_commit = "0c80f4ea2dd73df85438cbec50686a969ad3a30e"
+last_commit_time = "2020-07-21T12:46"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 0
+commits = 1
+branches = 6
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/github-template"
+last_commit = "7925c022ef9126d62d7271d0b1e56bf02d0c36af"
+last_commit_time = "2022-02-01T20:26"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 15
+watching = 3
+forks = 0
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/streamr-dev/go-streamr-client"
+last_commit = "f1c52777acfe245d30419a6e46e79a73faf66208"
+last_commit_time = "2018-12-19T11:36"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 20
+stars = 0
+forks = 0
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/grails-builder"
+last_commit = "2360bd904e890fcad1a8d2691567f365ee7bbacf"
+last_commit_time = "2022-01-11T10:51"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 1
+stars = 0
+commits = 7
+tag_count = 0
+branches = 17
 
 [[repo]]
 url = "https://github.com/streamr-dev/grails-docker"
+last_commit = "c24b4f9f46c7b33fc895152c2bcdd1704df910f6"
+last_commit_time = "2017-06-15T13:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 12
+forks = 32
+commits = 18
+branches = 31
 
 [[repo]]
 url = "https://github.com/streamr-dev/helium-mqtt-adapter"
+last_commit = "6f29f6db50d686e52837076c8c9e3f6ad52b63ef"
+last_commit_time = "2021-04-08T13:26"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 4
+stars = 0
+tag_count = 0
+branches = 8
+commits = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/hopscotch"
+last_commit = "e160862c2ff5e1a9baf6fec9b8a0eb1fe85669db"
+last_commit_time = "2016-06-22T16:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+commits = 5
+forks = 690
+branches = 388
+stars = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/iata-hackathon-2018"
+last_commit = "75d17c89dff11165618b19b4a8253c1e4bc4e820"
+last_commit_time = "2018-12-04T14:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+branches = 12
+forks = 0
+commits = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/streamr-dev/jenkins-build-per-branch"
+last_commit = "ce33c00ec6f4f3bf6c8c49cfa08496a512856e66"
+last_commit_time = "2014-08-06T12:18"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 59
+commits = 3
+forks = 190
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/lambda-memory-widget-updater"
+last_commit = "7d14288a2c4af5ead9b1f93c0afc2c4b935f962e"
+last_commit_time = "2020-05-26T07:09"
+status = "200"
+
+[repo.stats]
+branches = 9
+commits = 1
+watching = 3
+stars = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/ledger-live-common"
+last_commit = "f6419cfbf40328462acc3a70d994f01326267685"
+last_commit_time = "2021-10-12T15:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 199
+watching = 0
+tag_count = 0
+branches = 0
+commits = 21
 
 [[repo]]
 url = "https://github.com/streamr-dev/libdatachannel"
+last_commit = "fcd46546c2f32fd2398b9af01f0a30a91eb47967"
+last_commit_time = "2021-04-13T13:44"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+branches = 0
+forks = 174
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/streamr-dev/listen-to-stream"
+last_commit = "ac0ab7c7582ac3957bee84ae92134044f3e21233"
+last_commit_time = "2021-06-18T13:08"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 1
+tag_count = 0
+commits = 9
+branches = 94
+watching = 3
 
 [[repo]]
 url = "https://github.com/streamr-dev/lnem"
+last_commit = "409aa558a61556e79f75e9390b19ac1b81bdc689"
+last_commit_time = "2021-10-12T09:55"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 4
+stars = 0
+forks = 0
+branches = 19
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/marketplace-contracts"
+last_commit = "5f5e1adf7e7f0643cbeb506c3767e4e955fbae97"
+last_commit_time = "2022-07-28T16:04"
+status = "200"
+
+[repo.stats]
+forks = 10
+branches = 118
+tag_count = 0
+watching = 14
+stars = 45
+commits = 15
 
 [[repo]]
 url = "https://github.com/streamr-dev/monoplasma"
+last_commit = "cf9581e267e79797f58f640d9cb6e8f95f3c7f10"
+last_commit_time = "2020-06-01T12:17"
+status = "200"
+
+[repo.stats]
+forks = 13
+stars = 41
+commits = 7
+tag_count = 0
+watching = 17
+branches = 280
 
 [[repo]]
 url = "https://github.com/streamr-dev/monorepo"
+last_commit = "e64f2a5db19ae39f323241149800ed48f77aa79e"
+last_commit_time = "2022-07-28T16:07"
+status = "200"
+
+[repo.stats]
+forks = 15
+tag_count = 0
+watching = 3
+stars = 43
+branches = 0
+commits = 73
 
 [[repo]]
 url = "https://github.com/streamr-dev/mqtt-streamr"
+last_commit = "2089bc63a2ff3344ef2cbd82ddef33f93f0fab55"
+last_commit_time = "2022-04-28T14:44"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+stars = 3
+commits = 8
+branches = 23
+forks = 4
 
 [[repo]]
 url = "https://github.com/streamr-dev/MultiSigWallet"
+last_commit = "9a1ee1f9fdbc98678db1bc9b52c83a3a65508db9"
+last_commit_time = "2018-11-27T12:08"
+status = "200"
+
+[repo.stats]
+forks = 733
+watching = 3
+branches = 950
+stars = 0
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/streamr-dev/mydiem-app"
+last_commit = "36b6fffc7b27b7c11c9c3f3c3f5d90965078b880"
+last_commit_time = "2020-10-26T15:48"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+branches = 18
+tag_count = 0
+commits = 2
+watching = 4
 
 [[repo]]
 url = "https://github.com/streamr-dev/mysql"
+last_commit = "1dacd9ddce4881294cb26fcb0bb952c6f697a77c"
+last_commit_time = "2021-03-29T13:13"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 4
+branches = 4
+tag_count = 0
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/network"
+last_commit = "49ae5971e0d2df054a70953ea56b34f37eb8cc68"
+last_commit_time = "2021-06-18T13:05"
+status = "200"
+
+[repo.stats]
+stars = 16
+tag_count = 0
+branches = 780
+commits = 11
+forks = 5
+watching = 13
 
 [[repo]]
 url = "https://github.com/streamr-dev/network-explorer"
+last_commit = "efb73c92e49788153f41557ef0337ace4293424c"
+last_commit_time = "2022-05-23T21:10"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 1
+watching = 9
+commits = 9
+tag_count = 0
+branches = 424
 
 [[repo]]
 url = "https://github.com/streamr-dev/network-explorer-mock-api"
+last_commit = "910a9d60cf4f9af9502ea5578a17935031f706a4"
+last_commit_time = "2021-03-23T18:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 52
+forks = 0
+commits = 9
+stars = 0
+watching = 12
 
 [[repo]]
 url = "https://github.com/streamr-dev/network-healthcheck"
+last_commit = "c132f3e3aef605bfb8b199121b78871aaea1a431"
+last_commit_time = "2021-10-08T12:12"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 0
+forks = 0
+branches = 28
+watching = 4
 
 [[repo]]
 url = "https://github.com/streamr-dev/network-monorepo"
+last_commit = "e64f2a5db19ae39f323241149800ed48f77aa79e"
+last_commit_time = "2022-07-28T16:07"
+status = "200"
+
+[repo.stats]
+commits = 73
+forks = 15
+watching = 3
+stars = 43
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/nginx"
+last_commit = "7551fab0101580a5d355c900cbd9ac7f9c55d5cb"
+last_commit_time = "2022-05-23T21:15"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 4
+tag_count = 0
+branches = 39
+commits = 3
 
 [[repo]]
 url = "https://github.com/streamr-dev/node-datachannel-performance-diagnostics"
+last_commit = "c8916cf07142d9cef1efdfb90d5a1fd53bd35101"
+last_commit_time = "2021-10-14T12:39"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 6
+stars = 1
+forks = 1
+branches = 57
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/node-red-streamr-client-node"
+last_commit = "56e266a14489cfd20b997959971be53687cfb4cc"
+last_commit_time = "2022-05-10T16:21"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+commits = 4
+watching = 3
+branches = 26
+stars = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/old-streamr-web3"
+last_commit = "46333532809e528ac87ef12b9ef5a99d1c2eaf3c"
+last_commit_time = "2019-04-10T08:03"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 105
+watching = 17
+tag_count = 0
+commits = 4
+stars = 5
 
 [[repo]]
 url = "https://github.com/streamr-dev/omnibridge"
+last_commit = "1e215b892e55fc0296abcfc1e4a6656dd20f4fac"
+last_commit_time = "2021-10-03T07:57"
+status = "200"
+
+[repo.stats]
+branches = 648
+tag_count = 0
+commits = 7
+forks = 71
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/open-ethereum-poa"
+last_commit = "58ff162b57d3af62f2166bed675400e4d1719961"
+last_commit_time = "2021-12-14T08:41"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 27
+commits = 7
+tag_count = 0
+stars = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/streamr-dev/pacifics"
+last_commit = "4625c06d8221525d16703bc3a938131a2235dc3d"
+last_commit_time = "2017-06-21T18:31"
+status = "200"
+
+[repo.stats]
+watching = 13
+branches = 139
+commits = 2
+forks = 1
+tag_count = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/quick-dijkstra"
+last_commit = "11d61e759f6954107a2cfdd2ff75c49d6472d552"
+last_commit_time = "2021-11-05T08:01"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 2
+tag_count = 0
+watching = 3
+forks = 0
+branches = 20
 
 [[repo]]
 url = "https://github.com/streamr-dev/redis"
+last_commit = "ba8d4732f3563c87de5fa131c3d1193ea0edf8fb"
+last_commit_time = "2021-03-26T14:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+watching = 3
+branches = 4
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/Rocket.Chat"
+last_commit = "71007094940b51db750b3f36bde2bbdb17bb60de"
+last_commit_time = "2017-09-14T19:47"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 4
+tag_count = 0
+commits = 54
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/ruuvi-streamr"
+last_commit = "9df82d139cf3a0220dd7fd6cf662076e35b2b112"
+last_commit_time = "2019-03-27T17:19"
+status = "200"
+
+[repo.stats]
+stars = 9
+forks = 2
+branches = 13
+tag_count = 0
+watching = 15
+commits = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/selenium-2step"
+last_commit = "07e84c49ccbdd04e357adfd252f1d92cfdafbb46"
+last_commit_time = "2015-07-07T15:17"
+status = "200"
+
+[repo.stats]
+forks = 12
+branches = 16
+stars = 0
+tag_count = 0
+watching = 4
+commits = 3
 
 [[repo]]
 url = "https://github.com/streamr-dev/slackbot"
+last_commit = "efaf778b134d11af6fe21c0e638fb996173946cc"
+last_commit_time = "2021-10-01T12:23"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 5
+tag_count = 0
+commits = 1
+branches = 3
 
 [[repo]]
 url = "https://github.com/streamr-dev/smart-citizens"
+last_commit = "5763e032653968301833165a57daca7f90e3e820"
+last_commit_time = "2018-05-07T12:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 4
+forks = 0
+branches = 30
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/smart-contracts-init"
+last_commit = "59ecfeef72801f6784d995d59b29f505ecec74bd"
+last_commit_time = "2022-02-02T14:06"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+watching = 9
+commits = 33
+branches = 174
+forks = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/smtp"
+last_commit = "4facb94508fe2375ba6422816b151d6ef9d54e20"
+last_commit_time = "2021-04-01T13:17"
+status = "200"
+
+[repo.stats]
+branches = 6
+stars = 0
+watching = 3
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/snapshot-spaces"
+last_commit = "98d1839c20842b0b76152502d70bdc81ba04a2a8"
+last_commit_time = "2020-10-29T13:34"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 1
+stars = 0
+branches = 353
+commits = 4
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-apache-flink-integration"
+last_commit = "0a7c5ea88219c041a8ead9693ce6d9e37c0d3486"
+last_commit_time = "2019-10-18T11:42"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 8
+commits = 1
+stars = 1
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-chat"
+last_commit = "d2b029fe052b3b2d9cc782c45c3023a26b73cafc"
+last_commit_time = "2022-08-03T13:13"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 907
+tag_count = 0
+commits = 4
+forks = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-client"
+status = "200"
+
+[repo.stats]
+commits = 30
+tag_count = 0
+stars = 36
+watching = 15
+forks = 9
+branches = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-client-java"
+last_commit = "98c444b439d35acd8c876d39979c3fd625a79236"
+last_commit_time = "2021-12-14T18:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 13
+branches = 178
+stars = 6
+forks = 5
+watching = 10
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-client-javascript"
+status = "200"
+
+[repo.stats]
+stars = 36
+watching = 15
+commits = 30
+forks = 9
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-client-protocol-js"
+last_commit = "5a39e1405dbf8d88c93184a73b9fb7f552b2fb0a"
+last_commit_time = "2021-06-18T13:06"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 224
+stars = 2
+tag_count = 0
+commits = 9
+watching = 11
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-client-python"
+last_commit = "8160df6d58cc124369bc47cf56245c7d17bf662f"
+last_commit_time = "2020-11-24T08:38"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 8
+watching = 4
+branches = 42
+forks = 4
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-client-react"
+last_commit = "f74ccd20d4c6e2627787f0da0dc6497a003338d2"
+last_commit_time = "2022-02-25T07:27"
+status = "200"
+
+[repo.stats]
+watching = 11
+stars = 2
+forks = 0
+branches = 75
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-client-testing"
+last_commit = "f7f10a337a8e87539454de467a2893e491d1b5e3"
+last_commit_time = "2021-06-22T10:20"
+status = "200"
+
+[repo.stats]
+watching = 5
+tag_count = 0
+commits = 10
+forks = 0
+stars = 0
+branches = 135
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-community-products"
+last_commit = "eda2cbb05ff4c3096738dd7606682f987c3e3f10"
+last_commit_time = "2021-10-04T15:11"
+status = "200"
+
+[repo.stats]
+commits = 28
+tag_count = 0
+forks = 3
+stars = 0
+watching = 12
+branches = 465
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-docker-dev"
+last_commit = "40ade9a7e23e8e237f55c4de6e302bd851f9db71"
+last_commit_time = "2022-07-08T11:28"
+status = "200"
+
+[repo.stats]
+branches = 298
+stars = 9
+tag_count = 0
+commits = 13
+forks = 3
+watching = 12
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-docker-dev-action"
+last_commit = "5ffff186df97ef5caacf37d24aa7e47a74c1f116"
+last_commit_time = "2022-03-24T11:34"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 3
+forks = 0
+stars = 3
+branches = 34
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-ethereum-watcher"
+last_commit = "c3d5dd18653089d01b6ffdf5fb2a4aedba9ba0c4"
+last_commit_time = "2022-05-23T21:21"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 4
+stars = 1
+commits = 13
+watching = 12
+branches = 391
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-flink"
+last_commit = "2322a36633078eeecb83ee417a8bdb61138c3149"
+last_commit_time = "2019-09-16T12:18"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 3
+tag_count = 0
+forks = 1
+commits = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-ganache"
+last_commit = "50a07ea2968475ea18d43cb658b0a6b35f640631"
+last_commit_time = "2020-04-09T19:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 14
+forks = 0
+branches = 50
+stars = 1
+watching = 12
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-grafana-datasource"
+last_commit = "6ff1785cb655b0730285671d74a3ba922d8fd9b7"
+last_commit_time = "2022-06-30T12:23"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 3
+forks = 0
+tag_count = 0
+watching = 4
+stars = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-kafka-integration"
+last_commit = "3bd9730c613f37aaab8d24490a7ed4493ee14f7e"
+last_commit_time = "2019-08-01T09:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+branches = 2
+stars = 0
+watching = 2
+forks = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-mock-rest-api-js"
+last_commit = "567678aa53ed544416b8b98b9b07a09a0db94823"
+last_commit_time = "2019-07-18T12:03"
+status = "200"
+
+[repo.stats]
+commits = 10
+tag_count = 0
+branches = 4
+watching = 1
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-network-simulator-tools"
+last_commit = "9dc4b449045b36c5ad639d8ff5c51b887109dc7b"
+last_commit_time = "2021-06-18T14:19"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 3
+forks = 0
+commits = 1
+tag_count = 0
+branches = 13
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-nifi"
+last_commit = "e98997634dcce6eebbb6961be1870f44336c3f47"
+last_commit_time = "2019-08-21T10:33"
+status = "200"
+
+[repo.stats]
+stars = 4
+commits = 2
+watching = 5
+tag_count = 0
+forks = 0
+branches = 33
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-platform"
+last_commit = "f345b180db97f8ff086e895d23e4d1b3501893e0"
+last_commit_time = "2022-07-29T18:06"
+status = "200"
+
+[repo.stats]
+watching = 14
+branches = 0
+commits = 133
+stars = 26
+tag_count = 0
+forks = 20
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-spark"
+last_commit = "17d7faf62af6e467dc17b193df1faaf5ddcff3d3"
+last_commit_time = "2019-09-16T10:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 11
+watching = 4
+forks = 0
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-spark-integrations"
+last_commit = "2e485792ef8681c248447857136fa937eabe2096"
+last_commit_time = "2019-09-13T10:38"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+tag_count = 0
+branches = 14
+commits = 4
+watching = 4
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-specs"
+last_commit = "334ba765b7f2bf1726553bbb007a5183e2932801"
+last_commit_time = "2021-09-08T19:04"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 11
+stars = 3
+forks = 3
+branches = 23
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-test-utils"
+last_commit = "f748b060c31344e23e6c0305f41b82714cef605e"
+last_commit_time = "2021-06-18T13:09"
+status = "200"
+
+[repo.stats]
+commits = 5
+branches = 35
+stars = 0
+watching = 12
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-tests"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+tag_count = 0
+watching = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/streamr-web3"
+last_commit = "46333532809e528ac87ef12b9ef5a99d1c2eaf3c"
+last_commit_time = "2019-04-10T08:03"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 5
+watching = 17
+branches = 105
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/stylelint-config-streamr"
+last_commit = "3b5bec69c2381ab51b7ec66b9c939ea927523e9d"
+last_commit_time = "2018-06-06T15:22"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+stars = 2
+commits = 1
+watching = 4
+branches = 6
 
 [[repo]]
 url = "https://github.com/streamr-dev/swagger-ui"
+last_commit = "5d647aff25937dd055cfc051220d6424fea6cb4e"
+last_commit_time = "2016-05-11T14:47"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 0
+commits = 13
+forks = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/streamr-dev/thegraph.com-marketplace"
+last_commit = "6580571e395165d1111caf166c877f24d8414660"
+last_commit_time = "2020-11-23T08:36"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 12
+tag_count = 0
+commits = 1
+forks = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/token-faucet"
+last_commit = "c6c9a796c4461e0d133ab6a90d600b5416310e6d"
+last_commit_time = "2020-10-21T08:06"
+status = "200"
+
+[repo.stats]
+branches = 4
+watching = 3
+tag_count = 0
+forks = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/token-launch-smart-contracts"
+last_commit = "209d574ded70b4c382894d09ea886a2704291ce0"
+last_commit_time = "2017-07-10T01:23"
+status = "200"
+
+[repo.stats]
+commits = 23
+forks = 573
+stars = 8
+branches = 198
+watching = 15
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/token-subgraphs"
+last_commit = "b6336be931f0a9ab8897a55938f7410032934493"
+last_commit_time = "2021-12-07T16:22"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+stars = 0
+branches = 2
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/tokenbridge-contracts"
+last_commit = "4cf29cdaa87965f4b34074f782d893c76b2f9e3b"
+last_commit_time = "2021-03-06T23:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+commits = 16
+stars = 0
+forks = 179
+branches = 825
 
 [[repo]]
 url = "https://github.com/streamr-dev/travis-ci"
+last_commit = "e15139fe359184a765c99be3fd806539368b39e2"
+last_commit_time = "2020-05-18T10:58"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+forks = 0
+branches = 3
+watching = 5
 
 [[repo]]
 url = "https://github.com/streamr-dev/Unity_Datagathering_Demo"
+last_commit = "902010d74b39d474619c559922c065785eb293f1"
+last_commit_time = "2018-08-24T12:47"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 24
+tag_count = 0
+stars = 0
+watching = 6
+forks = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/uws-js-unofficial"
+last_commit = "c0c78f66924d9fa393455bfd346744b3318d4649"
+last_commit_time = "2021-07-08T12:14"
+status = "200"
+
+[repo.stats]
+commits = 6
+watching = 0
+branches = 401
+tag_count = 0
+stars = 0
+forks = 431
 
 [[repo]]
 url = "https://github.com/streamr-dev/web3j"
+last_commit = "636f1bcc3a2fb2968a9427a56ffb4245c1a4650a"
+last_commit_time = "2019-07-15T20:43"
+status = "200"
+
+[repo.stats]
+commits = 21
+stars = 1
+watching = 4
+forks = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/Web3jTest"
+last_commit = "e3e42a5cecf021c8451abdfbd7e72de2c4950f5e"
+last_commit_time = "2020-02-06T11:04"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+forks = 0
+tag_count = 0
+watching = 5
+branches = 2
 
 [[repo]]
 url = "https://github.com/streamr-dev/webcomponentsjs"
+last_commit = "9d43da6447f0e1a7aac81abf8b1e904a3888c199"
+last_commit_time = "2016-11-02T21:33"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 3
+forks = 508
+branches = 463
+commits = 13
 
 [[repo]]
 url = "https://github.com/streamr-dev/zapier-streamr"
+last_commit = "f6931d59ae33543ca877d1fde987dc7bbcd3c758"
+last_commit_time = "2018-07-03T12:17"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 2
+forks = 0
+tag_count = 0
+branches = 6
+commits = 1
 
 [[repo]]
 url = "https://github.com/streamr-dev/zeppelin-solidity"
+last_commit = "81297fac88007831ca5437e30a6fb53c92588391"
+last_commit_time = "2017-07-13T20:28"
+status = "200"
+
+[repo.stats]
+commits = 6
+stars = 0
+watching = 12
+tag_count = 0
+branches = 513
+forks = 0
 
 [[repo]]
 url = "https://github.com/streamr-dev/zxcvbn"
+last_commit = "f2a8cda13d247f4956d3334ee7cbae80a2c61a97"
+last_commit_time = "2014-09-09T04:49"
+status = "200"
+
+[repo.stats]
+forks = 880
+stars = 0
+watching = 3
+branches = 123
+tag_count = 0
+commits = 1

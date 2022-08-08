@@ -1,10 +1,16 @@
-# Ecosystem Level Information
 title = "Foundry"
-
+toml_path = "data/ecosystems/f/foundry.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/gakonst/foundry"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 503
+commits = 5
+branches = 0
+watching = 64
+stars = 0

@@ -1,28 +1,96 @@
-# Ecosystem Level Information
 title = "Trisolaris"
-
+toml_path = "data/ecosystems/t/trisolaris.toml"
+github_organizations = ["https://github.com/trisolaris-labs"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/trisolaris-labs"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/trisolaris-labs/apr"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 46
+watching = 1
+stars = 3
+tag_count = 0
+forks = 5
 
 [[repo]]
 url = "https://github.com/trisolaris-labs/bridge-assets"
+last_commit = "07321822b59a1079f4c92dec310286a1a813ec1c"
+last_commit_time = "2021-12-16T17:45"
+status = "200"
+
+[repo.stats]
+watching = 0
+commits = 7
+forks = 102
+stars = 1
+branches = 56
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/trisolaris-labs/docs"
+last_commit = "32788c0a86a4dab76b96011c827b4dd700b2b6bf"
+last_commit_time = "2022-07-18T11:56"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+forks = 3
+branches = 27
+commits = 2
+watching = 0
 
 [[repo]]
 url = "https://github.com/trisolaris-labs/interface"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 6
+tag_count = 0
+commits = 48
+branches = 0
+forks = 8
 
 [[repo]]
 url = "https://github.com/trisolaris-labs/sdk"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+tag_count = 0
+forks = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/trisolaris-labs/tokens"
+last_commit = "d81033a6148b2274477d1e1d02209e8cfaa92d09"
+last_commit_time = "2022-07-22T23:23"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+commits = 2
+branches = 126
+stars = 5
+forks = 18
 
 [[repo]]
 url = "https://github.com/trisolaris-labs/trisolaris_core"
+last_commit = "96e921996e59f1f52854aaae6a3e100a7a57f3ca"
+last_commit_time = "2022-08-05T16:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 346
+watching = 1
+commits = 39
+forks = 12
+stars = 15

@@ -1,31 +1,114 @@
-# Ecosystem Level Information
 title = "Morpher"
-
+toml_path = "data/ecosystems/m/morpher.toml"
+github_organizations = ["https://github.com/Morpher-io"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Morpher-io"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Morpher-io/assets"
+last_commit = "5ef1a1acc07386133b47bf7b244fb43bce2d83fc"
+last_commit_time = "2022-07-19T12:31"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 0
+watching = 1
+stars = 2
+tag_count = 0
+commits = 20
 
 [[repo]]
 url = "https://github.com/Morpher-io/blockscout"
+last_commit = "efe4d0f0c04bd843c2de5c2f54f242e9cdcb7207"
+last_commit_time = "2022-06-01T09:15"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 0
+watching = 0
+forks = 0
+commits = 175
 
 [[repo]]
 url = "https://github.com/Morpher-io/eth-lightwallet"
+last_commit = "f92561445a44f24c4feaff41090dff59592daf29"
+last_commit_time = "2020-10-29T15:32"
+status = "200"
+
+[repo.stats]
+forks = 467
+branches = 266
+tag_count = 0
+commits = 22
+watching = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/Morpher-io/hummingbot"
+status = "404"
+
+[repo.stats]
+commits = 0
+branches = 0
+forks = 0
+stars = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/Morpher-io/MorpherProtocol"
+last_commit = "d409fb6ca158ee3101ea1adfcca0e57fe0e0650c"
+last_commit_time = "2022-07-22T07:52"
+status = "200"
+
+[repo.stats]
+forks = 12
+commits = 12
+watching = 10
+branches = 191
+tag_count = 0
+stars = 34
 
 [[repo]]
 url = "https://github.com/Morpher-io/MorpherWallet"
+last_commit = "a5caee2c052aee140a92a3732941189115ccf653"
+last_commit_time = "2022-07-05T07:28"
+status = "200"
+
+[repo.stats]
+branches = 475
+forks = 8
+commits = 8
+tag_count = 0
+stars = 20
+watching = 6
 
 [[repo]]
 url = "https://github.com/Morpher-io/private-network-geth-poa-clique-explorers"
+last_commit = "69a2547a867f782a1f03092ade19f16c0ace0c9c"
+last_commit_time = "2022-05-31T07:34"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 3
+branches = 7
+tag_count = 0
+stars = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/Morpher-io/zerowallet-recoverable"
+last_commit = "a5caee2c052aee140a92a3732941189115ccf653"
+last_commit_time = "2022-07-05T07:28"
+status = "200"
+
+[repo.stats]
+commits = 8
+stars = 20
+tag_count = 0
+watching = 6
+branches = 475
+forks = 8

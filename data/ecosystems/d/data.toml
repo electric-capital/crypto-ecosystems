@@ -1,13 +1,30 @@
-# Ecosystem Level Information
 title = "DATA"
-
+toml_path = "data/ecosystems/d/data.toml"
+github_organizations = ["https://github.com/Blockchain-DATA"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Blockchain-DATA"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Blockchain-DATA/smart_contract"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+watching = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/Blockchain-DATA/sushiswap"
+last_commit = "44e695e77ad1d4514796423f8553281e01b99273"
+last_commit_time = "2020-09-10T09:52"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 0
+tag_count = 0
+branches = 58
+watching = 2
+commits = 1

@@ -1,91 +1,390 @@
-# Ecosystem Level Information
 title = "FarmersOnlyFi"
-
+toml_path = "data/ecosystems/f/farmersonlyfi.toml"
+github_organizations = ["https://github.com/FarmersOnlyFi"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/FarmersOnlyFi"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/assets"
+last_commit = "a8c18b4187a1e6812375ae288223d0978ee6a926"
+last_commit_time = "2022-02-16T02:18"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 22
+branches = 0
+watching = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/contracts-1"
+last_commit = "aa0e6387ea18aa600e205a8d1a1b232b2295ce2f"
+last_commit_time = "2021-09-24T18:58"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+branches = 6
+commits = 1
+forks = 60
+stars = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/default-token-list"
+last_commit = "e6b8d27643b5dc4a79941ee419709b520a6e46b8"
+last_commit_time = "2022-07-16T03:01"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+tag_count = 0
+commits = 1
+branches = 129
+forks = 668
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/DefiLlama-Adapters"
+last_commit = "9b9ff6d88fffdef8fef4c4239e07ebecc4a18f9e"
+last_commit_time = "2022-05-24T19:35"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+commits = 10
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/defillama-sdk"
+last_commit = "10dabc64eadebf7a366668fcb8bed880cf93dbee"
+last_commit_time = "2022-05-13T10:57"
+status = "200"
+
+[repo.stats]
+commits = 12
+watching = 0
+branches = 243
+stars = 0
+forks = 55
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/farmersonlyfi-contracts"
+last_commit = "187008565364f523c491a3872ce5cf614e827f35"
+last_commit_time = "2022-01-05T03:27"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 52
+branches = 28
+commits = 3
+tag_count = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/fox-escrow-contracts"
+last_commit = "a58801fca3d59de2c39c4df26bf2aaa7ef6e3884"
+last_commit_time = "2022-02-10T16:23"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 1
+forks = 6
+tag_count = 0
+branches = 21
+commits = 2
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/fox-escrow-interface"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+watching = 0
+forks = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/fox-uikit"
+last_commit = "8b91cab253dde0cfecb17942c97ac22e543adbcd"
+last_commit_time = "2022-02-04T02:28"
+status = "200"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+branches = 26
+stars = 0
+commits = 1
+forks = 6
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/foxswap-community-token-list"
+last_commit = "40d8efcac9cba78a9d42b9380fda77d4ce24419c"
+last_commit_time = "2021-11-21T04:48"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 124
+stars = 0
+commits = 1
+branches = 28
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/foxswap-core"
+last_commit = "56558bf01f37393132938551ba99c599479c63e2"
+last_commit_time = "2021-12-03T21:43"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 263
+commits = 1
+tag_count = 0
+stars = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/foxswap-interface"
+last_commit = "6039c55bfb137538b72f834dbf57b62538279915"
+last_commit_time = "2022-07-20T19:05"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 0
+tag_count = 0
+commits = 24
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/foxswap-lib"
+last_commit = "fad3b1f16eb7c27d0132364791e48311ec08fcaf"
+last_commit_time = "2021-11-20T01:07"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 80
+forks = 229
+watching = 0
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/foxswap-periphery"
+last_commit = "d4ff83ae364d6f957801d8a2f080bf774cf9ee67"
+last_commit_time = "2021-11-20T00:20"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 101
+stars = 0
+watching = 0
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/foxswap-sdk"
+last_commit = "f7ee68a109fa6168efb2688c88f1b6b5c4a2cca7"
+last_commit_time = "2022-04-19T21:51"
+status = "200"
+
+[repo.stats]
+branches = 176
+commits = 4
+forks = 812
+stars = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/foxswap-sdk-extra"
+last_commit = "ced4fbe13d10d9b8d4c117a1705d3b67d4de69ce"
+last_commit_time = "2022-01-07T18:16"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 57
+forks = 10
+commits = 1
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/foxswap-subgraph"
+last_commit = "b4785df72d0d6a32f75bd890833b7fbad303db1e"
+last_commit_time = "2022-05-27T22:01"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 0
+watching = 1
+forks = 0
+branches = 4
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/foxswap-v2"
+last_commit = "c85a0aa35e71cdd302aa439ea54dcd0b600b0a7f"
+last_commit_time = "2022-06-01T21:45"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 9
+tag_count = 0
+watching = 2
+branches = 58
+forks = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/goose-frontend-amm"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+forks = 0
+branches = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/reverse-frontend"
+status = "404"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 0
+forks = 0
+stars = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/sdk-widget"
+last_commit = "8bac00d0a9149307a70aa2d886bd0d5c94a47ced"
+last_commit_time = "2022-02-23T14:58"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+forks = 13
+tag_count = 0
+branches = 77
+commits = 4
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/snapshot"
+last_commit = "8f385bbf7532b6f217c96e94b39e5bf53690540b"
+last_commit_time = "2021-10-19T19:48"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 346
+commits = 5
+tag_count = 0
+watching = 0
+forks = 513
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/snapshot-spaces"
+last_commit = "16290d4576fd9e059963acf5c88ac53360130cf5"
+last_commit_time = "2022-01-20T18:03"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 1
+watching = 0
+stars = 0
+forks = 41
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/snapshot-strategies"
+last_commit = "d9ee73d290c95f4a2ccd3bd839f00b90e6faf219"
+last_commit_time = "2021-10-18T18:05"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 390
+branches = 94
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/snapshot.js"
+last_commit = "7a8d2d9b57ddcaeb6657be7d620e7b4e8302d8fd"
+last_commit_time = "2021-09-30T07:50"
+status = "200"
+
+[repo.stats]
+commits = 31
+watching = 0
+forks = 438
+branches = 563
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/subgraph"
+last_commit = "b4785df72d0d6a32f75bd890833b7fbad303db1e"
+last_commit_time = "2022-05-27T22:01"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+commits = 1
+watching = 1
+tag_count = 0
+branches = 4
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/subgraph-blocks"
+last_commit = "961ee694cd1b37bbcaf71bb6a0e1ac7fa7a282ec"
+last_commit_time = "2020-08-28T08:07"
+status = "200"
+
+[repo.stats]
+branches = 3
+tag_count = 0
+watching = 0
+stars = 0
+forks = 123
+commits = 1
 
 [[repo]]
 url = "https://github.com/FarmersOnlyFi/vfat-tools"
+last_commit = "2b6b85b27a8fc34acaf5ef4f5250624bfc04a5bd"
+last_commit_time = "2021-09-08T20:55"
+status = "200"
+
+[repo.stats]
+commits = 9
+watching = 0
+stars = 0
+forks = 0
+tag_count = 0
+branches = 0

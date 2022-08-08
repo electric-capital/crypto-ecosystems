@@ -1,91 +1,392 @@
-# Ecosystem Level Information
 title = "GoHelpFund"
-
+toml_path = "data/ecosystems/g/gohelpfund.toml"
+github_organizations = ["https://github.com/GoHelpFund"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/GoHelpFund"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/GoHelpFund/aden"
+last_commit = "a0226f6d50c75b8b7d9a128694c45730a3893a58"
+last_commit_time = "2019-03-19T12:28"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 0
+branches = 5
+commits = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/aden-seeder"
+last_commit = "541ae6f42cae563575e95126ecd63b71b6f790f9"
+last_commit_time = "2019-03-04T14:42"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 1
+stars = 0
+tag_count = 0
+branches = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/GoHelpFund/aden_hash"
+last_commit = "52df000c305a3a89cfbcb04ff6dc4ec44e5bbfef"
+last_commit_time = "2019-02-13T17:37"
+status = "200"
+
+[repo.stats]
+branches = 24
+tag_count = 0
+commits = 1
+watching = 1
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/bitcore-ecies-help"
+last_commit = "5134a9de48f51a021526d8778d1a6da779a999a8"
+last_commit_time = "2019-03-04T17:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 1
+forks = 0
+branches = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/gohelpfund-api"
+last_commit = "27e8052f6103a56e0daa62365c0de41fc6980566"
+last_commit_time = "2019-12-03T20:14"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 1
+tag_count = 0
+branches = 141
+commits = 8
 
 [[repo]]
 url = "https://github.com/GoHelpFund/gohelpfund-ios"
+last_commit = "b4e8cce604b280d8fc18b87d94451d03895281a7"
+last_commit_time = "2020-01-29T12:51"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+tag_count = 0
+commits = 3
+branches = 64
+stars = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/gohelpfund-web-app"
+last_commit = "df00324ad3c7610b3f29e2f493eab58f827ee018"
+last_commit_time = "2019-12-04T21:36"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 9
+watching = 1
+branches = 207
+stars = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/help_hash"
+last_commit = "2a2839e49e0cf5b834cc5203067f73f66bad1ef3"
+last_commit_time = "2019-09-01T14:28"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 0
+watching = 1
+branches = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/GoHelpFund/help_hash_new"
+status = "404"
+
+[repo.stats]
+branches = 0
+watching = 0
+commits = 0
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/helpcore-channel"
+last_commit = "cff00053854ba47def5e7840c16b7c9e41878b9c"
+last_commit_time = "2019-03-04T16:41"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 0
+branches = 1
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/GoHelpFund/helpcore-lib"
+last_commit = "4a819708bf549c9c1b5bb567f168ad4bad4708e6"
+last_commit_time = "2019-03-04T16:00"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 1
+stars = 0
+tag_count = 0
+branches = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/helpcore-message"
+last_commit = "e45ef62d7b3122484aea5eaa1fee2380737045d7"
+last_commit_time = "2019-03-04T17:31"
+status = "200"
+
+[repo.stats]
+branches = 1
+tag_count = 0
+forks = 0
+stars = 0
+watching = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/GoHelpFund/helpcore-mnemonic"
+last_commit = "c6af3497934f77fea452cbe02f84c84128ff6c5f"
+last_commit_time = "2019-03-04T16:54"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+branches = 1
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/GoHelpFund/helpcore-p2p"
+last_commit = "3d9c598959160b16c431b7ae95386b47a45b3a0c"
+last_commit_time = "2019-03-04T16:34"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+forks = 0
+watching = 1
+tag_count = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/GoHelpFund/helpcore-payment-protocol"
+last_commit = "b09c157150b5aa17efad51f36cd2f50569f8b37c"
+last_commit_time = "2019-03-03T17:16"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+watching = 1
+branches = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/helpd-rpc"
+last_commit = "6cdcf011e9b425f8e75c22f4723fc2142a076540"
+last_commit_time = "2019-03-03T16:08"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+forks = 0
+watching = 1
+stars = 0
+branches = 2
 
 [[repo]]
 url = "https://github.com/GoHelpFund/helpj"
+last_commit = "90026e78853254b54caa3a20351939454c84bd10"
+last_commit_time = "2019-09-26T10:00"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+tag_count = 0
+branches = 4
+forks = 0
+commits = 12
 
 [[repo]]
 url = "https://github.com/GoHelpFund/insight-api"
+last_commit = "04d14c153a45999f23085ff50806dec4f9ea6d3c"
+last_commit_time = "2019-08-03T13:23"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 0
+branches = 11
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/GoHelpFund/insight-ui"
+last_commit = "aeb4a5979bc341341c3838acde6464ea78bad4af"
+last_commit_time = "2019-09-25T07:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 1
+branches = 7
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/p2pool-help"
+last_commit = "0810796cf660c71386cbb90993851210e522462e"
+last_commit_time = "2019-09-01T19:45"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 1
+branches = 9
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/GoHelpFund/p2pool-help-deploy"
+last_commit = "4c098e3181a0c2a79d6c105dc12efada72d3a0a4"
+last_commit_time = "2019-09-01T15:21"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+stars = 0
+tag_count = 0
+commits = 1
+branches = 2
 
 [[repo]]
 url = "https://github.com/GoHelpFund/p2pool-help-new"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+forks = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/p2pool-node-status"
+last_commit = "40b9f5eb6929535c10245a0de7d706a300daeafb"
+last_commit_time = "2019-09-01T15:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+forks = 1
+branches = 1
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/p2pool-ui-punchy"
+last_commit = "0d2793617ebb17891113cabc9bce0a8c77fa1a1a"
+last_commit_time = "2019-09-01T15:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 1
+watching = 1
+commits = 1
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/P2PoolExtendedFrontEnd"
+last_commit = "5dfc42411c0c994492fa57a715cdf1483bc48a56"
+last_commit_time = "2019-09-01T15:18"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 1
+stars = 0
+forks = 0
+tag_count = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/GoHelpFund/sentinel"
+last_commit = "e59ffc527b0a3e1dd09e874b269c9fc8b8fcde88"
+last_commit_time = "2019-03-03T15:59"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+tag_count = 0
+stars = 0
+branches = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/GoHelpFund/smart-contract"
+last_commit = "e9b2f76ef543e35f539c5ab30f31f82b18ad630e"
+last_commit_time = "2018-09-21T15:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+stars = 0
+commits = 1
+branches = 8
+forks = 0
 
 [[repo]]
 url = "https://github.com/GoHelpFund/x11-hash-js"
+last_commit = "3134172f9846c8a5e0f832edfc88fb6db7268a73"
+last_commit_time = "2019-03-03T16:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+forks = 0
+watching = 1
+branches = 1

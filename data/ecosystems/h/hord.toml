@@ -1,22 +1,72 @@
-# Ecosystem Level Information
 title = "Hord"
-
+toml_path = "data/ecosystems/h/hord.toml"
+github_organizations = ["https://github.com/hord"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/hord"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/hord/farming-geyser"
+last_commit = "4e7fd9a6eb3a99ff8e5eef8d9151356328f78eb9"
+last_commit_time = "2021-04-29T13:15"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 17
+stars = 5
+branches = 43
+tag_count = 0
+forks = 3
 
 [[repo]]
 url = "https://github.com/hord/hord-orderbook-dex-app"
+last_commit = "2a2bfad0bec57ad15b8444350195de9269d166dc"
+last_commit_time = "2022-01-18T09:10"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 688
+commits = 13
+stars = 0
+tag_count = 0
+forks = 21
 
 [[repo]]
 url = "https://github.com/hord/hord-orderbook-dex-contracts"
+last_commit = "6ce735db4f6892b603f0b4ba0521a5e0fe6b92c8"
+last_commit_time = "2021-11-29T12:55"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 23
+watching = 0
+forks = 33
+tag_count = 0
+branches = 637
 
 [[repo]]
 url = "https://github.com/hord/mock-coingecko-api"
+last_commit = "85653ba9b5904a55e237cf11d37b647bd760583e"
+last_commit_time = "2021-12-22T17:11"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+forks = 0
+commits = 2
+stars = 0
+branches = 8
 
 [[repo]]
 url = "https://github.com/hord/smart-contracts"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+forks = 0
+commits = 0
+tag_count = 0
+watching = 0

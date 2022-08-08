@@ -1,73 +1,309 @@
-# Ecosystem Level Information
 title = "Float Capital"
-
+toml_path = "data/ecosystems/f/float-capital.toml"
+github_organizations = ["https://github.com/Float-Capital"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Float-Capital"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Float-Capital/chainlink-historic-data-utils"
+last_commit = "4ef5384f21718c234c1827f478041d7030490258"
+last_commit_time = "2021-06-11T11:24"
+status = "200"
+
+[repo.stats]
+branches = 7
+stars = 5
+commits = 2
+forks = 1
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Float-Capital/code-style-guide"
+last_commit = "71ca207002449494a3d16678e581bc4ea668632b"
+last_commit_time = "2022-06-09T12:50"
+status = "200"
+
+[repo.stats]
+branches = 9
+commits = 4
+tag_count = 0
+watching = 2
+stars = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/Float-Capital/config"
+last_commit = "b58d6069d889685637659399883475ea6ca22938"
+last_commit_time = "2022-05-30T11:35"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 2
+tag_count = 0
+commits = 4
+branches = 15
 
 [[repo]]
 url = "https://github.com/Float-Capital/contracts"
+last_commit = "c5b35def76c62a82a246c716222eb5f1a286ce4f"
+last_commit_time = "2022-03-26T10:50"
+status = "200"
+
+[repo.stats]
+watching = 4
+commits = 8
+branches = 10
+stars = 24
+tag_count = 0
+forks = 8
 
 [[repo]]
 url = "https://github.com/Float-Capital/docs"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 0
+branches = 0
+watching = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Float-Capital/docs-hosting"
+last_commit = "82ce11666dea1cc0f18062d17413bbe6959b7c7b"
+last_commit_time = "2022-07-28T13:36"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 1
+branches = 57
+forks = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Float-Capital/docs-staging"
+last_commit = "f861f8a49930cefab1c74dd27ad6a263a9691ed6"
+last_commit_time = "2022-05-24T11:23"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 464
+commits = 2
+stars = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Float-Capital/docs-staging-hosting"
+last_commit = "f861f8a49930cefab1c74dd27ad6a263a9691ed6"
+last_commit_time = "2022-05-24T11:23"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+forks = 0
+watching = 1
+stars = 0
+branches = 464
 
 [[repo]]
 url = "https://github.com/Float-Capital/ds-test"
+last_commit = "45515491474839f440884cacdeeb1aba6bbdfe34"
+last_commit_time = "2022-03-08T09:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 52
+stars = 0
+branches = 47
+watching = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/Float-Capital/float-dao-js-client"
+last_commit = "be0fecf38fd2ee2fb38ec2ccfc23faeefd930926"
+status = "200"
+
+[repo.stats]
+branches = 96
+commits = 1
+tag_count = 0
+stars = 0
+watching = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/Float-Capital/forge-std"
+last_commit = "bf17c8f4c8a78741ee11607c18e0de8880adac96"
+last_commit_time = "2022-06-21T15:53"
+status = "200"
+
+[repo.stats]
+branches = 110
+tag_count = 0
+forks = 70
+stars = 0
+commits = 9
+watching = 0
 
 [[repo]]
 url = "https://github.com/Float-Capital/hardhat-deploy"
+last_commit = "1254fd369e652f13f7bd0e841b970645fc20f6d8"
+last_commit_time = "2021-12-21T12:02"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 560
+commits = 14
+stars = 1
+forks = 164
+watching = 0
 
 [[repo]]
 url = "https://github.com/Float-Capital/hardhat-nft-minter"
+last_commit = "bcbdb94a76b520aadfa9ba6857bc2fa98c56d6e5"
+last_commit_time = "2021-11-02T15:24"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+stars = 0
+watching = 2
+forks = 0
+branches = 3
 
 [[repo]]
 url = "https://github.com/Float-Capital/hardhat-nfts-opensea"
+last_commit = "62a1685fbabd22cff60b47b2aa76a7eeee5613df"
+last_commit_time = "2022-01-03T14:38"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+commits = 4
+watching = 2
+branches = 1
 
 [[repo]]
 url = "https://github.com/Float-Capital/LayerZero"
+last_commit = "9dbd7412fc30e24e65b45ccfed33bc882ff56a26"
+last_commit_time = "2022-05-27T18:42"
+status = "200"
+
+[repo.stats]
+commits = 7
+tag_count = 0
+forks = 38
+stars = 0
+watching = 0
+branches = 5
 
 [[repo]]
 url = "https://github.com/Float-Capital/nft-minter"
+last_commit = "aefd4b48139b403511284dbe6afa488da43a5983"
+last_commit_time = "2021-06-29T14:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+forks = 0
+branches = 7
+commits = 3
+watching = 3
 
 [[repo]]
 url = "https://github.com/Float-Capital/rescript-client"
+last_commit = "be0fecf38fd2ee2fb38ec2ccfc23faeefd930926"
+last_commit_time = "2022-08-04T11:07"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 2
+commits = 1
+tag_count = 0
+stars = 0
+branches = 96
 
 [[repo]]
 url = "https://github.com/Float-Capital/rescript-recharts"
+last_commit = "f8156c31b13c96aa358e6fa7db3c1d4eee420808"
+last_commit_time = "2021-07-03T17:26"
+status = "200"
+
+[repo.stats]
+forks = 16
+branches = 133
+watching = 1
+stars = 0
+commits = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Float-Capital/solidity-coverage"
+last_commit = "f0aa876c3eaf2471a0141687df47c86649d02b10"
+last_commit_time = "2021-05-13T13:17"
+status = "200"
+
+[repo.stats]
+forks = 213
+stars = 0
+commits = 43
+tag_count = 0
+watching = 1
+branches = 854
 
 [[repo]]
 url = "https://github.com/Float-Capital/token-raffle-distributor"
+last_commit = "f1bbc1eee9294d9bed0c69de05e1c5ed505e9e9f"
+last_commit_time = "2021-09-14T20:42"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 1
+commits = 1
+tag_count = 0
+watching = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/Float-Capital/Transaction-decoder-script"
+last_commit = "aae202cb91adde8b7ca4191db115f5b0ee2912ad"
+last_commit_time = "2022-01-31T09:04"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 2
+tag_count = 0
+branches = 2
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/Float-Capital/user-feedback"
+last_commit = "ceadbac39fa3a52a48ebfce666eb17d998d33088"
+last_commit_time = "2021-10-12T15:00"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+commits = 1
+stars = 0
+forks = 0
+branches = 1

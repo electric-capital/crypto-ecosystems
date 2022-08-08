@@ -1,55 +1,222 @@
-# Ecosystem Level Information
 title = "Ethfinex Voting Dapp"
-
+toml_path = "data/ecosystems/e/ethfinex-voting-dapp.toml"
+github_organizations = ["https://github.com/ethfinex"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/ethfinex"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/ethfinex/0x-order-verify"
+last_commit = "5d2111092e1d5bcbb5fcd719e2fdd0a58651f8da"
+last_commit_time = "2019-08-20T08:06"
+status = "200"
+
+[repo.stats]
+stars = 21
+branches = 13
+forks = 5
+commits = 1
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ethfinex/antani"
+status = "404"
+
+[repo.stats]
+commits = 0
+forks = 0
+branches = 0
+watching = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ethfinex/bfx-api-node-models"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 0
+watching = 0
+forks = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/ethfinex/community-gateway"
+last_commit = "3f49903bd944cf603c1a168bfbc908e1b33a9461"
+last_commit_time = "2021-03-27T15:03"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 4
+stars = 13
+forks = 31
+tag_count = 0
+branches = 5
 
 [[repo]]
 url = "https://github.com/ethfinex/dvf-trustless-data"
+last_commit = "ba13850ed4b0b8e7d94e30af1a7de5d7d8e023a5"
+last_commit_time = "2020-03-27T10:31"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 1
+tag_count = 0
+watching = 3
+branches = 78
+commits = 15
 
 [[repo]]
 url = "https://github.com/ethfinex/efx-api-node"
+last_commit = "1ead31ca173125951339c83c517c22f74033e11b"
+last_commit_time = "2020-02-14T10:38"
+status = "200"
+
+[repo.stats]
+branches = 233
+commits = 3
+watching = 5
+forks = 18
+tag_count = 0
+stars = 22
 
 [[repo]]
 url = "https://github.com/ethfinex/efx-trustless-data"
+last_commit = "ba13850ed4b0b8e7d94e30af1a7de5d7d8e023a5"
+last_commit_time = "2020-03-27T10:31"
+status = "200"
+
+[repo.stats]
+commits = 15
+tag_count = 0
+watching = 3
+stars = 1
+branches = 78
+forks = 3
 
 [[repo]]
 url = "https://github.com/ethfinex/efx-trustless-vol"
+last_commit = "5a27906b71617fdb236a2b8f300e4a9e7d417e40"
+last_commit_time = "2019-04-12T10:30"
+status = "200"
+
+[repo.stats]
+stars = 8
+tag_count = 0
+branches = 50
+commits = 1
+forks = 5
+watching = 5
 
 [[repo]]
 url = "https://github.com/ethfinex/ethfinex-trading-competition"
+last_commit = "54adf861a17333f6bbbe3adfe5a5dc66a7bdf596"
+last_commit_time = "2019-07-10T07:59"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 2
+branches = 11
+stars = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/ethfinex/ethtex-registry"
+last_commit = "e9ceba0596e5ceda9c7493e104bcaafde7ccb8f4"
+last_commit_time = "2019-10-19T10:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+watching = 4
+branches = 44
+commits = 7
+stars = 0
 
 [[repo]]
 url = "https://github.com/ethfinex/nec-dao-scripts"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+commits = 0
+stars = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/ethfinex/nec-engine"
+last_commit = "d7a8220a0fa5dee6830eddd9e4e9c19335bf1803"
+last_commit_time = "2020-07-20T11:38"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 21
+tag_count = 0
+commits = 16
+watching = 3
+forks = 0
 
 [[repo]]
 url = "https://github.com/ethfinex/necDAO-assets"
+last_commit = "a6d3347ca9f058391f7e34c283ce96605591977d"
+last_commit_time = "2019-12-19T12:50"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 5
+tag_count = 0
+commits = 1
+forks = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/ethfinex/nectar"
+last_commit = "93b60add0bc0e9fffb565797399fd15b2768c3cc"
+last_commit_time = "2018-04-13T08:23"
+status = "200"
+
+[repo.stats]
+forks = 6
+branches = 34
+stars = 24
+commits = 1
+watching = 11
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ethfinex/nectar-dao-staking"
+last_commit = "f649b65d969630b78337eea39062fbe972376a34"
+last_commit_time = "2020-12-23T12:39"
+status = "200"
+
+[repo.stats]
+watching = 4
+commits = 4
+forks = 4
+stars = 1
+branches = 178
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ethfinex/starkware-crypto"
+last_commit = "34d10d988a2c4b365b91f27321414a7c9e2b4040"
+last_commit_time = "2022-06-30T10:08"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 8
+branches = 16
+commits = 2
+forks = 3
+tag_count = 0

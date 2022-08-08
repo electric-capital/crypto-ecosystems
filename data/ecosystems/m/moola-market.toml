@@ -1,31 +1,112 @@
-# Ecosystem Level Information
 title = "Moola-market"
-
+toml_path = "data/ecosystems/m/moola-market.toml"
+github_organizations = ["https://github.com/moolamarket"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/moolamarket"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/moolamarket/celo-proposals"
+last_commit = "f087874a006f3abc167525692d9b9abc77c5f57c"
+last_commit_time = "2020-12-02T23:31"
+status = "200"
+
+[repo.stats]
+commits = 45
+stars = 0
+branches = 71
+watching = 1
+tag_count = 0
+forks = 29
 
 [[repo]]
 url = "https://github.com/moolamarket/default-token-list"
+last_commit = "dbd61d536a7a89054e256bd13fcea7e388818547"
+last_commit_time = "2021-07-15T18:21"
+status = "200"
+
+[repo.stats]
+branches = 94
+watching = 1
+commits = 2
+stars = 0
+tag_count = 0
+forks = 43
 
 [[repo]]
 url = "https://github.com/moolamarket/liquidation-bot"
+status = "200"
+
+[repo.stats]
+forks = 5
+tag_count = 0
+branches = 3
+watching = 2
+stars = 18
+commits = 1
 
 [[repo]]
 url = "https://github.com/moolamarket/merkle-distributor"
+last_commit = "0893be43555f8c6fc6cb73cca1983b30f119bd54"
+last_commit_time = "2022-01-19T15:14"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 268
+branches = 55
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/moolamarket/moola"
+last_commit = "83fc51e2eaddf27eb7755a9a25422e5992503426"
+last_commit_time = "2021-10-08T11:38"
+status = "200"
+
+[repo.stats]
+branches = 31
+commits = 2
+watching = 4
+stars = 20
+tag_count = 0
+forks = 14
 
 [[repo]]
 url = "https://github.com/moolamarket/moola-governance"
+last_commit = "ef7ef3f9b968f41687d502d24419b71663b244c9"
+last_commit_time = "2022-03-16T15:38"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 4
+stars = 0
+tag_count = 0
+watching = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/moolamarket/moola-utils"
+last_commit = "15aefce2aa267040218559056dfd6c944a7dd829"
+last_commit_time = "2021-03-31T15:48"
+status = "200"
+
+[repo.stats]
+branches = 5
+tag_count = 0
+commits = 1
+stars = 0
+watching = 2
+forks = 1
 
 [[repo]]
 url = "https://github.com/moolamarket/moola-v2"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 8
+commits = 13
+tag_count = 0
+stars = 6
+branches = 0

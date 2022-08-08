@@ -1,13 +1,28 @@
-# Ecosystem Level Information
 title = "Degen’s Farm"
-
+toml_path = "data/ecosystems/d/degen-s-farm.toml"
+github_organizations = ["https://github.com/degensfarm"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/degensfarm"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/degensfarm/frontend"
+status = "404"
+
+[repo.stats]
+stars = 0
+commits = 0
+watching = 0
+branches = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/degensfarm/vault-contracts"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+watching = 0
+forks = 0
+tag_count = 0
+commits = 0

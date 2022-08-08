@@ -1,25 +1,88 @@
-# Ecosystem Level Information
 title = "White Whale"
-
+toml_path = "data/ecosystems/w/white-whale.toml"
+github_organizations = ["https://github.com/White-Whale-Defi-Platform"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/White-Whale-Defi-Platform"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/White-Whale-Defi-Platform/Analysis-Tools"
+last_commit = "a6fc4534e21e6695a9926f54f95ec069ae2ab558"
+last_commit_time = "2022-07-24T02:31"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 7
+forks = 0
+commits = 3
+stars = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/White-Whale-Defi-Platform/contracts"
+last_commit = "c112d283057aff300a41499c687cfa88f5c4f7e3"
+last_commit_time = "2022-06-13T09:14"
+status = "200"
+
+[repo.stats]
+commits = 82
+tag_count = 0
+forks = 13
+watching = 6
+stars = 40
+branches = 865
 
 [[repo]]
 url = "https://github.com/White-Whale-Defi-Platform/cw721-ibc"
+last_commit = "ac79307b4e70f24536ea986953cc54c504bf6f61"
+last_commit_time = "2022-05-27T22:36"
+status = "200"
+
+[repo.stats]
+forks = 5
+watching = 0
+commits = 7
+tag_count = 0
+branches = 85
+stars = 0
 
 [[repo]]
 url = "https://github.com/White-Whale-Defi-Platform/docs"
+last_commit = "df248a2ec934988407227811bbd895cb659cca02"
+last_commit_time = "2022-04-18T19:02"
+status = "200"
+
+[repo.stats]
+commits = 13
+tag_count = 0
+watching = 2
+stars = 1
+branches = 83
+forks = 1
 
 [[repo]]
 url = "https://github.com/White-Whale-Defi-Platform/frontend"
+last_commit = "4704b9b4ea6530fbe0f838e16984a633ac0623c4"
+last_commit_time = "2022-06-07T02:19"
+status = "200"
+
+[repo.stats]
+branches = 416
+stars = 0
+watching = 2
+commits = 64
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/White-Whale-Defi-Platform/whale-flashloan-tools"
+last_commit = "5b2325ac5169a9e26e16906f17f6b3f03a67143e"
+last_commit_time = "2022-03-30T11:35"
+status = "200"
+
+[repo.stats]
+branches = 10
+commits = 1
+tag_count = 0
+forks = 3
+watching = 0
+stars = 3

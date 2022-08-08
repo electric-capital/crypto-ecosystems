@@ -1,49 +1,200 @@
-# Ecosystem Level Information
 title = "Rotki"
-
+toml_path = "data/ecosystems/r/rotki.toml"
+github_organizations = ["https://github.com/rotki"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/rotki"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/rotki/action-gh-release"
+last_commit = "50195ba7f6f93d1ac97ba8332a178e008ad176aa"
+last_commit_time = "2022-05-23T06:37"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 205
+stars = 0
+commits = 18
+branches = 239
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rotki/assets"
+last_commit = "e87138609710046a485ff783a43f84e8c7f3edc1"
+last_commit_time = "2022-07-14T13:26"
+status = "200"
+
+[repo.stats]
+forks = 13
+stars = 5
+commits = 2
+watching = 7
+branches = 226
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rotki/data"
+last_commit = "3cee2cc07f4ea4bf6c66018f114220c07d93724b"
+last_commit_time = "2022-02-16T20:51"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 6
+branches = 13
+forks = 5
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/rotki/dbscript"
+last_commit = "91d39d13f854c142b2f34657cfbceee213ea0c21"
+last_commit_time = "2020-12-16T00:13"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 1
+tag_count = 0
+forks = 1
+watching = 3
+branches = 2
 
 [[repo]]
 url = "https://github.com/rotki/github-release-stats"
+last_commit = "d47ad7473df390687c41e3842bc4a49fac2170cb"
+last_commit_time = "2021-03-10T15:31"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 1
+forks = 79
+commits = 2
+branches = 64
 
 [[repo]]
 url = "https://github.com/rotki/pysqlcipher3"
+last_commit = "402fb7b5ca401652a55f17f59ee4698ba6ad9b53"
+last_commit_time = "2022-06-14T18:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 1
+watching = 2
+commits = 1
+forks = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/rotki/releases"
+last_commit = "941e9b7b65312d2e21a3bf4a32a405a33c75e9a1"
+last_commit_time = "2020-04-11T10:13"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 13
+forks = 39
+watching = 1
+branches = 524
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rotki/rotki"
+last_commit = "d6d10d69005c12be3b71217afbf6f98b6fceb683"
+last_commit_time = "2022-08-04T19:41"
+status = "200"
+
+[repo.stats]
+forks = 326
+branches = 0
+commits = 6
+tag_count = 0
+watching = 37
+stars = 0
 
 [[repo]]
 url = "https://github.com/rotki/rotki-build"
+last_commit = "557bf880ff4afdd61dbfefe32f9d7bee0d6dfeef"
+last_commit_time = "2022-06-22T12:59"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 3
+watching = 2
+tag_count = 0
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/rotki/rotki-win-build"
+last_commit = "557bf880ff4afdd61dbfefe32f9d7bee0d6dfeef"
+last_commit_time = "2022-06-22T12:59"
+status = "200"
+
+[repo.stats]
+forks = 1
+commits = 1
+tag_count = 0
+watching = 2
+stars = 1
+branches = 3
 
 [[repo]]
 url = "https://github.com/rotki/rotki.com"
+last_commit = "3f8c94b0d0e9d27862f9ead709969d93fea26283"
+last_commit_time = "2022-08-01T11:52"
+status = "200"
+
+[repo.stats]
+branches = 195
+watching = 2
+tag_count = 0
+forks = 4
+stars = 1
+commits = 2
 
 [[repo]]
 url = "https://github.com/rotki/rotkicom.github.io"
+last_commit = "1b6b81cbc63eca44b38a692e77ab599206fe0ba3"
+last_commit_time = "2021-02-08T21:39"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 2
+forks = 4
+tag_count = 0
+branches = 30
+stars = 1
 
 [[repo]]
 url = "https://github.com/rotki/sphinxcontrib-httpexample"
+last_commit = "7bdb56b59b6770b649d6350697d33ed7c0148d24"
+last_commit_time = "2021-08-29T21:52"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+commits = 2
+tag_count = 0
+forks = 19
+branches = 250
 
 [[repo]]
 url = "https://github.com/rotki/zerorpc-node-rotkehlchen"
+last_commit = "dcd04243b366ccec0790dd67b1450f367788bca4"
+last_commit_time = "2018-12-15T14:30"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 1
+watching = 2
+forks = 172
+branches = 145

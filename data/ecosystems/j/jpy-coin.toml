@@ -1,10 +1,16 @@
-# Ecosystem Level Information
 title = "JPY Coin"
-
+toml_path = "data/ecosystems/j/jpy-coin.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/jpycoin/jpyc"
+status = "200"
+
+[repo.stats]
+commits = 11
+watching = 3
+forks = 7
+branches = 206
+stars = 28
+tag_count = 0

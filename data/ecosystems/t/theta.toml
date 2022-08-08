@@ -1,131 +1,573 @@
-# Ecosystem Level Information
 title = "THETA"
-
+toml_path = "data/ecosystems/t/theta.toml"
+github_organizations = ["https://github.com/thetatoken"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/thetatoken"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/thetatoken/app-ethereum"
+last_commit = "0d1d50857da7af371dd15e747b00013e91ceac64"
+last_commit_time = "2021-08-06T13:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+branches = 544
+forks = 163
+stars = 1
+commits = 66
 
 [[repo]]
 url = "https://github.com/thetatoken/chains"
+last_commit = "58562508cb9da58362849d47930aaed76d944057"
+last_commit_time = "2021-07-28T18:33"
+status = "200"
+
+[repo.stats]
+commits = 10
+tag_count = 0
+branches = 381
+forks = 0
+stars = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/thetatoken/guardian-mainnet-guide"
+last_commit = "bd1ef821c4dcbd66eadb79113a0864606d340f46"
+last_commit_time = "2021-03-21T23:03"
+status = "200"
+
+[repo.stats]
+branches = 41
+watching = 32
+tag_count = 0
+stars = 147
+forks = 35
+commits = 1
 
 [[repo]]
 url = "https://github.com/thetatoken/guardian-testnet-guide"
+last_commit = "f08fd67dea42eecfc424ae6eddbedafcba2a43c1"
+last_commit_time = "2020-07-08T19:35"
+status = "200"
+
+[repo.stats]
+watching = 12
+commits = 1
+forks = 11
+stars = 15
+branches = 130
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/thetatoken/sliver-integration-transaction-service"
+last_commit = "df4a384cfd6a88f971a41d1aa335814ee45d910f"
+last_commit_time = "2019-02-01T00:44"
+status = "200"
+
+[repo.stats]
+stars = 16
+watching = 10
+tag_count = 0
+branches = 27
+commits = 1
+forks = 4
 
 [[repo]]
 url = "https://github.com/thetatoken/sliver-integration-transaction-signer"
+last_commit = "ca2a85d52086e07cb7e99032fdede602a7b4703a"
+last_commit_time = "2018-01-12T21:54"
+status = "200"
+
+[repo.stats]
+forks = 3
+branches = 8
+stars = 13
+commits = 1
+tag_count = 0
+watching = 6
 
 [[repo]]
 url = "https://github.com/thetatoken/sliver-integration-web-client"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+branches = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/thetatoken/sushiswap"
+last_commit = "06ac811aa91c2592a3c7f0448aa3fd2f43ba2cba"
+last_commit_time = "2021-08-02T18:52"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+commits = 12
+stars = 1
+branches = 294
+watching = 1
 
 [[repo]]
 url = "https://github.com/thetatoken/tdrop-governance"
+last_commit = "efde603f085a8a96da88f3a4e0f05c25269a8f78"
+last_commit_time = "2022-01-18T18:24"
+status = "200"
+
+[repo.stats]
+branches = 46
+forks = 4
+stars = 7
+tag_count = 0
+commits = 6
+watching = 5
 
 [[repo]]
 url = "https://github.com/thetatoken/tdrop-marketplace"
+last_commit = "785411b16b6dec57c1795545ae8c63234ea32f61"
+last_commit_time = "2022-01-17T04:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 55
+commits = 6
+stars = 11
+forks = 7
+watching = 4
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-drop-connect-example"
+last_commit = "b39a11bf264c74431b29e12784b7857405defa07"
+last_commit_time = "2022-02-18T17:58"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 2
+tag_count = 0
+commits = 1
+branches = 4
+forks = 3
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-edge-store-demos"
+last_commit = "dbd33bb8aa6c20ed31f48243af8b2ce10eb85ad2"
+last_commit_time = "2022-02-19T09:25"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 5
+forks = 3
+branches = 23
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-erc20-token-sale"
+last_commit = "262e8146ddfee8810a14284f3e5afb4484318cbd"
+last_commit_time = "2018-02-01T00:41"
+status = "200"
+
+[repo.stats]
+watching = 14
+forks = 16
+tag_count = 0
+stars = 29
+branches = 36
+commits = 1
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-eth-rpc-adaptor"
+last_commit = "0e88409cffca015f37c6f37d59667759c9dff7d8"
+last_commit_time = "2022-07-25T22:18"
+status = "200"
+
+[repo.stats]
+commits = 26
+forks = 8
+branches = 188
+watching = 10
+tag_count = 0
+stars = 22
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-etl"
+last_commit = "4f30f74e9a8f11670157365653b97dcbe36cc356"
+last_commit_time = "2020-09-26T06:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 2
+watching = 6
+branches = 21
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-hardhat-demo"
+last_commit = "4b90c1ac28809492a7d2c796ff21b236de3f4411"
+last_commit_time = "2021-08-07T10:14"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 3
+commits = 1
+branches = 10
+forks = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-infrastructure-ledger-explorer"
+last_commit = "1cab052453806a0cbe21277bc10c3d9a1e3b35ce"
+last_commit_time = "2022-08-02T21:20"
+status = "200"
+
+[repo.stats]
+watching = 25
+tag_count = 0
+stars = 56
+forks = 24
+branches = 0
+commits = 16
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-infrastructure-vault"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 0
+commits = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-launcher"
+last_commit = "da5c24ad2ac3313ab277e099c16075450763cf57"
+last_commit_time = "2020-03-27T01:49"
+status = "200"
+
+[repo.stats]
+forks = 6
+commits = 1
+branches = 7
+stars = 4
+tag_count = 0
+watching = 9
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-mainnet-integration-guide"
+last_commit = "8b076b6fe110b97cbb18b10256fc8fb8f52d42e6"
+last_commit_time = "2022-01-07T20:28"
+status = "200"
+
+[repo.stats]
+watching = 19
+commits = 24
+stars = 43
+forks = 16
+branches = 130
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-metamask-demo"
+last_commit = "707648a0950797c2bac9ca439acf299b89defd82"
+last_commit_time = "2021-11-28T01:31"
+status = "200"
+
+[repo.stats]
+forks = 5
+watching = 2
+stars = 3
+commits = 1
+branches = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-nft-demo"
+last_commit = "93e9085f1dcb4d2ea3e7cb6e811154e7fa61b3e4"
+last_commit_time = "2021-04-08T23:18"
+status = "200"
+
+[repo.stats]
+forks = 14
+tag_count = 0
+branches = 3
+commits = 1
+watching = 9
+stars = 9
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-openzeppelin-demo"
+last_commit = "64b2a29279db70b16d4cda434b0841f9ff73e9e7"
+last_commit_time = "2021-08-09T20:07"
+status = "200"
+
+[repo.stats]
+watching = 6
+commits = 1
+stars = 1
+tag_count = 0
+forks = 1
+branches = 5
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-pass-example"
+last_commit = "c836bb3ed98bf63148ea60539e7a6ef2afc25601"
+last_commit_time = "2022-07-06T04:03"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 4
+commits = 1
+tag_count = 0
+stars = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-protocol-delivery-android-sdk-lib"
+last_commit = "7dd661de385faf9e1cb01d530e425600a2e08932"
+last_commit_time = "2019-06-25T21:32"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 12
+watching = 7
+forks = 5
+branches = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-protocol-delivery-lib"
+last_commit = "02c1f65ce152bc6e8bb6dc383700774067d8a3c3"
+last_commit_time = "2020-09-27T03:29"
+status = "200"
+
+[repo.stats]
+branches = 47
+forks = 10
+commits = 2
+stars = 42
+watching = 20
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-protocol-ledger"
 tags = ["Protocol"]
+status = "200"
+
+[repo.stats]
+stars = 338
+tag_count = 0
+branches = 0
+commits = 84
+watching = 54
+forks = 78
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-rosetta-rpc-adaptor"
+last_commit = "5ac88ca3f0c71aa1cf15d41f0d17aba0a760c054"
+last_commit_time = "2022-08-01T18:14"
+status = "200"
+
+[repo.stats]
+watching = 7
+stars = 13
+forks = 2
+tag_count = 0
+commits = 1
+branches = 106
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-tool-ethereum-erc20-snapshot"
+last_commit = "2fdb4c1b756d3a6e615aa9e11160c2b0e47203c8"
+last_commit_time = "2019-02-01T19:26"
+status = "200"
+
+[repo.stats]
+branches = 18
+stars = 32
+tag_count = 0
+commits = 1
+watching = 10
+forks = 17
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-wallet-web"
+last_commit = "1658ac9d06b5a631897a0b5abcbfdee43ce20a78"
+last_commit_time = "2022-04-06T14:58"
+status = "200"
+
+[repo.stats]
+forks = 18
+stars = 43
+tag_count = 0
+watching = 16
+branches = 270
+commits = 35
 
 [[repo]]
 url = "https://github.com/thetatoken/theta-web3-examples"
+last_commit = "cc4767963695688b20f88b353d9bc621289328f0"
+last_commit_time = "2022-05-05T21:56"
+status = "200"
+
+[repo.stats]
+forks = 7
+commits = 1
+watching = 3
+stars = 6
+tag_count = 0
+branches = 12
 
 [[repo]]
 url = "https://github.com/thetatoken/tnt-20-token-example"
+last_commit = "2347a332523ad24852bf944cd039b702f19668ea"
+last_commit_time = "2020-12-26T00:06"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+stars = 9
+forks = 9
+commits = 1
+branches = 2
 
 [[repo]]
 url = "https://github.com/thetatoken/tnt20-token-example"
+last_commit = "575f59bde0c230ff38932c486d72b449578cfb7a"
+last_commit_time = "2022-07-07T04:09"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 8
+forks = 0
+stars = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/thetatoken/tokens-list"
+last_commit = "8d57f034c4f87551fba50a3f756bc04f14dbc498"
+last_commit_time = "2021-02-16T01:33"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 3
+watching = 3
+commits = 1
+stars = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/thetatoken/uniswap-v2-core"
+last_commit = "dd8ab29bfaf116996e6456e77727c3ad428f9bfc"
+last_commit_time = "2021-08-03T18:04"
+status = "200"
+
+[repo.stats]
+commits = 5
+forks = 0
+branches = 251
+stars = 0
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/thetatoken/uniswap-v2-periphery"
+last_commit = "2e9f64d0b74362779585a6da70dd5f2b586540e1"
+last_commit_time = "2021-08-03T18:21"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 0
+branches = 92
+commits = 8
+tag_count = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/thetatoken/uniswap-v3-core"
+last_commit = "b2c5555d696428c40c4b236069b3528b2317f3c1"
+last_commit_time = "2021-06-10T18:52"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 0
+commits = 1
+branches = 994
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/thetatoken/uniswap-v3-periphery"
+last_commit = "1f5b385675eee30a77ee10f4dfd6aa0aaa766026"
+last_commit_time = "2021-07-19T14:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 317
+stars = 0
+commits = 9
+forks = 573
+watching = 2
 
 [[repo]]
 url = "https://github.com/thetatoken/useDApp"
+last_commit = "ccbf3bbc19a8eaabde7b88c679aa5dc4ecae15e2"
+last_commit_time = "2021-10-04T09:08"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 296
+tag_count = 0
+commits = 12
+stars = 3
+branches = 232
 
 [[repo]]
 url = "https://github.com/thetatoken/videojs-theta-plugin-example"
+last_commit = "16631a87c4aaf1d9f97ca2974fe78e2fe1752d87"
+last_commit_time = "2020-06-30T21:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 5
+forks = 5
+watching = 5
+stars = 12
+commits = 1
 
 [[repo]]
 url = "https://github.com/thetatoken/wyvern-v3"
+last_commit = "1d89d6a91faddf3c3494e6ebdcb07b46fe111fb4"
+last_commit_time = "2021-05-10T08:30"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+branches = 183
+commits = 3
+forks = 117
+stars = 0

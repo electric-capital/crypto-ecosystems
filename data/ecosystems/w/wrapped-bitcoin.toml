@@ -1,16 +1,42 @@
-# Ecosystem Level Information
 title = "Wrapped Bitcoin"
-
+toml_path = "data/ecosystems/w/wrapped-bitcoin.toml"
+github_organizations = ["https://github.com/WrappedBTC"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/WrappedBTC"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/WrappedBTC/bitcoin-token-smart-contracts"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 74
+commits = 21
+watching = 12
+stars = 100
+branches = 96
 
 [[repo]]
 url = "https://github.com/WrappedBTC/DAO"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 15
+stars = 18
+tag_count = 0
+watching = 5
+branches = 54
 
 [[repo]]
 url = "https://github.com/WrappedBTC/website"
+last_commit = "b68d067069a2add6ea4dba30d8c58c07cd842595"
+last_commit_time = "2018-11-02T00:56"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+watching = 4
+branches = 32
+forks = 6
+commits = 1

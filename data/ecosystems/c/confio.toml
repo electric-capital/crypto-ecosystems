@@ -1,169 +1,752 @@
-# Ecosystem Level Information
 title = "confio"
-
+toml_path = "data/ecosystems/c/confio.toml"
+github_organizations = ["https://github.com/confio"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/confio"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/confio/amino-test-suite"
+last_commit = "bd70295aab58c01fb7123185d92ca0f4b8ef187a"
+last_commit_time = "2019-01-19T20:48"
+status = "200"
+
+[repo.stats]
+branches = 18
+watching = 1
+tag_count = 0
+commits = 1
+stars = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/confio/assetlists"
+last_commit = "6f7fe8c0a1e228707c09d137059427af40333c62"
+last_commit_time = "2022-07-12T17:18"
+status = "200"
+
+[repo.stats]
+branches = 215
+stars = 0
+watching = 0
+forks = 77
+commits = 42
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/confio/burner-chains"
+last_commit = "a0e392e94ea5f6aad257d16ce7d96fc58981450c"
+last_commit_time = "2019-12-03T12:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 46
+stars = 0
+watching = 1
+commits = 2
+forks = 5
 
 [[repo]]
 url = "https://github.com/confio/chain-registry"
+last_commit = "e911a7aebb3ca193308e85be1064c470315bf4df"
+last_commit_time = "2022-08-04T09:19"
+status = "200"
+
+[repo.stats]
+forks = 253
+tag_count = 0
+watching = 0
+commits = 48
+stars = 0
+branches = 623
 
 [[repo]]
 url = "https://github.com/confio/chat.tgrade.finance"
+last_commit = "5a514c6a4620ad46b7c2d3e0d789d970d0508527"
+last_commit_time = "2021-10-07T09:54"
+status = "200"
+
+[repo.stats]
+branches = 5
+tag_count = 0
+commits = 1
+watching = 2
+forks = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/confio/cosmjs-types"
+last_commit = "3688e7ca8b40968e5ea42cbff4aa207029271389"
+last_commit_time = "2022-04-20T09:52"
+status = "200"
+
+[repo.stats]
+forks = 16
+watching = 2
+stars = 12
+tag_count = 0
+branches = 96
+commits = 2
 
 [[repo]]
 url = "https://github.com/confio/cosmos-hd-key-derivation-spec"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 6
+tag_count = 0
+branches = 45
+watching = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/confio/credible-chain"
+last_commit = "2318c43d2ad80a5ba643b9e9f1ea02b7843f1b8e"
+last_commit_time = "2019-03-05T15:21"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 1
+watching = 1
+stars = 1
+branches = 52
 
 [[repo]]
 url = "https://github.com/confio/crev-proofs"
+last_commit = "b82d8bb22935437787c715c6452b21865b27a3bd"
+last_commit_time = "2019-08-24T07:03"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 1
+forks = 0
+tag_count = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/confio/decode_raw"
+last_commit = "e86b1978e568da948868ad300fe5c73629eaf059"
+last_commit_time = "2022-02-16T14:26"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 3
+watching = 1
+branches = 30
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/confio/eth-atomic-swap"
+last_commit = "ec0abf560ac45189c380feae137f90b1f040db64"
+last_commit_time = "2019-03-12T17:14"
+status = "200"
+
+[repo.stats]
+stars = 15
+tag_count = 0
+commits = 4
+forks = 51
+branches = 90
+watching = 1
 
 [[repo]]
 url = "https://github.com/confio/go-ext-wasm"
+last_commit = "e14666d7e46bcc7707094d9e44b4805f4295a8c4"
+last_commit_time = "2019-08-29T15:12"
+status = "200"
+
+[repo.stats]
+commits = 6
+forks = 139
+watching = 1
+stars = 0
+branches = 214
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/confio/go-rust-demo"
+last_commit = "00ff24ed53d60d900c56b3d4c6892733391d07ce"
+last_commit_time = "2019-10-18T17:13"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 1
+stars = 2
+watching = 1
+tag_count = 0
+branches = 30
 
 [[repo]]
 url = "https://github.com/confio/go-wasm"
+last_commit = "b224daa71c94e69ecb8615ba580207931277b9f9"
+last_commit_time = "2019-06-15T15:29"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 0
+stars = 0
+branches = 33
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/confio/iavl"
+last_commit = "a08e52c4952c28a0c8626af070a708e27e25d142"
+last_commit_time = "2020-01-21T20:25"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+forks = 148
+branches = 824
+stars = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/confio/ibc"
+last_commit = "2a81e3f8909d6647cf244451c146bee8f07d6b49"
+last_commit_time = "2021-06-03T11:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+commits = 6
+branches = 24
+stars = 1
+forks = 210
 
 [[repo]]
 url = "https://github.com/confio/ibc-go"
+last_commit = "4db5fd11cc83c0324261e4e7a6ba63dab4261ea7"
+last_commit_time = "2021-05-31T15:28"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 6
+forks = 167
+tag_count = 0
+branches = 80
+stars = 0
 
 [[repo]]
 url = "https://github.com/confio/ibc-tests-ics20"
+last_commit = "d870c7e1de2b048a916b307fb18037f8da9b27a3"
+last_commit_time = "2022-07-22T09:38"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+branches = 13
+stars = 4
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/confio/ics23"
+last_commit = "978822780e9abced408c23f1452f909fbbdb64ea"
+last_commit_time = "2022-06-20T12:03"
+status = "200"
+
+[repo.stats]
+commits = 6
+tag_count = 0
+branches = 332
+forks = 28
+stars = 44
+watching = 6
 
 [[repo]]
 url = "https://github.com/confio/ics23-iavl"
+last_commit = "fcbf9943065b7f3413952f12d9dd2db7ea662718"
+last_commit_time = "2020-03-23T19:33"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 44
+commits = 1
+forks = 3
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/confio/ics23-tendermint"
+last_commit = "9de076a6cfc7a183f5760e9ae0ae8ce49162742b"
+last_commit_time = "2020-06-10T07:23"
+status = "200"
+
+[repo.stats]
+branches = 45
+commits = 1
+watching = 1
+tag_count = 0
+stars = 2
+forks = 2
 
 [[repo]]
 url = "https://github.com/confio/iov-connect"
+last_commit = "c4d571ed5e6ee2a61c02603804cc02dbe748730d"
+last_commit_time = "2019-07-05T08:31"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 6
+forks = 0
+watching = 1
+branches = 12
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/confio/job-opening"
+last_commit = "dfcebe3576c7c86bf9d6367ade4ec763b26d9a41"
+last_commit_time = "2021-03-26T06:14"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 12
+commits = 1
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/confio/js-tendermint"
+last_commit = "90d63bf34a7a45e694da85f181fe7d153bbcfed0"
+last_commit_time = "2018-03-06T16:42"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 50
+forks = 30
+watching = 1
+commits = 3
 
 [[repo]]
 url = "https://github.com/confio/marketing"
+last_commit = "aa334a4d862ff0f8997d065be54ce063fa4815d7"
+last_commit_time = "2022-04-25T09:42"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+forks = 2
+watching = 5
+tag_count = 0
+branches = 18
 
 [[repo]]
 url = "https://github.com/confio/mask"
+last_commit = "1faccad0a2f2410f1234286b0189ec678143ab3b"
+last_commit_time = "2020-02-27T13:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 4
+commits = 1
+forks = 0
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/confio/matadores-backlog-collection"
+status = "404"
+
+[repo.stats]
+watching = 0
+forks = 0
+tag_count = 0
+commits = 0
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/confio/nym"
+last_commit = "495ca35c1f46e7244d89fdf73402021d70df625d"
+last_commit_time = "2020-10-22T14:50"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 15
+tag_count = 0
+watching = 1
+forks = 102
+stars = 0
 
 [[repo]]
 url = "https://github.com/confio/osmosis"
+last_commit = "e9c9df488e3a48c826c8e7e1a834bb418bd75aec"
+last_commit_time = "2022-05-16T05:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 112
+stars = 0
+branches = 903
+forks = 224
+watching = 0
 
 [[repo]]
 url = "https://github.com/confio/osmosis-bindings"
+last_commit = "d6f4359532bd491ed8eb2bbee13d60c90d44fe65"
+last_commit_time = "2022-06-01T23:18"
+status = "200"
+
+[repo.stats]
+watching = 7
+branches = 142
+stars = 10
+tag_count = 0
+commits = 13
+forks = 6
 
 [[repo]]
 url = "https://github.com/confio/osmosis-frontend"
+last_commit = "2dd9bec3f5323d2734ad01a230bbd47d3a055ecc"
+last_commit_time = "2022-07-11T22:02"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 45
+forks = 144
+watching = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/confio/pbstream"
+last_commit = "b40b8ca4e586ae187616b39d137a8e9660b94d49"
+last_commit_time = "2018-02-16T18:12"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+commits = 2
+forks = 0
+watching = 5
+branches = 16
 
 [[repo]]
 url = "https://github.com/confio/poe-contracts"
+last_commit = "e62b56ecae82df8eede68017fc4143184bef240f"
+last_commit_time = "2022-08-04T09:06"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 3
+branches = 562
+commits = 22
+tag_count = 0
+stars = 17
 
 [[repo]]
 url = "https://github.com/confio/ProofOfEngagement"
+last_commit = "0817e348c4bc1ae163e603a901412b6edc24c84e"
+last_commit_time = "2020-09-30T18:13"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 9
+commits = 1
+tag_count = 0
+watching = 1
+branches = 36
 
 [[repo]]
 url = "https://github.com/confio/proofs-ethereum"
+last_commit = "9989dbfe0af2bb86361028c3cbce9afa92e012e9"
+last_commit_time = "2019-08-06T09:33"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 2
+forks = 0
+branches = 30
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/confio/proofs-merk"
+last_commit = "c176b1c3d4261a4af33ed5512aae48630beb0f5a"
+last_commit_time = "2019-04-28T13:24"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 1
+forks = 0
+stars = 0
+tag_count = 0
+branches = 10
 
 [[repo]]
 url = "https://github.com/confio/public-testnets"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 10
+forks = 83
+tag_count = 0
+stars = 8
+branches = 456
 
 [[repo]]
 url = "https://github.com/confio/rand"
+last_commit = "99130fb9d4b7570f075158e6bcce9a321805f30c"
+last_commit_time = "2022-03-17T22:20"
+status = "200"
+
+[repo.stats]
+forks = 8
+branches = 47
+stars = 22
+tag_count = 0
+commits = 2
+watching = 3
 
 [[repo]]
 url = "https://github.com/confio/relayer-ci-images"
+last_commit = "b23a000dd8de304641e2fd06f58a0ffbd12101a0"
+last_commit_time = "2022-07-20T19:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 4
+stars = 2
+commits = 1
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/confio/rust-decimal"
+last_commit = "9e55f7e33531cdc6ce79de672044f1f641177fc4"
+last_commit_time = "2021-09-14T22:04"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 839
+tag_count = 0
+forks = 120
+commits = 2
+watching = 0
 
 [[repo]]
 url = "https://github.com/confio/tfi"
+last_commit = "e41b178f7f4743b3fba7f2e45a74b06a5f8ed027"
+last_commit_time = "2022-07-29T11:18"
+status = "200"
+
+[repo.stats]
+commits = 29
+stars = 7
+watching = 4
+branches = 251
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/confio/tgrade"
+last_commit = "7916c09bb9b338c8d0fd65faae1818a0c91712ca"
+last_commit_time = "2022-08-02T13:55"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 3
+branches = 383
+tag_count = 0
+stars = 23
+commits = 32
 
 [[repo]]
 url = "https://github.com/confio/tgrade-docs"
+last_commit = "c91429ffa3b94bfd7ff0cf36b5c4f6d5275c5829"
+last_commit_time = "2021-09-10T06:32"
+status = "200"
+
+[repo.stats]
+commits = 4
+forks = 2
+tag_count = 0
+branches = 35
+watching = 4
+stars = 2
 
 [[repo]]
 url = "https://github.com/confio/tgrade-multisig"
+last_commit = "d92e9a3acfefde9176cf4d8d57e13ce5e15ae716"
+last_commit_time = "2022-06-09T22:48"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 33
+watching = 0
+tag_count = 0
+commits = 11
+branches = 169
 
 [[repo]]
 url = "https://github.com/confio/tgrade-networks"
+last_commit = "67b4fbd65cb8b0a5abc5474721cbb26dbc052e84"
+last_commit_time = "2022-08-04T07:55"
+status = "200"
+
+[repo.stats]
+stars = 8
+commits = 10
+branches = 456
+tag_count = 0
+forks = 83
+watching = 2
 
 [[repo]]
 url = "https://github.com/confio/tinygo"
+last_commit = "7df1a1902a197568b6a50f5cc2a6891c2b6df9f1"
+last_commit_time = "2021-12-22T19:57"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 0
+commits = 45
+stars = 0
+forks = 612
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/confio/token-finder"
+last_commit = "a9a04f2879077aabb53f34a24678c65e0a606a9d"
+last_commit_time = "2020-06-05T12:19"
+status = "200"
+
+[repo.stats]
+forks = 5
+tag_count = 0
+watching = 1
+branches = 147
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/confio/ts-relayer"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 36
+branches = 956
+stars = 61
+commits = 5
+watching = 4
 
 [[repo]]
 url = "https://github.com/confio/wasm-bindings"
+last_commit = "c892a203ef6a9bc416bbb57d128b3133bc8c9b34"
+last_commit_time = "2019-09-27T16:05"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+commits = 1
+stars = 5
+branches = 29
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/confio/wasm-opt"
+last_commit = "634871023a27370fc00940bb76c847527fd6dc36"
+last_commit_time = "2018-09-03T14:06"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+forks = 2
+branches = 16
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/confio/wasmer"
+last_commit = "7bb570a7f93eab4e5e0894c713d859ef4129a019"
+last_commit_time = "2019-11-22T03:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 55
+stars = 0
+watching = 1
+forks = 554
+branches = 0
 
 [[repo]]
 url = "https://github.com/confio/weave-js"
+last_commit = "315882b588ec55c12c2189fd3ec2292dd081e427"
+last_commit_time = "2018-07-06T07:39"
+status = "200"
+
+[repo.stats]
+watching = 7
+branches = 105
+tag_count = 0
+forks = 3
+stars = 3
+commits = 5
 
 [[repo]]
 url = "https://github.com/confio/weave-ops"
+last_commit = "fbcaf831cc28f3eb4b700e3eb8f6e89632dd1ad6"
+last_commit_time = "2018-04-03T17:59"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 5
+tag_count = 0
+watching = 1
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/confio/wevops"
+last_commit = "de86b22e7458d9b523078d7e4f81ee116ab18b7a"
+last_commit_time = "2019-03-19T21:23"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+branches = 5
+tag_count = 0
+commits = 1
+forks = 0

@@ -1,22 +1,72 @@
-# Ecosystem Level Information
 title = "BetterBetting"
-
+toml_path = "data/ecosystems/b/betterbetting.toml"
+github_organizations = ["https://github.com/BetterBetting"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/BetterBetting"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/BetterBetting/Contracts"
+last_commit = "11a8cbf08b949ede23dff86e82669f66e2809def"
+last_commit_time = "2018-02-14T14:41"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 1
+branches = 4
+forks = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/BetterBetting/etherwallet"
+last_commit = "18c0d1e3524e8466466a7a616dd02ea299282829"
+last_commit_time = "2018-07-05T16:58"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 16
+stars = 0
+watching = 5
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/BetterBetting/Funtoken"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 0
+stars = 0
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/BetterBetting/ScatterApps"
+last_commit = "2f36d9f33aef025031584d4b18ac397c47e36439"
+last_commit_time = "2019-05-30T16:32"
+status = "200"
+
+[repo.stats]
+branches = 568
+commits = 2
+stars = 0
+tag_count = 0
+forks = 223
+watching = 1
 
 [[repo]]
 url = "https://github.com/BetterBetting/ScatterDesktop"
+last_commit = "318ebfef6e383c6d2ca9d5016199b2b12a82c1a4"
+last_commit_time = "2019-04-23T16:49"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+forks = 209
+stars = 0
+commits = 6
+branches = 544

@@ -1,130 +1,578 @@
-# Ecosystem Level Information
 title = "Remme"
-
+toml_path = "data/ecosystems/r/remme.toml"
+github_organizations = ["https://github.com/Remmeauth"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Remmeauth"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Remmeauth/airdrop"
+last_commit = "39f4d82bfe5fdf1afa0a92d0d82dc5360cc84659"
+last_commit_time = "2018-01-13T20:17"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 27
+tag_count = 0
+watching = 2
+stars = 4
+forks = 2
 
 [[repo]]
 url = "https://github.com/Remmeauth/atomic-swap-eth-contract"
+last_commit = "f3fd23ba77fc64028a5f34cc8adcdfae1a7730ce"
+last_commit_time = "2018-08-02T07:20"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 3
+forks = 1
+stars = 0
+branches = 22
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/block-producer-calculator-back"
+last_commit = "4e18437217044434a57c37eb2f90bded9c76a691"
+last_commit_time = "2019-12-11T16:07"
+status = "200"
+
+[repo.stats]
+branches = 40
+watching = 4
+tag_count = 0
+commits = 4
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/block-producer-calculator-front"
+last_commit = "5bb4f33d5756a96814b8bad5d6dab997e5ffa664"
+last_commit_time = "2019-12-11T16:33"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+watching = 4
+forks = 0
+stars = 0
+branches = 51
 
 [[repo]]
 url = "https://github.com/Remmeauth/block-producers-directory-back"
+last_commit = "81034cc8f92989dbf2e0df79befdd8d83442dd3a"
+last_commit_time = "2019-11-12T10:32"
+status = "200"
+
+[repo.stats]
+commits = 14
+forks = 0
+watching = 2
+tag_count = 0
+branches = 432
+stars = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/block-producers-directory-front"
+last_commit = "7afaa306d13629becbb471f5f65299fec189abc5"
+last_commit_time = "2019-11-12T09:46"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 308
+forks = 0
+tag_count = 0
+commits = 5
+watching = 3
 
 [[repo]]
 url = "https://github.com/Remmeauth/block-producers-directory-telegram-bot"
+last_commit = "0f1709e76fc72c4a51b590272db8e578dcb92832"
+last_commit_time = "2019-08-29T13:23"
+status = "200"
+
+[repo.stats]
+commits = 4
+tag_count = 0
+watching = 3
+stars = 0
+forks = 0
+branches = 5
 
 [[repo]]
 url = "https://github.com/Remmeauth/Documentation"
+last_commit = "71072c42af757379c8a873c0735a77bfaae2547e"
+last_commit_time = "2020-05-14T14:51"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 15
+forks = 2
+commits = 1
+stars = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/eosio.cdt"
+last_commit = "0255f849415d307da0ca47f291d50504d6426e61"
+last_commit_time = "2019-07-11T17:58"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 313
+watching = 2
+branches = 837
+tag_count = 0
+commits = 44
 
 [[repo]]
 url = "https://github.com/Remmeauth/eospy"
+last_commit = "bf3e7d2556a71a10ad3654ed5c2e2685dd532441"
+last_commit_time = "2019-07-09T00:18"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 2
+watching = 1
+forks = 64
+branches = 122
 
 [[repo]]
 url = "https://github.com/Remmeauth/eosweb"
+last_commit = "f4aeef9bb86e579f148a4109bb952b5bbc4d9a87"
+last_commit_time = "2019-07-01T13:54"
+status = "200"
+
+[repo.stats]
+branches = 291
+tag_count = 0
+forks = 41
+commits = 3
+stars = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/Remmeauth/FirstStage_CertificateGenerator"
+last_commit = "9ef6561935cce81b78a87554743d7dd490d0ea0d"
+last_commit_time = "2017-11-08T16:19"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+commits = 1
+stars = 2
+watching = 3
+branches = 2
 
 [[repo]]
 url = "https://github.com/Remmeauth/FirstStage_DjangoMiddleware"
+last_commit = "a3cc976b10156a0159d3ff1a19e94dd6e65308e0"
+last_commit_time = "2018-08-05T12:00"
+status = "200"
+
+[repo.stats]
+watching = 3
+commits = 1
+stars = 3
+branches = 3
+tag_count = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/Remmeauth/gimmeremmetokensbot"
+last_commit = "d62b5c941ec6ff9a387482fa19881f995746ea40"
+last_commit_time = "2019-07-31T15:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 49
+forks = 1
+stars = 3
+watching = 5
+commits = 21
 
 [[repo]]
 url = "https://github.com/Remmeauth/gitcoin-remme-contest"
+last_commit = "ec3f79ec45e52eb12b96e668c69e6b59ab070db0"
+last_commit_time = "2019-01-24T22:01"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+watching = 2
+stars = 0
+branches = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/homebrew-eosio.cdt"
+last_commit = "6085662440ead26d7fcfcbd1f9fddca67d332545"
+last_commit_time = "2020-01-13T13:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 5
+branches = 16
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/Remmeauth/homebrew-remprotocol"
+last_commit = "86d932225bb31b1a1a8a074fe767845f1531c930"
+last_commit_time = "2020-04-30T11:14"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 0
+branches = 58
+commits = 1
+forks = 19
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/Hyperion-History-API"
+last_commit = "3127d9ca8c9c6ce9dd701d109ca1d01a721207b8"
+last_commit_time = "2019-11-19T12:44"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 2
+forks = 68
+tag_count = 0
+watching = 2
+branches = 219
 
 [[repo]]
 url = "https://github.com/Remmeauth/MultiSigWallet"
+last_commit = "c5ae2623414c9907b0d7cbd23246ccf62c836616"
+last_commit_time = "2020-02-11T17:02"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 733
+commits = 2
+branches = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/node-oidc-provider"
+last_commit = "4ecc769fdb2be7a6b11483b6e7d1774e2896631a"
+last_commit_time = "2020-09-24T17:40"
+status = "200"
+
+[repo.stats]
+commits = 3
+branches = 0
+tag_count = 0
+stars = 0
+forks = 626
+watching = 2
 
 [[repo]]
 url = "https://github.com/Remmeauth/protocol-monitoring"
+last_commit = "d3a421261ad3e214b3de9bd0d75a41a062534871"
+last_commit_time = "2019-07-18T10:09"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 2
+forks = 0
+watching = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/Remmeauth/rem-backing-contract"
+last_commit = "9b705187b34adffa6339dbff8c4ca1f713474679"
+last_commit_time = "2020-01-02T17:04"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 0
+branches = 14
+stars = 0
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/Remmeauth/rem-bonus-contract"
+last_commit = "9b705187b34adffa6339dbff8c4ca1f713474679"
+last_commit_time = "2020-01-02T17:04"
+status = "200"
+
+[repo.stats]
+branches = 14
+watching = 3
+forks = 0
+commits = 2
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/rem.contracts"
+last_commit = "51159f22e5fd0d28e33430e02d226e6cd3ed2f41"
+last_commit_time = "2020-06-01T10:02"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 2
+forks = 440
+tag_count = 0
+commits = 6
+branches = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-block-explorer"
+last_commit = "4234b3d2f7030191c41e660a5f7f49aeaa328f10"
+last_commit_time = "2021-04-26T17:15"
+status = "200"
+
+[repo.stats]
+commits = 4
+branches = 196
+tag_count = 0
+stars = 4
+watching = 5
+forks = 4
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-block-explorer-sawtooth"
+last_commit = "2e67dc6ab3ad524148432c52ee348687f589a7f8"
+last_commit_time = "2019-04-09T12:34"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 0
+commits = 1
+tag_count = 0
+forks = 2
+branches = 52
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-client-dotnet"
+last_commit = "5f40ed3a0fd82136737469c38f5aba04146b06b4"
+last_commit_time = "2019-01-09T20:44"
+status = "200"
+
+[repo.stats]
+branches = 56
+watching = 2
+forks = 0
+tag_count = 0
+stars = 0
+commits = 9
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-client-java"
+last_commit = "207786915bc8fc28833093081d9a7f690592da9e"
+last_commit_time = "2019-02-13T12:10"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 3
+stars = 2
+branches = 56
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-client-js"
+last_commit = "b2968926f03f5ff928d0e142c97ca1f10797a9ab"
+last_commit_time = "2019-05-23T15:10"
+status = "200"
+
+[repo.stats]
+stars = 4
+forks = 6
+branches = 298
+tag_count = 0
+watching = 4
+commits = 4
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-client-python"
+last_commit = "048d67365830588b7d7092829996f2782bfde3a3"
+last_commit_time = "2019-05-20T13:15"
+status = "200"
+
+[repo.stats]
+branches = 296
+commits = 4
+watching = 3
+tag_count = 0
+forks = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-core"
+last_commit = "3a8ac8d8f6ba1a1126c028c81d350c9475fe9834"
+last_commit_time = "2019-05-21T17:00"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 78
+forks = 16
+stars = 124
+tag_count = 0
+watching = 20
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-core-activity-simulation"
+last_commit = "b458eb583af800456bba7021b4a569c8f2009e1a"
+last_commit_time = "2019-05-10T16:01"
+status = "200"
+
+[repo.stats]
+branches = 17
+commits = 2
+forks = 0
+watching = 3
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-core-cli"
+last_commit = "94cc09fe9d2e718b45273dde68d6c672c4773f6a"
+last_commit_time = "2019-05-24T16:15"
+status = "200"
+
+[repo.stats]
+commits = 11
+watching = 5
+forks = 0
+stars = 0
+tag_count = 0
+branches = 81
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-guardian-reward-contract"
+last_commit = "9b705187b34adffa6339dbff8c4ca1f713474679"
+last_commit_time = "2020-01-02T17:04"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 0
+watching = 3
+forks = 0
+branches = 14
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-mon-stack"
+last_commit = "51e8faa5cb4d418e56cf450a7dcb1bc403c323ee"
+last_commit_time = "2019-03-29T14:29"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 0
+branches = 6
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-protobuf"
+last_commit = "f049661f72d05e54d85ba9901882715f946f9544"
+last_commit_time = "2019-05-15T10:35"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 117
+forks = 2
+watching = 5
+tag_count = 0
+commits = 11
 
 [[repo]]
 url = "https://github.com/Remmeauth/remme-webauth"
+last_commit = "b9891f7b76c1d6d655a2b3a2a4692a1aa5c6ac42"
+last_commit_time = "2019-02-18T14:51"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 4
+stars = 0
+tag_count = 0
+forks = 0
+branches = 43
 
 [[repo]]
 url = "https://github.com/Remmeauth/remprotocol"
+last_commit = "578996ce408ca0adbe6a6b895177199017ee907b"
+last_commit_time = "2020-07-31T12:14"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 38
+forks = 0
+stars = 132
+watching = 8
+branches = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/sawtooth-core"
+last_commit = "729e81547f8af273566453619aea9a97ca5f4963"
+last_commit_time = "2019-03-14T18:28"
+status = "200"
+
+[repo.stats]
+commits = 17
+forks = 760
+branches = 0
+stars = 0
+watching = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/sawtooth-rfcs"
+last_commit = "7822584d09b364027b1aae1c5667e1b5b4a9d9e9"
+last_commit_time = "2018-11-02T15:39"
+status = "200"
+
+[repo.stats]
+branches = 84
+commits = 2
+watching = 1
+stars = 0
+forks = 32
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Remmeauth/Vesting"
+last_commit = "f64bb7b516b535db7ff79107d3a3c0bb9841503a"
+last_commit_time = "2018-02-11T17:14"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+branches = 5
+commits = 1
+forks = 1
+watching = 4

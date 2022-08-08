@@ -1,13 +1,32 @@
-# Ecosystem Level Information
 title = "Doki Doki Finance"
-
+toml_path = "data/ecosystems/d/doki-doki-finance.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/dokidokidefi/assets"
+last_commit = "98d75955894af31cec00328e42aa28e562725334"
+last_commit_time = "2020-11-11T04:15"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 20
+forks = 0
+watching = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/dokidokidefi/unicly-utoken-info"
+last_commit = "bb2cd8feb0ad447edda0464ac966b77a7d1d907d"
+last_commit_time = "2021-04-09T09:53"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 30
+stars = 0
+commits = 1
+tag_count = 0
+forks = 24

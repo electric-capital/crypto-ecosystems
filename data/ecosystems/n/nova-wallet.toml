@@ -1,25 +1,88 @@
-# Ecosystem Level Information
 title = "Nova Wallet"
-
+toml_path = "data/ecosystems/n/nova-wallet.toml"
+github_organizations = ["https://github.com/EOSNOVA"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/EOSNOVA"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/EOSNOVA/Auth-SDK-ANDROID"
+last_commit = "c270f62eab6d342ed8e8cfc0223221568f8aa20d"
+last_commit_time = "2018-12-20T03:32"
+status = "200"
+
+[repo.stats]
+stars = 6
+tag_count = 0
+commits = 2
+watching = 1
+branches = 16
+forks = 1
 
 [[repo]]
 url = "https://github.com/EOSNOVA/Auth-SDK-iOS"
+last_commit = "3c0889c79f1ad208d4353b12d69aa415c7409cea"
+last_commit_time = "2019-04-18T01:34"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+tag_count = 0
+watching = 4
+stars = 4
+branches = 12
 
 [[repo]]
 url = "https://github.com/EOSNOVA/LOGO"
+last_commit = "95e3ad5b01eb90596acd7e9c51a5963da696155f"
+last_commit_time = "2019-09-19T03:08"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 17
+watching = 1
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/EOSNOVA/NOVA-Wallet"
+last_commit = "3ff8d589220a1606cd2635be0aa272bceb627793"
+last_commit_time = "2018-11-08T08:29"
+status = "200"
+
+[repo.stats]
+branches = 1
+tag_count = 0
+commits = 1
+forks = 0
+stars = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/EOSNOVA/scatter-js"
+last_commit = "e7bd0ebd419d632fc166949d5b4072989adf09ce"
+last_commit_time = "2019-01-14T06:29"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 1
+forks = 164
+tag_count = 0
+branches = 252
+commits = 3
 
 [[repo]]
 url = "https://github.com/EOSNOVA/SimpleWallet"
+last_commit = "7ae4835c9e8b7dee34f8bf3fc198dce92892d1db"
+last_commit_time = "2018-10-31T07:05"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 2
+tag_count = 0
+forks = 64
+commits = 1
+branches = 130

@@ -1,67 +1,284 @@
-# Ecosystem Level Information
 title = "Blockpass"
-
+toml_path = "data/ecosystems/b/blockpass.toml"
+github_organizations = ["https://github.com/blockpass-org"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/blockpass-org"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/blockpass-org/blockpass"
+last_commit = "bf34ffb06a06b735ead8f69027f313fb2f4c5a1f"
+last_commit_time = "2019-08-29T04:00"
+status = "200"
+
+[repo.stats]
+stars = 16
+branches = 37
+forks = 1
+commits = 1
+tag_count = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/blockpass-org/blockpass-demo"
+last_commit = "092cd589ef9dd9953828d468b95023fc3f2ed461"
+last_commit_time = "2019-12-03T07:47"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 2
+forks = 1
+tag_count = 0
+commits = 3
+branches = 23
 
 [[repo]]
 url = "https://github.com/blockpass-org/blockpass-serversdk"
+last_commit = "2f7ba539a619d0eb3b5819f17cf78497d4e7daf2"
+last_commit_time = "2018-10-04T09:07"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 3
+watching = 4
+forks = 2
+branches = 42
+commits = 2
 
 [[repo]]
 url = "https://github.com/blockpass-org/blockpass-servicedemo"
+last_commit = "08272f48d6122a8fd470115ad90c3955a204c46b"
+last_commit_time = "2018-05-31T04:52"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 3
+branches = 37
+stars = 3
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/blockpass-org/blockpass-websdk"
+last_commit = "34de90c759847bda89fb9528a46d39ed8522b862"
+last_commit_time = "2019-05-17T03:49"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 3
+tag_count = 0
+watching = 5
+branches = 57
+commits = 4
 
 [[repo]]
 url = "https://github.com/blockpass-org/developer-starter-pack"
+last_commit = "1be69667c290a1f2947b196c505e1024dc03fcec"
+last_commit_time = "2018-10-04T09:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 4
+forks = 2
+branches = 5
+commits = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/blockpass-org/jsonld-signatures"
+last_commit = "edcf6c9e91359a7d5564555ac77ee4103872c69a"
+last_commit_time = "2017-06-08T20:10"
+status = "200"
+
+[repo.stats]
+forks = 41
+watching = 3
+branches = 133
+stars = 0
+tag_count = 0
+commits = 10
 
 [[repo]]
 url = "https://github.com/blockpass-org/legal-documents"
+last_commit = "b6557afc6249ab92dcc10f4a8bb88559b999440c"
+last_commit_time = "2020-02-21T07:53"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 3
+branches = 30
+forks = 3
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/blockpass-org/mobile-applink-sample"
+last_commit = "e69f91925bd09f3928b3858f8c85886bcb84f0f1"
+last_commit_time = "2019-01-25T04:05"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 8
+tag_count = 0
+commits = 1
+watching = 3
+stars = 3
 
 [[repo]]
 url = "https://github.com/blockpass-org/mongoose-restify"
+last_commit = "2ea26ce7b92f9955ec1938e736d0f01b6e71350d"
+last_commit_time = "2020-06-17T02:01"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 2
+tag_count = 0
+commits = 11
+forks = 2
+branches = 22
 
 [[repo]]
 url = "https://github.com/blockpass-org/react-native-camera"
+last_commit = "56fb1b3fbd5d4e0cc2ce95a182d3e4bc90de8cde"
+last_commit_time = "2018-07-19T06:34"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 3
+stars = 0
+branches = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/blockpass-org/react-native-collapsible-tab-header"
+last_commit = "581f5b4eca5ce689821b478f2ac6e730ae0e2311"
+last_commit_time = "2018-07-19T07:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 2
+watching = 3
+branches = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/blockpass-org/react-native-document-picker"
+last_commit = "a33e8b2b2a42357c196104f2c2fafc45d8362577"
+last_commit_time = "2018-07-19T07:17"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 1
+commits = 1
+watching = 3
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/blockpass-org/react-native-pkdf2-shim-implement-pkdf2"
+last_commit = "ad9510fb66ee21da8844dcb89042decf6edb4712"
+last_commit_time = "2017-08-02T09:26"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 3
+branches = 1
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/blockpass-org/react-native-touch-id"
+last_commit = "1017d7879976914963c6736aa96c117dac14667e"
+last_commit_time = "2018-07-19T07:06"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 1
+forks = 0
+watching = 3
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/blockpass-org/service-auth-example-python"
+last_commit = "dca07eba5ca92b01ac7deec4f3af21233f16d648"
+last_commit_time = "2018-06-08T12:17"
+status = "200"
+
+[repo.stats]
+branches = 7
+stars = 0
+tag_count = 0
+watching = 3
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/blockpass-org/skipper-gridfs"
+last_commit = "e195af04db7f1e709516efd2c32a92c7d5d139a0"
+last_commit_time = "2018-12-04T07:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 36
+watching = 1
+branches = 95
+commits = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/blockpass-org/smart-contracts-audit"
+last_commit = "c9e99b1b3375639639cd31e6d9dca4ca036b13b8"
+last_commit_time = "2018-05-30T08:53"
+status = "200"
+
+[repo.stats]
+branches = 2
+forks = 0
+tag_count = 0
+commits = 1
+stars = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/blockpass-org/smart_contracts"
+last_commit = "2e8b8ff1364bbb35a16d5c0b543b145942e1817a"
+last_commit_time = "2018-05-03T08:57"
+status = "200"
+
+[repo.stats]
+stars = 5
+watching = 4
+tag_count = 0
+commits = 1
+branches = 9
+forks = 4
 
 [[repo]]
 url = "https://github.com/blockpass-org/zeppelin-solidity"
+last_commit = "4ce0e211c500aa756120c4f2851cc75518123309"
+last_commit_time = "2017-12-22T21:41"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 3
+tag_count = 0
+forks = 0
+branches = 871
+commits = 2

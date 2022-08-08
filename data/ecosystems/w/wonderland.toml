@@ -1,22 +1,66 @@
-# Ecosystem Level Information
 title = "Wonderland"
-
+toml_path = "data/ecosystems/w/wonderland.toml"
+github_organizations = ["https://github.com/Wonderland-Money"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Wonderland-Money"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Wonderland-Money/contracts"
+status = "200"
+
+[repo.stats]
+watching = 13
+stars = 123
+branches = 6
+commits = 1
+tag_count = 0
+forks = 175
 
 [[repo]]
 url = "https://github.com/Wonderland-Money/merkle-distributor"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+forks = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/Wonderland-Money/multi-reward-distribution"
+last_commit = "a0dd63b82261c33990a19c7e932acab2ecc0fce8"
+last_commit_time = "2022-01-24T08:11"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 9
+forks = 12
+stars = 3
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Wonderland-Money/StakersSnapshot"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 0
+stars = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/Wonderland-Money/wonderland-frontend"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 226
+watching = 15
+branches = 13
+forks = 331
+tag_count = 0

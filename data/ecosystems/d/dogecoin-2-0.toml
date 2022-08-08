@@ -1,19 +1,60 @@
-# Ecosystem Level Information
 title = "Dogecoin 2.0"
-
+toml_path = "data/ecosystems/d/dogecoin-2-0.toml"
+github_organizations = ["https://github.com/Dogecoin2-0"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Dogecoin2-0"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Dogecoin2-0/blockatlas"
+last_commit = "30ce4091856d20b906ded12660a8bc0071ab3f8e"
+last_commit_time = "2021-05-10T06:01"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 1
+forks = 246
+commits = 3
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/Dogecoin2-0/Doge2-TwitterBot"
+last_commit = "3e6be1d156a057261f38a108fc8467d82992b80c"
+last_commit_time = "2021-06-10T18:10"
+status = "200"
+
+[repo.stats]
+branches = 4
+watching = 1
+tag_count = 0
+commits = 1
+forks = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/Dogecoin2-0/MimbleWimble"
+last_commit = "e4c487e5e90a17d2121d1e7f1cd65d4793a5c7ac"
+last_commit_time = "2021-05-09T20:23"
+status = "200"
+
+[repo.stats]
+branches = 173
+commits = 12
+forks = 5
+watching = 1
+stars = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Dogecoin2-0/mobile-wallet"
+last_commit = "5e693bdeb9b966d48ca70b6928c162d26530eb60"
+last_commit_time = "2021-09-19T10:33"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+branches = 2
+stars = 2
+watching = 1
+commits = 1

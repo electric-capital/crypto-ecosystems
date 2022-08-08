@@ -1,76 +1,322 @@
-# Ecosystem Level Information
 title = "Burst"
-
+toml_path = "data/ecosystems/b/burst.toml"
+github_organizations = ["https://github.com/PoC-Consortium"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/PoC-Consortium"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/PoC-Consortium/aggregator"
+last_commit = "9a9e5c766b06d494de1178968c014a8f2708eda0"
+last_commit_time = "2021-06-14T09:19"
+status = "200"
+
+[repo.stats]
+forks = 7
+stars = 4
+watching = 2
+tag_count = 0
+branches = 23
+commits = 2
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/Aspera"
+last_commit = "f7adef5963988fc86434087931c904336b106dfa"
+last_commit_time = "2019-01-06T09:25"
+status = "200"
+
+[repo.stats]
+watching = 9
+commits = 4
+forks = 7
+stars = 15
+tag_count = 0
+branches = 403
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/bencher"
+last_commit = "01d134a2d54b8b25f51b7c79872f831967f7466e"
+last_commit_time = "2021-06-14T19:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 12
+stars = 8
+forks = 4
+watching = 4
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/burstcoin"
+last_commit = "afb45c48715722563d4e689a2f6fc4645bf5ece7"
+last_commit_time = "2019-01-02T14:23"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 236
+forks = 257
+watching = 73
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/burstcoin-db-manager"
+last_commit = "62e04e52adb88e2b1591198a9481744a8a446d5d"
+last_commit_time = "2018-04-27T19:30"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 8
+watching = 4
+tag_count = 0
+commits = 1
+branches = 8
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/burstcoin-docker"
+last_commit = "1d25cdc6f69733210c45798fc22f9bf575346c47"
+last_commit_time = "2018-05-30T18:08"
+status = "200"
+
+[repo.stats]
+forks = 7
+stars = 5
+tag_count = 0
+commits = 1
+branches = 15
+watching = 7
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/burstcoin-guides"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+tag_count = 0
+stars = 0
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/burstcoin-mobile"
+last_commit = "3f2d1f03325b29e3547eeb0473787b8d4ec62568"
+last_commit_time = "2018-11-14T17:00"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 7
+commits = 3
+forks = 20
+stars = 22
+branches = 383
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/burstcoin-mobile-doc"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 0
+watching = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/burstcoin.package"
+last_commit = "f9769c15fe0e450955d7eed0a2d8117c7475084d"
+last_commit_time = "2018-05-27T14:07"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 3
+tag_count = 0
+watching = 4
+commits = 1
+branches = 2
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/burstexplorer-tickets"
+last_commit = "51467f96826fb9fc413453862377b064e269aec7"
+last_commit_time = "2018-06-13T14:49"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 1
+branches = 1
+watching = 3
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/cg_obup"
+last_commit = "c9c37d964e336f2a716faad32359bb000b9b444c"
+last_commit_time = "2021-08-10T11:27"
+status = "200"
+
+[repo.stats]
+stars = 65
+forks = 40
+watching = 11
+branches = 112
+commits = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/CIPs"
+last_commit = "c461578f04e42aa4bad970394736c220a50417d7"
+last_commit_time = "2018-12-09T12:06"
+status = "200"
+
+[repo.stats]
+forks = 17
+watching = 10
+stars = 6
+tag_count = 0
+branches = 44
+commits = 1
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/CoinX"
+last_commit = "55c52a0494228a9fbd1dd71b51d1c354af9ee6b6"
+last_commit_time = "2019-07-10T11:05"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 7
+branches = 6
+tag_count = 0
+commits = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/DiscordBot"
+last_commit = "8b6b0aa3853667a20d78775ac6e0488bde6d0f82"
+last_commit_time = "2018-04-03T13:04"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 2
+watching = 4
+forks = 6
+branches = 12
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/engraver"
+last_commit = "c9c37d964e336f2a716faad32359bb000b9b444c"
+last_commit_time = "2021-08-10T11:27"
+status = "200"
+
+[repo.stats]
+stars = 65
+branches = 112
+watching = 11
+commits = 6
+forks = 40
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/goburstpool"
+last_commit = "178acdabb5737b210acb92ae3d248bc972e3ba08"
+last_commit_time = "2020-06-25T20:28"
+status = "200"
+
+[repo.stats]
+forks = 33
+branches = 125
+commits = 3
+watching = 14
+stars = 45
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/Helix"
+last_commit = "34dbf750d2b368927e221d5b278a746f3b527b27"
+last_commit_time = "2019-06-10T08:35"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 6
+tag_count = 0
+commits = 1
+watching = 2
+stars = 6
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/Marketing_Resources"
+last_commit = "ee9a70f4b7e5213c49ffa76d273d9ed9f1aecb4d"
+last_commit_time = "2018-09-24T02:09"
+status = "200"
+
+[repo.stats]
+stars = 13
+branches = 53
+commits = 2
+tag_count = 0
+forks = 6
+watching = 6
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/Nogrod"
+last_commit = "178acdabb5737b210acb92ae3d248bc972e3ba08"
+last_commit_time = "2020-06-25T20:28"
+status = "200"
+
+[repo.stats]
+watching = 14
+tag_count = 0
+forks = 33
+branches = 125
+commits = 3
+stars = 45
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/Qbundle"
+last_commit = "4ffefebaca477a7d240d2e08cf4a63a23ba433e8"
+last_commit_time = "2018-08-05T14:34"
+status = "200"
+
+[repo.stats]
+stars = 61
+tag_count = 0
+branches = 247
+commits = 5
+forks = 37
+watching = 27
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/scavenger"
+last_commit = "b38f6552c31d589a0433cb8ef52a44c87ce18725"
+last_commit_time = "2021-06-10T06:53"
+status = "200"
+
+[repo.stats]
+watching = 18
+forks = 65
+stars = 104
+commits = 19
+branches = 346
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PoC-Consortium/Utilities"
+last_commit = "be3022f7f0cdff08da80467b4f718cf311df9165"
+last_commit_time = "2018-12-13T12:05"
+status = "200"
+
+[repo.stats]
+stars = 4
+forks = 8
+branches = 32
+watching = 6
+tag_count = 0
+commits = 1

@@ -1,22 +1,72 @@
-# Ecosystem Level Information
 title = "Vetri"
-
+toml_path = "data/ecosystems/v/vetri.toml"
+github_organizations = ["https://github.com/vetri-global"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/vetri-global"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/vetri-global/docker-react-native"
+last_commit = "b984665fb8bb5cbb33a6e4d46332706e00f670d8"
+last_commit_time = "2018-08-23T12:57"
+status = "200"
+
+[repo.stats]
+branches = 41
+commits = 5
+watching = 4
+stars = 1
+forks = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/vetri-global/token"
+last_commit = "ad2ff636f61ac458ffbd0d14965aa81650cd604f"
+last_commit_time = "2018-07-16T12:40"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 47
+tag_count = 0
+stars = 6
+watching = 6
+forks = 1
 
 [[repo]]
 url = "https://github.com/vetri-global/tokenbase"
+last_commit = "7c8b2ea2b89dd68ca3eadb2b64efb545c1b23081"
+last_commit_time = "2018-07-16T09:15"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 490
+tag_count = 0
+forks = 346
+stars = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/vetri-global/vetri-did-driver"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+stars = 0
+watching = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/vetri-global/white-paper"
+last_commit = "539630a5cbb44d6af126bfbbb8182e8aa622647f"
+last_commit_time = "2018-07-13T16:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 4
+watching = 8
+branches = 15
+forks = 2

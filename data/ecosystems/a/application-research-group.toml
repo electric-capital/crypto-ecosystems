@@ -1,112 +1,480 @@
-# Ecosystem Level Information
 title = "Application Research Group"
-
+toml_path = "data/ecosystems/a/application-research-group.toml"
+github_organizations = ["https://github.com/application-research"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/application-research"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/application-research/APs"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+branches = 0
+tag_count = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/application-research/autoretrieve"
+last_commit = "327fa49dc898969d19b7d99d695ecda32ecd1683"
+last_commit_time = "2022-08-05T15:54"
+status = "200"
+
+[repo.stats]
+branches = 232
+forks = 6
+tag_count = 0
+commits = 12
+stars = 7
+watching = 7
 
 [[repo]]
 url = "https://github.com/application-research/barge"
+last_commit = "64fbe2ceca528805fbf14a26c610ae936d79b04d"
+last_commit_time = "2022-07-19T00:38"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 2
+branches = 41
+watching = 1
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/application-research/eslint-config"
+last_commit = "5038fced874740132e4137939395ce9ffb6cffd7"
+last_commit_time = "2021-11-18T13:03"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 25
+tag_count = 0
+watching = 2
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/application-research/estuary"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 21
+watching = 12
+branches = 0
+stars = 168
+forks = 37
 
 [[repo]]
 url = "https://github.com/application-research/estuary-api-node-example"
+last_commit = "e00140467068df4a1a7ed0dc4ae0d5cfbd5a7d28"
+last_commit_time = "2021-08-16T19:25"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 2
+commits = 1
+stars = 0
+branches = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/application-research/estuary-csharp-sdk"
+last_commit = "bc18051dccdee23e0a7dedc9e30569d040548a12"
+last_commit_time = "2022-05-02T15:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 0
+branches = 2
+commits = 1
+watching = 7
 
 [[repo]]
 url = "https://github.com/application-research/estuary-docker"
+last_commit = "04508764166fac27a23b26c5d790c521ffba42d3"
+last_commit_time = "2022-05-16T17:49"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 23
+commits = 2
+watching = 9
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/application-research/estuary-docs"
+last_commit = "c802011af142252c0bac1f68af4e7f6b73d76289"
+last_commit_time = "2022-07-18T13:44"
+status = "200"
+
+[repo.stats]
+stars = 6
+branches = 131
+tag_count = 0
+forks = 11
+commits = 16
+watching = 2
 
 [[repo]]
 url = "https://github.com/application-research/estuary-java-sdk"
+last_commit = "1fdbdcaa3433bba901c03499ffbbdbe2038bad89"
+last_commit_time = "2022-06-03T13:35"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+branches = 8
+commits = 1
+stars = 1
+watching = 8
 
 [[repo]]
 url = "https://github.com/application-research/estuary-js-sdk"
+last_commit = "1216f7171c76a6e18d93beedb371e434e42f1c45"
+last_commit_time = "2022-05-02T15:23"
+status = "200"
+
+[repo.stats]
+branches = 2
+watching = 7
+stars = 2
+tag_count = 0
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/application-research/estuary-rust-sdk"
+last_commit = "cd02eda55856870a2160fbad18e7d1451dd463fd"
+last_commit_time = "2022-04-29T00:22"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+branches = 2
+stars = 2
+watching = 7
+forks = 0
 
 [[repo]]
 url = "https://github.com/application-research/estuary-www"
+last_commit = "0c8ebbf2bc602bb4617aafede67f3e38efa031cf"
+last_commit_time = "2022-08-05T15:45"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 16
+watching = 3
+branches = 265
+forks = 9
+commits = 5
 
 [[repo]]
 url = "https://github.com/application-research/filclient"
+status = "200"
+
+[repo.stats]
+commits = 24
+tag_count = 0
+stars = 35
+branches = 210
+watching = 5
+forks = 16
 
 [[repo]]
 url = "https://github.com/application-research/file.app"
+last_commit = "ed76816e5d9c7a76786c2d8018e4d02cc8102f6f"
+last_commit_time = "2022-08-04T06:36"
+status = "200"
+
+[repo.stats]
+forks = 5
+branches = 14
+stars = 13
+watching = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/application-research/filecoin-ffiswap-liteclient"
+last_commit = "3ba1eed4b8bc55eae6b7b346f0e13753e0b65371"
+last_commit_time = "2022-04-08T13:18"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 2
+watching = 8
+commits = 1
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/application-research/FIPs"
+last_commit = "445b90f412a7e5a82d0af79ddea6185b62012ac9"
+last_commit_time = "2021-09-09T15:50"
+status = "200"
+
+[repo.stats]
+commits = 10
+stars = 0
+watching = 0
+branches = 271
+forks = 89
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/application-research/fvm"
+status = "404"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 0
+watching = 0
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/application-research/go-bs-autobatch"
+last_commit = "c4c0b68ef402bd0124d9742dd5e4b23ed6acc082"
+last_commit_time = "2021-12-15T02:03"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 13
+commits = 2
+tag_count = 0
+watching = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/application-research/go-pinmgr"
+last_commit = "461dca61ed84b8314ee7d8759e5e53f6e36f121f"
+last_commit_time = "2022-07-29T01:09"
+status = "200"
+
+[repo.stats]
+branches = 21
+stars = 0
+forks = 0
+tag_count = 0
+watching = 8
+commits = 1
 
 [[repo]]
 url = "https://github.com/application-research/ipcr"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 0
+stars = 5
+commits = 22
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/application-research/lighthouse"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 22
+watching = 0
+stars = 5
+branches = 0
 
 [[repo]]
 url = "https://github.com/application-research/next-bucket"
+last_commit = "2eccf1d9d678c7048e4ab066b04fd6ce83c97c49"
+last_commit_time = "2021-07-24T18:04"
+status = "200"
+
+[repo.stats]
+branches = 36
+tag_count = 0
+forks = 7
+commits = 1
+stars = 52
+watching = 1
 
 [[repo]]
 url = "https://github.com/application-research/next-sass"
+last_commit = "bd5f4939a7bbdf687daf57380242b9c5928d78c7"
+last_commit_time = "2022-06-19T17:51"
+status = "200"
+
+[repo.stats]
+branches = 8
+tag_count = 0
+watching = 1
+forks = 1
+commits = 1
+stars = 7
 
 [[repo]]
 url = "https://github.com/application-research/next-storage-deal"
+last_commit = "87c547e250efd4786352bc282bd0c61a4bbc89aa"
+last_commit_time = "2021-06-26T06:53"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 16
+tag_count = 0
+watching = 1
+forks = 0
+stars = 14
 
 [[repo]]
 url = "https://github.com/application-research/node-estuary-example"
+last_commit = "349d1ae57d1cb57ca72eae11e069128e8d01eef9"
+last_commit_time = "2022-02-22T18:54"
+status = "200"
+
+[repo.stats]
+branches = 3
+stars = 0
+watching = 2
+tag_count = 0
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/application-research/origin"
+last_commit = "a1b761d72022c63a02fbdca208d4813c33d10eab"
+last_commit_time = "2022-05-17T14:10"
+status = "200"
+
+[repo.stats]
+forks = 4
+stars = 53
+watching = 2
+tag_count = 0
+commits = 4
+branches = 210
 
 [[repo]]
 url = "https://github.com/application-research/origin-playground"
+last_commit = "a775cff4801ddb4413a7a9aa24c60622ffd21d6f"
+last_commit_time = "2021-11-18T13:37"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 6
+tag_count = 0
+forks = 1
+branches = 26
+commits = 1
 
 [[repo]]
 url = "https://github.com/application-research/origin-plugin-starter"
+last_commit = "c0dbfb5c3f0d25f1f47eb6275d79ccb776ec7aab"
+last_commit_time = "2021-09-17T16:45"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 1
+branches = 2
+forks = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/application-research/pestuary"
+last_commit = "33244fc671ff9953d948ad6461d0065674d7b7b5"
+last_commit_time = "2022-05-16T19:03"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 10
+forks = 0
+watching = 6
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/application-research/prototypes"
+last_commit = "d154d4d45194129d83dcf2f33a9326f72cc4e06f"
+last_commit_time = "2021-06-25T21:11"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 0
+branches = 3
+tag_count = 0
+commits = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/application-research/random-cid"
+last_commit = "20b764612115b22322dad34646fd5f6a0b4441e6"
+last_commit_time = "2022-06-13T20:32"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 8
+tag_count = 0
+branches = 3
+stars = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/application-research/rclone"
+last_commit = "7ef2c2874a0bd29fe7aeb4499968bd1e30c0eea0"
+last_commit_time = "2022-07-28T12:48"
+status = "200"
+
+[repo.stats]
+stars = 3
+tag_count = 0
+branches = 0
+forks = 0
+commits = 118
+watching = 0
 
 [[repo]]
 url = "https://github.com/application-research/wallet"
+last_commit = "05e8f96febdf40b131e0f3afec584cea1ed42a25"
+last_commit_time = "2021-10-27T16:20"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 20
+tag_count = 0
+commits = 4
+watching = 3
+branches = 170
 
 [[repo]]
 url = "https://github.com/application-research/web4"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 0
+branches = 0
+watching = 0
+forks = 0

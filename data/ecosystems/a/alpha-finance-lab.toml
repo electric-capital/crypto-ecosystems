@@ -1,91 +1,390 @@
-# Ecosystem Level Information
 title = "Alpha Finance Lab"
-
+toml_path = "data/ecosystems/a/alpha-finance-lab.toml"
+github_organizations = ["https://github.com/AlphaFinanceLab"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/AlphaFinanceLab"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/AIPs"
+last_commit = "64df0284dcac7b8dc149b3a9cb4a12da5cf133a5"
+last_commit_time = "2020-10-31T04:36"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 2
+commits = 1
+stars = 0
+tag_count = 0
+branches = 3
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-asguard"
+last_commit = "817c11c3002f3d819ae5c9403f88f0b5f24ee4d0"
+last_commit_time = "2020-12-28T07:17"
+status = "200"
+
+[repo.stats]
+branches = 28
+stars = 6
+commits = 5
+watching = 5
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-dashboard-api"
+last_commit = "0e6602e8b8babb5f591eca489ade05f61a6eb9e3"
+last_commit_time = "2021-11-29T21:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+branches = 28
+watching = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-escrow"
+last_commit = "164adeb0c550b2f6077ce890d7364236024fc9be"
+last_commit_time = "2021-04-19T04:21"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 2
+branches = 21
+tag_count = 0
+stars = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-escrow-contract"
+last_commit = "164adeb0c550b2f6077ce890d7364236024fc9be"
+last_commit_time = "2021-04-19T04:21"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 2
+forks = 1
+tag_count = 0
+branches = 21
+commits = 2
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-gringotts-eth-subgraph"
+last_commit = "ed60aa16e91fe1502678b398b8054721eea5280d"
+last_commit_time = "2021-03-01T05:57"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 68
+commits = 33
+forks = 1
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-guard-contract"
+last_commit = "817c11c3002f3d819ae5c9403f88f0b5f24ee4d0"
+last_commit_time = "2020-12-28T07:17"
+status = "200"
+
+[repo.stats]
+watching = 5
+tag_count = 0
+branches = 28
+forks = 1
+commits = 5
+stars = 6
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-homora-v1-bsc-contract"
+last_commit = "b7099c0b983761e559d8a5c853f89f5222249e33"
+last_commit_time = "2022-05-03T07:02"
+status = "200"
+
+[repo.stats]
+forks = 8
+stars = 16
+branches = 199
+commits = 31
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-homora-v1-eth-contract"
+last_commit = "5017311b56acf64020cd834e2e82a9ad556fea68"
+last_commit_time = "2021-04-26T10:11"
+status = "200"
+
+[repo.stats]
+stars = 59
+commits = 8
+tag_count = 0
+branches = 104
+forks = 28
+watching = 8
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-homora-v2-contract"
+last_commit = "f74fc460bd614ad15bbef57c88f6b470e5efd1fd"
+last_commit_time = "2021-05-10T07:59"
+status = "200"
+
+[repo.stats]
+forks = 26
+tag_count = 0
+commits = 142
+stars = 42
+watching = 4
+branches = 402
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-homora-v2-public-contract"
+last_commit = "f74fc460bd614ad15bbef57c88f6b470e5efd1fd"
+last_commit_time = "2021-05-10T07:59"
+status = "200"
+
+[repo.stats]
+stars = 42
+forks = 26
+watching = 4
+tag_count = 0
+branches = 402
+commits = 142
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-homora-vested-sushi-script"
+last_commit = "29634df40e494bf19aae0e7ad1cf880e42870efe"
+last_commit_time = "2021-09-02T15:03"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 1
+branches = 1
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-lending-smart-contract"
+last_commit = "6c6b958050b225a14feebd1aa5463729b2fbe74c"
+last_commit_time = "2020-10-22T07:33"
+status = "200"
+
+[repo.stats]
+forks = 26
+stars = 21
+branches = 91
+watching = 2
+commits = 21
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-staking-contract"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 3
+branches = 91
+commits = 20
+watching = 3
+forks = 0
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alpha-staking-contracts"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 91
+commits = 20
+stars = 3
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alphahomora"
+last_commit = "5017311b56acf64020cd834e2e82a9ad556fea68"
+last_commit_time = "2021-04-26T10:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 59
+commits = 8
+watching = 8
+forks = 28
+branches = 104
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/alphahomora-bsc"
+last_commit = "b7099c0b983761e559d8a5c853f89f5222249e33"
+last_commit_time = "2022-05-03T07:02"
+status = "200"
+
+[repo.stats]
+stars = 16
+watching = 3
+branches = 199
+commits = 31
+tag_count = 0
+forks = 8
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/assets"
+last_commit = "0ffc44b5efaec64c3ca122067cbf3b4b7cb8be1d"
+last_commit_time = "2021-11-23T23:38"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 23
+forks = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/compound-protocol"
+last_commit = "d8a15c5c00499e1f9a510dfbe223359415e78a3e"
+last_commit_time = "2021-02-18T08:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+commits = 10
+branches = 143
+forks = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/DeFi-Pulse-Adapters"
+last_commit = "7564118e56786a3f2fbd3e12d184be405d42cefc"
+last_commit_time = "2021-05-07T05:51"
+status = "200"
+
+[repo.stats]
+forks = 493
+branches = 387
+commits = 30
+stars = 2
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/ecosystem-projects"
+last_commit = "291343f9f1d8e6ca5720a8139bc649a12bd411c5"
+last_commit_time = "2022-03-25T10:00"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 155
+branches = 226
+watching = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/gringotts"
+last_commit = "ed60aa16e91fe1502678b398b8054721eea5280d"
+last_commit_time = "2021-03-01T05:57"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 68
+stars = 1
+watching = 3
+forks = 1
+commits = 33
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/guard"
+last_commit = "817c11c3002f3d819ae5c9403f88f0b5f24ee4d0"
+last_commit_time = "2020-12-28T07:17"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+stars = 6
+commits = 5
+watching = 5
+branches = 28
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/homora-v2"
+status = "200"
+
+[repo.stats]
+commits = 142
+stars = 42
+tag_count = 0
+watching = 4
+forks = 26
+branches = 402
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/joe-tokenlists"
+last_commit = "27edf6da9f41cb145e24a634c5e0cdea1fceea3a"
+last_commit_time = "2021-12-16T07:13"
+status = "200"
+
+[repo.stats]
+forks = 255
+stars = 0
+watching = 0
+tag_count = 0
+branches = 291
+commits = 1
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/LocalTerra"
+last_commit = "cfcd6bb4a8de97641a893d2000ff49fbd37f5248"
+last_commit_time = "2022-05-10T05:50"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 85
+tag_count = 0
+commits = 2
+branches = 117
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/smart-contract-registry"
+last_commit = "33d686b4196df62d8d9b8a388435c5e08994f43c"
+last_commit_time = "2022-02-25T13:35"
+status = "200"
+
+[repo.stats]
+commits = 4
+tag_count = 0
+branches = 52
+forks = 13
+stars = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/AlphaFinanceLab/terra-money-grants"
+last_commit = "36d5f7f8b7f8528b7b891ee4dd41f4231c14847e"
+last_commit_time = "2022-01-20T04:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 10
+forks = 0
+watching = 0
+stars = 0
+commits = 1

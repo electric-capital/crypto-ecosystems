@@ -1,67 +1,284 @@
-# Ecosystem Level Information
 title = "Polymarket"
-
+toml_path = "data/ecosystems/p/polymarket.toml"
+github_organizations = ["https://github.com/TokenUnion"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/TokenUnion"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/TokenUnion/amm-maths"
+last_commit = "aae77c441aeae274aec9201f83300c83a015c55e"
+last_commit_time = "2021-08-24T15:22"
+status = "200"
+
+[repo.stats]
+watching = 4
+commits = 2
+stars = 4
+tag_count = 0
+branches = 27
+forks = 3
 
 [[repo]]
 url = "https://github.com/TokenUnion/audit-checklist"
+last_commit = "5e930ac53bcc60c2e312307324400aa6d9be2d72"
+last_commit_time = "2018-06-19T20:59"
+status = "200"
+
+[repo.stats]
+forks = 42
+stars = 3
+branches = 1
+tag_count = 0
+watching = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/TokenUnion/balance-checker"
+last_commit = "c72e0b167a6eb651468a854541244a3eb25c0cb6"
+last_commit_time = "2021-12-28T21:11"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 40
+commits = 1
+tag_count = 0
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/TokenUnion/conditional-tokens-contracts"
+last_commit = "a927b5a52cf9ace712bf1b5fe1d92bf76399e692"
+last_commit_time = "2022-02-04T04:02"
+status = "200"
+
+[repo.stats]
+commits = 26
+branches = 702
+watching = 2
+tag_count = 0
+forks = 39
+stars = 5
 
 [[repo]]
 url = "https://github.com/TokenUnion/conditional-tokens-market-makers"
+last_commit = "a48f865d702bcda35bb13aeb6c1840ea16453d24"
+last_commit_time = "2021-09-13T16:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 35
+commits = 3
+stars = 11
+watching = 5
+branches = 149
 
 [[repo]]
 url = "https://github.com/TokenUnion/cosmos-delegation-js"
+last_commit = "2962fc6a5f68dfb4be31b34791cc842b9a2c3dc2"
+last_commit_time = "2019-05-28T15:36"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 5
+commits = 2
+branches = 31
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/TokenUnion/deploy-ctf"
+last_commit = "70c7cb1cfbea716928e4b1ad111437deced0c2cd"
+last_commit_time = "2021-09-27T22:30"
+status = "200"
+
+[repo.stats]
+forks = 2
+commits = 2
+stars = 1
+branches = 57
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/TokenUnion/eztz"
+last_commit = "5baff53839b9b04cb15638f20e9b7f7172d35c1b"
+last_commit_time = "2019-05-08T20:52"
+status = "200"
+
+[repo.stats]
+watching = 10
+tag_count = 0
+forks = 54
+branches = 164
+stars = 1
+commits = 5
 
 [[repo]]
 url = "https://github.com/TokenUnion/irisnet-crypto"
+last_commit = "262573667d3ac130cfeb03cda416c0ce9cf0e1d5"
+last_commit_time = "2020-03-24T22:41"
+status = "200"
+
+[repo.stats]
+branches = 449
+tag_count = 0
+commits = 17
+watching = 1
+forks = 25
+stars = 1
 
 [[repo]]
 url = "https://github.com/TokenUnion/ledger-cosmos-js"
+last_commit = "e8a30cab2223eb76e05dfbad3c9ede783d9ae237"
+last_commit_time = "2019-05-03T12:29"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 45
+forks = 58
+tag_count = 0
+watching = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/TokenUnion/livepeerjs"
+last_commit = "df58a8311bd6db3bf88fea03ab7aa33bf837f35a"
+last_commit_time = "2019-05-06T01:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 478
+watching = 6
+commits = 17
+stars = 1
+forks = 71
 
 [[repo]]
 url = "https://github.com/TokenUnion/polymarket-bounties"
+last_commit = "c9d7a8130417a87e19eee9cb7d54dd73634d6407"
+last_commit_time = "2021-01-12T18:39"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 9
+tag_count = 0
+stars = 0
+forks = 11
+commits = 1
 
 [[repo]]
 url = "https://github.com/TokenUnion/polymarket-status-tool"
+last_commit = "5a03d9eccc9428241922e60b4f89c91d340a93af"
+last_commit_time = "2021-05-03T18:40"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 1
+stars = 0
+watching = 1
+branches = 34
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/TokenUnion/redis-leaderboard"
+last_commit = "eaae35472a9d2d291e2a283e8505fd3bfff6534c"
+last_commit_time = "2021-03-05T20:03"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 49
+commits = 2
+tag_count = 0
+watching = 1
+forks = 2
 
 [[repo]]
 url = "https://github.com/TokenUnion/s3x"
+last_commit = "885eecb12605dad8bcc36390be27c592b48517b1"
+last_commit_time = "2020-02-26T12:51"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 2
+forks = 0
+tag_count = 0
+watching = 1
+branches = 0
 
 [[repo]]
 url = "https://github.com/TokenUnion/status-page-front"
+last_commit = "2ae615ce94304e2c1980835fdcce74484f0ebac1"
+last_commit_time = "2021-10-20T18:40"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 21
+stars = 0
+commits = 1
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/TokenUnion/tezbridge-crypto"
+last_commit = "25a696048df4133080bc193e882ba59c0c001755"
+last_commit_time = "2020-01-07T03:25"
+status = "200"
+
+[repo.stats]
+branches = 114
+tag_count = 0
+watching = 1
+stars = 0
+commits = 3
+forks = 4
 
 [[repo]]
 url = "https://github.com/TokenUnion/vue-components"
+last_commit = "e11d17dac7ae743dd1516ce3c8d889cc0efa761b"
+last_commit_time = "2020-02-10T19:55"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 5
+tag_count = 0
+stars = 2
+branches = 40
+forks = 1
 
 [[repo]]
 url = "https://github.com/TokenUnion/web3-react-multichain"
+last_commit = "068ca91767ed7bd5d151dc87529aa1f12415f4af"
+last_commit_time = "2021-04-08T23:24"
+status = "200"
+
+[repo.stats]
+branches = 243
+stars = 3
+watching = 1
+tag_count = 0
+forks = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/TokenUnion/withdrawal-checker"
+last_commit = "f25261f33e2d9202d48db783412ac50dc054372c"
+last_commit_time = "2021-01-25T21:04"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+watching = 1
+branches = 17
+commits = 1
+stars = 0

@@ -1,106 +1,466 @@
-# Ecosystem Level Information
 title = "Omega Protocol Money"
-
+toml_path = "data/ecosystems/o/omega-protocol-money.toml"
+github_organizations = ["https://github.com/omgswap"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/omgswap"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/omgswap/beerhouse"
+last_commit = "9ef35679edae89c58961304dbbb13fd53328844a"
+last_commit_time = "2020-09-28T14:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 1
+watching = 3
+stars = 3
+branches = 4
 
 [[repo]]
 url = "https://github.com/omgswap/blog-omg-swap"
+last_commit = "bcda4b87a66d982722b04f07d76bca2d55100aa7"
+last_commit_time = "2020-08-15T20:13"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 1
+branches = 1
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/omgswap/bscgraph"
+last_commit = "ff3b6fdb548ec4cd5cefe57ff59c15cd911a184f"
+last_commit_time = "2020-09-21T23:56"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 2
+forks = 6
+stars = 6
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/omgswap/DeFi-Pulse-Adapters"
+last_commit = "01a834e152c8ae34eae4a535617600db8e48ba82"
+last_commit_time = "2020-06-23T19:53"
+status = "200"
+
+[repo.stats]
+branches = 214
+stars = 0
+tag_count = 0
+forks = 493
+commits = 23
+watching = 1
 
 [[repo]]
 url = "https://github.com/omgswap/dnslink-cloudflare"
+last_commit = "14052afa8fe280c6a81fec84e23316a2e44bc1e8"
+last_commit_time = "2020-07-19T11:19"
+status = "200"
+
+[repo.stats]
+forks = 15
+stars = 0
+commits = 3
+tag_count = 0
+branches = 47
+watching = 1
 
 [[repo]]
 url = "https://github.com/omgswap/eggy-finance"
+last_commit = "68efcc2db55e6fb712811c90158791adb08210ac"
+last_commit_time = "2020-09-26T19:47"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+branches = 4
+tag_count = 0
+stars = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/omgswap/Ghost"
+last_commit = "b2c34029e12ef32e6ed699c33011983884facc0a"
+last_commit_time = "2020-08-14T22:22"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+commits = 10
+branches = 0
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/omgswap/Ghost-Admin"
+last_commit = "c52ac050647674930bdf1a16976c9a5b21de5c42"
+last_commit_time = "2020-08-14T22:22"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+stars = 0
+tag_count = 0
+branches = 0
+commits = 10
 
 [[repo]]
 url = "https://github.com/omgswap/market-data"
+last_commit = "70605a2c211d6f64048f27dc28c7c55e22af83f3"
+last_commit_time = "2020-08-29T01:39"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 1
+tag_count = 0
+forks = 0
+commits = 1
+branches = 10
 
 [[repo]]
 url = "https://github.com/omgswap/o-dex"
+last_commit = "31620903a749e398cb64762f8feaaa69aa09459d"
+last_commit_time = "2020-08-27T14:32"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+forks = 2
+tag_count = 0
+stars = 2
+branches = 23
 
 [[repo]]
 url = "https://github.com/omgswap/omega-news"
+last_commit = "40b972f0dcef320458a30e1e30de3e89e7f39cdf"
+last_commit_time = "2020-09-09T12:46"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+forks = 0
+stars = 1
+watching = 1
+branches = 7
 
 [[repo]]
 url = "https://github.com/omgswap/omegaex"
+last_commit = "9610f477f5ee5b55701794e090889107891c0f96"
+last_commit_time = "2020-09-21T14:47"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 3
+branches = 1
+tag_count = 0
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/omgswap/omegasub"
+last_commit = "ca47c5a1ac9e0bd34d04b557a38fb9cbf06aa208"
+last_commit_time = "2020-12-14T02:45"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+watching = 3
+stars = 1
+branches = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/omgswap/omegaswap"
+last_commit = "0805d78390af39421e8ce261fb8be88d00ba651f"
+last_commit_time = "2020-09-23T10:33"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 2
+watching = 2
+branches = 18
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/omgswap/omg-site"
+last_commit = "7cb5ebeb7c799da82a6e8a7aa712ea4a42a10b50"
+last_commit_time = "2020-09-17T18:59"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 1
+branches = 24
+tag_count = 0
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/omgswap/omg-swap"
+last_commit = "a5f316ba70e656434690a943b0ab9c645d4e0ebf"
+last_commit_time = "2020-08-21T11:37"
+status = "200"
+
+[repo.stats]
+branches = 4
+forks = 0
+watching = 1
+stars = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/omgswap/Omggraphv2"
+last_commit = "0e8ce020b41b0eff0dc1df1820da3dca76a877a3"
+last_commit_time = "2020-12-14T02:25"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+stars = 0
+branches = 4
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/omgswap/omgswap-bsc-data"
+last_commit = "681fe8c305813d29cfd26e138ac7e892d050131a"
+last_commit_time = "2020-10-08T11:52"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 4
+watching = 3
+forks = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/omgswap/omgswap-bsc-sdk"
+last_commit = "6bef80d44e5212667f806024aa700253dad3cbf5"
+last_commit_time = "2020-09-16T19:33"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 3
+branches = 2
+tag_count = 0
+forks = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/omgswap/omgswap-com"
+last_commit = "6b89a613c9b9f12864d0d56f48b9ae2d198eb5ad"
+last_commit_time = "2020-09-22T13:09"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+commits = 1
+stars = 0
+watching = 3
+branches = 1
 
 [[repo]]
 url = "https://github.com/omgswap/omgswap-con-bsc"
+last_commit = "ed681f0992ff6dc0d00f6adaecb756f88704ffbf"
+last_commit_time = "2020-09-16T20:51"
+status = "200"
+
+[repo.stats]
+branches = 4
+tag_count = 0
+stars = 0
+forks = 0
+watching = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/omgswap/omgswap-contracts-v2"
+last_commit = "eaf551f78ec75e167ec4943d23f060bbc1e765c9"
+last_commit_time = "2020-09-14T21:02"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+stars = 0
+forks = 0
+commits = 1
+branches = 3
 
 [[repo]]
 url = "https://github.com/omgswap/omgswap-sdk"
+last_commit = "289b2ea9cb0a9971b369806a4582aea7deec72e9"
+last_commit_time = "2020-12-14T00:41"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 11
+stars = 0
+forks = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/omgswap/omgswap-v2"
+last_commit = "b9480da192fd30ce0253e721e9b75663b5b5b027"
+last_commit_time = "2020-12-14T01:17"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 3
+forks = 1
+branches = 20
+stars = 1
 
 [[repo]]
 url = "https://github.com/omgswap/omgswap-v2-data"
+last_commit = "07da37a12833ceba872b379c1c1c2308a77fd91e"
+last_commit_time = "2020-12-14T07:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+commits = 1
+stars = 1
+branches = 18
+forks = 0
 
 [[repo]]
 url = "https://github.com/omgswap/omgswap-v2-site"
+last_commit = "707dd9b13614c4455af7b903f58e29f2530605f5"
+last_commit_time = "2020-10-20T00:57"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+forks = 0
+watching = 3
+branches = 31
+stars = 1
 
 [[repo]]
 url = "https://github.com/omgswap/omgswapv2-bsc"
+last_commit = "96e30be5cc79ceb2ce8bf6d01fb2a65011083f7b"
+last_commit_time = "2020-10-08T10:39"
+status = "200"
+
+[repo.stats]
+branches = 27
+watching = 3
+stars = 0
+tag_count = 0
+commits = 1
+forks = 2
 
 [[repo]]
 url = "https://github.com/omgswap/opensea-js"
+last_commit = "5fc9bcaad16eda85773f9b260701c1e71f243340"
+last_commit_time = "2020-07-03T06:32"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 18
+branches = 634
+tag_count = 0
+stars = 0
+forks = 746
 
 [[repo]]
 url = "https://github.com/omgswap/openzeppelin-sdk"
+last_commit = "6c040b36052519f09569d6c40493707f2149b374"
+last_commit_time = "2020-09-04T21:59"
+status = "200"
+
+[repo.stats]
+forks = 203
+watching = 1
+stars = 1
+branches = 0
+commits = 26
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/omgswap/public-assets"
+last_commit = "8096fb875ab5d6d638d2e1387c3e6d472543578d"
+last_commit_time = "2020-12-14T01:05"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+stars = 0
+forks = 5
+tag_count = 0
+branches = 53
 
 [[repo]]
 url = "https://github.com/omgswap/scaffold-eth"
+last_commit = "6495c853e49466f5b9bc7b7cffb7cb1c8bed3c89"
+last_commit_time = "2020-10-06T20:47"
+status = "200"
+
+[repo.stats]
+commits = 47
+stars = 0
+watching = 1
+forks = 0
+tag_count = 0
+branches = 327
 
 [[repo]]
 url = "https://github.com/omgswap/snapshot-spaces"
+last_commit = "f95fc5fb0bc3c6eb38d4df9cc98d194a849186dc"
+last_commit_time = "2020-10-03T04:44"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 138
+forks = 0
+watching = 1
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/omgswap/tailor-react-spa"
+last_commit = "f473fb1f1c3d9a4673f93c21a03cd163706d201e"
+last_commit_time = "2019-06-16T19:33"
+status = "200"
+
+[repo.stats]
+forks = 31
+watching = 1
+tag_count = 0
+branches = 17
+stars = 0
+commits = 7

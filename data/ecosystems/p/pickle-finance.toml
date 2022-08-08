@@ -1,67 +1,280 @@
-# Ecosystem Level Information
 title = "Pickle Finance"
-
+toml_path = "data/ecosystems/p/pickle-finance.toml"
+github_organizations = ["https://github.com/pickle-finance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/pickle-finance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/pickle-finance/basis-vault-v1"
+last_commit = "206f0d5037463595b51d053f75c9dd05618f6c0b"
+last_commit_time = "2021-04-23T19:41"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+tag_count = 0
+commits = 1
+branches = 4
+stars = 0
 
 [[repo]]
 url = "https://github.com/pickle-finance/basis-vaults"
+last_commit = "2b22f7aaaa3361a05ba9041a905dbe02c80d1b62"
+last_commit_time = "2021-03-17T19:08"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 1
+branches = 1
+tag_count = 0
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/pickle-finance/brand-assets"
+last_commit = "37804fe64c00b93ba26f2f004a9880696e3d8c24"
+last_commit_time = "2022-01-14T01:49"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 2
+stars = 1
+branches = 18
+watching = 2
 
 [[repo]]
 url = "https://github.com/pickle-finance/contracts"
+status = "200"
+
+[repo.stats]
+stars = 155
+branches = 339
+forks = 37
+tag_count = 0
+watching = 17
+commits = 5
 
 [[repo]]
 url = "https://github.com/pickle-finance/DeFi-Pulse-Adapters"
+last_commit = "f8d4ffaaa9ee264b850b1827810096445a59b589"
+last_commit_time = "2021-05-12T16:06"
+status = "200"
+
+[repo.stats]
+forks = 493
+stars = 1
+branches = 942
+commits = 39
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/pickle-finance/dill-dao"
+last_commit = "8adeebf4493244443ee22269d0a0bc84ca344be7"
+last_commit_time = "2022-03-04T06:21"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 1
+branches = 88
+watching = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/pickle-finance/docs"
+last_commit = "93edd74ad519f98846889706bed24099829112c3"
+last_commit_time = "2022-01-03T18:06"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 6
+tag_count = 0
+commits = 1
+watching = 3
+forks = 4
 
 [[repo]]
 url = "https://github.com/pickle-finance/ethers-multicall"
+last_commit = "0738ac8b73779eb97cfb6c8a8d0f52a830de3228"
+last_commit_time = "2021-09-20T05:18"
+status = "200"
+
+[repo.stats]
+forks = 75
+commits = 1
+stars = 0
+watching = 0
+branches = 31
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/pickle-finance/gov-tools"
+last_commit = "7312864d05f73d1d49ec141855212e44abcea4d7"
+last_commit_time = "2020-12-04T02:59"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 2
+stars = 1
+branches = 33
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/pickle-finance/landing-page"
+last_commit = "0208e001ba9655bfd1a06654fa5381039b649e37"
+last_commit_time = "2021-04-20T03:20"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 2
+branches = 15
+tag_count = 0
+forks = 2
+stars = 1
 
 [[repo]]
 url = "https://github.com/pickle-finance/mai-reimbursement"
+last_commit = "3b503cd61503875156f36954ede9b8cfb723cb83"
+last_commit_time = "2021-07-02T04:54"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 2
+branches = 2
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/pickle-finance/pf-core"
+last_commit = "f70165c4b329592b4db79ecdf4c6123f0b34286b"
+last_commit_time = "2022-08-04T15:08"
+status = "200"
+
+[repo.stats]
+forks = 7
+branches = 0
+commits = 36
+watching = 1
+stars = 14
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/pickle-finance/pickle-ui"
+last_commit = "85e3afdc7f68fffc6d0ded295a75bca234f6b4b3"
+last_commit_time = "2022-08-04T15:54"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 0
+commits = 68
+tag_count = 0
+forks = 44
+stars = 48
 
 [[repo]]
 url = "https://github.com/pickle-finance/protocol"
+last_commit = "3f33615417209e2b552ac51e0718860814e386f6"
+last_commit_time = "2022-05-22T06:08"
+status = "200"
+
+[repo.stats]
+commits = 119
+watching = 6
+tag_count = 0
+forks = 65
+stars = 117
+branches = 893
 
 [[repo]]
 url = "https://github.com/pickle-finance/protocol-2"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 0
+tag_count = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/pickle-finance/saviour-scripts"
+last_commit = "58faa5e2a703b59b25f30f4bce7e05f852a55588"
+last_commit_time = "2022-02-14T20:54"
+status = "200"
+
+[repo.stats]
+forks = 4
+commits = 8
+branches = 19
+stars = 4
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/pickle-finance/snapshot-spaces"
+last_commit = "1133f6565ce3cb3e10c054d828fd38ad91bf3723"
+last_commit_time = "2020-10-23T02:00"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+commits = 7
+forks = 0
+stars = 1
+branches = 314
 
 [[repo]]
 url = "https://github.com/pickle-finance/timelock-viewer"
+last_commit = "1db021f4679ddf9365fe077841bdd9101b449262"
+last_commit_time = "2021-04-26T23:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 8
+commits = 1
+branches = 30
+stars = 4
+watching = 2
 
 [[repo]]
 url = "https://github.com/pickle-finance/user-analytics"
+last_commit = "815199d5ea3be50623e4d16a2bf05cbb17ebdc8a"
+last_commit_time = "2022-05-31T16:12"
+status = "200"
+
+[repo.stats]
+branches = 31
+commits = 1
+stars = 0
+tag_count = 0
+forks = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/pickle-finance/utility-contracts"
+last_commit = "e23fdfc6d273488fba121378f0dcf5786eff9e91"
+last_commit_time = "2022-05-31T19:40"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+watching = 2
+branches = 26
+tag_count = 0
+commits = 5

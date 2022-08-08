@@ -1,13 +1,28 @@
-# Ecosystem Level Information
 title = "Connectome"
-
+toml_path = "data/ecosystems/c/connectome.toml"
+github_organizations = ["https://github.com/connectometo"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/connectometo"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/connectometo/design-kit"
+status = "404"
+
+[repo.stats]
+watching = 0
+forks = 0
+stars = 0
+commits = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/connectometo/marketplace-mvp"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+watching = 0
+stars = 0
+forks = 0
+branches = 0

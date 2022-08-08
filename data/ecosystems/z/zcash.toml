@@ -1,399 +1,1796 @@
-# Ecosystem Level Information
 title = "Zcash"
-
+toml_path = "data/ecosystems/z/zcash.toml"
+github_organizations = ["https://github.com/zcash", "https://github.com/ZcashFoundation"]
 sub_ecosystems = ["Bolt Labs"]
 
-github_organizations = ["https://github.com/zcash", "https://github.com/ZcashFoundation"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/abhi3700/Zcash"
+last_commit = "bda46b72d7c3df6c3730ecf922630fffc64c6b69"
+last_commit_time = "2017-09-29T18:56"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 5
+stars = 0
+commits = 1
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/AleoHQ/wagyu-zcash-parameters"
+last_commit = "6a628dd3a457c83a4637c9f0c92ab7819c91aba6"
+last_commit_time = "2020-03-31T05:06"
+status = "200"
+
+[repo.stats]
+stars = 4
+branches = 6
+forks = 1
+tag_count = 0
+commits = 2
+watching = 10
 
 [[repo]]
 url = "https://github.com/amitkumarj441/zcash-miner"
+last_commit = "08d3084c57ef17c1a12bdd42d538458e8e4aacc8"
+last_commit_time = "2018-02-02T11:47"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 1
+branches = 9
+forks = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/AriseBank/zcash-restful-api"
+last_commit = "325a24d528338e48aec186b2b24293dfc2af0ceb"
+last_commit_time = "2017-07-26T05:41"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+branches = 25
+commits = 2
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Betterpath/Zcash"
+last_commit = "c1282bebb855ad4a1a8b4ce36eea5a217c9b271d"
+last_commit_time = "2017-11-15T00:40"
+status = "200"
+
+[repo.stats]
+branches = 0
+forks = 0
+tag_count = 0
+stars = 0
+watching = 2
+commits = 9
 
 [[repo]]
 url = "https://github.com/BScrk/zecproxy"
+last_commit = "a4ec774d59c8b054fc9bfe6c311c5564111fe7bd"
+last_commit_time = "2018-01-16T06:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 54
+forks = 38
+branches = 24
+commits = 1
+watching = 14
 
 [[repo]]
 url = "https://github.com/buidl-labs/zcash_service_status_dashboard"
+last_commit = "cb54b01a6598b055b1aca7dc5639fc03110380fe"
+last_commit_time = "2020-04-19T21:46"
+status = "200"
+
+[repo.stats]
+stars = 3
+tag_count = 0
+watching = 4
+forks = 4
+branches = 81
+commits = 2
 
 [[repo]]
 url = "https://github.com/coinfoundry/miningcore"
+status = "200"
+
+[repo.stats]
+forks = 494
+branches = 0
+watching = 90
+tag_count = 0
+commits = 3
+stars = 595
 
 [[repo]]
 url = "https://github.com/cryptocurrency-project/zcash"
+last_commit = "e51ab7b8b2802197139f2d6125342c57c1704c98"
+last_commit_time = "2020-03-08T15:03"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 0
+commits = 1
+tag_count = 0
+forks = 0
+branches = 3
 
 [[repo]]
 url = "https://github.com/Cyclenerd/ethereum_nvidia_miner"
+status = "200"
+
+[repo.stats]
+forks = 167
+tag_count = 0
+watching = 196
+branches = 135
+commits = 1
+stars = 828
 
 [[repo]]
 url = "https://github.com/Cyclenerd/Zcash-RPC-Client"
+last_commit = "51daf95df82914319852e1a24e90d373bee3e343"
+last_commit_time = "2018-07-03T08:38"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 4
+tag_count = 0
+stars = 1
+branches = 107
+watching = 2
 
 [[repo]]
 url = "https://github.com/daira/zcash-migration"
+last_commit = "01705ced61fc7f3eb16c473e18c98b6983efeff6"
+last_commit_time = "2020-01-20T17:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 1
+commits = 1
+watching = 2
+branches = 5
 
 [[repo]]
 url = "https://github.com/dwymi02/nheqminer"
+last_commit = "0aa7b60bf966859cce0ebb433a512c73ad282616"
+last_commit_time = "2018-09-01T19:40"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 166
+commits = 4
+tag_count = 0
+stars = 5
+forks = 6
 
 [[repo]]
 url = "https://github.com/dysnix/zcashd"
+last_commit = "f89259e822b9d60de125ed1b28e6621c25508e33"
+last_commit_time = "2017-12-08T15:06"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 1
+tag_count = 0
+branches = 3
+commits = 4
+forks = 0
 
 [[repo]]
 url = "https://github.com/FiloSottile/zcash-mini"
+last_commit = "a2b35042ad3a3bc22b925ecfc45e768a376bd29a"
+last_commit_time = "2018-01-14T17:06"
+status = "200"
+
+[repo.stats]
+branches = 24
+forks = 28
+commits = 1
+watching = 15
+tag_count = 0
+stars = 96
 
 [[repo]]
 url = "https://github.com/fluffypomeranian/Zcash-Eth-Atomic-Trades"
+last_commit = "4041006d5f0a90983be160555f0e5da5b0443d89"
+last_commit_time = "2018-06-14T16:15"
+status = "200"
+
+[repo.stats]
+branches = 138
+tag_count = 0
+commits = 7
+stars = 1
+watching = 1
+forks = 12
 
 [[repo]]
 url = "https://github.com/greenido/zcash-assistant-app"
+last_commit = "afc1c4d1fa2f9cc2a3a1deb19c03802888cc1e88"
+last_commit_time = "2017-12-31T01:48"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+forks = 0
+watching = 1
+branches = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/kennethgoodman/pyzcash_simplified"
+last_commit = "01e59cd79d892843f1b3b1d78123f62d92f63b95"
+last_commit_time = "2019-02-18T03:25"
+status = "200"
+
+[repo.stats]
+stars = 12
+commits = 1
+branches = 5
+forks = 3
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/kozyilmaz/zcash-apple"
+last_commit = "cf121a47159e5c807eab0ef3c4b7439fb15164e3"
+last_commit_time = "2019-01-23T10:46"
+status = "200"
+
+[repo.stats]
+forks = 21
+watching = 16
+stars = 78
+tag_count = 0
+commits = 3
+branches = 527
 
 [[repo]]
 url = "https://github.com/montyanderson/zcash"
+last_commit = "6fbc9a4f2a61fd2518bfaaa0dae54252bb2a352d"
+last_commit_time = "2021-08-26T15:52"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+forks = 10
+branches = 56
+stars = 18
+commits = 2
 
 [[repo]]
 url = "https://github.com/MyHush/messenger"
+last_commit = "90944eb8ee43d118587f3b853a6c7cd0cdbaa813"
+last_commit_time = "2019-12-13T17:19"
+status = "200"
+
+[repo.stats]
+watching = 5
+branches = 16
+stars = 3
+commits = 1
+forks = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/namelessperson0/zcash-ecommerce"
+last_commit = "e21882e4717ecf5993a53625e53bd4f3dec9e3a3"
+last_commit_time = "2020-12-14T17:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+branches = 15
+commits = 1
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/nektro/docker-zcash"
+last_commit = "69b4269d52c9fdb1488854ed7262dec49977a3a8"
+last_commit_time = "2020-09-02T00:08"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 1
+tag_count = 0
+branches = 5
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/ovsoinc/zfaucet"
+last_commit = "d6e99a4c0bc803987c6cf197db10a69a391ee824"
+last_commit_time = "2019-06-27T00:10"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+forks = 9
+branches = 628
+stars = 10
+watching = 4
 
 [[repo]]
 url = "https://github.com/ovsoinc/zmine"
+last_commit = "4f23d62e8f9bbf9791172394aa58fedab1a6d3ff"
+last_commit_time = "2019-06-27T01:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 4
+commits = 3
+branches = 280
+watching = 2
+stars = 7
 
 [[repo]]
 url = "https://github.com/paritytech/parity-zcash"
 tags = ["Protocol"]
+status = "200"
+
+[repo.stats]
+commits = 8
+branches = 0
+watching = 27
+forks = 51
+stars = 182
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/plutomonkey/zcash-sprout-verifier"
+last_commit = "03abf5882a676e85502aef03713d65a06ce374cf"
+last_commit_time = "2017-08-12T09:29"
+status = "200"
+
+[repo.stats]
+watching = 5
+branches = 4
+commits = 1
+forks = 1
+tag_count = 0
+stars = 19
 
 [[repo]]
 url = "https://github.com/plutomonkey/zcash-vanity"
+last_commit = "36d6b0a21f50f8345906a48862af3c6faf421fdc"
+last_commit_time = "2021-08-26T14:05"
+status = "200"
+
+[repo.stats]
+stars = 21
+tag_count = 0
+forks = 8
+branches = 31
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/recursethis/zcash-docker"
+last_commit = "3c4a160733f0e756334fd0b5e75fdaafb6df55b5"
+last_commit_time = "2017-11-15T21:52"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+tag_count = 0
+stars = 0
+branches = 7
+forks = 0
 
 [[repo]]
 url = "https://github.com/rodrigoalvesvieira/zcash_ruby_explorer"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+stars = 0
+forks = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/sebastianst/GenesisZ"
+last_commit = "e2d987acc56625c32f22504119b431dcda58634f"
+last_commit_time = "2018-05-17T10:18"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 26
+stars = 21
+branches = 88
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sokel/zcash-docker-cuda"
+last_commit = "59eb938e66fba69135a784d854e27be708c3d686"
+last_commit_time = "2018-01-22T16:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+commits = 1
+forks = 0
+stars = 0
+branches = 2
 
 [[repo]]
 url = "https://github.com/stfwn/zcashcow"
+last_commit = "c424f6ad9f91dfaee9cdd10ba8405c163651853c"
+last_commit_time = "2018-01-21T12:51"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 3
+tag_count = 0
+watching = 2
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/swoppy/zcash-halving"
+last_commit = "7a33806651b6616c82f1ec37dbd5552c57018d1a"
+last_commit_time = "2020-11-28T11:22"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 34
+tag_count = 0
+commits = 16
+forks = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/unsalted/docker-nheqminer-cuda"
+last_commit = "f40cd2fc8510bdf7eae9794eb3c92c90d46b5fae"
+last_commit_time = "2022-06-16T14:10"
+status = "200"
+
+[repo.stats]
+stars = 26
+branches = 33
+forks = 18
+watching = 2
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/vtorhonen/ez-docker-zcash"
+last_commit = "506f288edb046336b7d3956f6f31d95fb23e7d23"
+last_commit_time = "2017-10-05T18:31"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+branches = 26
+watching = 0
+forks = 4
+commits = 2
 
 [[repo]]
 url = "https://github.com/zcash/awesome-zcash"
+status = "404"
+
+[repo.stats]
+commits = 0
+branches = 0
+watching = 0
+forks = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/zcash/developers"
+last_commit = "968937cf9f790a4ebad09f7ca8700601be9bd482"
+last_commit_time = "2022-06-28T17:27"
+status = "200"
+
+[repo.stats]
+stars = 2
+commits = 2
+tag_count = 0
+forks = 4
+branches = 45
+watching = 5
 
 [[repo]]
 url = "https://github.com/zcash/gitian.sigs"
+last_commit = "ef1daa962045fafb4e5bd6897d057e6359b164ed"
+last_commit_time = "2022-07-26T19:04"
+status = "200"
+
+[repo.stats]
+commits = 9
+forks = 28
+branches = 417
+watching = 12
+tag_count = 0
+stars = 4
 
 [[repo]]
 url = "https://github.com/zcash/halo2"
+last_commit = "8ff5b1e3af95ce8e9dcf1e74173d3d62ad1770b0"
+last_commit_time = "2022-07-15T14:33"
+status = "200"
+
+[repo.stats]
+watching = 29
+stars = 222
+tag_count = 0
+forks = 129
+branches = 0
+commits = 37
 
 [[repo]]
 url = "https://github.com/zcash/halo2_gadgets"
+status = "404"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 0
+watching = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/zcash/homebrew-formulae"
+last_commit = "9c30229fd4be2137bc15ac750a3ea58b60f2db32"
+last_commit_time = "2021-06-30T21:33"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+branches = 8
+forks = 0
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/zcash/incrementalmerkletree"
+last_commit = "ab23aafe5a3612c3c0281584b6179c08663abee1"
+last_commit_time = "2022-08-04T22:50"
+status = "200"
+
+[repo.stats]
+stars = 16
+tag_count = 0
+branches = 151
+commits = 1
+watching = 9
+forks = 8
 
 [[repo]]
 url = "https://github.com/zcash/kotlin-bip39"
+last_commit = "4efb3ad8450baaf68f87aae734f0637d551a34c7"
+last_commit_time = "2022-08-02T17:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+forks = 6
+stars = 13
+branches = 82
+watching = 11
 
 [[repo]]
 url = "https://github.com/zcash/lcwg"
+last_commit = "c480dbccd51618550dc1515c3fd4e8fb6688ced0"
+last_commit_time = "2022-07-27T15:14"
+status = "200"
+
+[repo.stats]
+commits = 8
+forks = 0
+watching = 10
+stars = 2
+tag_count = 0
+branches = 83
 
 [[repo]]
 url = "https://github.com/zcash/librustzcash"
+status = "200"
+
+[repo.stats]
+watching = 30
+tag_count = 0
+stars = 251
+forks = 177
+branches = 0
+commits = 13
 
 [[repo]]
 url = "https://github.com/zcash/libsnark"
+last_commit = "9ada3f84ab484c57b2247c2f41091fd6a0916573"
+last_commit_time = "2017-02-09T22:12"
+status = "200"
+
+[repo.stats]
+forks = 500
+tag_count = 0
+commits = 10
+stars = 107
+watching = 22
+branches = 203
 
 [[repo]]
 url = "https://github.com/zcash/lightwalletd"
+last_commit = "2d3943b8e995a3b2c5648ec9859dccc67c535386"
+last_commit_time = "2022-07-21T17:31"
+status = "200"
+
+[repo.stats]
+branches = 455
+stars = 62
+tag_count = 0
+forks = 73
+commits = 28
+watching = 19
 
 [[repo]]
 url = "https://github.com/zcash/logos"
+last_commit = "7cc4986023325c9b95c8ad255a659603966f7cbc"
+last_commit_time = "2020-03-31T10:58"
+status = "200"
+
+[repo.stats]
+branches = 21
+commits = 1
+watching = 10
+tag_count = 0
+stars = 5
+forks = 9
 
 [[repo]]
 url = "https://github.com/zcash/mpc"
+last_commit = "79e7689e78180b5b6b3855d2d2e3f213674121e9"
+last_commit_time = "2019-10-30T17:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 4
+forks = 36
+stars = 145
+watching = 25
+branches = 206
 
 [[repo]]
 url = "https://github.com/zcash/orchard"
+last_commit = "3faab98e9e82618a0f2d887054e9e28b0f7947dd"
+last_commit_time = "2022-06-24T16:23"
+status = "200"
+
+[repo.stats]
+forks = 24
+watching = 16
+stars = 35
+tag_count = 0
+commits = 7
+branches = 0
 
 [[repo]]
 url = "https://github.com/zcash/pasta"
+last_commit = "f0f7068552a3565786cb338448cb58bc36a8314a"
+last_commit_time = "2021-04-27T13:24"
+status = "200"
+
+[repo.stats]
+watching = 11
+tag_count = 0
+forks = 2
+stars = 30
+commits = 2
+branches = 108
 
 [[repo]]
 url = "https://github.com/zcash/pasta_curves"
+last_commit = "682a0e65b87a835df9cd1e1e55468d969269d992"
+last_commit_time = "2022-05-04T23:26"
+status = "200"
+
+[repo.stats]
+stars = 30
+branches = 750
+commits = 2
+forks = 22
+watching = 12
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zcash/pollard"
+last_commit = "3faab98e9e82618a0f2d887054e9e28b0f7947dd"
+last_commit_time = "2022-06-24T16:23"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 16
+forks = 24
+stars = 35
+branches = 0
+commits = 7
 
 [[repo]]
 url = "https://github.com/zcash/protocol.z.cash"
+last_commit = "b874fbe2dc061fdfc6ccca73dfee755c1b0559a9"
+last_commit_time = "2022-05-25T21:56"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+watching = 4
+branches = 8
+forks = 0
 
 [[repo]]
 url = "https://github.com/zcash/rpc"
+last_commit = "90f1fa4fab106ac3a97e27fda12752cc5f92a898"
+last_commit_time = "2022-07-27T18:33"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 25
+tag_count = 0
+stars = 0
+commits = 7
+forks = 0
 
 [[repo]]
 url = "https://github.com/zcash/sapling-security-analysis"
+last_commit = "8db03c3831e38e2baf038fb955655d2353479e8e"
+last_commit_time = "2019-05-03T20:15"
+status = "200"
+
+[repo.stats]
+watching = 16
+tag_count = 0
+stars = 14
+commits = 1
+forks = 1
+branches = 50
 
 [[repo]]
 url = "https://github.com/zcash/secant-android-wallet"
+last_commit = "b0833dc4cb576c4f5ebae22500cd2c705f64213a"
+last_commit_time = "2022-08-05T12:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 4
+stars = 3
+commits = 6
+branches = 235
+watching = 9
 
 [[repo]]
 url = "https://github.com/zcash/secant-ios-wallet"
+last_commit = "4f029e0ba4e00e3bb31ffe5aa732ed0e00956745"
+last_commit_time = "2022-08-02T06:07"
+status = "200"
+
+[repo.stats]
+forks = 3
+commits = 2
+watching = 8
+stars = 6
+tag_count = 0
+branches = 305
 
 [[repo]]
 url = "https://github.com/zcash/zcash"
 tags = ["Protocol"]
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 12
+branches = 0
+stars = 0
+tag_count = 0
+watching = 389
 
 [[repo]]
 url = "https://github.com/zcash/zcash-android-wallet"
+last_commit = "ecbc04a3a253f838f92d7505dd7d2715c41ded47"
+last_commit_time = "2022-08-05T12:11"
+status = "200"
+
+[repo.stats]
+branches = 466
+forks = 20
+commits = 6
+watching = 14
+stars = 16
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zcash/zcash-android-wallet-plugins"
+last_commit = "6ace71cef878a141206002b81fb39abf46bec306"
+last_commit_time = "2020-06-07T00:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 0
+branches = 5
+commits = 1
+watching = 6
 
 [[repo]]
 url = "https://github.com/zcash/zcash-android-wallet-poc"
+last_commit = "d0bed876402e650ff6d865a335e257a83f4bb2d2"
+last_commit_time = "2019-05-21T11:48"
+status = "200"
+
+[repo.stats]
+forks = 5
+commits = 1
+tag_count = 0
+watching = 13
+branches = 146
+stars = 14
 
 [[repo]]
 url = "https://github.com/zcash/zcash-android-wallet-sdk"
+status = "200"
+
+[repo.stats]
+branches = 849
+commits = 11
+stars = 45
+forks = 38
+watching = 12
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zcash/zcash-blog"
+last_commit = "785e1fca6d881b56fffede98a966ebc5167b6956"
+last_commit_time = "2020-05-28T08:46"
+status = "200"
+
+[repo.stats]
+branches = 82
+forks = 9
+commits = 2
+stars = 8
+watching = 10
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zcash/zcash-docs"
+last_commit = "ed12edc0de22e7a82c48f4d8e3a7c4142e01f0e9"
+last_commit_time = "2018-01-18T22:19"
+status = "200"
+
+[repo.stats]
+stars = 29
+forks = 19
+watching = 11
+commits = 1
+tag_count = 0
+branches = 32
 
 [[repo]]
 url = "https://github.com/zcash/zcash-gitcoin"
+last_commit = "f254e87f8ef4bd3648642fb30eeb1e4dfeadd16a"
+last_commit_time = "2020-06-09T01:05"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 5
+branches = 1
+tag_count = 0
+stars = 0
+forks = 4
 
 [[repo]]
 url = "https://github.com/zcash/zcash-gitian"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 7
+branches = 314
+forks = 30
+stars = 16
+watching = 11
 
 [[repo]]
 url = "https://github.com/zcash/zcash-ios-wallet"
+status = "200"
+
+[repo.stats]
+watching = 13
+stars = 23
+commits = 9
+branches = 470
+tag_count = 0
+forks = 23
 
 [[repo]]
 url = "https://github.com/zcash/zcash-seeder"
+last_commit = "01fc41b063d83a9bc19ebb12e9e48bb7ae659096"
+last_commit_time = "2021-10-02T00:39"
+status = "200"
+
+[repo.stats]
+watching = 10
+branches = 195
+tag_count = 0
+stars = 13
+commits = 9
+forks = 956
 
 [[repo]]
 url = "https://github.com/zcash/zcash-wordpress-theme"
+last_commit = "38a21883dcc3fc6d3b8e254ee7dd3123b534f928"
+last_commit_time = "2018-07-30T20:29"
+status = "200"
+
+[repo.stats]
+branches = 22
+tag_count = 0
+watching = 7
+commits = 1
+forks = 6
+stars = 2
 
 [[repo]]
 url = "https://github.com/zcash/zcash.github.io"
+last_commit = "d039bb70c72651cbc7a852660aa11da4a5cf3ce4"
+last_commit_time = "2021-11-11T20:54"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+forks = 0
+branches = 5
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/zcash/ZcashLightClientKit"
+status = "200"
+
+[repo.stats]
+watching = 12
+forks = 24
+commits = 29
+stars = 28
+tag_count = 0
+branches = 560
 
 [[repo]]
 url = "https://github.com/zcash/zfaucet"
+last_commit = "67d45d20529ca4e9688e173e13e9aa7b977b6ae6"
+last_commit_time = "2017-05-05T23:38"
+status = "200"
+
+[repo.stats]
+branches = 43
+commits = 2
+forks = 23
+tag_count = 0
+stars = 8
+watching = 7
 
 [[repo]]
 url = "https://github.com/zcash/zips"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 34
+stars = 226
+watching = 52
+forks = 131
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/archived-zfnd-website"
+last_commit = "7ed5ae8109e95a15bd0b2af51b3b04d3d247f614"
+last_commit_time = "2019-01-17T22:53"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 7
+stars = 3
+watching = 5
+branches = 254
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/bellman"
+last_commit = "fa9be45588227a8c6ec34957de3f68705f07bd92"
+last_commit_time = "2020-11-10T18:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 380
+watching = 1
+commits = 6
+branches = 247
+stars = 1
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/bn"
+last_commit = "78456041ccc81dddeb3243fff7ebe75ef2c82c9b"
+last_commit_time = "2019-02-12T16:52"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 70
+watching = 2
+stars = 0
+forks = 100
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/btcd"
+last_commit = "40dc9492aa42cf38f20dce8e48f74d6a7c4effb0"
+last_commit_time = "2022-06-07T00:06"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 1
+forks = 0
+stars = 0
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/coredns-zcash"
+last_commit = "6d3a819993b72e3e0fb7b97fff152f86f31d009c"
+last_commit_time = "2022-06-14T18:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 8
+commits = 3
+forks = 2
+stars = 3
+branches = 21
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/developers"
+last_commit = "7cd228f6aac84df61ce777ab4cfd7066a35814b2"
+last_commit_time = "2022-06-02T17:59"
+status = "200"
+
+[repo.stats]
+branches = 49
+forks = 4
+stars = 0
+tag_count = 0
+commits = 5
+watching = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/dnsseeder"
+last_commit = "c0b68332d59f2137e8cdf522c5c7e79a4250d094"
+last_commit_time = "2022-06-14T14:59"
+status = "200"
+
+[repo.stats]
+stars = 3
+commits = 6
+forks = 3
+watching = 9
+branches = 53
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/ed25519-zebra"
+last_commit = "15e028616c6b370dee4e3399153eb8a4348fbe39"
+last_commit_time = "2022-05-05T13:40"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 10
+forks = 16
+stars = 24
+branches = 82
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/Elections"
+last_commit = "7c49d847e83a8373ea922cf4988c1c6477ac807a"
+last_commit_time = "2019-01-17T22:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 31
+watching = 9
+branches = 103
+commits = 2
+forks = 21
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/frost"
+last_commit = "789551186abb2f90b45ff11b6d3741d26406122d"
+last_commit_time = "2022-08-04T22:58"
+status = "200"
+
+[repo.stats]
+commits = 10
+forks = 0
+stars = 14
+tag_count = 0
+watching = 4
+branches = 232
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/GrantProposals-2017Q4"
+last_commit = "5c2877b4ae8d333dbc752d57ef0844cca45745f1"
+last_commit_time = "2018-04-08T23:35"
+status = "200"
+
+[repo.stats]
+branches = 12
+stars = 25
+commits = 1
+forks = 3
+watching = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/GrantProposals-2018Q2"
+last_commit = "3cd8fc3709a62aacbc6a1fcb79fad5690bccdaba"
+last_commit_time = "2018-04-27T20:04"
+status = "200"
+
+[repo.stats]
+stars = 27
+tag_count = 0
+commits = 1
+watching = 16
+branches = 16
+forks = 2
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/hashes"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 0
+commits = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/jubjub"
+last_commit = "38d38af3b792d2c55d815d214a7cd157dc8f71ad"
+last_commit_time = "2020-04-24T03:14"
+status = "200"
+
+[repo.stats]
+commits = 4
+stars = 0
+forks = 24
+watching = 1
+tag_count = 0
+branches = 151
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/libbolt"
+last_commit = "595cd87b9036416cc2c9992038a5a04f5f4e70fa"
+last_commit_time = "2019-12-10T21:38"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 372
+forks = 9
+commits = 1
+stars = 75
+watching = 19
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/librustzcash"
+last_commit = "81c69dd0a93dcb07bc136d31969f9f8021a5ec48"
+last_commit_time = "2022-01-19T16:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 177
+commits = 21
+branches = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/lightwalletd"
+last_commit = "9439901d5c86d9a88593527e2ca0b22b020c2ed5"
+last_commit_time = "2022-06-07T14:59"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 543
+commits = 10
+watching = 0
+forks = 73
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/mailman-lists-archive"
+last_commit = "84ef2c3853bf7ff7163fe432f9d99c414800e171"
+last_commit_time = "2020-07-10T19:46"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 1
+forks = 0
+tag_count = 0
+stars = 0
+branches = 3
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/metrics"
+last_commit = "bde1a5031533471a2da7ee305f2f282efb9adf40"
+last_commit_time = "2021-10-09T03:56"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+forks = 95
+commits = 5
+stars = 0
+branches = 209
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/orchard"
+last_commit = "4f9c0be42eabcf3cb79916b1a4af61844c3a3d8b"
+last_commit_time = "2021-10-15T14:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 3
+forks = 0
+watching = 3
+branches = 825
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/pairing"
+last_commit = "50a2bc3d670e07702f782088c008f76ac2f961c6"
+last_commit_time = "2020-09-08T21:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 274
+watching = 1
+stars = 0
+forks = 91
+commits = 3
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/parity-zcash"
+last_commit = "ce3c1b99337a51fbdb163046644d8a78de9ec7fd"
+last_commit_time = "2019-09-23T19:13"
+status = "200"
+
+[repo.stats]
+forks = 14
+watching = 18
+branches = 0
+tag_count = 0
+commits = 27
+stars = 80
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/powersoftau-attestations"
+last_commit = "806f23a094fd99e49d6f66a4b26e4b97b0315de2"
+last_commit_time = "2018-04-10T17:10"
+status = "200"
+
+[repo.stats]
+forks = 16
+commits = 3
+branches = 181
+watching = 8
+tag_count = 0
+stars = 20
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/reddsa"
+last_commit = "51b1519b0c64d52500daefa4e0680e322c08d677"
+last_commit_time = "2022-05-13T19:25"
+status = "200"
+
+[repo.stats]
+watching = 10
+tag_count = 0
+forks = 3
+branches = 203
+commits = 2
+stars = 3
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/redjubjub"
+last_commit = "e19279f70f3999627b4076386848d1956b18560e"
+last_commit_time = "2022-05-17T17:27"
+status = "200"
+
+[repo.stats]
+watching = 12
+tag_count = 0
+branches = 190
+commits = 12
+stars = 24
+forks = 18
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/redjubjub-zebra"
+last_commit = "e19279f70f3999627b4076386848d1956b18560e"
+last_commit_time = "2022-05-17T17:27"
+status = "200"
+
+[repo.stats]
+commits = 12
+watching = 12
+branches = 190
+tag_count = 0
+forks = 18
+stars = 24
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/ristretto255-dh"
+last_commit = "55dc5504ef452f7e7494b369179a59d8aaee2f26"
+last_commit_time = "2022-04-22T11:42"
+status = "200"
+
+[repo.stats]
+forks = 4
+watching = 2
+branches = 75
+tag_count = 0
+commits = 2
+stars = 19
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/rust-bitcoin"
+last_commit = "8a40c7b51a9cffb63beaa837af682d17eec8ad01"
+last_commit_time = "2020-07-02T08:56"
+status = "200"
+
+[repo.stats]
+branches = 854
+commits = 29
+forks = 346
+watching = 1
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/rust-secp256k1"
+last_commit = "52b16b1b568ec60f84c8348e285a9ef899255c54"
+last_commit_time = "2019-02-12T06:40"
+status = "200"
+
+[repo.stats]
+commits = 6
+stars = 0
+forks = 205
+watching = 2
+branches = 268
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/stayinghomeclub"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+tag_count = 0
+commits = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/tech-reports"
+last_commit = "14db294657b3f21d2241119c6188f3d3a6565f85"
+last_commit_time = "2020-09-02T03:51"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 3
+watching = 5
+tag_count = 0
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/tower"
+last_commit = "b12a3e3ae961a9b719184cc53307e9ae34339d26"
+last_commit_time = "2020-06-15T16:38"
+status = "200"
+
+[repo.stats]
+forks = 159
+watching = 2
+stars = 0
+branches = 388
+tag_count = 0
+commits = 10
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zcash-fpga"
+last_commit = "3b45bdb448a9a0ad9f99a31c02b4466ecec6fd85"
+last_commit_time = "2020-09-10T02:36"
+status = "200"
+
+[repo.stats]
+branches = 388
+forks = 39
+stars = 95
+tag_count = 0
+commits = 1
+watching = 18
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zcash-grant-system"
+last_commit = "2f87d9617115f24f8e0a0271f9fd130df126e913"
+last_commit_time = "2021-07-13T01:20"
+status = "200"
+
+[repo.stats]
+forks = 8
+commits = 10
+branches = 925
+watching = 7
+stars = 10
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zcash-pegzone"
+last_commit = "313be5ff1cfa17dbf2632e63a099a16ce0b5bade"
+last_commit_time = "2020-06-14T03:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 25
+commits = 2
+watching = 18
+forks = 5
+branches = 6
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zcash_script"
+last_commit = "c9fbc441efd78593ba6a9828be45baf2d6469757"
+last_commit_time = "2022-05-17T22:31"
+status = "200"
+
+[repo.stats]
+branches = 101
+forks = 7
+tag_count = 0
+watching = 8
+commits = 8
+stars = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zcashd"
+last_commit = "bb91c9fbc339562a0c6c758dcc22961c657e38b9"
+last_commit_time = "2022-02-22T16:05"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+branches = 0
+stars = 1
+forks = 0
+commits = 24
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/ZcashFoundation"
+last_commit = "4f702bb03f57c62e2db04bca922203cd05b6194f"
+last_commit_time = "2019-01-17T22:50"
+status = "200"
+
+[repo.stats]
+branches = 54
+watching = 26
+stars = 60
+forks = 13
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zcashfoundation.github.io"
+last_commit = "7ed5ae8109e95a15bd0b2af51b3b04d3d247f614"
+last_commit_time = "2019-01-17T22:53"
+status = "200"
+
+[repo.stats]
+forks = 7
+watching = 5
+branches = 254
+stars = 3
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zcon0-workshop-notes"
+last_commit = "967c79cdbfe3b13d7269696a29675c43f6b37206"
+last_commit_time = "2019-01-17T22:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 6
+stars = 11
+forks = 9
+branches = 33
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zebra"
+last_commit = "905ffca3b7055fbb69c2aae44573d3f992bc09d4"
+last_commit_time = "2022-08-05T15:02"
+status = "200"
+
+[repo.stats]
+watching = 17
+stars = 284
+forks = 52
+tag_count = 0
+branches = 0
+commits = 76
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zebra-net-ra-crash-repro"
+last_commit = "5af34c814b6e0ef76045613519c2f341324ea963"
+last_commit_time = "2020-06-16T22:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+branches = 8
+commits = 1
+stars = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zecwallet"
+last_commit = "af204a55d76cd93fd90c705c8e9a9fc66d29c459"
+last_commit_time = "2022-07-29T16:45"
+status = "200"
+
+[repo.stats]
+stars = 173
+commits = 7
+forks = 135
+tag_count = 0
+branches = 0
+watching = 22
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zecwallet-lite"
+last_commit = "fffd5666f6a22698cc665086684ce4fd955953fc"
+last_commit_time = "2021-10-14T18:54"
+status = "200"
+
+[repo.stats]
+commits = 9
+branches = 0
+watching = 0
+forks = 81
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zepio"
+last_commit = "5aaa096338d030c99e0ca781e8ae9188c5d644f4"
+last_commit_time = "2020-03-26T02:52"
+status = "200"
+
+[repo.stats]
+forks = 34
+watching = 7
+tag_count = 0
+stars = 40
+branches = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zepio-docs"
+last_commit = "0527f008a1161b96609e19616e55f1e163491203"
+last_commit_time = "2019-05-29T21:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 2
+commits = 6
+branches = 27
+watching = 3
+stars = 3
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zfaucet"
+last_commit = "a24b0d8d05f9078ab9fb84e544a7420594c07518"
+last_commit_time = "2019-04-23T16:12"
+status = "200"
+
+[repo.stats]
+branches = 48
+forks = 23
+watching = 1
+commits = 4
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zfaucet-deploy"
+last_commit = "49ed9947e7b65055483fa23b9b4474db9c9e88cc"
+last_commit_time = "2019-09-06T21:59"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 2
+branches = 1
+commits = 1
+stars = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zfnd"
+last_commit = "2566ff54891e251467265231f5668b05ace24df3"
+last_commit_time = "2022-02-24T11:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 13
+branches = 0
+commits = 19
+forks = 15
+watching = 13
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zips"
+last_commit = "4966a64340449d099dff7569407ac3ce8faac72f"
+last_commit_time = "2022-06-22T21:35"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 2
+forks = 131
+commits = 30
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zomg"
+last_commit = "6e75cf70fb583d0a40205f1601f8a7232062aee9"
+last_commit_time = "2021-08-06T04:09"
+status = "200"
+
+[repo.stats]
+branches = 115
+stars = 4
+commits = 1
+watching = 5
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ZcashFoundation/zwallet-ios"
+last_commit = "b644c78a446b4bc515ab0061010af5e0675a31d8"
+last_commit_time = "2019-06-14T17:12"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 2
+forks = 1
+commits = 1
+tag_count = 0
+branches = 66
 
 [[repo]]
 url = "https://github.com/ZcashJS/react-native-zcash"
+last_commit = "f726cd3bc44b12be926a4a16623a3066366b6f9c"
+last_commit_time = "2018-07-16T22:16"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 5
+watching = 2
+tag_count = 0
+branches = 63
+commits = 4
 
 [[repo]]
 url = "https://github.com/ZcashJS/zcash-electron"
+last_commit = "44dc4be6af31416c40666c23610eed27632c889b"
+last_commit_time = "2018-08-19T00:54"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 2
+branches = 13
+forks = 2
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Zondax/ledger-zcash"
+last_commit = "8661e71d0184ee73b423d3bed26009e1630fc555"
+last_commit_time = "2022-07-30T18:29"
+status = "200"
+
+[repo.stats]
+stars = 14
+watching = 8
+tag_count = 0
+forks = 7
+branches = 455
+commits = 3

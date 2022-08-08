@@ -1,64 +1,268 @@
-# Ecosystem Level Information
 title = "Grape Protocol"
-
+toml_path = "data/ecosystems/g/grape-protocol.toml"
+github_organizations = ["https://github.com/The-Great-Ape"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/The-Great-Ape"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/The-Great-Ape/client"
+last_commit = "e42026754362639ebaf0a71b0fc4e151b6aa5cc8"
+last_commit_time = "2021-08-04T09:47"
+status = "200"
+
+[repo.stats]
+branches = 89
+commits = 3
+forks = 4
+watching = 3
+tag_count = 0
+stars = 7
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/client-v2"
+last_commit = "563588657c369a1d630349c602ae6a5c3418ecd6"
+last_commit_time = "2021-08-08T11:58"
+status = "200"
+
+[repo.stats]
+watching = 0
+commits = 1
+branches = 5
+stars = 1
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/DAOdocs"
+last_commit = "3f5ef28dfc2d0d4c81ca83a5a718d6437dbc3368"
+last_commit_time = "2021-10-07T21:00"
+status = "200"
+
+[repo.stats]
+branches = 13
+commits = 2
+forks = 1
+watching = 0
+stars = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/dapp-sign-on"
+last_commit = "e1e51e384ff753d666eaf4124e29163c1be45cca"
+last_commit_time = "2021-05-15T15:13"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 624
+stars = 0
+branches = 39
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/discord-oauth-offchain"
+last_commit = "476ab6e479745f30125eef8cb385be797d380100"
+last_commit_time = "2021-05-22T11:19"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+tag_count = 0
+watching = 2
+branches = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/grape-analytics-dashboard"
+last_commit = "24d1a47921310e575e7caf93ca4bc6bd4acf389b"
+last_commit_time = "2021-12-16T12:17"
+status = "200"
+
+[repo.stats]
+stars = 4
+forks = 2
+tag_count = 0
+watching = 0
+commits = 1
+branches = 5
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/grape-examples"
+last_commit = "4b8ed648c7af02cf4a2111d2ff62189567b5fbf5"
+last_commit_time = "2021-06-10T19:04"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 8
+branches = 38
+watching = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/grape-metaplex"
+last_commit = "635315b99aeb524b778e27363e9ec7ffa1d5c7fe"
+last_commit_time = "2021-08-27T19:08"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+forks = 0
+branches = 270
+commits = 16
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/grapebot"
+last_commit = "34e38b5acf49b718e7aeec14374454666343f929"
+last_commit_time = "2021-05-30T16:58"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 77
+watching = 0
+forks = 19
+commits = 1
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/main-site"
+last_commit = "27bf01a6c6229f356752c52d08395ca7e903bd90"
+last_commit_time = "2021-05-27T10:11"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 36
+watching = 2
+tag_count = 0
+stars = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/oracle-data-collection"
+last_commit = "8d5ecbccabc5afb2574d0ff2db29cd73a3b6b466"
+last_commit_time = "2021-11-20T03:03"
+status = "200"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+commits = 2
+stars = 1
+forks = 0
+branches = 13
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/oracle-nft-floor"
+last_commit = "a0fac7bcb35563699229827e92c3c97f495f13ed"
+last_commit_time = "2021-10-29T10:43"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 1
+stars = 1
+forks = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/permissioned-markets-quickstart"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+branches = 7
+commits = 1
+tag_count = 0
+forks = 13
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/server"
+last_commit = "41ff70ca45a89a38c707d3373b5a003b372e41a4"
+last_commit_time = "2021-08-21T17:52"
+status = "200"
+
+[repo.stats]
+branches = 106
+forks = 13
+commits = 1
+stars = 20
+watching = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/solana-pfp-program"
+last_commit = "1976348326dcf5922584387c290ba380e051e068"
+last_commit_time = "2022-01-14T16:31"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+watching = 0
+stars = 1
+branches = 18
+commits = 1
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/solana-safety-101"
+last_commit = "f421083ca5a285a2944964efca3b2c8d951974c6"
+last_commit_time = "2022-03-09T09:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 45
+commits = 1
+stars = 6
+forks = 7
+watching = 1
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/solana-safety-101-web-extension"
+last_commit = "27694e172e1d825c55fd86ed832b39ad395d1f39"
+last_commit_time = "2021-09-27T13:08"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+stars = 0
+branches = 5
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/unlimitedgrapes.com"
+last_commit = "17cde4d0ae4ce154d690cd1a307af98b12285e9a"
+last_commit_time = "2022-04-14T11:15"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 79
+stars = 4
+watching = 2
+forks = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/The-Great-Ape/wallet-adapter"
+last_commit = "00161ce41a1f297656e825aba736596c38b32f99"
+last_commit_time = "2021-08-07T00:40"
+status = "200"
+
+[repo.stats]
+branches = 75
+watching = 0
+forks = 549
+commits = 4
+stars = 0
+tag_count = 0

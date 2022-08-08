@@ -1,151 +1,670 @@
-# Ecosystem Level Information
 title = "Blockscape Network"
-
+toml_path = "data/ecosystems/b/blockscape-network.toml"
+github_organizations = ["https://github.com/BlockscapeNetwork"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/BlockscapeNetwork"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/abci2-rs"
+last_commit = "0e40cf1592f33548961cf18116ba309ed4c1297f"
+last_commit_time = "2021-04-13T10:14"
+status = "200"
+
+[repo.stats]
+branches = 9
+tag_count = 0
+commits = 1
+forks = 1
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/althea-chain"
+last_commit = "16ce70176748c8969a6770e71354e797f60fb1f9"
+last_commit_time = "2021-07-29T15:45"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 483
+watching = 0
+commits = 12
+stars = 0
+branches = 273
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/aplikigo-diary"
+last_commit = "6b4024f120686251a60d39d2d894ef2ddf1ae825"
+last_commit_time = "2021-03-03T22:37"
+status = "200"
+
+[repo.stats]
+branches = 11
+commits = 1
+watching = 1
+stars = 0
+tag_count = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/aragon-client"
+last_commit = "477f2c8631ddee889043df17ea2497e47602a6d2"
+last_commit_time = "2020-11-09T14:26"
+status = "200"
+
+[repo.stats]
+forks = 271
+branches = 0
+tag_count = 0
+commits = 14
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/assets"
+last_commit = "d204f98de3dd1d01da7e43beed32a19936a9e782"
+last_commit_time = "2022-02-15T15:36"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 31
+tag_count = 0
+forks = 43
+watching = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/cosmons-frontend"
+last_commit = "669c6f9d66c54aed060627758e0b489ea8ac0764"
+last_commit_time = "2020-11-05T09:35"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+stars = 1
+commits = 2
+branches = 39
+forks = 5
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/cosmoscan-api"
+last_commit = "3932866aa1add19f7ebd6e3f7036cbc0eaefb6e8"
+last_commit_time = "2021-03-24T08:49"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 2
+forks = 17
+stars = 0
+branches = 89
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/cosmoscan-front"
+last_commit = "96d8bd3e319ace79025a192283c044236a9caf62"
+last_commit_time = "2020-09-22T13:02"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 9
+branches = 55
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/cosmostation_token_resource"
+last_commit = "a234206f976c42d8e9a53c6475f0e60fa11f43a5"
+last_commit_time = "2022-07-29T09:47"
+status = "200"
+
+[repo.stats]
+forks = 945
+stars = 0
+tag_count = 0
+branches = 0
+commits = 3
+watching = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/CosmosZones"
+last_commit = "86761a9d40b71eb8c763bb521e53fb4005c8b628"
+last_commit_time = "2020-12-17T14:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 10
+commits = 1
+forks = 1
+stars = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/cosmwasm-plus"
+last_commit = "695fc09970d152e60adb4b88c1ceb3f1bd7694bc"
+last_commit_time = "2020-11-06T13:30"
+status = "200"
+
+[repo.stats]
+commits = 7
+forks = 222
+tag_count = 0
+branches = 703
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/cw_20_faucet"
+last_commit = "cbc72a6a19519ac5d8030419fdf10c9876e665c2"
+last_commit_time = "2020-11-03T14:40"
+status = "200"
+
+[repo.stats]
+branches = 5
+tag_count = 0
+watching = 1
+forks = 1
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/dc4bc"
+last_commit = "54857abadd92b98cbf52fb0ce0716d568ce4aa6c"
+last_commit_time = "2020-11-24T15:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 6
+branches = 455
+stars = 0
+watching = 1
+commits = 24
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/dc4bc-conference-call"
+last_commit = "7769230b52495fa716b28f9a34e788cddca57dc4"
+last_commit_time = "2020-11-23T18:15"
+status = "200"
+
+[repo.stats]
+commits = 10
+branches = 33
+stars = 0
+watching = 1
+forks = 14
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/dc4bc_conference_call_4lido"
+last_commit = "eadaef1086e7747ba18b76ab814524b4aed1a292"
+last_commit_time = "2020-12-09T12:16"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 53
+stars = 0
+tag_count = 0
+commits = 1
+forks = 15
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/ed"
+last_commit = "e759c2f379b8a5ae6ef4806a72d75dd9c60d1a89"
+last_commit_time = "2021-03-15T14:11"
+status = "200"
+
+[repo.stats]
+forks = 4
+stars = 0
+branches = 20
+watching = 1
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/eth2.0-deposit-cli"
+last_commit = "3f4a79ae40a8e4f48adb3f2f1cfff610c5fd8984"
+last_commit_time = "2020-10-01T13:57"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 15
+watching = 1
+tag_count = 0
+forks = 185
+branches = 198
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/gaia-updater"
+last_commit = "355301aab8d527aea2eb59b9813a1ae1511f9d38"
+last_commit_time = "2019-08-28T09:45"
+status = "200"
+
+[repo.stats]
+branches = 91
+watching = 2
+tag_count = 0
+stars = 0
+commits = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/goz-data-backend"
+last_commit = "1afba87aa09fa36d9512dfcdfcf45bb1a4557d99"
+last_commit_time = "2020-05-19T15:58"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 27
+watching = 0
+tag_count = 0
+stars = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/Gravity-Bridge"
+last_commit = "d8563a0411807768f37ba3d48ee87907bb1f6572"
+last_commit_time = "2022-04-02T12:04"
+status = "200"
+
+[repo.stats]
+commits = 55
+tag_count = 0
+watching = 0
+forks = 54
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/gravity-bridge-portal"
+last_commit = "f0a5ee69f035da52ae33158436a83c9dd8e889bb"
+last_commit_time = "2021-07-30T15:10"
+status = "200"
+
+[repo.stats]
+branches = 1
+tag_count = 0
+commits = 1
+watching = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/green"
+last_commit = "0d9ff5578f8d681fda3d8dfa36878e503462b171"
+last_commit_time = "2020-06-16T09:23"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 2
+branches = 12
+tag_count = 0
+commits = 2
+watching = 2
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/hackatom_v"
+last_commit = "4d5f5439fc2975f9619899a0f680627a1078edec"
+last_commit_time = "2021-01-28T12:46"
+status = "200"
+
+[repo.stats]
+stars = 18
+tag_count = 0
+branches = 149
+watching = 2
+commits = 14
+forks = 14
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/horcrux"
+last_commit = "0e228d00855329cb7ecc33eab9938a1a8c7ed007"
+last_commit_time = "2021-09-24T21:28"
+status = "200"
+
+[repo.stats]
+commits = 5
+stars = 0
+watching = 0
+forks = 24
+tag_count = 0
+branches = 20
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/juno"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 0
+watching = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/launch"
+last_commit = "6dd10b11eec0fda449a68acedbd8afc728e52041"
+last_commit_time = "2020-10-29T11:15"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 52
+commits = 2
+tag_count = 0
+branches = 121
+stars = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/lunie"
+last_commit = "ebdf6a818fad249fd8ad1c6c9fa815b91c4324fc"
+last_commit_time = "2020-11-12T19:14"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 131
+tag_count = 0
+stars = 0
+branches = 0
+forks = 95
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/mainnet"
+last_commit = "5d88411d19190cc8f6da5f3c64886a424083bd73"
+last_commit_time = "2021-04-01T18:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 20
+commits = 9
+forks = 82
+watching = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/mainnet-entities"
+last_commit = "7643729eeb976f6f25bd987ab989aea241554954"
+last_commit_time = "2020-09-25T19:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 4
+forks = 82
+branches = 149
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/merk"
+last_commit = "cb92c47cc69bcefc4a8d1442ae57626d5c9819ae"
+last_commit_time = "2021-01-27T23:45"
+status = "200"
+
+[repo.stats]
+forks = 26
+commits = 13
+branches = 443
+stars = 0
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/nomic"
+last_commit = "03293fc2583ea64f430978a85aa55fd3d8b3008c"
+last_commit_time = "2020-07-24T17:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 11
+branches = 428
+forks = 15
+watching = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/oasis-react"
+last_commit = "40ad93c01b5f2875b73043e94c0bf41f407b34b6"
+last_commit_time = "2019-01-31T17:16"
+status = "200"
+
+[repo.stats]
+commits = 8
+forks = 21
+branches = 497
+watching = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/oracle-feeder"
+last_commit = "08f69b7b3d3fa0ea2fd7c5065f0d4fad1738c16b"
+last_commit_time = "2021-08-18T07:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 59
+stars = 0
+branches = 333
+watching = 1
+commits = 6
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/orga"
+last_commit = "d1d017597d8ee78b8afd64743cd28d3f63b71897"
+last_commit_time = "2020-09-01T21:45"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 9
+forks = 10
+tag_count = 0
+branches = 231
+watching = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/orga-macros"
+last_commit = "1bec1678458f98d4ef917acc91dd098e725ce365"
+last_commit_time = "2021-03-03T21:52"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+stars = 0
+forks = 0
+branches = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/peerdx"
+last_commit = "21919a79675f858eb19208467f32e01a5307a647"
+last_commit_time = "2020-04-28T08:36"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+branches = 5
+watching = 1
+stars = 4
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/primer"
+last_commit = "cc23a0eaf81b1579b60aed7176a44d820d5decd0"
+last_commit_time = "2020-10-08T16:26"
+status = "200"
+
+[repo.stats]
+forks = 196
+commits = 4
+watching = 1
+branches = 487
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/raftify"
+status = "200"
+
+[repo.stats]
+branches = 146
+tag_count = 0
+stars = 4
+commits = 15
+watching = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/regen_contract"
+last_commit = "65161445b317e505bf8ce24792540f250b8a41e8"
+last_commit_time = "2020-04-24T12:34"
+status = "200"
+
+[repo.stats]
+branches = 3
+tag_count = 0
+commits = 1
+stars = 1
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/relayer"
+last_commit = "5afa5b49bf5aaa2343daa316f68bbd03f58c1bc3"
+last_commit_time = "2020-05-05T01:29"
+status = "200"
+
+[repo.stats]
+branches = 266
+forks = 290
+stars = 0
+watching = 0
+tag_count = 0
+commits = 12
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/reward-harvester"
+last_commit = "b959d73709f8d4877f270ed0834b65799d1c3262"
+last_commit_time = "2022-04-14T09:33"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+branches = 24
+commits = 1
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/signctrl"
+last_commit = "f4f74f52aeb6ed6a7552819f7ba808e30ef15e97"
+last_commit_time = "2021-04-13T12:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+stars = 5
+forks = 3
+watching = 2
+branches = 275
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/staking-payouts"
+last_commit = "d118ca5cb0b9023fcd5f91a5fbafe2bd4037f5c0"
+last_commit_time = "2021-09-28T23:52"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+commits = 3
+forks = 12
+branches = 121
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/tendermint-mpc-test"
+last_commit = "957e647ebd5539f978ce6e67e49807ddaf5553b4"
+last_commit_time = "2021-11-11T10:07"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+stars = 0
+branches = 9
+commits = 2
+watching = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/testnet"
+last_commit = "530ff9f714b9d11f63a4dc208ff859502c7627f4"
+last_commit_time = "2022-07-08T18:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+branches = 60
+commits = 25
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/testnets"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+branches = 0
+commits = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/testnets-1"
+last_commit = "32c32e480d762bea15e21ee11bfe1050cf10c683"
+last_commit_time = "2021-11-17T21:08"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 5
+branches = 32
+stars = 0
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/BlockscapeNetwork/validator-profiles"
+last_commit = "9c9ef7a04e1c9ad3674742dd99dbfc1d958d9aa0"
+last_commit_time = "2021-08-12T19:32"
+status = "200"
+
+[repo.stats]
+commits = 5
+stars = 0
+watching = 0
+forks = 322
+branches = 356
+tag_count = 0

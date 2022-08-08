@@ -1,79 +1,330 @@
-# Ecosystem Level Information
 title = "GameCredits"
-
+toml_path = "data/ecosystems/g/gamecredits.toml"
+github_organizations = ["https://github.com/gamecredits-project"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/gamecredits-project"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/gamecredits-project/Android-wallet"
+last_commit = "57541af6de37711a9826f2c0eb67e650c1bdb7a4"
+last_commit_time = "2014-09-17T01:53"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 1
+watching = 11
+branches = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/BIP38"
+last_commit = "5172a5f11749a576e0aecb0912c0e161dc20e125"
+last_commit_time = "2014-02-07T17:29"
+status = "200"
+
+[repo.stats]
+watching = 10
+forks = 17
+stars = 0
+tag_count = 0
+commits = 1
+branches = 20
 
 [[repo]]
 url = "https://github.com/gamecredits-project/BitcoinArmory"
+last_commit = "73b533cb2a80c7cd461ac26bf34f240a3b60e367"
+last_commit_time = "2015-06-10T21:49"
+status = "200"
+
+[repo.stats]
+forks = 538
+commits = 46
+watching = 10
+tag_count = 0
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/bitcoinj"
+last_commit = "1e2d5bbec6a9ec4d7c164f7446101f4459da8e03"
+last_commit_time = "2014-09-16T03:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 4
+watching = 10
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/block-exploder"
+last_commit = "569c27bcfda81549847e9ae8c19c303e7527bdf7"
+last_commit_time = "2017-12-28T13:29"
+status = "200"
+
+[repo.stats]
+stars = 7
+forks = 12
+watching = 5
+tag_count = 0
+commits = 15
+branches = 202
 
 [[repo]]
 url = "https://github.com/gamecredits-project/block-exploder-ui"
+last_commit = "a267485d89e9dc993df7835f964aac05283f66d1"
+last_commit_time = "2018-10-20T16:24"
+status = "200"
+
+[repo.stats]
+commits = 32
+tag_count = 0
+watching = 7
+stars = 1
+forks = 10
+branches = 84
 
 [[repo]]
 url = "https://github.com/gamecredits-project/electrum-client"
+last_commit = "c9786fbbd1983624174606f1d9b86fa7c6eae19b"
+last_commit_time = "2015-11-16T18:44"
+status = "200"
+
+[repo.stats]
+watching = 8
+commits = 1
+branches = 1
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/electrum-server"
+last_commit = "8dbe1c5f1ed34926b5d17d4b0fab62442fdf2c69"
+last_commit_time = "2015-11-16T18:45"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+forks = 1
+branches = 1
+watching = 8
+stars = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/explorer"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 0
+branches = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/GameCredits"
+last_commit = "5e0fdbb22a6c150ee71f605ab872f99ca2496feb"
+last_commit_time = "2021-02-28T19:56"
+status = "200"
+
+[repo.stats]
+stars = 25
+branches = 144
+commits = 9
+tag_count = 0
+watching = 20
+forks = 32
 
 [[repo]]
 url = "https://github.com/gamecredits-project/gamecredits-seeder"
+last_commit = "e52cd8f236d3e25f5834f99517727b2ca6e8b925"
+last_commit_time = "2018-03-17T05:35"
+status = "200"
+
+[repo.stats]
+forks = 956
+commits = 1
+watching = 5
+tag_count = 0
+branches = 156
+stars = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/GameCredits-seeder-old"
+status = "404"
+
+[repo.stats]
+stars = 0
+commits = 0
+forks = 0
+tag_count = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/gamejs-lib"
+last_commit = "3b6c9a600ebaf95463da8972ccfacf492096606b"
+last_commit_time = "2018-10-31T14:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 5
+commits = 7
+branches = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/gmc-dev"
+status = "404"
+
+[repo.stats]
+branches = 0
+watching = 0
+stars = 0
+commits = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/gmc-pool"
+last_commit = "7e2cb61a84bafc3729c8b2b383c1cfc22f7598bc"
+last_commit_time = "2015-07-07T19:01"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+branches = 2
+watching = 12
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/gamecredits-project/IOS-wallet"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+forks = 0
+watching = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/KiwiIRC"
+last_commit = "399a58b7334e16863cad877cfa4fe476d88efd58"
+last_commit_time = "2015-03-25T13:18"
+status = "200"
+
+[repo.stats]
+commits = 17
+stars = 0
+forks = 309
+tag_count = 0
+branches = 0
+watching = 10
 
 [[repo]]
 url = "https://github.com/gamecredits-project/markus"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+watching = 0
+commits = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/mibew"
+last_commit = "eccbb59bccc913c1b4b6ee23680952dfb9c9e62a"
+last_commit_time = "2015-06-19T11:26"
+status = "200"
+
+[repo.stats]
+forks = 209
+stars = 0
+commits = 2
+branches = 0
+watching = 10
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/multisig_manager"
+last_commit = "a3331e6d8a5d9dec48dae9174fe762a542609235"
+last_commit_time = "2014-12-06T22:25"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+tag_count = 0
+branches = 15
+commits = 1
+watching = 10
 
 [[repo]]
 url = "https://github.com/gamecredits-project/MUWA"
+last_commit = "41878cc746e6512c784f13cf961b333988dd22f6"
+last_commit_time = "2015-06-16T20:18"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 1
+stars = 0
+watching = 10
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/node-slack"
+last_commit = "81ed5dd5d91dd0d15b1adeb7d8cea270406752fe"
+last_commit_time = "2015-05-11T19:06"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 1
+branches = 30
+forks = 59
+watching = 10
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gamecredits-project/python-gamecredits"
+last_commit = "69b9bb26694f66e60f3f68b9031c96017e2be9e8"
+last_commit_time = "2018-05-15T14:38"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 3
+watching = 7
+tag_count = 0
+branches = 11
+commits = 3
 
 [[repo]]
 url = "https://github.com/gamecredits-project/quickapi"
+last_commit = "37a2ea4458757d37e3a31148df7283c8031fb0ed"
+last_commit_time = "2014-09-25T06:43"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+forks = 2
+watching = 10
+tag_count = 0
+branches = 9

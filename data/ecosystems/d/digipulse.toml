@@ -1,19 +1,52 @@
-# Ecosystem Level Information
 title = "DigiPulse"
-
+toml_path = "data/ecosystems/d/digipulse.toml"
+github_organizations = ["https://github.com/digipulseio"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/digipulseio"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/digipulseio/dgpt-token-sale"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 0
+watching = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/digipulseio/fiat-contract"
+status = "404"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+stars = 0
+forks = 0
+watching = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/digipulseio/locking-contract"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+forks = 0
+stars = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/digipulseio/ui"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 0
+tag_count = 0
+branches = 0
+commits = 0

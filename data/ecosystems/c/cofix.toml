@@ -1,58 +1,240 @@
-# Ecosystem Level Information
 title = "CoFix"
-
+toml_path = "data/ecosystems/c/cofix.toml"
+github_organizations = ["https://github.com/Computable-Finance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Computable-Finance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Computable-Finance/1inchProtocol"
+last_commit = "a7781cf9aa1cc2aaa5ccab0d54ecbae1327ca08f"
+last_commit_time = "2020-08-11T17:58"
+status = "200"
+
+[repo.stats]
+commits = 14
+watching = 1
+stars = 0
+tag_count = 0
+forks = 225
+branches = 244
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CIPs"
+last_commit = "352a38dcc5bdb1581ad92c6db34794282d7b11cb"
+last_commit_time = "2020-11-13T07:54"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 2
+branches = 4
+forks = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CNode"
+last_commit = "2917a1e1093a9723e18b13c47b765a60564163e4"
+last_commit_time = "2020-10-10T09:30"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+watching = 2
+tag_count = 0
+branches = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CoFiX"
+last_commit = "2b90e5f5530cfdca58940ae7521a8e0e3350d423"
+last_commit_time = "2021-05-17T08:30"
+status = "200"
+
+[repo.stats]
+watching = 7
+commits = 11
+tag_count = 0
+branches = 331
+stars = 49
+forks = 16
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CoFiX-Announcement"
+last_commit = "80a26890c088b5acf0fb3477fdc67f1312d5df0b"
+last_commit_time = "2021-10-14T08:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 1
+watching = 4
+forks = 0
+branches = 32
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CoFiX-CNode-Web-User-Interface"
+last_commit = "bf79a4804fc566c11548b63043bb1280c0c73829"
+last_commit_time = "2021-07-29T11:50"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 2
+forks = 0
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CoFiX-hedger"
+last_commit = "f8f0a3c063af49672e79a35229480495a65fb9b1"
+last_commit_time = "2020-10-29T02:31"
+status = "200"
+
+[repo.stats]
+stars = 15
+watching = 4
+tag_count = 0
+forks = 4
+commits = 4
+branches = 37
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CoFiX-Interface"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+stars = 0
+tag_count = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CoFiX-V2.0"
+last_commit = "1c867cbe6b8bb961a1fe09e14074f29b94e02181"
+last_commit_time = "2021-06-12T07:27"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 3
+tag_count = 0
+branches = 16
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CoFiX-V2.1"
+last_commit = "325165b8a4502b12f74baa3b52ecd61ddda5a27f"
+last_commit_time = "2022-04-27T02:29"
+status = "200"
+
+[repo.stats]
+branches = 119
+forks = 0
+watching = 3
+tag_count = 0
+commits = 6
+stars = 5
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CoFiX-Web-Dashboard"
+last_commit = "318e60cb11f94b633304c22c38f490bfa2ccfeb1"
+last_commit_time = "2021-09-28T09:48"
+status = "200"
+
+[repo.stats]
+branches = 67
+watching = 3
+stars = 0
+tag_count = 0
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CoFiX-Web-User-Interface"
+last_commit = "6f347a00c3b07cd702b7a93d38e515be94be426f"
+last_commit_time = "2021-10-08T02:53"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 75
+tag_count = 0
+stars = 3
+commits = 3
+forks = 0
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CoFiX-Web-User-Interface-V2.0"
+last_commit = "e18355b971b8f0465c763208868a16adb1a48630"
+last_commit_time = "2021-06-12T05:55"
+status = "200"
+
+[repo.stats]
+stars = 4
+forks = 1
+watching = 12
+commits = 5
+branches = 125
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Computable-Finance/CoFiX-Web-User-Interface-V3.0"
+last_commit = "95a9f8bac39eebaca6066da8dac3b8629a3ac7d6"
+last_commit_time = "2022-05-08T13:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 78
+watching = 3
+commits = 4
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Computable-Finance/Doc"
+last_commit = "5d46bed031087a1daf9a307b9b9ab1f0683d210d"
+last_commit_time = "2021-05-17T15:02"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 51
+stars = 10
+watching = 5
+forks = 8
 
 [[repo]]
 url = "https://github.com/Computable-Finance/NEST-oracle-V3-web"
+last_commit = "7d21ecfd66a22a37698e3838aeb204ebe8436311"
+last_commit_time = "2020-10-28T03:46"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+forks = 8
+tag_count = 0
+watching = 1
+branches = 11
 
 [[repo]]
 url = "https://github.com/Computable-Finance/smart-contracts"
+last_commit = "e4d3ae21e063bfd65c4621197687334527eb54dc"
+last_commit_time = "2020-09-15T06:27"
+status = "200"
+
+[repo.stats]
+commits = 20
+forks = 178
+watching = 1
+branches = 0
+stars = 1
+tag_count = 0

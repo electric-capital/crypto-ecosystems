@@ -1,139 +1,588 @@
-# Ecosystem Level Information
 title = "Polkascan"
-
+toml_path = "data/ecosystems/p/polkascan.toml"
+github_organizations = ["https://github.com/polkascan"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/polkascan"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/polkascan/accounting-api"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 0
+tag_count = 0
+commits = 0
+stars = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/polkascan/accounting-ui"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 0
+stars = 0
+tag_count = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/polkascan/calendar-api"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+forks = 0
+stars = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/polkascan/calendar-ui"
+last_commit = "2840f501c8cd6c4fc53ed65a3dc78d4fccd53fc3"
+last_commit_time = "2022-06-28T08:34"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 2
+branches = 24
+forks = 0
+watching = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/polkascan/charts-api"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 0
+branches = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/polkascan/charts-ui"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 0
+branches = 0
+stars = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/polkascan/explorer"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 5
+forks = 0
+commits = 2
+stars = 4
+watching = 2
 
 [[repo]]
 url = "https://github.com/polkascan/explorer-api"
+last_commit = "6474bc5fdcda933b5934f7f5e7f7c70f584c1a96"
+last_commit_time = "2022-05-24T11:34"
+status = "200"
+
+[repo.stats]
+commits = 5
+watching = 4
+stars = 7
+tag_count = 0
+forks = 2
+branches = 83
 
 [[repo]]
 url = "https://github.com/polkascan/explorer-ui"
+last_commit = "8e072e7f57202ab98c708116881fc8597af1d0ac"
+last_commit_time = "2022-07-19T12:18"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 6
+forks = 5
+tag_count = 0
+stars = 3
+branches = 215
 
 [[repo]]
 url = "https://github.com/polkascan/General-Grants-Program"
+status = "404"
+
+[repo.stats]
+commits = 0
+forks = 0
+branches = 0
+tag_count = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/polkascan/graphene-sqlalchemy"
+last_commit = "bb3cd564150e11a0a59a47679c5a2c9537dc5aa0"
+last_commit_time = "2021-01-27T11:16"
+status = "200"
+
+[repo.stats]
+commits = 6
+branches = 230
+watching = 1
+stars = 0
+forks = 219
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/polkascan/graphene-sqlalchemy-filter"
+last_commit = "dee9c547de8ecf5dda042ccd5969b034501db0dc"
+last_commit_time = "2021-05-28T09:28"
+status = "200"
+
+[repo.stats]
+commits = 8
+watching = 1
+forks = 28
+stars = 0
+branches = 89
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/polkascan/harvester"
+last_commit = "bc536c5c9f5286f389940d36eecd0e461551b90f"
+last_commit_time = "2022-07-14T16:19"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+stars = 1
+branches = 2
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/polkascan/labs-ui"
+last_commit = "12fbbfeac5a20db87e2acb7aa052b229cf70e2ab"
+last_commit_time = "2022-02-16T13:11"
+status = "200"
+
+[repo.stats]
+branches = 9
+commits = 1
+tag_count = 0
+watching = 4
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/polkascan/Open-Grants-Program"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+forks = 0
+branches = 0
+commits = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/polkascan/polkadapt"
+last_commit = "2bee3b067e9a3d7efa039d42a5999c3c4244fcaf"
+last_commit_time = "2022-04-19T14:05"
+status = "200"
+
+[repo.stats]
+branches = 120
+watching = 7
+tag_count = 0
+stars = 4
+forks = 3
+commits = 3
 
 [[repo]]
 url = "https://github.com/polkascan/polkadot-js-apps"
+last_commit = "09c50fd3dbf77aebe6584cc86a9a69beb778bdd6"
+last_commit_time = "2020-07-17T21:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+stars = 1
+forks = 957
+branches = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/polkascan/polkascan-explorer-gui"
+last_commit = "4c39bddfe87c2ca6fe930b18c7a8fb07b45c6c3e"
+last_commit_time = "2021-11-09T19:27"
+status = "200"
+
+[repo.stats]
+forks = 36
+branches = 215
+tag_count = 0
+stars = 4
+commits = 12
+watching = 3
 
 [[repo]]
 url = "https://github.com/polkascan/polkascan-os"
+last_commit = "096d6cc4b2885f8675be3835000f3ebdc4dd9fe1"
+last_commit_time = "2021-08-02T20:34"
+status = "200"
+
+[repo.stats]
+watching = 6
+tag_count = 0
+branches = 296
+stars = 52
+forks = 54
+commits = 1
 
 [[repo]]
 url = "https://github.com/polkascan/polkascan-pre-explorer-api"
+last_commit = "162008fd4a44ccd79c49344e5decc8249d0d9a1d"
+last_commit_time = "2021-08-02T20:34"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 6
+tag_count = 0
+branches = 165
+forks = 22
+commits = 1
 
 [[repo]]
 url = "https://github.com/polkascan/polkascan-pre-explorer-gui"
+last_commit = "eac04114be176361cb9b4c2c6ae9f7835402d6fc"
+last_commit_time = "2021-08-02T20:34"
+status = "200"
+
+[repo.stats]
+stars = 4
+tag_count = 0
+branches = 140
+forks = 19
+watching = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/polkascan/polkascan-pre-harvester"
+last_commit = "95c28a965eade3f4e024eac4166775ade83b9fc4"
+last_commit_time = "2021-08-02T20:33"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 24
+commits = 2
+forks = 39
+tag_count = 0
+branches = 217
 
 [[repo]]
 url = "https://github.com/polkascan/polkascan-ui"
+last_commit = "8e072e7f57202ab98c708116881fc8597af1d0ac"
+last_commit_time = "2022-07-19T12:18"
+status = "200"
+
+[repo.stats]
+forks = 5
+branches = 215
+watching = 6
+commits = 4
+tag_count = 0
+stars = 3
 
 [[repo]]
 url = "https://github.com/polkascan/py-bip39-bindings"
+last_commit = "d4cde89480d82a7ad4616f91a384887fda40f765"
+last_commit_time = "2022-02-28T19:55"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+forks = 5
+branches = 26
+stars = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/polkascan/py-ed25519-bindings"
+last_commit = "ee149466b55d3a039571ef25400d48559d823ef1"
+last_commit_time = "2022-02-08T12:19"
+status = "200"
+
+[repo.stats]
+branches = 31
+watching = 3
+tag_count = 0
+stars = 2
+commits = 2
+forks = 2
 
 [[repo]]
 url = "https://github.com/polkascan/py-scale-codec"
+status = "200"
+
+[repo.stats]
+forks = 46
+commits = 6
+tag_count = 0
+branches = 578
+stars = 44
+watching = 9
 
 [[repo]]
 url = "https://github.com/polkascan/py-sr25519-bindings"
+last_commit = "1a311a09f0d197ccd859d45d0a1c9adefe540f77"
+last_commit_time = "2022-02-23T13:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 4
+watching = 3
+commits = 1
+branches = 19
+forks = 12
 
 [[repo]]
 url = "https://github.com/polkascan/py-subkey-wrapper"
+last_commit = "a6ce1df37cc0590424ae7517404e0e7aa64e950c"
+last_commit_time = "2020-09-21T19:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+watching = 3
+forks = 2
+branches = 10
 
 [[repo]]
 url = "https://github.com/polkascan/py-substrate-interface"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 84
+stars = 163
+commits = 7
+watching = 18
+branches = 384
 
 [[repo]]
 url = "https://github.com/polkascan/py-subwasm-bindings"
+last_commit = "6e258aac3cde7987c23bb9a1c13b608444b5bddf"
+last_commit_time = "2022-07-07T16:55"
+status = "200"
+
+[repo.stats]
+branches = 8
+commits = 1
+forks = 0
+watching = 3
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/polkascan/runtimes-api"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 0
+forks = 0
+tag_count = 0
+stars = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/polkascan/runtimes-ui"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+stars = 0
+forks = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/polkascan/rust-builder"
+last_commit = "9f5d6973e40577f15e5018cd5c1d9ee084f2527c"
+last_commit_time = "2019-08-23T09:03"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 1
+branches = 3
+forks = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/polkascan/social-contract"
+last_commit = "3d6e73bc81bf977bf2f63497d3a8ddae3d859374"
+last_commit_time = "2022-07-05T10:34"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 57
+tag_count = 0
+commits = 2
+watching = 3
+stars = 4
 
 [[repo]]
 url = "https://github.com/polkascan/sqlalchemy-pagination"
+last_commit = "f8ae4b458b345dc0a2ec09c496c6d204505dda50"
+last_commit_time = "2022-01-31T12:12"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 22
+branches = 23
+commits = 1
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/polkascan/subkey"
+last_commit = "2ac4e455a8e9d88e7b63c19699958cfcf5557b74"
+last_commit_time = "2020-03-05T11:17"
+status = "200"
+
+[repo.stats]
+branches = 11
+forks = 0
+stars = 0
+tag_count = 0
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/polkascan/substrate-interface"
+last_commit = "960f2e5bcbeca2a6729ba408578329645ff9293b"
+last_commit_time = "2021-08-02T13:05"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+forks = 4
+branches = 60
+watching = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/polkascan/substrate-interface-api"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 12
+branches = 53
+commits = 1
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/polkascan/substrate-interface-gui"
+last_commit = "922a1a825fea3cdbdaf0c49810cf0ed663240b55"
+last_commit_time = "2022-02-22T10:45"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+branches = 58
+commits = 9
+watching = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/polkascan/substrate-multichain-config"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+tag_count = 0
+commits = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/polkascan/substrate-telemetry"
+last_commit = "3643bead4a4b26acf89b30a726676958ddd64202"
+last_commit_time = "2021-03-10T11:48"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 134
+branches = 269
+commits = 10
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/polkascan/tables-api"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+watching = 0
+forks = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/polkascan/tables-ui"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 0
+tag_count = 0
+forks = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/polkascan/webassembly-wabt"
+last_commit = "408e5162f06a54fabf9093453a151dbc8184f38b"
+last_commit_time = "2019-07-02T20:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 1
+stars = 0
+watching = 2
+branches = 4

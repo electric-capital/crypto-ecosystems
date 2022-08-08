@@ -1,989 +1,4421 @@
-# Ecosystem Level Information
 title = "XRP"
-
+toml_path = "data/ecosystems/x/xrp.toml"
+github_organizations = ["https://github.com/XRPLF", "https://github.com/ripple", "https://github.com/ripple-unmaintained"]
 sub_ecosystems = ["Codius", "Interledger"]
 
-github_organizations = ["https://github.com/XRPLF", "https://github.com/ripple", "https://github.com/ripple-unmaintained"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/AdamCmiel/XRP"
+last_commit = "9b648018954e1137e1570fc593fa3829ff13bbb1"
+last_commit_time = "2016-11-12T18:35"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 12
+forks = 4
+tag_count = 0
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/adrianhopebailie/xrp-commander"
+last_commit = "9659ba4fe2549a76f14f62761dcd6717e2896935"
+last_commit_time = "2019-03-29T15:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 6
+stars = 5
+commits = 6
+forks = 2
+watching = 4
 
 [[repo]]
 url = "https://github.com/AJ58O/ValidatorRewards"
+last_commit = "959db115c4d218e4c7be0e9cbe87d96cd68aae0c"
+last_commit_time = "2019-09-29T19:17"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 4
+tag_count = 0
+commits = 15
+watching = 1
+branches = 78
 
 [[repo]]
 url = "https://github.com/AJ58O/xrptipbotPy"
+last_commit = "d6b84651185ac2706b873433d96a988f5beb190a"
+last_commit_time = "2019-09-15T08:37"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+branches = 11
+forks = 0
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/antIggl/xrpl-unl-manager"
+last_commit = "7c32bc36506be1ab4e675815a753289245adf432"
+last_commit_time = "2021-10-19T08:45"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 3
+branches = 77
+watching = 3
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/arsenlosenko/python-ripple-lib"
+last_commit = "3f04e7a47dbae8ad6bd76c61cefb6d9a1541c3ec"
+last_commit_time = "2021-05-30T16:32"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+stars = 23
+forks = 11
+branches = 69
+watching = 3
 
 [[repo]]
 url = "https://github.com/billian/qrcash-paper-wallet"
+last_commit = "9a165cb382d2582a7e3c147bd03cfbaff61a8b81"
+last_commit_time = "2016-06-16T13:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 5
+branches = 4
+stars = 14
+forks = 24
 
 [[repo]]
 url = "https://github.com/biniama/ripple-core"
+last_commit = "3e7f3dbd5e345c64146c1f240e9e2386fdc54d7e"
+last_commit_time = "2018-10-26T12:10"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 10
+tag_count = 0
+watching = 3
+commits = 1
+branches = 3
 
 [[repo]]
 url = "https://github.com/bitbankinc/sample-xrp-market-making-bot"
+last_commit = "ecfc702f75d2ae38314db2d7e7bf5c90068a7bf6"
+last_commit_time = "2017-07-10T04:02"
+status = "200"
+
+[repo.stats]
+forks = 4
+commits = 2
+watching = 8
+tag_count = 0
+stars = 7
+branches = 13
 
 [[repo]]
 url = "https://github.com/Bithomp/bithomp-submit"
 tags = ["Wallet"]
+last_commit = "0184789058d55c93408663b4fe96b1fab0c9dd8b"
+last_commit_time = "2022-02-24T09:57"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 24
+tag_count = 0
+forks = 1
+commits = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/Bithomp/bithomp-tools"
 tags = ["Developer Tool"]
+last_commit = "8a01279ba7776055792bf96e86c3ae12aee5205b"
+last_commit_time = "2022-03-17T21:02"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 47
+forks = 16
+watching = 9
+stars = 26
 
 [[repo]]
 url = "https://github.com/Bithomp/bithompHW"
 tags = ["Library"]
+last_commit = "ed4a507c888e12155f157d87203abfff3ae2ba82"
+last_commit_time = "2022-07-28T18:18"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 2
+forks = 1
+branches = 19
+watching = 3
 
 [[repo]]
 url = "https://github.com/Bithomp/generate-xrp-wallet"
+last_commit = "e826498efd5fd52e0e5bbaed7a6d776d94df2aae"
+last_commit_time = "2022-01-12T08:21"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 6
+branches = 8
+tag_count = 0
+commits = 1
+stars = 8
 
 [[repo]]
 url = "https://github.com/Bithomp/xrp-paper-wallet"
 tags = ["Wallet"]
+last_commit = "74cc65ec190d6779229c8125d61ee0b14a7cd88b"
+last_commit_time = "2018-08-15T20:46"
+status = "200"
+
+[repo.stats]
+watching = 3
+commits = 1
+branches = 3
+stars = 15
+forks = 15
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/burkebrunson/xrpWalletPrepDEXTrade"
+last_commit = "bb85e4bdc2de3829e8d6dc446a347be18019ec10"
+last_commit_time = "2021-02-26T03:53"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 6
+tag_count = 0
+commits = 1
+branches = 3
+forks = 1
 
 [[repo]]
 url = "https://github.com/calvincs/xrpl-nft-creator"
+last_commit = "eb0fcaf019e2127b0195afe526d155021cd68ed6"
+last_commit_time = "2021-06-08T15:47"
+status = "200"
+
+[repo.stats]
+branches = 20
+watching = 7
+forks = 16
+tag_count = 0
+commits = 1
+stars = 39
 
 [[repo]]
 url = "https://github.com/ChainFront/xrp-tx-signer"
 tags = ["Developer Tool"]
+last_commit = "20acfee2f360a3d7b836a677dacb9c9e68a36b6b"
+last_commit_time = "2019-04-10T17:53"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 0
+branches = 4
+watching = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/chennighan/xrpTicker"
+last_commit = "f88307c8f0c404dd122108242e3e8828bd074a6c"
+last_commit_time = "2017-12-15T15:05"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+branches = 2
+commits = 1
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/christophior/xrpcli"
+last_commit = "d21a0987a1b85efe35cf9d42b7d8c3564ad4c17b"
+last_commit_time = "2018-06-16T19:21"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 3
+tag_count = 0
+watching = 2
+forks = 1
+branches = 13
 
 [[repo]]
 url = "https://github.com/cinnapple/mini-validator-list"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 0
+watching = 0
+branches = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/cinnapple/mini-validator-list-data"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 0
+watching = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/cinnapple/unl-builder"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+tag_count = 0
+commits = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/CodeShark/RippleGen"
+last_commit = "ee6fe3e08f9657f592bdaf200d879c3cb081d114"
+last_commit_time = "2013-04-11T03:17"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 12
+watching = 8
+branches = 27
+stars = 24
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/copleykj/xrpayments-webhooks-client"
+last_commit = "137b7c178872c9325c593a5f70e594ddd70ac04d"
+last_commit_time = "2019-03-17T16:31"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 3
+watching = 2
+tag_count = 0
+branches = 10
+commits = 1
 
 [[repo]]
 url = "https://github.com/cragr/CryptoCowboy"
+last_commit = "200ecd7f9a17bf07fe4df71292f3baca9fda51ca"
+last_commit_time = "2018-06-18T21:48"
+status = "200"
+
+[repo.stats]
+branches = 13
+watching = 4
+forks = 6
+stars = 3
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/crypticrabbit/rippled-ban-hammer"
 tags = ["Developer Tool"]
+last_commit = "ee7de794ca9fb70ca70cacad67e925f78eac9550"
+last_commit_time = "2019-06-21T04:13"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 1
+watching = 1
+branches = 12
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/crypticrabbit/rippled-examples"
 tags = ["Documentation"]
+last_commit = "5e34a5d40d55f21dc2fbf402fd76310b35db2344"
+last_commit_time = "2022-02-10T08:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 7
+stars = 7
+watching = 4
+branches = 35
+commits = 1
 
 [[repo]]
 url = "https://github.com/crypticrabbit/xrpl_unl_parser"
+last_commit = "4e1c876f051fe21dbfa7132c16cb6e1254e9d175"
+last_commit_time = "2021-09-06T19:15"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 19
+forks = 1
+watching = 1
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/derkomai/python-xrp-api-wrapper"
+last_commit = "ca7ebeb5411ce1af095adbe25fb3223fce142923"
+last_commit_time = "2019-10-17T18:58"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 23
+watching = 2
+commits = 1
+tag_count = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/derkomai/XRPL-monitor-ESP32"
+last_commit = "69ea357ec22130d8fbbec2333f864565f91f11eb"
+last_commit_time = "2019-02-25T14:51"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+tag_count = 0
+stars = 3
+branches = 11
+forks = 1
 
 [[repo]]
 url = "https://github.com/derkomai/ZerpLotto"
+last_commit = "256ed3219ec6c614e82bbf2a4f441c227fa1a5e3"
+last_commit_time = "2019-02-08T13:07"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 3
+branches = 33
+watching = 2
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/derkomai/Zerpy"
+last_commit = "753c380e0225bcc2e2e073d9c79481bfa6a6dd47"
+last_commit_time = "2019-10-17T20:14"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 4
+watching = 2
+branches = 53
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/devjin0617/ripplectron"
+last_commit = "6b0b8733bd1d428a5b4ffdf47631bf6071c703e5"
+last_commit_time = "2017-11-28T09:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 15
+branches = 57
+stars = 52
+watching = 11
 
 [[repo]]
 url = "https://github.com/DevNullProd/flexrp"
+last_commit = "6a79a2368fefce2362363ec2e646415696400be6"
+last_commit_time = "2021-03-12T19:03"
+status = "200"
+
+[repo.stats]
+stars = 5
+forks = 3
+commits = 1
+tag_count = 0
+branches = 87
+watching = 3
 
 [[repo]]
 url = "https://github.com/DevNullProd/XRBP"
 tags = ["Developer Tool"]
+last_commit = "8eeb5e97623f1fd103d03c5d84a863b548249995"
+last_commit_time = "2020-04-23T20:47"
+status = "200"
+
+[repo.stats]
+branches = 173
+forks = 1
+tag_count = 0
+stars = 12
+watching = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/dr-bonez/throttled-xrp-rpc-rs"
+last_commit = "c023e93441a5a44befdea63a940596967e5ed899"
+last_commit_time = "2019-09-09T17:14"
+status = "200"
+
+[repo.stats]
+branches = 38
+tag_count = 0
+commits = 2
+watching = 1
+stars = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/droopram/RipplePaperWallet"
+last_commit = "5a654af693dbec86b3de76d0219831c6d6381a93"
+last_commit_time = "2017-10-15T12:44"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 6
+watching = 4
+tag_count = 0
+stars = 8
+branches = 9
 
 [[repo]]
 url = "https://github.com/Duke67/xrptoolkit-nodejs"
+last_commit = "fae7e21194247ffc3c5c130be492010fa7676066"
+last_commit_time = "2020-05-12T19:23"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 13
+commits = 5
+tag_count = 0
+watching = 3
+branches = 35
 
 [[repo]]
 url = "https://github.com/edunuzzi/ripple-kotlin-lib"
 tags = ["Developer Tool"]
+last_commit = "830a04b92f109fb2e43a8680a4018038237cea36"
+last_commit_time = "2018-10-22T20:12"
+status = "200"
+
+[repo.stats]
+branches = 8
+forks = 1
+watching = 1
+tag_count = 0
+stars = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/edward852/xrp-wallet-recovery"
+status = "404"
+
+[repo.stats]
+watching = 0
+commits = 0
+tag_count = 0
+stars = 0
+branches = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/elmurci/xpring-rs"
+last_commit = "7bc1a03c62b75682035058e7c905c65369384de2"
+last_commit_time = "2020-10-26T10:27"
+status = "200"
+
+[repo.stats]
+stars = 4
+branches = 79
+tag_count = 0
+watching = 2
+forks = 2
+commits = 11
 
 [[repo]]
 url = "https://github.com/empatogen/woocommerce-xrp"
 tags = ["Payment Gateway"]
+status = "404"
+
+[repo.stats]
+forks = 0
+commits = 0
+watching = 0
+branches = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/emschwartz/ripple-donate-widget"
+last_commit = "445d15fb8ae255f5bdb625357137be570d39e5d4"
+last_commit_time = "2014-02-01T00:23"
+status = "200"
+
+[repo.stats]
+stars = 9
+watching = 1
+branches = 15
+commits = 2
+tag_count = 0
+forks = 4
 
 [[repo]]
 url = "https://github.com/foxrp/rippled-php"
 tags = ["Protocol"]
+last_commit = "5a92cd842c00748f771dac1aec143339eb5452a5"
+last_commit_time = "2018-10-24T14:20"
+status = "200"
+
+[repo.stats]
+stars = 31
+tag_count = 0
+forks = 33
+commits = 3
+branches = 237
+watching = 3
 
 [[repo]]
 url = "https://github.com/Girbons/xrp-monitor"
+last_commit = "8123f690a41d27682d214022c6924e791f363793"
+last_commit_time = "2017-08-23T17:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 3
+commits = 3
+stars = 1
+branches = 2
+watching = 3
 
 [[repo]]
 url = "https://github.com/Govind13100/xrp"
+last_commit = "5ed5516983abfa6d39d454944ea230754a960a6c"
+last_commit_time = "2017-12-02T07:04"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 0
+stars = 0
+forks = 0
+branches = 2
 
 [[repo]]
 url = "https://github.com/guo-yu/xrp"
+last_commit = "af558be5e03aef6b820c92f69817924784025b8f"
+last_commit_time = "2013-12-05T05:58"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 7
+watching = 2
+tag_count = 0
+commits = 1
+branches = 1
 
 [[repo]]
 url = "https://github.com/Hat1ko/XrpBot"
+last_commit = "4414186cb080e35631381c9d297e3a3522d8d5ec"
+last_commit_time = "2020-05-04T12:05"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 2
+tag_count = 0
+branches = 212
+watching = 1
+commits = 10
 
 [[repo]]
 url = "https://github.com/hbenslama/xrptipbot-wordpress-widget"
 tags = ["Developer Tool"]
+last_commit = "9d2775cf1bfe6a5edec5bb7389bf71c2b4bda8c1"
+last_commit_time = "2018-11-12T09:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 1
+forks = 0
+commits = 1
+branches = 1
 
 [[repo]]
 url = "https://github.com/intelliot/xrpbot"
 tags = ["Developer Tool"]
+last_commit = "d3c4c2a56d7b4bd6a2cf992577417eab8fed0d95"
+last_commit_time = "2018-05-31T00:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 0
+watching = 2
+branches = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/isometrixk/xrp"
+last_commit = "eb6155d3b115241c318c85302a1a67d31959792c"
+last_commit_time = "2018-10-05T12:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 6
+stars = 0
+commits = 1
+watching = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/jetwes/wp-xrp-info"
 tags = ["Developer Tool"]
+last_commit = "1d489a36e8d74584f1582e155612f0d0d094c0e4"
+last_commit_time = "2019-04-11T09:03"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 15
+commits = 1
+forks = 0
+stars = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/jkosmetos/php-xrp"
 tags = ["Developer Tool"]
+last_commit = "2c25dfe89e3880e8e692c6ad7c0124c90bd24e4f"
+last_commit_time = "2018-05-28T14:07"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 1
+branches = 2
+stars = 2
+forks = 1
 
 [[repo]]
 url = "https://github.com/JoelKatz/getLedger"
+last_commit = "0a2fdff495629b44b79a9f698fafce245f9a2961"
+last_commit_time = "2020-01-17T00:58"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 11
+commits = 1
+forks = 3
+tag_count = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/JW-Devops/xrpValidators"
+last_commit = "6c71d5c14d68309ee9cfca9fdc6a18095c470ad8"
+last_commit_time = "2018-12-23T17:13"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 0
+branches = 2
+commits = 1
+watching = 0
 
 [[repo]]
 url = "https://github.com/k4m4/ripple-regex"
+last_commit = "8686b1e5a84fffb4b463db4b656fc4970cd490c4"
+last_commit_time = "2021-05-27T07:39"
+status = "200"
+
+[repo.stats]
+stars = 6
+tag_count = 0
+commits = 6
+watching = 3
+forks = 1
+branches = 42
 
 [[repo]]
 url = "https://github.com/kevinejohn/ripple-lib-rpc-ruby"
+last_commit = "4e3dd4e876d4608ff710c2b7685d7b39fdb4b335"
+last_commit_time = "2014-01-07T00:39"
+status = "200"
+
+[repo.stats]
+forks = 11
+branches = 64
+watching = 4
+stars = 7
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/key-connect/services"
+last_commit = "e405e421063008e760a9f18f5420412ee20686bf"
+last_commit_time = "2021-10-30T08:19"
+status = "200"
+
+[repo.stats]
+branches = 338
+watching = 2
+forks = 1
+tag_count = 0
+stars = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/LedgerHQ/app-xrp"
+last_commit = "7562eb56605f954702a9139f235b57ef7f1fb603"
+last_commit_time = "2022-04-13T13:40"
+status = "200"
+
+[repo.stats]
+stars = 15
+tag_count = 0
+forks = 23
+branches = 108
+watching = 14
+commits = 10
 
 [[repo]]
 url = "https://github.com/lgcarrier/xrppaperwallet"
+last_commit = "fe108e4f15a731968548a95cd6635d3f0c788e87"
+last_commit_time = "2021-02-15T16:12"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+watching = 3
+stars = 9
+branches = 24
+commits = 3
 
 [[repo]]
 url = "https://github.com/lieefu/rippleok"
+last_commit = "70edbebaed8dc5080643df6cabd7322bdfc66db1"
+last_commit_time = "2017-04-06T07:27"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 1
+forks = 6
+stars = 11
+branches = 40
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/miracle2k/ripple-federation-python"
+last_commit = "bb55df0f510af5588db9c2b668ffb9e00ef339cc"
+last_commit_time = "2014-06-24T21:28"
+status = "200"
+
+[repo.stats]
+branches = 15
+watching = 3
+tag_count = 0
+forks = 0
+stars = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/miracle2k/ripple-python"
+last_commit = "dcf78497e75fe2831a08b8d0757bc3676e0e8218"
+last_commit_time = "2018-01-03T10:25"
+status = "200"
+
+[repo.stats]
+forks = 30
+stars = 49
+branches = 99
+tag_count = 0
+commits = 1
+watching = 10
 
 [[repo]]
 url = "https://github.com/MitchLang009/XRPKit"
+last_commit = "6aedd00537b3e908d7a8df3c1b57f5473398377b"
+last_commit_time = "2020-02-19T01:55"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 7
+branches = 50
+commits = 2
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mklem3/xrp-bounties"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+stars = 0
+tag_count = 0
+watching = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/mraburn/xrptipbot-wp"
+last_commit = "cf12b4b3e2883cfdb4648f6642d4dd96f2c170ac"
+last_commit_time = "2018-07-01T11:20"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 3
+watching = 1
+forks = 0
+branches = 12
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mrhegemon/xrNFT"
+last_commit = "e801a56ed19212c0af68a712f63570f8377d566d"
+last_commit_time = "2021-03-21T15:59"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 2
+stars = 4
+branches = 36
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/N3TC4T/artunis-mobile"
+last_commit = "1f0f4dbf724a96bd3cb161357f39f89143921f24"
+last_commit_time = "2018-03-27T18:00"
+status = "200"
+
+[repo.stats]
+watching = 5
+commits = 1
+tag_count = 0
+forks = 9
+stars = 24
+branches = 13
 
 [[repo]]
 url = "https://github.com/N3TC4T/python-xrpl-websocket"
+last_commit = "2f0a500f110347eacf4ea0cfc3a2de93cfe6bb2b"
+last_commit_time = "2021-08-10T19:46"
+status = "200"
+
+[repo.stats]
+branches = 25
+commits = 1
+stars = 8
+watching = 5
+forks = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/N3TC4T/xrp-telegram-bot"
+last_commit = "03d761d1cca2fa41dc1c612a2df5b2a9d297f4e4"
+last_commit_time = "2020-01-26T22:45"
+status = "200"
+
+[repo.stats]
+commits = 14
+forks = 12
+tag_count = 0
+watching = 5
+stars = 14
+branches = 54
 
 [[repo]]
 url = "https://github.com/N3TC4T/xrp-vanity-generator"
+last_commit = "0799545172f3aeef8ed978270a945a3052e01927"
+last_commit_time = "2021-07-03T17:08"
+status = "200"
+
+[repo.stats]
+branches = 10
+tag_count = 0
+forks = 3
+commits = 1
+stars = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/N3TC4T/XRPL-IOT"
+last_commit = "33609586a415c16d7d26d490c499f7baf80eee8e"
+last_commit_time = "2019-03-30T16:51"
+status = "200"
+
+[repo.stats]
+stars = 4
+forks = 0
+watching = 3
+commits = 8
+branches = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nixer89/XRPL-christmas-tree"
+last_commit = "84eac8a4496a32bc7ca4d4632c9ec24866837c0a"
+last_commit_time = "2021-12-10T10:52"
+status = "200"
+
+[repo.stats]
+branches = 46
+commits = 10
+forks = 1
+stars = 2
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/nixer89/xrptipbot-alexa-skill"
+last_commit = "73c57955f7a8541293ccf6423a70faaa9817ff6d"
+last_commit_time = "2019-04-20T08:45"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+forks = 3
+branches = 77
+stars = 3
+watching = 1
 
 [[repo]]
 url = "https://github.com/nixer89/xrptipbot-api"
+last_commit = "432dad7a07dffbf344b46f4d4f0e76f25c9687bd"
+last_commit_time = "2020-01-07T17:17"
+status = "200"
+
+[repo.stats]
+branches = 88
+forks = 1
+stars = 3
+watching = 1
+commits = 11
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/payam54/XRP-Escrow-Client"
+last_commit = "e0da05f2c60196831a4aeff422df7023b5a9c5a0"
+last_commit_time = "2022-02-16T19:13"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+stars = 3
+watching = 3
+branches = 9
+commits = 1
 
 [[repo]]
 url = "https://github.com/r0bertz/node-xrp-tax"
+last_commit = "5b5800ba1c80718b1425afb2482135f34a4be741"
+last_commit_time = "2021-05-10T01:17"
+status = "200"
+
+[repo.stats]
+branches = 48
+stars = 5
+watching = 2
+tag_count = 0
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/r0bertz/ripple-go"
 tags = ["Library"]
+last_commit = "c46e6df9d39d9d56e8574aa25e3b058b2230bb16"
+last_commit_time = "2018-07-10T18:52"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 2
+branches = 45
+tag_count = 0
+forks = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/r0bertz/xrpl-orderbook"
+last_commit = "e68e6c3074dcc9e32678303d422fd892ef61e45b"
+last_commit_time = "2019-04-03T17:31"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 0
+tag_count = 0
+commits = 1
+forks = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/ravibhandia/XRPLordsRemastered"
+last_commit = "a93b4966464cc5e14523f3590d9fe0dbaaf13849"
+last_commit_time = "2020-06-15T18:38"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 65
+forks = 3
+watching = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/RichardAH/xrpl-binary-visualizer"
+last_commit = "2359df91e59f7688431cb89807b800cd8da8caa0"
+last_commit_time = "2022-02-01T11:26"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 6
+forks = 1
+branches = 24
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/RichardAH/xrpl-tools"
+last_commit = "e4f63c63c0a464dd5c9f82e3e1e1aa020c66598d"
+last_commit_time = "2019-09-22T14:30"
+status = "200"
+
+[repo.stats]
+stars = 13
+watching = 4
+tag_count = 0
+commits = 5
+branches = 33
+forks = 8
 
 [[repo]]
 url = "https://github.com/RichardAH/xrpl-ultralite-py"
+last_commit = "cd6ca1389dcb0f644fbbe042cc87fbf98bdf8424"
+last_commit_time = "2020-01-18T09:20"
+status = "200"
+
+[repo.stats]
+stars = 6
+forks = 1
+watching = 6
+branches = 50
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/bower-ripple-vault-client"
+last_commit = "ceca488335614ddd32bcfd6681ee8ea32feb66da"
+last_commit_time = "2015-04-23T20:06"
+status = "200"
+
+[repo.stats]
+branches = 11
+commits = 1
+watching = 10
+tag_count = 0
+forks = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ci.ripple.com"
+last_commit = "b2a6242a7cdc488449c72a903bd226ddd06dd1ce"
+last_commit_time = "2014-05-29T18:05"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 4
+commits = 1
+watching = 7
+tag_count = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/cookbook-application_nodejs"
+last_commit = "76391c132e4ca5f65e4b13507145213fe49142b0"
+last_commit_time = "2014-01-20T22:49"
+status = "200"
+
+[repo.stats]
+forks = 36
+stars = 0
+commits = 5
+tag_count = 0
+branches = 18
+watching = 7
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/cookbook-elasticsearch"
+last_commit = "fa72ed274d594d6d0240478c90d2a29b4ea2761b"
+last_commit_time = "2013-10-25T11:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 41
+stars = 1
+branches = 29
+watching = 7
+commits = 3
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/cookbook-ripple-blobvault"
+last_commit = "decb02c130ba72c8f6df2eb79592c72db952d194"
+last_commit_time = "2013-10-21T21:58"
+status = "200"
+
+[repo.stats]
+branches = 1
+forks = 1
+watching = 5
+stars = 3
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/cookbook-ripple-rippled"
+last_commit = "fbca30ccc8520a44a6e1c1764e70e0b9baf9223b"
+last_commit_time = "2013-10-25T00:26"
+status = "200"
+
+[repo.stats]
+branches = 2
+watching = 4
+tag_count = 0
+commits = 2
+forks = 2
+stars = 4
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/dirsrv-cookbook"
+last_commit = "13fa77f8a23395397aed7f6ed49cdfbe7f70420b"
+last_commit_time = "2015-07-22T20:18"
+status = "200"
+
+[repo.stats]
+forks = 11
+tag_count = 0
+watching = 5
+stars = 0
+branches = 169
+commits = 4
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/federation-php"
+last_commit = "fd650b5d1833562f9e2afd13c96281b6c8d3709c"
+last_commit_time = "2013-11-08T22:44"
+status = "200"
+
+[repo.stats]
+branches = 6
+watching = 23
+commits = 1
+stars = 10
+forks = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/giving-client"
+last_commit = "1b804957a51284c147f22e13e54f9c620f6ffda7"
+last_commit_time = "2013-05-21T20:44"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 0
+tag_count = 0
+commits = 2
+watching = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/heroku-buildpack-nginx"
+last_commit = "bee22d9ace5183eaf481cdbc88ce8324e09878d4"
+last_commit_time = "2013-03-29T04:43"
+status = "200"
+
+[repo.stats]
+forks = 28
+watching = 6
+commits = 1
+stars = 1
+tag_count = 0
+branches = 10
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/heroku-buildpack-static"
+last_commit = "20d48155d9ea940735c33d1f3de9de2615eb3ba5"
+last_commit_time = "2014-03-04T22:55"
+status = "200"
+
+[repo.stats]
+forks = 12
+commits = 1
+watching = 6
+stars = 1
+branches = 56
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/heroku-buildpack-webassets"
+last_commit = "45f5b5cd83b4797971c5f0cb018624693f260a40"
+last_commit_time = "2014-03-04T22:56"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+branches = 11
+tag_count = 0
+forks = 3
+watching = 6
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ilp-plugin-xrp-escrow"
+last_commit = "fe7b23e3a4d7642082470149e01b4da782f35b53"
+last_commit_time = "2018-01-28T00:55"
+status = "200"
+
+[repo.stats]
+watching = 53
+tag_count = 0
+stars = 7
+branches = 45
+commits = 4
+forks = 8
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/kafka-fast"
+last_commit = "db4d33277e78bf9c3792929ade13ea2f34c62df5"
+last_commit_time = "2015-05-31T22:59"
+status = "200"
+
+[repo.stats]
+watching = 5
+tag_count = 0
+branches = 311
+commits = 6
+stars = 0
+forks = 19
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/market-maker"
+last_commit = "fb720f75032ade3cde4a6f7d5109389dda1e29fe"
+last_commit_time = "2015-01-27T00:23"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 11
+watching = 26
+commits = 1
+stars = 33
+forks = 25
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/merchant-magento"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 0
+forks = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/opsworks-logstash"
+last_commit = "79de38e7b4cea0e977476cdfecdaa0f51eb7e7b2"
+last_commit_time = "2014-02-03T22:44"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 7
+forks = 87
+stars = 3
+commits = 1
+branches = 46
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/pathfind-test"
+last_commit = "540efac2ea504be46bea096a27e05a3fe007c0d3"
+last_commit_time = "2014-05-06T23:17"
+status = "200"
+
+[repo.stats]
+branches = 8
+tag_count = 0
+stars = 1
+forks = 0
+watching = 6
+commits = 1
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-chart"
+last_commit = "103c02146346678c7d0f79cd0f286df2bef16363"
+last_commit_time = "2014-11-05T23:22"
+status = "200"
+
+[repo.stats]
+stars = 12
+tag_count = 0
+branches = 50
+forks = 5
+watching = 19
+commits = 1
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-cli"
+last_commit = "a23549ce2b30fb4894dcc193a0a7da619d88cff4"
+last_commit_time = "2015-07-23T22:19"
+status = "200"
+
+[repo.stats]
+stars = 6
+branches = 28
+forks = 8
+tag_count = 0
+commits = 5
+watching = 12
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-client-ios"
+last_commit = "d5e1fa220af96c6ab98031bbc513492b2866d228"
+last_commit_time = "2014-06-10T20:00"
+status = "200"
+
+[repo.stats]
+watching = 21
+tag_count = 0
+commits = 1
+forks = 24
+stars = 34
+branches = 134
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-git-bot"
+last_commit = "62b3fbc859270ca9755978d38142ce050cb7bf4a"
+last_commit_time = "2014-07-22T22:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 99
+watching = 10
+forks = 7
+stars = 1
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-graph"
+last_commit = "c5a350ba6f40553b0af3b8085fd299dbddd7da20"
+last_commit_time = "2014-10-08T23:37"
+status = "200"
+
+[repo.stats]
+forks = 11
+commits = 1
+tag_count = 0
+watching = 20
+stars = 22
+branches = 69
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-lib-java"
+last_commit = "4358958586ed722625ca89d29b9b6bfa517803f0"
+last_commit_time = "2016-05-22T11:35"
+status = "200"
+
+[repo.stats]
+watching = 31
+commits = 10
+tag_count = 0
+branches = 464
+forks = 111
+stars = 125
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-lib-rpc-ruby"
+last_commit = "4e3dd4e876d4608ff710c2b7685d7b39fdb4b335"
+last_commit_time = "2014-01-07T00:39"
+status = "200"
+
+[repo.stats]
+forks = 11
+branches = 64
+stars = 4
+watching = 14
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-name-application"
+last_commit = "b2f1eb379672d6a12e002e686908f91fd792f6bf"
+last_commit_time = "2014-04-30T23:32"
+status = "200"
+
+[repo.stats]
+forks = 1
+commits = 1
+tag_count = 0
+stars = 1
+branches = 95
+watching = 14
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-price-ios"
+last_commit = "c7c971772fa5743d749f8dcd1f4f337c976911ff"
+last_commit_time = "2014-03-11T20:42"
+status = "200"
+
+[repo.stats]
+forks = 8
+watching = 15
+branches = 33
+stars = 3
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-python-tools"
+last_commit = "bd558b9161bdc3ad5e2bb4e7bae00f845a464b83"
+last_commit_time = "2017-02-08T18:59"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 3
+tag_count = 0
+branches = 26
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-rest-ansible"
+last_commit = "abda19541624d3d9524ed00b24e31efee950cba8"
+last_commit_time = "2015-07-28T17:59"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 1
+watching = 1
+branches = 17
+commits = 3
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-rest-client"
+last_commit = "36bef3d87aeff4384531a763b3843d37f69aced1"
+last_commit_time = "2015-07-20T17:37"
+status = "200"
+
+[repo.stats]
+forks = 5
+tag_count = 0
+watching = 13
+commits = 6
+stars = 3
+branches = 235
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-wallet"
+last_commit = "4fe05d5622327c4d8389fea958b02ea62042e7a5"
+last_commit_time = "2015-04-15T17:59"
+status = "200"
+
+[repo.stats]
+watching = 10
+commits = 5
+branches = 48
+forks = 22
+stars = 20
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripple-watch"
+last_commit = "3c8e102fba2a2c6327748e58469f270958603431"
+last_commit_time = "2014-02-22T18:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 35
+watching = 31
+forks = 15
+branches = 51
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/ripplecharts"
+last_commit = "5745d8905c5dfe43a55009bb8bf9d482541cba64"
+last_commit_time = "2013-09-13T01:17"
+status = "200"
+
+[repo.stats]
+watching = 25
+commits = 4
+forks = 17
+branches = 142
+tag_count = 0
+stars = 33
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/rippled-ansible-role"
+last_commit = "35545d76064eea6a50548d86d195c10cd76e4e4d"
+last_commit_time = "2015-09-08T18:40"
+status = "200"
+
+[repo.stats]
+forks = 5
+watching = 9
+stars = 5
+tag_count = 0
+branches = 24
+commits = 4
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/rippled-apt"
+last_commit = "18aa6c2c4affd7268cc4f1665377d17a35f6267e"
+last_commit_time = "2015-04-16T17:14"
+status = "200"
+
+[repo.stats]
+stars = 4
+commits = 1
+watching = 6
+forks = 3
+tag_count = 0
+branches = 11
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/rippled-dashboard"
+last_commit = "567bb6806dd38784bf87807d877f2b0f481c5458"
+last_commit_time = "2014-10-06T14:56"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+forks = 3
+branches = 28
+commits = 1
+watching = 5
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/rippled-telemetry"
+last_commit = "98c897eb705264312adfb366362eb877b13e1ee9"
+last_commit_time = "2015-06-19T00:44"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 22
+watching = 5
+tag_count = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/scala-cookbook"
+last_commit = "620dd29999ab09bd051c0195afb966002258fece"
+last_commit_time = "2014-11-11T18:52"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 38
+commits = 1
+tag_count = 0
+stars = 0
+forks = 13
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/validation-subscriber"
+last_commit = "ab3d80cbcb1b965c18c13f0abbf1747a753ba416"
+last_commit_time = "2015-08-28T18:37"
+status = "200"
+
+[repo.stats]
+watching = 7
+tag_count = 0
+forks = 1
+stars = 0
+commits = 4
+branches = 3
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/validation-tracker"
+last_commit = "0a19b685a06a41b65c21cb2a64519a4b1e80584f"
+last_commit_time = "2015-07-15T17:45"
+status = "200"
+
+[repo.stats]
+watching = 8
+branches = 80
+forks = 5
+stars = 0
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple-unmaintained/wcg-ripple-giveaway"
+last_commit = "5a8517f1a65a8d74840512381b0f5729541a7e37"
+last_commit_time = "2014-05-27T19:54"
+status = "200"
+
+[repo.stats]
+stars = 7
+branches = 439
+commits = 6
+tag_count = 0
+watching = 11
+forks = 5
 
 [[repo]]
 url = "https://github.com/ripple/api-demo"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+branches = 0
+commits = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/ripple/bookshelf-encrypted-fields"
+last_commit = "db3640f6feaf42c509ca6edf986e665d0e459d15"
+last_commit_time = "2015-07-29T22:36"
+status = "200"
+
+[repo.stats]
+branches = 7
+stars = 1
+forks = 8
+commits = 1
+tag_count = 0
+watching = 15
 
 [[repo]]
 url = "https://github.com/ripple/bower-ripple"
+last_commit = "c8d3d277cebe3763e281af365b15841f7d0e9006"
+last_commit_time = "2015-12-10T22:46"
+status = "200"
+
+[repo.stats]
+watching = 7
+tag_count = 0
+stars = 10
+forks = 10
+branches = 93
+commits = 2
 
 [[repo]]
 url = "https://github.com/ripple/chef-client"
+last_commit = "56b72f7b073b28eeb2e6548779a34bad09347855"
+last_commit_time = "2015-10-07T22:45"
+status = "200"
+
+[repo.stats]
+watching = 15
+branches = 635
+commits = 4
+stars = 2
+forks = 426
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/chef-os-hardening"
+last_commit = "0e3b5e5a8a981819ab1342bf72704a3f027d3c06"
+last_commit_time = "2015-12-08T20:49"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 400
+watching = 5
+stars = 2
+commits = 2
+forks = 132
 
 [[repo]]
 url = "https://github.com/ripple/crawl-reporter"
+last_commit = "a97696df4fd7b567596e37993eef68c64388a609"
+last_commit_time = "2018-06-05T15:30"
+status = "200"
+
+[repo.stats]
+forks = 8
+watching = 9
+tag_count = 0
+commits = 10
+branches = 49
+stars = 1
 
 [[repo]]
 url = "https://github.com/ripple/crawler-api"
+last_commit = "c3664c06290685dd79875ebf15e5012059634900"
+last_commit_time = "2015-11-11T19:01"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 7
+watching = 8
+commits = 6
+branches = 41
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/crawler-hbase"
+last_commit = "41e8a2c65294932bc0cc7c6fe8292f5add3555ba"
+last_commit_time = "2016-04-13T23:16"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 2
+branches = 30
+tag_count = 0
+forks = 10
+watching = 7
 
 [[repo]]
 url = "https://github.com/ripple/crypto-conditions"
+last_commit = "f50ad636d3abcc9365263310e6cf3d96e6da4f18"
+last_commit_time = "2020-02-05T21:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 5
+branches = 25
+watching = 6
+commits = 5
+forks = 10
 
 [[repo]]
 url = "https://github.com/ripple/dactyl"
+last_commit = "6dcf55aca84032a77a20f62ba0b2e14f9992f853"
+last_commit_time = "2022-01-27T01:14"
+status = "200"
+
+[repo.stats]
+branches = 144
+watching = 19
+stars = 59
+forks = 29
+tag_count = 0
+commits = 20
 
 [[repo]]
 url = "https://github.com/ripple/docker-fdb-client"
+last_commit = "e8721033b90c253615d6cce45870908321176774"
+last_commit_time = "2015-02-28T00:15"
+status = "200"
+
+[repo.stats]
+forks = 13
+stars = 1
+commits = 1
+branches = 14
+tag_count = 0
+watching = 12
 
 [[repo]]
 url = "https://github.com/ripple/docker-fdb-server"
+last_commit = "a4d3762224c7b52da8847da3aeef9e336902b5c3"
+last_commit_time = "2015-02-28T18:09"
+status = "200"
+
+[repo.stats]
+stars = 5
+tag_count = 0
+branches = 14
+watching = 11
+commits = 1
+forks = 7
 
 [[repo]]
 url = "https://github.com/ripple/Downloads"
+last_commit = "526134c4e909abb26a51d373c0f42a5c706b26fe"
+last_commit_time = "2019-07-15T22:18"
+status = "200"
+
+[repo.stats]
+watching = 24
+forks = 20
+branches = 17
+tag_count = 0
+commits = 1
+stars = 4
 
 [[repo]]
 url = "https://github.com/ripple/explorer"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 34
+forks = 15
+stars = 30
+watching = 13
+branches = 117
 
 [[repo]]
 url = "https://github.com/ripple/feedback-widget"
+last_commit = "5d44ba010ec91e3be07b03b8366431d48e3004b6"
+last_commit_time = "2021-07-20T20:59"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 2
+watching = 73
+forks = 0
+branches = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/grafana-file-datasource"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 5
+commits = 1
+stars = 1
+forks = 8
+branches = 2
 
 [[repo]]
 url = "https://github.com/ripple/hbase-client"
+last_commit = "f53e89672398501cd51ff91e2f6a6584846eb3f1"
+last_commit_time = "2019-02-07T18:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 7
+commits = 2
+stars = 5
+branches = 47
+forks = 11
 
 [[repo]]
 url = "https://github.com/ripple/ilp-plugin-xrp-paychan"
+last_commit = "f8787cfcc3ce53d435af073ca6eb54514cfebe2a"
+last_commit_time = "2018-12-10T17:07"
+status = "200"
+
+[repo.stats]
+watching = 59
+tag_count = 0
+forks = 10
+stars = 9
+branches = 172
+commits = 8
 
 [[repo]]
 url = "https://github.com/ripple/javascript-style-guide"
+last_commit = "fac6483c9658a2770dbc110b6dad4531ec35f3eb"
+last_commit_time = "2016-11-19T01:25"
+status = "200"
+
+[repo.stats]
+branches = 247
+tag_count = 0
+stars = 13
+watching = 22
+forks = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/ripple/js-ilp-plugin-ripple"
+last_commit = "837973b7985d5f33e3605a41993f09e99ea2acf3"
+last_commit_time = "2016-12-19T09:14"
+status = "200"
+
+[repo.stats]
+forks = 10
+stars = 8
+commits = 1
+branches = 19
+tag_count = 0
+watching = 11
 
 [[repo]]
 url = "https://github.com/ripple/ldap"
+last_commit = "92584199f797edcb0f3777d6ad6cd94706981cf5"
+last_commit_time = "2017-07-28T22:23"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 302
+branches = 169
+stars = 6
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/oauth2orize"
+last_commit = "d2b28b09976c4c6863f1a9e137de8d630e1546b9"
+last_commit_time = "2015-11-03T17:21"
+status = "200"
+
+[repo.stats]
+forks = 486
+branches = 273
+commits = 10
+watching = 15
+stars = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/openldap-deb"
+last_commit = "2f65e518b00b789d69a1ff2a299fbd325e72ddcd"
+last_commit_time = "2017-09-21T19:39"
+status = "200"
+
+[repo.stats]
+watching = 11
+commits = 1
+stars = 1
+forks = 12
+branches = 43
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/passport-client-certificate"
+last_commit = "fbf73c42f5b5843dd564ce286f2a0a7951864020"
+last_commit_time = "2016-02-18T18:49"
+status = "200"
+
+[repo.stats]
+forks = 12
+watching = 9
+branches = 11
+commits = 1
+tag_count = 0
+stars = 13
 
 [[repo]]
 url = "https://github.com/ripple/passport-ripple"
+last_commit = "e8ce65ebfc3e837a782a6e6b0ad254c85565e148"
+last_commit_time = "2015-05-12T17:57"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 11
+forks = 6
+tag_count = 0
+commits = 2
+branches = 4
 
 [[repo]]
 url = "https://github.com/ripple/paychannel_explorer"
+last_commit = "ea42f1c8ee2e6b7d566ebc17f8c784bea16dcf87"
+last_commit_time = "2021-01-08T17:03"
+status = "200"
+
+[repo.stats]
+forks = 6
+tag_count = 0
+commits = 4
+branches = 2
+watching = 6
+stars = 3
 
 [[repo]]
 url = "https://github.com/ripple/react-stockcharts"
+last_commit = "efd50da0bd70a61e5ffc38ed975e840d90e08c88"
+last_commit_time = "2018-05-15T21:01"
+status = "200"
+
+[repo.stats]
+watching = 8
+branches = 958
+commits = 2
+stars = 18
+forks = 908
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/react-stockcharts-build"
+last_commit = "c672693c3342c23252924ccdcbe86548524ca8fe"
+last_commit_time = "2018-09-12T20:08"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 2
+watching = 5
+forks = 6
+tag_count = 0
+branches = 11
 
 [[repo]]
 url = "https://github.com/ripple/ripple-address-codec"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 22
+branches = 162
+forks = 32
+watching = 18
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/ripple-authd"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+forks = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/ripple/ripple-binary-codec"
+last_commit = "e349cb87b236eedf175ae70cf56b143cdac1a1a4"
+last_commit_time = "2021-11-19T03:45"
+status = "200"
+
+[repo.stats]
+commits = 11
+watching = 73
+stars = 18
+forks = 45
+branches = 173
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/ripple-blobvault"
+last_commit = "8d90e2260685f91f879a203424584d81e57e840e"
+last_commit_time = "2016-04-01T21:23"
+status = "200"
+
+[repo.stats]
+commits = 11
+tag_count = 0
+forks = 41
+stars = 36
+watching = 28
+branches = 594
 
 [[repo]]
 url = "https://github.com/ripple/ripple-client"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 11
+watching = 713
+stars = 0
+forks = 539
+branches = 0
 
 [[repo]]
 url = "https://github.com/ripple/ripple-client-desktop"
+status = "200"
+
+[repo.stats]
+watching = 54
+stars = 117
+branches = 0
+forks = 179
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/ripple/ripple-data-api"
+last_commit = "e28e2177ed5c32c2e3704863bb985dee5e051b36"
+last_commit_time = "2015-10-26T19:19"
+status = "200"
+
+[repo.stats]
+commits = 6
+stars = 47
+forks = 41
+watching = 30
+branches = 956
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/ripple-demurrage-tool"
+last_commit = "ed86f417c67d1ab743ec495400e57fac7c28a4c7"
+last_commit_time = "2015-02-09T21:53"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 11
+forks = 10
+watching = 10
+stars = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/ripple-dev-portal"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 19
+tag_count = 0
+forks = 872
+stars = 346
+watching = 136
 
 [[repo]]
 url = "https://github.com/ripple/ripple-domain-verifier"
+last_commit = "7efa3b2c5d9ec722b68ce196d4c5bac2dc8565a3"
+last_commit_time = "2016-11-09T18:46"
+status = "200"
+
+[repo.stats]
+commits = 10
+stars = 3
+tag_count = 0
+forks = 16
+watching = 11
+branches = 36
 
 [[repo]]
 url = "https://github.com/ripple/ripple-dot-net"
+status = "404"
+
+[repo.stats]
+branches = 0
+stars = 0
+commits = 0
+tag_count = 0
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/ripple/ripple-ecies"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 0
+branches = 0
+forks = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/ripple/ripple-hashes"
+last_commit = "2bb9bed707c793b2cdd1dbbbb1dcaf47d39048dc"
+last_commit_time = "2019-10-15T23:19"
+status = "200"
+
+[repo.stats]
+forks = 19
+stars = 3
+branches = 20
+tag_count = 0
+watching = 13
+commits = 1
 
 [[repo]]
 url = "https://github.com/ripple/ripple-keypairs"
+last_commit = "2459fa202d798b50d164be3a696da752e0291a33"
+last_commit_time = "2021-11-11T18:04"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 281
+stars = 66
+watching = 16
+forks = 65
 
 [[repo]]
 url = "https://github.com/ripple/ripple-lib"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 209
+forks = 451
+tag_count = 0
+stars = 0
+commits = 33
 
 [[repo]]
 url = "https://github.com/ripple/ripple-lib-cli"
+last_commit = "af393981d69acae1c5c4c2b58bbe28ba3f30db1e"
+last_commit_time = "2014-12-17T01:34"
+status = "200"
+
+[repo.stats]
+watching = 12
+stars = 1
+branches = 2
+tag_count = 0
+commits = 1
+forks = 11
 
 [[repo]]
 url = "https://github.com/ripple/ripple-lib-extensions"
+last_commit = "0cb837f5d912bd076c145cfee2ea16f87d442587"
+last_commit_time = "2021-11-24T06:22"
+status = "200"
+
+[repo.stats]
+branches = 151
+stars = 19
+commits = 1
+watching = 21
+forks = 31
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/ripple-lib-java"
+last_commit = "4358958586ed722625ca89d29b9b6bfa517803f0"
+last_commit_time = "2016-05-22T11:35"
+status = "200"
+
+[repo.stats]
+stars = 125
+forks = 111
+tag_count = 0
+commits = 10
+watching = 31
+branches = 464
 
 [[repo]]
 url = "https://github.com/ripple/ripple-libpp"
+last_commit = "5c568b60067c952831b706817368022d3027e400"
+last_commit_time = "2018-09-27T17:16"
+status = "200"
+
+[repo.stats]
+stars = 19
+forks = 31
+watching = 24
+tag_count = 0
+branches = 27
+commits = 1
 
 [[repo]]
 url = "https://github.com/ripple/ripple-orderbook"
+status = "404"
+
+[repo.stats]
+forks = 0
+branches = 0
+watching = 0
+stars = 0
+commits = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/ripple-rest"
+last_commit = "ff295cd1ea9641813369b02ba75bb3bf5ef4c9b8"
+last_commit_time = "2015-11-19T23:05"
+status = "200"
+
+[repo.stats]
+stars = 84
+tag_count = 0
+branches = 0
+watching = 26
+forks = 93
+commits = 5
 
 [[repo]]
 url = "https://github.com/ripple/ripple-topology"
+last_commit = "8bbc908cb05e638ebc913247b2421ea3a7eaa941"
+last_commit_time = "2020-02-05T21:36"
+status = "200"
+
+[repo.stats]
+stars = 7
+tag_count = 0
+commits = 9
+watching = 9
+forks = 3
+branches = 7
 
 [[repo]]
 url = "https://github.com/ripple/ripple-vault-client"
+last_commit = "565ae95b4045154377ce988aadb095f73292e6dc"
+last_commit_time = "2015-05-01T14:31"
+status = "200"
+
+[repo.stats]
+branches = 49
+commits = 2
+tag_count = 0
+watching = 15
+stars = 2
+forks = 29
 
 [[repo]]
 url = "https://github.com/ripple/ripple.github.io"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+commits = 0
+tag_count = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/ripple/ripplecharts-frontend"
+last_commit = "72421c141a07eafeeedc9bc9f99a20e039cc839b"
+last_commit_time = "2021-11-30T15:54"
+status = "200"
+
+[repo.stats]
+forks = 156
+watching = 72
+tag_count = 0
+branches = 928
+stars = 187
+commits = 18
 
 [[repo]]
 url = "https://github.com/ripple/rippled"
 tags = ["Protocol"]
+status = "200"
+
+[repo.stats]
+watching = 505
+stars = 0
+forks = 0
+tag_count = 0
+commits = 15
+branches = 0
 
 [[repo]]
 url = "https://github.com/ripple/rippled-gha-test"
+last_commit = "72377e7bf25c4eaee5174186d2db3c6b4210946f"
+last_commit_time = "2022-02-08T00:36"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+forks = 0
+watching = 2
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/ripple/rippled-historical-database"
+last_commit = "1ada26fa83ebc5a224e01ff49ccb95c5ac453827"
+last_commit_time = "2021-05-12T22:55"
+status = "200"
+
+[repo.stats]
+watching = 37
+branches = 0
+tag_count = 0
+stars = 91
+forks = 71
+commits = 22
 
 [[repo]]
 url = "https://github.com/ripple/rippled-network-crawler"
+last_commit = "211321a9f2d586fc7e6fc95f5a946a3bd33aa321"
+last_commit_time = "2021-01-06T22:43"
+status = "200"
+
+[repo.stats]
+watching = 11
+forks = 16
+tag_count = 0
+commits = 12
+stars = 16
+branches = 220
 
 [[repo]]
 url = "https://github.com/ripple/rippled-package-builder"
+last_commit = "fbda3d723ba4bd338742eaa8553e73f4dd9f332f"
+last_commit_time = "2019-07-30T17:49"
+status = "200"
+
+[repo.stats]
+commits = 24
+stars = 6
+forks = 24
+branches = 266
+watching = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/rippled-peers-api"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+forks = 0
+watching = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/ripple/rippled-peers-webapp"
+last_commit = "4a0acf48429eb6cc6e38354da686e86cc01df8b5"
+last_commit_time = "2016-03-28T19:24"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 10
+commits = 3
+stars = 1
+forks = 12
+branches = 140
 
 [[repo]]
 url = "https://github.com/ripple/rippled-subtrees"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+stars = 0
+forks = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/ripple/rippledmon"
+status = "200"
+
+[repo.stats]
+forks = 8
+watching = 21
+tag_count = 0
+stars = 6
+branches = 7
+commits = 1
 
 [[repo]]
 url = "https://github.com/ripple/salt-formula-prometheus"
+last_commit = "453e29049599f29420547ece0ebe88aaad272cc4"
+last_commit_time = "2017-03-30T13:43"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 4
+stars = 2
+branches = 6
+forks = 27
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/salt-pillar-kvdn"
+last_commit = "d4a67b3520aa60a95469a77b58c7707cf652111b"
+last_commit_time = "2017-01-10T20:21"
+status = "200"
+
+[repo.stats]
+forks = 11
+branches = 47
+commits = 1
+tag_count = 0
+watching = 4
+stars = 1
 
 [[repo]]
 url = "https://github.com/ripple/salt-pillar-vault"
+last_commit = "4401c080ad5ad90480af09031df0836917d87887"
+last_commit_time = "2018-09-12T21:55"
+status = "200"
+
+[repo.stats]
+stars = 25
+watching = 16
+commits = 4
+forks = 25
+branches = 27
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/salt-runner-vault-pki"
+last_commit = "57dda9af8958181ad12647479556c9ad53eda399"
+last_commit_time = "2018-09-24T18:40"
+status = "200"
+
+[repo.stats]
+forks = 13
+commits = 3
+branches = 20
+tag_count = 0
+stars = 12
+watching = 11
 
 [[repo]]
 url = "https://github.com/ripple/saltutils"
+last_commit = "dd3368ac1f4fe3bcaa11ce88635aa13a44b7344b"
+last_commit_time = "2017-06-30T01:12"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 1
+forks = 9
+tag_count = 0
+branches = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/ripple/sequelize"
+last_commit = "a7140f83a4a5d480a9162316233d1d94c2f8c708"
+last_commit_time = "2016-01-10T10:07"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 5
+stars = 2
+tag_count = 0
+branches = 0
+commits = 24
 
 [[repo]]
 url = "https://github.com/ripple/simulator"
+last_commit = "05329f4f41af3abc980a1b21dee7bd1545ec91c4"
+last_commit_time = "2014-09-08T04:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 18
+commits = 1
+branches = 4
+forks = 19
+stars = 19
 
 [[repo]]
 url = "https://github.com/ripple/sjcl-codec"
+last_commit = "9a298089693818977bae58ffe63916816069dbf7"
+last_commit_time = "2015-09-29T21:34"
+status = "200"
+
+[repo.stats]
+watching = 7
+stars = 1
+forks = 6
+branches = 3
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/ripple/sjcl-extended"
+last_commit = "1624f61b68c14b7f0e77f73f0c68451a1ad744c1"
+last_commit_time = "2016-10-11T00:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 8
+branches = 4
+forks = 12
+stars = 3
 
 [[repo]]
 url = "https://github.com/ripple/testnet-faucet"
+last_commit = "8396ebc201c5201a4627da543efbb7fa22c63509"
+last_commit_time = "2022-01-07T01:56"
+status = "200"
+
+[repo.stats]
+forks = 4
+watching = 18
+stars = 3
+branches = 3
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/ripple/tx-reporter"
+last_commit = "6cbdf1497bd620e32d4c64b76cd00702fd8344f2"
+last_commit_time = "2020-12-04T17:07"
+status = "200"
+
+[repo.stats]
+commits = 10
+branches = 11
+forks = 4
+watching = 19
+stars = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/validation-count-reporter"
+last_commit = "b71aeaef8b2cf14860971cc632ac5f68966f5844"
+last_commit_time = "2020-04-06T21:41"
+status = "200"
+
+[repo.stats]
+forks = 4
+commits = 1
+stars = 6
+tag_count = 0
+branches = 15
+watching = 3
 
 [[repo]]
 url = "https://github.com/ripple/validator-domain-verifier"
+last_commit = "5bf2024bd68c4545ef687eb69ea7444443d8ceb9"
+last_commit_time = "2019-02-12T23:01"
+status = "200"
+
+[repo.stats]
+branches = 20
+tag_count = 0
+commits = 1
+watching = 8
+forks = 6
+stars = 2
 
 [[repo]]
 url = "https://github.com/ripple/validator-history-service"
+last_commit = "b27b115d209344badd3b0500b047809a6671b303"
+last_commit_time = "2022-06-28T20:44"
+status = "200"
+
+[repo.stats]
+branches = 67
+commits = 6
+watching = 20
+forks = 5
+stars = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/validator-keys-tool"
+last_commit = "23645060be959b982af0711685548b70a5844725"
+last_commit_time = "2022-03-17T20:23"
+status = "200"
+
+[repo.stats]
+forks = 49
+tag_count = 0
+commits = 7
+stars = 15
+watching = 21
+branches = 28
 
 [[repo]]
 url = "https://github.com/ripple/validator-registry-api"
+last_commit = "f6bc3a01dfa5600fa9788367449e675322fd7981"
+last_commit_time = "2016-09-02T19:15"
+status = "200"
+
+[repo.stats]
+forks = 11
+tag_count = 0
+watching = 8
+stars = 4
+branches = 216
+commits = 21
 
 [[repo]]
 url = "https://github.com/ripple/validator-registry-webapp"
+last_commit = "ae67dfc0f5f875aafcfd2d5edd20fba0361bb9d7"
+last_commit_time = "2016-05-10T19:09"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 8
+tag_count = 0
+stars = 3
+branches = 120
+forks = 10
 
 [[repo]]
 url = "https://github.com/ripple/vault-pki-formula"
+last_commit = "c08fe987fb3e3fa127a0545e4ab6235083be53be"
+last_commit_time = "2020-06-24T18:56"
+status = "200"
+
+[repo.stats]
+branches = 80
+stars = 21
+commits = 5
+tag_count = 0
+forks = 14
+watching = 14
 
 [[repo]]
 url = "https://github.com/ripple/vl"
+status = "200"
+
+[repo.stats]
+stars = 6
+forks = 8
+watching = 16
+commits = 2
+tag_count = 0
+branches = 58
 
 [[repo]]
 url = "https://github.com/ripple/x-address-codec"
+last_commit = "5e9a5a8ff7d239896ce5ac3466dc9bd633fe2fec"
+last_commit_time = "2019-10-18T01:09"
+status = "200"
+
+[repo.stats]
+commits = 4
+stars = 3
+branches = 39
+watching = 9
+forks = 17
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/xrp-api"
+last_commit = "7a7ac891e796bc66c9c66a1296b9b60757c07fcf"
+last_commit_time = "2020-04-03T09:41"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 10
+watching = 23
+tag_count = 0
+branches = 66
+stars = 10
 
 [[repo]]
 url = "https://github.com/ripple/xrp-batch-payout"
+last_commit = "42c4f2edc5691737d31532ea4f090f5fbebb6e13"
+last_commit_time = "2021-12-28T02:19"
+status = "200"
+
+[repo.stats]
+stars = 7
+branches = 185
+commits = 19
+watching = 5
+forks = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ripple/xrp-batch-payout-cli"
+last_commit = "42c4f2edc5691737d31532ea4f090f5fbebb6e13"
+last_commit_time = "2021-12-28T02:19"
+status = "200"
+
+[repo.stats]
+stars = 7
+branches = 185
+commits = 19
+forks = 6
+tag_count = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/ripple/xrp-ledger-countdown"
+last_commit = "12b78cbf3bd9b23d07ad1c92865ec32c9c7e04ae"
+last_commit_time = "2021-05-24T20:03"
+status = "200"
+
+[repo.stats]
+branches = 3
+tag_count = 0
+watching = 3
+stars = 1
+forks = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/ripple/xrpl-dev-portal"
+status = "200"
+
+[repo.stats]
+commits = 19
+branches = 0
+watching = 136
+stars = 346
+tag_count = 0
+forks = 872
 
 [[repo]]
 url = "https://github.com/roemba/xsplit"
+last_commit = "4d54850362e51ad067cde94898b3e03419ba1052"
+last_commit_time = "2020-04-15T18:44"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 0
+branches = 379
+tag_count = 0
+commits = 3
+watching = 2
 
 [[repo]]
 url = "https://github.com/rubblelabs/ripple"
+last_commit = "2ad3ea2b5f06a01dfd017f7258fad65389d4b038"
+last_commit_time = "2022-08-03T09:28"
+status = "200"
+
+[repo.stats]
+forks = 63
+stars = 90
+branches = 453
+commits = 1
+tag_count = 0
+watching = 18
 
 [[repo]]
 url = "https://github.com/rubblelabs/tx"
+last_commit = "6ca53af1cd89954db28074e186158fbedebe97e8"
+last_commit_time = "2015-05-03T17:05"
+status = "200"
+
+[repo.stats]
+forks = 8
+watching = 6
+tag_count = 0
+stars = 18
+commits = 1
+branches = 16
 
 [[repo]]
 url = "https://github.com/segrax/xrp-submit"
 tags = ["Developer Tool"]
+last_commit = "258a34420bcb3fee06a174aea470319ec7e66620"
+last_commit_time = "2017-07-01T00:45"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+watching = 2
+branches = 7
+forks = 0
 
 [[repo]]
 url = "https://github.com/segrax/xrp-vanity"
+last_commit = "7cf1a9a7a0a1342d24fcc9c6a8e2b8f2c589a52f"
+last_commit_time = "2018-05-11T21:53"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 3
+tag_count = 0
+commits = 1
+stars = 9
+branches = 20
 
 [[repo]]
 url = "https://github.com/segrax/xrp-wallet"
 tags = ["Wallet"]
+last_commit = "16a3d70d197c2383575c0570f823b2bec4b97a1b"
+last_commit_time = "2017-07-01T00:50"
+status = "200"
+
+[repo.stats]
+branches = 15
+tag_count = 0
+commits = 1
+forks = 13
+watching = 6
+stars = 12
 
 [[repo]]
 url = "https://github.com/siegfriedgrimbeek/xrp-wallet"
+last_commit = "13646b3006444d1ee567d7579b56a0f14e34b4d3"
+last_commit_time = "2018-01-09T16:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 3
+forks = 0
+stars = 2
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/SimpleXRPTools/SimpleXRPTools"
+last_commit = "564345723faa726c35643dbcd05417d5cfe5fe99"
+last_commit_time = "2021-03-06T03:35"
+status = "200"
+
+[repo.stats]
+forks = 4
+watching = 1
+branches = 52
+tag_count = 0
+stars = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/singpolyma/ripple-haskell"
+last_commit = "006f7342127e4841ab844eb6ee9333d60138aa83"
+last_commit_time = "2015-07-04T21:30"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 4
+branches = 72
+tag_count = 0
+commits = 1
+forks = 4
 
 [[repo]]
 url = "https://github.com/singpolyma/ripple-rails"
+last_commit = "3da2c9fbc49099b54630acc6c3779c65cffd50d1"
+last_commit_time = "2013-04-26T12:40"
+status = "200"
+
+[repo.stats]
+stars = 5
+tag_count = 0
+branches = 8
+forks = 2
+watching = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/Sitebase/ripple-paper-wallet"
+last_commit = "acb5516db42728b6cf6e0a1847dfd55b4d9d030f"
+last_commit_time = "2017-12-10T22:36"
+status = "200"
+
+[repo.stats]
+stars = 4
+watching = 3
+forks = 1
+branches = 7
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/smelis/xrpl4j"
+last_commit = "3b59d3c39d023fda792aecf1e4754d18c3d4aa39"
+last_commit_time = "2020-09-24T12:32"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 21
+forks = 0
+tag_count = 0
+watching = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/stevenzeiler/xrp-account-listener-browserify"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+tag_count = 0
+stars = 0
+forks = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/stevenzeiler/xrp-app-lib"
+last_commit = "c9ffd6c297647ac45aa83ba318dc81f29744a9a7"
+last_commit_time = "2017-05-15T16:19"
+status = "200"
+
+[repo.stats]
+branches = 14
+tag_count = 0
+commits = 3
+watching = 2
+forks = 2
+stars = 2
 
 [[repo]]
 url = "https://github.com/tarotaro080808/xrp-checker"
+last_commit = "a67f9a10e1c0fd01c308e1de0dc8a7e464d08df5"
+last_commit_time = "2019-02-27T15:52"
+status = "200"
+
+[repo.stats]
+branches = 24
+forks = 1
+tag_count = 0
+stars = 4
+commits = 1
+watching = 0
 
 [[repo]]
 url = "https://github.com/TiGowa/xrp-ledger-circular-payment"
+last_commit = "8e9dc73b1f09c03ded41d893d69f2e15a38090f6"
+last_commit_time = "2020-02-15T11:55"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 1
+tag_count = 0
+forks = 0
+branches = 7
+stars = 2
 
 [[repo]]
 url = "https://github.com/TiGowa/xrp-ledger-forensics"
+last_commit = "198652bf5bbee89dd87460670e63e6c40d50aa2f"
+last_commit_time = "2020-12-28T17:58"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 3
+branches = 21
+stars = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/ulamlabs/aioxrpy"
+last_commit = "89f420a4f225b698b853a1557dff7beedd7d32ea"
+last_commit_time = "2020-04-22T06:28"
+status = "200"
+
+[repo.stats]
+stars = 6
+watching = 4
+branches = 9
+commits = 2
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/UNIC-IFF/ripple-docker-testnet"
+last_commit = "80f30fadeef95abe4430f35d54126afea83ef0e4"
+last_commit_time = "2022-07-20T10:05"
+status = "200"
+
+[repo.stats]
+stars = 5
+watching = 3
+forks = 5
+tag_count = 0
+commits = 6
+branches = 185
 
 [[repo]]
 url = "https://github.com/vhpoet/ripple-helpers"
+last_commit = "159e46969df4d7cbd5c4e6c2b2dc0e73836143fb"
+last_commit_time = "2014-01-21T19:22"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+commits = 1
+stars = 6
+branches = 18
+forks = 2
 
 [[repo]]
 url = "https://github.com/vhpoet/xrpvalue.com"
+last_commit = "3793e8c8d599f2a095ed9db623bd95eebad030ca"
+last_commit_time = "2017-05-18T01:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 64
+commits = 1
+forks = 13
+stars = 24
+watching = 8
 
 [[repo]]
 url = "https://github.com/WietseWind/docker-rippled"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 26
+stars = 43
+commits = 1
+branches = 48
+watching = 6
 
 [[repo]]
 url = "https://github.com/WietseWind/docker-rippled-validator"
+last_commit = "2eac6a524e45fc6925d4e8656a2c3259dbfde37b"
+last_commit_time = "2021-08-28T21:43"
+status = "200"
+
+[repo.stats]
+forks = 12
+stars = 25
+branches = 44
+watching = 8
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/WietseWind/fetch-xrpl-accounts"
+last_commit = "e491768d82ef99e9cac493a80ac0e461d0ae0bfc"
+last_commit_time = "2018-06-14T13:52"
+status = "200"
+
+[repo.stats]
+branches = 7
+forks = 1
+tag_count = 0
+commits = 1
+watching = 2
+stars = 5
 
 [[repo]]
 url = "https://github.com/WietseWind/fetch-xrpl-transactions"
 tags = ["Developer Tool"]
+last_commit = "159393dd8079df3fc4f05384376017fdd7ff3d31"
+last_commit_time = "2022-08-03T21:32"
+status = "200"
+
+[repo.stats]
+forks = 11
+tag_count = 0
+branches = 37
+stars = 17
+watching = 4
+commits = 2
 
 [[repo]]
 url = "https://github.com/WietseWind/rippled-ws-client"
+last_commit = "d39b663da2c7eae6a2bdb020f0b7d8109c6f6509"
+last_commit_time = "2021-06-08T14:36"
+status = "200"
+
+[repo.stats]
+stars = 13
+commits = 1
+branches = 74
+watching = 4
+forks = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/WietseWind/rippled-ws-client-dashboard"
 tags = ["Developer Tool"]
+last_commit = "ca808ca0567babade86ceebc614497cf9b8e4151"
+last_commit_time = "2020-05-09T19:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 17
+stars = 7
+forks = 4
+watching = 2
+branches = 19
 
 [[repo]]
 url = "https://github.com/WietseWind/rippled-ws-client-pool"
+last_commit = "db2f4fde6c3d71c241e96920436b371a24a3ba5e"
+last_commit_time = "2021-06-08T14:36"
+status = "200"
+
+[repo.stats]
+stars = 3
+tag_count = 0
+commits = 6
+forks = 3
+watching = 2
+branches = 18
 
 [[repo]]
 url = "https://github.com/WietseWind/rippled-ws-client-sign"
+last_commit = "44c3c5e19fb4fda8b14305a9e441e9788a58b48f"
+last_commit_time = "2021-06-08T14:36"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+stars = 6
+watching = 3
+branches = 24
+commits = 3
 
 [[repo]]
 url = "https://github.com/WietseWind/toastify-ledger"
+last_commit = "e5d4537dc83d545ada83087b767850fd60d56dd0"
+last_commit_time = "2018-07-29T14:26"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 13
+commits = 1
+watching = 4
+tag_count = 0
+branches = 21
 
 [[repo]]
 url = "https://github.com/WietseWind/verify-rippledvalidator"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+commits = 0
+tag_count = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/WietseWind/xrp-fud-bingo"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+branches = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/WietseWind/XRP-Ledger-to-MongoDB"
 tags = ["Developer Tool"]
+last_commit = "cb61939dd08dfc330e9f18c612f183a069b81bc7"
+last_commit_time = "2019-12-06T10:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+forks = 8
+stars = 11
+branches = 52
+commits = 1
 
 [[repo]]
 url = "https://github.com/WietseWind/xrp-ledgerstats"
 tags = ["Developer Tool"]
+last_commit = "ffc71eb051eea01abf71fed9dbd063646c606736"
+last_commit_time = "2018-08-08T09:32"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 22
+commits = 1
+branches = 12
+tag_count = 0
+forks = 21
 
 [[repo]]
 url = "https://github.com/WietseWind/xrp-mnemonic-recovery"
 tags = ["Developer Tool"]
+last_commit = "750d5a2d6079cee67b467b88d971500327622660"
+last_commit_time = "2018-06-18T16:01"
+status = "200"
+
+[repo.stats]
+forks = 4
+watching = 2
+tag_count = 0
+stars = 6
+branches = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/WietseWind/XRP-Paper-Account"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 22
+tag_count = 0
+commits = 1
+stars = 10
+forks = 1
 
 [[repo]]
 url = "https://github.com/WietseWind/XRP-Stats-Frontend"
+last_commit = "64c7805006c0e09c4950dbd6b5b28500423b878f"
+last_commit_time = "2021-12-23T03:34"
+status = "200"
+
+[repo.stats]
+commits = 19
+watching = 3
+branches = 66
+stars = 6
+tag_count = 0
+forks = 8
 
 [[repo]]
 url = "https://github.com/WietseWind/xrp-text"
+last_commit = "4ac9ffa57265302951da27f4e55c942814181814"
+last_commit_time = "2021-03-08T20:18"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 5
+commits = 43
+branches = 64
+stars = 15
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/WietseWind/xrp-trustline-set-commandline"
+last_commit = "a710e55c8c9125f1b3131fb6fd8e5b9a216480bd"
+last_commit_time = "2018-05-28T19:18"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 11
+commits = 1
+forks = 5
+tag_count = 0
+stars = 10
 
 [[repo]]
 url = "https://github.com/WietseWind/xrp-vanity-generator"
 tags = ["Developer Tool"]
+status = "200"
+
+[repo.stats]
+stars = 18
+branches = 14
+tag_count = 0
+commits = 3
+forks = 15
+watching = 3
 
 [[repo]]
 url = "https://github.com/WietseWind/xrpaddress.info"
+last_commit = "b656739ba340f2b3da9bfdb38252740baf9d40e9"
+last_commit_time = "2020-01-28T19:54"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 2
+watching = 0
+branches = 16
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/WietseWind/XRParrot-Backend"
+last_commit = "e02b04fa50545374c43fe2b1f0ca4dfd71d2ec51"
+last_commit_time = "2019-04-23T11:23"
+status = "200"
+
+[repo.stats]
+stars = 4
+commits = 1
+watching = 2
+forks = 2
+branches = 121
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/WietseWind/xrpayments.co"
+last_commit = "c7b2d3a87e49730b1345eb4263b72a6918e6a2e0"
+last_commit_time = "2021-03-08T20:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+commits = 17
+forks = 8
+stars = 20
+branches = 31
 
 [[repo]]
 url = "https://github.com/WietseWind/xrpl-accountlib"
+last_commit = "b5d19f4d756f554d5d52c350af4308a4f8cb5121"
+last_commit_time = "2022-07-15T12:45"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+stars = 15
+forks = 9
+commits = 12
+branches = 139
 
 [[repo]]
 url = "https://github.com/WietseWind/XRPL-MultiSignTool"
+last_commit = "f099892b9866fe095b7d2680253653878c66aa3c"
+last_commit_time = "2020-02-28T13:41"
+status = "200"
+
+[repo.stats]
+commits = 36
+watching = 2
+branches = 44
+stars = 15
+forks = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/WietseWind/xrpl-secret-numbers"
+last_commit = "76919c0e0bda1f30d346e336e68a94be96bbdc18"
+last_commit_time = "2021-03-08T20:43"
+status = "200"
+
+[repo.stats]
+commits = 10
+forks = 8
+watching = 1
+tag_count = 0
+branches = 30
+stars = 19
 
 [[repo]]
 url = "https://github.com/WietseWind/xrpl-tx-json-web"
+last_commit = "ad6c7fc0e22277b638276eda5cd374cea4c84a58"
+last_commit_time = "2020-11-02T20:55"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 7
+stars = 3
+tag_count = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/WietseWind/XRPTipBot-App"
+last_commit = "0682db98306cf11764d26afe2e2e7ef74bfb30e3"
+last_commit_time = "2019-05-08T14:04"
+status = "200"
+
+[repo.stats]
+branches = 13
+tag_count = 0
+forks = 5
+stars = 10
+commits = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/WietseWind/xrptipbot-ilp-receiver"
+last_commit = "7fd7f1b2b0e3abd6797d01a6d1d2c2260e356504"
+last_commit_time = "2018-08-28T13:34"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 1
+branches = 4
+tag_count = 0
+watching = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/wilsonianb/validator-list-parser"
+last_commit = "0db659c1312dc981956f736101779e25f168e992"
+last_commit_time = "2018-07-06T22:28"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 1
+stars = 2
+tag_count = 0
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/wilsonianb/xrp-manifest-tools"
+last_commit = "9dc3bb0b9354cd133989aa9810d26a8215e135a4"
+last_commit_time = "2018-09-14T00:20"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+branches = 1
+watching = 2
+stars = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/xasos/RippleKit"
+last_commit = "743ead1f583e865fe68f615d45a236dd4667eda5"
+last_commit_time = "2017-08-04T18:24"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+commits = 1
+watching = 0
+stars = 5
+branches = 11
 
 [[repo]]
 url = "https://github.com/xpring-eng/challenges"
+last_commit = "14cb18c8b218b0e6819e3b95d2d21e10f32980d3"
+last_commit_time = "2020-01-29T09:29"
+status = "200"
+
+[repo.stats]
+stars = 4
+branches = 5
+watching = 7
+tag_count = 0
+commits = 1
+forks = 3
 
 [[repo]]
 url = "https://github.com/xpring-eng/deconstructing-defi-demo"
+last_commit = "235045d353f68b2cda30ebb1c33c38c198c730a9"
+last_commit_time = "2020-03-07T12:07"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 2
+tag_count = 0
+stars = 2
+branches = 4
+commits = 5
 
 [[repo]]
 url = "https://github.com/xpring-eng/eslint-config-base"
+last_commit = "085d926a6c93abd098ef4ba226b9d70799394d90"
+last_commit_time = "2020-07-28T20:49"
+status = "200"
+
+[repo.stats]
+branches = 121
+forks = 3
+stars = 2
+watching = 4
+commits = 12
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/xpring-eng/eslint-config-mocha"
+last_commit = "e6315fdc6f47e8b4ade0371cf8a053b61a4c68b7"
+last_commit_time = "2020-07-28T20:18"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 0
+tag_count = 0
+branches = 4
+commits = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/xpring-eng/hermes-ilp"
+last_commit = "0321e3b0b4fdd22204abfe58ca669347a30e5c4d"
+last_commit_time = "2020-04-22T14:43"
+status = "200"
+
+[repo.stats]
+stars = 5
+watching = 13
+commits = 36
+forks = 2
+tag_count = 0
+branches = 135
 
 [[repo]]
 url = "https://github.com/xpring-eng/http-status"
+last_commit = "28d1f3099c7eba098aef5ea9bd9dd21fd07533cc"
+last_commit_time = "2020-07-30T22:14"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+branches = 13
+commits = 10
+watching = 5
+stars = 1
 
 [[repo]]
 url = "https://github.com/xpring-eng/ilp-spsp-server"
+last_commit = "072264674df3c7054aa5b663c932f6bcef1d1b64"
+last_commit_time = "2019-11-27T21:34"
+status = "200"
+
+[repo.stats]
+forks = 3
+commits = 1
+stars = 0
+watching = 1
+tag_count = 0
+branches = 10
 
 [[repo]]
 url = "https://github.com/xpring-eng/logger"
+last_commit = "dbd04da22a779fb5302bafdbd25103ee73fe1865"
+last_commit_time = "2020-07-30T22:14"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 7
+stars = 1
+watching = 1
+forks = 2
+branches = 3
 
 [[repo]]
 url = "https://github.com/xpring-eng/native-bip39"
+last_commit = "feedd8201688e9996113b7d7f10017d3a705b31f"
+last_commit_time = "2019-06-23T17:50"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 12
+stars = 1
+branches = 67
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/xpring-eng/negative-stablecoin"
+last_commit = "0b352808e06f4c7d615e3f2e2321d4cb8dad800c"
+last_commit_time = "2020-12-08T23:20"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 6
+branches = 13
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/xpring-eng/payid-lambda"
+last_commit = "4c583531187d9febea2b9fbc52dd9e38bbd59e64"
+last_commit_time = "2020-08-28T16:41"
+status = "200"
+
+[repo.stats]
+watching = 8
+commits = 2
+forks = 2
+branches = 43
+tag_count = 0
+stars = 4
 
 [[repo]]
 url = "https://github.com/xpring-eng/payme"
+last_commit = "119a5b39b8664d8b40ce60e46259e56c1ceaad8f"
+last_commit_time = "2020-03-24T22:28"
+status = "200"
+
+[repo.stats]
+watching = 7
+forks = 1
+tag_count = 0
+commits = 1
+stars = 1
+branches = 31
 
 [[repo]]
 url = "https://github.com/xpring-eng/ripple-keypairs-integration"
+last_commit = "6c84b75437117d0caaed3482ab8f16a13d6a7b0f"
+last_commit_time = "2020-06-08T15:50"
+status = "200"
+
+[repo.stats]
+watching = 7
+tag_count = 0
+branches = 4
+commits = 17
+forks = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/xpring-eng/ripple-lib-java"
+last_commit = "420bd2d0e8a6f2b909ca9067a900765c34532491"
+last_commit_time = "2020-09-23T16:19"
+status = "200"
+
+[repo.stats]
+forks = 111
+watching = 1
+stars = 0
+tag_count = 0
+commits = 6
+branches = 600
 
 [[repo]]
 url = "https://github.com/xpring-eng/ripplecharts-frontend"
+last_commit = "78aba98051e24e3c8e1432b68d94f0957ef79c41"
+last_commit_time = "2019-08-23T20:51"
+status = "200"
+
+[repo.stats]
+branches = 922
+stars = 0
+watching = 1
+commits = 18
+forks = 156
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/xpring-eng/rippled-network-crawler"
+last_commit = "d3625012ca7e01c1964334760d3ee06ac229a68d"
+last_commit_time = "2021-01-22T19:34"
+status = "200"
+
+[repo.stats]
+watching = 7
+forks = 2
+tag_count = 0
+commits = 1
+stars = 1
+branches = 218
 
 [[repo]]
 url = "https://github.com/xpring-eng/testnet-faucet"
+last_commit = "29b8ae5cb90ad49c0c9c921ff0fa28ab8e391090"
+last_commit_time = "2021-06-15T04:38"
+status = "200"
+
+[repo.stats]
+watching = 8
+tag_count = 0
+stars = 1
+forks = 2
+branches = 40
+commits = 3
 
 [[repo]]
 url = "https://github.com/xpring-eng/xpring-common-js"
+last_commit = "1ff6c39e021fefeffa08d08ace14df74cd8b70da"
+last_commit_time = "2020-12-08T23:41"
+status = "200"
+
+[repo.stats]
+stars = 9
+commits = 48
+tag_count = 0
+forks = 3
+watching = 12
+branches = 986
 
 [[repo]]
 url = "https://github.com/xpring-eng/Xpring-JS"
+last_commit = "980303eae84ecaaa6c0a2014c679fa232dcbbbbe"
+last_commit_time = "2022-07-13T00:35"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+watching = 19
+forks = 27
+stars = 75
+commits = 45
 
 [[repo]]
 url = "https://github.com/xpring-eng/Xpring-SDK"
+last_commit = "5616684576bc877a9af0d6b242709069309623c2"
+last_commit_time = "2022-07-12T16:00"
+status = "200"
+
+[repo.stats]
+stars = 112
+branches = 28
+tag_count = 0
+commits = 6
+forks = 42
+watching = 27
 
 [[repo]]
 url = "https://github.com/xpring-eng/Xpring-SDK-Demo"
+last_commit = "2a29dbde76d85dc9e74475f9c3c38f5945339123"
+last_commit_time = "2020-11-24T23:56"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 50
+commits = 17
+watching = 10
+forks = 13
+stars = 11
 
 [[repo]]
 url = "https://github.com/xpring-eng/xpring4j"
+last_commit = "6645d92784e4dc9ccaff519aa234eea2d0db8eea"
+last_commit_time = "2022-07-13T06:22"
+status = "200"
+
+[repo.stats]
+watching = 11
+forks = 19
+stars = 28
+commits = 35
+tag_count = 0
+branches = 484
 
 [[repo]]
 url = "https://github.com/xpring-eng/XpringKit"
+last_commit = "029f1e3eb4d7ef43b41badc523fe07c0d32b6893"
+last_commit_time = "2022-07-13T06:34"
+status = "200"
+
+[repo.stats]
+branches = 510
+tag_count = 0
+commits = 48
+forks = 15
+watching = 15
+stars = 23
 
 [[repo]]
 url = "https://github.com/xpring-eng/xrp-api"
+last_commit = "b22eb9075d1987672f631adf1af861ac18b81df5"
+last_commit_time = "2021-05-20T22:51"
+status = "200"
+
+[repo.stats]
+forks = 14
+branches = 100
+tag_count = 0
+commits = 11
+watching = 8
+stars = 22
 
 [[repo]]
 url = "https://github.com/xpring-eng/xrp-cli"
+last_commit = "836f82b868c5e3ca91791128817046226f347b51"
+last_commit_time = "2021-04-19T04:52"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 30
+watching = 18
+commits = 8
+tag_count = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/xpring-eng/xrpl-validator-domains"
+last_commit = "e284d4f455119c2095c3b8f9ba22c786353809f2"
+last_commit_time = "2021-06-15T01:43"
+status = "200"
+
+[repo.stats]
+watching = 7
+forks = 2
+branches = 20
+commits = 5
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/xpring-eng/xrpl-vl"
+last_commit = "bf3088cf86200a7e03cac40effcd7d1d7dd375b9"
+last_commit_time = "2020-03-25T01:19"
+status = "200"
+
+[repo.stats]
+branches = 1
+tag_count = 0
+stars = 1
+forks = 1
+commits = 1
+watching = 6
 
 [[repo]]
 url = "https://github.com/xrp-community/xrpl-tagged-address-codec"
+last_commit = "7784900566f8864516ca16433931b0a7575dc967"
+last_commit_time = "2019-12-18T10:19"
+status = "200"
+
+[repo.stats]
+stars = 17
+tag_count = 0
+forks = 5
+watching = 6
+branches = 13
+commits = 12
 
 [[repo]]
 url = "https://github.com/XRP-Pete/xrp-redis-walletgen"
+last_commit = "163502562cf1660f890c036212bdaba66cbd4fb0"
+last_commit_time = "2018-07-14T23:24"
+status = "200"
+
+[repo.stats]
+branches = 4
+commits = 1
+stars = 0
+forks = 2
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/xrparcade/XRPArcadeTipper"
+last_commit = "569cf435f61e4403e6d9529335a87ed90aad14df"
+last_commit_time = "2021-08-20T06:18"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+tag_count = 0
+branches = 4
+watching = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/xrpdevs/FlareNetMessenger"
+last_commit = "204f4f63d21e6b27d0dad3c79ae34612762e5b79"
+last_commit_time = "2021-11-11T23:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+watching = 2
+branches = 95
+forks = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/XRPL-Labs/XRP-Price-Aggregator"
+last_commit = "d91165448d5346805edc2760f9af84d06aea2fa0"
+last_commit_time = "2021-10-13T01:05"
+status = "200"
+
+[repo.stats]
+branches = 4
+tag_count = 0
+commits = 1
+forks = 4
+stars = 2
+watching = 4
 
 [[repo]]
 url = "https://github.com/XRPL-Labs/XRPayments-App"
+last_commit = "3a5d42a278493ccce23319cfc6f6c5b2599992d8"
+last_commit_time = "2019-04-27T07:57"
+status = "200"
+
+[repo.stats]
+watching = 5
+tag_count = 0
+branches = 14
+stars = 4
+forks = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/XRPL-Labs/XRPL-Orderbook-Reader"
+last_commit = "5cce37c31fd8381580beb54639636a46715560a4"
+last_commit_time = "2021-04-16T09:02"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 28
+stars = 3
+tag_count = 0
+commits = 8
+forks = 2
 
 [[repo]]
 url = "https://github.com/XRPL-Labs/XRPL-Persist-Price-Oracle"
+last_commit = "4d155106e000ebcc5fd32ec0961a9d68dd3dd0e5"
+last_commit_time = "2021-02-15T09:49"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 3
+watching = 4
+tag_count = 0
+branches = 11
+commits = 1
 
 [[repo]]
 url = "https://github.com/XRPL-Labs/XRPL-Webhooks"
+last_commit = "4b4194d3263ff957bbd3d654aefe06d1225fa73d"
+last_commit_time = "2019-11-17T19:26"
+status = "200"
+
+[repo.stats]
+branches = 26
+watching = 5
+tag_count = 0
+commits = 9
+forks = 5
+stars = 9
 
 [[repo]]
 url = "https://github.com/XRPL-Labs/XrplTxData"
+last_commit = "7fed76cee50708c9cfefdbd641f8220ba34031db"
+last_commit_time = "2022-03-02T23:44"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+stars = 5
+branches = 53
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/XRPL-Labs/xumm-for-woocommerce"
+last_commit = "02b3869deb79de553c30cae0c598eac893135fe8"
+last_commit_time = "2021-03-14T19:09"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 8
+stars = 9
+forks = 3
+tag_count = 0
+branches = 21
 
 [[repo]]
 url = "https://github.com/XRPLF/Validation-Stream"
+last_commit = "fe7a12c18341811d0fca779a1667cd45123379fd"
+last_commit_time = "2021-02-26T07:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 3
+branches = 12
+commits = 2
+watching = 6
+stars = 3
 
 [[repo]]
 url = "https://github.com/XRPLF/XRPL-Cluster.com"
+last_commit = "27b0e7c53ffd609c5a9512a036c8363d959119dd"
+last_commit_time = "2021-03-05T07:32"
+status = "200"
+
+[repo.stats]
+forks = 3
+commits = 2
+branches = 28
+stars = 1
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/XRPLF/xrpl-dev-portal"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+stars = 346
+commits = 19
+watching = 136
+forks = 872
 
 [[repo]]
 url = "https://github.com/XRPLF/xrpl-node-configurator"
+status = "200"
+
+[repo.stats]
+stars = 5
+forks = 4
+commits = 2
+watching = 7
+tag_count = 0
+branches = 29
 
 [[repo]]
 url = "https://github.com/XRPLF/xrpl-py"
+status = "200"
+
+[repo.stats]
+stars = 81
+forks = 48
+branches = 331
+commits = 19
+watching = 27
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/XRPLF/XRPL-Standards"
+last_commit = "d4a60594ce3e091d9aa48fc584d41d3e4149a9c8"
+last_commit_time = "2021-03-09T09:29"
+status = "200"
+
+[repo.stats]
+forks = 18
+watching = 41
+stars = 106
+branches = 27
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/XRPLF/xrpl.js"
+status = "200"
+
+[repo.stats]
+watching = 209
+stars = 0
+tag_count = 0
+commits = 33
+branches = 0
+forks = 451
 
 [[repo]]
 url = "https://github.com/XRPLF/xrpl.ws-Edge-Proxy"
+last_commit = "16436314bccc8b5d8d9aa99e56d5342659ec8068"
+last_commit_time = "2022-07-28T22:33"
+status = "200"
+
+[repo.stats]
+stars = 3
+tag_count = 0
+forks = 4
+branches = 183
+watching = 3
+commits = 2
 
 [[repo]]
 url = "https://github.com/XRPLF/xrpl.ws-stats.com-Frontend"
+last_commit = "2257dbbb34913e11b1bbb512c8e0412bd2e30478"
+last_commit_time = "2021-05-10T14:30"
+status = "200"
+
+[repo.stats]
+stars = 4
+tag_count = 0
+branches = 58
+forks = 0
+commits = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/XRPLF/xrpl4j"
+last_commit = "9dcbbfa37c14edc4e0c6d50b21fc92837118866f"
+last_commit_time = "2022-08-03T23:42"
+status = "200"
+
+[repo.stats]
+commits = 17
+stars = 51
+tag_count = 0
+forks = 30
+watching = 14
+branches = 357
 
 [[repo]]
 url = "https://github.com/XRPLF/xrplf.org-placeholder"
+last_commit = "a1aae0020a31ec5c42b5dada6e8e9df9ca65f3a5"
+last_commit_time = "2022-06-03T10:04"
+status = "200"
+
+[repo.stats]
+stars = 2
+commits = 2
+branches = 23
+tag_count = 0
+forks = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/xrpoffline/XRPoffline"
+last_commit = "f88951d9de66862ac4475a92d8d5ac92ca89e10e"
+last_commit_time = "2015-12-03T21:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 4
+stars = 0
+branches = 6
+watching = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/xrpscan/xrpscan.com"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+branches = 0
+stars = 0
+watching = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/xrpsymbol/xrpsymbol.github.io"
+last_commit = "a4fc10e86f17f154b84366a4174f6447f36700ea"
+last_commit_time = "2018-05-21T04:12"
+status = "200"
+
+[repo.stats]
+watching = 7
+tag_count = 0
+commits = 1
+forks = 45
+stars = 20
+branches = 190
 
 [[repo]]
 url = "https://github.com/yuexcom/go-xrp"
+last_commit = "9c9be23f53a261a543e7a7c6d61bac8cfac1662f"
+last_commit_time = "2019-03-14T11:58"
+status = "200"
+
+[repo.stats]
+branches = 23
+stars = 15
+forks = 4
+watching = 3
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/yuki777/xrp-paper-wallet"
+last_commit = "4fee91c1c8d19fc131b3249842367e286e32429c"
+last_commit_time = "2022-06-27T00:55"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 32
+stars = 3
+tag_count = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/yyolk/awesome-xrpl"
+last_commit = "64d650bbd246d2df33e0a73f71d87c66540a3ed9"
+last_commit_time = "2022-07-21T16:50"
+status = "200"
+
+[repo.stats]
+forks = 13
+tag_count = 0
+commits = 1
+stars = 48
+watching = 7
+branches = 232
 
 [[repo]]
 url = "https://github.com/zapstergateway/woocommerce-gateway"
+last_commit = "52f14458ee7b1efbffb5c02ceedd75a20b27e5cc"
+last_commit_time = "2018-06-11T11:19"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 5
+watching = 1
+commits = 1
+forks = 2
+tag_count = 0

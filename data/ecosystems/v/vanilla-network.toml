@@ -1,10 +1,16 @@
-# Ecosystem Level Information
 title = "Vanilla Network"
-
+toml_path = "data/ecosystems/v/vanilla-network.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/vanilla-network/Vanilla-Core"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 3
+forks = 1
+watching = 1
+tag_count = 0
+commits = 1

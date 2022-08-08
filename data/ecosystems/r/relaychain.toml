@@ -1,34 +1,126 @@
-# Ecosystem Level Information
 title = "RelayChain"
-
+toml_path = "data/ecosystems/r/relaychain.toml"
+github_organizations = ["https://github.com/RelayChain"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/RelayChain"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/RelayChain/bridge-tokens"
+last_commit = "43abe3ae98a8c3f39feb046a4fbadc453d856100"
+last_commit_time = "2022-01-18T18:58"
+status = "200"
+
+[repo.stats]
+branches = 139
+commits = 1
+stars = 2
+forks = 1
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/RelayChain/chainbridge-solidity"
+last_commit = "093f10261f30010f78c30e820a7ff17ac7bd5afb"
+last_commit_time = "2021-11-09T04:44"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 3
+commits = 4
+branches = 121
+forks = 5
+watching = 1
 
 [[repo]]
 url = "https://github.com/RelayChain/DefiLlama-Adapters"
+last_commit = "778e62d4c8542c60074e864ad8e64cfda30c28ba"
+last_commit_time = "2022-04-01T06:37"
+status = "200"
+
+[repo.stats]
+commits = 7
+stars = 0
+watching = 0
+tag_count = 0
+branches = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/RelayChain/relay-api"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+watching = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/RelayChain/relay-app"
+last_commit = "3f8744bcd6b9b9b7cd2fd45d0a9e7f0c076403a0"
+last_commit_time = "2022-07-06T17:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 71
+stars = 10
+watching = 4
+forks = 10
 
 [[repo]]
 url = "https://github.com/RelayChain/relay-docs"
+last_commit = "74790c9df6db5a825160a773b90df42daa0a0871"
+last_commit_time = "2021-08-07T23:39"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 93
+watching = 0
+tag_count = 0
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/RelayChain/relay-website"
+last_commit = "747397fb93c367cb97432799c5f07e002abea459"
+last_commit_time = "2021-09-28T16:20"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 1
+branches = 90
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/RelayChain/transfer-sample"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+commits = 0
+branches = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/RelayChain/transfer-service"
+last_commit = "81d2dbc38f6aa4e393faa6b784c3e207ee727916"
+last_commit_time = "2022-01-06T19:01"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 2
+commits = 2
+tag_count = 0
+forks = 1
+stars = 1

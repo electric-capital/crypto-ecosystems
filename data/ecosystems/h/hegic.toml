@@ -1,70 +1,294 @@
-# Ecosystem Level Information
 title = "Hegic"
-
+toml_path = "data/ecosystems/h/hegic.toml"
+github_organizations = ["https://github.com/hegic"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/hegic"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/hegic/contracts"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 7
+branches = 93
+stars = 17
+forks = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/hegic/contracts-v1"
+last_commit = "e218f57c779c58866fb4d27b30c5712f4c5f92c1"
+last_commit_time = "2021-02-06T10:15"
+status = "200"
+
+[repo.stats]
+watching = 5
+commits = 2
+forks = 34
+tag_count = 0
+branches = 46
+stars = 38
 
 [[repo]]
 url = "https://github.com/hegic/contracts-v888"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+forks = 0
+stars = 0
+watching = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/hegic/cryptoanonsense"
+last_commit = "15d4ec5634cb397fae64a78523c309f09e92e3a6"
+last_commit_time = "2021-02-20T15:57"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 32
+watching = 3
+branches = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/hegic/DeFi-Pulse-Adapters"
+last_commit = "b6a89260ef0c97d8cdc272667449a951309c62b0"
+last_commit_time = "2021-08-23T05:19"
+status = "200"
+
+[repo.stats]
+watching = 0
+commits = 58
+stars = 0
+tag_count = 0
+branches = 0
+forks = 493
 
 [[repo]]
 url = "https://github.com/hegic/frontend-v1.1"
+last_commit = "6cf66ba98849621bcbfedd38b274b4bca488089a"
+last_commit_time = "2020-10-12T06:50"
+status = "200"
+
+[repo.stats]
+branches = 6
+stars = 1
+forks = 5
+watching = 1
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/hegic/GradualTokenSwap"
+last_commit = "d546ae1d069966b599addf5a5e0c4dbe9865563f"
+last_commit_time = "2021-01-18T13:21"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+forks = 4
+stars = 5
+watching = 3
+branches = 5
 
 [[repo]]
 url = "https://github.com/hegic/hegic-frontend"
+last_commit = "c46a9f31f51bc235eca424237c02ed62c8d7b714"
+last_commit_time = "2020-04-09T10:16"
+status = "200"
+
+[repo.stats]
+branches = 11
+tag_count = 0
+watching = 7
+commits = 17
+forks = 26
+stars = 21
 
 [[repo]]
 url = "https://github.com/hegic/hegic-hardcore-beta"
+last_commit = "9387bbc4ea59e4e075b5be05583dcf141fb79073"
+last_commit_time = "2022-02-26T08:12"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+commits = 1
+tag_count = 0
+branches = 8
+forks = 3
 
 [[repo]]
 url = "https://github.com/hegic/Hegic-protocol-v8888"
+last_commit = "29438dbe350ffd506ff23c73ee14110239b3ca1c"
+last_commit_time = "2021-08-13T14:16"
+status = "200"
+
+[repo.stats]
+forks = 6
+stars = 7
+watching = 1
+tag_count = 0
+commits = 2
+branches = 23
 
 [[repo]]
 url = "https://github.com/hegic/Hegic-v8888"
+last_commit = "29438dbe350ffd506ff23c73ee14110239b3ca1c"
+last_commit_time = "2021-08-13T14:16"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 7
+branches = 23
+tag_count = 0
+commits = 2
+forks = 6
 
 [[repo]]
 url = "https://github.com/hegic/Hegic-v8888-release-deck"
+last_commit = "8588bca2758705e54778857074a154cb002f9248"
+last_commit_time = "2021-08-10T15:01"
+status = "200"
+
+[repo.stats]
+branches = 2
+commits = 1
+forks = 0
+stars = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/hegic/initial-bonding-curve-offering"
+last_commit = "160ef552654913a6aac63c7e9d41768e2f0a88d0"
+last_commit_time = "2021-02-06T10:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 17
+watching = 2
+forks = 12
+branches = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/hegic/old-contracts"
+last_commit = "ea15bcbf2346bc46d0db1de30dde0e9456582f52"
+last_commit_time = "2020-03-18T07:43"
+status = "200"
+
+[repo.stats]
+branches = 11
+tag_count = 0
+commits = 1
+forks = 7
+watching = 2
+stars = 7
 
 [[repo]]
 url = "https://github.com/hegic/old-dao-contributions"
+last_commit = "3f72b54b7b7dab6c08e74131e09b3ae365bb466a"
+last_commit_time = "2020-03-11T16:08"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+watching = 1
+stars = 0
+commits = 1
+branches = 7
 
 [[repo]]
 url = "https://github.com/hegic/old-protocol-tokenomics"
+last_commit = "8a0787881463628686129880062a66d7125c0c4d"
+last_commit_time = "2020-03-11T12:51"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+branches = 2
+commits = 1
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/hegic/play.hegic.co"
+last_commit = "8b6c251140a514e772bf44337800aa7e4557b69e"
+last_commit_time = "2022-06-22T08:10"
+status = "200"
+
+[repo.stats]
+branches = 2
+tag_count = 0
+commits = 1
+forks = 0
+stars = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/hegic/v8888f"
+last_commit = "af6879b97891026d4631c3f61fead7d8ee652247"
+last_commit_time = "2022-07-12T08:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 1
+forks = 0
+watching = 0
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/hegic/whiteheart"
+last_commit = "a83a71461c716639139031d93f92222d666654ff"
+last_commit_time = "2020-12-27T14:22"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+stars = 3
+branches = 5
+commits = 1
+watching = 5
 
 [[repo]]
 url = "https://github.com/hegic/whiteheart-front"
+last_commit = "11d38d8c3494cc66147504cb9d4d16c216d80b93"
+last_commit_time = "2021-04-01T02:02"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+forks = 1
+stars = 0
+branches = 35
+commits = 2
 
 [[repo]]
 url = "https://github.com/hegic/whitepaper"
+last_commit = "942acb6aa72ae3eda913b52795c3c0bcc6a8cc71"
+last_commit_time = "2020-02-20T12:18"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 5
+tag_count = 0
+commits = 1
+branches = 2
+stars = 5

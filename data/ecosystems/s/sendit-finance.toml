@@ -1,22 +1,74 @@
-# Ecosystem Level Information
 title = "SendIt Finance"
-
+toml_path = "data/ecosystems/s/sendit-finance.toml"
+github_organizations = ["https://github.com/sendit-finance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/sendit-finance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/sendit-finance/ecosystem"
+last_commit = "3b8ef1aca0c50837d2062cbbb678fc2ec42b3a21"
+last_commit_time = "2021-06-28T21:38"
+status = "200"
+
+[repo.stats]
+forks = 536
+watching = 0
+branches = 127
+commits = 11
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sendit-finance/sol-wallet-adapter"
+last_commit = "20f35a83f9c1bcf070f4d4afbaca50cb43c3a7a8"
+last_commit_time = "2021-06-23T18:38"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 53
+forks = 86
+stars = 0
+tag_count = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/sendit-finance/solana-garage"
+last_commit = "67a2dcdb5086789cd0970fc5990907fe1dd1ddf0"
+last_commit_time = "2021-09-02T17:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+stars = 1
+commits = 1
+forks = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/sendit-finance/spl-token-wallet"
+last_commit = "f2e5b445e87c32abc2992097542d962e1d365898"
+last_commit_time = "2021-06-07T20:44"
+status = "200"
+
+[repo.stats]
+commits = 31
+stars = 1
+forks = 351
+tag_count = 0
+watching = 0
+branches = 253
 
 [[repo]]
 url = "https://github.com/sendit-finance/website"
+last_commit = "8d87ac3c76944b227abdf28e631d164b67e4e2c3"
+last_commit_time = "2021-09-02T17:47"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 0
+stars = 2
+tag_count = 0
+commits = 1
+branches = 1

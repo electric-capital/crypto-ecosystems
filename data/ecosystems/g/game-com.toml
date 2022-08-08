@@ -1,22 +1,74 @@
-# Ecosystem Level Information
 title = "Game.com"
-
+toml_path = "data/ecosystems/g/game-com.toml"
+github_organizations = ["https://github.com/GameLeLe"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/GameLeLe"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/GameLeLe/account_creation_server"
+last_commit = "d8bd0acdf38401d813db272e819df7a683b90be5"
+last_commit_time = "2019-09-02T11:57"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+watching = 1
+tag_count = 0
+branches = 4
+forks = 3
 
 [[repo]]
 url = "https://github.com/GameLeLe/chat"
+last_commit = "cabc1ca437a32477e11b6a6531cb9436b885f77a"
+last_commit_time = "2018-06-18T05:16"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 3
+tag_count = 0
+forks = 0
+branches = 802
+commits = 3
 
 [[repo]]
 url = "https://github.com/GameLeLe/game-contract"
+last_commit = "650ce919db1c887fb39612b2321655fd3b1e83b8"
+last_commit_time = "2017-10-09T07:55"
+status = "200"
+
+[repo.stats]
+forks = 4
+branches = 44
+watching = 4
+stars = 5
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/GameLeLe/gwallet-website"
+last_commit = "05a8955a84d5aa0dd3ad4390b601b92c060ebbbc"
+last_commit_time = "2017-08-21T04:44"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 4
+stars = 0
+forks = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/GameLeLe/trade-addr-tx-service"
+last_commit = "8f68c3ae5c8f62e8b98b988df73716597f479d18"
+last_commit_time = "2017-10-18T11:06"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 4
+forks = 0
+tag_count = 0
+commits = 1
+branches = 16

@@ -1,175 +1,764 @@
-# Ecosystem Level Information
 title = "Osmosis"
-
+toml_path = "data/ecosystems/o/osmosis.toml"
+github_organizations = ["https://github.com/osmosis-labs"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/osmosis-labs"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/osmosis-labs/.github"
+last_commit = "db23eeb8df14dc596322a64b04b6a6e0a0d9e98e"
+last_commit_time = "2022-07-22T20:02"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 1
+forks = 2
+watching = 7
+branches = 2
 
 [[repo]]
 url = "https://github.com/osmosis-labs/assetlists"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 222
+commits = 44
+watching = 18
+forks = 77
+stars = 40
 
 [[repo]]
 url = "https://github.com/osmosis-labs/awesome"
+last_commit = "755ee3082b2fc87ce9d0aedefbd9f839954f376f"
+last_commit_time = "2022-07-01T08:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+forks = 11
+watching = 6
+stars = 35
+branches = 34
 
 [[repo]]
 url = "https://github.com/osmosis-labs/axelarjs-sdk"
+last_commit = "6e1e3d8ec26894dba579c10bf15e7cf7b4236156"
+last_commit_time = "2022-07-20T18:03"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 427
+watching = 0
+tag_count = 0
+forks = 6
+stars = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/beaker"
+status = "200"
+
+[repo.stats]
+branches = 277
+commits = 6
+stars = 33
+tag_count = 0
+watching = 6
+forks = 7
 
 [[repo]]
 url = "https://github.com/osmosis-labs/bech32-ibc"
+status = "200"
+
+[repo.stats]
+forks = 9
+stars = 11
+tag_count = 0
+branches = 93
+watching = 8
+commits = 12
 
 [[repo]]
 url = "https://github.com/osmosis-labs/bindings"
+last_commit = "d6f4359532bd491ed8eb2bbee13d60c90d44fe65"
+last_commit_time = "2022-06-01T23:18"
+status = "200"
+
+[repo.stats]
+watching = 7
+stars = 10
+commits = 13
+tag_count = 0
+branches = 142
+forks = 6
 
 [[repo]]
 url = "https://github.com/osmosis-labs/btree"
+last_commit = "48424402e43a0d02a76f5c3a432585664037ee4d"
+last_commit_time = "2021-08-21T14:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+watching = 0
+stars = 0
+branches = 78
+forks = 52
 
 [[repo]]
 url = "https://github.com/osmosis-labs/claims"
+last_commit = "a14482c332f94494983ba4a22c487117bcb91049"
+last_commit_time = "2022-02-21T23:25"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 3
+tag_count = 0
+forks = 1
+branches = 3
+stars = 3
 
 [[repo]]
 url = "https://github.com/osmosis-labs/contract-list"
+last_commit = "6b13f173cd8ad3a2c44ce1bcd004d2fc2bfddc85"
+last_commit_time = "2022-05-20T17:38"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 6
+commits = 1
+forks = 0
+branches = 4
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cosmjs"
+last_commit = "57a56cfa6ae8c06f4c28949a1028dc764816bbe8"
+last_commit_time = "2021-12-06T12:52"
+status = "200"
+
+[repo.stats]
+commits = 22
+branches = 0
+watching = 0
+forks = 170
+stars = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cosmos-gravity-bridge"
+last_commit = "348250c44fe772ef73be87500808c7bedaf15d8a"
+last_commit_time = "2021-09-08T13:21"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 0
+tag_count = 0
+commits = 64
+watching = 0
+forks = 172
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cosmos-multisig-ui"
+last_commit = "861c3886fbae1659ae4e301c04be2de95fa171d8"
+last_commit_time = "2020-09-29T18:56"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 0
+commits = 1
+branches = 14
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cosmos-sdk"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 128
+branches = 0
+tag_count = 0
+stars = 11
+watching = 4
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cosmoshub-legacy-multisig"
+last_commit = "8f8061d5b1d47b14c51f28cc10428ab9f16a61de"
+last_commit_time = "2022-06-23T19:42"
+status = "200"
+
+[repo.stats]
+branches = 89
+commits = 3
+tag_count = 0
+forks = 33
+watching = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cosmwasm"
+last_commit = "fcbcd753bd9a3a608bd0b80af8bc3b4a2feebde5"
+last_commit_time = "2021-12-02T09:16"
+status = "200"
+
+[repo.stats]
+commits = 41
+tag_count = 0
+branches = 0
+watching = 0
+stars = 1
+forks = 179
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cw-tpl-osmosis"
+last_commit = "46086ef6122953b43a3336536b6fafb538d4bc5b"
+last_commit_time = "2022-05-20T16:24"
+status = "200"
+
+[repo.stats]
+watching = 7
+stars = 3
+branches = 2
+tag_count = 0
+commits = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/docs"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 362
+stars = 12
+commits = 25
+forks = 38
+watching = 7
 
 [[repo]]
 url = "https://github.com/osmosis-labs/faucet"
+last_commit = "25ba6e9424643d97a6e9f5b6890b770ce0f71df4"
+last_commit_time = "2022-07-08T22:25"
+status = "200"
+
+[repo.stats]
+branches = 96
+tag_count = 0
+watching = 7
+stars = 1
+commits = 11
+forks = 1
 
 [[repo]]
 url = "https://github.com/osmosis-labs/feature-requests"
+last_commit = "fe27d11e2273563a61d24d585a5899a5e854ea4d"
+last_commit_time = "2021-11-19T03:54"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 5
+forks = 1
+branches = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/osmosis-labs/ferveo"
+last_commit = "5cc06d9d7c4344b2a51ce73ffc34a0a30e136f95"
+last_commit_time = "2021-08-07T14:08"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+branches = 77
+commits = 22
+tag_count = 0
+forks = 5
 
 [[repo]]
 url = "https://github.com/osmosis-labs/go-mutesting"
+last_commit = "6d9217011a005762bbcf4ac7a60237dc6a99887f"
+last_commit_time = "2021-06-10T10:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 160
+commits = 4
+stars = 0
+forks = 44
+watching = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/governance"
+last_commit = "43779c5a612d0cc7bdd760289c10b86236520385"
+last_commit_time = "2022-01-19T16:09"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+watching = 4
+branches = 15
+commits = 3
+stars = 5
 
 [[repo]]
 url = "https://github.com/osmosis-labs/hubgov"
+last_commit = "7fd8f020aac4b3a255067f5aaa38041b5da81d63"
+last_commit_time = "2020-12-01T02:56"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 1
+tag_count = 0
+commits = 2
+stars = 0
+branches = 2
 
 [[repo]]
 url = "https://github.com/osmosis-labs/iavl"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 6
+tag_count = 0
+commits = 41
+forks = 148
+branches = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/ibc-go"
+last_commit = "7a0fedddf6a038fdda8b6911a345b7c6ab8a564e"
+last_commit_time = "2021-12-08T14:57"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+stars = 0
+forks = 167
+commits = 33
+branches = 186
 
 [[repo]]
 url = "https://github.com/osmosis-labs/infrastructure"
+last_commit = "833140d7660a1fc1bf0551c4c5cf85a1c06eb266"
+last_commit_time = "2022-05-26T17:20"
+status = "200"
+
+[repo.stats]
+stars = 7
+forks = 4
+branches = 43
+tag_count = 0
+commits = 3
+watching = 6
 
 [[repo]]
 url = "https://github.com/osmosis-labs/ionsupply"
+last_commit = "7429de73ba3e34beea3c729d98d31ddf33cb9587"
+last_commit_time = "2021-08-03T20:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 2
+commits = 1
+forks = 0
+stars = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/osmosis-labs/LocalOsmosis"
+last_commit = "698ce8981e19c605a412d28b4e06ea4b4a49663a"
+last_commit_time = "2022-06-30T23:57"
+status = "200"
+
+[repo.stats]
+commits = 14
+tag_count = 0
+stars = 4
+forks = 85
+watching = 0
+branches = 162
 
 [[repo]]
 url = "https://github.com/osmosis-labs/membrane"
+status = "200"
+
+[repo.stats]
+commits = 6
+watching = 6
+forks = 7
+stars = 33
+tag_count = 0
+branches = 277
 
 [[repo]]
 url = "https://github.com/osmosis-labs/metamask-extension"
+last_commit = "4cf5c942aabfafd4ca8560c4ea8c6a9ae1066b62"
+last_commit_time = "2022-01-13T19:40"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 0
+tag_count = 0
+branches = 0
+commits = 266
 
 [[repo]]
 url = "https://github.com/osmosis-labs/networks"
+last_commit = "e7db5bdd0a990b509dd5582ec87a4944397b3430"
+last_commit_time = "2022-06-01T19:53"
+status = "200"
+
+[repo.stats]
+forks = 57
+watching = 10
+stars = 16
+tag_count = 0
+branches = 259
+commits = 35
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmojs"
+last_commit = "380a2b24b43295282ef8bbfff449fc5840d0f71c"
+last_commit_time = "2022-08-02T10:48"
+status = "200"
+
+[repo.stats]
+stars = 12
+branches = 567
+commits = 2
+forks = 5
+tag_count = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis"
+status = "200"
+
+[repo.stats]
+commits = 217
+watching = 38
+tag_count = 0
+stars = 566
+branches = 0
+forks = 224
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-bindings"
+status = "404"
+
+[repo.stats]
+watching = 0
+commits = 0
+branches = 0
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-frontend"
+status = "200"
+
+[repo.stats]
+commits = 53
+stars = 105
+watching = 19
+forks = 144
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-frontier"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+forks = 0
+stars = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-info"
+last_commit = "b58c441e4cfd33478f4ddf4902075ffee4daa275"
+last_commit_time = "2022-06-15T05:09"
+status = "200"
+
+[repo.stats]
+watching = 7
+commits = 8
+forks = 15
+branches = 432
+tag_count = 0
+stars = 20
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-installer"
+last_commit = "8c557c9c0542a2407d498cc5a6ac0b4bc6580178"
+last_commit_time = "2022-08-03T19:55"
+status = "200"
+
+[repo.stats]
+commits = 8
+tag_count = 0
+stars = 11
+forks = 7
+branches = 209
+watching = 4
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-legacy-multisig"
+last_commit = "8f8061d5b1d47b14c51f28cc10428ab9f16a61de"
+last_commit_time = "2022-06-23T19:42"
+status = "200"
+
+[repo.stats]
+forks = 33
+branches = 89
+tag_count = 0
+stars = 1
+commits = 3
+watching = 1
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-monitor"
+last_commit = "1e75ad3a433cdcc09cd635d7c87d494bb2946a3e"
+last_commit_time = "2022-03-23T21:48"
+status = "200"
+
+[repo.stats]
+branches = 46
+tag_count = 0
+stars = 6
+watching = 0
+commits = 1
+forks = 196
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-packer"
+last_commit = "f469901771bebc4dabf92a45e3df60bac7295b05"
+last_commit_time = "2022-04-21T14:31"
+status = "200"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+commits = 17
+stars = 0
+forks = 77
+branches = 240
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-rpc-healthcheck"
+last_commit = "1af95d7f772007d7d7db61d539adf69de015e35e"
+last_commit_time = "2022-05-04T14:55"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 0
+branches = 13
+watching = 4
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-rust"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+forks = 2
+branches = 32
+stars = 6
+commits = 4
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-transak"
+last_commit = "53259a5fa433aedfb5a5fb2bc142de4ed013800c"
+last_commit_time = "2021-12-04T06:58"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 1
+branches = 3
+tag_count = 0
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/osmosis-labs/protobuf"
+last_commit = "8a70ddfdaf94e68497f7b26a6896ad75e03b6616"
+last_commit_time = "2021-01-15T16:12"
+status = "200"
+
+[repo.stats]
+branches = 0
+forks = 723
+stars = 0
+commits = 25
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/protostar"
+last_commit = "82407b9d43cccc36d628bff5c193813a1fcadcc1"
+last_commit_time = "2022-07-30T09:52"
+status = "200"
+
+[repo.stats]
+stars = 33
+tag_count = 0
+commits = 6
+branches = 277
+watching = 6
+forks = 7
 
 [[repo]]
 url = "https://github.com/osmosis-labs/simple_app"
+last_commit = "7c2690f3dd26bc54f1cabe490363725953637859"
+last_commit_time = "2021-08-31T05:03"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 2
+watching = 2
+tag_count = 0
+commits = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/osmosis-labs/slips"
+last_commit = "a96374cb0901c07969dcb85c74dfc32f4d82e915"
+last_commit_time = "2021-05-12T18:01"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 6
+forks = 0
+watching = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/telescope"
+last_commit = "e49b154544410c860b17474faf7f33ab795783a7"
+last_commit_time = "2022-08-02T09:41"
+status = "200"
+
+[repo.stats]
+watching = 13
+tag_count = 0
+forks = 5
+branches = 660
+stars = 51
+commits = 32
 
 [[repo]]
 url = "https://github.com/osmosis-labs/tendermint"
+last_commit = "167fa738a379147f333b86f539bc03f597b978e5"
+last_commit_time = "2021-06-25T13:14"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 0
+tag_count = 0
+commits = 152
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/tendermint-rpc-swagger"
+last_commit = "1bd4aafc57261de3e414c2559908a8985690781b"
+last_commit_time = "2022-07-14T19:23"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 0
+forks = 0
+tag_count = 0
+commits = 1
+branches = 4
 
 [[repo]]
 url = "https://github.com/osmosis-labs/terraform-digitalocean-cosmos-droplet"
+last_commit = "f09f36b115e263f6466beb118eaf088d2997df00"
+last_commit_time = "2022-02-21T14:36"
+status = "200"
+
+[repo.stats]
+branches = 4
+stars = 0
+tag_count = 0
+watching = 3
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/tm-db"
+last_commit = "4170afe1be224539dfc3650bc973602dfa4af0d0"
+last_commit_time = "2022-04-19T20:09"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 162
+commits = 9
+forks = 82
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/osmosis-labs/wasmd"
+last_commit = "a575bce44cefdb79d73d5fa57c5f827c1dde9432"
+last_commit_time = "2022-05-16T14:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+forks = 178
+branches = 0
+stars = 1
+commits = 32
 
 [[repo]]
 url = "https://github.com/osmosis-labs/wormhole"
+last_commit = "2148aff3e6e9566c03ff89dd52ff4aad7633a9ed"
+last_commit_time = "2021-08-21T03:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+forks = 316
+stars = 4
+branches = 871
+commits = 2

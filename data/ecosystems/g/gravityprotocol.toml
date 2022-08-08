@@ -1,32 +1,75 @@
-# Ecosystem Level Information
 title = "Gravity"
-
-# Sub Ecosystems
-# These are the titles of other ecosystems in different .toml files in the /data/ecosystems directory
+toml_path = "data/ecosystems/g/gravityprotocol.toml"
+github_organizations = ["https://github.com/Gravity-Tech"]
 sub_ecosystems = []
 
-# Github Organizations
-# This is a list of links to associated github organizations.
-github_organizations = ["https://github.com/Gravity-Tech"]
-
-# Repositories
-# These are structs including a url and tags for a git repository.  These URLS do not have to be on github.
 [[repo]]
 url = "https://github.com/Gravity-Tech/gravity-documentation"
-tags = [ "Documentation"]
+tags = ["Documentation"]
+last_commit = "ca8be9a17a74349c96d0b907a569af4aa4cd7785"
+last_commit_time = "2021-04-08T12:30"
+status = "200"
+
+[repo.stats]
+stars = 2
+commits = 1
+forks = 2
+watching = 4
+branches = 33
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Gravity-Tech/gravity-core"
-tags = [ "Protocol"]
+tags = ["Protocol"]
+last_commit = "2e2450b8171292e33bd26ac605b298285f311526"
+last_commit_time = "2021-11-14T09:47"
+status = "200"
+
+[repo.stats]
+commits = 28
+stars = 12
+tag_count = 0
+branches = 546
+watching = 5
+forks = 9
 
 [[repo]]
 url = "https://github.com/Gravity-Tech/gateway"
-tags = [ "Protocol"]
+tags = ["Protocol"]
+status = "404"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 0
+watching = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Gravity-Tech/integration-tests"
-tags = [ "Developer Tool"]
+tags = ["Developer Tool"]
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+tag_count = 0
+stars = 0
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Gravity-Tech/gateway-deployer"
-tags = [ "Developer Tool"]
+tags = ["Developer Tool"]
+last_commit = "2c1dc78a65d1787f05abc10d70b3137a826ce435"
+last_commit_time = "2021-09-13T07:41"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 4
+tag_count = 0
+commits = 5
+branches = 20
+forks = 1

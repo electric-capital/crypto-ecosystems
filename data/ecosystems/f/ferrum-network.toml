@@ -1,178 +1,776 @@
-# Ecosystem Level Information
 title = "Ferrum Network"
-
+toml_path = "data/ecosystems/f/ferrum-network.toml"
+github_organizations = ["https://github.com/ferrumnet"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/ferrumnet"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/ferrumnet/apeswap-swap-core"
+last_commit = "ed3bbc1fb2f16cace1a6e020ccbe72f778b4a9dc"
+last_commit_time = "2022-01-11T22:52"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+commits = 3
+tag_count = 0
+branches = 38
+forks = 41
 
 [[repo]]
 url = "https://github.com/ferrumnet/assets"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+forks = 0
+stars = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/aws-lambda-helper"
+last_commit = "2928ac7850ebdd85a4b5b7d496d01d49f2341a90"
+last_commit_time = "2022-01-02T02:50"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 158
+forks = 1
+stars = 0
+tag_count = 0
+commits = 8
 
 [[repo]]
 url = "https://github.com/ferrumnet/bignumber.js"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+stars = 0
+branches = 0
+forks = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/bip39"
+last_commit = "8f92b823a822868a515e2e793beff754fd54bb70"
+last_commit_time = "2019-11-02T20:10"
+status = "200"
+
+[repo.stats]
+forks = 397
+tag_count = 0
+watching = 1
+stars = 2
+branches = 237
+commits = 7
 
 [[repo]]
 url = "https://github.com/ferrumnet/bnb-tx-decoder"
+last_commit = "636c97406f44928b07ae2cd8782b7feafe41fdf2"
+last_commit_time = "2019-10-04T21:32"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 41
+tag_count = 0
+commits = 1
+forks = 2
+stars = 6
 
 [[repo]]
 url = "https://github.com/ferrumnet/bridge-v1-node"
+last_commit = "b008d8cc08727aa4edcc6b1bad32eb5747d34e0b"
+last_commit_time = "2021-12-20T08:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 9
+commits = 1
+forks = 0
+watching = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/bs58check"
+last_commit = "624795b5b10eebb1fd0226cd9ceb694cdfb0bb23"
+last_commit_time = "2019-11-02T21:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 97
+watching = 1
+stars = 0
+forks = 45
 
 [[repo]]
 url = "https://github.com/ferrumnet/crypto-js"
+status = "404"
+
+[repo.stats]
+watching = 0
+commits = 0
+stars = 0
+branches = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/desktop-components-library"
+last_commit = "34f779d66cc0c31013b1d35a430119f15d39bd65"
+last_commit_time = "2022-07-08T08:43"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 11
+watching = 1
+commits = 3
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/docs-site"
+last_commit = "02554961592bab8cfeaa175dd21359d7a1bdb5bb"
+last_commit_time = "2021-11-29T21:50"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 216
+stars = 0
+tag_count = 0
+commits = 30
+branches = 942
 
 [[repo]]
 url = "https://github.com/ferrumnet/elliptic"
+last_commit = "3ebee0849d933f76cc18f0b6e3ded3d25156f016"
+last_commit_time = "2020-11-17T23:08"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 1
+stars = 0
+tag_count = 0
+branches = 333
+forks = 347
 
 [[repo]]
 url = "https://github.com/ferrumnet/eth-contract-metadata"
+status = "404"
+
+[repo.stats]
+commits = 0
+branches = 0
+stars = 0
+forks = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/ethereumj"
+status = "404"
+
+[repo.stats]
+watching = 0
+forks = 0
+commits = 0
+stars = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/fenova"
+last_commit = "d726d6607f69c509bf6482e806921b776dc55a63"
+last_commit_time = "2019-03-22T22:02"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 3
+stars = 3
+branches = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/ferrumnet/ferrum-chain-clients"
+last_commit = "4ff47e80520ca2e99fa055aaf1665dbf676909c9"
+last_commit_time = "2021-12-17T01:27"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 152
+stars = 1
+commits = 3
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/ferrum-crypto"
+last_commit = "5fe4157570b5670d42ef6e98d6fdbaf962fcbff0"
+last_commit_time = "2021-12-31T01:21"
+status = "200"
+
+[repo.stats]
+branches = 62
+commits = 4
+forks = 3
+watching = 2
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/ferrum-network-infinitySwap-and-bridge-architecture"
+last_commit = "40d4b6f1c964b9e8400f71d4baf53b7b766782d4"
+last_commit_time = "2022-06-15T00:26"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+tag_count = 0
+commits = 1
+branches = 11
+watching = 2
 
 [[repo]]
 url = "https://github.com/ferrumnet/ferrum-node-images"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+commits = 0
+stars = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/ferrum-plumbing"
+last_commit = "cc36954d9f54e795e1c7ff750a235ae752724015"
+last_commit_time = "2022-01-06T15:13"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+forks = 3
+stars = 0
+commits = 4
+branches = 115
 
 [[repo]]
 url = "https://github.com/ferrumnet/ferrum-react-native-solid-store"
+last_commit = "100bfcbf9115c957d753628c45800a1143c2a3f8"
+last_commit_time = "2020-05-06T23:32"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 2
+forks = 0
+commits = 11
+branches = 10
 
 [[repo]]
 url = "https://github.com/ferrumnet/ferrum-supply-api"
+last_commit = "f095e84aff8399081035dd5eba321e23abd81d35"
+last_commit_time = "2021-06-10T04:44"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 9
+branches = 27
+forks = 0
+stars = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/ferrumnet/ferrum-token-list"
+last_commit = "94c210f5b9b8b9b0cb31e8c2827bc6ca03964571"
+last_commit_time = "2022-07-14T08:59"
+status = "200"
+
+[repo.stats]
+forks = 6
+stars = 0
+tag_count = 0
+commits = 7
+branches = 164
+watching = 2
 
 [[repo]]
 url = "https://github.com/ferrumnet/frm-ethereum-contracts"
+last_commit = "8c1d498a4fc5f7fc1a5c03d646ab9e81eddd986b"
+last_commit_time = "2021-09-14T20:04"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 6
+forks = 3
+branches = 23
+commits = 13
+stars = 5
 
 [[repo]]
 url = "https://github.com/ferrumnet/frontier"
+last_commit = "6e2e90833fdb9ee92f8e0a04fe0d217bfe07100d"
+last_commit_time = "2021-05-29T10:54"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+tag_count = 0
+commits = 13
+branches = 451
+forks = 276
 
 [[repo]]
 url = "https://github.com/ferrumnet/go-ethereum"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+commits = 0
+stars = 0
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/hdkey"
+last_commit = "c51803dd45c4d3570000dc1f958a03de8f169e34"
+last_commit_time = "2019-11-09T00:32"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 111
+commits = 1
+watching = 1
+forks = 70
 
 [[repo]]
 url = "https://github.com/ferrumnet/iotavisualization"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+commits = 0
+branches = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/iri"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+tag_count = 0
+commits = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/joe-tokenlists"
+last_commit = "e23ee36aed71433d5d527b126a56f4c70dbca384"
+last_commit_time = "2022-01-18T02:53"
+status = "200"
+
+[repo.stats]
+forks = 255
+commits = 1
+stars = 0
+tag_count = 0
+branches = 367
+watching = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/linear-release-engine"
+last_commit = "db586368a6c338bd80e0cc3cc524b7a5e7b2c948"
+last_commit_time = "2022-06-23T02:56"
+status = "200"
+
+[repo.stats]
+branches = 5
+watching = 2
+tag_count = 0
+commits = 2
+stars = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/ferrumnet/litepaper"
+last_commit = "3ba58c50fa37e49dd37319175ca95cb247992446"
+last_commit_time = "2018-06-03T21:39"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+watching = 2
+branches = 10
+commits = 1
+stars = 4
 
 [[repo]]
 url = "https://github.com/ferrumnet/MISO"
+last_commit = "d1698e1819d7cacbddb7fb979dc0c9a613d55cc9"
+last_commit_time = "2021-06-13T12:15"
+status = "200"
+
+[repo.stats]
+forks = 31
+watching = 1
+branches = 41
+stars = 0
+commits = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/mnemonic-encrypt"
+last_commit = "55a22b30f31e64cd61e3975c43636e2d9e1b3e94"
+last_commit_time = "2022-01-12T05:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+watching = 2
+commits = 1
+stars = 0
+branches = 3
 
 [[repo]]
 url = "https://github.com/ferrumnet/multi-chain-token-supply"
+last_commit = "08e7101debdd9cb02c1b564688be8856d5dde7cb"
+last_commit_time = "2022-06-15T09:22"
+status = "200"
+
+[repo.stats]
+forks = 3
+watching = 2
+stars = 0
+tag_count = 0
+commits = 2
+branches = 25
 
 [[repo]]
 url = "https://github.com/ferrumnet/new-host"
+last_commit = "6650e2e72f0d27751e48c65adf345f305f474cb5"
+last_commit_time = "2021-06-09T17:03"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 65
+forks = 66
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/ferrumnet/PearlDiver"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+watching = 0
+stars = 0
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/pocket-core"
+last_commit = "1372296b5676ade0185f6c1848c193cd9759f5e8"
+last_commit_time = "2022-06-15T13:32"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+commits = 63
+forks = 71
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/qrcode-generator"
+last_commit = "2077fbf53c59c42495794c3edbd17192453655e2"
+last_commit_time = "2019-12-02T23:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+stars = 0
+forks = 627
+branches = 153
+commits = 2
 
 [[repo]]
 url = "https://github.com/ferrumnet/solc-js"
+status = "404"
+
+[repo.stats]
+forks = 0
+branches = 0
+stars = 0
+watching = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/solidity.js"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 0
+tag_count = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/substrate"
+last_commit = "36b8970ef68b2f8d031f0aeadbe47d06a2679332"
+last_commit_time = "2022-02-16T19:39"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 0
+branches = 0
+commits = 444
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/techpaper"
+last_commit = "dc46760deae2ccaaf9bab9ccc11b11cfd56d6b3a"
+last_commit_time = "2019-01-19T01:35"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+branches = 19
+watching = 4
+commits = 1
+stars = 12
 
 [[repo]]
 url = "https://github.com/ferrumnet/toke-deployment-upgrade-guide"
+last_commit = "d8760d98be4eaacb7408abe3f50b65db4764f569"
+last_commit_time = "2021-10-14T20:18"
+status = "200"
+
+[repo.stats]
+branches = 2
+tag_count = 0
+forks = 0
+stars = 0
+watching = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/ferrumnet/toke-deployment-upgrade-guide-redacted"
+last_commit = "d8760d98be4eaacb7408abe3f50b65db4764f569"
+last_commit_time = "2021-10-14T20:18"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+forks = 0
+branches = 2
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/totp-lambda"
+last_commit = "0fe92f2240dfcb32ce36b302bfd349656ca30d3d"
+last_commit_time = "2021-12-16T00:13"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 13
+watching = 1
+tag_count = 0
+forks = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/tweetnacl-js"
+last_commit = "50d064e80b4104dece1b14b2a38ede5438319f4d"
+last_commit_time = "2019-11-08T21:24"
+status = "200"
+
+[repo.stats]
+branches = 388
+commits = 7
+forks = 290
+watching = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/unifyre-app-pooldrop"
+last_commit = "8b717bbfcdc86418bcb3b8c4cfd41e9840bba9e2"
+last_commit_time = "2020-09-04T14:23"
+status = "200"
+
+[repo.stats]
+commits = 21
+watching = 2
+stars = 1
+branches = 33
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/unifyre-app-staking"
+last_commit = "de4956dc8275123ff375dc809709c7baa5dc42d6"
+last_commit_time = "2022-02-01T00:54"
+status = "200"
+
+[repo.stats]
+forks = 4
+stars = 1
+watching = 2
+tag_count = 0
+branches = 152
+commits = 19
 
 [[repo]]
 url = "https://github.com/ferrumnet/unifyre-extension-sdk"
+last_commit = "71b7e8bee98eaf2e3e225a7d33edc812af44126b"
+last_commit_time = "2021-11-23T20:45"
+status = "200"
+
+[repo.stats]
+branches = 71
+stars = 0
+tag_count = 0
+forks = 2
+watching = 2
+commits = 4
 
 [[repo]]
 url = "https://github.com/ferrumnet/unifyre-extension-web3-retrofit"
+last_commit = "28eff8cd8193f91f64e5574b06dc4b2e9f50d234"
+last_commit_time = "2021-11-23T20:44"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 1
+commits = 1
+branches = 47
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/unifyre-react-helper"
+last_commit = "0eb54552fc28120820f65ed793b395addac8309c"
+last_commit_time = "2022-07-08T08:24"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+commits = 1
+tag_count = 0
+branches = 28
+stars = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/unifyre-wallet-export-to-metamask"
+last_commit = "313d79f8f918727bc97ff0268107028deb8e2787"
+last_commit_time = "2021-09-24T22:15"
+status = "200"
+
+[repo.stats]
+branches = 7
+commits = 14
+forks = 0
+stars = 1
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/ferrumnet/unifyre-wallet-plan"
+last_commit = "a8caa2dac190f3e9ab3373fbff8d3ac873901ce9"
+last_commit_time = "2020-07-10T06:39"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 2
+branches = 4
+stars = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/ferrumnet/web3.js"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+watching = 0
+stars = 0
+forks = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/website"
+last_commit = "78050a42153d3ef4d1d73370fec915e962c939f9"
+last_commit_time = "2018-06-05T11:28"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 1
+stars = 3
+branches = 10
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ferrumnet/yellowpaper"
+last_commit = "32ea68ddf033e08fac5fd61d86e7f8ff2668a435"
+last_commit_time = "2018-05-28T02:25"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 7
+forks = 3
+branches = 20
+watching = 2

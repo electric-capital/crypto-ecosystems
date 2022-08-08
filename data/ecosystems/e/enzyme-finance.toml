@@ -1,76 +1,324 @@
-# Ecosystem Level Information
 title = "Enzyme Finance"
-
+toml_path = "data/ecosystems/e/enzyme-finance.toml"
+github_organizations = ["https://github.com/enzymefinance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/enzymefinance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/enzymefinance/aip"
+last_commit = "3bb17e228ccd67fa97eda386cbf7ac888b111667"
+last_commit_time = "2022-04-20T07:29"
+status = "200"
+
+[repo.stats]
+forks = 114
+stars = 0
+branches = 539
+tag_count = 0
+commits = 9
+watching = 0
 
 [[repo]]
 url = "https://github.com/enzymefinance/branding"
+last_commit = "4f51b4a26d9f8435c70d301a924f0b2878841d1f"
+last_commit_time = "2018-07-17T10:13"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+commits = 1
+tag_count = 0
+forks = 4
+branches = 57
 
 [[repo]]
 url = "https://github.com/enzymefinance/dao-fund-framework"
+last_commit = "8230e387bdc453ead95e51c8ea16cbf580cc5754"
+last_commit_time = "2020-07-10T12:19"
+status = "200"
+
+[repo.stats]
+branches = 40
+tag_count = 0
+commits = 7
+stars = 6
+forks = 9
+watching = 5
 
 [[repo]]
 url = "https://github.com/enzymefinance/DeFi-Pulse-Adapters"
+last_commit = "bb98f76cdc8f59982a613b5eb38043280881861a"
+last_commit_time = "2022-02-25T21:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 2
+forks = 493
+branches = 0
+commits = 57
 
 [[repo]]
 url = "https://github.com/enzymefinance/documentation"
+last_commit = "9f32909fd950c904300228df23bb440c2df4dbab"
+last_commit_time = "2020-07-31T09:41"
+status = "200"
+
+[repo.stats]
+watching = 17
+tag_count = 0
+branches = 153
+stars = 11
+forks = 8
+commits = 11
 
 [[repo]]
 url = "https://github.com/enzymefinance/ens-server"
+last_commit = "1efb35b1f908250ad3b387c0bcf730e61ad3b6a2"
+last_commit_time = "2020-09-04T10:12"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 4
+forks = 3
+watching = 3
+branches = 30
 
 [[repo]]
 url = "https://github.com/enzymefinance/ENZIP"
+last_commit = "0aecdc3e2eb34636ae5cbf23056ffba9bab28537"
+last_commit_time = "2021-01-07T09:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 7
+forks = 9
+stars = 8
+commits = 1
+branches = 9
 
 [[repo]]
 url = "https://github.com/enzymefinance/enzyme-subgraph"
+last_commit = "91a5b7a1e5eabdb91cfcbcee7cfd469fdcf2d0f4"
+last_commit_time = "2022-02-10T06:38"
+status = "200"
+
+[repo.stats]
+commits = 5
+forks = 18
+stars = 21
+branches = 551
+tag_count = 0
+watching = 8
 
 [[repo]]
 url = "https://github.com/enzymefinance/gsn"
+last_commit = "09f672a80248e58e00a350f815575b9faec9fe8e"
+last_commit_time = "2021-10-05T09:16"
+status = "200"
+
+[repo.stats]
+branches = 706
+tag_count = 0
+watching = 0
+stars = 0
+forks = 145
+commits = 14
 
 [[repo]]
 url = "https://github.com/enzymefinance/gsn-trusted-forwarder"
+last_commit = "8960406b28ea0e02dfeea0c269e1f6cc985943f1"
+last_commit_time = "2021-11-19T11:30"
+status = "200"
+
+[repo.stats]
+branches = 4
+commits = 4
+watching = 4
+forks = 4
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/enzymefinance/hackathon-template"
+last_commit = "c4345b4ece973bc70632539711ebb78ea248f288"
+last_commit_time = "2021-10-13T10:19"
+status = "200"
+
+[repo.stats]
+stars = 5
+branches = 15
+tag_count = 0
+commits = 1
+forks = 10
+watching = 7
 
 [[repo]]
 url = "https://github.com/enzymefinance/melon"
+last_commit = "a0562cf92e18dd0676112136bd0ec30f131a56af"
+last_commit_time = "2019-01-28T18:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 13
+branches = 136
+commits = 2
+forks = 18
+stars = 38
 
 [[repo]]
 url = "https://github.com/enzymefinance/melon-council-bounties"
+last_commit = "ac6f5893dfecf06adfcead714a1a33e1ba95625a"
+last_commit_time = "2020-07-09T07:47"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 4
+commits = 1
+stars = 1
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/enzymefinance/melon-subgraph"
+last_commit = "a6bb03d440884dc7db2afc4a0515eb4766972bb8"
+last_commit_time = "2020-06-09T10:59"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 4
+tag_count = 0
+forks = 10
+stars = 7
+branches = 243
 
 [[repo]]
 url = "https://github.com/enzymefinance/melon-website"
+last_commit = "ac88f1f6909f59a01846e73c3f507ae5b84fe80b"
+last_commit_time = "2020-12-20T17:18"
+status = "200"
+
+[repo.stats]
+forks = 10
+tag_count = 0
+commits = 3
+stars = 3
+watching = 10
+branches = 110
 
 [[repo]]
 url = "https://github.com/enzymefinance/melonjs"
+last_commit = "ba23a09331b45437ad8f83df81c7470ef4a1d28d"
+last_commit_time = "2020-06-01T18:43"
+status = "200"
+
+[repo.stats]
+stars = 17
+watching = 8
+branches = 443
+tag_count = 0
+commits = 4
+forks = 7
 
 [[repo]]
 url = "https://github.com/enzymefinance/MFP"
+last_commit = "d5a865efd3b658c212adfee6e1d40aa3a0837d9b"
+last_commit_time = "2022-06-23T14:38"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 5
+forks = 12
+stars = 5
+branches = 34
+commits = 3
 
 [[repo]]
 url = "https://github.com/enzymefinance/monitoring"
+last_commit = "e18dfe7ba395cc847ee73039073a7c26843bab0d"
+last_commit_time = "2021-02-23T10:02"
+status = "200"
+
+[repo.stats]
+forks = 9
+commits = 19
+stars = 7
+branches = 199
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/enzymefinance/oyente"
+status = "200"
+
+[repo.stats]
+branches = 848
+stars = 0
+forks = 261
+watching = 58
+tag_count = 0
+commits = 20
 
 [[repo]]
 url = "https://github.com/enzymefinance/paper"
+last_commit = "3a7ac0ffe91fb255d943f5d9b84744ce0795aac1"
+last_commit_time = "2017-10-30T16:10"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 1
+branches = 25
+commits = 11
+forks = 3
 
 [[repo]]
 url = "https://github.com/enzymefinance/protocol"
+last_commit = "8996395d0c21bcb0ae9e522d3ead5e0ca2835ed2"
+last_commit_time = "2022-05-10T19:07"
+status = "200"
+
+[repo.stats]
+forks = 120
+commits = 4
+watching = 50
+branches = 0
+tag_count = 0
+stars = 299
 
 [[repo]]
 url = "https://github.com/enzymefinance/security"
+last_commit = "f47f44aac2ee93fc71363816da101629ccd61cc6"
+last_commit_time = "2021-06-22T12:20"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 4
+branches = 9
+tag_count = 0
+stars = 1
+forks = 3
 
 [[repo]]
 url = "https://github.com/enzymefinance/software-disclaimer"
+last_commit = "5cdd519d0f1397f19219e0b7e97d517f3825a44d"
+last_commit_time = "2019-03-07T15:18"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 2
+watching = 4
+commits = 1
+branches = 3

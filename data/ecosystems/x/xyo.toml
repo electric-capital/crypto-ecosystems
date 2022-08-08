@@ -1,241 +1,1050 @@
-# Ecosystem Level Information
 title = "XYO"
-
+toml_path = "data/ecosystems/x/xyo.toml"
+github_organizations = ["https://github.com/XYOracleNetwork"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/XYOracleNetwork"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/XYOracleNetwork/api-archivist-nodejs"
+last_commit = "51a9ff0aa54d552a39feaa5425cccab3a473c2d4"
+last_commit_time = "2022-08-04T03:44"
+status = "200"
+
+[repo.stats]
+commits = 9
+branches = 687
+watching = 4
+stars = 6
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/api-automation-witness-nodejs"
+last_commit = "bfcfee60e78e00fe72f76f22670b668973ec6241"
+last_commit_time = "2022-08-03T21:00"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 2
+branches = 151
+tag_count = 0
+commits = 3
+stars = 3
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/api-diviner-nodejs"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+forks = 0
+tag_count = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/api-location.diviner.xyo.network-express"
+last_commit = "f7e9ae11e58fa3c643dff49266b0d6c3a7b65543"
+last_commit_time = "2022-08-03T21:02"
+status = "200"
+
+[repo.stats]
+branches = 68
+commits = 4
+tag_count = 0
+forks = 0
+watching = 2
+stars = 5
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/api-originchain-graphql"
+status = "404"
+
+[repo.stats]
+branches = 0
+stars = 0
+forks = 0
+tag_count = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/api-xyo-kotlin"
+status = "404"
+
+[repo.stats]
+forks = 0
+branches = 0
+commits = 0
+tag_count = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/api-xyo-nodejs"
+last_commit = "76091fa9f53a5c900fee41ef67724bfc557fbebe"
+last_commit_time = "2021-08-24T16:06"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+forks = 1
+watching = 3
+commits = 5
+branches = 2
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/app-archivist-nodejs"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+watching = 0
+tag_count = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/app-bridgeclient-react"
+last_commit = "d7e1ad4002a2ced8bc1e7861a3a910b1eebcebf7"
+last_commit_time = "2020-08-06T00:18"
+status = "200"
+
+[repo.stats]
+branches = 48
+stars = 3
+commits = 24
+tag_count = 0
+forks = 0
+watching = 6
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/app-geouserclient-mobile"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 0
+commits = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/app-reference-react"
+last_commit = "bf9cad54df50cfde98fb95eeaa4b0401ff35c3c3"
+last_commit_time = "2020-06-15T18:20"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 24
+watching = 7
+tag_count = 0
+forks = 2
+branches = 219
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/app-saverasheed-react"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+branches = 0
+forks = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/app-xyo-nodejs"
+last_commit = "738d38532fe852b0bd74fdda3d99aa551ffbc4b1"
+last_commit_time = "2020-07-27T21:02"
+status = "200"
+
+[repo.stats]
+stars = 39
+forks = 26
+watching = 18
+tag_count = 0
+branches = 245
+commits = 41
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/app-xyo-sample-android"
+last_commit = "9443beea3bc4c1634dbbc32d846953b2d7f322f2"
+last_commit_time = "2022-04-14T21:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+watching = 3
+forks = 0
+branches = 17
+stars = 2
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/app-xyosimulator-android"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+branches = 0
+stars = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/client-xyo-nodejs"
+last_commit = "03f4c26e4ef4921977ec2f69a5dc72e276134782"
+last_commit_time = "2020-05-12T18:54"
+status = "200"
+
+[repo.stats]
+branches = 72
+forks = 3
+tag_count = 0
+commits = 23
+stars = 2
+watching = 4
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/config-tslint"
+last_commit = "0005748cf7419fcf6004c08db7c3801fb5518173"
+last_commit_time = "2019-05-01T01:03"
+status = "200"
+
+[repo.stats]
+branches = 86
+forks = 0
+tag_count = 0
+commits = 3
+watching = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/dapp-saverasheed-solidity"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+stars = 0
+forks = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/dapp-scsc-solidity"
+last_commit = "0fd7cdb30a866df36cd647d9c01373c50f2263a0"
+last_commit_time = "2020-04-16T21:40"
+status = "200"
+
+[repo.stats]
+forks = 3
+commits = 27
+stars = 14
+watching = 7
+branches = 277
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/demo-payondelivery-solidity"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+branches = 0
+forks = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/documentation"
+last_commit = "bebebbf34030b752ea71150cabd025b5cc2e983e"
+last_commit_time = "2021-09-14T20:21"
+status = "200"
+
+[repo.stats]
+stars = 52
+forks = 24
+watching = 15
+commits = 11
+tag_count = 0
+branches = 95
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/eslint-config"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+branches = 0
+commits = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/geo-probabilistic-proof-of-location"
+status = "404"
+
+[repo.stats]
+stars = 0
+commits = 0
+watching = 0
+tag_count = 0
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/issues"
+status = "404"
+
+[repo.stats]
+branches = 0
+stars = 0
+forks = 0
+watching = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/mod-ble-android"
+last_commit = "e7b76aefd411dec2ecf6a5a3c401a887f2841093"
+last_commit_time = "2020-01-28T03:24"
+status = "200"
+
+[repo.stats]
+watching = 7
+tag_count = 0
+stars = 3
+branches = 237
+forks = 2
+commits = 6
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/mod-tcp-kotlin"
+status = "404"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+forks = 0
+commits = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/papers-xyonetwork"
+last_commit = "b97c32d8b284a305e48b946b3d10922d5a07e666"
+last_commit_time = "2021-09-13T20:36"
+status = "200"
+
+[repo.stats]
+branches = 202
+commits = 9
+stars = 28
+forks = 11
+tag_count = 0
+watching = 24
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-archivist-nodejs"
+last_commit = "9e4a64e62fd82ab934bbdc7f99266418f6c8c74a"
+last_commit_time = "2021-04-15T17:41"
+status = "200"
+
+[repo.stats]
+branches = 414
+commits = 35
+watching = 4
+forks = 8
+tag_count = 0
+stars = 8
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-base-android"
+last_commit = "235c3e4d9b9394abf3c13e82ebceafff1d4ccdd4"
+last_commit_time = "2021-12-02T21:58"
+status = "200"
+
+[repo.stats]
+stars = 7
+branches = 445
+forks = 4
+watching = 9
+tag_count = 0
+commits = 8
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-base-nodejs"
+last_commit = "5743866a35289ad776103c6043297519d2393550"
+last_commit_time = "2021-04-15T18:04"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 1
+branches = 258
+forks = 1
+tag_count = 0
+commits = 17
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-base-swift"
+last_commit = "a0c64b5332d014b94779d41c3ef4771c6d8b393d"
+last_commit_time = "2021-01-27T05:24"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 3
+branches = 143
+tag_count = 0
+commits = 10
+forks = 2
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-ble-android"
+last_commit = "16d5730df29bf25292562be1cc9d2aa42f051427"
+last_commit_time = "2021-12-03T23:11"
+status = "200"
+
+[repo.stats]
+watching = 9
+tag_count = 0
+forks = 7
+stars = 21
+branches = 829
+commits = 22
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-ble-flutter"
+last_commit = "01aca55c7093dd5e3e55fef2dd11f4a4380c4719"
+last_commit_time = "2020-04-16T21:34"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 6
+forks = 3
+commits = 5
+branches = 132
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-ble-nodejs"
+last_commit = "b500c481b07471207379b1c8bd4c163c647ce2e3"
+last_commit_time = "2020-08-06T20:42"
+status = "200"
+
+[repo.stats]
+stars = 3
+commits = 74
+forks = 2
+branches = 239
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-ble-swift"
+last_commit = "0bc02dc73255e64c9eccc2902984066e37c8c7e5"
+last_commit_time = "2021-01-27T22:55"
+status = "200"
+
+[repo.stats]
+watching = 5
+commits = 8
+stars = 16
+tag_count = 0
+branches = 453
+forks = 4
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-bletcpbridge-swift"
+last_commit = "6e6bdf02ab694363f9b4738698ccc5d43f3da0c8"
+last_commit_time = "2020-04-16T21:51"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 1
+tag_count = 0
+commits = 4
+branches = 58
+forks = 1
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-bridge-kotlin"
+status = "404"
+
+[repo.stats]
+commits = 0
+tag_count = 0
+watching = 0
+forks = 0
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-core-android"
+last_commit = "235c3e4d9b9394abf3c13e82ebceafff1d4ccdd4"
+last_commit_time = "2021-12-02T21:58"
+status = "200"
+
+[repo.stats]
+forks = 4
+stars = 7
+branches = 445
+tag_count = 0
+watching = 9
+commits = 8
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-core-c"
+last_commit = "bd45ccca1589543b4db45cdeb2c7effdf32fc5dd"
+last_commit_time = "2020-04-16T21:08"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 4
+stars = 13
+watching = 12
+branches = 112
+commits = 9
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-core-kotlin"
+last_commit = "431463280857dbd01a4236a8da55e687321a1399"
+last_commit_time = "2021-12-03T22:23"
+status = "200"
+
+[repo.stats]
+branches = 515
+commits = 19
+forks = 12
+stars = 10
+watching = 10
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-core-nodejs"
+last_commit = "a12c7df280809ffa4a9b48535293510b70d8175b"
+last_commit_time = "2021-04-15T17:54"
+status = "200"
+
+[repo.stats]
+watching = 13
+tag_count = 0
+branches = 0
+commits = 37
+stars = 14
+forks = 12
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-core-swift"
+last_commit = "7b2a206f192f907d3be23e4717f625c46e3be3c0"
+last_commit_time = "2020-05-16T01:36"
+status = "200"
+
+[repo.stats]
+watching = 8
+tag_count = 0
+stars = 3
+forks = 2
+branches = 420
+commits = 12
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-dache-nodejs"
+last_commit = "c9a422c0237ed23b051b741e97d8ad8dd8d1c685"
+last_commit_time = "2020-08-06T20:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 108
+stars = 7
+commits = 26
+forks = 4
+watching = 7
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-diviner-nodejs"
+last_commit = "c5e3c44b3499724dddf8ae4fc3c7f218a5c3048d"
+last_commit_time = "2020-07-27T20:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 4
+commits = 19
+watching = 6
+forks = 3
+branches = 170
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-geo-nodejs"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+commits = 0
+stars = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-geoserver-nodejs"
+last_commit = "438d72511c7f3f10f42ae4d91883c96177a06036"
+last_commit_time = "2019-05-09T02:19"
+status = "200"
+
+[repo.stats]
+watching = 10
+stars = 2
+branches = 17
+forks = 3
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-objectmodel-kotlin"
+last_commit = "9d75abef42ca140f2574226fc2f05b676428866c"
+last_commit_time = "2020-01-28T02:58"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 86
+stars = 1
+commits = 5
+tag_count = 0
+watching = 6
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-objectmodel-swift"
+last_commit = "45e94384cc62756b976f9900756b6a6eda6f2150"
+last_commit_time = "2020-01-28T03:36"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 6
+commits = 5
+tag_count = 0
+forks = 0
+branches = 84
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-sentinel-kotlin"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+stars = 0
+commits = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-ui-android"
+last_commit = "9ecfee0f5548c31529c16d09bbce6eff7dd29bd6"
+last_commit_time = "2020-06-05T00:39"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 9
+commits = 5
+forks = 1
+branches = 155
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyo-android"
+last_commit = "ba885f20e4bb7c440719f5979b32f8302d2443db"
+last_commit_time = "2021-12-03T23:16"
+status = "200"
+
+[repo.stats]
+stars = 24
+branches = 466
+forks = 9
+tag_count = 0
+commits = 11
+watching = 18
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyo-client-android"
+last_commit = "70bd33583a729eb8f6f719c185ef90f41563d86f"
+last_commit_time = "2022-05-04T18:34"
+status = "200"
+
+[repo.stats]
+commits = 6
+watching = 7
+tag_count = 0
+forks = 5
+branches = 138
+stars = 9
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyo-client-js"
+last_commit = "900f8d26098c689c4c58d683265fe801d544aa6e"
+last_commit_time = "2022-08-04T19:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 8
+forks = 13
+branches = 0
+commits = 13
+watching = 6
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyo-client-swift"
+last_commit = "e9fb9bac3cd8930bd861968c31461a7cb170ce77"
+last_commit_time = "2022-07-18T20:48"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 9
+forks = 7
+tag_count = 0
+branches = 234
+commits = 4
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyo-flutter"
+last_commit = "c98cc259eb70941c3349bcffa96c3ee211137c48"
+last_commit_time = "2020-06-30T17:34"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 4
+branches = 172
+tag_count = 0
+commits = 12
+watching = 6
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyo-js"
+last_commit = "a2b4b5c97c1446c5ac644ce825a29cbc10f64bba"
+last_commit_time = "2022-06-08T20:08"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 1
+watching = 5
+commits = 4
+branches = 454
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyo-mongo-js"
+last_commit = "777d3f1b3d793afab868a6b0719cd903c25e425a"
+last_commit_time = "2022-07-15T17:40"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 247
+stars = 2
+watching = 4
+tag_count = 0
+commits = 13
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyo-react-js"
+last_commit = "c678ce33e48c8500704096597565055b4923b635"
+last_commit_time = "2022-08-04T02:23"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+stars = 7
+watching = 4
+commits = 12
+branches = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyo-swift"
+last_commit = "04c77c375947e6a424bb7969e98f81c632d63758"
+last_commit_time = "2020-04-24T19:12"
+status = "200"
+
+[repo.stats]
+branches = 228
+tag_count = 0
+forks = 3
+commits = 7
+watching = 10
+stars = 7
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyo-typechain"
+last_commit = "35d3018723437ea1e1fb31bd40e5cd3f5762f7e0"
+last_commit_time = "2022-06-01T02:13"
+status = "200"
+
+[repo.stats]
+commits = 12
+forks = 0
+watching = 2
+stars = 2
+tag_count = 0
+branches = 16
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyobleinterface-android"
+last_commit = "e7b76aefd411dec2ecf6a5a3c401a887f2841093"
+last_commit_time = "2020-01-28T03:24"
+status = "200"
+
+[repo.stats]
+commits = 6
+branches = 237
+forks = 2
+tag_count = 0
+watching = 7
+stars = 3
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyobleinterface-swift"
+last_commit = "601aa8cbd8a77d86e02567ef68cd849a7b7b6219"
+last_commit_time = "2020-01-28T03:14"
+status = "200"
+
+[repo.stats]
+commits = 5
+forks = 3
+stars = 1
+watching = 6
+tag_count = 0
+branches = 109
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyosimulator-nodejs"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+commits = 0
+forks = 0
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/sdk-xyosolidity-solidity"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+branches = 0
+forks = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/spec-coreobjectmodel-tex"
+last_commit = "6d3437475ef60e49cf46bfd9b92bf24fe0ec6f91"
+last_commit_time = "2020-04-16T21:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 4
+branches = 99
+forks = 4
+stars = 7
+watching = 13
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/spec-opensourcetemplates-md"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 0
+commits = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/tool-dapper-react"
+last_commit = "e8c0d801991ff255a364490fb42d9d2a7a6f2af9"
+last_commit_time = "2020-07-02T20:57"
+status = "200"
+
+[repo.stats]
+stars = 19
+branches = 261
+tag_count = 0
+commits = 47
+watching = 9
+forks = 5
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/tool-dapploy-nodejs"
+last_commit = "96f95e66cd4f497b4a3e91bd71e4d2057aaf0643"
+last_commit_time = "2020-01-29T01:01"
+status = "200"
+
+[repo.stats]
+forks = 9
+tag_count = 0
+commits = 168
+stars = 23
+watching = 11
+branches = 256
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/tool-domains-nodejs"
+last_commit = "a590a531c71c8167a48a4da50a2525bd1f0b4a43"
+last_commit_time = "2020-05-28T22:19"
+status = "200"
+
+[repo.stats]
+watching = 6
+branches = 305
+tag_count = 0
+commits = 20
+forks = 1
+stars = 6
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/tool-github-nodejs"
+last_commit = "338ac89be32f1160165158b2ba166d98da6636d9"
+last_commit_time = "2020-06-05T19:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 4
+branches = 67
+commits = 12
+watching = 3
+stars = 3
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/web-developer-portal-3.0"
+status = "404"
+
+[repo.stats]
+branches = 0
+stars = 0
+forks = 0
+tag_count = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/web-developer.xyo.network-react"
+last_commit = "5e8bafa880a7502472af798135deb0996f1e686a"
+last_commit_time = "2020-08-10T19:18"
+status = "200"
+
+[repo.stats]
+stars = 4
+watching = 5
+tag_count = 0
+branches = 390
+commits = 5
+forks = 4
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/web-portal-react"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 0
+stars = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/xyo-foundation"
+last_commit = "bebebbf34030b752ea71150cabd025b5cc2e983e"
+last_commit_time = "2021-09-14T20:21"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 11
+forks = 24
+branches = 95
+stars = 52
+watching = 15
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/xyo-simulation"
+status = "404"
+
+[repo.stats]
+branches = 0
+watching = 0
+stars = 0
+tag_count = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/xyo-solidity"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 0
+branches = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/xyo-version-1"
+last_commit = "61433f83ab313cc67a45bdd1d9c5b10e331c7279"
+last_commit_time = "2021-10-28T19:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+stars = 0
+forks = 1
+commits = 1
+branches = 3
 
 [[repo]]
 url = "https://github.com/XYOracleNetwork/xyo-world-rfc"
+last_commit = "cfc405cb65c217c8370a0c717e745764db4a9136"
+last_commit_time = "2020-06-03T21:10"
+status = "200"
+
+[repo.stats]
+branches = 4
+stars = 1
+watching = 4
+tag_count = 0
+commits = 2
+forks = 0

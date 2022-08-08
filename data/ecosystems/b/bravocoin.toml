@@ -1,25 +1,88 @@
-# Ecosystem Level Information
 title = "BravoCoin"
-
+toml_path = "data/ecosystems/b/bravocoin.toml"
+github_organizations = ["https://github.com/bravo-project"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/bravo-project"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/bravo-project/bravo"
+last_commit = "a47836000b5f9b04e33be159000f7849405fed27"
+last_commit_time = "2019-10-11T13:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 1
+stars = 7
+watching = 3
+branches = 16
 
 [[repo]]
 url = "https://github.com/bravo-project/bravo-android"
+last_commit = "b24f8e8d292deb1229afe9318701ace6756e8b91"
+last_commit_time = "2019-01-25T06:25"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 0
+branches = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/bravo-project/bravo-ios"
+last_commit = "6406680bbeee21790f3465c2bd0d2bc89b9a34b2"
+last_commit_time = "2019-05-05T03:12"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 1
+branches = 4
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/bravo-project/swns"
+last_commit = "71767745a2649edf00ce9c4bd7d6ac669b3d5b52"
+last_commit_time = "2019-12-15T19:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 0
+watching = 1
+branches = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/bravo-project/tokens"
+last_commit = "d413f33eb5099abadcd1e9d1b30ac1f2e4f4ec54"
+last_commit_time = "2019-05-05T16:50"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 0
+branches = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/bravo-project/wallet-core"
+last_commit = "a8ecd712b98ac3065a4acd76e11a06ae9da80451"
+last_commit_time = "2019-04-12T03:01"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+commits = 8
+watching = 1
+branches = 265

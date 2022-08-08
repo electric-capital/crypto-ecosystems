@@ -1,109 +1,474 @@
-# Ecosystem Level Information
 title = "Equilibria"
-
+toml_path = "data/ecosystems/e/equilibria.toml"
+github_organizations = ["https://github.com/EquilibriaCC"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/EquilibriaCC"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/EquilibriaCC/api_hub"
+last_commit = "0d937e23ab5685e68f89b5ca3f253631d2a3246b"
+last_commit_time = "2020-12-04T09:21"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+commits = 1
+branches = 3
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/bisq-assets"
+last_commit = "0f539c0e791c30c2cbc0b0f9e17a2b28d21e4c25"
+last_commit_time = "2018-05-30T09:16"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 2
+branches = 48
+tag_count = 0
+forks = 76
+stars = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/bisq-core"
+last_commit = "628c7850b214609288aff0e89b5569d5803e4325"
+last_commit_time = "2018-05-28T11:14"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 44
+commits = 1
+watching = 2
+branches = 464
+stars = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/branding"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+tag_count = 0
+branches = 0
+watching = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/Equilibria"
+status = "200"
+
+[repo.stats]
+watching = 16
+forks = 0
+stars = 25
+tag_count = 0
+commits = 7
+branches = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/equilibria-android-lib"
+last_commit = "ce5dbfe3d5032e401b5b6db6611d9c8cd7fcb906"
+last_commit_time = "2020-07-03T19:00"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 1
+forks = 8
+commits = 1
+branches = 18
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/equilibria-cpp"
+last_commit = "5cec62f0a2e3374b4120e86e813fcde0bd3003f7"
+last_commit_time = "2020-08-12T20:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 12
+branches = 787
+watching = 1
+commits = 12
+stars = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/equilibria-go-utils"
+last_commit = "2e405dbeaada154f70bf7feffe88e69d23cdfdc1"
+last_commit_time = "2020-12-30T14:33"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+branches = 30
+commits = 2
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/Equilibria-IOS"
+last_commit = "67845d9fa8d9d9153711ea879dd6ecf04e454c54"
+last_commit_time = "2019-07-03T07:23"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 1
+stars = 1
+tag_count = 0
+branches = 11
+commits = 1
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/equilibria-ios-lib"
+last_commit = "2aa78f0ddd8893e8f407b77037493386cf272fec"
+last_commit_time = "2020-07-03T19:31"
+status = "200"
+
+[repo.stats]
+forks = 9
+branches = 11
+watching = 1
+tag_count = 0
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/equilibria-javascript"
+last_commit = "9316f2980e0d603b556782e6339a3bb87255c255"
+last_commit_time = "2021-04-15T07:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 0
+forks = 50
+watching = 1
+commits = 10
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/equilibria-mobile-wallet"
+last_commit = "89aa8e833d90eee4886c395d1f1b4afed4434176"
+last_commit_time = "2019-08-13T01:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 7
+commits = 1
+watching = 1
+forks = 10
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/equilibria-wallet"
+last_commit = "f8da23589763a731cb0b532a9dd47c34bfe3a06e"
+last_commit_time = "2022-06-22T18:38"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+forks = 66
+commits = 2
+stars = 1
+branches = 205
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/equilibria-wallet-android-app"
+last_commit = "0407cff2b031fa256479f402f81b5931358f1120"
+last_commit_time = "2020-07-08T20:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 22
+commits = 1
+stars = 0
+watching = 1
+forks = 18
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/equilibria-wallet-ios-app"
+last_commit = "a1a53b709c46757ea11277599e6c73496e2fb584"
+last_commit_time = "2019-07-03T03:53"
+status = "200"
+
+[repo.stats]
+branches = 20
+watching = 1
+commits = 1
+forks = 11
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/equilibria-webwallet"
+last_commit = "1336ed9c7234bde209efd68030b1623b9c780ba2"
+last_commit_time = "2019-08-15T19:03"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 192
+commits = 3
+forks = 117
+watching = 1
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/EquilibriaCommunityContent"
+last_commit = "c12e3488edaa18e1e6ec958edbd5dbc177326b57"
+last_commit_time = "2022-05-14T00:19"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 5
+forks = 0
+tag_count = 0
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/eth-equilibria"
+status = "404"
+
+[repo.stats]
+forks = 0
+commits = 0
+watching = 0
+tag_count = 0
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/explore"
+last_commit = "c9f57def0429038b88a9f772d1483d8a3c42c69e"
+last_commit_time = "2020-12-08T02:09"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+forks = 5
+stars = 0
+tag_count = 0
+branches = 97
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/Explorer"
+last_commit = "8c698e24f24546717d603993e7e7f04abcd04f2a"
+last_commit_time = "2022-05-31T22:22"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 0
+commits = 7
+forks = 262
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/karai"
+last_commit = "20b004491e50bafff12ec5bd044b1904e8a604ff"
+last_commit_time = "2020-12-08T08:15"
+status = "200"
+
+[repo.stats]
+branches = 95
+commits = 1
+stars = 0
+watching = 1
+tag_count = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/node-cryptonight-hashing"
+last_commit = "80a6fab61a8576ecf1359c19ae347b59bd211a1a"
+last_commit_time = "2019-06-26T10:15"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+branches = 520
+forks = 139
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/Node-Quick-Start"
+last_commit = "66b06e6187f0dca0cec333f74d8dc3fbdf64fb42"
+last_commit_time = "2021-10-13T11:54"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+stars = 1
+forks = 3
+tag_count = 0
+branches = 35
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/open-equilibria"
+last_commit = "95bde121fe5b0d399076f43742838ee9c8de5bba"
+last_commit_time = "2020-08-20T08:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 147
+branches = 780
+commits = 10
+watching = 1
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/pythia"
+last_commit = "20b004491e50bafff12ec5bd044b1904e8a604ff"
+last_commit_time = "2020-12-08T08:15"
+status = "200"
+
+[repo.stats]
+branches = 95
+forks = 2
+stars = 0
+watching = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/Triton-GUI"
+last_commit = "e93d79bd011b62a3ebc4324350640071f704308b"
+last_commit_time = "2019-02-10T08:26"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+stars = 0
+watching = 2
+commits = 7
+forks = 721
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/Triton-Old"
+last_commit = "aa98b72b46ec0e84ca7bfd916b46424afb1c0301"
+last_commit_time = "2018-09-17T14:07"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 98
+tag_count = 0
+commits = 2
+watching = 7
+stars = 3
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/Triton-Pools"
+last_commit = "52afacdbee8ccab70950e6f732319127147f1b11"
+last_commit_time = "2018-04-27T03:23"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 1
+stars = 0
+branches = 4
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/triton-stak"
+last_commit = "b846a6f7c1a91b0cf2bb18fb61eb6fec5871138d"
+last_commit_time = "2019-06-09T18:55"
+status = "200"
+
+[repo.stats]
+commits = 5
+forks = 0
+tag_count = 0
+stars = 0
+watching = 1
+branches = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/TritonBot"
+last_commit = "50ac2d19b0c3d4a1909ee0b22afb533c4bd513f8"
+last_commit_time = "2020-03-10T19:55"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+commits = 1
+stars = 0
+branches = 15
+watching = 2
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/TritonDocker"
+last_commit = "6bd5851afc01c76ce77225a335fd76b8772b70f8"
+last_commit_time = "2019-06-04T23:17"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 11
+commits = 3
+branches = 84
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/Vault-Protocol"
+last_commit = "ea80e402d727c865cdc02fb2af17539168b33991"
+last_commit_time = "2019-06-08T11:32"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 6
+watching = 2
+forks = 2
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/XEQ-DAO-Avalanche"
+last_commit = "2a03b5d9a3b50e39795f74202b8c58421f463055"
+last_commit_time = "2022-06-02T00:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+forks = 0
+branches = 7
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/EquilibriaCC/xeq_community_bot"
+last_commit = "e9761126da1085e6c5dbbe8854b8bc09e08f1af7"
+last_commit_time = "2020-12-08T00:28"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 0
+branches = 1
+stars = 0
+commits = 1
+tag_count = 0

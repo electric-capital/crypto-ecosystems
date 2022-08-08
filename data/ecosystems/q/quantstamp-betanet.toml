@@ -1,166 +1,734 @@
-# Ecosystem Level Information
 title = "Quantstamp Betanet"
-
+toml_path = "data/ecosystems/q/quantstamp-betanet.toml"
+github_organizations = ["https://github.com/quantstamp"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/quantstamp"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/quantstamp/bordeaux"
+last_commit = "8e10bb3b46a0d71b5b6ad2de835af5886754870a"
+last_commit_time = "2017-07-24T14:24"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 2
+forks = 1
+tag_count = 0
+stars = 2
+branches = 63
 
 [[repo]]
 url = "https://github.com/quantstamp/browser-solc"
+last_commit = "03df8fea229eb102ec679219b75f15c5af647dcb"
+last_commit_time = "2019-03-04T20:40"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 14
+tag_count = 0
+forks = 42
+stars = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/quantstamp/bsc"
+last_commit = "743e6d2e57f47b5bd6aaf787f18208b398ae5fd6"
+last_commit_time = "2020-07-29T15:42"
+status = "200"
+
+[repo.stats]
+forks = 763
+watching = 1
+tag_count = 0
+stars = 1
+branches = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/quantstamp/CarryToken_Review"
+last_commit = "3a1965b9e9e19fc0364e8bd9e9de416b9e127bc1"
+last_commit_time = "2018-07-13T02:12"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 20
+commits = 3
+watching = 4
+forks = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/crowdsale-fuzz-tester"
+last_commit = "37b21c8fced89260e01579bc2271491d1815212c"
+last_commit_time = "2019-02-21T23:59"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+stars = 2
+forks = 0
+branches = 8
+commits = 1
 
 [[repo]]
 url = "https://github.com/quantstamp/devcon-demo-final"
+last_commit = "7584c979b85d1d4ae269b4a5146737ad8d5f0cfe"
+last_commit_time = "2018-11-01T08:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 4
+watching = 6
+forks = 2
+stars = 5
+branches = 20
 
 [[repo]]
 url = "https://github.com/quantstamp/development_process"
+last_commit = "0ec003d41ac7c02b161ee8866a2d178749f445df"
+last_commit_time = "2019-06-08T11:34"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 1
+watching = 5
+tag_count = 0
+stars = 1
+branches = 23
 
 [[repo]]
 url = "https://github.com/quantstamp/documentation"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+commits = 0
+forks = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/DPOS-token-review"
+last_commit = "f2c4fa67356cd8651666c1b68e20138530b4b05d"
+last_commit_time = "2019-09-06T15:39"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 4
+stars = 1
+forks = 0
+tag_count = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/quantstamp/eth-contract-metadata"
+last_commit = "dc68506221859bc90792bc5e0279a6835f2484d8"
+last_commit_time = "2019-05-06T16:01"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 4
+forks = 922
+watching = 1
+branches = 406
 
 [[repo]]
 url = "https://github.com/quantstamp/eth-faucet"
+last_commit = "24cd989b92f01a480a874d9858033249b1b9b0b1"
+last_commit_time = "2020-07-27T16:00"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+watching = 1
+forks = 40
+stars = 1
+branches = 160
 
 [[repo]]
 url = "https://github.com/quantstamp/eth-router"
+last_commit = "f11af66f5c28801df670eb72bc5238eb97522ed9"
+last_commit_time = "2018-10-25T19:33"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 12
+tag_count = 0
+forks = 3
+watching = 2
+branches = 246
 
 [[repo]]
 url = "https://github.com/quantstamp/etherscan-api"
+last_commit = "0cd74f27530937ab89cadd8433762ef075972b3a"
+last_commit_time = "2019-01-10T19:55"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 6
+stars = 1
+branches = 272
+forks = 226
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/etherwallet"
+last_commit = "472252ce4b6ba3234388a7b94cde0bd4ffad4379"
+last_commit_time = "2017-11-16T13:25"
+status = "200"
+
+[repo.stats]
+watching = 5
+commits = 10
+branches = 0
+stars = 6
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/ethsf-bounties"
+last_commit = "2910b7805f8436264c75ba3818fe3c3c06e0797c"
+last_commit_time = "2018-10-07T17:53"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 3
+watching = 5
+tag_count = 0
+commits = 2
+stars = 4
 
 [[repo]]
 url = "https://github.com/quantstamp/ethsingapore-bounties"
+last_commit = "1389410836b20e2633bb7e388474a7f2b654337f"
+last_commit_time = "2019-02-22T02:21"
+status = "200"
+
+[repo.stats]
+branches = 10
+stars = 0
+commits = 1
+forks = 0
+watching = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/go-ethereum"
+last_commit = "3ebcf92b423e67b58a72a3fc126449e4e97bc4c8"
+last_commit_time = "2018-04-06T10:43"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 4
+stars = 1
+commits = 22
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/hackatum21-challenge-website"
+last_commit = "f8677964da9297cb2234395c4fef5b475d086629"
+last_commit_time = "2021-11-16T15:40"
+status = "200"
+
+[repo.stats]
+watching = 6
+branches = 5
+tag_count = 0
+commits = 2
+forks = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/quantstamp/IICO_Review"
+last_commit = "6c845b4c422acdc2a0f03e48e993b886bac81cc2"
+last_commit_time = "2018-04-30T18:58"
+status = "200"
+
+[repo.stats]
+watching = 4
+commits = 3
+branches = 3
+stars = 2
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/InsightsNetwork_Review"
+last_commit = "9284bae0f4ec0a8437bd9c2c439568a12eb0d9c6"
+last_commit_time = "2018-02-04T14:43"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 9
+stars = 5
+forks = 0
+commits = 2
+branches = 4
 
 [[repo]]
 url = "https://github.com/quantstamp/margaux"
+last_commit = "d71f86c2a620aece6ab6963164e190b0288c96a5"
+last_commit_time = "2017-07-22T00:51"
+status = "200"
+
+[repo.stats]
+commits = 16
+watching = 2
+tag_count = 0
+stars = 2
+forks = 2
+branches = 319
 
 [[repo]]
 url = "https://github.com/quantstamp/metamask-extension"
+last_commit = "7e0006a7fd993cbeb2a6d916d6d47a4654eb5aa7"
+last_commit_time = "2019-04-09T16:56"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 196
+watching = 4
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/MorpheusToken_Review"
+last_commit = "1c77d0293918c2e0d02e8501e996a2ed4938764d"
+last_commit_time = "2018-06-23T01:09"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 4
+stars = 1
+branches = 8
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/mythril"
+last_commit = "b4501ec14727761c5aee05068b4639d5dfe87e27"
+last_commit_time = "2019-07-16T06:19"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 10
+forks = 543
+stars = 6
+watching = 6
 
 [[repo]]
 url = "https://github.com/quantstamp/not-so-smart-contracts"
+last_commit = "3f1e2b153e24c8140cca18580a1b76710616deb7"
+last_commit_time = "2017-11-02T10:44"
+status = "200"
+
+[repo.stats]
+branches = 16
+tag_count = 0
+forks = 239
+stars = 1
+commits = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/quantstamp/NYBW2020-Gitcoin-Hackathon-Bounty"
+last_commit = "6aded44d928132d2d7dab832f43e17aec03c8c0d"
+last_commit_time = "2020-05-27T21:26"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 5
+watching = 7
+branches = 6
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/opensource-doc-gen"
+last_commit = "67a99cdd3d0073a02fba6aced3f2b5923949640e"
+last_commit_time = "2019-04-24T18:09"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 54
+watching = 5
+commits = 4
+tag_count = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/quantstamp/oracle-relayer"
+last_commit = "34820d719f05113d993df1a68def8e4b76c1b78b"
+last_commit_time = "2020-08-12T14:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 2
+commits = 2
+watching = 2
+stars = 1
+forks = 23
 
 [[repo]]
 url = "https://github.com/quantstamp/oyente"
+last_commit = "6786a4915859c53a78dec724f373f42426ab28d9"
+last_commit_time = "2018-07-18T18:54"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 261
+stars = 1
+tag_count = 0
+branches = 799
+commits = 7
 
 [[repo]]
 url = "https://github.com/quantstamp/parity-ethereum-buildpack"
+last_commit = "c97132aee1a0c89831974bf2aa156174ba6715fd"
+last_commit_time = "2019-03-15T22:00"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+branches = 6
+watching = 4
+stars = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/quantstamp/PayWithInk_Review"
+last_commit = "a6ebc56471c71e5d0ff7bd4257f29835ae25a27a"
+last_commit_time = "2017-12-22T19:48"
+status = "200"
+
+[repo.stats]
+watching = 6
+commits = 2
+stars = 1
+tag_count = 0
+branches = 20
+forks = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/prysm-1"
+last_commit = "67a2698463501a17805d795d545873666f43f56f"
+last_commit_time = "2020-05-06T05:55"
+status = "200"
+
+[repo.stats]
+commits = 143
+stars = 0
+watching = 2
+tag_count = 0
+forks = 632
+branches = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/qs-ui-lib"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 0
+branches = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/qsp-bounty-protocol"
+last_commit = "b66bb5075f7f0baaa41fccfa383ab56873e45aa8"
+last_commit_time = "2019-07-04T03:50"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 5
+watching = 7
+forks = 0
+branches = 46
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/qsp-protocol-audit-contract"
+last_commit = "d535985c9e4a5707a6284217582f53854879e6b7"
+last_commit_time = "2019-08-13T14:15"
+status = "200"
+
+[repo.stats]
+watching = 10
+branches = 319
+commits = 2
+tag_count = 0
+stars = 4
+forks = 1
 
 [[repo]]
 url = "https://github.com/quantstamp/qsp-protocol-node"
+last_commit = "6f776b01c91a3b1c306ab74932324ea367fa6157"
+last_commit_time = "2020-08-10T21:26"
+status = "200"
+
+[repo.stats]
+stars = 30
+forks = 14
+watching = 13
+branches = 0
+commits = 50
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/qsp-staking-protocol"
+last_commit = "bcf79bebaefa1886777ed1bd91b75ec4c9be3233"
+last_commit_time = "2019-09-30T13:04"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 123
+stars = 0
+tag_count = 0
+watching = 8
+commits = 1
 
 [[repo]]
 url = "https://github.com/quantstamp/quantstamp_web_support"
+last_commit = "651da07ff8f4d8625b4d13e35d7c350188ce34bc"
+last_commit_time = "2018-03-20T00:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+branches = 4
+stars = 3
+watching = 7
 
 [[repo]]
 url = "https://github.com/quantstamp/react-animated-css"
+last_commit = "b90f0046e54df0181337724a0d9d5422c2988983"
+last_commit_time = "2020-04-09T20:25"
+status = "200"
+
+[repo.stats]
+forks = 36
+watching = 1
+stars = 0
+branches = 40
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/RequestNetwork_Review"
+last_commit = "7b369bc8bfbba18dd52fc129d0532b50b45e99bf"
+last_commit_time = "2017-10-05T16:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+stars = 6
+watching = 7
+branches = 1
+forks = 3
 
 [[repo]]
 url = "https://github.com/quantstamp/senso-contracts-review"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+watching = 0
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/senso-report"
+last_commit = "6fc1c9b7567918d927b5f5c956df55c0e8775220"
+last_commit_time = "2019-10-01T17:29"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+forks = 0
+stars = 1
+watching = 4
+branches = 1
 
 [[repo]]
 url = "https://github.com/quantstamp/solc-js"
+last_commit = "609cee06c85ea081aa20629a580738c12c97e900"
+last_commit_time = "2019-04-23T14:53"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 0
+branches = 518
+commits = 4
+tag_count = 0
+forks = 268
 
 [[repo]]
 url = "https://github.com/quantstamp/solcov-0.7.0beta2-malform-config"
+last_commit = "a6abaa61818435898316a9eb70e84af12d9f8c58"
+last_commit_time = "2019-11-20T16:02"
+status = "200"
+
+[repo.stats]
+branches = 2
+stars = 0
+watching = 5
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/quantstamp/solhydra"
+status = "404"
+
+[repo.stats]
+watching = 0
+forks = 0
+stars = 0
+tag_count = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/solidity-analyzer"
+last_commit = "053acbeee8372a644d4ba4b04d46ba710c9f3fc4"
+last_commit_time = "2017-10-10T14:11"
+status = "200"
+
+[repo.stats]
+branches = 21
+watching = 15
+stars = 76
+commits = 4
+tag_count = 0
+forks = 23
 
 [[repo]]
 url = "https://github.com/quantstamp/solidity-parser"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+watching = 0
+commits = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/StraitsX-tokens"
+last_commit = "eeaab6aadd592592c1f7cad5f4b77182c86c170e"
+last_commit_time = "2020-05-05T04:20"
+status = "200"
+
+[repo.stats]
+forks = 9
+branches = 259
+watching = 1
+commits = 3
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/sushiswap-security-review"
+last_commit = "423cde6cdd134bf80f2b944259781a47b9f68cd4"
+last_commit_time = "2020-09-02T19:54"
+status = "200"
+
+[repo.stats]
+watching = 7
+commits = 1
+stars = 14
+branches = 2
+tag_count = 0
+forks = 9
 
 [[repo]]
 url = "https://github.com/quantstamp/token-distribution"
+status = "404"
+
+[repo.stats]
+commits = 0
+tag_count = 0
+watching = 0
+forks = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/quantstamp/universal-solc-compiler"
+last_commit = "3db311baf856044ffce07850338b3ef9db980db8"
+last_commit_time = "2019-08-12T14:36"
+status = "200"
+
+[repo.stats]
+commits = 3
+forks = 2
+tag_count = 0
+watching = 8
+branches = 128
+stars = 2
 
 [[repo]]
 url = "https://github.com/quantstamp/web3-eth"
+last_commit = "430f47eede28093ff604e7161d4f91326af22820"
+last_commit_time = "2018-02-27T20:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 55
+watching = 5
+stars = 1
+commits = 2
+forks = 50
 
 [[repo]]
 url = "https://github.com/quantstamp/WeTrust_Review"
+last_commit = "056531a17af3f675d987601a27333b82e970ca8a"
+last_commit_time = "2017-12-08T02:50"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 3
+commits = 2
+forks = 0
+watching = 3
+tag_count = 0

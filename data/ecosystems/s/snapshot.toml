@@ -1,187 +1,816 @@
-# Ecosystem Level Information
 title = "Snapshot"
-
+toml_path = "data/ecosystems/s/snapshot.toml"
+github_organizations = ["https://github.com/snapshot-labs"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/snapshot-labs"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/snapshot-labs/blockfinder"
+last_commit = "4bf612879c0ff3796236a816a6988b0101bf70dd"
+last_commit_time = "2022-08-01T18:08"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 81
+tag_count = 0
+forks = 4
+commits = 4
+watching = 3
 
 [[repo]]
 url = "https://github.com/snapshot-labs/boost"
+last_commit = "1a5346b9d45c31f871a6117a452272abb1d01522"
+last_commit_time = "2022-06-23T18:56"
+status = "200"
+
+[repo.stats]
+stars = 5
+tag_count = 0
+commits = 2
+branches = 99
+forks = 2
+watching = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/boost-guard"
+last_commit = "dcc2a790b252b3a1495ecfaad3b70d40f0fa82d8"
+last_commit_time = "2022-07-25T12:26"
+status = "200"
+
+[repo.stats]
+watching = 0
+commits = 9
+tag_count = 0
+stars = 0
+branches = 5
+forks = 1
 
 [[repo]]
 url = "https://github.com/snapshot-labs/boost-subgraph"
+last_commit = "208ec264f2cbbc7a8e2109ae8808cddbaef5bc59"
+last_commit_time = "2022-07-25T21:13"
+status = "200"
+
+[repo.stats]
+watching = 0
+commits = 1
+branches = 19
+stars = 2
+tag_count = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/snapshot-labs/boost-ui"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 0
+stars = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/brand"
+last_commit = "4b2d4be93fbd8382bb51ec44b7dd1d03680c5063"
+last_commit_time = "2021-10-17T16:27"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 1
+tag_count = 0
+branches = 4
+watching = 2
+stars = 1
 
 [[repo]]
 url = "https://github.com/snapshot-labs/brovider"
+last_commit = "6943297c2d015f6bdb2110d6b0cb7dd50b3ae682"
+last_commit_time = "2022-08-04T18:03"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 63
+commits = 5
+forks = 3
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/checkpoint"
+last_commit = "ce3004c8f5cc4feeb16165153d209dc4724b30bb"
+last_commit_time = "2022-08-04T17:49"
+status = "200"
+
+[repo.stats]
+branches = 54
+tag_count = 0
+commits = 9
+stars = 13
+forks = 4
+watching = 1
 
 [[repo]]
 url = "https://github.com/snapshot-labs/checkpoint-docs"
+last_commit = "301315243b6f19011896927a34f157d7390429df"
+last_commit_time = "2022-06-26T15:54"
+status = "200"
+
+[repo.stats]
+watching = 0
+commits = 1
+forks = 0
+branches = 8
+tag_count = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/snapshot-labs/checkpoint-template"
+last_commit = "b364210f5baa7aacabf99b995d057c33ace83754"
+last_commit_time = "2022-08-04T18:01"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 5
+branches = 7
+commits = 1
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/checkpoint-ui"
+last_commit = "f5126e0a9cf3a78ddb1fb33dd71db668cc418ef3"
+last_commit_time = "2022-06-13T18:07"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+stars = 2
+branches = 12
+watching = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/snapshot-labs/collection"
+last_commit = "088559ab8c2d375cb80a33e240922a34cb95fe8d"
+last_commit_time = "2021-10-31T18:19"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 1
+forks = 1
+watching = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/snapshot-labs/contracts"
+last_commit = "ef8b5a9a6aba1dfe14be7ee931ad280dc00414db"
+last_commit_time = "2021-09-29T07:20"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 5
+watching = 1
+tag_count = 0
+commits = 1
+forks = 2
 
 [[repo]]
 url = "https://github.com/snapshot-labs/discord-helpdesk"
+last_commit = "23f6c15f18b9dbc2267a0566477bd19fd5be458b"
+last_commit_time = "2021-09-21T10:51"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 1
+tag_count = 0
+commits = 1
+stars = 1
+branches = 4
 
 [[repo]]
 url = "https://github.com/snapshot-labs/drop"
+last_commit = "3634fbc1e62480c0617ad14bb455ad4370fdde72"
+last_commit_time = "2021-12-19T07:13"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+branches = 1
+watching = 3
+stars = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/snapshot-labs/evm-slot-key-verification"
+last_commit = "b5906b80078a5a65a6a44836799b438b0b4db264"
+last_commit_time = "2022-05-31T10:05"
+status = "200"
+
+[repo.stats]
+forks = 2
+commits = 1
+stars = 1
+branches = 11
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/guest"
+last_commit = "985c9b5a7748d6e19be185445d8f49e5e50b8cec"
+last_commit_time = "2022-03-21T11:58"
+status = "200"
+
+[repo.stats]
+stars = 5
+branches = 6
+tag_count = 0
+watching = 1
+forks = 3
+commits = 11
 
 [[repo]]
 url = "https://github.com/snapshot-labs/highlight"
+last_commit = "3d1bfeb355537fe701b87a7fa376441563de7e90"
+last_commit_time = "2021-07-01T07:12"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 4
+watching = 3
+branches = 27
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/lobby"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 0
+commits = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/lobby.js"
+last_commit = "a06b583f54542f014c4fbd31ce4553582cacb7fa"
+last_commit_time = "2022-06-22T06:51"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 1
+branches = 10
+forks = 0
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/lock"
+last_commit = "209572212379444f9129c996912d388ba5b360f6"
+last_commit_time = "2022-08-04T06:34"
+status = "200"
+
+[repo.stats]
+forks = 45
+watching = 3
+stars = 25
+tag_count = 0
+commits = 17
+branches = 104
 
 [[repo]]
 url = "https://github.com/snapshot-labs/mana"
+last_commit = "2ee2697068667e8eb2d6304e6818a754a9b62711"
+last_commit_time = "2022-07-16T16:28"
+status = "200"
+
+[repo.stats]
+commits = 6
+tag_count = 0
+forks = 2
+branches = 36
+watching = 0
+stars = 5
 
 [[repo]]
 url = "https://github.com/snapshot-labs/merkle-drop"
+last_commit = "3634fbc1e62480c0617ad14bb455ad4370fdde72"
+last_commit_time = "2021-12-19T07:13"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+branches = 1
+watching = 3
+forks = 3
+stars = 4
 
 [[repo]]
 url = "https://github.com/snapshot-labs/networks"
+last_commit = "af62f8e15e99cc5898a7bf9de2a7b5776801b753"
+last_commit_time = "2022-07-19T19:18"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 1
+forks = 2
+branches = 17
+tag_count = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/snapshot-labs/pineapple"
+status = "200"
+
+[repo.stats]
+commits = 7
+watching = 1
+forks = 3
+branches = 34
+stars = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/pineapple.js"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+stars = 0
+watching = 1
+branches = 11
+forks = 3
 
 [[repo]]
 url = "https://github.com/snapshot-labs/poke"
+status = "200"
+
+[repo.stats]
+stars = 20
+forks = 6
+branches = 62
+watching = 2
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/portis"
+status = "404"
+
+[repo.stats]
+forks = 0
+branches = 0
+commits = 0
+stars = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/poster-subgraph"
+last_commit = "f982ea9a601c1d43cad1973a252198ca90fedab6"
+last_commit_time = "2021-07-29T22:11"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 2
+tag_count = 0
+watching = 1
+stars = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/snapshot-labs/score-api"
+last_commit = "e073206f459e1b5f37779923cf2c8f477733c16f"
+last_commit_time = "2022-08-05T04:32"
+status = "200"
+
+[repo.stats]
+stars = 10
+commits = 17
+forks = 16
+tag_count = 0
+watching = 4
+branches = 537
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot"
+last_commit = "c5395b91d694180d3af5ea1cb0cd3b61290312bf"
+last_commit_time = "2022-08-05T06:58"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 196
+branches = 0
+forks = 511
+stars = 655
+watching = 23
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-app"
+last_commit = "9736386bec964b4359c902094dde712f084e9c10"
+last_commit_time = "2022-05-12T14:04"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 7
+branches = 329
+stars = 13
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-discord"
+last_commit = "657dbddd7581d3f2aa5d1f361399add0592baaf8"
+last_commit_time = "2022-08-03T07:22"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 5
+branches = 64
+commits = 5
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-docs"
+last_commit = "f5360132666c0456ec2f015700abe8a4f146bdb9"
+last_commit_time = "2022-08-02T11:16"
+status = "200"
+
+[repo.stats]
+watching = 6
+tag_count = 0
+stars = 25
+forks = 33
+branches = 226
+commits = 4
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-hub"
+last_commit = "caa82ca58550f7b305c8d9afa96e28bf9fa06631"
+last_commit_time = "2022-08-04T10:42"
+status = "200"
+
+[repo.stats]
+forks = 146
+stars = 53
+commits = 78
+branches = 601
+tag_count = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-networks"
+last_commit = "63b18d9a4042b621b2c7af9bffffa461f2da31e1"
+last_commit_time = "2022-07-02T10:16"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+watching = 0
+branches = 1
+tag_count = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-plugins"
+last_commit = "dc2d1233031a8285296cc9c1a8102cc882f9b6f8"
+last_commit_time = "2022-03-09T07:35"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 88
+commits = 4
+tag_count = 0
+forks = 18
+stars = 12
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-relayer"
+last_commit = "d27ba85f977b579424aef967308bbc473aac6659"
+last_commit_time = "2022-07-12T08:35"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 2
+tag_count = 0
+commits = 10
+forks = 5
+branches = 33
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-score"
+last_commit = "e073206f459e1b5f37779923cf2c8f477733c16f"
+last_commit_time = "2022-08-05T04:32"
+status = "200"
+
+[repo.stats]
+forks = 16
+stars = 10
+watching = 4
+tag_count = 0
+branches = 537
+commits = 17
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-spaces"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 118
+branches = 0
+commits = 17
+watching = 10
+forks = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-strategies"
+status = "200"
+
+[repo.stats]
+branches = 594
+commits = 15
+tag_count = 0
+forks = 390
+stars = 111
+watching = 5
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-subgraph"
+last_commit = "939e454af8dc680d5706385fa271a2b5aa24b402"
+last_commit_time = "2022-06-15T14:05"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 10
+branches = 9
+forks = 7
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-webhook"
+last_commit = "657dbddd7581d3f2aa5d1f361399add0592baaf8"
+last_commit_time = "2022-08-03T07:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 64
+commits = 5
+forks = 5
+watching = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot-x"
+last_commit = "b299b753ef4b05ddeb8e215ba03146a3c74ebca1"
+last_commit_time = "2022-08-04T10:17"
+status = "200"
+
+[repo.stats]
+stars = 48
+tag_count = 0
+forks = 9
+branches = 183
+commits = 26
+watching = 2
 
 [[repo]]
 url = "https://github.com/snapshot-labs/snapshot.js"
+status = "200"
+
+[repo.stats]
+commits = 52
+tag_count = 0
+stars = 137
+watching = 8
+forks = 438
+branches = 814
 
 [[repo]]
 url = "https://github.com/snapshot-labs/stamp"
+status = "200"
+
+[repo.stats]
+stars = 20
+commits = 4
+branches = 62
+watching = 2
+forks = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/starknet-poster"
+last_commit = "36ac3054cfddaf2068fd30a70dacaf12dd162ff7"
+last_commit_time = "2022-06-08T22:24"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 3
+forks = 1
+tag_count = 0
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/snapshot-labs/starknet-proxy"
+last_commit = "877542dd6c304525bf75592dddd711c99d09baf2"
+last_commit_time = "2022-05-07T22:21"
+status = "200"
+
+[repo.stats]
+branches = 6
+tag_count = 0
+watching = 0
+commits = 6
+forks = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/snapshot-labs/starkvote"
+last_commit = "b299b753ef4b05ddeb8e215ba03146a3c74ebca1"
+last_commit_time = "2022-08-04T10:17"
+status = "200"
+
+[repo.stats]
+stars = 48
+branches = 183
+tag_count = 0
+watching = 2
+forks = 9
+commits = 26
 
 [[repo]]
 url = "https://github.com/snapshot-labs/swaper"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+branches = 0
+stars = 0
+watching = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/sx-api"
+last_commit = "5688d5f620af629c597b63e8778658d3204d12ab"
+last_commit_time = "2022-08-04T18:14"
+status = "200"
+
+[repo.stats]
+commits = 9
+stars = 9
+forks = 4
+watching = 2
+branches = 140
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/sx-core"
+last_commit = "b299b753ef4b05ddeb8e215ba03146a3c74ebca1"
+last_commit_time = "2022-08-04T10:17"
+status = "200"
+
+[repo.stats]
+stars = 48
+tag_count = 0
+forks = 9
+watching = 2
+branches = 183
+commits = 26
 
 [[repo]]
 url = "https://github.com/snapshot-labs/sx-docs"
+last_commit = "ad597c5af25e178a390e35cee320f27886e4e446"
+last_commit_time = "2022-05-21T09:12"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 2
+tag_count = 0
+commits = 1
+stars = 2
+branches = 14
 
 [[repo]]
 url = "https://github.com/snapshot-labs/sx-relayer"
+last_commit = "2ee2697068667e8eb2d6304e6818a754a9b62711"
+last_commit_time = "2022-07-16T16:28"
+status = "200"
+
+[repo.stats]
+commits = 6
+stars = 5
+tag_count = 0
+watching = 0
+forks = 2
+branches = 36
 
 [[repo]]
 url = "https://github.com/snapshot-labs/sx-ui"
+last_commit = "70785d458b24b137532b0d9a65aefa05b7cbf0f7"
+last_commit_time = "2022-07-26T06:58"
+status = "200"
+
+[repo.stats]
+stars = 5
+forks = 3
+watching = 1
+tag_count = 0
+branches = 369
+commits = 11
 
 [[repo]]
 url = "https://github.com/snapshot-labs/sx.js"
+last_commit = "c1c134ebbe072a9ad15989330872e436023b2a8a"
+last_commit_time = "2022-08-04T17:01"
+status = "200"
+
+[repo.stats]
+forks = 4
+watching = 0
+stars = 7
+branches = 47
+tag_count = 0
+commits = 9
 
 [[repo]]
 url = "https://github.com/snapshot-labs/tune"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 0
+stars = 0
+tag_count = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/ui"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 0
+tag_count = 0
+commits = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/snapshot-labs/workers"
+last_commit = "38f78867d39fce1892f133c3862a2dab0e568956"
+last_commit_time = "2022-02-21T13:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+watching = 2
+commits = 2
+forks = 2
+branches = 10
 
 [[repo]]
 url = "https://github.com/snapshot-labs/workflow"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+branches = 0
+forks = 0
+stars = 0
+commits = 0

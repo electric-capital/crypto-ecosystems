@@ -1,19 +1,60 @@
-# Ecosystem Level Information
 title = "Ajuna Network"
-
+toml_path = "data/ecosystems/a/ajuna-network.toml"
+github_organizations = []
 sub_ecosystems = ["DOTMog", "New Omega"]
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/ajuna-network/Ajuna.NetApi"
+last_commit = "bb7c4f2a6967990c8382cb4bd03eb17d90d762ee"
+last_commit_time = "2022-08-04T17:01"
+status = "200"
+
+[repo.stats]
+stars = 16
+branches = 53
+watching = 6
+tag_count = 0
+commits = 19
+forks = 6
 
 [[repo]]
 url = "https://github.com/ajuna-network/Ajuna.ServiceLayer"
+last_commit = "e9192725f814cd47846325a4f504a112b62f9b0f"
+last_commit_time = "2022-06-06T16:06"
+status = "200"
+
+[repo.stats]
+branches = 9
+stars = 0
+commits = 3
+forks = 0
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ajuna-network/substrate"
+last_commit = "9eddaec3b8f15eec0c458e7bb3a1c16db91d8199"
+last_commit_time = "2022-01-14T11:02"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+forks = 0
+branches = 0
+commits = 402
 
 [[repo]]
 url = "https://github.com/ajuna-network/SubstrateNetApi"
+last_commit = "bd914f6c71d0d7bd5f1cae828ed1f179f7e256a1"
+last_commit_time = "2021-10-12T21:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 9
+branches = 332
+stars = 36
+watching = 3
+forks = 12

@@ -1,55 +1,228 @@
-# Ecosystem Level Information
 title = "Alkemi"
-
+toml_path = "data/ecosystems/a/alkemi.toml"
+github_organizations = ["https://github.com/AlkemiNetwork"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/AlkemiNetwork"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-assets"
+last_commit = "9fcc0adb1eb33c6da64ec17475b05c798a2b6197"
+last_commit_time = "2021-09-16T14:04"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 2
+forks = 0
+tag_count = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-content"
+last_commit = "c32a598eca039cbb3d5861d6ee3e04aaeec542e1"
+last_commit_time = "2019-12-11T21:08"
+status = "200"
+
+[repo.stats]
+branches = 8
+commits = 1
+tag_count = 0
+forks = 0
+watching = 2
+stars = 2
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-earn-contracts"
+last_commit = "10d08ead1a7a669d2d0e3c826a182eaf896ade0b"
+last_commit_time = "2021-11-29T17:26"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 1
+watching = 3
+tag_count = 0
+commits = 36
+branches = 248
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-earn-kyc-service"
+last_commit = "3bde8152422b2b7632f4454144a249fc839f64aa"
+last_commit_time = "2021-01-13T04:40"
+status = "200"
+
+[repo.stats]
+branches = 36
+tag_count = 0
+watching = 2
+commits = 1
+stars = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-earn-protocol-v2"
+last_commit = "ee4358c5184886694aeb656f851a456786c5a61c"
+last_commit_time = "2022-06-07T18:14"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+stars = 0
+branches = 1
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-earn-safe-app"
+last_commit = "b604ad8c63f595145e93818fa922f8410195a6e9"
+last_commit_time = "2021-09-17T15:37"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 3
+tag_count = 0
+commits = 1
+branches = 73
+stars = 1
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-earn-security-audit"
+last_commit = "0c6dc9a027410d6601b1d4583809796b743e6eab"
+last_commit_time = "2021-09-27T20:20"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+stars = 0
+watching = 3
+branches = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-ledger-app"
+last_commit = "e6534952b387098c27cef75e5c5f57b2a3564333"
+last_commit_time = "2022-02-03T15:23"
+status = "200"
+
+[repo.stats]
+branches = 1
+commits = 1
+forks = 0
+tag_count = 0
+stars = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-ledger-plugin"
+last_commit = "6605b7af435428c65042c2c91920601e63558183"
+last_commit_time = "2022-06-09T17:19"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 1
+commits = 1
+branches = 130
+forks = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-reserve-contracts"
+last_commit = "1ebcfc4c25dc61c7095b7b4c41e88083ec657a3c"
+last_commit_time = "2021-01-01T05:41"
+status = "200"
+
+[repo.stats]
+branches = 365
+tag_count = 0
+stars = 6
+watching = 3
+commits = 39
+forks = 2
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-reserve-ui"
+last_commit = "8ed1c1dc1ba6a938c57575d3aeabe80325f3a1b2"
+last_commit_time = "2021-01-01T05:12"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+tag_count = 0
+watching = 2
+branches = 259
+commits = 42
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-tokens-contracts"
+last_commit = "470e496a2a9b0eb368d8445747c486468014d714"
+last_commit_time = "2020-03-20T05:46"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 8
+watching = 2
+stars = 1
+tag_count = 0
+branches = 37
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/alkemi-ui-template"
+last_commit = "f4c0b0884cbc894d85120cb39b24709f8627fcd5"
+last_commit_time = "2020-03-23T08:58"
+status = "200"
+
+[repo.stats]
+branches = 10
+commits = 37
+stars = 1
+forks = 1
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/api-docs"
+last_commit = "3e450179969f1ef286afa50ff1ef52d2825f76ae"
+last_commit_time = "2020-01-12T07:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 3
+branches = 18
+commits = 1
+forks = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/projects"
+last_commit = "3af9c1bb6f33cde730e7bc5d10b3bbcf015982be"
+last_commit_time = "2021-10-14T17:33"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+branches = 89
+tag_count = 0
+commits = 1
+forks = 100
 
 [[repo]]
 url = "https://github.com/AlkemiNetwork/security-audit"
+last_commit = "0c6dc9a027410d6601b1d4583809796b743e6eab"
+last_commit_time = "2021-09-27T20:20"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 0
+forks = 0
+branches = 3
+tag_count = 0
+commits = 1

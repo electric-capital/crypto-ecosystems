@@ -1,178 +1,788 @@
-# Ecosystem Level Information
 title = "AirGap"
-
+toml_path = "data/ecosystems/a/airgap.toml"
+github_organizations = ["https://github.com/airgap-it"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/airgap-it"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/airgap-it/abi-decoder"
+last_commit = "a4b60b35d12af863026d6d723bec73b172c4e5b7"
+last_commit_time = "2018-03-19T16:49"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+branches = 25
+watching = 1
+stars = 1
+forks = 171
 
 [[repo]]
 url = "https://github.com/airgap-it/AEXs"
+last_commit = "509321ef1174b62c441e876c2ed54eb57ee72dcc"
+last_commit_time = "2019-04-27T15:37"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 0
+watching = 4
+branches = 10
+forks = 22
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/airgap-angular-components"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 2
+branches = 452
+commits = 2
+forks = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/airgap-cli-signer"
+last_commit = "d4296cda8962a7c7beae6fcf693d7ccd1ddd881d"
+last_commit_time = "2017-07-25T20:06"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 1
+watching = 1
+stars = 7
+tag_count = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/airgap-it/airgap-coin-lib"
+last_commit = "914686ee480cea286c7c762793b20658a16146df"
+last_commit_time = "2022-07-18T11:15"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 19
+watching = 14
+forks = 34
+stars = 117
+branches = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/airgap-distro"
+last_commit = "479f48f9a75216969f90b14f741b08a4323bb76b"
+last_commit_time = "2018-11-22T16:58"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 19
+watching = 7
+branches = 11
+tag_count = 0
+forks = 5
 
 [[repo]]
 url = "https://github.com/airgap-it/airgap-docs"
+last_commit = "0ecf232ebc06f4fb4c48bced9e2dd5c6d807ba98"
+last_commit_time = "2022-07-21T14:22"
+status = "200"
+
+[repo.stats]
+forks = 15
+branches = 399
+tag_count = 0
+commits = 5
+watching = 5
+stars = 1
 
 [[repo]]
 url = "https://github.com/airgap-it/airgap-raspberry-apk-signer"
+last_commit = "6403e951391d3116fbcd4fa144008fc448bf93ef"
+last_commit_time = "2019-06-07T09:02"
+status = "200"
+
+[repo.stats]
+branches = 5
+tag_count = 0
+watching = 6
+stars = 11
+commits = 1
+forks = 5
 
 [[repo]]
 url = "https://github.com/airgap-it/airgap-sapling"
+last_commit = "9060693664cadcd1a5a760607a4d35fd9aee39b4"
+last_commit_time = "2022-07-28T11:27"
+status = "200"
+
+[repo.stats]
+branches = 161
+commits = 2
+watching = 8
+stars = 5
+forks = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/airgap-sapling-wasm"
+last_commit = "9060693664cadcd1a5a760607a4d35fd9aee39b4"
+last_commit_time = "2022-07-28T11:27"
+status = "200"
+
+[repo.stats]
+stars = 5
+branches = 161
+forks = 4
+watching = 8
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/airgap-secure-random-secret-generator"
+last_commit = "f248214328104af9012d2f6d16c824465c4b7cb5"
+last_commit_time = "2017-11-16T14:04"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 6
+commits = 2
+forks = 1
+stars = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/airgap-it/airgap-vault"
+status = "200"
+
+[repo.stats]
+stars = 195
+branches = 0
+commits = 29
+forks = 67
+watching = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/airgap-wallet"
+status = "200"
+
+[repo.stats]
+watching = 21
+stars = 294
+branches = 0
+commits = 36
+forks = 81
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/airgap-web-signer"
+last_commit = "32892bc084f3d0ae8e8436332fd7b3776c947cd8"
+last_commit_time = "2017-08-22T12:47"
+status = "200"
+
+[repo.stats]
+stars = 8
+commits = 2
+branches = 33
+tag_count = 0
+forks = 3
+watching = 1
 
 [[repo]]
 url = "https://github.com/airgap-it/beacon-android-sdk"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+watching = 7
+branches = 89
+stars = 6
+forks = 4
 
 [[repo]]
 url = "https://github.com/airgap-it/beacon-debug-wallet"
+last_commit = "f7a61ec7df25f5bb3ace1f87c32f39fdcf54ca4f"
+last_commit_time = "2022-04-12T23:46"
+status = "200"
+
+[repo.stats]
+watching = 6
+forks = 2
+branches = 52
+stars = 4
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/beacon-docs"
+last_commit = "faae3a99296739f30181ceb170db7ce268eba093"
+last_commit_time = "2022-06-09T13:51"
+status = "200"
+
+[repo.stats]
+branches = 246
+forks = 18
+stars = 0
+watching = 5
+tag_count = 0
+commits = 8
 
 [[repo]]
 url = "https://github.com/airgap-it/beacon-example-dapp"
+last_commit = "34e98141803f20ee0ca840d76f0e28aee1e40f0c"
+last_commit_time = "2021-02-09T23:27"
+status = "200"
+
+[repo.stats]
+branches = 251
+tag_count = 0
+watching = 6
+commits = 5
+stars = 4
+forks = 4
 
 [[repo]]
 url = "https://github.com/airgap-it/beacon-extension"
+last_commit = "20af5c93d91fad0fd4c209407a3085bb590bbd13"
+last_commit_time = "2021-12-21T16:43"
+status = "200"
+
+[repo.stats]
+stars = 7
+watching = 7
+tag_count = 0
+commits = 15
+branches = 426
+forks = 2
 
 [[repo]]
 url = "https://github.com/airgap-it/beacon-iframe-bridge"
+last_commit = "9fcc6aa53f075a35ca6092fd79d2157ec3882676"
+last_commit_time = "2022-01-25T19:12"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+commits = 1
+branches = 11
+watching = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/beacon-ios-sdk"
+last_commit = "0e76061c79238191a541bd3dcaf7e146c932bf20"
+last_commit_time = "2022-05-19T10:39"
+status = "200"
+
+[repo.stats]
+forks = 10
+tag_count = 0
+branches = 98
+commits = 2
+watching = 6
+stars = 8
 
 [[repo]]
 url = "https://github.com/airgap-it/beacon-ledger-bridge"
+last_commit = "c21316ea9a867ef4a58ed52a0e1abbf8aa85abcd"
+last_commit_time = "2022-04-27T14:19"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 0
+branches = 19
+tag_count = 0
+commits = 9
+forks = 3
 
 [[repo]]
 url = "https://github.com/airgap-it/beacon-node"
+status = "200"
+
+[repo.stats]
+stars = 7
+forks = 3
+watching = 5
+tag_count = 0
+commits = 10
+branches = 130
 
 [[repo]]
 url = "https://github.com/airgap-it/beacon-polkadot-example-dapp"
+last_commit = "6a8b811a743257bbc68b8e2a152a7f699f3bc0f6"
+last_commit_time = "2021-07-15T14:00"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+watching = 5
+tag_count = 0
+branches = 12
+commits = 2
 
 [[repo]]
 url = "https://github.com/airgap-it/beacon-sdk"
+status = "200"
+
+[repo.stats]
+stars = 70
+forks = 31
+watching = 10
+tag_count = 0
+branches = 0
+commits = 18
 
 [[repo]]
 url = "https://github.com/airgap-it/beacon-vue-example"
+last_commit = "923601e567201d010db04e4d9f8cf706e268e178"
+last_commit_time = "2022-02-16T16:04"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 6
+tag_count = 0
+branches = 16
+stars = 5
+watching = 5
 
 [[repo]]
 url = "https://github.com/airgap-it/bitgo-utxo-lib"
+last_commit = "5d91049fd7a988382df81c8260e244ee56d57aac"
+last_commit_time = "2019-03-20T12:36"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 12
+watching = 1
+forks = 112
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/blockies"
+last_commit = "0c58a14f2c1dea8b29f8362ad973ee1c2d6ed89a"
+last_commit_time = "2018-12-18T09:41"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 4
+forks = 154
+stars = 0
+tag_count = 0
+branches = 51
 
 [[repo]]
 url = "https://github.com/airgap-it/cmtaFA2"
+last_commit = "38653d54915a21316295b86bf7feb69c06160f39"
+last_commit_time = "2021-02-15T15:11"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 1
+tag_count = 0
+branches = 1
+commits = 1
+watching = 5
 
 [[repo]]
 url = "https://github.com/airgap-it/cordova-plugin-airgap-secure-storage"
+last_commit = "4d7b27748e2e7e748683b5f32e6b47a1267adba8"
+last_commit_time = "2022-03-24T07:53"
+status = "200"
+
+[repo.stats]
+branches = 32
+stars = 2
+tag_count = 0
+commits = 3
+forks = 3
+watching = 7
 
 [[repo]]
 url = "https://github.com/airgap-it/cordova-plugin-airgap-security-utils"
+last_commit = "5a43fb4cfd7ccbf93bc89dfa7f3e792b5e8e2d44"
+last_commit_time = "2022-03-24T07:46"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+watching = 2
+commits = 1
+stars = 0
+branches = 56
 
 [[repo]]
 url = "https://github.com/airgap-it/cordova-plugin-airgap-webview"
+last_commit = "f95a22726bd0e34f659fe5bb01e618f3cdda1a04"
+last_commit_time = "2019-10-11T12:13"
+status = "200"
+
+[repo.stats]
+branches = 350
+forks = 344
+watching = 5
+stars = 0
+tag_count = 0
+commits = 9
 
 [[repo]]
 url = "https://github.com/airgap-it/cordova-plugin-qrscanner"
+last_commit = "6bc76fbc235e3bf51f78474780397c04131a8622"
+last_commit_time = "2018-03-19T16:02"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 112
+watching = 5
+forks = 650
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/GoogleSignIn-iOS"
+last_commit = "c32af44e0b88903bc74b981f07869cc404130a3d"
+last_commit_time = "2021-08-04T13:47"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 1
+tag_count = 0
+forks = 90
+commits = 9
+branches = 69
 
 [[repo]]
 url = "https://github.com/airgap-it/hd-wallet-js"
+last_commit = "b216450e56954a6e82ace0aade9474673de5d9d5"
+last_commit_time = "2018-11-07T16:07"
+status = "200"
+
+[repo.stats]
+branches = 14
+forks = 13
+commits = 1
+stars = 0
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/identity-provider-PoC"
+last_commit = "b322427e619a61e544f201aabbb15db23b5e4b94"
+last_commit_time = "2019-05-17T15:21"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 4
+forks = 2
+stars = 0
+branches = 34
 
 [[repo]]
 url = "https://github.com/airgap-it/ionic-plugin-deeplinks"
+last_commit = "8c635cda7b523ced55c4202c39c10fb904f84444"
+last_commit_time = "2018-10-02T10:25"
+status = "200"
+
+[repo.stats]
+branches = 119
+stars = 0
+watching = 4
+forks = 183
+commits = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/ionic-storage"
+last_commit = "621efcacd7e2d5917c8b067bbb6cf0910d5e58b8"
+last_commit_time = "2019-03-06T09:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 4
+commits = 7
+branches = 122
+stars = 0
+forks = 87
 
 [[repo]]
 url = "https://github.com/airgap-it/metamask-extension"
+last_commit = "fdea3704d69fcb755b21d36203f311d24d77db8d"
+last_commit_time = "2022-02-16T15:46"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+tag_count = 0
+branches = 0
+commits = 309
+forks = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/Nautilus"
+last_commit = "83c971245a80eb2491cb826173fd5c379c0b5ef5"
+last_commit_time = "2019-09-04T07:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 130
+watching = 1
+commits = 19
+forks = 5
 
 [[repo]]
 url = "https://github.com/airgap-it/react-native-apple-authentication"
+last_commit = "8692b2308951e0e227daef4c519f096abb4b3de3"
+last_commit_time = "2021-08-17T15:31"
+status = "200"
+
+[repo.stats]
+branches = 124
+watching = 1
+stars = 0
+commits = 4
+tag_count = 0
+forks = 186
 
 [[repo]]
 url = "https://github.com/airgap-it/spire"
+last_commit = "20af5c93d91fad0fd4c209407a3085bb590bbd13"
+last_commit_time = "2021-12-21T16:43"
+status = "200"
+
+[repo.stats]
+commits = 15
+watching = 7
+branches = 426
+tag_count = 0
+stars = 7
+forks = 2
 
 [[repo]]
 url = "https://github.com/airgap-it/tezblock"
+last_commit = "e3c3d4185b6100b7cb5f05dceb04189e7d24a5a8"
+last_commit_time = "2022-05-09T08:37"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+forks = 10
+commits = 15
+watching = 9
+stars = 26
 
 [[repo]]
 url = "https://github.com/airgap-it/tezos-kotlin-sdk"
+last_commit = "1274e781641b2fc125eeb81535d6fe4a40d77c7f"
+last_commit_time = "2022-06-08T07:48"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 16
+forks = 2
+tag_count = 0
+watching = 5
+branches = 54
 
 [[repo]]
 url = "https://github.com/airgap-it/tezos-matrix"
+last_commit = "6e83df9c1b0aadb6df74895696843345589767ad"
+last_commit_time = "2022-03-21T14:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 3
+branches = 130
+commits = 10
+watching = 5
+stars = 7
 
 [[repo]]
 url = "https://github.com/airgap-it/tezos-rust-sdk"
+last_commit = "fcce63f243d98f946c2d2da0da0dcbc40f9524ca"
+last_commit_time = "2022-07-27T06:44"
+status = "200"
+
+[repo.stats]
+branches = 53
+tag_count = 0
+commits = 17
+forks = 0
+watching = 6
+stars = 4
 
 [[repo]]
 url = "https://github.com/airgap-it/tezos-standards"
+last_commit = "f864d59dedbf76aabc508d71ca088985c590c507"
+last_commit_time = "2020-01-03T16:41"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 2
+tag_count = 0
+commits = 1
+watching = 6
+branches = 11
 
 [[repo]]
 url = "https://github.com/airgap-it/tezos-swift-sdk"
+last_commit = "fd6f2e6ca2e9145312f35de39e6bb39329ee502c"
+last_commit_time = "2022-08-04T08:19"
+status = "200"
+
+[repo.stats]
+commits = 16
+branches = 38
+watching = 5
+stars = 1
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/tezos_assets"
+last_commit = "bb4efb1677c2ef6377c7abf61313a54d6d5896fc"
+last_commit_time = "2022-04-28T13:56"
+status = "200"
+
+[repo.stats]
+watching = 5
+tag_count = 0
+commits = 1
+forks = 1
+branches = 58
+stars = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/tz-wrapped-backend"
+last_commit = "22a707466a6829ffadc57ef045d5173c4dba6714"
+last_commit_time = "2022-03-18T07:09"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 1
+branches = 157
+commits = 2
+watching = 5
 
 [[repo]]
 url = "https://github.com/airgap-it/tz-wrapped-frontend"
+last_commit = "d19d9ea1d7bad0fe9550f58722fbe34ea965ba92"
+last_commit_time = "2022-04-08T14:04"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 2
+watching = 5
+commits = 2
+tag_count = 0
+branches = 160
 
 [[repo]]
 url = "https://github.com/airgap-it/tzwrapped-fa2-smart-contract"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 8
+watching = 5
+commits = 1
+forks = 2
 
 [[repo]]
 url = "https://github.com/airgap-it/tzwrapped-generic-multisig"
+last_commit = "b07a6c39b0a68e248e56f9ce474c12930630f202"
+last_commit_time = "2022-03-14T14:42"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 5
+branches = 7
+forks = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/airgap-it/ur-registry-xtz"
+last_commit = "334b1718c70c56badd0eb5da813a50a009009234"
+last_commit_time = "2022-06-07T20:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 23
+watching = 5
+stars = 0
+forks = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/airgap-it/woocommerce-beacon"
+last_commit = "245500dcafe1cc9dfd28a4d614641af97fde1463"
+last_commit_time = "2022-03-20T15:07"
+status = "200"
+
+[repo.stats]
+branches = 12
+watching = 5
+stars = 0
+tag_count = 0
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/airgap-it/zaturn-android-sdk"
+last_commit = "4064349d02488c55d6ce7ecfdb51f39357dbe6f1"
+last_commit_time = "2022-03-10T13:11"
+status = "200"
+
+[repo.stats]
+branches = 42
+commits = 2
+tag_count = 0
+watching = 5
+forks = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/airgap-it/zaturn-ios-sdk"
+last_commit = "86b2bf3933f5d7c54d6c44285f39ddea482ccf9d"
+last_commit_time = "2021-12-02T10:07"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 2
+branches = 45
+forks = 2
+watching = 5

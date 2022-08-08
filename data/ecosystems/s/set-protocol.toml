@@ -1,121 +1,526 @@
-# Ecosystem Level Information
 title = "Set Protocol"
-
+toml_path = "data/ecosystems/s/set-protocol.toml"
+github_organizations = ["https://github.com/SetProtocol"]
 sub_ecosystems = ["Index Coop"]
 
-github_organizations = ["https://github.com/SetProtocol"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/SetProtocol/aave-fork"
+last_commit = "eea6d38f243b909fc3cf82a581c45b8bc3d2390e"
+last_commit_time = "2020-12-03T17:23"
+status = "200"
+
+[repo.stats]
+commits = 5
+branches = 0
+forks = 1
+watching = 5
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/SetProtocol/awesome-set-protocol"
+last_commit = "26393dbba6b0959e4e5561c9b27631edcd154bfa"
+last_commit_time = "2020-04-22T15:51"
+status = "200"
+
+[repo.stats]
+stars = 16
+forks = 2
+branches = 5
+tag_count = 0
+watching = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/SetProtocol/developer-onboarding"
+last_commit = "cba48c23c12db2ee0ba2d0b60029e3e211568af1"
+last_commit_time = "2022-02-17T19:58"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 6
+branches = 10
+stars = 1
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/SetProtocol/IIPS"
+last_commit = "08a54444e06e5bdc4d1f0f56360f506d7b8c3c79"
+last_commit_time = "2021-04-29T17:47"
+status = "200"
+
+[repo.stats]
+forks = 9
+stars = 3
+branches = 182
+watching = 5
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/SetProtocol/index-coop"
+last_commit = "d3267e84723f1c57dff64ed8ae0b01d0f350f147"
+last_commit_time = "2020-11-03T17:55"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+commits = 1
+watching = 6
+stars = 14
+branches = 4
 
 [[repo]]
 url = "https://github.com/SetProtocol/index-coop-analytics"
+last_commit = "d9080282e225660e3695301cae71b61c1ee6d306"
+last_commit_time = "2022-03-28T16:19"
+status = "200"
+
+[repo.stats]
+branches = 374
+tag_count = 0
+forks = 19
+commits = 8
+watching = 9
+stars = 19
 
 [[repo]]
 url = "https://github.com/SetProtocol/index-coop-contracts"
+last_commit = "c4bccb2f476e86b74d6c0bfbcaabec0cf8297265"
+last_commit_time = "2021-04-01T00:25"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+watching = 5
+branches = 28
+commits = 9
+forks = 3
 
 [[repo]]
 url = "https://github.com/SetProtocol/index-coop-contracts-legacy"
+last_commit = "c4bccb2f476e86b74d6c0bfbcaabec0cf8297265"
+last_commit_time = "2021-04-01T00:25"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+commits = 9
+watching = 5
+forks = 3
+branches = 28
 
 [[repo]]
 url = "https://github.com/SetProtocol/index-coop-smart-contracts"
+last_commit = "19d09e999dd93f75652a1993368f927029268103"
+last_commit_time = "2022-07-29T02:01"
+status = "200"
+
+[repo.stats]
+branches = 98
+tag_count = 0
+commits = 20
+forks = 30
+watching = 10
+stars = 48
 
 [[repo]]
 url = "https://github.com/SetProtocol/index-deployments"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 0
+branches = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/SetProtocol/index-rebalance-utils"
+last_commit = "4f86ccfb988ef72bcb9edd82f719ce703edb27f2"
+last_commit_time = "2022-02-13T21:17"
+status = "200"
+
+[repo.stats]
+watching = 7
+forks = 7
+commits = 4
+stars = 8
+tag_count = 0
+branches = 23
 
 [[repo]]
 url = "https://github.com/SetProtocol/index-ui"
+last_commit = "7194fafdaa525993d45af113fb05f0e59e3e38f4"
+last_commit_time = "2022-02-23T21:32"
+status = "200"
+
+[repo.stats]
+branches = 684
+forks = 53
+tag_count = 0
+stars = 52
+watching = 10
+commits = 7
 
 [[repo]]
 url = "https://github.com/SetProtocol/institutions.indexcoop.github.io"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+commits = 0
+forks = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/SetProtocol/ITIPS"
+last_commit = "2c0882db63c98a62abc638c990dd5a2b6f742a11"
+last_commit_time = "2021-10-26T17:12"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 1
+watching = 7
+branches = 28
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/SetProtocol/matic-exchange-tokenlist"
+last_commit = "801efbabb1ef95a354f9e6f0ea0bb2b8b70a26ac"
+last_commit_time = "2021-09-23T06:51"
+status = "200"
+
+[repo.stats]
+branches = 2
+watching = 5
+forks = 0
+commits = 1
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/SetProtocol/ruby-eth"
+last_commit = "8698c60dbf502bf9f3812587d61ad16c415c7c9f"
+last_commit_time = "2019-09-09T23:53"
+status = "200"
+
+[repo.stats]
+branches = 132
+forks = 100
+stars = 0
+commits = 6
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-protocol-contract-utils"
+last_commit = "629ff7bbe7eb08c36b955cc41be386dda0492ea0"
+last_commit_time = "2020-05-21T00:03"
+status = "200"
+
+[repo.stats]
+commits = 16
+branches = 33
+forks = 1
+watching = 5
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-protocol-contracts"
+status = "200"
+
+[repo.stats]
+commits = 30
+forks = 65
+tag_count = 0
+stars = 206
+branches = 811
+watching = 21
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-protocol-oracles"
+last_commit = "ad58690762ee2930ff86b465f56f12ac3920e9fa"
+last_commit_time = "2021-02-27T06:12"
+status = "200"
+
+[repo.stats]
+forks = 2
+commits = 16
+branches = 68
+watching = 7
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-protocol-strategies"
+last_commit = "0dd35abd235b85e09802ba5b0d9717d3c085bc86"
+last_commit_time = "2020-07-02T19:20"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+stars = 27
+watching = 7
+branches = 469
+commits = 18
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-protocol-utils"
+last_commit = "1872ba118aea975cd82b8549a4a8f23094403a6b"
+last_commit_time = "2020-05-27T04:45"
+status = "200"
+
+[repo.stats]
+branches = 231
+watching = 5
+forks = 2
+stars = 1
+tag_count = 0
+commits = 16
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-protocol-v2"
+last_commit = "53288a3a05fa7316ddb145ea9f06a275074406ed"
+last_commit_time = "2022-05-23T17:56"
+status = "200"
+
+[repo.stats]
+branches = 310
+forks = 63
+tag_count = 0
+commits = 56
+stars = 84
+watching = 7
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-protocol-v2-contracts"
+last_commit = "45efefa435d6ba460cd37f7c2a9975bf0b6bfe89"
+last_commit_time = "2021-03-31T23:21"
+status = "200"
+
+[repo.stats]
+stars = 18
+tag_count = 0
+watching = 7
+commits = 3
+forks = 26
+branches = 57
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-protocol-v2-contracts-legacy"
+last_commit = "45efefa435d6ba460cd37f7c2a9975bf0b6bfe89"
+last_commit_time = "2021-03-31T23:21"
+status = "200"
+
+[repo.stats]
+watching = 7
+stars = 18
+branches = 57
+tag_count = 0
+commits = 3
+forks = 26
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-protocol-v2-subgraph"
+last_commit = "613f066b748e5abe9de4ce91a2a3329e979c6a24"
+last_commit_time = "2022-05-18T18:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+forks = 5
+stars = 1
+branches = 26
+watching = 0
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-protocol-viewers"
+last_commit = "a61b03b867c7c62bf4b1723759d8dd449a00b0c0"
+last_commit_time = "2020-05-13T00:03"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 17
+stars = 2
+branches = 57
+forks = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-react-boilerplate"
+last_commit = "8a84dcbdcadf1bf91f9c3fd16684c188d39c05c9"
+last_commit_time = "2018-10-06T21:47"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 5
+branches = 8
+tag_count = 0
+forks = 4
+watching = 9
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-rebalancer-boilerplate"
+last_commit = "db5fbcb024de7cca9ae5e415001b184edd98991e"
+last_commit_time = "2020-02-21T04:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 25
+stars = 1
+watching = 4
+forks = 2
+branches = 2
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-v2"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+forks = 0
+stars = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-v2-strategies"
+last_commit = "49fe0ce05cde77561cb22e76d8fd812d9ac71daf"
+last_commit_time = "2022-05-26T15:44"
+status = "200"
+
+[repo.stats]
+commits = 17
+forks = 0
+stars = 8
+watching = 5
+branches = 70
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/SetProtocol/set-v2-strategies-deployments"
+last_commit = "74597d36223792e6e57e1e413cf4f0b65b6b5610"
+last_commit_time = "2022-06-01T14:48"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 5
+forks = 4
+tag_count = 0
+branches = 75
+commits = 18
 
 [[repo]]
 url = "https://github.com/SetProtocol/set.js"
+last_commit = "ca30cc8876ece7a1c96bb8fbe41e3f77da6f5df9"
+last_commit_time = "2022-06-01T21:53"
+status = "200"
+
+[repo.stats]
+forks = 10
+watching = 7
+stars = 27
+commits = 25
+tag_count = 0
+branches = 298
 
 [[repo]]
 url = "https://github.com/SetProtocol/setprotocol.js"
+last_commit = "40acd821b26cc3e47fbbbcbb8a52c68eedab1241"
+last_commit_time = "2021-01-26T21:03"
+status = "200"
+
+[repo.stats]
+watching = 7
+commits = 26
+forks = 7
+branches = 777
+stars = 57
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/SetProtocol/setzer"
+last_commit = "b2f6ae8c7397917d8edf3bd2d3f9a3497cf443f5"
+last_commit_time = "2018-09-28T15:39"
+status = "200"
+
+[repo.stats]
+commits = 4
+tag_count = 0
+forks = 19
+stars = 1
+branches = 210
+watching = 6
 
 [[repo]]
 url = "https://github.com/SetProtocol/solidity-coverage"
+last_commit = "0c2fe7d3bf64208f473bad1f57e4e14455abe141"
+last_commit_time = "2019-02-16T13:06"
+status = "200"
+
+[repo.stats]
+watching = 6
+commits = 1
+stars = 0
+forks = 213
+tag_count = 0
+branches = 550
 
 [[repo]]
 url = "https://github.com/SetProtocol/STIPS"
+last_commit = "b106e2f8b8c93b65a46652e693bb703efea3c4d3"
+last_commit_time = "2022-04-20T14:45"
+status = "200"
+
+[repo.stats]
+branches = 48
+commits = 12
+stars = 5
+tag_count = 0
+watching = 7
+forks = 1
 
 [[repo]]
 url = "https://github.com/SetProtocol/tenderly-fork"
+last_commit = "b3559c66bb24fbed5c86d991be639fd009ac0cb7"
+last_commit_time = "2021-11-05T16:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 8
+watching = 0
+commits = 2
+forks = 3
 
 [[repo]]
 url = "https://github.com/SetProtocol/uniswap-tokenlist"
+status = "200"
+
+[repo.stats]
+commits = 7
+tag_count = 0
+watching = 6
+stars = 19
+forks = 113
+branches = 469

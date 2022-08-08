@@ -1,22 +1,74 @@
-# Ecosystem Level Information
 title = "MOST Protocol"
-
+toml_path = "data/ecosystems/m/most-protocol.toml"
+github_organizations = ["https://github.com/MostProtocol"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/MostProtocol"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/MostProtocol/announcement"
+last_commit = "ccded4d44d2c71ebe6f1d7404ca52058c2ec6992"
+last_commit_time = "2020-08-10T04:02"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+watching = 1
+tag_count = 0
+forks = 0
+branches = 2
 
 [[repo]]
 url = "https://github.com/MostProtocol/assets"
+last_commit = "5172c22dad753ce90afc1895129dbd0c1b8b0f90"
+last_commit_time = "2020-09-01T04:49"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 0
+branches = 0
+commits = 17
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MostProtocol/most-audits"
+last_commit = "fe525d23758edfd7962c763ec8767e3c4239afe3"
+last_commit_time = "2020-08-12T03:32"
+status = "200"
+
+[repo.stats]
+branches = 3
+forks = 0
+watching = 1
+tag_count = 0
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/MostProtocol/most-core"
+last_commit = "6af817ad50bcbcb00965777fe0fdaa9d69179f86"
+last_commit_time = "2020-08-24T21:16"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 1
+forks = 0
+branches = 9
+commits = 1
 
 [[repo]]
 url = "https://github.com/MostProtocol/most-mbtc-core"
+last_commit = "d383394947f537020cbb29a9d328e84671305f28"
+last_commit_time = "2020-08-31T23:07"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+branches = 13
+forks = 0
+tag_count = 0
+watching = 1

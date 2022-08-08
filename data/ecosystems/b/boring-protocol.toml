@@ -1,67 +1,264 @@
-# Ecosystem Level Information
 title = "Boring Protocol"
-
+toml_path = "data/ecosystems/b/boring-protocol.toml"
+github_organizations = ["https://github.com/boringprotocol"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/boringprotocol"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/boringprotocol/bippity-boppity"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+forks = 0
+commits = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/boringprotocol/bopbot"
+last_commit = "4e377373d21f3dcb83a48f0ecbe73992c177f85a"
+last_commit_time = "2022-03-21T05:43"
+status = "200"
+
+[repo.stats]
+forks = 19
+stars = 0
+watching = 0
+branches = 55
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/boringprotocol/bops-ur-uncle"
+status = "404"
+
+[repo.stats]
+commits = 0
+branches = 0
+stars = 0
+tag_count = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/boringprotocol/boringprotocol.sol"
+last_commit = "064fd8c1439275addb171f9df5d34c499d8f9e6b"
+last_commit_time = "2021-07-14T01:37"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 1
+tag_count = 0
+stars = 1
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/boringprotocol/brand"
+status = "404"
+
+[repo.stats]
+forks = 0
+branches = 0
+commits = 0
+tag_count = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/boringprotocol/brand-assets"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+commits = 0
+stars = 0
+branches = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/boringprotocol/bridge_ui"
+status = "404"
+
+[repo.stats]
+commits = 0
+branches = 0
+forks = 0
+stars = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/boringprotocol/dvpn.sol"
+last_commit = "11266421a4a0f6f5225b0123a384659d1c61e197"
+last_commit_time = "2021-07-14T01:36"
+status = "200"
+
+[repo.stats]
+branches = 1
+stars = 0
+tag_count = 0
+commits = 1
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/boringprotocol/ecosystem"
+last_commit = "d3e4c4def3ba753c04b9ec22924737276d42373c"
+last_commit_time = "2021-07-07T20:15"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 536
+branches = 220
+tag_count = 0
+commits = 10
 
 [[repo]]
 url = "https://github.com/boringprotocol/everything-boring"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+branches = 0
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/boringprotocol/general"
+status = "404"
+
+[repo.stats]
+commits = 0
+tag_count = 0
+stars = 0
+watching = 0
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/boringprotocol/HIP"
+last_commit = "f70991c0a4e54b02e069e5b25f8d5646f8cb943e"
+last_commit_time = "2022-08-01T07:59"
+status = "200"
+
+[repo.stats]
+branches = 650
+stars = 0
+tag_count = 0
+forks = 319
+commits = 10
+watching = 0
 
 [[repo]]
 url = "https://github.com/boringprotocol/metaplex"
+last_commit = "884cccb88295d33f68414da37cad81b041313a6e"
+last_commit_time = "2021-06-28T17:19"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 0
+tag_count = 0
+stars = 0
+branches = 145
+commits = 20
 
 [[repo]]
 url = "https://github.com/boringprotocol/motherbored.limited"
+status = "404"
+
+[repo.stats]
+watching = 0
+forks = 0
+branches = 0
+tag_count = 0
+stars = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/boringprotocol/roadmap"
+status = "404"
+
+[repo.stats]
+commits = 0
+forks = 0
+branches = 0
+tag_count = 0
+stars = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/boringprotocol/serum-ts"
+last_commit = "6b852ed1e5def856cc29955b0b07816c4633ae6b"
+last_commit_time = "2021-06-02T16:57"
+status = "200"
+
+[repo.stats]
+commits = 31
+branches = 387
+watching = 0
+forks = 215
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/boringprotocol/solana-drop"
+last_commit = "20a0a79bfb43eb57a90d58467311889a2b38770a"
+last_commit_time = "2021-08-11T16:09"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 4
+tag_count = 0
+forks = 1
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/boringprotocol/spl-token-wallet"
+last_commit = "832887703a9b153fdd51d7f66f4e10a8ee4b4dfb"
+last_commit_time = "2021-08-08T20:06"
+status = "200"
+
+[repo.stats]
+commits = 32
+forks = 351
+watching = 0
+tag_count = 0
+branches = 276
+stars = 1
 
 [[repo]]
 url = "https://github.com/boringprotocol/token-list"
+last_commit = "830573d4aeb5efbe787d7a99c009f4216fd423c7"
+last_commit_time = "2022-04-15T09:57"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 0
+stars = 4
+commits = 5
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/boringprotocol/website"
+status = "404"
+
+[repo.stats]
+forks = 0
+branches = 0
+tag_count = 0
+commits = 0
+watching = 0
+stars = 0

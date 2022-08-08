@@ -1,16 +1,44 @@
-# Ecosystem Level Information
 title = "Orchid Protocol"
-
+toml_path = "data/ecosystems/o/orchid-protocol.toml"
+github_organizations = ["https://github.com/OrchidTechnologies"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/OrchidTechnologies"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/OrchidTechnologies/homebrew-tap"
+last_commit = "c4c40a4b2823fc12b33e8a06626031fe87f91dc0"
+last_commit_time = "2020-03-21T00:27"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 3
+forks = 4
+commits = 1
+tag_count = 0
+branches = 4
 
 [[repo]]
 url = "https://github.com/OrchidTechnologies/orchid"
+status = "200"
+
+[repo.stats]
+watching = 59
+stars = 569
+forks = 90
+branches = 0
+commits = 33
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/OrchidTechnologies/quickjs"
+last_commit = "c389f9594e83776ffb86410016959a7676728bf9"
+last_commit_time = "2020-07-24T21:25"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 20
+commits = 1
+forks = 449
+tag_count = 0
+stars = 2

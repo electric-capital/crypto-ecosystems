@@ -1,190 +1,832 @@
-# Ecosystem Level Information
 title = "Electra"
-
+toml_path = "data/ecosystems/e/electra.toml"
+github_organizations = ["https://github.com/Electra-project"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Electra-project"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Electra-project/athena"
+last_commit = "4555d323f0ecf343d301197e61e2c064431310c4"
+last_commit_time = "2018-04-04T15:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+commits = 1
+watching = 4
+stars = 1
+branches = 9
 
 [[repo]]
 url = "https://github.com/Electra-project/batm_public"
+last_commit = "0ac5d91dd2d15eff378b1bd22b01ffa99293577d"
+last_commit_time = "2018-07-30T17:37"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 2
+branches = 501
+forks = 224
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/Electra-project/blockbook"
+last_commit = "7430fa6051f27069088ca2547cdf26b9ffcc7b8d"
+last_commit_time = "2019-08-21T09:25"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 551
+branches = 0
+tag_count = 0
+commits = 11
 
 [[repo]]
 url = "https://github.com/Electra-project/coins"
+last_commit = "5628682cb188053e52bd86ec39722f944716e94c"
+last_commit_time = "2019-08-24T15:42"
+status = "200"
+
+[repo.stats]
+branches = 896
+commits = 2
+watching = 1
+stars = 0
+forks = 126
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/contribution-guidelines"
+last_commit = "4e5d6e433d769fc6fd71be6e9f3d325fb2377687"
+last_commit_time = "2018-06-24T12:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 1
+branches = 51
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/Electra-project/documents"
+last_commit = "5ec50b0b933a4b48cb327af1930c96700917d8e4"
+last_commit_time = "2018-01-15T09:18"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 12
+forks = 4
+tag_count = 0
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/Electra-project/electra"
+last_commit = "da0b23b15e6959733b1bdf329e6ba3e83611eea9"
+last_commit_time = "2018-09-27T09:18"
+status = "200"
+
+[repo.stats]
+forks = 33
+watching = 28
+branches = 101
+stars = 31
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-analytics"
+last_commit = "e6f8f472efca4bf701b0059d52fc28ec04c8ce33"
+last_commit_time = "2018-04-05T13:34"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 1
+tag_count = 0
+watching = 4
+stars = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/Electra-project/Electra-Android"
+last_commit = "d5f59d9af1bf1f55b09959de8959c9bd3a0250c2"
+last_commit_time = "2021-01-05T09:43"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 5
+tag_count = 0
+branches = 224
+commits = 5
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-api"
+last_commit = "235bcd4edf95bc7667e4f007b8a9656fb039d75d"
+last_commit_time = "2018-10-03T16:05"
+status = "200"
+
+[repo.stats]
+branches = 82
+commits = 1
+stars = 2
+forks = 5
+watching = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-api-doc"
+last_commit = "9a82b0a492a571da76486788a51a1fd1bf2ac75b"
+last_commit_time = "2018-06-25T12:03"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+watching = 1
+forks = 2
+stars = 0
+branches = 159
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-api-wip"
+last_commit = "7bf5f8e8ee10e7d7b2c5c9c97b582f410d5a0aed"
+last_commit_time = "2018-06-21T11:16"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 2
+watching = 3
+tag_count = 0
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-archive"
+last_commit = "da0b23b15e6959733b1bdf329e6ba3e83611eea9"
+last_commit_time = "2018-09-27T09:18"
+status = "200"
+
+[repo.stats]
+stars = 31
+tag_count = 0
+commits = 4
+forks = 33
+watching = 28
+branches = 101
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-assets"
+last_commit = "05a1fcd71b70febd2ff8eb2a8bfcf69b6d4c75d9"
+last_commit_time = "2018-06-20T11:36"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 8
+tag_count = 0
+forks = 3
+stars = 1
+watching = 5
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-auth"
+last_commit = "ea634ced554c9b590a37f2884c38a91649da06b4"
+last_commit_time = "2018-06-23T09:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 3
+commits = 1
+branches = 117
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-bay"
+status = "404"
+
+[repo.stats]
+forks = 0
+branches = 0
+watching = 0
+stars = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/Electra-Bootstrap"
+last_commit = "8db8eeac44c81867558ded6c4b610dfe10475231"
+last_commit_time = "2019-08-21T09:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 16
+watching = 1
+forks = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-cli"
+last_commit = "29afd41f9cbd8fbd1749a6d3ab72822344f79d65"
+last_commit_time = "2018-11-10T15:34"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 139
+forks = 2
+watching = 6
+commits = 3
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-coffee"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 0
+watching = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-core"
+last_commit = "20d93bbf0ed0267e126499b2d633e6b968aa3516"
+last_commit_time = "2020-12-04T07:11"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+forks = 15
+commits = 4
+branches = 598
+stars = 14
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-design"
+last_commit = "d95cb67c5874e8e2ebd3502607181b4ac8310496"
+last_commit_time = "2018-03-04T19:14"
+status = "200"
+
+[repo.stats]
+branches = 4
+commits = 1
+tag_count = 0
+forks = 1
+stars = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-desktop"
+last_commit = "e255139fe339602d71a4dc8be2a6d87ab61d2b3f"
+last_commit_time = "2018-09-26T11:39"
+status = "200"
+
+[repo.stats]
+commits = 5
+stars = 18
+tag_count = 0
+watching = 14
+branches = 690
+forks = 9
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-desktop-test"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+forks = 0
+stars = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-docker"
+last_commit = "b78a9d264455ecddba936ca44d6b6621a5c94678"
+last_commit_time = "2018-01-24T08:37"
+status = "200"
+
+[repo.stats]
+branches = 1
+commits = 1
+tag_count = 0
+stars = 2
+forks = 2
+watching = 3
 
 [[repo]]
 url = "https://github.com/Electra-project/Electra-Extension"
+last_commit = "1ea055936a53fb04f260f8f6a58f05e06fad9669"
+last_commit_time = "2020-01-28T08:36"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 2
+stars = 0
+watching = 1
+tag_count = 0
+branches = 13
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-improvement-proposals"
+last_commit = "1fde2481e199f3c2dd4167652fde4dfc9d80df80"
+last_commit_time = "2018-02-27T00:42"
+status = "200"
+
+[repo.stats]
+watching = 5
+tag_count = 0
+forks = 1
+stars = 0
+branches = 12
+commits = 1
 
 [[repo]]
 url = "https://github.com/Electra-project/Electra-ios"
+last_commit = "64ff42b328b85e085f6a13fcd665c60c25df0ea3"
+last_commit_time = "2020-12-04T07:23"
+status = "200"
+
+[repo.stats]
+branches = 152
+watching = 2
+forks = 5
+tag_count = 0
+commits = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-js"
+last_commit = "5832a43ed2e44cfab5da80c82d3ba5d5bd5aea81"
+last_commit_time = "2018-09-25T09:15"
+status = "200"
+
+[repo.stats]
+branches = 732
+tag_count = 0
+forks = 6
+commits = 5
+watching = 5
+stars = 9
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-js-example-hard"
+last_commit = "8f059a54bef69e08d8212ebea6e05db03188d18c"
+last_commit_time = "2018-05-23T22:36"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 3
+stars = 0
+tag_count = 0
+watching = 3
+branches = 2
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-js-test"
+last_commit = "c0d94413f298c66067a6ef04fdd3574ffc60523f"
+last_commit_time = "2018-05-30T17:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 2
+branches = 2
+commits = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/Electra-project/Electra-Media-Kit"
+last_commit = "d516ea3ffb31ba1dd32d1f0787a485862b75941e"
+last_commit_time = "2020-06-27T19:48"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 91
+forks = 2
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-mobile"
+last_commit = "e5a28b83b31dc097126b1cbed4beb69c2ae3a975"
+last_commit_time = "2018-02-25T23:51"
+status = "200"
+
+[repo.stats]
+stars = 5
+forks = 3
+commits = 3
+watching = 8
+tag_count = 0
+branches = 18
 
 [[repo]]
 url = "https://github.com/Electra-project/Electra-Open-Paper"
+last_commit = "a86b0e8ee085f24b0850613095c35f3377f7a4df"
+last_commit_time = "2018-05-31T21:59"
+status = "200"
+
+[repo.stats]
+forks = 5
+watching = 7
+stars = 3
+tag_count = 0
+branches = 33
+commits = 4
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-pay"
+status = "404"
+
+[repo.stats]
+commits = 0
+branches = 0
+forks = 0
+tag_count = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/Electra-Social-Pay"
+last_commit = "d4b5d99cb3444be6fdaae2db383488ac8cc148fd"
+last_commit_time = "2018-06-23T09:18"
+status = "200"
+
+[repo.stats]
+branches = 19
+forks = 4
+watching = 7
+stars = 6
+commits = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-socialpay"
+last_commit = "d4b5d99cb3444be6fdaae2db383488ac8cc148fd"
+last_commit_time = "2018-06-23T09:18"
+status = "200"
+
+[repo.stats]
+branches = 19
+forks = 4
+stars = 6
+watching = 7
+commits = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-styleguide"
+last_commit = "d72511779af696e8ca587fb37af1637ff3a7b84e"
+last_commit_time = "2018-06-03T23:25"
+status = "200"
+
+[repo.stats]
+watching = 5
+branches = 57
+tag_count = 0
+stars = 3
+commits = 3
+forks = 1
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-tools"
+last_commit = "77d3e34cd5baac6efb056c8aaed44add651e984f"
+last_commit_time = "2018-06-21T09:31"
+status = "200"
+
+[repo.stats]
+branches = 26
+watching = 1
+stars = 0
+tag_count = 0
+commits = 1
+forks = 2
 
 [[repo]]
 url = "https://github.com/Electra-project/electra-universe"
+last_commit = "4962b2302dc612e4eceac11df03c009dc7574351"
+last_commit_time = "2018-04-18T13:13"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 1
+tag_count = 0
+forks = 2
+watching = 5
+branches = 1
 
 [[repo]]
 url = "https://github.com/Electra-project/Electra-Whitepaper"
+last_commit = "7ea02f96eba11f151561e6b28dfa572e4a38f983"
+last_commit_time = "2019-05-07T13:51"
+status = "200"
+
+[repo.stats]
+forks = 1
+commits = 1
+branches = 5
+tag_count = 0
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/Electrapay"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+stars = 0
+commits = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electrapay-api"
+last_commit = "74ec01c2637ce00987199f71b5f93a50def23ded"
+last_commit_time = "2020-10-04T19:23"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 0
+watching = 0
+branches = 173
+tag_count = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/Electra-project/electrapay-api-doc"
+last_commit = "fe51ad325b5115010172fc32279b04ac87f5ed03"
+last_commit_time = "2018-09-03T20:23"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+stars = 0
+branches = 27
+forks = 3
+commits = 5
 
 [[repo]]
 url = "https://github.com/Electra-project/electrapay-js"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+forks = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/Electrapay-Magento"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+branches = 0
+commits = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/ElectraPay-point-of-sale"
+status = "404"
+
+[repo.stats]
+stars = 0
+commits = 0
+watching = 0
+branches = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electrapay-service"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+tag_count = 0
+branches = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electrapay-settlement-service"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+branches = 0
+commits = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electrapay-web"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+stars = 0
+branches = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electrapay-woocommerce-plugin"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+stars = 0
+forks = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/electrumx"
+last_commit = "1211efbfcb01d65e3edd8e754b4f0eba2cc39d25"
+last_commit_time = "2019-08-22T12:12"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 1
+forks = 798
+stars = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/explorer"
+last_commit = "edbf6e285b8d58896ae2609c8d2df340adc6a483"
+last_commit_time = "2020-12-04T07:24"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+commits = 2
+tag_count = 0
+branches = 302
+forks = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/keepkey-firmware"
+last_commit = "eccdcbccbdd3f069eb721da812a30a20c8585b5c"
+last_commit_time = "2019-03-17T19:02"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 0
+watching = 2
+forks = 157
+tag_count = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/Electra-project/ledger-app-btc"
+last_commit = "8597cbc1938f795db235753c8d138524b9083f2c"
+last_commit_time = "2019-11-06T19:09"
+status = "200"
+
+[repo.stats]
+commits = 8
+branches = 166
+forks = 185
+stars = 0
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/ledger-app-eca"
+last_commit = "73c9668a5f1b5f58c0226473f36a82d1401c4381"
+last_commit_time = "2019-09-30T01:14"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 1
+stars = 0
+tag_count = 0
+branches = 166
+commits = 2
 
 [[repo]]
 url = "https://github.com/Electra-project/ledger-live-common"
+last_commit = "f35f52e74d94f32801955bf96418a3bc11af8b11"
+last_commit_time = "2019-10-31T16:27"
+status = "200"
+
+[repo.stats]
+forks = 199
+branches = 0
+watching = 1
+stars = 0
+commits = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/nist5"
+last_commit = "2205b0812d5f936ad3ec863053a1ce44248ea70c"
+last_commit_time = "2018-06-27T14:56"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 25
+forks = 1
+stars = 1
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/nist5_hash"
+last_commit = "e767bdecb188cfea8d41e6cf047f0f7cef00e4ee"
+last_commit_time = "2019-03-17T20:55"
+status = "200"
+
+[repo.stats]
+forks = 3
+branches = 5
+watching = 1
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/Electra-project/notification-service"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 0
+watching = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Electra-project/storage"
+last_commit = "20d6612fdb24e8eeb7db42e3b7d43c578f440e55"
+last_commit_time = "2018-06-05T06:10"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 1
+stars = 0
+forks = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/Electra-project/translectra"
+last_commit = "442dbc398ebf0b152f749829f6338ee87cabbe91"
+last_commit_time = "2018-05-31T08:18"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 3
+tag_count = 0
+branches = 465
+forks = 7
+stars = 12

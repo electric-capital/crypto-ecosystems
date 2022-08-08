@@ -1,166 +1,744 @@
-# Ecosystem Level Information
 title = "FIO Protocol"
-
+toml_path = "data/ecosystems/f/fio-protocol.toml"
+github_organizations = ["https://github.com/fioprotocol"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/fioprotocol"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/fioprotocol/appbase"
+last_commit = "2ba1122047f40f5b0f08c9da59ae62099d031252"
+last_commit_time = "2020-01-10T02:26"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 35
+branches = 2
+commits = 2
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/berkeley-softfloat-3"
+last_commit = "94dac6e56c980a99e3e38bdff89a94600de0066d"
+last_commit_time = "2019-05-13T18:45"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 92
+branches = 39
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/fioprotocol/bp-tools"
+last_commit = "d4f7d070204b18b29056d211d8030d890ef11562"
+last_commit_time = "2020-11-06T23:09"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 6
+watching = 32
+commits = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/chainbase"
+last_commit = "5f2fd0c64819912e3e3d45202b64ae7db34d5c97"
+last_commit_time = "2020-03-06T17:56"
+status = "200"
+
+[repo.stats]
+commits = 26
+watching = 1
+branches = 220
+stars = 0
+tag_count = 0
+forks = 100
 
 [[repo]]
 url = "https://github.com/fioprotocol/edge-currency-accountbased"
+last_commit = "0a1eedd0b6cbfae325d35ff4f350b50aa4f4fdbc"
+last_commit_time = "2020-06-05T18:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 69
+branches = 862
+watching = 2
+forks = 30
 
 [[repo]]
 url = "https://github.com/fioprotocol/edge-react-gui"
+last_commit = "d756d67fb346cdaeda0521a696c5256b2d39c185"
+last_commit_time = "2019-11-17T22:12"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 119
+watching = 2
+forks = 239
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fc"
+last_commit = "9615b040e906c432ffdfb956ad067191fe3a58d0"
+last_commit_time = "2019-04-29T18:20"
+status = "200"
+
+[repo.stats]
+watching = 34
+branches = 357
+forks = 1
+commits = 6
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio"
+last_commit = "533ed4695122456a3c69f96eae81a34ac5b1e1f7"
+last_commit_time = "2022-04-08T16:47"
+status = "200"
+
+[repo.stats]
+stars = 46
+forks = 12
+commits = 72
+watching = 27
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-dapp"
+last_commit = "68d419f34dec9f373a3d10e45d409fbde84024d3"
+last_commit_time = "2022-08-04T18:12"
+status = "200"
+
+[repo.stats]
+watching = 9
+branches = 0
+stars = 2
+forks = 2
+commits = 25
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-dashboard"
+last_commit = "68d419f34dec9f373a3d10e45d409fbde84024d3"
+last_commit_time = "2022-08-04T18:12"
+status = "200"
+
+[repo.stats]
+forks = 2
+commits = 25
+watching = 9
+branches = 0
+tag_count = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-dashboard-tools"
+last_commit = "3812f8da996a8ec49fb2b32748f1e94c997ddb72"
+last_commit_time = "2021-10-08T19:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+stars = 0
+watching = 7
+forks = 1
+branches = 7
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-devhub"
+last_commit = "ca029c3368afddb7594f5d506d297b9fe40b15d4"
+last_commit_time = "2022-08-04T01:40"
+status = "200"
+
+[repo.stats]
+forks = 12
+branches = 674
+commits = 9
+tag_count = 0
+stars = 7
+watching = 11
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-docker"
+last_commit = "9047831b0d9ecd1e3e1767e7837672758508ad4a"
+last_commit_time = "2022-07-11T15:00"
+status = "200"
+
+[repo.stats]
+branches = 25
+tag_count = 0
+commits = 2
+stars = 2
+forks = 3
+watching = 1
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-go"
+last_commit = "1c1dd48b9a713a4eb2d7c0e7081e2622ce1b78a4"
+last_commit_time = "2022-06-17T14:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 6
+stars = 7
+branches = 365
+watching = 29
+commits = 7
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-registrations"
+last_commit = "9164479294dccb650654001f0ac5bafe2ab220d1"
+last_commit_time = "2022-05-27T15:54"
+status = "200"
+
+[repo.stats]
+commits = 16
+stars = 3
+tag_count = 0
+forks = 6
+branches = 359
+watching = 24
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-staking-service"
+last_commit = "4fb64567afd324e34403f24c0cc18ec728cfb065"
+last_commit_time = "2022-01-19T22:00"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 6
+branches = 4
+commits = 2
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-staking-service-backend"
+last_commit = "3e2ddc2a7bf4f71e70bc8bc7044ffc4af68714a6"
+last_commit_time = "2022-05-11T17:00"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 7
+branches = 17
+tag_count = 0
+commits = 3
+forks = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-supply"
+last_commit = "84ac2d3c7d78dbca9cf2a06b5b83b21762b9bc83"
+last_commit_time = "2021-08-19T23:43"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+watching = 2
+branches = 10
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-website"
+last_commit = "49a1642ea1c401e8ba3d90c32be5b43a7e732e8c"
+last_commit_time = "2021-04-03T00:54"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+forks = 6
+stars = 0
+branches = 70
+watching = 3
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-wrap-image"
+last_commit = "aa7a6693184f4aaa0bf41b4aab376d8d4e53ee49"
+last_commit_time = "2021-12-08T23:08"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+branches = 13
+watching = 7
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-wrap-proxy"
+last_commit = "c9fd65a6a0f7ea7f48656af5d493036dda15fe48"
+last_commit_time = "2022-05-26T15:33"
+status = "200"
+
+[repo.stats]
+branches = 6
+commits = 1
+forks = 1
+watching = 7
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-wrap-status-backend"
+last_commit = "3e2ddc2a7bf4f71e70bc8bc7044ffc4af68714a6"
+last_commit_time = "2022-05-11T17:00"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 17
+tag_count = 0
+commits = 3
+watching = 7
+stars = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-wrap-status-page"
+last_commit = "607c008e5159c09a1e1b2b5ca87c0ef2070dfbdc"
+last_commit_time = "2022-07-14T18:37"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+watching = 7
+forks = 0
+stars = 0
+branches = 36
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio-wrap-uri"
+last_commit = "4eca6e7a04eb45d875ac7a8ca55f131844f15ce1"
+last_commit_time = "2022-03-02T17:19"
+status = "200"
+
+[repo.stats]
+branches = 15
+commits = 2
+forks = 1
+stars = 0
+tag_count = 0
+watching = 7
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.cdt"
+last_commit = "2c9b0124e3f7ec0fc8365cd5ee449a2246e7efe8"
+last_commit_time = "2020-02-29T17:00"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 524
+commits = 6
+forks = 2
+watching = 35
+stars = 1
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.contracts"
+last_commit = "5db563ab3306b0cfe114a3bceb8dc8fa1cef119d"
+last_commit_time = "2022-05-24T17:45"
+status = "200"
+
+[repo.stats]
+branches = 759
+tag_count = 0
+watching = 23
+stars = 12
+forks = 7
+commits = 61
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.devtools"
+last_commit = "e4e18101c9be79f8cfc188f57279f5458e72faa2"
+last_commit_time = "2022-04-07T22:48"
+status = "200"
+
+[repo.stats]
+forks = 4
+branches = 168
+stars = 3
+tag_count = 0
+commits = 27
+watching = 27
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.docker"
+last_commit = "9047831b0d9ecd1e3e1767e7837672758508ad4a"
+last_commit_time = "2022-07-11T15:00"
+status = "200"
+
+[repo.stats]
+branches = 25
+stars = 2
+forks = 3
+tag_count = 0
+commits = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.erc20"
+last_commit = "bd8d252b53fe4814e5d8a49e8c58a7426c2bc9b7"
+last_commit_time = "2022-08-03T17:19"
+status = "200"
+
+[repo.stats]
+branches = 77
+tag_count = 0
+commits = 10
+watching = 7
+stars = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.erc721"
+last_commit = "f45b508b243ac22b28783ec16426cc203aecf881"
+last_commit_time = "2022-08-01T17:23"
+status = "200"
+
+[repo.stats]
+watching = 7
+tag_count = 0
+forks = 1
+branches = 56
+stars = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.etl"
+last_commit = "509fb777064cad6b462766ba12e703f45dd8448e"
+last_commit_time = "2021-07-07T03:05"
+status = "200"
+
+[repo.stats]
+watching = 32
+forks = 1
+commits = 3
+tag_count = 0
+stars = 0
+branches = 87
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.health"
+last_commit = "7a9652c69cef072aa27a94baf89141babb7197e7"
+last_commit_time = "2020-11-18T00:12"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 31
+branches = 33
+stars = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.localsign"
+last_commit = "acb2e7dfb4296503eb735d5e26b6783369eb4acc"
+last_commit_time = "2021-12-16T17:09"
+status = "200"
+
+[repo.stats]
+branches = 18
+forks = 1
+tag_count = 0
+commits = 2
+stars = 0
+watching = 33
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.mainnet"
+last_commit = "0d1f35b0644ddae4740de87af9140a149a046cf6"
+last_commit_time = "2022-07-20T20:14"
+status = "200"
+
+[repo.stats]
+stars = 13
+tag_count = 0
+branches = 231
+forks = 14
+watching = 28
+commits = 23
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.oracle"
+last_commit = "b744efb339ba7663f0a5d7419f7f8593d01c11c2"
+last_commit_time = "2022-08-05T13:56"
+status = "200"
+
+[repo.stats]
+watching = 9
+forks = 5
+stars = 1
+tag_count = 0
+commits = 3
+branches = 137
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.package"
+last_commit = "e87e878933cb07f19e707d357e8c53af964eee00"
+last_commit_time = "2021-10-19T16:27"
+status = "200"
+
+[repo.stats]
+watching = 33
+branches = 31
+stars = 1
+commits = 6
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.ready"
+last_commit = "fac39a5dcf0d993475e0d917183e07e477eb9398"
+last_commit_time = "2020-04-02T21:31"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 31
+forks = 5
+branches = 13
+stars = 6
+commits = 2
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.start"
+last_commit = "473a07aec381b86eb609033be4bf13c2d527acc9"
+last_commit_time = "2020-04-02T21:53"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 3
+watching = 31
+branches = 76
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.test"
+last_commit = "2f678353cc8017ef4e4b4cd209ef036f2af79c8a"
+last_commit_time = "2022-05-30T16:02"
+status = "200"
+
+[repo.stats]
+branches = 654
+tag_count = 0
+commits = 39
+stars = 2
+forks = 1
+watching = 26
 
 [[repo]]
 url = "https://github.com/fioprotocol/fio.validate"
+last_commit = "1fb43a6373e0587ae6e45d75e328c52650fc495f"
+last_commit_time = "2020-03-19T22:15"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+watching = 7
+forks = 0
+branches = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fiojs"
+last_commit = "10848a02983a4b5b7f185c90bc96fb78e9ab0a6f"
+last_commit_time = "2020-10-06T17:39"
+status = "200"
+
+[repo.stats]
+forks = 8
+watching = 30
+branches = 57
+stars = 2
+commits = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fiojs-examples"
+last_commit = "6796ed5f2579d1f9d86e950120b8271fe6d0947b"
+last_commit_time = "2022-04-07T23:49"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+branches = 1
+forks = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fiosdk_ios"
+last_commit = "10d44356f9a8f292d437619a51365bb5cfc6626e"
+last_commit_time = "2020-03-25T15:20"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 10
+branches = 329
+tag_count = 0
+commits = 13
+stars = 1
 
 [[repo]]
 url = "https://github.com/fioprotocol/fiosdk_kotlin"
+last_commit = "fc9809d05b4c13d5493267055c0c167d8fac6249"
+last_commit_time = "2021-03-25T17:31"
+status = "200"
+
+[repo.stats]
+watching = 29
+tag_count = 0
+branches = 224
+commits = 14
+stars = 3
+forks = 6
 
 [[repo]]
 url = "https://github.com/fioprotocol/fiosdk_typescript"
+last_commit = "f787820bd268cece697e37d7d1381e0d6a88b826"
+last_commit_time = "2022-05-30T23:12"
+status = "200"
+
+[repo.stats]
+watching = 8
+branches = 435
+tag_count = 0
+forks = 14
+commits = 18
+stars = 9
 
 [[repo]]
 url = "https://github.com/fioprotocol/fiosdk_typescript-examples"
+last_commit = "e9e1bcc0faa7b8a0e13c4e9a7bb1519428243e03"
+last_commit_time = "2022-08-01T15:37"
+status = "200"
+
+[repo.stats]
+commits = 5
+branches = 65
+tag_count = 0
+forks = 0
+watching = 6
+stars = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/fiostore"
+last_commit = "0d195293cefbdca600518c4def926c55b957647b"
+last_commit_time = "2021-10-26T16:53"
+status = "200"
+
+[repo.stats]
+forks = 2
+commits = 1
+tag_count = 0
+branches = 15
+stars = 2
+watching = 33
 
 [[repo]]
 url = "https://github.com/fioprotocol/fips"
+last_commit = "3a3587be7d26f557970e280933034424374c5865"
+last_commit_time = "2022-06-08T13:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 19
+watching = 28
+commits = 8
+branches = 591
+stars = 21
 
 [[repo]]
 url = "https://github.com/fioprotocol/ledger-hw-app-fio"
+last_commit = "bd05ab7570fa3c1271c1e2aab75ddfef4ce7f2ad"
+last_commit_time = "2021-12-07T21:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 7
+stars = 0
+commits = 3
+branches = 72
+forks = 1
 
 [[repo]]
 url = "https://github.com/fioprotocol/ledgerjs-hw-app-fio"
+last_commit = "5ba69acaa0c86db56437d2598a79491cc8f091e5"
+last_commit_time = "2021-12-07T15:44"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 3
+stars = 0
+tag_count = 0
+watching = 7
+branches = 70
 
 [[repo]]
 url = "https://github.com/fioprotocol/wabt"
+last_commit = "ce5c90e456f004558e123d606a6d1601587f00bc"
+last_commit_time = "2019-04-26T18:54"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 533
+commits = 13
+tag_count = 0
+watching = 2
+branches = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/wfio"
+status = "404"
+
+[repo.stats]
+commits = 0
+forks = 0
+watching = 0
+stars = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/fioprotocol/yubihsm-shell"
+last_commit = "79698154e734841123259ea88cd22c31f72cd9e9"
+last_commit_time = "2020-03-17T07:44"
+status = "200"
+
+[repo.stats]
+branches = 167
+commits = 20
+watching = 1
+forks = 35
+tag_count = 0
+stars = 0

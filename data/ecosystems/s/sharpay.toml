@@ -1,19 +1,60 @@
-# Ecosystem Level Information
 title = "Sharpay"
-
+toml_path = "data/ecosystems/s/sharpay.toml"
+github_organizations = ["https://github.com/sharpay-io"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/sharpay-io"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/sharpay-io/cloudflare"
+last_commit = "dd7015a029840edecde9b907cf87893cb4fd4bd9"
+last_commit_time = "2020-07-17T06:21"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 3
+forks = 1
+stars = 2
+tag_count = 0
+branches = 29
 
 [[repo]]
 url = "https://github.com/sharpay-io/frozen-tokens-check"
+last_commit = "5631ea4f89a7a04c3144eae69906b66eef6fc8bf"
+last_commit_time = "2020-12-09T17:17"
+status = "200"
+
+[repo.stats]
+branches = 15
+forks = 1
+watching = 2
+tag_count = 0
+commits = 8
+stars = 1
 
 [[repo]]
 url = "https://github.com/sharpay-io/sharpay-landing"
+last_commit = "00b07b4ecaa4d9ea1ebc80b7107129438269a4c2"
+last_commit_time = "2022-07-16T13:39"
+status = "200"
+
+[repo.stats]
+forks = 3
+commits = 1
+watching = 7
+tag_count = 0
+branches = 0
+stars = 9
 
 [[repo]]
 url = "https://github.com/sharpay-io/token-contract"
+last_commit = "c6456b3e9c16701bb1988f3ea09444eab8b3674c"
+last_commit_time = "2018-08-09T06:15"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 1
+commits = 1
+forks = 1
+branches = 3
+tag_count = 0

@@ -1,91 +1,374 @@
-# Ecosystem Level Information
 title = "KuCoin Shares"
-
+toml_path = "data/ecosystems/k/kucoin-shares.toml"
+github_organizations = ["https://github.com/Kucoin"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Kucoin"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Kucoin/Docs-Deprecated"
+last_commit = "6ebe215e56febd746cb94a417fcb97b91e0dc138"
+last_commit_time = "2019-11-22T15:21"
+status = "200"
+
+[repo.stats]
+stars = 4
+watching = 6
+branches = 56
+tag_count = 0
+commits = 2
+forks = 7
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-api-demo"
+last_commit = "3e8531e88e4a5dec8767fd7f346643daca588780"
+last_commit_time = "2020-04-29T09:51"
+status = "200"
+
+[repo.stats]
+stars = 9
+watching = 8
+tag_count = 0
+branches = 9
+forks = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-api-docs"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 589
+stars = 201
+forks = 117
+commits = 11
+watching = 108
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-api-docs-hf"
+last_commit = "9b1bc0b0906aeca767d4d9a54ed158b9781a4511"
+last_commit_time = "2022-05-31T11:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+commits = 1
+branches = 13
+watching = 7
+forks = 3
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-futures-api-docs"
+status = "200"
+
+[repo.stats]
+branches = 42
+watching = 6
+stars = 6
+commits = 1
+forks = 14
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-futures-api-docs-new"
+status = "200"
+
+[repo.stats]
+watching = 7
+tag_count = 0
+commits = 1
+forks = 4
+stars = 3
+branches = 36
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-futures-go-sdk"
+last_commit = "62dd174f33c60b2f16e0e2863b05390bfe5b1422"
+last_commit_time = "2022-02-21T05:29"
+status = "200"
+
+[repo.stats]
+watching = 11
+tag_count = 0
+forks = 12
+stars = 8
+branches = 17
+commits = 1
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-futures-java-sdk"
+last_commit = "48a2c0de1731ab42490af0fd69c3a8ae2cb0574a"
+last_commit_time = "2021-03-16T07:55"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 11
+tag_count = 0
+branches = 20
+forks = 10
+watching = 9
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-futures-node-sdk"
+last_commit = "37bfeae02f0fd72db472767f963077fa892e751d"
+last_commit_time = "2021-03-16T01:16"
+status = "200"
+
+[repo.stats]
+branches = 74
+forks = 4
+watching = 7
+stars = 12
+commits = 9
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-futures-php-sdk"
+status = "200"
+
+[repo.stats]
+watching = 8
+commits = 2
+forks = 9
+stars = 7
+branches = 104
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-futures-python-sdk"
+status = "200"
+
+[repo.stats]
+stars = 45
+watching = 11
+tag_count = 0
+commits = 2
+forks = 29
+branches = 25
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-go-level3-demo"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+watching = 0
+branches = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-go-sdk"
+last_commit = "e73c9142a3d2247f4e98e6e92eb5d10b9e5145c5"
+last_commit_time = "2022-02-15T15:14"
+status = "200"
+
+[repo.stats]
+watching = 13
+branches = 452
+forks = 48
+stars = 78
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-java-sdk"
+status = "200"
+
+[repo.stats]
+stars = 64
+tag_count = 0
+watching = 17
+commits = 4
+forks = 48
+branches = 107
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-level3-sdk"
+last_commit = "eb3048abdf0d684527b36d93c7c24bdbea549400"
+last_commit_time = "2021-04-29T01:05"
+status = "200"
+
+[repo.stats]
+branches = 16
+watching = 8
+commits = 1
+forks = 11
+stars = 18
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-mining-docs"
+last_commit = "eedd8ae65da779a12c1a1538ccfed43549a4f1dc"
+last_commit_time = "2022-07-27T06:55"
+status = "200"
+
+[repo.stats]
+branches = 586
+tag_count = 0
+commits = 3
+stars = 3
+forks = 3
+watching = 6
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-node-sdk"
+status = "200"
+
+[repo.stats]
+watching = 15
+branches = 51
+tag_count = 0
+commits = 3
+stars = 74
+forks = 35
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-php-sdk"
+last_commit = "58f16fcd933cf045d802eae6dd20235f8be6a0e6"
+last_commit_time = "2022-03-25T07:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 331
+commits = 1
+stars = 65
+forks = 29
+watching = 11
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-python-sdk"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 87
+watching = 29
+branches = 46
+stars = 180
 
 [[repo]]
 url = "https://github.com/Kucoin/kumex-api-demo"
+last_commit = "6bc17988a6d1fbbfa13fda357f54cbd90d209935"
+last_commit_time = "2020-04-29T09:56"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 3
+branches = 7
+watching = 7
+forks = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Kucoin/kumex-api-docs"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 0
+forks = 0
+commits = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Kucoin/kumex-go-sdk"
+last_commit = "14679493c6476c500d1cf1bb5c72c516f9bcbfa6"
+last_commit_time = "2020-07-16T06:12"
+status = "200"
+
+[repo.stats]
+branches = 42
+commits = 1
+watching = 3
+stars = 2
+forks = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Kucoin/kumex-java-sdk"
+last_commit = "48a2c0de1731ab42490af0fd69c3a8ae2cb0574a"
+last_commit_time = "2021-03-16T07:55"
+status = "200"
+
+[repo.stats]
+forks = 10
+watching = 9
+tag_count = 0
+branches = 20
+commits = 2
+stars = 11
 
 [[repo]]
 url = "https://github.com/Kucoin/kumex-level3-sdk"
+last_commit = "63ab4eb3e0d203443c7219c551bc67454bb7462f"
+last_commit_time = "2020-12-02T04:27"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 29
+forks = 11
+tag_count = 0
+watching = 7
+branches = 37
 
 [[repo]]
 url = "https://github.com/Kucoin/kumex-node-sdk"
+last_commit = "37bfeae02f0fd72db472767f963077fa892e751d"
+last_commit_time = "2021-03-16T01:16"
+status = "200"
+
+[repo.stats]
+commits = 9
+stars = 12
+forks = 4
+branches = 74
+watching = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Kucoin/kumex-php-sdk"
+last_commit = "a7c5db159699cc3cac33a99278b53ceabe14a8a1"
+last_commit_time = "2021-08-03T09:44"
+status = "200"
+
+[repo.stats]
+stars = 5
+tag_count = 0
+forks = 13
+branches = 76
+watching = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/Kucoin/kumex-python-sdk"
+last_commit = "ab2727ab8be6d8cc92363969153575985395fc15"
+last_commit_time = "2020-12-04T04:05"
+status = "200"
+
+[repo.stats]
+watching = 6
+commits = 1
+branches = 41
+stars = 11
+forks = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Kucoin/python-kucoin"
+status = "404"
+
+[repo.stats]
+branches = 0
+watching = 0
+forks = 0
+stars = 0
+tag_count = 0
+commits = 0

@@ -1,185 +1,819 @@
-# Ecosystem Level Information
 title = "yearn.finance"
-
+toml_path = "data/ecosystems/y/yearn-finance.toml"
+github_organizations = ["https://github.com/iearn-finance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/iearn-finance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/iearn-finance/api.yuni.finance"
+last_commit = "8144e2bd07e03b4cc4e9aff2b3fb5d9b73bb3e1a"
+last_commit_time = "2020-09-22T13:45"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 3
+stars = 2
+commits = 1
+tag_count = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/iearn-finance/apr-oracle"
+last_commit = "d3787b61a263a9886cbf38ea4a8cfe8302f2e8f6"
+last_commit_time = "2020-02-06T01:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 5
+stars = 22
+commits = 2
+forks = 22
+branches = 24
 
 [[repo]]
 url = "https://github.com/iearn-finance/audit"
+last_commit = "e3d76c568dad06d27c71d596e529f4764a36cb76"
+last_commit_time = "2020-11-29T09:47"
+status = "200"
+
+[repo.stats]
+stars = 39
+branches = 6
+commits = 1
+tag_count = 0
+watching = 8
+forks = 14
 
 [[repo]]
 url = "https://github.com/iearn-finance/audits"
+last_commit = "fd20e3c146546f1e528a14b8c6154c912083b91c"
+last_commit_time = "2020-12-04T18:45"
+status = "200"
+
+[repo.stats]
+stars = 25
+watching = 6
+branches = 4
+commits = 1
+forks = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/iearn-finance/balancer-gov"
+last_commit = "fb3377ce782aa547c150ecd836d81a922f2c165c"
+last_commit_time = "2020-08-25T08:09"
+status = "200"
+
+[repo.stats]
+branches = 101
+stars = 7
+tag_count = 0
+commits = 3
+forks = 146
+watching = 2
 
 [[repo]]
 url = "https://github.com/iearn-finance/brownie-strategy-mix"
+status = "200"
+
+[repo.stats]
+stars = 150
+watching = 19
+tag_count = 0
+branches = 58
+forks = 120
+commits = 3
 
 [[repo]]
 url = "https://github.com/iearn-finance/contracts"
+last_commit = "7b7d4042f87d6e854b00de9228c01f6f587cf0c0"
+last_commit_time = "2021-05-15T17:23"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 7
+branches = 75
+forks = 204
+stars = 420
+watching = 51
 
 [[repo]]
 url = "https://github.com/iearn-finance/docs"
+last_commit = "a7ec692a3cf496e4b1d281d0bf1e3b7c77a0f3b8"
+last_commit_time = "2021-10-05T11:46"
+status = "200"
+
+[repo.stats]
+commits = 12
+stars = 101
+watching = 14
+branches = 372
+tag_count = 0
+forks = 118
 
 [[repo]]
 url = "https://github.com/iearn-finance/faq"
+status = "404"
+
+[repo.stats]
+forks = 0
+commits = 0
+branches = 0
+stars = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/iearn-finance/governance"
+last_commit = "c5779c04ade09f65b9579b50b56d50929aa2c938"
+last_commit_time = "2020-10-19T12:03"
+status = "200"
+
+[repo.stats]
+forks = 5
+branches = 1
+watching = 5
+tag_count = 0
+stars = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/iearn-finance/iborrow-finance"
+last_commit = "01e03d86953ff1968f50347ba9099dc55bc67c19"
+last_commit_time = "2020-08-06T14:06"
+status = "200"
+
+[repo.stats]
+watching = 5
+branches = 20
+forks = 8
+stars = 5
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/iearn-finance/iearn-finance"
 tags = ["Protocol"]
+last_commit = "118c0be665234c765738e4576c8991038852c385"
+last_commit_time = "2021-03-14T14:55"
+status = "200"
+
+[repo.stats]
+forks = 285
+tag_count = 0
+watching = 37
+stars = 248
+branches = 439
+commits = 3
 
 [[repo]]
 url = "https://github.com/iearn-finance/ileverage-finance"
+last_commit = "92f15f6da3df9fe677f8c0db89363710023943fb"
+last_commit_time = "2020-03-18T15:35"
+status = "200"
+
+[repo.stats]
+branches = 8
+forks = 8
+tag_count = 0
+watching = 5
+commits = 1
+stars = 5
 
 [[repo]]
 url = "https://github.com/iearn-finance/ilhedge.finance"
+last_commit = "61a35144b260b8eb165b243c50cd7ff4b7ea9aa7"
+last_commit_time = "2020-10-17T10:06"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+forks = 8
+watching = 30
+branches = 8
+stars = 32
 
 [[repo]]
 url = "https://github.com/iearn-finance/ilinsure.finance"
+last_commit = "61a35144b260b8eb165b243c50cd7ff4b7ea9aa7"
+last_commit_time = "2020-10-17T10:06"
+status = "200"
+
+[repo.stats]
+forks = 8
+commits = 1
+tag_count = 0
+stars = 32
+branches = 8
+watching = 30
 
 [[repo]]
 url = "https://github.com/iearn-finance/iliquidate-finance"
+last_commit = "01e10d5530292c4b641bd60f6860fbda3fa7ba54"
+last_commit_time = "2020-09-01T17:45"
+status = "200"
+
+[repo.stats]
+forks = 7
+tag_count = 0
+commits = 1
+watching = 4
+branches = 6
+stars = 4
 
 [[repo]]
 url = "https://github.com/iearn-finance/itoken"
+last_commit = "275683f33368c5474a84663ba23c7acbcb1a0803"
+last_commit_time = "2020-03-14T13:00"
+status = "200"
+
+[repo.stats]
+stars = 71
+tag_count = 0
+forks = 83
+commits = 3
+branches = 79
+watching = 14
 
 [[repo]]
 url = "https://github.com/iearn-finance/keep3r-jobs"
+last_commit = "1954b404a7c9a7270a4f38ea2f61bb51e5854e67"
+last_commit_time = "2021-11-19T15:13"
+status = "200"
+
+[repo.stats]
+forks = 7
+branches = 23
+commits = 1
+tag_count = 0
+watching = 8
+stars = 10
 
 [[repo]]
 url = "https://github.com/iearn-finance/strategy-uni-lp-pickle"
+last_commit = "08f849a5639086b34c9dca248662ac4330a8bedb"
+last_commit_time = "2020-11-16T11:51"
+status = "200"
+
+[repo.stats]
+stars = 17
+tag_count = 0
+forks = 6
+branches = 70
+watching = 6
+commits = 1
 
 [[repo]]
 url = "https://github.com/iearn-finance/timeloans.finance"
+last_commit = "9fec86f796b3e8927c160f5a6e7ae9f4206dfdb8"
+last_commit_time = "2020-10-23T10:32"
+status = "200"
+
+[repo.stats]
+forks = 9
+tag_count = 0
+commits = 1
+stars = 37
+branches = 41
+watching = 42
 
 [[repo]]
 url = "https://github.com/iearn-finance/uniswap-roi"
+last_commit = "098d7506d8bce4c4e987165182b6dc2872ac652d"
+last_commit_time = "2020-02-06T05:19"
+status = "200"
+
+[repo.stats]
+stars = 24
+branches = 18
+tag_count = 0
+commits = 2
+forks = 23
+watching = 6
 
 [[repo]]
 url = "https://github.com/iearn-finance/vaults"
+last_commit = "095c9fb4ee61ad14777852467952e516e5d25580"
+last_commit_time = "2020-09-11T13:04"
+status = "200"
+
+[repo.stats]
+watching = 17
+forks = 46
+tag_count = 0
+stars = 75
+commits = 2
+branches = 8
 
 [[repo]]
 url = "https://github.com/iearn-finance/ychad-audit"
+last_commit = "190330f510d2d9d0a23f801afb48c2838288a25c"
+last_commit_time = "2022-06-26T10:48"
+status = "200"
+
+[repo.stats]
+stars = 27
+branches = 69
+forks = 16
+tag_count = 0
+watching = 9
+commits = 2
 
 [[repo]]
 url = "https://github.com/iearn-finance/ycredit-finance"
+last_commit = "f03377f389bdfaab7d72c3eb5296ebbb165858d5"
+last_commit_time = "2021-01-11T07:43"
+status = "200"
+
+[repo.stats]
+stars = 8
+branches = 9
+watching = 6
+tag_count = 0
+commits = 1
+forks = 10
 
 [[repo]]
 url = "https://github.com/iearn-finance/ycredit.finance"
+last_commit = "9b72bd0ad3365f66f6fc969f96c917fc242611e7"
+last_commit_time = "2020-10-15T11:12"
+status = "200"
+
+[repo.stats]
+stars = 33
+tag_count = 0
+forks = 15
+commits = 1
+watching = 24
+branches = 5
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-api"
+last_commit = "e1d0397fb78d19a118538ba35b033f891a50df25"
+last_commit_time = "2021-03-02T21:14"
+status = "200"
+
+[repo.stats]
+branches = 100
+commits = 1
+forks = 21
+stars = 24
+tag_count = 0
+watching = 15
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-assets"
+last_commit = "80e1a076953026cb295e7055d32070ab88173f10"
+last_commit_time = "2022-07-26T14:55"
+status = "200"
+
+[repo.stats]
+stars = 17
+commits = 1
+branches = 189
+watching = 10
+tag_count = 0
+forks = 26
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-audits"
+last_commit = "fd20e3c146546f1e528a14b8c6154c912083b91c"
+last_commit_time = "2020-12-04T18:45"
+status = "200"
+
+[repo.stats]
+branches = 4
+forks = 7
+watching = 6
+stars = 25
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-docs"
+last_commit = "a7ec692a3cf496e4b1d281d0bf1e3b7c77a0f3b8"
+last_commit_time = "2021-10-05T11:46"
+status = "200"
+
+[repo.stats]
+watching = 14
+forks = 118
+commits = 12
+stars = 101
+branches = 372
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-exporter"
+last_commit = "492f9ae1e2f863e2a22bfde0972da26153f83d64"
+last_commit_time = "2022-08-03T21:44"
+status = "200"
+
+[repo.stats]
+watching = 9
+stars = 74
+branches = 411
+forks = 85
+tag_count = 0
+commits = 17
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-finance"
+last_commit = "8291425e4d103efe219752c304a6fbf199fd181b"
+last_commit_time = "2021-11-20T03:22"
+status = "200"
+
+[repo.stats]
+stars = 160
+tag_count = 0
+commits = 2
+forks = 97
+branches = 789
+watching = 13
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-keeper"
+last_commit = "f8c00a1eb5f24df3a19583dcfaeb82196b6b78c9"
+last_commit_time = "2020-10-18T13:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 6
+watching = 4
+stars = 8
+branches = 9
+commits = 1
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-meta"
+status = "200"
+
+[repo.stats]
+forks = 47
+watching = 6
+tag_count = 0
+stars = 27
+branches = 307
+commits = 1
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-pm"
+last_commit = "f9fb5799938fc937a7f9cb15f108cb59850a918b"
+last_commit_time = "2022-05-25T13:08"
+status = "200"
+
+[repo.stats]
+forks = 8
+stars = 73
+watching = 28
+branches = 55
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-protocol"
+status = "200"
+
+[repo.stats]
+stars = 420
+watching = 51
+forks = 204
+commits = 7
+branches = 75
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-recycle"
+last_commit = "a105c947ec7dce660b6e8b27ff677f52730a3c34"
+last_commit_time = "2020-08-22T14:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 9
+forks = 19
+stars = 51
+commits = 1
+branches = 15
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-safe-app"
+last_commit = "3b6828925671d8e9019ab9781415ebaac7e14306"
+last_commit_time = "2020-09-09T11:22"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+tag_count = 0
+forks = 3
+commits = 2
+branches = 33
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-sdk"
+last_commit = "9931fe8ce97d2c0adb6c22727b7ba223c3f99e61"
+last_commit_time = "2022-08-03T18:57"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 11
+stars = 53
+forks = 46
+watching = 5
+branches = 393
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-security"
+last_commit = "3dc63b10c40bbef0b42601d162fe1ab1a0e9c991"
+last_commit_time = "2022-05-28T07:18"
+status = "200"
+
+[repo.stats]
+branches = 61
+forks = 33
+watching = 25
+commits = 1
+tag_count = 0
+stars = 104
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-starter-pack"
+last_commit = "a8cb1053797147c9337f48991f3cdd76a2cf5ab9"
+last_commit_time = "2020-10-03T22:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 55
+branches = 3
+watching = 12
+commits = 1
+forks = 32
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-strategies"
+status = "404"
+
+[repo.stats]
+commits = 0
+branches = 0
+watching = 0
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-subgraph"
+last_commit = "8e946556c7eddbbb22ebd060f5ccc6f504b85bf1"
+last_commit_time = "2021-05-04T08:14"
+status = "200"
+
+[repo.stats]
+stars = 16
+tag_count = 0
+forks = 16
+branches = 39
+commits = 1
+watching = 13
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-token"
+last_commit = "07a43920ec77f03e1adbcc06f67d78089044bc82"
+last_commit_time = "2021-08-27T15:37"
+status = "200"
+
+[repo.stats]
+watching = 6
+branches = 16
+tag_count = 0
+stars = 2
+commits = 2
+forks = 1
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-treasury"
+last_commit = "14912371d45f87a2c3da0970a91d065d36f2aa52"
+last_commit_time = "2020-11-17T19:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 5
+stars = 4
+branches = 7
+commits = 3
+forks = 6
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-ui-components"
+last_commit = "6b3addd5ef9d0e9b2d2db4dd1f0b20e3e1e83946"
+last_commit_time = "2020-12-12T19:31"
+status = "200"
+
+[repo.stats]
+watching = 6
+branches = 5
+commits = 1
+forks = 4
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-vaults"
+status = "200"
+
+[repo.stats]
+watching = 33
+branches = 313
+tag_count = 0
+forks = 249
+commits = 3
+stars = 435
 
 [[repo]]
 url = "https://github.com/iearn-finance/yearn-vaults-v2-subgraph"
+last_commit = "a5797422e0a1cdebc38e283709ba4229d907858a"
+last_commit_time = "2022-08-01T21:49"
+status = "200"
+
+[repo.stats]
+forks = 31
+stars = 21
+tag_count = 0
+branches = 112
+watching = 4
+commits = 9
 
 [[repo]]
 url = "https://github.com/iearn-finance/ygift"
+last_commit = "8389108cec67d8c3f57aebb31ac94151559287a9"
+last_commit_time = "2020-12-03T15:48"
+status = "200"
+
+[repo.stats]
+forks = 7
+branches = 47
+tag_count = 0
+watching = 4
+commits = 1
+stars = 8
 
 [[repo]]
 url = "https://github.com/iearn-finance/ygift-ui"
+last_commit = "116762737ee7595f6e96924121c623677cf23504"
+last_commit_time = "2021-09-03T15:02"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 12
+stars = 8
+watching = 5
+branches = 189
+commits = 1
 
 [[repo]]
 url = "https://github.com/iearn-finance/ygov-finance"
+last_commit = "d8cee41e96efbca8b37507d34ed36c3ebda50e61"
+last_commit_time = "2020-09-24T08:33"
+status = "200"
+
+[repo.stats]
+forks = 105
+tag_count = 0
+stars = 53
+watching = 10
+branches = 53
+commits = 1
 
 [[repo]]
 url = "https://github.com/iearn-finance/yinsure-finance"
+last_commit = "d3e2aa990810dd350d420480ce7813c9c6701954"
+last_commit_time = "2020-12-09T11:58"
+status = "200"
+
+[repo.stats]
+watching = 5
+tag_count = 0
+stars = 18
+forks = 10
+branches = 35
+commits = 2
 
 [[repo]]
 url = "https://github.com/iearn-finance/yip_validator"
+last_commit = "f5683bbe6d4bbe5f407721588fa3a9b5c3faf2b5"
+last_commit_time = "2020-09-04T05:11"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+forks = 13
+stars = 3
+branches = 10
+watching = 1
 
 [[repo]]
 url = "https://github.com/iearn-finance/YIPS"
+last_commit = "cd0bf325167469feec6cd07586738411f5abfe5d"
+last_commit_time = "2021-12-23T11:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 68
+commits = 4
+watching = 11
+branches = 109
+stars = 46
 
 [[repo]]
 url = "https://github.com/iearn-finance/yoracle.link"
+last_commit = "e13f4adc63fa40d74d11950682b17eaaf2c03899"
+last_commit_time = "2021-02-07T20:26"
+status = "200"
+
+[repo.stats]
+watching = 17
+stars = 23
+commits = 1
+tag_count = 0
+branches = 35
+forks = 15
 
 [[repo]]
 url = "https://github.com/iearn-finance/yswap-finance"
+last_commit = "5988ad6b74ebb41d1040a30200ddfd82af3636ef"
+last_commit_time = "2020-07-17T13:01"
+status = "200"
+
+[repo.stats]
+forks = 16
+branches = 233
+tag_count = 0
+commits = 2
+stars = 16
+watching = 14
 
 [[repo]]
 url = "https://github.com/iearn-finance/yuni.finance"
+last_commit = "73e44e86317249a2a9603e4cefdf9fbf2a67ae2b"
+last_commit_time = "2020-09-23T09:38"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+forks = 7
+stars = 5
+branches = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/iearn-finance/zap"
+last_commit = "a6a44935a073aab9d14a112d8d2e1ca30e31a0cd"
+last_commit_time = "2020-02-01T22:47"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 23
+tag_count = 0
+stars = 25
+watching = 8
+branches = 13
 
 [[repo]]
 url = "https://github.com/iearn-finance/zaps"
+last_commit = "c4ceebfd2b8c731c31e37b5ff855bac86b9e1108"
+last_commit_time = "2022-07-08T15:31"
+status = "200"
+
+[repo.stats]
+stars = 4
+branches = 17
+forks = 6
+tag_count = 0
+commits = 5
+watching = 5
 
 [[repo]]
 url = "https://github.com/sambacha/yearn-protocol-nodejs"
+last_commit = "51b2681f7f2facbf4dd2df66723afd7ee73fe2c7"
+last_commit_time = "2021-07-29T15:38"
+status = "200"
+
+[repo.stats]
+branches = 458
+stars = 7
+forks = 0
+tag_count = 0
+commits = 16
+watching = 3

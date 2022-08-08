@@ -1,121 +1,536 @@
-# Ecosystem Level Information
 title = "ChainLayer"
-
+toml_path = "data/ecosystems/c/chainlayer.toml"
+github_organizations = ["https://github.com/chainlayer"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/chainlayer"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/chainlayer/advisory-test"
+last_commit = "f79d205438badff3c38df156d62ded886786e3c6"
+last_commit_time = "2020-04-02T15:56"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+stars = 0
+branches = 3
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/assets"
+last_commit = "1b2ec58e2ca2aafef7f9f4e3b7e276bc092c4b70"
+last_commit_time = "2019-11-18T12:03"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+branches = 566
+forks = 0
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/chainlayer/bea-adapter"
+last_commit = "1fb0f2861f02e10747f9937284806069060db232"
+last_commit_time = "2019-11-19T19:27"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+branches = 23
+watching = 1
+forks = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/celo-checksigs"
+last_commit = "48ee256231d5786c4a640a617aa19e3fed419f6a"
+last_commit_time = "2020-01-17T23:39"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 1
+forks = 0
+branches = 2
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/chainlayer-widget"
+last_commit = "f9105332bb7ae7c5c5229b0c1f3db0b7c32afd15"
+last_commit_time = "2020-06-05T08:12"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 18
+commits = 18
+watching = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/chainlink"
+last_commit = "d75d420ceb4bb814cf1051c49986b22d65eaa670"
+last_commit_time = "2019-06-05T20:27"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 1
+commits = 4
+stars = 1
+tag_count = 0
+branches = 4
 
 [[repo]]
 url = "https://github.com/chainlayer/chainlink-gas"
+last_commit = "5162358f07c0011cb46d5ec36d4635880041b585"
+last_commit_time = "2019-12-04T08:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 11
+forks = 2
+stars = 1
+watching = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/chainlayer/changed-files"
+last_commit = "88878571ea9b265011eb41efe51c322e75e803c0"
+last_commit_time = "2020-04-21T00:26"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 12
+tag_count = 0
+branches = 25
+commits = 4
 
 [[repo]]
 url = "https://github.com/chainlayer/comment-on-pr"
+last_commit = "182ec73bcf2b77868dcadd16987721fcfaca76d9"
+last_commit_time = "2020-03-31T19:03"
+status = "200"
+
+[repo.stats]
+branches = 26
+forks = 87
+stars = 0
+commits = 1
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/chainlayer/cosmos-crawler"
+last_commit = "506c0deaae9e6099a60da9af88eb49e3e9614ed1"
+last_commit_time = "2019-06-13T12:39"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 1
+forks = 0
+watching = 1
+branches = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/cosmos-sdk-delegation-lib"
+last_commit = "1cc1dc56cbc073bb617cd8cae25f0c60bd6db711"
+last_commit_time = "2020-03-11T08:21"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 46
+commits = 16
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/chainlayer/cosmos-sdk-monitor"
+last_commit = "e7f80bfb4307b522782d1dfab83aba8f4291aff1"
+last_commit_time = "2019-08-30T09:58"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 1
+stars = 3
+branches = 5
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/coveralls"
+last_commit = "f9835aa789bd716e3115c57a40a62d72e93850e9"
+last_commit_time = "2019-06-30T21:54"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+forks = 0
+stars = 0
+tag_count = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/chainlayer/cryptocompare-vwap-adapter"
+last_commit = "cf21fcc0d5ad4aff83503896e9edeefe5010bcf0"
+last_commit_time = "2019-11-27T02:04"
+status = "200"
+
+[repo.stats]
+branches = 6
+tag_count = 0
+forks = 4
+stars = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/chainlayer/delegation-widget"
+last_commit = "a15e411ea584b0c26d3f7e00ba50b883861fda60"
+last_commit_time = "2019-12-16T14:02"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 1
+commits = 18
+watching = 1
+branches = 14
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/delegation-widget-cosmos"
+last_commit = "78b7324ec6b2a201148a482bafbda129faea419c"
+last_commit_time = "2019-07-02T20:16"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+commits = 1
+branches = 4
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/delegation-widget-terra"
+last_commit = "aa50e7974b2e4eba8f4d4cebaee2d2974f02abcd"
+last_commit_time = "2019-07-02T20:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+branches = 3
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/chainlayer/ecosystem"
+last_commit = "dc4b97b05803ab6246d0930266e65d022969c73a"
+last_commit_time = "2019-11-22T21:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 1
+forks = 349
+commits = 3
+branches = 114
 
 [[repo]]
 url = "https://github.com/chainlayer/helm"
+last_commit = "fddb49ad4680639b0c53d1d3dd2ed681dc527857"
+last_commit_time = "2019-11-22T01:17"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+watching = 1
+commits = 1
+branches = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/ibc-playbooks"
+last_commit = "11307435eb9b861d15b239b09c6b8e929bce371c"
+last_commit_time = "2019-11-15T17:40"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 1
+watching = 2
+branches = 2
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/jobcreator"
+last_commit = "870efb5f7439ed6c5ed2a61d9dc7c0c37745d24f"
+last_commit_time = "2020-11-23T20:09"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 0
+stars = 0
+tag_count = 0
+branches = 16
+commits = 1
 
 [[repo]]
 url = "https://github.com/chainlayer/kava"
+last_commit = "746246556d4c92117734996c5f51b1b32c2278fc"
+last_commit_time = "2019-07-27T11:48"
+status = "200"
+
+[repo.stats]
+commits = 6
+branches = 182
+forks = 254
+watching = 1
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/kava-testnets"
+last_commit = "cd7ebd4a77da1b6e2d41570c620dc7b3e268c799"
+last_commit_time = "2020-02-03T20:31"
+status = "200"
+
+[repo.stats]
+forks = 218
+tag_count = 0
+commits = 10
+watching = 1
+stars = 0
+branches = 398
 
 [[repo]]
 url = "https://github.com/chainlayer/kava-tools"
+last_commit = "5c89e4ecbe572200e6c91f0c546200c1a3367e33"
+last_commit_time = "2020-06-18T16:00"
+status = "200"
+
+[repo.stats]
+forks = 16
+watching = 1
+tag_count = 0
+stars = 0
+commits = 9
+branches = 96
 
 [[repo]]
 url = "https://github.com/chainlayer/launch"
+last_commit = "a8f8c5fbc68ad94369e23e4336c0482d419ecbd3"
+last_commit_time = "2019-10-30T10:05"
+status = "200"
+
+[repo.stats]
+branches = 5
+commits = 1
+watching = 1
+stars = 0
+tag_count = 0
+forks = 93
 
 [[repo]]
 url = "https://github.com/chainlayer/ocrstats"
+last_commit = "2696ef23b9b389d0e40a46da909932f0788b2b7e"
+last_commit_time = "2021-06-16T08:29"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 2
+branches = 1
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/post-mortems"
+last_commit = "2c822215fc2772e8d8a121d233cbdf02591f3a0f"
+last_commit_time = "2021-09-26T10:14"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 1
+tag_count = 0
+branches = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/chainlayer/prometheus-chainlink"
+last_commit = "7d902d4133244224b3cec4e5eaefb56d54488e75"
+last_commit_time = "2021-02-16T10:18"
+status = "200"
+
+[repo.stats]
+forks = 6
+tag_count = 0
+branches = 11
+watching = 4
+commits = 1
+stars = 10
 
 [[repo]]
 url = "https://github.com/chainlayer/q-monitoring"
+last_commit = "3903c8d432b113d8092bd41baaedd57762c9a8cc"
+last_commit_time = "2022-04-05T13:19"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 7
+tag_count = 0
+commits = 1
+watching = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/chainlayer/quicksync-kava"
+last_commit = "6b6edb033de6a429a4fbc5731fab6c49a885723b"
+last_commit_time = "2021-06-24T07:51"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 2
+branches = 14
+forks = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/chainlayer/quicksync-playbooks"
+last_commit = "d6d318c66444f2476ffe9064b7c984f24606e59b"
+last_commit_time = "2022-06-09T10:04"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 15
+stars = 6
+tag_count = 0
+commits = 1
+forks = 4
 
 [[repo]]
 url = "https://github.com/chainlayer/santa"
+last_commit = "ea89535c68b352f382ec09b56a293746c5aad0a2"
+last_commit_time = "2019-08-09T06:12"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+stars = 0
+forks = 23
+watching = 1
+branches = 47
 
 [[repo]]
 url = "https://github.com/chainlayer/terra_oracle_voter"
+last_commit = "13c8dee5c0379cedc526e2c5cd9e4b2aff18a272"
+last_commit_time = "2019-12-03T19:26"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 13
+stars = 0
+tag_count = 0
+watching = 1
+branches = 54
 
 [[repo]]
 url = "https://github.com/chainlayer/testnets"
+last_commit = "8e00e92a41da5cee9719f1539bd112d00bcb7b6e"
+last_commit_time = "2019-08-26T13:42"
+status = "200"
+
+[repo.stats]
+commits = 4
+forks = 340
+stars = 0
+watching = 1
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/chainlayer/testnets-1"
+last_commit = "f8ef8500f8d91c8143a90fe67ab36fcc30cfd40a"
+last_commit_time = "2019-11-21T13:40"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+branches = 41
+commits = 1
+stars = 0
+forks = 14
 
 [[repo]]
 url = "https://github.com/chainlayer/testnets-2"
+last_commit = "883ed0f57db2e099af647b54f6fd8839fa7aa5e5"
+last_commit_time = "2020-03-11T20:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 8
+forks = 286
+branches = 399
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/chainlayer/validator-profiles"
+last_commit = "4ba27d1d269025c78ab05b7195b9ce72cd4c8b78"
+last_commit_time = "2020-04-24T03:03"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 2
+tag_count = 0
+forks = 322
+watching = 1
+branches = 57
 
 [[repo]]
 url = "https://github.com/chainlayer/zabbix-templates"
+last_commit = "c58a521820cf56918244a58ec22e1a6d7c9e0d67"
+last_commit_time = "2019-06-12T09:55"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+stars = 3
+tag_count = 0
+branches = 5
+watching = 1

@@ -1,64 +1,268 @@
-# Ecosystem Level Information
 title = "blockmountain"
-
+toml_path = "data/ecosystems/b/blockmountain.toml"
+github_organizations = ["https://github.com/bmresearch"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/bmresearch"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/bmresearch/Anvil"
+last_commit = "130385d57e34630a319df440dfc26240e32045b4"
+last_commit_time = "2022-06-04T16:42"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 17
+stars = 10
+forks = 4
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/bmresearch/blazor-wasm-dapp-scaffold"
+last_commit = "6904757f49ef70d0d8a0a94cb31febb128d3f9a3"
+last_commit_time = "2021-10-06T16:29"
+status = "200"
+
+[repo.stats]
+branches = 7
+watching = 3
+forks = 6
+tag_count = 0
+commits = 1
+stars = 8
 
 [[repo]]
 url = "https://github.com/bmresearch/bmresearch.github.io"
+last_commit = "a07fa18bf11db676a101b75a03c8e0454f71fbf5"
+last_commit_time = "2022-07-27T17:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 3
+forks = 0
+commits = 1
+tag_count = 0
+branches = 9
 
 [[repo]]
 url = "https://github.com/bmresearch/Bonfidanet"
+last_commit = "3500589cdd0ad3f3057c7f478cd72c5dd022101b"
+last_commit_time = "2022-03-01T18:17"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 3
+stars = 4
+tag_count = 0
+branches = 9
+forks = 2
 
 [[repo]]
 url = "https://github.com/bmresearch/ccex"
+last_commit = "2649ce07c4d9af8bee978f4134839f6ee43272b8"
+last_commit_time = "2021-07-13T15:35"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 7
+tag_count = 0
+forks = 1
+stars = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/bmresearch/OST"
+last_commit = "4fe3d39156941b965f9fcb592bca85f88a569ef7"
+last_commit_time = "2022-03-12T18:38"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 3
+branches = 4
+tag_count = 0
+commits = 1
+stars = 9
 
 [[repo]]
 url = "https://github.com/bmresearch/publish-nuget"
+last_commit = "d4bb260a2ceaab0732ce9282f2784c5822ea6c0e"
+last_commit_time = "2021-08-21T00:23"
+status = "200"
+
+[repo.stats]
+branches = 26
+commits = 2
+watching = 0
+stars = 0
+tag_count = 0
+forks = 90
 
 [[repo]]
 url = "https://github.com/bmresearch/SequenceEnforcer"
+last_commit = "580b3f3cbe421d274f436771b53cf7c923462026"
+last_commit_time = "2022-02-22T00:24"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 1
+branches = 4
+watching = 2
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/bmresearch/Solnet"
+status = "200"
+
+[repo.stats]
+watching = 18
+tag_count = 0
+branches = 267
+stars = 242
+forks = 82
+commits = 3
 
 [[repo]]
 url = "https://github.com/bmresearch/solnet-programs-template"
+last_commit = "88fb36ebea3dc5393d98ed215111a54ecea547e7"
+last_commit_time = "2021-08-10T17:12"
+status = "200"
+
+[repo.stats]
+stars = 4
+tag_count = 0
+watching = 2
+commits = 1
+forks = 0
+branches = 4
 
 [[repo]]
 url = "https://github.com/bmresearch/Solnet.Anchor"
+last_commit = "ffa353aaea05821a7d4ad80cad08b1f7bceada48"
+last_commit_time = "2022-06-29T15:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 6
+watching = 2
+branches = 22
+stars = 8
+forks = 1
 
 [[repo]]
 url = "https://github.com/bmresearch/Solnet.Mango"
+last_commit = "d1f8eea6a123c7e75c210d009964d9381ef50e1e"
+last_commit_time = "2022-06-27T19:06"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 19
+branches = 59
+forks = 11
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/bmresearch/Solnet.Metaplex"
+last_commit = "2d902412b5c12c1cf8915bc24f47d059b059e5c2"
+last_commit_time = "2022-02-23T18:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 6
+forks = 13
+branches = 87
+stars = 30
 
 [[repo]]
 url = "https://github.com/bmresearch/Solnet.Pyth"
+last_commit = "58c796007001ecdc57e9f95cc1de1a2956678ed4"
+last_commit_time = "2022-06-27T18:26"
+status = "200"
+
+[repo.stats]
+branches = 25
+commits = 2
+watching = 2
+stars = 2
+tag_count = 0
+forks = 3
 
 [[repo]]
 url = "https://github.com/bmresearch/Solnet.Raydium"
+last_commit = "5bed2478b28ae47fb45613fe9868eb4fbc7385b7"
+last_commit_time = "2021-09-26T17:12"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 7
+forks = 0
+tag_count = 0
+commits = 2
+watching = 3
 
 [[repo]]
 url = "https://github.com/bmresearch/Solnet.Reference.Implementations"
+last_commit = "0e307bafc6b8cec34e684ec177bc7acd1ba431bf"
+last_commit_time = "2022-02-16T18:24"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 2
+watching = 2
+commits = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/bmresearch/Solnet.Serum"
+last_commit = "11740be33814c383327a4b9202bb59488770f6b1"
+last_commit_time = "2022-06-27T18:20"
+status = "200"
+
+[repo.stats]
+forks = 14
+branches = 45
+commits = 3
+tag_count = 0
+stars = 33
+watching = 4
 
 [[repo]]
 url = "https://github.com/bmresearch/Solnet.Solend"
+last_commit = "b2655d86a132acf75a13d3c9583db6403643d143"
+last_commit_time = "2022-05-02T14:38"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 2
+branches = 15
+tag_count = 0
+stars = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/bmresearch/TradingView"
+last_commit = "d136dc4b24f418d6af9b8cd1c92284955fde18ff"
+last_commit_time = "2022-02-19T17:06"
+status = "200"
+
+[repo.stats]
+stars = 4
+forks = 3
+branches = 9
+commits = 2
+watching = 2
+tag_count = 0

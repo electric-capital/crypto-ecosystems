@@ -1,10 +1,18 @@
-# Ecosystem Level Information
 title = "Cheesecoin"
-
+toml_path = "data/ecosystems/c/cheesecoin.toml"
+github_organizations = ["https://github.com/CheeseCoin"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/CheeseCoin"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/CheeseCoin/CheeseMasternode"
+last_commit = "7c4963c1287a5b6f381437f0963e788b68f24ad3"
+last_commit_time = "2018-06-06T21:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 10
+stars = 13
+watching = 5
+branches = 15

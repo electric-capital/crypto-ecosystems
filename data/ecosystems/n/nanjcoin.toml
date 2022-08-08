@@ -1,22 +1,64 @@
-# Ecosystem Level Information
 title = "NANJCOIN"
-
+toml_path = "data/ecosystems/n/nanjcoin.toml"
+github_organizations = ["https://github.com/NANJ-COIN"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/NANJ-COIN"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/NANJ-COIN/android-sdk"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+commits = 0
+tag_count = 0
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/NANJ-COIN/ios-sdk"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+branches = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/NANJ-COIN/nanjs"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+stars = 0
+watching = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/NANJ-COIN/token"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+watching = 0
+branches = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/NANJ-COIN/web-api"
+status = "404"
+
+[repo.stats]
+forks = 0
+commits = 0
+watching = 0
+stars = 0
+tag_count = 0
+branches = 0

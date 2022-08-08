@@ -1,10 +1,16 @@
-# Ecosystem Level Information
 title = "Ethernity Chain"
-
+toml_path = "data/ecosystems/e/ethernity-chain.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/eternity-group/eternity"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 16
+forks = 19
+branches = 35
+commits = 2
+tag_count = 0

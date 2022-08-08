@@ -1,55 +1,226 @@
-# Ecosystem Level Information
 title = "ForkDelta"
-
+toml_path = "data/ecosystems/f/forkdelta.toml"
+github_organizations = ["https://github.com/forkdelta"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/forkdelta"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/forkdelta/0x-frontend"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+forks = 0
+watching = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/forkdelta/backend-replacement"
+last_commit = "97ccd1a19544f26d242a8412113086f0c0dd5760"
+last_commit_time = "2020-07-10T06:58"
+status = "200"
+
+[repo.stats]
+commits = 21
+tag_count = 0
+forks = 104
+watching = 14
+stars = 56
+branches = 198
 
 [[repo]]
 url = "https://github.com/forkdelta/blockclock"
+last_commit = "877ae6bf30132339433349cc77885a9a0e54626d"
+last_commit_time = "2020-09-17T18:24"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+tag_count = 0
+branches = 13
+commits = 4
+forks = 1
 
 [[repo]]
 url = "https://github.com/forkdelta/classic-frontend"
+last_commit = "9491fed6955791f0b8d979b552aed186678f9154"
+last_commit_time = "2020-07-16T18:38"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 933
+stars = 96
+forks = 721
+commits = 4
+watching = 15
 
 [[repo]]
 url = "https://github.com/forkdelta/coingecko-ethtoken-db"
+last_commit = "037171b03fc69c025fc73d1358f4c97c87af85ba"
+last_commit_time = "2021-06-17T04:35"
+status = "200"
+
+[repo.stats]
+stars = 10
+watching = 3
+commits = 2
+forks = 5
+tag_count = 0
+branches = 304
 
 [[repo]]
 url = "https://github.com/forkdelta/coinmarketcap-ethtoken-db"
+last_commit = "f1e87f3952f08215d7e3603e39a4c1da44e923ce"
+last_commit_time = "2020-07-14T01:25"
+status = "200"
+
+[repo.stats]
+forks = 21
+stars = 26
+tag_count = 0
+watching = 2
+branches = 672
+commits = 4
 
 [[repo]]
 url = "https://github.com/forkdelta/fluentd-custom"
+last_commit = "4e9449828be5d86e05d22f5018c112586cd4558b"
+last_commit_time = "2018-05-10T17:45"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 2
+watching = 2
+forks = 7
+commits = 1
 
 [[repo]]
 url = "https://github.com/forkdelta/forkdelta.github.io"
+last_commit = "2b8aa0b2c72f4c412b0a1b956c7f26a82cb3cfa6"
+last_commit_time = "2019-03-03T10:22"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 7
+forks = 2
+watching = 3
+stars = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/forkdelta/knowledge-base"
+last_commit = "c56e7005d9cb976778c08e916b62da4f3a31b921"
+last_commit_time = "2020-06-05T08:59"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 0
+branches = 1
+forks = 0
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/forkdelta/nextgen-ui"
+last_commit = "aa6f85fe14d567f924de92418a29426267ac6a90"
+last_commit_time = "2018-07-22T12:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 37
+commits = 10
+branches = 25
+stars = 20
+watching = 7
 
 [[repo]]
 url = "https://github.com/forkdelta/order-refresh-service"
+last_commit = "2023c6cb2c81132de43c3c61ce0d208294da2c77"
+last_commit_time = "2020-09-17T18:23"
+status = "200"
+
+[repo.stats]
+branches = 11
+watching = 1
+forks = 2
+tag_count = 0
+commits = 11
+stars = 0
 
 [[repo]]
 url = "https://github.com/forkdelta/order-serialization-benchmark"
+last_commit = "0df2d534a760fefe0c6a25d7f07f133971374e23"
+last_commit_time = "2018-11-25T17:22"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+tag_count = 0
+commits = 1
+branches = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/forkdelta/proposals"
+last_commit = "35a3677134a0125d6b48be04725cad8048acd5bd"
+last_commit_time = "2018-01-15T20:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 8
+watching = 6
+branches = 1
+stars = 3
 
 [[repo]]
 url = "https://github.com/forkdelta/smart_contract"
+last_commit = "f2fc60430a94840659f19df324a5f31a0c799ffc"
+last_commit_time = "2018-03-23T19:54"
+status = "200"
+
+[repo.stats]
+commits = 7
+forks = 66
+watching = 7
+branches = 59
+tag_count = 0
+stars = 22
 
 [[repo]]
 url = "https://github.com/forkdelta/tokenbase"
+last_commit = "522723c5d1b22a7d7425261f4f058860f5e1f743"
+last_commit_time = "2020-06-24T07:49"
+status = "200"
+
+[repo.stats]
+commits = 13
+forks = 346
+watching = 26
+stars = 153
+tag_count = 0
+branches = 576
 
 [[repo]]
 url = "https://github.com/forkdelta/web3.py"
+last_commit = "0cbb1e4d3bf5f5fe1e7493f374d824b112d389d8"
+last_commit_time = "2018-11-14T22:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+watching = 1
+forks = 0
+stars = 0
+commits = 14

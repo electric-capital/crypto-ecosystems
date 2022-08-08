@@ -1,11 +1,17 @@
-# Ecosystem Level Information
 title = "USD Coin"
-
+toml_path = "data/ecosystems/u/usd-coin.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/centrehq/centre-tokens"
 tags = ["Protocol"]
+status = "200"
+
+[repo.stats]
+branches = 836
+forks = 204
+commits = 23
+watching = 24
+stars = 340
+tag_count = 0

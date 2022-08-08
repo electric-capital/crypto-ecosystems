@@ -1,124 +1,514 @@
-# Ecosystem Level Information
 title = "KYVE"
-
+toml_path = "data/ecosystems/k/kyve.toml"
+github_organizations = ["https://github.com/KYVENetwork"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/KYVENetwork"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/KYVENetwork/ardb"
+last_commit = "33e7e0b59d1a45cef3d72472989d4b6aa8223aec"
+last_commit_time = "2021-09-28T10:44"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 3
+watching = 0
+stars = 1
+tag_count = 0
+branches = 61
 
 [[repo]]
 url = "https://github.com/KYVENetwork/avalanche"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 0
+branches = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/celo"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+commits = 0
+stars = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/chain"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 10
+stars = 16
+tag_count = 0
+commits = 26
+branches = 23
 
 [[repo]]
 url = "https://github.com/KYVENetwork/chain-1"
+last_commit = "4e891f2832bf04c40c9ae67891a34b9089f58e84"
+last_commit_time = "2022-07-04T20:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 10
+commits = 17
+branches = 16
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/chain-test-data"
+last_commit = "8bfb9e72b4d7d087594e1bc36d8ed08549df4125"
+last_commit_time = "2022-07-11T15:31"
+status = "200"
+
+[repo.stats]
+branches = 8
+commits = 1
+forks = 0
+watching = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/contract-1"
+last_commit = "1e91d8f61b0ddf55a2ef0aa45ded309bc17491a7"
+last_commit_time = "2021-06-29T14:06"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 3
+watching = 1
+forks = 22
+branches = 73
 
 [[repo]]
 url = "https://github.com/KYVENetwork/core"
+last_commit = "cb3a0d19b740cc477061f9fefcabfd774ea84584"
+last_commit_time = "2022-07-19T08:48"
+status = "200"
+
+[repo.stats]
+forks = 8
+watching = 2
+stars = 30
+tag_count = 0
+branches = 717
+commits = 18
 
 [[repo]]
 url = "https://github.com/KYVENetwork/cosmos"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 0
+commits = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/cosmos-old"
+status = "404"
+
+[repo.stats]
+watching = 0
+commits = 0
+stars = 0
+branches = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/cosmos-sdk"
+last_commit = "6627df70b0455dd9bf24b77fd6ede36a2bbb906a"
+last_commit_time = "2022-07-04T09:22"
+status = "200"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+forks = 0
+stars = 2
+branches = 0
+commits = 235
 
 [[repo]]
 url = "https://github.com/KYVENetwork/demo"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+watching = 0
+forks = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/docs"
+last_commit = "7c47c91767e672dc6aa957d891c6daf912deb980"
+last_commit_time = "2022-07-27T12:38"
+status = "200"
+
+[repo.stats]
+stars = 5
+watching = 2
+branches = 117
+commits = 7
+forks = 9
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/evm"
+last_commit = "a6d3dcb3208d8189feb0b604bfd4bf1e08bfdb0b"
+last_commit_time = "2022-07-19T09:00"
+status = "200"
+
+[repo.stats]
+stars = 24
+watching = 4
+branches = 185
+tag_count = 0
+commits = 8
+forks = 17
 
 [[repo]]
 url = "https://github.com/KYVENetwork/evm-contracts"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+watching = 0
+stars = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/evm-snapshots"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+stars = 0
+tag_count = 0
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/evmosjs"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+stars = 0
+tag_count = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/faucet"
+last_commit = "4b6369dd9153cd583b9ef3163cb6a47d30567115"
+last_commit_time = "2021-09-21T14:50"
+status = "200"
+
+[repo.stats]
+branches = 16
+forks = 0
+watching = 2
+stars = 3
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/KYVENetwork/ibc-go"
+last_commit = "a21ad8438968813ad945ebdbc307511be88e3fee"
+last_commit_time = "2022-06-27T08:44"
+status = "200"
+
+[repo.stats]
+branches = 355
+commits = 67
+forks = 167
+watching = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/kyve"
+last_commit = "58f3e5c44f72aacaad3e08f3c777a4f993309264"
+last_commit_time = "2021-10-07T18:32"
+status = "200"
+
+[repo.stats]
+forks = 61
+watching = 13
+stars = 57
+branches = 330
+tag_count = 0
+commits = 7
 
 [[repo]]
 url = "https://github.com/KYVENetwork/landing"
+last_commit = "e205733ff525095b9dfcbc8cd027d13abc5b1a4d"
+last_commit_time = "2021-09-23T14:42"
+status = "200"
+
+[repo.stats]
+branches = 199
+tag_count = 0
+stars = 4
+commits = 3
+forks = 6
+watching = 2
 
 [[repo]]
 url = "https://github.com/KYVENetwork/logic"
+status = "404"
+
+[repo.stats]
+commits = 0
+branches = 0
+stars = 0
+watching = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/monk-kyve"
+last_commit = "29663fd5fe265aa82901377f73d0e873c30f6d6f"
+last_commit_time = "2021-12-09T13:29"
+status = "200"
+
+[repo.stats]
+branches = 1
+watching = 0
+forks = 0
+tag_count = 0
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/KYVENetwork/near"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 0
+commits = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/nfts"
+last_commit = "8ea1c84d48a544db292476d54236323308ed16c3"
+last_commit_time = "2022-02-11T20:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+branches = 2
+commits = 1
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/ora"
+last_commit = "ecf905acecddc49779b3f70351d0ea37e966850d"
+last_commit_time = "2021-11-19T13:25"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 288
+watching = 0
+branches = 145
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/polkadot"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+commits = 0
+tag_count = 0
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/proto"
+last_commit = "d91d51114481c45ed73e5fc95d835f71711be31a"
+last_commit_time = "2022-07-28T11:10"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 0
+branches = 33
+commits = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/sdk"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 1
+tag_count = 0
+branches = 435
+forks = 2
+commits = 15
 
 [[repo]]
 url = "https://github.com/KYVENetwork/SmartWeave"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+watching = 0
+tag_count = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/SmartWeave-fork"
+last_commit = "f8447497525bded09507df4a210c77656145d0f0"
+last_commit_time = "2021-06-25T13:10"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 10
+branches = 350
+forks = 58
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/KYVENetwork/snapshot"
+last_commit = "124dfae49741689cfd1948d7ed548458251dd015"
+last_commit_time = "2021-09-30T15:23"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 78
+watching = 0
+forks = 513
+tag_count = 0
+branches = 693
 
 [[repo]]
 url = "https://github.com/KYVENetwork/snapshot-hub"
+last_commit = "063bc5120f1f0863d28c700942f68ceb3c91ec1d"
+last_commit_time = "2021-10-05T12:49"
+status = "200"
+
+[repo.stats]
+branches = 359
+tag_count = 0
+forks = 146
+commits = 23
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/snapshot.js"
+last_commit = "a34ae9c3965861ec468a6f6cb2706804e85f174b"
+last_commit_time = "2021-09-26T17:29"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 30
+forks = 438
+tag_count = 0
+branches = 561
+watching = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/solana-old"
+status = "404"
+
+[repo.stats]
+stars = 0
+commits = 0
+tag_count = 0
+watching = 0
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/solana-snapshots"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+tag_count = 0
+watching = 0
+stars = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/stacks"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+stars = 0
+watching = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/KYVENetwork/swarm"
+last_commit = "2dc358c0e473aafd14f4a2eda3f814724b5810c4"
+last_commit_time = "2021-07-25T12:08"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+tag_count = 0
+watching = 1
+forks = 0
+branches = 17
 
 [[repo]]
 url = "https://github.com/KYVENetwork/wAR"
+status = "200"
+
+[repo.stats]
+watching = 4
+commits = 1
+branches = 18
+forks = 1
+tag_count = 0
+stars = 9

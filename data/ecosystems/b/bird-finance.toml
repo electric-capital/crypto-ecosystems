@@ -1,28 +1,100 @@
-# Ecosystem Level Information
 title = "Bird Finance"
-
+toml_path = "data/ecosystems/b/bird-finance.toml"
+github_organizations = ["https://github.com/BirdFinance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/BirdFinance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/BirdFinance/assets"
+last_commit = "a8e2e4485359faaa5dca58ca7075c97bafa41bf3"
+last_commit_time = "2021-07-07T09:05"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+tag_count = 0
+branches = 2
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/BirdFinance/Bird-Announcement"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 0
+branches = 0
+tag_count = 0
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/BirdFinance/bird-core"
+last_commit = "c3861f903b94678f4df3d24f95e961115305b490"
+last_commit_time = "2021-04-25T14:44"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+stars = 7
+branches = 2
+forks = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/BirdFinance/bird-core-heco"
+last_commit = "90b01910e9b266f89c3676b1a2453543e6246086"
+last_commit_time = "2021-07-14T19:06"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 2
+forks = 0
+commits = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/BirdFinance/BirdFinance-Introduction"
+last_commit = "689005422583a635530ec2c0a257f31c514caf15"
+last_commit_time = "2021-05-02T14:34"
+status = "200"
+
+[repo.stats]
+branches = 11
+commits = 1
+stars = 0
+watching = 1
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/BirdFinance/birdfinance.github.io"
+last_commit = "c1c4fdafed135176d1f5e68992659cd271c7ba88"
+last_commit_time = "2021-07-08T10:23"
+status = "200"
+
+[repo.stats]
+branches = 40
+tag_count = 0
+commits = 1
+forks = 0
+watching = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/BirdFinance/whitepaper"
+last_commit = "e1d6ffc1d19d6954c79e7fb99e6ce3122b009c34"
+last_commit_time = "2021-07-31T08:37"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+tag_count = 0
+commits = 1
+branches = 5
+stars = 0

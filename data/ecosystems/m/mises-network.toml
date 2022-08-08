@@ -1,88 +1,382 @@
-# Ecosystem Level Information
 title = "Mises Network"
-
+toml_path = "data/ecosystems/m/mises-network.toml"
+github_organizations = ["https://github.com/mises-id"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/mises-id"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/mises-id/browser"
+last_commit = "f8d3614f38a914247ac7eaac8d5cd43d266630d0"
+last_commit_time = "2021-08-31T04:22"
+status = "200"
+
+[repo.stats]
+branches = 112
+forks = 0
+stars = 0
+tag_count = 0
+commits = 3
+watching = 1
 
 [[repo]]
 url = "https://github.com/mises-id/cosmos-sdk"
+last_commit = "0de174ae122984614d27a66a7bdd7fed604dee5f"
+last_commit_time = "2022-03-02T19:04"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 0
+commits = 151
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mises-id/gotwi"
+last_commit = "907d3f6f05d3af66c08d14be5c206e904ed574a2"
+last_commit_time = "2022-03-08T01:06"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 2
+branches = 2
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mises-id/gravity-bridge"
+last_commit = "0195030967c3fef8f86da44ee89caa99564304cf"
+last_commit_time = "2021-08-28T15:27"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 173
+commits = 47
+stars = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mises-id/iavl"
+last_commit = "d38e76838a30ceca719aa1959c9bc2d7612094a6"
+last_commit_time = "2022-07-05T06:02"
+status = "200"
+
+[repo.stats]
+forks = 148
+stars = 0
+commits = 16
+tag_count = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/mises-id/js-sdk"
+last_commit = "e8a8c15f27e95b65931fc039e2b92f4a5a054b72"
+last_commit_time = "2022-07-28T06:54"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 0
+stars = 0
+tag_count = 0
+branches = 58
+watching = 1
 
 [[repo]]
 url = "https://github.com/mises-id/kit"
+last_commit = "bc5397e8a165a9193e82784b497360913ca8d4d3"
+last_commit_time = "2021-12-03T08:17"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 0
+tag_count = 0
+commits = 11
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/mises-id/mainnet"
+last_commit = "3ee1001dc7f986124736684bf71316f409c9556e"
+last_commit_time = "2022-03-25T10:39"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 4
+tag_count = 0
+forks = 0
+watching = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/mises-id/metamask-extension"
+last_commit = "e25c34e86b4a195264fd02067527443721f50dcf"
+last_commit_time = "2021-12-01T00:54"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 0
+tag_count = 0
+commits = 242
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/mises-id/metamask-mobile"
+last_commit = "dba76d52d72ccaa354f132f8f33038716116996f"
+last_commit_time = "2022-06-24T22:36"
+status = "200"
+
+[repo.stats]
+forks = 575
+watching = 0
+commits = 313
+stars = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/mises-id/mises-browser"
+last_commit = "25240453214dca58d8790be7ad87539064e6882f"
+last_commit_time = "2022-03-23T02:25"
+status = "200"
+
+[repo.stats]
+forks = 274
+tag_count = 0
+commits = 6
+stars = 0
+branches = 713
+watching = 0
 
 [[repo]]
 url = "https://github.com/mises-id/mises-browser-ios"
+last_commit = "e68071e3fa2730d27942d952cad37556c9122fd8"
+last_commit_time = "2022-07-20T06:33"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 10
+watching = 0
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mises-id/mises-tm"
+last_commit = "2ff794766774434d99196e94e3b67f9f2ef3efd8"
+last_commit_time = "2022-08-03T07:14"
+status = "200"
+
+[repo.stats]
+stars = 10
+watching = 1
+commits = 4
+branches = 94
+tag_count = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/mises-id/portal"
+last_commit = "0253cbd2c533948653c05d416a01d8326d20a4f8"
+last_commit_time = "2022-05-26T06:25"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 70
+watching = 0
+commits = 6
+branches = 183
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mises-id/react-native-sdk-bridge"
+last_commit = "a9604320bb63de6e6cc4f68f2338ecb49003988a"
+last_commit_time = "2021-11-24T05:26"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+branches = 35
+tag_count = 0
+watching = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/mises-id/redis"
+last_commit = "ab8472510a62e9a3fbde94fb18acbb4d4c607615"
+last_commit_time = "2022-04-12T06:05"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+branches = 4
+forks = 0
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/mises-id/sdk"
+last_commit = "29ea0c38cb95067002d986153e32be7a18d689a7"
+last_commit_time = "2022-03-28T09:38"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 68
+forks = 1
+commits = 3
+watching = 1
 
 [[repo]]
 url = "https://github.com/mises-id/sns"
+last_commit = "0ede45192defa068109995a9219028bdc8a23819"
+last_commit_time = "2021-11-30T00:40"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+watching = 2
+tag_count = 0
+forks = 0
+branches = 52
 
 [[repo]]
 url = "https://github.com/mises-id/sns-apigateway"
+last_commit = "5ba7590970eec77322fd979879b7b908718de228"
+last_commit_time = "2022-05-12T02:37"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 0
+tag_count = 0
+commits = 21
+branches = 104
 
 [[repo]]
 url = "https://github.com/mises-id/sns-redis"
+last_commit = "4c70f92742bdfe305e75e36ffb11aba8c46f1e02"
+last_commit_time = "2022-04-12T06:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+watching = 2
+stars = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/mises-id/sns-socialsvc"
+last_commit = "42e435ff425f8da2ba7e7b48b9cf588bf06c12fd"
+last_commit_time = "2022-08-04T01:22"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+branches = 319
+tag_count = 0
+forks = 0
+commits = 29
 
 [[repo]]
 url = "https://github.com/mises-id/sns-storagesvc"
+last_commit = "3cb69fa867f2dc87a2edcf5e254e74de016cbad1"
+last_commit_time = "2022-06-23T06:18"
+status = "200"
+
+[repo.stats]
+branches = 12
+commits = 1
+watching = 2
+stars = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mises-id/sns-web"
+last_commit = "68327d3bcb80fb68a9d17fe049f209e68e1b7e6a"
+last_commit_time = "2022-08-04T03:02"
+status = "200"
+
+[repo.stats]
+commits = 8
+watching = 1
+branches = 397
+tag_count = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/mises-id/src.next"
+last_commit = "9e8171569b44b23d0a84916b781b9d4e830be9e8"
+last_commit_time = "2022-01-22T11:38"
+status = "200"
+
+[repo.stats]
+forks = 139
+tag_count = 0
+branches = 715
+stars = 0
+watching = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/mises-id/tendermint"
+last_commit = "26b887b883fe85a60053ee8e5a77650eb26d9d96"
+last_commit_time = "2021-11-19T18:45"
+status = "200"
+
+[repo.stats]
+commits = 150
+watching = 0
+forks = 0
+branches = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/mises-id/tm-db"
+last_commit = "78edf1c4e9d346a02b273d9124182714db269d5d"
+last_commit_time = "2022-07-05T05:49"
+status = "200"
+
+[repo.stats]
+forks = 82
+tag_count = 0
+stars = 0
+branches = 144
+watching = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/mises-id/truss"
+last_commit = "5f7d5bf015f115c351fe7f769cd5122c184973d4"
+last_commit_time = "2021-11-26T09:27"
+status = "200"
+
+[repo.stats]
+commits = 26
+stars = 0
+forks = 143
+branches = 710
+watching = 0
+tag_count = 0

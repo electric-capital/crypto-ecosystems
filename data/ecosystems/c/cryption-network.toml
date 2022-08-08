@@ -1,31 +1,116 @@
-# Ecosystem Level Information
 title = "Cryption Network"
-
+toml_path = "data/ecosystems/c/cryption-network.toml"
+github_organizations = ["https://github.com/cryption-network"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/cryption-network"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/cryption-network/alpha-wallet-android"
+last_commit = "b5559d85c13c8de0a58d273041ac8d1d68c1e015"
+last_commit_time = "2021-08-03T08:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 395
+branches = 0
+commits = 18
+watching = 1
 
 [[repo]]
 url = "https://github.com/cryption-network/alpha-wallet-ios"
+last_commit = "b34809f2ed78567f2ca24b23fb0567fbe6367238"
+last_commit_time = "2021-06-03T08:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 22
+watching = 1
+branches = 0
+stars = 0
+forks = 271
 
 [[repo]]
 url = "https://github.com/cryption-network/cryption-lottery-contracts"
+last_commit = "6c8763849ad9c26464c0b92faf982500b6962cc5"
+last_commit_time = "2021-08-11T20:16"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 0
+forks = 4
+branches = 61
+commits = 5
 
 [[repo]]
 url = "https://github.com/cryption-network/matic-delegator-wrapper"
+last_commit = "2719a676d96004af0144e093ce03d08c22ed8ff1"
+last_commit_time = "2021-05-24T04:38"
+status = "200"
+
+[repo.stats]
+branches = 23
+stars = 1
+commits = 5
+watching = 1
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/cryption-network/polydex-contracts"
+last_commit = "07ae7f08b544ef4cef0bf4ecb16062aa8d67a637"
+last_commit_time = "2022-04-29T10:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 12
+forks = 1
+stars = 1
+branches = 375
+watching = 1
 
 [[repo]]
 url = "https://github.com/cryption-network/polydex-token-list"
+last_commit = "7570bb9e31b0e0e58caa376939afbdb0df9f39bd"
+last_commit_time = "2021-08-17T15:08"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 1
+tag_count = 0
+branches = 8
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/cryption-network/polydex-website"
+last_commit = "ea6590d0b46543afd53910a7a3f7ec5a73912f8a"
+last_commit_time = "2021-06-01T12:01"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+tag_count = 0
+commits = 1
+forks = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/cryption-network/token-erc20"
+last_commit = "d28e59751466b9cd691fd961a2df5afdb457f952"
+last_commit_time = "2021-05-27T14:28"
+status = "200"
+
+[repo.stats]
+branches = 21
+commits = 5
+forks = 0
+stars = 0
+watching = 1
+tag_count = 0

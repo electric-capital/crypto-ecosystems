@@ -1,13 +1,28 @@
-# Ecosystem Level Information
 title = "Blockswap Network"
-
+toml_path = "data/ecosystems/b/blockswap-network.toml"
+github_organizations = ["https://github.com/DAObaker"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/DAObaker"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/DAObaker/baker-ui"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+branches = 0
+forks = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/DAObaker/staking-economy"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+tag_count = 0
+commits = 0
+branches = 0
+forks = 0

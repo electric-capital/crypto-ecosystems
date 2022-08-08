@@ -1,16 +1,46 @@
-# Ecosystem Level Information
 title = "Geist Finance"
-
+toml_path = "data/ecosystems/g/geist-finance.toml"
+github_organizations = ["https://github.com/geist-finance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/geist-finance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/geist-finance/geist-airdrop-proofs"
+last_commit = "5efc4cebdc9332b838d255cff099c839e093a615"
+last_commit_time = "2022-05-15T10:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+stars = 0
+commits = 2
+branches = 9
+watching = 0
 
 [[repo]]
 url = "https://github.com/geist-finance/geist-branding"
+last_commit = "d1b177159d00a277b3caa6282d25334f240ae18b"
+last_commit_time = "2021-10-06T10:40"
+status = "200"
+
+[repo.stats]
+branches = 3
+tag_count = 0
+commits = 1
+stars = 0
+watching = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/geist-finance/geist-protocol"
+last_commit = "146e6bad85d4ccde0fb1d5318a03d24a277de5df"
+last_commit_time = "2021-11-26T21:45"
+status = "200"
+
+[repo.stats]
+stars = 19
+watching = 4
+branches = 81
+tag_count = 0
+forks = 20
+commits = 3

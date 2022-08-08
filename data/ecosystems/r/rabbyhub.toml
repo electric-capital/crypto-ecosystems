@@ -1,55 +1,226 @@
-# Ecosystem Level Information
 title = "RabbyHub"
-
+toml_path = "data/ecosystems/r/rabbyhub.toml"
+github_organizations = ["https://github.com/RabbyHub"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/RabbyHub"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/RabbyHub/eth-gnosis-keyring"
+last_commit = "1c1e0c6f8f48273e6a587555eb7b4357721df2d7"
+last_commit_time = "2021-11-26T08:16"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 3
+tag_count = 0
+stars = 1
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/RabbyHub/eth-hd-keyring"
+last_commit = "d1a56f6755584fc3a66400b2c3a484a3cd4520dd"
+last_commit_time = "2022-07-01T10:50"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+commits = 7
+watching = 0
+branches = 115
+forks = 49
 
 [[repo]]
 url = "https://github.com/RabbyHub/eth-keystone-keyring"
+last_commit = "6d640c5af06106b533ec18f42042ee0dd6452745"
+last_commit_time = "2022-01-20T10:57"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+forks = 1
+stars = 0
+branches = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/RabbyHub/eth-lattice-keyring"
+last_commit = "cd6c8476804295ac1d23a3c26b72dc390155057c"
+last_commit_time = "2022-07-21T07:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+commits = 3
+stars = 1
+branches = 164
+forks = 3
 
 [[repo]]
 url = "https://github.com/RabbyHub/eth-ledger-bridge-keyring"
+last_commit = "25301f6985c945053e21bb91fa65275b7f952a83"
+last_commit_time = "2021-06-10T17:31"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+branches = 63
+commits = 2
+forks = 82
+stars = 1
 
 [[repo]]
 url = "https://github.com/RabbyHub/eth-simple-keyring"
+last_commit = "2270613bbf36ad685ced676b56761fa3c71c6710"
+last_commit_time = "2021-10-22T08:08"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+forks = 38
+branches = 129
+commits = 6
+watching = 0
 
 [[repo]]
 url = "https://github.com/RabbyHub/eth-trezor-keyring"
+last_commit = "176d707fd981eddc132ba3983a0a07ea863a3b37"
+last_commit_time = "2022-07-22T08:53"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 0
+forks = 47
+branches = 151
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/RabbyHub/eth-walletconnect-keyring"
+last_commit = "ad0c654b232facc5df1824874aa64c09509272d8"
+last_commit_time = "2022-07-22T08:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+branches = 29
+watching = 2
+forks = 3
+stars = 1
 
 [[repo]]
 url = "https://github.com/RabbyHub/eth-watch-keyring"
+last_commit = "443c94b09be745eed34ca345b3278bed6a6efa02"
+last_commit_time = "2021-10-25T05:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+watching = 1
+forks = 2
+commits = 1
+branches = 3
 
 [[repo]]
 url = "https://github.com/RabbyHub/gnosis-sdk"
+last_commit = "a95d94fac9a5a59b2d901f4eeb29989981db917c"
+last_commit_time = "2022-06-16T05:37"
+status = "200"
+
+[repo.stats]
+branches = 18
+commits = 1
+tag_count = 0
+watching = 1
+forks = 3
+stars = 1
 
 [[repo]]
 url = "https://github.com/RabbyHub/logo"
+last_commit = "297c81228f53e1db863ee44e49faf68d96719951"
+last_commit_time = "2022-07-13T06:17"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 2
+commits = 1
+forks = 3
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/RabbyHub/page-provider"
+last_commit = "e20f837a595a66828f1a93581a537dd983667c85"
+last_commit_time = "2022-07-07T09:11"
+status = "200"
+
+[repo.stats]
+commits = 6
+stars = 0
+forks = 1
+branches = 14
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/RabbyHub/Rabby"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 13
+stars = 428
+watching = 14
+tag_count = 0
+forks = 96
 
 [[repo]]
 url = "https://github.com/RabbyHub/rabby.io"
+last_commit = "7f1d2ecacf7ea0a3bf8db41c6e0b58ba5b27890b"
+last_commit_time = "2022-07-18T07:44"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 39
+tag_count = 0
+commits = 8
+stars = 1
+forks = 6
 
 [[repo]]
 url = "https://github.com/RabbyHub/Web3AppStoreProtocol"
+last_commit = "0d492e1afd8ddf9cca780bb2d8bdc602bba2fbc1"
+last_commit_time = "2021-12-09T06:25"
+status = "200"
+
+[repo.stats]
+branches = 4
+tag_count = 0
+commits = 1
+forks = 9
+stars = 48
+watching = 7
 
 [[repo]]
 url = "https://github.com/RabbyHub/Widgets"
+last_commit = "f88f670e1fbfa1380b6dacee9b8340002b12e5f6"
+last_commit_time = "2022-07-08T10:56"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+forks = 1
+commits = 2
+stars = 0
+branches = 16

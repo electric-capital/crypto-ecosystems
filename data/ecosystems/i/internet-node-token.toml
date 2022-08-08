@@ -1,88 +1,382 @@
-# Ecosystem Level Information
 title = "Internet Node Token"
-
+toml_path = "data/ecosystems/i/internet-node-token.toml"
+github_organizations = ["https://github.com/intfoundation"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/intfoundation"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/intfoundation/bls"
+last_commit = "c55172c10103270668039651fb6fdcdb694a564e"
+last_commit_time = "2020-06-24T02:15"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+branches = 3
+commits = 1
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/intfoundation/ed25519"
+last_commit = "6dca389788a5ffac6997178cc8b21e77d03ecb4b"
+last_commit_time = "2020-09-22T09:56"
+status = "200"
+
+[repo.stats]
+branches = 22
+forks = 0
+tag_count = 0
+commits = 1
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/intfoundation/explorer.intchain.io"
+last_commit = "d6828890fefd4a3649a0f5c77fd657f4e2bb592b"
+last_commit_time = "2020-05-26T07:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 3
+forks = 3
+commits = 21
+branches = 25
+watching = 2
 
 [[repo]]
 url = "https://github.com/intfoundation/go-common"
+last_commit = "a67a27671cffc30b523434e3d03d119dc00d5676"
+last_commit_time = "2021-03-10T06:27"
+status = "200"
+
+[repo.stats]
+branches = 5
+commits = 1
+watching = 1
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/intfoundation/go-config"
+last_commit = "ed114eb48bbda85b2acb6b6a2ca0b3a34c4e55b5"
+last_commit_time = "2020-03-31T10:26"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+tag_count = 0
+commits = 1
+branches = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/intfoundation/go-crypto"
+last_commit = "26ffc80f605daabe37b697e879ec403419d5704c"
+last_commit_time = "2021-03-08T10:29"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+branches = 5
+forks = 0
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/intfoundation/go-data"
+last_commit = "8739b447c7c0f2f84678a7ab8f7ee8fcf8e9a0d1"
+last_commit_time = "2020-03-31T10:27"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 1
+branches = 3
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/intfoundation/go-db"
+last_commit = "55e5660b89c5b571e981483e707cbe35a39b7288"
+last_commit_time = "2021-04-14T07:36"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 5
+stars = 0
+tag_count = 0
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/intfoundation/go-events"
+last_commit = "5b5d39a08e391453ce0d0b6e244b508dbaf1fec6"
+last_commit_time = "2020-03-31T10:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 3
+forks = 0
+commits = 1
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/intfoundation/go-logger"
+last_commit = "debdb8321dfe0930797907c6c6d777534a20d708"
+last_commit_time = "2020-03-31T10:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+branches = 3
+watching = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/intfoundation/go-merkle"
+last_commit = "48c5150f09f04b079bcea89e7287ae4e8e90298d"
+last_commit_time = "2020-03-31T10:30"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 1
+branches = 3
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/intfoundation/go-wire"
+last_commit = "5c5566f2bcbe2e2b99ab711afb1e0080c24b5692"
+last_commit_time = "2020-03-31T10:31"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+branches = 3
+commits = 1
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/intfoundation/IIPs"
+last_commit = "0c3edcae53f79d3c2b0c797de17061aaddac1c09"
+last_commit_time = "2021-05-19T06:44"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+forks = 0
+branches = 1
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/intfoundation/int"
+last_commit = "894c430cafdad4180dd8ac0668f5f977e7ebe6ef"
+last_commit_time = "2020-08-10T14:27"
+status = "200"
+
+[repo.stats]
+branches = 600
+stars = 23
+commits = 5
+tag_count = 0
+watching = 10
+forks = 11
 
 [[repo]]
 url = "https://github.com/intfoundation/int-wallet"
+last_commit = "088e310b61ca51bfd6c99d2dc02b79adba8f9e3f"
+last_commit_time = "2019-07-19T07:58"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+commits = 2
+watching = 2
+branches = 137
+stars = 3
 
 [[repo]]
 url = "https://github.com/intfoundation/int4.js"
+last_commit = "308be9ce3de552903180eb96ecdfb1611c354179"
+last_commit_time = "2021-08-19T01:48"
+status = "200"
+
+[repo.stats]
+branches = 79
+tag_count = 0
+watching = 2
+forks = 1
+commits = 1
+stars = 4
 
 [[repo]]
 url = "https://github.com/intfoundation/intchain"
+last_commit = "4316ad31ca73b4091e0c1ccad37c5f0a5f5858ee"
+last_commit_time = "2022-07-27T03:12"
+status = "200"
+
+[repo.stats]
+branches = 412
+commits = 13
+tag_count = 0
+stars = 11
+forks = 6
+watching = 3
 
 [[repo]]
 url = "https://github.com/intfoundation/intchain-docs"
+last_commit = "41f2f31db7880be5d85135ab564010dd1d52aba2"
+last_commit_time = "2021-09-14T09:28"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+branches = 82
+forks = 4
+stars = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/intfoundation/intchain-wallet"
+last_commit = "b3289f710ca833b6ebbbf25c8c29fbedf065caae"
+last_commit_time = "2020-02-28T02:58"
+status = "200"
+
+[repo.stats]
+stars = 8
+forks = 2
+tag_count = 0
+branches = 172
+commits = 11
+watching = 4
 
 [[repo]]
 url = "https://github.com/intfoundation/intchain.io"
+last_commit = "1c0e1249cf591f036327575d78991d4b79be5f55"
+last_commit_time = "2022-07-15T09:04"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 29
+branches = 125
+stars = 4
+forks = 2
+watching = 3
 
 [[repo]]
 url = "https://github.com/intfoundation/intchain4.0-wallet"
+last_commit = "a72ddc76758f1af48d648a4f12fa5ce0af3a57cd"
+last_commit_time = "2022-01-28T10:19"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 1
+branches = 28
+tag_count = 0
+stars = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/intfoundation/intjs"
+last_commit = "356b170db87a000ad2b71f816bd02089f14d45e3"
+last_commit_time = "2020-09-28T03:27"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 2
+branches = 143
+commits = 2
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/intfoundation/log15"
+last_commit = "f4847a447c669e0200a7a46b82462edb1e80b122"
+last_commit_time = "2020-03-31T10:31"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+stars = 0
+commits = 1
+forks = 0
+branches = 3
 
 [[repo]]
 url = "https://github.com/intfoundation/prometheus-flock"
+last_commit = "fe77fc14a2d3f98ecadc9ba6302a292c58279d26"
+last_commit_time = "2020-03-31T10:32"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+branches = 3
+commits = 1
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/intfoundation/set.v0"
+last_commit = "ecca20c67ad9b58fbbe732641fe68c71ecbec018"
+last_commit_time = "2020-03-31T09:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+stars = 0
+branches = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/intfoundation/test"
+last_commit = "9245c2742d74866f08d0ee49f9714c2b463d3674"
+last_commit_time = "2020-09-09T09:53"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+branches = 1
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/intfoundation/titansexplorer"
+last_commit = "7e7b6156d36702631e18c751a757ba14c8b79099"
+last_commit_time = "2022-05-23T06:47"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+stars = 4
+commits = 13
+branches = 190
+watching = 3

@@ -1,76 +1,326 @@
-# Ecosystem Level Information
 title = "Apron Labs"
-
+toml_path = "data/ecosystems/a/apron-labs.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/Apron-Network/apps"
+last_commit = "31281edfd14c503240d2af3f56d25396c5c63e49"
+last_commit_time = "2021-06-30T15:28"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 1
+branches = 0
+tag_count = 0
+commits = 6
+forks = 959
 
 [[repo]]
 url = "https://github.com/Apron-Network/apron-contracts"
+last_commit = "db312d5511ae9ed5801f33319d3b2f4f6692ef32"
+last_commit_time = "2021-12-09T16:06"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+branches = 34
+commits = 4
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/Apron-Network/apron-deployer"
+last_commit = "978cbe537dc9ef1fccd26d065c536e1857820603"
+last_commit_time = "2021-08-18T17:23"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 45
+watching = 1
+forks = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/Apron-Network/apron-gateway-p2p"
+last_commit = "274623ff57b8ff7055a7af0e37dfe7237d1781cd"
+last_commit_time = "2022-04-07T00:08"
+status = "200"
+
+[repo.stats]
+branches = 86
+watching = 0
+forks = 0
+stars = 0
+tag_count = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/Apron-Network/apron-marketplace"
+last_commit = "cf589c7dfd505f6ae46a055ccfd838fdbb2d9934"
+last_commit_time = "2021-08-15T09:27"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 74
+watching = 0
+stars = 0
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Apron-Network/Apron-Network.github.io"
+last_commit = "98fb3857ea5b7abf2368235a4a15df9c92f97cda"
+last_commit_time = "2022-01-18T06:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+branches = 59
+watching = 3
+commits = 2
+forks = 4
 
 [[repo]]
 url = "https://github.com/Apron-Network/apron-node"
+last_commit = "90405faa477face08e472d03c2786c3a360e31af"
+last_commit_time = "2021-12-17T18:12"
+status = "200"
+
+[repo.stats]
+branches = 28
+stars = 3
+commits = 4
+tag_count = 0
+forks = 3
+watching = 1
 
 [[repo]]
 url = "https://github.com/Apron-Network/blockbook"
+last_commit = "93f8f134144a0c6dacf8a5c23d7f8e9b9a277318"
+last_commit_time = "2021-06-02T11:58"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 551
+tag_count = 0
+commits = 19
+branches = 0
 
 [[repo]]
 url = "https://github.com/Apron-Network/branding"
+last_commit = "e230e21140b8f75ba8d76c82488c27c78d7a2f77"
+last_commit_time = "2021-06-15T18:36"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+branches = 3
+watching = 1
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Apron-Network/crowdloan-ui"
+last_commit = "d53cf000328398dbf5255ace61c0f2aede611059"
+last_commit_time = "2021-07-08T09:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 8
+watching = 1
+forks = 2
+branches = 540
 
 [[repo]]
 url = "https://github.com/Apron-Network/crowdportal"
+last_commit = "b680a3926ec3acd066b822e8abc2e64fa9ccb052"
+last_commit_time = "2022-01-24T20:09"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 28
+commits = 1
+forks = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Apron-Network/dashboard-static"
+last_commit = "801bb10cb2be35c1bc162387d625af99fc2fc7e9"
+last_commit_time = "2021-08-15T01:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 3
+branches = 64
+stars = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/Apron-Network/dashboard-static_test"
+last_commit = "373de092fd2f9c48d7b7d41f1350367690e5814e"
+last_commit_time = "2021-07-30T05:04"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 0
+tag_count = 0
+branches = 8
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/Apron-Network/heco-explorer"
+last_commit = "96c9fd4f858ca70a4b5cd2c8c1420641f2c5866f"
+last_commit_time = "2021-01-23T18:22"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 144
+tag_count = 0
+watching = 1
+branches = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Apron-Network/ink"
+last_commit = "44c51d197194294cf27b15b28d206886c3ada182"
+last_commit_time = "2021-12-01T06:48"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 1
+forks = 310
+stars = 0
+tag_count = 0
+commits = 69
 
 [[repo]]
 url = "https://github.com/Apron-Network/investors"
+last_commit = "7dc34e637199395763f219517520f2de842f9cd8"
+last_commit_time = "2021-05-12T12:10"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+commits = 1
+watching = 1
+branches = 4
 
 [[repo]]
 url = "https://github.com/Apron-Network/kpron-parachain"
+last_commit = "1858348b7d27192b7854a3608a6cdae69e4af99d"
+last_commit_time = "2021-06-29T17:54"
+status = "200"
+
+[repo.stats]
+branches = 9
+tag_count = 0
+commits = 1
+stars = 1
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/Apron-Network/materials"
+last_commit = "ace1e98f0f003a5eb7c370e4b2af9b0ee9753480"
+last_commit_time = "2021-12-21T06:27"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 1
+branches = 51
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/Apron-Network/patract-open-platform-program"
+last_commit = "49cd58771120ee6e10c132a65594ff9637736418"
+last_commit_time = "2021-04-30T10:27"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 24
+watching = 1
+tag_count = 0
+branches = 17
+commits = 1
 
 [[repo]]
 url = "https://github.com/Apron-Network/prelaunch"
+last_commit = "06b6e1a169dccd4c8a15e49f4defb5b59f9e2c05"
+last_commit_time = "2021-04-19T02:17"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 1
+forks = 1
+branches = 80
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Apron-Network/slot_crowdfunding"
+last_commit = "8fb3b7c1851aa4c0caefc4a596b1fe2ef01d4d2e"
+last_commit_time = "2021-07-13T13:48"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 2
+stars = 0
+branches = 14
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/Apron-Network/testing"
+last_commit = "70b585e4eefafcb43bee96a9ba53cd4efe80facd"
+last_commit_time = "2021-08-11T08:41"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+branches = 7
+tag_count = 0
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/Apron-Network/upptime"
+last_commit = "2653d75e66cab0cc48d92c7427d602571d5037a3"
+last_commit_time = "2022-08-05T00:50"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+tag_count = 0
+branches = 0
+commits = 2
+watching = 1

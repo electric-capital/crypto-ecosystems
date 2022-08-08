@@ -1,583 +1,2606 @@
-# Ecosystem Level Information
 title = "MetaMask"
-
+toml_path = "data/ecosystems/m/metamask.toml"
+github_organizations = ["https://github.com/MetaMask"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/MetaMask"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/MetaMask/.github"
+last_commit = "63f48f95f4ee1730a857686ade588f238ee2ff2f"
+last_commit_time = "2022-06-17T20:04"
+status = "200"
+
+[repo.stats]
+forks = 54
+tag_count = 0
+stars = 8
+commits = 3
+watching = 30
+branches = 17
 
 [[repo]]
 url = "https://github.com/MetaMask/action-create-release-pr"
+last_commit = "400535b2c2bae02256656ce770b64ef7a22708df"
+last_commit_time = "2022-07-08T20:55"
+status = "200"
+
+[repo.stats]
+commits = 5
+watching = 27
+branches = 105
+stars = 4
+forks = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/action-monorepo-release-pr"
+last_commit = "9192a7d539167ccbb90d0b4e9b0f00b8447a039e"
+last_commit_time = "2021-05-14T15:33"
+status = "200"
+
+[repo.stats]
+forks = 3
+branches = 23
+tag_count = 0
+watching = 28
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/action-npm-publish"
+last_commit = "4c4dcb72354194a2028a9ff881250130afd0089c"
+last_commit_time = "2022-07-21T16:55"
+status = "200"
+
+[repo.stats]
+branches = 5
+watching = 21
+tag_count = 0
+forks = 3
+stars = 1
+commits = 3
 
 [[repo]]
 url = "https://github.com/MetaMask/action-publish-gh-pages"
+last_commit = "9cd2f09da54e03cb1d31b54ed41791dcac7fe249"
+last_commit_time = "2022-05-17T19:11"
+status = "200"
+
+[repo.stats]
+forks = 5
+branches = 38
+tag_count = 0
+commits = 2
+stars = 2
+watching = 26
 
 [[repo]]
 url = "https://github.com/MetaMask/action-publish-release"
+last_commit = "c4c5b497e1ed047dfee81ed16c94dc99996c7405"
+last_commit_time = "2022-08-03T17:00"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 26
+forks = 5
+tag_count = 0
+commits = 3
+branches = 46
 
 [[repo]]
 url = "https://github.com/MetaMask/action-require-additional-reviewer"
+last_commit = "099c39741dd650b2a5ef575be8c936245882a50d"
+last_commit_time = "2022-02-10T02:52"
+status = "200"
+
+[repo.stats]
+branches = 35
+tag_count = 0
+commits = 2
+watching = 25
+forks = 6
+stars = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/action-utils"
+last_commit = "5ac2e7e0db44655072b13198ff630e800dc3c661"
+last_commit_time = "2022-06-21T15:27"
+status = "200"
+
+[repo.stats]
+watching = 28
+forks = 4
+stars = 1
+branches = 21
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/actions-gh-pages-test-repo"
+last_commit = "65abfe1eda78aa910acd0ae2fed9b3e692f37321"
+last_commit_time = "2021-11-23T02:14"
+status = "200"
+
+[repo.stats]
+branches = 264
+tag_count = 0
+commits = 7
+forks = 1
+watching = 23
+stars = 4
 
 [[repo]]
 url = "https://github.com/MetaMask/actions-test-repo"
+last_commit = "72d9d2988a1aaa740033185e6854010ae31cc837"
+last_commit_time = "2022-03-11T20:41"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 2
+tag_count = 0
+watching = 25
+branches = 22
+commits = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/Add-Token"
+status = "200"
+
+[repo.stats]
+stars = 101
+branches = 63
+commits = 5
+watching = 36
+forks = 97
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/api-playground"
+last_commit = "2f77f70dadec913047c2f6dd14c6f20a399caf02"
+last_commit_time = "2022-02-20T17:23"
+status = "200"
+
+[repo.stats]
+forks = 8
+watching = 27
+tag_count = 0
+branches = 82
+commits = 18
+stars = 4
 
 [[repo]]
 url = "https://github.com/MetaMask/api-specs"
+last_commit = "849b22050441859250ac7420a2e6626def737a72"
+last_commit_time = "2022-07-26T20:43"
+status = "200"
+
+[repo.stats]
+branches = 189
+commits = 2
+forks = 6
+stars = 11
+tag_count = 0
+watching = 27
 
 [[repo]]
 url = "https://github.com/MetaMask/audit-results"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 0
+branches = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/auto-changelog"
+last_commit = "1c931ec77867f2d70ff5197cc25ee7dba99d2425"
+last_commit_time = "2022-06-21T18:02"
+status = "200"
+
+[repo.stats]
+branches = 77
+tag_count = 0
+forks = 4
+watching = 28
+commits = 1
+stars = 3
 
 [[repo]]
 url = "https://github.com/MetaMask/beaker"
+last_commit = "92db27ec1dd518900ce461bf119d3cd0169f13a1"
+last_commit_time = "2018-05-29T21:47"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+commits = 13
+branches = 0
+stars = 1
+forks = 565
 
 [[repo]]
 url = "https://github.com/MetaMask/bify-module-groups"
+last_commit = "83f40498db186bbcf0a8b623cdaf2fd00d7ec26e"
+last_commit_time = "2022-05-04T04:35"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 4
+watching = 28
+branches = 33
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/bip39"
+last_commit = "9e0df2f0c0842ee75d4e889243878c8c00a4c32d"
+last_commit_time = "2022-04-13T15:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 274
+commits = 16
+watching = 2
+stars = 1
+forks = 396
 
 [[repo]]
 url = "https://github.com/MetaMask/bitrise_verification"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+tag_count = 0
+watching = 0
+stars = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/brand-resources"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 33
+watching = 8
+forks = 159
+commits = 1
+branches = 17
 
 [[repo]]
 url = "https://github.com/MetaMask/browser-passworder"
+status = "200"
+
+[repo.stats]
+stars = 57
+forks = 29
+tag_count = 0
+watching = 26
+branches = 46
+commits = 5
 
 [[repo]]
 url = "https://github.com/MetaMask/cla-signature-bot"
+last_commit = "f779672fbd026ea222bff00ef823751d5b9824a1"
+last_commit_time = "2021-04-28T22:16"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 2
+forks = 10
+branches = 173
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/Code-of-Conduct"
+last_commit = "e7cf07d09b6791a742be4fed561339494833c354"
+last_commit_time = "2018-08-30T20:58"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 28
+branches = 2
+stars = 0
+forks = 4
+commits = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/contract-metadata"
+status = "200"
+
+[repo.stats]
+stars = 337
+forks = 922
+watching = 38
+branches = 853
+tag_count = 0
+commits = 12
 
 [[repo]]
 url = "https://github.com/MetaMask/contributor-docs"
+last_commit = "d1aed7c54fcdaa3dcaa7d5f607177126a20816d6"
+last_commit_time = "2022-03-14T17:41"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 1
+watching = 2
+branches = 1
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/controllers"
+status = "200"
+
+[repo.stats]
+forks = 98
+stars = 120
+tag_count = 0
+branches = 778
+commits = 98
+watching = 33
 
 [[repo]]
 url = "https://github.com/MetaMask/crowdin-github-action"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+watching = 0
+forks = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/cryptopp"
+last_commit = "f320e7d92a33ee80ae42deef79da78cfc30868af"
+last_commit_time = "2018-06-03T13:10"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 2
+tag_count = 0
+forks = 0
+stars = 4
+watching = 4
 
 [[repo]]
 url = "https://github.com/MetaMask/dapps"
+last_commit = "70c52c05de3ab69d8a72c0469bc9f243ec5cd1b2"
+last_commit_time = "2022-07-22T07:28"
+status = "200"
+
+[repo.stats]
+watching = 32
+stars = 97
+commits = 13
+forks = 82
+tag_count = 0
+branches = 103
 
 [[repo]]
 url = "https://github.com/MetaMask/Design"
+last_commit = "4b3c0e8f7c669599b71e9657a9dc184338225723"
+last_commit_time = "2018-03-07T05:59"
+status = "200"
+
+[repo.stats]
+forks = 4
+stars = 6
+branches = 1
+watching = 13
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/design-tokens"
+last_commit = "f4092b2ee41fcd1bc8293b90311279499b8c3e66"
+last_commit_time = "2022-07-28T23:00"
+status = "200"
+
+[repo.stats]
+branches = 75
+commits = 14
+stars = 10
+tag_count = 0
+watching = 21
+forks = 5
 
 [[repo]]
 url = "https://github.com/MetaMask/detect-provider"
+last_commit = "c9e0efbfe74320de91e518a4bb8c7c6541958740"
+last_commit_time = "2022-08-03T17:14"
+status = "200"
+
+[repo.stats]
+stars = 155
+tag_count = 0
+forks = 42
+watching = 31
+branches = 43
+commits = 5
 
 [[repo]]
 url = "https://github.com/MetaMask/devcon1-talk"
+last_commit = "5b17170f2ae65d873460c2abc15874c2797d40ee"
+last_commit_time = "2020-02-21T15:27"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 0
+watching = 2
+forks = 3
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/docker-prod"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 0
+tag_count = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/erc20-generator"
+last_commit = "f8cb8fd479039c62e72dfd65178af564ddfa877f"
+last_commit_time = "2019-12-23T12:24"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 60
+tag_count = 0
+stars = 10
+commits = 3
+forks = 331
 
 [[repo]]
 url = "https://github.com/MetaMask/eslint-config"
+last_commit = "4edb7f1d3c11412dda4ac53e103452c4396422c3"
+last_commit_time = "2022-06-29T17:22"
+status = "200"
+
+[repo.stats]
+stars = 5
+tag_count = 0
+forks = 11
+branches = 147
+watching = 28
+commits = 8
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-block-tracker"
+status = "200"
+
+[repo.stats]
+forks = 85
+tag_count = 0
+watching = 35
+branches = 216
+commits = 5
+stars = 112
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-brave-keyring"
+last_commit = "359d225ebba8278142abd6cfcc8fc0a1bcfb89b9"
+last_commit_time = "2020-03-18T14:55"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 30
+tag_count = 0
+commits = 1
+branches = 36
+stars = 3
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-contract-metadata"
+last_commit = "5676d14dce629b71396f3d78218c138d213b9b29"
+last_commit_time = "2022-07-19T09:49"
+status = "200"
+
+[repo.stats]
+stars = 337
+branches = 853
+commits = 12
+tag_count = 0
+forks = 922
+watching = 38
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-faucet"
+last_commit = "bf3651f6229a259fbbd635c9671304ca85f364de"
+last_commit_time = "2022-04-29T19:38"
+status = "200"
+
+[repo.stats]
+branches = 205
+tag_count = 0
+commits = 4
+watching = 33
+forks = 40
+stars = 57
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-gas-price-suggestor"
+last_commit = "9bc89404e8d828eb46fb459898bbce35584112c9"
+last_commit_time = "2017-06-23T02:14"
+status = "200"
+
+[repo.stats]
+stars = 14
+tag_count = 0
+forks = 8
+commits = 2
+branches = 12
+watching = 5
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-gnosis-safe-keyring"
+last_commit = "48c352243541d2775fda45692ae4b4308c058d2a"
+last_commit_time = "2018-07-04T00:48"
+status = "200"
+
+[repo.stats]
+watching = 30
+tag_count = 0
+commits = 1
+forks = 3
+branches = 37
+stars = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-hd-keyring"
+last_commit = "52391a2a384aab545765838ed4bbe25d1608d0ed"
+last_commit_time = "2022-04-20T14:25"
+status = "200"
+
+[repo.stats]
+branches = 101
+stars = 50
+watching = 31
+forks = 49
+commits = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-ipfs-browser-client"
+last_commit = "a28b3cbbcd4a7164ee16a37add65e880ecd3e3fc"
+last_commit_time = "2017-10-06T22:21"
+status = "200"
+
+[repo.stats]
+forks = 7
+branches = 14
+watching = 8
+commits = 4
+tag_count = 0
+stars = 19
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-json-rpc-errors"
+last_commit = "f917c2cfee9e6117a88be4178f2a877aff3acabe"
+last_commit_time = "2021-08-11T23:08"
+status = "200"
+
+[repo.stats]
+stars = 70
+tag_count = 0
+forks = 26
+watching = 31
+branches = 72
+commits = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-json-rpc-filters"
+last_commit = "21ab9bbbce18a7847f37c285433e20f5bf2f0498"
+last_commit_time = "2022-06-03T14:32"
+status = "200"
+
+[repo.stats]
+watching = 31
+forks = 41
+stars = 23
+tag_count = 0
+branches = 130
+commits = 5
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-json-rpc-infura"
+status = "200"
+
+[repo.stats]
+branches = 103
+watching = 30
+commits = 2
+forks = 51
+tag_count = 0
+stars = 37
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-json-rpc-middleware"
+status = "200"
+
+[repo.stats]
+stars = 121
+branches = 239
+commits = 4
+watching = 33
+forks = 88
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-ledger-bridge-keyring"
+last_commit = "9a87fac6b135fe63f8f6a1291cc1173864bea86e"
+last_commit_time = "2022-05-27T15:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 34
+branches = 87
+forks = 82
+stars = 56
+commits = 14
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-method-registry"
+last_commit = "587a921c0714fee463c7c9e4963632384cf6b600"
+last_commit_time = "2021-08-12T03:50"
+status = "200"
+
+[repo.stats]
+forks = 14
+branches = 41
+commits = 3
+watching = 31
+tag_count = 0
+stars = 18
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-passthrough-keyring"
+last_commit = "d39703a814211249edca57fb419107853e2c81e7"
+last_commit_time = "2020-02-24T20:36"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 1
+forks = 3
+tag_count = 0
+watching = 6
+branches = 51
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-phishing-detect"
+last_commit = "fe8dc092e68885d0b26668c5ee62a1b1eac4f37b"
+last_commit_time = "2022-08-04T18:13"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 58
+stars = 490
+tag_count = 0
+forks = 547
+watching = 72
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-rpc-client"
+last_commit = "8abb4cda28f11044a909ece0f8c74daffea07e86"
+last_commit_time = "2017-10-26T05:33"
+status = "200"
+
+[repo.stats]
+stars = 3
+tag_count = 0
+watching = 30
+forks = 3
+branches = 25
+commits = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-rpc-errors"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 31
+forks = 26
+stars = 70
+tag_count = 0
+branches = 72
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-rpc-wrapper"
+last_commit = "821e61e150b1232c1368c9f18239fad360a007a7"
+last_commit_time = "2016-01-31T06:30"
+status = "200"
+
+[repo.stats]
+stars = 2
+commits = 4
+forks = 8
+tag_count = 0
+branches = 27
+watching = 40
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-sig-util"
+last_commit = "e293ea9f071a4605205746e97691370229ebc227"
+last_commit_time = "2022-05-13T18:02"
+status = "200"
+
+[repo.stats]
+commits = 12
+watching = 47
+branches = 240
+stars = 438
+forks = 204
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-simple-keyring"
+status = "200"
+
+[repo.stats]
+branches = 130
+watching = 32
+commits = 7
+stars = 68
+tag_count = 0
+forks = 38
 
 [[repo]]
 url = "https://github.com/MetaMask/Eth-Token-Sender"
+last_commit = "d2ebf1c9cff7ca8f75a16eab44277494c0eea8b2"
+last_commit_time = "2017-02-11T07:15"
+status = "200"
+
+[repo.stats]
+stars = 13
+watching = 8
+tag_count = 0
+forks = 16
+branches = 33
+commits = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-token-tracker"
+last_commit = "bf28b284c750343a2eef647d1e8bf16541e870ef"
+last_commit_time = "2022-01-10T13:30"
+status = "200"
+
+[repo.stats]
+commits = 5
+watching = 30
+forks = 43
+stars = 67
+tag_count = 0
+branches = 117
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-trezor-keyring"
+last_commit = "25634133af29a0e0f2ff90f9fa813a84b5e8056b"
+last_commit_time = "2022-06-03T02:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 7
+forks = 47
+branches = 149
+stars = 21
+watching = 32
 
 [[repo]]
 url = "https://github.com/MetaMask/eth-tx-viz"
+last_commit = "c37f5166c113d1fea809fbe798f5e5eac7127f3b"
+last_commit_time = "2017-02-13T01:00"
+status = "200"
+
+[repo.stats]
+forks = 6
+branches = 70
+commits = 31
+tag_count = 0
+watching = 33
+stars = 8
 
 [[repo]]
 url = "https://github.com/MetaMask/ethereum-provider-openrpc-generator"
+last_commit = "fc41d84aaad6f5470fe6e931fc9a027bd1781aa0"
+last_commit_time = "2022-03-23T20:29"
+status = "200"
+
+[repo.stats]
+forks = 3
+branches = 802
+watching = 3
+tag_count = 0
+stars = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/etherscan-link"
+last_commit = "bcea85bea666d4119058e799c08c3fb06784c089"
+last_commit_time = "2022-05-02T13:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 31
+stars = 26
+forks = 38
+branches = 45
+commits = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/EthLoginController"
+last_commit = "bbd69058a67a97003ba28b6dbec31aa76a5679f6"
+last_commit_time = "2019-01-11T00:34"
+status = "200"
+
+[repo.stats]
+branches = 15
+commits = 2
+stars = 1
+watching = 3
+tag_count = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/extension-port-stream"
+last_commit = "374bbf63df9194244d6da5879b423a88bd4809f7"
+last_commit_time = "2021-10-04T19:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+forks = 5
+branches = 20
+watching = 29
+stars = 16
 
 [[repo]]
 url = "https://github.com/MetaMask/extension-provider"
+status = "200"
+
+[repo.stats]
+branches = 19
+stars = 38
+commits = 2
+tag_count = 0
+watching = 32
+forks = 17
 
 [[repo]]
 url = "https://github.com/MetaMask/extension_bundlesize_stats"
+last_commit = "4c9b88bf66ef94e12af888faae99bfaa392859e9"
+last_commit_time = "2022-08-04T18:29"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 10
+commits = 1
+stars = 1
+tag_count = 0
+branches = 61
 
 [[repo]]
 url = "https://github.com/MetaMask/extensionizer"
+last_commit = "aee9edd702769e5f6f4a11bf929815beb32ef3b4"
+last_commit_time = "2022-05-11T13:27"
+status = "200"
+
+[repo.stats]
+branches = 24
+forks = 22
+commits = 5
+watching = 35
+stars = 64
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/faq"
+last_commit = "36d5836eaa7565ffd4f5335988f0544927d8a206"
+last_commit_time = "2020-08-12T15:34"
+status = "200"
+
+[repo.stats]
+stars = 521
+watching = 138
+forks = 281
+branches = 117
+commits = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/feedback"
+last_commit = "d55c200bf2688cc28609b18aabea732ef24de437"
+last_commit_time = "2020-04-27T02:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+commits = 1
+branches = 4
+watching = 3
+forks = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/filsnap"
+last_commit = "12fe6ea84c8b9c704ed104ce054425f779a704ee"
+last_commit_time = "2021-12-06T12:28"
+status = "200"
+
+[repo.stats]
+branches = 287
+watching = 1
+tag_count = 0
+forks = 26
+stars = 2
+commits = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/forwarder"
+last_commit = "0d2e15c555f1e97c7c8e82e03f9d7e65159f5ba0"
+last_commit_time = "2019-12-02T16:01"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 7
+tag_count = 0
+branches = 23
+commits = 2
+watching = 31
 
 [[repo]]
 url = "https://github.com/MetaMask/gaba"
+status = "200"
+
+[repo.stats]
+forks = 98
+tag_count = 0
+branches = 778
+commits = 98
+watching = 33
+stars = 120
 
 [[repo]]
 url = "https://github.com/MetaMask/Hackathons"
+last_commit = "5f8ade09465140fb159df3fde75db00194ee3c08"
+last_commit_time = "2019-11-06T19:54"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 3
+forks = 7
+tag_count = 0
+stars = 1
+branches = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/hd-seed-phrase-guesser"
+last_commit = "beaad180f28fe2e773f3cbab5fa3fc8928e6351e"
+last_commit_time = "2020-03-25T20:48"
+status = "200"
+
+[repo.stats]
+forks = 14
+stars = 22
+tag_count = 0
+watching = 31
+branches = 20
+commits = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/iframe-ee-openrpc-inspector-transport"
+last_commit = "a53ccf12a080914a0a90a85b6c2101dfa02134b0"
+last_commit_time = "2022-06-29T05:29"
+status = "200"
+
+[repo.stats]
+watching = 24
+forks = 3
+branches = 52
+tag_count = 0
+commits = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/iframe-execution-environment"
+last_commit = "3dae899418d956e51f48294e90a4bb49c5a9152b"
+last_commit_time = "2022-07-18T14:47"
+status = "200"
+
+[repo.stats]
+stars = 4
+branches = 70
+tag_count = 0
+commits = 4
+watching = 23
+forks = 7
 
 [[repo]]
 url = "https://github.com/MetaMask/infura-provider"
+last_commit = "09c3652a921519ad18301e8e344cc072605b580d"
+last_commit_time = "2020-05-21T15:20"
+status = "200"
+
+[repo.stats]
+forks = 6
+tag_count = 0
+commits = 2
+stars = 5
+branches = 2
+watching = 29
 
 [[repo]]
 url = "https://github.com/MetaMask/inpage-provider"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 32
+forks = 109
+branches = 199
+commits = 2
+stars = 130
 
 [[repo]]
 url = "https://github.com/MetaMask/IPFS-Ethereum-Hackathon"
+last_commit = "b6d2d8c8c70ede72c8df38fba3a1d71b59ea98c3"
+last_commit_time = "2018-01-08T01:52"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 8
+forks = 19
+stars = 40
+branches = 21
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/jazzicon"
+last_commit = "d923914fda6a8795f74c2e66134f73cd72070667"
+last_commit_time = "2021-05-07T20:04"
+status = "200"
+
+[repo.stats]
+branches = 36
+forks = 62
+watching = 2
+stars = 52
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/js-libp2p-multicast-conditional"
+last_commit = "3d1b438e34749580ff7fb91b623e6345f85d20b6"
+last_commit_time = "2019-03-26T01:46"
+status = "200"
+
+[repo.stats]
+branches = 156
+stars = 3
+tag_count = 0
+forks = 3
+commits = 6
+watching = 3
 
 [[repo]]
 url = "https://github.com/MetaMask/js-libp2p-rendezvous"
+last_commit = "0f18c93369fc47e1fa91d620df7cc0e178ce6132"
+last_commit_time = "2018-04-25T11:58"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+commits = 3
+forks = 5
+branches = 17
+stars = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/json-rpc-capabilities-middleware"
+last_commit = "dcd286e7a606f836ffe1315c4f52df8e8c0a1066"
+last_commit_time = "2022-01-03T05:15"
+status = "200"
+
+[repo.stats]
+stars = 29
+tag_count = 0
+branches = 332
+watching = 33
+commits = 3
+forks = 33
 
 [[repo]]
 url = "https://github.com/MetaMask/json-rpc-engine"
+status = "200"
+
+[repo.stats]
+commits = 9
+watching = 32
+stars = 97
+forks = 58
+branches = 166
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/json-rpc-middleware-stream"
+last_commit = "8c644071c0c6c3b64242ba4480f16463eef338d0"
+last_commit_time = "2022-07-26T23:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 7
+watching = 32
+commits = 4
+branches = 26
+forks = 13
 
 [[repo]]
 url = "https://github.com/MetaMask/key-tree"
+last_commit = "48893ea4236f4e7e4f56d460dc2c18d30ce1b712"
+last_commit_time = "2022-06-29T05:29"
+status = "200"
+
+[repo.stats]
+forks = 10
+branches = 61
+tag_count = 0
+commits = 1
+stars = 28
+watching = 28
 
 [[repo]]
 url = "https://github.com/MetaMask/KeyringController"
+status = "200"
+
+[repo.stats]
+forks = 117
+stars = 133
+watching = 36
+tag_count = 0
+commits = 12
+branches = 163
 
 [[repo]]
 url = "https://github.com/MetaMask/lavamoat-browserify"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 49
+stars = 457
+tag_count = 0
+forks = 37
+watching = 16
 
 [[repo]]
 url = "https://github.com/MetaMask/lavamoat-webpack"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+commits = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/legacy-web3"
+last_commit = "bf27880114d8a5a0f54467ce45590fd0bc6eb5b0"
+last_commit_time = "2021-08-12T16:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 15
+stars = 11
+commits = 5
+watching = 28
+branches = 44
 
 [[repo]]
 url = "https://github.com/MetaMask/legacy-web3-extension"
+last_commit = "01374c306cff3a94cba53abcbb7cd4d589dd5074"
+last_commit_time = "2021-05-11T16:52"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 40
+commits = 4
+watching = 36
+stars = 52
+branches = 21
 
 [[repo]]
 url = "https://github.com/MetaMask/logo"
+last_commit = "b6f1e51cddd4d968f1beb64d94183cb7d788c063"
+last_commit_time = "2022-03-29T15:56"
+status = "200"
+
+[repo.stats]
+commits = 21
+watching = 40
+tag_count = 0
+forks = 86
+stars = 185
+branches = 158
 
 [[repo]]
 url = "https://github.com/MetaMask/lottie-react-native"
+last_commit = "7ce6a78ac4ac7b9891bc513cb3f12f8b9c9d9106"
+last_commit_time = "2019-08-30T21:55"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 338
+commits = 2
+tag_count = 0
+watching = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/mascara"
+last_commit = "f86364cb579fc354817755f2cc16548fbcad1359"
+last_commit_time = "2018-02-13T21:54"
+status = "200"
+
+[repo.stats]
+branches = 65
+forks = 36
+stars = 172
+commits = 2
+tag_count = 0
+watching = 42
 
 [[repo]]
 url = "https://github.com/MetaMask/mesh-testing"
+last_commit = "8bb8843935d1c6964f8821da9aa4113c57f8cb44"
+last_commit_time = "2019-11-20T02:24"
+status = "200"
+
+[repo.stats]
+branches = 614
+stars = 22
+forks = 11
+commits = 17
+watching = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/metamark"
+last_commit = "6148691b930a2a6413ee76aa75487fafb2f88063"
+last_commit_time = "2017-04-01T10:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 9
+watching = 2
+forks = 8
+commits = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-api-specs"
+last_commit = "849b22050441859250ac7420a2e6626def737a72"
+last_commit_time = "2022-07-26T20:43"
+status = "200"
+
+[repo.stats]
+stars = 11
+commits = 2
+forks = 6
+watching = 27
+tag_count = 0
+branches = 189
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-deeplinks"
+status = "200"
+
+[repo.stats]
+commits = 6
+watching = 29
+tag_count = 0
+branches = 19
+stars = 16
+forks = 15
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-docs"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 477
+stars = 368
+watching = 60
+branches = 432
+commits = 11
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-eth-abis"
+last_commit = "d0474308a288f9252597b7c93a3a8deaad19e1b2"
+last_commit_time = "2022-01-08T02:15"
+status = "200"
+
+[repo.stats]
+branches = 7
+forks = 3
+tag_count = 0
+watching = 24
+commits = 2
+stars = 5
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-extension"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 425
+tag_count = 0
+commits = 444
+branches = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-extension-provider"
+status = "200"
+
+[repo.stats]
+branches = 19
+tag_count = 0
+commits = 2
+forks = 17
+stars = 38
+watching = 32
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-extension-ts-migration-dashboard"
+last_commit = "b4dd879f9499eb7aaa247c119f5dd7d2c1487177"
+last_commit_time = "2022-03-28T23:16"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+tag_count = 0
+watching = 2
+branches = 4
+forks = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-filecoin-developer-beta"
+last_commit = "4ec4bf9995e64bfb0eb732cbe10ae2f2bac2ddff"
+last_commit_time = "2021-04-07T19:31"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 31
+tag_count = 0
+stars = 22
+commits = 5
+forks = 13
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-inpage-provider"
+status = "200"
+
+[repo.stats]
+watching = 32
+stars = 130
+commits = 2
+forks = 109
+branches = 199
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-k8s-sys"
+last_commit = "dbc0b5e4d9e16992aefaf555784c6cec762e4f5f"
+last_commit_time = "2021-05-02T16:20"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 0
+forks = 2
+branches = 4
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-logo"
+status = "200"
+
+[repo.stats]
+watching = 40
+branches = 158
+forks = 86
+tag_count = 0
+stars = 185
+commits = 21
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-mobile"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 575
+commits = 344
+tag_count = 0
+branches = 0
+watching = 76
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-mobile-provider"
+last_commit = "801970155a920590a8214ea425b4d3e264fddf20"
+last_commit_time = "2021-05-12T15:30"
+status = "200"
+
+[repo.stats]
+forks = 32
+stars = 27
+commits = 7
+tag_count = 0
+branches = 70
+watching = 31
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-module-template"
+last_commit = "84a2f635a1be9ee1a05e5e25c5277ebb72309016"
+last_commit_time = "2022-07-20T17:05"
+status = "200"
+
+[repo.stats]
+watching = 26
+commits = 2
+stars = 4
+tag_count = 0
+branches = 79
+forks = 15
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-onboarding"
+last_commit = "044017b7d1aabdb16ca9419c4787f5920b699f20"
+last_commit_time = "2022-07-20T19:17"
+status = "200"
+
+[repo.stats]
+watching = 33
+stars = 106
+forks = 45
+tag_count = 0
+branches = 63
+commits = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-plugin-beta"
+last_commit = "4169c2445e025631fa963e03da24379607a9beab"
+last_commit_time = "2021-08-13T21:47"
+status = "200"
+
+[repo.stats]
+stars = 141
+watching = 55
+forks = 55
+tag_count = 0
+branches = 0
+commits = 40
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-snaps-beta"
+last_commit = "4169c2445e025631fa963e03da24379607a9beab"
+last_commit_time = "2021-08-13T21:47"
+status = "200"
+
+[repo.stats]
+stars = 141
+commits = 40
+forks = 55
+branches = 0
+tag_count = 0
+watching = 55
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-storybook"
+last_commit = "380594ec022fce071af58761e4efbb59fb4f01c9"
+last_commit_time = "2022-08-04T18:19"
+status = "200"
+
+[repo.stats]
+watching = 32
+branches = 1
+commits = 1
+stars = 17
+tag_count = 0
+forks = 23
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-ui"
+last_commit = "7d0fbefbc1e7eee1a97a6e9016e18f0ccb4259a9"
+last_commit_time = "2018-07-26T03:10"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 1
+tag_count = 0
+forks = 4
+commits = 1
+watching = 12
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-vision"
+last_commit = "70ddfaab9889908262027ce34bd58fecbc1664b7"
+last_commit_time = "2021-01-15T19:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+watching = 3
+forks = 2
+branches = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/metamask-yeoman-generators"
+status = "404"
+
+[repo.stats]
+commits = 0
+stars = 0
+branches = 0
+watching = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/mm-plugin"
+last_commit = "4411ae2a9379e62b0b16560e4d126d748a178734"
+last_commit_time = "2021-09-08T23:27"
+status = "200"
+
+[repo.stats]
+watching = 31
+stars = 37
+forks = 27
+tag_count = 0
+branches = 217
+commits = 13
 
 [[repo]]
 url = "https://github.com/MetaMask/mobile-provider"
+last_commit = "801970155a920590a8214ea425b4d3e264fddf20"
+last_commit_time = "2021-05-12T15:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 32
+branches = 70
+watching = 31
+commits = 7
+stars = 27
 
 [[repo]]
 url = "https://github.com/MetaMask/nft-tickets-workshop"
+last_commit = "c68e3b0f36ecd9792f497384465012a9df523b5d"
+last_commit_time = "2022-03-31T00:36"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 12
+stars = 10
+branches = 21
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/MetaMask/nonce-tracker"
+last_commit = "7b71c4c0be864db24fbbdf36db003534c84b275f"
+last_commit_time = "2021-08-16T12:38"
+status = "200"
+
+[repo.stats]
+stars = 36
+forks = 22
+watching = 32
+tag_count = 0
+commits = 5
+branches = 28
 
 [[repo]]
 url = "https://github.com/MetaMask/obj-multiplex"
+last_commit = "b49343570d5b14d98d6e6867b33d9cfb7fab879f"
+last_commit_time = "2022-03-29T14:47"
+status = "200"
+
+[repo.stats]
+branches = 24
+forks = 11
+stars = 10
+commits = 2
+tag_count = 0
+watching = 27
 
 [[repo]]
 url = "https://github.com/MetaMask/object-multiplex"
+last_commit = "b49343570d5b14d98d6e6867b33d9cfb7fab879f"
+last_commit_time = "2022-03-29T14:47"
+status = "200"
+
+[repo.stats]
+forks = 11
+watching = 27
+branches = 24
+tag_count = 0
+commits = 2
+stars = 10
 
 [[repo]]
 url = "https://github.com/MetaMask/obs-store"
+status = "200"
+
+[repo.stats]
+branches = 96
+watching = 30
+commits = 4
+stars = 19
+forks = 18
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/old-landing"
+last_commit = "9b3df879455528644ca8d8c8ca0196e1a10d84f5"
+last_commit_time = "2016-06-16T15:30"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 22
+tag_count = 0
+commits = 5
+watching = 34
+stars = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/old-metamask-ui"
+last_commit = "62faeba970a3693a09c7857e9e6435e04237afe9"
+last_commit_time = "2016-04-12T22:01"
+status = "200"
+
+[repo.stats]
+forks = 5
+branches = 152
+tag_count = 0
+watching = 35
+commits = 2
+stars = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/openrpc-inspector-transport"
+last_commit = "34b74ea31950b4f0e0ff7d5df3228afc24145152"
+last_commit_time = "2022-03-09T08:13"
+status = "200"
+
+[repo.stats]
+watching = 22
+stars = 2
+commits = 3
+forks = 2
+branches = 14
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/pending-tx-tracker"
+last_commit = "1f675c3127c18800f0b32540f6c60575824c91a5"
+last_commit_time = "2019-06-12T11:52"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 3
+commits = 1
+branches = 6
+forks = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/permissions-adventure"
+last_commit = "0ab028eee05ec798136c8fb36b681cdf2b90af5b"
+last_commit_time = "2020-03-18T13:13"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 4
+commits = 1
+branches = 8
+watching = 31
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/phishing-warning"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+commits = 4
+branches = 27
+watching = 19
+stars = 5
 
 [[repo]]
 url = "https://github.com/MetaMask/post-message-stream"
+last_commit = "9125cf4de8325158dd4d2d57e81cc01a943f9631"
+last_commit_time = "2022-07-22T07:53"
+status = "200"
+
+[repo.stats]
+branches = 44
+commits = 2
+forks = 19
+tag_count = 0
+watching = 17
+stars = 38
 
 [[repo]]
 url = "https://github.com/MetaMask/providers"
+status = "200"
+
+[repo.stats]
+watching = 32
+tag_count = 0
+branches = 199
+stars = 130
+forks = 109
+commits = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/React-MetaMask-Login-Button"
+last_commit = "7a9a2349e93fb2aff735a376a429e32741d4638b"
+last_commit_time = "2019-04-16T17:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 19
+branches = 20
+stars = 26
+commits = 2
+watching = 33
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-aes"
+last_commit = "b73625d7e1ce711ed3c2fbd795eea2bda5a5e9ad"
+last_commit_time = "2020-04-09T15:39"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+watching = 1
+branches = 47
+commits = 3
+forks = 104
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-aes-crypto-forked"
+last_commit = "a5b6fd96a56e4f2547883ea8da38d50720c859fc"
+last_commit_time = "2022-03-21T17:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 4
+forks = 5
+branches = 8
+watching = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-animated-fox"
+last_commit = "16e38d54d829709e497f196e31fa8ff00cdf2aa9"
+last_commit_time = "2019-10-04T18:00"
+status = "200"
+
+[repo.stats]
+forks = 6
+stars = 1
+commits = 3
+tag_count = 0
+watching = 1
+branches = 22
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-branch-deep-linking-attribution"
+last_commit = "409ea4855461fcfbfc14aca77796031ab116a775"
+last_commit_time = "2019-07-29T16:08"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 189
+watching = 1
+branches = 0
+tag_count = 0
+commits = 52
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-button"
+last_commit = "fd79f4d6c8ced4086ba6e3021b6ed6d4a3e19cf7"
+last_commit_time = "2019-02-07T20:26"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+stars = 1
+watching = 1
+forks = 127
+branches = 65
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-fs"
+last_commit = "5554842c3ef66a067930059a7d388c94892035fb"
+last_commit_time = "2019-06-18T02:44"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 1
+commits = 6
+tag_count = 0
+forks = 885
+branches = 575
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-gesture-handler"
+last_commit = "99dce5e787f0c0e87cf748bc78d32fb65fcdb0e8"
+last_commit_time = "2019-04-26T13:54"
+status = "200"
+
+[repo.stats]
+branches = 501
+watching = 1
+tag_count = 0
+commits = 38
+forks = 845
+stars = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-keychain"
+last_commit = "5210c22c94a4d66c2e0231604601b3636bfc41bc"
+last_commit_time = "2018-12-12T03:07"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 452
+watching = 1
+tag_count = 0
+branches = 194
+commits = 7
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-os"
+last_commit = "25abf71834babc03789dc6fd1c8d595fb81a962b"
+last_commit_time = "2019-11-29T21:13"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 2
+branches = 31
+tag_count = 0
+forks = 84
+watching = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-payments"
+last_commit = "e5b031e0ad7053daeda46b6cd1496b0b3da413b4"
+last_commit_time = "2020-04-16T15:58"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 132
+forks = 383
+commits = 4
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-push-notification"
+last_commit = "7adf4ade7d47ea7ed19169ce11ea8a70ef6869f5"
+last_commit_time = "2019-02-27T06:54"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 5
+forks = 0
+watching = 1
+branches = 369
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-scrollable-tab-view"
+last_commit = "0c818b203fefad31e35df3e77b3cdb5067663673"
+last_commit_time = "2020-05-21T14:56"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 378
+watching = 1
+stars = 2
+commits = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-search-api"
+last_commit = "270512b6641bfaba155ca8b31aa2e1d8b5cf0ec6"
+last_commit_time = "2020-04-09T15:51"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 33
+tag_count = 0
+watching = 1
+forks = 9
+commits = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-share"
+last_commit = "a40fbc80ad10a68fbc3533300973e772b102d1de"
+last_commit_time = "2019-06-16T16:36"
+status = "200"
+
+[repo.stats]
+forks = 866
+commits = 4
+stars = 1
+tag_count = 0
+watching = 1
+branches = 422
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-splash-screen"
+last_commit = "1f45c08c0824cd94fdc6fb699529688a73614fee"
+last_commit_time = "2020-05-08T13:32"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 2
+tag_count = 0
+branches = 158
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-tcp"
+last_commit = "961328b678b01427b0d2cd7ddb506f620a5418e1"
+last_commit_time = "2020-04-10T11:15"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+forks = 188
+branches = 105
+stars = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-view-shot"
+last_commit = "ec23260a9ef5289a87d619b7aab60d0cb033b958"
+last_commit_time = "2019-05-31T09:36"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+branches = 224
+forks = 304
+commits = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/react-native-webview"
+last_commit = "931ae99a0f80a650c958e9d2e39e4ed0e68d95a7"
+last_commit_time = "2020-06-25T14:30"
+status = "200"
+
+[repo.stats]
+commits = 49
+forks = 0
+watching = 1
+stars = 5
+tag_count = 0
+branches = 438
 
 [[repo]]
 url = "https://github.com/MetaMask/rpc-cap"
+status = "200"
+
+[repo.stats]
+forks = 33
+stars = 29
+branches = 332
+tag_count = 0
+commits = 3
+watching = 33
 
 [[repo]]
 url = "https://github.com/MetaMask/safe-event-emitter"
+status = "200"
+
+[repo.stats]
+watching = 31
+tag_count = 0
+forks = 19
+branches = 57
+commits = 3
+stars = 9
 
 [[repo]]
 url = "https://github.com/MetaMask/sesify"
+status = "200"
+
+[repo.stats]
+watching = 16
+branches = 0
+tag_count = 0
+stars = 457
+forks = 37
+commits = 49
 
 [[repo]]
 url = "https://github.com/MetaMask/sesify-tofu"
+status = "404"
+
+[repo.stats]
+stars = 0
+commits = 0
+watching = 0
+tag_count = 0
+branches = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/SIPs"
+last_commit = "f8581bc21b49845a3200dea7c221224e57a703f0"
+last_commit_time = "2022-08-02T21:17"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 10
+branches = 29
+watching = 23
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/slip44"
+last_commit = "d4580575b1b21a7536af52d775af486531a69901"
+last_commit_time = "2022-06-29T05:29"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 5
+watching = 23
+branches = 12
+forks = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/smart-transactions-controller"
+last_commit = "ffc1382037797065b380fee041bc1263f8d8cd4f"
+last_commit_time = "2022-08-02T16:45"
+status = "200"
+
+[repo.stats]
+watching = 24
+tag_count = 0
+forks = 3
+branches = 76
+commits = 4
+stars = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/snap-examples"
+last_commit = "6c14f15454508b7d9e95443e2617a84e80fee835"
+last_commit_time = "2022-05-19T18:05"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 25
+branches = 7
+forks = 5
+stars = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/snap-template"
+status = "200"
+
+[repo.stats]
+branches = 31
+forks = 23
+watching = 10
+stars = 30
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/MetaMask/snap-workers"
+last_commit = "2cb7e2c89b7170b14ffe54315fd7b42639b37b49"
+last_commit_time = "2021-05-11T20:02"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+watching = 29
+branches = 18
+tag_count = 0
+forks = 3
 
 [[repo]]
 url = "https://github.com/MetaMask/snaps-cli"
+last_commit = "4411ae2a9379e62b0b16560e4d126d748a178734"
+last_commit_time = "2021-09-08T23:27"
+status = "200"
+
+[repo.stats]
+watching = 31
+tag_count = 0
+branches = 217
+commits = 13
+forks = 27
+stars = 37
 
 [[repo]]
 url = "https://github.com/MetaMask/snaps-skunkworks"
+status = "200"
+
+[repo.stats]
+branches = 432
+forks = 29
+stars = 52
+tag_count = 0
+commits = 27
+watching = 27
 
 [[repo]]
 url = "https://github.com/MetaMask/specifications"
+last_commit = "c226cbaca1deb83d3e85941d06fc7534ff972336"
+last_commit_time = "2022-01-07T17:23"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 2
+tag_count = 0
+commits = 2
+branches = 6
+watching = 30
 
 [[repo]]
 url = "https://github.com/MetaMask/stablecoin-nft-ticket-workshop"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+branches = 0
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/state-log-explorer"
+last_commit = "77da8305b2c7c36e73156ec6a6d6703f8f745bfb"
+last_commit_time = "2021-05-14T04:09"
+status = "200"
+
+[repo.stats]
+watching = 14
+forks = 7
+branches = 67
+tag_count = 0
+stars = 7
+commits = 7
 
 [[repo]]
 url = "https://github.com/MetaMask/sw-controller"
+last_commit = "7ad75219288a4e2566814dddad34e6f67f6997a2"
+last_commit_time = "2017-11-11T20:20"
+status = "200"
+
+[repo.stats]
+watching = 6
+forks = 3
+stars = 1
+tag_count = 0
+branches = 52
+commits = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/talk-devcon2"
+last_commit = "c1fd9e2732ab96f0a063504560dc5ddcca25a820"
+last_commit_time = "2016-09-20T07:21"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 1
+forks = 4
+stars = 0
+watching = 29
 
 [[repo]]
 url = "https://github.com/MetaMask/talk-devcon3"
+last_commit = "aa85991200f66db38da672635150c314536b4a80"
+last_commit_time = "2017-11-03T12:08"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 2
+watching = 29
+stars = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/talk-devcon4"
+last_commit = "a00725d9512b6a02923d95788a8f9a8d22a831f4"
+last_commit_time = "2018-11-01T11:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 2
+branches = 93
+commits = 17
+watching = 31
+stars = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/talk-hongkong-2016"
+last_commit = "934bd2a44c5529c830bf1ae2a1161f038487a3cd"
+last_commit_time = "2016-04-05T10:55"
+status = "200"
+
+[repo.stats]
+watching = 29
+forks = 3
+commits = 2
+tag_count = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/template-snap"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 10
+branches = 31
+commits = 4
+forks = 23
+stars = 30
 
 [[repo]]
 url = "https://github.com/MetaMask/template-snap-monorepo"
+last_commit = "1d8c2b192489fd12f7d4cccbbe21b3765ae943de"
+last_commit_time = "2022-04-19T14:36"
+status = "200"
+
+[repo.stats]
+watching = 5
+commits = 2
+forks = 1
+tag_count = 0
+branches = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/template-typescript-snap"
+last_commit = "4d41c018947f60d9ad0578db3052f322318496c5"
+last_commit_time = "2022-07-19T21:43"
+status = "200"
+
+[repo.stats]
+branches = 15
+stars = 0
+tag_count = 0
+commits = 4
+forks = 0
+watching = 19
 
 [[repo]]
 url = "https://github.com/MetaMask/test-dapp"
+status = "200"
+
+[repo.stats]
+watching = 41
+stars = 340
+forks = 206
+commits = 12
+branches = 151
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/test-snaps"
+last_commit = "9abf7ba85294adcbd6652cffd0cfb8cc1b8d148a"
+last_commit_time = "2022-06-30T03:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 100
+stars = 2
+watching = 22
+forks = 1
+commits = 4
 
 [[repo]]
 url = "https://github.com/MetaMask/TipButton"
+last_commit = "2b166fcb58eb02dfa0c5d47d6c939b21c5133974"
+last_commit_time = "2018-12-22T22:04"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 29
+branches = 12
+watching = 37
+tag_count = 0
+stars = 36
 
 [[repo]]
 url = "https://github.com/MetaMask/transaction-controller"
+last_commit = "63f49ce7c9164432c871ff78a0b876fd34f9ed6d"
+last_commit_time = "2019-07-11T01:00"
+status = "200"
+
+[repo.stats]
+branches = 3
+commits = 2
+tag_count = 0
+stars = 2
+watching = 7
+forks = 3
 
 [[repo]]
 url = "https://github.com/MetaMask/transaction-state-manager"
+last_commit = "652f32711c8e7fb613e8bb4987330c83f20657c5"
+last_commit_time = "2020-03-18T17:34"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 7
+forks = 3
+branches = 7
+tag_count = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/MetaMask/tx-gas-utils"
+last_commit = "64aea7c9566b21694fd627e145db2c9de5848ca4"
+last_commit_time = "2020-03-18T16:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 4
+forks = 3
+commits = 1
+watching = 31
+stars = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/types"
+last_commit = "d55edd19aa34be5ee9ab6d361bd6aa865cd20cf1"
+last_commit_time = "2022-03-30T14:33"
+status = "200"
+
+[repo.stats]
+branches = 15
+commits = 4
+watching = 26
+stars = 1
+tag_count = 0
+forks = 4
 
 [[repo]]
 url = "https://github.com/MetaMask/uglifyify"
+last_commit = "72296cd61630e55d1a80941896b5fcb028c6a625"
+last_commit_time = "2017-11-19T23:07"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+stars = 1
+commits = 4
+branches = 87
+forks = 64
 
 [[repo]]
 url = "https://github.com/MetaMask/utils"
+last_commit = "b4be29cd07e910ce1078b4679d7fbb298c8b79eb"
+last_commit_time = "2022-08-03T17:07"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 4
+watching = 20
+forks = 2
+stars = 6
+branches = 15
 
 [[repo]]
 url = "https://github.com/MetaMask/vault-decryptor"
+last_commit = "ae02928cafdc07619170bef06790c429846a4442"
+last_commit_time = "2022-05-11T03:09"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+branches = 48
+watching = 31
+stars = 109
+forks = 118
 
 [[repo]]
 url = "https://github.com/MetaMask/wallet-permissions-spec"
+last_commit = "4d73d7ca8f99b343c1f6382b3ecd7f83430903b0"
+last_commit_time = "2019-08-27T20:48"
+status = "200"
+
+[repo.stats]
+stars = 6
+branches = 7
+forks = 4
+watching = 7
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/MetaMask/watch-token"
+last_commit = "0f8df91a5354fe885244b270cd7c4abcc7c01779"
+last_commit_time = "2019-10-09T17:18"
+status = "200"
+
+[repo.stats]
+stars = 2
+commits = 2
+branches = 32
+forks = 55
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/web3-provider-engine"
+last_commit = "e835b80bf09e76d92b785d797f89baa43ae3fd60"
+last_commit_time = "2022-08-03T17:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 60
+branches = 836
+commits = 24
+forks = 343
+stars = 531
 
 [[repo]]
 url = "https://github.com/MetaMask/web3-stream-provider"
+last_commit = "2875385b8cfeefabd1c5125aff2e7b3bccd9556d"
+last_commit_time = "2019-08-24T03:48"
+status = "200"
+
+[repo.stats]
+watching = 28
+stars = 4
+branches = 29
+tag_count = 0
+forks = 13
+commits = 15
 
 [[repo]]
 url = "https://github.com/MetaMask/webextensions"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+commits = 0
+tag_count = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/MetaMask/Website"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 28
+forks = 16
+branches = 307
+stars = 16
+commits = 3
 
 [[repo]]
 url = "https://github.com/MetaMask/zero-client"
+last_commit = "6289af7334e59f31f1009049552cce57dba0579a"
+last_commit_time = "2016-06-03T00:32"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 11
+forks = 6
+watching = 41
+branches = 10

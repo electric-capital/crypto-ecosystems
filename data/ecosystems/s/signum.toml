@@ -1,61 +1,250 @@
-# Ecosystem Level Information
 title = "Signum"
-
+toml_path = "data/ecosystems/s/signum.toml"
+github_organizations = ["https://github.com/signum-network"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/signum-network"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/signum-network/bounties"
+last_commit = "4a9b0815dce9013788d55784438161d47903a66a"
+last_commit_time = "2021-10-13T21:25"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 2
+branches = 7
+tag_count = 0
+forks = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/signum-network/business-epics"
+last_commit = "fddd2ed76babe890b12488247e8cbcb3e300a8c1"
+last_commit_time = "2021-09-02T20:02"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 2
+forks = 0
+stars = 5
+branches = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/signum-network/CIPs"
+last_commit = "b3a3c32a6a676ee364ba7bee986dc76b02b29189"
+last_commit_time = "2022-07-26T00:03"
+status = "200"
+
+[repo.stats]
+forks = 17
+watching = 5
+stars = 11
+branches = 418
+commits = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/signum-network/phoenix"
+status = "200"
+
+[repo.stats]
+branches = 0
+forks = 42
+watching = 9
+stars = 100
+commits = 46
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/signum-network/RapiDoc"
+last_commit = "64f09bf999a8cfccc84bbc65c3e6fc30fd5b684f"
+last_commit_time = "2022-07-24T12:25"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 1
+tag_count = 0
+forks = 198
+commits = 4
+watching = 0
 
 [[repo]]
 url = "https://github.com/signum-network/signum-account-activator"
+last_commit = "2e6e1d96775ff179562bee36fbb0082135963ecc"
+last_commit_time = "2022-03-17T02:24"
+status = "200"
+
+[repo.stats]
+forks = 5
+commits = 13
+watching = 2
+branches = 102
+stars = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/signum-network/signum-explorer"
+last_commit = "6ab882eb1d380c1ff83c2d104d0bd49ae4f889fa"
+last_commit_time = "2022-07-31T20:09"
+status = "200"
+
+[repo.stats]
+branches = 812
+stars = 5
+tag_count = 0
+watching = 2
+forks = 15
+commits = 1
 
 [[repo]]
 url = "https://github.com/signum-network/signum-miner"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 15
+commits = 2
+watching = 3
+branches = 354
+forks = 65
 
 [[repo]]
 url = "https://github.com/signum-network/signum-node"
+last_commit = "1b86be12cc1a9deacb1977bfbc57f1680cda6059"
+last_commit_time = "2022-07-13T18:51"
+status = "200"
+
+[repo.stats]
+stars = 190
+forks = 257
+watching = 23
+commits = 8
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/signum-network/signum-node-health-check"
+last_commit = "509a5052a45bec5ee2456805c1b1a90cadc59220"
+last_commit_time = "2021-09-28T10:49"
+status = "200"
+
+[repo.stats]
+branches = 4
+tag_count = 0
+commits = 1
+stars = 4
+forks = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/signum-network/signum-plotter"
+last_commit = "974bce0f2409e78ac0fb1135c17db7d4b6b2f1f1"
+last_commit_time = "2021-06-25T13:38"
+status = "200"
+
+[repo.stats]
+branches = 119
+watching = 2
+forks = 40
+commits = 6
+stars = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/signum-network/signum-pool"
+last_commit = "c92db7d137dd4984ae75256c391ccf4529967169"
+last_commit_time = "2022-06-25T00:16"
+status = "200"
+
+[repo.stats]
+stars = 20
+branches = 632
+commits = 2
+watching = 5
+forks = 33
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/signum-network/signum-smartj"
+status = "200"
+
+[repo.stats]
+forks = 18
+stars = 38
+branches = 286
+tag_count = 0
+watching = 9
+commits = 6
 
 [[repo]]
 url = "https://github.com/signum-network/signum-xt-wallet"
+last_commit = "f61b9c4d5e81e8008de9ce2b001a24a545bb3aca"
+last_commit_time = "2022-07-11T21:13"
+status = "200"
+
+[repo.stats]
+forks = 5
+watching = 2
+stars = 5
+tag_count = 0
+branches = 85
+commits = 1
 
 [[repo]]
 url = "https://github.com/signum-network/signum-xt-wallet-fork"
+last_commit = "41168f74b4283cbdae00c012f7f8227b2eca08ae"
+last_commit_time = "2022-02-24T17:04"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+branches = 0
+stars = 9
+forks = 56
+commits = 90
 
 [[repo]]
 url = "https://github.com/signum-network/signumj"
+last_commit = "abd8563d7384e48ce9de85994284d0aa5f26e5b9"
+last_commit_time = "2022-08-02T00:28"
+status = "200"
+
+[repo.stats]
+forks = 17
+stars = 28
+watching = 4
+tag_count = 0
+commits = 13
+branches = 346
 
 [[repo]]
 url = "https://github.com/signum-network/signumjs"
+last_commit = "b212a499da1e07cc1d48c83317971af3ae0aa947"
+last_commit_time = "2022-08-05T14:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+forks = 4
+branches = 99
+stars = 12
+commits = 2
 
 [[repo]]
 url = "https://github.com/signum-network/SIPs"
+last_commit = "b3a3c32a6a676ee364ba7bee986dc76b02b29189"
+last_commit_time = "2022-07-26T00:03"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 418
+forks = 17
+watching = 5
+stars = 11
+commits = 8

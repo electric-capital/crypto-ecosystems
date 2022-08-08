@@ -1,163 +1,720 @@
-# Ecosystem Level Information
 title = "Qwertycoin"
-
+toml_path = "data/ecosystems/q/qwertycoin.toml"
+github_organizations = ["https://github.com/qwertycoin-org"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/qwertycoin-org"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/qwertycoin-org/blockchain-cache-api"
+status = "404"
+
+[repo.stats]
+commits = 0
+branches = 0
+forks = 0
+stars = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/blockchain-data-collection-agent"
+status = "404"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+commits = 0
+branches = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/brand"
+last_commit = "de2173f643a8c36bd5bed5196c0cfac28c63ead6"
+last_commit_time = "2020-09-05T05:12"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 5
+branches = 30
+commits = 1
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/cdn-qwertycoin-org.github.io"
+last_commit = "58a99de444c2682654dc71054577205623a70a4c"
+last_commit_time = "2022-01-04T12:15"
+status = "200"
+
+[repo.stats]
+branches = 8
+tag_count = 0
+stars = 1
+forks = 0
+watching = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/community-projects"
+last_commit = "b91857774d787f5885ba4b7f5b17ef8f13e483cb"
+last_commit_time = "2019-08-09T17:30"
+status = "200"
+
+[repo.stats]
+branches = 2
+commits = 1
+forks = 1
+watching = 4
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/development-blog"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+tag_count = 0
+branches = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/explorer-qwertycoin-org.github.io"
+last_commit = "bc1bdf3fc038537b3d34c7403f07aa9fc815a066"
+last_commit_time = "2021-09-23T07:10"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+forks = 2
+branches = 68
+stars = 2
+commits = 2
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/fork-trezor-common"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+branches = 0
+tag_count = 0
+forks = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/gitbook"
+last_commit = "151a593c09f7443f67bae982b10e1447e19797ca"
+last_commit_time = "2021-02-28T06:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 2
+branches = 18
+forks = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/gitbook-docs"
+last_commit = "151a593c09f7443f67bae982b10e1447e19797ca"
+last_commit_time = "2021-02-28T06:19"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 2
+stars = 1
+branches = 18
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/gitbook-wp"
+last_commit = "714a1f16e8fc8a09eb16001009f107c850e95d40"
+last_commit_time = "2022-05-17T16:17"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 281
+forks = 1
+tag_count = 0
+watching = 3
+stars = 3
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/JsonTranslationEditor"
+last_commit = "51c9bf4bb502e0ad4e2501735f8cc924920b1070"
+last_commit_time = "2019-04-04T20:17"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+forks = 5
+stars = 2
+branches = 50
+commits = 2
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/lmdb"
+last_commit = "4a6416d06cf234aa852e99d4aa72ba17eec80b83"
+last_commit_time = "2021-06-11T06:52"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+branches = 10
+commits = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/mowallet-api"
+last_commit = "74fcacc4638062f1c7c6f690dd1cc35648b58dd8"
+last_commit_time = "2020-10-07T20:33"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 5
+commits = 1
+stars = 1
+watching = 4
+forks = 2
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/myqwertycoin-com.github.io"
+last_commit = "46bcc7fa3d4ee4f7772964fd4103cefabe2c3aa1"
+last_commit_time = "2022-01-07T16:20"
+status = "200"
+
+[repo.stats]
+stars = 3
+tag_count = 0
+commits = 2
+forks = 2
+branches = 26
+watching = 2
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/node-cryptonote-util"
+last_commit = "62c4cea759b9cab0ec15bb1f13281148c892e331"
+last_commit_time = "2018-07-23T09:00"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 2
+forks = 5
+commits = 8
+branches = 31
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/node-multi-hashing"
+last_commit = "1f86ad83e97f5cc938ab1c14617b7d04a03d8d4a"
+last_commit_time = "2018-05-22T08:01"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 75
+watching = 2
+forks = 557
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/pool-qwertycoin-org.github.io"
+last_commit = "f9bc2654057b6a02d66cade6277d0136f32a5d77"
+last_commit_time = "2021-04-09T20:54"
+status = "200"
+
+[repo.stats]
+branches = 2
+forks = 0
+tag_count = 0
+commits = 1
+stars = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwc-nodejs-pool"
+last_commit = "28804647ed17a999c730affd27ac53237c8fbd2e"
+last_commit_time = "2019-02-09T21:09"
+status = "200"
+
+[repo.stats]
+branches = 745
+commits = 5
+tag_count = 0
+stars = 1
+forks = 553
+watching = 2
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwc-wallet-generator"
+last_commit = "8233fc471f4d5f3cf3cf4fc79287e713b37c17dc"
+last_commit_time = "2019-03-25T13:11"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+commits = 4
+branches = 35
+forks = 265
+stars = 1
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwc_diff_export"
+last_commit = "46b661a761dde2a5f3aca585e53634bfff29cd35"
+last_commit_time = "2020-05-20T16:12"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+stars = 0
+forks = 1
+branches = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwcx"
+last_commit = "f5e08c3791462ef25a82943e0ba55e7fbcf9dc3a"
+last_commit_time = "2020-09-30T00:54"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 0
+stars = 6
+branches = 215
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin"
+last_commit = "64624697b6cf8260bdc647aafedc5876e5d9508c"
+last_commit_time = "2022-03-21T08:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 17
+forks = 28
+branches = 0
+stars = 34
+commits = 6
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-archive"
+last_commit = "51d9a8aa86be1587a2fbfa7ef345a16d685f7b11"
+last_commit_time = "2019-10-17T20:47"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 1
+watching = 3
+tag_count = 0
+stars = 1
+branches = 9
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-backend-example"
+last_commit = "cd5444a94b38746e24c7c46dd0472f440da18a83"
+last_commit_time = "2019-07-31T13:00"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 3
+tag_count = 0
+watching = 4
+stars = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-blockchain-explorer"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 0
+watching = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-docs"
+last_commit = "85c8ffbdb297471d4b9f7ff653f3a53295b84726"
+last_commit_time = "2020-02-16T02:16"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 13
+commits = 2
+forks = 1
+stars = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-documents"
+last_commit = "51d9a8aa86be1587a2fbfa7ef345a16d685f7b11"
+last_commit_time = "2019-10-17T20:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 9
+commits = 1
+forks = 0
+stars = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-faucet"
+last_commit = "5f2b14137e681bc8027a0be43d7e8af396adf642"
+last_commit_time = "2018-03-04T19:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 46
+branches = 16
+stars = 0
+watching = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-forkable"
+last_commit = "bbbd8b8c69bee3c8213e21de0b5c654b513de274"
+last_commit_time = "2021-01-26T03:09"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 3
+branches = 57
+forks = 2
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-gui"
+last_commit = "23b40cfac71636aa9708784ba9a0c68976dd9033"
+last_commit_time = "2021-11-02T16:12"
+status = "200"
+
+[repo.stats]
+stars = 12
+watching = 7
+forks = 13
+branches = 258
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-js"
+last_commit = "69bc86bbefffb0e67964f9831fbf59461fd3404e"
+last_commit_time = "2021-02-16T03:33"
+status = "200"
+
+[repo.stats]
+branches = 1
+commits = 1
+stars = 0
+watching = 3
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-marketing"
+last_commit = "de2173f643a8c36bd5bed5196c0cfac28c63ead6"
+last_commit_time = "2020-09-05T05:12"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 3
+tag_count = 0
+branches = 30
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-mobile-wallet"
+last_commit = "9247cae1be68c577b96a69a853da367b3fea3067"
+last_commit_time = "2019-08-06T11:18"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 5
+stars = 4
+tag_count = 0
+forks = 9
+branches = 17
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-nodejs-rpc"
+last_commit = "e51a9e14b2fd1ca75b586e0163b1146fe6562217"
+last_commit_time = "2019-03-23T11:13"
+status = "200"
+
+[repo.stats]
+forks = 30
+branches = 75
+stars = 0
+tag_count = 0
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-nodes-map"
+last_commit = "7aede0f85e721ef63b22d3376dcffeec564e0f75"
+last_commit_time = "2019-03-25T00:47"
+status = "200"
+
+[repo.stats]
+forks = 22
+watching = 3
+commits = 1
+stars = 0
+tag_count = 0
+branches = 13
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-org.github.io"
+last_commit = "554d67eeaf7a176cc29e4d7cd7c4bc2da6108837"
+last_commit_time = "2022-08-02T18:52"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 124
+watching = 4
+forks = 16
+stars = 2
+commits = 2
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-pool"
+last_commit = "0111b8c2aee0564bcab47ab95c0ac014a9c27112"
+last_commit_time = "2019-02-09T21:04"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 329
+tag_count = 0
+forks = 0
+watching = 2
+commits = 5
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-simplewallet-api-php"
+last_commit = "56c130d1a2760baa62d7b602f5d92c202b76361c"
+last_commit_time = "2018-03-04T21:42"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 2
+tag_count = 0
+stars = 0
+branches = 4
+forks = 2
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-testnet"
+last_commit = "9b984432397e5a2234a18125eba4212d4386e069"
+last_commit_time = "2020-08-11T15:28"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 137
+stars = 5
+commits = 2
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-voting"
+last_commit = "f619de9300da30258d87798e67b3673dc4aae38d"
+last_commit_time = "2019-07-17T10:59"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 4
+stars = 4
+branches = 11
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-webminer"
+last_commit = "4ad4a16066047848b06a1eb0e0da29fc847ecf18"
+last_commit_time = "2019-03-21T01:07"
+status = "200"
+
+[repo.stats]
+forks = 239
+branches = 140
+tag_count = 0
+commits = 1
+stars = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin-zero"
+last_commit = "538c115d06a5df9e093b67f668ac00292180ba4d"
+last_commit_time = "2021-09-11T14:44"
+status = "200"
+
+[repo.stats]
+stars = 6
+forks = 5
+watching = 6
+branches = 138
+commits = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/qwertycoin.org"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+watching = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/releases-qwertycoin-org.github.io"
+last_commit = "f946531863d427170d483db0bbb79585b7c9f776"
+last_commit_time = "2021-09-11T12:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+stars = 2
+watching = 3
+commits = 1
+branches = 10
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/ripplecharts-frontend"
+last_commit = "96e073475551cbe94d4fa97c1abbe7f35ba5751b"
+last_commit_time = "2019-06-13T22:07"
+status = "200"
+
+[repo.stats]
+forks = 156
+branches = 921
+commits = 17
+tag_count = 0
+stars = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/speedtest-cli"
+last_commit = "681cdf20a5fe774ba3aefedd0cd88cbff5384439"
+last_commit_time = "2019-03-12T16:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+branches = 290
+watching = 1
+commits = 21
+forks = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/testnet-webwallet-js"
+last_commit = "6820cd3349c2d30e0471f1f2249d9470781b5bb0"
+last_commit_time = "2020-07-28T18:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+commits = 1
+forks = 1
+stars = 0
+branches = 16
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/translation-mobileweb"
+last_commit = "654606b69d8596fb1e3628e2c4ca9a74dab4d8dd"
+last_commit_time = "2021-05-14T07:08"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 19
+watching = 4
+forks = 3
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/webwallet-js"
+last_commit = "a432383161609d53bf259a1b744784937d90b920"
+last_commit_time = "2021-04-08T22:53"
+status = "200"
+
+[repo.stats]
+forks = 117
+branches = 268
+tag_count = 0
+watching = 2
+stars = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/webwallet-js-api"
+last_commit = "74fcacc4638062f1c7c6f690dd1cc35648b58dd8"
+last_commit_time = "2020-10-07T20:33"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 2
+watching = 4
+branches = 5
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/qwertycoin-org/whitepaper"
+last_commit = "b2e0d1274aede0a9076646ed34be4f04c406897f"
+last_commit_time = "2020-06-16T16:48"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 43
+stars = 4
+forks = 3
+watching = 2
+tag_count = 0

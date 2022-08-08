@@ -1,13 +1,32 @@
-# Ecosystem Level Information
 title = "DEXA COIN"
-
+toml_path = "data/ecosystems/d/dexa-coin.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/dexe-network/dexe"
+last_commit = "cc1be1dd682ca5b756caa6b2db66f67b21c8f7cb"
+last_commit_time = "2020-12-17T19:57"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 10
+watching = 1
+commits = 1
+stars = 5
+forks = 1
 
 [[repo]]
 url = "https://github.com/dexe-network/W2WProtocol"
+last_commit = "da9c7553c3d722c0a6c68f54b9677fbc33913102"
+last_commit_time = "2021-07-03T11:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 0
+branches = 19
+forks = 0
+stars = 3

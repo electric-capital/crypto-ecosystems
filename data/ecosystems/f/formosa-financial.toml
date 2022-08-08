@@ -1,19 +1,60 @@
-# Ecosystem Level Information
 title = "Formosa Financial"
-
+toml_path = "data/ecosystems/f/formosa-financial.toml"
+github_organizations = ["https://github.com/FormosaFinancial"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/FormosaFinancial"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/FormosaFinancial/BitGoJS"
+last_commit = "a9df555fc6bfd53af9672c7bdb4c830949e0ebd5"
+last_commit_time = "2019-01-25T02:08"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 0
+tag_count = 0
+forks = 234
+branches = 0
+commits = 116
 
 [[repo]]
 url = "https://github.com/FormosaFinancial/ccxt"
+last_commit = "bb3500f921d2a2fc23d61ab31e8cf1645a5102c3"
+last_commit_time = "2018-02-13T14:06"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 3
+watching = 2
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/FormosaFinancial/cors-anywhere"
+last_commit = "6ab195e0db8d76af3e47b85f81231d0266b1829d"
+last_commit_time = "2018-11-08T07:15"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 2
+watching = 4
+stars = 0
+tag_count = 0
+branches = 118
 
 [[repo]]
 url = "https://github.com/FormosaFinancial/Formosa_Smart_Contracts"
+last_commit = "8130967e8da39cc36b9c185e7f21f80e2cf4a65e"
+last_commit_time = "2018-07-25T07:15"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 4
+branches = 2
+commits = 1
+tag_count = 0
+stars = 3

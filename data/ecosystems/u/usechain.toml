@@ -1,79 +1,336 @@
-# Ecosystem Level Information
 title = "Usechain"
-
+toml_path = "data/ecosystems/u/usechain.toml"
+github_organizations = ["https://github.com/usechain"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/usechain"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/usechain/AddressVerification"
+last_commit = "9ddc484328afe15a552c7a4642e46b15489ce82a"
+last_commit_time = "2018-07-29T14:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+forks = 0
+branches = 11
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/usechain/blockscout"
+last_commit = "1d855ee0e17cd415b8e90077b73d48579d249df3"
+last_commit_time = "2019-10-14T13:42"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+branches = 0
+stars = 0
+tag_count = 0
+commits = 101
 
 [[repo]]
 url = "https://github.com/usechain/CertServer"
+last_commit = "6b325e7c2f3f8edf9580d3560659901a89557723"
+last_commit_time = "2018-05-09T07:29"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 6
+stars = 1
+forks = 0
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/usechain/Committee"
+last_commit = "bba99e4a3e57e8ee893f48d3394ef0098c01ba93"
+last_commit_time = "2018-07-08T03:23"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 1
+watching = 3
+tag_count = 0
+branches = 3
+commits = 2
 
 [[repo]]
 url = "https://github.com/usechain/doc"
+last_commit = "0aa7a46933807d9fc6343a38baf0ea7e9578ec14"
+last_commit_time = "2019-03-29T01:49"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+forks = 4
+branches = 2
+stars = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/usechain/Documentation"
+last_commit = "92a04a18794554868a2bc771c2979d2ea77ac84f"
+last_commit_time = "2018-06-01T08:12"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+commits = 1
+tag_count = 0
+branches = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/usechain/go-committee"
+last_commit = "a360f25707ff7e6c2a609daf4fd5522f7df2cb5a"
+last_commit_time = "2019-08-26T02:18"
+status = "200"
+
+[repo.stats]
+branches = 169
+commits = 5
+stars = 1
+watching = 4
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/usechain/go-ethereum"
+last_commit = "580112f032e7005dbc6228dbd33d55c3e9fd160f"
+last_commit_time = "2019-11-08T03:20"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+stars = 0
+commits = 23
+watching = 1
+branches = 0
 
 [[repo]]
 url = "https://github.com/usechain/go-usechain"
+last_commit = "8c24549407ba675f8e99090540888798ca632040"
+last_commit_time = "2019-06-19T03:36"
+status = "200"
+
+[repo.stats]
+stars = 9
+watching = 9
+branches = 519
+commits = 10
+tag_count = 0
+forks = 13
 
 [[repo]]
 url = "https://github.com/usechain/go-usechain-core"
+last_commit = "af89d52575070266836939fe6480c1fc0a14608b"
+last_commit_time = "2018-07-07T09:23"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 6
+stars = 1
+tag_count = 0
+forks = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/usechain/go-usedrpc"
+last_commit = "c202642a322131de666640d0ec38ba89fa06420d"
+last_commit_time = "2019-04-08T08:51"
+status = "200"
+
+[repo.stats]
+branches = 22
+commits = 1
+stars = 0
+tag_count = 0
+forks = 2
+watching = 4
 
 [[repo]]
 url = "https://github.com/usechain/kyberjs"
+last_commit = "b8d2f17010c9eb369a52e09493ca77f7452d2b1f"
+last_commit_time = "2018-07-27T12:23"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+branches = 5
+stars = 0
+watching = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/usechain/PKI.js"
+last_commit = "1f55d88f8c16b9cb74fef9af3feaeda7284b504a"
+last_commit_time = "2018-07-11T07:29"
+status = "200"
+
+[repo.stats]
+forks = 194
+watching = 3
+stars = 0
+tag_count = 0
+commits = 3
+branches = 295
 
 [[repo]]
 url = "https://github.com/usechain/Research"
+status = "200"
+
+[repo.stats]
+commits = 0
+stars = 0
+branches = 0
+forks = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/usechain/Reserch"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 0
+watching = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/usechain/solidity"
+last_commit = "3a329b813c3ad5d12dd54476494014857922bbe8"
+last_commit_time = "2018-10-16T22:34"
+status = "200"
+
+[repo.stats]
+branches = 0
+forks = 0
+tag_count = 0
+stars = 0
+commits = 103
+watching = 3
 
 [[repo]]
 url = "https://github.com/usechain/usechain-wallet"
+last_commit = "c45b60bb08c7bec3892ea1ea7bd5fb02537b4e46"
+last_commit_time = "2018-06-05T06:15"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 4
+forks = 1
+branches = 7
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/usechain/USEtokenContract"
+last_commit = "1a99796706a143140089df16b49f0ddc197cd5d4"
+last_commit_time = "2019-05-31T10:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+commits = 1
+forks = 2
+stars = 1
+branches = 5
 
 [[repo]]
 url = "https://github.com/usechain/USTtokenContract"
+last_commit = "1a99796706a143140089df16b49f0ddc197cd5d4"
+last_commit_time = "2019-05-31T10:47"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 1
+forks = 2
+tag_count = 0
+branches = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/usechain/uwallet"
+last_commit = "4dfa90ab154155caaf3a786e50f257cb5f048224"
+last_commit_time = "2018-08-02T03:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+commits = 1
+watching = 4
+forks = 0
+branches = 8
 
 [[repo]]
 url = "https://github.com/usechain/uwallet-android"
+last_commit = "9459724ff148a548cdba3747fa90d69e07ec1954"
+last_commit_time = "2019-06-14T07:58"
+status = "200"
+
+[repo.stats]
+branches = 1
+commits = 1
+tag_count = 0
+watching = 2
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/usechain/uwallet-ios"
+last_commit = "ab21c6c82723a595ba35a2d4abaf2bbabfc602d5"
+last_commit_time = "2019-06-14T08:07"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 1
+watching = 2
+branches = 2
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/usechain/web3.js"
+last_commit = "f55cfae489f4a28d7205970bd61ed6e2c05de093"
+last_commit_time = "2018-06-27T09:48"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 3
+forks = 0
+branches = 0
+commits = 9
 
 [[repo]]
 url = "https://github.com/usechain/webfront"
+last_commit = "32ebcd7a821df62715898ae49c14a279e617f948"
+last_commit_time = "2020-04-30T01:47"
+status = "200"
+
+[repo.stats]
+watching = 9
+forks = 3
+tag_count = 0
+stars = 1
+branches = 92
+commits = 17

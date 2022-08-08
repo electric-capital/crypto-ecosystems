@@ -1,16 +1,46 @@
-# Ecosystem Level Information
 title = "Birdy Finance"
-
+toml_path = "data/ecosystems/b/birdy-finance.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/birdyfinance/bridge-tokens"
+last_commit = "27756e846e584cb486fdb05efc54ebf3b1747c8e"
+last_commit_time = "2021-05-09T18:05"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 57
+watching = 0
+stars = 0
+branches = 149
+commits = 1
 
 [[repo]]
 url = "https://github.com/birdyfinance/contracts"
+last_commit = "e00e6a0b971b491a9a95c3453c31b3857496bd9c"
+last_commit_time = "2021-05-10T20:50"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+stars = 0
+forks = 0
+branches = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/birdyfinance/tokenlists"
+last_commit = "9d5bb42fa6cd8d8ecbc5d5c9f895430978c71c6c"
+last_commit_time = "2021-05-16T14:41"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 57
+forks = 110
+commits = 3
+tag_count = 0
+stars = 0

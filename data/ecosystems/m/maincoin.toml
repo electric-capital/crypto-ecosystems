@@ -1,28 +1,100 @@
-# Ecosystem Level Information
 title = "Maincoin"
-
+toml_path = "data/ecosystems/m/maincoin.toml"
+github_organizations = ["https://github.com/main-coin"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/main-coin"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/main-coin/coin"
+last_commit = "e01f5e7d835b39bd5a5c25ca764b0851b351f37b"
+last_commit_time = "2018-10-04T08:40"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 0
+forks = 2
+tag_count = 0
+commits = 1
+branches = 4
 
 [[repo]]
 url = "https://github.com/main-coin/main-explorer-backend"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 0
+tag_count = 0
+branches = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/main-coin/main-explorer-backend-2"
+last_commit = "bca165439f8983280d4a29f0bfd457b6a8841559"
+last_commit_time = "2019-03-17T09:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+watching = 2
+stars = 0
+commits = 1
+branches = 154
 
 [[repo]]
 url = "https://github.com/main-coin/main-explorer-deploy"
+last_commit = "6c8e4b170d193fff43152944cf2e7996a1ec38c1"
+last_commit_time = "2019-03-03T05:39"
+status = "200"
+
+[repo.stats]
+branches = 30
+tag_count = 0
+forks = 0
+watching = 2
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/main-coin/main-explorer-frontend"
+last_commit = "9c8d48471449921d7cbcf3b0f8a7525fcaf9ba81"
+last_commit_time = "2019-03-03T05:39"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 2
+branches = 41
+stars = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/main-coin/main-wallet"
+last_commit = "2b62dadc5ffa9294dc6140fdb9ac0fda410a6bda"
+last_commit_time = "2019-05-09T03:27"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 2
+branches = 20
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/main-coin/merchant-api"
+last_commit = "b167a04c9c4dc9544db8cb1beb45b1dcc4cc1245"
+last_commit_time = "2019-02-18T06:35"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+tag_count = 0
+branches = 108
+commits = 1
+watching = 2

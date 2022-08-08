@@ -1,181 +1,810 @@
-# Ecosystem Level Information
 title = "LayerX"
-
+toml_path = "data/ecosystems/l/layerx.toml"
+github_organizations = ["https://github.com/LayerXcom"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/LayerXcom"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/LayerXcom/anonify"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 14
+forks = 10
+watching = 20
+tag_count = 0
+stars = 85
 
 [[repo]]
 url = "https://github.com/LayerXcom/anonify-book"
+last_commit = "e61cedb374c4ff4b83703e1afb51d26408c24696"
+last_commit_time = "2022-06-15T01:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 4
+forks = 0
+stars = 0
+branches = 30
 
 [[repo]]
 url = "https://github.com/LayerXcom/anonify-book-en"
+last_commit = "6e5d8ccb76c1cc3784c181fad109fc3dad53f393"
+last_commit_time = "2022-06-15T01:24"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 8
+watching = 4
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/LayerXcom/anonify-contracts"
+last_commit = "f10ed0671a07417060b947b66973f5db1ddebbb8"
+last_commit_time = "2022-06-15T01:25"
+status = "200"
+
+[repo.stats]
+branches = 33
+commits = 4
+forks = 1
+tag_count = 0
+watching = 16
+stars = 5
 
 [[repo]]
 url = "https://github.com/LayerXcom/aws-vpc-with-terraform"
+last_commit = "85c64e36b6adaa2543007467f37a104db9481438"
+last_commit_time = "2018-04-13T08:49"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 2
+stars = 0
+forks = 1
+branches = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/bellman-substrate"
+last_commit = "51f00533b7736835c2c06f5028d9a51c7715bfb2"
+last_commit_time = "2019-02-18T09:16"
+status = "200"
+
+[repo.stats]
+forks = 9
+watching = 4
+tag_count = 0
+branches = 659
+commits = 6
+stars = 26
 
 [[repo]]
 url = "https://github.com/LayerXcom/cbc-beacon-chain"
+last_commit = "68f3fa58eb3c9decaa5a9285e01f55135a24500e"
+last_commit_time = "2019-02-07T06:50"
+status = "200"
+
+[repo.stats]
+commits = 3
+forks = 0
+tag_count = 0
+stars = 3
+watching = 17
+branches = 725
 
 [[repo]]
 url = "https://github.com/LayerXcom/cbc-casper-js"
+last_commit = "f15b6927ca9268f81f9f52369e1c1d87f3994d11"
+last_commit_time = "2018-04-21T13:56"
+status = "200"
+
+[repo.stats]
+forks = 5
+stars = 0
+branches = 107
+watching = 4
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/cbc-casper-paper"
+last_commit = "cb9d735745b92e5e58083c76ac2d531b8297160a"
+last_commit_time = "2018-12-08T19:19"
+status = "200"
+
+[repo.stats]
+branches = 35
+commits = 1
+stars = 0
+forks = 19
+watching = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/cbc-casper-proof"
+status = "200"
+
+[repo.stats]
+forks = 4
+tag_count = 0
+commits = 1
+stars = 34
+watching = 5
+branches = 347
 
 [[repo]]
 url = "https://github.com/LayerXcom/cbc-casper-simulator"
+last_commit = "eef2109ae9c37647830fea9a320277a9e1aadd71"
+last_commit_time = "2019-04-15T08:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 101
+watching = 17
+stars = 5
+forks = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/LayerXcom/ccm-book"
+last_commit = "e61cedb374c4ff4b83703e1afb51d26408c24696"
+last_commit_time = "2022-06-15T01:25"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 4
+commits = 1
+branches = 30
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/ccm-book-en"
+last_commit = "6e5d8ccb76c1cc3784c181fad109fc3dad53f393"
+last_commit_time = "2022-06-15T01:24"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 0
+tag_count = 0
+commits = 1
+stars = 0
+branches = 8
 
 [[repo]]
 url = "https://github.com/LayerXcom/ccm-contracts"
+last_commit = "f10ed0671a07417060b947b66973f5db1ddebbb8"
+last_commit_time = "2022-06-15T01:25"
+status = "200"
+
+[repo.stats]
+stars = 5
+commits = 4
+branches = 33
+tag_count = 0
+forks = 1
+watching = 16
 
 [[repo]]
 url = "https://github.com/LayerXcom/confidential-computing-modules"
+status = "200"
+
+[repo.stats]
+stars = 85
+commits = 14
+watching = 20
+forks = 10
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/cordage"
+last_commit = "65449fcb78af1a1d20114b81cce6f3cdd7dce029"
+last_commit_time = "2021-03-10T13:42"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 222
+stars = 52
+commits = 23
+forks = 7
+watching = 23
 
 [[repo]]
 url = "https://github.com/LayerXcom/cryst"
+last_commit = "b0c5cc340314baab47fc31d22b52adbff5d11f3c"
+last_commit_time = "2019-01-03T03:16"
+status = "200"
+
+[repo.stats]
+branches = 1
+tag_count = 0
+forks = 0
+watching = 3
+stars = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/LayerXcom/dbmate"
+last_commit = "2c83de332c4d016df3bc9d9065d10b852ffa63c4"
+last_commit_time = "2019-06-14T03:02"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 183
+tag_count = 0
+branches = 109
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/ethsnarks-examples"
+last_commit = "7ccda09a9beeeb629e1d9f170b7d8f2490b3e05a"
+last_commit_time = "2018-12-17T09:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 18
+commits = 2
+stars = 2
+forks = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/LayerXcom/evm-semantics"
+last_commit = "0c6c620ef7e84148ce8d63d732317301a66db61c"
+last_commit_time = "2018-12-10T09:42"
+status = "200"
+
+[repo.stats]
+commits = 13
+watching = 5
+tag_count = 0
+stars = 0
+branches = 0
+forks = 116
 
 [[repo]]
 url = "https://github.com/LayerXcom/fc-api"
+last_commit = "db288acd6eb479c0378bbf62d1429bec5c621644"
+last_commit_time = "2018-07-25T08:09"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 1
+branches = 1
+watching = 7
+stars = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/fc-contracts"
+last_commit = "5d4ff8c6094bece1b9270ff901d81ab1c859d719"
+last_commit_time = "2018-07-27T02:54"
+status = "200"
+
+[repo.stats]
+branches = 2
+stars = 0
+watching = 7
+forks = 0
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/LayerXcom/fc-web"
+last_commit = "1dd3d81837c1a5ce97785e5087b09d9e6e9bb3b0"
+last_commit_time = "2018-07-25T08:16"
+status = "200"
+
+[repo.stats]
+commits = 8
+branches = 2
+tag_count = 0
+forks = 0
+stars = 0
+watching = 7
 
 [[repo]]
 url = "https://github.com/LayerXcom/freee-go"
+last_commit = "58ac869b4c7c824b1a88d8fb8ee5b60fef0eddec"
+last_commit_time = "2022-07-31T04:36"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 4
+tag_count = 0
+stars = 25
+branches = 195
+watching = 24
 
 [[repo]]
 url = "https://github.com/LayerXcom/gram"
+last_commit = "bdd19930edb09d771f7513944908346a35ac3a1d"
+last_commit_time = "2018-10-18T05:23"
+status = "200"
+
+[repo.stats]
+stars = 13
+branches = 90
+forks = 0
+commits = 2
+watching = 18
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/hyperledger-fabric-security-dvp"
+last_commit = "f8b4c95519fd3371682e485db7858d1a25916e73"
+last_commit_time = "2020-05-17T22:19"
+status = "200"
+
+[repo.stats]
+forks = 3
+watching = 17
+tag_count = 0
+commits = 2
+stars = 22
+branches = 8
 
 [[repo]]
 url = "https://github.com/LayerXcom/icon-score-dev"
+last_commit = "b8641ff7f3aee9cacaa1d4243edc324c5d86cd99"
+last_commit_time = "2018-11-19T08:04"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 17
+tag_count = 0
+commits = 1
+stars = 0
+branches = 19
 
 [[repo]]
 url = "https://github.com/LayerXcom/incubator-teaclave-sgx-sdk"
+last_commit = "81b6c732540dba39c740c7c26b2abe5263f597b5"
+last_commit_time = "2021-03-18T00:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 566
+commits = 27
+forks = 223
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/java-tron"
+last_commit = "220695f5314d0cd43e40823224501fd5091b8af2"
+last_commit_time = "2019-01-31T08:52"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 0
+tag_count = 0
+stars = 1
+commits = 459
+branches = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/librustzcash"
+last_commit = "2c19687150cd5daddb793e0c8e651a95f10d8a21"
+last_commit_time = "2019-10-02T09:45"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 177
+watching = 3
+stars = 0
+commits = 7
+branches = 634
 
 [[repo]]
 url = "https://github.com/LayerXcom/libsgx-rs"
+last_commit = "439bd4670ed24e2b7d714285381dbf89dc4289b1"
+last_commit_time = "2020-07-16T02:13"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 31
+commits = 3
+tag_count = 0
+watching = 17
+forks = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/libSTARK"
+last_commit = "e5e2429b6bb23382507f8cdff6626c0b50b0222c"
+last_commit_time = "2018-12-21T01:58"
+status = "200"
+
+[repo.stats]
+commits = 7
+forks = 79
+watching = 6
+stars = 5
+tag_count = 0
+branches = 98
 
 [[repo]]
 url = "https://github.com/LayerXcom/lighthouse"
+last_commit = "a0eb359738fe90cc500c9d4b204ea5a2b6247f55"
+last_commit_time = "2019-02-07T03:24"
+status = "200"
+
+[repo.stats]
+branches = 940
+forks = 390
+watching = 4
+stars = 0
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/LayerXcom/lmd-ghost-simulation"
+last_commit = "90b0acef254089b03e31b464c103633ab0dd37cf"
+last_commit_time = "2019-09-02T07:51"
+status = "200"
+
+[repo.stats]
+branches = 12
+stars = 0
+watching = 17
+tag_count = 0
+commits = 8
+forks = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/load-balancing"
+last_commit = "34f194579a907de8a3a2af17934e8554a9613ba2"
+last_commit_time = "2019-10-17T09:59"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 1
+tag_count = 0
+stars = 0
+forks = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/LayerXcom/lx-sonic"
+last_commit = "32a5d388b94576474f02938b464ae3ce7bd6606e"
+last_commit_time = "2019-06-04T15:15"
+status = "200"
+
+[repo.stats]
+stars = 17
+watching = 3
+forks = 2
+commits = 1
+branches = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/oo7"
+last_commit = "79856e56658ad2b71115af5f682ac5d71a4f9ab3"
+last_commit_time = "2019-03-04T07:11"
+status = "200"
+
+[repo.stats]
+branches = 393
+commits = 7
+forks = 22
+stars = 0
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/perigord"
+last_commit = "77693d5b0a2ef0d03b5fdcccd9298b136215bc7f"
+last_commit_time = "2018-08-20T19:05"
+status = "200"
+
+[repo.stats]
+branches = 88
+tag_count = 0
+watching = 1
+commits = 4
+stars = 0
+forks = 25
 
 [[repo]]
 url = "https://github.com/LayerXcom/plasma-mvp-vyper"
+last_commit = "fb45d569778fee72c7054424b8cc68ba5ee866be"
+last_commit_time = "2018-10-17T02:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 492
+commits = 4
+watching = 18
+stars = 47
+forks = 7
 
 [[repo]]
 url = "https://github.com/LayerXcom/polkadot.rs"
+last_commit = "ff06ba7b47e5e2d79e3edfdcfefa32b827c43d25"
+last_commit_time = "2019-08-14T09:03"
+status = "200"
+
+[repo.stats]
+stars = 12
+branches = 32
+tag_count = 0
+commits = 2
+watching = 18
+forks = 3
 
 [[repo]]
 url = "https://github.com/LayerXcom/prysm"
+last_commit = "e76bf193b4dc2ac059ef617dcaa9303c4cbeeed2"
+last_commit_time = "2019-02-07T06:07"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 632
+stars = 0
+branches = 0
+commits = 48
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/qldb-evaluation"
+last_commit = "881e48605f0f8ea92314ccded8653426797978f9"
+last_commit_time = "2020-04-17T00:09"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 6
+tag_count = 0
+branches = 1
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/LayerXcom/research-hunt-contract"
+last_commit = "f34b88c8ee3940266f17438e90c2f91d8f2def3b"
+last_commit_time = "2019-07-10T01:00"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 17
+forks = 0
+tag_count = 0
+commits = 5
+branches = 55
 
 [[repo]]
 url = "https://github.com/LayerXcom/safety-oracle"
+last_commit = "32eae486b6e6e916730cb701b93a04e465fc5f43"
+last_commit_time = "2020-07-08T06:30"
+status = "200"
+
+[repo.stats]
+watching = 17
+branches = 51
+forks = 1
+commits = 4
+tag_count = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/LayerXcom/snarks-voting"
+last_commit = "7d96aa5688c342af1fe2e063e14791340460b179"
+last_commit_time = "2018-12-20T04:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 3
+commits = 1
+watching = 3
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/stark-sol"
+last_commit = "ebbf5f160ff934c513f4a458e91f699a0160395a"
+last_commit_time = "2018-12-04T01:07"
+status = "200"
+
+[repo.stats]
+watching = 19
+stars = 5
+forks = 1
+tag_count = 0
+branches = 111
+commits = 5
 
 [[repo]]
 url = "https://github.com/LayerXcom/verified-plasma-contracts"
+last_commit = "b50b13d3bc33611d1d505f3478824c6097c0dcdb"
+last_commit_time = "2018-11-12T07:03"
+status = "200"
+
+[repo.stats]
+commits = 5
+watching = 17
+stars = 5
+forks = 0
+tag_count = 0
+branches = 20
 
 [[repo]]
 url = "https://github.com/LayerXcom/verified-plasma-mvp"
+last_commit = "48135dfab3dd40653498e70b437e8bf6c2725f1b"
+last_commit_time = "2018-10-15T01:49"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+branches = 11
+commits = 1
+forks = 0
+watching = 17
 
 [[repo]]
 url = "https://github.com/LayerXcom/verified-smart-contracts"
+last_commit = "443b7c70d18045b190456e2a534706f289376c19"
+last_commit_time = "2018-10-25T03:31"
+status = "200"
+
+[repo.stats]
+commits = 22
+watching = 5
+stars = 0
+forks = 121
+branches = 413
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/verified-vyper-contracts"
+last_commit = "86dc7f889f0dc9ae916341ad9f07ee7dd98ac77c"
+last_commit_time = "2019-01-24T05:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 47
+branches = 224
+forks = 12
+watching = 21
+commits = 7
 
 [[repo]]
 url = "https://github.com/LayerXcom/vyper"
+last_commit = "26403f41bc714d3de32dbab5eacb70ccdaffa2d5"
+last_commit_time = "2019-02-13T13:09"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 6
+watching = 5
+tag_count = 0
+forks = 688
+stars = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/vyper-remix"
+last_commit = "458331245238d8131e9eee27d4eb2d8bfe302b4e"
+last_commit_time = "2018-12-15T00:07"
+status = "200"
+
+[repo.stats]
+branches = 148
+watching = 18
+commits = 11
+forks = 35
+tag_count = 0
+stars = 18
 
 [[repo]]
 url = "https://github.com/LayerXcom/Web3-collaboration"
+last_commit = "05a320ff45aab6794c7b157bf5a69a61cebf6fef"
+last_commit_time = "2019-03-25T13:59"
+status = "200"
+
+[repo.stats]
+branches = 120
+tag_count = 0
+watching = 3
+stars = 0
+commits = 3
+forks = 521
 
 [[repo]]
 url = "https://github.com/LayerXcom/zero-chain"
+last_commit = "7763d6e3a251f2e5087fcc22c13e18bbd4de87a2"
+last_commit_time = "2019-12-24T00:42"
+status = "200"
+
+[repo.stats]
+stars = 254
+forks = 42
+watching = 27
+tag_count = 0
+commits = 19
+branches = 754
 
 [[repo]]
 url = "https://github.com/LayerXcom/zero-chain-ui"
+last_commit = "ebbdb2421dda77e1393a1dc4f394b583269aa211"
+last_commit_time = "2019-04-18T08:00"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+watching = 17
+branches = 25
+stars = 7
+commits = 11
 
 [[repo]]
 url = "https://github.com/LayerXcom/zero-wallet"
+last_commit = "bc997dc104ad40569079e039e266fd69ae153fd7"
+last_commit_time = "2019-06-02T12:03"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+branches = 1
+watching = 17
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/zerochain-book"
+last_commit = "8dc54e151a0b89b816e63ecee1d11cc5d1f25fc3"
+last_commit_time = "2019-12-24T05:53"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 8
+watching = 1
+tag_count = 0
+forks = 3
+branches = 40
 
 [[repo]]
 url = "https://github.com/LayerXcom/zerochain-wallet-desktop"
+last_commit = "a4a9a7bb969e0e7862e860e6b9fc125ea0249553"
+last_commit_time = "2019-10-01T01:29"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 17
+stars = 0
+branches = 66
+tag_count = 0
+commits = 6

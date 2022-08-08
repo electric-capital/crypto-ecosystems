@@ -1,16 +1,46 @@
-# Ecosystem Level Information
 title = "LocalCoinSwap"
-
+toml_path = "data/ecosystems/l/localcoinswap.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/LocalCoinSwap/substrate-multisig-reference"
+last_commit = "2a1d84c5e5158ff838deb14f5098b84fc1348477"
+last_commit_time = "2021-03-15T08:11"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 3
+forks = 2
+tag_count = 0
+branches = 47
+commits = 35
 
 [[repo]]
 url = "https://github.com/LocalCoinSwap/substrate-utils"
+last_commit = "1221c129baad89c19d848179cecb33290ca57e66"
+last_commit_time = "2022-02-27T20:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 28
+branches = 226
+stars = 8
+forks = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/runtimeverification/polkadot-verification"
+last_commit = "f09fceac1a40d75d44382c8a68c73cf699a62efa"
+last_commit_time = "2020-09-09T10:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 9
+watching = 22
+commits = 11
+branches = 80
+forks = 6

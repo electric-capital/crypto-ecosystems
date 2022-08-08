@@ -1,55 +1,228 @@
-# Ecosystem Level Information
 title = "Jigstack"
-
+toml_path = "data/ecosystems/j/jigstack.toml"
+github_organizations = ["https://github.com/jigstack-dev"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/jigstack-dev"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/jigstack-dev/echidna"
+last_commit = "14d2bda72889382d207fa67acb7fdd8f00581b7d"
+last_commit_time = "2021-03-16T12:53"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+branches = 956
+forks = 199
+tag_count = 0
+commits = 20
 
 [[repo]]
 url = "https://github.com/jigstack-dev/gallery-audits"
+last_commit = "15c9ecbae7a0f3d27ba992673843f9c4b2c2a089"
+last_commit_time = "2021-08-28T22:53"
+status = "200"
+
+[repo.stats]
+branches = 2
+forks = 0
+watching = 1
+tag_count = 0
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/jigstack-dev/gallery-contracts"
+last_commit = "83b7c6c0106974d17b2420e21e4c0a061768571a"
+last_commit_time = "2021-05-13T15:45"
+status = "200"
+
+[repo.stats]
+commits = 6
+stars = 5
+forks = 1
+watching = 1
+branches = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/jigstack-dev/jgov-app"
+last_commit = "ec786aa1b1a6dc61d8ab11fc1461e2efde7e917b"
+last_commit_time = "2021-11-03T12:37"
+status = "200"
+
+[repo.stats]
+branches = 2
+commits = 5
+forks = 0
+stars = 0
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/jigstack-dev/jigstack-guidelines"
+last_commit = "70b602bc154021459b787c31ab4d8c0d2868dfd6"
+last_commit_time = "2021-02-18T04:58"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 5
+branches = 2
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/jigstack-dev/lemonade-audits"
+last_commit = "284abdbdcbfeb738b3c6c731ea943e46f17c585f"
+last_commit_time = "2021-06-16T15:50"
+status = "200"
+
+[repo.stats]
+branches = 4
+commits = 1
+stars = 2
+tag_count = 0
+watching = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/jigstack-dev/manticore"
+last_commit = "7d13eed9563b68dc804e3a1808276b4bb4d85574"
+last_commit_time = "2021-03-16T12:42"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 427
+branches = 991
+tag_count = 0
+commits = 38
+watching = 1
 
 [[repo]]
 url = "https://github.com/jigstack-dev/nft-image-pinning"
+last_commit = "1024d8dfd7099dcc9c82b34e2e09c0c27b24410d"
+last_commit_time = "2021-04-28T01:36"
+status = "200"
+
+[repo.stats]
+stars = 8
+forks = 0
+branches = 4
+watching = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/jigstack-dev/slither"
+last_commit = "011675b8bcab2e74311429e00a9f32920a320470"
+last_commit_time = "2021-03-16T12:49"
+status = "200"
+
+[repo.stats]
+forks = 503
+stars = 0
+tag_count = 0
+watching = 1
+branches = 0
+commits = 23
 
 [[repo]]
 url = "https://github.com/jigstack-dev/smart-contract-best-practices"
+last_commit = "758da450990c5a867fa4442811b9a4291282598b"
+last_commit_time = "2021-10-11T07:12"
+status = "200"
+
+[repo.stats]
+branches = 660
+stars = 2
+forks = 0
+watching = 1
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/jigstack-dev/solc-select"
+last_commit = "d866c55b7d78f421a7724d7b7d723bd8bedef28b"
+last_commit_time = "2021-02-09T13:41"
+status = "200"
+
+[repo.stats]
+commits = 4
+forks = 66
+stars = 0
+tag_count = 0
+watching = 1
+branches = 67
 
 [[repo]]
 url = "https://github.com/jigstack-dev/solidity"
+last_commit = "620c7b6355f85ae5096785cee6a6f9e4dc212024"
+last_commit_time = "2022-08-04T07:12"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 1
+branches = 0
+commits = 127
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/jigstack-dev/solidity-template"
+last_commit = "27279287c780a44021cd670701f9c110c586213a"
+last_commit_time = "2021-06-28T07:09"
+status = "200"
+
+[repo.stats]
+branches = 142
+stars = 0
+forks = 442
+commits = 4
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/jigstack-dev/stak-token"
+last_commit = "31ed743a69e02ae2388a68626cb0248ad5e1d01a"
+last_commit_time = "2021-06-16T15:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 9
+stars = 4
+watching = 1
+forks = 1
+branches = 12
 
 [[repo]]
 url = "https://github.com/jigstack-dev/stakbank-audits"
+last_commit = "b691f311a84e157342981b77617b6690d25ef0b9"
+last_commit_time = "2021-07-30T01:24"
+status = "200"
+
+[repo.stats]
+branches = 5
+commits = 1
+stars = 0
+watching = 2
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/jigstack-dev/theta-tool-ethereum-erc20-snapshot"
+last_commit = "2fdb4c1b756d3a6e615aa9e11160c2b0e47203c8"
+last_commit_time = "2019-02-01T19:26"
+status = "200"
+
+[repo.stats]
+branches = 18
+tag_count = 0
+forks = 17
+stars = 0
+commits = 1
+watching = 1

@@ -1,10 +1,16 @@
-# Ecosystem Level Information
 title = "PRIZM"
-
+toml_path = "data/ecosystems/p/prizm.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/prizmspace/PrizmCore"
+status = "200"
+
+[repo.stats]
+branches = 88
+watching = 41
+stars = 193
+forks = 108
+commits = 9
+tag_count = 0

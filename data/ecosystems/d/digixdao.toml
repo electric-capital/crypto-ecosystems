@@ -1,338 +1,1545 @@
-# Ecosystem Level Information
 title = "DigixDAO"
-
+toml_path = "data/ecosystems/d/digixdao.toml"
+github_organizations = ["https://github.com/DigixGlobal"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/DigixGlobal"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/DigixGlobal/abi"
+last_commit = "469495273e41c3ea04556dc970061d298e493ead"
+last_commit_time = "2019-04-11T07:35"
+status = "200"
+
+[repo.stats]
+forks = 21
+stars = 0
+watching = 0
+tag_count = 0
+commits = 5
+branches = 50
 
 [[repo]]
 url = "https://github.com/DigixGlobal/absinthe"
+last_commit = "33f7de7e70c740d7963947211580da70b768b7c7"
+last_commit_time = "2020-02-26T17:02"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 17
+forks = 475
+stars = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/absinthe_plug"
+last_commit = "625836f7c673ca65c8499ec49286d79a32ae26a7"
+last_commit_time = "2020-02-24T14:32"
+status = "200"
+
+[repo.stats]
+commits = 4
+forks = 137
+watching = 1
+tag_count = 0
+stars = 0
+branches = 409
 
 [[repo]]
 url = "https://github.com/DigixGlobal/acid-solidity"
+last_commit = "f52089ed9e69834cb940ec44eb9078485d4163b4"
+last_commit_time = "2020-03-11T10:59"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 0
+branches = 38
+tag_count = 0
+commits = 7
+watching = 2
 
 [[repo]]
 url = "https://github.com/DigixGlobal/api-connectors"
+last_commit = "ee9f3ae7d2b9222d6191540ce1da0026caecd33c"
+last_commit_time = "2019-05-08T04:38"
+status = "200"
+
+[repo.stats]
+forks = 824
+tag_count = 0
+watching = 2
+stars = 0
+branches = 186
+commits = 2
 
 [[repo]]
 url = "https://github.com/DigixGlobal/aurum"
+last_commit = "e0ce943e57294d054d3c6749f60d7de0f396b4a7"
+last_commit_time = "2015-07-13T10:28"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 3
+stars = 3
+tag_count = 0
+watching = 4
+branches = 3
 
 [[repo]]
 url = "https://github.com/DigixGlobal/aws_elixir_srp"
+last_commit = "46aa934b3e5bc0725e2c2a8229d91595724f65ee"
+last_commit_time = "2020-07-03T04:27"
+status = "200"
+
+[repo.stats]
+commits = 4
+tag_count = 0
+branches = 10
+forks = 0
+watching = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/Bank-profile"
+last_commit = "90601b9d541ea9b89f7431f87f22a01644a88057"
+last_commit_time = "2019-05-25T15:10"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 23
+stars = 0
+watching = 2
+branches = 11
+commits = 2
 
 [[repo]]
 url = "https://github.com/DigixGlobal/bitfinex"
+last_commit = "8d4f10d772371af20b2f440d6d929e77d30088ea"
+last_commit_time = "2020-08-18T04:11"
+status = "200"
+
+[repo.stats]
+branches = 68
+watching = 1
+stars = 0
+commits = 2
+forks = 138
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/cacp-contracts"
+last_commit = "db14a5f9476b0d7872fd36ed6c39403d70077d3d"
+last_commit_time = "2018-03-19T06:38"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 77
+watching = 10
+forks = 0
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/DigixGlobal/conduit_nsq"
+last_commit = "37f99ce5a6881fbe56786d7eaf5419e0d86fc3eb"
+last_commit_time = "2019-11-19T08:36"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 6
+tag_count = 0
+stars = 0
+branches = 8
+commits = 3
 
 [[repo]]
 url = "https://github.com/DigixGlobal/conduit_plugs"
+last_commit = "80e8442dccaf6dd0d3fa843a99b4d140f6119193"
+last_commit_time = "2019-09-04T10:23"
+status = "200"
+
+[repo.stats]
+branches = 4
+stars = 0
+forks = 0
+watching = 6
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/contest"
+last_commit = "542b137e6d20731973daff62ca6ba5188c77d5ac"
+last_commit_time = "2017-06-14T08:47"
+status = "200"
+
+[repo.stats]
+stars = 8
+forks = 5
+branches = 50
+watching = 3
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/contract-tools"
+last_commit = "c8d88afc90b0f8795ac7a83a1b6ed1feb1221475"
+last_commit_time = "2018-03-20T03:31"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 2
+tag_count = 0
+stars = 2
+commits = 3
+branches = 8
 
 [[repo]]
 url = "https://github.com/DigixGlobal/cpp-ethereum"
+last_commit = "db7b5484f2edc067d0ddb2f9be8413ddc612bf30"
+last_commit_time = "2015-05-14T18:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+commits = 15
+forks = 0
+stars = 1
+branches = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/dao-contracts"
 tags = ["Protocol"]
+last_commit = "de0027ce778a4456b7ef38462cd76a4243752076"
+last_commit_time = "2018-12-18T09:52"
+status = "200"
+
+[repo.stats]
+commits = 17
+forks = 18
+watching = 12
+branches = 77
+stars = 27
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/dao-server"
+last_commit = "3d44bb631affb96aad4e6ff855a76cff47f17638"
+last_commit_time = "2019-09-04T02:10"
+status = "200"
+
+[repo.stats]
+stars = 2
+commits = 54
+watching = 7
+tag_count = 0
+forks = 6
+branches = 171
 
 [[repo]]
 url = "https://github.com/DigixGlobal/dao-test-automation"
+last_commit = "d2496328c6db5dc7ee0e264924705273f5c79e70"
+last_commit_time = "2019-07-01T06:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+commits = 7
+watching = 7
+branches = 102
+stars = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/DGXi"
+last_commit = "29b7861825ac542aace99e6e8245faea5930a9ff"
+last_commit_time = "2017-05-13T23:09"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 1
+forks = 3
+stars = 1
+branches = 4
 
 [[repo]]
 url = "https://github.com/DigixGlobal/dice-to-entropy"
+last_commit = "844a4ed4b37e5d60435aac98869a5e7c5707a97f"
+last_commit_time = "2017-06-03T09:45"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+forks = 2
+branches = 1
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/digix-press-kit"
+last_commit = "9c5aa9b0dde29a922866dd5b54f82845a1a9076f"
+last_commit_time = "2018-09-25T05:01"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+watching = 8
+branches = 10
+tag_count = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/digixbot-contracts"
+last_commit = "71b5cc88cccc681fb6ce1a581f3ac8f071466900"
+last_commit_time = "2015-10-21T06:30"
+status = "200"
+
+[repo.stats]
+forks = 7
+branches = 41
+stars = 3
+commits = 1
+watching = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/digixdao-contracts"
+last_commit = "bac15b1ba2b9aa5a96b22f1432de6d4e6dd40f52"
+last_commit_time = "2016-05-19T17:14"
+status = "200"
+
+[repo.stats]
+watching = 11
+tag_count = 0
+stars = 49
+branches = 78
+commits = 2
+forks = 18
 
 [[repo]]
 url = "https://github.com/DigixGlobal/dijix"
+last_commit = "faf0fc82e774720144adaf9befbd57a5ff73b1e3"
+last_commit_time = "2019-01-18T04:34"
+status = "200"
+
+[repo.stats]
+branches = 28
+forks = 3
+watching = 9
+stars = 10
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/DigixGlobal/dijix-attestation"
+last_commit = "ed1345a0cee135cd1b37c551325f8f8206b40fda"
+last_commit_time = "2017-10-06T07:03"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+tag_count = 0
+branches = 5
+watching = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/dijix-image"
+last_commit = "d82248087c8d3c65a4f59f33fc76082462478151"
+last_commit_time = "2017-09-15T05:04"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 9
+tag_count = 0
+commits = 1
+forks = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/dijix-pdf"
+last_commit = "487bb4804ac96b4214286f3f1096605bb4a1224b"
+last_commit_time = "2017-09-15T08:35"
+status = "200"
+
+[repo.stats]
+branches = 9
+stars = 0
+commits = 1
+tag_count = 0
+forks = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/dijix-plugin-pinning"
+last_commit = "7377981af2f51cef0b61d9118e7777a72dd760d9"
+last_commit_time = "2017-10-04T08:40"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+watching = 1
+forks = 2
+branches = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/documentations"
+last_commit = "7b7204e111153674781a72043373bfcf22e1ad63"
+last_commit_time = "2019-10-30T05:36"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 7
+tag_count = 0
+commits = 2
+stars = 1
+branches = 4
 
 [[repo]]
 url = "https://github.com/DigixGlobal/doxity"
+last_commit = "5699082efbc26a891be15ac811d5e2ad39e426ac"
+last_commit_time = "2017-09-13T06:41"
+status = "200"
+
+[repo.stats]
+watching = 17
+branches = 58
+forks = 60
+tag_count = 0
+commits = 4
+stars = 200
 
 [[repo]]
 url = "https://github.com/DigixGlobal/doxity-gatsby-starter-project"
+last_commit = "a4886b7a7a04c018ac04fed3125d7d4785e74bed"
+last_commit_time = "2017-04-24T04:34"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 50
+stars = 0
+tag_count = 0
+branches = 115
+commits = 6
 
 [[repo]]
 url = "https://github.com/DigixGlobal/droplet_kit"
+last_commit = "f2cba769f3f71daccd3c245e8b192dbe69d1a393"
+last_commit_time = "2016-07-27T22:55"
+status = "200"
+
+[repo.stats]
+forks = 150
+tag_count = 0
+watching = 3
+commits = 2
+stars = 0
+branches = 216
 
 [[repo]]
 url = "https://github.com/DigixGlobal/electron-core"
+last_commit = "84c9f80a94ed275d798ec2fe94d9c6105a6da11e"
+last_commit_time = "2019-09-25T07:02"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 54
+stars = 1
+forks = 1
+tag_count = 0
+commits = 32
 
 [[repo]]
 url = "https://github.com/DigixGlobal/eleveldb"
+last_commit = "7920245fd112d2ab5c6416cf827c8f0f82b6530c"
+last_commit_time = "2019-03-07T12:11"
+status = "200"
+
+[repo.stats]
+commits = 106
+watching = 1
+forks = 164
+tag_count = 0
+branches = 663
+stars = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/elixir_nsq"
+last_commit = "270f78d3e29f36c93337d8186898fa40fc71047b"
+last_commit_time = "2019-09-23T13:25"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 23
+branches = 352
+tag_count = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/DigixGlobal/erlang-keccakf1600"
+last_commit = "211a8a291b7bcdba8d0d9214b6551bade960311d"
+last_commit_time = "2016-02-05T22:49"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+tag_count = 0
+commits = 3
+forks = 27
+branches = 14
 
 [[repo]]
 url = "https://github.com/DigixGlobal/etc-redemption"
+last_commit = "e295509ec098207ae838e25251de1a7e7c783654"
+last_commit_time = "2018-11-29T02:49"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 132
+watching = 1
+forks = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/etc-refund"
+last_commit = "cdd9b713409743c359fc2b0edbd65ae76f5c6b8a"
+last_commit_time = "2017-06-01T14:22"
+status = "200"
+
+[repo.stats]
+forks = 3
+branches = 1
+stars = 1
+watching = 1
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/eth-block-tracker"
+last_commit = "176b8924e4f861a174f12248f7bb01c75ec971b6"
+last_commit_time = "2017-06-14T22:28"
+status = "200"
+
+[repo.stats]
+forks = 85
+stars = 2
+tag_count = 0
+commits = 4
+branches = 72
+watching = 2
 
 [[repo]]
 url = "https://github.com/DigixGlobal/eth-lightwallet"
+last_commit = "b7b2d9656326de864542c521052df5fcc119d0f7"
+last_commit_time = "2018-01-08T02:04"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 0
+forks = 467
+branches = 249
+tag_count = 0
+commits = 21
 
 [[repo]]
 url = "https://github.com/DigixGlobal/eth-net-intelligence-api"
+last_commit = "20e3e80fc153657900e4c584b1556cff3a474715"
+last_commit_time = "2015-06-18T20:50"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 2
+watching = 3
+forks = 347
+branches = 508
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/ethash"
+last_commit = "a04571cf5885fdbcbc167297cafb8b4152f30bf4"
+last_commit_time = "2015-06-10T09:05"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+commits = 11
+branches = 476
+forks = 269
+stars = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/ethereum-ruby"
+last_commit = "2c9b79c3e9f9e1f8f9569fb26162888a081c0e38"
+last_commit_time = "2016-06-27T21:28"
+status = "200"
+
+[repo.stats]
+watching = 19
+forks = 42
+tag_count = 0
+branches = 108
+commits = 1
+stars = 198
 
 [[repo]]
 url = "https://github.com/DigixGlobal/event_bus"
+last_commit = "05609f1bf14aed1d2bc5cd3b8205fbe2ca2e0655"
+last_commit_time = "2019-09-02T01:08"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 37
+commits = 2
+stars = 0
+watching = 1
+branches = 249
 
 [[repo]]
 url = "https://github.com/DigixGlobal/exth_crypto"
+last_commit = "d228ce90c22a68bed54e60721e671ad877a64900"
+last_commit_time = "2018-08-20T22:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 34
+watching = 1
+tag_count = 0
+forks = 16
+commits = 7
 
 [[repo]]
 url = "https://github.com/DigixGlobal/ganache-core"
+last_commit = "2421f4a987539fc08a1d47dca1b5b1efd4aacc28"
+last_commit_time = "2018-01-30T11:46"
+status = "200"
+
+[repo.stats]
+branches = 619
+watching = 2
+tag_count = 0
+stars = 2
+forks = 546
+commits = 18
 
 [[repo]]
 url = "https://github.com/DigixGlobal/gfx"
+last_commit = "4e3b59a812ddece1c24d5e844556908c2bd72aa7"
+last_commit_time = "2017-10-02T03:28"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+branches = 2
+watching = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/gnosis-multisig-dapplet"
+last_commit = "285d93859c967e9647d54ae839e3a9b10a196ca6"
+last_commit_time = "2017-09-26T04:26"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 3
+forks = 4
+branches = 13
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/go-ethereum"
+last_commit = "b0a5be4495962c291a25cbea793e43bad0781510"
+last_commit_time = "2015-06-25T15:18"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 0
+branches = 0
+tag_count = 0
+stars = 0
+commits = 20
 
 [[repo]]
 url = "https://github.com/DigixGlobal/gold-tokens-interface"
+last_commit = "840cf8e73ff635f0e7bcd888a8598c239faee519"
+last_commit_time = "2016-04-08T17:32"
+status = "200"
+
+[repo.stats]
+forks = 6
+tag_count = 0
+watching = 5
+branches = 3
+stars = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/governance-ui"
+last_commit = "912b4d10ec3e1ebdb1165d164c31183788fec15c"
+last_commit_time = "2020-02-19T07:03"
+status = "200"
+
+[repo.stats]
+branches = 78
+watching = 7
+forks = 2
+stars = 0
+tag_count = 0
+commits = 40
 
 [[repo]]
 url = "https://github.com/DigixGlobal/governance-ui-components"
+last_commit = "b53a48ceed76c1fc4d2d78fcfd7d7d0058a3f9b4"
+last_commit_time = "2020-02-19T07:02"
+status = "200"
+
+[repo.stats]
+commits = 80
+watching = 7
+stars = 2
+branches = 934
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/hex_formatter"
+last_commit = "01897556a4bfab3aa0de7c421d96dd1909dc4118"
+last_commit_time = "2019-05-30T03:19"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+branches = 8
+commits = 1
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/imaplibrary-python36"
+last_commit = "6f56af7c4d785554359402b5d342e0a8117e8430"
+last_commit_time = "2018-12-03T06:30"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 1
+tag_count = 0
+commits = 1
+stars = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/info-server"
+last_commit = "6d9a4e3d3cd52cacc0e55a773f1175ee114f6e62"
+last_commit_time = "2019-09-23T03:08"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 44
+stars = 0
+forks = 1
+watching = 6
+branches = 227
 
 [[repo]]
 url = "https://github.com/DigixGlobal/ipfs-pinning-registry"
+last_commit = "1236e6d746f392276cf1e84a34eaa364225e01d8"
+last_commit_time = "2017-04-09T11:22"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+stars = 1
+branches = 3
+commits = 1
+forks = 5
 
 [[repo]]
 url = "https://github.com/DigixGlobal/isomorphic-canvas"
+last_commit = "bec0ff058b2c8115ba408a5a1815a0eff49c6378"
+last_commit_time = "2017-09-12T09:13"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+tag_count = 0
+forks = 3
+branches = 16
+commits = 110
 
 [[repo]]
 url = "https://github.com/DigixGlobal/jaxon"
+last_commit = "1d085ec4d370ce9bacf789110e18ab12ead6b857"
+last_commit_time = "2019-11-29T03:27"
+status = "200"
+
+[repo.stats]
+forks = 14
+stars = 0
+watching = 1
+tag_count = 0
+commits = 3
+branches = 150
 
 [[repo]]
 url = "https://github.com/DigixGlobal/json-ipc-server"
+last_commit = "7777b37d7c5c8f42408d0f55d3ae9e4c13788974"
+last_commit_time = "2016-10-04T15:38"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 78
+tag_count = 0
+commits = 12
+watching = 3
+forks = 11
 
 [[repo]]
 url = "https://github.com/DigixGlobal/json-tcp-server"
+last_commit = "0c041f8891c9ca6556f77ace6cf4325854ac14a8"
+last_commit_time = "2016-09-19T17:45"
+status = "200"
+
+[repo.stats]
+branches = 14
+forks = 8
+watching = 3
+tag_count = 0
+stars = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/DigixGlobal/libsalty"
+last_commit = "dc57b63401ad0f0eac4e532c51df9d37840437fa"
+last_commit_time = "2018-04-14T22:44"
+status = "200"
+
+[repo.stats]
+branches = 49
+watching = 1
+tag_count = 0
+commits = 2
+forks = 21
+stars = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/libsecp256k1"
+last_commit = "9c6334bd058b974a97dc2af905e4e5f116aa22bd"
+last_commit_time = "2018-10-18T19:03"
+status = "200"
+
+[repo.stats]
+branches = 50
+watching = 1
+stars = 0
+forks = 38
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/lite-dgx-contract"
+last_commit = "06b989b854ab555ad86340d73885426e7c9b4616"
+last_commit_time = "2019-08-13T06:01"
+status = "200"
+
+[repo.stats]
+commits = 4
+branches = 19
+watching = 8
+tag_count = 0
+forks = 2
+stars = 2
 
 [[repo]]
 url = "https://github.com/DigixGlobal/managed-tokens"
+last_commit = "d9bcddee6ebe0d203d04f50d60c343622d547951"
+last_commit_time = "2016-04-27T01:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+watching = 6
+commits = 1
+branches = 2
+forks = 4
 
 [[repo]]
 url = "https://github.com/DigixGlobal/merkle_patricia_tree"
+last_commit = "76e6b1bca9f7d96592350132bab37fdffcbec09b"
+last_commit_time = "2019-10-16T08:16"
+status = "200"
+
+[repo.stats]
+branches = 68
+commits = 6
+stars = 0
+forks = 19
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/meteor-dapp-cosmo"
+last_commit = "25fa1bb4c2ca949679b3447a8e306fac15eaa25f"
+last_commit_time = "2015-06-06T12:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+branches = 17
+forks = 23
+watching = 3
 
 [[repo]]
 url = "https://github.com/DigixGlobal/mio"
+last_commit = "9f17b70d6fecbf912168267ea74cf536f2cba705"
+last_commit_time = "2016-09-13T04:58"
+status = "200"
+
+[repo.stats]
+branches = 438
+forks = 595
+watching = 3
+stars = 0
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/DigixGlobal/multi-hash"
+last_commit = "3d8f1c721c4ab330dc1580f4d30d48f74f75dc1e"
+last_commit_time = "2017-12-18T23:25"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 7
+watching = 6
+commits = 1
+forks = 3
 
 [[repo]]
 url = "https://github.com/DigixGlobal/multiplexer"
+last_commit = "5a26da2210a3285476d92bc437e06f4a1ffc51c7"
+last_commit_time = "2017-09-13T15:29"
+status = "200"
+
+[repo.stats]
+stars = 20
+forks = 20
+commits = 1
+watching = 2
+tag_count = 0
+branches = 4
 
 [[repo]]
 url = "https://github.com/DigixGlobal/nanomsg.rs"
+last_commit = "6a356eac77d60d0f4b23d3b1ffcebb49b1026829"
+last_commit_time = "2016-09-10T20:39"
+status = "200"
+
+[repo.stats]
+commits = 9
+watching = 3
+forks = 55
+stars = 0
+branches = 519
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/nascent"
+last_commit = "37f99ce5a6881fbe56786d7eaf5419e0d86fc3eb"
+last_commit_time = "2019-11-19T08:36"
+status = "200"
+
+[repo.stats]
+watching = 6
+commits = 3
+branches = 8
+stars = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/node-ipfs-pinner"
+last_commit = "c5ebdeea74d39fa0ee7bab33955e52aa16bc5a71"
+last_commit_time = "2017-04-09T11:58"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+commits = 1
+stars = 3
+branches = 6
+watching = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/node-ipfs-pinning-server-lite"
+last_commit = "768c0f8686c760c5293da502300ec61429e9800b"
+last_commit_time = "2017-10-06T08:03"
+status = "200"
+
+[repo.stats]
+stars = 6
+forks = 3
+tag_count = 0
+branches = 3
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/DigixGlobal/optimize-css-assets-webpack-plugin"
+last_commit = "3b217bc3ca1012003d8626cb7c530179fbf72569"
+last_commit_time = "2017-06-03T14:51"
+status = "200"
+
+[repo.stats]
+branches = 13
+watching = 1
+commits = 2
+tag_count = 0
+stars = 0
+forks = 67
 
 [[repo]]
 url = "https://github.com/DigixGlobal/parity"
+last_commit = "487dfb02083a92abccd05e6f4e97eb1ea956e60e"
+last_commit_time = "2016-10-18T16:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+forks = 0
+stars = 0
+branches = 0
+commits = 91
 
 [[repo]]
 url = "https://github.com/DigixGlobal/qaexam"
+last_commit = "3dcdc548877b1ca95307eba67cda6129fdf04531"
+last_commit_time = "2019-10-24T16:45"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+watching = 1
+tag_count = 0
+branches = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/react-ledger-container"
+last_commit = "ffd3011cd8b4199ba16162f657b42343d14d3836"
+last_commit_time = "2022-03-30T06:33"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 5
+forks = 4
+branches = 28
+watching = 9
+stars = 7
 
 [[repo]]
 url = "https://github.com/DigixGlobal/react-trezor-container"
+last_commit = "700a1cbb3087494eb6a1b9f70d08c3b0321d3a6d"
+last_commit_time = "2022-03-21T09:20"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 7
+tag_count = 0
+branches = 14
+commits = 3
+forks = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/react-webcam"
+last_commit = "4979e4f1129dc6c934a4e5d3f0fa54a99c9ddfd4"
+last_commit_time = "2018-03-09T23:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 6
+forks = 253
+commits = 3
+stars = 0
+branches = 100
 
 [[repo]]
 url = "https://github.com/DigixGlobal/redux-crypto-prices"
+last_commit = "cb443708f05b57df7f943c129bdbc2733665707b"
+last_commit_time = "2017-04-21T10:16"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+commits = 1
+branches = 1
+stars = 2
+forks = 4
 
 [[repo]]
 url = "https://github.com/DigixGlobal/robotframework-imaplibrary"
+last_commit = "bd507ecee969081622158f0e8dc2c8542a66801d"
+last_commit_time = "2019-10-08T13:33"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 58
+forks = 83
+stars = 0
+tag_count = 0
+commits = 9
 
 [[repo]]
 url = "https://github.com/DigixGlobal/ruby-eth"
+last_commit = "5809a64cac17a67413ecec0fff1b30acd4aabfc0"
+last_commit_time = "2019-08-21T03:03"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 2
+forks = 100
+branches = 108
+stars = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/rustls"
+last_commit = "5d27aa2e07b5849be1c7b94cf90ac608ac80d276"
+last_commit_time = "2016-10-07T20:28"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 3
+branches = 255
+tag_count = 0
+forks = 381
+commits = 13
 
 [[repo]]
 url = "https://github.com/DigixGlobal/sha3-pure-ruby"
+last_commit = "8e301c9d1584b0444e5bb9f1af1d898550109547"
+last_commit_time = "2016-04-10T23:22"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 10
+tag_count = 0
+branches = 31
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/sigmate"
+last_commit = "e3437049f7f7f352ea9c51a5b1819ee7b8192b9c"
+last_commit_time = "2019-01-07T23:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 4
+forks = 8
+stars = 13
+watching = 4
+branches = 21
 
 [[repo]]
 url = "https://github.com/DigixGlobal/simple-faucet"
+last_commit = "6bc5add7771b6aec5c52a07cf01c1479a55a0f25"
+last_commit_time = "2017-02-28T02:44"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 5
+tag_count = 0
+commits = 1
+forks = 3
+stars = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/solidity-boilerplate"
+last_commit = "7294eae8c050e8553839429a82bf69aff4ec5a35"
+last_commit_time = "2017-03-15T07:37"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 26
+stars = 9
+commits = 3
+forks = 9
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/solidity-collections-library"
+last_commit = "70296a4bbacd507ea6242fde7d4a19e0db125e05"
+last_commit_time = "2018-08-17T06:57"
+status = "200"
+
+[repo.stats]
+forks = 10
+branches = 54
+stars = 20
+watching = 12
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/DigixGlobal/solidity-demonstrations"
+last_commit = "4058aebd90af94909a9e3365917b049e0240c4c2"
+last_commit_time = "2018-06-04T07:11"
+status = "200"
+
+[repo.stats]
+stars = 5
+forks = 1
+tag_count = 0
+branches = 7
+commits = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/DigixGlobal/solidity-statemachine-library"
+last_commit = "cf61f14e25ba8c27bfc9c7608d698d638f8400fe"
+last_commit_time = "2018-03-07T04:33"
+status = "200"
+
+[repo.stats]
+stars = 16
+forks = 6
+branches = 35
+commits = 4
+tag_count = 0
+watching = 9
 
 [[repo]]
 url = "https://github.com/DigixGlobal/sui-react-dijix"
+last_commit = "768bef8ed0223ab8951de7b3f1297f8cd6951a73"
+last_commit_time = "2017-12-04T01:10"
+status = "200"
+
+[repo.stats]
+branches = 6
+watching = 8
+forks = 2
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/sui-react-ezmodal"
+last_commit = "d14f4391df78a4332e6c48cd237e5e6439af2879"
+last_commit_time = "2018-02-19T07:10"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+stars = 0
+commits = 1
+forks = 1
+branches = 36
 
 [[repo]]
 url = "https://github.com/DigixGlobal/tempo"
+last_commit = "745eea7cce127a47d5ccb657e13a8bf264aa8d55"
+last_commit_time = "2017-05-13T16:33"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 13
+commits = 1
+stars = 14
+watching = 3
+forks = 9
 
 [[repo]]
 url = "https://github.com/DigixGlobal/testrpc"
+last_commit = "03a401adc4a6dc1ea19679b9acf025d8231028aa"
+last_commit_time = "2017-03-09T19:58"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 737
+commits = 30
+tag_count = 0
+watching = 2
+branches = 402
 
 [[repo]]
 url = "https://github.com/DigixGlobal/Tokens"
+last_commit = "d9327a6846958d6349c71a0819dd6c3468f6edc1"
+last_commit_time = "2016-01-31T18:12"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 3
+commits = 3
+branches = 59
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/truffle"
+last_commit = "79384aa906cc010083ed107603df00d86058d698"
+last_commit_time = "2018-03-08T02:34"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+watching = 7
+forks = 0
+branches = 725
+commits = 25
 
 [[repo]]
 url = "https://github.com/DigixGlobal/truffle-compile"
+last_commit = "2a432998606b3b07aababbfa4da7cb005fb5932f"
+last_commit_time = "2017-02-02T23:31"
+status = "200"
+
+[repo.stats]
+branches = 16
+commits = 6
+watching = 2
+forks = 48
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/truffle-contract"
+last_commit = "8c0de8b86e4d1880cfc6d88e2350f44480106763"
+last_commit_time = "2017-02-02T19:46"
+status = "200"
+
+[repo.stats]
+branches = 41
+stars = 0
+forks = 145
+commits = 4
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/truffle-lightwallet-provider"
+last_commit = "9acb7f86a92deedba2d8a1d2beac95db26aa7071"
+last_commit_time = "2018-01-30T01:07"
+status = "200"
+
+[repo.stats]
+stars = 19
+forks = 8
+branches = 26
+tag_count = 0
+commits = 1
+watching = 9
 
 [[repo]]
 url = "https://github.com/DigixGlobal/truffle-starter-erc20"
+last_commit = "7ae6021cfd6e6e89db1a76ace817af4f98af4841"
+last_commit_time = "2017-05-13T14:55"
+status = "200"
+
+[repo.stats]
+stars = 9
+branches = 2
+watching = 1
+tag_count = 0
+commits = 1
+forks = 9
 
 [[repo]]
 url = "https://github.com/DigixGlobal/ucb-seminar-boilerplate"
+last_commit = "4c2feb1725a44e6bb75ddcb0eaa1fd1c295d165b"
+last_commit_time = "2017-03-31T21:28"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 2
+watching = 3
+stars = 0
+tag_count = 0
+branches = 7
 
 [[repo]]
 url = "https://github.com/DigixGlobal/wallet-migration"
+last_commit = "adf69e2e5d9273abb2b69c7da0b239615c12b6b9"
+last_commit_time = "2017-02-17T08:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 3
+commits = 3
+forks = 5
+branches = 18
 
 [[repo]]
 url = "https://github.com/DigixGlobal/web3-console"
+last_commit = "b77eb01a2b974fac1e15305530b3a125a075ff9b"
+last_commit_time = "2017-03-04T08:41"
+status = "200"
+
+[repo.stats]
+stars = 5
+watching = 2
+tag_count = 0
+commits = 1
+branches = 2
+forks = 8
 
 [[repo]]
 url = "https://github.com/DigixGlobal/web3-redux"
+last_commit = "9a0123b0b4cc0080567a71dd03d6200ceb7a93b3"
+last_commit_time = "2017-08-10T07:42"
+status = "200"
+
+[repo.stats]
+forks = 15
+commits = 2
+tag_count = 0
+branches = 81
+watching = 5
+stars = 46
 
 [[repo]]
 url = "https://github.com/DigixGlobal/web3.js"
+last_commit = "2a0b46ab7125533d7cbb461d06821ba242a03304"
+last_commit_time = "2015-06-23T08:14"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 11
+watching = 3
+branches = 853
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/webpack-pwa-manifest"
+last_commit = "bada211bb466e053638761b4ef0868b103e05e9c"
+last_commit_time = "2017-06-19T07:11"
+status = "200"
+
+[repo.stats]
+forks = 99
+branches = 32
+tag_count = 0
+watching = 1
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/webpki"
+last_commit = "7b99d68568921d230f15849e83f18636fc3590df"
+last_commit_time = "2016-08-29T04:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 104
+commits = 5
+watching = 3
+forks = 145
+stars = 0
 
 [[repo]]
 url = "https://github.com/DigixGlobal/webthree-helpers"
+last_commit = "e7c0a4d25efef2429ad6861bac3198a31b03ec94"
+last_commit_time = "2016-01-25T18:07"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 402
+stars = 0
+forks = 35
+watching = 4
+commits = 10
 
 [[repo]]
 url = "https://github.com/DigixGlobal/whitelist-faucet"
+last_commit = "dcf140e883afa90eba01ee1ebcdd99bff1ef724b"
+last_commit_time = "2017-06-01T20:02"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 1
+branches = 17
+tag_count = 0
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/DigixGlobal/ws-rs"
+last_commit = "3d3a5f31a58354190ed6a3bee0600687c273b5c0"
+last_commit_time = "2016-08-08T08:52"
+status = "200"
+
+[repo.stats]
+commits = 9
+stars = 0
+forks = 207
+watching = 3
+tag_count = 0
+branches = 139

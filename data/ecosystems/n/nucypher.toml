@@ -1,256 +1,1150 @@
-# Ecosystem Level Information
 title = "NuCypher"
-
+toml_path = "data/ecosystems/n/nucypher.toml"
+github_organizations = ["https://github.com/nucypher"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/nucypher"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/nucypher/aes256gcm-nacl"
+last_commit = "79dd93600e91ee4163454616e9040df735cb393f"
+last_commit_time = "2016-03-24T19:09"
+status = "200"
+
+[repo.stats]
+watching = 5
+tag_count = 0
+commits = 1
+forks = 2
+stars = 0
+branches = 14
 
 [[repo]]
 url = "https://github.com/nucypher/apistar"
+last_commit = "973c6485d8297c1bcef35a42221ac5107dce25d5"
+last_commit_time = "2017-11-01T10:01"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 0
+forks = 434
+tag_count = 0
+watching = 4
+branches = 609
 
 [[repo]]
 url = "https://github.com/nucypher/bytestringSplitter"
+last_commit = "9bdbc5cf161d193b542df1c38a7cda91e1e14a86"
+last_commit_time = "2021-08-19T17:03"
+status = "200"
+
+[repo.stats]
+commits = 4
+stars = 6
+forks = 8
+tag_count = 0
+branches = 141
+watching = 6
 
 [[repo]]
 url = "https://github.com/nucypher/confirm-activity-doc"
+last_commit = "060e1452de40b8e68f41d0c1bd088190386c99fa"
+last_commit_time = "2020-08-05T18:20"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 0
+tag_count = 0
+commits = 1
+branches = 45
+watching = 8
 
 [[repo]]
 url = "https://github.com/nucypher/constantSorrow"
+last_commit = "2411a38204e2346e138c9cdc2e23af9ca8b5f7d0"
+last_commit_time = "2020-04-23T06:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 7
+stars = 34
+commits = 8
+branches = 46
+forks = 3
 
 [[repo]]
 url = "https://github.com/nucypher/ConstantTime.jl"
+last_commit = "550e54524bc3e2d37988946cb1993e18235a09a3"
+last_commit_time = "2020-05-01T03:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 8
+commits = 2
+forks = 1
+branches = 12
 
 [[repo]]
 url = "https://github.com/nucypher/Curve25519.jl"
+last_commit = "c83ea27612a8c05195b4770355466783aca1b37b"
+last_commit_time = "2020-05-19T03:17"
+status = "200"
+
+[repo.stats]
+watching = 8
+forks = 1
+stars = 1
+tag_count = 0
+branches = 20
+commits = 1
 
 [[repo]]
 url = "https://github.com/nucypher/DarkCurves.jl"
+last_commit = "bcf7fc9b8ea74cd0f1074774d04e895c18b7bec2"
+last_commit_time = "2020-05-19T01:53"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+branches = 34
+watching = 8
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/nucypher/DarkIntegers.jl"
+last_commit = "02b049dc1020e9638f25060d5a621dfc42354a39"
+last_commit_time = "2020-05-18T06:02"
+status = "200"
+
+[repo.stats]
+commits = 3
+forks = 2
+watching = 8
+tag_count = 0
+branches = 254
+stars = 5
 
 [[repo]]
 url = "https://github.com/nucypher/dbaas-ui"
+last_commit = "8099e351d3fb3c3ac49d8941000f30bfb48d4d76"
+last_commit_time = "2016-08-04T21:20"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+branches = 18
+forks = 0
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/nucypher/ethereum-contract-registry"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+commits = 0
+branches = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/nucypher/goUmbral"
+last_commit = "06d3eac741fec47ce8586e7c6b801e9617859005"
+last_commit_time = "2018-09-13T15:34"
+status = "200"
+
+[repo.stats]
+forks = 5
+commits = 1
+stars = 39
+watching = 9
+branches = 100
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/hackathon"
+last_commit = "7450ab6a253c9a0955d0d06216032a35a8ef8223"
+last_commit_time = "2019-11-09T04:02"
+status = "200"
+
+[repo.stats]
+forks = 9
+commits = 1
+branches = 48
+watching = 9
+stars = 19
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/hadoop-oss"
+last_commit = "1585add59ad3e0d679f4ad90651548e96a1b3738"
+last_commit_time = "2017-06-08T00:37"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 3
+branches = 4
+commits = 2
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/hazmat-math"
+last_commit = "911d68235c1fa2a58746bbfb8530e92099e0e614"
+last_commit_time = "2017-12-21T19:46"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 5
+watching = 5
+branches = 22
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/HEAAN.jl"
+last_commit = "cb60293ade058f6642a67e414e88c95137f3103b"
+last_commit_time = "2019-12-20T07:42"
+status = "200"
+
+[repo.stats]
+watching = 8
+stars = 1
+branches = 101
+tag_count = 0
+commits = 2
+forks = 1
 
 [[repo]]
 url = "https://github.com/nucypher/interim-pre-app-docs"
+last_commit = "b26b1a548e2a8547b52a71fb4afc8e59d5bcc899"
+last_commit_time = "2022-03-03T00:12"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+tag_count = 0
+branches = 26
+commits = 1
+watching = 8
 
 [[repo]]
 url = "https://github.com/nucypher/kademlia"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+branches = 0
+commits = 0
+stars = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/nucypher/kafka-as-module-oss"
+last_commit = "637451e622f7d9f2f47acf83be07ebf4865a516d"
+last_commit_time = "2017-10-13T14:20"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 18
+tag_count = 0
+branches = 30
+watching = 6
+commits = 1
 
 [[repo]]
 url = "https://github.com/nucypher/kafka-oss"
+last_commit = "d8548f5e5daa4e1339e31b9e4e96f0e6de08530a"
+last_commit_time = "2017-09-16T10:12"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 1
+tag_count = 0
+commits = 2
+watching = 5
+branches = 0
 
 [[repo]]
 url = "https://github.com/nucypher/kms-implementation-whitepaper"
+last_commit = "377bd893c92e468c0c4c54a3f3a93cac9e53ef31"
+last_commit_time = "2017-11-05T11:22"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 1
+forks = 1
+watching = 4
+branches = 19
 
 [[repo]]
 url = "https://github.com/nucypher/linux-sgx-driver"
+last_commit = "88dc9652375eb43006589067bd2a06b3cc26deed"
+last_commit_time = "2016-08-28T05:36"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 165
+commits = 1
+branches = 16
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/LogProof.jl"
+last_commit = "893ddba5fa26bccebfc23e013e4a01ed571752ef"
+last_commit_time = "2020-05-22T00:08"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 1
+branches = 40
+stars = 1
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/nucypher/mining-paper"
+last_commit = "ae3d8e636ad2c5d478ce4fa4e5eec942a1ba2b55"
+last_commit_time = "2020-04-01T19:04"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 2
+watching = 5
+commits = 2
+branches = 65
+stars = 7
 
 [[repo]]
 url = "https://github.com/nucypher/mock-net"
+last_commit = "d277284b275f6215c85358ce69b10befee333f56"
+last_commit_time = "2019-02-12T22:11"
+status = "200"
+
+[repo.stats]
+forks = 6
+watching = 10
+tag_count = 0
+commits = 1
+stars = 5
+branches = 36
 
 [[repo]]
 url = "https://github.com/nucypher/network-keys"
+last_commit = "31a3811973a64fff56b4ffdfcce338a5603d74fa"
+last_commit_time = "2022-07-06T22:34"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 0
+commits = 1
+tag_count = 0
+branches = 4
+watching = 7
 
 [[repo]]
 url = "https://github.com/nucypher/nube"
+last_commit = "f87b7ffa1da95f7ad5eb5b56a67d56d34b8e1e76"
+last_commit_time = "2021-10-16T01:10"
+status = "200"
+
+[repo.stats]
+watching = 9
+branches = 19
+stars = 6
+tag_count = 0
+commits = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/nucypher/NuBLS"
+last_commit = "b97f4fbe3f23ed2497d2a9bdc539087d91b65f79"
+last_commit_time = "2020-11-10T16:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 7
+forks = 6
+commits = 1
+branches = 42
+stars = 18
 
 [[repo]]
 url = "https://github.com/nucypher/nucypher"
+status = "200"
+
+[repo.stats]
+stars = 649
+watching = 46
+forks = 255
+branches = 0
+commits = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/nucypher-community-wrapper"
+last_commit = "16fd5fd3d216bb40737fa86fa8d58c7d3a771826"
+last_commit_time = "2020-09-14T22:11"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 2
+watching = 8
+commits = 1
+branches = 17
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/nucypher-contracts"
+last_commit = "710b68713b5b8fece0d0b1c5de376dba1d7d68e7"
+last_commit_time = "2022-05-31T11:14"
+status = "200"
+
+[repo.stats]
+forks = 7
+watching = 10
+stars = 11
+branches = 100
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/nucypher/nucypher-core"
+last_commit = "675ae3f30129f56671d9505d538bce7b231f63fc"
+last_commit_time = "2022-04-24T22:38"
+status = "200"
+
+[repo.stats]
+watching = 10
+branches = 134
+stars = 1
+forks = 5
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/nucypher/nucypher-crypto-oss"
+last_commit = "4dbafd33c656b3ad006db196dbd767a8e5a4a57b"
+last_commit_time = "2017-08-08T12:12"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+branches = 4
+watching = 3
+stars = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/nucypher/nucypher-kms-ethereum"
+last_commit = "590a46da274b045482c9ff093083d352b30a691e"
+last_commit_time = "2018-04-10T21:44"
+status = "200"
+
+[repo.stats]
+branches = 187
+stars = 18
+watching = 5
+tag_count = 0
+commits = 5
+forks = 6
 
 [[repo]]
 url = "https://github.com/nucypher/nucypher-monitor"
+last_commit = "ae23ad4a8c3cc4ebce39e12c8f638909337de2bc"
+last_commit_time = "2022-02-09T21:14"
+status = "200"
+
+[repo.stats]
+stars = 7
+forks = 14
+branches = 266
+tag_count = 0
+commits = 5
+watching = 7
 
 [[repo]]
 url = "https://github.com/nucypher/nucypher-ops"
+last_commit = "7df5e1434cf013838bf812deeb46ecac563b3813"
+last_commit_time = "2022-05-27T15:13"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 2
+branches = 73
+commits = 1
+tag_count = 0
+watching = 8
 
 [[repo]]
 url = "https://github.com/nucypher/nucypher-pre-python"
+last_commit = "9c76f56214fad18f0fa0acb396f1b03e10929a57"
+last_commit_time = "2017-10-08T00:21"
+status = "200"
+
+[repo.stats]
+forks = 14
+stars = 25
+tag_count = 0
+branches = 53
+commits = 5
+watching = 5
 
 [[repo]]
 url = "https://github.com/nucypher/nucypher-subgraph"
+last_commit = "3cc5bfaf62c220a0cfc0f065b828c9621ac899b6"
+last_commit_time = "2021-05-03T06:48"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 17
+stars = 0
+commits = 1
+tag_count = 0
+watching = 8
 
 [[repo]]
 url = "https://github.com/nucypher/nucypher-ts"
+last_commit = "8365450a91f513550c9f4a44799840d23b373b68"
+last_commit_time = "2022-07-27T09:01"
+status = "200"
+
+[repo.stats]
+commits = 6
+forks = 7
+stars = 6
+branches = 163
+tag_count = 0
+watching = 11
 
 [[repo]]
 url = "https://github.com/nucypher/nucypher-ts-demo"
+last_commit = "2faafae264cada189b04801b5bdf836246c2629d"
+last_commit_time = "2022-04-14T10:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 5
+branches = 62
+stars = 3
+forks = 2
 
 [[repo]]
 url = "https://github.com/nucypher/nufhe"
+last_commit = "638e12e931fe39c0a5cd5ee5d271d40084e29b31"
+last_commit_time = "2020-03-18T02:43"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+branches = 233
+forks = 50
+watching = 23
+stars = 398
 
 [[repo]]
 url = "https://github.com/nucypher/nuit"
+last_commit = "6ff015b5add8749e560448cf6c6ba33fa349739a"
+last_commit_time = "2022-06-25T18:22"
+status = "200"
+
+[repo.stats]
+commits = 5
+branches = 358
+forks = 7
+watching = 8
+stars = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/numerology"
+last_commit = "f4f494567c145009f4eedd007c7c642aafcfc6a6"
+last_commit_time = "2018-11-02T17:26"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 9
+tag_count = 0
+stars = 8
+forks = 3
+branches = 67
 
 [[repo]]
 url = "https://github.com/nucypher/NuSnap"
+last_commit = "ef197273f0d343a7cccbfdba885052e872e5a2dd"
+last_commit_time = "2021-11-04T11:16"
+status = "200"
+
+[repo.stats]
+branches = 13
+tag_count = 0
+commits = 2
+forks = 0
+watching = 9
+stars = 0
 
 [[repo]]
 url = "https://github.com/nucypher/persistent"
+last_commit = "533908c16ca7017b93b8aabcec07f75f4b4c99f7"
+last_commit_time = "2015-12-23T03:08"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 4
+watching = 8
+tag_count = 0
+branches = 304
+forks = 25
 
 [[repo]]
 url = "https://github.com/nucypher/protocol"
+last_commit = "9be4bee8132c9d16cbb00095b6156444d25f2cb8"
+last_commit_time = "2020-02-01T00:10"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+branches = 43
+stars = 13
+forks = 4
+watching = 8
 
 [[repo]]
 url = "https://github.com/nucypher/py-solc"
+last_commit = "822fc8ad053b9f1c4a4aa5695ed945d905e07bab"
+last_commit_time = "2019-02-10T02:59"
+status = "200"
+
+[repo.stats]
+forks = 69
+tag_count = 0
+commits = 2
+stars = 1
+branches = 199
+watching = 7
 
 [[repo]]
 url = "https://github.com/nucypher/pystunnel"
+last_commit = "e18964a754f5953cdf09f562f08e836c386639b5"
+last_commit_time = "2016-03-15T11:16"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 4
+stars = 4
+commits = 1
+tag_count = 0
+branches = 11
 
 [[repo]]
 url = "https://github.com/nucypher/pyUmbral"
+status = "200"
+
+[repo.stats]
+watching = 18
+branches = 0
+tag_count = 0
+commits = 4
+stars = 250
+forks = 64
 
 [[repo]]
 url = "https://github.com/nucypher/rpcudp"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+tag_count = 0
+stars = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/nucypher/rust-umbral"
+last_commit = "c586babb86118c5846a2a701e5b73a77a59742ad"
+last_commit_time = "2022-07-31T05:36"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 19
+commits = 2
+watching = 9
+stars = 30
+branches = 362
 
 [[repo]]
 url = "https://github.com/nucypher/s3storage"
+last_commit = "8297964ac406a85b94552bf64bfbf8a80df9b137"
+last_commit_time = "2016-05-13T19:34"
+status = "200"
+
+[repo.stats]
+branches = 6
+tag_count = 0
+commits = 1
+stars = 1
+watching = 3
+forks = 0
 
 [[repo]]
 url = "https://github.com/nucypher/s3storage-demo"
+last_commit = "942a93742c9a008d066a1bc0de34c87180b16327"
+last_commit_time = "2016-05-14T16:56"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+tag_count = 0
+stars = 0
+watching = 3
+branches = 1
 
 [[repo]]
 url = "https://github.com/nucypher/SGFHE.jl"
+last_commit = "53b6f0f4478e58b162a4ef4c08e29e61779c6741"
+last_commit_time = "2019-12-20T18:38"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+stars = 4
+commits = 2
+watching = 8
+branches = 125
 
 [[repo]]
 url = "https://github.com/nucypher/slides"
+last_commit = "6be210fba8798211bc71a2d3085f42bf826092eb"
+last_commit_time = "2019-07-22T13:31"
+status = "200"
+
+[repo.stats]
+stars = 7
+tag_count = 0
+forks = 4
+commits = 17
+branches = 82
+watching = 7
 
 [[repo]]
 url = "https://github.com/nucypher/Sputnik"
+last_commit = "9154e09cd7dd08d238e225e13f005b5eac88c5e6"
+last_commit_time = "2018-09-15T19:15"
+status = "200"
+
+[repo.stats]
+stars = 26
+watching = 10
+forks = 3
+branches = 53
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/nucypher/stake-commander"
+last_commit = "943dcbf6adc628bd63a115162e3f8005fc116ed9"
+last_commit_time = "2020-01-14T22:43"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 3
+forks = 3
+commits = 1
+watching = 7
+stars = 0
 
 [[repo]]
 url = "https://github.com/nucypher/stake-nucypher"
+last_commit = "a2bd346c90c56430ad63d6e334aee239cb394bea"
+last_commit_time = "2021-04-15T23:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+forks = 7
+stars = 0
+branches = 49
+watching = 1
 
 [[repo]]
 url = "https://github.com/nucypher/stakeit.space"
+last_commit = "40ae2db9fcc2197f296f12509a7706bea2e37769"
+last_commit_time = "2021-10-18T22:04"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 6
+tag_count = 0
+watching = 2
+stars = 6
+branches = 150
 
 [[repo]]
 url = "https://github.com/nucypher/Sunscreen_public"
+last_commit = "04b27f631202b986a023f6d7be12e5537512d62b"
+last_commit_time = "2020-06-04T02:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+branches = 4
+stars = 3
+watching = 9
 
 [[repo]]
 url = "https://github.com/nucypher/t-merkle-distributor"
+status = "404"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+stars = 0
+watching = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/nucypher/telegram-fetcher"
+last_commit = "828fb7c43ea5081808bb090941b93566d03bf93e"
+last_commit_time = "2018-08-24T04:36"
+status = "200"
+
+[repo.stats]
+watching = 10
+forks = 4
+commits = 1
+tag_count = 0
+branches = 30
+stars = 10
 
 [[repo]]
 url = "https://github.com/nucypher/TFHE.jl"
+last_commit = "313a73b1745010d39087b436167ecfa4342b4d39"
+last_commit_time = "2020-03-25T21:39"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+stars = 9
+branches = 69
+commits = 3
+watching = 7
 
 [[repo]]
 url = "https://github.com/nucypher/umbral-doc"
+last_commit = "ff3a3ca748e036a675c5494229d69f146a2d1e3b"
+last_commit_time = "2018-05-05T16:47"
+status = "200"
+
+[repo.stats]
+stars = 22
+branches = 20
+commits = 2
+watching = 7
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/validator-profiles"
+last_commit = "e30772d5707336a8452e8a0724439943f365c991"
+last_commit_time = "2022-05-26T20:24"
+status = "200"
+
+[repo.stats]
+stars = 8
+watching = 9
+forks = 40
+branches = 152
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/vanguard"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+branches = 0
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/vehicle-data-exchange"
+last_commit = "2375333907ca433da535f0836a882da0ea236b6b"
+last_commit_time = "2019-01-14T22:00"
+status = "200"
+
+[repo.stats]
+stars = 3
+tag_count = 0
+commits = 4
+watching = 9
+branches = 34
+forks = 1
 
 [[repo]]
 url = "https://github.com/nucypher/wcef-hackathon-2018"
+last_commit = "ebb514c51523bd498ec7375b6169bbe62acb14d9"
+last_commit_time = "2018-01-14T17:43"
+status = "200"
+
+[repo.stats]
+stars = 5
+tag_count = 0
+branches = 16
+commits = 2
+watching = 5
+forks = 3
 
 [[repo]]
 url = "https://github.com/nucypher/website-zerodb"
+last_commit = "0f3b2744fa6770ac44203adfc2610ec90909293f"
+last_commit_time = "2016-09-11T18:45"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 4
+branches = 100
+stars = 0
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/nucypher/whitepaper"
+status = "200"
+
+[repo.stats]
+watching = 16
+forks = 18
+branches = 167
+stars = 63
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/ZEO"
+last_commit = "2bb9e89768c8018cd2299182c8cb1b7ba2df8374"
+last_commit_time = "2016-03-31T21:42"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 1
+forks = 20
+commits = 3
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/nucypher/zerodb"
+last_commit = "334be242c87a131819f0f86c817301b3a91866d6"
+last_commit_time = "2018-06-11T20:39"
+status = "200"
+
+[repo.stats]
+watching = 83
+tag_count = 0
+commits = 13
+stars = 0
+branches = 508
+forks = 109
 
 [[repo]]
 url = "https://github.com/nucypher/zerodb-afgh-pre"
+last_commit = "21315d5f724b7033e7afa7863dfcadae8f6f28b6"
+last_commit_time = "2015-08-30T00:05"
+status = "200"
+
+[repo.stats]
+branches = 4
+forks = 8
+tag_count = 0
+commits = 1
+watching = 4
+stars = 20
 
 [[repo]]
 url = "https://github.com/nucypher/zerodb-benchmarks"
+last_commit = "0dfc458649219a1c4c44d5e8b646da617d56e57c"
+last_commit_time = "2016-03-12T16:03"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+watching = 7
+stars = 2
+branches = 23
+commits = 1
 
 [[repo]]
 url = "https://github.com/nucypher/zerodb-compress-lz4"
+last_commit = "e99234409eae4a749ec06e185043e3f0022cc087"
+last_commit_time = "2016-02-19T15:27"
+status = "200"
+
+[repo.stats]
+watching = 7
+tag_count = 0
+commits = 1
+stars = 0
+branches = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/nucypher/zerodb-dbaas"
+last_commit = "e23482881840d0e722b153e83a7a8c993ccfed9b"
+last_commit_time = "2016-08-08T17:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+watching = 3
+branches = 145
+stars = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/nucypher/zerodb-dbaas-doc"
+last_commit = "74e1ad02c99e6c58a055b6fa35b6d52ac0bd84f3"
+last_commit_time = "2016-05-09T21:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 11
+commits = 1
+watching = 4
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/nucypher/zerodb-docker"
+last_commit = "8043f8aaffc05b1a6806f4f03837d686da635312"
+last_commit_time = "2016-04-26T08:16"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 3
+watching = 7
+branches = 6
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/zerodb-js"
+last_commit = "8304857baa8e112954aacb3117f7ee723231de79"
+last_commit_time = "2016-02-12T10:42"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 1
+watching = 9
+stars = 6
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/nucypher/zerodb-quant-demo"
+last_commit = "e43621caa8667610dfbcf077838f428aad93286e"
+last_commit_time = "2016-02-14T22:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 6
+commits = 1
+forks = 0
+stars = 0
+branches = 2
 
 [[repo]]
 url = "https://github.com/nucypher/zerodb-server"
+last_commit = "b9c9e68e4b78479d6abeb3e2ea0d8fb123f8e497"
+last_commit_time = "2016-07-28T10:56"
+status = "200"
+
+[repo.stats]
+watching = 18
+stars = 137
+forks = 22
+branches = 67
+tag_count = 0
+commits = 8
 
 [[repo]]
 url = "https://github.com/nucypher/zerodb-whitepaper"
+last_commit = "7f655075e61c1ec4030d409e39209883e92e7c1d"
+last_commit_time = "2016-03-08T17:54"
+status = "200"
+
+[repo.stats]
+branches = 107
+commits = 2
+forks = 4
+stars = 4
+watching = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nucypher/zerodbext.catalog"
+last_commit = "d62804de27ff781d4a928575cf720daaaa56a717"
+last_commit_time = "2016-03-12T21:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 18
+stars = 1
+watching = 4
+commits = 5
+branches = 341

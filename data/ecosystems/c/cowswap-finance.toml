@@ -1,16 +1,44 @@
-# Ecosystem Level Information
 title = "Cowswap Finance"
-
+toml_path = "data/ecosystems/c/cowswap-finance.toml"
+github_organizations = ["https://github.com/cowswap"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/cowswap"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/cowswap/assets"
+last_commit = "968a6d43f6d83b4ec378c72c98ee0bf773310cc7"
+last_commit_time = "2021-06-01T14:20"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+commits = 7
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/cowswap/cow-dex"
+last_commit = "90246f16bc34641d19f2a6568beb103f385355f8"
+last_commit_time = "2022-07-19T17:36"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 0
+tag_count = 0
+commits = 1
+watching = 1
+forks = 2
 
 [[repo]]
 url = "https://github.com/cowswap/subgraph"
+status = "200"
+
+[repo.stats]
+commits = 0
+forks = 0
+stars = 0
+watching = 0
+tag_count = 0
+branches = 0

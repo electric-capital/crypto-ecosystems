@@ -1,13 +1,32 @@
-# Ecosystem Level Information
 title = "Fr8 Network"
-
+toml_path = "data/ecosystems/f/fr8-network.toml"
+github_organizations = ["https://github.com/fr8network"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/fr8network"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/fr8network/fr8-protocol-eth"
+last_commit = "5e167317febf0e371075a1720012cc347d38c9fe"
+last_commit_time = "2018-07-30T22:48"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 3
+forks = 1
+watching = 4
+branches = 30
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fr8network/fr8-token"
+last_commit = "db8b1dffc4282b835c5fdfa611a61f7d06accf00"
+last_commit_time = "2018-03-10T04:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 5
+stars = 1
+forks = 1
+branches = 5
+commits = 4

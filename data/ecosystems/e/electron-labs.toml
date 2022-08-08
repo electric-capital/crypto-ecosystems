@@ -1,22 +1,70 @@
-# Ecosystem Level Information
 title = "Electron Labs"
-
+toml_path = "data/ecosystems/e/electron-labs.toml"
+github_organizations = ["https://github.com/Atom-Labs-one"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Atom-Labs-one"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Atom-Labs-one/electron-labs-website"
+last_commit = "046a50ab31bf272de666b23be1fdc4e14735d738"
+last_commit_time = "2022-02-27T13:48"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+branches = 26
+watching = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/Atom-Labs-one/electron-pay-website"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+watching = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/Atom-Labs-one/electron-website"
+last_commit = "7b0d928c43c61c7e91f8ccdd7bfb402e55cc81cc"
+last_commit_time = "2021-08-29T17:45"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+watching = 1
+branches = 18
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Atom-Labs-one/learningSolidity"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+stars = 0
+branches = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Atom-Labs-one/wormhole"
+last_commit = "9dd932d3eec76a94d17a213535d2189b9ec50419"
+last_commit_time = "2021-06-10T13:10"
+status = "200"
+
+[repo.stats]
+forks = 317
+tag_count = 0
+commits = 1
+stars = 2
+branches = 459
+watching = 0

@@ -1,22 +1,74 @@
-# Ecosystem Level Information
 title = "Spockchain Network"
-
+toml_path = "data/ecosystems/s/spockchain-network.toml"
+github_organizations = ["https://github.com/spockchain"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/spockchain"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/spockchain/dashboard"
+last_commit = "83af3790022f5c9ddfc7157cf417d3b7a1dd402d"
+last_commit_time = "2019-09-19T10:27"
+status = "200"
+
+[repo.stats]
+commits = 7
+watching = 1
+stars = 3
+tag_count = 0
+forks = 0
+branches = 19
 
 [[repo]]
 url = "https://github.com/spockchain/MySpock"
+last_commit = "2bd0ab634100c4160f6f5b90f7390c7b6a6b9e79"
+last_commit_time = "2019-10-31T05:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 4
+stars = 4
+branches = 100
+watching = 1
 
 [[repo]]
 url = "https://github.com/spockchain/scavenger"
+last_commit = "730e66523d099f61a16a4a3911512aa5eb2cb20d"
+last_commit_time = "2019-08-03T18:45"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+tag_count = 0
+stars = 1
+forks = 0
+branches = 6
 
 [[repo]]
 url = "https://github.com/spockchain/spock"
+last_commit = "6b854db90bde8dcce4aef3a1395674c5a717f64c"
+last_commit_time = "2020-01-19T07:01"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 1
+tag_count = 0
+branches = 25
+commits = 1
+stars = 8
 
 [[repo]]
 url = "https://github.com/spockchain/SpockWallet"
+last_commit = "aca4a398838a06ab2f548fd902971cc1ab19e2bb"
+last_commit_time = "2019-12-12T09:28"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 1
+tag_count = 0
+stars = 0
+branches = 4
+watching = 1

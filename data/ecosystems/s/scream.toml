@@ -1,13 +1,32 @@
-# Ecosystem Level Information
 title = "Scream"
-
+toml_path = "data/ecosystems/s/scream.toml"
+github_organizations = ["https://github.com/Scream-Finance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Scream-Finance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Scream-Finance/scream-protocol"
+last_commit = "be9130c892ae7c70bf4ef483e69bcbd8cd6b8a8c"
+last_commit_time = "2021-08-03T00:42"
+status = "200"
+
+[repo.stats]
+branches = 6
+commits = 2
+stars = 24
+tag_count = 0
+watching = 1
+forks = 14
 
 [[repo]]
 url = "https://github.com/Scream-Finance/scream-subgraph"
+last_commit = "bf8206588b5b8a098e8d5a0bbd68cd44d8aaf5c1"
+last_commit_time = "2021-07-19T15:23"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 1
+forks = 1
+branches = 4
+stars = 4

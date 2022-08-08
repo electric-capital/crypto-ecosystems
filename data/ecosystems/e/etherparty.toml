@@ -1,88 +1,382 @@
-# Ecosystem Level Information
 title = "Etherparty"
-
+toml_path = "data/ecosystems/e/etherparty.toml"
+github_organizations = ["https://github.com/etherparty"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/etherparty"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/etherparty/bike-challenge"
+last_commit = "ba235498f412fe1f5f94265a99ba0e97658328f8"
+last_commit_time = "2018-03-15T18:11"
+status = "200"
+
+[repo.stats]
+stars = 2
+commits = 1
+forks = 8
+watching = 6
+branches = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/etherparty/cloudflaredns-backup"
+last_commit = "fff0dbb0248d615e86914a6922b0788aed6723ae"
+last_commit_time = "2016-03-01T06:45"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 4
+branches = 30
+commits = 1
+tag_count = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/etherparty/coinpayments"
+last_commit = "dc7b9c6f98e2a9ae6f94573c4eea27b6df2d9bcc"
+last_commit_time = "2019-10-13T21:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+watching = 5
+branches = 26
+forks = 4
+stars = 5
 
 [[repo]]
 url = "https://github.com/etherparty/digitalocean-cloud-controller-manager"
+last_commit = "34fe4e770c9660ff1ddebc6367633640ab61823b"
+last_commit_time = "2019-02-08T02:56"
+status = "200"
+
+[repo.stats]
+branches = 271
+stars = 0
+forks = 127
+tag_count = 0
+commits = 4
+watching = 4
 
 [[repo]]
 url = "https://github.com/etherparty/docusign"
+last_commit = "d7ec911f3c6c146dc38740032cf20bac4c46807e"
+last_commit_time = "2019-03-26T22:36"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 9
+branches = 22
+commits = 1
+tag_count = 0
+watching = 8
 
 [[repo]]
 url = "https://github.com/etherparty/equity"
+last_commit = "3789fa09760a86249bcc7f2a981f19313ec36a5f"
+last_commit_time = "2014-05-22T05:44"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 4
+tag_count = 0
+forks = 337
+branches = 13
+commits = 3
 
 [[repo]]
 url = "https://github.com/etherparty/eris-std-lib"
+last_commit = "564fbce4d12c5dae1a9c7940e4b32851809765eb"
+last_commit_time = "2014-12-16T07:49"
+status = "200"
+
+[repo.stats]
+branches = 62
+commits = 2
+stars = 0
+tag_count = 0
+watching = 5
+forks = 0
 
 [[repo]]
 url = "https://github.com/etherparty/eth-smart-contracts"
+last_commit = "d401e7231134b5ea023dddc58db8064382cde96d"
+last_commit_time = "2018-12-05T01:21"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 2
+stars = 5
+branches = 34
+commits = 7
+watching = 12
 
 [[repo]]
 url = "https://github.com/etherparty/etherparty-bf"
+last_commit = "2f2f02c064b74981197ef1cbe395075e5f7a25c2"
+last_commit_time = "2014-12-18T11:11"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 4
+tag_count = 0
+watching = 6
+commits = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/etherparty/etherparty-std-lib"
+last_commit = "60d53a665690f6d7d81ace2e24978c0397b4eafb"
+last_commit_time = "2015-05-18T07:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 6
+forks = 0
+stars = 0
+branches = 10
 
 [[repo]]
 url = "https://github.com/etherparty/etherparty.io"
+last_commit = "9b14a59739e9bd6d227523be2c3c2f249206d2d9"
+last_commit_time = "2015-04-01T23:20"
+status = "200"
+
+[repo.stats]
+branches = 288
+commits = 1
+tag_count = 0
+stars = 12
+watching = 13
+forks = 5
 
 [[repo]]
 url = "https://github.com/etherparty/etherwallet"
+last_commit = "49e2b60ac57848962775e4cc0d835cf2e21c5c0d"
+last_commit_time = "2017-09-21T21:02"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 2
+forks = 0
+commits = 8
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/etherparty/explorer"
+last_commit = "9942a29cd227784df1b359c9a1dd28928167dfbb"
+last_commit_time = "2017-06-26T19:46"
+status = "200"
+
+[repo.stats]
+watching = 47
+branches = 52
+stars = 584
+forks = 382
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/etherparty/FUEL-Contracts"
+last_commit = "2773098a4c0fe9d03c1e1dec97b3c5b753428a0d"
+last_commit_time = "2019-05-01T22:36"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 5
+stars = 6
+forks = 8
+branches = 41
+commits = 1
 
 [[repo]]
 url = "https://github.com/etherparty/guide"
+last_commit = "04091753ec242482ed51a549cea4cda1be085ff0"
+last_commit_time = "2015-05-14T00:21"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 5
+branches = 3
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/etherparty/identitymind-samples"
+last_commit = "d513f71554d5fec076b38fc841bb4558d75dad8f"
+last_commit_time = "2017-10-30T20:58"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 49
+commits = 3
+forks = 13
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/etherparty/integrations"
+last_commit = "64ea105b6b52e8a9e94bec6d93085f304097b99a"
+last_commit_time = "2015-04-30T17:55"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 3
+commits = 1
+forks = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/etherparty/language-solidity"
+last_commit = "2837fd20ac55049016782df2b28626706b7e85b5"
+last_commit_time = "2015-09-09T13:45"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 410
+tag_count = 0
+commits = 3
+forks = 239
+watching = 4
 
 [[repo]]
 url = "https://github.com/etherparty/legal"
+last_commit = "deba932852da0c123f35199a697d5fd54a08c25c"
+last_commit_time = "2014-07-29T15:30"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 170
+forks = 37
+watching = 4
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/etherparty/new"
+last_commit = "aac81e851b0276fc7d6812b5c27236e6d809a24e"
+last_commit_time = "2017-06-19T01:00"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 0
+branches = 33
+commits = 5
+tag_count = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/etherparty/partyhat"
+last_commit = "7bcb1b50d5a24d9222c318d745c7c502bba39fc5"
+last_commit_time = "2015-05-20T00:20"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 1
+branches = 6
+watching = 5
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/etherparty/serpent-compiler"
+last_commit = "2b73a7a7357e4b6e502bb6c853c0d6107a456bec"
+last_commit_time = "2015-05-03T19:07"
+status = "200"
+
+[repo.stats]
+forks = 2
+commits = 1
+stars = 0
+watching = 4
+tag_count = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/etherparty/shapeshift"
+last_commit = "c697f402953b4446604541e9d3428f6c43398b93"
+last_commit_time = "2015-05-18T18:49"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 11
+tag_count = 0
+watching = 5
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/etherparty/slate"
+last_commit = "cf29f6786c288b6111239b8e8b211f8ae2fbc4c3"
+last_commit_time = "2017-10-30T05:06"
+status = "200"
+
+[repo.stats]
+commits = 3
+branches = 509
+watching = 5
+tag_count = 0
+stars = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/etherparty/syndicate"
+last_commit = "fccd31e86966612d5d2401c72a576dbd0059a0e8"
+last_commit_time = "2015-02-07T02:26"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 8
+watching = 4
+branches = 0
+commits = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/etherparty/Tokens"
+last_commit = "c1cc081e193c7105b1e8d282afddbeecbabdeae7"
+last_commit_time = "2017-03-16T14:22"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 2
+forks = 0
+branches = 98
+tag_count = 0
+commits = 10
 
 [[repo]]
 url = "https://github.com/etherparty/wiki"
+last_commit = "63d0bf7731da5fbaf3194dfec55713c3e0487073"
+last_commit_time = "2014-02-16T17:56"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 5
+commits = 1
+stars = 0
+watching = 4
+forks = 0

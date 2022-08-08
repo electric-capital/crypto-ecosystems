@@ -1,31 +1,116 @@
-# Ecosystem Level Information
 title = "Insight Chain"
-
+toml_path = "data/ecosystems/i/insight-chain.toml"
+github_organizations = ["https://github.com/insight-chain"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/insight-chain"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/insight-chain/documentation"
+last_commit = "f2e756198f9a805d9804e2e875736a5aa2eadeed"
+last_commit_time = "2019-09-02T06:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+forks = 0
+commits = 1
+watching = 2
+branches = 10
 
 [[repo]]
 url = "https://github.com/insight-chain/inb-explorer-api"
+last_commit = "4c75a966af726327875fa476b365f2c0ccfb4b7e"
+last_commit_time = "2019-11-19T12:14"
+status = "200"
+
+[repo.stats]
+commits = 10
+tag_count = 0
+forks = 0
+stars = 2
+watching = 1
+branches = 14
 
 [[repo]]
 url = "https://github.com/insight-chain/inb-explorer-web"
+last_commit = "2aac496bd914fbb8b642f53a36a55d6988ea11d3"
+last_commit_time = "2019-07-22T06:55"
+status = "200"
+
+[repo.stats]
+commits = 23
+stars = 8
+branches = 1
+tag_count = 0
+watching = 7
+forks = 0
 
 [[repo]]
 url = "https://github.com/insight-chain/inb-go"
+last_commit = "da049980ae3829199aa161980d1fbda014cec68b"
+last_commit_time = "2019-12-21T02:21"
+status = "200"
+
+[repo.stats]
+forks = 32
+stars = 339
+watching = 102
+commits = 20
+branches = 500
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/insight-chain/inb-sdk-go"
+last_commit = "f9ecd9130a6a557986b2811ae19c491c6d056c38"
+last_commit_time = "2019-11-07T02:04"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+forks = 0
+branches = 15
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/insight-chain/inb-wallet-android"
+last_commit = "e64b8f27833c8a11bc8f5d947aa827be2a67ace6"
+last_commit_time = "2019-07-30T12:52"
+status = "200"
+
+[repo.stats]
+branches = 1
+tag_count = 0
+stars = 17
+watching = 21
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/insight-chain/inb-wallet-ios"
+last_commit = "ddc354c78e11a2b88229a613e79245e628eab796"
+last_commit_time = "2019-12-05T12:22"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 1
+tag_count = 0
+branches = 46
+watching = 15
+stars = 14
 
 [[repo]]
 url = "https://github.com/insight-chain/inb-web3i.js"
+last_commit = "baeabaacf2a4b1000560f1dfb9b32b3233e05a54"
+last_commit_time = "2019-10-24T08:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+stars = 1
+forks = 0
+commits = 2
+branches = 6

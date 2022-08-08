@@ -1,79 +1,328 @@
-# Ecosystem Level Information
 title = "Port Finance"
-
+toml_path = "data/ecosystems/p/port-finance.toml"
+github_organizations = ["https://github.com/port-finance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/port-finance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/port-finance/anchor"
+last_commit = "ac3fbe8d386daedd8ed90dc2be452b2e9db54619"
+last_commit_time = "2021-11-10T06:40"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 614
+forks = 827
+tag_count = 0
+commits = 16
+stars = 2
 
 [[repo]]
 url = "https://github.com/port-finance/api-server"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+forks = 0
+stars = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/port-finance/bug-bounty"
+last_commit = "f70d4f1b8b75de842e0d2bb2902ad9735a1067b3"
+last_commit_time = "2022-01-12T03:53"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 8
+commits = 1
+forks = 0
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/port-finance/DefiLlama-Adapters"
+last_commit = "a4e1361c3cdb12de13bf954292a51a3e095f7d72"
+last_commit_time = "2021-12-30T02:55"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+branches = 0
+commits = 8
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/port-finance/distribution-tools"
+last_commit = "3de78e76a70ba1fb651cefa2fe0464e5cc8be564"
+last_commit_time = "2021-10-15T03:55"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 1
+branches = 41
+tag_count = 0
+forks = 107
+watching = 0
 
 [[repo]]
 url = "https://github.com/port-finance/influxdb-client-rs"
+last_commit = "677164c23f053b87a4a1290ed5ff4fad72a86480"
+last_commit_time = "2021-09-02T10:00"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 6
+stars = 0
+tag_count = 0
+branches = 65
+commits = 5
 
 [[repo]]
 url = "https://github.com/port-finance/lending-market-registry"
+last_commit = "dcc7be54bb3def0ae3502f0db86b33662978bc11"
+last_commit_time = "2022-05-30T10:46"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 11
+forks = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/port-finance/lending-markets-registry"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+watching = 0
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/port-finance/liquidator"
+last_commit = "c054532ffd4cf235566129c214356bc667f1a29a"
+last_commit_time = "2022-04-29T05:29"
+status = "200"
+
+[repo.stats]
+branches = 2
+tag_count = 0
+stars = 6
+commits = 2
+forks = 5
+watching = 2
 
 [[repo]]
 url = "https://github.com/port-finance/mock-oracles"
+last_commit = "0c90edec9f7b30427214a34dd7182e1409598d06"
+last_commit_time = "2022-02-25T06:03"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+branches = 63
+forks = 0
+commits = 4
+watching = 2
 
 [[repo]]
 url = "https://github.com/port-finance/multisig"
+last_commit = "ddbb237fbb8f72251a8874f3be918ee4ec3829f3"
+last_commit_time = "2021-11-02T03:13"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 0
+stars = 1
+forks = 91
+branches = 39
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/port-finance/multisig-ui"
+last_commit = "11f3cb051ca519350e7f825cce758c810100ed50"
+last_commit_time = "2021-11-05T09:40"
+status = "200"
+
+[repo.stats]
+branches = 29
+stars = 2
+forks = 39
+watching = 0
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/port-finance/port-anchor-adaptor"
+last_commit = "818b7f988c9ff9c563d4bf698baca6c5762e5f8b"
+last_commit_time = "2022-05-08T23:58"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+commits = 3
+stars = 2
+forks = 8
+branches = 14
 
 [[repo]]
 url = "https://github.com/port-finance/port-sdk"
+status = "200"
+
+[repo.stats]
+branches = 21
+watching = 3
+tag_count = 0
+commits = 6
+stars = 19
+forks = 7
 
 [[repo]]
 url = "https://github.com/port-finance/port-stats"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+stars = 0
+forks = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/port-finance/sencha"
+last_commit = "e83ccb8ba80f55c6986782f7364ef7ee8409f6c9"
+last_commit_time = "2022-02-21T06:38"
+status = "200"
+
+[repo.stats]
+commits = 13
+stars = 0
+watching = 0
+forks = 13
+tag_count = 0
+branches = 65
 
 [[repo]]
 url = "https://github.com/port-finance/serum-ts"
+last_commit = "65197e8252c7dcb33048023eac13b6b5004c7e89"
+last_commit_time = "2021-08-13T04:03"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 215
+branches = 418
+watching = 0
+commits = 34
+stars = 0
 
 [[repo]]
 url = "https://github.com/port-finance/snapshots"
+last_commit = "1f2d9dff584a68dbe49c5cf2565b399efad35b89"
+last_commit_time = "2022-02-07T10:14"
+status = "200"
+
+[repo.stats]
+forks = 3
+branches = 16
+stars = 0
+tag_count = 0
+commits = 7
+watching = 0
 
 [[repo]]
 url = "https://github.com/port-finance/solana-maths"
+last_commit = "7ebb5bf3ca2f0f55823441da1dcebbe2061fa3b6"
+last_commit_time = "2022-03-02T10:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 1
+watching = 3
+branches = 3
+stars = 4
 
 [[repo]]
 url = "https://github.com/port-finance/sundial"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+watching = 3
+commits = 18
+branches = 55
+stars = 9
 
 [[repo]]
 url = "https://github.com/port-finance/swap-ui"
+last_commit = "97cfd7543c1599a6d42f04d42c803ec0509a1d44"
+last_commit_time = "2021-12-14T08:24"
+status = "200"
+
+[repo.stats]
+commits = 6
+forks = 117
+branches = 98
+watching = 1
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/port-finance/token-list"
+last_commit = "802425398a14180bc79f8e4d057793b268b09803"
+last_commit_time = "2022-04-14T07:02"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 17
+branches = 0
+tag_count = 0
+stars = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/port-finance/variable-rate-lending"
+last_commit = "51a957914f3f0149d72baa2823da7c7c7c861e4a"
+last_commit_time = "2022-07-25T04:39"
+status = "200"
+
+[repo.stats]
+branches = 11
+forks = 2
+tag_count = 0
+commits = 12
+stars = 10
+watching = 1
 
 [[repo]]
 url = "https://github.com/port-finance/wallet-adapter"
+status = "200"
+
+[repo.stats]
+branches = 512
+commits = 6
+stars = 1
+watching = 0
+tag_count = 0
+forks = 547

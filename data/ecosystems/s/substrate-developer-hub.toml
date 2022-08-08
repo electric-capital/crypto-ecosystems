@@ -1,121 +1,526 @@
-# Ecosystem Level Information
 title = " Substrate Developer Hub"
-
+toml_path = "data/ecosystems/s/substrate-developer-hub.toml"
+github_organizations = ["https://github.com/substrate-developer-hub"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/substrate-developer-hub"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/substrate-developer-hub/awesome-substrate"
+last_commit = "ebde8ada9dbd4c27644302349dd2a0e712f9802b"
+last_commit_time = "2022-06-15T23:37"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 142
+watching = 41
+tag_count = 0
+stars = 525
+forks = 100
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/crypto-ecosystems"
+last_commit = "eaa10002f649c264dd8f7723aa38fa07728c287d"
+last_commit_time = "2022-02-03T02:39"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+forks = 240
+branches = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/cumulus-workshop"
+last_commit = "e79669a75db853a5e3ff84df759ca189832c97b7"
+last_commit_time = "2021-10-15T16:43"
+status = "200"
+
+[repo.stats]
+forks = 22
+commits = 2
+stars = 54
+tag_count = 0
+branches = 237
+watching = 8
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/docs-sandbox"
+last_commit = "22d36bc6183abda4908cd8cac63d128bf7870fdf"
+last_commit_time = "2022-03-03T17:56"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 34
+forks = 2
+branches = 323
+stars = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/frontier-node-template"
+last_commit = "1b6bff4e88e6d0345887c0ecbd63401f9474aa91"
+last_commit_time = "2022-06-01T19:47"
+status = "200"
+
+[repo.stats]
+stars = 11
+watching = 5
+tag_count = 0
+commits = 5
+branches = 14
+forks = 34
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/frontier-workshop"
+last_commit = "69f93a4b4f9feb148b648e310daa2958473192da"
+last_commit_time = "2020-12-04T09:02"
+status = "200"
+
+[repo.stats]
+forks = 8
+stars = 3
+branches = 44
+watching = 2
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/hackathon-knowledge-map"
+last_commit = "1a1d8305af0837c0a593541bf8ae3b318f788bb3"
+last_commit_time = "2022-06-30T14:05"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 44
+stars = 34
+forks = 10
+tag_count = 0
+watching = 16
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/hacktoberfest"
+last_commit = "c0bcbcb8366f1050dc5e4fecc09d3421e508309d"
+last_commit_time = "2019-11-30T15:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 172
+commits = 2
+forks = 27
+stars = 8
+watching = 19
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/haski"
+last_commit = "75d93543c71d451f7d1cf6dbd62913dd557ef8bb"
+last_commit_time = "2019-10-07T15:46"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 3
+commits = 1
+branches = 4
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/index-tpl-crud"
+last_commit = "f15405a6bc841f7ed876c75545a25f39fdf8041a"
+last_commit_time = "2022-01-27T10:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+branches = 16
+commits = 1
+stars = 0
+watching = 13
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/knowledgebase"
+last_commit = "1f009a4cdad54a49b0a742030168593b712c1dd9"
+last_commit_time = "2020-07-16T20:44"
+status = "200"
+
+[repo.stats]
+stars = 12
+branches = 657
+forks = 16
+tag_count = 0
+commits = 6
+watching = 17
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/migration-example"
+last_commit = "b80432e055a2a948f5b4b24ea887f1489f56e72e"
+last_commit_time = "2021-04-06T15:50"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 1
+branches = 17
+watching = 5
+commits = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/pallet-did"
+last_commit = "8510c92b4e550caded56aa7809046066db0f1590"
+last_commit_time = "2022-03-02T08:59"
+status = "200"
+
+[repo.stats]
+watching = 8
+forks = 29
+branches = 38
+tag_count = 0
+commits = 4
+stars = 68
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/rustdocs"
+last_commit = "f0a6ff90b982c6f0f5324f9d4c4312a43dff148b"
+last_commit_time = "2021-11-11T01:46"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 6
+branches = 705
+commits = 1
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-beginner-workshop"
+last_commit = "ceb2c1a01776d35461120819365148cd068a19b2"
+last_commit_time = "2021-10-21T09:05"
+status = "200"
+
+[repo.stats]
+stars = 5
+tag_count = 0
+watching = 1
+branches = 70
+commits = 1
+forks = 13
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-cms"
+last_commit = "69ef992774c11759da4864f2bf5fe7077c18b32b"
+last_commit_time = "2021-02-25T04:25"
+status = "200"
+
+[repo.stats]
+commits = 7
+forks = 5
+tag_count = 0
+branches = 146
+watching = 14
+stars = 5
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-contracts-workshop"
+last_commit = "7a336fb425878e60bbd8bddc938b270498a3ba53"
+last_commit_time = "2021-10-15T16:08"
+status = "200"
+
+[repo.stats]
+forks = 61
+stars = 85
+tag_count = 0
+branches = 197
+watching = 13
+commits = 2
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-developer-hub.github.io"
+last_commit = "95a467b75b7ff778401539818f738848d6044b1c"
+last_commit_time = "2022-01-24T11:52"
+status = "200"
+
+[repo.stats]
+branches = 950
+stars = 130
+watching = 19
+forks = 227
+tag_count = 0
+commits = 11
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-docs"
+status = "200"
+
+[repo.stats]
+commits = 52
+tag_count = 0
+branches = 807
+stars = 86
+watching = 7
+forks = 166
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-enterprise-sample"
+last_commit = "39bdeec0351188d5fdb55430669969b9a1311dc5"
+last_commit_time = "2021-10-09T04:02"
+status = "200"
+
+[repo.stats]
+commits = 5
+stars = 58
+watching = 7
+tag_count = 0
+branches = 132
+forks = 37
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-erc20-multi"
+status = "200"
+
+[repo.stats]
+stars = 17
+watching = 3
+tag_count = 0
+forks = 8
+commits = 1
+branches = 9
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-events-listener"
+last_commit = "d454af9d3d0e2a659371909dd7ce11b391bad908"
+last_commit_time = "2020-08-19T23:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 26
+commits = 1
+watching = 4
+forks = 3
+branches = 10
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-front-end-template"
+last_commit = "e36c75de93a8fbd6a40b374129fbfa50a2bff16d"
+last_commit_time = "2022-03-05T11:39"
+status = "200"
+
+[repo.stats]
+branches = 214
+watching = 16
+commits = 7
+tag_count = 0
+stars = 227
+forks = 274
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-front-end-tutorial"
+last_commit = "177ce31d38f50176f23639cbc31564156ff46cc5"
+last_commit_time = "2020-06-07T20:00"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 4
+watching = 2
+forks = 10
+stars = 9
+branches = 67
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-how-to-guides"
+last_commit = "cb4326e067d128e177b25f2548dd880ae42e8ebe"
+last_commit_time = "2021-10-10T18:51"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 33
+branches = 197
+forks = 36
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-module-template"
+last_commit = "195a21a7eca65f717afc1c609e0976b7dab755bf"
+last_commit_time = "2019-10-21T14:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 5
+watching = 16
+branches = 19
+commits = 3
+stars = 12
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-node-template"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 758
+commits = 19
+branches = 160
+watching = 56
+stars = 631
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-pallet-template"
+last_commit = "dbe0a44e7cb985a2a10f47cc58cb4591f92eeb83"
+last_commit_time = "2021-07-09T15:10"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 25
+stars = 23
+tag_count = 0
+watching = 18
+branches = 39
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-parachain-template"
+status = "200"
+
+[repo.stats]
+watching = 8
+branches = 66
+tag_count = 0
+forks = 100
+stars = 153
+commits = 3
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-proof-of-existence"
+last_commit = "e693c1d7ffbb3eedf6c027960f444295cd12e9b5"
+last_commit_time = "2021-10-21T09:36"
+status = "200"
+
+[repo.stats]
+branches = 21
+tag_count = 0
+watching = 2
+forks = 9
+commits = 12
+stars = 30
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-runtime-template"
+last_commit = "61056298fb47a6a99cd5b5dc7e0c6274f499828c"
+last_commit_time = "2020-05-16T07:03"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 2
+watching = 1
+tag_count = 0
+branches = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-seminar"
+last_commit = "71587a8bd1168b8af3f77e3894898023211289a6"
+last_commit_time = "2022-08-03T11:40"
+status = "200"
+
+[repo.stats]
+watching = 11
+tag_count = 0
+forks = 5
+commits = 1
+branches = 62
+stars = 35
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-tools"
+last_commit = "7638b534af184bdec5c367cc4b730712e796c286"
+last_commit_time = "2021-07-26T08:18"
+status = "200"
+
+[repo.stats]
+forks = 1
+commits = 1
+watching = 2
+stars = 2
+tag_count = 0
+branches = 36
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-verifiable-credentials"
+last_commit = "9e51e5d7afcf52c2d091fc8625403abc3f125dbb"
+last_commit_time = "2020-03-16T16:11"
+status = "200"
+
+[repo.stats]
+forks = 4
+tag_count = 0
+branches = 453
+stars = 11
+watching = 17
+commits = 2
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate_archived"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+branches = 0
+stars = 0
+watching = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/tcr-substrate"
+last_commit = "ac17a53a596549aa71ef2696f16c5b26b53dd86e"
+last_commit_time = "2020-08-06T17:57"
+status = "200"
+
+[repo.stats]
+branches = 34
+forks = 0
+watching = 1
+commits = 1
+tag_count = 0
+stars = 5
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/tutorials"
+last_commit = "5c7ee982dfd50def45479803a94852a6a37e2213"
+last_commit_time = "2020-06-02T08:57"
+status = "200"
+
+[repo.stats]
+watching = 17
+stars = 5
+branches = 91
+forks = 7
+commits = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/utxo-workshop"
+last_commit = "f896065ab15d664e5aecde84d6630db14e24cd7e"
+last_commit_time = "2021-06-10T16:21"
+status = "200"
+
+[repo.stats]
+commits = 20
+branches = 178
+tag_count = 0
+watching = 6
+stars = 111
+forks = 85

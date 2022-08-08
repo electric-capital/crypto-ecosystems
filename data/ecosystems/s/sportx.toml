@@ -1,22 +1,70 @@
-# Ecosystem Level Information
 title = "sportx"
-
+toml_path = "data/ecosystems/s/sportx.toml"
+github_organizations = ["https://github.com/sportx-bet"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/sportx-bet"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/sportx-bet/slate"
+last_commit = "96611d2bb7ea236ee891fc7c1c2b4c4739569348"
+last_commit_time = "2022-07-14T18:02"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 707
+commits = 6
+watching = 1
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sportx-bet/smart-contracts"
+last_commit = "e36965a0c4748bf73ae15ed3cab5660c9cf722e1"
+last_commit_time = "2021-01-22T21:39"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 34
+tag_count = 0
+branches = 10
+commits = 1
+forks = 17
 
 [[repo]]
 url = "https://github.com/sportx-bet/sportx-go"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 0
+stars = 0
+commits = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sportx-bet/sportx-js"
+status = "200"
+
+[repo.stats]
+stars = 11
+watching = 3
+tag_count = 0
+branches = 144
+commits = 12
+forks = 9
 
 [[repo]]
 url = "https://github.com/sportx-bet/timelock-contracts"
+last_commit = "e9630c6851ff112511f3a8d8d2f6bc5eda952fca"
+last_commit_time = "2021-01-26T15:54"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 7
+forks = 1
+branches = 1
+tag_count = 0
+commits = 1

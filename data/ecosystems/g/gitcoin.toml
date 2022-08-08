@@ -1,319 +1,1442 @@
-# Ecosystem Level Information
 title = "Gitcoin"
-
+toml_path = "data/ecosystems/g/gitcoin.toml"
+github_organizations = ["https://github.com/gitcoinco"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/gitcoinco"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/gitcoinco/android"
+last_commit = "53a22f5139f226817f225989c912a97aa2d4efdf"
+last_commit_time = "2017-12-04T23:57"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 4
+watching = 20
+forks = 3
+branches = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/avatar-builder"
+last_commit = "dc3115b8d197af7fe4ad82fd59e55e6102968b69"
+last_commit_time = "2020-12-28T15:16"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 6
+stars = 5
+branches = 23
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/gitcoinco/bailoutmainst"
+last_commit = "06bf49cffee2d28975bfbaba21080b58543c8b1e"
+last_commit_time = "2020-04-10T20:54"
+status = "200"
+
+[repo.stats]
+commits = 25
+forks = 10
+tag_count = 0
+stars = 10
+watching = 5
+branches = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/bd"
+last_commit = "ecfdd8417db50bb08e37ab5af0828d118bd38d09"
+last_commit_time = "2018-06-11T21:51"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 1
+watching = 3
+commits = 1
+tag_count = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/beyondblockchainteams"
+last_commit = "23a1cdc6c775599ab4e7954dc16282a67946459e"
+last_commit_time = "2019-06-26T20:20"
+status = "200"
+
+[repo.stats]
+forks = 6
+stars = 17
+branches = 13
+tag_count = 0
+watching = 9
+commits = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/browser-extension"
+last_commit = "6943ad15c29b151464bfcab779eb8ccb75b7806d"
+last_commit_time = "2019-05-23T16:40"
+status = "200"
+
+[repo.stats]
+branches = 83
+forks = 29
+watching = 25
+commits = 19
+stars = 47
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/BulkTransactions"
+last_commit = "9de58367d9a4cc8527e70f434157ca879254cab8"
+last_commit_time = "2021-09-03T14:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 16
+watching = 7
+forks = 18
+branches = 34
+commits = 15
 
 [[repo]]
 url = "https://github.com/gitcoinco/cerebro"
+last_commit = "2d4d82a33f852fcc4b74226a2cd1077476981701"
+last_commit_time = "2020-04-25T16:22"
+status = "200"
+
+[repo.stats]
+branches = 1
+stars = 2
+tag_count = 0
+commits = 1
+watching = 4
+forks = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/cf_eyeo_example"
+last_commit = "b82b5ff0e3124d0bc95c2c55c4ebd301b85d6b88"
+last_commit_time = "2018-11-30T14:53"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 10
+commits = 1
+watching = 2
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/code_fund_ads"
+last_commit = "42333a28a9724a7f91487a345020602aed2c52fa"
+last_commit_time = "2020-07-01T16:45"
+status = "200"
+
+[repo.stats]
+watching = 24
+stars = 370
+forks = 118
+tag_count = 0
+commits = 12
+branches = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/code_fund_web"
+last_commit = "0bc3ed928152540502eeb33201606761f36ae463"
+last_commit_time = "2020-04-03T11:50"
+status = "200"
+
+[repo.stats]
+forks = 3
+watching = 1
+branches = 7
+stars = 1
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/codefund"
+last_commit = "52dc113229e1d546c58e14e687babd9a89cb8703"
+last_commit_time = "2018-11-05T23:21"
+status = "200"
+
+[repo.stats]
+watching = 23
+stars = 149
+forks = 39
+tag_count = 0
+branches = 411
+commits = 21
 
 [[repo]]
 url = "https://github.com/gitcoinco/codefund-ghost-theme"
+last_commit = "e5821908ef8ecef28504ac2bf47e974c1aae129b"
+last_commit_time = "2019-10-16T01:37"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 5
+tag_count = 0
+commits = 1
+branches = 5
+watching = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/codefund-web"
+last_commit = "342775e6a87fe40cc8eb57a4a89dcdd2bb77151f"
+last_commit_time = "2018-07-05T17:45"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 2
+tag_count = 0
+forks = 2
+branches = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/codefund_fm"
+last_commit = "46f149288ace1c4c480892076881efbb26a6f9cc"
+last_commit_time = "2019-11-17T21:17"
+status = "200"
+
+[repo.stats]
+forks = 9
+tag_count = 0
+stars = 9
+commits = 29
+branches = 3
+watching = 4
 
 [[repo]]
 url = "https://github.com/gitcoinco/codefund_temp"
+last_commit = "0ff99d944ae2e738c0aec4db2bda3b886556fa7d"
+last_commit_time = "2018-03-22T22:49"
+status = "200"
+
+[repo.stats]
+branches = 1
+forks = 1
+watching = 18
+stars = 0
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/codefund_wordpress_plugin"
+last_commit = "9d80135bb087216d853ec8d3600888993cc36be9"
+last_commit_time = "2018-08-14T20:27"
+status = "200"
+
+[repo.stats]
+branches = 2
+commits = 1
+tag_count = 0
+forks = 1
+stars = 3
+watching = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/coldoutreach"
+last_commit = "7bf97c803ec6065493e33b6740aa690569bb1e14"
+last_commit_time = "2019-10-22T21:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 18
+commits = 2
+stars = 11
+branches = 57
+forks = 9
 
 [[repo]]
 url = "https://github.com/gitcoinco/command_line_standardbounties_funder"
+last_commit = "d23a7adbc44d459b88617576d2fbee573c75660e"
+last_commit_time = "2019-09-11T16:20"
+status = "200"
+
+[repo.stats]
+forks = 4
+branches = 27
+tag_count = 0
+commits = 1
+stars = 2
+watching = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/community"
+last_commit = "9bed016be9d6897ffbb3138dc8ad7b7f9c79a734"
+last_commit_time = "2019-12-11T02:34"
+status = "200"
+
+[repo.stats]
+stars = 25
+commits = 1
+tag_count = 0
+watching = 24
+forks = 17
+branches = 80
 
 [[repo]]
 url = "https://github.com/gitcoinco/content"
+last_commit = "04744fb27f18d766e4557e60e948169a601143e8"
+last_commit_time = "2018-02-27T20:38"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+watching = 15
+branches = 1
+commits = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/contract-metadata"
+last_commit = "8ec71bdfd3b661e908105003e678325f0d3c7f6a"
+last_commit_time = "2021-05-26T17:42"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 2
+tag_count = 0
+branches = 723
+commits = 10
+forks = 922
 
 [[repo]]
 url = "https://github.com/gitcoinco/coordination-party"
+last_commit = "a0825856509c71c5bbecf0405cd4de70a0b4a69c"
+last_commit_time = "2022-02-15T13:16"
+status = "200"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+commits = 1
+stars = 1
+branches = 29
+forks = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/coz-slack-ico-management-platform"
+last_commit = "e4688ea1adac928f100b92961721bb6d14783a81"
+last_commit_time = "2017-10-20T18:43"
+status = "200"
+
+[repo.stats]
+branches = 38
+forks = 7
+watching = 2
+stars = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/creative"
+last_commit = "d85e6b646cab3e0ded646f9818ebc1034ebd27c2"
+last_commit_time = "2021-11-10T13:30"
+status = "200"
+
+[repo.stats]
+forks = 192
+stars = 106
+branches = 925
+tag_count = 0
+commits = 6
+watching = 30
 
 [[repo]]
 url = "https://github.com/gitcoinco/cred"
+last_commit = "f7cf2395656f8be51ef53bd0bdc9d54ab86b32b4"
+last_commit_time = "2020-09-21T18:56"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 3
+forks = 6
+stars = 2
+branches = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/cypress-metamask"
+last_commit = "4364062c43a7beab001b3c42a850ebe9c61d5eb9"
+last_commit_time = "2021-09-24T21:30"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 25
+branches = 46
+tag_count = 0
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/dappcon"
+last_commit = "e7aae86bd2ca47d6aad72206439e7851a9a61263"
+last_commit_time = "2018-07-19T14:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+stars = 2
+forks = 2
+branches = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/data-ops"
+last_commit = "6a3d434fe0e0313a159f5215242eaefa599ba733"
+last_commit_time = "2019-02-22T15:16"
+status = "200"
+
+[repo.stats]
+branches = 19
+stars = 3
+commits = 2
+forks = 1
+tag_count = 0
+watching = 16
 
 [[repo]]
 url = "https://github.com/gitcoinco/desktop-app"
+last_commit = "83c72b59b508684b6f5d0a2cbc4f32ff9a6388d1"
+last_commit_time = "2020-01-10T15:50"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+branches = 202
+stars = 10
+forks = 8
+commits = 9
 
 [[repo]]
 url = "https://github.com/gitcoinco/dgrants"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+stars = 0
+tag_count = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/discourse-adplugin"
+last_commit = "b6c7ca748f89abcad978ff868dc78a6df5bb64c1"
+last_commit_time = "2019-01-29T22:22"
+status = "200"
+
+[repo.stats]
+commits = 7
+branches = 282
+forks = 61
+tag_count = 0
+watching = 7
+stars = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/discourse-codefund"
+last_commit = "ac8ad008f29969397b1003af946a55cd1bbbe4dd"
+last_commit_time = "2018-05-31T16:44"
+status = "200"
+
+[repo.stats]
+forks = 2
+commits = 1
+watching = 16
+stars = 3
+tag_count = 0
+branches = 6
 
 [[repo]]
 url = "https://github.com/gitcoinco/django-cacheops"
+last_commit = "ddfc0fa34fe81d05bd63b73140f32e3da61befe4"
+last_commit_time = "2021-01-23T14:45"
+status = "200"
+
+[repo.stats]
+forks = 203
+tag_count = 0
+branches = 0
+commits = 8
+stars = 3
+watching = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/downtownstimulus"
+last_commit = "16c7f3622a60e3974168c9ab8a3f5178744378bd"
+last_commit_time = "2020-05-29T18:47"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 1
+stars = 4
+tag_count = 0
+watching = 5
+forks = 20
 
 [[repo]]
 url = "https://github.com/gitcoinco/dPopp"
+status = "200"
+
+[repo.stats]
+forks = 18
+stars = 43
+tag_count = 0
+branches = 336
+watching = 13
+commits = 33
 
 [[repo]]
 url = "https://github.com/gitcoinco/dPopp-reader"
+last_commit = "9d2137c8b29590a49c58c2b0a2068a28ec6226d8"
+last_commit_time = "2022-06-13T17:45"
+status = "200"
+
+[repo.stats]
+watching = 9
+stars = 0
+branches = 6
+forks = 0
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/EIPs"
+last_commit = "85c0681f9ea52f89183099606954af8c119d328e"
+last_commit_time = "2019-04-04T20:59"
+status = "200"
+
+[repo.stats]
+commits = 8
+watching = 3
+forks = 0
+tag_count = 0
+stars = 1
+branches = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/environment-ferretwell-staging"
+last_commit = "faaf846c820d8e42227b89b1e5a43af3a38b8a5f"
+last_commit_time = "2018-04-02T18:08"
+status = "200"
+
+[repo.stats]
+branches = 17
+tag_count = 0
+stars = 0
+watching = 3
+forks = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/ERC-1337"
+last_commit = "20b3eb42e7c5514e782d277780ae7a4ac7823329"
+last_commit_time = "2019-01-10T14:59"
+status = "200"
+
+[repo.stats]
+forks = 5
+tag_count = 0
+stars = 5
+branches = 37
+commits = 1
+watching = 5
 
 [[repo]]
 url = "https://github.com/gitcoinco/ethavatar"
+last_commit = "d85b4587df722f7eb4812d66c791a2fbbcdc8422"
+last_commit_time = "2018-05-31T12:39"
+status = "200"
+
+[repo.stats]
+forks = 15
+stars = 81
+watching = 21
+branches = 20
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/ethdenver"
+last_commit = "9f2644780ff5a224b79c69f40083db4a38e5a3f7"
+last_commit_time = "2018-02-01T17:04"
+status = "200"
+
+[repo.stats]
+stars = 10
+commits = 1
+watching = 5
+forks = 2
+tag_count = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/ethereal-blocks-teams"
+last_commit = "fd9b8636f6fcdc38d183a5c0e6e3faa4d58b5592"
+last_commit_time = "2019-08-22T02:51"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 1
+tag_count = 0
+watching = 3
+branches = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/ethical_advertising"
+last_commit = "6c25e70128d3f6def90d78fce57b89af715ee48a"
+last_commit_time = "2020-02-19T15:05"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 3
+forks = 2
+tag_count = 0
+stars = 1
+branches = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/ethindia"
+last_commit = "571f76236a3153318f18143dd476f77741c9bae1"
+last_commit_time = "2018-11-15T17:11"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 15
+branches = 10
+forks = 7
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/GIPs"
+last_commit = "f6c2d167ad774648c84694038caae4d83122b47e"
+last_commit_time = "2021-05-20T19:50"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+watching = 18
+forks = 8
+stars = 12
+branches = 814
 
 [[repo]]
 url = "https://github.com/gitcoinco/gitbook-KB"
+last_commit = "a3d4e9c96c964764571f7704c3773e22a85b9e1a"
+last_commit_time = "2022-07-21T17:06"
+status = "200"
+
+[repo.stats]
+branches = 39
+forks = 1
+watching = 5
+stars = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/gitcoin-erc721"
+last_commit = "19b783e50825bfc258179454990a517e84343153"
+last_commit_time = "2018-10-27T22:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 10
+forks = 3
+watching = 9
+branches = 153
+commits = 7
 
 [[repo]]
 url = "https://github.com/gitcoinco/Gitcoin-Exemplars"
+last_commit = "6fac83833e17380875ca5232c568f765beebc17a"
+last_commit_time = "2018-10-05T21:47"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 1
+watching = 7
+forks = 6
+branches = 43
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/gitcoin-governance-subgraph"
+last_commit = "aca80fe7cc1dd5f71eeeaa0f573dc7ceba8b1b3e"
+last_commit_time = "2021-05-28T16:52"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 25
+branches = 14
+tag_count = 0
+watching = 1
+commits = 4
 
 [[repo]]
 url = "https://github.com/gitcoinco/gitcoin-rss"
+last_commit = "f1e3840ca0f3abf4cfa96bb66baa5feaca03be70"
+last_commit_time = "2018-07-27T18:36"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 1
+forks = 3
+branches = 29
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/gitcoin-wp-theme"
+last_commit = "7b9740ac3489cf6dcccd3277b8dc73f2331d472d"
+last_commit_time = "2019-05-15T22:03"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+forks = 1
+stars = 1
+commits = 1
+branches = 3
 
 [[repo]]
 url = "https://github.com/gitcoinco/gitcoin_cadcad_model"
+last_commit = "42d4f876d4c50fde75f120bfa3116c223fbc1116"
+last_commit_time = "2021-05-03T14:48"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 5
+forks = 17
+branches = 107
+stars = 35
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/gitcoinco"
+last_commit = "4483d640474a85d5cfda11ac21b555328e53607c"
+last_commit_time = "2019-05-23T18:40"
+status = "200"
+
+[repo.stats]
+forks = 65
+tag_count = 0
+commits = 1
+stars = 318
+watching = 62
+branches = 29
 
 [[repo]]
 url = "https://github.com/gitcoinco/Gitquad"
+last_commit = "805fe8b0972409c31e964138c862861b375d3570"
+last_commit_time = "2022-02-07T09:02"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 0
+tag_count = 0
+branches = 16
+stars = 0
+forks = 3
 
 [[repo]]
 url = "https://github.com/gitcoinco/governance"
+last_commit = "d5362d31076e79e76503ff845d8475473b53a3fd"
+last_commit_time = "2021-06-17T14:05"
+status = "200"
+
+[repo.stats]
+stars = 39
+tag_count = 0
+forks = 21
+watching = 9
+branches = 56
+commits = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/governance-docs"
+last_commit = "79dc635ffa02ee3f9b96a32c5fcb88c352a9691c"
+last_commit_time = "2021-08-05T16:58"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 9
+forks = 8
+stars = 14
+branches = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/grant-hub"
+last_commit = "ad7f5b9d6f24fb0826acfc4aa486c48656a3662e"
+last_commit_time = "2022-08-04T17:08"
+status = "200"
+
+[repo.stats]
+watching = 11
+tag_count = 0
+commits = 42
+forks = 3
+stars = 7
+branches = 562
 
 [[repo]]
 url = "https://github.com/gitcoinco/grants-hub"
+last_commit = "ad7f5b9d6f24fb0826acfc4aa486c48656a3662e"
+last_commit_time = "2022-08-04T17:08"
+status = "200"
+
+[repo.stats]
+watching = 11
+commits = 42
+forks = 3
+tag_count = 0
+branches = 562
+stars = 7
 
 [[repo]]
 url = "https://github.com/gitcoinco/grants-round"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 8
+watching = 9
+stars = 7
+commits = 82
+branches = 469
 
 [[repo]]
 url = "https://github.com/gitcoinco/grants1337"
+last_commit = "9e62a36f5a6fb8d82df0dfa44bb5a7425125a5d8"
+last_commit_time = "2018-09-26T21:51"
+status = "200"
+
+[repo.stats]
+forks = 22
+watching = 5
+stars = 10
+tag_count = 0
+branches = 200
+commits = 4
 
 [[repo]]
 url = "https://github.com/gitcoinco/greenpill-party"
+last_commit = "35e5fe225b58a9b81599a5630a309ad421bcb916"
+last_commit_time = "2022-04-15T20:04"
+status = "200"
+
+[repo.stats]
+stars = 7
+commits = 2
+forks = 5
+watching = 2
+branches = 68
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/hacksummit"
+last_commit = "17de8ccc77cce59ec39098ad981939931daa0e7c"
+last_commit_time = "2018-07-12T17:55"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 2
+branches = 7
+tag_count = 0
+commits = 1
+forks = 3
 
 [[repo]]
 url = "https://github.com/gitcoinco/hacktoberfest-2020"
+last_commit = "5980247a71c25ea56dad41b7fa6978f526b06511"
+last_commit_time = "2020-09-30T03:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+watching = 5
+commits = 1
+branches = 1
+forks = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/honeypot_money"
+last_commit = "25032f46a72dca9a7272ddbdbee91622cb5d6447"
+last_commit_time = "2021-04-05T02:21"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 5
+stars = 4
+watching = 8
+tag_count = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/ios"
+last_commit = "222172ac7a5f9b78c4f0a692774e4401ec9b64ad"
+last_commit_time = "2018-08-17T17:19"
+status = "200"
+
+[repo.stats]
+watching = 25
+stars = 22
+forks = 10
+tag_count = 0
+branches = 115
+commits = 3
 
 [[repo]]
 url = "https://github.com/gitcoinco/javascript-api-client"
+last_commit = "43f82fe314a87fe32ecf5f76b491d633159dd010"
+last_commit_time = "2019-01-25T17:59"
+status = "200"
+
+[repo.stats]
+stars = 5
+watching = 17
+tag_count = 0
+commits = 1
+forks = 2
+branches = 6
 
 [[repo]]
 url = "https://github.com/gitcoinco/Kudos721Contract"
+last_commit = "b6b4c1abd891af72c4a216375932a7f55f1a0334"
+last_commit_time = "2019-06-26T19:29"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 29
+tag_count = 0
+forks = 21
+commits = 1
+branches = 166
 
 [[repo]]
 url = "https://github.com/gitcoinco/kudosbadges"
+last_commit = "3e47798f0c65ef3f4a9bee92e3edabe187c52b24"
+last_commit_time = "2020-04-12T18:37"
+status = "200"
+
+[repo.stats]
+stars = 83
+tag_count = 0
+commits = 1
+branches = 356
+forks = 115
+watching = 19
 
 [[repo]]
 url = "https://github.com/gitcoinco/labs"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 0
+watching = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/lemonade-stand"
+last_commit = "1edfdff2ee434d1fe4fb72f96e10dbb7fb65784a"
+last_commit_time = "2018-09-18T15:08"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 2
+tag_count = 0
+branches = 142
+stars = 1
+forks = 330
 
 [[repo]]
 url = "https://github.com/gitcoinco/Marketing"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+forks = 0
+branches = 0
+commits = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/matching_contracts"
+last_commit = "ae4e44e912531669a8115386ffd97af2f47f9fd1"
+last_commit_time = "2022-04-15T15:11"
+status = "200"
+
+[repo.stats]
+watching = 8
+commits = 13
+forks = 11
+tag_count = 0
+branches = 59
+stars = 18
 
 [[repo]]
 url = "https://github.com/gitcoinco/mattermost-plugin-gitlab"
+last_commit = "06c23bb461725d23bcfd4f33cd113c153cf9fd41"
+last_commit_time = "2019-10-22T08:00"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+branches = 144
+watching = 1
+forks = 74
+stars = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/mattermost-redux"
+last_commit = "79f939061764e5352fa19b2c4977051d16816766"
+last_commit_time = "2019-11-19T20:54"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+watching = 1
+commits = 72
+stars = 1
+forks = 416
 
 [[repo]]
 url = "https://github.com/gitcoinco/mattermost-server"
+last_commit = "b3ccdc76e52e2e26f222e126c715f72b2c6656a7"
+last_commit_time = "2020-03-11T18:11"
+status = "200"
+
+[repo.stats]
+commits = 138
+branches = 0
+stars = 1
+watching = 1
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/mattermost-webapp"
+last_commit = "394ec3f5d8fece763491dcd7a51d9ec4ab24d52b"
+last_commit_time = "2019-10-29T18:09"
+status = "200"
+
+[repo.stats]
+commits = 104
+tag_count = 0
+stars = 1
+watching = 1
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/merkle_payouts"
+last_commit = "a46a1c3208c6017810eb7e35e06ddf295ee22d8f"
+last_commit_time = "2022-07-13T10:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+forks = 5
+commits = 1
+branches = 35
+stars = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/metagraph"
+last_commit = "8063d8202397070a210585bb3172221ceacc53be"
+last_commit_time = "2022-06-29T11:39"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 13
+commits = 1
+watching = 6
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/NFTPOC"
+last_commit = "41e364e31346861672592bc4fe80fef3702b6871"
+last_commit_time = "2021-05-03T00:25"
+status = "200"
+
+[repo.stats]
+branches = 14
+forks = 9
+commits = 1
+tag_count = 0
+stars = 12
+watching = 9
 
 [[repo]]
 url = "https://github.com/gitcoinco/passport"
+status = "200"
+
+[repo.stats]
+forks = 18
+stars = 43
+watching = 13
+branches = 336
+commits = 33
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/passport-reader"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+tag_count = 0
+branches = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/passport-sdk"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 7
+forks = 3
+tag_count = 0
+branches = 30
+stars = 17
 
 [[repo]]
 url = "https://github.com/gitcoinco/PersonhoodPassport"
+last_commit = "41e364e31346861672592bc4fe80fef3702b6871"
+last_commit_time = "2021-05-03T00:25"
+status = "200"
+
+[repo.stats]
+branches = 14
+watching = 9
+tag_count = 0
+forks = 9
+stars = 12
+commits = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/pop_api"
+last_commit = "e33a75c9ed197d5a6e82c90001dfbcee47e1d2f0"
+last_commit_time = "2021-05-03T01:39"
+status = "200"
+
+[repo.stats]
+branches = 11
+tag_count = 0
+stars = 19
+commits = 1
+forks = 7
+watching = 8
 
 [[repo]]
 url = "https://github.com/gitcoinco/proofofpersonhood_com"
+last_commit = "186260e9467bb0cf467157201649f2161883e211"
+last_commit_time = "2022-07-28T14:34"
+status = "200"
+
+[repo.stats]
+stars = 6
+forks = 8
+tag_count = 0
+branches = 30
+watching = 7
+commits = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/python-api-client"
+last_commit = "462c3e4ac8a18dffd333fb1a9297bab4fe04a026"
+last_commit_time = "2018-12-13T20:49"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+forks = 13
+branches = 36
+watching = 20
+stars = 16
 
 [[repo]]
 url = "https://github.com/gitcoinco/quadratic-funding"
+last_commit = "a04c99e2946549d706eacb9c961770d21fd23c32"
+last_commit_time = "2021-10-15T04:07"
+status = "200"
+
+[repo.stats]
+branches = 5
+commits = 1
+tag_count = 0
+stars = 61
+watching = 7
+forks = 18
 
 [[repo]]
 url = "https://github.com/gitcoinco/quadratictrust"
+last_commit = "8f2df1cb6e510e6f3864dff9c335cf6f414fc643"
+last_commit_time = "2021-09-25T23:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 83
+watching = 9
+forks = 7
+stars = 15
+commits = 11
 
 [[repo]]
 url = "https://github.com/gitcoinco/road-to-devcon-teams"
+last_commit = "d566eab31705ec93eb38f8fb3eddcef8079bdc49"
+last_commit_time = "2019-09-17T18:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+commits = 1
+watching = 8
+forks = 2
+branches = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/schelling-point"
+last_commit = "04e3c9850acf7497ff9f8e9a77755693f39e5497"
+last_commit_time = "2022-03-17T23:33"
+status = "200"
+
+[repo.stats]
+stars = 7
+branches = 175
+watching = 2
+tag_count = 0
+forks = 7
+commits = 5
 
 [[repo]]
 url = "https://github.com/gitcoinco/Schelling_Point"
+last_commit = "0946240e38c993e2c4feff08ec77394bb6b32709"
+last_commit_time = "2022-03-28T12:52"
+status = "200"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+commits = 1
+branches = 5
+stars = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/signatures"
+last_commit = "2e5a2ffddd3728e52f5d7ee0a775836eb2abddc4"
+last_commit_time = "2020-04-01T19:50"
+status = "200"
+
+[repo.stats]
+watching = 3
+commits = 2
+branches = 2
+tag_count = 0
+forks = 2
+stars = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/skunkworks"
+status = "200"
+
+[repo.stats]
+forks = 34
+tag_count = 0
+commits = 25
+branches = 85
+stars = 62
+watching = 25
 
 [[repo]]
 url = "https://github.com/gitcoinco/slack-protector"
+last_commit = "f8fa0d0aeab9848c72cc79fb1796161e655af9e6"
+last_commit_time = "2017-09-30T16:07"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 13
+stars = 2
+tag_count = 0
+forks = 4
+watching = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/smart-contract-best-practices"
+last_commit = "8cb4eaf01de044b9ae38e15d93c3b45f387fb8ae"
+last_commit_time = "2017-08-10T20:58"
+status = "200"
+
+[repo.stats]
+branches = 282
+forks = 0
+commits = 4
+watching = 2
+tag_count = 0
+stars = 4
 
 [[repo]]
 url = "https://github.com/gitcoinco/smart_contracts"
+last_commit = "590e5bb2c83761a2a007db67c8f676a3b4caeca1"
+last_commit_time = "2022-03-29T16:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 103
+branches = 56
+commits = 2
+watching = 25
+forks = 44
 
 [[repo]]
 url = "https://github.com/gitcoinco/snapshot-spaces"
+last_commit = "da16830b26233093b21c2d4b73020cdb5e76c9a3"
+last_commit_time = "2021-04-30T06:21"
+status = "200"
+
+[repo.stats]
+branches = 0
+forks = 0
+watching = 2
+stars = 4
+tag_count = 0
+commits = 11
 
 [[repo]]
 url = "https://github.com/gitcoinco/sourcecred"
+last_commit = "7ab1947ee788da6ad80f46100c520ac7e70d3490"
+last_commit_time = "2020-11-19T19:47"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 3
+watching = 2
+tag_count = 0
+commits = 132
+forks = 123
 
 [[repo]]
 url = "https://github.com/gitcoinco/Splitter"
+last_commit = "d7c76ca82882787038a77db0706549e25fc3df05"
+last_commit_time = "2019-04-18T11:40"
+status = "200"
+
+[repo.stats]
+stars = 13
+watching = 5
+tag_count = 0
+forks = 6
+branches = 6
+commits = 3
 
 [[repo]]
 url = "https://github.com/gitcoinco/SVG_MultiColor_Exporter"
+last_commit = "a322ffe000a166805eb1910aa2356d0fd2ff3bf0"
+last_commit_time = "2018-10-15T20:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 2
+branches = 18
+forks = 3
+watching = 2
 
 [[repo]]
 url = "https://github.com/gitcoinco/sxsw"
+last_commit = "81b52be8259cbf5b4b64a92deef7c6ad7565886d"
+last_commit_time = "2018-03-12T22:05"
+status = "200"
+
+[repo.stats]
+branches = 1
+tag_count = 0
+commits = 1
+stars = 3
+watching = 5
+forks = 1
 
 [[repo]]
 url = "https://github.com/gitcoinco/web"
+last_commit = "97a227a1a66d65a79de35890311416601d2d07b7"
+last_commit_time = "2022-07-26T11:52"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 801
+commits = 0
+watching = 82
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gitcoinco/whitepaper"
+last_commit = "61a044dc635a4b805e0a73900102e0ec026ef2b0"
+last_commit_time = "2021-06-15T13:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 5
+forks = 4
+stars = 12
+branches = 3

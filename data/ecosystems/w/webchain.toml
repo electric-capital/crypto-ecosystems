@@ -1,58 +1,238 @@
-# Ecosystem Level Information
 title = "Webchain"
-
+toml_path = "data/ecosystems/w/webchain.toml"
+github_organizations = ["https://github.com/webchain-network"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/webchain-network"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/webchain-network/cryptonight"
+last_commit = "c3f06436384ff158a410e694df8b0527eeaf9e85"
+last_commit_time = "2021-02-12T08:12"
+status = "200"
+
+[repo.stats]
+forks = 7
+stars = 2
+branches = 16
+watching = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/webchain-network/explorer"
+last_commit = "36e8467ced67b96826e14650e96d80ce8fb68850"
+last_commit_time = "2022-02-28T14:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 22
+stars = 18
+branches = 992
+commits = 20
+watching = 9
 
 [[repo]]
 url = "https://github.com/webchain-network/miner"
+last_commit = "d19c0aab38d52bae87c5833e17a5862dc56120f4"
+last_commit_time = "2021-08-19T08:44"
+status = "200"
+
+[repo.stats]
+branches = 625
+commits = 4
+stars = 108
+watching = 17
+forks = 65
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/webchain-network/new-wallet"
+last_commit = "750c39346b162de09602e8fcf0a80d82d9e10a7f"
+last_commit_time = "2021-06-15T11:34"
+status = "200"
+
+[repo.stats]
+commits = 20
+forks = 33
+watching = 10
+branches = 0
+stars = 58
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/webchain-network/old-wallet"
+last_commit = "e57efd6d37931d143f823a769446f99d2d926a0c"
+last_commit_time = "2020-08-21T13:55"
+status = "200"
+
+[repo.stats]
+commits = 3
+forks = 34
+branches = 0
+watching = 13
+tag_count = 0
+stars = 36
 
 [[repo]]
 url = "https://github.com/webchain-network/pool"
+status = "200"
+
+[repo.stats]
+branches = 287
+tag_count = 0
+commits = 21
+forks = 46
+stars = 26
+watching = 10
 
 [[repo]]
 url = "https://github.com/webchain-network/sputnikvm-ffi"
+last_commit = "47e0403cc9b4d96fef3a3b66c0c428c999ae92d5"
+last_commit_time = "2018-06-25T07:02"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 1
+stars = 0
+commits = 2
+forks = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/webchain-network/wallet"
+last_commit = "750c39346b162de09602e8fcf0a80d82d9e10a7f"
+last_commit_time = "2021-06-15T11:34"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 10
+forks = 33
+tag_count = 0
+commits = 20
+stars = 58
 
 [[repo]]
 url = "https://github.com/webchain-network/we-moved-to-mintme-com"
+last_commit = "9e431b70fe4feba5ecab6ec4078ebf336e91bffe"
+last_commit_time = "2020-06-06T12:29"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+stars = 1
+tag_count = 0
+forks = 0
+branches = 2
 
 [[repo]]
 url = "https://github.com/webchain-network/webchain-cli"
+last_commit = "f9a5418c8ed00953e5b58c9827375558b81f3c1f"
+last_commit_time = "2021-04-30T07:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+forks = 3
+stars = 1
+branches = 9
+commits = 2
 
 [[repo]]
 url = "https://github.com/webchain-network/webchain-mainpage"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+tag_count = 0
+commits = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/webchain-network/webchain-miner"
+last_commit = "d19c0aab38d52bae87c5833e17a5862dc56120f4"
+last_commit_time = "2021-08-19T08:44"
+status = "200"
+
+[repo.stats]
+forks = 65
+commits = 4
+branches = 625
+stars = 108
+tag_count = 0
+watching = 17
 
 [[repo]]
 url = "https://github.com/webchain-network/webchain-pool"
+last_commit = "2a843e51e90b79bc2297f3ba34ac23ce5ce8bf37"
+last_commit_time = "2021-12-10T07:53"
+status = "200"
+
+[repo.stats]
+watching = 10
+forks = 46
+tag_count = 0
+branches = 287
+stars = 26
+commits = 21
 
 [[repo]]
 url = "https://github.com/webchain-network/webchain-rs"
+last_commit = "9d54333f2052d3b7bb6dbc620089577c738909ff"
+last_commit_time = "2021-06-15T05:54"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 18
+commits = 3
+watching = 2
+forks = 2
 
 [[repo]]
 url = "https://github.com/webchain-network/webchain-wallet"
+last_commit = "e57efd6d37931d143f823a769446f99d2d926a0c"
+last_commit_time = "2020-08-21T13:55"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 13
+forks = 34
+stars = 36
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/webchain-network/webchaind"
+last_commit = "2e2361ec1b9f48989299a6d9fe138792bd160ed9"
+last_commit_time = "2022-04-04T13:25"
+status = "200"
+
+[repo.stats]
+stars = 45
+commits = 3
+forks = 37
+tag_count = 0
+watching = 13
+branches = 0
 
 [[repo]]
 url = "https://github.com/webchain-network/wiki"
+last_commit = "f0683fdf890fe389f6dc1b12e94d997d164d9272"
+last_commit_time = "2019-02-26T17:14"
+status = "200"
+
+[repo.stats]
+branches = 7
+stars = 4
+watching = 2
+tag_count = 0
+commits = 1
+forks = 6

@@ -1,64 +1,268 @@
-# Ecosystem Level Information
 title = "Money on Chain"
-
+toml_path = "data/ecosystems/m/money-on-chain.toml"
+github_organizations = ["https://github.com/money-on-chain"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/money-on-chain"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/money-on-chain/AML"
+last_commit = "9d8b87f1c800211ec8fb56b0288c4b905cabc744"
+last_commit_time = "2021-09-02T18:13"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 18
+tag_count = 0
+forks = 0
+stars = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/money-on-chain/Amphiraos-Oracle"
+last_commit = "11429b369ed4c9f58574f7e3babe4d7ac4ef5ecf"
+last_commit_time = "2021-07-23T17:12"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 3
+commits = 2
+stars = 0
+tag_count = 0
+branches = 15
 
 [[repo]]
 url = "https://github.com/money-on-chain/Areopagus-Governance"
+last_commit = "01d3941f01690ec839323c3a73e5afa6c7513710"
+last_commit_time = "2022-01-11T19:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 45
+watching = 4
+forks = 1
+stars = 1
+commits = 17
 
 [[repo]]
 url = "https://github.com/money-on-chain/Audits"
+last_commit = "4da4f78a92ed9a99bfcc034fc295670dcd8b9cc8"
+last_commit_time = "2020-11-02T23:17"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 16
+watching = 1
+commits = 1
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/money-on-chain/main-RBTC-contract"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 8
+watching = 7
+stars = 20
+commits = 35
+branches = 451
 
 [[repo]]
 url = "https://github.com/money-on-chain/MOC-Indexer"
+last_commit = "694569aa1c5edf65c9613e0d9964ba3bcb12c8cd"
+last_commit_time = "2022-05-12T18:21"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 4
+tag_count = 0
+stars = 0
+branches = 260
+commits = 18
 
 [[repo]]
 url = "https://github.com/money-on-chain/moc-integration-js"
+last_commit = "d4ce1a0b78ecd3b8bd204c97cc19c12d2899c828"
+last_commit_time = "2022-05-31T18:02"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 2
+forks = 0
+stars = 0
+tag_count = 0
+branches = 22
 
 [[repo]]
 url = "https://github.com/money-on-chain/Moc-Jobs"
+last_commit = "4499e71da60b35fcb0b79d31d98e5060457df38d"
+last_commit_time = "2022-02-08T16:35"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 2
+branches = 146
+tag_count = 0
+forks = 0
+commits = 13
 
 [[repo]]
 url = "https://github.com/money-on-chain/MoC_Incentive_Helper"
+last_commit = "1eae742edbda93e3170129160a6681ed20adf9f8"
+last_commit_time = "2022-06-17T12:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+commits = 1
+branches = 3
+watching = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/money-on-chain/moc_prices_source"
+last_commit = "c8f13a65ea8a90ad21fadcf79e281d8da9be096d"
+last_commit_time = "2021-12-03T12:57"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 4
+stars = 0
+forks = 1
+tag_count = 0
+branches = 147
 
 [[repo]]
 url = "https://github.com/money-on-chain/OMoC-Decentralized-Oracle"
+last_commit = "0a5e7b80585372ef9dda6577386fa214e875a453"
+last_commit_time = "2022-04-18T15:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 29
+watching = 6
+stars = 2
+branches = 487
+forks = 1
 
 [[repo]]
 url = "https://github.com/money-on-chain/OMoC-Node"
+last_commit = "da68c88788b7ef91175763b3809fadae41edd640"
+last_commit_time = "2022-04-06T18:46"
+status = "200"
+
+[repo.stats]
+commits = 11
+stars = 0
+watching = 4
+tag_count = 0
+forks = 1
+branches = 409
 
 [[repo]]
 url = "https://github.com/money-on-chain/price-feeder"
+last_commit = "ace192a49ce25bc5c637ac194528d7421a9954f5"
+last_commit_time = "2021-12-23T19:21"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 179
+commits = 9
+stars = 0
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/money-on-chain/Proxy_Oracle"
+last_commit = "05c5969289d6b0948929bafb7db2c57305dc029f"
+last_commit_time = "2022-01-12T18:43"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 3
+tag_count = 0
+commits = 2
+stars = 1
+branches = 74
 
 [[repo]]
 url = "https://github.com/money-on-chain/py_Moneyonchain"
+last_commit = "a2da88c397ca8d4c46ac1ba70ee2adeea8e46ed0"
+last_commit_time = "2022-06-29T19:46"
+status = "200"
+
+[repo.stats]
+forks = 7
+stars = 0
+watching = 9
+tag_count = 0
+branches = 451
+commits = 7
 
 [[repo]]
 url = "https://github.com/money-on-chain/RDOC-Contract"
+last_commit = "eea475a4e94116f6b221d6d9aebf7af7fa213de1"
+last_commit_time = "2021-12-06T16:47"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 3
+branches = 230
+commits = 38
+watching = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/money-on-chain/rsk-contract-metadata"
+last_commit = "74398c2d73f935a701663ee7fc02f0ba72c91a3b"
+last_commit_time = "2021-06-07T18:46"
+status = "200"
+
+[repo.stats]
+branches = 49
+watching = 1
+commits = 2
+forks = 6
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/money-on-chain/rsk-testnet-contract-metadata"
+last_commit = "c4e49fda34ae92fe9e56a3025a1a54a04222ed35"
+last_commit_time = "2021-06-07T18:57"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 1
+branches = 38
+forks = 3
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/money-on-chain/sc-moc-decentralized-exchange"
+last_commit = "84685e8d0329db5b02d8a1f7c2fda5ce1d6320a9"
+last_commit_time = "2021-08-23T18:59"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+commits = 52
+watching = 5
+forks = 0
+branches = 217

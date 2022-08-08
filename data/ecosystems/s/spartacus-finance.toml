@@ -1,13 +1,32 @@
-# Ecosystem Level Information
 title = "Spartacus Finance"
-
+toml_path = "data/ecosystems/s/spartacus-finance.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/spartacus-finance/spartacus-contracts"
+last_commit = "4c550290157d3d9dc0f9ec293d703cd671c49aa3"
+last_commit_time = "2021-10-31T08:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 13
+forks = 13
+branches = 1
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/spartacus-finance/Spartacus-Landing"
+last_commit = "d6f43980bdc4afbbac9b7c6da1b8e1674764d8c6"
+last_commit_time = "2021-11-14T07:38"
+status = "200"
+
+[repo.stats]
+forks = 11
+stars = 6
+tag_count = 0
+branches = 1
+commits = 1
+watching = 1

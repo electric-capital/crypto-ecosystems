@@ -1,13 +1,30 @@
-# Ecosystem Level Information
 title = "Invacio"
-
+toml_path = "data/ecosystems/i/invacio.toml"
+github_organizations = ["https://github.com/Invacio"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Invacio"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Invacio/Relevancy-OAuth"
+last_commit = "fc80cfdd6cf141930e2e15f865c4c2acfda8a4e3"
+last_commit_time = "2021-01-02T18:27"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 1
+tag_count = 0
+branches = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/Invacio/token"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 0
+watching = 0
+commits = 0
+forks = 0

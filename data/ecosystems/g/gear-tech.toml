@@ -1,88 +1,364 @@
-# Ecosystem Level Information
 title = "Gear Tech"
-
+toml_path = "data/ecosystems/g/gear-tech.toml"
+github_organizations = ["https://github.com/gear-tech"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/gear-tech"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/gear-tech/.github"
+last_commit = "5996caf4726b0b873bf58b4f6cf6a390b4bb1d55"
+last_commit_time = "2021-11-15T10:46"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 0
+watching = 2
+forks = 0
+branches = 13
 
 [[repo]]
 url = "https://github.com/gear-tech/apps"
+last_commit = "fbf7fa12855556972e54ba6af9723847fe29e19e"
+last_commit_time = "2022-06-15T11:48"
+status = "200"
+
+[repo.stats]
+stars = 6
+branches = 48
+tag_count = 0
+forks = 10
+watching = 9
+commits = 18
 
 [[repo]]
 url = "https://github.com/gear-tech/builds"
+status = "200"
+
+[repo.stats]
+branches = 35
+forks = 4
+tag_count = 0
+watching = 7
+commits = 2
+stars = 3
 
 [[repo]]
 url = "https://github.com/gear-tech/cargo-program"
+last_commit = "bfbe2202e5fd5ba2fe7410a2667d9a0dd8e8d1dd"
+last_commit_time = "2022-01-05T19:04"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 7
+tag_count = 0
+branches = 49
+commits = 10
+stars = 1
 
 [[repo]]
 url = "https://github.com/gear-tech/contract-template"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 0
+watching = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/gear-tech/create-gear-app"
+last_commit = "758349594e8f857671e074786c0a4837ed94d49f"
+last_commit_time = "2022-05-31T13:14"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 3
+tag_count = 0
+stars = 3
+watching = 4
+branches = 103
 
 [[repo]]
 url = "https://github.com/gear-tech/dao-app"
+last_commit = "df25121784e764ee8feaa0f64be18bdd675af167"
+last_commit_time = "2022-06-03T20:51"
+status = "200"
+
+[repo.stats]
+commits = 6
+forks = 3
+branches = 107
+stars = 1
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/gear-tech/dlmalloc-rs"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+watching = 0
+stars = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gear-tech/dlmalloc-rust"
+last_commit = "e76ae9869ea4d386e758d7ed5d983ba2a25d7629"
+last_commit_time = "2022-03-17T20:02"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 1
+branches = 135
+tag_count = 0
+watching = 3
+commits = 9
 
 [[repo]]
 url = "https://github.com/gear-tech/gear"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 124
+watching = 16
+branches = 0
+forks = 35
+commits = 55
 
 [[repo]]
 url = "https://github.com/gear-tech/gear-feeds-channel"
+last_commit = "454737296ab39e9fd536f48b35ae6be3f971b6f0"
+last_commit_time = "2022-06-14T08:57"
+status = "200"
+
+[repo.stats]
+branches = 25
+watching = 7
+forks = 7
+tag_count = 0
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/gear-tech/gear-feeds-channel-template"
+status = "404"
+
+[repo.stats]
+commits = 0
+tag_count = 0
+stars = 0
+forks = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/gear-tech/gear-js"
+status = "200"
+
+[repo.stats]
+stars = 17
+forks = 8
+tag_count = 0
+watching = 10
+branches = 0
+commits = 23
 
 [[repo]]
 url = "https://github.com/gear-tech/gear-news"
+last_commit = "e6dbacf42f2e2a5d8b2d038f3fb0f9932ec46afc"
+last_commit_time = "2021-09-17T13:21"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 3
+watching = 3
+stars = 0
+branches = 52
 
 [[repo]]
 url = "https://github.com/gear-tech/gear-program"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+branches = 17
+forks = 1
+commits = 2
+stars = 5
 
 [[repo]]
 url = "https://github.com/gear-tech/gear-technical"
+last_commit = "31c814958eac4b61ff5020317a79f7cec80a28ea"
+last_commit_time = "2022-04-22T09:33"
+status = "200"
+
+[repo.stats]
+branches = 18
+watching = 8
+forks = 3
+tag_count = 0
+stars = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/gear-tech/performance-charts"
+last_commit = "086ca756cfb7bb2c25d5323ba2cf39d8179f649c"
+last_commit_time = "2022-07-27T13:21"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+forks = 0
+commits = 1
+stars = 0
+branches = 28
 
 [[repo]]
 url = "https://github.com/gear-tech/ring"
+last_commit = "32b2c6c39ef459aad47f476fe9139b8d57532ab1"
+last_commit_time = "2022-02-21T03:48"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 27
+branches = 0
+watching = 0
+forks = 500
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gear-tech/rpc-tests"
+last_commit = "3d0acc40bd85a920901d90afebe0884909a405f0"
+last_commit_time = "2022-03-23T20:03"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 1
+stars = 0
+watching = 2
+branches = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gear-tech/substrate"
+last_commit = "e0bd98a157b9a66a7d581fdedc108aba78dbbb59"
+last_commit_time = "2021-10-18T12:33"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 495
+stars = 1
+watching = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/gear-tech/substrate-telemetry"
+last_commit = "6fffcffaa478b472c273cce2345fe614b6e6c64c"
+last_commit_time = "2022-05-30T11:33"
+status = "200"
+
+[repo.stats]
+branches = 687
+commits = 30
+stars = 0
+forks = 134
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gear-tech/VotingApp"
+last_commit = "3e06f861cc84220df5f64dd486448c6e1221eb49"
+last_commit_time = "2022-02-17T18:27"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 1
+tag_count = 0
+commits = 1
+branches = 13
 
 [[repo]]
 url = "https://github.com/gear-tech/wasmi"
+last_commit = "6133346b329651df2fffe3bdb5a725d90b3a30b9"
+last_commit_time = "2022-03-29T09:47"
+status = "200"
+
+[repo.stats]
+commits = 70
+branches = 293
+watching = 0
+stars = 0
+tag_count = 0
+forks = 179
 
 [[repo]]
 url = "https://github.com/gear-tech/whitepaper"
+last_commit = "78904eaa3e8b19cc00e89b59889b63093519c8c8"
+last_commit_time = "2022-08-02T10:51"
+status = "200"
+
+[repo.stats]
+branches = 42
+tag_count = 0
+commits = 8
+forks = 2
+stars = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/gear-tech/wiki"
+last_commit = "87e8a66f2d15f0a2e379852f870028fcf7f74d99"
+last_commit_time = "2022-08-02T10:15"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 10
+stars = 7
+branches = 238
+forks = 13
+commits = 6
 
 [[repo]]
 url = "https://github.com/gear-tech/workshop-channel-contract"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+branches = 0
+stars = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/gear-tech/workshop-router-contract"
+status = "404"
+
+[repo.stats]
+commits = 0
+tag_count = 0
+watching = 0
+forks = 0
+stars = 0
+branches = 0

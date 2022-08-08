@@ -1,19 +1,60 @@
-# Ecosystem Level Information
 title = "GreenPower"
-
+toml_path = "data/ecosystems/g/greenpower.toml"
+github_organizations = ["https://github.com/green-powerchain-ltd"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/green-powerchain-ltd"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/green-powerchain-ltd/greenpower-blockchain"
+last_commit = "ff04c37f2de11677c3a34889fdede1256a3e5e02"
+last_commit_time = "2019-05-28T11:10"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 0
+tag_count = 0
+commits = 1
+forks = 24
+stars = 1
 
 [[repo]]
 url = "https://github.com/green-powerchain-ltd/greenpower-docs"
+last_commit = "65a9bbe696187b23cb2b2658a02f80bd26a8df05"
+last_commit_time = "2018-09-13T09:35"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+branches = 2
+stars = 0
+forks = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/green-powerchain-ltd/greenpower-fc"
+last_commit = "382e5153866b34f2d3e0bef4977903669f4b46d4"
+last_commit_time = "2019-05-20T10:50"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 1
+watching = 1
+forks = 3
+branches = 0
 
 [[repo]]
 url = "https://github.com/green-powerchain-ltd/greenpower-websocketpp"
+last_commit = "c6d7e295bf5a0ab9b5f896720cc1a0e0fdc397a7"
+last_commit_time = "2018-07-16T12:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+commits = 15
+stars = 0
+watching = 1
+branches = 0

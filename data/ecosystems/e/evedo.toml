@@ -1,19 +1,54 @@
-# Ecosystem Level Information
 title = "EVEDO"
-
+toml_path = "data/ecosystems/e/evedo.toml"
+github_organizations = ["https://github.com/evedo-co"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/evedo-co"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/evedo-co/events"
+status = "404"
+
+[repo.stats]
+commits = 0
+stars = 0
+branches = 0
+tag_count = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/evedo-co/smart-contracts"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+stars = 0
+forks = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/evedo-co/tge-tokensale"
+last_commit = "83dbebff54331fc2df20dbd50548203966ca5f57"
+last_commit_time = "2018-08-28T14:42"
+status = "200"
+
+[repo.stats]
+branches = 14
+tag_count = 0
+stars = 1
+forks = 0
+watching = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/evedo-co/tickets"
+status = "404"
+
+[repo.stats]
+commits = 0
+stars = 0
+branches = 0
+forks = 0
+tag_count = 0
+watching = 0

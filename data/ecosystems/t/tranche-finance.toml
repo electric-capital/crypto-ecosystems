@@ -1,76 +1,322 @@
-# Ecosystem Level Information
 title = "Tranche Finance"
-
+toml_path = "data/ecosystems/t/tranche-finance.toml"
+github_organizations = ["https://github.com/tranche-jibrel"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/tranche-jibrel"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/tranche-jibrel/assets"
+last_commit = "83e3cf1a2c332ceb94940b2da2ab7d1a042e675b"
+last_commit_time = "2021-11-15T06:31"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 3
+watching = 0
+tag_count = 0
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/Audits"
+last_commit = "65b50314ccca1ecd1d8a5fc85775bc8aba508bac"
+last_commit_time = "2021-06-03T18:32"
+status = "200"
+
+[repo.stats]
+branches = 1
+forks = 1
+tag_count = 0
+stars = 1
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/defi-sdk"
+last_commit = "e02b5b8a60eddf8929c556c1f99fd9b1f1f24db5"
+last_commit_time = "2021-07-28T12:44"
+status = "200"
+
+[repo.stats]
+watching = 0
+commits = 7
+tag_count = 0
+stars = 0
+branches = 429
+forks = 210
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/DefiLlama-Adapters"
+last_commit = "a4aee97102a0298805b084340e4b750faa516be2"
+last_commit_time = "2022-02-17T05:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 7
+watching = 0
+forks = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/loan-contracts"
+last_commit = "d61066e9a6fd2bc42ced35ef8c1cce6f4b69b96c"
+last_commit_time = "2020-12-08T09:43"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 3
+commits = 1
+tag_count = 0
+branches = 8
+watching = 1
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/merkle-rewards"
+last_commit = "bd6fd7c50594f3c7f4ac781452fc430618aefbfe"
+last_commit_time = "2022-04-08T08:57"
+status = "200"
+
+[repo.stats]
+branches = 6
+stars = 0
+forks = 0
+tag_count = 0
+commits = 2
+watching = 0
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/new-staking"
+last_commit = "909aa31029d7406c3afbd4738cef3cb19b50b2d1"
+last_commit_time = "2021-11-22T16:34"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+branches = 20
+watching = 2
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/Project-Tracking"
+status = "404"
+
+[repo.stats]
+forks = 0
+branches = 0
+stars = 0
+tag_count = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/snapshot-spaces"
+last_commit = "bba2bc2469fc62115a75e88895806bfe478384c9"
+last_commit_time = "2020-12-13T10:55"
+status = "200"
+
+[repo.stats]
+commits = 6
+stars = 0
+forks = 0
+watching = 1
+branches = 578
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/snapshot.js"
+last_commit = "38ad133f4ab5fa7c2b7436e2536a9c8e622c5e5e"
+last_commit_time = "2021-07-15T08:18"
+status = "200"
+
+[repo.stats]
+forks = 438
+stars = 0
+commits = 16
+watching = 1
+branches = 505
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/staking-protocol"
+last_commit = "2484fd67633e105ba6be5a5d453b78fe44c1ec79"
+last_commit_time = "2022-01-25T17:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 110
+commits = 15
+stars = 1
+forks = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/staking-protocol-2"
+last_commit = "c6d17532ed986de4c31da7a98d84acbc6b07eb4a"
+last_commit_time = "2022-03-21T15:32"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 0
+stars = 0
+tag_count = 0
+branches = 17
+commits = 2
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/tracking"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 0
+branches = 0
+watching = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/tranche-aave-protocol"
+last_commit = "d802fea1b22b4beb2c389b208d332c71b444f884"
+last_commit_time = "2022-03-28T13:43"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 1
+branches = 90
+tag_count = 0
+commits = 7
+stars = 1
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/tranche-benqi-protocol"
+last_commit = "e0be341681389d124c2ca02ba1a5d7800c089efa"
+last_commit_time = "2022-03-28T13:59"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 3
+branches = 14
+tag_count = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/Tranche-Community"
+last_commit = "89ca09e36498b504e116cfd2de057b60222aff97"
+last_commit_time = "2021-10-10T08:42"
+status = "200"
+
+[repo.stats]
+branches = 57
+watching = 0
+forks = 5
+tag_count = 0
+stars = 0
+commits = 10
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/tranche-compound-protocol"
+last_commit = "1cd7e3fce6819210bbb118bbb5e14bc14fbd4f3f"
+last_commit_time = "2022-03-28T13:32"
+status = "200"
+
+[repo.stats]
+branches = 174
+commits = 6
+tag_count = 0
+stars = 2
+watching = 5
+forks = 2
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/tranche-cream-protocol"
+last_commit = "3d52bcbe65525d64119a029698706640a4d6da23"
+last_commit_time = "2022-03-28T14:03"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 12
+forks = 0
+watching = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/tranche-governance"
+last_commit = "24e68e3d4f1c23de5a84668134214f4dcc8d403f"
+last_commit_time = "2021-11-25T08:10"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 2
+branches = 17
+stars = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/tranche-nft"
+last_commit = "1f936936a0415fca2ca1e4ebdb37147c4c74f4d1"
+last_commit_time = "2022-05-20T16:50"
+status = "200"
+
+[repo.stats]
+branches = 6
+stars = 0
+forks = 0
+tag_count = 0
+commits = 1
+watching = 0
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/tranche-rewards"
+last_commit = "d9db7ba4a3713291d16560fe7e02a84b28515c23"
+last_commit_time = "2021-09-28T10:23"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 0
+watching = 2
+branches = 97
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/tranche-subgraph"
+last_commit = "66fddfb1d579c18f00ed961b47e1c3ce01adb090"
+last_commit_time = "2022-03-28T12:33"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 0
+branches = 29
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/tranche-jibrel/tranche-yearn-protocol"
+last_commit = "5ec56eaa2212fa7731c4c710d8edccc538471fd7"
+last_commit_time = "2022-03-28T14:05"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 1
+commits = 3
+forks = 0
+branches = 42

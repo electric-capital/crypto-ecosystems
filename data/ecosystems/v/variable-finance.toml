@@ -1,19 +1,60 @@
-# Ecosystem Level Information
 title = "Variable Finance "
-
+toml_path = "data/ecosystems/v/variable-finance.toml"
+github_organizations = ["https://github.com/Variable-Finance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Variable-Finance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Variable-Finance/assets"
+last_commit = "d800384d5b6bbbfd338321058f5f04771cc3202c"
+last_commit_time = "2021-07-01T12:19"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 1
+watching = 0
+branches = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/Variable-Finance/variable-v1-core"
+last_commit = "fb8e3204d751c143acfae0a3d266235926d6caaa"
+last_commit_time = "2021-07-05T14:49"
+status = "200"
+
+[repo.stats]
+branches = 9
+commits = 2
+stars = 0
+forks = 3
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Variable-Finance/variable-v1-subgraph"
+last_commit = "1cbb9729da204ee75bfed80d058933e17a80c3da"
+last_commit_time = "2021-07-05T14:53"
+status = "200"
+
+[repo.stats]
+branches = 7
+tag_count = 0
+watching = 1
+forks = 0
+stars = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/Variable-Finance/variable-v1-subgraph-pos"
+last_commit = "07ff36652fd25e940d4b5878421b64aa6342f71b"
+last_commit_time = "2021-07-05T14:52"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 10
+commits = 1
+watching = 0
+stars = 0
+forks = 0

@@ -1,91 +1,392 @@
-# Ecosystem Level Information
 title = "Mobius"
-
+toml_path = "data/ecosystems/m/mobius.toml"
+github_organizations = ["https://github.com/mobius-network"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/mobius-network"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/mobius-network/dapp-server-js"
+last_commit = "4c749390469ba63168560a79c66119a374a0368d"
+last_commit_time = "2018-07-25T13:18"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 10
+stars = 0
+tag_count = 0
+branches = 17
+commits = 5
 
 [[repo]]
 url = "https://github.com/mobius-network/dapp-store"
+last_commit = "32110a6d956f71a4b0fdde9c6c37cf8e4376ba87"
+last_commit_time = "2019-07-10T23:40"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 363
+tag_count = 0
+commits = 29
+watching = 5
+stars = 4
 
 [[repo]]
 url = "https://github.com/mobius-network/docker-stellar-bridge"
+last_commit = "069fe2cbd312f28e6f7ed7aee87f76faac64b287"
+last_commit_time = "2018-07-17T19:50"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 1
+forks = 2
+watching = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/mobius-network/docker-stellar-core"
+last_commit = "547194a46e04a95ab8aecd10715190e86ef84e23"
+last_commit_time = "2019-02-15T02:22"
+status = "200"
+
+[repo.stats]
+watching = 8
+tag_count = 0
+commits = 1
+forks = 1
+stars = 1
+branches = 9
 
 [[repo]]
 url = "https://github.com/mobius-network/docker-stellar-core-prometheus-exporter"
+last_commit = "e4a1fe3300441cedcc4032accb17337786e39310"
+last_commit_time = "2018-11-17T03:57"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+branches = 3
+commits = 1
+stars = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/mobius-network/docker-stellar-horizon"
+last_commit = "1956c35094ea1f9bded1c0576efb2e6cbddee4cb"
+last_commit_time = "2019-01-30T02:48"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+watching = 10
+forks = 14
+branches = 20
+stars = 0
 
 [[repo]]
 url = "https://github.com/mobius-network/flappy-dapp"
+last_commit = "be0be6fc4fadf5a67681c574ef1ac77b2f5b5942"
+last_commit_time = "2019-08-28T20:29"
+status = "200"
+
+[repo.stats]
+watching = 8
+stars = 4
+tag_count = 0
+commits = 32
+branches = 44
+forks = 2
 
 [[repo]]
 url = "https://github.com/mobius-network/floppy-bird-dapp"
+last_commit = "239771faf116bf5ade3f88e0022f8a83de024643"
+last_commit_time = "2018-11-16T22:02"
+status = "200"
+
+[repo.stats]
+watching = 9
+stars = 3
+forks = 0
+tag_count = 0
+branches = 19
+commits = 2
 
 [[repo]]
 url = "https://github.com/mobius-network/ios_specs"
+status = "200"
+
+[repo.stats]
+commits = 0
+forks = 0
+watching = 0
+stars = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-chat-tipbot"
+status = "404"
+
+[repo.stats]
+commits = 0
+forks = 0
+stars = 0
+watching = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-client-dotnet"
+last_commit = "49638f818fb66a341117d69c7c931b06b87b1a2e"
+last_commit_time = "2018-11-04T01:20"
+status = "200"
+
+[repo.stats]
+branches = 25
+stars = 1
+watching = 4
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-client-js"
+last_commit = "d1a88ce723658f5a8c5ad9aafdaee1579a91a3aa"
+last_commit_time = "2019-06-29T02:57"
+status = "200"
+
+[repo.stats]
+branches = 92
+watching = 7
+forks = 3
+stars = 3
+tag_count = 0
+commits = 15
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-client-php"
+last_commit = "304079f0095ed3b537fb51a8f8771fc4890a6d36"
+last_commit_time = "2018-08-14T20:57"
+status = "200"
+
+[repo.stats]
+watching = 8
+tag_count = 0
+commits = 1
+branches = 41
+forks = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-client-python"
+last_commit = "572de2bd7d6908ebf9dc8434fadab3ffa2927fd9"
+last_commit_time = "2018-09-04T21:18"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 10
+branches = 11
+tag_count = 0
+stars = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-client-ruby"
+last_commit = "f742f01c86e259c3c8f93e2fdb818d6e5c649af8"
+last_commit_time = "2019-05-01T21:22"
+status = "200"
+
+[repo.stats]
+branches = 162
+tag_count = 0
+forks = 0
+commits = 3
+watching = 10
+stars = 4
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-client-unity"
+last_commit = "01e6931fec8ae9592ee18401d6a2e3063ee1d703"
+last_commit_time = "2018-09-15T11:29"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 8
+stars = 0
+forks = 1
+branches = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-community-bot"
+last_commit = "1794c3f72f396b23ffc7f349ac77d593c47ebec5"
+last_commit_time = "2022-06-08T21:54"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 2
+branches = 78
+tag_count = 0
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-node"
+last_commit = "748fb6c9a38c9d5a6241ef7020120df8b4cf695a"
+last_commit_time = "2017-11-10T09:33"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 15
+forks = 2
+tag_count = 0
+branches = 32
+stars = 9
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-node-v1"
+last_commit = "748fb6c9a38c9d5a6241ef7020120df8b4cf695a"
+last_commit_time = "2017-11-10T09:33"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 32
+watching = 15
+tag_count = 0
+commits = 1
+stars = 9
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-python"
+last_commit = "962b08f3c75cd17207e67bf3b1520a7989cba08c"
+last_commit_time = "2017-11-02T21:50"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 13
+forks = 3
+stars = 6
+branches = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-python-v1"
+last_commit = "962b08f3c75cd17207e67bf3b1520a7989cba08c"
+last_commit_time = "2017-11-02T21:50"
+status = "200"
+
+[repo.stats]
+forks = 3
+watching = 13
+branches = 8
+tag_count = 0
+commits = 1
+stars = 6
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-react-native"
+last_commit = "c5b29dd786a244d68e69df11d439a873bd0442ad"
+last_commit_time = "2017-11-20T15:58"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 3
+forks = 2
+stars = 0
+commits = 1
+watching = 14
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-react-native-v1"
+last_commit = "c5b29dd786a244d68e69df11d439a873bd0442ad"
+last_commit_time = "2017-11-20T15:58"
+status = "200"
+
+[repo.stats]
+branches = 3
+watching = 14
+stars = 0
+forks = 2
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-ruby"
+last_commit = "d48aed9185befddebe05378e488f835692e5360e"
+last_commit_time = "2017-12-21T00:40"
+status = "200"
+
+[repo.stats]
+watching = 14
+tag_count = 0
+forks = 1
+stars = 0
+branches = 8
+commits = 1
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-ruby-v1"
+last_commit = "d48aed9185befddebe05378e488f835692e5360e"
+last_commit_time = "2017-12-21T00:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 8
+commits = 1
+watching = 14
+stars = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/mobius-network/mobius-tipbot-ruby"
+last_commit = "6a988d4da8422934f2fdcb3f40a3a0d09984b465"
+last_commit_time = "2019-05-02T01:56"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 4
+watching = 9
+tag_count = 0
+commits = 9
+branches = 201
 
 [[repo]]
 url = "https://github.com/mobius-network/slate"
+last_commit = "a7e891031ab113ea314a9aed47fa8f886bd3f49c"
+last_commit_time = "2018-05-17T18:35"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 16
+forks = 0
+branches = 518
+tag_count = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/mobius-network/wallet"
+last_commit = "150d650e5f9f182771f5a4df410a00c0b2a1bb2d"
+last_commit_time = "2019-08-28T20:32"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 22
+branches = 443
+commits = 21
+tag_count = 0
+stars = 14

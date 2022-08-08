@@ -1,16 +1,46 @@
-# Ecosystem Level Information
 title = "Joint Ventures"
-
+toml_path = "data/ecosystems/j/joint-ventures.toml"
+github_organizations = ["https://github.com/JointVentures"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/JointVentures"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/JointVentures/JointContracts"
+last_commit = "3e20983c6eb1a6be9c9a2d388d57953ff0b8a629"
+last_commit_time = "2018-09-24T12:24"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+branches = 8
+commits = 1
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/JointVentures/jv-comments"
+last_commit = "3a7bd5ce00637eecf02f98809b6c1ea8621796f7"
+last_commit_time = "2019-08-27T12:02"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 2
+tag_count = 0
+watching = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/JointVentures/preview"
+last_commit = "372a2f88e8059c30d7ff1244154eefa19328528f"
+last_commit_time = "2021-05-04T14:04"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+commits = 1
+branches = 4
+tag_count = 0
+stars = 0

@@ -1,16 +1,46 @@
-# Ecosystem Level Information
 title = "xSigma"
-
+toml_path = "data/ecosystems/x/xsigma.toml"
+github_organizations = ["https://github.com/xSigmaLabs"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/xSigmaLabs"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/xSigmaLabs/compound-governance-examples"
+last_commit = "3cb30c478b689fff77dc036700d9df038d055927"
+last_commit_time = "2020-10-14T22:27"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 29
+watching = 1
+tag_count = 0
+commits = 1
+branches = 24
 
 [[repo]]
 url = "https://github.com/xSigmaLabs/snapshot-spaces"
+last_commit = "50454badabcc4fce3c416f57944d0db219726971"
+last_commit_time = "2021-04-30T14:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 12
+stars = 0
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/xSigmaLabs/snapshot.js"
+last_commit = "f829e6e775314edfdd15336d7cf5424cbc5d3d72"
+last_commit_time = "2021-04-20T18:00"
+status = "200"
+
+[repo.stats]
+branches = 287
+forks = 438
+stars = 0
+tag_count = 0
+watching = 1
+commits = 15

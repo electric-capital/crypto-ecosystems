@@ -1,82 +1,350 @@
-# Ecosystem Level Information
 title = "Frax"
-
+toml_path = "data/ecosystems/f/frax.toml"
+github_organizations = ["https://github.com/FraxFinance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/FraxFinance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/FraxFinance/aave-asset-listing"
+last_commit = "419bbf96c5532c2f28ea48142c88066fd07bc499"
+last_commit_time = "2021-09-06T20:26"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 35
+commits = 5
+stars = 0
+tag_count = 0
+branches = 38
 
 [[repo]]
 url = "https://github.com/FraxFinance/aip"
+last_commit = "7e7b35a95f43039674841e0d98b83fdc1c2c3db0"
+last_commit_time = "2021-08-25T18:35"
+status = "200"
+
+[repo.stats]
+commits = 5
+branches = 349
+watching = 0
+forks = 114
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/FraxFinance/apeswap-token-lists"
+last_commit = "76b3d41ce2749d23da8154a1d43525d654ce0047"
+last_commit_time = "2021-09-28T19:19"
+status = "200"
+
+[repo.stats]
+forks = 23
+watching = 0
+tag_count = 0
+branches = 198
+stars = 0
+commits = 19
 
 [[repo]]
 url = "https://github.com/FraxFinance/assets"
+last_commit = "f453d2c2e21abc652f85724f9a9f3941695d8fc1"
+last_commit_time = "2021-09-28T18:51"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 0
+commits = 22
+stars = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/FraxFinance/avalanche-bridge-resources"
+last_commit = "d97090aaa81f69759026df9c5a799b317158df47"
+last_commit_time = "2021-08-11T22:03"
+status = "200"
+
+[repo.stats]
+branches = 25
+stars = 0
+commits = 2
+tag_count = 0
+forks = 39
+watching = 0
 
 [[repo]]
 url = "https://github.com/FraxFinance/chaindata"
+last_commit = "785d3d8b0bdda050f290185c2bae223161d20e1d"
+last_commit_time = "2021-03-27T03:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+forks = 127
+stars = 0
+branches = 16
+commits = 1
 
 [[repo]]
 url = "https://github.com/FraxFinance/compound-protocol"
+last_commit = "4a8648ec0364d24c4ecfc7d6cae254f55030d65f"
+last_commit_time = "2021-11-16T21:40"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 32
+stars = 0
+branches = 76
+watching = 0
 
 [[repo]]
 url = "https://github.com/FraxFinance/contract-metadata"
+last_commit = "b62187916ea02c6afb667e7cb9a408779eee1618"
+last_commit_time = "2021-07-15T01:29"
+status = "200"
+
+[repo.stats]
+forks = 922
+branches = 748
+tag_count = 0
+stars = 0
+commits = 9
+watching = 0
 
 [[repo]]
 url = "https://github.com/FraxFinance/frax"
+last_commit = "7bf50ffd67269648331933682a16f94b743285dd"
+last_commit_time = "2019-12-07T10:48"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 11
+commits = 10
+tag_count = 0
+watching = 3
+forks = 4
 
 [[repo]]
 url = "https://github.com/FraxFinance/frax-langs"
+last_commit = "735a4ca1d0e5a7c8967a1df30f243d8f4531120e"
+last_commit_time = "2021-10-05T22:27"
+status = "200"
+
+[repo.stats]
+forks = 12
+branches = 152
+stars = 2
+watching = 3
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/FraxFinance/frax-oracle"
+last_commit = "adcee93d69d82cfc57373ffe8f066410e5f2b01c"
+last_commit_time = "2020-09-16T22:46"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+watching = 3
+tag_count = 0
+branches = 9
+commits = 1
 
 [[repo]]
 url = "https://github.com/FraxFinance/frax-solidity"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 277
+watching = 26
+forks = 111
+commits = 3
+branches = 545
 
 [[repo]]
 url = "https://github.com/FraxFinance/frax-truffle"
+status = "404"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+branches = 0
+watching = 0
+stars = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/FraxFinance/FraxFinance.github.io"
+last_commit = "e2fc4d495da30f5460de9bb5130ee3418d39aa9c"
+last_commit_time = "2022-02-07T17:10"
+status = "200"
+
+[repo.stats]
+watching = 4
+commits = 1
+stars = 1
+forks = 4
+branches = 31
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/FraxFinance/fraxswap-subgraph"
+last_commit = "41e189307ef7f41d64e8ba7f4b2c1eba36da046e"
+last_commit_time = "2022-07-07T06:08"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+commits = 2
+forks = 0
+stars = 0
+branches = 21
 
 [[repo]]
 url = "https://github.com/FraxFinance/merkle-airdrop-starter"
+last_commit = "b212f347135b58fc15eece5d3d14c6740833160d"
+last_commit_time = "2022-03-01T01:58"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 154
+tag_count = 0
+branches = 41
+commits = 1
+watching = 0
 
 [[repo]]
 url = "https://github.com/FraxFinance/paraswap-dex-lib"
+last_commit = "5c887c7e85bdda6780cd01e7075eef1ce80d7d40"
+last_commit_time = "2022-07-06T12:42"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 1
+tag_count = 0
+commits = 58
+forks = 45
+stars = 0
 
 [[repo]]
 url = "https://github.com/FraxFinance/protocol-v2"
+last_commit = "a94c022e5e8d43a9a652c7b0f081e72b81f3d0fa"
+last_commit_time = "2021-08-25T18:12"
+status = "200"
+
+[repo.stats]
+commits = 38
+stars = 0
+watching = 1
+forks = 549
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/FraxFinance/snapshot-spaces"
+last_commit = "e1aca42aebe3e3fe6a1ee95527cc576ce6ecf7a3"
+last_commit_time = "2021-01-08T06:28"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 1
+tag_count = 0
+branches = 659
+commits = 3
 
 [[repo]]
 url = "https://github.com/FraxFinance/snapshot-strategies"
+last_commit = "59dcfbbee3dc9aecd3ff9ca43e7327eb6019ce15"
+last_commit_time = "2022-01-11T18:53"
+status = "200"
+
+[repo.stats]
+branches = 244
+forks = 390
+stars = 0
+watching = 0
+tag_count = 0
+commits = 9
 
 [[repo]]
 url = "https://github.com/FraxFinance/snapshot.js"
+last_commit = "14398ccddb2a2c0649fa11c3fdbedbeed0bf499b"
+last_commit_time = "2021-06-05T22:12"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+tag_count = 0
+branches = 410
+commits = 15
+forks = 438
 
 [[repo]]
 url = "https://github.com/FraxFinance/spiritswap-tokens-list-icon"
+last_commit = "bec802c10a9822514d8a8f156e2b26d42bca9eb0"
+last_commit_time = "2021-09-28T19:12"
+status = "200"
+
+[repo.stats]
+forks = 34
+tag_count = 0
+stars = 0
+watching = 0
+branches = 46
+commits = 2
 
 [[repo]]
 url = "https://github.com/FraxFinance/token-list"
+last_commit = "d8f798b1dd030fc096fd192e40c2b7f3bcf345de"
+last_commit_time = "2021-09-28T18:00"
+status = "200"
+
+[repo.stats]
+commits = 11
+forks = 0
+watching = 0
+stars = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/FraxFinance/tokens"
+last_commit = "2fd9f6b8473fe619c46474893697dcbd08c17c80"
+last_commit_time = "2021-09-28T19:04"
+status = "200"
+
+[repo.stats]
+branches = 384
+tag_count = 0
+stars = 0
+commits = 2
+forks = 81
+watching = 0
 
 [[repo]]
 url = "https://github.com/FraxFinance/uniswap-interface"
+last_commit = "6d82daee33e4d02073457a7f2371e539d89f6a98"
+last_commit_time = "2021-01-24T23:39"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+branches = 906
+forks = 0
+commits = 2
+tag_count = 0

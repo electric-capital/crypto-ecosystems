@@ -1,103 +1,430 @@
-# Ecosystem Level Information
 title = "Nym"
-
+toml_path = "data/ecosystems/n/nym.toml"
+github_organizations = ["https://github.com/nymtech"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/nymtech"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/nymtech/amcl"
+last_commit = "aaf555f0387b85472aba449a384c5f565ffd44d6"
+last_commit_time = "2019-09-25T11:27"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 18
+branches = 589
+commits = 4
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/nymtech/coconut"
+last_commit = "6b9fa574f47e6b7e93ee208c6aedef3a26509015"
+last_commit_time = "2022-04-22T14:53"
+status = "200"
+
+[repo.stats]
+commits = 22
+forks = 8
+watching = 7
+branches = 166
+stars = 20
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nymtech/cosmos-rust"
+last_commit = "4cbd91f70393c6de3f731dcf2b05670addb80ec1"
+last_commit_time = "2022-04-04T13:15"
+status = "200"
+
+[repo.stats]
+forks = 55
+watching = 0
+stars = 0
+branches = 144
+tag_count = 0
+commits = 14
 
 [[repo]]
 url = "https://github.com/nymtech/demo-mixnet-chat-client"
+last_commit = "bfe67950893a8d6ca67c64031c7a1a6f8d9c8df7"
+last_commit_time = "2020-01-07T13:02"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 1
+tag_count = 0
+branches = 45
+watching = 4
+commits = 4
 
 [[repo]]
 url = "https://github.com/nymtech/demo-mixnet-electron-chat"
+last_commit = "2920dcee4aa70378b30ee85513b80e879762164c"
+last_commit_time = "2020-03-20T16:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 9
+stars = 3
+watching = 5
+branches = 44
+forks = 0
 
 [[repo]]
 url = "https://github.com/nymtech/docs"
+last_commit = "ae4785b4e4960bfbcf27a2cca88958e27a29a00f"
+last_commit_time = "2022-08-03T13:42"
+status = "200"
+
+[repo.stats]
+stars = 9
+branches = 902
+tag_count = 0
+watching = 3
+forks = 19
+commits = 6
 
 [[repo]]
 url = "https://github.com/nymtech/lioness-rs"
+last_commit = "9f174bd083db025e1b5ddbda28e4882ee8f206de"
+last_commit_time = "2019-06-23T11:29"
+status = "200"
+
+[repo.stats]
+branches = 63
+tag_count = 0
+watching = 1
+forks = 1
+stars = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/nymtech/loopix-messaging"
+last_commit = "01bcff032a3bf6ddd3ed3098c69b94d8aad31219"
+last_commit_time = "2020-01-20T14:57"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 7
+commits = 3
+watching = 3
+stars = 15
+branches = 476
 
 [[repo]]
 url = "https://github.com/nymtech/node-status-api"
+last_commit = "96effd05bdecfdf26efcbd1afac1ecc4378187a2"
+last_commit_time = "2021-06-03T12:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 36
+commits = 7
+watching = 4
+forks = 0
+stars = 5
 
 [[repo]]
 url = "https://github.com/nymtech/nym"
+status = "200"
+
+[repo.stats]
+watching = 34
+stars = 578
+branches = 0
+tag_count = 0
+forks = 102
+commits = 105
 
 [[repo]]
 url = "https://github.com/nymtech/nym-client"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 0
+watching = 0
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/nymtech/nym-directory"
+last_commit = "160ff1aaf3c2a33e7aadc2a57a4b658b09e92e4c"
+last_commit_time = "2020-11-12T11:37"
+status = "200"
+
+[repo.stats]
+forks = 3
+commits = 3
+watching = 5
+branches = 380
+tag_count = 0
+stars = 3
 
 [[repo]]
 url = "https://github.com/nymtech/nym-metrics-server"
+last_commit = "160ff1aaf3c2a33e7aadc2a57a4b658b09e92e4c"
+last_commit_time = "2020-11-12T11:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 5
+stars = 3
+commits = 3
+branches = 380
+forks = 3
 
 [[repo]]
 url = "https://github.com/nymtech/nym-mixnet"
+last_commit = "01bcff032a3bf6ddd3ed3098c69b94d8aad31219"
+last_commit_time = "2020-01-20T14:57"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+branches = 476
+commits = 3
+forks = 7
+stars = 15
 
 [[repo]]
 url = "https://github.com/nymtech/nym-mixnode"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 0
+stars = 0
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/nymtech/nym-sfw-provider"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+watching = 0
+forks = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/nymtech/nym-validator"
+status = "404"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+watching = 0
+stars = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/nymtech/nym-wallet-web"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 0
+watching = 0
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/nymtech/nym-web-dashboard"
+last_commit = "c8754ad03922a4bd44ccb1854b0579cd4685c235"
+last_commit_time = "2020-11-05T10:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 5
+stars = 0
+branches = 61
+forks = 4
+commits = 2
 
 [[repo]]
 url = "https://github.com/nymtech/nymd"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 0
+tag_count = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/nymtech/product-team"
+last_commit = "fb3f0e435b3d9587287e129136ccc9d5f8f1ef3e"
+last_commit_time = "2021-09-21T15:00"
+status = "200"
+
+[repo.stats]
+branches = 1
+forks = 0
+stars = 0
+tag_count = 0
+watching = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/nymtech/qt-validator-client-demo"
+last_commit = "955a3d5beaeea5b061d8c04c4b293031178b7f05"
+last_commit_time = "2020-05-29T11:48"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+watching = 4
+forks = 0
+branches = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nymtech/rewardsharing-simulator"
+last_commit = "f2f95a1e8ad8d58016de163ed04845b643397c63"
+last_commit_time = "2022-05-23T13:13"
+status = "200"
+
+[repo.stats]
+watching = 4
+commits = 1
+forks = 2
+stars = 3
+branches = 20
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nymtech/service-grants"
+status = "200"
+
+[repo.stats]
+stars = 7
+forks = 195
+watching = 4
+tag_count = 0
+branches = 190
+commits = 2
 
 [[repo]]
 url = "https://github.com/nymtech/service-grants-"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+commits = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/nymtech/slips"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 0
+branches = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/nymtech/sphinx"
+last_commit = "26d3042aafdc68711c4b320d84473f87ab9db293"
+last_commit_time = "2022-06-01T16:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 10
+forks = 8
+branches = 438
+stars = 55
+watching = 8
 
 [[repo]]
 url = "https://github.com/nymtech/sphinx-bench"
+last_commit = "b22b1a7bf13e189912a431b14df2de74d287ca3a"
+last_commit_time = "2021-05-18T16:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 13
+commits = 3
+stars = 0
+forks = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/nymtech/team-core"
+last_commit = "aeb9eca96d98c869db2d8a1e103d39d1559a0d5a"
+last_commit_time = "2021-09-29T10:53"
+status = "200"
+
+[repo.stats]
+branches = 1
+commits = 1
+forks = 0
+watching = 3
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/nymtech/team-product"
+last_commit = "fb3f0e435b3d9587287e129136ccc9d5f8f1ef3e"
+last_commit_time = "2021-09-21T15:00"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 1
+commits = 1
+stars = 0
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/nymtech/team-triage"
+last_commit = "2172360c5a096a4c4d594f1cdebe61a777b69484"
+last_commit_time = "2021-12-22T11:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 3
+commits = 1
+stars = 0
+watching = 4
+forks = 0
 
 [[repo]]
 url = "https://github.com/nymtech/website"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 0
+watching = 0
+branches = 0
+forks = 0

@@ -1,76 +1,326 @@
-# Ecosystem Level Information
 title = "Switchboard"
-
+toml_path = "data/ecosystems/s/switchboard.toml"
+github_organizations = ["https://github.com/switchboard-xyz"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/switchboard-xyz"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/switchboard-xyz/-deprecated-vrf_req_example"
+last_commit = "206741f010f75abca82347d311ac5283b6022eba"
+last_commit_time = "2022-04-06T16:36"
+status = "200"
+
+[repo.stats]
+branches = 22
+commits = 2
+forks = 1
+stars = 13
+watching = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/anchor"
+last_commit = "16b54f8ad1afd51fd2fa18a0cc72bbdd401d7840"
+last_commit_time = "2021-10-27T18:00"
+status = "200"
+
+[repo.stats]
+branches = 604
+forks = 827
+stars = 0
+watching = 0
+tag_count = 0
+commits = 13
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/curve25519-dalek"
+last_commit = "af28db05199e62ff7e6392cfc3a1236f00d363db"
+last_commit_time = "2022-01-21T07:39"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 209
+tag_count = 0
+commits = 3
+branches = 0
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/defi-yield-ts"
+last_commit = "1b7f805e4528e55a13ec4185139626e07565f8a7"
+last_commit_time = "2022-03-08T20:48"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 7
+watching = 0
+branches = 40
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/examples"
+last_commit = "4180c4f86fd23b4235cbb005363b1d8b4018d6f5"
+last_commit_time = "2022-01-21T01:59"
+status = "200"
+
+[repo.stats]
+stars = 10
+watching = 3
+forks = 8
+branches = 53
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/feed-observer"
+last_commit = "68355447cbb0ef874918326c02db4bfdc97cf5f1"
+last_commit_time = "2022-03-27T15:36"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 2
+commits = 1
+stars = 2
+branches = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/governance-ui"
+last_commit = "98f8877a0418f54d6a00c2ecf53ea53b3343d36d"
+last_commit_time = "2022-06-24T04:12"
+status = "200"
+
+[repo.stats]
+commits = 120
+watching = 0
+stars = 0
+forks = 218
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/helm-manifests"
+last_commit = "88ed587bb402883301aa1a252c885c83ce702fbb"
+last_commit_time = "2022-06-21T13:00"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 0
+tag_count = 0
+stars = 1
+commits = 1
+branches = 2
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/solana-program-library"
+last_commit = "43ef77902b40ce308e6895c25cf4eb18fa290eb3"
+last_commit_time = "2022-07-11T21:13"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 0
+tag_count = 0
+branches = 0
+commits = 41
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/switchboard-aggregator"
+last_commit = "1214baaf89b4c7651116d979c358ef4d1e3308f8"
+last_commit_time = "2022-05-17T17:12"
+status = "200"
+
+[repo.stats]
+commits = 4
+tag_count = 0
+branches = 87
+watching = 2
+forks = 2
+stars = 1
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/switchboard-api"
+last_commit = "6357e583938d93592cd1ab760c9c780a5bb62382"
+last_commit_time = "2021-09-11T01:15"
+status = "200"
+
+[repo.stats]
+branches = 110
+stars = 0
+forks = 1
+watching = 3
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/switchboard-feed-factory"
+last_commit = "3476371b4d68dbeeb74f8496acec96b803420e6e"
+last_commit_time = "2021-12-06T01:27"
+status = "200"
+
+[repo.stats]
+commits = 3
+branches = 85
+watching = 2
+tag_count = 0
+stars = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/switchboard-v1-example"
+last_commit = "4180c4f86fd23b4235cbb005363b1d8b4018d6f5"
+last_commit_time = "2022-01-21T01:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 8
+branches = 53
+stars = 10
+commits = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/switchboard-v2"
+last_commit = "d6f9866637239f3f3cfad947616f3cbd12887a08"
+last_commit_time = "2022-08-04T17:18"
+status = "200"
+
+[repo.stats]
+branches = 265
+tag_count = 0
+forks = 7
+watching = 5
+stars = 9
+commits = 15
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/switchboard-v2-example"
+last_commit = "77141e6352edc52d385c7a0919cbfe82d5647f81"
+last_commit_time = "2022-05-17T17:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 3
+branches = 8
+watching = 3
+commits = 1
+stars = 8
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/switchboardv2-api"
+last_commit = "47fbd1eba3466a41bc3b02cf785040ea9a632265"
+last_commit_time = "2022-05-27T18:56"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 8
+branches = 746
+forks = 4
+tag_count = 0
+commits = 12
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/switchboardv2-py-api"
+last_commit = "173c1e65448842ff7144ad9905b56a258df75107"
+last_commit_time = "2022-02-10T22:51"
+status = "200"
+
+[repo.stats]
+branches = 37
+watching = 3
+commits = 2
+tag_count = 0
+stars = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/switchboardv2-rs"
+last_commit = "1214baaf89b4c7651116d979c358ef4d1e3308f8"
+last_commit_time = "2022-05-17T17:12"
+status = "200"
+
+[repo.stats]
+forks = 2
+commits = 4
+stars = 1
+watching = 2
+tag_count = 0
+branches = 87
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/typescript-sdk"
+last_commit = "cf9bc9ef903069d8ed0d5ebe08e409bec1753f08"
+last_commit_time = "2021-08-20T20:21"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+forks = 40
+branches = 46
+stars = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/voter-stake-registry"
+last_commit = "4fba17b016a20c875e85691ded4783766e45b748"
+last_commit_time = "2022-06-22T17:46"
+status = "200"
+
+[repo.stats]
+branches = 266
+tag_count = 0
+forks = 22
+stars = 0
+commits = 1
+watching = 0
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/vrf-cpi-example"
+last_commit = "2a1be1623394ae6b29448a9ed8dbd91fed464394"
+last_commit_time = "2022-05-17T17:14"
+status = "200"
+
+[repo.stats]
+commits = 4
+forks = 4
+stars = 12
+branches = 44
+tag_count = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/vrf.js"
+last_commit = "3a49331b6010f6920a7e5eb3faa1114a78f59965"
+last_commit_time = "2022-01-21T18:02"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 15
+commits = 1
+branches = 24
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/vrf_req_example"
+last_commit = "206741f010f75abca82347d311ac5283b6022eba"
+last_commit_time = "2022-04-06T16:36"
+status = "200"
+
+[repo.stats]
+watching = 7
+forks = 1
+branches = 22
+tag_count = 0
+commits = 2
+stars = 13

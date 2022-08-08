@@ -1,181 +1,816 @@
-# Ecosystem Level Information
 title = "Balance"
-
+toml_path = "data/ecosystems/b/balance.toml"
+github_organizations = ["https://github.com/balance-io"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/balance-io"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/balance-io/Async"
+last_commit = "b7cde3366bbd8a22acdf8898af1a5a97292448f8"
+last_commit_time = "2016-09-20T10:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 6
+stars = 0
+watching = 7
+branches = 230
+forks = 316
 
 [[repo]]
 url = "https://github.com/balance-io/bal-vector-graphics"
+last_commit = "37b5c2781c049c7506d0deb083eed61fa69ee92f"
+last_commit_time = "2018-01-19T21:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+commits = 1
+watching = 11
+branches = 39
+forks = 0
 
 [[repo]]
 url = "https://github.com/balance-io/Balance"
+last_commit = "e038340fec0f8bde6a03e4bac4738b8ef20a60b4"
+last_commit_time = "2022-03-23T06:08"
+status = "200"
+
+[repo.stats]
+stars = 25
+branches = 736
+tag_count = 0
+watching = 7
+commits = 15
+forks = 63
 
 [[repo]]
 url = "https://github.com/balance-io/balance-android"
+last_commit = "cfee85e22c1fe35c900cde4c53fd794f91d81faa"
+last_commit_time = "2019-04-09T07:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 3
+commits = 1
+watching = 5
+forks = 9
+stars = 11
 
 [[repo]]
 url = "https://github.com/balance-io/balance-bridge"
+last_commit = "a82dc0c07cadf5c821de965c8aac5d417a8f3bf5"
+last_commit_time = "2018-03-24T01:20"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 11
+tag_count = 0
+branches = 46
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/balance-io/balance-common"
+last_commit = "524c3ff9d2c8123800cc086c2f45e2110c19c835"
+last_commit_time = "2019-02-27T18:54"
+status = "200"
+
+[repo.stats]
+forks = 8
+commits = 10
+branches = 556
+tag_count = 0
+watching = 9
+stars = 8
 
 [[repo]]
 url = "https://github.com/balance-io/balance-exchange-rate-server"
+last_commit = "94536f9cfdcdac65d6962d16156a49e4ee261b8e"
+last_commit_time = "2018-02-09T22:36"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+branches = 125
+stars = 0
+tag_count = 0
+watching = 13
 
 [[repo]]
 url = "https://github.com/balance-io/balance-indexer"
+last_commit = "eec13c7b052ce3c532c80956a00ace137669baf3"
+last_commit_time = "2018-10-24T02:01"
+status = "200"
+
+[repo.stats]
+branches = 20
+stars = 0
+watching = 9
+forks = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/balance-io/balance-ios"
+last_commit = "5446a98c396921689c601e61e0a3cb10b56f08bc"
+last_commit_time = "2019-08-27T14:47"
+status = "200"
+
+[repo.stats]
+watching = 13
+stars = 46
+branches = 262
+tag_count = 0
+commits = 17
+forks = 17
 
 [[repo]]
 url = "https://github.com/balance-io/balance-manager"
+last_commit = "285e4c6f4f7f97478c3a47bd46c39c0141301129"
+last_commit_time = "2019-04-27T04:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 144
+forks = 85
+branches = 0
+commits = 29
+watching = 17
 
 [[repo]]
 url = "https://github.com/balance-io/balance-open"
+last_commit = "aa1964cf1c41b133b8adc25d19dc4692a5932a49"
+last_commit_time = "2018-02-13T23:21"
+status = "200"
+
+[repo.stats]
+watching = 28
+forks = 37
+commits = 28
+branches = 0
+tag_count = 0
+stars = 282
 
 [[repo]]
 url = "https://github.com/balance-io/balance-search-token"
+last_commit = "50bec99d108576c013581e3fc206149826be8a34"
+last_commit_time = "2018-03-18T19:03"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+watching = 11
+branches = 21
+stars = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/balance-io/balance-wallet"
+last_commit = "512a6ce4fdb1892a31e573a0f57ba1e9551bda7c"
+last_commit_time = "2019-02-27T19:24"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 40
+commits = 15
+stars = 90
+watching = 19
+branches = 942
 
 [[repo]]
 url = "https://github.com/balance-io/balance-website"
+last_commit = "849155135ca88dbe396a3f39a9be77a9e6287975"
+last_commit_time = "2019-03-30T10:27"
+status = "200"
+
+[repo.stats]
+stars = 6
+branches = 639
+watching = 7
+forks = 7
+tag_count = 0
+commits = 8
 
 [[repo]]
 url = "https://github.com/balance-io/balance.io"
+last_commit = "d6bb0e35d234d9ae2879be097952a04da26adf03"
+last_commit_time = "2022-03-04T20:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 4
+branches = 52
+commits = 3
+watching = 3
+forks = 0
 
 [[repo]]
 url = "https://github.com/balance-io/Base32"
+last_commit = "bf6d7dc2dbe72944aeab77188bc5be48596e3f01"
+last_commit_time = "2018-01-09T12:10"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+tag_count = 0
+watching = 7
+forks = 26
+branches = 161
 
 [[repo]]
 url = "https://github.com/balance-io/blog"
+last_commit = "7ec5e41039d9e236e783afc7a1a908896bb0b302"
+last_commit_time = "2022-02-02T20:16"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 2
+stars = 0
+branches = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/balance-io/Cereal"
+last_commit = "3926b679b4f1180caea36abd6be49fdb18f85cef"
+last_commit_time = "2016-07-18T18:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 13
+branches = 94
+stars = 0
+commits = 3
+watching = 7
 
 [[repo]]
 url = "https://github.com/balance-io/Charts"
+last_commit = "8ef870a6fa21ba585236096ac0ddc71d12d16204"
+last_commit_time = "2016-10-20T03:42"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 3
+watching = 7
+tag_count = 0
+branches = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/balance-io/cryptocurrency-icons"
+last_commit = "bea1a9722a8c63169dcc06e86182bf2c55a76bbc"
+last_commit_time = "2022-01-18T17:27"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 591
+tag_count = 0
+branches = 201
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/balance-io/ethereum-store"
+last_commit = "07d66827d01230e7a5d9719b41f9bb8bf9c86ee6"
+last_commit_time = "2018-05-27T05:29"
+status = "200"
+
+[repo.stats]
+watching = 11
+forks = 3
+commits = 1
+stars = 1
+branches = 30
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/balance-io/fmdb"
+last_commit = "345b1936c553be01f749eebb14bf4b42c5e4158f"
+last_commit_time = "2016-06-08T22:36"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 0
+branches = 481
+commits = 10
+watching = 7
 
 [[repo]]
 url = "https://github.com/balance-io/home"
+last_commit = "2654796b404173e133ed1beb0d3c275bcb0e7384"
+last_commit_time = "2022-02-02T23:12"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 82
+tag_count = 0
+forks = 3
+commits = 3
+watching = 2
 
 [[repo]]
 url = "https://github.com/balance-io/JMSRangeSlider"
+last_commit = "921acf66351227f7b28b58537b2470e9e8bc58f2"
+last_commit_time = "2016-12-29T20:08"
+status = "200"
+
+[repo.stats]
+forks = 10
+stars = 0
+tag_count = 0
+commits = 2
+watching = 7
+branches = 57
 
 [[repo]]
 url = "https://github.com/balance-io/Locksmith"
+last_commit = "b80a90c1044b0445f8339040f027d9c89868116a"
+last_commit_time = "2016-09-17T05:26"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 258
+commits = 14
+watching = 6
+branches = 232
 
 [[repo]]
 url = "https://github.com/balance-io/logger"
+last_commit = "098949cab5bd6d83276996e953e05034b688be33"
+last_commit_time = "2022-02-04T23:56"
+status = "200"
+
+[repo.stats]
+branches = 1
+tag_count = 0
+commits = 1
+watching = 3
+stars = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/balance-io/MASShortcut"
+last_commit = "9471ddbc7cc6f74aa4fef4bd445e0a9a4b0c7fe0"
+last_commit_time = "2016-04-14T08:08"
+status = "200"
+
+[repo.stats]
+forks = 192
+tag_count = 0
+stars = 0
+watching = 7
+commits = 3
+branches = 236
 
 [[repo]]
 url = "https://github.com/balance-io/nest"
+last_commit = "06f243acf33e1d2502bdebb89458f0d4b40e0c83"
+last_commit_time = "2018-04-10T01:08"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 79
+branches = 21
+commits = 6
+stars = 0
+watching = 6
 
 [[repo]]
 url = "https://github.com/balance-io/NSDate-TimeAgo"
+last_commit = "a6d2749a8c4a1722363cce19672e006e0a4cb70d"
+last_commit_time = "2016-11-04T21:16"
+status = "200"
+
+[repo.stats]
+forks = 329
+watching = 8
+stars = 0
+tag_count = 0
+commits = 2
+branches = 219
 
 [[repo]]
 url = "https://github.com/balance-io/old-balance-ios"
+last_commit = "5446a98c396921689c601e61e0a3cb10b56f08bc"
+last_commit_time = "2019-08-27T14:47"
+status = "200"
+
+[repo.stats]
+stars = 46
+forks = 17
+tag_count = 0
+branches = 262
+watching = 13
+commits = 17
 
 [[repo]]
 url = "https://github.com/balance-io/onepassword-app-extension"
+last_commit = "c04d8ef286ec97e8fa0289d443b4a5b2abca4a84"
+last_commit_time = "2016-05-24T12:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 719
+commits = 5
+watching = 7
+forks = 336
+stars = 1
 
 [[repo]]
 url = "https://github.com/balance-io/Plaidster"
+last_commit = "0235e0cceb828a53c692e5cf672981592ac2eab1"
+last_commit_time = "2017-11-20T20:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 66
+commits = 3
+forks = 4
+stars = 11
+watching = 7
 
 [[repo]]
 url = "https://github.com/balance-io/Pluralize.swift"
+last_commit = "400b14a8f4497c8fc94494737f7562c38db3caa3"
+last_commit_time = "2016-02-13T11:19"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 37
+commits = 1
+watching = 7
+forks = 48
 
 [[repo]]
 url = "https://github.com/balance-io/rainbow"
+last_commit = "b02053a0c4101294b2cfa4937409d88648e3656c"
+last_commit_time = "2020-01-08T22:48"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 401
+branches = 0
+tag_count = 0
+stars = 2
+commits = 47
 
 [[repo]]
 url = "https://github.com/balance-io/Reachability.swift"
+last_commit = "47f058b5187f7ac221e86846e793ff993c0c4270"
+last_commit_time = "2016-09-27T12:18"
+status = "200"
+
+[repo.stats]
+watching = 7
+tag_count = 0
+branches = 192
+commits = 4
+stars = 0
+forks = 893
 
 [[repo]]
 url = "https://github.com/balance-io/react-coin-icon"
+last_commit = "3c05722897887e79054d1c1ce62c2bbbbf40faac"
+last_commit_time = "2018-08-07T21:14"
+status = "200"
+
+[repo.stats]
+forks = 4
+watching = 10
+branches = 10
+commits = 1
+tag_count = 0
+stars = 6
 
 [[repo]]
 url = "https://github.com/balance-io/react-native-keychain"
+last_commit = "ee959ba42eb0e6695c98bf135e67f98756ef05b8"
+last_commit_time = "2018-03-13T15:24"
+status = "200"
+
+[repo.stats]
+branches = 139
+forks = 452
+stars = 0
+watching = 3
+tag_count = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/balance-io/react-native-screens"
+last_commit = "b7c91ece313c258192d4c9969dba3a01c69637ff"
+last_commit_time = "2018-12-12T05:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 3
+forks = 371
+branches = 77
+commits = 2
 
 [[repo]]
 url = "https://github.com/balance-io/RNPinnedCertValidator"
+last_commit = "fba7d761cc054bb1c3aaaac8bf4aa85a86d27fbc"
+last_commit_time = "2014-03-17T22:05"
+status = "200"
+
+[repo.stats]
+forks = 8
+tag_count = 0
+stars = 0
+commits = 2
+branches = 18
+watching = 6
 
 [[repo]]
 url = "https://github.com/balance-io/safari-wallet"
+last_commit = "d6ce09c5ba734be96bcf9911905f91664498c683"
+last_commit_time = "2022-01-21T00:46"
+status = "200"
+
+[repo.stats]
+stars = 9
+branches = 203
+tag_count = 0
+forks = 10
+commits = 5
+watching = 2
 
 [[repo]]
 url = "https://github.com/balance-io/secp256k1_swift"
+last_commit = "66d9d9b1e4fd6c869c7f4d72c5db32044ee37c38"
+last_commit_time = "2018-02-20T22:46"
+status = "200"
+
+[repo.stats]
+watching = 11
+stars = 0
+forks = 2
+branches = 8
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/balance-io/SnapKit"
+last_commit = "cfa5e8cb5b38c2cb38bb8bc373a07dd5ae04eddb"
+last_commit_time = "2016-10-11T10:17"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 6
+tag_count = 0
+commits = 4
+branches = 427
 
 [[repo]]
 url = "https://github.com/balance-io/Sodium"
+last_commit = "fe8d43f4b8e12798e629bfee452c13605e4808a2"
+last_commit_time = "2018-02-20T21:46"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 3
+branches = 4
+tag_count = 0
+watching = 6
+commits = 1
 
 [[repo]]
 url = "https://github.com/balance-io/sqlcipher"
+last_commit = "910fd70a3fdeeaa937e0d26940f924dbefe7ba77"
+last_commit_time = "2016-04-05T13:21"
+status = "200"
+
+[repo.stats]
+watching = 7
+forks = 0
+commits = 14
+stars = 0
+branches = 521
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/balance-io/SRP"
+last_commit = "00e6f2905b44e6a3680e32d90ce983264f4bfeac"
+last_commit_time = "2018-02-09T17:10"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 2
+watching = 8
+forks = 17
+tag_count = 0
+branches = 79
 
 [[repo]]
 url = "https://github.com/balance-io/SwiftyStoreKit"
+last_commit = "9a0a4632dcb07e6ed87ef73320a9be012ce09a87"
+last_commit_time = "2017-01-13T01:23"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 258
+forks = 724
+commits = 4
+watching = 7
 
 [[repo]]
 url = "https://github.com/balance-io/tech-releases-tracker"
+last_commit = "c00d2ea0dcfe547e904d27354d3fd8320f5aa5db"
+last_commit_time = "2022-08-03T18:03"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 2
+stars = 0
+forks = 0
+branches = 51
 
 [[repo]]
 url = "https://github.com/balance-io/test-dapp"
+last_commit = "dfadf534eaaef1a0acf01ab9c237e88cf7b2add8"
+last_commit_time = "2022-02-14T04:08"
+status = "200"
+
+[repo.stats]
+branches = 137
+commits = 14
+stars = 0
+forks = 206
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/balance-io/tokens"
+last_commit = "11f54075205a40c411288b93ea64308245729dbe"
+last_commit_time = "2018-05-14T23:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 6
+forks = 0
+commits = 2
+branches = 438
+watching = 6
 
 [[repo]]
 url = "https://github.com/balance-io/toshi-ethereum-service"
+last_commit = "1b695b94c961aa6b17581e0ae9c03f460dd413fa"
+last_commit_time = "2018-10-22T23:58"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 25
+commits = 7
+stars = 0
+tag_count = 0
+branches = 277
 
 [[repo]]
 url = "https://github.com/balance-io/trezor-common"
+last_commit = "4fe0761752cb7bc21fd2f41ce8c0fe190ef76f98"
+last_commit_time = "2018-06-13T18:05"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+stars = 0
+forks = 232
+commits = 4
+branches = 384
 
 [[repo]]
 url = "https://github.com/balance-io/TrustKit"
+last_commit = "0f41129c97e741b975effe23b916ec5140eaef06"
+last_commit_time = "2016-12-03T20:33"
+status = "200"
+
+[repo.stats]
+forks = 289
+watching = 7
+commits = 2
+branches = 634
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/balance-io/web-view-sandbox"
+last_commit = "6f0cd4e5cf6e0e72d4f45ad4429185f436a37b29"
+last_commit_time = "2022-01-14T01:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 2
+branches = 1
+commits = 1
+stars = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/balance-io/web3.swift"
+last_commit = "b72da50d830738b7fcc7ebb4e026005c8ef30f0a"
+last_commit_time = "2019-03-22T20:46"
+status = "200"
+
+[repo.stats]
+commits = 5
+stars = 0
+tag_count = 0
+forks = 96
+branches = 108
+watching = 3
 
 [[repo]]
 url = "https://github.com/balance-io/web3swift"
+last_commit = "0016d247f6f8fe8638da57bf3d360e55770b92f6"
+last_commit_time = "2018-02-18T11:46"
+status = "200"
+
+[repo.stats]
+forks = 155
+stars = 2
+branches = 110
+watching = 6
+commits = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/balance-io/XCGLogger"
+last_commit = "636e042ce15a241ddeffc62f80839fadcc1bfa90"
+last_commit_time = "2016-09-20T15:15"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 457
+branches = 270
+tag_count = 0
+commits = 8
+watching = 7
 
 [[repo]]
 url = "https://github.com/balance-io/Zephyr"
+last_commit = "b6f438931bd73867b59e78178c1d9b63c6869580"
+last_commit_time = "2016-09-14T04:06"
+status = "200"
+
+[repo.stats]
+forks = 61
+watching = 6
+branches = 72
+stars = 0
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/balance-io/Zip"
+last_commit = "6f3b6b442b9c8711068178c3c6c9da4bf75f52b4"
+last_commit_time = "2016-09-29T20:18"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 0
+tag_count = 0
+branches = 168
+commits = 2
+forks = 395

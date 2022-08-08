@@ -1,10 +1,16 @@
-# Ecosystem Level Information
 title = "Index Chain"
-
+toml_path = "data/ecosystems/i/index-chain.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/IndexChain/Index"
+status = "200"
+
+[repo.stats]
+watching = 5
+branches = 0
+stars = 14
+forks = 18
+tag_count = 0
+commits = 16

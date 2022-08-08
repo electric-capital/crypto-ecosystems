@@ -1,11 +1,19 @@
-# Ecosystem Level Information
 title = "MOAC"
-
+toml_path = "data/ecosystems/m/moac.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/MOACChain/moac-core"
 tags = ["Protocol"]
+last_commit = "cd5d5b253a56eca9d198e1ad61fb6525bd5dbde5"
+last_commit_time = "2022-04-01T06:50"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 109
+forks = 41
+stars = 164
+watching = 55
+tag_count = 0

@@ -1,13 +1,32 @@
-# Ecosystem Level Information
 title = "Amasa"
-
+toml_path = "data/ecosystems/a/amasa.toml"
+github_organizations = ["https://github.com/amasaio"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/amasaio"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/amasaio/amasa-token"
+last_commit = "407551f018aa0b4f2e6b88e986825af547ec8f26"
+last_commit_time = "2021-02-27T08:54"
+status = "200"
+
+[repo.stats]
+branches = 2
+commits = 1
+tag_count = 0
+watching = 1
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/amasaio/vesting-contract"
+last_commit = "780fa4e1e6c81afbd90733dc69c84aa75d668c7c"
+last_commit_time = "2021-09-09T05:46"
+status = "200"
+
+[repo.stats]
+branches = 38
+stars = 1
+tag_count = 0
+watching = 2
+commits = 6
+forks = 1

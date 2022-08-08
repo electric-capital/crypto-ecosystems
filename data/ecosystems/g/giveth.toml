@@ -1,319 +1,1442 @@
-# Ecosystem Level Information
 title = "Giveth"
-
+toml_path = "data/ecosystems/g/giveth.toml"
+github_organizations = ["https://github.com/Giveth"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Giveth"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Giveth/apiGive"
+last_commit = "3d9ef0bbd74eee4a3608db5927b9fdf0370ee4d5"
+last_commit_time = "2022-07-28T11:03"
+status = "200"
+
+[repo.stats]
+commits = 5
+branches = 123
+watching = 6
+stars = 0
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/ApproveAndVoteGov"
+last_commit = "7096fd1a9e5d9681a831f5860da0241ad54772b6"
+last_commit_time = "2016-12-14T18:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 3
+commits = 1
+forks = 1
+branches = 3
+watching = 3
 
 [[repo]]
 url = "https://github.com/Giveth/bridge-contract"
+last_commit = "8391eb74c4f396d6ece3e8e06fd58a2b0b4b2ac1"
+last_commit_time = "2021-09-04T20:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+branches = 19
+stars = 0
+commits = 1
+watching = 10
 
 [[repo]]
 url = "https://github.com/Giveth/Campaign_Deployer"
+last_commit = "ebbcd6c1f8b5644c77f822dbba9a0d6971a4c1d1"
+last_commit_time = "2017-04-20T18:03"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 3
+commits = 1
+branches = 51
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/collection-box"
+last_commit = "78020e0505b30057159a2542c1bfb50d504d5f0f"
+last_commit_time = "2018-10-11T14:58"
+status = "200"
+
+[repo.stats]
+watching = 8
+commits = 2
+forks = 1
+stars = 0
+branches = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/collector-contract"
+last_commit = "912c331bb352a48c490c59382123363c12149aaa"
+last_commit_time = "2022-06-06T12:25"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 3
+commits = 1
+tag_count = 0
+forks = 0
+watching = 9
 
 [[repo]]
 url = "https://github.com/Giveth/common-contract-deps"
+last_commit = "094d36028eab30444314395016817735e57e9d77"
+last_commit_time = "2019-07-05T05:57"
+status = "200"
+
+[repo.stats]
+commits = 29
+stars = 16
+forks = 4
+watching = 7
+tag_count = 0
+branches = 57
 
 [[repo]]
 url = "https://github.com/Giveth/Communication"
+last_commit = "93542f032e7f348568e27692056a7a8c8a5756eb"
+last_commit_time = "2018-07-26T21:31"
+status = "200"
+
+[repo.stats]
+watching = 19
+forks = 0
+tag_count = 0
+stars = 4
+commits = 3
+branches = 5
 
 [[repo]]
 url = "https://github.com/Giveth/coodcad"
+last_commit = "486e020a7e60a5163b2ae53666eb353ab0457350"
+last_commit_time = "2020-06-17T14:21"
+status = "200"
+
+[repo.stats]
+branches = 14
+watching = 2
+forks = 3
+tag_count = 0
+stars = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/Giveth/create-react-app"
+last_commit = "3c2363c36ab0018bdf9e58b514c249b603dfc262"
+last_commit_time = "2018-05-28T13:15"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 0
+tag_count = 0
+commits = 26
+forks = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/Giveth/cstk-minter-registry"
+last_commit = "8170766261c2a926def05f6582c06d23a0779a7f"
+last_commit_time = "2022-06-30T11:32"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 8
+commits = 1
+stars = 0
+tag_count = 0
+branches = 35
 
 [[repo]]
 url = "https://github.com/Giveth/curry-model"
+last_commit = "1396a3e51155e8d331acd0e765042d7ed9258ea5"
+last_commit_time = "2019-02-01T17:10"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 8
+branches = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/Giveth/dapp-mailer"
+last_commit = "b7c7ad4171474e9246adab76ae7ec61654de5c18"
+last_commit_time = "2022-06-20T13:25"
+status = "200"
+
+[repo.stats]
+stars = 6
+forks = 7
+branches = 53
+commits = 10
+tag_count = 0
+watching = 9
 
 [[repo]]
 url = "https://github.com/Giveth/deploy-giv-economy"
+last_commit = "9af681192457885e3da733055b4948e4736bcb6a"
+last_commit_time = "2022-02-05T14:00"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+tag_count = 0
+commits = 2
+watching = 8
+branches = 1
 
 [[repo]]
 url = "https://github.com/Giveth/docker-dapp"
+last_commit = "12ecc9ab67436ae23f2e8aafba366019cc69b289"
+last_commit_time = "2018-02-01T19:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 6
+stars = 0
+branches = 1
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/Giveth/Donation-Doubler"
+last_commit = "3264faa11dfb6b2cc6538d4d20d45e75c260c098"
+last_commit_time = "2019-07-11T03:22"
+status = "200"
+
+[repo.stats]
+stars = 4
+branches = 18
+forks = 4
+commits = 11
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/donation-leaderboard"
+last_commit = "8550b92db61dc1114f0f323788f20a34e9c95857"
+last_commit_time = "2018-06-19T23:26"
+status = "200"
+
+[repo.stats]
+watching = 14
+stars = 10
+tag_count = 0
+branches = 137
+forks = 27
+commits = 10
 
 [[repo]]
 url = "https://github.com/Giveth/ds-math"
+last_commit = "35dda6873fe0841ee4705d937fd0c3b901115d37"
+last_commit_time = "2017-04-29T19:30"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 0
+branches = 35
+watching = 3
+forks = 42
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/eth-contract-class"
+last_commit = "84b5a47684aea87ae92f733388649091bb278fcc"
+last_commit_time = "2021-09-04T20:35"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 31
+commits = 2
+tag_count = 0
+stars = 3
+watching = 8
 
 [[repo]]
 url = "https://github.com/Giveth/Ethereum-dapp-bin"
+last_commit = "6f3bd828bbf969df64c047ded3a54afbc434ef34"
+last_commit_time = "2016-09-30T16:00"
+status = "200"
+
+[repo.stats]
+branches = 262
+tag_count = 0
+commits = 4
+stars = 1
+watching = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/Giveth/ethereum-signal-aggregator"
+last_commit = "b3c810a8f2e3fcb3c49e8d9917f8a8b858e7d8ce"
+last_commit_time = "2018-09-29T19:03"
+status = "200"
+
+[repo.stats]
+watching = 20
+forks = 6
+tag_count = 0
+commits = 1
+branches = 82
+stars = 3
 
 [[repo]]
 url = "https://github.com/Giveth/feathers-bridge"
+last_commit = "97fa1b802ce56e7f714731c88c9a1b879873b6bb"
+last_commit_time = "2018-06-13T15:55"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+forks = 0
+watching = 1
+tag_count = 0
+branches = 32
 
 [[repo]]
 url = "https://github.com/Giveth/feathers-giveth"
+last_commit = "8da0b49951e1d842d7bb8437dfee9c68e9f28fc7"
+last_commit_time = "2022-06-04T14:10"
+status = "200"
+
+[repo.stats]
+branches = 0
+forks = 102
+commits = 130
+tag_count = 0
+stars = 84
+watching = 9
 
 [[repo]]
 url = "https://github.com/Giveth/fund-forwarder"
+last_commit = "b811e7ac69be7a298ab38b4dec9cb570abe6f8b5"
+last_commit_time = "2017-10-22T23:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 6
+commits = 4
+forks = 2
+stars = 1
+branches = 10
 
 [[repo]]
 url = "https://github.com/Giveth/future"
+last_commit = "9fdcfede853f352020e15bde73fd24bc614eb93b"
+last_commit_time = "2016-11-15T12:47"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+branches = 12
+tag_count = 0
+forks = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/Giveth/garden-interface"
+last_commit = "a8007d9959d14eadcf5710e14003aeb2806ca53f"
+last_commit_time = "2021-01-05T16:20"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+tag_count = 0
+branches = 669
+commits = 20
+forks = 44
 
 [[repo]]
 url = "https://github.com/Giveth/giv-token-contracts"
+status = "200"
+
+[repo.stats]
+stars = 2
+commits = 18
+tag_count = 0
+branches = 211
+forks = 3
+watching = 13
 
 [[repo]]
 url = "https://github.com/Giveth/giv-token-subgraph"
+last_commit = "ff86befbc00f9dcce2ca785fec7917b588e9998a"
+last_commit_time = "2022-06-28T16:00"
+status = "200"
+
+[repo.stats]
+watching = 12
+branches = 267
+stars = 2
+tag_count = 0
+commits = 26
+forks = 1
 
 [[repo]]
 url = "https://github.com/Giveth/givback-calculation"
+last_commit = "d52f2e185fba34191bef0b436e30a5ebc8ecdbb4"
+last_commit_time = "2022-07-27T18:24"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 106
+commits = 15
+forks = 0
+watching = 10
 
 [[repo]]
 url = "https://github.com/Giveth/givbacks-scripts"
+last_commit = "4e027075abb6925fdc8f7a80be0136954f30bb66"
+last_commit_time = "2021-09-23T17:10"
+status = "200"
+
+[repo.stats]
+stars = 4
+forks = 0
+watching = 12
+tag_count = 0
+branches = 8
+commits = 1
 
 [[repo]]
 url = "https://github.com/Giveth/GIVeconomy"
+status = "200"
+
+[repo.stats]
+commits = 0
+watching = 0
+branches = 0
+forks = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-1-preview"
+last_commit = "1c657f36c3bc77dbdbd503f9da451ecbfcd2b456"
+last_commit_time = "2021-07-02T07:35"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 11
+stars = 1
+branches = 13
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-1-simulation"
+last_commit = "987cfe4657f55ec17e9e664846cb00e85107da41"
+last_commit_time = "2021-09-12T13:36"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 7
+tag_count = 0
+branches = 117
+commits = 31
+watching = 11
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-2"
+last_commit = "849937e655736af786e475a160659e87f8bcf44f"
+last_commit_time = "2021-05-05T17:38"
+status = "200"
+
+[repo.stats]
+commits = 76
+watching = 20
+forks = 15
+branches = 0
+tag_count = 0
+stars = 24
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-beta-docs"
+last_commit = "c14efefc429494edd93ccc5cf6b1d823e0fbdf39"
+last_commit_time = "2021-06-16T12:44"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 53
+commits = 7
+forks = 2
+watching = 12
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-bot"
+last_commit = "bb8e95d56b23240b8bc49f898491ff7a715819b8"
+last_commit_time = "2019-08-13T10:18"
+status = "200"
+
+[repo.stats]
+forks = 11
+stars = 10
+watching = 11
+branches = 151
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-bridge"
+last_commit = "c139d454cee012492fca6e15699a7e4383eb24b8"
+last_commit_time = "2021-09-07T10:55"
+status = "200"
+
+[repo.stats]
+stars = 12
+watching = 10
+forks = 6
+tag_count = 0
+commits = 21
+branches = 159
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-bridge-monitor"
+last_commit = "3bbcea35a8d0c66acfaecf82d07c4778fb6a6f05"
+last_commit_time = "2022-01-20T09:08"
+status = "200"
+
+[repo.stats]
+stars = 3
+commits = 4
+watching = 2
+forks = 5
+tag_count = 0
+branches = 216
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-claims"
+last_commit = "83863c20aefbd6a137ab039be62b9cf22a10ede1"
+last_commit_time = "2021-06-18T20:39"
+status = "200"
+
+[repo.stats]
+branches = 21
+watching = 1
+tag_count = 0
+stars = 0
+forks = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-contracts-template"
+last_commit = "c26e7a5992fc78913d231a6b75ab5c3c06410989"
+last_commit_time = "2022-05-24T18:58"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 7
+forks = 0
+tag_count = 0
+branches = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-dapp"
+status = "200"
+
+[repo.stats]
+stars = 321
+watching = 28
+commits = 164
+branches = 0
+forks = 236
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-dapps-v2"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 12
+commits = 34
+forks = 9
+branches = 0
+stars = 7
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-design-assets"
+last_commit = "fe5e5ab5d6767116c2e753a95361088084c45464"
+last_commit_time = "2022-03-10T13:09"
+status = "200"
+
+[repo.stats]
+forks = 6
+tag_count = 0
+commits = 2
+watching = 8
+stars = 5
+branches = 50
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-docs"
+last_commit = "f636a8489584d7ee02d24eb8e69033ce6ca1c5ec"
+last_commit_time = "2022-08-04T18:58"
+status = "200"
+
+[repo.stats]
+commits = 42
+tag_count = 0
+watching = 14
+forks = 22
+stars = 13
+branches = 573
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-donations-dashboard"
+last_commit = "5ad9d2394974420a46766850840c4a61b8952126"
+last_commit_time = "2019-09-27T23:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 2
+watching = 1
+stars = 0
+branches = 66
+commits = 3
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-funds-forwarder"
+last_commit = "4ae2efca6526eb9940a64a8749381ebcfdb967d9"
+last_commit_time = "2019-11-04T21:31"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+watching = 1
+tag_count = 0
+forks = 1
+branches = 21
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-galaxy"
+last_commit = "4c275eed1beaa2aea3adbcc90ed8c184e398aa4d"
+last_commit_time = "2020-11-21T20:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 6
+branches = 178
+watching = 8
+stars = 1
+forks = 3
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-gatsby"
+last_commit = "849937e655736af786e475a160659e87f8bcf44f"
+last_commit_time = "2021-05-05T17:38"
+status = "200"
+
+[repo.stats]
+watching = 20
+branches = 0
+tag_count = 0
+forks = 15
+commits = 76
+stars = 24
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-identity"
+last_commit = "f60711c8ff99776514059076ac6a92484e740ee0"
+last_commit_time = "2018-06-05T17:02"
+status = "200"
+
+[repo.stats]
+watching = 8
+tag_count = 0
+commits = 1
+forks = 0
+stars = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-io-typescript"
+last_commit = "aa10814e6cdc0ea98f1363a2df4c16f1c9b22491"
+last_commit_time = "2022-01-17T18:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+branches = 158
+commits = 25
+stars = 4
+watching = 12
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-landing-page"
+last_commit = "2c331868415910fe36b929177bf748f8397036bb"
+last_commit_time = "2017-09-11T12:54"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 3
+forks = 8
+watching = 6
+branches = 24
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-next"
+last_commit = "a9767897310fc7e4378b240d0808be35d6277318"
+last_commit_time = "2022-03-06T14:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 18
+forks = 9
+branches = 0
+commits = 162
+watching = 18
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-planning"
+status = "200"
+
+[repo.stats]
+forks = 2
+commits = 1
+stars = 13
+branches = 16
+tag_count = 0
+watching = 25
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-toshi-app"
+last_commit = "0cd091812a163bfe170e80ea011f09ffeb38d655"
+last_commit_time = "2018-01-04T18:55"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 4
+forks = 4
+tag_count = 0
+watching = 9
+branches = 15
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-wiki"
+last_commit = "d6365eefbbcd7aa07648db46235e3036f274881f"
+last_commit_time = "2021-09-16T17:14"
+status = "200"
+
+[repo.stats]
+stars = 16
+branches = 688
+tag_count = 0
+commits = 10
+forks = 25
+watching = 19
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-world"
+last_commit = "c418e23d414f679862fe15e0fda6b981857ea030"
+last_commit_time = "2017-11-07T16:31"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+commits = 1
+stars = 1
+watching = 6
+branches = 5
 
 [[repo]]
 url = "https://github.com/Giveth/givethcampaign"
+last_commit = "c3e221b22e56d1bf5276c8155fa5b89c2704f7a0"
+last_commit_time = "2017-08-04T08:34"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 0
+tag_count = 0
+branches = 7
+watching = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/Giveth/givethdirectory"
+last_commit = "f4955bfc53adfde015f672657091194a14fd10b3"
+last_commit_time = "2017-08-11T07:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+branches = 71
+forks = 2
+stars = 3
+commits = 2
 
 [[repo]]
 url = "https://github.com/Giveth/givpower"
+last_commit = "22f642728fc3fd42256da60ae8048f195d017c8b"
+last_commit_time = "2022-08-04T14:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+watching = 2
+stars = 0
+branches = 25
+commits = 1
 
 [[repo]]
 url = "https://github.com/Giveth/givpower-bot"
+last_commit = "397b797ee563cab3962b05d052b9c44c5de0e5c8"
+last_commit_time = "2022-06-28T15:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+watching = 10
+branches = 9
+stars = 0
 
 [[repo]]
 url = "https://github.com/Giveth/givpower-subgraph"
+last_commit = "f22fd12e106ab9f95f800a3acc11ef705fa1d384"
+last_commit_time = "2022-08-01T06:25"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 9
+tag_count = 0
+commits = 1
+branches = 66
 
 [[repo]]
 url = "https://github.com/Giveth/gov-lab"
+last_commit = "4e6ef47ecae17b051be7da17f09785aba2f6d9f8"
+last_commit_time = "2019-04-04T16:13"
+status = "200"
+
+[repo.stats]
+branches = 24
+tag_count = 0
+watching = 9
+commits = 1
+forks = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/Giveth/impact-graph"
+last_commit = "c623d6c84931c76555d4da7c1e01c73b8bd97855"
+last_commit_time = "2022-08-03T19:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 15
+commits = 252
+stars = 17
+forks = 11
+branches = 0
 
 [[repo]]
 url = "https://github.com/Giveth/liquidity-mining-dapp"
+last_commit = "3e803c9227202a17913ff7be2a411541b37b5776"
+last_commit_time = "2022-03-23T08:45"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 0
+watching = 10
+stars = 7
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/liquidpledging"
+last_commit = "e8f5e119fe456ce5ed1ca07bc1c78b4b4d9bbaf8"
+last_commit_time = "2021-08-17T16:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 297
+forks = 40
+commits = 16
+stars = 65
+watching = 12
 
 [[repo]]
 url = "https://github.com/Giveth/liquidpledging-ui"
+last_commit = "65dd0750bc7600523614bdd75454878a1a8b2b76"
+last_commit_time = "2018-04-17T15:37"
+status = "200"
+
+[repo.stats]
+branches = 697
+forks = 1
+stars = 3
+tag_count = 0
+commits = 3
+watching = 9
 
 [[repo]]
 url = "https://github.com/Giveth/lpp-campaign"
+last_commit = "2c653386e0302e222b6bde2c368d32b469e596cc"
+last_commit_time = "2021-08-18T13:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 6
+commits = 5
+stars = 3
+forks = 7
+branches = 71
 
 [[repo]]
 url = "https://github.com/Giveth/lpp-capped-milestone"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 55
+commits = 5
+forks = 2
+watching = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/lpp-dac"
+last_commit = "437f56e8763a7d5d066d1d2f599e00236bf95723"
+last_commit_time = "2018-06-16T21:10"
+status = "200"
+
+[repo.stats]
+watching = 7
+branches = 36
+commits = 5
+forks = 0
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/lpp-milestone"
+last_commit = "2f334e22eee11bef4a3bac760cfb19d8debf3954"
+last_commit_time = "2017-12-05T23:03"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 6
+stars = 3
+forks = 3
+branches = 35
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/lpp-milestones"
+last_commit = "cb342dc2c719de4fffd8a93193f256557c866136"
+last_commit_time = "2021-08-23T15:15"
+status = "200"
+
+[repo.stats]
+branches = 19
+watching = 9
+commits = 3
+stars = 0
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/milestonetracker"
+last_commit = "c7a90abf9577e67e14a13a0932807dbacba26b1e"
+last_commit_time = "2017-09-14T17:27"
+status = "200"
+
+[repo.stats]
+stars = 17
+forks = 9
+branches = 80
+watching = 7
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/milestonetracker-ui"
+last_commit = "5b0d40900610a799e77ba76d2fa609289fad2c60"
+last_commit_time = "2017-08-15T14:47"
+status = "200"
+
+[repo.stats]
+branches = 249
+watching = 5
+stars = 7
+forks = 11
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/Giveth/minime"
+status = "200"
+
+[repo.stats]
+commits = 19
+branches = 88
+stars = 620
+watching = 61
+forks = 293
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/multisig"
+last_commit = "4a7e799aa9ec8eb7a769c7aa7641bc2bf148492d"
+last_commit_time = "2017-03-05T20:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 1
+watching = 2
+branches = 8
+commits = 1
 
 [[repo]]
 url = "https://github.com/Giveth/MVP"
+last_commit = "a5dfde5a805cb9c56a0f99b64a8a6503c9b5bb6c"
+last_commit_time = "2017-01-28T11:23"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 68
+forks = 6
+commits = 4
+watching = 6
+stars = 9
 
 [[repo]]
 url = "https://github.com/Giveth/notification-center"
+last_commit = "2a68904dacf700a0787d902360832e63d773644f"
+last_commit_time = "2022-08-03T12:30"
+status = "200"
+
+[repo.stats]
+commits = 3
+branches = 9
+watching = 15
+forks = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Giveth/pollmanager"
+last_commit = "3d07730e570d2ece4e855eeb0e5290ee6777f76d"
+last_commit_time = "2017-05-31T01:28"
+status = "200"
+
+[repo.stats]
+stars = 5
+branches = 3
+tag_count = 0
+watching = 4
+forks = 6
+commits = 2
 
 [[repo]]
 url = "https://github.com/Giveth/project-curation"
+last_commit = "6d935eb8c8797e240a7e9fde7603c90d730608ce"
+last_commit_time = "2021-01-18T12:48"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 74
+tag_count = 0
+commits = 5
+branches = 298
+stars = 0
 
 [[repo]]
 url = "https://github.com/Giveth/project-nominations"
+last_commit = "7482a5812c935159d9012c587481d16ae51296df"
+last_commit_time = "2022-06-21T10:07"
+status = "200"
+
+[repo.stats]
+watching = 10
+branches = 4
+commits = 1
+stars = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/retro-price"
+last_commit = "feaa117c37fb4367d45ee7c0d8a3960f4964e774"
+last_commit_time = "2021-04-27T20:15"
+status = "200"
+
+[repo.stats]
+branches = 29
+forks = 0
+tag_count = 0
+stars = 0
+commits = 2
+watching = 11
 
 [[repo]]
 url = "https://github.com/Giveth/reward-dao"
+last_commit = "a66b1ae87868a0e0a751d9af01469bf34dba8c31"
+last_commit_time = "2017-06-26T23:58"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 5
+forks = 1
+stars = 1
+branches = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/ScalingNowMultiSigWallet"
+last_commit = "4f816ee78c100e64be19afc158777ef3c82ac6fe"
+last_commit_time = "2018-03-15T14:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 733
+branches = 831
+commits = 4
+stars = 1
+watching = 7
 
 [[repo]]
 url = "https://github.com/Giveth/SiweAuthMicroservice"
+last_commit = "59e13ab99fd3082880a3f3eddaeeb9b39fca669e"
+last_commit_time = "2022-06-06T20:51"
+status = "200"
+
+[repo.stats]
+watching = 7
+tag_count = 0
+stars = 1
+forks = 0
+branches = 115
+commits = 4
 
 [[repo]]
 url = "https://github.com/Giveth/snapshot-spaces"
+last_commit = "70bd0c5fd1aa12be8e8a1021192669c1a8c71589"
+last_commit_time = "2020-09-11T05:45"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+branches = 10
+tag_count = 0
+forks = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/Giveth/solcpiler"
+last_commit = "a325149635b7843fc49f5b43cfcc187d37f1af03"
+last_commit_time = "2019-01-09T16:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 6
+watching = 5
+stars = 15
+branches = 93
+commits = 11
 
 [[repo]]
 url = "https://github.com/Giveth/sourcecred"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+stars = 0
+branches = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Giveth/sourcecred-1"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+tag_count = 0
+branches = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Giveth/sourcecred-instance"
+last_commit = "be19818b7a32c5933a50855eae0cf3ec4d22756d"
+last_commit_time = "2021-10-14T15:39"
+status = "200"
+
+[repo.stats]
+commits = 19
+stars = 2
+watching = 1
+branches = 121
+tag_count = 0
+forks = 71
 
 [[repo]]
 url = "https://github.com/Giveth/testGivethDirectory"
+last_commit = "62e84c113a4e940d7cb42c744475dd213502fe89"
+last_commit_time = "2017-06-08T09:05"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 1
+watching = 4
+tag_count = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Giveth/thegraph-gatsby-example"
+last_commit = "85354cd9b0637e62ba2ca9e50678cdf8f6672ced"
+last_commit_time = "2019-12-22T12:42"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+tag_count = 0
+commits = 1
+forks = 2
+branches = 12
 
 [[repo]]
 url = "https://github.com/Giveth/ui-design-system"
+last_commit = "203048541716c0cc80494d8dc35ffa8562b1c94f"
+last_commit_time = "2022-08-01T13:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 322
+watching = 11
+stars = 3
+commits = 6
+forks = 0
 
 [[repo]]
 url = "https://github.com/Giveth/univ3-liquidity-calc"
+last_commit = "6de4f0410d013b920f0917ec3c824dbda8774da4"
+last_commit_time = "2022-02-10T18:19"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 1
+forks = 0
+tag_count = 0
+watching = 8
+stars = 0
 
 [[repo]]
 url = "https://github.com/Giveth/vaultcontract"
+last_commit = "85b8780d59ebd918030dac73a050a4b23694fa8c"
+last_commit_time = "2017-10-20T14:47"
+status = "200"
+
+[repo.stats]
+watching = 11
+commits = 14
+tag_count = 0
+forks = 29
+branches = 64
+stars = 56
 
 [[repo]]
 url = "https://github.com/Giveth/vaultcontroller"
+last_commit = "f3588861b4775c669a507a7271a30de0654687d3"
+last_commit_time = "2017-04-29T16:23"
+status = "200"
+
+[repo.stats]
+branches = 55
+tag_count = 0
+commits = 5
+watching = 3
+stars = 0
+forks = 3
 
 [[repo]]
 url = "https://github.com/Giveth/wall-of-fame"
+last_commit = "2b24561681288faf0a4b132e5c0205a4d856bd6c"
+last_commit_time = "2019-07-31T23:01"
+status = "200"
+
+[repo.stats]
+branches = 118
+stars = 7
+forks = 7
+watching = 14
+tag_count = 0
+commits = 9
 
 [[repo]]
 url = "https://github.com/Giveth/website"
+last_commit = "13b9f099115878c2b090ac20f5ff5ba66ff16fbd"
+last_commit_time = "2018-08-07T07:58"
+status = "200"
+
+[repo.stats]
+stars = 9
+watching = 10
+tag_count = 0
+branches = 203
+commits = 7
+forks = 8
 
 [[repo]]
 url = "https://github.com/Giveth/Website-3.0"
+last_commit = "c09c0626b14e0dc711fe1578a4515aff3b17b0bf"
+last_commit_time = "2017-06-21T17:07"
+status = "200"
+
+[repo.stats]
+branches = 73
+stars = 1
+watching = 5
+tag_count = 0
+commits = 5
+forks = 1
 
 [[repo]]
 url = "https://github.com/Giveth/website-old"
+last_commit = "2cf21bc03a35324c06481c56f20062dff4f9f856"
+last_commit_time = "2017-02-16T16:39"
+status = "200"
+
+[repo.stats]
+branches = 18
+tag_count = 0
+forks = 0
+stars = 0
+commits = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/Giveth/WHGBalanceVerification"
+last_commit = "da17145fe45d9c2f21390b500c35329a673df8eb"
+last_commit_time = "2017-07-31T19:15"
+status = "200"
+
+[repo.stats]
+forks = 15
+watching = 9
+tag_count = 0
+branches = 50
+stars = 10
+commits = 7
 
 [[repo]]
 url = "https://github.com/Giveth/withdrawcontract"
+last_commit = "ad92280d389afa9e577b9ee25dde44818abbdb99"
+last_commit_time = "2017-11-12T11:25"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+stars = 2
+branches = 14
+commits = 3
+watching = 6
 
 [[repo]]
 url = "https://github.com/Giveth/xchange-rates"
+last_commit = "95f8e59d020ed025da2172d3cad173df0d691a45"
+last_commit_time = "2019-01-21T17:00"
+status = "200"
+
+[repo.stats]
+forks = 3
+watching = 4
+tag_count = 0
+stars = 8
+commits = 22
+branches = 36
 
 [[repo]]
 url = "https://github.com/Giveth/yogatoken"
+last_commit = "215eb1bc85aec581cdf5eb722c294df7b3c788bf"
+last_commit_time = "2018-01-29T19:18"
+status = "200"
+
+[repo.stats]
+watching = 8
+stars = 18
+forks = 8
+commits = 1
+branches = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Giveth/youtube-video-backup"
+last_commit = "79391dd9203bc95a2d5861246f97488c1478afe9"
+last_commit_time = "2019-01-15T22:30"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+commits = 1
+forks = 1
+watching = 9
+branches = 14

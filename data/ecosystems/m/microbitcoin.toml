@@ -1,97 +1,416 @@
-# Ecosystem Level Information
 title = "MicroBitcoin"
-
+toml_path = "data/ecosystems/m/microbitcoin.toml"
+github_organizations = ["https://github.com/MicroBitcoinOrg"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/MicroBitcoinOrg"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/AlgoInfo"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+branches = 0
+watching = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/AndroidWallet"
+last_commit = "2741253e3b9656d39c2bb2657bc0c042528542f9"
+last_commit_time = "2018-08-13T04:58"
+status = "200"
+
+[repo.stats]
+branches = 6
+commits = 1
+stars = 0
+forks = 0
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/ApiServer"
+last_commit = "8b91420bd85bc4f84f3a098ee036a93b4bcc9832"
+last_commit_time = "2021-03-27T09:40"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+branches = 43
+commits = 3
+forks = 38
+watching = 3
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/Bootstrap"
+last_commit = "9ec76729bce127c939dbc66e6e14154685a713f4"
+last_commit_time = "2021-10-18T12:40"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+commits = 1
+branches = 1
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/Cpuminer"
+last_commit = "5b39bf46ddbc64dee976b2e295d45a08d6b5194c"
+last_commit_time = "2019-10-14T02:23"
+status = "200"
+
+[repo.stats]
+branches = 6
+forks = 0
+commits = 2
+tag_count = 0
+watching = 7
+stars = 15
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/CpuminerPower2b"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+watching = 0
+tag_count = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/CudaMiner"
+last_commit = "af7b9ab8052092d337966446d94b8aae43c9fd15"
+last_commit_time = "2019-05-27T09:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 14
+commits = 2
+watching = 7
+forks = 8
+stars = 12
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/ElectrumX"
+last_commit = "90b440e72d9093a07058732e5aacc603875a03df"
+last_commit_time = "2019-10-09T18:25"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 798
+tag_count = 0
+commits = 1
+branches = 0
+stars = 6
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/Explorer"
+last_commit = "de56875f5510547227b0ff71ee012b3d8fc12044"
+last_commit_time = "2019-11-24T10:37"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+stars = 0
+commits = 1
+forks = 22
+branches = 37
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/MicroBitcoin"
+status = "200"
+
+[repo.stats]
+watching = 14
+branches = 70
+tag_count = 0
+stars = 18
+commits = 5
+forks = 0
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/microbitcoinorg.github.io"
+last_commit = "87bde9d335b44372f441572e1bbba1acfd28584c"
+last_commit_time = "2020-06-16T03:39"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 3
+branches = 182
+forks = 6
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/Mirinae"
+last_commit = "fe8b4b0f254755fb7035e0a2588f2e39f65afeaa"
+last_commit_time = "2019-01-21T01:54"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 4
+branches = 29
+watching = 3
+tag_count = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/MobileWallet"
+last_commit = "10567c70a639bc3838fe451a0bbc032561ee9bd0"
+last_commit_time = "2019-07-10T06:19"
+status = "200"
+
+[repo.stats]
+branches = 36
+commits = 1
+forks = 8
+tag_count = 0
+stars = 7
+watching = 2
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/MoneyTree"
+status = "404"
+
+[repo.stats]
+commits = 0
+stars = 0
+watching = 0
+forks = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/NodeMultiHashing"
+last_commit = "76c3e8878d8c175f81537d84497b8d0645562b5a"
+last_commit_time = "2019-05-02T11:16"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 557
+watching = 1
+stars = 0
+branches = 111
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/NodePool"
+last_commit = "7afeb784460eb59045987b8c142dcce19502cb2d"
+last_commit_time = "2019-01-07T03:57"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 1
+branches = 549
+stars = 7
+commits = 4
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/NodeStratumPool"
+last_commit = "8ce5cf76bae7112420e723d74059131785f9b2e3"
+last_commit_time = "2019-05-07T20:54"
+status = "200"
+
+[repo.stats]
+branches = 434
+watching = 1
+forks = 821
+stars = 0
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/Papers"
+last_commit = "ba682e160eab4b214b9e23573cb9717e01a9996f"
+last_commit_time = "2019-12-15T03:51"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 2
+commits = 1
+watching = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/PaperWallet"
+last_commit = "02da060ecad90fecdee0adbe5c9010805130676d"
+last_commit_time = "2018-11-12T06:55"
+status = "200"
+
+[repo.stats]
+branches = 1
+watching = 1
+stars = 0
+forks = 3
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/PaymentDaemon"
+last_commit = "9328bd14de71868dc82f74a1f44cdc2a028ed198"
+last_commit_time = "2019-05-30T17:56"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+stars = 0
+tag_count = 0
+commits = 2
+branches = 7
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/Power2B"
+last_commit = "842eb97094c4755d86c99c69d853cfe3991f51de"
+last_commit_time = "2019-10-06T16:11"
+status = "200"
+
+[repo.stats]
+forks = 3
+branches = 10
+stars = 0
+watching = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/Rainforest"
+last_commit = "02d20a6dec05a1d036a40e7c9b63d25b7160b282"
+last_commit_time = "2018-08-19T14:48"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+forks = 8
+tag_count = 0
+watching = 1
+branches = 9
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/RainforestAndroidMiner"
+last_commit = "35926b21754ebb743b1d03a50b2de5a86705d610"
+last_commit_time = "2019-06-27T18:47"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+stars = 1
+forks = 4
+branches = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/RainforestPython"
+last_commit = "3de0b9731880792d8ad08396f13e479e63fdb8a1"
+last_commit_time = "2019-04-15T04:17"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 3
+forks = 0
+tag_count = 0
+watching = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/ReactNativeElectrumClient"
+last_commit = "71831b30272627eb3d2f3b633ccf841003b90bbf"
+last_commit_time = "2018-12-04T22:31"
+status = "200"
+
+[repo.stats]
+commits = 5
+watching = 1
+branches = 48
+forks = 95
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/Seeder"
+last_commit = "74e1eb0371248de69682f7e9bc6382bc27369e97"
+last_commit_time = "2019-02-27T00:33"
+status = "200"
+
+[repo.stats]
+branches = 141
+commits = 7
+watching = 1
+stars = 0
+tag_count = 0
+forks = 956
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/Sgminer"
+last_commit = "c5af87a8dfda9f10872987ee65fecc188ca917e4"
+last_commit_time = "2019-02-28T09:32"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 870
+tag_count = 0
+branches = 0
+stars = 2
+commits = 2
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/SnapshotToolkit"
+last_commit = "98e629fed5dbcdfbe8495dca3149b1dff50534e0"
+last_commit_time = "2019-10-02T13:02"
+status = "200"
+
+[repo.stats]
+branches = 2
+tag_count = 0
+commits = 1
+watching = 1
+stars = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/WebWallet"
+last_commit = "18990aff7c9a8dbe4021ddb85feb417f78a54e27"
+last_commit_time = "2019-11-24T10:38"
+status = "200"
+
+[repo.stats]
+branches = 31
+watching = 2
+commits = 2
+forks = 40
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/MicroBitcoinOrg/Yiimp"
+last_commit = "fd3fb9aa68121d146c7fcbe09f5cd0316212bc64"
+last_commit_time = "2019-05-08T14:27"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 2
+stars = 1
+commits = 4
+tag_count = 0
+forks = 983

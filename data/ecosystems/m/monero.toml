@@ -1,947 +1,4204 @@
-# Ecosystem Level Information
 title = "Monero"
-
+toml_path = "data/ecosystems/m/monero.toml"
+github_organizations = ["https://github.com/farcaster-project", "https://github.com/monero-ecosystem", "https://github.com/monerobook", "https://github.com/mymonero", "https://github.com/xmr-ru"]
 sub_ecosystems = ["Equilibria", "Tari"]
 
-github_organizations = [
-  "https://github.com/farcaster-project",
-  "https://github.com/monero-ecosystem",
-  "https://github.com/monerobook",
-  "https://github.com/mymonero",
-  "https://github.com/xmr-ru",
-]
-
-# Repositories
 [[repo]]
 url = "https://git.wownero.com/feather/feather"
 tags = ["Wallet"]
+status = "404"
+
+[repo.stats]
+watching = 0
+forks = 0
+branches = 0
+stars = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/00-matt/moneropool"
+last_commit = "441bec009ba044e9fb25364743b6e0eb5df8838e"
+last_commit_time = "2020-02-25T17:44"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 2
+tag_count = 0
+stars = 7
+commits = 2
+branches = 70
 
 [[repo]]
 url = "https://github.com/00-matt/monerorpc"
+last_commit = "d3d7b3bb6880c37092557588e58362e846896942"
+last_commit_time = "2020-09-18T20:58"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+branches = 50
+commits = 1
+forks = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/aaronmboyd/docker-xmrMiner"
+last_commit = "50f4fc3a5ce670a23a4e30b07b94beaa77a4e0bd"
+last_commit_time = "2018-08-14T23:09"
+status = "200"
+
+[repo.stats]
+branches = 30
+commits = 1
+watching = 3
+forks = 2
+stars = 14
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/aeugenegray/stak-cpu-autoscript"
+last_commit = "37ecc468162c19ae52758b9ba6e4bf0eb1a543b9"
+last_commit_time = "2019-03-22T01:10"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 1
+watching = 0
+tag_count = 0
+branches = 151
+commits = 1
 
 [[repo]]
 url = "https://github.com/alexeyneu/tool3"
+last_commit = "57a66dcd3fc3649951521aa80147441c7e04e45b"
+last_commit_time = "2021-08-07T17:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+branches = 218
+watching = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/amiuhle/kasisto"
+last_commit = "03284e14ea479a934ca85b1f2b7687e113e86885"
+last_commit_time = "2019-03-06T20:12"
+status = "200"
+
+[repo.stats]
+branches = 183
+forks = 36
+commits = 7
+tag_count = 0
+watching = 24
+stars = 136
 
 [[repo]]
 url = "https://github.com/amiuhle/monero-docker"
+last_commit = "fd1347573c8fd6a71f4c0c8b4f5d5e5227a82917"
+last_commit_time = "2017-02-27T11:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 2
+stars = 0
+forks = 0
+branches = 5
 
 [[repo]]
 url = "https://github.com/anon-coins-tutorials/monero-rpc-get-started"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+tag_count = 0
+branches = 0
+forks = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/apprises/apprise-transactions"
+last_commit = "4592d572cfe2920b66a44c91718eb9f6efa6598d"
+last_commit_time = "2021-09-19T17:53"
+status = "200"
+
+[repo.stats]
+branches = 40
+tag_count = 0
+commits = 1
+watching = 1
+forks = 3
+stars = 7
 
 [[repo]]
 url = "https://github.com/arnesson/xrig"
+last_commit = "2564787f7fd7f15d48a7769b315217ec7adc6953"
+last_commit_time = "2018-05-11T19:50"
+status = "200"
+
+[repo.stats]
+forks = 9
+watching = 7
+tag_count = 0
+branches = 196
+commits = 2
+stars = 24
 
 [[repo]]
 url = "https://github.com/b-i-t-n/alpine-xmrig"
+last_commit = "d3a7c78bb585b89876d35ed3b053100d0e99daf7"
+last_commit_time = "2017-07-09T12:40"
+status = "200"
+
+[repo.stats]
+stars = 35
+tag_count = 0
+watching = 2
+branches = 12
+commits = 1
+forks = 53
 
 [[repo]]
 url = "https://github.com/BaseMax/AwesomeMoneroBase"
+last_commit = "73cd3e87e461e8a021bdc3d17d245abd93d9c091"
+last_commit_time = "2019-06-29T19:02"
+status = "200"
+
+[repo.stats]
+forks = 3
+watching = 2
+stars = 3
+tag_count = 0
+branches = 9
+commits = 1
 
 [[repo]]
 url = "https://github.com/Bendr0id/xmrigCC"
+status = "200"
+
+[repo.stats]
+stars = 266
+watching = 34
+forks = 0
+tag_count = 0
+branches = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/bitwyre/crypto-monero"
+last_commit = "609f0df88e7bf9161d2ea42f6ddd24abe36bb419"
+last_commit_time = "2020-03-16T09:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 2
+commits = 1
+watching = 2
+stars = 2
+forks = 2
 
 [[repo]]
 url = "https://github.com/Block-Lab/kNight.js"
+last_commit = "9051ff5cfa00c96f509d40ad08b792f1a2351c73"
+last_commit_time = "2018-10-29T10:17"
+status = "200"
+
+[repo.stats]
+branches = 61
+commits = 100
+watching = 1
+forks = 2
+stars = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/bonedaddy/mychurnero"
+last_commit = "eaf8a486f3e907aa5439e289cb6d4f55ffd0da0b"
+last_commit_time = "2022-02-23T09:56"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 103
+watching = 1
+commits = 3
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/bradoyler/xmr-miner"
+last_commit = "d11055a66ca18e4b72e6da065492d7c10121eeec"
+last_commit_time = "2018-01-19T21:47"
+status = "200"
+
+[repo.stats]
+branches = 24
+watching = 16
+tag_count = 0
+commits = 1
+forks = 69
+stars = 488
 
 [[repo]]
 url = "https://github.com/bradoyler/xmr-paper"
+last_commit = "4608041f75ab6ac977b00d324b968d1d648d5190"
+last_commit_time = "2018-02-06T21:49"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 3
+branches = 4
+commits = 1
+tag_count = 0
+stars = 4
 
 [[repo]]
 url = "https://github.com/Brandantl/Monero-TipBot"
+last_commit = "c46b07428c8231a10bc635b248e2c2469f2b4c13"
+last_commit_time = "2018-08-28T03:55"
+status = "200"
+
+[repo.stats]
+stars = 8
+branches = 246
+commits = 7
+watching = 6
+forks = 18
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/C0dePizza/monero-web-interface"
+last_commit = "537a5557f77dac6c9cc0398183e2d1c5f97c63a6"
+last_commit_time = "2017-05-31T19:27"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+commits = 1
+branches = 24
+stars = 5
+watching = 3
 
 [[repo]]
 url = "https://github.com/CanadianRepublican/monero-universal-pool"
+last_commit = "03583a836f977fa2655477b36f7325c12f28d37a"
+last_commit_time = "2017-12-07T16:02"
+status = "200"
+
+[repo.stats]
+branches = 37
+tag_count = 0
+commits = 1
+watching = 5
+stars = 16
+forks = 19
 
 [[repo]]
 url = "https://github.com/cazala/coin-hive"
+status = "200"
+
+[repo.stats]
+watching = 120
+forks = 430
+tag_count = 0
+branches = 150
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/cazala/coin-hive-stratum"
+status = "200"
+
+[repo.stats]
+forks = 493
+branches = 227
+tag_count = 0
+stars = 406
+commits = 5
+watching = 48
 
 [[repo]]
 url = "https://github.com/CipherDogs/gilfoyle-monero-alert"
+last_commit = "e0133d047b5e345ca7e723d7ef00ad2f61f8e106"
+last_commit_time = "2020-07-25T09:22"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 2
+stars = 1
+tag_count = 0
+commits = 1
+branches = 26
 
 [[repo]]
 url = "https://github.com/CipherDogs/gilfoyle-monero-alert-scala"
+last_commit = "89e88bb6f5a44235cda23e7edf1af583b38ce127"
+last_commit_time = "2021-10-13T06:28"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+branches = 17
+tag_count = 0
+watching = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/CipherDogs/monerodonate"
+last_commit = "9f82c7a9576f50ed1d4d53be263009dc58e6cc13"
+last_commit_time = "2022-07-25T16:12"
+status = "200"
+
+[repo.stats]
+branches = 26
+tag_count = 0
+forks = 0
+commits = 1
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/cmarshall108/monero-web-miner"
+last_commit = "7c1e802cac807cdb68681b9a59889da9255f924e"
+last_commit_time = "2018-07-24T15:50"
+status = "200"
+
+[repo.stats]
+branches = 32
+forks = 20
+commits = 1
+watching = 6
+stars = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/cnasikas/monero-address-generator"
+last_commit = "643d055326750117e49a1104273388507f564aca"
+last_commit_time = "2019-06-26T10:15"
+status = "200"
+
+[repo.stats]
+branches = 7
+tag_count = 0
+commits = 7
+stars = 1
+watching = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/cnrig/cnrig"
+last_commit = "f6ea971041553ca4ca336d0b7e0d90d8a3a33653"
+last_commit_time = "2018-04-26T22:39"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 5
+branches = 31
+tag_count = 0
+stars = 57
+forks = 18
 
 [[repo]]
 url = "https://github.com/coinfoundry/miningcore"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 595
+commits = 3
+forks = 494
+tag_count = 0
+watching = 90
 
 [[repo]]
 url = "https://github.com/comit-network/xmr-btc-swap"
+last_commit = "29445a20784179477a6e7b44c8b2c1618542c99a"
+last_commit_time = "2022-08-04T18:45"
+status = "200"
+
+[repo.stats]
+forks = 57
+branches = 0
+stars = 446
+watching = 20
+tag_count = 0
+commits = 47
 
 [[repo]]
 url = "https://github.com/Crypto-Loot/cryptoloot"
+last_commit = "7cc5af6571a1c1c4afbfea0f7b5994653acad599"
+last_commit_time = "2019-09-10T13:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 13
+watching = 5
+stars = 45
+branches = 26
+commits = 1
 
 [[repo]]
 url = "https://github.com/crypto-skywarp/xmr-stak"
+last_commit = "383e99d8a4cf46a6fb5bb933c7aec2e8a638cfda"
+last_commit_time = "2019-02-25T23:31"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 0
+stars = 0
+tag_count = 0
+branches = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/crypto-skywarp/xmrig"
+last_commit = "f0766baf29f06515e074821b64c41a8185740996"
+last_commit_time = "2018-05-30T16:05"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 9
+watching = 0
+commits = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/crypto-skywarp/xmrig-nvidia"
+last_commit = "c6f70f53705eb54a7a0bbbb5094920aac475ed7f"
+last_commit_time = "2018-05-30T16:11"
+status = "200"
+
+[repo.stats]
+branches = 3
+commits = 1
+tag_count = 0
+stars = 0
+forks = 1
+watching = 0
 
 [[repo]]
 url = "https://github.com/CRYPTOFOUNDARY/monero-ping"
+last_commit = "ded52ef141d3a489336c20369799d50829a7646c"
+last_commit_time = "2018-09-27T21:07"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+stars = 0
+commits = 1
+branches = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/CRYPTOFOUNDARY/rpcmasq"
+last_commit = "ddefe9b02596adf4b3323af6ba8680d77a08ec98"
+last_commit_time = "2019-04-02T12:36"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+watching = 1
+branches = 8
+forks = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/cryptogrot/ansible-xmr-stak"
+last_commit = "21276526eb4ad4b2ea3cf3fc08031a948e557252"
+last_commit_time = "2018-03-10T22:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+stars = 6
+watching = 2
+branches = 24
 
 [[repo]]
 url = "https://github.com/cryptoprofitswitcher/CryptonightProfitSwitcher"
+last_commit = "6b2eeded429bab18f019dedf73cfcecb6fc75b15"
+last_commit_time = "2020-07-20T21:28"
+status = "200"
+
+[repo.stats]
+stars = 47
+branches = 177
+commits = 3
+tag_count = 0
+forks = 14
+watching = 13
 
 [[repo]]
 url = "https://github.com/cryptoshrimpi/monerod-js"
+last_commit = "07d52dd7e58942fcd39c63ffb3100a7b5ae10112"
+last_commit_time = "2017-11-04T11:22"
+status = "200"
+
+[repo.stats]
+forks = 14
+stars = 27
+watching = 4
+branches = 18
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/Cyclenerd/ethereum_nvidia_miner"
+status = "200"
+
+[repo.stats]
+watching = 196
+forks = 167
+branches = 135
+stars = 828
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/cytopia/coinwatch"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+forks = 16
+commits = 1
+stars = 71
+branches = 86
 
 [[repo]]
 url = "https://github.com/dan-da/monero-mnemonic-php"
+last_commit = "247e124f448dce825d43d394c19bdf539aa0cd7c"
+last_commit_time = "2019-10-22T01:01"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 3
+forks = 0
+stars = 2
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/Dead2/CryptoGoblin"
+last_commit = "4b0fb1269911b90bae1e882acec6b9041b34673f"
+last_commit_time = "2019-04-02T18:33"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 20
+stars = 43
+tag_count = 0
+watching = 9
+branches = 555
 
 [[repo]]
 url = "https://github.com/deepwn/deepMiner"
+last_commit = "4ad4a16066047848b06a1eb0e0da29fc847ecf18"
+last_commit_time = "2019-03-21T01:07"
+status = "200"
+
+[repo.stats]
+watching = 62
+commits = 1
+forks = 239
+branches = 140
+stars = 526
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/denpamusic/php-levin"
+last_commit = "87a025228a4f747d1f5287cb2a1f029b8cab52b6"
+last_commit_time = "2022-06-06T01:49"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 119
+tag_count = 0
+commits = 1
+stars = 5
+watching = 1
 
 [[repo]]
 url = "https://github.com/DigitalQubit/Monero-Status-Checker"
+last_commit = "b315bb3ce76af396f91c637a23064ba5ccbb349e"
+last_commit_time = "2018-06-17T03:32"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 1
+branches = 8
+forks = 1
+tag_count = 0
+stars = 5
 
 [[repo]]
 url = "https://github.com/djphoenix/MoneroKit"
+last_commit = "d9b15f1d4aed64d0be96caa8e6e4de3fa11d7b92"
+last_commit_time = "2019-06-23T15:04"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 7
+tag_count = 0
+commits = 1
+stars = 25
+branches = 22
 
 [[repo]]
 url = "https://github.com/dternyak/monerochain"
+last_commit = "c5e992f2a9361ab351126ae07c26f69634f00fb7"
+last_commit_time = "2017-05-14T04:07"
+status = "200"
+
+[repo.stats]
+branches = 28
+stars = 21
+watching = 7
+forks = 15
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/dunklesToast/XMRigFrontend"
+last_commit = "a1411514f679d9f2188238f4e3aeea941454ab4c"
+last_commit_time = "2018-04-06T17:52"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 9
+stars = 38
+forks = 15
+tag_count = 0
+branches = 22
 
 [[repo]]
 url = "https://github.com/emesik/monero-testnet-sandbox"
+last_commit = "e6fd4e8baa10d67f99bfa453af437c2a87f0895d"
+last_commit_time = "2017-10-07T21:47"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 3
+watching = 3
+stars = 11
+tag_count = 0
+branches = 4
 
 [[repo]]
 url = "https://github.com/Equim-chan/cryptonight"
+last_commit = "ca7522515170f26ccb3de2c0ebf5e59d01f9a07b"
+last_commit_time = "2020-02-02T11:24"
+status = "200"
+
+[repo.stats]
+stars = 72
+branches = 106
+tag_count = 0
+commits = 1
+watching = 4
+forks = 9
 
 [[repo]]
 url = "https://github.com/Equim-chan/vanity-monero"
+last_commit = "77d7ebb489fd58b24bb0531229bb7f00d9ff66c7"
+last_commit_time = "2019-12-07T11:02"
+status = "200"
+
+[repo.stats]
+forks = 19
+watching = 5
+commits = 1
+stars = 51
+branches = 33
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/erciccione/monero-static"
+last_commit = "e454183e64b77bd5402669696b62906dd1437b98"
+last_commit_time = "2022-07-20T08:08"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 1
+branches = 24
+forks = 1
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/ExcitableAardvark/monerod_exporter"
+last_commit = "36d7884daaa5401efc31d082fd6ef38ccb319124"
+last_commit_time = "2018-02-07T15:36"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 6
+stars = 5
+commits = 1
+tag_count = 0
+forks = 3
 
 [[repo]]
 url = "https://github.com/ExcitableAardvark/node-cryptonight"
+last_commit = "60334036f55b6907d5843b460e489bf521988cf3"
+last_commit_time = "2019-05-27T13:28"
+status = "200"
+
+[repo.stats]
+branches = 25
+commits = 13
+watching = 2
+tag_count = 0
+stars = 15
+forks = 12
 
 [[repo]]
 url = "https://github.com/ExcitableAardvark/node-monero-rpc"
+last_commit = "6011fbb11d19d9afb6c8550b575fa6d911845baf"
+last_commit_time = "2018-04-25T18:52"
+status = "200"
+
+[repo.stats]
+forks = 9
+stars = 11
+watching = 1
+tag_count = 0
+branches = 23
+commits = 1
 
 [[repo]]
 url = "https://github.com/EZForever/HiveMiner"
+last_commit = "3295358dd95bd9ec317d90541b34717597be9a82"
+last_commit_time = "2019-06-06T15:59"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+stars = 4
+tag_count = 0
+branches = 13
+forks = 1
 
 [[repo]]
 url = "https://github.com/EZForever/libcryptohive"
+last_commit = "716d864ea3c34e80a9304f5a0e615b60c7aff404"
+last_commit_time = "2019-06-06T15:59"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+branches = 17
+commits = 3
+stars = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/farcaster-project/client-side-validation"
+last_commit = "83d1ee56d71d1fe05cf6f3ee868261aae8c79fa5"
+last_commit_time = "2022-06-30T14:29"
+status = "200"
+
+[repo.stats]
+branches = 829
+forks = 7
+stars = 0
+commits = 9
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/farcaster-project/containers"
+last_commit = "5257fe9aaef914beb80865e36f33361023f4217c"
+last_commit_time = "2022-08-02T13:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+branches = 64
+stars = 2
+commits = 1
+forks = 6
 
 [[repo]]
 url = "https://github.com/farcaster-project/farcaster-core"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 5
+forks = 11
+commits = 18
+branches = 594
+stars = 24
 
 [[repo]]
 url = "https://github.com/farcaster-project/farcaster-node"
+last_commit = "3670916faef03f799e91332fac53f4e8dacccf36"
+last_commit_time = "2022-08-03T09:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 8
+commits = 3
+stars = 62
+forks = 14
+branches = 0
 
 [[repo]]
 url = "https://github.com/farcaster-project/meetings"
+last_commit = "7dd2f20617181780717e33218b4175e65658f2be"
+last_commit_time = "2022-02-02T16:45"
+status = "200"
+
+[repo.stats]
+branches = 31
+commits = 1
+stars = 6
+forks = 1
+watching = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/farcaster-project/RFCs"
+status = "200"
+
+[repo.stats]
+watching = 17
+branches = 287
+tag_count = 0
+stars = 59
+commits = 1
+forks = 13
 
 [[repo]]
 url = "https://github.com/farcaster-project/secp256kfun"
+last_commit = "3852048addd4bce458adc6f79c56c168228fd39c"
+last_commit_time = "2022-05-13T07:03"
+status = "200"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+stars = 0
+forks = 12
+branches = 356
+commits = 7
 
 [[repo]]
 url = "https://github.com/farcaster-project/workflows"
+last_commit = "98b32c98619d3b80bbebabaa3e5e289e9c8fe684"
+last_commit_time = "2022-07-27T15:07"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+stars = 2
+forks = 2
+branches = 26
+watching = 1
 
 [[repo]]
 url = "https://github.com/fotolockr/CakeWallet"
 tags = ["Wallet"]
+last_commit = "6d5667bd5787ce8d2bf07f7b4e50f57aa26bb0ce"
+last_commit_time = "2018-04-09T06:18"
+status = "200"
+
+[repo.stats]
+watching = 10
+commits = 12
+stars = 74
+tag_count = 0
+forks = 39
+branches = 29
 
 [[repo]]
 url = "https://github.com/FungibilityMatters/MoneroMixer"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 10
+forks = 12
+branches = 187
+tag_count = 0
+stars = 57
 
 [[repo]]
 url = "https://github.com/gabstv/go-monero"
 tags = ["Wallet"]
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 52
+forks = 22
+watching = 6
+branches = 26
 
 [[repo]]
 url = "https://github.com/GCinellu/monero_web_miner"
+last_commit = "a64ea6f93bdb6a9dc67c446d5c876dace3e11cb5"
+last_commit_time = "2017-09-14T20:09"
+status = "200"
+
+[repo.stats]
+forks = 5
+commits = 1
+tag_count = 0
+branches = 2
+stars = 4
+watching = 2
 
 [[repo]]
 url = "https://github.com/gentoo-monero/gentoo-monero"
+last_commit = "381d4336e417575a55011420e7f7d3d7dbf86518"
+last_commit_time = "2022-03-19T08:45"
+status = "200"
+
+[repo.stats]
+stars = 13
+forks = 11
+branches = 175
+commits = 1
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gexxxter/coinHiveMiner"
+last_commit = "877caf91f36ff2c4df4b9b96bed43e9537d74749"
+last_commit_time = "2019-04-01T23:12"
+status = "200"
+
+[repo.stats]
+forks = 9
+tag_count = 0
+branches = 136
+watching = 7
+stars = 24
+commits = 3
 
 [[repo]]
 url = "https://github.com/gg2001/monero-app"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 0
+branches = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/gg2001/monero-html"
+status = "404"
+
+[repo.stats]
+commits = 0
+forks = 0
+watching = 0
+branches = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/gg2001/monero-ios"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+tag_count = 0
+watching = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/goxmr/goxmrminer"
+last_commit = "b9d91196f8bd94baadf1066c805464dcf23af5bb"
+last_commit_time = "2018-02-03T11:40"
+status = "200"
+
+[repo.stats]
+forks = 10
+watching = 1
+stars = 14
+tag_count = 0
+branches = 11
+commits = 1
 
 [[repo]]
 url = "https://github.com/guardaco/monero-bug-bounty"
+last_commit = "055fc5a21036c1f5be1e0a581cb0cf93e07dccfd"
+last_commit_time = "2019-03-20T20:02"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 1
+watching = 2
+branches = 8
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/h4sh3d/xmr-btc-atomic-swap"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 68
+branches = 51
+watching = 20
+forks = 9
 
 [[repo]]
 url = "https://github.com/hans-strudle/CoinJack"
+last_commit = "89190bda307773d9875035bbe9b8bfa5468972fa"
+last_commit_time = "2017-11-07T01:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 26
+forks = 10
+branches = 25
+commits = 1
+watching = 5
 
 [[repo]]
 url = "https://github.com/haveno-dex/haveno"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 518
+branches = 256
+forks = 48
+watching = 39
+commits = 7
 
 [[repo]]
 url = "https://github.com/hh4x/monero"
+last_commit = "89e9e1e581db39b23c349f825d63d50ba20c4ca4"
+last_commit_time = "2018-03-27T18:03"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+stars = 0
+branches = 6
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/hundehausen/tipxmr"
+last_commit = "7b7ff9ebf96d1dabef8fcfc3815ad65727f2f69d"
+last_commit_time = "2021-05-02T10:29"
+status = "200"
+
+[repo.stats]
+stars = 9
+branches = 867
+tag_count = 0
+commits = 5
+forks = 4
+watching = 4
 
 [[repo]]
 url = "https://github.com/hyahatiph-labs/mass"
+last_commit = "93061310bac5593f5e83f2c23e0a9268bab36e26"
+last_commit_time = "2022-06-27T00:34"
+status = "200"
+
+[repo.stats]
+commits = 5
+watching = 2
+tag_count = 0
+stars = 4
+branches = 240
+forks = 0
 
 [[repo]]
 url = "https://github.com/immrmonero/coin-imp"
+last_commit = "83ffc57a6109636c16b71b9357150e3ab278ca1f"
+last_commit_time = "2018-03-07T16:02"
+status = "200"
+
+[repo.stats]
+forks = 23
+stars = 49
+watching = 4
+tag_count = 0
+branches = 29
+commits = 2
 
 [[repo]]
 url = "https://github.com/IndeedMiners/xmr-aeon-stak"
+last_commit = "b50f3f91101c6b1863482e9f469efc276f0e2200"
+last_commit_time = "2019-04-27T13:53"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 12
+stars = 39
+branches = 383
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/izavits/monero-price"
+last_commit = "4588315af170d03c1578253eab4e19d296b54047"
+last_commit_time = "2021-03-07T19:36"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+commits = 1
+tag_count = 0
+branches = 7
+watching = 1
 
 [[repo]]
 url = "https://github.com/JasonShin/vue-coin-hive"
+last_commit = "4f7922a61995fec6eca4121946577d8891067f38"
+last_commit_time = "2017-11-22T10:30"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+stars = 14
+forks = 5
+branches = 15
+commits = 1
 
 [[repo]]
 url = "https://github.com/jimmyfo/MineMonitor"
+last_commit = "ea1045d5d5b62cc3590ac5735af49c19b9485cdb"
+last_commit_time = "2018-01-12T01:49"
+status = "200"
+
+[repo.stats]
+branches = 6
+watching = 3
+stars = 3
+tag_count = 0
+commits = 1
+forks = 5
 
 [[repo]]
 url = "https://github.com/jklepatch/awesome-monero"
+last_commit = "6176b05617f10bc93d0cbd7a4bbd7df4158b45c0"
+last_commit_time = "2017-08-10T07:46"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 4
+commits = 1
+tag_count = 0
+stars = 22
+branches = 5
 
 [[repo]]
 url = "https://github.com/jklepatch/monero-nodejs-rpc-client"
+last_commit = "865ed7510137c23e5ee0a1bbdde1cf137bfb211e"
+last_commit_time = "2018-02-20T22:10"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 12
+tag_count = 0
+commits = 1
+branches = 43
+stars = 13
 
 [[repo]]
 url = "https://github.com/jtgrassie/monero-binary-rpc"
+last_commit = "2459092afbdbaef55d8f254ca0a64d2e21ec35d9"
+last_commit_time = "2019-01-07T09:31"
+status = "200"
+
+[repo.stats]
+stars = 10
+commits = 1
+watching = 4
+branches = 8
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/jtgrassie/monero-pool"
+last_commit = "492e669b6b7fa2569a8bbb8180c56d5866062c6d"
+last_commit_time = "2021-08-09T03:32"
+status = "200"
+
+[repo.stats]
+forks = 105
+stars = 286
+tag_count = 0
+watching = 28
+branches = 230
+commits = 2
 
 [[repo]]
 url = "https://github.com/jtgrassie/monero-powpy"
+last_commit = "ff61d2219c61afdf74eec3350d55e324f39f2aa4"
+last_commit_time = "2022-02-03T03:10"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 6
+stars = 72
+forks = 56
+tag_count = 0
+watching = 8
 
 [[repo]]
 url = "https://github.com/jtgrassie/xmr-node-proxy"
+last_commit = "f1c0ebcf34b00115c523db30ec458cb14fbed51a"
+last_commit_time = "2019-02-26T01:49"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 156
+watching = 4
+stars = 20
+tag_count = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/jtgrassie/xmr-wasm"
+last_commit = "da9cc449243b387b59d52ab0da99d5ff40392615"
+last_commit_time = "2019-02-28T00:22"
+status = "200"
+
+[repo.stats]
+stars = 88
+watching = 18
+forks = 31
+tag_count = 0
+branches = 9
+commits = 1
 
 [[repo]]
 url = "https://github.com/juanluisbaptiste/docker-monero-wallet"
+last_commit = "e56de873ddac71846f73d36d889a974e172c6bfb"
+last_commit_time = "2022-08-02T16:20"
+status = "200"
+
+[repo.stats]
+stars = 8
+forks = 3
+tag_count = 0
+watching = 2
+branches = 46
+commits = 1
 
 [[repo]]
 url = "https://github.com/jzarca01/electron-monero"
+last_commit = "e04ca52497f161dd1df6dee7e2bee7c9af7e3242"
+last_commit_time = "2017-12-28T21:36"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+forks = 0
+stars = 0
+branches = 7
+commits = 1
 
 [[repo]]
 url = "https://github.com/jzarca01/react-monero"
+last_commit = "012269710ec9f4a97109c3bf0ad50336bf108e9d"
+last_commit_time = "2017-12-28T20:59"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+tag_count = 0
+branches = 2
+forks = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/k4m4/monero-regex"
+last_commit = "1ba4730a1708a6be6ef73e7817099dc5b853d6a2"
+last_commit_time = "2021-05-27T07:39"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 3
+commits = 6
+stars = 9
+branches = 45
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/kennethgoodman/pymonero_simplified"
+last_commit = "c687142585567948fb7532bc9f70ad593938b6c5"
+last_commit_time = "2018-10-30T03:03"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 0
+commits = 1
+watching = 1
+tag_count = 0
+branches = 4
 
 [[repo]]
 url = "https://github.com/khell/xmrig-docker"
+last_commit = "3b940b1acf16ffc4fb7d48a437be6f501155c284"
+last_commit_time = "2018-10-09T05:00"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 3
+branches = 8
+stars = 4
+forks = 14
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/KhojaHoldingCorp/monero_miner_deployment"
+last_commit = "05ab69d47b926236ba681c5cf6911aa1325b5388"
+last_commit_time = "2017-02-14T18:42"
+status = "200"
+
+[repo.stats]
+forks = 4
+commits = 1
+stars = 5
+branches = 15
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/kirkins/MoneroPhone"
+last_commit = "6058c76f11e6afa838cda2ed7e1d41aa27395efe"
+last_commit_time = "2016-08-18T18:09"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 3
+branches = 9
+tag_count = 0
+forks = 2
+watching = 2
 
 [[repo]]
 url = "https://github.com/Kpaccyc/XMRig-AMD-HiveOS"
+last_commit = "2ed6f528b25459a91fc419f9c3c185eb8c7186d9"
+last_commit_time = "2019-03-14T09:51"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 2
+stars = 7
+branches = 77
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/krszwsk/moneyro"
+last_commit = "0b7f36580b2d734179db8abd1358c72564af289f"
+last_commit_time = "2018-05-14T18:46"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 2
+stars = 2
+commits = 1
+tag_count = 0
+branches = 46
 
 [[repo]]
 url = "https://github.com/kumrzz/pymonerotools"
+last_commit = "91af08106e52608ef8b77491e9fbf6e02e505ba9"
+last_commit_time = "2017-02-21T15:53"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 13
+tag_count = 0
+commits = 1
+forks = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/leonklingele/malvarmo"
+last_commit = "a7fe5a919c3da3a1f7dade4ae31694964431a253"
+last_commit_time = "2021-01-18T09:30"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 41
+forks = 2
+tag_count = 0
+commits = 1
+stars = 3
 
 [[repo]]
 url = "https://github.com/libra-ventures/monero-docker-testnet"
+last_commit = "d70b00e5d614368b8cc92c76f4ed515700db869d"
+last_commit_time = "2019-06-26T21:45"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 3
+branches = 15
+tag_count = 0
+watching = 7
+stars = 2
 
 [[repo]]
 url = "https://github.com/Lithe-Project/Awesome-CryptoNote"
+last_commit = "ce6d31418be225bfd75965786b9352873fe54cc3"
+last_commit_time = "2020-06-06T15:02"
+status = "200"
+
+[repo.stats]
+forks = 7
+branches = 40
+tag_count = 0
+stars = 15
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/lovvskillz/django-globee"
+last_commit = "d1bb51566f2e67a18106008a33124948cba1d66a"
+last_commit_time = "2022-07-23T10:13"
+status = "200"
+
+[repo.stats]
+branches = 105
+tag_count = 0
+commits = 1
+forks = 1
+watching = 1
+stars = 7
 
 [[repo]]
 url = "https://github.com/LuaxY/go-monero"
+last_commit = "ab500ba400b6de76a50fdf16a8f9e3a05c274000"
+last_commit_time = "2020-08-22T00:54"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 7
+branches = 63
+watching = 2
+tag_count = 0
+forks = 3
 
 [[repo]]
 url = "https://github.com/lucasjones/cpuminer-multi"
+status = "200"
+
+[repo.stats]
+branches = 100
+stars = 596
+forks = 0
+watching = 71
+commits = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Luccifer/XMinerClient"
+last_commit = "62d76dac1c38a587755d026db13f74c1afc0fc9b"
+last_commit_time = "2020-11-14T18:39"
+status = "200"
+
+[repo.stats]
+branches = 12
+forks = 4
+watching = 4
+tag_count = 0
+commits = 1
+stars = 15
 
 [[repo]]
 url = "https://github.com/lukacci/cpuhunter"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+commits = 0
+branches = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/lunacrypt/xmr-miner-gui"
+last_commit = "72a0291713b0377fe9970765613ff3990a2b8923"
+last_commit_time = "2018-03-23T11:19"
+status = "200"
+
+[repo.stats]
+stars = 10
+branches = 4
+tag_count = 0
+forks = 13
+watching = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/m2049r/xmrwallet"
 tags = ["Wallet"]
+last_commit = "c956f38899fb85594d40cf6fa7631164bbab2689"
+last_commit_time = "2022-05-23T17:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 454
+forks = 278
+watching = 37
+branches = 827
 
 [[repo]]
 url = "https://github.com/m3h7/docker-monerod"
+last_commit = "875c58d193368fd48a91e99be4330fbd58048a29"
+last_commit_time = "2021-12-14T15:27"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 7
+branches = 11
+tag_count = 0
+watching = 2
+stars = 7
 
 [[repo]]
 url = "https://github.com/maguayo/monero.city"
+last_commit = "26220ccd33e1ce30ef522264bb05af6e5c734ce3"
+last_commit_time = "2018-12-31T07:57"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+watching = 2
+branches = 55
+commits = 1
 
 [[repo]]
 url = "https://github.com/MarinX/monerorpc"
+last_commit = "2691133659fad0bcccd18d3e3621de29e63f6503"
+last_commit_time = "2021-06-23T07:31"
+status = "200"
+
+[repo.stats]
+branches = 7
+watching = 3
+commits = 1
+stars = 3
+tag_count = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/markusz/gpu-mining-on-ubuntu16"
+last_commit = "5199e8b038401017c1f6a04266419efa73445c77"
+last_commit_time = "2017-05-29T16:59"
+status = "200"
+
+[repo.stats]
+forks = 6
+branches = 14
+tag_count = 0
+commits = 1
+stars = 19
+watching = 5
 
 [[repo]]
 url = "https://github.com/mewc/monerominer"
+last_commit = "225bc022760318a4bcf163818fdebda48a70fd1b"
+last_commit_time = "2017-11-12T07:36"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+commits = 1
+watching = 2
+branches = 3
 
 [[repo]]
 url = "https://github.com/mikekazakov/xmr-stak-cpu-ios"
+last_commit = "afef4980a009fb89c59ce49a1d1119d628c129ff"
+last_commit_time = "2018-05-24T07:57"
+status = "200"
+
+[repo.stats]
+watching = 5
+commits = 1
+branches = 13
+forks = 12
+tag_count = 0
+stars = 40
 
 [[repo]]
 url = "https://github.com/mining-pool/go-randomx"
+last_commit = "d4e94c615e25b2873e0cdcc55dadf3a4bbe5cea9"
+last_commit_time = "2020-07-04T06:31"
+status = "200"
+
+[repo.stats]
+stars = 16
+watching = 3
+tag_count = 0
+commits = 1
+forks = 10
+branches = 14
 
 [[repo]]
 url = "https://github.com/mkaand/monerohashminermonitor"
+last_commit = "328f872fffb60b37c9f607072fd6ee29b259113d"
+last_commit_time = "2020-01-14T08:12"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 7
+tag_count = 0
+commits = 1
+stars = 4
+forks = 1
 
 [[repo]]
 url = "https://github.com/mkell43/xmrig-cpu-docker"
+last_commit = "5dfc6eca3d35816ebd9919c395dce296cfddc3ad"
+last_commit_time = "2017-12-04T12:50"
+status = "200"
+
+[repo.stats]
+forks = 8
+tag_count = 0
+commits = 5
+watching = 3
+branches = 13
+stars = 11
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/bip39-monero"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 0
+tag_count = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/csharp-monero-rpc-client"
+last_commit = "bb95a4d32af43a33c3d6edf7425791e3618b322b"
+last_commit_time = "2021-05-05T03:31"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 19
+forks = 13
+tag_count = 0
+watching = 2
+branches = 142
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/dont-buy-monero-sticker"
+last_commit = "1bff485155af0c6303474115243e932b790511e2"
+last_commit_time = "2020-08-31T07:49"
+status = "200"
+
+[repo.stats]
+watching = 5
+tag_count = 0
+forks = 10
+stars = 46
+commits = 1
+branches = 33
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/go-monero-rpc-client"
+last_commit = "045f57510fddc38a104182ad0e3bafbeb28d46d3"
+last_commit_time = "2021-10-22T15:31"
+status = "200"
+
+[repo.stats]
+branches = 33
+tag_count = 0
+forks = 14
+watching = 2
+stars = 35
+commits = 1
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/go-xmrto-client"
+last_commit = "c2619580bf2dfdc010707df68ef973310bee6e9e"
+last_commit_time = "2020-11-06T22:51"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 7
+tag_count = 0
+forks = 0
+commits = 1
+stars = 5
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/meta"
+last_commit = "d8c5f37ade9273f363c76f63c1e44de62ed86428"
+last_commit_time = "2020-12-30T14:50"
+status = "200"
+
+[repo.stats]
+branches = 64
+commits = 1
+stars = 30
+watching = 12
+forks = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/moneriote-python"
+last_commit = "7e53ba9f5b4ac371b7dd2a1a8cf7a2280d661adc"
+last_commit_time = "2020-12-20T07:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 4
+forks = 7
+stars = 15
+branches = 57
+commits = 2
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero-cpp"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 37
+forks = 12
+tag_count = 0
+branches = 883
+commits = 20
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/Monero-Crypto-Lock"
+last_commit = "c39364446b62f85954bd8ce513c077769fe251da"
+last_commit_time = "2019-07-09T16:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 159
+watching = 4
+forks = 1
+stars = 5
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero-designs"
+last_commit = "c23239e1211ae6091ce054ee1f2e6913822ebe20"
+last_commit_time = "2018-05-09T19:40"
+status = "200"
+
+[repo.stats]
+branches = 1
+commits = 1
+watching = 2
+forks = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero-ecosystem.github.io"
+last_commit = "924cfa3710b3b4307178abfee17ae50f64d0b691"
+last_commit_time = "2022-03-26T07:17"
+status = "200"
+
+[repo.stats]
+stars = 3
+commits = 4
+tag_count = 0
+branches = 64
+watching = 6
+forks = 8
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero-GUI-guide"
+last_commit = "a2d0737a791d35a1417fd6a7a64ab61cdedfce4a"
+last_commit_time = "2021-05-29T10:17"
+status = "200"
+
+[repo.stats]
+forks = 38
+watching = 6
+commits = 3
+tag_count = 0
+branches = 267
+stars = 62
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero-java"
+status = "200"
+
+[repo.stats]
+forks = 32
+watching = 10
+branches = 0
+commits = 20
+stars = 68
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero-java-rpc"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 20
+forks = 32
+watching = 10
+stars = 68
+branches = 0
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero-javascript"
+status = "200"
+
+[repo.stats]
+watching = 15
+branches = 0
+stars = 128
+forks = 50
+commits = 20
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero-pgp-messenger"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+commits = 0
+watching = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero-python"
 tags = ["Developer Tool"]
+status = "200"
+
+[repo.stats]
+forks = 74
+tag_count = 0
+commits = 16
+branches = 376
+watching = 14
+stars = 190
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero-rpc-rs"
+last_commit = "1345cb06ef6f6cddf1cacf27e2c31c43a8ebb7cd"
+last_commit_time = "2022-08-02T14:21"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 10
+watching = 4
+stars = 14
+tag_count = 0
+branches = 134
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero-translations"
+status = "200"
+
+[repo.stats]
+watching = 7
+branches = 172
+forks = 31
+tag_count = 0
+commits = 1
+stars = 24
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero_health"
+last_commit = "6f0c702ab8d46865e834bfff8d9eaaf82456370a"
+last_commit_time = "2021-09-01T06:25"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 2
+forks = 0
+stars = 3
+branches = 32
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monero_scripts"
+last_commit = "b177dcb8d2a476980bb2723b3ae5c94d54260e87"
+last_commit_time = "2021-09-01T05:35"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 2
+commits = 2
+branches = 26
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/monerobox"
+last_commit = "1e8bcedeb1351232a6fb02998afa40b395b40d79"
+last_commit_time = "2020-12-30T11:56"
+status = "200"
+
+[repo.stats]
+branches = 66
+tag_count = 0
+stars = 28
+forks = 11
+watching = 7
+commits = 4
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/MoneroTipper"
+last_commit = "2364ebf5090b3413ac31a84648a381e9985b8538"
+last_commit_time = "2021-06-02T00:18"
+status = "200"
+
+[repo.stats]
+commits = 5
+branches = 105
+stars = 24
+forks = 5
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/outreach-docs"
+last_commit = "9358e5e10da539e82fbf204d3d78dbd9b99d68f9"
+last_commit_time = "2021-11-14T01:58"
+status = "200"
+
+[repo.stats]
+stars = 18
+watching = 3
+forks = 42
+branches = 556
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/PiNode-XMR"
+status = "200"
+
+[repo.stats]
+commits = 7
+forks = 26
+stars = 154
+watching = 15
+branches = 304
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/promo-video"
+last_commit = "f5b792cba6ba1422829a0d1082f61f23e94ec4d4"
+last_commit_time = "2019-08-29T16:51"
+status = "200"
+
+[repo.stats]
+branches = 160
+commits = 4
+watching = 7
+tag_count = 0
+forks = 15
+stars = 7
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/pymonero"
+last_commit = "9f851089c33f5153e33ad010780b3fc8bcb6f676"
+last_commit_time = "2019-01-10T08:41"
+status = "200"
+
+[repo.stats]
+stars = 12
+branches = 0
+commits = 5
+forks = 0
+tag_count = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/python-monerorpc"
+last_commit = "6c7969aa53c3c6959a7bcdb658d59a9cd56fdc3b"
+last_commit_time = "2020-12-18T20:25"
+status = "200"
+
+[repo.stats]
+forks = 9
+stars = 9
+branches = 51
+commits = 1
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/qml-xmr"
+last_commit = "2d98868f02892aea1c5879e4760a5efc7d46bb6a"
+last_commit_time = "2019-07-18T15:38"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 2
+stars = 3
+branches = 49
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/Revuo-Monero"
+last_commit = "81ee4e5e952e1b77dbc6aab2b8e4c82014203999"
+last_commit_time = "2018-07-17T20:37"
+status = "200"
+
+[repo.stats]
+branches = 27
+tag_count = 0
+commits = 3
+stars = 9
+watching = 4
+forks = 1
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/slow-hash"
+last_commit = "aa12b128ef5dbc3b84e21c664e10bc53d566aebc"
+last_commit_time = "2018-05-01T10:22"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 0
+branches = 8
+tag_count = 0
+watching = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/Stellumo"
+last_commit = "7cc14d433d376c28852a4db85531b3f97f427929"
+last_commit_time = "2018-03-27T18:40"
+status = "200"
+
+[repo.stats]
+branches = 36
+stars = 10
+tag_count = 0
+forks = 4
+commits = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/submit-tx-via-tor"
+last_commit = "6d64ea1a23581d5642017ebfb6ba0c8526254814"
+last_commit_time = "2018-10-20T18:36"
+status = "200"
+
+[repo.stats]
+forks = 4
+branches = 2
+watching = 3
+stars = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/telegram-monerotipbot"
+last_commit = "942c9ed5d792efb01641b089c67ce8eeb1355634"
+last_commit_time = "2022-03-12T14:14"
+status = "200"
+
+[repo.stats]
+forks = 13
+tag_count = 0
+branches = 30
+stars = 26
+commits = 1
+watching = 6
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/vanity-monero"
+last_commit = "77d7ebb489fd58b24bb0531229bb7f00d9ff66c7"
+last_commit_time = "2019-12-07T11:02"
+status = "200"
+
+[repo.stats]
+forks = 19
+commits = 1
+branches = 33
+stars = 51
+tag_count = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/XMR-ETA"
+last_commit = "2c3ff3775e7019619afbbf87cc3c2e24f3e85f9d"
+last_commit_time = "2020-09-01T07:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+forks = 0
+branches = 37
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/monero-ecosystem/xmrto_wrapper"
+last_commit = "e94564a06c4d50c21787c49218350197498665fd"
+last_commit_time = "2020-12-04T16:01"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 31
+stars = 4
+watching = 4
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monero-integrations/monero-integrations.github.io"
+last_commit = "c8d5023a6f56256cedd36fc63d95a56e750cdee6"
+last_commit_time = "2019-03-06T17:25"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+tag_count = 0
+commits = 1
+branches = 7
+watching = 2
 
 [[repo]]
 url = "https://github.com/monero-integrations/moneroodoo"
+last_commit = "fd196739e26e3d233cca55b705d13448b9a81a2a"
+last_commit_time = "2021-06-13T07:50"
+status = "200"
+
+[repo.stats]
+commits = 3
+forks = 8
+branches = 141
+tag_count = 0
+watching = 2
+stars = 8
 
 [[repo]]
 url = "https://github.com/monero-integrations/monerophp"
+last_commit = "4394b3959520ed7ac8a1a46c3aa04d8f78051051"
+last_commit_time = "2022-02-16T10:46"
+status = "200"
+
+[repo.stats]
+stars = 85
+forks = 67
+branches = 380
+watching = 14
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/monero-integrations/monerops"
+last_commit = "02589030828bed52b17ae5a5197586e04f5622b7"
+last_commit_time = "2020-11-16T15:00"
+status = "200"
+
+[repo.stats]
+forks = 14
+watching = 3
+stars = 8
+commits = 2
+tag_count = 0
+branches = 73
 
 [[repo]]
 url = "https://github.com/monero-integrations/monerowhmcs"
+last_commit = "2976ad9ac152e27e340d3327b2232ed5b1ec5406"
+last_commit_time = "2019-01-08T16:45"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 16
+stars = 11
+tag_count = 0
+branches = 106
+watching = 4
 
 [[repo]]
 url = "https://github.com/monero-integrations/monerowp"
+last_commit = "d3bebc45bfe9c4ac84079926344f4bb6dd41ae0f"
+last_commit_time = "2021-07-17T08:45"
+status = "200"
+
+[repo.stats]
+branches = 239
+watching = 8
+stars = 81
+tag_count = 0
+commits = 2
+forks = 65
 
 [[repo]]
 url = "https://github.com/monero-project/kastelo"
 tags = ["Wallet"]
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 105
+watching = 23
+branches = 392
+forks = 29
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monero-project/kovri"
+status = "200"
+
+[repo.stats]
+stars = 559
+branches = 0
+watching = 94
+tag_count = 0
+forks = 116
+commits = 1
 
 [[repo]]
 url = "https://github.com/monero-project/kovri-docs"
+last_commit = "0ff332f791a0b1324ee1336edef1d1cb5c6d8a35"
+last_commit_time = "2018-09-07T09:05"
+status = "200"
+
+[repo.stats]
+branches = 311
+stars = 23
+watching = 11
+forks = 35
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monero-project/meta"
+last_commit = "37b5fc40eade3fadeae537806a5e8c8286899a78"
+last_commit_time = "2021-08-08T13:30"
+status = "200"
+
+[repo.stats]
+branches = 117
+commits = 2
+tag_count = 0
+watching = 52
+stars = 123
+forks = 63
 
 [[repo]]
 url = "https://github.com/monero-project/mininero"
+last_commit = "c5fcee9d8ec8c302bca7fda8ce79b68e20d31c34"
+last_commit_time = "2016-05-08T19:51"
+status = "200"
+
+[repo.stats]
+watching = 11
+tag_count = 0
+branches = 14
+commits = 1
+stars = 58
+forks = 36
 
 [[repo]]
 url = "https://github.com/monero-project/miniupnp"
+last_commit = "27d34098a331e4468a02adf65108bf74cae39ed7"
+last_commit_time = "2018-07-06T10:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 6
+stars = 11
+forks = 37
+branches = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/monero-project/monero"
 tags = ["Protocol"]
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 0
+tag_count = 0
+commits = 9
+watching = 489
+forks = 0
 
 [[repo]]
 url = "https://github.com/monero-project/monero-forum"
+last_commit = "ea958db5b17ef4a1ba0bae7fa91cf5ce39c4a7f4"
+last_commit_time = "2017-06-02T11:45"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 18
+stars = 15
+watching = 7
+branches = 531
+commits = 1
 
 [[repo]]
 url = "https://github.com/monero-project/monero-gui"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 94
+branches = 0
+commits = 8
+forks = 722
 
 [[repo]]
 url = "https://github.com/monero-project/research-lab"
+status = "200"
+
+[repo.stats]
+stars = 186
+branches = 204
+tag_count = 0
+forks = 67
+commits = 2
+watching = 62
 
 [[repo]]
 url = "https://github.com/monero-project/supercop"
+last_commit = "0d6dff95350a20f6fe2bafe1ff6730458dd5ddef"
+last_commit_time = "2017-12-17T18:14"
+status = "200"
+
+[repo.stats]
+stars = 8
+forks = 22
+commits = 2
+tag_count = 0
+watching = 11
+branches = 3
 
 [[repo]]
 url = "https://github.com/monero-project/unbound"
+last_commit = "6af71187373ac87cbb84e123263058e418ed62fe"
+last_commit_time = "2018-07-06T10:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+forks = 44
+commits = 2
+watching = 4
+stars = 8
 
 [[repo]]
 url = "https://github.com/monero-project/urs"
+last_commit = "4089231195b383d0596c55ba43c693703b7e2056"
+last_commit_time = "2015-08-15T07:18"
+status = "200"
+
+[repo.stats]
+forks = 40
+tag_count = 0
+stars = 74
+branches = 11
+commits = 1
+watching = 7
 
 [[repo]]
 url = "https://github.com/monero-project/xmr-seeder"
+status = "200"
+
+[repo.stats]
+forks = 20
+tag_count = 0
+branches = 6
+watching = 8
+commits = 1
+stars = 11
 
 [[repo]]
 url = "https://github.com/monero-rs/base58-monero-rs"
+last_commit = "74fa4e9badd83425441337a4484d8cea47326345"
+last_commit_time = "2022-06-27T14:39"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 4
+stars = 3
+branches = 77
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monero-rs/monero-rs"
+last_commit = "631a4605517f4102ae2967ce95d64817b446bb46"
+last_commit_time = "2022-07-27T16:45"
+status = "200"
+
+[repo.stats]
+stars = 80
+forks = 24
+watching = 7
+commits = 5
+tag_count = 0
+branches = 211
 
 [[repo]]
 url = "https://github.com/monerobook/code"
+last_commit = "9bee3181d582a32e9b96818df190c9dfb78d0dc7"
+last_commit_time = "2018-10-15T04:48"
+status = "200"
+
+[repo.stats]
+branches = 33
+commits = 1
+tag_count = 0
+forks = 4
+stars = 7
+watching = 3
 
 [[repo]]
 url = "https://github.com/monerobook/monerobook"
+status = "200"
+
+[repo.stats]
+stars = 253
+branches = 312
+watching = 28
+commits = 2
+forks = 77
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/monerodocs/md"
+last_commit = "9b36833c5e5052d350ed7af39291fd9e36ae485c"
+last_commit_time = "2022-06-16T07:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+watching = 8
+stars = 62
+forks = 46
+branches = 193
 
 [[repo]]
 url = "https://github.com/moneroexamples/generic-xmr-scanner"
+last_commit = "27f9915034cfb5e72c2514adc7f19d9aeb603619"
+last_commit_time = "2022-04-13T08:52"
+status = "200"
+
+[repo.stats]
+forks = 6
+stars = 17
+watching = 2
+tag_count = 0
+commits = 5
+branches = 214
 
 [[repo]]
 url = "https://github.com/moneroexamples/onion-monero-blockchain-explorer"
+status = "200"
+
+[repo.stats]
+forks = 262
+stars = 276
+tag_count = 0
+branches = 0
+commits = 13
+watching = 29
 
 [[repo]]
 url = "https://github.com/moneroexamples/openmonero"
+last_commit = "b80d30599fcff18006436c595daf8552730ed6d3"
+last_commit_time = "2022-05-04T10:46"
+status = "200"
+
+[repo.stats]
+branches = 790
+stars = 145
+forks = 147
+watching = 13
+commits = 11
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/moneromint/ansible-monero"
+status = "404"
+
+[repo.stats]
+commits = 0
+branches = 0
+stars = 0
+tag_count = 0
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/moneromint/docker-monero"
+status = "404"
+
+[repo.stats]
+commits = 0
+branches = 0
+stars = 0
+watching = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/moneromint/randomx4r"
+last_commit = "34df02f62426d799effd085eea4c806dc7d4a6d5"
+last_commit_time = "2020-06-15T13:12"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+branches = 13
+tag_count = 0
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/moneromint/solo-pool"
+last_commit = "c800da41fde13e31de5d9c1a1e0ce2fb88336e45"
+last_commit_time = "2021-02-03T23:28"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+branches = 51
+stars = 5
+watching = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/MoneroOcean/nodejs-pool"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 423
+stars = 87
+watching = 16
+branches = 0
 
 [[repo]]
 url = "https://github.com/MoneroOcean/xmr-node-proxy"
+status = "200"
+
+[repo.stats]
+forks = 216
+watching = 18
+stars = 65
+tag_count = 0
+branches = 487
+commits = 1
 
 [[repo]]
 url = "https://github.com/monerorus/monero_api_site"
+last_commit = "f1965eda8fe15632bfb56d38d6d68428b19201d1"
+last_commit_time = "2019-05-05T16:21"
+status = "200"
+
+[repo.stats]
+branches = 22
+watching = 0
+tag_count = 0
+commits = 2
+forks = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/monerorus/wp"
+last_commit = "f149d0e8aceeca07438ed06ab974f9a64ca90e0d"
+last_commit_time = "2018-10-23T12:38"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+watching = 1
+forks = 0
+commits = 1
+branches = 32
 
 [[repo]]
 url = "https://github.com/monerorus/xmr_news"
+last_commit = "48aa7e03e91cb19ecd03cdfdf0622ae9697b146c"
+last_commit_time = "2019-05-28T11:32"
+status = "200"
+
+[repo.stats]
+branches = 86
+forks = 1
+stars = 1
+watching = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/MorganPeterson/monero-explorer"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+watching = 0
+forks = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/MultiPoolMiner/MultiPoolMiner"
+status = "200"
+
+[repo.stats]
+commits = 4
+tag_count = 0
+branches = 0
+watching = 109
+forks = 351
+stars = 833
 
 [[repo]]
 url = "https://github.com/mymonero/.github"
+last_commit = "652add57511cb32ff29e4707b82a4df7153f809f"
+last_commit_time = "2022-05-16T10:34"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 2
+tag_count = 0
+commits = 1
+forks = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/mymonero/hosted-monero-api-spec"
+last_commit = "e4632679d46d3b6e2b5446c65f55bdacefdadac6"
+last_commit_time = "2018-09-05T22:14"
+status = "200"
+
+[repo.stats]
+branches = 6
+commits = 1
+forks = 8
+tag_count = 0
+stars = 2
+watching = 4
 
 [[repo]]
 url = "https://github.com/mymonero/hostedwallet-server-staging"
+last_commit = "d4a0355346d9eed3f2b2dc3f858999a2a5c8b473"
+last_commit_time = "2018-01-02T03:56"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 7
+stars = 3
+forks = 3
+watching = 4
+branches = 0
 
 [[repo]]
 url = "https://github.com/mymonero/monero"
+last_commit = "a39b1d56c8835798e2f5e3cc43c33b5f2d8e13da"
+last_commit_time = "2021-09-09T19:21"
+status = "200"
+
+[repo.stats]
+stars = 3
+commits = 7
+branches = 0
+forks = 0
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mymonero/monero-core-custom"
+last_commit = "d0d4ec2c99a1db96518a98ff47773d76cf729d84"
+last_commit_time = "2022-07-31T09:30"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 8
+commits = 1
+forks = 36
+branches = 32
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-android-js"
+last_commit = "48120d041c74270696d571de9dad6c134aa76056"
+last_commit_time = "2022-05-17T08:25"
+status = "200"
+
+[repo.stats]
+forks = 10
+watching = 7
+branches = 0
+commits = 16
+tag_count = 0
+stars = 26
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-app-android"
+last_commit = "d09c4faa7235cb5534d76435aad4e81ab0320d34"
+last_commit_time = "2021-08-19T16:24"
+status = "200"
+
+[repo.stats]
+forks = 10
+stars = 10
+tag_count = 0
+commits = 1
+watching = 9
+branches = 25
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-app-ios"
+last_commit = "0c947ea2fb8be12a4686bfd330e20a24c4485bda"
+last_commit_time = "2022-05-17T08:24"
+status = "200"
+
+[repo.stats]
+forks = 20
+stars = 45
+tag_count = 0
+watching = 13
+branches = 842
+commits = 13
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-app-js"
+last_commit = "9910869c13f12d08d6444568620f90cf15f5a7dc"
+last_commit_time = "2022-04-12T08:23"
+status = "200"
+
+[repo.stats]
+forks = 153
+stars = 456
+watching = 35
+tag_count = 0
+branches = 0
+commits = 17
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-app-site"
+last_commit = "a32f5c1b02447fb7437502878d4443fa22c26269"
+last_commit_time = "2022-04-13T14:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 10
+branches = 195
+commits = 3
+stars = 5
+watching = 4
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-core-cpp"
+last_commit = "eabedb90f3ef64738be3b6a38487a45bbecb1c33"
+last_commit_time = "2022-07-31T09:31"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 5
+forks = 40
+branches = 156
+stars = 14
+watching = 4
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-core-cpp--old"
+last_commit = "94233f5f8ebb3ab39eb09e88b2723a04974bb503"
+last_commit_time = "2018-03-02T23:52"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 4
+stars = 0
+branches = 38
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-core-js"
+last_commit = "178092dbcb3f187e9973417dd29b99835e5c8c91"
+last_commit_time = "2021-05-18T13:45"
+status = "200"
+
+[repo.stats]
+forks = 113
+watching = 13
+branches = 300
+tag_count = 0
+commits = 12
+stars = 94
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-core-objcpp"
+last_commit = "d2dbd167dd1b20178371a5649b5793ca643b1e01"
+last_commit_time = "2018-03-02T23:52"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+watching = 3
+branches = 52
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-enterprise-site"
+last_commit = "ccb4ecd57a7f4bb089848ca70eca65f4878c14dc"
+last_commit_time = "2022-06-15T10:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 1
+stars = 0
+watching = 4
+branches = 35
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-exchange-js"
+last_commit = "a7376860691a33f671ed666fcae1e1385d2b069a"
+last_commit_time = "2021-06-09T08:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 19
+stars = 2
+commits = 3
+forks = 2
+watching = 5
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-fraud-monitor"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+commits = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-libapp-cpp"
+last_commit = "69a393803fe3f3112e347d170d473cfba42db50b"
+last_commit_time = "2019-11-16T00:25"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 4
+branches = 111
+forks = 17
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-libapp-js"
+last_commit = "b56945185908f8f3ad47ca7666bbb14dfe7d4f9c"
+last_commit_time = "2020-10-16T20:49"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+commits = 5
+branches = 28
+forks = 17
+watching = 5
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-lws-client"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+forks = 0
+stars = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-mobile"
+last_commit = "2e500cd36759141cc57c2a70b4d0905a9d9c47de"
+last_commit_time = "2022-07-21T13:52"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 3
+tag_count = 0
+watching = 4
+forks = 1
+stars = 10
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-monero-client"
+status = "404"
+
+[repo.stats]
+forks = 0
+branches = 0
+stars = 0
+commits = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-rpc-server"
+last_commit = "249e67b9973b2ab69d8129d1e82e2cb215ffa237"
+last_commit_time = "2021-08-19T16:16"
+status = "200"
+
+[repo.stats]
+forks = 4
+commits = 1
+watching = 2
+branches = 26
+stars = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-utils"
+last_commit = "f6f1766aab2bec8afd206cd461c70186a7e8f7d1"
+last_commit_time = "2022-07-20T09:12"
+status = "200"
+
+[repo.stats]
+forks = 8
+stars = 7
+tag_count = 0
+watching = 5
+branches = 571
+commits = 3
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-web-js"
+last_commit = "f302591f828b0746668a9328211d4278fd747e2e"
+last_commit_time = "2022-04-11T09:25"
+status = "200"
+
+[repo.stats]
+commits = 7
+stars = 6
+forks = 10
+watching = 4
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/mymonero/mymonero-ws-client"
+last_commit = "17a03b61eeda1a9f207664f27dd6ad227dd8cb8d"
+last_commit_time = "2020-01-18T03:56"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 5
+commits = 1
+tag_count = 0
+branches = 12
+stars = 1
 
 [[repo]]
 url = "https://github.com/NanMetal/Claymore-CryptoNote-Proxy"
+last_commit = "a247719d84ea8d813ff4a6193fcac561f537ff90"
+last_commit_time = "2017-12-10T17:56"
+status = "200"
+
+[repo.stats]
+branches = 34
+tag_count = 0
+commits = 1
+stars = 12
+forks = 67
+watching = 7
 
 [[repo]]
 url = "https://github.com/nemosminer/NemosMiner"
+last_commit = "3b23ac435a0a316f6688ae562525c4c629912964"
+last_commit_time = "2019-06-20T08:58"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 3
+watching = 45
+tag_count = 0
+forks = 111
+stars = 224
 
 [[repo]]
 url = "https://github.com/noahdesu/xmonarch"
+last_commit = "43fdccab803a468aef94a1614e7a601e33b35376"
+last_commit_time = "2017-12-05T21:31"
+status = "200"
+
+[repo.stats]
+stars = 49
+branches = 64
+tag_count = 0
+forks = 17
+watching = 7
+commits = 2
 
 [[repo]]
 url = "https://github.com/notgiven688/webminerpool"
+status = "200"
+
+[repo.stats]
+stars = 241
+commits = 1
+tag_count = 0
+watching = 41
+branches = 240
+forks = 169
 
 [[repo]]
 url = "https://github.com/NYAN-x-CAT/Lime-Miner"
+last_commit = "6ec8637acadf436bf19f3730940f67d1fd9053f6"
+last_commit_time = "2019-01-26T13:52"
+status = "200"
+
+[repo.stats]
+watching = 24
+tag_count = 0
+commits = 1
+stars = 147
+branches = 14
+forks = 93
 
 [[repo]]
 url = "https://github.com/onodera-punpun/sako"
+last_commit = "7245a647d5f8f96fb5ea2101331a64846beaa275"
+last_commit_time = "2018-08-11T16:05"
+status = "200"
+
+[repo.stats]
+forks = 11
+tag_count = 0
+commits = 1
+branches = 49
+watching = 3
+stars = 30
 
 [[repo]]
 url = "https://github.com/opsxcq/docker-xmrig"
+last_commit = "19db58dc21431f9e466c98be9754967b0a2123c2"
+last_commit_time = "2021-12-19T19:16"
+status = "200"
+
+[repo.stats]
+stars = 8
+forks = 10
+watching = 2
+tag_count = 0
+branches = 15
+commits = 1
 
 [[repo]]
 url = "https://github.com/ordtrogen/Monero-TMs-and-Glossaries"
+last_commit = "344f71a674493130b8d505c3491335dd9dc42e40"
+last_commit_time = "2017-12-24T07:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+branches = 6
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/PedroD/monero-stratum-docker"
+last_commit = "5a725cc7b9e2b4066fbb496becf2546d9d42250f"
+last_commit_time = "2021-01-04T23:24"
+status = "200"
+
+[repo.stats]
+forks = 6
+tag_count = 0
+watching = 4
+branches = 10
+stars = 42
+commits = 1
 
 [[repo]]
 url = "https://github.com/Pedroos46/miner-extension-chrome"
+last_commit = "abb2a689226f4d1eef6a260ae88cc74c42147dbd"
+last_commit_time = "2019-05-05T11:46"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 4
+tag_count = 0
+forks = 2
+stars = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/ph4r05/ledger-app-monero-1.42-vuln"
+last_commit = "c6d61d5da5df5aca85a1468f2c6322950ad3ea88"
+last_commit_time = "2020-04-27T12:07"
+status = "200"
+
+[repo.stats]
+branches = 26
+stars = 4
+watching = 2
+commits = 1
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ph4r05/monero-agent"
+last_commit = "0bac0e6f33142b2bb885565bfd1ef8ac04559280"
+last_commit_time = "2021-07-01T16:27"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 5
+commits = 2
+stars = 18
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/ph4r05/monero-serialize"
+last_commit = "2899c573329424ab07ec0d86b688b7b5e8d2d956"
+last_commit_time = "2022-06-20T15:44"
+status = "200"
+
+[repo.stats]
+branches = 282
+watching = 3
+stars = 8
+forks = 3
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/ph4r05/monero-trezor-doc"
+last_commit = "8e88d598d40f1bfe537d2bc72cca775fb5afb58f"
+last_commit_time = "2020-06-22T18:05"
+status = "200"
+
+[repo.stats]
+commits = 6
+tag_count = 0
+forks = 2
+stars = 12
+branches = 256
+watching = 6
 
 [[repo]]
 url = "https://github.com/ph4r05/py-cryptonight"
+last_commit = "0d5014aa744c228c8f2a9a573f4f4adafd1e93a5"
+last_commit_time = "2022-07-30T11:02"
+status = "200"
+
+[repo.stats]
+branches = 59
+commits = 1
+stars = 19
+forks = 8
+watching = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/physics515/hiveFive.life"
+last_commit = "d706b9333d72a85fe0fbba8abd2a9d336191bf41"
+last_commit_time = "2018-03-31T20:26"
+status = "200"
+
+[repo.stats]
+stars = 4
+watching = 2
+tag_count = 0
+commits = 2
+branches = 66
+forks = 0
 
 [[repo]]
 url = "https://github.com/PiTi2k5/Crypto-Webminer"
+last_commit = "fe29289952bc0438b803740fe037e92d91a77a43"
+last_commit_time = "2022-03-25T19:08"
+status = "200"
+
+[repo.stats]
+branches = 224
+commits = 2
+watching = 24
+stars = 162
+forks = 88
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/pluja/kycnot"
+last_commit = "9b2a5a05d66cedcac5b8c18e15bf7c9405031b25"
+last_commit_time = "2021-09-01T21:13"
+status = "200"
+
+[repo.stats]
+forks = 21
+watching = 9
+tag_count = 0
+commits = 1
+stars = 75
+branches = 167
 
 [[repo]]
 url = "https://github.com/Pr3datorg/XMR-Miner-XMR-Stak-0-donation-level"
+last_commit = "61dbd0c9e097cdb1165a5504fb05af26336c48b5"
+last_commit_time = "2018-10-15T22:32"
+status = "200"
+
+[repo.stats]
+stars = 5
+forks = 2
+tag_count = 0
+commits = 2
+watching = 1
+branches = 12
 
 [[repo]]
 url = "https://github.com/pRizz/Monero-Donator"
+last_commit = "0eb62f4374746fd90e7e51f85408f278e5e573a2"
+last_commit_time = "2017-09-29T14:10"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+forks = 4
+stars = 7
+branches = 8
+watching = 1
 
 [[repo]]
 url = "https://github.com/psqnt/moneroblocks"
+last_commit = "84b4c1c164eaf181c9a6859ae33fae88f09fff95"
+last_commit_time = "2019-05-16T21:21"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+commits = 1
+branches = 15
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/PsychicCat/monero-nodejs"
 tags = ["Wallet"]
+last_commit = "8809326b018afeba5e793f469ad853f08c000b0a"
+last_commit_time = "2018-08-19T22:48"
+status = "200"
+
+[repo.stats]
+stars = 101
+tag_count = 0
+watching = 8
+commits = 3
+forks = 60
+branches = 60
 
 [[repo]]
 url = "https://github.com/r1b/monero-rpc"
+last_commit = "2a671dafe892237b319ae0d0c665287b74dc5a06"
+last_commit_time = "2017-12-18T02:04"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 5
+tag_count = 0
+stars = 1
+forks = 1
+commits = 4
 
 [[repo]]
 url = "https://github.com/r3lik/monero-full-node"
+last_commit = "b8c757e0223924881543fc0fb0eab5e64a224950"
+last_commit_time = "2018-07-12T19:02"
+status = "200"
+
+[repo.stats]
+branches = 15
+watching = 2
+forks = 0
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/RagingTiger/docker-monero"
+last_commit = "285cea8d31784e865d6fc23f838011395badc10a"
+last_commit_time = "2020-05-07T22:30"
+status = "200"
+
+[repo.stats]
+branches = 4
+stars = 0
+forks = 0
+watching = 1
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/Ragnaroek/mithril"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+branches = 300
+watching = 26
+forks = 37
+stars = 189
 
 [[repo]]
 url = "https://github.com/rahimkhoja/monero-universal-pool"
+last_commit = "03583a836f977fa2655477b36f7325c12f28d37a"
+last_commit_time = "2017-12-07T16:02"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 16
+forks = 19
+tag_count = 0
+branches = 37
+commits = 1
 
 [[repo]]
 url = "https://github.com/rahimkhoja/monero_miner_deployment"
+last_commit = "05ab69d47b926236ba681c5cf6911aa1325b5388"
+last_commit_time = "2017-02-14T18:42"
+status = "200"
+
+[repo.stats]
+branches = 15
+tag_count = 0
+commits = 1
+stars = 5
+watching = 2
+forks = 4
 
 [[repo]]
 url = "https://github.com/rblaine95/docker_monero"
+last_commit = "3f73501b5cd1c7a9fd86361f0b6c197148a5780b"
+last_commit_time = "2022-07-30T15:35"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+stars = 5
+branches = 66
+commits = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/rblaine95/docker_monero_xmrig"
+last_commit = "913b9e27f1017df58933d69f308b48f8f9390091"
+last_commit_time = "2022-07-11T13:00"
+status = "200"
+
+[repo.stats]
+branches = 128
+tag_count = 0
+commits = 2
+watching = 2
+forks = 9
+stars = 7
 
 [[repo]]
 url = "https://github.com/rbrt-weiler/docker-monero-cpu-miner"
+last_commit = "ed21b549cffbc1ca309ac5ad68a1a6018c64981c"
+last_commit_time = "2020-05-30T07:49"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 2
+forks = 0
+commits = 1
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/roccomuso/xmr.to"
+last_commit = "52d49ea4701ac3100c8c76f56c25680203061662"
+last_commit_time = "2020-03-14T00:45"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+branches = 15
+stars = 3
+commits = 7
+forks = 0
 
 [[repo]]
 url = "https://github.com/sammy007/monero-stratum"
+last_commit = "25f94e28a33ea3c135429c251968db88b9126781"
+last_commit_time = "2019-10-29T02:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 215
+watching = 73
+commits = 3
+branches = 124
+stars = 471
 
 [[repo]]
 url = "https://github.com/SamsungGalaxyPlayer/monero-meetup-kit"
+last_commit = "eee5ebd4c1ac7e9e96f242fd66b5ebe25c9a3782"
+last_commit_time = "2017-11-04T14:49"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+commits = 1
+forks = 0
+branches = 6
+watching = 2
 
 [[repo]]
 url = "https://github.com/sandoche/Monero-miner-website"
+last_commit = "99bed3e5a21707a1da54cf65e7e0fc8fbb44f597"
+last_commit_time = "2020-08-26T20:51"
+status = "200"
+
+[repo.stats]
+stars = 16
+commits = 4
+branches = 23
+watching = 4
+forks = 62
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/selene-kovri/primo-apache"
+last_commit = "f7019d43b850971acd8024e4207e41506ae58a6b"
+last_commit_time = "2019-07-29T00:56"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+forks = 0
+commits = 1
+branches = 2
 
 [[repo]]
 url = "https://github.com/selene-kovri/primo-control-center"
+last_commit = "8465597e068900424b7a86eea2ea6c49dde476a3"
+last_commit_time = "2019-07-29T00:58"
+status = "200"
+
+[repo.stats]
+branches = 2
+watching = 0
+commits = 1
+tag_count = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/shavidzet/monero-node-docker-miner"
+last_commit = "1203d875e9081acaedfa12b7af805ef41809dc81"
+last_commit_time = "2018-04-14T03:38"
+status = "200"
+
+[repo.stats]
+branches = 6
+commits = 3
+stars = 0
+tag_count = 0
+watching = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/sm4rtk1dz/xmrmap"
+last_commit = "7c277adf9cd835dfae0d925e1f1c3fef9df170e2"
+last_commit_time = "2022-02-13T04:05"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 1
+stars = 0
+branches = 17
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/smartnsoft/android-monero-miner"
+status = "200"
+
+[repo.stats]
+forks = 11
+watching = 23
+branches = 14
+tag_count = 0
+stars = 15
+commits = 2
 
 [[repo]]
 url = "https://github.com/sumoprojects/SumoEasyMiner"
+last_commit = "e2c6033df1a116bb752109381b12e46cf29f9dde"
+last_commit_time = "2018-04-03T06:37"
+status = "200"
+
+[repo.stats]
+forks = 65
+tag_count = 0
+branches = 10
+watching = 17
+stars = 81
+commits = 1
 
 [[repo]]
 url = "https://github.com/sumoprojects/sumokoin-wallet-generator"
+last_commit = "bf156a716e0fa6b76aadcab6666bda1901373fb1"
+last_commit_time = "2017-04-28T04:25"
+status = "200"
+
+[repo.stats]
+forks = 265
+watching = 2
+tag_count = 0
+stars = 16
+branches = 34
+commits = 4
 
 [[repo]]
 url = "https://github.com/svegaxmr/monero-vanityaddressgen"
+last_commit = "90a04639816c0c67d74615dcced0338db3ade7f8"
+last_commit_time = "2018-08-14T16:47"
+status = "200"
+
+[repo.stats]
+branches = 21
+stars = 1
+tag_count = 0
+commits = 1
+watching = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/techqc/cryptonote-xmr-pool"
+last_commit = "9254e7df5a68bbbadacacf28c7acd0a25f279896"
+last_commit_time = "2018-03-09T14:19"
+status = "200"
+
+[repo.stats]
+forks = 4
+watching = 0
+tag_count = 0
+branches = 5
+stars = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/TENDIGI/XMRMiner"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 0
+watching = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/tevador/RandomX"
 tags = ["Protocol"]
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 240
+tag_count = 0
+commits = 50
+watching = 81
+branches = 443
 
 [[repo]]
 url = "https://github.com/tiedtoastar/monero-etl"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+commits = 0
+forks = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/trey-jones/xmrwasp"
+last_commit = "624ef01eeb384354dba814ac650c60e87054a8af"
+last_commit_time = "2018-03-21T13:35"
+status = "200"
+
+[repo.stats]
+branches = 24
+tag_count = 0
+watching = 5
+commits = 1
+stars = 18
+forks = 6
 
 [[repo]]
 url = "https://github.com/ttimt/xmr-stak-cpu-linux"
+last_commit = "302840a5f980a09a0fb3d8272d720f0f487d66d4"
+last_commit_time = "2018-01-16T03:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+stars = 8
+branches = 48
+watching = 2
 
 [[repo]]
 url = "https://github.com/ttimt/xmr-stak-cpu-nvidia-windows"
+last_commit = "cbeaa6a8c8b0f0d4ca7ae4c8d7eec622056a2c13"
+last_commit_time = "2018-01-16T03:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 3
+forks = 3
+watching = 4
+commits = 1
+branches = 9
 
 [[repo]]
 url = "https://github.com/TypistTech/pickaxe-coinhive-miner-chrome"
+last_commit = "d9e7ef006a3ba2ff262754dfeb4ccc903c819f1e"
+last_commit_time = "2018-02-16T14:19"
+status = "200"
+
+[repo.stats]
+forks = 7
+branches = 118
+watching = 2
+stars = 6
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/umbertocicero/coinhive-monero"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 5
+stars = 46
+branches = 17
+forks = 34
 
 [[repo]]
 url = "https://github.com/uPlexa/uplexa"
+last_commit = "d097bd78b0afb9b4c22a2ebc83a8b5f385253c53"
+last_commit_time = "2021-06-09T21:08"
+status = "200"
+
+[repo.stats]
+commits = 9
+branches = 0
+stars = 45
+watching = 25
+tag_count = 0
+forks = 18
 
 [[repo]]
 url = "https://github.com/valentinvieriu/monero-docker"
+last_commit = "a575f3e18c14b5b738e4c3c3ba399a498ae8ad5e"
+last_commit_time = "2017-10-29T13:40"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 0
+stars = 0
+branches = 4
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/vtnerd/monero-lws"
+last_commit = "89bac4548b2be67ba372efadb2e3c15099a40a57"
+last_commit_time = "2022-07-27T23:34"
+status = "200"
+
+[repo.stats]
+commits = 4
+stars = 41
+watching = 14
+branches = 41
+tag_count = 0
+forks = 15
 
 [[repo]]
 url = "https://github.com/vtorhonen/ez-docker-monero"
+last_commit = "c75dfcd7f70abfad42b3a1ab09bd86cc937b663d"
+last_commit_time = "2017-10-05T17:35"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 5
+stars = 2
+forks = 2
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/weijiekoh/py2-monero-wallet-generator"
+last_commit = "aea56482638296e9e495205764ed4c0d3206bd43"
+last_commit_time = "2018-01-16T07:28"
+status = "200"
+
+[repo.stats]
+stars = 8
+watching = 1
+commits = 1
+tag_count = 0
+branches = 12
+forks = 3
 
 [[repo]]
 url = "https://github.com/WooKeyWallet/monero-ios-lib"
+last_commit = "21378d2f2478d8b71cb3f413a894ac4d9a1dcfc5"
+last_commit_time = "2020-06-22T07:36"
+status = "200"
+
+[repo.stats]
+branches = 10
+stars = 4
+tag_count = 0
+watching = 0
+forks = 9
+commits = 1
 
 [[repo]]
 url = "https://github.com/WooKeyWallet/monero-nodes"
+status = "200"
+
+[repo.stats]
+forks = 5
+branches = 9
+watching = 1
+commits = 1
+stars = 10
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/WooKeyWallet/monero-restore-height"
+last_commit = "925f6865e77c06a7056ca679b0a63d75651642a2"
+last_commit_time = "2020-10-21T02:05"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+commits = 1
+forks = 2
+stars = 1
+branches = 15
 
 [[repo]]
 url = "https://github.com/WooKeyWallet/monero-wallet-android-app"
+last_commit = "1878da68e5aeb5b37a92b0c6153070febe789edd"
+last_commit_time = "2022-06-29T08:35"
+status = "200"
+
+[repo.stats]
+stars = 17
+watching = 4
+branches = 24
+tag_count = 0
+forks = 18
+commits = 1
 
 [[repo]]
 url = "https://github.com/WooKeyWallet/monero-wallet-ios-app"
+last_commit = "e78c1f722ec36f0e0b8dc14977bcebbf2babf753"
+last_commit_time = "2020-06-29T07:09"
+status = "200"
+
+[repo.stats]
+branches = 21
+tag_count = 0
+watching = 0
+forks = 11
+commits = 1
+stars = 14
 
 [[repo]]
 url = "https://github.com/wownero-project/wownero"
+last_commit = "053c7bccb592b5e53d99dccd107494fa7363d4b3"
+last_commit_time = "2022-03-19T10:08"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 0
+tag_count = 0
+branches = 0
+commits = 17
 
 [[repo]]
 url = "https://github.com/x25/coinhive-stratum-mining-proxy"
+last_commit = "41ce52579524647a561c0b2bbe69731a9d8151be"
+last_commit_time = "2018-02-09T13:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 23
+watching = 38
+forks = 114
+commits = 1
+stars = 254
 
 [[repo]]
 url = "https://github.com/xmr-rs/xmr"
+last_commit = "358cf0680c672da7346d4b6d19afb3853141b56c"
+last_commit_time = "2020-09-27T19:41"
+status = "200"
+
+[repo.stats]
+watching = 7
+branches = 270
+tag_count = 0
+commits = 1
+forks = 9
+stars = 23
 
 [[repo]]
 url = "https://github.com/xmr-ru/api_xmr"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+commits = 0
+tag_count = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/xmr-ru/docs_xmr"
+last_commit = "d72359c48fe6c197a3569f36bf9db58a3d371d97"
+last_commit_time = "2020-07-16T11:28"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 1
+forks = 0
+branches = 41
+commits = 1
 
 [[repo]]
 url = "https://github.com/xmr-ru/monero-research-lab-translations"
+last_commit = "f09c6f92172a4335692e48c3198e1331302a97c4"
+last_commit_time = "2022-05-28T09:27"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 3
+watching = 0
+tag_count = 0
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/xmr-ru/moneropedia"
+last_commit = "c6660ad62b0da18d78d247822260b329b003886c"
+last_commit_time = "2022-02-01T14:54"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 2
+forks = 0
+branches = 14
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/xmr-ru/news_xmr"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+forks = 0
+commits = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/xmr-ru/xmr_ru"
+last_commit = "a7707434a97370ef8233f0400e4a6b40adda8eb6"
+last_commit_time = "2022-08-03T15:29"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+watching = 2
+tag_count = 0
+branches = 135
+forks = 3
 
 [[repo]]
 url = "https://github.com/xmrig/xmrig"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+tag_count = 0
+branches = 0
+watching = 367
+commits = 20
 
 [[repo]]
 url = "https://github.com/xmrig/xmrig-amd"
+status = "200"
+
+[repo.stats]
+forks = 230
+commits = 4
+branches = 503
+stars = 378
+watching = 61
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/xmrig/xmrig-config"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 37
+branches = 42
+forks = 22
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/xmrig/xmrig-nvidia"
+status = "200"
+
+[repo.stats]
+stars = 639
+tag_count = 0
+forks = 273
+branches = 353
+commits = 7
+watching = 82
 
 [[repo]]
 url = "https://github.com/xmrig/xmrig-proxy"
+status = "200"
+
+[repo.stats]
+forks = 340
+stars = 490
+tag_count = 0
+commits = 11
+watching = 69
+branches = 800
 
 [[repo]]
 url = "https://github.com/xmrMiner/xmrMiner"
+last_commit = "26429282361ca31f9b74e9aef0872bc80b389ec3"
+last_commit_time = "2018-03-30T18:44"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 27
+forks = 77
+stars = 168
+branches = 139
+commits = 2
 
 [[repo]]
 url = "https://github.com/XMRWallet/Website"
+last_commit = "8420783283b180f2514f6e58928f5a9ccfa8785d"
+last_commit_time = "2018-11-07T00:00"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 25
+stars = 16
+watching = 1
+branches = 47
 
 [[repo]]
 url = "https://gitlab.com/securebrowse/securebrowse"
 tags = ["Developer Tool"]
+status = "200"
+
+[repo.stats]
+commits = 0
+stars = 0
+watching = 0
+branches = 0
+forks = 0
+tag_count = 0

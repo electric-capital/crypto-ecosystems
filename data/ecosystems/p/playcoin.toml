@@ -1,11 +1,19 @@
-# Ecosystem Level Information
 title = "PlayCoin"
-
+toml_path = "data/ecosystems/p/playcoin.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/playcoindev/ERCContract"
 tags = ["Protocol"]
+last_commit = "dc017cf61fc5a80d21eafacaf15990e9589a2b79"
+last_commit_time = "2018-09-03T02:43"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+branches = 2
+tag_count = 0
+watching = 2
+stars = 1

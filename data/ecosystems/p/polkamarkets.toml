@@ -1,10 +1,16 @@
-# Ecosystem Level Information
 title = "Polkamarkets"
-
+toml_path = "data/ecosystems/p/polkamarkets.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/Polkamarkets/polkamarkets-web"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 0
+commits = 6
+watching = 2
+tag_count = 0
+stars = 16

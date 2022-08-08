@@ -1,19 +1,60 @@
-# Ecosystem Level Information
 title = "Shopping.io Governance"
-
+toml_path = "data/ecosystems/s/shopping-io-governance.toml"
+github_organizations = ["https://github.com/shoppingio"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/shoppingio"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/shoppingio/assets"
+last_commit = "e8d59df83d738b950d4eaa85c35af098bc3c94cc"
+last_commit_time = "2021-01-02T20:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+forks = 0
+branches = 0
+commits = 16
+stars = 0
 
 [[repo]]
 url = "https://github.com/shoppingio/community-feedback"
+last_commit = "ce89f44310bf44011c2ce1a839a86b81844ca373"
+last_commit_time = "2021-06-22T14:14"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+commits = 1
+branches = 10
+watching = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/shoppingio/snapshot-spaces"
+last_commit = "60f7c68ff6dcb57b79c5e1b9f635d282ab69ca26"
+last_commit_time = "2021-03-10T06:25"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 8
+branches = 890
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/shoppingio/source-code"
+last_commit = "fe00b84301fff61a42e7dd5ce4ca3fad743b8bca"
+last_commit_time = "2021-01-02T18:31"
+status = "200"
+
+[repo.stats]
+branches = 3
+stars = 0
+watching = 1
+forks = 1
+commits = 1
+tag_count = 0

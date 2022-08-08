@@ -1,115 +1,496 @@
-# Ecosystem Level Information
 title = "Peerplays"
-
+toml_path = "data/ecosystems/p/peerplays.toml"
+github_organizations = ["https://github.com/PBSA"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/PBSA"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/PBSA/block-explorer"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+forks = 0
+tag_count = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/PBSA/BookiePro"
+last_commit = "fdd099302764f5b9bcca4abfef1f84c049160387"
+last_commit_time = "2019-03-10T16:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 16
+forks = 0
+stars = 4
+watching = 6
 
 [[repo]]
 url = "https://github.com/PBSA/bookiepro.com"
+last_commit = "7e0ca0c4b57bef20b856db5c271828c776e2883b"
+last_commit_time = "2019-06-20T14:57"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 0
+branches = 15
+watching = 6
+stars = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PBSA/bookiesports"
+last_commit = "e0cf9ef7ec3749c97aeff6ae13a684802c6a4df8"
+last_commit_time = "2021-02-24T11:42"
+status = "200"
+
+[repo.stats]
+stars = 12
+forks = 2
+tag_count = 0
+branches = 362
+watching = 12
+commits = 20
 
 [[repo]]
 url = "https://github.com/PBSA/bos-auto"
+last_commit = "77da79d9954cf986a89f7fdd306c0a8aad95bf2c"
+last_commit_time = "2021-01-26T01:28"
+status = "200"
+
+[repo.stats]
+stars = 8
+forks = 2
+watching = 11
+tag_count = 0
+branches = 436
+commits = 16
 
 [[repo]]
 url = "https://github.com/PBSA/bos-dataproxy"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+tag_count = 0
+forks = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/PBSA/bos-incidents"
+last_commit = "32f80688776bd0834338ebf3cead148523895a4f"
+last_commit_time = "2019-11-15T20:30"
+status = "200"
+
+[repo.stats]
+stars = 5
+tag_count = 0
+watching = 11
+forks = 1
+branches = 141
+commits = 10
 
 [[repo]]
 url = "https://github.com/PBSA/bos-mint"
+last_commit = "16fb20cc2f768a6cb20c34a28565e843e562472e"
+last_commit_time = "2021-01-07T19:04"
+status = "200"
+
+[repo.stats]
+branches = 362
+tag_count = 0
+watching = 11
+forks = 4
+stars = 7
+commits = 35
 
 [[repo]]
 url = "https://github.com/PBSA/bos-sync"
+last_commit = "c854a148ee90f2f714fb48b1694fb6fc483c3ada"
+last_commit_time = "2021-05-18T13:34"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 7
+tag_count = 0
+branches = 215
+watching = 11
+commits = 7
 
 [[repo]]
 url = "https://github.com/PBSA/community-project-docs"
+last_commit = "5d515d54c79b46a36b0103321a960d482e32a598"
+last_commit_time = "2021-06-18T12:41"
+status = "200"
+
+[repo.stats]
+forks = 3
+watching = 3
+stars = 0
+branches = 508
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/PBSA/Couch-Potato"
+last_commit = "8c5c4a7e2011a55055db1035fc39a4e1e8d931d0"
+last_commit_time = "2020-03-30T17:32"
+status = "200"
+
+[repo.stats]
+branches = 47
+commits = 7
+watching = 4
+stars = 1
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PBSA/Couch-Potato-API"
+last_commit = "dd7e6aa12d572bc6f365f5d8808ba35ce8f118d2"
+last_commit_time = "2020-04-02T12:47"
+status = "200"
+
+[repo.stats]
+branches = 61
+forks = 0
+commits = 5
+watching = 3
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PBSA/CouchPotato-Documents"
+last_commit = "e0248076f1437ec73dfb2458d66dbe6a94c312d8"
+last_commit_time = "2020-12-28T15:22"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 186
+forks = 0
+commits = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/PBSA/Explorer-Server"
+last_commit = "2b131f51c154a5e31d1a2d5fd63fedf19c33bba7"
+last_commit_time = "2018-03-23T18:27"
+status = "200"
+
+[repo.stats]
+stars = 3
+tag_count = 0
+forks = 1
+branches = 14
+commits = 3
+watching = 3
 
 [[repo]]
 url = "https://github.com/PBSA/faucet"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+commits = 3
+forks = 6
+branches = 38
+watching = 4
 
 [[repo]]
 url = "https://github.com/PBSA/lightMVP-back"
+last_commit = "e8a47e18056e13470daf50dbe1ada7f7260762fd"
+last_commit_time = "2019-04-26T19:16"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 3
+branches = 14
+forks = 0
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PBSA/lightMVP-front"
+last_commit = "5440bcd2c3aec062d62198d42849f269a7a77338"
+last_commit_time = "2019-04-30T12:03"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 3
+commits = 4
+tag_count = 0
+forks = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/PBSA/NH5050-Backend"
+last_commit = "afb0ca366da736242fbb59cb6bd5e0d702e41f2a"
+last_commit_time = "2021-06-29T11:30"
+status = "200"
+
+[repo.stats]
+commits = 70
+watching = 2
+tag_count = 0
+forks = 0
+stars = 0
+branches = 103
 
 [[repo]]
 url = "https://github.com/PBSA/NH5050-Frontend"
+last_commit = "c855a439e8d3cbee649fd250e471b21cd4da5276"
+last_commit_time = "2020-05-28T14:47"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 0
+commits = 95
+forks = 0
+branches = 258
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PBSA/peerid-backend"
+last_commit = "e79484542ea45321cfadd6393a6f2f8c3a91bdbe"
+last_commit_time = "2021-08-11T18:01"
+status = "200"
+
+[repo.stats]
+branches = 70
+forks = 2
+tag_count = 0
+watching = 3
+commits = 24
+stars = 0
 
 [[repo]]
 url = "https://github.com/PBSA/PeerID-docs"
+last_commit = "a2b11e022d08eb2996190cf10224dab2b1ec262a"
+last_commit_time = "2022-01-24T16:12"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 1
+watching = 3
+stars = 0
+branches = 36
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PBSA/peerid-gui"
+last_commit = "8e0644fdbf448ced57944935869f4a99e629aded"
+last_commit_time = "2021-08-11T16:58"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+stars = 0
+forks = 2
+commits = 46
+branches = 172
 
 [[repo]]
 url = "https://github.com/PBSA/peerplays"
+last_commit = "946001b8e71c33258886f74cbea3be3e19baded2"
+last_commit_time = "2018-10-29T09:29"
+status = "200"
+
+[repo.stats]
+forks = 50
+stars = 33
+watching = 19
+branches = 74
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/PBSA/peerplays-0.1-fc"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 0
+branches = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/PBSA/peerplays-core-gui"
+last_commit = "4c201f53be366e0dd9dc54ef95cab0007365b22d"
+last_commit_time = "2019-03-06T19:38"
+status = "200"
+
+[repo.stats]
+stars = 31
+watching = 12
+forks = 21
+tag_count = 0
+branches = 262
+commits = 13
 
 [[repo]]
 url = "https://github.com/PBSA/peerplays-developer-docs"
+last_commit = "60b5c70265cc2c3e7e4881ce7225bcc82d72e1f4"
+last_commit_time = "2022-08-01T14:55"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 1
+stars = 0
+watching = 2
+branches = 190
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PBSA/peerplays-electron-build"
+last_commit = "8a1c2c4546b8bac897bea0e4ec941484f2d7e8c3"
+last_commit_time = "2018-11-29T13:07"
+status = "200"
+
+[repo.stats]
+watching = 6
+branches = 3
+commits = 8
+stars = 3
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PBSA/peerplays-electron-build-bookie"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+stars = 0
+watching = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/PBSA/peerplays-fc"
+last_commit = "6096e94e1b4c48a393c9335580365df144f2758f"
+last_commit_time = "2019-10-09T12:33"
+status = "200"
+
+[repo.stats]
+watching = 6
+tag_count = 0
+commits = 5
+forks = 10
+stars = 4
+branches = 0
 
 [[repo]]
 url = "https://github.com/PBSA/peerplays-infrastructure-docs"
+last_commit = "5443f3012f6516a9d0fe7910aada03dcb4bab240"
+last_commit_time = "2022-07-22T13:18"
+status = "200"
+
+[repo.stats]
+branches = 127
+tag_count = 0
+forks = 1
+stars = 0
+commits = 2
+watching = 2
 
 [[repo]]
 url = "https://github.com/PBSA/peerplaysjs-lib"
+last_commit = "b852b422280989f6a34204bc90c5b2f5d2bb0001"
+last_commit_time = "2018-11-27T23:06"
+status = "200"
+
+[repo.stats]
+commits = 10
+tag_count = 0
+forks = 9
+stars = 4
+branches = 168
+watching = 8
 
 [[repo]]
 url = "https://github.com/PBSA/peerplaysjs-ws"
+last_commit = "59b7784ead4fa8726a8778808e5fa841c3803109"
+last_commit_time = "2019-04-15T19:15"
+status = "200"
+
+[repo.stats]
+watching = 5
+branches = 122
+tag_count = 0
+commits = 9
+stars = 3
+forks = 3
 
 [[repo]]
 url = "https://github.com/PBSA/python-peerplays"
+last_commit = "eeed0317c037904f249accd4d3834e5590ee1e18"
+last_commit_time = "2022-07-15T11:18"
+status = "200"
+
+[repo.stats]
+watching = 12
+branches = 524
+forks = 13
+tag_count = 0
+commits = 42
+stars = 20
 
 [[repo]]
 url = "https://github.com/PBSA/StreamersEdge"
+last_commit = "2847e4dca81f8e329bf3d9324699cbd36ca6e89c"
+last_commit_time = "2021-01-05T19:38"
+status = "200"
+
+[repo.stats]
+branches = 303
+commits = 258
+stars = 1
+tag_count = 0
+watching = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/PBSA/Technical-Documents"
+last_commit = "161af4b716319bea820e7d42a7d35a0532023f48"
+last_commit_time = "2022-07-22T14:17"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 799
+forks = 4
+watching = 5
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/PBSA/testnet"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+watching = 0
+stars = 0
+commits = 0
+forks = 0

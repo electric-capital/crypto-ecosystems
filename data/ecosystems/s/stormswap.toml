@@ -1,13 +1,32 @@
-# Ecosystem Level Information
 title = "StormSwap"
-
+toml_path = "data/ecosystems/s/stormswap.toml"
+github_organizations = ["https://github.com/StormSwap"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/StormSwap"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Storm224/Stormswap-Contract"
+last_commit = "5d3736ec1704245b4e294555ab666eea005e2494"
+last_commit_time = "2021-08-31T14:42"
+status = "200"
+
+[repo.stats]
+branches = 10
+tag_count = 0
+forks = 1
+watching = 1
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/StormSwap/bsc-connector"
+last_commit = "98e7d9898ae7f182754492870aa8513ca158e076"
+last_commit_time = "2020-09-17T00:38"
+status = "200"
+
+[repo.stats]
+forks = 3
+commits = 1
+branches = 1
+watching = 2
+tag_count = 0
+stars = 1

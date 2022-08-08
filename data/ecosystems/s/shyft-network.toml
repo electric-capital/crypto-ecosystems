@@ -1,151 +1,672 @@
-# Ecosystem Level Information
 title = "Shyft Network"
-
+toml_path = "data/ecosystems/s/shyft-network.toml"
+github_organizations = ["https://github.com/ShyftNetwork"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/ShyftNetwork"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/ShyftNetwork/blockexplorer_api"
+last_commit = "b644a2ec4d243f4615aa24d716801a9ae1908184"
+last_commit_time = "2019-01-23T19:54"
+status = "200"
+
+[repo.stats]
+commits = 5
+tag_count = 0
+watching = 13
+stars = 1
+branches = 17
+forks = 3
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/blockexplorer_ui"
+last_commit = "126549538ed22cb5931ba9fcc91c22fee91754fd"
+last_commit_time = "2019-01-23T19:56"
+status = "200"
+
+[repo.stats]
+watching = 13
+stars = 2
+branches = 28
+forks = 3
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/ChainBridge"
+last_commit = "7e11d02c1cfd70e1275bf36dfb02e2fa88759d5f"
+last_commit_time = "2021-04-26T14:33"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 1
+forks = 279
+branches = 254
+tag_count = 0
+commits = 19
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/chains"
+last_commit = "9e682a4f49cc84ea00c0f5fd1ec24c02c7b4ed99"
+last_commit_time = "2022-02-06T15:56"
+status = "200"
+
+[repo.stats]
+commits = 126
+stars = 1
+watching = 0
+branches = 602
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/daf-mobile"
+last_commit = "32c2f4b6ec71b57cee98fcc9b9bb1289d1a74c75"
+last_commit_time = "2020-10-28T06:35"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 12
+watching = 1
+branches = 660
+tag_count = 0
+commits = 35
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/dafhub"
+last_commit = "5b203bd5d979520a6dfe8326fcb09245311fb0cb"
+last_commit_time = "2020-10-08T11:04"
+status = "200"
+
+[repo.stats]
+forks = 4
+tag_count = 0
+watching = 1
+commits = 7
+stars = 1
+branches = 36
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/eos_merkletreeproof_test"
+last_commit = "364783ffe17260c7d584920fa39131be878ca02b"
+last_commit_time = "2019-03-07T21:10"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 1
+watching = 10
+tag_count = 0
+forks = 1
+branches = 1
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/gnosis-py"
+last_commit = "1dab7d047b4471108ca87eaf47c41de1e17da143"
+last_commit_time = "2022-02-07T14:58"
+status = "200"
+
+[repo.stats]
+branches = 711
+forks = 73
+tag_count = 0
+watching = 0
+stars = 0
+commits = 15
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/go-empyrean"
+last_commit = "fbfca9338f043e87a6d7fa6358c323a9046f714a"
+last_commit_time = "2019-11-27T20:19"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 0
+watching = 8
+tag_count = 0
+commits = 66
+stars = 12
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/parity-deploy"
+last_commit = "4050ea19f2262d636fcbb698bdd911c6748f34b1"
+last_commit_time = "2019-02-20T20:54"
+status = "200"
+
+[repo.stats]
+forks = 50
+tag_count = 0
+stars = 1
+watching = 1
+branches = 169
+commits = 8
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/pygments-lexer-solidity"
+last_commit = "af47732c6da4adb8975a1485010844194d39da24"
+last_commit_time = "2018-05-24T11:54"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 3
+tag_count = 0
+branches = 36
+commits = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_bridge"
+last_commit = "30538a2697fb3478bedc9a09a5b90a0bff88bcf4"
+last_commit_time = "2018-04-13T05:17"
+status = "200"
+
+[repo.stats]
+branches = 529
+watching = 6
+tag_count = 0
+commits = 7
+forks = 91
+stars = 1
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ethereumjs-abi"
+last_commit = "21081b4c15431c95f1393332de66fefcc14e3a20"
+last_commit_time = "2019-03-16T07:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+forks = 152
+stars = 1
+watching = 3
+branches = 179
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ethereumjs-account"
+last_commit = "7241ac2126d13b84d721be6783214ab9162375cb"
+last_commit_time = "2018-07-16T19:36"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 88
+watching = 2
+tag_count = 0
+commits = 12
+forks = 35
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ethereumjs-block"
+last_commit = "1e54b32d164bb202790ae6333a741d46219d0049"
+last_commit_time = "2018-07-14T17:31"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 179
+forks = 48
+commits = 3
+watching = 6
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ethereumjs-blockchain"
+last_commit = "a3006ddac43468d666036d00a4936e6f0f2873cc"
+last_commit_time = "2018-07-14T17:37"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+forks = 63
+stars = 1
+branches = 129
+commits = 15
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ethereumjs-common"
+last_commit = "d9143b5ce8765687ae0f4782b10fcf527cbd8d0c"
+last_commit_time = "2018-07-14T16:03"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 40
+watching = 2
+tag_count = 0
+branches = 50
+commits = 1
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ethereumjs-testing"
+last_commit = "d25e5d2866771d473e7b503cef519a041c636d1a"
+last_commit_time = "2018-11-15T19:25"
+status = "200"
+
+[repo.stats]
+branches = 163
+commits = 8
+stars = 1
+watching = 2
+forks = 24
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ethereumjs-tx"
+last_commit = "ac09adc2cbc518cb8eeeca279d07a3af2e9c4e27"
+last_commit_time = "2018-07-14T17:09"
+status = "200"
+
+[repo.stats]
+commits = 3
+forks = 247
+stars = 1
+branches = 325
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ethereumjs-util"
+last_commit = "21f94c88e9da8655af12f45566370e03740a395a"
+last_commit_time = "2018-07-16T19:22"
+status = "200"
+
+[repo.stats]
+commits = 6
+forks = 286
+watching = 6
+tag_count = 0
+branches = 411
+stars = 1
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ethereumjs-vm"
+last_commit = "a21f5cfd24c2779c33c6e33c917adf6130fe25f1"
+last_commit_time = "2018-12-08T00:10"
+status = "200"
+
+[repo.stats]
+forks = 551
+tag_count = 0
+branches = 983
+commits = 12
+watching = 6
+stars = 3
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ethereumjs-wallet"
+last_commit = "f61cdbe841314f82caa5bb188b993f9a1b3956bb"
+last_commit_time = "2018-07-14T17:52"
+status = "200"
+
+[repo.stats]
+forks = 280
+branches = 86
+watching = 2
+tag_count = 0
+commits = 5
+stars = 1
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ganache"
+last_commit = "3a1de9b9bd922e80dcab3844a96b03e144182727"
+last_commit_time = "2017-12-21T20:13"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 7
+forks = 733
+tag_count = 0
+commits = 8
+branches = 443
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ganache-cli"
+last_commit = "0b76bb578b02e4c763436102cca69da715945425"
+last_commit_time = "2018-12-04T23:37"
+status = "200"
+
+[repo.stats]
+watching = 6
+tag_count = 0
+stars = 1
+branches = 640
+commits = 13
+forks = 737
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_ganache-core"
+last_commit = "cbcb12a5ae9bbfebe7d8e3c643e9e069d72878fc"
+last_commit_time = "2018-12-04T23:30"
+status = "200"
+
+[repo.stats]
+watching = 7
+forks = 546
+stars = 1
+branches = 878
+tag_count = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_hive"
+last_commit = "32f8a2836b9a2cd8ae2cf36b969fb21d3312c4a4"
+last_commit_time = "2018-10-19T07:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 25
+branches = 337
+forks = 120
+stars = 1
+watching = 6
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_merkle-lib"
+last_commit = "051f7020d4e457fdeb02239f2828cab01afdb667"
+last_commit_time = "2019-03-24T20:18"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 19
+forks = 1
+tag_count = 0
+watching = 3
+stars = 1
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_openethereum"
+last_commit = "11e40fad8bcb94537326e8ec4e0cddc49ccea651"
+last_commit_time = "2020-08-10T09:45"
+status = "200"
+
+[repo.stats]
+branches = 0
+forks = 0
+tag_count = 0
+commits = 10
+stars = 5
+watching = 8
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_relay_nodes"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+commits = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_remix"
+last_commit = "ffe3a0c38fed63e17926e796cf69cd864277a4c6"
+last_commit_time = "2018-12-13T21:59"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 6
+forks = 451
+tag_count = 0
+commits = 22
+stars = 1
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_remix-ide"
+last_commit = "94d3e8ecbc1a5af21161dff6ceede9b56afd2006"
+last_commit_time = "2018-10-11T18:58"
+status = "200"
+
+[repo.stats]
+forks = 913
+stars = 1
+watching = 6
+branches = 0
+commits = 52
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_remix-tests"
+last_commit = "830683fb3cede09bc3a1518c61d5ee70966e8fa9"
+last_commit_time = "2018-06-26T13:18"
+status = "200"
+
+[repo.stats]
+forks = 6
+stars = 2
+watching = 2
+tag_count = 0
+commits = 10
+branches = 95
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_solc-bin"
+last_commit = "f6ba2b4c02e60d0a592a76f2d1a5a04a67a5c193"
+last_commit_time = "2018-08-27T21:10"
+status = "200"
+
+[repo.stats]
+forks = 207
+branches = 511
+commits = 4
+tag_count = 0
+stars = 1
+watching = 6
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_solc-js"
+last_commit = "805738a10bfefaf9cb6c1f083baa05f73d3f56e6"
+last_commit_time = "2018-11-04T10:31"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 268
+commits = 4
+branches = 336
+watching = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_solidity"
+last_commit = "d5d505db0aab5ddaecc8bb995cbde8c410bfd104"
+last_commit_time = "2018-08-24T20:33"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 7
+tag_count = 0
+commits = 62
+forks = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_solidity-test-bytecode"
+last_commit = "1f08c6272b4651838887e01c68000424f1c4aa7c"
+last_commit_time = "2019-04-28T19:55"
+status = "200"
+
+[repo.stats]
+forks = 58
+watching = 2
+tag_count = 0
+commits = 1
+branches = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_tests"
+last_commit = "32024cf66eb625cbfe8b34d47868067cd4ea6519"
+last_commit_time = "2018-11-15T00:46"
+status = "200"
+
+[repo.stats]
+commits = 13
+tag_count = 0
+stars = 1
+forks = 271
+watching = 6
+branches = 0
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_tetrix"
+last_commit = "27c5180e7e10d9641c203ca2aa3678fda188a5fd"
+last_commit_time = "2018-05-15T18:09"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 1
+commits = 2
+forks = 5
+tag_count = 0
+branches = 185
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_truffle"
+last_commit = "490d20d0eaebffb57f8494c88c05d6c734b85b1d"
+last_commit_time = "2018-11-28T00:26"
+status = "200"
+
+[repo.stats]
+commits = 23
+branches = 0
+tag_count = 0
+forks = 0
+stars = 1
+watching = 6
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_truffle-compile"
+last_commit = "840a4b68991d8b79af52f167adebf3980bf947ce"
+last_commit_time = "2018-07-11T21:02"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 5
+watching = 6
+branches = 144
+stars = 1
+forks = 48
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_truffle-contract"
+last_commit = "fba8d70e3d3c826cc517be7dcc6fcdae212c8ac2"
+last_commit_time = "2018-07-12T15:24"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 157
+commits = 11
+forks = 145
+watching = 2
+stars = 1
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/shyft_truffle-core"
+last_commit = "c639c75b30d7e4da2e922070f4276ae00412600d"
+last_commit_time = "2018-07-11T21:34"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 14
+watching = 6
+forks = 94
+branches = 819
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/ShyftCore_Public"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+branches = 0
+tag_count = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/ShyftScripting"
+last_commit = "b4c8812a2a28e8cf3ff8815f3cc8a092b6093611"
+last_commit_time = "2021-06-29T02:16"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 1
+stars = 1
+forks = 1
+branches = 7
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/slips"
+last_commit = "3ca57423e45f24243eeb4a2db950787b67dabbd8"
+last_commit_time = "2022-02-08T23:04"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 0
+commits = 8
+stars = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/sphinxcontrib-soliditydomain"
+last_commit = "b004b6e43727771027b4065fab18fcb9ccb2c826"
+last_commit_time = "2018-12-11T00:09"
+status = "200"
+
+[repo.stats]
+forks = 7
+stars = 1
+branches = 51
+tag_count = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/StakingModule"
+last_commit = "f887cfe3c4c9043165f7bd4889326de43b12123b"
+last_commit_time = "2022-06-29T18:22"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 8
+stars = 0
+branches = 21
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/ShyftNetwork/veriscope"
+last_commit = "f8d61d4a366da761d2ead965b7deabf1c901aca2"
+last_commit_time = "2022-07-06T17:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 9
+watching = 8
+branches = 227
+stars = 3
+commits = 47

@@ -1,109 +1,480 @@
-# Ecosystem Level Information
 title = "Civil"
-
+toml_path = "data/ecosystems/c/civil.toml"
+github_organizations = ["https://github.com/joincivil"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/joincivil"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/joincivil/0x-monorepo"
+last_commit = "fac90c446cc3a79ffe57ae13c685e7555714cf23"
+last_commit_time = "2018-07-24T17:46"
+status = "200"
+
+[repo.stats]
+watching = 8
+tag_count = 0
+forks = 505
+branches = 0
+commits = 110
+stars = 0
 
 [[repo]]
 url = "https://github.com/joincivil/build-node"
+last_commit = "340bcadd32a01724e66b4eff8c675a546225b295"
+last_commit_time = "2017-12-29T13:29"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 1
+tag_count = 0
+forks = 0
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/joincivil/Civil"
+last_commit = "b337712f3b97ed24c9ebb8d6ff6ac20830578461"
+last_commit_time = "2020-06-02T18:33"
+status = "200"
+
+[repo.stats]
+stars = 188
+forks = 23
+branches = 0
+tag_count = 0
+commits = 210
+watching = 19
 
 [[repo]]
 url = "https://github.com/joincivil/civil-api-server"
+last_commit = "c1f92f275d2befd4b649b1a6b344254a774c20f0"
+last_commit_time = "2020-03-24T19:02"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 947
+watching = 4
+commits = 40
+forks = 0
 
 [[repo]]
 url = "https://github.com/joincivil/civil-events-crawler"
+last_commit = "2646333a7115aa7731cd64b8e65045faa3100ac9"
+last_commit_time = "2020-02-20T22:15"
+status = "200"
+
+[repo.stats]
+commits = 11
+tag_count = 0
+branches = 573
+stars = 21
+forks = 3
+watching = 7
 
 [[repo]]
 url = "https://github.com/joincivil/civil-events-processor"
+last_commit = "4bd07cd6b4030b3ade04a2e748f7bb31ece3aaa1"
+last_commit_time = "2020-01-24T14:53"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 518
+forks = 0
+stars = 0
+tag_count = 0
+commits = 17
 
 [[repo]]
 url = "https://github.com/joincivil/civil-publisher-wordpress-plugin"
+last_commit = "302c78769349cf1e6318c49fa7f581ecb0675b25"
+last_commit_time = "2020-01-14T02:13"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+branches = 504
+watching = 12
+commits = 20
+stars = 7
 
 [[repo]]
 url = "https://github.com/joincivil/civil-sdk"
+last_commit = "1180b74ebdc8c277ca5ca619b8e80d66f96bf996"
+last_commit_time = "2019-08-16T17:17"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+stars = 0
+branches = 146
+commits = 24
+watching = 7
 
 [[repo]]
 url = "https://github.com/joincivil/did"
+last_commit = "bdd1431c112d9fe2579a0d4ae73e680d196146b6"
+last_commit_time = "2018-11-18T07:53"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 1
+forks = 17
+branches = 31
+commits = 3
 
 [[repo]]
 url = "https://github.com/joincivil/discourse-api"
+last_commit = "2ec6893028ef99935fb723762115c93d71c5877c"
+last_commit_time = "2019-01-25T16:21"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+stars = 0
+branches = 93
+commits = 1
+forks = 30
 
 [[repo]]
 url = "https://github.com/joincivil/doxity"
+last_commit = "725b671d0215c66fbdba1972d9a49bbe2b7c0ffd"
+last_commit_time = "2018-04-05T21:33"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+watching = 4
+forks = 60
+branches = 74
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/joincivil/eth-contract-metadata"
+last_commit = "b7eedf34a1276928b3a0225cfd5b0b6c8a2f50c1"
+last_commit_time = "2019-03-18T18:20"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 376
+tag_count = 0
+forks = 922
+watching = 10
+commits = 6
 
 [[repo]]
 url = "https://github.com/joincivil/go-common"
+last_commit = "8d1786a9f6894f4577f33f245e4a2fc4aa56dbb5"
+last_commit_time = "2020-01-09T19:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 5
+branches = 223
+commits = 7
+watching = 7
+stars = 3
 
 [[repo]]
 url = "https://github.com/joincivil/go-common-priv"
+last_commit = "e3e28166b0d4cd946701b0ad3651c1e864d67920"
+last_commit_time = "2019-12-05T19:44"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 4
+branches = 56
+watching = 6
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/joincivil/go-ethereum"
+last_commit = "313576530fe2ca0d37c6ddcdd8441030176c6c61"
+last_commit_time = "2019-02-28T12:59"
+status = "200"
+
+[repo.stats]
+commits = 20
+forks = 0
+watching = 10
+branches = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/joincivil/go-iden3-core"
+last_commit = "b9c15333585255cca4a46aa725591ff125813b80"
+last_commit_time = "2019-09-02T13:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 85
+watching = 1
+branches = 352
+stars = 0
+forks = 11
 
 [[repo]]
 url = "https://github.com/joincivil/id-hub"
+last_commit = "cda998fb9c5015c63c56da74b393ea69693a567d"
+last_commit_time = "2020-04-29T21:00"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+stars = 5
+watching = 3
+branches = 167
+commits = 14
 
 [[repo]]
 url = "https://github.com/joincivil/id-hub-node"
+last_commit = "3dd832f2a868f14fa2917a087e958c4728c7d882"
+last_commit_time = "2020-04-06T17:34"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 2
+tag_count = 0
+forks = 0
+watching = 7
+commits = 15
 
 [[repo]]
 url = "https://github.com/joincivil/iframe-test"
+last_commit = "90f39a0461e49a5edcda913d939de33985eba8d1"
+last_commit_time = "2019-12-05T21:42"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 20
+branches = 3
+watching = 7
+forks = 0
 
 [[repo]]
 url = "https://github.com/joincivil/indra"
+last_commit = "2878e9d599e20c4c73d8ee971157e8e80c23ae4b"
+last_commit_time = "2019-05-02T07:39"
+status = "200"
+
+[repo.stats]
+watching = 9
+branches = 0
+tag_count = 0
+commits = 7
+stars = 0
+forks = 37
 
 [[repo]]
 url = "https://github.com/joincivil/kirby-web3"
+last_commit = "59c75ba0eb08042f8f8371fc3445adc4a6b65583"
+last_commit_time = "2020-02-14T21:14"
+status = "200"
+
+[repo.stats]
+watching = 9
+branches = 123
+forks = 4
+tag_count = 0
+stars = 22
+commits = 91
 
 [[repo]]
 url = "https://github.com/joincivil/licensing-demo"
+last_commit = "02747af036da410480f6f6eb91b5bd208329e1ae"
+last_commit_time = "2020-04-30T18:20"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+tag_count = 0
+watching = 1
+commits = 25
+branches = 9
 
 [[repo]]
 url = "https://github.com/joincivil/monorepo"
+last_commit = "8f396db82d6004f681e30b457fb1a4695b477cd3"
+last_commit_time = "2019-09-17T21:24"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 0
+tag_count = 0
+forks = 44
+watching = 1
+commits = 67
 
 [[repo]]
 url = "https://github.com/joincivil/react-ethereum-provider"
+last_commit = "0f94f07e372d6b8c45495d1418c1d88c3e6d239d"
+last_commit_time = "2018-01-04T20:23"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 1
+tag_count = 0
+commits = 1
+branches = 5
+stars = 10
 
 [[repo]]
 url = "https://github.com/joincivil/recruitment-backend-go"
+last_commit = "6c13b89a665b80376776486a020d67a742f8c54d"
+last_commit_time = "2019-05-20T13:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 5
+forks = 0
+branches = 2
+commits = 2
 
 [[repo]]
 url = "https://github.com/joincivil/tcr"
+last_commit = "db1ba3629c977363aff652bb93cd37130cb8cbce"
+last_commit_time = "2018-01-19T01:30"
+status = "200"
+
+[repo.stats]
+branches = 379
+forks = 126
+commits = 14
+watching = 3
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/joincivil/truffle"
+last_commit = "83063ca5362325a127d6f56f6c6344e0d2ed56e2"
+last_commit_time = "2018-03-08T02:38"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 727
+forks = 0
+watching = 4
+commits = 26
+stars = 0
 
 [[repo]]
 url = "https://github.com/joincivil/truffle-core"
+last_commit = "2eac08e2fa24cb861b8ae3a95f0f33028230e663"
+last_commit_time = "2018-03-09T02:05"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 17
+branches = 905
+forks = 94
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/joincivil/truffle-resolver"
+last_commit = "807a1caa33aa14c491312dc2f77dd9ec7c4a2f3a"
+last_commit_time = "2018-03-17T13:16"
+status = "200"
+
+[repo.stats]
+forks = 9
+branches = 43
+commits = 3
+tag_count = 0
+watching = 4
+stars = 0
 
 [[repo]]
 url = "https://github.com/joincivil/trust-ui"
+last_commit = "75b6b3a1adf3917884a3411c7ab175039501b342"
+last_commit_time = "2020-03-26T22:41"
+status = "200"
+
+[repo.stats]
+commits = 23
+watching = 1
+branches = 0
+stars = 0
+tag_count = 0
+forks = 64
 
 [[repo]]
 url = "https://github.com/joincivil/tslint-rules"
+last_commit = "809696c859f5ece6cf1f4e8dd3a45e633dce8b2a"
+last_commit_time = "2018-01-24T22:20"
+status = "200"
+
+[repo.stats]
+branches = 12
+stars = 0
+tag_count = 0
+watching = 3
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/joincivil/web3frame"
+last_commit = "59c75ba0eb08042f8f8371fc3445adc4a6b65583"
+last_commit_time = "2020-02-14T21:14"
+status = "200"
+
+[repo.stats]
+stars = 22
+branches = 123
+forks = 4
+watching = 9
+tag_count = 0
+commits = 91
 
 [[repo]]
 url = "https://github.com/joincivil/web3studio-sojourn"
+last_commit = "406452afca86435526bf5afa2d2f68903a9d1096"
+last_commit_time = "2018-11-19T22:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 91
+commits = 7
+forks = 4
+stars = 0
+watching = 10
 
 [[repo]]
 url = "https://github.com/joincivil/whitepaper"
+last_commit = "ad1797a758c92b027b084296847eb3ceb3bcb92f"
+last_commit_time = "2017-10-25T14:32"
+status = "200"
+
+[repo.stats]
+stars = 20
+tag_count = 0
+branches = 1
+watching = 11
+forks = 2
+commits = 1

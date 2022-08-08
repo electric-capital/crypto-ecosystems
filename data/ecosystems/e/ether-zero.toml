@@ -1,94 +1,408 @@
-# Ecosystem Level Information
 title = "Ether Zero"
-
+toml_path = "data/ecosystems/e/ether-zero.toml"
+github_organizations = ["https://github.com/etherzero-org"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/etherzero-org"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/etherzero-org/atomicswap"
+last_commit = "f2952c1adbd5caa16e6b71553393bd0f843ec7e8"
+last_commit_time = "2018-01-19T17:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 33
+commits = 1
+forks = 241
+stars = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/etherzero-org/btcd"
+last_commit = "50de9da05b50eb15658bb350f6ea24368a111ab7"
+last_commit_time = "2018-01-31T08:40"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 0
+tag_count = 0
+branches = 0
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/documents"
+last_commit = "6121fb8b589e1a87695d4a352d915ffa644fcef0"
+last_commit_time = "2018-02-06T07:15"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 1
+tag_count = 0
+branches = 4
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/etherzero-org/EasyETZ-Android"
+last_commit = "f6229e6625965509a54a3c2d504b344f8ca4bf66"
+last_commit_time = "2018-09-17T10:00"
+status = "200"
+
+[repo.stats]
+commits = 5
+stars = 0
+branches = 33
+watching = 6
+forks = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/EasyETZ-ios"
+last_commit = "489853e23002bde4bdd308dfda77151faf91d923"
+last_commit_time = "2020-08-18T02:48"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 3
+branches = 0
+tag_count = 0
+commits = 9
+forks = 153
 
 [[repo]]
 url = "https://github.com/etherzero-org/etherscan-link"
+last_commit = "232403590555046a0252b6a8e4ec0046d950aecd"
+last_commit_time = "2018-05-19T08:33"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 4
+forks = 38
+watching = 3
+commits = 2
 
 [[repo]]
 url = "https://github.com/etherzero-org/etherwallet"
+last_commit = "38a5ce2dd6afa523933c07238921c68b0437cf5f"
+last_commit_time = "2018-08-25T10:24"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+watching = 6
+stars = 4
+commits = 11
+branches = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/ethminer"
+last_commit = "b3c18d09bb301f128507dae8910865e3b8ce5d4f"
+last_commit_time = "2018-01-13T19:16"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+commits = 12
+watching = 2
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/etzwallet-core"
+last_commit = "9cf880eb1fd1f8447131a2903f24acd8faa60948"
+last_commit_time = "2018-09-13T03:19"
+status = "200"
+
+[repo.stats]
+commits = 85
+forks = 332
+watching = 4
+tag_count = 0
+stars = 0
+branches = 793
 
 [[repo]]
 url = "https://github.com/etherzero-org/explorer"
+last_commit = "0990afb3c5871f7e42236ee686c53423d51f5a2d"
+last_commit_time = "2019-06-27T06:12"
+status = "200"
+
+[repo.stats]
+stars = 13
+forks = 260
+tag_count = 0
+watching = 5
+branches = 608
+commits = 4
 
 [[repo]]
 url = "https://github.com/etherzero-org/go-etherzero"
+status = "200"
+
+[repo.stats]
+commits = 40
+stars = 45
+tag_count = 0
+watching = 15
+forks = 40
+branches = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/GoETZ"
+last_commit = "30b6ecc88c2af13c8d1c4216c79b7dcbb14b6d27"
+last_commit_time = "2019-07-02T09:09"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 6
+commits = 102
+tag_count = 0
+branches = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/mist"
+last_commit = "73cca7d6d00c950e3f01f763eeccd5b61b41fe74"
+last_commit_time = "2017-12-18T18:19"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 2
+branches = 0
+tag_count = 0
+forks = 0
+commits = 21
 
 [[repo]]
 url = "https://github.com/etherzero-org/MSM-Android"
+last_commit = "015f3794e4bbc11bf7478e5d8c12276312f64d06"
+last_commit_time = "2018-08-31T01:47"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+forks = 0
+branches = 8
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/etherzero-org/MSM-ios"
+last_commit = "d09e853ef97ad2aa21b323e71ed4efac82d19bc3"
+last_commit_time = "2018-08-21T09:46"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 0
+tag_count = 0
+branches = 0
+commits = 3
+stars = 1
 
 [[repo]]
 url = "https://github.com/etherzero-org/nettle"
+last_commit = "fd05a0e2558af7b9314c3f7e76334832e6697116"
+last_commit_time = "2017-03-21T01:07"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 2
+watching = 3
+forks = 21
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/obj-multiplex"
+last_commit = "7f4b296d75a5403858a8f68d0d93eff1c7b3f0ed"
+last_commit_time = "2018-06-08T07:01"
+status = "200"
+
+[repo.stats]
+commits = 7
+watching = 3
+forks = 11
+branches = 6
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/open-ethereum-pool"
+last_commit = "da9ee9825a0b0e0a5282f774643e370b6cae49f3"
+last_commit_time = "2018-01-30T05:48"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+watching = 4
+stars = 3
+forks = 0
+branches = 201
 
 [[repo]]
 url = "https://github.com/etherzero-org/OpenETZ"
+last_commit = "8df433e0789cbb9eafae9ed11810174524201885"
+last_commit_time = "2018-04-23T04:13"
+status = "200"
+
+[repo.stats]
+commits = 3
+branches = 41
+forks = 4
+watching = 7
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/opensea-js"
+last_commit = "b8496c2e5dfdbfd5c9b427d426e23e24731f00a6"
+last_commit_time = "2022-07-19T20:07"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+branches = 785
+commits = 47
+forks = 746
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/remix"
+last_commit = "ff5bb85a89245d49a07d7936450f39c16da34e9d"
+last_commit_time = "2018-12-13T06:44"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+forks = 451
+stars = 0
+watching = 5
+commits = 54
 
 [[repo]]
 url = "https://github.com/etherzero-org/remix-ide"
+last_commit = "ef4fd06216b3c7dc47d0c07bd4b1d8950d302e07"
+last_commit_time = "2018-12-13T06:28"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 913
+commits = 100
+branches = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/remixd"
+last_commit = "c9bea2d76b28fd9f42b0d68f98f10eabb1f9a97f"
+last_commit_time = "2018-03-28T08:49"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 1
+watching = 3
+branches = 79
+forks = 106
 
 [[repo]]
 url = "https://github.com/etherzero-org/secp256k1"
+last_commit = "1e6f1f5ad5e7f1e3ef79313ec02023902bf8175c"
+last_commit_time = "2018-05-31T19:00"
+status = "200"
+
+[repo.stats]
+watching = 3
+commits = 2
+stars = 0
+forks = 850
+branches = 855
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/SwiftyJSON"
+last_commit = "3f6f1d32df6e5f334593682b20bb829e48bffbee"
+last_commit_time = "2018-09-26T10:03"
+status = "200"
+
+[repo.stats]
+branches = 723
+commits = 7
+forks = 0
+stars = 1
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/unbound"
+last_commit = "09ff96a34d5e499b92e30f67022d1b904c95b6ac"
+last_commit_time = "2017-03-28T02:11"
+status = "200"
+
+[repo.stats]
+forks = 9
+tag_count = 0
+watching = 3
+stars = 0
+commits = 2
+branches = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/web3.js"
+last_commit = "ec2f371ab2cf37c1e3a3dc0e0d0a118e88ada765"
+last_commit_time = "2018-07-23T04:02"
+status = "200"
+
+[repo.stats]
+commits = 9
+branches = 0
+stars = 0
+watching = 7
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/etherzero-org/web3j"
+last_commit = "f99ceb19cdd65895c18e0a565034767ca18ea9fc"
+last_commit_time = "2019-03-17T20:37"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 17
+stars = 0
+tag_count = 0
+branches = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/etherzero-org/wiki"
+last_commit = "55943910c6c0d9c52e6c741e59693aa025df129f"
+last_commit_time = "2019-10-18T07:19"
+status = "200"
+
+[repo.stats]
+branches = 43
+watching = 7
+forks = 1
+tag_count = 0
+commits = 1
+stars = 1

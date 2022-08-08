@@ -1,160 +1,710 @@
-# Ecosystem Level Information
 title = "FluiDex"
-
+toml_path = "data/ecosystems/f/fluidex.toml"
+github_organizations = ["https://github.com/Fluidex"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Fluidex"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Fluidex/awesome-plonk"
+status = "200"
+
+[repo.stats]
+stars = 111
+watching = 10
+forks = 15
+branches = 25
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/Fluidex/babyjubjub-rs"
+last_commit = "b6caa0992825e59de7396a94503aab1ff62722c6"
+last_commit_time = "2021-06-28T11:53"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 4
+forks = 6
+stars = 0
+tag_count = 0
+branches = 32
 
 [[repo]]
 url = "https://github.com/Fluidex/bellman"
+last_commit = "eb9c1dbb9caf0b866d35d473ebecd3d53278b0fc"
+last_commit_time = "2020-11-23T07:20"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+forks = 381
+branches = 396
+commits = 23
+stars = 0
 
 [[repo]]
 url = "https://github.com/fluidex/blockscout"
+last_commit = "5dae140d64c059046416f2e238dde2d0c6d1c1b6"
+last_commit_time = "2021-11-17T02:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+branches = 10
+stars = 1
+watching = 2
+forks = 1
 
 [[repo]]
 url = "https://github.com/Fluidex/circom"
+last_commit = "dfac0e968179e72fb8f04a5caddf6d976818ddaf"
+last_commit_time = "2021-08-12T08:26"
+status = "200"
+
+[repo.stats]
+branches = 258
+stars = 0
+watching = 1
+forks = 81
+tag_count = 0
+commits = 7
 
 [[repo]]
 url = "https://github.com/fluidex/circom-1"
+last_commit = "b66795c99522d8439b555a3ae04cde43cb7d736f"
+last_commit_time = "2022-03-11T02:06"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+forks = 62
+branches = 104
+commits = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/circom-circuit-tester"
+last_commit = "b2074ec9eeafc441b4397b5508cdc608320e3880"
+last_commit_time = "2022-01-20T11:15"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+watching = 4
+forks = 1
+stars = 18
+branches = 43
 
 [[repo]]
 url = "https://github.com/Fluidex/circom-plus"
+last_commit = "c1317a84a94f23d59e7820603327cd9e5550cc25"
+last_commit_time = "2021-04-25T12:26"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 2
+stars = 1
+watching = 4
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/circom_zkutil"
+last_commit = "02d0fa587e6f0657bcf6863a6bf22fe83e49c13f"
+last_commit_time = "2020-11-21T07:26"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+commits = 1
+watching = 2
+branches = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/circuits"
+last_commit = "d7e285a0f242829b9444ad9237123e4b66c8d4b1"
+last_commit_time = "2022-06-22T08:32"
+status = "200"
+
+[repo.stats]
+forks = 4
+stars = 8
+commits = 7
+branches = 167
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/Fluidex/common-rs"
+last_commit = "671a92a986920b013e5457a9c2be2b295f1bc733"
+last_commit_time = "2021-11-30T02:11"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 2
+tag_count = 0
+branches = 50
+forks = 2
+commits = 3
 
 [[repo]]
 url = "https://github.com/Fluidex/contracts"
+last_commit = "76f3f8077632903ed3d83aa67b9ba5da14d14dc2"
+last_commit_time = "2022-03-29T08:27"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+commits = 9
+branches = 15
+stars = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/Fluidex/contracts.demo"
+last_commit = "43f1f1b2b6601a8fe165152af09fa83c709a7c29"
+last_commit_time = "2021-12-24T06:13"
+status = "200"
+
+[repo.stats]
+commits = 9
+watching = 2
+branches = 42
+forks = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/deploy-prover-sh"
+last_commit = "b34fd1add4dedecbabea3da8ba86271603346ebe"
+last_commit_time = "2021-04-19T13:09"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 1
+tag_count = 0
+forks = 0
+stars = 0
+branches = 8
 
 [[repo]]
 url = "https://github.com/Fluidex/deploy-sh"
+last_commit = "b34fd1add4dedecbabea3da8ba86271603346ebe"
+last_commit_time = "2021-04-19T13:09"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 8
+tag_count = 0
+forks = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/differential-amm"
+last_commit = "6a4c3c00f4c7b92d2bb9575dec98031ea7bd90cf"
+last_commit_time = "2021-06-18T12:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+branches = 18
+stars = 0
+forks = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/Fluidex/dingir-exchange"
+status = "200"
+
+[repo.stats]
+stars = 152
+forks = 41
+commits = 16
+watching = 12
+branches = 271
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/eth.watch"
+last_commit = "a3727bcbe123d070a86ac786ac8b7e3d65d66acc"
+last_commit_time = "2021-08-11T12:13"
+status = "200"
+
+[repo.stats]
+watching = 5
+commits = 2
+branches = 38
+tag_count = 0
+stars = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/fluidex/eth_listener"
+last_commit = "7fc77c811f8c95cb771fc34d34b2f1f2a65e57ef"
+last_commit_time = "2021-12-24T05:34"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+tag_count = 0
+watching = 2
+branches = 56
+commits = 3
 
 [[repo]]
 url = "https://github.com/Fluidex/ff"
+last_commit = "5eca8bad837b0b8995c991c03a3c99d1b61cf02c"
+last_commit_time = "2021-06-16T02:10"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 58
+tag_count = 0
+branches = 83
+stars = 0
+commits = 9
 
 [[repo]]
 url = "https://github.com/Fluidex/fluidex-backend"
+last_commit = "085d6a69a28eced02eaa084f800e4bc4d3608b3c"
+last_commit_time = "2021-11-29T15:24"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 172
+commits = 13
+tag_count = 0
+forks = 5
+stars = 27
 
 [[repo]]
 url = "https://github.com/fluidex/fluidex-frontend"
+last_commit = "20235e6dfbe82d61fc6b4d67e45dc90bd875781c"
+last_commit_time = "2021-11-26T01:46"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 2
+forks = 2
+tag_count = 0
+stars = 3
+branches = 18
 
 [[repo]]
 url = "https://github.com/Fluidex/fluidex-orchestra"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 0
+commits = 0
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/fluidex.github.io"
+last_commit = "fc2dea7b7ff06120b0c8be9af7f9dcdd2745e9e0"
+last_commit_time = "2021-11-11T10:48"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 109
+stars = 2
+commits = 2
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/Fluidex/fluidex.js"
+last_commit = "37b0bdfb1f90a5d08068dced0886626c1440f984"
+last_commit_time = "2021-12-08T01:10"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 21
+tag_count = 0
+commits = 2
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/franklin-crypto"
+last_commit = "b5f85dcae8c941f17c3f2244c421a2d75ae3cf3c"
+last_commit_time = "2021-06-28T12:29"
+status = "200"
+
+[repo.stats]
+forks = 32
+watching = 1
+tag_count = 0
+stars = 0
+branches = 406
+commits = 33
 
 [[repo]]
 url = "https://github.com/Fluidex/grpc-dynamic-gateway"
+last_commit = "036e8381dda53e329aba5d33a43a1fa2e06568dc"
+last_commit_time = "2021-02-08T07:05"
+status = "200"
+
+[repo.stats]
+commits = 54
+forks = 25
+watching = 0
+stars = 1
+tag_count = 0
+branches = 164
 
 [[repo]]
 url = "https://github.com/Fluidex/Heimdallr"
+last_commit = "140e40c64850a27fd8beb8e37e4416ed8c1a9dfc"
+last_commit_time = "2021-12-24T06:04"
+status = "200"
+
+[repo.stats]
+branches = 81
+commits = 5
+watching = 3
+forks = 2
+tag_count = 0
+stars = 4
 
 [[repo]]
 url = "https://github.com/fluidex/orchestra"
+last_commit = "554bc7d9a933b1e5298069fb8586e11d865da8e9"
+last_commit_time = "2021-12-01T02:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+forks = 3
+stars = 1
+watching = 3
+branches = 35
 
 [[repo]]
 url = "https://github.com/fluidex/paperclip"
+last_commit = "f0fa21eab2042feca1679978ec7d08f8f4baa2c4"
+last_commit_time = "2021-12-13T06:48"
+status = "200"
+
+[repo.stats]
+forks = 97
+tag_count = 0
+branches = 363
+commits = 19
+watching = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/Fluidex/plonk-solidity-verifier-test"
+last_commit = "c4f4d315a7aa4905999f8071e852bf50bf1eed2d"
+last_commit_time = "2021-02-17T03:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 4
+forks = 0
+commits = 1
+branches = 3
 
 [[repo]]
 url = "https://github.com/Fluidex/plonkit"
+last_commit = "0a84db7d9844b1a6a91f97f644445bac17d32d45"
+last_commit_time = "2022-06-22T08:32"
+status = "200"
+
+[repo.stats]
+watching = 7
+commits = 6
+tag_count = 0
+forks = 16
+branches = 230
+stars = 104
 
 [[repo]]
 url = "https://github.com/Fluidex/plonkit_archive"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+forks = 0
+tag_count = 0
+watching = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/poseidon-rs"
+last_commit = "406496055aec6eecbf616377a87d412c6e9bda0d"
+last_commit_time = "2021-06-28T11:28"
+status = "200"
+
+[repo.stats]
+commits = 3
+forks = 11
+stars = 0
+tag_count = 0
+branches = 19
+watching = 1
 
 [[repo]]
 url = "https://github.com/Fluidex/poseidon_hash"
+last_commit = "c28e8d5a7a5e289ed90b510d0892282304f7de9e"
+last_commit_time = "2021-06-28T12:21"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+tag_count = 0
+branches = 7
+commits = 1
+forks = 5
 
 [[repo]]
 url = "https://github.com/Fluidex/prover-cluster"
+last_commit = "0fd95fc8ad60ecd6341d955cb6cf9c3070aa64f6"
+last_commit_time = "2021-11-16T11:51"
+status = "200"
+
+[repo.stats]
+stars = 4
+forks = 2
+branches = 114
+watching = 4
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/Fluidex/regnbue-bridge"
+last_commit = "140e40c64850a27fd8beb8e37e4416ed8c1a9dfc"
+last_commit_time = "2021-12-24T06:04"
+status = "200"
+
+[repo.stats]
+branches = 81
+watching = 3
+commits = 5
+tag_count = 0
+forks = 2
+stars = 4
 
 [[repo]]
 url = "https://github.com/Fluidex/rescue-hash-js"
+last_commit = "be5aa5b08f9d5b85fbf44506f9b03bd434b1b0ec"
+last_commit_time = "2021-06-21T12:52"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 4
+tag_count = 0
+stars = 4
+branches = 6
+commits = 1
 
 [[repo]]
 url = "https://github.com/Fluidex/rescue_hash_js"
+last_commit = "be5aa5b08f9d5b85fbf44506f9b03bd434b1b0ec"
+last_commit_time = "2021-06-21T12:52"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+branches = 6
+tag_count = 0
+stars = 4
+watching = 4
 
 [[repo]]
 url = "https://github.com/Fluidex/research"
+last_commit = "8e0e3c87d1080eb2c09d00f6e2febc13c297fd9e"
+last_commit_time = "2020-11-29T06:45"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+branches = 1
+watching = 3
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/rollup-state-manager"
+last_commit = "b5fd8aa94e9c671c6308961d833515eedce4f711"
+last_commit_time = "2021-12-06T06:46"
+status = "200"
+
+[repo.stats]
+forks = 4
+tag_count = 0
+branches = 190
+commits = 8
+stars = 5
+watching = 3
 
 [[repo]]
 url = "https://github.com/fluidex/sccache"
+last_commit = "41d4b0f8e5f69b7f405b9dfc1db4a3effc3649f9"
+last_commit_time = "2021-10-31T21:50"
+status = "200"
+
+[repo.stats]
+commits = 12
+stars = 0
+forks = 372
+watching = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/snarkit"
+last_commit = "b2074ec9eeafc441b4397b5508cdc608320e3880"
+last_commit_time = "2022-01-20T11:15"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 4
+stars = 18
+branches = 43
+forks = 1
+commits = 3
 
 [[repo]]
 url = "https://github.com/fluidex/snarkit2"
+last_commit = "70142d8bbc5ec79cfa6869205263ff77e8423975"
+last_commit_time = "2021-11-23T04:00"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 2
+tag_count = 0
+branches = 48
+commits = 1
+stars = 2
 
 [[repo]]
 url = "https://github.com/Fluidex/solidity_plonk_verifier"
+last_commit = "839f71db237d091cd2e47c68cee05d2e26c869e5"
+last_commit_time = "2021-08-30T02:55"
+status = "200"
+
+[repo.stats]
+commits = 6
+forks = 9
+watching = 2
+stars = 1
+tag_count = 0
+branches = 25
 
 [[repo]]
 url = "https://github.com/fluidex/solidity_recursive_plonk_verifier"
+last_commit = "0be5d1dd7680a25f195937e449f378eb98597d5c"
+last_commit_time = "2021-10-19T07:11"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+stars = 0
+watching = 1
+commits = 1
+branches = 8
 
 [[repo]]
 url = "https://github.com/Fluidex/state_keeper"
+last_commit = "b5fd8aa94e9c671c6308961d833515eedce4f711"
+last_commit_time = "2021-12-06T06:46"
+status = "200"
+
+[repo.stats]
+branches = 190
+commits = 8
+tag_count = 0
+stars = 5
+watching = 3
+forks = 4
 
 [[repo]]
 url = "https://github.com/fluidex/static_files"
+last_commit = "d3b26a294d134bb8285174c2b69556a99a4ceca8"
+last_commit_time = "2021-11-15T08:37"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 1
+commits = 1
+watching = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/we-are-hiring"
+last_commit = "4e818695b76c9b75c0b1dd3da45a7c9d74b2600f"
+last_commit_time = "2021-07-05T11:23"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+commits = 1
+stars = 17
+branches = 13
+forks = 0
 
 [[repo]]
 url = "https://github.com/Fluidex/we_are_hiring"
+last_commit = "4e818695b76c9b75c0b1dd3da45a7c9d74b2600f"
+last_commit_time = "2021-07-05T11:23"
+status = "200"
+
+[repo.stats]
+branches = 13
+forks = 0
+stars = 17
+tag_count = 0
+commits = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/fluidex/zkutil"
+last_commit = "9d13b5a70eee2938a7871b9db1a21f4fdff8cd00"
+last_commit_time = "2021-11-17T08:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+stars = 0
+branches = 69
+watching = 0
+forks = 11

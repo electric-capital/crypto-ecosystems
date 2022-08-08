@@ -1,58 +1,242 @@
-# Ecosystem Level Information
 title = "Ivy"
-
+toml_path = "data/ecosystems/i/ivy.toml"
+github_organizations = ["https://github.com/ivy-project"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/ivy-project"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/ivy-project/browser-solidity"
+last_commit = "b931d81a7a794ed1142f1a1bf8d117269ee32b34"
+last_commit_time = "2017-05-16T18:03"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 0
+commits = 6
+forks = 913
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/ivy-project/eth-netstats"
+last_commit = "5d3ed04c55314f05ce0f9b7fa3dfa8e4c7860720"
+last_commit_time = "2016-12-11T20:29"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 738
+commits = 4
+watching = 2
+forks = 527
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ivy-project/ethereum-bridge"
+last_commit = "1f837fe83d31555bf41b8f7f40cfb789ecf7bf5f"
+last_commit_time = "2018-05-21T18:00"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 2
+forks = 101
+tag_count = 0
+branches = 320
+commits = 10
 
 [[repo]]
 url = "https://github.com/ivy-project/explorer"
+last_commit = "9942a29cd227784df1b359c9a1dd28928167dfbb"
+last_commit_time = "2017-06-26T19:46"
+status = "200"
+
+[repo.stats]
+branches = 52
+stars = 0
+tag_count = 0
+commits = 4
+watching = 1
+forks = 382
 
 [[repo]]
 url = "https://github.com/ivy-project/go-ethereum"
+last_commit = "bc66999f4625dc87799210d8efa5ecf050a96cc8"
+last_commit_time = "2018-05-09T15:48"
+status = "200"
+
+[repo.stats]
+forks = 178
+tag_count = 0
+branches = 0
+commits = 36
+stars = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/ivy-project/images"
+last_commit = "ec015612186325d4a7d846d1a92c9d26d49e865c"
+last_commit_time = "2018-05-17T22:06"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+branches = 2
+commits = 1
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/ivy-project/management"
+last_commit = "433289f1c8a67c95024c5b36dac65a85afb60a70"
+last_commit_time = "2018-05-17T19:49"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 4
+stars = 0
+forks = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/ivy-project/meteor-package-accounts"
+last_commit = "5cb66b3ad582b01f73694ea10abc754fb5eaae97"
+last_commit_time = "2018-03-22T19:31"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+watching = 2
+commits = 2
+forks = 35
+branches = 46
 
 [[repo]]
 url = "https://github.com/ivy-project/press"
+last_commit = "e993cc2ba013e70a7d4e760af71614b7de678ab0"
+last_commit_time = "2018-05-31T20:31"
+status = "200"
+
+[repo.stats]
+branches = 5
+tag_count = 0
+commits = 1
+stars = 1
+watching = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/ivy-project/quorum"
+last_commit = "fd0e3b9d13f9b9563e7d5b3b1aba51f035f9cf0d"
+last_commit_time = "2018-05-26T06:27"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 2
+forks = 0
+commits = 13
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ivy-project/quorum-tools"
+last_commit = "951bf7237c50e233c821a03ad1c88183b9bf64a8"
+last_commit_time = "2017-12-11T16:16"
+status = "200"
+
+[repo.stats]
+branches = 374
+stars = 1
+watching = 2
+tag_count = 0
+commits = 9
+forks = 34
 
 [[repo]]
 url = "https://github.com/ivy-project/smart-contract-audit"
+last_commit = "3432c5be0e2e39be64792c5d4b61f237cf71e1e1"
+last_commit_time = "2018-05-17T18:48"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 2
+forks = 0
+tag_count = 0
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/ivy-project/social-media"
+last_commit = "67a5f2ab8605768da8ea5fedd775eb109127ac89"
+last_commit_time = "2018-05-17T19:43"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 7
+stars = 1
+tag_count = 0
+commits = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/ivy-project/tech-project"
+last_commit = "6d1b4a57891c51daa6a475cf881b33165ab76087"
+last_commit_time = "2018-05-18T00:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 3
+stars = 0
+branches = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/ivy-project/token"
+last_commit = "57ba3cc902ebdcafeb5494acf43bc0f6341896e2"
+last_commit_time = "2018-05-17T18:50"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+watching = 1
+branches = 3
+tag_count = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/ivy-project/website-marketing"
+last_commit = "66426b99fea24da965ea8ff823727264ed9a2edb"
+last_commit_time = "2018-05-29T20:50"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+forks = 0
+watching = 3
+tag_count = 0
+branches = 3
 
 [[repo]]
 url = "https://github.com/ivy-project/white-papers"
+last_commit = "8e52e3b1ffd2680131615f0eaace7e27b35c53ad"
+last_commit_time = "2018-05-17T18:33"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 1
+watching = 3
+forks = 0
+tag_count = 0
+branches = 5

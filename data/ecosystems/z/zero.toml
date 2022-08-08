@@ -1,166 +1,742 @@
-# Ecosystem Level Information
 title = "Zero"
-
+toml_path = "data/ecosystems/z/zero.toml"
+github_organizations = ["https://github.com/zer0-os"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/zer0-os"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/backendmaster/zero"
+last_commit = "414168a5c596f971f7eb6abf7e58d6402e3bf9b3"
+last_commit_time = "2018-01-06T05:56"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 8
+forks = 0
+stars = 9
+watching = 4
 
 [[repo]]
 url = "https://github.com/zer0-os/chainswap-recovery"
+last_commit = "ea4813fc1af037f0bfd9401fa58669fd6cd09a30"
+last_commit_time = "2021-07-14T23:45"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 2
+tag_count = 0
+watching = 3
+branches = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/zer0-os/contract-addresses"
+last_commit = "35675bb7d3fd4a890f8f8ed6833f632ff2d35406"
+last_commit_time = "2022-07-14T20:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+stars = 0
+forks = 0
+branches = 23
+commits = 2
 
 [[repo]]
 url = "https://github.com/zer0-os/data-store-api"
+last_commit = "880b7372388001ec8deed5d232c550675f2c1602"
+last_commit_time = "2022-07-25T19:20"
+status = "200"
+
+[repo.stats]
+branches = 74
+watching = 2
+stars = 0
+tag_count = 0
+forks = 0
+commits = 17
 
 [[repo]]
 url = "https://github.com/zer0-os/explorer"
+last_commit = "f28c45e770be28c626749ba8e415cd6f56bf7c61"
+last_commit_time = "2021-04-19T15:43"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 0
+branches = 2
+stars = 0
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/zer0-os/ipfs-cluster-aws"
+last_commit = "f1885ebc5abaa065d224e158833a337edc736542"
+last_commit_time = "2021-06-24T18:39"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 0
+watching = 0
+branches = 39
+forks = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/LinkPreviewKit"
+last_commit = "eadc70b54399b0aca65c6a1ee170955fcf9456fc"
+last_commit_time = "2016-02-18T13:15"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 40
+watching = 0
+commits = 3
+stars = 0
+forks = 3
 
 [[repo]]
 url = "https://github.com/zer0-os/metadata-diff-tool"
+last_commit = "c01316545b76a26abee15d8bdc8627f869cd40b7"
+last_commit_time = "2022-06-21T17:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+branches = 51
+watching = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/smock"
+last_commit = "22c4278c1c4fb6627c2e444b341749f93be4b244"
+last_commit_time = "2021-11-01T17:24"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 20
+tag_count = 0
+stars = 0
+branches = 63
+commits = 4
 
 [[repo]]
 url = "https://github.com/zer0-os/SwiftLinkPreview"
+last_commit = "f7f36e6434162b1b2bb1c76466b59596b5053cc6"
+last_commit_time = "2022-05-26T13:25"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 185
+stars = 0
+branches = 247
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/token-vesting-dapp"
+last_commit = "57d4a226cf8ace7fbcbb0a87ce2f6a4076c9bce4"
+last_commit_time = "2022-07-26T19:43"
+status = "200"
+
+[repo.stats]
+branches = 58
+commits = 9
+watching = 7
+forks = 3
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/trust-wallet-assets"
+last_commit = "dbf82d66f75447ff4b3bc0b2fb8b483a914c5f2a"
+last_commit_time = "2022-05-27T14:16"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+stars = 0
+watching = 0
+branches = 0
+commits = 21
 
 [[repo]]
 url = "https://github.com/zer0-os/wilder-world-index"
+last_commit = "d21f4b47c061c85ed5dc706c7de8b5bf121e2467"
+last_commit_time = "2021-11-02T17:28"
+status = "200"
+
+[repo.stats]
+branches = 36
+commits = 3
+watching = 1
+forks = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zApp-BuyDomains"
+last_commit = "43cea46a0b31053bea0719bfda22d4f7ea964ddb"
+last_commit_time = "2022-07-02T05:33"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+branches = 2
+commits = 3
+stars = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zApp-Staking"
+last_commit = "052f3547bb4f4958c3d21caa785b520e2a0fa7d2"
+last_commit_time = "2022-06-29T06:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 2
+branches = 1
+commits = 3
+stars = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/zer0-os/zAuction"
+last_commit = "05d4733f891163c803c9640b58898011dd9710b1"
+last_commit_time = "2022-05-24T20:31"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+forks = 1
+commits = 28
+watching = 6
+branches = 143
 
 [[repo]]
 url = "https://github.com/zer0-os/zAuction-alpha"
+last_commit = "19f10fac9d946de78c70d3989c1070fce174bffe"
+last_commit_time = "2021-02-26T23:22"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+branches = 3
+stars = 0
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zAuction-API"
+last_commit = "bbf8bee70b9dc8c4de31d4e3bc726565696141d7"
+last_commit_time = "2022-05-13T21:23"
+status = "200"
+
+[repo.stats]
+commits = 39
+watching = 6
+stars = 0
+branches = 277
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zAuction-SDK"
+last_commit = "6aaddb6619bc659ae0ed1c33db1608ad76950a8b"
+last_commit_time = "2022-07-19T21:53"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 276
+tag_count = 0
+watching = 3
+commits = 51
 
 [[repo]]
 url = "https://github.com/zer0-os/zAuction-subgraph"
+last_commit = "9006f9d409d7735a3605c04b42386d5a0a571112"
+last_commit_time = "2022-06-24T21:13"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 2
+tag_count = 0
+forks = 0
+branches = 25
+commits = 5
 
 [[repo]]
 url = "https://github.com/zer0-os/zBanc"
+last_commit = "b27da9579152f25c8373d174ad877573f6e642b0"
+last_commit_time = "2020-10-05T08:58"
+status = "200"
+
+[repo.stats]
+branches = 0
+forks = 378
+tag_count = 0
+stars = 0
+watching = 1
+commits = 4
 
 [[repo]]
 url = "https://github.com/zer0-os/zChain"
+last_commit = "3bbb4e260d3bf36b32999a6fb7e17996a3a429c1"
+last_commit_time = "2022-07-24T23:33"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 399
+tag_count = 0
+watching = 2
+forks = 1
+commits = 23
 
 [[repo]]
 url = "https://github.com/zer0-os/zChain-dashboard"
+last_commit = "69c368fd67dc2b96fd7f4ecf5d5393a6ebe1194a"
+last_commit_time = "2022-07-15T13:41"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+branches = 23
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/zer0-os/zDAO"
+status = "404"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 0
+branches = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zDAO-alpha"
+last_commit = "834d9dfbf181a1d4eef6b1f7ba9e32d99b0e7e8a"
+last_commit_time = "2019-09-19T04:47"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 14
+watching = 2
+commits = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zDAO-alpha-2"
+last_commit = "5436c837a38e12e3391ab5e9cabf2ae893eaac15"
+last_commit_time = "2021-02-25T01:24"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 3
+stars = 0
+tag_count = 0
+branches = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/zer0-os/zDAO-SAFE"
+last_commit = "179a4cbcf87521c018e6165c0deb6f0f9a17a160"
+last_commit_time = "2022-06-02T12:19"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+commits = 3
+forks = 0
+branches = 96
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zdao-sdk"
+last_commit = "0ea553eb02e19fd1bf0ee756c25b19ad7d5e3db6"
+last_commit_time = "2022-08-01T17:10"
+status = "200"
+
+[repo.stats]
+commits = 5
+branches = 145
+watching = 3
+stars = 2
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zer0-contracts"
+last_commit = "35675bb7d3fd4a890f8f8ed6833f632ff2d35406"
+last_commit_time = "2022-07-14T20:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 23
+commits = 2
+stars = 0
+forks = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/zer0-os/zero-android"
+last_commit = "fb9127c55701a2765e845cfae7a9d1c757a00a1d"
+last_commit_time = "2022-08-04T21:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+forks = 0
+branches = 141
+stars = 0
+commits = 16
 
 [[repo]]
 url = "https://github.com/zer0-os/zero-space-index"
+last_commit = "77e6ee7096513a5a6a8b537eb681894938f823fe"
+last_commit_time = "2021-08-30T17:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 19
+commits = 2
+watching = 2
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zFI"
+last_commit = "b1d20d8eecf418708716ca407bfa2ac73d4b4a84"
+last_commit_time = "2022-07-13T20:57"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 4
+stars = 0
+commits = 11
+branches = 72
 
 [[repo]]
 url = "https://github.com/zer0-os/zFi-dapp"
+last_commit = "052f3547bb4f4958c3d21caa785b520e2a0fa7d2"
+last_commit_time = "2022-06-29T06:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+branches = 1
+watching = 4
+stars = 0
+forks = 2
 
 [[repo]]
 url = "https://github.com/zer0-os/zFi-SDK"
+last_commit = "1029530a55f65e8d0c6e6b788449e1abb272f535"
+last_commit_time = "2022-04-18T16:11"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 146
+commits = 16
+stars = 1
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zFI-subgraph"
+last_commit = "6ed760b4e3dc88b9c4185b80076c93a2025f08bf"
+last_commit_time = "2022-07-12T16:30"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 23
+watching = 2
+tag_count = 0
+stars = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/zer0-os/ZNS"
+last_commit = "8703ef71e280e7a1f738f2a6d1746d7b7a8cf424"
+last_commit_time = "2022-07-08T20:50"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 260
+commits = 50
+tag_count = 0
+stars = 8
+forks = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/ZNS-alpha"
+last_commit = "a70836f97978ee0812397788ef181f606cd460e6"
+last_commit_time = "2020-12-08T08:55"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 140
+commits = 1
+watching = 2
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zNS-backend"
+last_commit = "ba70b5e3053ec5a0b38d92dfda6a3fa4e40ae6e5"
+last_commit_time = "2021-11-29T19:55"
+status = "200"
+
+[repo.stats]
+branches = 84
+forks = 0
+stars = 1
+watching = 3
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/zer0-os/zNS-dapp"
+last_commit = "95c13661f5bbfdaa4fab472c8997001a210f9e5a"
+last_commit_time = "2022-08-04T02:45"
+status = "200"
+
+[repo.stats]
+forks = 7
+watching = 6
+branches = 0
+stars = 8
+commits = 79
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zNS-sdk"
+last_commit = "005c18670b6c0aa823419f2081d69cdff2b391f5"
+last_commit_time = "2022-07-28T20:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 462
+forks = 1
+watching = 4
+commits = 29
+stars = 1
 
 [[repo]]
 url = "https://github.com/zer0-os/zns-share"
+last_commit = "9e05dafe87daa7cdda0a15617b6cec96e4d20589"
+last_commit_time = "2022-01-28T02:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 2
+watching = 0
+branches = 26
+forks = 2
 
 [[repo]]
 url = "https://github.com/zer0-os/zNS-subgraph"
+last_commit = "52fcb7f9b79c7dab342d513fa5df144c5b86efdb"
+last_commit_time = "2022-07-19T21:49"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 4
+forks = 0
+commits = 13
+branches = 81
 
 [[repo]]
 url = "https://github.com/zer0-os/zOS"
+last_commit = "dbc7ff381e20714a3b812b305b82d211112007c4"
+last_commit_time = "2022-08-02T22:00"
+status = "200"
+
+[repo.stats]
+branches = 295
+forks = 2
+tag_count = 0
+watching = 1
+commits = 26
+stars = 1
 
 [[repo]]
 url = "https://github.com/zer0-os/zOS-component-library"
+last_commit = "4e924ac80ef4120428f13642f3b69e9ea90f3391"
+last_commit_time = "2022-08-03T00:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 0
+branches = 54
+watching = 1
+commits = 4
 
 [[repo]]
 url = "https://github.com/zer0-os/zOS-feed"
+last_commit = "62821e35dc1834e739079b57d14ed79f8544b65e"
+last_commit_time = "2022-07-26T09:07"
+status = "200"
+
+[repo.stats]
+branches = 61
+stars = 0
+commits = 4
+watching = 1
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zOS-theme-engine"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 0
+watching = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zOS-zNS"
+last_commit = "099da4af99bc64cdf44132611f5efe9ff162a960"
+last_commit_time = "2022-06-29T17:43"
+status = "200"
+
+[repo.stats]
+branches = 28
+watching = 1
+forks = 0
+tag_count = 0
+commits = 4
+stars = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zSale-SDK"
+last_commit = "c535656a320f569d6c0ccc28aec86920920e8438"
+last_commit_time = "2022-07-12T20:33"
+status = "200"
+
+[repo.stats]
+commits = 25
+branches = 138
+forks = 0
+watching = 3
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zSpace"
+last_commit = "08b56999cdd76a780cd0e37f427ffef0d9d3b0d6"
+last_commit_time = "2021-08-20T18:35"
+status = "200"
+
+[repo.stats]
+stars = 3
+commits = 11
+forks = 3
+watching = 3
+branches = 996
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zer0-os/zToken"
+last_commit = "4400a0359852925802232006f8966e257f6c368c"
+last_commit_time = "2022-05-09T23:25"
+status = "200"
+
+[repo.stats]
+commits = 17
+forks = 2
+stars = 1
+branches = 74
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/zer0-os/zToken-sdk"
+last_commit = "265377c662be84b1680e1ab3376784c2221791b2"
+last_commit_time = "2022-06-14T02:23"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+stars = 0
+branches = 3
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/zer0-os/zUI"
+last_commit = "027d5ed2abb054d5407d794547432b059e4e61c1"
+last_commit_time = "2022-04-12T09:12"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 1
+commits = 6
+tag_count = 0
+stars = 1
+branches = 1
 
 [[repo]]
 url = "https://github.com/zer0-os/zXP"
+last_commit = "589a88aa5f189b92e4a89584dba6468ad230bd24"
+last_commit_time = "2022-07-25T19:58"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 3
+watching = 2
+forks = 0
+tag_count = 0
+branches = 45

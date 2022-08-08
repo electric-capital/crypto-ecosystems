@@ -1,109 +1,478 @@
-# Ecosystem Level Information
 title = "DEGEN Index"
-
+toml_path = "data/ecosystems/d/degen-index.toml"
+github_organizations = ["https://github.com/indexed-finance"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/indexed-finance"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/indexed-finance/backtest"
+last_commit = "296f5a78e4a2cb2a1a72cd3cab4de28b3a2fb886"
+last_commit_time = "2020-12-02T16:17"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 1
+commits = 1
+stars = 2
+tag_count = 0
+branches = 8
 
 [[repo]]
 url = "https://github.com/indexed-finance/bounties"
+last_commit = "206d44c3f804f097d270e4043f78534bb9b73dec"
+last_commit_time = "2021-02-21T09:19"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+commits = 1
+stars = 1
+branches = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/indexed-finance/branding"
+last_commit = "8a9df990231a905ca77fff06704d5ba712908105"
+last_commit_time = "2021-06-08T20:41"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 13
+watching = 0
+tag_count = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/indexed-finance/chainlink-integration"
+last_commit = "05152d0a0df9b5c5e22c808d2752eee2171d00f4"
+last_commit_time = "2021-02-27T02:32"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 46
+stars = 4
+commits = 2
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/indexed-finance/circuit-breaker"
+last_commit = "f7461accf76e6421b4bd57d4c840be3c8d0bf806"
+last_commit_time = "2021-05-01T03:07"
+status = "200"
+
+[repo.stats]
+branches = 105
+stars = 4
+commits = 6
+watching = 1
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/indexed-finance/dividends"
+last_commit = "371b8e5cb599529660a11b53129e18317c0cab85"
+last_commit_time = "2021-09-17T20:24"
+status = "200"
+
+[repo.stats]
+forks = 17
+tag_count = 0
+branches = 47
+commits = 2
+watching = 1
+stars = 34
 
 [[repo]]
 url = "https://github.com/indexed-finance/docs"
+last_commit = "0b330e1c13ab9ac59aca8b8cf38bb714f118d749"
+last_commit_time = "2022-03-11T14:01"
+status = "200"
+
+[repo.stats]
+branches = 155
+watching = 1
+stars = 4
+forks = 4
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/indexed-finance/drain-reversal-app"
+last_commit = "5deed4064e249f51e48509683f6c43cc4534200a"
+last_commit_time = "2022-07-16T23:14"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 2
+stars = 3
+commits = 1
+watching = 0
+branches = 29
 
 [[repo]]
 url = "https://github.com/indexed-finance/exit-fee-seller"
+last_commit = "9801fc3586911682774f765b22073bab0bb39d0a"
+last_commit_time = "2021-10-09T14:07"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+stars = 1
+tag_count = 0
+branches = 16
+commits = 1
 
 [[repo]]
 url = "https://github.com/indexed-finance/governance"
+last_commit = "e4e89fe59055fcf85d4c907fb937fcb010ce2642"
+last_commit_time = "2021-01-28T12:10"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+stars = 2
+branches = 142
+forks = 3
+watching = 1
 
 [[repo]]
 url = "https://github.com/indexed-finance/indexed-core"
+last_commit = "b4aad96493041e15cd74c792d36bf957b3013ddb"
+last_commit_time = "2021-11-23T12:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+stars = 24
+branches = 565
+forks = 15
+commits = 8
 
 [[repo]]
 url = "https://github.com/indexed-finance/indexed-governance-subgraph"
+last_commit = "71947d983e24f60919891e0f32039a64983b5c5f"
+last_commit_time = "2021-01-26T18:20"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 25
+branches = 20
+tag_count = 0
+commits = 5
+watching = 1
 
 [[repo]]
 url = "https://github.com/indexed-finance/indexed-interface"
+last_commit = "b4a6c09d534f523db279f201154fab2f89e2205a"
+last_commit_time = "2022-03-09T08:29"
+status = "200"
+
+[repo.stats]
+commits = 4
+stars = 7
+tag_count = 0
+watching = 1
+forks = 6
+branches = 0
 
 [[repo]]
 url = "https://github.com/indexed-finance/indexed-narwhal-router"
+last_commit = "789021b3c2eaaf1fa59b42030f27d4e81c0b5cb3"
+last_commit_time = "2021-06-11T17:32"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 1
+tag_count = 0
+branches = 20
+commits = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/indexed-finance/indexed-subgraph"
+last_commit = "6d9fe833a42646ad466acbc31e00417df6f3779d"
+last_commit_time = "2021-05-23T09:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 130
+forks = 2
+commits = 2
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/indexed-finance/indexed.js"
+last_commit = "66944f64fb33638204575e75462ebbda9bd00c12"
+last_commit_time = "2021-05-17T10:47"
+status = "200"
+
+[repo.stats]
+branches = 202
+commits = 2
+watching = 1
+tag_count = 0
+stars = 9
+forks = 1
 
 [[repo]]
 url = "https://github.com/indexed-finance/multicall"
+status = "200"
+
+[repo.stats]
+stars = 112
+watching = 2
+forks = 26
+tag_count = 0
+branches = 55
+commits = 3
 
 [[repo]]
 url = "https://github.com/indexed-finance/narwhal-sdk"
+last_commit = "f489c2ccc47c1e80aad20628cb479d415aaa8e15"
+last_commit_time = "2021-06-11T01:44"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+commits = 1
+watching = 1
+tag_count = 0
+branches = 129
 
 [[repo]]
 url = "https://github.com/indexed-finance/ndx-polling-app"
+last_commit = "d4b2a67ef71e5bce7c05a5ebaea4f6e0e23d3751"
+last_commit_time = "2021-05-11T22:11"
+status = "200"
+
+[repo.stats]
+branches = 3
+commits = 1
+watching = 1
+stars = 0
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/indexed-finance/nirn"
+last_commit = "17145170a6d20059eb7e072af29ad2ce7cc8fc2e"
+last_commit_time = "2021-08-04T11:51"
+status = "200"
+
+[repo.stats]
+branches = 385
+forks = 1
+tag_count = 0
+commits = 2
+stars = 6
+watching = 1
 
 [[repo]]
 url = "https://github.com/indexed-finance/nirn-optimiser"
+last_commit = "edc0d08eda2a647d66d353a0fcb2333b4db3e7f6"
+last_commit_time = "2021-11-04T13:21"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 0
+stars = 8
+forks = 3
+tag_count = 0
+branches = 43
 
 [[repo]]
 url = "https://github.com/indexed-finance/nirn-whitepaper"
+last_commit = "c795255e575a783d435f2996db028184db609a91"
+last_commit_time = "2021-08-04T11:49"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 2
+branches = 5
+commits = 1
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/indexed-finance/proposal-tester"
+last_commit = "92c7ead61557a68a00e2d9b7e87658613751d31d"
+last_commit_time = "2021-04-26T06:16"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+commits = 1
+branches = 14
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/indexed-finance/proxies"
+last_commit = "82c025c77652976ff3f42d707f58396a389c0545"
+last_commit_time = "2021-02-22T20:24"
+status = "200"
+
+[repo.stats]
+stars = 6
+forks = 3
+tag_count = 0
+commits = 5
+watching = 2
+branches = 116
 
 [[repo]]
 url = "https://github.com/indexed-finance/recovery"
+last_commit = "22bdc7567c5be54c8ef76567731eb506d0fda2ef"
+last_commit_time = "2021-11-23T16:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 13
+forks = 0
+stars = 2
+watching = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/indexed-finance/sigma-core"
+last_commit = "0585f642e11beaae16aa95a4ac0bc875f02c2652"
+last_commit_time = "2021-12-20T23:46"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+forks = 6
+branches = 689
+commits = 13
+watching = 1
 
 [[repo]]
 url = "https://github.com/indexed-finance/snapshot-strategies"
+last_commit = "81ac02ec8eaff3fb348c400af47130001eca16c3"
+last_commit_time = "2021-10-02T16:43"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 0
+forks = 390
+branches = 73
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/indexed-finance/staking-rewards"
+last_commit = "92e6e4b193f1f8017b3797372b20ee4c62a47794"
+last_commit_time = "2021-05-15T07:12"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 3
+tag_count = 0
+watching = 1
+forks = 1
+branches = 73
 
 [[repo]]
 url = "https://github.com/indexed-finance/subgraph-clients"
+last_commit = "b0eef3d483707455a3eaa6d82b0f13fe123ff596"
+last_commit_time = "2022-02-03T16:04"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 52
+commits = 1
+watching = 1
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/indexed-finance/subgraphs"
+last_commit = "625f04846a7abda17072aa9d276dd60c7f0fc942"
+last_commit_time = "2021-09-17T23:43"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+forks = 205
+branches = 134
+commits = 10
+stars = 0
 
 [[repo]]
 url = "https://github.com/indexed-finance/sushi-rewarder"
+last_commit = "a4caacab1082290956c3bf85755dcaa3e61aaa86"
+last_commit_time = "2021-09-02T18:06"
+status = "200"
+
+[repo.stats]
+forks = 2
+commits = 1
+stars = 1
+tag_count = 0
+watching = 1
+branches = 23
 
 [[repo]]
 url = "https://github.com/indexed-finance/uniswap-deployments"
+last_commit = "8e0917a05b59b2a22a30511719e487d41557572f"
+last_commit_time = "2020-10-26T10:11"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 1
+stars = 1
+branches = 4
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/indexed-finance/uniswap-indexed-minter"
+last_commit = "5832da2ce3caea0089ae41774e16828704c61d6e"
+last_commit_time = "2021-06-09T01:15"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 5
+watching = 1
+stars = 1
+branches = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/indexed-finance/uniswap-v2-oracle"
+last_commit = "f574dadfd8e26e2b54837570d292bf1dfe3bd684"
+last_commit_time = "2021-12-17T14:09"
+status = "200"
+
+[repo.stats]
+forks = 8
+watching = 1
+branches = 66
+tag_count = 0
+commits = 3
+stars = 11

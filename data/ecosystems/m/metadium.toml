@@ -1,139 +1,620 @@
-# Ecosystem Level Information
 title = "Metadium"
-
+toml_path = "data/ecosystems/m/metadium.toml"
+github_organizations = ["https://github.com/METADIUM"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/METADIUM"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/METADIUM/chains"
+last_commit = "c2ee60575ac130baed41da07843ec92cb4466c0c"
+last_commit_time = "2019-03-11T06:28"
+status = "200"
+
+[repo.stats]
+branches = 50
+commits = 9
+tag_count = 0
+forks = 0
+watching = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/METADIUM/cmet"
+last_commit = "677dede38130d2bdbb92c5f39272bcaa33327ac7"
+last_commit_time = "2022-04-01T19:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+branches = 1
+watching = 2
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/METADIUM/did-method-registry"
+last_commit = "1e28041e21e0f26d8fbd692ba1e864bb5661d113"
+last_commit_time = "2019-04-26T05:21"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+branches = 41
+tag_count = 0
+forks = 75
+commits = 6
 
 [[repo]]
 url = "https://github.com/METADIUM/did-resolver-java-client"
+last_commit = "2e67cee6395621717a71d559a2994b1ec3d4b648"
+last_commit_time = "2020-03-23T01:22"
+status = "200"
+
+[repo.stats]
+branches = 17
+forks = 0
+watching = 2
+tag_count = 0
+commits = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/METADIUM/did-sdk-java"
+last_commit = "9de196554bfee7c7dc5c83a20f4f84091669830f"
+last_commit_time = "2022-04-06T04:41"
+status = "200"
+
+[repo.stats]
+branches = 57
+commits = 13
+stars = 0
+forks = 2
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/METADIUM/did-sdk-swift"
+last_commit = "ba6efc66477d85b733d96e451907b08fded596ae"
+last_commit_time = "2022-04-18T05:39"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 0
+watching = 2
+forks = 0
+branches = 24
 
 [[repo]]
 url = "https://github.com/METADIUM/Documentation"
+last_commit = "d91bdeca2743d36daaff93d173afc5e9d91e71d8"
+last_commit_time = "2019-08-26T09:13"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 2
+commits = 1
+branches = 11
+stars = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/METADIUM/etcd"
+last_commit = "682b8676530cbaad70cb9e555e11d056eceeaf4d"
+last_commit_time = "2022-01-24T18:57"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 2
+stars = 0
+tag_count = 0
+watching = 2
+branches = 0
 
 [[repo]]
 url = "https://github.com/METADIUM/go-delegator"
+last_commit = "5a544cf7f34f2c3c4469a25123e3b06ffbed38cf"
+last_commit_time = "2019-09-23T08:59"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 274
+commits = 1
+tag_count = 0
+forks = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/METADIUM/go-metadium"
+last_commit = "a8af0caa767ead8968f87b21ba06fb256f4dbf90"
+last_commit_time = "2021-05-21T01:30"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 9
+watching = 3
+commits = 25
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/METADIUM/governance-contract"
+last_commit = "bc6682723cdaf7b8a23bed326056d23938c4d8e0"
+last_commit_time = "2021-10-07T01:41"
+status = "200"
+
+[repo.stats]
+forks = 7
+tag_count = 0
+branches = 250
+commits = 2
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/METADIUM/governance-spec"
+last_commit = "89695bb98d0aa26ac01d2a566443b063d67c8845"
+last_commit_time = "2019-03-21T09:29"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 0
+branches = 1
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/METADIUM/identity-hub-client-java"
+last_commit = "1ee75ad44c6385668c332febfb547acc7f53b054"
+last_commit_time = "2020-04-23T15:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+watching = 2
+branches = 22
+stars = 0
 
 [[repo]]
 url = "https://github.com/METADIUM/iitp-verifiable-sdk"
+last_commit = "49ca5b60942e6802498f3117b7028ee11e46d5d1"
+last_commit_time = "2020-11-25T01:59"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 2
+tag_count = 0
+stars = 1
+branches = 21
+forks = 1
 
 [[repo]]
 url = "https://github.com/METADIUM/ipfs-cluster"
+last_commit = "6eaf628a228473c15f6bdfd1d0cb0d7486116009"
+last_commit_time = "2018-12-05T07:24"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 0
+tag_count = 0
+commits = 1
+branches = 3
 
 [[repo]]
 url = "https://github.com/METADIUM/JWTsSwift"
+last_commit = "6826e643f8460493587362481040bd4c6ffc79d9"
+last_commit_time = "2019-08-27T02:47"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 1
+branches = 6
+tag_count = 0
+stars = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/METADIUM/keepin-verify-sdk"
+last_commit = "43a847d73474284ed842337d0ef8aeec5960bf2a"
+last_commit_time = "2021-09-10T09:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 36
+commits = 1
+stars = 0
+forks = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/METADIUM/keepin_android_sdk"
+last_commit = "cfb9e2e0ade0ad914c05390eb4437063ec4bac8c"
+last_commit_time = "2019-08-14T10:39"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 26
+watching = 1
+commits = 3
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/METADIUM/keepin_iOS_SDK"
+last_commit = "57c5d9b21318790301217868d586104681f2e701"
+last_commit_time = "2021-09-08T06:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 2
+branches = 39
+forks = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/METADIUM/meta-attestation"
+last_commit = "c96a0cf9a8799494ac4bd6d55d30658af5bd490e"
+last_commit_time = "2019-05-28T02:31"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 1
+commits = 1
+tag_count = 0
+branches = 90
 
 [[repo]]
 url = "https://github.com/METADIUM/meta-authorities"
+last_commit = "b48519d390e49cd9ef68c94b25f557650cc84d37"
+last_commit_time = "2019-03-22T02:58"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 3
+branches = 9
+tag_count = 0
+watching = 1
+commits = 3
 
 [[repo]]
 url = "https://github.com/METADIUM/meta-DID"
+last_commit = "cf7ca97cae7b84e37d3fd77171a7775b3758678b"
+last_commit_time = "2021-06-02T07:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 3
+branches = 31
+stars = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/METADIUM/meta-did-resolver"
+last_commit = "b1bafce8adbbd3c535db1f6ac174a95de713e554"
+last_commit_time = "2020-01-17T09:25"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 2
+forks = 3
+tag_count = 0
+branches = 3
+commits = 9
 
 [[repo]]
 url = "https://github.com/METADIUM/meta-governance-dapp"
+last_commit = "48cb1dd3b827952bd829ef36ca79ca243fd90759"
+last_commit_time = "2019-05-02T06:30"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 1
+tag_count = 0
+forks = 6
+branches = 199
+commits = 2
 
 [[repo]]
 url = "https://github.com/METADIUM/meta-SP-Registry"
+last_commit = "433197645391949ca26b9d67e54b35980b99e6cb"
+last_commit_time = "2019-09-06T10:27"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 6
+branches = 14
+watching = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/METADIUM/meta-web3"
+last_commit = "842f968114ba61b0bff9d12939cdf848ea2ecbae"
+last_commit_time = "2019-06-05T06:02"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+watching = 1
+branches = 44
+commits = 1
+forks = 5
 
 [[repo]]
 url = "https://github.com/METADIUM/meta-web3-abis"
+last_commit = "32ebaf94d61a9b5c91933e1a733800abfee114ad"
+last_commit_time = "2019-06-04T06:20"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 2
+tag_count = 0
+commits = 4
+branches = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/METADIUM/metabolics"
+last_commit = "638af680c43e41437647560f05965462199b3597"
+last_commit_time = "2019-03-28T07:33"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 1
+forks = 3
+tag_count = 0
+branches = 139
+stars = 2
 
 [[repo]]
 url = "https://github.com/METADIUM/metabolics-deprecated-"
+last_commit = "9a067bd0380c19557b40fbc0d7e54a3335b0785f"
+last_commit_time = "2018-12-07T03:21"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 0
+forks = 0
+watching = 1
+branches = 48
 
 [[repo]]
 url = "https://github.com/METADIUM/metadium-builder"
+last_commit = "f6026a344f728339dac7246303dece726cdbc2f1"
+last_commit_time = "2021-01-01T06:40"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+commits = 2
+watching = 1
+stars = 0
+branches = 22
 
 [[repo]]
 url = "https://github.com/METADIUM/metadium-demo"
+last_commit = "55ade63b90f724c2ca7d7ab38a8603e56d481054"
+last_commit_time = "2018-11-28T18:50"
+status = "200"
+
+[repo.stats]
+branches = 12
+commits = 1
+stars = 0
+tag_count = 0
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/METADIUM/metadium-token-contract"
+last_commit = "cb6d88d3b99459d8bff811cfe721011e2a037eb4"
+last_commit_time = "2019-02-13T06:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 1
+branches = 8
+stars = 2
+forks = 2
 
 [[repo]]
 url = "https://github.com/METADIUM/metagalaga"
+last_commit = "56d9723617f3912fa40a9c4f2b2c4e7ef4e412c0"
+last_commit_time = "2019-05-22T00:14"
+status = "200"
+
+[repo.stats]
+branches = 93
+tag_count = 0
+commits = 1
+watching = 2
+forks = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/METADIUM/metagate"
+last_commit = "672f79d73710fb2f290470f4a7e34e797b4d09d9"
+last_commit_time = "2019-05-28T09:02"
+status = "200"
+
+[repo.stats]
+branches = 230
+stars = 1
+tag_count = 0
+commits = 1
+watching = 1
+forks = 3
 
 [[repo]]
 url = "https://github.com/METADIUM/MetaResolvers"
+last_commit = "83738bb0a3ca1a1faf1e0f51b6370267e6bed49b"
+last_commit_time = "2019-07-15T11:55"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 2
+branches = 210
+watching = 2
+tag_count = 0
+commits = 10
 
 [[repo]]
 url = "https://github.com/METADIUM/metasdk-react"
+last_commit = "6d8aa80a44504dfbac4db5a38bf2343ba4e50614"
+last_commit_time = "2019-05-22T05:08"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 2
+tag_count = 0
+branches = 146
+commits = 1
 
 [[repo]]
 url = "https://github.com/METADIUM/metastellar"
+last_commit = "2850fced1f72b899e9a37ea16ba784eaeb8d7c16"
+last_commit_time = "2019-06-03T02:27"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+forks = 4
+stars = 0
+commits = 1
+branches = 102
 
 [[repo]]
 url = "https://github.com/METADIUM/slips"
+last_commit = "824fa2f6685cf1abd253c9a82b560c8906318e1e"
+last_commit_time = "2019-01-15T03:03"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 537
+tag_count = 0
+commits = 3
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/METADIUM/static"
+last_commit = "0750a4bba61bf23c6d6f7bcd3faa11169b7a055a"
+last_commit_time = "2022-05-10T00:37"
+status = "200"
+
+[repo.stats]
+branches = 212
+stars = 1
+watching = 2
+tag_count = 0
+commits = 3
+forks = 5
 
 [[repo]]
 url = "https://github.com/METADIUM/verifiable-credential-java"
+last_commit = "bf75415f6e4933f17dc46e81646e7b8f680b52e1"
+last_commit_time = "2021-09-30T00:57"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+commits = 2
+branches = 38
+forks = 2
+stars = 3
 
 [[repo]]
 url = "https://github.com/METADIUM/VerifiableSwift"
+last_commit = "ba5b0842127fb2486668afcf403dfa9cc43f8901"
+last_commit_time = "2021-09-30T01:14"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 3
+watching = 2
+commits = 1
+stars = 2
+branches = 7
 
 [[repo]]
 url = "https://github.com/METADIUM/web3j"
+last_commit = "8112580559c3a6d278acdc66dbc54bdecd769429"
+last_commit_time = "2022-05-27T03:17"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 1
+tag_count = 0
+forks = 0
+branches = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/METADIUM/web3ja"
+last_commit = "ddbf79bd4ff3e7b0c1ff41aaa39fdafbf3412986"
+last_commit_time = "2019-01-02T07:53"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 1
+tag_count = 0
+branches = 7
+commits = 1
 
 [[repo]]
 url = "https://github.com/METADIUM/Web3Swift-iOS"
+last_commit = "f9f295236b051a2158ed32e0e2098d2e227febef"
+last_commit_time = "2022-04-06T06:57"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 4
+tag_count = 0
+branches = 64
+watching = 2
+commits = 2

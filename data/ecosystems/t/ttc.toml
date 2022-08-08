@@ -1,64 +1,268 @@
-# Ecosystem Level Information
 title = "TTC"
-
+toml_path = "data/ecosystems/t/ttc.toml"
+github_organizations = ["https://github.com/TTCECO"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/TTCECO"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/TTCECO/acn_smart_contract"
+last_commit = "02785a2fe5be2dfc6d03feb8a3536c437c1f3f4a"
+last_commit_time = "2020-10-12T09:14"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 1
+forks = 1
+watching = 1
+branches = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/TTCECO/ACNSDK_Android"
+last_commit = "0a2abd3d80d690256a40e65d080793a665f9943a"
+last_commit_time = "2021-09-09T08:42"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 120
+tag_count = 0
+stars = 15
+commits = 3
+forks = 2
 
 [[repo]]
 url = "https://github.com/TTCECO/ACNSDK_iOS"
+last_commit = "c14abdc6e7f85486f29bff8d18940c12f66a249a"
+last_commit_time = "2021-11-04T07:27"
+status = "200"
+
+[repo.stats]
+branches = 192
+commits = 56
+tag_count = 0
+watching = 2
+forks = 4
+stars = 17
 
 [[repo]]
 url = "https://github.com/TTCECO/carnot"
+last_commit = "9be3c488179c3eff27109d71f3690814b203e39b"
+last_commit_time = "2019-06-14T06:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+branches = 158
+stars = 13
+forks = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/TTCECO/CryptoSwift"
+last_commit = "d8a4e01ed6f9b5ce871a9a26464615ea2fd1f688"
+last_commit_time = "2019-06-04T08:50"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 0
+forks = 0
+commits = 15
+watching = 1
 
 [[repo]]
 url = "https://github.com/TTCECO/Documentation"
+last_commit = "903fbb161b2de292d6765dca8f025a6d12e3fea5"
+last_commit_time = "2019-07-30T10:27"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 54
+watching = 1
+tag_count = 0
+stars = 10
+forks = 4
 
 [[repo]]
 url = "https://github.com/TTCECO/gttc"
+status = "200"
+
+[repo.stats]
+forks = 57
+watching = 6
+commits = 41
+stars = 115
+branches = 576
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/TTCECO/ico_smart_contract"
+last_commit = "f0cf536621e92169d35de7636f1f8fce28044732"
+last_commit_time = "2018-05-29T06:39"
+status = "200"
+
+[repo.stats]
+branches = 1
+tag_count = 0
+commits = 1
+stars = 9
+forks = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/TTCECO/ledger-app-ttc"
+last_commit = "0ce1fb97e50f92b5aacee569738afd8134aaf8b6"
+last_commit_time = "2020-10-21T07:11"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 2
+watching = 2
+commits = 1
+branches = 25
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/TTCECO/rosetta-maro"
+last_commit = "051c1c74c4e90741b54513e38531c55375535fb0"
+last_commit_time = "2021-09-30T07:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+forks = 56
+branches = 75
+commits = 1
+watching = 0
 
 [[repo]]
 url = "https://github.com/TTCECO/TDEX"
+last_commit = "9788ee990ba033d3aea7342b0a1ca2810c6e4633"
+last_commit_time = "2020-06-30T08:30"
+status = "200"
+
+[repo.stats]
+stars = 5
+watching = 4
+tag_count = 0
+branches = 85
+commits = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/TTCECO/Tigris"
+last_commit = "7a4ea2ec89c78a6413f2322db95f50cdd6b231df"
+last_commit_time = "2020-03-19T08:25"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 2
+watching = 3
+tag_count = 0
+stars = 5
+branches = 82
 
 [[repo]]
 url = "https://github.com/TTCECO/ttc-net-intelligence-api"
+last_commit = "d9bede9aa284f777f7b4ee62f86834ad49ddd6c6"
+last_commit_time = "2019-03-28T07:44"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+watching = 1
+forks = 347
+stars = 4
+branches = 558
 
 [[repo]]
 url = "https://github.com/TTCECO/ttc-netstats"
+last_commit = "238236f324326987d51c814b29bdee2f7e8c2474"
+last_commit_time = "2019-03-28T07:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 740
+forks = 527
+watching = 1
+commits = 4
+stars = 6
 
 [[repo]]
 url = "https://github.com/TTCECO/ttc_web3_bridge"
+last_commit = "a64848747668c5ecaea038db68d5f9500ab4efda"
+last_commit_time = "2019-11-19T05:56"
+status = "200"
+
+[repo.stats]
+branches = 22
+commits = 1
+watching = 1
+tag_count = 0
+stars = 9
+forks = 1
 
 [[repo]]
 url = "https://github.com/TTCECO/ttceco.github.io"
+last_commit = "e70772fa19a13d9f77af4822818dc87ede9bb0c6"
+last_commit_time = "2019-08-22T09:45"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+watching = 2
+stars = 0
+branches = 30
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/TTCECO/TTCPay_Android"
+last_commit = "9ed002fc43e350a95ee847f370d2909e40abaa54"
+last_commit_time = "2019-07-08T04:48"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 1
+branches = 8
+commits = 2
+stars = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/TTCECO/TTCPay_iOS"
+last_commit = "1ad7115b4c7071b50a6978fb318a4dcc0289224a"
+last_commit_time = "2020-03-10T08:04"
+status = "200"
+
+[repo.stats]
+commits = 8
+forks = 1
+tag_count = 0
+stars = 8
+watching = 1
+branches = 15
 
 [[repo]]
 url = "https://github.com/TTCECO/web3j"
+last_commit = "f99ceb19cdd65895c18e0a565034767ca18ea9fc"
+last_commit_time = "2019-03-17T20:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 5
+watching = 1
+branches = 0
+forks = 0
+commits = 17

@@ -1,19 +1,58 @@
-# Ecosystem Level Information
 title = "Prometeus"
-
+toml_path = "data/ecosystems/p/prometheus.toml"
+github_organizations = ["https://github.com/prometeus-labs"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/prometeus-labs"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/prometeus-labs/event-listener"
+last_commit = "5c177c77ff98fd164255f871ab2694c1e6a17c02"
+last_commit_time = "2019-06-19T15:00"
+status = "200"
+
+[repo.stats]
+branches = 23
+stars = 0
+forks = 0
+watching = 2
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/prometeus-labs/prometeus-1"
+last_commit = "a2eb5c52ebb792e4b4a4bcac99a8e6b288483b80"
+last_commit_time = "2019-05-18T12:41"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 1
+forks = 0
+commits = 3
+branches = 4
 
 [[repo]]
 url = "https://github.com/prometeus-labs/prometeus-network"
+last_commit = "c8b988b0a3ff1e87a2c0d614e73615952d68c142"
+last_commit_time = "2019-06-22T18:44"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 13
+forks = 1
+tag_count = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/prometeus-labs/vault-contract"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 0
+branches = 0
+commits = 0
+stars = 0

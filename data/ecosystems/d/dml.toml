@@ -1,85 +1,364 @@
-# Ecosystem Level Information
 title = "DML"
-
+toml_path = "data/ecosystems/d/dml.toml"
+github_organizations = ["https://github.com/DecentralizedML"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/DecentralizedML"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/DecentralizedML/algo-marketplace"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 0
+tag_count = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/DecentralizedML/cyborg-writer"
+last_commit = "9bfc1a398c4437f9153b53423b5b77f891136dfc"
+last_commit_time = "2017-11-09T19:31"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 50
+commits = 1
+stars = 1
+forks = 27
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DecentralizedML/DeepLearning-NLP"
+last_commit = "ca24bc0d24856526b1d1eaa7c3bde7c811eaca21"
+last_commit_time = "2016-08-02T09:08"
+status = "200"
+
+[repo.stats]
+branches = 4
+forks = 218
+commits = 1
+stars = 1
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/DecentralizedML/dml-andriod"
+last_commit = "b7233e6e1e06e15b5d56077f902791fd07a64490"
+last_commit_time = "2018-11-30T09:14"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 1
+branches = 36
+stars = 1
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/DecentralizedML/dml-backend"
+last_commit = "2b33eec5c31c7a721c28b59fadf6385d7c2a8254"
+last_commit_time = "2018-11-26T13:50"
+status = "200"
+
+[repo.stats]
+branches = 130
+tag_count = 0
+stars = 1
+commits = 3
+watching = 5
+forks = 0
 
 [[repo]]
 url = "https://github.com/DecentralizedML/dml-frontend"
+last_commit = "6d86c413bd5cc5a849cccfefdde3fedf4a85070c"
+last_commit_time = "2018-11-22T06:08"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 0
+stars = 0
+tag_count = 0
+commits = 13
+branches = 85
 
 [[repo]]
 url = "https://github.com/DecentralizedML/dml-ios"
+last_commit = "820879b03c82e1ebccb4e95986d2bc7ee72cac6e"
+last_commit_time = "2018-11-29T09:34"
+status = "200"
+
+[repo.stats]
+branches = 9
+forks = 0
+tag_count = 0
+stars = 0
+commits = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/DecentralizedML/dml-resources"
+last_commit = "efbdf81d39e03206bc5a942e6c5bfa7424877079"
+last_commit_time = "2018-08-28T20:08"
+status = "200"
+
+[repo.stats]
+branches = 65
+forks = 0
+tag_count = 0
+commits = 1
+stars = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/DecentralizedML/dml-smart-contracts"
+last_commit = "22735c770060d3336c97d7a2605aeaeb0bbf452a"
+last_commit_time = "2018-11-02T23:08"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 6
+forks = 1
+branches = 7
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/DecentralizedML/DMLToken"
+status = "200"
+
+[repo.stats]
+commits = 0
+forks = 0
+branches = 0
+stars = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DecentralizedML/eth-ipfs-browser-client"
+last_commit = "a28b3cbbcd4a7164ee16a37add65e880ecd3e3fc"
+last_commit_time = "2017-10-06T22:21"
+status = "200"
+
+[repo.stats]
+forks = 7
+branches = 14
+tag_count = 0
+commits = 4
+stars = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/DecentralizedML/keras-js"
+last_commit = "f5d3d14767749785f037af1920083789031f1648"
+last_commit_time = "2018-01-05T04:57"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 526
+watching = 4
+stars = 0
+tag_count = 0
+branches = 615
 
 [[repo]]
 url = "https://github.com/DecentralizedML/machine_learning_examples"
+last_commit = "53c89dd7f1efa6f0d6fbba8eee3fc6808511bd42"
+last_commit_time = "2018-01-19T19:51"
+status = "200"
+
+[repo.stats]
+branches = 80
+stars = 2
+commits = 1
+forks = 0
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/DecentralizedML/machinomy"
+last_commit = "1cd1b6fdf0cac578a6034d8ff3bc5b3f7a7f4034"
+last_commit_time = "2018-01-07T07:22"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 3
+forks = 42
+tag_count = 0
+commits = 56
+branches = 457
 
 [[repo]]
 url = "https://github.com/DecentralizedML/marketplace-prototype"
+last_commit = "0f9791bcd000f2929e9b891a169b6adb050dacc6"
+last_commit_time = "2018-06-30T01:51"
+status = "200"
+
+[repo.stats]
+stars = 4
+branches = 84
+watching = 6
+forks = 2
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/DecentralizedML/metamask-extension"
+last_commit = "313b3c087a09bcc4462da15ff3caeac515967cf5"
+last_commit_time = "2018-01-02T22:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 3
+forks = 0
+branches = 0
+commits = 110
 
 [[repo]]
 url = "https://github.com/DecentralizedML/PySyft"
+last_commit = "9c9e54eedbb01e25e6f0d18f5539c1f5077e36f2"
+last_commit_time = "2018-01-06T13:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+forks = 0
+commits = 9
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/DecentralizedML/raiden"
+last_commit = "ca2564bb7043c345ab44325dce5b3a3b0906f51f"
+last_commit_time = "2017-12-20T01:23"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 0
+forks = 388
+tag_count = 0
+commits = 7
+stars = 0
 
 [[repo]]
 url = "https://github.com/DecentralizedML/react-native-tensorflow"
+last_commit = "48517f4f7be652fd93d7c01ac1ff28088ff71b48"
+last_commit_time = "2017-12-11T02:15"
+status = "200"
+
+[repo.stats]
+branches = 131
+forks = 59
+stars = 0
+tag_count = 0
+commits = 3
+watching = 2
 
 [[repo]]
 url = "https://github.com/DecentralizedML/RequestVesting"
+last_commit = "3d0c0630a7ce11bde6ac7143aeaadeb963d70400"
+last_commit_time = "2018-02-05T04:51"
+status = "200"
+
+[repo.stats]
+forks = 7
+watching = 4
+tag_count = 0
+branches = 42
+commits = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/DecentralizedML/sol-function-profiler"
+last_commit = "ca24c77c5543ffb65bf6ec9aa3f399ef2e437101"
+last_commit_time = "2017-07-21T14:45"
+status = "200"
+
+[repo.stats]
+forks = 23
+stars = 0
+tag_count = 0
+watching = 2
+branches = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/DecentralizedML/solidity-analyzer"
+last_commit = "053acbeee8372a644d4ba4b04d46ba710c9f3fc4"
+last_commit_time = "2017-10-10T14:11"
+status = "200"
+
+[repo.stats]
+commits = 4
+tag_count = 0
+forks = 23
+watching = 2
+branches = 21
+stars = 0
 
 [[repo]]
 url = "https://github.com/DecentralizedML/Sonar"
+last_commit = "13edacc480a12ee89d7fda9a5a0b5e26dbde60a8"
+last_commit_time = "2017-11-25T21:27"
+status = "200"
+
+[repo.stats]
+branches = 123
+forks = 49
+tag_count = 0
+watching = 2
+commits = 6
+stars = 0
 
 [[repo]]
 url = "https://github.com/DecentralizedML/TGE"
+last_commit = "f414a2d42548efc704704576569416d94aa60c5a"
+last_commit_time = "2018-04-16T09:07"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 3
+tag_count = 0
+commits = 1
+stars = 1
+watching = 5
 
 [[repo]]
 url = "https://github.com/DecentralizedML/TGESmartContractAudit"
+last_commit = "907201bc2aa64686fed5e1b2ba2a23880f1fce5a"
+last_commit_time = "2018-04-19T13:08"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 4
+branches = 1
+commits = 1
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/DecentralizedML/web3.js"
+last_commit = "de3d64a4a9caa667642784f1aced78d5a89bb325"
+last_commit_time = "2017-12-21T09:50"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 0
+stars = 0
+forks = 0
+tag_count = 0
+commits = 7

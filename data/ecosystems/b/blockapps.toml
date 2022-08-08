@@ -1,151 +1,642 @@
-# Ecosystem Level Information
 title = "BlockApps"
-
+toml_path = "data/ecosystems/b/blockapps.toml"
+github_organizations = ["https://github.com/blockapps"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/blockapps"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/blockapps/app-framework"
+last_commit = "342d33ee4a64c69ea33de207744d719f2438f9c0"
+last_commit_time = "2020-05-13T15:07"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+branches = 82
+commits = 4
+stars = 4
+watching = 12
 
 [[repo]]
 url = "https://github.com/blockapps/azure-getting-started"
+last_commit = "1316ce5dc78a383e983192d03001d981be82976b"
+last_commit_time = "2018-02-01T19:10"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 21
+stars = 5
+branches = 16
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/blockapps/ba-hackathon-1"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 0
+commits = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/blockapps/ba-hackathon-2"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 0
+forks = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/blockapps/ba-hackathon-3"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+forks = 0
+tag_count = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/blockapps/bloc-examples"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+watching = 0
+tag_count = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/blockapps/blockapps-ba"
+last_commit = "53188a37f830def5a615504acb70d479896b6224"
+last_commit_time = "2020-01-14T15:49"
+status = "200"
+
+[repo.stats]
+stars = 82
+forks = 49
+branches = 423
+watching = 28
+tag_count = 0
+commits = 24
 
 [[repo]]
 url = "https://github.com/blockapps/blockapps-rest"
+last_commit = "f2812fc5d84fe69b47c346897d9cc4e043f11c3d"
+last_commit_time = "2022-06-28T20:17"
+status = "200"
+
+[repo.stats]
+forks = 17
+commits = 1
+tag_count = 0
+watching = 24
+branches = 731
+stars = 36
 
 [[repo]]
 url = "https://github.com/blockapps/blockapps-sample-game"
+last_commit = "b97a1312442e650a38be2c9eb7753a0bac81ac22"
+last_commit_time = "2018-03-08T16:03"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+branches = 14
+stars = 2
+watching = 9
+forks = 2
 
 [[repo]]
 url = "https://github.com/blockapps/blockapps-sol"
+last_commit = "a8ed45a533447453efd70ca21e9e3fc67e8f1a3b"
+last_commit_time = "2019-02-08T16:04"
+status = "200"
+
+[repo.stats]
+stars = 5
+forks = 0
+tag_count = 0
+watching = 19
+branches = 42
+commits = 22
 
 [[repo]]
 url = "https://github.com/blockapps/blockapps.github.io"
+status = "404"
+
+[repo.stats]
+stars = 0
+commits = 0
+tag_count = 0
+watching = 0
+branches = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/blockapps/charity-raffle"
+last_commit = "1ae4560e742d69eb7dfb465a71f08db46f75a0e0"
+last_commit_time = "2018-05-29T21:15"
+status = "200"
+
+[repo.stats]
+branches = 127
+watching = 23
+stars = 14
+commits = 7
+forks = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/blockapps/constellation"
+last_commit = "cac3e77069ff3073d29878f5657a5c05fe27b6ef"
+last_commit_time = "2017-06-10T02:52"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 9
+forks = 114
+commits = 2
+branches = 57
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/blockapps/contract-migrations"
+last_commit = "6aa80f5ec3a973e25cecda1a3aa009e4c8ab31f0"
+last_commit_time = "2017-06-16T11:42"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 22
+stars = 2
+branches = 59
+commits = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/blockapps/create-strato-dapp"
+last_commit = "342d33ee4a64c69ea33de207744d719f2438f9c0"
+last_commit_time = "2020-05-13T15:07"
+status = "200"
+
+[repo.stats]
+watching = 12
+branches = 82
+forks = 1
+stars = 4
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/blockapps/dapp-guide"
+last_commit = "f8251a1c5e60442a21a8dbfe8fbc6ce576cf9f2e"
+last_commit_time = "2018-01-31T15:29"
+status = "200"
+
+[repo.stats]
+branches = 17
+tag_count = 0
+commits = 3
+forks = 3
+stars = 9
+watching = 23
 
 [[repo]]
 url = "https://github.com/blockapps/eth-pruner"
+last_commit = "513fcc884c93974a29b380ca80669dc0aebec125"
+last_commit_time = "2017-09-25T12:54"
+status = "200"
+
+[repo.stats]
+branches = 57
+stars = 6
+tag_count = 0
+commits = 4
+watching = 18
+forks = 4
 
 [[repo]]
 url = "https://github.com/blockapps/ethereum-rlp"
+last_commit = "da647b414ebe45b04811b935cdca221d295449b5"
+last_commit_time = "2018-06-19T17:30"
+status = "200"
+
+[repo.stats]
+stars = 5
+branches = 31
+forks = 6
+commits = 72
+watching = 19
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/blockapps/flappyblocs"
+last_commit = "fb794b75536c2bc1872ebf69ff58f5a1dd466a43"
+last_commit_time = "2018-02-14T23:09"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 8
+commits = 2
+forks = 0
+branches = 4
 
 [[repo]]
 url = "https://github.com/blockapps/jenkins-material-theme"
+status = "404"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+stars = 0
+watching = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/blockapps/largeint"
+last_commit = "8cce2055e9ffffc89cb1ea2b507f837ff9d1f985"
+last_commit_time = "2017-03-15T22:35"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 1
+watching = 7
+tag_count = 0
+stars = 0
+branches = 5
 
 [[repo]]
 url = "https://github.com/blockapps/largeword"
+last_commit = "578b67ba3dcb47485717b4b384d1d51c94d0fcec"
+last_commit_time = "2017-03-13T16:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 30
+commits = 1
+stars = 0
+watching = 8
+forks = 10
 
 [[repo]]
 url = "https://github.com/blockapps/letsencrypt-tool"
+last_commit = "0003e3dfcaeb9c90c44e83442b3d01c612070978"
+last_commit_time = "2021-12-29T06:09"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 7
+forks = 0
+stars = 0
+branches = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/blockapps/merkle-patricia-db"
+last_commit = "7ea92ea9124e7d89134bbaa661221cd1e3aefc26"
+last_commit_time = "2017-09-01T19:10"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 10
+stars = 5
+commits = 1
+branches = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/blockapps/mgit"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 0
+branches = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/blockapps/milena"
+last_commit = "39dad725837f8d67721f3ac0f87a047ce36b2889"
+last_commit_time = "2020-05-26T02:14"
+status = "200"
+
+[repo.stats]
+forks = 21
+branches = 119
+stars = 0
+tag_count = 0
+watching = 1
+commits = 2
 
 [[repo]]
 url = "https://github.com/blockapps/oauth-app-simple-example"
+last_commit = "afb87abcb47e9247d541e967c99b824c57edf76d"
+last_commit_time = "2019-02-21T15:42"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+commits = 2
+branches = 40
+watching = 17
+stars = 0
 
 [[repo]]
 url = "https://github.com/blockapps/quorum"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+watching = 0
+stars = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/blockapps/quorum-examples"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 0
+branches = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/blockapps/quorum-network-dashboard"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+branches = 0
+forks = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/blockapps/quorum-rdbms-implementation"
+status = "404"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+stars = 0
+forks = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/blockapps/quorum-tests"
+status = "404"
+
+[repo.stats]
+branches = 0
+stars = 0
+forks = 0
+tag_count = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/blockapps/release-notes"
+last_commit = "acfd1dba9068f6275be61d4506c959daa2c5d58f"
+last_commit_time = "2019-01-22T21:52"
+status = "200"
+
+[repo.stats]
+forks = 52
+stars = 0
+branches = 29
+tag_count = 0
+commits = 1
+watching = 17
 
 [[repo]]
 url = "https://github.com/blockapps/sample-zip"
+last_commit = "84be7a9a79234fc5504ede7a4586fe4809dc6166"
+last_commit_time = "2018-02-15T16:26"
+status = "200"
+
+[repo.stats]
+watching = 19
+branches = 5
+forks = 1
+commits = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/blockapps/secp256k1"
+last_commit = "c6b6090ef6feca10e5f82b557112523275fa76c7"
+last_commit_time = "2020-09-08T17:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 851
+stars = 0
+watching = 1
+branches = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/blockapps/secp256k1-haskell"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+tag_count = 0
+stars = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/blockapps/solidity"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+tag_count = 0
+forks = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/blockapps/statsdi"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+stars = 0
+watching = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/blockapps/strato-cli"
+last_commit = "4be92623ed494def19350982c461b8a2be69b6a3"
+last_commit_time = "2020-02-25T16:12"
+status = "200"
+
+[repo.stats]
+watching = 24
+commits = 3
+branches = 36
+tag_count = 0
+stars = 4
+forks = 3
 
 [[repo]]
 url = "https://github.com/blockapps/strato-getting-started"
+last_commit = "9805293189d6aa262acc81031904412aef9dc4b8"
+last_commit_time = "2022-07-19T14:15"
+status = "200"
+
+[repo.stats]
+forks = 42
+watching = 31
+stars = 101
+tag_count = 0
+branches = 349
+commits = 6
 
 [[repo]]
 url = "https://github.com/blockapps/strato-openshift"
+last_commit = "d538d958b15b5039a0cf8a1c3a00e93dd066a788"
+last_commit_time = "2018-08-22T16:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+branches = 11
+commits = 2
+watching = 15
+forks = 4
 
 [[repo]]
 url = "https://github.com/blockapps/strato-scripts"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+forks = 0
+tag_count = 0
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/blockapps/strato-vscode-images"
+last_commit = "8107d894ac7fc65c4a3baa1eab469eed296cabd0"
+last_commit_time = "2022-06-27T16:14"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 1
+commits = 1
+watching = 4
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/blockapps/support"
+status = "404"
+
+[repo.stats]
+commits = 0
+watching = 0
+tag_count = 0
+branches = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/blockapps/track-and-trace"
+last_commit = "59761b179d8ed822737921ed484267c17b448bf0"
+last_commit_time = "2020-10-12T17:45"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 10
+commits = 42
+forks = 6
+branches = 443
+stars = 6
 
 [[repo]]
 url = "https://github.com/blockapps/training-exercise"
+last_commit = "ac454fc80452f82b2ea32e9d083522bc59c879b0"
+last_commit_time = "2018-04-12T15:35"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 20
+stars = 5
+forks = 6
+branches = 27
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/blockapps/xamarin-sample-app"
+last_commit = "749f275b8c0f965932f2907ce1db47bb2389b963"
+last_commit_time = "2018-09-04T15:39"
+status = "200"
+
+[repo.stats]
+forks = 8
+watching = 22
+branches = 19
+commits = 2
+tag_count = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/blockapps/xamarin-sdk"
+last_commit = "2d4916c83277b5ef3979857273bc25df519730db"
+last_commit_time = "2018-09-04T15:40"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+forks = 2
+stars = 1
+watching = 9
+branches = 63

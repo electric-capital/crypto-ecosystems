@@ -1,19 +1,56 @@
-# Ecosystem Level Information
 title = "Verso Finance"
-
+toml_path = "data/ecosystems/v/verso-finance.toml"
+github_organizations = ["https://github.com/VersoOfficial"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/VersoOfficial"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/VersoOfficial/bridge-tokens"
+last_commit = "68e87aff8f7af7bc351d729f26d15cd3804ddd97"
+last_commit_time = "2021-06-06T15:56"
+status = "200"
+
+[repo.stats]
+forks = 57
+branches = 177
+tag_count = 0
+stars = 1
+commits = 1
+watching = 0
 
 [[repo]]
 url = "https://github.com/VersoOfficial/pr"
+last_commit = "5b9ba84fda5f3decf594d3a64735eaa952b564b1"
+last_commit_time = "2021-05-01T05:49"
+status = "200"
+
+[repo.stats]
+branches = 1
+commits = 1
+stars = 2
+forks = 0
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/VersoOfficial/xvsoCredits"
+status = "404"
+
+[repo.stats]
+commits = 0
+stars = 0
+forks = 0
+branches = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/VersoOfficial/xVsoStaking"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 0
+watching = 0
+commits = 0
+forks = 0

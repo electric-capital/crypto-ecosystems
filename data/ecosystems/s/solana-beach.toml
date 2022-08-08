@@ -1,16 +1,44 @@
-# Ecosystem Level Information
 title = "Solana Beach"
-
+toml_path = "data/ecosystems/s/solana-beach.toml"
+github_organizations = ["https://github.com/solana-beach"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/solana-beach"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/solana-beach/api"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 3
+tag_count = 0
+forks = 5
+watching = 2
+stars = 20
 
 [[repo]]
 url = "https://github.com/solana-beach/ecosystem"
+last_commit = "5df6a62fb7ff6a8a5f405a59df1b59c7ab5ff00c"
+last_commit_time = "2021-07-05T07:55"
+status = "200"
+
+[repo.stats]
+forks = 536
+tag_count = 0
+commits = 10
+stars = 0
+watching = 0
+branches = 163
 
 [[repo]]
 url = "https://github.com/solana-beach/issue-tracker"
+last_commit = "b94ed1315cde959920703257ddfa1302290fec00"
+last_commit_time = "2021-05-03T09:54"
+status = "200"
+
+[repo.stats]
+stars = 3
+tag_count = 0
+commits = 1
+branches = 3
+watching = 4
+forks = 2

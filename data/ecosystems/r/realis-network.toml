@@ -1,67 +1,282 @@
-# Ecosystem Level Information
 title = "Realis Network"
-
+toml_path = "data/ecosystems/r/realis-network.toml"
+github_organizations = ["https://github.com/RealisNetwork"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/RealisNetwork"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/RealisNetwork/apps"
+last_commit = "a418f6dd59c4ca936092289d792550429e7fe551"
+last_commit_time = "2021-11-05T14:35"
+status = "200"
+
+[repo.stats]
+commits = 10
+forks = 959
+watching = 0
+branches = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/battle-pass-module"
+last_commit = "0897d8bb78c2656b47964d0b878318fe21ca2189"
+last_commit_time = "2022-04-26T08:37"
+status = "200"
+
+[repo.stats]
+branches = 2
+forks = 0
+commits = 3
+watching = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/bridge-realis"
+last_commit = "d3b32397d914cdf6f1795ec46d1509ee39d9d8f1"
+last_commit_time = "2022-01-24T13:35"
+status = "200"
+
+[repo.stats]
+branches = 288
+stars = 0
+forks = 0
+commits = 8
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/RealisNetwork/CryptoSoulSmartContract"
+last_commit = "beda86c790ba3a0c4fb86747670139233087fea9"
+last_commit_time = "2018-10-18T11:00"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 2
+branches = 1
+commits = 1
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/eth-contract-metadata"
+last_commit = "d4fc0aa49f679fdec26cf29d514f54b9f8e37167"
+last_commit_time = "2019-06-19T16:30"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 423
+forks = 922
+tag_count = 0
+commits = 5
+stars = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/ethereum-lists"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+watching = 0
+forks = 0
+stars = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/game-network"
+last_commit = "cd8f576bb450166b6bec68aeb41f1a9b08dbf542"
+last_commit_time = "2021-11-10T10:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+branches = 1
+commits = 4
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/RealisNetwork/grandpa-bridge-gadget"
+last_commit = "1758cfe61e6373485e5d840246b02a8d7f3f7bb8"
+last_commit_time = "2022-02-08T09:23"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 0
+stars = 0
+forks = 0
+branches = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/near-listener"
+last_commit = "f1d3d65243d0459dd0f26f0b900df11aee3a17e4"
+last_commit_time = "2022-02-20T00:49"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+commits = 6
+forks = 9
+stars = 0
+branches = 69
 
 [[repo]]
 url = "https://github.com/RealisNetwork/Open-Grants-Program"
+last_commit = "22b5db48fe029fad48041118f365855f98a81264"
+last_commit_time = "2020-10-06T07:54"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 302
+forks = 0
+tag_count = 0
+commits = 4
+watching = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/polkadot"
+last_commit = "1dc3318badaff1a2e59673de5874aaebd3091f12"
+last_commit_time = "2022-04-25T10:22"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 0
+tag_count = 0
+branches = 0
+commits = 481
 
 [[repo]]
 url = "https://github.com/RealisNetwork/ratsio"
+last_commit = "e6061fb9c0e1f18281d8bc0a971a871ed795d0d1"
+last_commit_time = "2022-04-03T07:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+watching = 0
+stars = 0
+branches = 117
+forks = 24
 
 [[repo]]
 url = "https://github.com/RealisNetwork/Realis.Network"
+last_commit = "20a4c14e6e268e802062fc4d7e41b504d87186e4"
+last_commit_time = "2022-05-13T06:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 11
+watching = 7
+forks = 3
+branches = 647
+stars = 8
 
 [[repo]]
 url = "https://github.com/RealisNetwork/rmrk-substrate"
+last_commit = "1ff6f5f0e06086b90de721a9576561e39650fe79"
+last_commit_time = "2022-05-06T13:37"
+status = "200"
+
+[repo.stats]
+commits = 15
+watching = 0
+stars = 0
+forks = 28
+branches = 426
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/rust-lib"
+last_commit = "e13a27593a9ef9e69ddafc02b8e60033f3ad7a3e"
+last_commit_time = "2022-08-03T14:57"
+status = "200"
+
+[repo.stats]
+branches = 884
+commits = 7
+watching = 6
+tag_count = 0
+forks = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/rust-nats-wrapper"
+last_commit = "fc6ec599d7bd942b3983566f2808b78026795960"
+last_commit_time = "2022-04-04T06:25"
+status = "200"
+
+[repo.stats]
+watching = 4
+commits = 1
+branches = 18
+tag_count = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/substrate"
+last_commit = "3e8312a7384bcd1a18c248829c3ecd6d78bd02b3"
+last_commit_time = "2022-02-10T12:28"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 485
+forks = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/substrate-api-client"
+last_commit = "4bd117e224b2a79f28ea872b86bcd47833cb24f3"
+last_commit_time = "2022-02-03T08:51"
+status = "200"
+
+[repo.stats]
+branches = 400
+tag_count = 0
+forks = 100
+commits = 7
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/substrate-debug-kit"
+last_commit = "1f6457934d7adb75fbca1cb327d8e7e40ba73d2b"
+last_commit_time = "2022-02-08T09:16"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+stars = 0
+branches = 1
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/RealisNetwork/substrate-parachain-template"
+last_commit = "fb0af5663e4b4c28a41629f0c9158c69b26f1fab"
+last_commit_time = "2022-05-09T08:10"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 7
+branches = 70
+forks = 101
+watching = 0

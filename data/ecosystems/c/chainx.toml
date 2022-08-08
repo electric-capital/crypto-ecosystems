@@ -1,16 +1,46 @@
-# Ecosystem Level Information
 title = "ChainX"
-
+toml_path = "data/ecosystems/c/chainx.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/chainx-org/chainx-2.0-genesis-generator"
+last_commit = "afb514ca35b32663d8a11d10b53cfc48c061e426"
+last_commit_time = "2020-11-25T01:29"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 15
+stars = 0
+commits = 1
+tag_count = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/chainx-org/chainx-subxt"
+last_commit = "98e0c28be723de77ffe18a91d85cd5d4607bd3a9"
+last_commit_time = "2021-03-29T10:54"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 0
+forks = 0
+commits = 2
+branches = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/chainx-org/light-bitcoin"
+last_commit = "c0db1bc73bda1b5fddd5fcb5814dc2caf1409700"
+last_commit_time = "2021-05-08T06:51"
+status = "200"
+
+[repo.stats]
+branches = 50
+commits = 27
+tag_count = 0
+watching = 1
+stars = 8
+forks = 6

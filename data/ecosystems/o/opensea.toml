@@ -1,148 +1,632 @@
-# Ecosystem Level Information
 title = "OpenSea"
-
+toml_path = "data/ecosystems/o/opensea.toml"
+github_organizations = ["https://github.com/ProjectOpenSea"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/ProjectOpenSea"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/ProjectOpenSea/0x-fee-wrapper"
+last_commit = "43daa99207aa24039e516291b0ec3e94aac2345c"
+last_commit_time = "2021-06-28T15:56"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 6
+stars = 15
+forks = 11
+watching = 28
+commits = 4
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/0x-tools"
+last_commit = "0787b82635f14a94f65ef957bda1fdf092a733fb"
+last_commit_time = "2022-03-16T07:23"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 48
+branches = 0
+commits = 39
+stars = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/apischema"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 0
+commits = 0
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/boundary-chart"
+last_commit = "199362abd0147ab8c76cd95909e4632896ab38fa"
+last_commit_time = "2022-03-19T04:02"
+status = "200"
+
+[repo.stats]
+commits = 4
+tag_count = 0
+forks = 6
+watching = 0
+branches = 33
+stars = 1
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/brownie"
+last_commit = "c01ff902f3586d31f07610bb9e6261886135a3e1"
+last_commit_time = "2022-05-29T01:48"
+status = "200"
+
+[repo.stats]
+forks = 423
+tag_count = 0
+watching = 0
+commits = 4
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/CoinGecko-Java"
+last_commit = "1b733d3c686f87bc313c8025a70539f0f5eafa06"
+last_commit_time = "2022-07-20T23:55"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+branches = 72
+stars = 0
+watching = 0
+forks = 68
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/cryptotickets"
+last_commit = "5bc2fe2fb8166c62031880015aa3feae79f19623"
+last_commit_time = "2019-01-25T21:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 23
+watching = 3
+branches = 25
+commits = 2
+stars = 17
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/devcon-workshop"
+last_commit = "fb94fec7a3ac71e21ca1ec4a6aeb9c2a5ca77ca5"
+last_commit_time = "2022-04-08T18:57"
+status = "200"
+
+[repo.stats]
+forks = 10
+stars = 10
+tag_count = 0
+watching = 3
+commits = 14
+branches = 4
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/discord-moderator"
+last_commit = "abd0f9c617db7eee3443214e4cb81c7c70149497"
+last_commit_time = "2021-02-26T15:16"
+status = "200"
+
+[repo.stats]
+stars = 6
+commits = 1
+forks = 3
+watching = 1
+branches = 18
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/embeddable-nfts"
+status = "200"
+
+[repo.stats]
+commits = 17
+watching = 52
+forks = 134
+stars = 280
+tag_count = 0
+branches = 77
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/embeddable_nfts"
+status = "200"
+
+[repo.stats]
+watching = 52
+commits = 17
+forks = 134
+stars = 280
+branches = 77
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/ethdenver-workshop"
+last_commit = "fb94fec7a3ac71e21ca1ec4a6aeb9c2a5ca77ca5"
+last_commit_time = "2022-04-08T18:57"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+branches = 4
+commits = 14
+forks = 10
+stars = 10
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/ethmoji-contracts"
+last_commit = "f69f8f7ca5e2596ede6c4d86b3413fa62160a62f"
+last_commit_time = "2018-05-18T00:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 5
+stars = 22
+forks = 12
+watching = 7
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/ethmoji-js"
+last_commit = "7d34dc16d18499553b91405d0349f061af9b3abf"
+last_commit_time = "2018-04-09T06:10"
+status = "200"
+
+[repo.stats]
+watching = 6
+forks = 13
+tag_count = 0
+branches = 37
+stars = 18
+commits = 1
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/ethmoji-js-demo"
+last_commit = "c963be12cb25f25bb4fbab47851a787de28fd39f"
+last_commit_time = "2018-04-09T06:53"
+status = "200"
+
+[repo.stats]
+stars = 5
+forks = 8
+tag_count = 0
+branches = 11
+watching = 4
+commits = 4
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/fake-gcs-server"
+last_commit = "bd2de4bdf89648c518a79e047005b95cbe37b996"
+last_commit_time = "2021-09-29T19:09"
+status = "200"
+
+[repo.stats]
+branches = 949
+forks = 143
+commits = 18
+watching = 0
+tag_count = 0
+stars = 5
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/heroku-td-agent"
+last_commit = "18f43b8b87eacde48ceda07e445497daacdc826e"
+last_commit_time = "2018-10-28T02:25"
+status = "200"
+
+[repo.stats]
+watching = 3
+commits = 2
+tag_count = 0
+forks = 21
+stars = 1
+branches = 40
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/klaytn-contracts"
+last_commit = "5abb4a5ceb3c45dc840e7670c0b7cca7dddca666"
+last_commit_time = "2021-06-15T07:57"
+status = "200"
+
+[repo.stats]
+commits = 9
+stars = 1
+watching = 0
+branches = 10
+forks = 76
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/marketplace-benchmarks"
+status = "200"
+
+[repo.stats]
+branches = 98
+stars = 52
+forks = 6
+commits = 2
+watching = 10
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/masonic"
+last_commit = "f25b8932ffabbfb2b629b98fba65ca1d199b8b87"
+last_commit_time = "2022-06-06T22:12"
+status = "200"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+stars = 0
+branches = 216
+forks = 40
+commits = 1
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/meta-transactions"
+last_commit = "1884921c5fec1f5207e095fdbe61af185879e15d"
+last_commit_time = "2021-06-30T18:10"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 45
+forks = 30
+branches = 22
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/metadata-api-nodejs"
+last_commit = "a0ab8913b19fbdffacaa00da275e4646ec1f6c58"
+last_commit_time = "2022-08-04T19:23"
+status = "200"
+
+[repo.stats]
+branches = 10
+forks = 160
+tag_count = 0
+watching = 4
+commits = 2
+stars = 171
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/metadata-api-python"
+last_commit = "7884b21ca8c0d8aa7499e8e6881dc8ff8d262039"
+last_commit_time = "2021-08-18T22:14"
+status = "200"
+
+[repo.stats]
+stars = 103
+branches = 11
+watching = 3
+forks = 52
+commits = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/multi-token-standard"
+last_commit = "acfa7c1e37cac367f21f6a586da7d7c0aeeb407d"
+last_commit_time = "2019-10-27T03:04"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+forks = 101
+stars = 17
+watching = 1
+branches = 155
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/nft-tutorial"
+status = "200"
+
+[repo.stats]
+branches = 6
+commits = 6
+watching = 12
+tag_count = 0
+forks = 31
+stars = 72
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/niftygateway"
+status = "404"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+forks = 0
+commits = 0
+stars = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/opensea-creatures"
+status = "200"
+
+[repo.stats]
+commits = 20
+watching = 36
+forks = 759
+stars = 0
+tag_count = 0
+branches = 197
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/opensea-erc1155"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 94
+commits = 31
+watching = 24
+forks = 270
+stars = 558
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/opensea-js"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 46
+branches = 790
+stars = 0
+watching = 65
+forks = 746
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/opensea-stream-discord-webhook"
+last_commit = "6c7799d66aef89dbb0c3c82eb4b83a70b8003054"
+last_commit_time = "2022-06-15T14:58"
+status = "200"
+
+[repo.stats]
+commits = 5
+stars = 18
+watching = 9
+tag_count = 0
+forks = 8
+branches = 35
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/opensea-whitelabel"
+last_commit = "e650979bdfe32278ae6ad3b4fd344ea8990d454c"
+last_commit_time = "2020-10-08T19:14"
+status = "200"
+
+[repo.stats]
+stars = 225
+watching = 8
+forks = 185
+branches = 7
+tag_count = 0
+commits = 20
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/plunderbot"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 0
+tag_count = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/pyexiv2"
+last_commit = "1d3d3ed743094fe0e3023d533c868f1c81709479"
+last_commit_time = "2022-04-30T00:00"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 33
+watching = 0
+branches = 328
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/pytest-django"
+last_commit = "ed77ef2916013eaa7924ef6d21f7c8266ae4f670"
+last_commit_time = "2021-12-31T14:39"
+status = "200"
+
+[repo.stats]
+commits = 20
+tag_count = 0
+forks = 312
+branches = 0
+stars = 2
+watching = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/SDWebImageSwiftUI"
+last_commit = "a34e0cabbf369845b66de868748412fcb5929844"
+last_commit_time = "2022-05-12T17:29"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 459
+watching = 0
+forks = 130
+commits = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/seaport"
+status = "200"
+
+[repo.stats]
+commits = 40
+forks = 295
+branches = 0
+stars = 0
+tag_count = 0
+watching = 27
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/seaport-js"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 93
+commits = 2
+forks = 54
+watching = 11
+stars = 96
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/seaport.py"
+last_commit = "181eb820e73e9b8e5afe645544f207c368095a50"
+last_commit_time = "2022-06-28T05:21"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 5
+watching = 8
+branches = 23
+stars = 14
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/search-ui"
+last_commit = "8a719ee18a0eb12747c974a3a36bb17f4c20cca6"
+last_commit_time = "2020-01-10T12:35"
+status = "200"
+
+[repo.stats]
+forks = 308
+watching = 1
+tag_count = 0
+branches = 453
+stars = 8
+commits = 19
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/ships-log"
+last_commit = "e24bb672d83208dc10c8514c69bd0363a827f4ed"
+last_commit_time = "2021-05-14T00:51"
+status = "200"
+
+[repo.stats]
+commits = 9
+forks = 13
+stars = 14
+tag_count = 0
+branches = 39
+watching = 2
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/stream-js"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 19
+branches = 138
+commits = 14
+forks = 26
+stars = 106
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/terraform-aws-eks"
+last_commit = "f34670cf0bc84c42df14f64422ffda7298006fb8"
+last_commit_time = "2022-06-29T11:52"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 0
+tag_count = 0
+branches = 836
+stars = 1
+commits = 2
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/truffle-contract"
+last_commit = "335dcdb95dd6906f0f707bc13a8bd15a28d29614"
+last_commit_time = "2018-02-27T21:49"
+status = "200"
+
+[repo.stats]
+forks = 145
+watching = 3
+branches = 155
+tag_count = 0
+commits = 11
+stars = 8
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/web3.py"
+last_commit = "fffb936da52d3354191439ef537a11352e85059c"
+last_commit_time = "2022-06-29T18:52"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 7
+tag_count = 0
+watching = 0
+stars = 5
+branches = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/wyvern-js"
+status = "200"
+
+[repo.stats]
+stars = 23
+forks = 65
+watching = 3
+branches = 110
+tag_count = 0
+commits = 19
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/wyvern-schemas"
+last_commit = "3290fc095649f5552b560bfcb1f0fa49acf13894"
+last_commit_time = "2022-06-17T21:19"
+status = "200"
+
+[repo.stats]
+branches = 212
+watching = 3
+stars = 20
+commits = 13
+forks = 56
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/ProjectOpenSea/xiang-wu-experimental"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 0
+commits = 0
+watching = 0
+branches = 0

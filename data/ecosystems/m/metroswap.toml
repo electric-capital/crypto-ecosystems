@@ -1,112 +1,494 @@
-# Ecosystem Level Information
 title = "Metroswap"
-
+toml_path = "data/ecosystems/m/metroswap.toml"
+github_organizations = ["https://github.com/metroswap"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/metroswap"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/metroswap/advanced-weth"
+last_commit = "9428b82228dcc8085ab154a1d5a89ad4624a1cc8"
+last_commit_time = "2020-07-20T18:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 36
+forks = 0
+watching = 1
+commits = 2
 
 [[repo]]
 url = "https://github.com/metroswap/convert-cidv0-cidv1"
+last_commit = "c53a468c3602a85dd979c02ec4ddd9102849395e"
+last_commit_time = "2020-10-01T18:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+branches = 3
+watching = 1
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/metroswap/cookieconsent"
+last_commit = "70772003f48ae1f221ce1f7f62fbeb702dc5d935"
+last_commit_time = "2021-03-25T14:12"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 66
+stars = 0
+branches = 151
+tag_count = 0
+commits = 18
 
 [[repo]]
 url = "https://github.com/metroswap/default-token-list"
+last_commit = "977f7060357b25ba903249e34f2eb8460d1b0432"
+last_commit_time = "2021-01-21T23:56"
+status = "200"
+
+[repo.stats]
+branches = 53
+tag_count = 0
+commits = 1
+forks = 1
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/metroswap/DeFi-Pulse-Adapters"
+last_commit = "7af642de0418b7326d0f6c9e7db7fe5e98a54ec6"
+last_commit_time = "2020-04-16T22:58"
+status = "200"
+
+[repo.stats]
+commits = 23
+watching = 1
+forks = 0
+branches = 91
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/metroswap/docs"
+last_commit = "3d71d5d7e0ffefd08596de29b7630fe9744721d2"
+last_commit_time = "2020-03-23T17:42"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 130
+watching = 1
+forks = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/metroswap/ethermint"
+last_commit = "7a8384544994968fe74527805b33316df68b3b62"
+last_commit_time = "2021-09-02T07:23"
+status = "200"
+
+[repo.stats]
+commits = 70
+tag_count = 0
+forks = 150
+branches = 538
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/metroswap/liquidity-staker"
+last_commit = "3edce550aeeb7b0c17a10701ff4484d6967e345f"
+last_commit_time = "2020-09-24T19:23"
+status = "200"
+
+[repo.stats]
+branches = 2
+forks = 0
+stars = 0
+watching = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/metroswap/merkle-distributor"
+last_commit = "c3255bfa2b684594ecd562cacd7664b0f18330bf"
+last_commit_time = "2020-09-18T00:20"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 54
+commits = 1
+tag_count = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/metroswap/metrosocks"
+last_commit = "eb7b79bacc4e8a70728c022b4324e515009276cc"
+last_commit_time = "2021-04-23T17:14"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 1
+tag_count = 0
+branches = 65
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/metroswap/metroswap-api"
+last_commit = "443a3dbda808736b0405edf64ad9560a7daa742c"
+last_commit_time = "2021-04-24T00:54"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 0
+watching = 1
+tag_count = 0
+forks = 0
+branches = 106
 
 [[repo]]
 url = "https://github.com/metroswap/metroswap-info"
+last_commit = "59bf72e3df92f5781d12694cae60539114807936"
+last_commit_time = "2021-04-19T18:43"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+tag_count = 0
+branches = 507
+commits = 7
+watching = 1
 
 [[repo]]
 url = "https://github.com/metroswap/metroswap-org"
+last_commit = "5c444d0348b9af62073f71fb493f79fbfa9d0e34"
+last_commit_time = "2021-04-24T00:56"
+status = "200"
+
+[repo.stats]
+commits = 8
+watching = 1
+tag_count = 0
+branches = 797
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/metroswap/metroswap-v1-interface"
+last_commit = "840c389674e9e07d3befb2d3af48604e5fc091a3"
+last_commit_time = "2021-04-24T18:38"
+status = "200"
+
+[repo.stats]
+branches = 523
+commits = 1
+stars = 0
+watching = 1
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/metroswap/metroswap-v2-core"
+last_commit = "4dd59067c76dea4a0e8e4bfdda41877a6b16dedc"
+last_commit_time = "2020-05-18T23:54"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+tag_count = 0
+commits = 3
+forks = 0
+branches = 250
 
 [[repo]]
 url = "https://github.com/metroswap/metroswap-v2-subgraph"
+last_commit = "9e976ea226a70cfd56ac593dc2e4ca85e28c01d2"
+last_commit_time = "2021-12-09T06:52"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 5
+watching = 1
+forks = 0
+branches = 207
 
 [[repo]]
 url = "https://github.com/metroswap/metroswap.github.io"
+last_commit = "f07bf7c6951094a3d0f2434c1ab54879148c11c1"
+last_commit_time = "2022-07-01T05:55"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 7
+stars = 0
+branches = 65
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/metroswap/new-host"
+last_commit = "8d71c520ed55c8e3e3e584ca9bc13b255cdd9746"
+last_commit_time = "2022-06-26T06:01"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+tag_count = 0
+forks = 66
+branches = 246
+commits = 13
 
 [[repo]]
 url = "https://github.com/metroswap/old-solidity-contracts"
+last_commit = "758e013cf64a7f9a420d32e021ff7a47c94b18e5"
+last_commit_time = "2018-10-26T23:31"
+status = "200"
+
+[repo.stats]
+branches = 68
+forks = 0
+watching = 1
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/metroswap/replace-vercel-dns-records"
+last_commit = "56a3e6b20a09c3aab98ebba2c2676cfe0d6ed893"
+last_commit_time = "2020-10-02T21:17"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 1
+branches = 7
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/metroswap/token-lists"
+last_commit = "63bba512081388ca109d516b2e03315dc94df496"
+last_commit_time = "2021-04-01T04:36"
+status = "200"
+
+[repo.stats]
+branches = 95
+commits = 2
+watching = 1
+forks = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/metroswap/tokenlists-org"
+last_commit = "bb2dcd1141f98f3e5251734f584fb48f21f03eba"
+last_commit_time = "2020-10-26T15:29"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 1
+commits = 5
+stars = 0
+branches = 53
 
 [[repo]]
 url = "https://github.com/metroswap/tokens.metroswap.org"
+last_commit = "8d71c520ed55c8e3e3e584ca9bc13b255cdd9746"
+last_commit_time = "2022-06-26T06:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 13
+stars = 0
+forks = 66
+watching = 0
+branches = 246
 
 [[repo]]
 url = "https://github.com/metroswap/unipig"
+last_commit = "5c6742f4327231466dd03c4fc6b4d1d4e52b3437"
+last_commit_time = "2019-10-07T23:40"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+watching = 1
+stars = 0
+branches = 136
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/metroswap/unisocks-erc20"
+last_commit = "71221b6e67287721518af9618501ff4050af47e1"
+last_commit_time = "2021-04-19T15:12"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 5
+tag_count = 0
+forks = 0
+commits = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/metroswap/unisocks-erc721"
+last_commit = "f8c42873c28f928bb3a537d29fdb1b2a7255fbe3"
+last_commit_time = "2021-04-19T15:12"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 23
+tag_count = 0
+forks = 0
+watching = 1
+commits = 2
 
 [[repo]]
 url = "https://github.com/metroswap/uniswap-exchange"
+last_commit = "75830edec41b86cf45263419ffa73198f8d2a6a1"
+last_commit_time = "2020-06-30T17:19"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 3
+forks = 0
+tag_count = 0
+branches = 5
+stars = 0
 
 [[repo]]
 url = "https://github.com/metroswap/uniswap-interface"
+last_commit = "d425ff64b44ab4a46df1a9117d885620af6f179a"
+last_commit_time = "2021-04-21T17:59"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+branches = 943
+tag_count = 0
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/metroswap/uniswap-lib"
+last_commit = "fe8246629cb18f2851a87bebc2d35e5d92cd9b20"
+last_commit_time = "2021-03-31T21:58"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 1
+forks = 0
+tag_count = 0
+branches = 74
+stars = 0
 
 [[repo]]
 url = "https://github.com/metroswap/uniswap-pink"
+last_commit = "4b61e69d6a60f5e6511fbee5df6e001fc839b393"
+last_commit_time = "2019-05-17T16:10"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 5
+commits = 1
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/metroswap/uniswap-v1"
+last_commit = "433f10d444aa30d4e5f7f46d0d8ac5f0c2607850"
+last_commit_time = "2021-04-19T15:12"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 107
+commits = 3
+tag_count = 0
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/metroswap/uniswap-v2-periphery"
+last_commit = "942b424d7f81edbb9d2f9d7c43defbb42e70c6dc"
+last_commit_time = "2020-12-21T16:13"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 1
+tag_count = 0
+commits = 6
+branches = 100
 
 [[repo]]
 url = "https://github.com/metroswap/uniswap-v2-sdk"
+last_commit = "c68e47d889e0c80cb8bcefc03071794f3651fac0"
+last_commit_time = "2021-04-02T16:48"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+tag_count = 0
+commits = 3
+stars = 0
+branches = 145
 
 [[repo]]
 url = "https://github.com/metroswap/uniswap-v3-core"
+last_commit = "3e88af408132fc957e3e406f65a0ce2b1ca06c3d"
+last_commit_time = "2021-04-20T15:29"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+stars = 0
+forks = 0
+tag_count = 0
+branches = 990
 
 [[repo]]
 url = "https://github.com/metroswap/universe"
+last_commit = "08a0466790fd0cf4d70299dbae110b679447c73f"
+last_commit_time = "2021-04-05T14:43"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 40
+watching = 1
+tag_count = 0
+commits = 1

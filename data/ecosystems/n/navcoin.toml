@@ -1,133 +1,586 @@
-# Ecosystem Level Information
 title = "NavCoin"
-
+toml_path = "data/ecosystems/n/navcoin.toml"
+github_organizations = ["https://github.com/NAVCoin"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/NAVCoin"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/navcoin/app-bitcoin"
+last_commit = "4d5d1f4def760e7e48867eb7ba8434afead5fa4e"
+last_commit_time = "2021-10-12T10:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+stars = 0
+branches = 361
+forks = 185
+commits = 24
 
 [[repo]]
 url = "https://github.com/navcoin/bitcore-p2p"
+last_commit = "6f09c3871627bf7c2f7117953643c9855ec62111"
+last_commit_time = "2022-05-09T15:26"
+status = "200"
+
+[repo.stats]
+branches = 306
+watching = 1
+stars = 0
+tag_count = 0
+commits = 15
+forks = 276
 
 [[repo]]
 url = "https://github.com/NAVCoin/collab.navcoin.org"
+last_commit = "1cac54bd5f25b7e03afd3f94a69ff7d4b8f49fc7"
+last_commit_time = "2018-08-29T23:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+commits = 1
+stars = 0
+watching = 3
+branches = 3
 
 [[repo]]
 url = "https://github.com/navcoin/development"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 0
+forks = 0
+watching = 0
+commits = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/navcoin/do-testnet"
+last_commit = "e1c9a992077deb16654213479e1efb6ca31f7c5d"
+last_commit_time = "2018-04-22T22:12"
+status = "200"
+
+[repo.stats]
+branches = 14
+tag_count = 0
+commits = 1
+watching = 2
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/navcoin/infrastructure"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 0
+watching = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/navcoin/insight"
+last_commit = "32d5e551ea2393074f6c31c5b1389c3e830cbda0"
+last_commit_time = "2018-04-12T01:18"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 2
+commits = 2
+branches = 0
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/NAVCoin/KnowledgeBase"
+last_commit = "866519e50d0a101182fa37cfc39458c072dfe5fb"
+last_commit_time = "2022-01-26T08:56"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 10
+tag_count = 0
+stars = 1
+branches = 142
+commits = 5
 
 [[repo]]
 url = "https://github.com/NAVCoin/nav-community-site"
+last_commit = "5555d84dcfcaf242b081b48659113ef47b10de2b"
+last_commit_time = "2020-11-02T11:54"
+status = "200"
+
+[repo.stats]
+forks = 22
+branches = 0
+tag_count = 0
+watching = 8
+commits = 27
+stars = 14
 
 [[repo]]
 url = "https://github.com/NAVCoin/nav-docker"
+last_commit = "fbe5c89b8e8c010b5a20530d4d49e3606e30b597"
+last_commit_time = "2018-06-12T09:45"
+status = "200"
+
+[repo.stats]
+forks = 5
+branches = 36
+watching = 2
+commits = 1
+stars = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/navcoin/navcoin"
+last_commit = "2597bb977cba7689294a1d49c77729c5e91202e3"
+last_commit_time = "2022-07-14T13:37"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+tag_count = 0
+stars = 1
+commits = 7
+branches = 0
 
 [[repo]]
 url = "https://github.com/NAVCoin/navcoin-client"
+last_commit = "e139b738d616862347065cb17d16724a9751c723"
+last_commit_time = "2018-02-13T01:31"
+status = "200"
+
+[repo.stats]
+branches = 68
+commits = 3
+forks = 171
+watching = 2
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/navcoin/navcoin-core"
+status = "200"
+
+[repo.stats]
+forks = 96
+tag_count = 0
+watching = 27
+branches = 0
+commits = 33
+stars = 125
 
 [[repo]]
 url = "https://github.com/navcoin/navcoin-detached-sigs"
+last_commit = "09886f309c5b85b0c1c0ab5f341375bd336111f1"
+last_commit_time = "2021-01-12T11:47"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 2
+forks = 0
+branches = 3
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/navcoin/navcoin-dev-docs"
+last_commit = "b63bc8b02ffe8a4b2ab8ebf78dfb6f233e4e3604"
+last_commit_time = "2018-11-01T20:47"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 0
+commits = 1
+forks = 3
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/NAVCoin/navcoin-dev-tools"
+last_commit = "c348397d9b580e6105b5a7307bbb6a1f978f00d4"
+last_commit_time = "2020-09-25T16:49"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 3
+stars = 0
+tag_count = 0
+branches = 16
+commits = 2
 
 [[repo]]
 url = "https://github.com/navcoin/navcoin-js"
+last_commit = "00169c3cb783c917832819caee0ba65b2b9f81f0"
+last_commit_time = "2022-07-25T20:21"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 3
+tag_count = 0
+branches = 429
+stars = 4
+forks = 2
 
 [[repo]]
 url = "https://github.com/NAVCoin/navcoin-org"
+last_commit = "ab46fd6ddc7de8a7e29292ff12704472a85c61fb"
+last_commit_time = "2022-07-19T17:44"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 9
+forks = 50
+tag_count = 0
+commits = 2
+stars = 5
 
 [[repo]]
 url = "https://github.com/navcoin/navcoin-p2p"
+last_commit = "6f09c3871627bf7c2f7117953643c9855ec62111"
+last_commit_time = "2022-05-09T15:26"
+status = "200"
+
+[repo.stats]
+commits = 15
+forks = 276
+watching = 1
+stars = 0
+tag_count = 0
+branches = 306
 
 [[repo]]
 url = "https://github.com/navcoin/navcoin-seeder"
+last_commit = "3254012acffa4c9916c74545572547f1c2d8327a"
+last_commit_time = "2022-01-05T21:25"
+status = "200"
+
+[repo.stats]
+forks = 956
+stars = 1
+branches = 151
+tag_count = 0
+watching = 2
+commits = 7
 
 [[repo]]
 url = "https://github.com/NAVCoin/navcoin-sigs"
+last_commit = "5132c1c4c7a8daaee755056aaa83e3785267306a"
+last_commit_time = "2019-02-18T03:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 1
+watching = 3
+forks = 1
+branches = 15
 
 [[repo]]
 url = "https://github.com/navcoin/navcoin-wallet-chrome-extension"
+last_commit = "56677359190fbc6e0b6bb10a62a16376cf6d6a9b"
+last_commit_time = "2022-07-24T12:50"
+status = "200"
+
+[repo.stats]
+branches = 17
+forks = 0
+watching = 1
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/navcoin/navcoin.github.io"
+last_commit = "74ec63abf3f6410787da6f9b012921a170e2e96e"
+last_commit_time = "2022-06-24T20:32"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+branches = 29
+tag_count = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/navcoin/navcoind-go"
+last_commit = "5d50f201ba99ba1028853ab129946fca339a673b"
+last_commit_time = "2022-07-21T21:49"
+status = "200"
+
+[repo.stats]
+commits = 6
+watching = 1
+branches = 127
+forks = 59
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/navcoin/navexplorer-api-go"
+last_commit = "0cc22718f9a9941e0d4ee1b07f4b657adbf59305"
+last_commit_time = "2022-07-21T21:57"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 0
+branches = 181
+commits = 5
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/navcoin/navexplorer-frontend"
+last_commit = "f680d3919e8fa0ac5ff4df65fc693d37fa905445"
+last_commit_time = "2022-07-21T05:00"
+status = "200"
+
+[repo.stats]
+branches = 164
+stars = 3
+forks = 4
+commits = 15
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/navcoin/navexplorer-indexer-go"
+last_commit = "845ef9f5960f4eaffe691cda2311d0b90d7f2383"
+last_commit_time = "2022-07-21T21:50"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 3
+stars = 0
+tag_count = 0
+branches = 206
+forks = 1
 
 [[repo]]
 url = "https://github.com/navcoin/NavHub"
+last_commit = "5555d84dcfcaf242b081b48659113ef47b10de2b"
+last_commit_time = "2020-11-02T11:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 27
+watching = 8
+stars = 14
+forks = 22
 
 [[repo]]
 url = "https://github.com/navcoin/node-electrum-client"
+last_commit = "35d22ff0ab3e2f732bf7dfb94e41618fedca7865"
+last_commit_time = "2022-06-11T16:04"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 95
+branches = 66
+commits = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/NAVCoin/npips"
+last_commit = "458e13ea552911be73b5d3f163bdcb0ddc163f08"
+last_commit_time = "2020-08-11T07:59"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+commits = 2
+tag_count = 0
+branches = 33
+watching = 3
 
 [[repo]]
 url = "https://github.com/navcoin/priverse-nft-marketplace"
+last_commit = "83086250810d1a1107a7f5e7e66e295787447ecd"
+last_commit_time = "2022-07-25T05:55"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 14
+watching = 1
+tag_count = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/NAVCoin/proposal-creator"
+last_commit = "59dfddb3e0b2cd3c0243808d3cbe7d4496f83ddd"
+last_commit_time = "2021-08-23T07:54"
+status = "200"
+
+[repo.stats]
+branches = 27
+tag_count = 0
+watching = 2
+commits = 12
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/navcoin/public-keys"
+last_commit = "84b67c47531c73883ae90513ada1b78ae7ea4501"
+last_commit_time = "2018-09-25T23:16"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 5
+forks = 0
+tag_count = 0
+watching = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/navcoin/react-native-bitcore-mnemonic"
+last_commit = "7caf6e8eaf70e9e602bf2443d5b5864f66ffee77"
+last_commit_time = "2022-05-04T05:07"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 5
+forks = 230
+branches = 142
+watching = 0
 
 [[repo]]
 url = "https://github.com/navcoin/subscriber"
+last_commit = "1ea79e5dd05b4040abf6d520eeb1982ca7eadde5"
+last_commit_time = "2022-07-21T21:13"
+status = "200"
+
+[repo.stats]
+branches = 6
+stars = 0
+watching = 3
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/navcoin/testnet-manager"
+last_commit = "b662b549e9979a876ee0976ad95e2ec1e6178180"
+last_commit_time = "2018-07-24T01:31"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 1
+commits = 1
+tag_count = 0
+forks = 0
+branches = 75
 
 [[repo]]
 url = "https://github.com/navcoin/ue-navcoin-sdk"
+last_commit = "a78befec85174518e60b3f554d257371594e786b"
+last_commit_time = "2022-07-07T14:36"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+stars = 0
+branches = 7
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/navcoin/unity-navcoin-sdk"
+last_commit = "ca0d52e0f5d8cefc1af2378f3f864a9bc85331db"
+last_commit_time = "2022-07-07T14:56"
+status = "200"
+
+[repo.stats]
+branches = 6
+watching = 1
+commits = 1
+tag_count = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/navcoin/web3-dapp-sample-project"
+last_commit = "7ee3bb33f507fabaaa2c1b0f446d8c6ed67e875f"
+last_commit_time = "2022-06-22T10:50"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 7
+commits = 1
+watching = 1
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/navcoin/WhisperWallet"
+last_commit = "5ca33e1a8a149d69c3d6543766ed6130b03bdd1f"
+last_commit_time = "2022-07-30T16:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 2
+commits = 8
+watching = 2
+stars = 5
+branches = 588
 
 [[repo]]
 url = "https://github.com/NAVCoin/white-paper"
+last_commit = "1ca853b098f9583994bf84a6eaf6a6a2d77b8db5"
+last_commit_time = "2019-07-03T08:56"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 5
+commits = 1
+stars = 1
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/navcoin/wrapped-navcoin"
+last_commit = "8f6a9a646abed9bf8c254d31294a4bf7787c5194"
+last_commit_time = "2021-05-26T20:21"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 7
+forks = 0
+commits = 1
+tag_count = 0
+stars = 0

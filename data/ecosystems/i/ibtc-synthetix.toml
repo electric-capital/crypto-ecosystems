@@ -1,283 +1,1264 @@
-# Ecosystem Level Information
 title = "iBTC (Synthetix)"
-
+toml_path = "data/ecosystems/i/ibtc-synthetix.toml"
+github_organizations = ["https://github.com/Synthetixio"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Synthetixio"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Synthetixio/assets"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+branches = 0
+stars = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/blockchain-security-contacts"
+last_commit = "83335234ce7734cf76d9aebb6af19b3ee981cd0a"
+last_commit_time = "2020-02-22T05:08"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 275
+commits = 1
+tag_count = 0
+stars = 0
+forks = 185
 
 [[repo]]
 url = "https://github.com/Synthetixio/buidler"
+last_commit = "e0878950c80c4bc779f70432e5a1f7f68ddd361b"
+last_commit_time = "2020-04-05T19:04"
+status = "200"
+
+[repo.stats]
+commits = 11
+watching = 1
+forks = 871
+branches = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/cannon"
+last_commit = "00e3267cc2976e3bc333d133a40b56e920e32429"
+last_commit_time = "2022-07-12T02:38"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 28
+watching = 5
+forks = 0
+branches = 400
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/codegen-graph-ts"
+last_commit = "c7324392c527fd577cdefbdcad976e8c376c03af"
+last_commit_time = "2022-05-05T10:13"
+status = "200"
+
+[repo.stats]
+stars = 18
+tag_count = 0
+commits = 3
+watching = 2
+forks = 4
+branches = 84
 
 [[repo]]
 url = "https://github.com/Synthetixio/contract-linker"
+last_commit = "d379cea0ac8198cf5bb24bbeccc7f5f287350d7f"
+last_commit_time = "2022-08-03T21:57"
+status = "200"
+
+[repo.stats]
+commits = 10
+stars = 5
+forks = 10
+tag_count = 0
+branches = 575
+watching = 10
 
 [[repo]]
 url = "https://github.com/Synthetixio/contracts"
+last_commit = "d379cea0ac8198cf5bb24bbeccc7f5f287350d7f"
+last_commit_time = "2022-08-03T21:57"
+status = "200"
+
+[repo.stats]
+watching = 10
+forks = 10
+branches = 575
+commits = 10
+stars = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/council-dilution"
+last_commit = "7ea878ce0a376e6def07ba752bf88f314358f68a"
+last_commit_time = "2022-01-14T03:56"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 0
+forks = 1
+tag_count = 0
+commits = 2
+branches = 22
 
 [[repo]]
 url = "https://github.com/Synthetixio/dapps-common"
+last_commit = "c2b1948f3df519efd8431eda418b14d1816ba9ab"
+last_commit_time = "2020-11-02T05:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 1
+watching = 5
+commits = 1
+branches = 14
 
 [[repo]]
 url = "https://github.com/Synthetixio/deprecated-whitepaper"
+last_commit = "10b70ff1d1f748b08035adbeef07ad9b78a8c7f3"
+last_commit_time = "2019-06-14T07:51"
+status = "200"
+
+[repo.stats]
+stars = 4
+tag_count = 0
+forks = 8
+watching = 16
+branches = 382
+commits = 3
 
 [[repo]]
 url = "https://github.com/Synthetixio/docker-e2e"
+last_commit = "fef604db18a69cca9f5542384e5fdc973da708d4"
+last_commit_time = "2022-06-21T17:13"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 159
+commits = 2
+tag_count = 0
+forks = 3
+watching = 6
 
 [[repo]]
 url = "https://github.com/Synthetixio/docker-node"
+last_commit = "03d8f71f3a69f54945a3f3afd6722b8676f4662e"
+last_commit_time = "2022-06-20T22:19"
+status = "200"
+
+[repo.stats]
+watching = 7
+branches = 276
+commits = 4
+forks = 2
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/docker-sec-tools"
+last_commit = "c24932661899ebc268ff781622c82b2da5858816"
+last_commit_time = "2022-06-20T22:29"
+status = "200"
+
+[repo.stats]
+watching = 6
+tag_count = 0
+branches = 145
+forks = 2
+commits = 2
+stars = 1
 
 [[repo]]
 url = "https://github.com/Synthetixio/docker-shared"
+last_commit = "a7785aadc068b27b147c7e79ad3c932902f17e80"
+last_commit_time = "2022-04-22T17:08"
+status = "200"
+
+[repo.stats]
+watching = 7
+forks = 2
+tag_count = 0
+stars = 0
+branches = 25
+commits = 2
 
 [[repo]]
 url = "https://github.com/Synthetixio/eslint-plugin-havven"
+last_commit = "77d569b88c16d3aa45af75faa546081238b68009"
+last_commit_time = "2018-10-20T05:35"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 4
+commits = 1
+tag_count = 0
+watching = 4
+stars = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/eth-contract-metadata"
+last_commit = "b9d3e23d478720659adc379fdf759c65ee15cfd5"
+last_commit_time = "2020-05-08T11:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+forks = 922
+stars = 0
+watching = 4
+branches = 494
 
 [[repo]]
 url = "https://github.com/Synthetixio/ethereum-lists"
+last_commit = "609f79832950275f467165ff8b94308f0e21914d"
+last_commit_time = "2020-05-04T18:56"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 1
+forks = 0
+watching = 2
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/fork"
+last_commit = "afd1c6abddda5b6fc9e7e8c4299048537b871a62"
+last_commit_time = "2020-11-18T23:26"
+status = "200"
+
+[repo.stats]
+branches = 5
+commits = 1
+stars = 1
+tag_count = 0
+forks = 2
+watching = 4
 
 [[repo]]
 url = "https://github.com/Synthetixio/futures-keepers"
+last_commit = "3fdbfa3d8536f9eea201299898a5da5847ad6002"
+last_commit_time = "2022-07-07T07:49"
+status = "200"
+
+[repo.stats]
+watching = 9
+tag_count = 0
+commits = 10
+branches = 364
+stars = 5
+forks = 2
 
 [[repo]]
 url = "https://github.com/Synthetixio/governance-participation-snapshot"
+last_commit = "fcaace1de77716ad69c9ed8972b8ed0672c4292f"
+last_commit_time = "2021-07-27T08:54"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 7
+tag_count = 0
+commits = 2
+watching = 4
+stars = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/governance-participation-vaults"
+status = "404"
+
+[repo.stats]
+commits = 0
+branches = 0
+tag_count = 0
+stars = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/grants-dao-ui"
+last_commit = "ca67e98f32df05029d2992cecb8ae8d7411e7658"
+last_commit_time = "2022-07-28T12:07"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 110
+stars = 1
+forks = 2
+tag_count = 0
+commits = 7
 
 [[repo]]
 url = "https://github.com/Synthetixio/hardhat-interact"
+last_commit = "f985049e1db309ca03cf327b57aadebd5e9178b0"
+last_commit_time = "2022-04-01T04:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 35
+stars = 4
+watching = 1
+forks = 5
+commits = 2
 
 [[repo]]
 url = "https://github.com/Synthetixio/issues"
+last_commit = "52da14eadd0a354780c1eee2414c84612a01066b"
+last_commit_time = "2021-05-03T12:51"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 2
+watching = 11
+commits = 1
+branches = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/js"
+last_commit = "5f19e26ef8c9f6ec9021c48ed19918119ea0c24f"
+last_commit_time = "2021-03-24T20:12"
+status = "200"
+
+[repo.stats]
+watching = 11
+stars = 10
+commits = 13
+forks = 3
+tag_count = 0
+branches = 164
 
 [[repo]]
 url = "https://github.com/Synthetixio/js-monorepo"
+status = "200"
+
+[repo.stats]
+stars = 12
+branches = 0
+forks = 15
+watching = 8
+tag_count = 0
+commits = 79
 
 [[repo]]
 url = "https://github.com/Synthetixio/js-template"
+last_commit = "b9b092268673a9bfb18a323e73b04366a1a4c079"
+last_commit_time = "2020-07-21T17:25"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 4
+branches = 8
+watching = 14
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/Synthetixio/kwenta"
+last_commit = "9a868fa1293afc8d923483f0edde69a9ba6c1f75"
+last_commit_time = "2021-08-30T13:18"
+status = "200"
+
+[repo.stats]
+stars = 9
+branches = 0
+commits = 97
+forks = 19
+watching = 14
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/lambda-cloudwatch-slack"
+last_commit = "234b15599aa582e14f84ec1ef0c84f7106bd1240"
+last_commit_time = "2017-08-10T23:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 6
+tag_count = 0
+branches = 61
+commits = 2
+forks = 223
 
 [[repo]]
 url = "https://github.com/Synthetixio/litepapers"
+last_commit = "ffe572466533a41ce5e7d94af71db7161290a7f5"
+last_commit_time = "2019-11-06T05:07"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 4
+branches = 1
+watching = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/Synthetixio/next-optimized-images"
+last_commit = "fe31e5c77008a88ce9ffe76d504229562ad8a549"
+last_commit_time = "2020-07-28T15:09"
+status = "200"
+
+[repo.stats]
+branches = 155
+forks = 89
+stars = 0
+commits = 20
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/NYBW-Hackathon-Gitcoin"
+last_commit = "d5aee92c153c2fd962c0c28af825b54621c9261f"
+last_commit_time = "2020-05-08T02:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+branches = 2
+forks = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/Synthetixio/optimistic-trader"
+last_commit = "8d863db4698059efdf77b278f3a9d53a4c9751eb"
+last_commit_time = "2020-05-05T17:24"
+status = "200"
+
+[repo.stats]
+stars = 10
+tag_count = 0
+forks = 8
+branches = 6
+commits = 1
+watching = 15
 
 [[repo]]
 url = "https://github.com/Synthetixio/optimized-images-loader"
+last_commit = "6126979ccd34f58d1f725d3b229f4c3076326ab8"
+last_commit_time = "2022-01-22T06:13"
+status = "200"
+
+[repo.stats]
+branches = 52
+stars = 0
+forks = 17
+tag_count = 0
+commits = 20
+watching = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/providers"
+last_commit = "ed368417cbec85a5467e74177508d0f5021a4d3b"
+last_commit_time = "2021-03-01T08:43"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 2
+tag_count = 0
+forks = 2
+commits = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/Synthetixio/roadmap"
+status = "200"
+
+[repo.stats]
+commits = 0
+stars = 0
+branches = 0
+watching = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/safe-app-synthetix-mintr"
+last_commit = "95fc6d97a8d8df33e25d07f1dd81e91e10f758b6"
+last_commit_time = "2020-07-22T23:05"
+status = "200"
+
+[repo.stats]
+branches = 74
+stars = 0
+watching = 13
+forks = 3
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/simulation"
+status = "200"
+
+[repo.stats]
+forks = 13
+branches = 662
+tag_count = 0
+watching = 10
+stars = 18
+commits = 2
 
 [[repo]]
 url = "https://github.com/Synthetixio/SIPs"
+last_commit = "82c0c1b79cc5691283f60e640db4ce1b8950fef3"
+last_commit_time = "2022-08-04T16:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 206
+watching = 20
+stars = 71
+forks = 134
+branches = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/SIPs-Draft"
+last_commit = "6881846c72667002d65e250c6e2ff72fb315a435"
+last_commit_time = "2021-08-16T06:25"
+status = "200"
+
+[repo.stats]
+forks = 16
+watching = 12
+branches = 50
+tag_count = 0
+stars = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/Synthetixio/snapshot-spaces"
+last_commit = "899e85cffa837c4cf57fa8a2c28b5712ea1515b7"
+last_commit_time = "2021-03-23T12:18"
+status = "200"
+
+[repo.stats]
+commits = 4
+branches = 995
+stars = 0
+watching = 1
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/snapshot-strategies"
+last_commit = "856b150605f3c2e6052bc3ad4402ce01377214f3"
+last_commit_time = "2022-03-28T06:54"
+status = "200"
+
+[repo.stats]
+commits = 7
+tag_count = 0
+branches = 418
+watching = 0
+forks = 390
+stars = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/snapshot.js"
+last_commit = "e94179565b8968f903ba6fdb007b1457140dc250"
+last_commit_time = "2021-09-18T05:08"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 438
+watching = 1
+tag_count = 0
+branches = 577
+commits = 6
 
 [[repo]]
 url = "https://github.com/Synthetixio/snx-ambassadors-dapp"
+last_commit = "a70cfda13fdfbba399588761fd7dcff113505a3c"
+last_commit_time = "2022-02-02T22:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 1
+watching = 5
+commits = 2
+forks = 5
+branches = 88
 
 [[repo]]
 url = "https://github.com/Synthetixio/snx-grants-dao"
+last_commit = "e0fc8f768183040f3cbbcfbcf47b21de61368bf6"
+last_commit_time = "2020-09-14T06:57"
+status = "200"
+
+[repo.stats]
+stars = 16
+tag_count = 0
+forks = 44
+watching = 18
+branches = 225
+commits = 11
 
 [[repo]]
 url = "https://github.com/Synthetixio/snx-grants-dao-v2"
+last_commit = "b341c6ceab52e438f41fe12701e9b7b15ca1b450"
+last_commit_time = "2021-06-18T06:00"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 1
+branches = 12
+commits = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/snx-migrate"
+last_commit = "50246baf9ed33d5c2c25560acb12988ecb927c6f"
+last_commit_time = "2021-06-23T08:23"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 4
+watching = 1
+branches = 8
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/snx-v3-prototype"
+status = "200"
+
+[repo.stats]
+branches = 224
+watching = 2
+forks = 1
+stars = 3
+commits = 20
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/solidifier"
+last_commit = "33b8ae3cfc89821342ede06ca50566d006c349ed"
+last_commit_time = "2021-04-22T17:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 57
+stars = 0
+watching = 1
+commits = 1
+forks = 16
 
 [[repo]]
 url = "https://github.com/Synthetixio/spartan-council"
+last_commit = "c5ee400d7e854965d4bf6c95da1fe7a4fc928284"
+last_commit_time = "2021-03-08T04:08"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 3
+branches = 21
+commits = 1
+watching = 15
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/sprint-review"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 0
+branches = 0
+stars = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/ssh-key-action"
+last_commit = "b38d88da8a7a230d5eeefd879b038cf3cc4a362c"
+last_commit_time = "2021-08-01T14:04"
+status = "200"
+
+[repo.stats]
+forks = 49
+commits = 8
+branches = 138
+tag_count = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/staking"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 70
+commits = 27
+forks = 67
+watching = 16
+branches = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/stats"
+last_commit = "f905fb8b40b1e42748777c04368a851d3f16556c"
+last_commit_time = "2022-03-21T22:54"
+status = "200"
+
+[repo.stats]
+forks = 13
+commits = 23
+watching = 8
+tag_count = 0
+stars = 1
+branches = 236
 
 [[repo]]
 url = "https://github.com/Synthetixio/StructuredSmartContracts"
+last_commit = "9d7c8317035066e01aaeaaaf452b68404a34f87d"
+last_commit_time = "2019-11-06T09:10"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+watching = 1
+branches = 3
+forks = 20
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/susd-incentives-aave"
+last_commit = "2e2f24acb58028a29ce42973abc5091c6bc29fc2"
+last_commit_time = "2021-06-03T09:10"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 5
+watching = 5
+forks = 3
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/Synthetixio/synpress"
+status = "200"
+
+[repo.stats]
+branches = 911
+stars = 192
+tag_count = 0
+commits = 4
+forks = 63
+watching = 7
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 301
+watching = 52
+stars = 931
+forks = 484
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-assets"
+last_commit = "f6a3b027521b2289f2d05f1b163179ad7df785c0"
+last_commit_time = "2022-05-10T09:21"
+status = "200"
+
+[repo.stats]
+stars = 9
+tag_count = 0
+watching = 15
+commits = 4
+branches = 129
+forks = 14
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-cli"
+last_commit = "feec4d7b38ff153ad8ac0d7280d89f65ca9c1de8"
+last_commit_time = "2022-08-03T21:57"
+status = "200"
+
+[repo.stats]
+forks = 6
+watching = 7
+branches = 420
+commits = 8
+stars = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-dashboard"
+last_commit = "0b744e4bab40775f082c168a913c4baa2ccf7136"
+last_commit_time = "2020-09-02T22:02"
+status = "200"
+
+[repo.stats]
+forks = 12
+branches = 373
+stars = 9
+commits = 8
+watching = 10
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-data"
+last_commit = "9c27dc165bc4b40c1caa98d564d2daaef5a4a6d3"
+last_commit_time = "2021-04-22T02:09"
+status = "200"
+
+[repo.stats]
+commits = 12
+forks = 31
+watching = 15
+stars = 20
+tag_count = 0
+branches = 195
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-delegate"
+last_commit = "70a9e018d7d7102ec6cfd2f804ebcdc8ae0dfcd5"
+last_commit_time = "2021-07-01T05:59"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 1
+tag_count = 0
+watching = 10
+branches = 248
+commits = 2
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-docs"
+last_commit = "992645258460607875b02bacc8e365aa6087d350"
+last_commit_time = "2022-08-04T00:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 13
+stars = 7
+branches = 893
+forks = 25
+commits = 25
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-exchange"
+status = "200"
+
+[repo.stats]
+watching = 15
+tag_count = 0
+forks = 95
+stars = 125
+branches = 0
+commits = 114
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-exchange-stats"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 6
+branches = 245
+commits = 5
+stars = 2
+forks = 4
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-grants"
+last_commit = "62f6f12cb126574cc982ee8bbb223cc1e8fb8195"
+last_commit_time = "2021-06-08T03:55"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 2
+branches = 2
+tag_count = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-js"
+last_commit = "71f74511fdf222662fb2cffded81dbf0f80db8bc"
+last_commit_time = "2022-07-27T20:16"
+status = "200"
+
+[repo.stats]
+stars = 63
+forks = 46
+watching = 20
+tag_count = 0
+branches = 0
+commits = 25
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-mintr"
+last_commit = "d821bebb40d4784605575a9a18216202bea79089"
+last_commit_time = "2021-05-17T03:34"
+status = "200"
+
+[repo.stats]
+forks = 74
+watching = 17
+stars = 79
+tag_count = 0
+branches = 0
+commits = 34
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-pm"
+last_commit = "5696cc6ed7f5400a1fa3e053fdfbb4f5b21830bb"
+last_commit_time = "2020-09-09T17:56"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+tag_count = 0
+branches = 2
+commits = 1
+watching = 7
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-scripts"
+last_commit = "feec4d7b38ff153ad8ac0d7280d89f65ca9c1de8"
+last_commit_time = "2022-08-03T21:57"
+status = "200"
+
+[repo.stats]
+branches = 420
+tag_count = 0
+forks = 6
+stars = 4
+commits = 8
+watching = 7
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-shaula-frontend"
+last_commit = "33ba041ef85fbb522382da842a725dd42aad6d79"
+last_commit_time = "2021-04-04T19:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+commits = 2
+stars = 2
+forks = 1
+branches = 58
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-subgraph"
+last_commit = "f4da6c82fd153e6f35d49ce26a5d9dd60e04b2af"
+last_commit_time = "2022-06-24T16:53"
+status = "200"
+
+[repo.stats]
+stars = 54
+watching = 14
+forks = 45
+branches = 550
+tag_count = 0
+commits = 70
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-translations"
+last_commit = "563c08fad9cbe8ae4c3a86b3a71339006b3ad58e"
+last_commit_time = "2019-11-18T04:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 5
+branches = 94
+stars = 3
+commits = 2
+forks = 12
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-utility"
+last_commit = "99cee62df195034420a17fc0d0d2a9b1383aaa60"
+last_commit_time = "2020-07-02T23:31"
+status = "200"
+
+[repo.stats]
+watching = 14
+stars = 3
+branches = 18
+commits = 1
+tag_count = 0
+forks = 8
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-v3"
+last_commit = "2bb404a32d2f582360185267c94ece3d4e67bbd6"
+last_commit_time = "2022-08-04T16:43"
+status = "200"
+
+[repo.stats]
+watching = 7
+commits = 12
+stars = 27
+branches = 482
+tag_count = 0
+forks = 10
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-v3-labs"
+last_commit = "3508440f3fa7c99ec3dccfeb259cece767b14991"
+last_commit_time = "2021-09-28T19:30"
+status = "200"
+
+[repo.stats]
+watching = 8
+tag_count = 0
+stars = 5
+branches = 137
+commits = 8
+forks = 4
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-website"
+last_commit = "10ad1ffcdcd86cb61e03456cbee3a7cccbcc1571"
+last_commit_time = "2022-08-03T13:40"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 476
+watching = 12
+forks = 15
+tag_count = 0
+stars = 13
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix-website-static-cms"
+last_commit = "9d7243248c97150c136d0e2e51de866e0daebd11"
+last_commit_time = "2020-08-17T03:52"
+status = "200"
+
+[repo.stats]
+watching = 13
+stars = 0
+tag_count = 0
+branches = 980
+commits = 7
+forks = 6
 
 [[repo]]
 url = "https://github.com/Synthetixio/synthetix_notification"
+status = "404"
+
+[repo.stats]
+branches = 0
+stars = 0
+watching = 0
+commits = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/thales-improvement-proposals"
+last_commit = "ab368db131524271488da84ed7c9b21a5d4c0617"
+last_commit_time = "2022-04-14T14:00"
+status = "200"
+
+[repo.stats]
+branches = 261
+tag_count = 0
+stars = 0
+forks = 15
+commits = 3
+watching = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/tokens"
+status = "404"
+
+[repo.stats]
+watching = 0
+forks = 0
+tag_count = 0
+stars = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/tokenvest"
+last_commit = "56fce8b5fde434cbbc1e3da1a6d1a11e7ed87874"
+last_commit_time = "2022-06-16T16:10"
+status = "200"
+
+[repo.stats]
+branches = 78
+commits = 2
+forks = 4
+watching = 1
+tag_count = 0
+stars = 5
 
 [[repo]]
 url = "https://github.com/Synthetixio/try-ethereum"
+last_commit = "3d971450afca30a16d31de01885817bac63775ee"
+last_commit_time = "2019-07-12T15:48"
+status = "200"
+
+[repo.stats]
+forks = 29
+branches = 22
+watching = 1
+stars = 1
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/ui"
+last_commit = "37e00ed9fdb92e348eef134cd1e12257eecd8826"
+last_commit_time = "2022-07-28T15:13"
+status = "200"
+
+[repo.stats]
+branches = 329
+watching = 7
+forks = 2
+stars = 0
+tag_count = 0
+commits = 11
 
 [[repo]]
 url = "https://github.com/Synthetixio/Unipool"
+last_commit = "b8d143b94dc820054fadbc9f1a56af3c21a5c101"
+last_commit_time = "2020-04-29T06:18"
+status = "200"
+
+[repo.stats]
+stars = 21
+branches = 48
+commits = 3
+tag_count = 0
+forks = 52
+watching = 3
 
 [[repo]]
 url = "https://github.com/Synthetixio/uniswap-frontend"
+last_commit = "4944f99f7a7fcec7a585e4a869cab057771c70b3"
+last_commit_time = "2019-11-12T00:21"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 436
+commits = 3
+watching = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/uniswap-v3-spot-twap-oracle"
+last_commit = "8f9777a6160a089c99f39f2ee297119ee293bc4b"
+last_commit_time = "2021-11-02T16:02"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+commits = 1
+branches = 20
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/upload-s3-action"
+last_commit = "bcd7c2408245fd6cd19b5512a473b1a7a8b48a35"
+last_commit_time = "2020-12-06T03:10"
+status = "200"
+
+[repo.stats]
+branches = 45
+tag_count = 0
+commits = 2
+forks = 74
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/utility-contracts"
+last_commit = "fe3af9aa42726aa7c47be7e38a34d92bc0553ba5"
+last_commit_time = "2018-06-22T05:48"
+status = "200"
+
+[repo.stats]
+forks = 4
+commits = 2
+tag_count = 0
+stars = 2
+watching = 21
+branches = 16
 
 [[repo]]
 url = "https://github.com/Synthetixio/v3gm-dapp"
+last_commit = "e0b7c24a1d041073e448f75f323f2a4fba32568b"
+last_commit_time = "2022-03-16T12:08"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+branches = 8
+watching = 6
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/Synthetixio/vanity-contract"
+last_commit = "db9fd941adfce5463ea6151da692aa5abc7c86a3"
+last_commit_time = "2019-10-03T01:39"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 7
+tag_count = 0
+branches = 4
+watching = 13
+commits = 9

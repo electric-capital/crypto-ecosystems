@@ -1,10 +1,16 @@
-# Ecosystem Level Information
 title = "RED"
-
+toml_path = "data/ecosystems/r/red.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/red/red"
+status = "200"
+
+[repo.stats]
+forks = 410
+stars = 0
+branches = 0
+watching = 210
+tag_count = 0
+commits = 28

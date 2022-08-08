@@ -1,100 +1,430 @@
-# Ecosystem Level Information
 title = "COTI"
-
+toml_path = "data/ecosystems/c/coti.toml"
+github_organizations = ["https://github.com/coti-io"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/coti-io"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/coti-io/alpha-live"
+last_commit = "4503aa5ebda2c147a95c936e4c1465a86bd59a47"
+last_commit_time = "2018-09-09T00:05"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 2
+tag_count = 0
+commits = 1
+watching = 1
+stars = 5
 
 [[repo]]
 url = "https://github.com/coti-io/alpha-wallet"
+status = "404"
+
+[repo.stats]
+branches = 0
+stars = 0
+forks = 0
+commits = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/coti-io/coti-cardano-cli"
+last_commit = "33f15e02b571baf354472ae7ef1fc6ed8b5c7256"
+last_commit_time = "2022-07-28T14:53"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 0
+tag_count = 0
+forks = 1
+branches = 37
+stars = 5
 
 [[repo]]
 url = "https://github.com/coti-io/coti-crypto"
+last_commit = "52e67905c98d54dbcc58ee0b76d5b73759bbe088"
+last_commit_time = "2022-07-12T18:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 4
+branches = 193
+watching = 3
+forks = 2
+stars = 10
 
 [[repo]]
 url = "https://github.com/coti-io/coti-db-app"
+last_commit = "53b62c83a60da5b28903fbe31a2a50048215b3d4"
+last_commit_time = "2022-07-14T17:59"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 1
+branches = 75
+stars = 4
+commits = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/coti-io/coti-dime-token"
+last_commit = "9fb93433ae42d388a08adc951f8d638977386368"
+last_commit_time = "2018-09-06T08:29"
+status = "200"
+
+[repo.stats]
+branches = 2
+forks = 0
+commits = 1
+tag_count = 0
+watching = 3
+stars = 6
 
 [[repo]]
 url = "https://github.com/coti-io/coti-dsp-node"
+last_commit = "89834f9f8761f6dc96132662b8cac22946fcfa5a"
+last_commit_time = "2021-02-02T15:06"
+status = "200"
+
+[repo.stats]
+commits = 16
+forks = 5
+stars = 6
+branches = 21
+watching = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/coti-io/coti-encryption-library"
+last_commit = "525b0cdb297e6649a18c836c6063c7b6882bae09"
+last_commit_time = "2021-06-29T18:02"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 26
+stars = 4
+tag_count = 0
+commits = 29
+forks = 2
 
 [[repo]]
 url = "https://github.com/coti-io/coti-explorer-api"
+last_commit = "31457d827a82815030c350fe8cef03f8ce642a0a"
+last_commit_time = "2022-07-13T06:05"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 4
+branches = 102
+watching = 0
+stars = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/coti-io/coti-financial-server"
+last_commit = "a2f2bfbbce2bfc8eea7a9bf883a253944aa2e6e5"
+last_commit_time = "2021-02-02T17:02"
+status = "200"
+
+[repo.stats]
+stars = 4
+tag_count = 0
+commits = 16
+branches = 16
+forks = 3
+watching = 3
 
 [[repo]]
 url = "https://github.com/coti-io/coti-fullnode"
+last_commit = "36dc7aef1503251a8a1548f1c61580ebb14392d8"
+last_commit_time = "2022-07-14T12:36"
+status = "200"
+
+[repo.stats]
+forks = 6
+tag_count = 0
+branches = 32
+stars = 23
+commits = 12
+watching = 6
 
 [[repo]]
 url = "https://github.com/coti-io/coti-history-node"
+last_commit = "f71ef1a6243a0b36fa9bd6710cabbe64083b6738"
+last_commit_time = "2021-02-02T18:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 5
+commits = 14
+forks = 0
+stars = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/coti-io/coti-jeromq"
+last_commit = "6ab9875f420b6d11708004f21b59e3bb073d538e"
+last_commit_time = "2022-05-19T09:23"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 1
+stars = 0
+forks = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/coti-io/coti-ledger"
+last_commit = "6541df9fab62551f7f797e7cf211db07bc321298"
+last_commit_time = "2022-08-02T14:59"
+status = "200"
+
+[repo.stats]
+stars = 13
+tag_count = 0
+commits = 3
+branches = 128
+watching = 3
+forks = 4
 
 [[repo]]
 url = "https://github.com/coti-io/coti-ledger-sdk"
+last_commit = "9796b83b144657febac62a5c8327c5d7cdf1a8d6"
+last_commit_time = "2022-03-26T17:52"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+branches = 28
+watching = 2
+commits = 2
+stars = 4
 
 [[repo]]
 url = "https://github.com/coti-io/coti-node"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 452
+watching = 12
+forks = 16
+stars = 115
 
 [[repo]]
 url = "https://github.com/coti-io/coti-node-monitoring"
+last_commit = "04f6474b43155b185a779fd8ff910585f878b220"
+last_commit_time = "2020-03-04T10:53"
+status = "200"
+
+[repo.stats]
+watching = 3
+commits = 1
+branches = 4
+tag_count = 0
+stars = 6
+forks = 2
 
 [[repo]]
 url = "https://github.com/coti-io/coti-nodemanager"
+last_commit = "fa000808b24b986e4066f7f8b0efec5421531b85"
+last_commit_time = "2021-02-02T18:03"
+status = "200"
+
+[repo.stats]
+stars = 3
+tag_count = 0
+watching = 3
+branches = 15
+commits = 15
+forks = 2
 
 [[repo]]
 url = "https://github.com/coti-io/coti-storage-node"
+last_commit = "3110d8b3320a05bd854f3e90416c24e60d232baa"
+last_commit_time = "2021-02-02T18:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+stars = 1
+watching = 2
+branches = 5
+commits = 16
 
 [[repo]]
 url = "https://github.com/coti-io/coti-trustscore-node"
+last_commit = "d9d9f8295b3a32b33da268ca1be00569ca3fd1da"
+last_commit_time = "2021-02-02T16:04"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+watching = 4
+stars = 5
+commits = 15
+branches = 21
 
 [[repo]]
 url = "https://github.com/coti-io/coti-zerospend-server"
+last_commit = "f6bbe921a31d843e0e611246f07c7e4019fa6105"
+last_commit_time = "2021-02-02T16:27"
+status = "200"
+
+[repo.stats]
+branches = 21
+commits = 16
+tag_count = 0
+forks = 5
+watching = 5
+stars = 6
 
 [[repo]]
 url = "https://github.com/coti-io/crypto-wallet"
+last_commit = "c861b565ca3a5b04d1a9aa68589e0361ebca4ab0"
+last_commit_time = "2019-05-21T05:28"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 10
+branches = 3
+forks = 3
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/coti-io/cvi-contracts"
+last_commit = "287e1463952912699897fa179396c25533e287af"
+last_commit_time = "2021-12-11T20:17"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 11
+branches = 21
+commits = 1
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/coti-io/cvi-polygon-subgraph"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 0
+forks = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/coti-io/DeFi-Pulse-Adapters"
+last_commit = "7612a5dd0b8486113e62e4c45ef76768fb4dc03c"
+last_commit_time = "2021-06-28T21:18"
+status = "200"
+
+[repo.stats]
+forks = 493
+tag_count = 0
+commits = 58
+branches = 0
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/coti-io/external-adapters-js"
+last_commit = "f7436eb2d99f0af767a170584f50a8179c608069"
+last_commit_time = "2021-05-05T13:31"
+status = "200"
+
+[repo.stats]
+forks = 142
+watching = 1
+stars = 0
+branches = 0
+tag_count = 0
+commits = 65
 
 [[repo]]
 url = "https://github.com/coti-io/NFT-Raffle"
+last_commit = "ebb750c9e0e6e85f87572d1aa1288c404bf5558d"
+last_commit_time = "2021-12-03T17:25"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+stars = 1
+commits = 1
+forks = 0
+branches = 2
 
 [[repo]]
 url = "https://github.com/coti-io/OSSRH-80945"
+status = "404"
+
+[repo.stats]
+commits = 0
+stars = 0
+tag_count = 0
+forks = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/coti-io/python-ts-algorithms"
+last_commit = "b4eb3573924fce471e676d8e1b0472fd25aafc7c"
+last_commit_time = "2018-09-09T08:23"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 2
+tag_count = 0
+commits = 1
+stars = 4
+forks = 0
 
 [[repo]]
 url = "https://github.com/coti-io/vfat-tools"
+last_commit = "a0379c53f0d85efdd540959e2b1f5b392e4e3962"
+last_commit_time = "2021-04-08T15:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 1
+branches = 909
+tag_count = 0
+commits = 11
 
 [[repo]]
 url = "https://github.com/coti-io/Whitepaper"
+last_commit = "f6704f4c6de0d9b3b11877816a241863d1a02337"
+last_commit_time = "2018-10-03T08:31"
+status = "200"
+
+[repo.stats]
+stars = 13
+tag_count = 0
+branches = 4
+watching = 6
+forks = 0
+commits = 1

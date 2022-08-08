@@ -1,509 +1,2268 @@
-# Ecosystem Level Information
 title = "Zero Knowledge Cryptography"
-
+toml_path = "data/ecosystems/z/zero-knowledge-cryptography.toml"
+github_organizations = ["https://github.com/arkworks-rs", "https://github.com/zeropoolnetwork", "https://github.com/zkcrypto"]
 sub_ecosystems = []
 
-github_organizations = [
-  "https://github.com/arkworks-rs",
-  "https://github.com/zeropoolnetwork",
-  "https://github.com/zkcrypto",
-]
-
-# Repositories
 [[repo]]
 url = "https://github.com/0kPN1/zkpnl"
+last_commit = "a8b0b35c55cef1c2a93ac4ecd934128a6e7bad27"
+last_commit_time = "2019-09-14T02:33"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+forks = 4
+stars = 8
+watching = 3
+branches = 6
 
 [[repo]]
 url = "https://github.com/adjoint-io/bulletproofs"
+status = "200"
+
+[repo.stats]
+forks = 40
+branches = 40
+tag_count = 0
+commits = 1
+stars = 505
+watching = 30
 
 [[repo]]
 url = "https://github.com/adjoint-io/fcl"
+status = "404"
+
+[repo.stats]
+branches = 0
+watching = 0
+tag_count = 0
+commits = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/adjoint-io/schnorr-nizk"
+last_commit = "9e0e2b4d43b2444f6229fc29d7cd3516df8f64d2"
+last_commit_time = "2020-02-10T12:12"
+status = "200"
+
+[repo.stats]
+stars = 70
+watching = 12
+tag_count = 0
+branches = 50
+commits = 1
+forks = 10
 
 [[repo]]
 url = "https://github.com/adjoint-io/sonic"
+status = "200"
+
+[repo.stats]
+watching = 9
+forks = 9
+branches = 23
+stars = 41
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/akosba/jsnark"
+last_commit = "30aad788724f0752b429c1f4c9c94aabe2e34636"
+last_commit_time = "2021-03-24T23:19"
+status = "200"
+
+[repo.stats]
+stars = 177
+watching = 13
+forks = 79
+tag_count = 0
+branches = 97
+commits = 1
 
 [[repo]]
 url = "https://github.com/akosba/xjsnark"
+status = "200"
+
+[repo.stats]
+branches = 139
+forks = 27
+commits = 1
+tag_count = 0
+watching = 8
+stars = 155
 
 [[repo]]
 url = "https://github.com/AntoineRondelet/snark-mixer"
+last_commit = "cf3011de454d5f37120a76c841fb376c8805d2ed"
+last_commit_time = "2018-10-02T20:39"
+status = "200"
+
+[repo.stats]
+stars = 27
+forks = 3
+branches = 66
+tag_count = 0
+commits = 4
+watching = 5
 
 [[repo]]
 url = "https://github.com/arkworks-rs/algebra"
+status = "200"
+
+[repo.stats]
+watching = 21
+commits = 30
+stars = 303
+forks = 89
+branches = 553
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/arkworks-rs/crypto-primitives"
+last_commit = "f4d814895c7d83249dc61b9e4a379e61ac9cf471"
+last_commit_time = "2022-03-01T16:32"
+status = "200"
+
+[repo.stats]
+branches = 57
+stars = 58
+commits = 4
+forks = 20
+tag_count = 0
+watching = 11
 
 [[repo]]
 url = "https://github.com/arkworks-rs/curves"
+last_commit = "e75546313af930965fd3e7114d7d2622eeb41eae"
+last_commit_time = "2022-08-01T20:46"
+status = "200"
+
+[repo.stats]
+watching = 19
+forks = 54
+tag_count = 0
+branches = 83
+commits = 8
+stars = 141
 
 [[repo]]
 url = "https://github.com/arkworks-rs/dpc"
+last_commit = "bea4439a23fe0f3a8e857db5c0740d26e85bd726"
+last_commit_time = "2021-05-01T00:00"
+status = "200"
+
+[repo.stats]
+stars = 18
+forks = 5
+branches = 81
+tag_count = 0
+commits = 2
+watching = 4
 
 [[repo]]
 url = "https://github.com/arkworks-rs/gm17"
+last_commit = "451fbbc4a8b8a49b0fc3a29145ddd600d5b5a4dc"
+last_commit_time = "2021-06-06T23:45"
+status = "200"
+
+[repo.stats]
+forks = 3
+branches = 102
+commits = 1
+watching = 10
+tag_count = 0
+stars = 3
 
 [[repo]]
 url = "https://github.com/arkworks-rs/groth16"
+last_commit = "765817f77a6e14964c6f264d565b18676b11bd59"
+last_commit_time = "2021-08-19T20:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 82
+branches = 113
+watching = 14
+forks = 24
+commits = 3
 
 [[repo]]
 url = "https://github.com/arkworks-rs/ivls"
+last_commit = "57325dc45db4f1b5d42bed4796cd9ba2cd1fbd3c"
+last_commit_time = "2021-03-24T16:27"
+status = "200"
+
+[repo.stats]
+branches = 7
+commits = 1
+forks = 4
+stars = 13
+tag_count = 0
+watching = 12
 
 [[repo]]
 url = "https://github.com/arkworks-rs/marlin"
+last_commit = "bc32e6c60a2cd3dc590659720b1767d3e4701a9e"
+last_commit_time = "2022-05-05T18:55"
+status = "200"
+
+[repo.stats]
+branches = 92
+watching = 23
+stars = 194
+tag_count = 0
+forks = 40
+commits = 7
 
 [[repo]]
 url = "https://github.com/arkworks-rs/nonnative"
+last_commit = "ae191246896aca39751275293f9a277e579f8776"
+last_commit_time = "2021-08-07T22:48"
+status = "200"
+
+[repo.stats]
+forks = 11
+tag_count = 0
+watching = 10
+branches = 41
+stars = 16
+commits = 1
 
 [[repo]]
 url = "https://github.com/arkworks-rs/pcd"
+last_commit = "b676c2745d1d229b2d3e290db7c5a1e27164a85a"
+last_commit_time = "2021-03-23T18:33"
+status = "200"
+
+[repo.stats]
+stars = 15
+commits = 4
+branches = 11
+watching = 14
+tag_count = 0
+forks = 9
 
 [[repo]]
 url = "https://github.com/arkworks-rs/poly-commit"
+status = "200"
+
+[repo.stats]
+commits = 7
+watching = 21
+forks = 54
+branches = 112
+stars = 156
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/arkworks-rs/r1cs-std"
+last_commit = "6d64f379a27011b3629cf4c9cb38b7b7b695d5a0"
+last_commit_time = "2022-08-01T17:15"
+status = "200"
+
+[repo.stats]
+branches = 230
+tag_count = 0
+commits = 5
+stars = 53
+watching = 12
+forks = 17
 
 [[repo]]
 url = "https://github.com/arkworks-rs/ripp"
+last_commit = "59d59d96750c2ecedcced6adddd98a7c3546ad9b"
+last_commit_time = "2021-07-16T18:44"
+status = "200"
+
+[repo.stats]
+watching = 14
+branches = 75
+forks = 9
+tag_count = 0
+stars = 34
+commits = 5
 
 [[repo]]
 url = "https://github.com/arkworks-rs/snark"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 12
+branches = 493
+watching = 42
+stars = 603
+forks = 150
 
 [[repo]]
 url = "https://github.com/arkworks-rs/sponge"
+last_commit = "d20d9afce98e42dc9bd02950231afc5234e60b0c"
+last_commit_time = "2022-04-01T23:02"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 5
+stars = 17
+watching = 11
+branches = 16
+forks = 12
 
 [[repo]]
 url = "https://github.com/arkworks-rs/template"
+last_commit = "940899aa0f0994b34c5e1b1654fc5a662e565170"
+last_commit_time = "2021-08-26T08:34"
+status = "200"
+
+[repo.stats]
+watching = 5
+branches = 14
+stars = 5
+commits = 2
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/arkworks-rs/utils"
+last_commit = "05b7a19a99551bdd737eb2ffb1c9eac7be0dd11f"
+last_commit_time = "2022-04-08T16:41"
+status = "200"
+
+[repo.stats]
+stars = 25
+watching = 8
+branches = 98
+tag_count = 0
+forks = 15
+commits = 4
 
 [[repo]]
 url = "https://github.com/AztecProtocol/AZTEC"
+last_commit = "a47d3d9ea38cd1363ede730998145da663df6091"
+last_commit_time = "2020-07-23T12:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 81
+stars = 575
+branches = 0
+watching = 34
+forks = 86
 
 [[repo]]
 url = "https://github.com/AztecProtocol/Setup"
+last_commit = "7160f305a34af95ebbd1e1ad2bd9742e4660e0c6"
+last_commit_time = "2021-01-03T13:26"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 9
+stars = 25
+tag_count = 0
+branches = 374
+commits = 3
 
 [[repo]]
 url = "https://github.com/AztecProtocol/specification"
+last_commit = "fa589e887cadc773fb4126703e2b2bc210358d4c"
+last_commit_time = "2020-02-12T16:26"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+watching = 5
+branches = 37
+commits = 2
+stars = 31
 
 [[repo]]
 url = "https://github.com/AztecProtocol/zkether"
+last_commit = "4101450deaa2ac8012a4843c53df02f267c4cd13"
+last_commit_time = "2019-03-10T07:49"
+status = "200"
+
+[repo.stats]
+watching = 6
+tag_count = 0
+forks = 1
+branches = 4
+commits = 1
+stars = 7
 
 [[repo]]
 url = "https://github.com/baidu/rust-sgx-sdk"
+status = "200"
+
+[repo.stats]
+watching = 66
+stars = 0
+commits = 31
+forks = 223
+branches = 631
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/barryWhiteHat/roll_up"
+last_commit = "118f3511a7a98256c1bed245d2caaad245afceb9"
+last_commit_time = "2018-12-26T17:45"
+status = "200"
+
+[repo.stats]
+branches = 45
+watching = 18
+tag_count = 0
+commits = 2
+forks = 38
+stars = 277
 
 [[repo]]
 url = "https://github.com/bbuenz/BulletProofLib"
+last_commit = "bb3037467261fbb9f186cc899dc8c32d5d506417"
+last_commit_time = "2020-06-16T18:09"
+status = "200"
+
+[repo.stats]
+forks = 49
+stars = 153
+branches = 27
+commits = 4
+tag_count = 0
+watching = 25
 
 [[repo]]
 url = "https://github.com/berty/zero-push"
+last_commit = "e1bfb01a1271438c0f6616b98aeab10b1de38366"
+last_commit_time = "2019-08-26T08:58"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 10
+branches = 8
+forks = 7
+commits = 1
+stars = 24
 
 [[repo]]
 url = "https://github.com/brownie/cashlib"
+last_commit = "8820b953f8d0377c35dab909f60168370edce168"
+last_commit_time = "2016-03-22T01:03"
+status = "200"
+
+[repo.stats]
+forks = 12
+watching = 4
+stars = 55
+tag_count = 0
+branches = 44
+commits = 7
 
 [[repo]]
 url = "https://github.com/cambrian/accumulator"
+last_commit = "8f460270c274a4a65d777378a587be6dbc986c18"
+last_commit_time = "2021-03-10T02:58"
+status = "200"
+
+[repo.stats]
+forks = 29
+tag_count = 0
+commits = 5
+stars = 113
+branches = 635
+watching = 15
 
 [[repo]]
 url = "https://github.com/cambrian/accumulator-demo"
+last_commit = "50ed7e8b8dcdf7a06bf8f274f0ea3ad82fe6babc"
+last_commit_time = "2019-04-18T07:13"
+status = "200"
+
+[repo.stats]
+stars = 28
+branches = 78
+watching = 5
+commits = 1
+forks = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/CEA-LIST/Cingulata"
+last_commit = "02e4f752df6b7cc8ab509a519d923ea4e4d51267"
+last_commit_time = "2020-12-07T12:45"
+status = "200"
+
+[repo.stats]
+commits = 6
+watching = 23
+tag_count = 0
+branches = 268
+forks = 42
+stars = 386
 
 [[repo]]
 url = "https://github.com/christianlundkvist/libsnark-tutorial"
+last_commit = "d7d02beacb1257b6cf13abe2fd874b022bbc3e01"
+last_commit_time = "2018-08-06T20:40"
+status = "200"
+
+[repo.stats]
+forks = 42
+stars = 141
+branches = 14
+watching = 8
+tag_count = 0
+commits = 8
 
 [[repo]]
 url = "https://github.com/companyzero/zkc"
+last_commit = "f7c967e52aa4f6a5dd80fb74b8592c4c8486c02d"
+last_commit_time = "2021-02-21T01:52"
+status = "200"
+
+[repo.stats]
+branches = 142
+tag_count = 0
+commits = 1
+watching = 15
+stars = 98
+forks = 22
 
 [[repo]]
 url = "https://github.com/compositeapp/ZKPlayground"
+last_commit = "20079d960614d41bd5c6252a8d36f2aff6dc7ef2"
+last_commit_time = "2019-05-24T22:01"
+status = "200"
+
+[repo.stats]
+stars = 13
+commits = 7
+branches = 101
+forks = 1
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/crate-crypto/CLSAG"
+last_commit = "e8bbda6892cacdd8cbc8d84c63ff262bd26117e6"
+last_commit_time = "2020-05-06T19:09"
+status = "200"
+
+[repo.stats]
+stars = 14
+tag_count = 0
+watching = 4
+branches = 10
+forks = 2
+commits = 2
 
 [[repo]]
 url = "https://github.com/crate-crypto/MLSAG"
+last_commit = "39388c23d82bdeca4b5342789190461b6003253d"
+last_commit_time = "2020-05-10T16:28"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 1
+branches = 24
+tag_count = 0
+stars = 19
+forks = 1
 
 [[repo]]
 url = "https://github.com/crate-crypto/qesa"
+last_commit = "5d61a46f1b9b7192dde806d577c61025527032d5"
+last_commit_time = "2020-03-04T19:21"
+status = "200"
+
+[repo.stats]
+stars = 14
+watching = 3
+tag_count = 0
+forks = 4
+commits = 3
+branches = 81
 
 [[repo]]
 url = "https://github.com/dalek-cryptography/bulletproofs"
+last_commit = "1a10ce1a5b87299014658770346b376a858e7691"
+last_commit_time = "2020-01-18T01:05"
+status = "200"
+
+[repo.stats]
+commits = 10
+tag_count = 0
+watching = 40
+forks = 156
+stars = 749
+branches = 885
 
 [[repo]]
 url = "https://github.com/dalek-cryptography/dalek-rangeproofs"
+last_commit = "9ff73b566bec35f1fa9f764f842c2efbff4e5117"
+last_commit_time = "2018-07-24T00:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+forks = 3
+stars = 16
+branches = 49
+commits = 2
 
 [[repo]]
 url = "https://github.com/dalek-cryptography/doppio"
+last_commit = "a7c649d779d3e60ae6fc137f1db46dbf89134942"
+last_commit_time = "2019-06-22T08:32"
+status = "200"
+
+[repo.stats]
+branches = 33
+commits = 5
+tag_count = 0
+watching = 4
+stars = 15
+forks = 3
 
 [[repo]]
 url = "https://github.com/dalek-cryptography/merlin"
+last_commit = "53535f32e6d6de421372d67f56176af0c0f55fd7"
+last_commit_time = "2021-01-14T22:55"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 145
+tag_count = 0
+forks = 44
+stars = 90
+watching = 7
 
 [[repo]]
 url = "https://github.com/dalek-cryptography/zkp"
+last_commit = "419c9bff2e4fdb53a505265b2976074d181ba34a"
+last_commit_time = "2019-12-06T18:57"
+status = "200"
+
+[repo.stats]
+watching = 9
+tag_count = 0
+stars = 138
+forks = 25
+branches = 124
+commits = 6
 
 [[repo]]
 url = "https://github.com/ebfull/halo"
+last_commit = "d9d341f19b1122f975c2fc7c583490a830a9020a"
+last_commit_time = "2019-09-18T18:58"
+status = "200"
+
+[repo.stats]
+commits = 5
+watching = 25
+tag_count = 0
+stars = 113
+forks = 19
+branches = 184
 
 [[repo]]
 url = "https://github.com/ebfull/powersoftau"
+last_commit = "5429415959175082207fd61c10319e47a6b56e87"
+last_commit_time = "2018-04-04T00:59"
+status = "200"
+
+[repo.stats]
+watching = 8
+stars = 120
+commits = 2
+forks = 47
+tag_count = 0
+branches = 16
 
 [[repo]]
 url = "https://github.com/ebfull/sonic"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 10
+branches = 15
+commits = 2
+forks = 17
+stars = 75
 
 [[repo]]
 url = "https://github.com/ElementsProject/secp256k1-zkp"
+status = "200"
+
+[repo.stats]
+watching = 51
+stars = 264
+tag_count = 0
+commits = 10
+forks = 163
+branches = 0
 
 [[repo]]
 url = "https://github.com/elibensasson/libSTARK"
+last_commit = "11c72adf909e259aa20a36317e22108784f6dd73"
+last_commit_time = "2018-12-11T08:57"
+status = "200"
+
+[repo.stats]
+forks = 79
+stars = 412
+tag_count = 0
+watching = 35
+commits = 4
+branches = 62
 
 [[repo]]
 url = "https://github.com/EYBlockchain/nightfall"
+last_commit = "e01c19127a667381bf44a0f8f5929d0b16fb9824"
+last_commit_time = "2021-07-01T14:07"
+status = "200"
+
+[repo.stats]
+commits = 110
+forks = 154
+stars = 841
+tag_count = 0
+watching = 59
+branches = 809
 
 [[repo]]
 url = "https://github.com/FiloSottile/powersoftau"
+last_commit = "e2af113817477d26e6155f1aae478d3cb58d62c5"
+last_commit_time = "2018-02-20T13:48"
+status = "200"
+
+[repo.stats]
+forks = 7
+commits = 1
+watching = 2
+stars = 33
+tag_count = 0
+branches = 22
 
 [[repo]]
 url = "https://github.com/gstew5/snarkl"
+last_commit = "d6ce72b13e370d2965bb226f28a1135269e7c198"
+last_commit_time = "2018-07-04T18:07"
+status = "200"
+
+[repo.stats]
+forks = 6
+branches = 337
+tag_count = 0
+watching = 13
+commits = 9
+stars = 56
 
 [[repo]]
 url = "https://github.com/GuildOfWeavers/AirScript"
+last_commit = "cffb5e580d6ba5d96c6958fe96a1259f4337f258"
+last_commit_time = "2020-03-06T20:06"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 9
+tag_count = 0
+stars = 49
+forks = 5
+branches = 245
 
 [[repo]]
 url = "https://github.com/GuildOfWeavers/genSTARK"
+last_commit = "6172f2bfb6a8264a20474c4bc3539aa637ed0fd6"
+last_commit_time = "2020-03-06T22:55"
+status = "200"
+
+[repo.stats]
+commits = 3
+forks = 16
+tag_count = 0
+branches = 181
+watching = 11
+stars = 114
 
 [[repo]]
 url = "https://github.com/HarryR/ethsnarks"
+last_commit = "2020dec635ee606da1f66118a5f7c6283a4cb6a0"
+last_commit_time = "2019-10-17T13:15"
+status = "200"
+
+[repo.stats]
+branches = 483
+tag_count = 0
+forks = 80
+watching = 20
+commits = 17
+stars = 213
 
 [[repo]]
 url = "https://github.com/HarryR/solcrypto"
+last_commit = "3c59250005e76bae7de73b753d7406eee15b8e6e"
+last_commit_time = "2019-03-18T11:08"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 43
+watching = 11
+stars = 223
+branches = 52
+commits = 3
 
 [[repo]]
 url = "https://github.com/howardwu/libsnark-tutorial"
+last_commit = "0a9b0debd543597788538a91b66cb005c907ef3c"
+last_commit_time = "2021-01-03T22:07"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 10
+watching = 21
+stars = 356
+forks = 84
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/IAIK/gzkbpp"
+last_commit = "3d7739fb2e17cea60d2187a169c5e652cba34448"
+last_commit_time = "2019-05-28T17:23"
+status = "200"
+
+[repo.stats]
+branches = 20
+forks = 4
+watching = 8
+commits = 1
+stars = 16
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/IAIK/Picnic"
+last_commit = "fca3dadba47c14117a3e3e24f27e1a5983f2f0a8"
+last_commit_time = "2022-08-05T08:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 10
+forks = 26
+branches = 0
+commits = 2
+stars = 72
 
 [[repo]]
 url = "https://github.com/iden3/circom"
+status = "200"
+
+[repo.stats]
+forks = 62
+tag_count = 0
+watching = 11
+commits = 9
+stars = 428
+branches = 211
 
 [[repo]]
 url = "https://github.com/iden3/circomlib"
+status = "200"
+
+[repo.stats]
+branches = 191
+commits = 11
+stars = 271
+forks = 108
+watching = 20
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/iden3/rollup"
+last_commit = "1048dfe09a9042362ee6c36eba4951bf63b3e062"
+last_commit_time = "2020-08-06T13:24"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 79
+forks = 30
+watching = 6
+branches = 417
+commits = 144
 
 [[repo]]
 url = "https://github.com/iden3/snarkjs"
+status = "200"
+
+[repo.stats]
+watching = 32
+commits = 9
+tag_count = 0
+forks = 201
+branches = 524
+stars = 983
 
 [[repo]]
 url = "https://github.com/iden3/websnark"
+status = "200"
+
+[repo.stats]
+watching = 10
+commits = 11
+tag_count = 0
+branches = 30
+forks = 78
+stars = 146
 
 [[repo]]
 url = "https://github.com/ivansarno/FiatShamirProtocol"
+last_commit = "1087c4ad43639b3c84198ce250ab31728de9474a"
+last_commit_time = "2019-09-14T18:24"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 2
+branches = 50
+stars = 5
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/JacobEberhardt/ZoKrates"
+status = "200"
+
+[repo.stats]
+commits = 150
+watching = 41
+tag_count = 0
+forks = 299
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/jopasserat/zk_playground"
+last_commit = "3a94634db89635cc74170e326d217982a9e071ab"
+last_commit_time = "2019-09-30T22:18"
+status = "200"
+
+[repo.stats]
+branches = 15
+stars = 0
+forks = 0
+watching = 1
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/jpmorganchase/anonymous-zether"
+last_commit = "c342073fa00458f8b4f9cb014f6bd81539fca8fe"
+last_commit_time = "2021-05-14T15:40"
+status = "200"
+
+[repo.stats]
+forks = 53
+commits = 10
+stars = 223
+branches = 288
+tag_count = 0
+watching = 51
 
 [[repo]]
 url = "https://github.com/kantuni/ZKP"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 13
+branches = 29
+watching = 1
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/kelecorix/dizk"
+last_commit = "ab04a0426d21ed47a1594921571ac788a08a390b"
+last_commit_time = "2019-03-15T16:14"
+status = "200"
+
+[repo.stats]
+branches = 1
+stars = 1
+watching = 2
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/keyfuse/thresh-wallet"
+last_commit = "4392a842b90e21d33d934425d08b3cd2bc2da9d8"
+last_commit_time = "2019-08-17T06:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 4
+forks = 6
+branches = 18
+stars = 18
 
 [[repo]]
 url = "https://github.com/kiliant/zklaim"
+last_commit = "a4208fcc97365dc79b62ebd23420bf6632a233d2"
+last_commit_time = "2019-01-08T07:40"
+status = "200"
+
+[repo.stats]
+stars = 4
+tag_count = 0
+forks = 3
+branches = 18
+watching = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/kobigurk/semaphore"
+last_commit = "9da88434878c6c9f87194c079609b40351d64c12"
+last_commit_time = "2022-07-25T22:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 82
+branches = 454
+stars = 460
+watching = 20
+commits = 6
 
 [[repo]]
 url = "https://github.com/kobigurk/websnark"
+last_commit = "1fea8e0ef042d0e68e88e271fb7e79949a884a51"
+last_commit_time = "2019-12-29T15:57"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 78
+branches = 21
+tag_count = 0
+commits = 3
+stars = 2
 
 [[repo]]
 url = "https://github.com/KZen-networks/bulletproofs"
+last_commit = "c78182e34f65673df52e899f8ea99f26aaf70477"
+last_commit_time = "2021-11-03T05:07"
+status = "200"
+
+[repo.stats]
+commits = 9
+forks = 34
+tag_count = 0
+branches = 83
+watching = 11
+stars = 61
 
 [[repo]]
 url = "https://github.com/KZen-networks/zk-paillier"
+last_commit = "3f5071877c5f441899fdff2241ed486e2905e55e"
+last_commit_time = "2022-04-03T15:42"
+status = "200"
+
+[repo.stats]
+forks = 22
+watching = 5
+stars = 67
+tag_count = 0
+branches = 71
+commits = 8
 
 [[repo]]
 url = "https://github.com/Lamden/speedy-zero-knowledge"
+last_commit = "5b5ca8fdcdad90903a16e6d94ed697232a225fa9"
+last_commit_time = "2018-03-19T06:44"
+status = "200"
+
+[repo.stats]
+branches = 3
+forks = 1
+stars = 4
+watching = 3
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/LayerXcom/lx-sonic"
+last_commit = "32a5d388b94576474f02938b464ae3ce7bd6606e"
+last_commit_time = "2019-06-04T15:15"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 4
+stars = 17
+forks = 2
+commits = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/matter-labs/alpha_line"
+last_commit = "69374556cfff65b89397db59697802cc04bafb59"
+last_commit_time = "2019-02-03T06:33"
+status = "200"
+
+[repo.stats]
+stars = 22
+branches = 3
+forks = 4
+tag_count = 0
+commits = 1
+watching = 6
 
 [[repo]]
 url = "https://github.com/matter-labs/awesome-zero-knowledge-proofs"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 81
+stars = 0
+forks = 365
+watching = 135
+commits = 2
 
 [[repo]]
 url = "https://github.com/matter-labs/belle_cuda"
+last_commit = "36c48708920e0ae0a43539f4476312649bbefc97"
+last_commit_time = "2019-06-12T13:39"
+status = "200"
+
+[repo.stats]
+stars = 27
+tag_count = 0
+forks = 5
+branches = 64
+commits = 1
+watching = 6
 
 [[repo]]
 url = "https://github.com/matter-labs/Groth16BatchVerifier"
+last_commit = "76ec31af62359dee8e519fce98f91654c441080a"
+last_commit_time = "2019-06-24T13:08"
+status = "200"
+
+[repo.stats]
+stars = 17
+watching = 7
+forks = 3
+branches = 4
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/matter-labs/hodor"
+last_commit = "eed4725577e7a780449b9ca6b3886fba21494059"
+last_commit_time = "2019-09-25T13:42"
+status = "200"
+
+[repo.stats]
+forks = 12
+commits = 11
+watching = 11
+branches = 80
+tag_count = 0
+stars = 67
 
 [[repo]]
 url = "https://github.com/matter-labs/powersoftau"
+last_commit = "1ff12d0529eab47e40bf7fe7a1bb576a1df4e46e"
+last_commit_time = "2019-09-05T10:11"
+status = "200"
+
+[repo.stats]
+stars = 16
+watching = 9
+forks = 47
+branches = 28
+commits = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/matter-labs/rollup"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 86
+forks = 13
+branches = 2
+tag_count = 0
+commits = 18
 
 [[repo]]
 url = "https://github.com/matter-labs/snarkyGPU"
+last_commit = "cb6540de785ce1ab5cc5cad487b5fd414e0e054d"
+last_commit_time = "2018-10-11T16:24"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 19
+tag_count = 0
+watching = 8
+branches = 7
+commits = 1
 
 [[repo]]
 url = "https://github.com/mayank0403/Oblivious-Transfer-and-Zero-Knowledge-Proof"
+last_commit = "bd53a1fbdb0d35d6a46948817de9ec1032462316"
+last_commit_time = "2018-04-09T19:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 7
+forks = 1
+watching = 3
+stars = 4
 
 [[repo]]
 url = "https://github.com/meilof/pysnark"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+stars = 98
+watching = 7
+forks = 12
+branches = 209
 
 [[repo]]
 url = "https://github.com/microsoft/Picnic"
+last_commit = "b85ce18103888ae909951ec5f84f662737ec019e"
+last_commit_time = "2020-04-21T04:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 17
+forks = 44
+stars = 136
+branches = 44
+commits = 2
 
 [[repo]]
 url = "https://github.com/miguelmota/zksnarks-example"
+last_commit = "1806339186234d72e8cb8ab7ef77421636d953ee"
+last_commit_time = "2019-10-17T18:16"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 35
+branches = 11
+tag_count = 0
+commits = 1
+forks = 7
 
 [[repo]]
 url = "https://github.com/nucypher/nufhe"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 398
+forks = 50
+branches = 233
+watching = 23
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/o1-labs/snarkette"
+last_commit = "c4af4a5f654497183871b5f2ee99005020be20d8"
+last_commit_time = "2019-05-29T21:38"
+status = "200"
+
+[repo.stats]
+branches = 5
+watching = 9
+commits = 1
+tag_count = 0
+forks = 4
+stars = 51
 
 [[repo]]
 url = "https://github.com/o1-labs/snarky"
+last_commit = "e9d592394afc995b2a39663563a6d74a77f4dbcb"
+last_commit_time = "2022-06-30T12:49"
+status = "200"
+
+[repo.stats]
+watching = 40
+commits = 151
+tag_count = 0
+forks = 69
+branches = 621
+stars = 412
 
 [[repo]]
 url = "https://github.com/PaulRBerg/awesome-zkp-starter-pack"
+last_commit = "21ee9bdccc84534dbfe97d7e8718d47be2d6c3fb"
+last_commit_time = "2019-01-05T22:16"
+status = "200"
+
+[repo.stats]
+forks = 5
+commits = 1
+watching = 3
+tag_count = 0
+branches = 2
+stars = 60
 
 [[repo]]
 url = "https://github.com/pepper-project/pequin"
+last_commit = "db440e8f99fc214f76c6e691dc7fbdc190eb73a4"
+last_commit_time = "2022-04-05T22:32"
+status = "200"
+
+[repo.stats]
+stars = 111
+branches = 69
+tag_count = 0
+forks = 42
+watching = 21
+commits = 1
 
 [[repo]]
 url = "https://github.com/pepper-project/tinyram"
+last_commit = "117558b283763b7a8d1c003a22b0625272d450b4"
+last_commit_time = "2016-12-14T18:38"
+status = "200"
+
+[repo.stats]
+branches = 8
+forks = 6
+commits = 1
+watching = 5
+stars = 33
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/scipr-lab/dizk"
+last_commit = "29fb0f78964cd6019029d20228ee0bee3184e64d"
+last_commit_time = "2020-03-02T05:57"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 28
+commits = 2
+forks = 47
+stars = 191
+watching = 33
 
 [[repo]]
 url = "https://github.com/scipr-lab/libiop"
+last_commit = "a2ed2ec2f3e85f29b6035951553b02cb737c817a"
+last_commit_time = "2021-05-13T03:21"
+status = "200"
+
+[repo.stats]
+stars = 105
+branches = 23
+tag_count = 0
+watching = 16
+commits = 5
+forks = 20
 
 [[repo]]
 url = "https://github.com/scipr-lab/libsnark"
+last_commit = "2af440246fa2c3d0b1b0a425fb6abd8cc8b9c54d"
+last_commit_time = "2020-07-07T17:03"
+status = "200"
+
+[repo.stats]
+forks = 500
+branches = 357
+commits = 6
+stars = 0
+watching = 91
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/scipr-lab/marlin"
+last_commit = "bc32e6c60a2cd3dc590659720b1767d3e4701a9e"
+last_commit_time = "2022-05-05T18:55"
+status = "200"
+
+[repo.stats]
+stars = 194
+watching = 23
+tag_count = 0
+forks = 40
+branches = 92
+commits = 7
 
 [[repo]]
 url = "https://github.com/scipr-lab/zexe"
+status = "200"
+
+[repo.stats]
+forks = 150
+watching = 42
+tag_count = 0
+branches = 493
+commits = 12
+stars = 603
 
 [[repo]]
 url = "https://github.com/sec-bit/zkPoD-node"
+last_commit = "cfb8b914a34e7c417ae4cbd1e10199854dd6e0e3"
+last_commit_time = "2020-09-10T10:00"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 13
+stars = 158
+forks = 29
+tag_count = 0
+branches = 98
 
 [[repo]]
 url = "https://github.com/sikoba/isekai"
+last_commit = "66a02e63f1ee34a091f3a69fa4282cc0ca034875"
+last_commit_time = "2020-03-24T23:23"
+status = "200"
+
+[repo.stats]
+forks = 7
+tag_count = 0
+stars = 38
+commits = 2
+branches = 307
+watching = 9
 
 [[repo]]
 url = "https://github.com/Sobuno/ZKBoo"
+last_commit = "beecb45fa3765ead8036f38a42cb08ad5ee46704"
+last_commit_time = "2017-07-31T06:44"
+status = "200"
+
+[repo.stats]
+branches = 12
+watching = 2
+forks = 19
+stars = 39
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/stellar/slingshot"
+last_commit = "4a9ec80a5a65f54a63626aaee4c0daad4d627029"
+last_commit_time = "2021-04-01T11:20"
+status = "200"
+
+[repo.stats]
+stars = 367
+branches = 613
+watching = 57
+commits = 17
+tag_count = 0
+forks = 55
 
 [[repo]]
 url = "https://github.com/tfhe/experimental-tfhe"
+status = "200"
+
+[repo.stats]
+stars = 15
+branches = 24
+watching = 5
+forks = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/tfhe/tfhe"
+last_commit = "be526fbc1c0734308c2d09586b684cc849db1019"
+last_commit_time = "2022-07-12T13:48"
+status = "200"
+
+[repo.stats]
+branches = 513
+tag_count = 0
+commits = 12
+watching = 63
+stars = 971
+forks = 147
 
 [[repo]]
 url = "https://github.com/tfhe/tfhe-chimera"
+last_commit = "ed0e516d4ec0626f9437dce56014676441a485a4"
+last_commit_time = "2019-03-08T15:15"
+status = "200"
+
+[repo.stats]
+watching = 5
+commits = 1
+forks = 0
+stars = 6
+branches = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/therealyingtong/roll_up_circom_tutorial"
+last_commit = "14bf07de2a271394ad571ba2b6cc8b9e38b88e27"
+last_commit_time = "2019-07-20T16:21"
+status = "200"
+
+[repo.stats]
+branches = 15
+forks = 18
+stars = 15
+watching = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/usrbom/network-security"
+last_commit = "74aac416463185573b9ba5d4cc6637fdbd831da0"
+last_commit_time = "2018-08-17T16:16"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 2
+tag_count = 0
+forks = 1
+stars = 1
+branches = 10
 
 [[repo]]
 url = "https://github.com/verificatum/verificatum-vjsc"
+last_commit = "e033cfdc409300bb37c1e2622c8d562f9b4cb0b5"
+last_commit_time = "2022-01-21T10:44"
+status = "200"
+
+[repo.stats]
+watching = 3
+commits = 1
+stars = 14
+branches = 11
+tag_count = 0
+forks = 3
 
 [[repo]]
 url = "https://github.com/Vinc0682/IHRSZKP"
+last_commit = "03c70475c0531912aed31feed158b60c284de53d"
+last_commit_time = "2021-08-13T16:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 12
+commits = 1
+branches = 7
+forks = 4
+watching = 3
 
 [[repo]]
 url = "https://github.com/Voxelot/zk-dex"
+last_commit = "ed5bda13337e6751eefd8cfc58afb82d78612054"
+last_commit_time = "2019-03-20T00:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 3
+watching = 2
+branches = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/xlab-si/emmy"
+last_commit = "eab83660737eb222611850015b2a543184f2b2db"
+last_commit_time = "2020-01-07T12:09"
+status = "200"
+
+[repo.stats]
+forks = 48
+tag_count = 0
+commits = 1
+watching = 17
+branches = 200
+stars = 198
 
 [[repo]]
 url = "https://github.com/zcash-hackworks/sapling-crypto"
+last_commit = "49017b4e055ba4322dad1f03fe7d80dc0ed449cc"
+last_commit_time = "2018-11-26T23:15"
+status = "200"
+
+[repo.stats]
+branches = 199
+commits = 1
+stars = 72
+tag_count = 0
+watching = 18
+forks = 58
 
 [[repo]]
 url = "https://github.com/zcash-hackworks/sapling-mpc"
+last_commit = "7934d34502745f3a8c03a7f98355a990d42930b7"
+last_commit_time = "2018-08-04T19:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 7
+stars = 29
+forks = 22
+watching = 13
+commits = 1
 
 [[repo]]
 url = "https://github.com/zcoinofficial/libsigma"
+status = "200"
+
+[repo.stats]
+forks = 5
+watching = 12
+tag_count = 0
+stars = 10
+branches = 17
+commits = 2
 
 [[repo]]
 url = "https://github.com/Zenithar/go-anvil"
+last_commit = "e5b290b4f51bba0e4ba5903b12d5409773753bcb"
+last_commit_time = "2020-06-01T16:05"
+status = "200"
+
+[repo.stats]
+branches = 7
+watching = 1
+stars = 3
+tag_count = 0
+commits = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/bn"
+last_commit = "b10bdf336632aaccce740c3f50f7744a31a1d82e"
+last_commit_time = "2022-01-23T14:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 1
+forks = 100
+commits = 4
+branches = 151
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/borsh"
+last_commit = "da52355feae0c6d72fc8885a427bf2fa362a962b"
+last_commit_time = "2020-11-18T10:52"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 133
+forks = 35
+watching = 1
+stars = 0
+commits = 26
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/challenger-bot"
+last_commit = "587580201fc1ee359fe37ffd8c7c3bc7ca4bdfdd"
+last_commit_time = "2020-02-28T20:11"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+branches = 4
+watching = 3
+stars = 1
+commits = 11
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/circomlib"
+last_commit = "6997678d514f81adbae5a8d37a91e4578cda001d"
+last_commit_time = "2019-10-06T23:38"
+status = "200"
+
+[repo.stats]
+forks = 108
+stars = 0
+commits = 5
+watching = 1
+tag_count = 0
+branches = 94
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/eth-boston"
+last_commit = "a16726ebd99f4a0d604504376029e2b1b8441e24"
+last_commit_time = "2019-09-08T16:37"
+status = "200"
+
+[repo.stats]
+commits = 53
+forks = 1
+branches = 109
+stars = 10
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/fawkes-crypto"
+last_commit = "87b92b5c65c63dc30d964ee1f4e4659df5d67c8c"
+last_commit_time = "2022-05-05T12:25"
+status = "200"
+
+[repo.stats]
+forks = 4
+commits = 14
+tag_count = 0
+watching = 4
+branches = 277
+stars = 14
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/ff-uint"
+last_commit = "d36e10724235f7f212c09f4d66e75fa933eca7b0"
+last_commit_time = "2020-09-24T11:02"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 4
+stars = 0
+commits = 1
+branches = 18
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/groth16-wasm-benchmark"
+last_commit = "654fcff7c69454cf69f41233c9daa695355b9975"
+last_commit_time = "2020-08-27T17:09"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 3
+forks = 1
+tag_count = 0
+branches = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/joinsplit_experiment"
+last_commit = "d2a50505386872f75801c4d455cb055f505fd25f"
+last_commit_time = "2020-03-05T15:49"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+commits = 1
+stars = 0
+branches = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/libzeropool"
+last_commit = "0f406f4947bbd1abd3bfd0731c0128d3ac015ab1"
+last_commit_time = "2022-01-23T11:56"
+status = "200"
+
+[repo.stats]
+forks = 5
+watching = 3
+branches = 65
+tag_count = 0
+commits = 6
+stars = 4
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/MiMCTree"
+last_commit = "a10b6d0795615c9dfe751d27362e2859c796fcf2"
+last_commit_time = "2020-01-17T21:39"
+status = "200"
+
+[repo.stats]
+branches = 4
+tag_count = 0
+commits = 12
+stars = 0
+forks = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/near-groth16-verifier"
+last_commit = "cb0116a6084ac9c28ef708d12c10ecfeaf3f85e2"
+last_commit_time = "2020-06-17T11:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+commits = 1
+branches = 9
+forks = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/NEAR-pool"
+last_commit = "bf66e2aa4d26cb47509c65e6f0ab692cf71ab405"
+last_commit_time = "2020-08-08T17:39"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 1
+stars = 2
+watching = 4
+branches = 16
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/near-sdk-rs"
+last_commit = "08bd75562d55c5cd6a692456b6745b6f594c18b6"
+last_commit_time = "2020-11-20T17:08"
+status = "200"
+
+[repo.stats]
+forks = 148
+watching = 1
+stars = 0
+branches = 219
+tag_count = 0
+commits = 39
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/nearcore"
+last_commit = "06674af003f0031d1ec2dbd226c309bde5b5d200"
+last_commit_time = "2020-06-16T16:52"
+status = "200"
+
+[repo.stats]
+forks = 352
+tag_count = 0
+stars = 0
+commits = 60
+branches = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/nep21-playground"
+last_commit = "7b5b4a799873f464652ee9c63bc0336202b07318"
+last_commit_time = "2020-10-15T05:00"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+watching = 3
+stars = 0
+branches = 3
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/phase2-bn254"
+last_commit = "7e0b9007ee1f13f85f7e40e58b5aee764c1ce4f1"
+last_commit_time = "2021-04-15T08:14"
+status = "200"
+
+[repo.stats]
+forks = 47
+tag_count = 0
+branches = 522
+watching = 1
+stars = 0
+commits = 7
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/poseidon-params-safety-checker"
+last_commit = "bf18ef22e68181bcc6048a94d2909a578ae4be44"
+last_commit_time = "2020-11-04T23:10"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+branches = 1
+commits = 1
+watching = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/poseidon-solidity-benchmark"
+last_commit = "fbea83a0575ed3f9e6bf92f48f6189862db6af7a"
+last_commit_time = "2020-04-21T01:04"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 3
+tag_count = 0
+branches = 3
+commits = 9
+forks = 0
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/updatablemerkletree"
+last_commit = "7b173eae2b38dc44741bf3289388f43d37040c28"
+last_commit_time = "2019-10-07T22:10"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+forks = 0
+branches = 2
+watching = 2
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/website"
+last_commit = "873227e88bebb53475f8f3120acc55b448184bad"
+last_commit_time = "2020-03-10T00:42"
+status = "200"
+
+[repo.stats]
+branches = 13
+forks = 0
+commits = 1
+stars = 1
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zcoinselect"
+last_commit = "09d7d3ac6f48ac6de773717609d4dd764ec9acd8"
+last_commit_time = "2019-10-08T21:25"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 1
+commits = 1
+branches = 9
+forks = 1
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-console"
+last_commit = "50583a6cee05cdb43243245344e2c6cb413256a4"
+last_commit_time = "2022-06-11T01:41"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 2
+branches = 127
+commits = 2
+watching = 4
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-core"
+last_commit = "66e11822a99024e0d018551ae0f84e2430dc8fb1"
+last_commit_time = "2020-04-05T19:33"
+status = "200"
+
+[repo.stats]
+branches = 440
+forks = 7
+watching = 6
+stars = 20
+tag_count = 0
+commits = 62
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-frontend"
+last_commit = "034e9ff75d9529ae3f91a4fd6317a326e11b6266"
+last_commit_time = "2022-08-04T15:05"
+status = "200"
+
+[repo.stats]
+stars = 4
+tag_count = 0
+branches = 222
+commits = 22
+watching = 6
+forks = 1
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-indexeddb"
+last_commit = "3c11ad9020a61e67f1c9b5c9e689355acc72188c"
+last_commit_time = "2020-07-23T19:02"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 4
+commits = 1
+forks = 0
+branches = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-substrate"
+last_commit = "77e0878ffea85d54a54e4e4df633e32760ec87ee"
+last_commit_time = "2022-05-23T21:26"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 3
+forks = 0
+watching = 2
+branches = 67
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-substrate-pallet"
+last_commit = "9edbdbb99860deabfe229c30df523dc7d8ced23a"
+last_commit_time = "2021-01-10T19:45"
+status = "200"
+
+[repo.stats]
+branches = 54
+commits = 2
+stars = 5
+forks = 7
+watching = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zp-chrome-extension"
+last_commit = "f02de0759dfafaf1e816846d1df309393330d477"
+last_commit_time = "2020-02-12T04:34"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+branches = 98
+watching = 4
+forks = 2
+commits = 21
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zp-electron"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 0
+tag_count = 0
+stars = 0
+watching = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zp-pwa"
+last_commit = "4b8f412fcf8525472d0cfd3025765fb5cfa6269b"
+last_commit_time = "2020-04-05T17:54"
+status = "200"
+
+[repo.stats]
+forks = 1
+commits = 11
+branches = 360
+stars = 1
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zp-ui"
+last_commit = "9229e090947520f99258d1efebc6e105839c75f2"
+last_commit_time = "2020-02-21T23:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 3
+stars = 0
+watching = 3
+commits = 3
+forks = 0
 
 [[repo]]
 url = "https://github.com/zkcrypto/bellman"
+status = "200"
+
+[repo.stats]
+commits = 8
+watching = 38
+stars = 625
+forks = 381
+branches = 343
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zkcrypto/bls12_381"
+status = "200"
+
+[repo.stats]
+stars = 158
+watching = 17
+tag_count = 0
+branches = 167
+commits = 4
+forks = 80
 
 [[repo]]
 url = "https://github.com/zkcrypto/ff"
+status = "200"
+
+[repo.stats]
+forks = 58
+commits = 4
+watching = 10
+branches = 189
+stars = 114
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/zkcrypto/groth16"
+last_commit = "f5ac9c8624a9dfc9cdcb961019708154e7b5b34a"
+last_commit_time = "2018-07-06T21:20"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 1
+forks = 5
+stars = 19
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/zkcrypto/group"
+last_commit = "e9fc531e7517b9684cfbd22a3c7308fec7e98d82"
+last_commit_time = "2022-05-04T22:23"
+status = "200"
+
+[repo.stats]
+stars = 54
+branches = 105
+forks = 23
+tag_count = 0
+watching = 6
+commits = 2
 
 [[repo]]
 url = "https://github.com/zkcrypto/jubjub"
+status = "200"
+
+[repo.stats]
+watching = 13
+tag_count = 0
+branches = 215
+commits = 1
+forks = 24
+stars = 70
 
 [[repo]]
 url = "https://github.com/zkcrypto/pairing"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 303
+watching = 26
+commits = 3
+forks = 91
+stars = 246
 
 [[repo]]
 url = "https://github.com/ZKProofs/ZKProofs.github.io"
+last_commit = "44fc0463a1a1700e2500f220c6d14704149f6c67"
+last_commit_time = "2019-09-06T19:36"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 75
+commits = 1
+branches = 117
+forks = 47
+watching = 15
 
 [[repo]]
 url = "https://github.com/Zokrates/libsnark"
+last_commit = "f7c87b88744ecfd008126d415494d9b34c4c1b20"
+last_commit_time = "2018-04-09T19:24"
+status = "200"
+
+[repo.stats]
+forks = 500
+stars = 2
+watching = 3
+tag_count = 0
+branches = 320
+commits = 5
 
 [[repo]]
 url = "https://github.com/Zokrates/pycrypto"
+last_commit = "2e0601ef3f4c2472362ef620e7c81fc555d5cf8d"
+last_commit_time = "2021-03-31T09:53"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 31
+forks = 10
+branches = 55
+watching = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Zokrates/wasm-plugins"
+last_commit = "34bbd1cd77633146db01a113cf14454b271c1dee"
+last_commit_time = "2019-01-15T11:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 1
+watching = 2
+commits = 1
+branches = 6
 
 [[repo]]
 url = "https://github.com/Zokrates/ZoKrates"
+status = "200"
+
+[repo.stats]
+forks = 299
+commits = 150
+tag_count = 0
+stars = 0
+watching = 41
+branches = 0

@@ -1,73 +1,312 @@
-# Ecosystem Level Information
 title = "Laminar"
-
+toml_path = "data/ecosystems/l/laminar.toml"
+github_organizations = ["https://github.com/laminar-protocol"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/laminar-protocol"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/laminar-protocol/api"
+last_commit = "b1ce22d51d0eecdfb15dbce477eff19ad8ea46be"
+last_commit_time = "2020-08-25T22:01"
+status = "200"
+
+[repo.stats]
+forks = 264
+watching = 2
+branches = 0
+stars = 0
+tag_count = 0
+commits = 7
 
 [[repo]]
 url = "https://github.com/laminar-protocol/apps"
+last_commit = "0316cdd0817ac16dbe6a1618638c1aa098b78079"
+last_commit_time = "2020-08-23T22:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 957
+branches = 0
+watching = 1
+commits = 11
 
 [[repo]]
 url = "https://github.com/laminar-protocol/cucumber-features"
+last_commit = "37c74d4d87cde220be4e7c18b6a7189daa154725"
+last_commit_time = "2020-06-29T00:36"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 30
+commits = 2
+forks = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/laminar-protocol/cumulus"
+last_commit = "35f60b1e90145714730d372b5067d9c392884ac9"
+last_commit_time = "2020-08-14T23:51"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 296
+commits = 10
+watching = 1
+tag_count = 0
+branches = 167
 
 [[repo]]
 url = "https://github.com/laminar-protocol/devops"
+last_commit = "505a90ca2c386cd5c97a817741ead04809f0609a"
+last_commit_time = "2021-04-12T01:36"
+status = "200"
+
+[repo.stats]
+branches = 29
+forks = 0
+watching = 3
+commits = 1
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/laminar-protocol/e2e"
+last_commit = "d85e29b142dc1161860ea38569344a1c4a0c8e21"
+last_commit_time = "2021-11-11T20:56"
+status = "200"
+
+[repo.stats]
+branches = 17
+stars = 0
+forks = 0
+tag_count = 0
+commits = 2
+watching = 4
 
 [[repo]]
 url = "https://github.com/laminar-protocol/faucet-bot"
+last_commit = "4e378e68fe4babb5c24ffa59e250e2e8dae74250"
+last_commit_time = "2021-04-14T04:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 2
+stars = 0
+branches = 38
+forks = 34
 
 [[repo]]
 url = "https://github.com/laminar-protocol/finality-grandpa"
+last_commit = "ea1eff3812b7d8e507ace519579f8264184a31cd"
+last_commit_time = "2020-02-11T12:37"
+status = "200"
+
+[repo.stats]
+branches = 443
+watching = 1
+stars = 0
+forks = 40
+commits = 33
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/laminar-protocol/flow-exchange"
+last_commit = "88bed83bc09c22f270ed25ce84d9b7219ac764bc"
+last_commit_time = "2021-04-15T01:27"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 5
+stars = 3
+branches = 458
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/laminar-protocol/flow-protocol-ethereum"
+last_commit = "a2393e9212580c87b1e66005ae5489d4d37023a7"
+last_commit_time = "2021-06-10T23:12"
+status = "200"
+
+[repo.stats]
+stars = 18
+watching = 6
+forks = 1
+branches = 607
+tag_count = 0
+commits = 10
 
 [[repo]]
 url = "https://github.com/laminar-protocol/flow-protocol-whitepaper"
+last_commit = "e1468986580982e743e71630cbb5d56002cfcba4"
+last_commit_time = "2020-03-10T21:30"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 8
+tag_count = 0
+forks = 2
+branches = 18
+watching = 7
 
 [[repo]]
 url = "https://github.com/laminar-protocol/frontier"
+last_commit = "bb79f231ea5d3785d9f543aa9d9a4454cf5b59b1"
+last_commit_time = "2020-10-27T13:31"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 276
+branches = 204
+tag_count = 0
+commits = 12
 
 [[repo]]
 url = "https://github.com/laminar-protocol/laminar-chain"
+last_commit = "38f8323309c700c830d3822ed18e0bd381dbc506"
+last_commit_time = "2021-06-17T10:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 23
+commits = 5
+watching = 20
+branches = 247
+stars = 87
 
 [[repo]]
 url = "https://github.com/laminar-protocol/laminar-chain-apps"
+last_commit = "1b85f1a1ac98aaf89058593fd985880ddd9d6f2c"
+last_commit_time = "2020-11-03T01:22"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 0
+stars = 4
+commits = 6
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/laminar-protocol/laminar-chain.js"
+last_commit = "fc9d592ac1495ac2ad002ba6a1e0f6ca20744b0c"
+last_commit_time = "2021-08-02T09:54"
+status = "200"
+
+[repo.stats]
+forks = 4
+branches = 330
+tag_count = 0
+commits = 4
+stars = 10
+watching = 4
 
 [[repo]]
 url = "https://github.com/laminar-protocol/laminar-oracle-dispatcher"
+last_commit = "7f95109123f7fa86c257eaff923790df0f57eff1"
+last_commit_time = "2021-08-04T22:23"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 45
+forks = 0
+stars = 0
+commits = 5
+watching = 3
 
 [[repo]]
 url = "https://github.com/laminar-protocol/oracle-server"
+last_commit = "c48b9506189344eb360958233ea13ccca71ae91c"
+last_commit_time = "2020-05-04T23:43"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 49
+watching = 3
+forks = 2
+stars = 4
 
 [[repo]]
 url = "https://github.com/laminar-protocol/PSPs"
+last_commit = "efef2429dd43a41718356ff02253651a0b9d5a79"
+last_commit_time = "2019-09-30T07:29"
+status = "200"
+
+[repo.stats]
+forks = 43
+stars = 0
+tag_count = 0
+watching = 1
+branches = 7
+commits = 1
 
 [[repo]]
 url = "https://github.com/laminar-protocol/servers"
+last_commit = "7defd57f5a9f51a719ebb49aaa04cc9ae4608d7e"
+last_commit_time = "2021-05-21T08:33"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 73
+tag_count = 0
+forks = 0
+stars = 1
+commits = 4
 
 [[repo]]
 url = "https://github.com/laminar-protocol/substrate"
+last_commit = "b49b666043c61891faa3b56ce7fc4d74c40ebad8"
+last_commit_time = "2020-10-19T19:43"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 0
+forks = 0
+watching = 1
+tag_count = 0
+commits = 166
 
 [[repo]]
 url = "https://github.com/laminar-protocol/SubstrateDAO"
+last_commit = "bc5b5c93508e8d9a6b6e7d911ef731accf2b4e95"
+last_commit_time = "2019-09-27T08:44"
+status = "200"
+
+[repo.stats]
+forks = 4
+watching = 1
+tag_count = 0
+commits = 3
+stars = 1
+branches = 14
 
 [[repo]]
 url = "https://github.com/laminar-protocol/Web3-collaboration"
+last_commit = "0c763bc1f5eb3649a5087123e2249f8e518e5dea"
+last_commit_time = "2019-10-09T00:00"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 209
+stars = 0
+commits = 4
+tag_count = 0
+forks = 521

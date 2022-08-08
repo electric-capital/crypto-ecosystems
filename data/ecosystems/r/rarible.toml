@@ -1,244 +1,1072 @@
-# Ecosystem Level Information
 title = "Rarible"
-
+toml_path = "data/ecosystems/r/rarible.toml"
+github_organizations = ["https://github.com/rarible"]
 sub_ecosystems = ["dArtFlex"]
 
-github_organizations = ["https://github.com/rarible"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/rarible/aptos-openapi"
+last_commit = "5ccb99e41ae209325b3dcd1b73c158bb4149f86d"
+last_commit_time = "2022-06-07T06:52"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 5
+commits = 1
+watching = 6
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/rarible/assets"
+last_commit = "4d127d71533843b4fa6b1880caef4ceedb1d437e"
+last_commit_time = "2020-07-18T19:15"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 15
+stars = 1
+watching = 1
+branches = 0
 
 [[repo]]
 url = "https://github.com/rarible/balancer-gov"
+last_commit = "ea44a38e8685fe226b7b3ab44452d7f83838ab50"
+last_commit_time = "2020-08-24T13:14"
+status = "200"
+
+[repo.stats]
+forks = 146
+branches = 89
+tag_count = 0
+watching = 1
+stars = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/rarible/biconomy"
+last_commit = "8f37ee288281537bd12f72f787ae0efa90e3d2e4"
+last_commit_time = "2022-05-25T09:19"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 1
+branches = 3
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/blockchain-entity-reducer"
+last_commit = "0a2b349a755a9cc6dcf194323ad69d71b07048ab"
+last_commit_time = "2021-12-06T17:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+branches = 5
+forks = 0
+stars = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/rarible/blockchain-scanner"
+last_commit = "2b27d93fc1e106d580ccc95746824259837d1e82"
+last_commit_time = "2022-02-17T15:08"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 9
+forks = 6
+commits = 8
+branches = 131
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/client-codegen"
+last_commit = "20cbca55f182d8c2aad8e929f03b6e2dc0a4cba1"
+last_commit_time = "2021-11-30T09:04"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+commits = 5
+watching = 10
+branches = 25
+forks = 1
 
 [[repo]]
 url = "https://github.com/rarible/collection-features"
+last_commit = "809419dc39969516945a8767687ad8232190efd6"
+last_commit_time = "2022-05-13T15:45"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+tag_count = 0
+watching = 1
+forks = 0
+branches = 3
 
 [[repo]]
 url = "https://github.com/rarible/contracts-registry"
+last_commit = "511761e554af8508b41d5c959d514e628603df83"
+last_commit_time = "2022-04-27T13:31"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 4
+tag_count = 0
+branches = 6
+commits = 1
 
 [[repo]]
 url = "https://github.com/rarible/currency-openapi"
+last_commit = "448848cf56fc1a96c4a88052aea1bd577a06813e"
+last_commit_time = "2022-07-27T13:39"
+status = "200"
+
+[repo.stats]
+watching = 8
+forks = 1
+tag_count = 0
+branches = 32
+stars = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/rarible/currency-service"
+last_commit = "251b17675d264c5cfe16916170b1464054910508"
+last_commit_time = "2022-07-28T06:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 1
+stars = 0
+branches = 224
+watching = 7
 
 [[repo]]
 url = "https://github.com/rarible/ethereum-contracts"
+last_commit = "cca1185d47c480af93332e679b6858ba6075a1c2"
+last_commit_time = "2022-08-04T06:13"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 44
+tag_count = 0
+commits = 3
+watching = 6
+stars = 0
 
 [[repo]]
 url = "https://github.com/rarible/ethereum-core"
+last_commit = "b0523e70dc69efd2635044b25616708fb8f9d85e"
+last_commit_time = "2022-07-12T08:39"
+status = "200"
+
+[repo.stats]
+forks = 7
+commits = 5
+stars = 4
+tag_count = 0
+watching = 9
+branches = 219
 
 [[repo]]
 url = "https://github.com/rarible/ethereum-e2e-tests"
+last_commit = "8483cacdd1b8daa61c6b81295301fd7fb1f3f99c"
+last_commit_time = "2022-02-14T06:20"
+status = "200"
+
+[repo.stats]
+watching = 9
+tag_count = 0
+stars = 2
+forks = 5
+branches = 57
+commits = 12
 
 [[repo]]
 url = "https://github.com/rarible/ethereum-example"
+last_commit = "6211a5779c59d806d7471decb830049d971538ec"
+last_commit_time = "2021-12-27T06:49"
+status = "200"
+
+[repo.stats]
+commits = 5
+tag_count = 0
+watching = 5
+forks = 22
+stars = 29
+branches = 33
 
 [[repo]]
 url = "https://github.com/rarible/ethereum-indexer"
+status = "200"
+
+[repo.stats]
+stars = 91
+tag_count = 0
+branches = 0
+commits = 8
+watching = 14
+forks = 34
 
 [[repo]]
 url = "https://github.com/rarible/ethereum-openapi"
+last_commit = "c2f79b563434cba6a3629e1051d0a1dc15b47194"
+last_commit_time = "2022-08-02T16:48"
+status = "200"
+
+[repo.stats]
+stars = 6
+branches = 216
+commits = 6
+watching = 8
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/ethereum-sdk"
+last_commit = "562b0ce37fbec7b9fc66809f96e7a84d144e6b5b"
+last_commit_time = "2022-08-04T11:21"
+status = "200"
+
+[repo.stats]
+forks = 26
+stars = 49
+tag_count = 0
+commits = 15
+watching = 14
+branches = 710
 
 [[repo]]
 url = "https://github.com/rarible/example"
+last_commit = "3c0bdbbdb1322ea154bf393fe572b46982540fb1"
+last_commit_time = "2022-05-30T09:45"
+status = "200"
+
+[repo.stats]
+stars = 19
+commits = 9
+watching = 11
+forks = 14
+branches = 42
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/flow-contracts"
+last_commit = "4e67ab2069553cc316d80254254e0912a576ac79"
+last_commit_time = "2022-07-15T06:33"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+watching = 5
+commits = 4
+stars = 7
+branches = 140
 
 [[repo]]
 url = "https://github.com/rarible/flow-jvm-sdk"
+last_commit = "bbb0c541a4b78588d9edcc0c68831790776f89b6"
+last_commit_time = "2022-06-16T09:14"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 1
+forks = 18
+branches = 232
+commits = 4
 
 [[repo]]
 url = "https://github.com/rarible/flow-nft-indexer"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 8
+watching = 7
+commits = 8
+forks = 3
+branches = 0
 
 [[repo]]
 url = "https://github.com/rarible/flow-protocol-api"
+last_commit = "a95a63f458e833688f386fb5ff08fa6f01a43a8d"
+last_commit_time = "2022-07-19T11:06"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 224
+watching = 7
+commits = 6
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/rarible/flow-sdk"
+last_commit = "e49cff7886c2ace2a2b40bbf9a3dff5f11c46434"
+last_commit_time = "2022-08-04T14:33"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 4
+tag_count = 0
+branches = 369
+commits = 11
+forks = 1
 
 [[repo]]
 url = "https://github.com/rarible/gen-art-tool-contracts"
+last_commit = "7ab9f3849c58d0101f3f65dd95695bbfdf904c36"
+last_commit_time = "2022-06-02T09:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 25
+stars = 2
+forks = 0
+commits = 2
+watching = 6
 
 [[repo]]
 url = "https://github.com/rarible/immutable-x-sdk"
+last_commit = "c16373eaeab63dedc7373478a2e11b165d141bb9"
+last_commit_time = "2022-05-19T07:51"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 45
+commits = 13
+tag_count = 0
+stars = 2
+watching = 4
 
 [[repo]]
 url = "https://github.com/rarible/landing-pages"
+last_commit = "f6c4b3f5c28c84014be348c5076eedbf7a5fb183"
+last_commit_time = "2022-06-22T18:53"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+stars = 1
+branches = 1
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/legacy-rarible-backend"
+last_commit = "10ff7ea97a2bde9e94b1feb452e100fda1cf658c"
+last_commit_time = "2022-04-20T14:30"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 2
+stars = 1
+branches = 0
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/marketplace-mobile-doc"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+forks = 0
+tag_count = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/rarible/metaplex"
+last_commit = "d52e6a3da7e5446e6befd4d428454a6e55ea1930"
+last_commit_time = "2022-03-16T10:14"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 0
+branches = 0
+watching = 0
+tag_count = 0
+commits = 12
 
 [[repo]]
 url = "https://github.com/rarible/metaplex-program-library"
+last_commit = "cc2329d80c9aaf6eed95c8fdea78ac342fb6c32d"
+last_commit_time = "2022-04-07T21:41"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 190
+forks = 332
+stars = 0
+commits = 20
+watching = 0
 
 [[repo]]
 url = "https://github.com/rarible/model-generator"
+last_commit = "31223e6ef256c8243aba60c7e95037ae0a463122"
+last_commit_time = "2022-01-26T07:38"
+status = "200"
+
+[repo.stats]
+watching = 9
+tag_count = 0
+forks = 1
+branches = 115
+commits = 5
+stars = 5
 
 [[repo]]
 url = "https://github.com/rarible/mystery-box-tool-contracts"
+last_commit = "36891afc0bc47ba947b9a2a5b798e85d726ab497"
+last_commit_time = "2021-12-15T08:54"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 2
+commits = 2
+stars = 1
+branches = 1
 
 [[repo]]
 url = "https://github.com/rarible/nft-license"
+status = "200"
+
+[repo.stats]
+branches = 45
+commits = 1
+forks = 11
+stars = 28
+watching = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/opensea-client"
+last_commit = "78ffad9507cf9112a9c0c51fbf6ab26f39333596"
+last_commit_time = "2022-07-15T04:04"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 63
+watching = 8
+tag_count = 0
+stars = 4
+commits = 2
 
 [[repo]]
 url = "https://github.com/rarible/order-checker"
+last_commit = "2fcd84e88feea4244a69b9b933faa96cce570360"
+last_commit_time = "2022-01-18T17:01"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 6
+watching = 9
+forks = 4
+tag_count = 0
+branches = 29
 
 [[repo]]
 url = "https://github.com/rarible/order-manager"
+last_commit = "2fcd84e88feea4244a69b9b933faa96cce570360"
+last_commit_time = "2022-01-18T17:01"
+status = "200"
+
+[repo.stats]
+watching = 9
+tag_count = 0
+commits = 3
+stars = 6
+branches = 29
+forks = 4
 
 [[repo]]
 url = "https://github.com/rarible/parent-pom"
+last_commit = "179d9dfc3e50115c8c2dfc18a893637efe9862b3"
+last_commit_time = "2022-01-26T07:36"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 11
+tag_count = 0
+branches = 78
+stars = 0
+commits = 8
 
 [[repo]]
 url = "https://github.com/rarible/protocol"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 377
+commits = 7
+forks = 25
+stars = 44
+watching = 17
 
 [[repo]]
 url = "https://github.com/rarible/protocol-contracts"
+status = "200"
+
+[repo.stats]
+stars = 332
+tag_count = 0
+branches = 0
+watching = 14
+commits = 48
+forks = 207
 
 [[repo]]
 url = "https://github.com/rarible/protocol-documentation"
+last_commit = "30e9482828ae18006aedf28020616bd43fda6b8e"
+last_commit_time = "2021-10-19T18:04"
+status = "200"
+
+[repo.stats]
+branches = 54
+commits = 4
+forks = 9
+tag_count = 0
+watching = 3
+stars = 9
 
 [[repo]]
 url = "https://github.com/rarible/protocol-e2e-tests"
+last_commit = "8483cacdd1b8daa61c6b81295301fd7fb1f3f99c"
+last_commit_time = "2022-02-14T06:20"
+status = "200"
+
+[repo.stats]
+commits = 12
+stars = 2
+forks = 5
+watching = 9
+branches = 57
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/protocol-ethereum-sdk"
+last_commit = "562b0ce37fbec7b9fc66809f96e7a84d144e6b5b"
+last_commit_time = "2022-08-04T11:21"
+status = "200"
+
+[repo.stats]
+commits = 15
+watching = 14
+forks = 26
+branches = 710
+stars = 49
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/protocol-example"
+last_commit = "6211a5779c59d806d7471decb830049d971538ec"
+last_commit_time = "2021-12-27T06:49"
+status = "200"
+
+[repo.stats]
+forks = 22
+branches = 33
+commits = 5
+tag_count = 0
+stars = 29
+watching = 5
 
 [[repo]]
 url = "https://github.com/rarible/public-assets"
+last_commit = "90bb11b06f9d361abcfd64a8b7faf2013a71d658"
+last_commit_time = "2022-07-26T12:54"
+status = "200"
+
+[repo.stats]
+branches = 33
+stars = 4
+forks = 1
+watching = 11
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/rarible/rari-dash"
+status = "200"
+
+[repo.stats]
+commits = 0
+forks = 0
+tag_count = 0
+stars = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/rarible/rarible-docs"
+last_commit = "8a9e8ef110fc443c49d531923575c96626f99335"
+last_commit_time = "2021-02-03T09:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+branches = 4
+stars = 6
+watching = 3
+forks = 4
 
 [[repo]]
 url = "https://github.com/rarible/rarible-links"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 0
+commits = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/rarible/rarible-static"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 0
+watching = 0
+tag_count = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/rarible/rarible-web-faq"
+last_commit = "4f43e2369e7afd53dda89eaae42ccb1dfd7df83f"
+last_commit_time = "2022-07-08T10:55"
+status = "200"
+
+[repo.stats]
+branches = 15
+tag_count = 0
+commits = 2
+forks = 1
+stars = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/rarible/royalties-indexer"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+commits = 0
+watching = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/sale-fees"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 0
+tag_count = 0
+watching = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/rarible/scala-rpc"
+last_commit = "c16ece5d1a7c1603629bcfb5c458dde5f151e310"
+last_commit_time = "2022-01-26T07:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 1
+forks = 1
+branches = 10
+watching = 9
 
 [[repo]]
 url = "https://github.com/rarible/scalether-maven-plugin"
+last_commit = "9ae44495a7a7933b79bba76363b558e844d8ab81"
+last_commit_time = "2022-01-26T07:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 2
+watching = 10
+stars = 0
+branches = 12
 
 [[repo]]
 url = "https://github.com/rarible/sdk"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 15
+stars = 59
+forks = 24
+branches = 835
+commits = 115
 
 [[repo]]
 url = "https://github.com/rarible/sdk-react"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+forks = 0
+stars = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/rarible/server-codegen"
+last_commit = "f1513138d57e176c11c8be990023687e6765c657"
+last_commit_time = "2022-07-01T10:03"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 18
+watching = 10
+commits = 2
+tag_count = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/rarible/service-core"
+last_commit = "958036a905c9d666c65f2674d115c47f32411401"
+last_commit_time = "2022-08-04T11:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+watching = 11
+stars = 7
+branches = 478
+forks = 4
 
 [[repo]]
 url = "https://github.com/rarible/solana-indexer"
+last_commit = "beecc186d6e3e805132cfce46055249e888a6676"
+last_commit_time = "2022-08-04T10:39"
+status = "200"
+
+[repo.stats]
+watching = 7
+tag_count = 0
+forks = 6
+branches = 673
+commits = 12
+stars = 11
 
 [[repo]]
 url = "https://github.com/rarible/solana-openapi"
+last_commit = "7eb77cdc9e72a116f3469d188f11b3238ab84148"
+last_commit_time = "2022-07-22T06:14"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 0
+branches = 91
+watching = 8
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/rarible/solana-sdk"
+status = "404"
+
+[repo.stats]
+forks = 0
+watching = 0
+tag_count = 0
+branches = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/rarible/subgraph"
+last_commit = "b7d5b1a3f8ece2f6272e30e2c5d5382e6206ff63"
+last_commit_time = "2022-01-26T07:38"
+status = "200"
+
+[repo.stats]
+forks = 15
+tag_count = 0
+stars = 14
+branches = 14
+watching = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/rarible/test"
+status = "200"
+
+[repo.stats]
+watching = 0
+commits = 0
+tag_count = 0
+branches = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/rarible/tezos-api"
+last_commit = "2e8d0d65c68f8b4e1b2c01615c2afe17e11fce54"
+last_commit_time = "2022-08-04T08:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 6
+branches = 145
+stars = 2
+watching = 9
+forks = 2
 
 [[repo]]
 url = "https://github.com/rarible/tezos-api-client"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+branches = 0
+forks = 0
+commits = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/tezos-indexer"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+commits = 0
+forks = 0
+stars = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/rarible/tezos-k8s"
+last_commit = "75f5de5b25b863e4a8a5d1b4ba8330e7df8d3b78"
+last_commit_time = "2022-04-05T09:12"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 33
+tag_count = 0
+branches = 605
+watching = 0
+forks = 16
 
 [[repo]]
 url = "https://github.com/rarible/tezos-marketplace-indexer"
+status = "200"
+
+[repo.stats]
+commits = 5
+branches = 137
+watching = 5
+forks = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/tezos-network-marketplaces-setup"
+last_commit = "e1f5dc391a90ca0f64fc4067a40cb134aab8c3b0"
+last_commit_time = "2022-06-21T13:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+stars = 0
+branches = 4
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/rarible/tezos-openapi"
+last_commit = "82bdebf8c640b7c9429b1e01ac5ffa696e1af7c0"
+last_commit_time = "2022-05-12T06:37"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 9
+branches = 50
+tag_count = 0
+commits = 2
+forks = 1
 
 [[repo]]
 url = "https://github.com/rarible/tezos-protocol-contracts"
+status = "200"
+
+[repo.stats]
+branches = 145
+tag_count = 0
+forks = 5
+commits = 3
+stars = 5
+watching = 5
 
 [[repo]]
 url = "https://github.com/rarible/tezos-sdk"
+last_commit = "7d9be205435964fefb81b51238ee08cd58c4e2d2"
+last_commit_time = "2022-07-29T18:11"
+status = "200"
+
+[repo.stats]
+branches = 159
+tag_count = 0
+forks = 2
+commits = 6
+stars = 1
+watching = 6
 
 [[repo]]
 url = "https://github.com/rarible/trezor-provider"
+last_commit = "5a1ddbec84b9cf95834792d29ea3f26fcdfd452c"
+last_commit_time = "2022-04-17T06:36"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 2
+tag_count = 0
+branches = 15
+forks = 1
+commits = 2
 
 [[repo]]
 url = "https://github.com/rarible/ts-common"
+last_commit = "3d5b61601d9e766d54990d211dd482fd607b26fc"
+last_commit_time = "2022-07-28T14:28"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 219
+tag_count = 0
+commits = 11
+watching = 13
 
 [[repo]]
 url = "https://github.com/rarible/union-openapi"
+last_commit = "4fb5ed871d22924a920fa3260326b020345a168d"
+last_commit_time = "2022-08-03T09:56"
+status = "200"
+
+[repo.stats]
+branches = 310
+watching = 9
+tag_count = 0
+forks = 1
+commits = 13
+stars = 2
 
 [[repo]]
 url = "https://github.com/rarible/union-service"
+last_commit = "aa03ac1f31bb275bb01385d7dd36df24113055d3"
+last_commit_time = "2022-08-04T09:22"
+status = "200"
+
+[repo.stats]
+stars = 3
+commits = 14
+tag_count = 0
+watching = 10
+forks = 4
+branches = 0
 
 [[repo]]
 url = "https://github.com/rarible/WalletConnectSwift"
+last_commit = "cf803c7f3a4000caeef7bb99397daba8f6bdafc2"
+last_commit_time = "2021-10-11T23:30"
+status = "200"
+
+[repo.stats]
+stars = 1
+branches = 207
+forks = 113
+watching = 0
+commits = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/rarible/x2y2-client"
+last_commit = "576ae220a690c34330f8ce86713107e0159dcc94"
+last_commit_time = "2022-08-01T03:43"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 0
+branches = 10
+watching = 6
+commits = 1
 
 [[repo]]
 url = "https://github.com/rarible/xtz-wrapper"
+last_commit = "095037e17f83163f06b59ccf29dd2c9a940a69e0"
+last_commit_time = "2022-02-08T17:03"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 4
+tag_count = 0
+branches = 10
+stars = 0
+forks = 1

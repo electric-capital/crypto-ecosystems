@@ -1,367 +1,1646 @@
-# Ecosystem Level Information
 title = "Tellor"
-
+toml_path = "data/ecosystems/t/tellor.toml"
+github_organizations = ["https://github.com/tellor-io"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/tellor-io"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/tellor-io/ADOMedianizer"
+last_commit = "f04993fdbe8a86c7ed3b828a079000953970a6e9"
+last_commit_time = "2020-04-17T17:23"
+status = "200"
+
+[repo.stats]
+branches = 20
+commits = 4
+forks = 1
+stars = 0
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/tellor-io/airflow"
+last_commit = "f6373abe4ded3f15beeb8ad90adfc21c834c1e81"
+last_commit_time = "2021-08-27T13:10"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 2
+watching = 1
+branches = 6
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/albumDrop"
+last_commit = "30c9dafdcbabba9e3f06daa050e26d5f32f2506a"
+last_commit_time = "2022-02-22T18:55"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+branches = 13
+commits = 1
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/algorandTellor"
+last_commit = "72a09051a812107bb30965ff6bd4e03e9f636eca"
+last_commit_time = "2022-03-07T15:12"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 1
+tag_count = 0
+commits = 2
+stars = 1
+branches = 92
 
 [[repo]]
 url = "https://github.com/tellor-io/algorandTellorV2"
+last_commit = "0737bd04f5e8285821fc141b5a986985abef9a97"
+last_commit_time = "2022-06-24T13:50"
+status = "200"
+
+[repo.stats]
+forks = 4
+stars = 2
+tag_count = 0
+commits = 19
+branches = 258
+watching = 3
 
 [[repo]]
 url = "https://github.com/tellor-io/api"
+last_commit = "fcdb9200026e6d58166a2cb26363dc4e170f47b9"
+last_commit_time = "2022-08-03T13:41"
+status = "200"
+
+[repo.stats]
+watching = 6
+forks = 5
+commits = 2
+stars = 6
+branches = 83
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/autoPay"
+last_commit = "79d15ec7e6fe1b313ea96cb6c3fd570ff3385519"
+last_commit_time = "2022-04-20T13:26"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 3
+forks = 3
+tag_count = 0
+branches = 92
+commits = 4
 
 [[repo]]
 url = "https://github.com/tellor-io/bounties"
+last_commit = "e0a5acadeb0ba49922a20c07437821a3c771f148"
+last_commit_time = "2021-07-25T20:50"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 3
+branches = 26
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/chorus"
+last_commit = "7930156b3fd34444b1227d40f779b7a735b27fe5"
+last_commit_time = "2021-06-10T17:39"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 4
+branches = 209
+forks = 5
+tag_count = 0
+commits = 10
 
 [[repo]]
 url = "https://github.com/tellor-io/chorus-web"
+last_commit = "5d7d434b90df4addb74a00d3f313dc65b40d9a5c"
+last_commit_time = "2021-01-26T08:42"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 0
+forks = 0
+tag_count = 0
+branches = 14
+commits = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/Community-Currency"
+last_commit = "7930156b3fd34444b1227d40f779b7a735b27fe5"
+last_commit_time = "2021-06-10T17:39"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 4
+branches = 209
+forks = 5
+commits = 10
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/comparisons"
+last_commit = "bf05caa5e3cd08f57790b3382dd7d76a81594cf6"
+last_commit_time = "2021-09-21T21:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 1
+stars = 0
+branches = 4
+watching = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/dataFeed"
+last_commit = "eefebea5a7dc4b511b435c061f458913cc06b63f"
+last_commit_time = "2022-08-02T16:33"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 58
+watching = 1
+tag_count = 0
+commits = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/dataSpecs"
+last_commit = "0f45ad8a5a0c9790f6ef8d6277c8820b1fc8e0f1"
+last_commit_time = "2022-07-22T15:39"
+status = "200"
+
+[repo.stats]
+commits = 4
+stars = 8
+branches = 212
+forks = 4
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/DataTools"
+last_commit = "9906b4df3d2aa3a55b6419f9fc609a3cd510a612"
+last_commit_time = "2021-03-15T16:04"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 2
+forks = 0
+commits = 2
+branches = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/disputable-values-monitor"
+last_commit = "166d8811b92bb2af03f7c286be6cf7ed26914c84"
+last_commit_time = "2022-03-25T17:31"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+forks = 0
+watching = 3
+stars = 0
+branches = 113
 
 [[repo]]
 url = "https://github.com/tellor-io/disputeCenter"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+stars = 0
+branches = 0
+forks = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/diva-integration"
+last_commit = "69a9c0efbabfcf909b6a7ebeff9bda9b970e43e2"
+last_commit_time = "2022-03-15T13:40"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+watching = 1
+commits = 1
+branches = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/DuneAnalytics"
+last_commit = "de559ea0393e02ef5bd3bd0f02b2273a77a05731"
+last_commit_time = "2021-06-04T11:18"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 3
+tag_count = 0
+watching = 2
+stars = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/EIP-2362"
+last_commit = "ad3693afab9b904eedfd1500fb8afa1e60541789"
+last_commit_time = "2020-04-22T14:44"
+status = "200"
+
+[repo.stats]
+stars = 5
+forks = 2
+watching = 4
+branches = 28
+commits = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/EIPs"
+status = "404"
+
+[repo.stats]
+commits = 0
+tag_count = 0
+forks = 0
+stars = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/eth-node"
+last_commit = "570b0c3c0cd69347823e28afad3e8a389898043e"
+last_commit_time = "2021-06-14T10:59"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+branches = 14
+commits = 1
+watching = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/ethhub"
+status = "404"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+stars = 0
+commits = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/fellowship"
+last_commit = "2456f6fd22b864f8b5318470b48823fbd6ab1c1f"
+last_commit_time = "2021-04-22T15:54"
+status = "200"
+
+[repo.stats]
+branches = 99
+tag_count = 0
+watching = 5
+stars = 2
+forks = 1
+commits = 4
 
 [[repo]]
 url = "https://github.com/tellor-io/fellowshipscan"
+last_commit = "14a5d63fa3bd489759b6a09b748744ce8231c00e"
+last_commit_time = "2021-08-27T15:47"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 24
+stars = 1
+watching = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/filecoin-query-insurance-impl"
+last_commit = "bc4dc5ee2388f69b37da0d230952615691e1a9e5"
+last_commit_time = "2022-05-17T13:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+branches = 4
+watching = 1
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/frontendBoilerplate"
+last_commit = "7caa86e0f89c1b30ebfd05fd24d68571332db4ab"
+last_commit_time = "2022-04-29T05:17"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 59
+forks = 0
+tag_count = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/fundAFeed"
+last_commit = "a6f2ff2429f1d8e86ecbc9d6151f7dfb9d12b1bd"
+last_commit_time = "2022-06-28T17:44"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 1
+commits = 1
+tag_count = 0
+branches = 38
+forks = 2
 
 [[repo]]
 url = "https://github.com/tellor-io/governance"
+last_commit = "9f34bcb26062da7251984847bc1e02ab5bdee14e"
+last_commit_time = "2022-07-21T18:38"
+status = "200"
+
+[repo.stats]
+branches = 39
+commits = 2
+forks = 2
+stars = 2
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/lens"
+last_commit = "065837d291547de3325c79d90a065f6fc5926962"
+last_commit_time = "2022-01-18T17:03"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 49
+tag_count = 0
+commits = 6
+forks = 2
+stars = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/migrator"
+last_commit = "87013bbf842a409d7c5ef299ed0a3961b5bd721b"
+last_commit_time = "2021-03-05T20:26"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+commits = 9
+stars = 0
+branches = 58
+watching = 5
 
 [[repo]]
 url = "https://github.com/tellor-io/monitor"
+last_commit = "d6ec0b1dacd7feb7cf38e1001663ab0881c2e640"
+last_commit_time = "2022-07-22T15:38"
+status = "200"
+
+[repo.stats]
+branches = 76
+watching = 1
+commits = 5
+stars = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/open-oracle"
+last_commit = "16b0026551acc2f922528af4053f6670e3d2e620"
+last_commit_time = "2019-11-07T15:17"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 10
+tag_count = 0
+watching = 1
+forks = 104
+branches = 81
 
 [[repo]]
 url = "https://github.com/tellor-io/openOracle"
+status = "404"
+
+[repo.stats]
+stars = 0
+branches = 0
+watching = 0
+tag_count = 0
+forks = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/OperatingGrant"
+last_commit = "d4d459888659fd061511131c36309d5bd18d4dc7"
+last_commit_time = "2021-11-02T18:41"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 12
+forks = 0
+tag_count = 0
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/optimisticTellor"
+last_commit = "a522b635b028fe5634b3f2dba4f2d353a95180b8"
+last_commit_time = "2020-12-16T17:33"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 2
+stars = 1
+tag_count = 0
+commits = 3
+branches = 90
 
 [[repo]]
 url = "https://github.com/tellor-io/oracle-diffs"
+last_commit = "43d5760324d9b5b176b7e51b1422f0083ca4aefb"
+last_commit_time = "2021-08-25T15:43"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 0
+tag_count = 0
+branches = 77
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/oracles.club"
+status = "404"
+
+[repo.stats]
+commits = 0
+stars = 0
+watching = 0
+forks = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/oracles.club.server"
+status = "404"
+
+[repo.stats]
+commits = 0
+stars = 0
+tag_count = 0
+forks = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/parachute"
+last_commit = "3dbb6f4467b6152cf8b9c3cdafb2c337b4c9a8bc"
+last_commit_time = "2021-08-10T13:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+commits = 7
+stars = 0
+branches = 47
+forks = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/pm-contracts"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+watching = 0
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/polygonGovernance"
+last_commit = "9f34bcb26062da7251984847bc1e02ab5bdee14e"
+last_commit_time = "2022-07-21T18:38"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 39
+watching = 1
+stars = 2
+commits = 2
+forks = 2
 
 [[repo]]
 url = "https://github.com/tellor-io/priceView"
+last_commit = "33d22f4498d0f6060c7894bc69fb71b5e3a53646"
+last_commit_time = "2021-02-04T17:36"
+status = "200"
+
+[repo.stats]
+branches = 81
+forks = 3
+watching = 5
+tag_count = 0
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/projects"
+status = "404"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+commits = 0
+branches = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/protocol"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+tag_count = 0
+commits = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/PySigner"
+last_commit = "0c23356239cd87550ab37fc17db8d1dceb765713"
+last_commit_time = "2022-02-23T15:57"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 15
+forks = 3
+watching = 1
+branches = 218
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/pytelliot"
+last_commit = "53bd3f9fec7b4c5514abed95fa77e81209586ea5"
+last_commit_time = "2022-08-04T14:17"
+status = "200"
+
+[repo.stats]
+forks = 9
+branches = 0
+commits = 3
+tag_count = 0
+watching = 4
+stars = 13
 
 [[repo]]
 url = "https://github.com/tellor-io/queryIdBuilder"
+last_commit = "d7781ab21c18f0e2830c22d2ea8b5916ef64025a"
+last_commit_time = "2022-06-01T16:59"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 3
+branches = 53
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/saleContract"
+last_commit = "6521565d261da29107c84803be8b28771d1a3e30"
+last_commit_time = "2019-09-02T15:46"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 16
+stars = 0
+watching = 3
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/sampleReporterFailContract"
+last_commit = "02b2ca844423c9e950a8472c9783e2fef5b558d2"
+last_commit_time = "2022-05-09T14:48"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 2
+tag_count = 0
+watching = 1
+forks = 1
+branches = 14
 
 [[repo]]
 url = "https://github.com/tellor-io/sampleTellorRNG"
+last_commit = "7b166949847d66146fbf346bb810f658b111e22c"
+last_commit_time = "2022-05-10T19:33"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 1
+tag_count = 0
+commits = 1
+branches = 5
 
 [[repo]]
 url = "https://github.com/tellor-io/sampleUsingAlgorandTellor"
+last_commit = "42c15b2a570bea27f8ac1246c4d1640b53303d80"
+last_commit_time = "2022-03-07T15:14"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 13
+forks = 0
+commits = 3
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/sampleUsingTellor"
+last_commit = "ca60574662f5ee4352b2de9a71ec0ff8a9d11814"
+last_commit_time = "2022-06-13T18:48"
+status = "200"
+
+[repo.stats]
+stars = 9
+forks = 9
+tag_count = 0
+branches = 75
+watching = 4
+commits = 5
 
 [[repo]]
 url = "https://github.com/tellor-io/serviceContract"
+last_commit = "afd33d36b7ed85da8b509c3309d9c5c6debbf778"
+last_commit_time = "2022-01-31T16:57"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 2
+branches = 1
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/snapshot-zodiac-module"
+last_commit = "09569a8df2f9ad3152d64ddb694591201f306185"
+last_commit_time = "2022-07-15T13:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 157
+commits = 4
+stars = 3
+forks = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/tellor-io/snapshotVoting"
+last_commit = "b4d67b11d6c1701d1a01393d4d53b3a3d24a2254"
+last_commit_time = "2022-05-11T10:41"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 39
+tag_count = 0
+commits = 2
+stars = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/Solidity201"
+status = "404"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+stars = 0
+watching = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/SpaceLotto"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+stars = 0
+tag_count = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/subgraph"
+last_commit = "408440c14646c5af046af87f83cc57573804ffb4"
+last_commit_time = "2021-06-14T15:26"
+status = "200"
+
+[repo.stats]
+branches = 33
+stars = 1
+forks = 0
+commits = 8
+watching = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/tally-tipper"
+last_commit = "f7ced5f8e83eafce6f7cc565267437c5274e7e2f"
+last_commit_time = "2021-10-12T17:29"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+watching = 2
+branches = 39
+commits = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/telliot"
+last_commit = "50f30e4a50d4fffffbaf4970d977d6a43561cef4"
+last_commit_time = "2021-11-26T16:20"
+status = "200"
+
+[repo.stats]
+forks = 30
+stars = 28
+watching = 10
+branches = 0
+tag_count = 0
+commits = 12
 
 [[repo]]
 url = "https://github.com/tellor-io/telliot-core"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+branches = 0
+watching = 4
+stars = 13
+forks = 9
 
 [[repo]]
 url = "https://github.com/tellor-io/telliot-feed-examples"
+last_commit = "8a6f656722f92fea053b6bfd498911c1f676b8fe"
+last_commit_time = "2022-08-03T14:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 0
+stars = 11
+forks = 6
+watching = 4
+commits = 8
 
 [[repo]]
 url = "https://github.com/tellor-io/telliot-feeds"
+last_commit = "8a6f656722f92fea053b6bfd498911c1f676b8fe"
+last_commit_time = "2022-08-03T14:16"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 6
+tag_count = 0
+branches = 0
+commits = 8
+stars = 11
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor-autopay-matich-graph"
+last_commit = "4710bce83adee06be3be760526f15957b04acc52"
+last_commit_time = "2022-05-03T17:59"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 1
+forks = 0
+branches = 5
+watching = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor-autopay-mumbaih-graph"
+last_commit = "eb94580c20b11f6972bf2083c5768fd9178a612b"
+last_commit_time = "2022-05-03T17:59"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 1
+branches = 4
+watching = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor-data-api"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+watching = 0
+stars = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor-multis-mainh-graph"
+last_commit = "594e0ca29d72bd050340d8596b685e8237fedc64"
+last_commit_time = "2022-05-03T17:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 0
+commits = 1
+watching = 1
+branches = 5
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor-multis-matich-graph"
+last_commit = "ccc695b33c5fcdeb00a34ca807f4fb223e0a6186"
+last_commit_time = "2022-05-03T17:50"
+status = "200"
+
+[repo.stats]
+branches = 9
+tag_count = 0
+commits = 1
+stars = 0
+watching = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor-multis-mumbaih-graph"
+last_commit = "00516423b8cad0800fc8ddc642b11adda8d75ca0"
+last_commit_time = "2022-05-03T17:41"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+branches = 5
+forks = 0
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor-multis-rinkh-graph"
+last_commit = "2e3067750a910b1a488be5fe682554506d94e70f"
+last_commit_time = "2022-05-03T18:02"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 5
+tag_count = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor-treasuries-mainh-graph"
+last_commit = "f8086979e0b715af9f2cb500a5d17be3c1b2e8fb"
+last_commit_time = "2022-04-29T16:44"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+forks = 0
+stars = 0
+branches = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor-treasuries-rinkh-graph"
+last_commit = "bc97a1f45584df03d391e6f190774e8828d508dd"
+last_commit_time = "2022-05-03T18:01"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 1
+branches = 3
+tag_count = 0
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor-treasuries-roph-graph"
+last_commit = "fc0514a6d63a5af1c0247a6e90583a17879ad671"
+last_commit_time = "2022-04-29T16:50"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 3
+commits = 1
+forks = 0
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor.fund"
+last_commit = "2d3ce8689bc7fb9625c2cffe7c908827e30f9cf3"
+last_commit_time = "2020-03-11T17:52"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 0
+watching = 3
+branches = 47
+commits = 3
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor.fund_front"
+last_commit = "fd38ed94cf3b4e825b120fa7a00ebbca55cc7758"
+last_commit_time = "2020-04-08T16:01"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+stars = 0
+commits = 1
+tag_count = 0
+branches = 12
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor.ioX"
+last_commit = "6b80df4a6f110b78c51551e996ac60bc1792afad"
+last_commit_time = "2022-01-03T18:15"
+status = "200"
+
+[repo.stats]
+forks = 3
+branches = 293
+tag_count = 0
+commits = 20
+watching = 2
+stars = 3
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor3"
+last_commit = "d563af74e0f19ba6c4b59ff9d1b5f102286602d1"
+last_commit_time = "2021-08-02T14:27"
+status = "200"
+
+[repo.stats]
+commits = 8
+watching = 3
+forks = 3
+branches = 194
+tag_count = 0
+stars = 4
 
 [[repo]]
 url = "https://github.com/tellor-io/tellor360"
+last_commit = "f29c1e1a9effd4efb4074254dd92ac051cf94ddc"
+last_commit_time = "2022-07-19T16:10"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 85
+forks = 1
+stars = 1
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorAccess"
+last_commit = "033d22aa18235c183865b749b4536fdf0dfc322c"
+last_commit_time = "2021-04-16T18:52"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 1
+branches = 38
+forks = 1
+tag_count = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/tellor-io/TellorACS"
+last_commit = "fb6c443ed488fc07115edad43d8f6de87ea453b0"
+last_commit_time = "2020-08-04T21:46"
+status = "200"
+
+[repo.stats]
+branches = 81
+tag_count = 0
+forks = 1
+watching = 3
+commits = 7
+stars = 3
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorAirflow"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+watching = 0
+commits = 0
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/TellorBrandMaterials"
+last_commit = "ed8fae11fa30be1227ab0fb3a8e67788911ff413"
+last_commit_time = "2021-08-09T17:43"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 3
+branches = 23
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/TellorCore"
+last_commit = "4ab20bf3e4aea3e4946ca4eb1bbc0c0c38c5614a"
+last_commit_time = "2021-01-06T14:58"
+status = "200"
+
+[repo.stats]
+commits = 6
+tag_count = 0
+stars = 48
+branches = 510
+forks = 9
+watching = 12
 
 [[repo]]
 url = "https://github.com/tellor-io/TellorDatabase"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+commits = 0
+forks = 0
+watching = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorDisputeCenter"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+stars = 0
+tag_count = 0
+commits = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/TellorDocs"
+last_commit = "2aadd5468d055f917dd920ffb89c25da174ae38f"
+last_commit_time = "2022-06-15T13:36"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 10
+tag_count = 0
+commits = 2
+stars = 3
+branches = 252
 
 [[repo]]
 url = "https://github.com/tellor-io/TellorDocumentation"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+commits = 0
+tag_count = 0
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorFlex"
+last_commit = "f6805e6d20312bbed48b75689fcf5254b5e47ec0"
+last_commit_time = "2022-07-21T18:39"
+status = "200"
+
+[repo.stats]
+branches = 60
+tag_count = 0
+commits = 2
+stars = 8
+watching = 1
+forks = 3
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorFlex-oracle-matich-graph"
+last_commit = "e92689fb3f88d0ab6d85e5220184496defe394b8"
+last_commit_time = "2022-05-03T17:55"
+status = "200"
+
+[repo.stats]
+branches = 4
+stars = 0
+forks = 0
+watching = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorFlex-oracle-mumbaih-graph"
+last_commit = "776c83190f9807fbaef9d2244a1c00f3f0c604b2"
+last_commit_time = "2022-05-03T17:56"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+branches = 4
+commits = 1
+forks = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/TellorHarmonyDemo"
+last_commit = "2fa5ef270c1f75cd7973cc30bf3384abf25b48f8"
+last_commit_time = "2022-06-30T15:36"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 4
+commits = 1
+tag_count = 0
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/TellorLegacy"
+last_commit = "f82be6cbbe11319e4822db53ba8e368fe70560dd"
+last_commit_time = "2020-12-22T21:57"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 1
+branches = 12
+tag_count = 0
+commits = 2
+watching = 2
 
 [[repo]]
 url = "https://github.com/tellor-io/TellorMesosphere"
+last_commit = "235aee26c7ed02c8b80701eb4cb8443fe3d00831"
+last_commit_time = "2022-01-07T21:15"
+status = "200"
+
+[repo.stats]
+stars = 2
+forks = 1
+branches = 39
+tag_count = 0
+commits = 3
+watching = 2
 
 [[repo]]
 url = "https://github.com/tellor-io/TellorMiner"
+last_commit = "50f30e4a50d4fffffbaf4970d977d6a43561cef4"
+last_commit_time = "2021-11-26T16:20"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 28
+watching = 10
+forks = 30
+tag_count = 0
+commits = 12
 
 [[repo]]
 url = "https://github.com/tellor-io/tellormon"
+last_commit = "629fdd65687a16ecee6c5524b9d898150f3a72a3"
+last_commit_time = "2022-01-24T14:28"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 0
+stars = 0
+branches = 4
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/TellorPlayground"
+last_commit = "14a7c5036256dfb29b2934d8692b442e0029f05f"
+last_commit_time = "2022-07-21T18:40"
+status = "200"
+
+[repo.stats]
+forks = 5
+watching = 3
+stars = 1
+tag_count = 0
+branches = 65
+commits = 8
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorPriceView"
+last_commit = "33d22f4498d0f6060c7894bc69fb71b5e3a53646"
+last_commit_time = "2021-02-04T17:36"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 3
+branches = 81
+tag_count = 0
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorREST"
+last_commit = "fcdb9200026e6d58166a2cb26363dc4e170f47b9"
+last_commit_time = "2022-08-03T13:41"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 6
+commits = 2
+tag_count = 0
+forks = 5
+branches = 83
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorscan"
+last_commit = "af63ef910edf23158e1ab01e0fd137175282d967"
+last_commit_time = "2021-11-23T21:50"
+status = "200"
+
+[repo.stats]
+forks = 4
+tag_count = 0
+branches = 187
+commits = 9
+stars = 5
+watching = 5
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorSubgraph"
+last_commit = "408440c14646c5af046af87f83cc57573804ffb4"
+last_commit_time = "2021-06-14T15:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+commits = 8
+stars = 1
+watching = 6
+branches = 33
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorToo"
+last_commit = "a522b635b028fe5634b3f2dba4f2d353a95180b8"
+last_commit_time = "2020-12-16T17:33"
+status = "200"
+
+[repo.stats]
+watching = 5
+branches = 90
+stars = 1
+tag_count = 0
+commits = 3
+forks = 2
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorutils"
+last_commit = "7c0fe2cfc6e20662df13d7aa6c0c476773a3885c"
+last_commit_time = "2021-02-07T18:17"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+watching = 2
+branches = 63
+forks = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/TellorVoting"
+last_commit = "1b4c92e56b2452f77fea28cf7977cb2ddc157e3e"
+last_commit_time = "2020-10-12T19:22"
+status = "200"
+
+[repo.stats]
+branches = 2
+commits = 1
+stars = 0
+watching = 3
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorX"
+last_commit = "c65b130eaf9a50e64f0eda0e2b30e29de8e42ea6"
+last_commit_time = "2022-03-02T16:15"
+status = "200"
+
+[repo.stats]
+branches = 409
+commits = 2
+forks = 5
+watching = 4
+tag_count = 0
+stars = 6
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorx-oracle-mainh-graph"
+last_commit = "90dcd30846a32c56194c12825e09dbed61156753"
+last_commit_time = "2022-05-03T17:54"
+status = "200"
+
+[repo.stats]
+branches = 4
+forks = 0
+watching = 1
+tag_count = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/tellorx-oracle-rinkh-graph"
+last_commit = "368486160d7d82f40c853df773bee4a9a9affcda"
+last_commit_time = "2022-05-03T17:51"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 1
+stars = 0
+forks = 0
+branches = 4
 
 [[repo]]
 url = "https://github.com/tellor-io/tipper"
+last_commit = "4f028feb72849abb047ae4aceed7a0923815a65b"
+last_commit_time = "2021-12-02T11:34"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 106
+forks = 0
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/tipperExample"
+last_commit = "c8a6220e0c3adb9b44086601b779a2f13ce2cab8"
+last_commit_time = "2021-04-08T17:09"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 1
+watching = 2
+branches = 55
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/tipperTemplate"
+last_commit = "c8a6220e0c3adb9b44086601b779a2f13ce2cab8"
+last_commit_time = "2021-04-08T17:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+stars = 1
+watching = 2
+branches = 55
+forks = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/TIPs"
+last_commit = "5ffbe2373507db2754fc45931ca436f1bb4c6909"
+last_commit_time = "2021-11-16T16:20"
+status = "200"
+
+[repo.stats]
+commits = 6
+branches = 75
+forks = 5
+tag_count = 0
+watching = 3
+stars = 2
 
 [[repo]]
 url = "https://github.com/tellor-io/tracerModule"
+last_commit = "c3477c7982a62984367b3d4df0ff1f49d01128e4"
+last_commit_time = "2022-03-08T02:08"
+status = "200"
+
+[repo.stats]
+branches = 896
+forks = 0
+tag_count = 0
+stars = 0
+commits = 2
+watching = 2
 
 [[repo]]
 url = "https://github.com/tellor-io/treasuries"
+last_commit = "a930f0530269f8ca3c0c001558576db5f63bacf0"
+last_commit_time = "2022-05-16T17:18"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 23
+stars = 0
+watching = 1
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/treasuryFrontEnd"
+status = "404"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+branches = 0
+forks = 0
+stars = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/uniswapFallbackOracle"
+last_commit = "1f730f803f6bfe45a687bbfb839e7d0a70ecc1a2"
+last_commit_time = "2021-08-06T16:19"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+commits = 2
+branches = 28
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/usingtellor"
+last_commit = "f1c85c3da7bc60fdd0d017444df4c330a1244705"
+last_commit_time = "2022-07-21T18:25"
+status = "200"
+
+[repo.stats]
+forks = 10
+tag_count = 0
+commits = 6
+branches = 185
+stars = 15
+watching = 4
 
 [[repo]]
 url = "https://github.com/tellor-io/utils"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 0
+watching = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/tellor-io/votingModule"
+last_commit = "c75b91a07da7e7d53ad02d812dbbf90cf653b646"
+last_commit_time = "2022-05-02T15:51"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 1
+forks = 3
+watching = 2
+branches = 61
 
 [[repo]]
 url = "https://github.com/tellor-io/wallets"
+last_commit = "b4ab30d9bfe9d4a9c897675e54b38fa3472d1bd6"
+last_commit_time = "2022-06-07T21:51"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 10
+commits = 1
+tag_count = 0
+stars = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/tellor-io/website"
+last_commit = "6db4e72aceb0fa8a31e720c83f554e8421bb638c"
+last_commit_time = "2021-10-11T14:03"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 2
+commits = 7
+tag_count = 0
+branches = 36

@@ -1,85 +1,360 @@
-# Ecosystem Level Information
 title = "NFTX"
-
+toml_path = "data/ecosystems/n/nftx.toml"
+github_organizations = ["https://github.com/NFTX-project"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/NFTX-project"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/NFTX-project/accounting"
+last_commit = "ee103eb847821afa2d1f04b935ab326fe0cbf997"
+last_commit_time = "2021-09-09T20:26"
+status = "200"
+
+[repo.stats]
+branches = 5
+watching = 1
+tag_count = 0
+commits = 1
+forks = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/NFTX-project/audit-level-k"
+last_commit = "5fdf44eb375af9b1207632fa794a9f4ec48f1531"
+last_commit_time = "2020-11-30T19:59"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 1
+forks = 0
+watching = 1
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/NFTX-project/DeFi-Pulse-Adapters"
+last_commit = "4abf5e15f022f1daaeb8a0925cb311404f0c893e"
+last_commit_time = "2021-08-10T19:35"
+status = "200"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+forks = 493
+commits = 59
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/NFTX-project/eip721-subgraph-arbitrum"
+last_commit = "ae84b1980ce46acc6baea1342279b5f0a65a20b1"
+last_commit_time = "2022-06-14T09:12"
+status = "200"
+
+[repo.stats]
+branches = 2
+forks = 0
+tag_count = 0
+stars = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/NFTX-project/eip721-subgraph-rinkeby"
+last_commit = "385518ac210ad9aab9424b920352ee8bcc0711fc"
+last_commit_time = "2021-04-16T08:27"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 9
+branches = 53
+forks = 41
+watching = 1
 
 [[repo]]
 url = "https://github.com/NFTX-project/fuse-twap-bot"
+last_commit = "719acce87094c14efb2cc3208051fd8e4c618581"
+last_commit_time = "2021-04-16T03:48"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 0
+watching = 0
+forks = 12
+branches = 15
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/NFTX-project/gitbook-documentation"
+last_commit = "945d5cffda5506ff9155326c76b36bd27af8a765"
+last_commit_time = "2022-08-04T12:45"
+status = "200"
+
+[repo.stats]
+commits = 5
+branches = 146
+stars = 5
+tag_count = 0
+watching = 3
+forks = 9
 
 [[repo]]
 url = "https://github.com/NFTX-project/graphprotocol-mainnet-docker"
+last_commit = "5238642f5301c814dee2aaa6cd0ab973ce4650e3"
+last_commit_time = "2022-05-13T14:30"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+forks = 18
+branches = 173
+commits = 4
 
 [[repo]]
 url = "https://github.com/NFTX-project/nftx-assets"
+last_commit = "1f3a699da585ef38d377557b611427f3feac16de"
+last_commit_time = "2022-08-03T09:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+forks = 5
+stars = 2
+branches = 428
+commits = 3
 
 [[repo]]
 url = "https://github.com/NFTX-project/nftx-holdings-subgraph-mainnet"
+last_commit = "45b118aade9ba464befcd7e41d588160deb590d9"
+last_commit_time = "2022-07-05T07:23"
+status = "200"
+
+[repo.stats]
+branches = 30
+forks = 2
+stars = 0
+commits = 5
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/NFTX-project/nftx-protocol-v2"
+status = "200"
+
+[repo.stats]
+branches = 184
+tag_count = 0
+commits = 29
+forks = 32
+stars = 72
+watching = 8
 
 [[repo]]
 url = "https://github.com/NFTX-project/nftx-tokenlist"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 0
+commits = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/NFTX-project/nftx-v2-subgraph"
+last_commit = "425af77b6bb551d68d641870bcf36674fec87aef"
+last_commit_time = "2022-07-13T15:20"
+status = "200"
+
+[repo.stats]
+commits = 28
+watching = 13
+stars = 9
+branches = 167
+tag_count = 0
+forks = 7
 
 [[repo]]
 url = "https://github.com/NFTX-project/nftx-vault-holding-data"
+last_commit = "e6dee65d1c3a984ce8c35839f6c287bd7649be6e"
+last_commit_time = "2021-05-18T13:54"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 1
+branches = 12
+tag_count = 0
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/NFTX-project/nftxjs"
+last_commit = "952ffc3a1a3237fab0cc2635ddb095e646e568a6"
+last_commit_time = "2022-03-28T18:38"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+forks = 0
+stars = 0
+watching = 4
+branches = 1
 
 [[repo]]
 url = "https://github.com/NFTX-project/punkfund-contracts"
+last_commit = "9508639bf7ca71b7b3ed4da4980a96ef1aade5b3"
+last_commit_time = "2020-09-20T04:00"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 3
+commits = 1
+forks = 3
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/NFTX-project/sp-nftx-gallery"
+last_commit = "ef3e5e9d0c06d4722080960c8e35ee4cf7426f92"
+last_commit_time = "2021-08-18T10:49"
+status = "200"
+
+[repo.stats]
+forks = 14
+watching = 7
+commits = 30
+stars = 21
+branches = 91
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/NFTX-project/tac-frontend"
+last_commit = "bd5139daa8c8979d9e46eecaa19dada9bafba8d7"
+last_commit_time = "2020-11-16T18:16"
+status = "200"
+
+[repo.stats]
+stars = 2
+commits = 1
+watching = 1
+tag_count = 0
+branches = 1
+forks = 3
 
 [[repo]]
 url = "https://github.com/NFTX-project/wagmi"
+last_commit = "60ac29c6e86aa13d3372e51ff9d041592c1b4827"
+last_commit_time = "2022-02-23T02:40"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+branches = 200
+commits = 3
+forks = 257
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/NFTX-project/x-backend"
+last_commit = "f9af4f949603d5ea426d57e71fcd4b6fb478845d"
+last_commit_time = "2021-01-18T04:33"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 6
+watching = 3
+branches = 12
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/NFTX-project/x-bounties"
+last_commit = "f74657e0d280980b2e0809643881cf9ffc56b85d"
+last_commit_time = "2020-12-21T02:42"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+forks = 3
+stars = 2
+branches = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/NFTX-project/x-contracts"
+status = "200"
+
+[repo.stats]
+stars = 31
+forks = 20
+branches = 3
+commits = 2
+tag_count = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/NFTX-project/x-contracts-private"
+last_commit = "54e0872c92ded51e32648ca74f18982e9e2d16c7"
+last_commit_time = "2021-07-31T17:36"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 4
+tag_count = 0
+commits = 1
+watching = 1
+branches = 139
 
 [[repo]]
 url = "https://github.com/NFTX-project/x-files"
+last_commit = "3d4f603eece3086649e0010504edc784afc9a48e"
+last_commit_time = "2020-11-16T18:21"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+watching = 1
+commits = 1
+branches = 8
+stars = 3
 
 [[repo]]
 url = "https://github.com/NFTX-project/x-frontend"
+status = "200"
+
+[repo.stats]
+forks = 25
+tag_count = 0
+stars = 26
+watching = 3
+branches = 173
+commits = 5
 
 [[repo]]
 url = "https://github.com/NFTX-project/xvault-contracts"
+last_commit = "93694a1b13b610c5417cd837a011b87b1c316e79"
+last_commit_time = "2020-10-06T20:26"
+status = "200"
+
+[repo.stats]
+branches = 12
+tag_count = 0
+stars = 0
+commits = 1
+watching = 1
+forks = 2

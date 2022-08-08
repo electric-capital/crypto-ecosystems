@@ -1,109 +1,476 @@
-# Ecosystem Level Information
 title = "EpiK Protocol"
-
+toml_path = "data/ecosystems/e/epik-protocol.toml"
+github_organizations = ["https://github.com/EpiK-Protocol"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/EpiK-Protocol"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/EpiK-Protocol/3amowl_samples"
+last_commit = "dd1f8d182e99cc182dd61e67dfa0e1f21245313e"
+last_commit_time = "2022-04-02T04:41"
+status = "200"
+
+[repo.stats]
+branches = 3
+forks = 0
+watching = 3
+stars = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/assets"
+last_commit = "ea9e4a3016d8a43dd2414abc4f551cf631321c10"
+last_commit_time = "2021-12-15T14:01"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 0
+tag_count = 0
+forks = 0
+stars = 1
+commits = 52
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/contract-metadata"
+last_commit = "76c492350dd9080e548cc58b78cb6777913c6c78"
+last_commit_time = "2021-04-23T06:21"
+status = "200"
+
+[repo.stats]
+commits = 9
+forks = 922
+tag_count = 0
+watching = 1
+stars = 0
+branches = 704
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epik-auth-sdk"
+last_commit = "fce6e856c59b5c41b9b01c8b7f8e88caba592ea0"
+last_commit_time = "2021-06-11T08:10"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 1
+tag_count = 0
+stars = 0
+watching = 2
+branches = 7
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epik-cayley"
+last_commit = "058f95fd61116dac18c92f44df6f10f1f680eb4e"
+last_commit_time = "2020-08-27T13:39"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 0
+commits = 10
+tag_count = 0
+forks = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epik-defi-sdk"
+last_commit = "2da0925b141a050690a0fb6304fa3bb220d23f78"
+last_commit_time = "2021-06-11T04:22"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 2
+tag_count = 0
+stars = 0
+forks = 0
+branches = 7
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epik-explorer-backend"
+last_commit = "8ff950629b97f3c7545b4d995e3e94fb4990a6cb"
+last_commit_time = "2020-11-24T09:07"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 1
+tag_count = 0
+commits = 1
+stars = 0
+branches = 8
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epik-explorer-frontend"
+last_commit = "ced3dbeed34fa92b0324b04e873d5777442d7f09"
+last_commit_time = "2022-02-10T16:14"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 0
+forks = 0
+branches = 112
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epik-gateway-backend"
+last_commit = "058f95fd61116dac18c92f44df6f10f1f680eb4e"
+last_commit_time = "2020-08-27T13:39"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 10
+stars = 2
+forks = 0
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epik-gateway-binlog-encoder"
+status = "404"
+
+[repo.stats]
+branches = 0
+watching = 0
+forks = 0
+tag_count = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epik-gateway-binlog-replayer"
+status = "404"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 0
+branches = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/EpiK-KG"
+last_commit = "d9aff2cd1b8f22f2353f54a52f937d79acd270ec"
+last_commit_time = "2020-09-01T09:03"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 1
+forks = 0
+branches = 1
+commits = 2
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epik-metaverse-sdk"
+last_commit = "851f21df98ac2e7077c0cc0cb4518a494e366bcb"
+last_commit_time = "2021-10-20T09:19"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 1
+branches = 9
+forks = 1
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epik-sector-storage"
+last_commit = "eac70842d8e09b5f37d045dbaaa4d9766193b8ad"
+last_commit_time = "2020-08-10T17:17"
+status = "200"
+
+[repo.stats]
+forks = 47
+watching = 1
+tag_count = 0
+commits = 8
+branches = 277
+stars = 0
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epik-wallet-flutter"
+last_commit = "3bba702ed738b9f9d9bc4c509e953c030b3df3b4"
+last_commit_time = "2022-03-17T02:45"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+branches = 5
+watching = 2
+commits = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epik-wallet-golib"
+last_commit = "acaba3334b994f59e6eff0895ebb946ef1b76cc4"
+last_commit_time = "2021-06-04T11:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 2
+forks = 0
+stars = 1
+branches = 11
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epk-liquidity-farm-contract"
+last_commit = "97c2bccc588b5c99c6310a1b6b3412137bacb8ba"
+last_commit_time = "2021-11-07T15:17"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 11
+tag_count = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/epk-nft-cloud"
+last_commit = "a8c830b682cd862ee4dbafa00c5c713f254b5546"
+last_commit_time = "2021-10-20T10:57"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 1
+commits = 1
+branches = 3
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/go-data-transfer"
+last_commit = "535f1ba86c4b49704a44def8ff990190b9621eb0"
+last_commit_time = "2021-05-27T07:23"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 16
+commits = 65
+watching = 1
+branches = 175
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/go-epik"
+last_commit = "ca27486a6215e08cde0e00930a0af8d2a7a4881e"
+last_commit_time = "2022-06-01T09:23"
+status = "200"
+
+[repo.stats]
+commits = 72
+watching = 8
+forks = 0
+branches = 0
+stars = 51
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/go-epik-actors"
+last_commit = "113a169fc34421d9e075fd0057b541b94bd75609"
+last_commit_time = "2021-08-13T08:22"
+status = "200"
+
+[repo.stats]
+branches = 900
+commits = 197
+forks = 115
+tag_count = 0
+watching = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/go-epik-binlog"
+last_commit = "5c24311eac7c50beee628beed4a26870c8f16d53"
+last_commit_time = "2021-05-27T11:25"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+commits = 1
+stars = 0
+branches = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/go-epik-ffi"
+last_commit = "b6e0b35fb49ed0fedb6a6a473b222e3b8a7d7f17"
+last_commit_time = "2021-02-16T20:58"
+status = "200"
+
+[repo.stats]
+branches = 375
+watching = 1
+tag_count = 0
+stars = 0
+commits = 39
+forks = 117
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/go-epik-gateway"
+last_commit = "1791fcb9ec1ed9711b5df3bda1dbe3feff6ee553"
+last_commit_time = "2022-04-24T10:02"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 0
+tag_count = 0
+branches = 26
+commits = 2
+stars = 1
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/go-epik-markets"
+last_commit = "42bb60a51d29f3531e2d8d0fa7236db1eea66982"
+last_commit_time = "2021-09-02T04:18"
+status = "200"
+
+[repo.stats]
+commits = 86
+watching = 1
+tag_count = 0
+stars = 0
+forks = 45
+branches = 473
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/go-epik-storage"
+last_commit = "9b084eb422b869d72faa6555da7ba63beaab22c0"
+last_commit_time = "2020-11-17T23:43"
+status = "200"
+
+[repo.stats]
+commits = 11
+forks = 23
+tag_count = 0
+watching = 1
+stars = 0
+branches = 28
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/go-ethereum"
+last_commit = "d7b39a62296c524c7fe0a925b0b3aaf3a79856a5"
+last_commit_time = "2020-09-01T12:29"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 1
+branches = 0
+stars = 0
+commits = 22
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/go-libp2p-pubsub"
+last_commit = "08c17398fb11b2ab06ca141dddc8ec97272eb772"
+last_commit_time = "2020-11-12T07:02"
+status = "200"
+
+[repo.stats]
+forks = 126
+watching = 1
+tag_count = 0
+stars = 0
+branches = 906
+commits = 15
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/knowledge-graphs"
+last_commit = "70df26af413c6aeaee04fc7b004699e03d6f0578"
+last_commit_time = "2020-08-06T08:14"
+status = "200"
+
+[repo.stats]
+forks = 270
+watching = 1
+stars = 0
+tag_count = 0
+branches = 61
+commits = 1
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/liquidity-mining"
+last_commit = "97c2bccc588b5c99c6310a1b6b3412137bacb8ba"
+last_commit_time = "2021-11-07T15:17"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 1
+branches = 11
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/snapshot-spaces"
+last_commit = "68a8e215091219b8fe8b2a40d0b318927db541f6"
+last_commit_time = "2021-06-07T07:24"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 4
+forks = 0
+stars = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/token-profile"
+last_commit = "8de2b40e3457f5b96ea087af4ef1b9b514e696ad"
+last_commit_time = "2021-06-28T03:41"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 0
+watching = 1
+forks = 0
+tag_count = 0
+commits = 106
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/tokens"
+last_commit = "d8e6c48d78ee14339a561c207c67e155f8077ea5"
+last_commit_time = "2021-12-13T08:24"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 5
+watching = 0
+branches = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/EpiK-Protocol/Utils"
+last_commit = "1e81f1501f75cd066da3fc4b587dcc00c30111b8"
+last_commit_time = "2020-12-03T09:37"
+status = "200"
+
+[repo.stats]
+branches = 1
+stars = 0
+forks = 0
+watching = 2
+commits = 1
+tag_count = 0

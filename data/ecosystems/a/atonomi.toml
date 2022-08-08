@@ -1,16 +1,46 @@
-# Ecosystem Level Information
 title = "Atonomi"
-
+toml_path = "data/ecosystems/a/atonomi.toml"
+github_organizations = ["https://github.com/atonomi"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/atonomi"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/atonomi/device-sdk"
+last_commit = "479af52de62bea66eb6bd71a6ef6f92f3b921e93"
+last_commit_time = "2019-06-12T23:06"
+status = "200"
+
+[repo.stats]
+forks = 4
+branches = 5
+watching = 11
+tag_count = 0
+commits = 1
+stars = 11
 
 [[repo]]
 url = "https://github.com/atonomi/docs"
+last_commit = "e02432d6fee0ed91c8b0d14d82ca334efc656695"
+last_commit_time = "2019-03-11T14:15"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 5
+branches = 8
+watching = 7
+forks = 3
+commits = 2
 
 [[repo]]
 url = "https://github.com/atonomi/smart-contracts"
+last_commit = "964495a2c3331bbfb22e42955f5c05a5c03da83e"
+last_commit_time = "2018-07-16T19:18"
+status = "200"
+
+[repo.stats]
+stars = 13
+tag_count = 0
+forks = 9
+branches = 163
+watching = 11
+commits = 5

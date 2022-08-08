@@ -1,181 +1,798 @@
-# Ecosystem Level Information
 title = "Peercoin"
-
+toml_path = "data/ecosystems/p/peercoin.toml"
+github_organizations = ["https://github.com/peercoin"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/peercoin"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/peercoin/bip32-dart"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+forks = 0
+tag_count = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/peercoin/bitaddress.ppc"
+last_commit = "ebbf5fc82cb70d4ee9e8fb07d15d89748cff5b0d"
+last_commit_time = "2015-03-12T19:57"
+status = "200"
+
+[repo.stats]
+branches = 170
+watching = 6
+forks = 0
+tag_count = 0
+commits = 1
+stars = 5
 
 [[repo]]
 url = "https://github.com/peercoin/bitcoin_flutter"
+last_commit = "ea2b188c9da1598f5daa8660ce85cb6bb0a389ae"
+last_commit_time = "2021-09-22T11:54"
+status = "200"
+
+[repo.stats]
+forks = 92
+commits = 2
+watching = 3
+branches = 91
+stars = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/peercoin/bitcore"
+last_commit = "53bc9c550ef9bbee4364e92e57584b0cf6450461"
+last_commit_time = "2019-10-25T17:44"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 1
+branches = 0
+commits = 9
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/peercoin/bitcore-lib-peercoin"
+last_commit = "5b78b4313c4c926f0c8de920c7c1902dbb7e4fac"
+last_commit_time = "2022-04-01T12:46"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 8
+stars = 2
+tag_count = 0
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/peercoin/bitcore-ppc"
+last_commit = "fad5f64ed1286502cfdfadac47bac065c0bfe17c"
+last_commit_time = "2016-10-25T16:36"
+status = "200"
+
+[repo.stats]
+forks = 2
+branches = 5
+tag_count = 0
+commits = 1
+watching = 3
+stars = 2
 
 [[repo]]
 url = "https://github.com/peercoin/blockbook"
+last_commit = "eb4f049912ed4195a954a9c8ad6c85fb64a4a089"
+last_commit_time = "2019-11-13T12:43"
+status = "200"
+
+[repo.stats]
+commits = 9
+watching = 1
+forks = 551
+stars = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/peercoin/btcd"
+last_commit = "eb93f2ef7baf0295a6dd142c63c0077005a3f1af"
+last_commit_time = "2022-04-13T16:27"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 1
+forks = 0
+branches = 0
+tag_count = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/peercoin/cointoolkit"
+last_commit = "9a697d6f3e57373cbd849fd3dd2e6e73af8e2fa3"
+last_commit_time = "2022-05-24T23:45"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 346
+tag_count = 0
+commits = 3
+forks = 606
+stars = 2
 
 [[repo]]
 url = "https://github.com/peercoin/deb-repo"
+last_commit = "90960fb96904fcb18107f851bd2796266711c71c"
+last_commit_time = "2022-05-29T14:12"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 2
+branches = 31
+tag_count = 0
+forks = 2
+stars = 1
 
 [[repo]]
 url = "https://github.com/peercoin/dnsseeder"
+last_commit = "635c4abc22aed8f97a2b9fe6a834eff212e91a30"
+last_commit_time = "2019-05-09T13:21"
+status = "200"
+
+[repo.stats]
+branches = 92
+watching = 2
+forks = 14
+tag_count = 0
+commits = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/peercoin/docker-peercoind"
+last_commit = "e3acf20035498107864173460cbe2aa7b0651399"
+last_commit_time = "2022-06-03T16:11"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 2
+tag_count = 0
+commits = 1
+branches = 158
+forks = 2
 
 [[repo]]
 url = "https://github.com/peercoin/docker-percoind"
+last_commit = "e3acf20035498107864173460cbe2aa7b0651399"
+last_commit_time = "2022-06-03T16:11"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 2
+branches = 158
+watching = 3
+stars = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/peercoin/docs"
+last_commit = "b5103039abe3bc21eecbcc38069f762c5f4ab20f"
+last_commit_time = "2022-05-19T08:57"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 8
+branches = 234
+tag_count = 0
+stars = 6
+forks = 22
 
 [[repo]]
 url = "https://github.com/peercoin/docs-new"
+last_commit = "b753b25658a958e83f61daf4eaafa82e8867b788"
+last_commit_time = "2022-07-27T07:47"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+stars = 0
+forks = 9
+commits = 2
+watching = 1
 
 [[repo]]
 url = "https://github.com/peercoin/electrumx"
+last_commit = "649d949e0705647d5b014d1b29096029a68dd266"
+last_commit_time = "2021-07-19T23:05"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 0
+watching = 1
+commits = 3
+forks = 237
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/peercoin/electrumx-docker"
+last_commit = "8a2fe62d6919efc7d7d0f9e6fcb1a9ba2b98a2f7"
+last_commit_time = "2021-10-26T11:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 30
+watching = 9
+forks = 4
+stars = 4
 
 [[repo]]
 url = "https://github.com/peercoin/explorer"
+last_commit = "d49f1b019cfa68abec2fcb52e70dbb0111cbd9ee"
+last_commit_time = "2018-09-24T09:52"
+status = "200"
+
+[repo.stats]
+branches = 282
+tag_count = 0
+commits = 4
+forks = 0
+watching = 5
+stars = 2
 
 [[repo]]
 url = "https://github.com/peercoin/FindstakeJS"
+last_commit = "510c6105455a04deccf152f9a1c6db9d30d31f0f"
+last_commit_time = "2022-06-04T14:26"
+status = "200"
+
+[repo.stats]
+forks = 2
+commits = 4
+tag_count = 0
+watching = 7
+branches = 170
+stars = 8
 
 [[repo]]
 url = "https://github.com/peercoin/foundation.peercoin.net"
+last_commit = "15b7e5b801bc387823f2ae58a4b2c84ec5079d62"
+last_commit_time = "2022-05-03T12:58"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 3
+tag_count = 0
+commits = 3
+branches = 5
 
 [[repo]]
 url = "https://github.com/peercoin/gitian.sigs"
+last_commit = "59e8e65cdf993de4c38c7331b80b5525f245a23c"
+last_commit_time = "2021-06-23T02:00"
+status = "200"
+
+[repo.stats]
+branches = 0
+forks = 282
+stars = 0
+tag_count = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/peercoin/lightning"
+last_commit = "6a4679bc47addaa1476de9a83cdf57ea62e5465b"
+last_commit_time = "2019-10-19T10:36"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 730
+tag_count = 0
+stars = 1
+branches = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/peercoin/lnd"
+status = "404"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+stars = 0
+commits = 0
+branches = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/peercoin/media"
+last_commit = "eb57e7d0f9140e129caa281fcbe6caa329f7af3d"
+last_commit_time = "2022-02-11T15:47"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 1
+stars = 2
+tag_count = 0
+forks = 4
+branches = 20
 
 [[repo]]
 url = "https://github.com/peercoin/net.peercoin.peercoin-qt"
+last_commit = "6983b8c500ca5e546de6ea0a0a203043450c2ee1"
+last_commit_time = "2022-06-03T09:52"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 22
+commits = 2
+forks = 1
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/peercoin/P2TH"
+last_commit = "e6ae207a4f5607dd880422d2f54914f5347393f9"
+last_commit_time = "2016-05-06T20:02"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 2
+branches = 32
+tag_count = 0
+commits = 2
+watching = 6
 
 [[repo]]
 url = "https://github.com/peercoin/packaging"
+last_commit = "5307f40bddf798cda0a86e594046d197317af476"
+last_commit_time = "2022-06-19T12:27"
+status = "200"
+
+[repo.stats]
+stars = 2
+branches = 69
+commits = 1
+forks = 6
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin"
+status = "200"
+
+[repo.stats]
+commits = 16
+forks = 545
+tag_count = 0
+branches = 0
+watching = 99
+stars = 536
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin-address-generator"
+last_commit = "095e75c8d4141d0123a0bd592bd8d4b13bae9e27"
+last_commit_time = "2022-05-01T12:04"
+status = "200"
+
+[repo.stats]
+commits = 4
+branches = 83
+watching = 10
+tag_count = 0
+stars = 7
+forks = 13
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin-detached-sigs"
+last_commit = "2b686ddcd8095fdc659f88177fdcc6663069044f"
+last_commit_time = "2015-07-11T01:52"
+status = "200"
+
+[repo.stats]
+commits = 13
+watching = 1
+branches = 5
+stars = 0
+forks = 53
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin-flutter"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 3
+forks = 13
+stars = 20
+watching = 5
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin-js-rpc"
+last_commit = "ddb143119b57a15d693f636268ad91bfe79eb7ae"
+last_commit_time = "2021-06-30T16:05"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 6
+tag_count = 0
+commits = 2
+watching = 1
+branches = 23
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin-next"
+status = "404"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 0
+stars = 0
+watching = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin-php-rpc"
+last_commit = "9cbabcc870c91e2e876290a6821a5514901ffc9c"
+last_commit_time = "2020-05-02T08:45"
+status = "200"
+
+[repo.stats]
+forks = 3
+stars = 5
+branches = 13
+commits = 1
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin-POSCalculator"
+last_commit = "9ee8b2cf2a8b813b9e5937ac83da10fbcba75c6f"
+last_commit_time = "2018-08-17T11:38"
+status = "200"
+
+[repo.stats]
+forks = 29
+commits = 2
+branches = 78
+watching = 11
+tag_count = 0
+stars = 13
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin-seeder"
+last_commit = "542501f3820c19f3bcfe566c3dbbe072a141566a"
+last_commit_time = "2021-07-07T13:45"
+status = "200"
+
+[repo.stats]
+branches = 134
+tag_count = 0
+watching = 2
+stars = 2
+forks = 956
+commits = 1
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin-stakebox-img-gen"
+last_commit = "f29a97cfbc734f0fdde1c4e4446720749eceea45"
+last_commit_time = "2021-11-04T16:24"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+branches = 418
+stars = 2
+watching = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin.gitian.sigs"
+last_commit = "d8f506e2961096d62bb2c585bf5a7084613487de"
+last_commit_time = "2016-05-08T02:47"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 5
+stars = 1
+branches = 20
+tag_count = 0
+watching = 5
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin.net"
+last_commit = "856ed3d66986e2cbf4c05d146b7cb1e113a58484"
+last_commit_time = "2022-07-27T09:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 9
+forks = 42
+branches = 0
+watching = 7
+commits = 6
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin_flutter"
+status = "200"
+
+[repo.stats]
+stars = 20
+watching = 5
+commits = 3
+tag_count = 0
+branches = 0
+forks = 13
 
 [[repo]]
 url = "https://github.com/peercoin/peercoin_rpc"
+last_commit = "d79b66523ecbc79eea4d9651f1dfe81da4112632"
+last_commit_time = "2019-08-18T11:53"
+status = "200"
+
+[repo.stats]
+watching = 3
+stars = 12
+branches = 106
+commits = 1
+tag_count = 0
+forks = 14
 
 [[repo]]
 url = "https://github.com/peercoin/peercointools"
+last_commit = "c67eaac029ff00a9c3e0a0056c10390b00b61ec9"
+last_commit_time = "2016-05-16T17:45"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 1
+forks = 155
+stars = 6
+tag_count = 0
+branches = 109
 
 [[repo]]
 url = "https://github.com/peercoin/PeercoinUniversity"
+status = "200"
+
+[repo.stats]
+branches = 64
+tag_count = 0
+commits = 2
+forks = 12
+watching = 6
+stars = 4
 
 [[repo]]
 url = "https://github.com/peercoin/perpera"
+last_commit = "e158d83c9fdbac7e5838be2540e84ed455435be5"
+last_commit_time = "2020-01-27T16:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 5
+forks = 6
+watching = 3
+branches = 37
+commits = 1
 
 [[repo]]
 url = "https://github.com/peercoin/perpera-nextcloud"
+last_commit = "0738db3ceda6cc4a920d2fd3d4ab451965d5c738"
+last_commit_time = "2020-01-27T16:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+stars = 4
+branches = 5
+commits = 1
+forks = 2
 
 [[repo]]
 url = "https://github.com/peercoin/perpera-web"
+last_commit = "c11be268ed9df1256b05f0d26a3927c4e2adb4fa"
+last_commit_time = "2022-04-29T21:00"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 7
+forks = 7
+stars = 3
+tag_count = 0
+branches = 15
 
 [[repo]]
 url = "https://github.com/peercoin/pi-gen"
+last_commit = "f29a97cfbc734f0fdde1c4e4446720749eceea45"
+last_commit_time = "2021-11-04T16:24"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+commits = 3
+forks = 0
+watching = 2
+branches = 418
 
 [[repo]]
 url = "https://github.com/peercoin/pity"
+last_commit = "4351086fb1e1c739314a588655047d74e5dfdaf8"
+last_commit_time = "2019-05-20T09:51"
+status = "200"
+
+[repo.stats]
+forks = 178
+watching = 2
+branches = 351
+commits = 2
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/peercoin/poolserver"
+last_commit = "b140e8da98ce9091251443dbe0ed59b2500633e0"
+last_commit_time = "2014-10-29T16:59"
+status = "200"
+
+[repo.stats]
+branches = 58
+forks = 41
+commits = 2
+stars = 1
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/peercoin/ppcd"
+status = "404"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 0
+commits = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/peercoin/ppcutil"
+last_commit = "d9b8160d470f4d8b20f5ef21efdd121c2263300b"
+last_commit_time = "2020-08-30T10:31"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 2
+branches = 290
+commits = 1
+forks = 407
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/peercoin/pywallet"
+status = "200"
+
+[repo.stats]
+stars = 5
+tag_count = 0
+commits = 2
+watching = 6
+branches = 37
+forks = 420
 
 [[repo]]
 url = "https://github.com/peercoin/rfcs"
+last_commit = "deb38a6fab4ca46f264a09699080134a35664633"
+last_commit_time = "2022-06-29T12:20"
+status = "200"
+
+[repo.stats]
+branches = 144
+commits = 1
+watching = 3
+stars = 6
+tag_count = 0
+forks = 13
 
 [[repo]]
 url = "https://github.com/peercoin/rosetta-peercoin"
+last_commit = "a2ef560dfadb62cc374b9a9e374d82a5f43a8fe9"
+last_commit_time = "2021-09-20T20:07"
+status = "200"
+
+[repo.stats]
+forks = 105
+stars = 1
+watching = 2
+branches = 156
+commits = 9
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/peercoin/slips"
+last_commit = "500045010b80e894f3b650d188908f328e4241bc"
+last_commit_time = "2019-02-23T12:03"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 2
+tag_count = 0
+branches = 541
+stars = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/peercoin/vesta"
+last_commit = "c670e10c9a04322060c9b856de9dabfad68a3929"
+last_commit_time = "2021-02-22T15:41"
+status = "200"
+
+[repo.stats]
+stars = 2
+commits = 3
+forks = 3
+tag_count = 0
+branches = 45
+watching = 1
 
 [[repo]]
 url = "https://github.com/peercoin/wisdom_bot"
+last_commit = "5125b08aba23d03512faba7b749e1bc076707b59"
+last_commit_time = "2022-07-27T13:43"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 3
+watching = 4
+commits = 2
+stars = 0
+branches = 21
 
 [[repo]]
 url = "https://github.com/peercoin/wrapmeister-ui"
+last_commit = "044b4a3e994e74bc2cf0ba29826f16b33348c044"
+last_commit_time = "2022-06-03T16:54"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+watching = 5
+commits = 2
+forks = 6
+branches = 426

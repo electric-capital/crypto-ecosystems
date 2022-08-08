@@ -1,193 +1,852 @@
-# Ecosystem Level Information
 title = "OrbitDB"
-
+toml_path = "data/ecosystems/o/orbitdb.toml"
+github_organizations = ["https://github.com/orbitdb"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/orbitdb"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/orbitdb/.github"
+last_commit = "1ba54c8ccc55d8e624652f28a8216e5ae5c72716"
+last_commit_time = "2019-09-24T18:03"
+status = "200"
+
+[repo.stats]
+branches = 3
+stars = 5
+commits = 1
+forks = 0
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/orbitdb/awesome-orbitdb"
+last_commit = "f4b9fe1926bf2b3e818fd6c88c1675734e75ad7c"
+last_commit_time = "2021-09-06T15:20"
+status = "200"
+
+[repo.stats]
+stars = 93
+watching = 14
+forks = 15
+branches = 42
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/orbitdb/benchmark-runner"
+last_commit = "587ef77a859902e96aa9cab0272126c07c2b575f"
+last_commit_time = "2021-06-04T02:24"
+status = "200"
+
+[repo.stats]
+forks = 4
+branches = 29
+stars = 4
+tag_count = 0
+commits = 1
+watching = 9
 
 [[repo]]
 url = "https://github.com/orbitdb/crdts"
+last_commit = "834da3d624a72640429ce8dafb8a5870f89ddd5c"
+last_commit_time = "2020-07-07T17:33"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+stars = 175
+watching = 9
+branches = 80
+forks = 15
 
 [[repo]]
 url = "https://github.com/orbitdb/dashboard"
+last_commit = "3aec9a86e8bd77e371cb4dfdd5973aa26d2b1746"
+last_commit_time = "2018-03-13T17:00"
+status = "200"
+
+[repo.stats]
+branches = 199
+stars = 1
+tag_count = 0
+watching = 1
+commits = 6
+forks = 4
 
 [[repo]]
 url = "https://github.com/orbitdb/eslint-config-orbitdb"
+last_commit = "c089b4104bf55956dd579d88056d6ada9c632e23"
+last_commit_time = "2018-12-20T08:40"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 3
+branches = 12
+tag_count = 0
+forks = 1
+commits = 4
 
 [[repo]]
 url = "https://github.com/orbitdb/example-orbitdb-todomvc"
+last_commit = "ae6cd5bc655002dc3a2b005c824948662ead28ad"
+last_commit_time = "2021-04-14T14:33"
+status = "200"
+
+[repo.stats]
+branches = 51
+stars = 17
+commits = 19
+forks = 15
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/orbitdb/example-orbitdb-todomvc-updated"
+last_commit = "86a188ae71ea52a10d706ed42b29a5d0d144fea5"
+last_commit_time = "2019-02-04T16:41"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 3
+branches = 8
+tag_count = 0
+stars = 5
+commits = 2
 
 [[repo]]
 url = "https://github.com/orbitdb/example-orbitdb-webpack"
+last_commit = "d2928101e8e4d78f91ba413ab23472783ac8f28b"
+last_commit_time = "2019-09-26T19:50"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 2
+tag_count = 0
+branches = 12
+stars = 3
+watching = 2
 
 [[repo]]
 url = "https://github.com/orbitdb/field-manual"
+status = "200"
+
+[repo.stats]
+forks = 41
+stars = 185
+tag_count = 0
+branches = 649
+commits = 7
+watching = 18
 
 [[repo]]
 url = "https://github.com/orbitdb/go-orbit-db"
+last_commit = "912ea63907f0b4730d549b24e7d69e33e35998e0"
+last_commit_time = "2019-09-25T22:31"
+status = "200"
+
+[repo.stats]
+forks = 4
+stars = 27
+branches = 43
+commits = 2
+watching = 6
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/orbitdb/grant-applications"
+last_commit = "c649d2c0dc78d5a5648b2ad90e28a95c69237eb0"
+last_commit_time = "2022-07-12T09:40"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 2
+branches = 16
+tag_count = 0
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/orbitdb/ipfs-log"
+status = "200"
+
+[repo.stats]
+stars = 346
+forks = 60
+tag_count = 0
+watching = 20
+commits = 36
+branches = 825
 
 [[repo]]
 url = "https://github.com/orbitdb/ipfs-post"
+last_commit = "2d339dac699e4d3895610546c0b05ad1839abd75"
+last_commit_time = "2019-01-16T18:09"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 41
+commits = 2
+forks = 1
+stars = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/orbitdb/ipfs-pubsub-1on1"
+last_commit = "ccf89e3a88b923d4efe19b052a8433b73ada03ab"
+last_commit_time = "2019-07-22T04:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+commits = 4
+forks = 12
+branches = 48
+watching = 1
 
 [[repo]]
 url = "https://github.com/orbitdb/ipfs-pubsub-peer-monitor"
+last_commit = "e81282d2e13279f903aafaef3831312b131e52f8"
+last_commit_time = "2021-04-16T12:38"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 3
+watching = 1
+branches = 27
+commits = 1
 
 [[repo]]
 url = "https://github.com/orbitdb/localstorage-level-migration"
+last_commit = "be9ef5d3132171c2658dce8d12dc58a16e569b7f"
+last_commit_time = "2019-10-03T15:43"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 9
+branches = 17
+stars = 4
+watching = 5
+forks = 2
 
 [[repo]]
 url = "https://github.com/orbitdb/logo"
+last_commit = "b270eec5987965e8b5178fcd03b47274adea3fd6"
+last_commit_time = "2021-04-07T13:08"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 0
+watching = 7
+tag_count = 0
+branches = 11
+stars = 2
 
 [[repo]]
 url = "https://github.com/orbitdb/multicodec"
+last_commit = "31acf0bc7edfc270184f4409f3d7b4f436e77d79"
+last_commit_time = "2021-09-30T11:40"
+status = "200"
+
+[repo.stats]
+commits = 13
+branches = 257
+stars = 0
+watching = 1
+forks = 169
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/orbitdb/opentelemetry-plugin-orbitdb"
+last_commit = "cbaa0ef6a7eb7aa7a94f87b350859bb874def647"
+last_commit_time = "2021-04-07T13:05"
+status = "200"
+
+[repo.stats]
+branches = 11
+commits = 11
+forks = 0
+tag_count = 0
+stars = 7
+watching = 4
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit"
+status = "200"
+
+[repo.stats]
+forks = 123
+branches = 830
+commits = 11
+tag_count = 0
+stars = 0
+watching = 87
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-bot"
+last_commit = "75a57793a12a24ca127eee414dd8953283d98dcc"
+last_commit_time = "2019-09-26T14:19"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+forks = 3
+watching = 3
+stars = 5
+branches = 17
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-chat"
+last_commit = "dc4a4526931436086b6c7b8300617aff99cf07f7"
+last_commit_time = "2019-02-21T08:24"
+status = "200"
+
+[repo.stats]
+commits = 11
+branches = 138
+watching = 5
+forks = 7
+stars = 14
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-core"
+last_commit = "c3f7969fa7374778738979ce8e734f3f72dbfd06"
+last_commit_time = "2021-04-07T13:08"
+status = "200"
+
+[repo.stats]
+branches = 176
+watching = 13
+tag_count = 0
+forks = 19
+commits = 10
+stars = 73
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 509
+watching = 162
+branches = 0
+commits = 32
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-access-controller-store"
+last_commit = "ad4024aec9e913768cd737b2f02042d217610769"
+last_commit_time = "2019-01-14T14:24"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 7
+stars = 3
+tag_count = 0
+branches = 5
+commits = 1
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-access-controllers"
+last_commit = "bf06527fc75d542460428a185fc83092a2523197"
+last_commit_time = "2021-10-08T10:44"
+status = "200"
+
+[repo.stats]
+watching = 8
+tag_count = 0
+forks = 22
+stars = 25
+branches = 162
+commits = 23
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-cache"
+last_commit = "e5ce55244f12ce26a44cc42335e49d22f4470da5"
+last_commit_time = "2021-09-01T04:18"
+status = "200"
+
+[repo.stats]
+stars = 9
+watching = 9
+branches = 69
+forks = 15
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-cli"
+last_commit = "f70880de90e8d1005a936bea93736ef762f25321"
+last_commit_time = "2021-04-07T13:08"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 13
+forks = 16
+branches = 94
+stars = 59
+watching = 8
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-community-stats"
+last_commit = "bf84b0225507155ec860d7062997af09d78a562a"
+last_commit_time = "2020-09-04T03:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 11
+forks = 0
+stars = 2
+watching = 4
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-control-center"
+last_commit = "dda2710c84bdf2b644be8f3fb5ccfd6d30aff530"
+last_commit_time = "2021-06-01T02:28"
+status = "200"
+
+[repo.stats]
+forks = 26
+watching = 5
+branches = 43
+commits = 12
+stars = 67
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-counterstore"
+last_commit = "246ba6384fc4f59a9bd9464529f49fd18f32d05e"
+last_commit_time = "2021-11-16T07:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 21
+stars = 8
+watching = 3
+forks = 9
+branches = 140
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-docstore"
+last_commit = "e23b3c7b9d71759a2627a561a9b1366f88e93698"
+last_commit_time = "2021-04-07T13:07"
+status = "200"
+
+[repo.stats]
+commits = 17
+tag_count = 0
+stars = 38
+forks = 21
+watching = 10
+branches = 95
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-eventstore"
+last_commit = "60641017437780843a38635e301063d4f568bc90"
+last_commit_time = "2021-04-07T13:07"
+status = "200"
+
+[repo.stats]
+commits = 22
+stars = 30
+tag_count = 0
+branches = 147
+watching = 5
+forks = 10
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-feedstore"
+last_commit = "c9398f2e00c616c503238df6ec47324e7693bcd8"
+last_commit_time = "2020-09-16T23:50"
+status = "200"
+
+[repo.stats]
+stars = 16
+forks = 7
+watching = 7
+tag_count = 0
+branches = 116
+commits = 15
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-http-api"
+last_commit = "2da3ab5e07fb1b7876b8fd07e2d0d90268ef3bbb"
+last_commit_time = "2021-06-24T10:55"
+status = "200"
+
+[repo.stats]
+stars = 30
+commits = 20
+branches = 253
+watching = 6
+forks = 12
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-http-api-bash-client"
+last_commit = "9f8f61d429f6422ed7bf24aa04d5c276c3ac94b4"
+last_commit_time = "2021-05-30T01:21"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 1
+commits = 1
+watching = 5
+stars = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-identity-provider"
+status = "200"
+
+[repo.stats]
+stars = 32
+forks = 17
+watching = 7
+commits = 12
+branches = 202
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-io"
+status = "200"
+
+[repo.stats]
+stars = 6
+watching = 8
+commits = 6
+tag_count = 0
+forks = 9
+branches = 86
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-keystore"
+last_commit = "df1dd58700b26874e9b9297c37f10890ca65f2da"
+last_commit_time = "2021-08-31T04:22"
+status = "200"
+
+[repo.stats]
+stars = 8
+commits = 22
+watching = 5
+tag_count = 0
+forks = 17
+branches = 137
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-kvstore"
+status = "200"
+
+[repo.stats]
+branches = 130
+stars = 24
+watching = 11
+forks = 19
+tag_count = 0
+commits = 14
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-pinner"
+last_commit = "fad8e25038dadc2d78dc2935d78578685b4193f2"
+last_commit_time = "2022-01-06T03:02"
+status = "200"
+
+[repo.stats]
+branches = 105
+watching = 6
+forks = 7
+stars = 30
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-polkadot-iam"
+last_commit = "5a797642e53f08027fbcddf541a809be8381e0ef"
+last_commit_time = "2021-10-05T17:03"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 5
+watching = 3
+commits = 1
+branches = 17
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-powergate-io"
+last_commit = "e704afb5f1b0d4866720fba4884e178635883300"
+last_commit_time = "2020-09-23T20:10"
+status = "200"
+
+[repo.stats]
+stars = 12
+watching = 5
+forks = 2
+branches = 37
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-pubsub"
+last_commit = "ab40d61babd681a9cb0b1694ebb9a74fc7fd9aef"
+last_commit_time = "2020-09-06T01:55"
+status = "200"
+
+[repo.stats]
+watching = 6
+tag_count = 0
+branches = 98
+commits = 3
+forks = 13
+stars = 17
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-storage-adapter"
+last_commit = "632668ab2eac08eceef6ca9c98386c7ca8e4f819"
+last_commit_time = "2021-05-25T00:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+stars = 7
+branches = 90
+watching = 4
+commits = 5
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-store"
+status = "200"
+
+[repo.stats]
+commits = 33
+forks = 27
+branches = 386
+watching = 8
+stars = 40
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-test-utils"
+last_commit = "b3664a821dd9c2ca4685cc33c925f9241accc617"
+last_commit_time = "2022-07-20T14:28"
+status = "200"
+
+[repo.stats]
+watching = 6
+forks = 8
+branches = 156
+tag_count = 0
+commits = 3
+stars = 5
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-db-types"
+last_commit = "ed41369e64c054952c1e47505d598342a4967d4c"
+last_commit_time = "2022-01-24T23:00"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 26
+tag_count = 0
+stars = 23
+branches = 128
+commits = 4
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-electron"
+last_commit = "37a53c5396ce0d0aab379ee7692c8e060f56b3b3"
+last_commit_time = "2021-04-07T13:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 47
+forks = 15
+branches = 27
+watching = 11
+commits = 4
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-textui"
+last_commit = "26f13e830faeca711b7ed0d6f71008449f8ffc35"
+last_commit_time = "2021-04-07T13:06"
+status = "200"
+
+[repo.stats]
+commits = 4
+tag_count = 0
+forks = 12
+branches = 24
+stars = 47
+watching = 11
 
 [[repo]]
 url = "https://github.com/orbitdb/orbit-web"
+last_commit = "932f2aa875fd03e9897e16fa5d3991a4405e956b"
+last_commit_time = "2021-04-07T13:06"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 20
+watching = 25
+branches = 413
+forks = 70
+stars = 251
 
 [[repo]]
 url = "https://github.com/orbitdb/orbitdb-orbit-crypto"
+last_commit = "88c94d7f6471576739c686c0e6ef7e8251d63a70"
+last_commit_time = "2019-01-29T16:11"
+status = "200"
+
+[repo.stats]
+stars = 4
+forks = 4
+commits = 2
+branches = 22
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/orbitdb/orbitdb-test-utils"
+status = "404"
+
+[repo.stats]
+branches = 0
+forks = 0
+watching = 0
+tag_count = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/orbitdb/orbitdb.org"
+last_commit = "57d171f6a1e4daeffc9e4016d339eec51dddc03c"
+last_commit_time = "2021-08-06T10:12"
+status = "200"
+
+[repo.stats]
+commits = 13
+forks = 5
+branches = 91
+watching = 5
+stars = 32
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/orbitdb/py-orbit-db-http-client"
+last_commit = "460059b95b16875a61b28b3b8408e5bd6280de36"
+last_commit_time = "2021-04-07T07:58"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 4
+stars = 22
+forks = 5
+tag_count = 0
+branches = 38
 
 [[repo]]
 url = "https://github.com/orbitdb/repo-template"
+last_commit = "1cf4cf4c85b3f49f99c332ed8f167359523267e5"
+last_commit_time = "2021-04-07T03:49"
+status = "200"
+
+[repo.stats]
+commits = 3
+branches = 16
+forks = 30
+watching = 3
+tag_count = 0
+stars = 21
 
 [[repo]]
 url = "https://github.com/orbitdb/research"
+last_commit = "8b30f675b21547aed4665dcb68d30a0070354401"
+last_commit_time = "2019-09-26T15:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 7
+branches = 7
+commits = 2
+stars = 12
+forks = 2
 
 [[repo]]
 url = "https://github.com/orbitdb/SCPs"
+last_commit = "03d96854a2d3e954ace8c2be854296af0f647cc9"
+last_commit_time = "2021-08-25T17:52"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 10
+watching = 4
+forks = 6
+branches = 17
+commits = 3
 
 [[repo]]
 url = "https://github.com/orbitdb/spec"
+last_commit = "4f695c4fe27d055a0b8296574475a5fe8f717079"
+last_commit_time = "2019-10-02T14:01"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+stars = 4
+watching = 8
+branches = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/orbitdb/web3-workshop"
+status = "200"
+
+[repo.stats]
+forks = 7
+branches = 10
+tag_count = 0
+commits = 9
+stars = 17
+watching = 7
 
 [[repo]]
 url = "https://github.com/orbitdb/welcome"
+last_commit = "5c8b0851edfae506810afc759d8ee35d2ba688d8"
+last_commit_time = "2022-03-26T19:42"
+status = "200"
+
+[repo.stats]
+commits = 6
+watching = 19
+stars = 98
+forks = 10
+branches = 135
+tag_count = 0

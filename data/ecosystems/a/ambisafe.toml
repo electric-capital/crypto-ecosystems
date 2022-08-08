@@ -1,166 +1,740 @@
-# Ecosystem Level Information
 title = "Ambisafe"
-
+toml_path = "data/ecosystems/a/ambisafe.toml"
+github_organizations = ["https://github.com/Ambisafe"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Ambisafe"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Ambisafe/ambisafe-tokens-js"
+last_commit = "74e0110b9e62a82aa1d7b12904e47c509a36c5c3"
+last_commit_time = "2016-06-13T17:05"
+status = "200"
+
+[repo.stats]
+forks = 29
+branches = 37
+commits = 1
+watching = 6
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/ambisafe_tenant_client"
+status = "404"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+stars = 0
+forks = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/ansible-role-1pass"
+last_commit = "a2424f0c0edce07b3ded7c627b2c2d006653fcec"
+last_commit_time = "2018-06-22T21:09"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 4
+watching = 5
+commits = 1
+stars = 2
+forks = 2
 
 [[repo]]
 url = "https://github.com/Ambisafe/ansible-role-awx"
+last_commit = "d76191c14c1712f22c799c8ae29edfb9f7910afe"
+last_commit_time = "2017-12-22T20:35"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 97
+branches = 22
+commits = 1
+watching = 6
 
 [[repo]]
 url = "https://github.com/Ambisafe/ansible-role-tf-aws"
+last_commit = "d8b6a4b2c3fdfdd68d0649355a313fca37552e3a"
+last_commit_time = "2018-09-10T14:19"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 156
+forks = 0
+watching = 5
+commits = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/ansible-role-tf-cli"
+last_commit = "d334d5b56f4eb74b61794a1fb60f12586c2d36c1"
+last_commit_time = "2018-04-11T17:53"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+tag_count = 0
+watching = 4
+stars = 0
+branches = 4
 
 [[repo]]
 url = "https://github.com/Ambisafe/ansible-role-tf-logserver"
+last_commit = "95e8b0d0c2f8966b933bf15c099049cf0c2e4d55"
+last_commit_time = "2018-09-03T14:01"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 1
+watching = 5
+branches = 66
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/awx-ambisafe-logos"
+last_commit = "5dfbe66acfef36e125c121a006a2a8f262157aaa"
+last_commit_time = "2017-12-12T23:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 50
+watching = 5
+stars = 0
+branches = 18
+commits = 1
 
 [[repo]]
 url = "https://github.com/Ambisafe/awx-project-asset-manager"
+last_commit = "78a16cc78c410b072736345a1737bbcf83a769a3"
+last_commit_time = "2018-04-27T14:34"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 1
+stars = 0
+tag_count = 0
+watching = 4
+branches = 66
 
 [[repo]]
 url = "https://github.com/Ambisafe/awx-project-billing"
+last_commit = "14100870c2c28d3e8dc0f483ba4ecf326e7cf6b2"
+last_commit_time = "2018-04-27T14:35"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+branches = 8
+watching = 4
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/Ambisafe/awx-project-bupernode"
+last_commit = "256031188a14420c145fa7af3e073dc785a4515e"
+last_commit_time = "2018-08-17T12:57"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+stars = 0
+forks = 0
+branches = 3
+commits = 2
 
 [[repo]]
 url = "https://github.com/Ambisafe/awx-project-console"
+last_commit = "785bb553b9d6cf80a24187ab7079c1b793cee4bb"
+last_commit_time = "2018-08-15T14:26"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 4
+tag_count = 0
+branches = 9
+commits = 1
 
 [[repo]]
 url = "https://github.com/Ambisafe/awx-project-eks"
+last_commit = "4e6389c3cc4036222e0b604a48b0811c5dcb0821"
+last_commit_time = "2018-06-22T12:48"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+watching = 4
+tag_count = 0
+stars = 0
+branches = 2
 
 [[repo]]
 url = "https://github.com/Ambisafe/awx-project-logger"
+last_commit = "be420a432a219baa0d1def45bface12b185b9337"
+last_commit_time = "2018-03-13T10:42"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 23
+commits = 1
+forks = 0
+watching = 5
+stars = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/blockchain-security-contacts"
+last_commit = "8bc3c707d7455a9d141ebc5384d24e2d32d5e976"
+last_commit_time = "2018-11-22T00:08"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 185
+branches = 213
+stars = 0
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/client-ios"
+last_commit = "82164587c1eb2e552bd31124c7d631be683d14b1"
+last_commit_time = "2015-10-23T15:12"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 2
+forks = 3
+branches = 7
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/client-javascript"
+last_commit = "ab9a17a85d5ae0c1080806612b9f499389aca736"
+last_commit_time = "2017-07-18T15:27"
+status = "200"
+
+[repo.stats]
+branches = 80
+tag_count = 0
+commits = 4
+watching = 30
+forks = 6
+stars = 4
 
 [[repo]]
 url = "https://github.com/Ambisafe/docker-bcoin-node"
+last_commit = "dc7197a8c95986758a0c0931e38765a1168d4253"
+last_commit_time = "2018-08-17T11:24"
+status = "200"
+
+[repo.stats]
+forks = 20
+stars = 0
+watching = 7
+commits = 1
+tag_count = 0
+branches = 17
 
 [[repo]]
 url = "https://github.com/Ambisafe/docker-bitcore-node"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 0
+watching = 0
+stars = 0
+tag_count = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/docker-flower"
+last_commit = "1988dd33aa0b6a65ce54ca11b2dfdb0f21668e6f"
+last_commit_time = "2018-08-27T11:30"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 1
+tag_count = 0
+stars = 0
+forks = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/Ambisafe/docker-mysql-proxy"
+last_commit = "ad9b0413d06b1f5a11b92cdf338fca7d9dd02f14"
+last_commit_time = "2017-04-17T08:00"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 5
+branches = 9
+watching = 4
+commits = 2
 
 [[repo]]
 url = "https://github.com/Ambisafe/eth-contract-metadata"
+last_commit = "076a3f377ca89e0bcbe76973195dfefc2d381a33"
+last_commit_time = "2017-12-03T15:25"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 922
+tag_count = 0
+branches = 82
+commits = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/ether-faucet-doc"
+last_commit = "f1cab4a76f66ebcb8fce2924efa9f4faf33e1174"
+last_commit_time = "2016-11-11T14:13"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 6
+branches = 4
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/ethereum-exporter"
+last_commit = "331bc2a8ddbc8c05324cb7311222680d00d2eff2"
+last_commit_time = "2018-04-19T13:23"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+branches = 21
+stars = 0
+commits = 3
+forks = 1
 
 [[repo]]
 url = "https://github.com/Ambisafe/ethersweeper-doc"
+last_commit = "38781b6e6f4622c6023e9af7e783e0c04a779c94"
+last_commit_time = "2017-02-13T16:41"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 2
+tag_count = 0
+watching = 5
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/Ambisafe/etoken-docs"
+last_commit = "eb7b5daacef37acecaac30e7425e79bfbb43fe5b"
+last_commit_time = "2019-03-11T16:53"
+status = "200"
+
+[repo.stats]
+commits = 1
+stars = 0
+watching = 4
+branches = 2
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/etoken-history-doc"
+last_commit = "2a3947b8b81df93155e88cbb0bb327475ab24f6e"
+last_commit_time = "2016-07-18T09:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 6
+stars = 0
+commits = 1
+watching = 10
+forks = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/etoken-lib"
+last_commit = "15c3ac5a8befed1d0489123474f3a9ec41bc17a7"
+last_commit_time = "2022-06-29T13:55"
+status = "200"
+
+[repo.stats]
+commits = 12
+tag_count = 0
+watching = 9
+stars = 3
+branches = 132
+forks = 1
 
 [[repo]]
 url = "https://github.com/Ambisafe/etoken-server-side-examples"
+last_commit = "1bd3ae215fb3874a41dcc9dfd113550e8e2b94f7"
+last_commit_time = "2017-02-13T16:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 35
+stars = 6
+forks = 9
+commits = 1
+watching = 14
 
 [[repo]]
 url = "https://github.com/Ambisafe/etoken-tutorial"
+last_commit = "7f303cd8abee7de9cdb31d18d7bfdc4433a7fd9e"
+last_commit_time = "2016-09-01T16:54"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 6
+tag_count = 0
+stars = 0
+branches = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/Ambisafe/etoken2"
+last_commit = "6470590c1cea7789c3d72371d7499d067812f49a"
+last_commit_time = "2020-01-29T12:02"
+status = "200"
+
+[repo.stats]
+watching = 13
+forks = 4
+stars = 6
+tag_count = 0
+commits = 1
+branches = 13
 
 [[repo]]
 url = "https://github.com/Ambisafe/etokend-doc"
+last_commit = "85de7a1b307761f708ed04612c3de4be9f82de7c"
+last_commit_time = "2018-11-23T18:13"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+branches = 7
+forks = 0
+watching = 10
+stars = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/events-collector"
+last_commit = "bbc5fe12816a5737ad83c9e5457c522948734672"
+last_commit_time = "2018-11-12T14:43"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 0
+branches = 11
+commits = 1
+watching = 3
 
 [[repo]]
 url = "https://github.com/Ambisafe/exchange-integration-guide"
+last_commit = "0153e744c0302e3ec9253abdf735527ab6da0d5a"
+last_commit_time = "2016-10-24T17:22"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 5
+commits = 1
+branches = 3
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/helm-kubernetes-services"
+last_commit = "1a06b2655ad4bec3616a3a252b1f74338ab43506"
+last_commit_time = "2019-08-22T05:40"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 115
+tag_count = 0
+branches = 128
+commits = 4
 
 [[repo]]
 url = "https://github.com/Ambisafe/keyserver-client-js"
+last_commit = "86e18e6e513850b95e804f038487439170aad45c"
+last_commit_time = "2017-10-05T14:08"
+status = "200"
+
+[repo.stats]
+forks = 1
+commits = 3
+stars = 1
+watching = 14
+tag_count = 0
+branches = 15
 
 [[repo]]
 url = "https://github.com/Ambisafe/keystorage-lib"
+last_commit = "faf0897ed77d69faf778a70865ac85158fc2e97d"
+last_commit_time = "2016-05-20T10:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+stars = 0
+watching = 9
+forks = 2
+branches = 26
 
 [[repo]]
 url = "https://github.com/Ambisafe/keystore-doc"
+last_commit = "a944bbf4626570aa65f38b8d28eacce53b90b3e9"
+last_commit_time = "2019-07-17T10:04"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 6
+forks = 0
+branches = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/Ambisafe/landings-images-tools"
+last_commit = "f3388a1992eda40cbbb563fc557a732a96bd207b"
+last_commit_time = "2018-10-17T08:56"
+status = "200"
+
+[repo.stats]
+branches = 2
+forks = 0
+tag_count = 0
+commits = 1
+watching = 4
+stars = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/moola-app"
+status = "404"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 0
+tag_count = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/orderbook-hapi-rate-limiter"
+last_commit = "fe2691727e62ab419cc39348b544836a2eed4ee8"
+last_commit_time = "2018-05-16T13:26"
+status = "200"
+
+[repo.stats]
+branches = 68
+watching = 4
+stars = 0
+forks = 0
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/Ambisafe/private_key_recovery_service"
+last_commit = "b08c4b2e3003f6eaa9c9d27cae3a739be166936b"
+last_commit_time = "2020-05-20T12:41"
+status = "200"
+
+[repo.stats]
+commits = 2
+stars = 1
+watching = 2
+forks = 0
+branches = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/prometheus-ether-exporter"
+last_commit = "78182252443cba247c679edc6cd5c28396d76e1c"
+last_commit_time = "2018-07-10T14:52"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 1
+commits = 1
+branches = 25
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/provider-engine-webpack"
+last_commit = "4f856765712e643c81e80450a75124812d1fc9d3"
+last_commit_time = "2016-05-24T01:51"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 7
+commits = 1
+forks = 1
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/pyethereum"
+last_commit = "180ab66e0833fa3bacd59e4bfbfae966077018a0"
+last_commit_time = "2019-05-29T21:09"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 0
+commits = 31
+watching = 0
+tag_count = 0
+forks = 746
 
 [[repo]]
 url = "https://github.com/Ambisafe/python-jose"
+last_commit = "0adef695b1b17e257a606e1f9dde01e1c619a408"
+last_commit_time = "2016-07-19T15:54"
+status = "200"
+
+[repo.stats]
+forks = 203
+watching = 5
+branches = 290
+tag_count = 0
+stars = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/Ambisafe/react-async-autocomplete"
+last_commit = "a74682a6c75e653b1faf8cea383d049397c7f4f6"
+last_commit_time = "2017-09-06T13:47"
+status = "200"
+
+[repo.stats]
+watching = 7
+stars = 0
+forks = 4
+branches = 16
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/Ambisafe/regulation-aware-protocol"
+last_commit = "ef912b260bf77127e52891be9ebbb9eb1f79a4fb"
+last_commit_time = "2020-08-07T12:30"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 4
+tag_count = 0
+branches = 5
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/Ambisafe/Telegram"
+last_commit = "254a6c50ee511edbffff8106799404a2413b7813"
+last_commit_time = "2018-10-27T14:24"
+status = "200"
+
+[repo.stats]
+branches = 17
+commits = 1
+stars = 0
+forks = 858
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/tenant-js-lib"
+last_commit = "c1caa138092cf2c7a98e6368a65c2f4944aa884b"
+last_commit_time = "2016-06-21T14:44"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 1
+tag_count = 0
+branches = 11
+watching = 5
+stars = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/uniswap-info"
+last_commit = "65ceac86840cf995f3fe16c53233243217f63d51"
+last_commit_time = "2021-02-10T16:03"
+status = "200"
+
+[repo.stats]
+branches = 493
+tag_count = 0
+commits = 6
+forks = 484
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/Ambisafe/voting_docs"
+last_commit = "c098558d1324f929c20494fdcf6c570617736f94"
+last_commit_time = "2016-03-21T14:55"
+status = "200"
+
+[repo.stats]
+branches = 14
+forks = 2
+tag_count = 0
+stars = 0
+commits = 1
+watching = 2
 
 [[repo]]
 url = "https://github.com/Ambisafe/web3-wallet-java-lib"
+last_commit = "1c2cb3e4652d049ee53d8562bf5b415dd7d8691c"
+last_commit_time = "2017-02-17T20:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 6
+forks = 2
+stars = 1
+branches = 53

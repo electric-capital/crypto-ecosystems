@@ -1,49 +1,182 @@
-# Ecosystem Level Information
 title = "Andromeda"
-
+toml_path = "data/ecosystems/a/andromeda.toml"
+github_organizations = ["https://github.com/andromedaprotocol"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/andromedaprotocol"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/andromedaprotocol/ado-list"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 0
+commits = 0
+stars = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/andr-cli"
+status = "404"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+stars = 0
+forks = 0
+branches = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/andr-marketplace"
+last_commit = "baa31143bd4ddcfd700df74f2c7331f68b1f9134"
+last_commit_time = "2021-12-10T14:44"
+status = "200"
+
+[repo.stats]
+forks = 0
+tag_count = 0
+watching = 1
+branches = 2
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/andromeda-contracts"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+branches = 126
+commits = 8
+stars = 12
+forks = 2
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/andromeda-core"
+last_commit = "5b7fca552d7a432f0258ca8276b944c2fa1961b7"
+last_commit_time = "2022-04-28T11:33"
+status = "200"
+
+[repo.stats]
+branches = 126
+tag_count = 0
+commits = 8
+stars = 12
+forks = 2
+watching = 2
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/andromeda-design-system"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+tag_count = 0
+forks = 0
+stars = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/andromeda-staking"
+last_commit = "362b18123131718c53cd4bf2b9b22ca1fda34488"
+last_commit_time = "2022-04-13T22:47"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+watching = 2
+commits = 2
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/big-dipper"
+status = "404"
+
+[repo.stats]
+branches = 0
+watching = 0
+forks = 0
+stars = 0
+commits = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/cli"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+branches = 0
+watching = 0
+commits = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/design-system"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 0
+branches = 0
+tag_count = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/graphql"
+last_commit = "03c665f76cf5b99836422031262d384418cabebd"
+last_commit_time = "2022-07-29T11:13"
+status = "200"
+
+[repo.stats]
+watching = 3
+commits = 1
+branches = 31
+forks = 2
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/insync-juno"
+status = "404"
+
+[repo.stats]
+watching = 0
+commits = 0
+forks = 0
+branches = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/schema-parser"
+status = "404"
+
+[repo.stats]
+forks = 0
+commits = 0
+branches = 0
+watching = 0
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/andromedaprotocol/station-desktop"
+last_commit = "86f07cccc2d29197bd4996fcf2e9d414e7d7441d"
+last_commit_time = "2022-04-20T10:12"
+status = "200"
+
+[repo.stats]
+forks = 32
+stars = 0
+watching = 0
+branches = 22
+tag_count = 0
+commits = 3

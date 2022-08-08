@@ -1,16 +1,46 @@
-# Ecosystem Level Information
 title = "Swerve"
-
+toml_path = "data/ecosystems/s/swerve.toml"
+github_organizations = []
 sub_ecosystems = []
 
-github_organizations = []
-
-# Repositories
 [[repo]]
 url = "https://github.com/SwerveFinance/swerve-ui"
+last_commit = "b42a81b582d582e2c5f68fbd2e6c1f95943b11df"
+last_commit_time = "2020-09-10T12:39"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 2
+commits = 1
+stars = 6
+forks = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/SwerveFinance/swerve-web"
+last_commit = "6cc562d8d30b04f68b2a000f35f3687a4f032bc6"
+last_commit_time = "2020-10-21T19:37"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 32
+stars = 11
+watching = 3
+commits = 1
+forks = 17
 
 [[repo]]
 url = "https://github.com/SwerveFinance/SwerveContracts"
+last_commit = "487b410528163c314d8851521c37e8f8360d638f"
+last_commit_time = "2020-09-04T20:50"
+status = "200"
+
+[repo.stats]
+branches = 3
+watching = 10
+stars = 40
+commits = 1
+forks = 20
+tag_count = 0

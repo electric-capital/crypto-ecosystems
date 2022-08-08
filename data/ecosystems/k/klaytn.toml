@@ -1,199 +1,880 @@
-# Ecosystem Level Information
 title = "Klaytn"
-
+toml_path = "data/ecosystems/k/klaytn.toml"
+github_organizations = ["https://github.com/klaytn"]
 sub_ecosystems = ["Belt", "Bluewhale Protocol", "Definix", "KlaySwap", "Kronos"]
 
-github_organizations = ["https://github.com/klaytn"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/klaytn/3d-nft-gallery"
+last_commit = "8f36dbf2ab8d367287b4914fa319c6dbbec4c54d"
+last_commit_time = "2022-05-15T03:50"
+status = "200"
+
+[repo.stats]
+branches = 26
+forks = 0
+commits = 1
+watching = 9
+tag_count = 0
+stars = 2
 
 [[repo]]
 url = "https://github.com/klaytn/awesome-klaytn"
+last_commit = "afea13baa43fe1455b649e772fcf7da0d64c70f5"
+last_commit_time = "2022-08-05T00:26"
+status = "200"
+
+[repo.stats]
+commits = 5
+forks = 11
+tag_count = 0
+branches = 66
+stars = 14
+watching = 11
 
 [[repo]]
 url = "https://github.com/klaytn/caver-java"
+last_commit = "2cc5e09f8eacece6b96de5e2a0bae46dc63a9436"
+last_commit_time = "2022-08-04T02:43"
+status = "200"
+
+[repo.stats]
+watching = 14
+commits = 10
+forks = 32
+branches = 0
+stars = 54
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/caver-java-boilerplate"
+last_commit = "c747ab2eb1c45ed70d7953efe4e3c837474c1ef3"
+last_commit_time = "2022-07-25T01:02"
+status = "200"
+
+[repo.stats]
+commits = 3
+branches = 83
+tag_count = 0
+forks = 7
+stars = 5
+watching = 12
 
 [[repo]]
 url = "https://github.com/klaytn/caver-java-examples"
+last_commit = "c747ab2eb1c45ed70d7953efe4e3c837474c1ef3"
+last_commit_time = "2022-07-25T01:02"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 5
+forks = 7
+watching = 12
+branches = 83
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/caver-js"
+last_commit = "4be58292ba0df0786d9220504abe158a18fa24c1"
+last_commit_time = "2022-08-04T04:40"
+status = "200"
+
+[repo.stats]
+commits = 5
+tag_count = 0
+stars = 102
+watching = 16
+forks = 70
+branches = 0
 
 [[repo]]
 url = "https://github.com/klaytn/caver-js-boilerplate"
+last_commit = "50737e48a0a58dee2ef571faefaf937ea8090242"
+last_commit_time = "2022-07-15T01:06"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+watching = 11
+branches = 95
+forks = 10
+stars = 8
 
 [[repo]]
 url = "https://github.com/klaytn/caver-js-examples"
+last_commit = "50737e48a0a58dee2ef571faefaf937ea8090242"
+last_commit_time = "2022-07-15T01:06"
+status = "200"
+
+[repo.stats]
+forks = 10
+watching = 11
+branches = 95
+commits = 3
+stars = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/cn-staging-contract-tests"
+last_commit = "dce97996939f2a8c6b23d39574f86d57cb6deaf6"
+last_commit_time = "2020-10-11T13:42"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 16
+forks = 0
+stars = 1
+branches = 1
 
 [[repo]]
 url = "https://github.com/klaytn/cn-staking-contract-tests"
+last_commit = "dce97996939f2a8c6b23d39574f86d57cb6deaf6"
+last_commit_time = "2020-10-11T13:42"
+status = "200"
+
+[repo.stats]
+watching = 16
+stars = 1
+branches = 1
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/klaytn/count-bapp-android"
+status = "404"
+
+[repo.stats]
+commits = 0
+forks = 0
+tag_count = 0
+stars = 0
+watching = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/klaytn/countbapp"
+last_commit = "8e16d6b00410e70b5a743e94dda38487e0cb6246"
+last_commit_time = "2021-10-07T01:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 13
+branches = 3
+commits = 2
+forks = 11
+stars = 3
 
 [[repo]]
 url = "https://github.com/klaytn/datadog-agent-install."
+last_commit = "5d74acb5ea5c39e16778d332869f24d828571b14"
+last_commit_time = "2022-07-30T12:08"
+status = "200"
+
+[repo.stats]
+watching = 8
+stars = 0
+tag_count = 0
+forks = 0
+branches = 11
+commits = 1
 
 [[repo]]
 url = "https://github.com/klaytn/enterprise_proxy"
+last_commit = "14565c6b35fd42895275dfa11a8d075d78394d6e"
+last_commit_time = "2022-02-23T23:46"
+status = "200"
+
+[repo.stats]
+forks = 8
+branches = 6
+watching = 4
+stars = 0
+tag_count = 0
+commits = 8
 
 [[repo]]
 url = "https://github.com/klaytn/enterprise_proxy_lite"
+last_commit = "dfb8372c42455eb8ef3263774dd359fb1a1b53b5"
+last_commit_time = "2022-07-25T01:03"
+status = "200"
+
+[repo.stats]
+commits = 8
+watching = 11
+stars = 0
+tag_count = 0
+branches = 9
+forks = 6
 
 [[repo]]
 url = "https://github.com/klaytn/homebrew-klaytn"
+last_commit = "eda0b50888a2650a60ad7034883b8a4490676ed9"
+last_commit_time = "2022-03-29T10:17"
+status = "200"
+
+[repo.stats]
+branches = 10
+watching = 15
+forks = 6
+tag_count = 0
+stars = 4
+commits = 1
 
 [[repo]]
 url = "https://github.com/klaytn/kaikas-tutorial"
+last_commit = "354756caf925d6994f2b1a90e6cbbe243a40d0d7"
+last_commit_time = "2020-11-06T04:34"
+status = "200"
+
+[repo.stats]
+commits = 21
+watching = 11
+stars = 32
+forks = 20
+tag_count = 0
+branches = 14
 
 [[repo]]
 url = "https://github.com/klaytn/kips"
+last_commit = "0572a331d44d5f964a6983daaaeb5ab54f893de7"
+last_commit_time = "2022-07-22T11:20"
+status = "200"
+
+[repo.stats]
+stars = 14
+tag_count = 0
+watching = 15
+forks = 28
+branches = 417
+commits = 3
 
 [[repo]]
 url = "https://github.com/klaytn/klaystagram"
+last_commit = "0069e93a3b248ab840140817d4fa2bf811b47ac0"
+last_commit_time = "2021-10-07T01:17"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+watching = 14
+forks = 18
+stars = 11
+branches = 3
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn"
+status = "200"
+
+[repo.stats]
+branches = 0
+forks = 147
+tag_count = 0
+watching = 36
+commits = 22
+stars = 306
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-ansible"
+last_commit = "a5a8156ce199bcc422869c317fcc38bd98b763c8"
+last_commit_time = "2022-06-08T02:04"
+status = "200"
+
+[repo.stats]
+forks = 4
+branches = 72
+commits = 1
+tag_count = 0
+stars = 2
+watching = 12
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-baobab-setup-workshop"
+last_commit = "a03f6b6c0efa66f277d008b42171577653500107"
+last_commit_time = "2022-07-19T05:35"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+branches = 13
+commits = 2
+watching = 8
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-contracts"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 6
+branches = 0
+tag_count = 0
+watching = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-contracts-old"
+last_commit = "ac8c5a73a79bdfd6c67ec5799a3876053eab342d"
+last_commit_time = "2022-04-08T08:45"
+status = "200"
+
+[repo.stats]
+branches = 14
+commits = 1
+stars = 73
+forks = 76
+watching = 18
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-cypress-setup-workshop"
+last_commit = "2b2244d8467aa1830726f0ceab4b89725a7f451b"
+last_commit_time = "2022-07-21T13:23"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 8
+stars = 0
+branches = 13
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-deploy"
+last_commit = "31c323a88ab7ab18da29809307c616229c9bf5ef"
+last_commit_time = "2022-08-04T05:59"
+status = "200"
+
+[repo.stats]
+forks = 6
+tag_count = 0
+stars = 0
+commits = 1
+watching = 8
+branches = 15
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-dev-sandbox"
+last_commit = "4d4352ae8ad38129def06e6c1f3157da20d44b33"
+last_commit_time = "2022-07-29T04:16"
+status = "200"
+
+[repo.stats]
+branches = 112
+watching = 8
+stars = 4
+forks = 4
+tag_count = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-dex"
+last_commit = "6ad33cba88120bb3ae868d0c7d34c5e93682f73a"
+last_commit_time = "2022-08-05T16:15"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 2
+stars = 0
+forks = 2
+watching = 10
+branches = 47
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-dex-contracts"
+last_commit = "6ad33cba88120bb3ae868d0c7d34c5e93682f73a"
+last_commit_time = "2022-08-05T16:15"
+status = "200"
+
+[repo.stats]
+branches = 47
+stars = 0
+tag_count = 0
+watching = 10
+forks = 2
+commits = 2
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-dex-dashboard"
+last_commit = "33a8892a8fd34d324f30669b974e00fff601dd20"
+last_commit_time = "2022-07-13T08:23"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 4
+watching = 8
+tag_count = 0
+commits = 1
+forks = 1
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-dex-frontend"
+last_commit = "99dc2b792638f52a62a3f508ae0faa6b39831d06"
+last_commit_time = "2022-07-13T07:36"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 3
+watching = 8
+commits = 1
+branches = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-dex-subgraphs"
+last_commit = "a88a3c704e76d1e1f03ce5523b86c3e04fece172"
+last_commit_time = "2022-07-15T07:17"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 3
+watching = 8
+tag_count = 0
+forks = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-docs"
+last_commit = "ba2d061698f99348c2ad693888fcbf8dfaf24ebe"
+last_commit_time = "2022-08-04T05:44"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 63
+commits = 21
+forks = 18
+stars = 6
+watching = 10
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-docs-ko"
+last_commit = "c05c5d4c17c07db4b74ffe14f2ab86f3ae23fe68"
+last_commit_time = "2022-07-15T01:22"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 7
+watching = 9
+branches = 0
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-integration-tests"
+last_commit = "ece05c7584afe22c7e066ca7855b9c627040c806"
+last_commit_time = "2022-07-25T01:03"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 11
+stars = 1
+forks = 1
+watching = 11
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-load-tester"
+last_commit = "f65efb9f436e162e5f240553b6e50695ae3850e7"
+last_commit_time = "2022-07-20T23:47"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 4
+tag_count = 0
+branches = 10
+commits = 4
+watching = 8
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-netstats"
+last_commit = "5a51d8e0098d2a8d99dcc5be6c9bbb6e3832e820"
+last_commit_time = "2022-03-02T22:22"
+status = "200"
+
+[repo.stats]
+commits = 11
+watching = 0
+forks = 527
+stars = 0
+branches = 746
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-nft-minter-backend"
+last_commit = "478ed68930b39c85a3d2bcb691c459fd6ccff6bb"
+last_commit_time = "2021-06-03T04:55"
+status = "200"
+
+[repo.stats]
+stars = 13
+forks = 15
+branches = 1
+tag_count = 0
+commits = 1
+watching = 11
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-nft-minter-frontend"
+status = "200"
+
+[repo.stats]
+watching = 11
+stars = 14
+branches = 1
+tag_count = 0
+forks = 16
+commits = 1
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-reward-tester"
+last_commit = "49cdf6c1fb0977656821a99938acd09e57b9013a"
+last_commit_time = "2022-04-29T02:31"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 8
+branches = 4
+tag_count = 0
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-rpc-tester"
+last_commit = "27f70d2f289840fc20621553638fb5cf7b221343"
+last_commit_time = "2022-07-22T05:50"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 8
+branches = 46
+stars = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-safe-contracts"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+branches = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-terraform"
+last_commit = "9ce63b3ca8c7b484408fe4bebe325b6713913426"
+last_commit_time = "2022-06-08T09:17"
+status = "200"
+
+[repo.stats]
+stars = 3
+forks = 6
+commits = 3
+tag_count = 0
+watching = 13
+branches = 67
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-tests"
+last_commit = "5fd79dbe91bb820edc94ccb590c4565935380154"
+last_commit_time = "2022-07-15T01:56"
+status = "200"
+
+[repo.stats]
+branches = 8
+commits = 1
+watching = 14
+tag_count = 0
+forks = 4
+stars = 3
 
 [[repo]]
 url = "https://github.com/klaytn/klaytnjs-devp2p"
+last_commit = "41a7cc28534e6eaceee6bbfa3e63d38184a7d778"
+last_commit_time = "2020-12-04T10:37"
+status = "200"
+
+[repo.stats]
+forks = 59
+commits = 3
+branches = 206
+watching = 1
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/klaytn/klaytnjs-monorepo"
+last_commit = "f96c9ecf7c0b0e94d6882889c4b3cbf85a55da86"
+last_commit_time = "2022-03-03T01:37"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 46
+forks = 552
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/klaytn/klaytnwallet"
+status = "200"
+
+[repo.stats]
+forks = 28
+tag_count = 0
+watching = 15
+stars = 16
+branches = 110
+commits = 26
 
 [[repo]]
 url = "https://github.com/klaytn/local-klaytn-deploy"
+status = "200"
+
+[repo.stats]
+forks = 6
+tag_count = 0
+commits = 1
+watching = 15
+branches = 10
+stars = 5
 
 [[repo]]
 url = "https://github.com/klaytn/locust-load-tester"
+last_commit = "f65efb9f436e162e5f240553b6e50695ae3850e7"
+last_commit_time = "2022-07-20T23:47"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 8
+stars = 0
+forks = 4
+branches = 10
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/payer-express"
+status = "404"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 0
+tag_count = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/klaytn/project-management"
+last_commit = "9ffa8fe2a4684cf7d5bbdcdd132a4a46619ae097"
+last_commit_time = "2022-02-04T02:13"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 1
+tag_count = 0
+watching = 8
+branches = 8
+commits = 1
 
 [[repo]]
 url = "https://github.com/klaytn/reward-tester"
+last_commit = "49cdf6c1fb0977656821a99938acd09e57b9013a"
+last_commit_time = "2022-04-29T02:31"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 2
+watching = 8
+branches = 4
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/rosetta-klaytn"
+last_commit = "b5d719dcad7fb469a0e91c1276bee5ffdef22e93"
+last_commit_time = "2022-08-02T01:25"
+status = "200"
+
+[repo.stats]
+watching = 9
+forks = 3
+branches = 325
+stars = 1
+tag_count = 0
+commits = 7
 
 [[repo]]
 url = "https://github.com/klaytn/rosetta-sdk-go-klaytn"
+last_commit = "34a3f989ee5f152135e9ab2f64134502ce2e3474"
+last_commit_time = "2022-05-19T02:22"
+status = "200"
+
+[repo.stats]
+commits = 8
+watching = 8
+branches = 0
+tag_count = 0
+forks = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/klaytn/safe-react"
+status = "404"
+
+[repo.stats]
+watching = 0
+stars = 0
+branches = 0
+commits = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/sc-vt"
+last_commit = "48ddd9159aeafe157f34cbbec214930acb8cd064"
+last_commit_time = "2022-07-19T09:11"
+status = "200"
+
+[repo.stats]
+forks = 5
+stars = 0
+tag_count = 0
+commits = 1
+watching = 10
+branches = 8
 
 [[repo]]
 url = "https://github.com/klaytn/service-chain-deploy"
+last_commit = "fba361e8a1cc9315542a71942ce0674f3b3ac444"
+last_commit_time = "2022-06-08T02:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 10
+stars = 0
+forks = 4
+branches = 25
+commits = 1
 
 [[repo]]
 url = "https://github.com/klaytn/servicechain-contracts"
+last_commit = "f4680b423155aba7b85b4998920c0086279fe7ce"
+last_commit_time = "2022-08-02T06:54"
+status = "200"
+
+[repo.stats]
+watching = 8
+commits = 2
+stars = 0
+forks = 1
+branches = 94
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/klaytn/servicechain-deploy"
+last_commit = "fba361e8a1cc9315542a71942ce0674f3b3ac444"
+last_commit_time = "2022-06-08T02:16"
+status = "200"
+
+[repo.stats]
+watching = 10
+branches = 25
+tag_count = 0
+commits = 1
+stars = 0
+forks = 4
 
 [[repo]]
 url = "https://github.com/klaytn/servicechain-value-transfer-examples"
+last_commit = "48ddd9159aeafe157f34cbbec214930acb8cd064"
+last_commit_time = "2022-07-19T09:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 8
+commits = 1
+watching = 10
+forks = 5
 
 [[repo]]
 url = "https://github.com/klaytn/smart-contract-best-practices-kr"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+tag_count = 0
+commits = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/klaytn/truffle-hdwallet-provider-klaytn"
+last_commit = "5284e5182d0139fdf12d0617a2079bdbd544f2cc"
+last_commit_time = "2021-12-24T04:39"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 15
+tag_count = 0
+commits = 4
+forks = 8
+stars = 8
 
 [[repo]]
 url = "https://github.com/klaytn/tx-latency-measurement"
+last_commit = "7d85e5f415930e372b215ccab3a821a66ca4d16a"
+last_commit_time = "2022-06-09T01:56"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 8
+commits = 1
+tag_count = 0
+forks = 1
+branches = 41
 
 [[repo]]
 url = "https://github.com/klaytn/xgo"
+last_commit = "0d7e3e080122cbac1347a62b1cb66fc2ce82b8e5"
+last_commit_time = "2022-04-20T02:07"
+status = "200"
+
+[repo.stats]
+branches = 193
+tag_count = 0
+stars = 2
+watching = 2
+commits = 2
+forks = 283

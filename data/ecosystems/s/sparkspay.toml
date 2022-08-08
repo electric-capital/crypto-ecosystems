@@ -1,130 +1,578 @@
-# Ecosystem Level Information
 title = "SparksPay"
-
+toml_path = "data/ecosystems/s/sparkspay.toml"
+github_organizations = ["https://github.com/sparkspay"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/sparkspay"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/sparkspay/atomicswap"
+last_commit = "59fbc12908653d1250cd1b5e9ab6072f381d0614"
+last_commit_time = "2018-11-01T19:58"
+status = "200"
+
+[repo.stats]
+branches = 47
+tag_count = 0
+commits = 2
+watching = 1
+forks = 241
+stars = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/bip39-sparks"
+last_commit = "210b275e37ee3b19072cda0609d5aac82a4bf312"
+last_commit_time = "2019-03-30T12:14"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 0
+branches = 2
+forks = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/sparkspay/bitcore-build-sparks"
+last_commit = "1bd2a9e931c99716ff27caf2da44dcce5bd820da"
+last_commit_time = "2019-03-23T22:14"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+stars = 0
+commits = 1
+tag_count = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/sparkspay/bitcore-lib-sparks"
+last_commit = "0f99695851fb9945ec5e6a340993c8231600ac73"
+last_commit_time = "2019-03-23T22:09"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+watching = 1
+branches = 1
+commits = 3
 
 [[repo]]
 url = "https://github.com/sparkspay/bitcore-mnemonic-sparks"
+last_commit = "0d95107010d4a4d71537c587b5b20a1864751e02"
+last_commit_time = "2019-03-23T22:22"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+tag_count = 0
+branches = 1
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/sparkspay/bitcore-node-sparks"
+last_commit = "fa29a76e049254616283d8240b897312a40fc62a"
+last_commit_time = "2019-03-23T23:43"
+status = "200"
+
+[repo.stats]
+branches = 4
+commits = 3
+watching = 1
+forks = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/bitcore-p2p-sparks"
+last_commit = "a916bdbfcb4747e1a5481ab1428e44986f091316"
+last_commit_time = "2019-03-23T22:41"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+tag_count = 0
+watching = 1
+stars = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/sparkspay/bitcore-payment-protocol-sparks"
+last_commit = "ae6a49c08c26ef19dd9ddbda6b6d57f818f4d772"
+last_commit_time = "2019-03-23T22:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 1
+forks = 0
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/bitcore-wallet-client-sparks"
+last_commit = "44296836610667540dae7e63a1428bd5886c76f0"
+last_commit_time = "2019-03-23T22:49"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+commits = 2
+branches = 1
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/bitcore-wallet-service-sparks"
+last_commit = "a4443d693d526b89fa9cddfcc14dd4b4e1f69c4b"
+last_commit_time = "2019-03-23T23:55"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+stars = 0
+forks = 0
+branches = 2
+commits = 2
 
 [[repo]]
 url = "https://github.com/sparkspay/bitcored-rpc-sparks"
+last_commit = "15a2e3575d5184c0cf4902d7bbaf24184554268e"
+last_commit_time = "2019-03-23T22:57"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 1
+commits = 3
+tag_count = 0
+watching = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/btcpayserver"
+last_commit = "00aa2e4e1785b0eb990ec13d9d4a2fdd007a89af"
+last_commit_time = "2019-01-21T08:11"
+status = "200"
+
+[repo.stats]
+commits = 4
+watching = 2
+branches = 0
+stars = 0
+forks = 911
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/ciquidus"
+last_commit = "fdf0d25a8bfced0aaa811db37371bd2656a74191"
+last_commit_time = "2019-04-23T11:10"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+forks = 0
+commits = 3
+stars = 0
+branches = 300
 
 [[repo]]
 url = "https://github.com/sparkspay/CoinMarketCap-Discord-Bot"
+last_commit = "dd4ffc44bcc3ad71df533260f0913ffc6cb45d47"
+last_commit_time = "2018-05-24T06:24"
+status = "200"
+
+[repo.stats]
+branches = 8
+commits = 1
+watching = 1
+stars = 0
+tag_count = 0
+forks = 3
 
 [[repo]]
 url = "https://github.com/sparkspay/copay-sparks"
+last_commit = "95aa0598430f4e9e741211c56f7112841d67efa3"
+last_commit_time = "2019-03-29T22:01"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+tag_count = 0
+branches = 20
+commits = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/docker-sparks-core"
+last_commit = "c316c29c60e1401df9dd863943b406260ea36312"
+last_commit_time = "2019-03-20T14:13"
+status = "200"
+
+[repo.stats]
+forks = 21
+commits = 1
+stars = 0
+tag_count = 0
+watching = 2
+branches = 13
 
 [[repo]]
 url = "https://github.com/sparkspay/electrum-sparks"
+last_commit = "f63513f257a4c6a3a6bb65c46a25c5954821e616"
+last_commit_time = "2019-04-05T20:40"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 2
+branches = 17
+forks = 1
+tag_count = 0
+commits = 7
 
 [[repo]]
 url = "https://github.com/sparkspay/electrumx"
+last_commit = "293f0b7faf2236102efce9535893e248019678e7"
+last_commit_time = "2019-02-11T17:18"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 0
+forks = 798
+commits = 2
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/gitian.sigs"
+last_commit = "3ebce6dcff7f797d7cd4ba3e1249b0a311ed844c"
+last_commit_time = "2022-06-24T13:47"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 6
+commits = 1
+forks = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/go-neoscrypt"
+last_commit = "0a1ceb3189412f81a3a1c1e8c87166bb149d5918"
+last_commit_time = "2019-02-18T12:01"
+status = "200"
+
+[repo.stats]
+branches = 3
+watching = 1
+forks = 0
+tag_count = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/go-sparks"
+last_commit = "306aecffea325e97f513b3ff0cf7895a5310651d"
+last_commit_time = "2019-02-13T02:52"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+branches = 0
+commits = 1
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/go-sparksutil"
+last_commit = "4c204d6978034c001714728401fcd63060d568b4"
+last_commit_time = "2019-02-07T00:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 241
+watching = 1
+commits = 2
+forks = 407
+stars = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/go-sparkswallet"
+last_commit = "b51c1adeee55b628c71f6cb7fe7ea44dfe6efc00"
+last_commit_time = "2019-02-13T03:46"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+forks = 430
+commits = 2
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/insight-api-sparks"
+last_commit = "4e4ce738ce34da563c8edc200a7733ed82e51bc9"
+last_commit_time = "2019-03-23T23:51"
+status = "200"
+
+[repo.stats]
+branches = 3
+tag_count = 0
+commits = 3
+forks = 0
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/sparkspay/insight-ui-sparks"
+last_commit = "ca2e8ca6417460c1b9544177c3f60eb0fe6ee418"
+last_commit_time = "2019-03-23T23:23"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 4
+forks = 0
+watching = 1
+tag_count = 0
+branches = 1
 
 [[repo]]
 url = "https://github.com/sparkspay/media-resources"
+last_commit = "03e3875e6d58eb0994a3a600e3a916efdf355c18"
+last_commit_time = "2019-02-08T10:16"
+status = "200"
+
+[repo.stats]
+branches = 4
+forks = 0
+tag_count = 0
+stars = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/sparkspay/NBitcoin"
+last_commit = "1b507f8337cca952369ff036cf7910848e3a4c62"
+last_commit_time = "2019-01-31T13:53"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 0
+forks = 820
+stars = 0
+tag_count = 0
+commits = 7
 
 [[repo]]
 url = "https://github.com/sparkspay/NBXplorer"
+last_commit = "eca29c308a1dd0ff38e0fe32a6462f83c99324e6"
+last_commit_time = "2019-01-29T03:23"
+status = "200"
+
+[repo.stats]
+branches = 545
+watching = 1
+stars = 0
+tag_count = 0
+commits = 2
+forks = 187
 
 [[repo]]
 url = "https://github.com/sparkspay/neoscrypt_module"
+last_commit = "caec9c6c8953e3889fd7e16b465ce8444218d8bd"
+last_commit_time = "2018-10-13T20:32"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+tag_count = 0
+commits = 1
+forks = 0
+branches = 13
 
 [[repo]]
 url = "https://github.com/sparkspay/NeoScryptCSharp"
+last_commit = "efeb79158fe2da43ac223fefd9002235887ac10e"
+last_commit_time = "2018-08-02T13:28"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 1
+forks = 2
+tag_count = 0
+branches = 9
+stars = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/python-neoscrypt"
+last_commit = "8d46390d056e04d2e2fbe38576570a9a60453f49"
+last_commit_time = "2019-02-17T15:27"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 1
+tag_count = 0
+branches = 6
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/QBitNinja"
+last_commit = "135a04559f7bf4fc65a6c3de63ca13ebb58eda7b"
+last_commit_time = "2018-10-24T08:10"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 1
+forks = 43
+branches = 429
+commits = 1
 
 [[repo]]
 url = "https://github.com/sparkspay/sentinel"
+last_commit = "fa7dea776349dc57006dd40d625c8d74cdde2be7"
+last_commit_time = "2019-02-06T11:43"
+status = "200"
+
+[repo.stats]
+forks = 203
+tag_count = 0
+branches = 749
+watching = 2
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/sparks"
+last_commit = "5c5141e1bf7eb7fcad7cf7d771418a047d8af1ab"
+last_commit_time = "2022-07-12T07:39"
+status = "200"
+
+[repo.stats]
+commits = 6
+forks = 5
+watching = 2
+tag_count = 0
+stars = 9
+branches = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/sparks-deb"
+last_commit = "370be67f6435d878e97d591e63079eb3c6ae755b"
+last_commit_time = "2019-07-16T09:12"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 32
+forks = 0
+stars = 2
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/sparkspay/sparks-detached-sigs"
+last_commit = "aec1e733227445f09e29430eafc3a7f58bb1e664"
+last_commit_time = "2020-10-13T07:46"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+watching = 1
+branches = 1
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/sparkspay/sparks-mnrank"
+last_commit = "4c96001cb30d9cd55c0e5a25b41fdacdb66781ae"
+last_commit_time = "2019-02-15T19:29"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 0
+tag_count = 0
+branches = 3
+commits = 2
 
 [[repo]]
 url = "https://github.com/sparkspay/sparks-seeder"
+last_commit = "9a522c14bd02dcb86a9c38e4f09088131c82921e"
+last_commit_time = "2019-04-20T13:21"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 956
+branches = 162
+tag_count = 0
+stars = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/sparkspay/SparksMasternodeInstall"
+last_commit = "453bc8f4078e4d07e67b45ebc38929e1d29dec54"
+last_commit_time = "2019-07-03T16:04"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 0
+tag_count = 0
+stars = 0
+watching = 1
+branches = 94
 
 [[repo]]
 url = "https://github.com/sparkspay/sparksrank"
+last_commit = "6d9f6907a5bc4c61dff21bb43b85408f066f532e"
+last_commit_time = "2019-02-13T12:45"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 1
+tag_count = 0
+commits = 1
+stars = 0
+branches = 56
 
 [[repo]]
 url = "https://github.com/sparkspay/TipBot"
+last_commit = "1ed3c40e40eec933a534b9cbeaabeafe9f610bef"
+last_commit_time = "2019-02-13T17:10"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 1
+tag_count = 0
+branches = 93
+forks = 120
+stars = 0

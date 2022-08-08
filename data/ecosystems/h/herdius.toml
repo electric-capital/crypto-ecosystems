@@ -1,22 +1,74 @@
-# Ecosystem Level Information
 title = "Herdius"
-
+toml_path = "data/ecosystems/h/herdius.toml"
+github_organizations = ["https://github.com/herdius"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/herdius"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/herdius/herdius-blockchain-api"
+last_commit = "a3e8eeb3ee5780139f3edb932ab91ebfff4ce675"
+last_commit_time = "2019-12-26T11:16"
+status = "200"
+
+[repo.stats]
+branches = 324
+commits = 19
+forks = 0
+stars = 5
+watching = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/herdius/herdius-core"
+last_commit = "868bdbc5e09b721ca269708566e2f9b47d73eb1c"
+last_commit_time = "2020-09-08T10:30"
+status = "200"
+
+[repo.stats]
+stars = 13
+commits = 69
+watching = 9
+forks = 3
+tag_count = 0
+branches = 692
 
 [[repo]]
 url = "https://github.com/herdius/herdius-node"
+last_commit = "7d71f02b5f5854dd8fc26c2c734b435c80290e51"
+last_commit_time = "2020-10-01T08:16"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 29
+stars = 2
+forks = 2
+watching = 7
+commits = 7
 
 [[repo]]
 url = "https://github.com/herdius/solo"
+last_commit = "e4c5983429335f2eaaf4c5a1d1233807f120cec0"
+last_commit_time = "2020-02-19T01:04"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 336
+watching = 1
+commits = 2
+forks = 105
 
 [[repo]]
 url = "https://github.com/herdius/walletversion"
+last_commit = "7cd3552a830b2087fa6a6d681c95bfb8be6cc64f"
+last_commit_time = "2019-07-29T17:50"
+status = "200"
+
+[repo.stats]
+watching = 2
+commits = 1
+stars = 0
+branches = 6
+tag_count = 0
+forks = 0

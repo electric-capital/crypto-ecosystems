@@ -1,94 +1,410 @@
-# Ecosystem Level Information
 title = "YFII"
-
+toml_path = "data/ecosystems/y/yfii.toml"
+github_organizations = ["https://github.com/yfii"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/yfii"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/yfii/assets"
+last_commit = "db1d2d36200f89518a017a2c86d07bac46ed3cf0"
+last_commit_time = "2020-10-06T09:59"
+status = "200"
+
+[repo.stats]
+forks = 0
+watching = 1
+branches = 0
+stars = 0
+tag_count = 0
+commits = 20
 
 [[repo]]
 url = "https://github.com/yfii/audit"
+last_commit = "3c1a932288564771429e55601641b06310bc482f"
+last_commit_time = "2020-09-27T06:50"
+status = "200"
+
+[repo.stats]
+branches = 2
+tag_count = 0
+commits = 1
+stars = 3
+forks = 3
+watching = 2
 
 [[repo]]
 url = "https://github.com/yfii/bal-mining-scripts"
+last_commit = "2738deab319d0c193e842e5fa6fcb72361282c2a"
+last_commit_time = "2020-08-25T07:33"
+status = "200"
+
+[repo.stats]
+forks = 84
+stars = 0
+watching = 1
+tag_count = 0
+branches = 90
+commits = 10
 
 [[repo]]
 url = "https://github.com/yfii/bsc-testprod"
+last_commit = "5dfa703d0f2f227c693aecdbc27b97274db9d056"
+last_commit_time = "2020-09-17T07:10"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 1
+stars = 0
+forks = 1
+watching = 2
+commits = 2
 
 [[repo]]
 url = "https://github.com/yfii/burn"
+last_commit = "d4d59ec803eda312f14aae45f3c97bb7c7e0a44f"
+last_commit_time = "2020-10-06T14:03"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 4
+forks = 5
+tag_count = 0
+commits = 1
+branches = 5
 
 [[repo]]
 url = "https://github.com/yfii/Decentralization"
+last_commit = "a0c9c71d94585724adf88722c7d790ce015b6f0f"
+last_commit_time = "2020-10-06T14:02"
+status = "200"
+
+[repo.stats]
+forks = 6
+stars = 0
+watching = 3
+tag_count = 0
+branches = 6
+commits = 1
 
 [[repo]]
 url = "https://github.com/yfii/DeFi-Pulse-Adapters"
+last_commit = "742e07cf9e659244b4c6a130d0b750d49bab480a"
+last_commit_time = "2020-08-09T14:06"
+status = "200"
+
+[repo.stats]
+commits = 27
+tag_count = 0
+forks = 493
+branches = 299
+watching = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/yfii/dfi"
+last_commit = "a52fb541083821fcc865d2a2eb26a0b55edd0c50"
+last_commit_time = "2020-12-13T14:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 440
+stars = 47
+commits = 7
+forks = 346
+watching = 7
 
 [[repo]]
 url = "https://github.com/yfii/dfi.money"
+last_commit = "bdae361b5b93fde4a8adde01bc3619141b892496"
+last_commit_time = "2021-04-07T09:38"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 5
+branches = 39
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/yfii/docs"
+last_commit = "8e3c580276994ec5d5a57434e007a8aa1306e927"
+last_commit_time = "2020-10-06T12:23"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 10
+tag_count = 0
+branches = 40
+stars = 8
+watching = 4
 
 [[repo]]
 url = "https://github.com/yfii/eth-phishing-detect"
+last_commit = "06ab27d45d98a0e4e6f8ebe94ab23806483d0c71"
+last_commit_time = "2020-07-27T06:45"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+commits = 4
+forks = 547
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/yfii/iearn-finance"
+last_commit = "38b397e9c67e7cee26c9c6505072a8790e32e68f"
+last_commit_time = "2020-08-30T15:07"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+tag_count = 0
+commits = 6
+forks = 285
+branches = 280
 
 [[repo]]
 url = "https://github.com/yfii/keys"
+last_commit = "620d8ce1cd3edbd5b48ee6150397221bae9d3bd7"
+last_commit_time = "2020-10-06T14:03"
+status = "200"
+
+[repo.stats]
+forks = 8
+commits = 2
+branches = 23
+watching = 2
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/yfii/kovan.yfii.finance"
+last_commit = "c4fa830147882c72fa8a688522b32f51be4c2e31"
+last_commit_time = "2020-07-27T08:54"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 1
+stars = 1
+tag_count = 0
+commits = 2
+forks = 4
 
 [[repo]]
 url = "https://github.com/yfii/pool-management"
+last_commit = "5f9f629742a6e6f058cfdf758b3d04a9deef9e8a"
+last_commit_time = "2020-07-28T07:56"
+status = "200"
+
+[repo.stats]
+commits = 11
+forks = 43
+watching = 1
+tag_count = 0
+branches = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/yfii/token-profile"
+last_commit = "974e6b94a91895c415f5287b49be25d87c06fd35"
+last_commit_time = "2020-09-29T06:20"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 0
+forks = 0
+stars = 0
+tag_count = 0
+commits = 46
 
 [[repo]]
 url = "https://github.com/yfii/v1.dfi.money"
+last_commit = "cbda1c1688b65e66e47ac4ec84be0e0d5e660988"
+last_commit_time = "2020-09-09T05:10"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 1
+tag_count = 0
+stars = 0
+branches = 189
+commits = 2
 
 [[repo]]
 url = "https://github.com/yfii/vault"
+last_commit = "034036eca274e07262dace528683662f3c72b4a4"
+last_commit_time = "2020-09-01T06:28"
+status = "200"
+
+[repo.stats]
+forks = 29
+branches = 204
+commits = 5
+tag_count = 0
+stars = 37
+watching = 4
 
 [[repo]]
 url = "https://github.com/yfii/vault-testprod"
+last_commit = "34664e56ba1eee75b6e1c8721d0da54323b4383c"
+last_commit_time = "2020-11-05T11:23"
+status = "200"
+
+[repo.stats]
+forks = 4
+tag_count = 0
+branches = 41
+stars = 0
+watching = 2
+commits = 2
 
 [[repo]]
 url = "https://github.com/yfii/yficontract"
+last_commit = "47b1af6faf77fdf3a8bf4235f8a22696196357c4"
+last_commit_time = "2020-08-01T09:19"
+status = "200"
+
+[repo.stats]
+watching = 4
+commits = 1
+tag_count = 0
+stars = 16
+branches = 28
+forks = 16
 
 [[repo]]
 url = "https://github.com/yfii/yfii-finance"
+last_commit = "8c264a9f62dbf4135ed8f141ceac457c8f2af114"
+last_commit_time = "2020-09-28T14:34"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 7
+watching = 2
+forks = 105
+branches = 142
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/yfii/yfii-finance-cdn"
+last_commit = "c9578d6dfb622fc1cad2263e5e8fa4578c55b127"
+last_commit_time = "2020-08-28T15:43"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 8
+branches = 6
+watching = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/yfii/yfii-stats"
+last_commit = "4018c281a1b127c6a0a5957786b393f843f05974"
+last_commit_time = "2020-09-25T05:36"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+forks = 7
+branches = 24
+stars = 1
+commits = 2
 
 [[repo]]
 url = "https://github.com/yfii/yfii_stats"
+last_commit = "6e11c6ccacb7e9bb8a1b3f73678a8086725c406d"
+last_commit_time = "2020-09-25T05:38"
+status = "200"
+
+[repo.stats]
+forks = 3
+commits = 1
+stars = 0
+tag_count = 0
+watching = 1
+branches = 15
 
 [[repo]]
 url = "https://github.com/yfii/yfiiapi"
+last_commit = "2c0341b66108f99005dc5a40e3d1d30267f50bb5"
+last_commit_time = "2020-11-22T13:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 7
+watching = 1
+stars = 3
+branches = 0
 
 [[repo]]
 url = "https://github.com/yfii/yield-farming-tools"
+last_commit = "8d805f31e00c8aa73763f5ba00a863e91d96f188"
+last_commit_time = "2020-08-18T06:51"
+status = "200"
+
+[repo.stats]
+forks = 34
+watching = 1
+branches = 57
+tag_count = 0
+commits = 1
+stars = 0
 
 [[repo]]
 url = "https://github.com/yfii/yieldfarming"
+last_commit = "061f093000258ff27c8fa99c423a6b9d9f6d027e"
+last_commit_time = "2020-07-28T17:02"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 3
+forks = 153
+tag_count = 0
+stars = 1
+branches = 74
 
 [[repo]]
 url = "https://github.com/yfii/YIPS"
+last_commit = "1cc597edc01491cf5c5cdf687e12a7083b148c66"
+last_commit_time = "2020-10-06T14:01"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 68
+commits = 1
+branches = 75
+stars = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/yfii/yvault"
+last_commit = "4e6ba880eefe1e2160524d30c087ab24c5e8d0ef"
+last_commit_time = "2020-12-16T08:08"
+status = "200"
+
+[repo.stats]
+branches = 356
+forks = 55
+watching = 6
+tag_count = 0
+stars = 62
+commits = 7

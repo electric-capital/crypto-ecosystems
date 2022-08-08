@@ -1,76 +1,326 @@
-# Ecosystem Level Information
 title = "State Channels"
-
+toml_path = "data/ecosystems/s/state-channels.toml"
+github_organizations = ["https://github.com/statechannels"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/statechannels"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/statechannels/apps"
+last_commit = "e4f5bf778d513432f0cbef1856eaeb5d1359e6de"
+last_commit_time = "2021-07-28T08:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 4
+stars = 7
+branches = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/statechannels/bytecode-debugger"
+last_commit = "9b4f69b1c80e95ab6f30841c7a2783906b392a79"
+last_commit_time = "2021-09-02T20:29"
+status = "200"
+
+[repo.stats]
+commits = 5
+watching = 5
+forks = 2
+stars = 7
+tag_count = 0
+branches = 75
 
 [[repo]]
 url = "https://github.com/statechannels/cross-chain-swaps"
+last_commit = "d8c51c324e52e518634c9a0eef07fff77a52da85"
+last_commit_time = "2021-05-26T16:34"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+branches = 84
+commits = 6
+watching = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/statechannels/devgrants"
+last_commit = "7b7806527a12b394e79c7832a6fa77c52554a226"
+last_commit_time = "2021-06-25T02:49"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 9
+watching = 0
+branches = 176
+stars = 0
+forks = 282
 
 [[repo]]
 url = "https://github.com/statechannels/dispute-game"
+last_commit = "b45a5a3d800c2a2ae694776ae4acd1cd8c125163"
+last_commit_time = "2021-11-12T17:32"
+status = "200"
+
+[repo.stats]
+stars = 6
+tag_count = 0
+branches = 164
+forks = 0
+commits = 26
+watching = 5
 
 [[repo]]
 url = "https://github.com/statechannels/exit-format"
+last_commit = "c02464b45a82b3d50e023c7f37c332fa69a4ba0f"
+last_commit_time = "2022-06-28T11:59"
+status = "200"
+
+[repo.stats]
+commits = 19
+watching = 5
+tag_count = 0
+stars = 13
+forks = 3
+branches = 219
 
 [[repo]]
 url = "https://github.com/statechannels/fast-exit"
+last_commit = "307ec953bcc33a169d22a0d80d296cb44d140590"
+last_commit_time = "2022-02-07T15:58"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 1
+tag_count = 0
+branches = 332
+commits = 31
+stars = 10
 
 [[repo]]
 url = "https://github.com/statechannels/go-nitro"
+last_commit = "be6722ab3348a6c7a210f42d02ef46992e3f6b14"
+last_commit_time = "2022-07-29T17:54"
+status = "200"
+
+[repo.stats]
+forks = 5
+watching = 4
+stars = 12
+commits = 145
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/statechannels/graph-payments"
+last_commit = "07d48450e5872cadf41aa1a6926806f89d4faa92"
+last_commit_time = "2021-03-08T03:57"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 94
+commits = 12
+forks = 1
+stars = 7
+watching = 6
 
 [[repo]]
 url = "https://github.com/statechannels/legacy-packages"
+last_commit = "1dd0181882e7719f104e31cc481d2247a137c8f9"
+last_commit_time = "2020-11-09T15:19"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 1
+forks = 0
+watching = 5
+branches = 0
 
 [[repo]]
 url = "https://github.com/statechannels/native-utils"
+last_commit = "f8af7aeec54c30272cd1df9e624fa0cdf5ec524f"
+last_commit_time = "2021-09-13T08:19"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 0
+watching = 5
+tag_count = 0
+branches = 71
+commits = 8
 
 [[repo]]
 url = "https://github.com/statechannels/nitro-protocol"
+last_commit = "991b81261f7669d7bef967ae2390ec70f31d730f"
+last_commit_time = "2019-09-25T11:17"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 38
+watching = 6
+tag_count = 0
+forks = 0
+stars = 5
 
 [[repo]]
 url = "https://github.com/statechannels/nitro-tutorial"
+last_commit = "9bf32f188e871ad0ae2cd8fba2d45794c65e6e16"
+last_commit_time = "2020-10-13T17:08"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 4
+tag_count = 0
+forks = 2
+branches = 101
+commits = 18
 
 [[repo]]
 url = "https://github.com/statechannels/old-website"
+last_commit = "a6c9bf21ab45fef2b6a5816790d4cfb05bde7e51"
+last_commit_time = "2019-10-18T02:10"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 1
+watching = 1
+tag_count = 0
+branches = 9
+commits = 1
 
 [[repo]]
 url = "https://github.com/statechannels/ref-fvm"
+last_commit = "cfbb6b11878afc90afde964da6b22c4709db5123"
+last_commit_time = "2022-07-12T17:48"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 51
+tag_count = 0
+branches = 0
+commits = 72
 
 [[repo]]
 url = "https://github.com/statechannels/research.statechannels.org"
+last_commit = "304dbaf3dcc96f801b3952100ddafa10f0e4c40a"
+last_commit_time = "2020-02-11T18:00"
+status = "200"
+
+[repo.stats]
+watching = 6
+branches = 1
+commits = 1
+tag_count = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/statechannels/SAFE-protocol"
+last_commit = "307ec953bcc33a169d22a0d80d296cb44d140590"
+last_commit_time = "2022-02-07T15:58"
+status = "200"
+
+[repo.stats]
+stars = 10
+forks = 1
+watching = 3
+branches = 332
+commits = 31
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/statechannels/solidoc"
+last_commit = "3235c4f8be624a36710502c9021cfbd47a9a0f49"
+last_commit_time = "2020-12-04T21:30"
+status = "200"
+
+[repo.stats]
+branches = 26
+tag_count = 0
+commits = 1
+stars = 4
+watching = 1
+forks = 15
 
 [[repo]]
 url = "https://github.com/statechannels/statechannels"
+last_commit = "55ab6fd28ab1bade93a7d9648b25a8b63bd9dd55"
+last_commit_time = "2021-10-19T13:58"
+status = "200"
+
+[repo.stats]
+commits = 133
+stars = 130
+forks = 18
+branches = 0
+tag_count = 0
+watching = 8
 
 [[repo]]
 url = "https://github.com/statechannels/testground"
+last_commit = "b96ef59f822cd5f2b88111d1824cfcffe9d4f5b3"
+last_commit_time = "2022-07-08T20:36"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+forks = 53
+commits = 29
+branches = 869
 
 [[repo]]
 url = "https://github.com/statechannels/tla-specs"
+last_commit = "6d7227e2d18331c7a415b27cada2639557e99d48"
+last_commit_time = "2020-06-12T15:42"
+status = "200"
+
+[repo.stats]
+watching = 5
+stars = 15
+forks = 1
+tag_count = 0
+branches = 124
+commits = 2
 
 [[repo]]
 url = "https://github.com/statechannels/wallet-specs"
+last_commit = "a55fbb4b29f840f936028dbb1258209b02961935"
+last_commit_time = "2019-12-19T02:13"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 125
+watching = 4
+commits = 3
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/statechannels/website"
+last_commit = "1fa23a6eca0736b1017226562e82376829189129"
+last_commit_time = "2022-07-28T16:07"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+branches = 173
+forks = 1
+stars = 1
+commits = 24

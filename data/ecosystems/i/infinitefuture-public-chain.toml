@@ -1,22 +1,74 @@
-# Ecosystem Level Information
 title = "Infinitefuture Public Chain"
-
+toml_path = "data/ecosystems/i/infinitefuture-public-chain.toml"
+github_organizations = ["https://github.com/infinitefuturechain"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/infinitefuturechain"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/infinitefuturechain/explorer"
+last_commit = "668333e081f3ce97c4e3a7b15d4116db8c76cbe7"
+last_commit_time = "2020-08-12T09:55"
+status = "200"
+
+[repo.stats]
+branches = 1
+watching = 1
+tag_count = 0
+commits = 1
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/infinitefuturechain/infinitefuture"
+last_commit = "26c3af172e0b6163179b93e1436edf9c3b3ae1a6"
+last_commit_time = "2020-08-17T06:26"
+status = "200"
+
+[repo.stats]
+branches = 3
+stars = 1
+tag_count = 0
+commits = 1
+watching = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/infinitefuturechain/infinitefuture-sdk"
+last_commit = "22c288d2009c46369f540760524662c56f70e651"
+last_commit_time = "2020-08-17T06:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 3
+commits = 1
+forks = 1
+stars = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/infinitefuturechain/mainnet"
+last_commit = "4df1e6db36e4cb42bb0663c41ff638f6f36e4321"
+last_commit_time = "2020-08-27T06:40"
+status = "200"
+
+[repo.stats]
+branches = 15
+watching = 1
+stars = 0
+tag_count = 0
+forks = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/infinitefuturechain/wallet"
+last_commit = "519399d59fce7729038c885eb62aeaefd34ec5a2"
+last_commit_time = "2020-08-12T09:58"
+status = "200"
+
+[repo.stats]
+branches = 1
+stars = 0
+watching = 1
+tag_count = 0
+commits = 1
+forks = 0

@@ -1,13 +1,32 @@
-# Ecosystem Level Information
 title = "belt-finance"
-
+toml_path = "data/ecosystems/b/belt-finance.toml"
+github_organizations = ["https://github.com/BeltFi"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/BeltFi"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/BeltFi/belt-contract"
+last_commit = "ef9f4c221e8dbe29826c2ac852551f3825f722ab"
+last_commit_time = "2021-12-23T03:24"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 45
+stars = 34
+watching = 5
+forks = 31
+commits = 1
 
 [[repo]]
 url = "https://github.com/BeltFi/bsc-ecosystem"
+last_commit = "24edbb5602177b8c4b94abcf37c70718d8ba03c4"
+last_commit_time = "2021-04-06T09:47"
+status = "200"
+
+[repo.stats]
+stars = 6
+commits = 7
+tag_count = 0
+forks = 170
+watching = 2
+branches = 39

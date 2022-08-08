@@ -1,13 +1,32 @@
-# Ecosystem Level Information
 title = "blockimmo"
-
+toml_path = "data/ecosystems/b/blockimmo.toml"
+github_organizations = ["https://github.com/blockimmo-ch"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/blockimmo-ch"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/blockimmo-ch/examples"
+last_commit = "9abe8b6937270dffb79b67d967bbe747357d9946"
+last_commit_time = "2018-02-27T06:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+forks = 0
+branches = 1
+stars = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/blockimmo-ch/openzeppelin-solidity"
+last_commit = "90480e7b8d484eaa57206080fbdb5874a78de2c5"
+last_commit_time = "2019-04-10T09:04"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 0
+watching = 2
+commits = 4
+tag_count = 0

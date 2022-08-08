@@ -1,43 +1,162 @@
-# Ecosystem Level Information
 title = "AWARE"
-
+toml_path = "data/ecosystems/a/aware.toml"
+github_organizations = ["https://github.com/AwareFoundation"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/AwareFoundation"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/AwareFoundation/AWARE-iOS"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+tag_count = 0
+watching = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/AwareFoundation/contracts"
+last_commit = "d0dc9fee02e6046ba597225a72c15f5615fc084f"
+last_commit_time = "2018-06-11T03:17"
+status = "200"
+
+[repo.stats]
+stars = 1
+commits = 1
+tag_count = 0
+branches = 2
+forks = 0
+watching = 2
 
 [[repo]]
 url = "https://github.com/AwareFoundation/go-ethereum"
+last_commit = "b5874273cec729adce84acf5848536d20fb60f7c"
+last_commit_time = "2017-12-07T14:49"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 22
+branches = 0
+stars = 0
+watching = 2
+forks = 0
 
 [[repo]]
 url = "https://github.com/AwareFoundation/pyethereum"
+last_commit = "47131f1ae224ff6ed9be8ec140d6e2df8d662c25"
+last_commit_time = "2017-12-08T01:43"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+stars = 0
+watching = 2
+commits = 30
+forks = 746
 
 [[repo]]
 url = "https://github.com/AwareFoundation/qtum"
+status = "404"
+
+[repo.stats]
+watching = 0
+forks = 0
+commits = 0
+tag_count = 0
+branches = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/AwareFoundation/qtum-electrum"
+status = "404"
+
+[repo.stats]
+branches = 0
+watching = 0
+stars = 0
+tag_count = 0
+forks = 0
+commits = 0
 
 [[repo]]
 url = "https://github.com/AwareFoundation/qtumjs"
+status = "404"
+
+[repo.stats]
+commits = 0
+stars = 0
+forks = 0
+branches = 0
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/AwareFoundation/solar"
+status = "404"
+
+[repo.stats]
+watching = 0
+branches = 0
+tag_count = 0
+stars = 0
+commits = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/AwareFoundation/token-profile"
+last_commit = "681685b66d3bbbadd1423ba7cb0d8ba3479ebc0a"
+last_commit_time = "2018-06-06T03:40"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 69
+watching = 2
+commits = 7
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/AwareFoundation/web3.js"
+last_commit = "59aae306c1c31ef6a65b9196e7f03af74c69e059"
+last_commit_time = "2018-05-17T13:04"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 8
+watching = 2
+branches = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/AwareFoundation/web3.py"
+last_commit = "3e4c90dca3e157dfc7bed9af50d93b7ef8d48794"
+last_commit_time = "2017-12-08T00:59"
+status = "200"
+
+[repo.stats]
+branches = 0
+forks = 0
+commits = 15
+watching = 3
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/AwareFoundation/zeppelin-solidity"
+last_commit = "323d1fa9415695f9132af17a9ebd57642afb7f29"
+last_commit_time = "2017-12-28T03:39"
+status = "200"
+
+[repo.stats]
+branches = 872
+tag_count = 0
+forks = 0
+watching = 3
+commits = 2
+stars = 0

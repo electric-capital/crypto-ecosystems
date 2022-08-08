@@ -1,232 +1,1044 @@
-# Ecosystem Level Information
 title = "DAML"
-
+toml_path = "data/ecosystems/d/daml.toml"
+github_organizations = ["https://github.com/digital-asset"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/digital-asset"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/digital-asset/blog-cbdc-examples"
+last_commit = "8dd5bccf2693314a850987f7cfcd5a1d890f69a9"
+last_commit_time = "2020-07-08T07:52"
+status = "200"
+
+[repo.stats]
+watching = 4
+stars = 0
+forks = 0
+branches = 4
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/digital-asset/boat"
+last_commit = "e27c078ae656fe609f82089017a17e20d1f7d9b6"
+last_commit_time = "2020-09-23T15:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+stars = 1
+forks = 0
+branches = 11
+commits = 1
 
 [[repo]]
 url = "https://github.com/digital-asset/canton"
+status = "200"
+
+[repo.stats]
+watching = 9
+forks = 7
+stars = 40
+branches = 32
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/contingent-claims"
+last_commit = "dffabb9d6a1a9fc5d7e8b2994c00b2a599e09f12"
+last_commit_time = "2022-08-04T15:50"
+status = "200"
+
+[repo.stats]
+branches = 100
+tag_count = 0
+stars = 4
+forks = 0
+watching = 6
+commits = 15
 
 [[repo]]
 url = "https://github.com/digital-asset/contracts-for-tshirts"
+last_commit = "431c1f6c69581bfaa73737afef1edeb04e771dd2"
+last_commit_time = "2020-06-14T12:44"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 6
+forks = 0
+watching = 4
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/digital-asset/create-daml-app"
+last_commit = "1ab76d2ec6bc38293203cb1de32982ae8c71f362"
+last_commit_time = "2021-02-08T16:51"
+status = "200"
+
+[repo.stats]
+stars = 2
+tag_count = 0
+forks = 2
+branches = 65
+commits = 10
+watching = 6
 
 [[repo]]
 url = "https://github.com/digital-asset/da-marketplace"
+last_commit = "c3d49027eafe597c380cbcf3b995f20113f15c6d"
+last_commit_time = "2022-07-21T19:01"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 4
+forks = 12
+commits = 33
+stars = 15
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/dabl-react"
+last_commit = "8901f7fa53e6e5ca75a60581f7a6bd9de68c8723"
+last_commit_time = "2022-07-21T18:32"
+status = "200"
+
+[repo.stats]
+branches = 162
+stars = 2
+watching = 10
+forks = 2
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/digital-asset/dablchat"
+last_commit = "bb692991d15d72665f0ed6ba3cba4629d864df78"
+last_commit_time = "2022-05-13T19:42"
+status = "200"
+
+[repo.stats]
+commits = 26
+forks = 3
+stars = 1
+tag_count = 0
+watching = 3
+branches = 138
 
 [[repo]]
 url = "https://github.com/digital-asset/dablchess"
+last_commit = "f8dc39413c80f52cdcbf939f5b321ae25841a651"
+last_commit_time = "2022-02-16T18:29"
+status = "200"
+
+[repo.stats]
+commits = 5
+stars = 1
+watching = 7
+forks = 2
+branches = 18
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/daml"
+status = "200"
+
+[repo.stats]
+watching = 37
+commits = 527
+branches = 0
+stars = 705
+tag_count = 0
+forks = 167
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-cheat-sheet"
+last_commit = "d41ef10405635f092c10a6237df2763a7b011afa"
+last_commit_time = "2022-06-13T12:20"
+status = "200"
+
+[repo.stats]
+watching = 10
+branches = 16
+tag_count = 0
+commits = 1
+stars = 5
+forks = 2
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-ctl"
+last_commit = "20d8fc491e03d9d1c673cedbf1421ce7ce1f9408"
+last_commit_time = "2022-07-18T13:37"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 9
+commits = 6
+stars = 0
+branches = 51
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-dit-api"
+last_commit = "ec0388ba4ec8c513352bc90c1e7ccaa13ed035be"
+last_commit_time = "2021-07-12T18:19"
+status = "200"
+
+[repo.stats]
+forks = 0
+commits = 24
+watching = 2
+stars = 0
+branches = 51
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-dit-arcade-index"
+last_commit = "b5f71bb5c5fe18c70d6c9dda91e90dd3a47f4162"
+last_commit_time = "2021-04-16T14:01"
+status = "200"
+
+[repo.stats]
+branches = 20
+forks = 1
+tag_count = 0
+commits = 9
+watching = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-dit-ddit"
+last_commit = "99ff5c3eb40c9369bb5d6137e51d4a9aada267a6"
+last_commit_time = "2021-11-29T21:57"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 1
+watching = 3
+branches = 136
+tag_count = 0
+commits = 33
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-dit-if"
+last_commit = "3699054f0d9c69eff698d4c94a0774ca4d0e2c7e"
+last_commit_time = "2022-07-26T17:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+stars = 0
+commits = 22
+watching = 2
+branches = 107
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-dit-integration-coindesk"
+last_commit = "10ba91e9327af00294fca8670f039d36b41e2bb9"
+last_commit_time = "2022-07-18T18:46"
+status = "200"
+
+[repo.stats]
+commits = 11
+forks = 0
+watching = 2
+branches = 24
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-dit-integration-core"
+last_commit = "52253d821f066edd630c5fce1aac09e178f37926"
+last_commit_time = "2022-07-18T18:46"
+status = "200"
+
+[repo.stats]
+watching = 2
+forks = 1
+branches = 57
+tag_count = 0
+commits = 22
+stars = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-dit-integration-exberry"
+last_commit = "f2062201c932e44addfcb94f6aa351d4dbc31682"
+last_commit_time = "2022-07-18T19:32"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 0
+branches = 45
+tag_count = 0
+watching = 2
+commits = 14
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-dit-integration-pricebot"
+last_commit = "4e7dac27f72aca4eb0ad4d82362107d04f41aa64"
+last_commit_time = "2020-08-19T21:12"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 2
+branches = 2
+tag_count = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-dit-integration-slack"
+last_commit = "49666ca4f5d7415b34d9f6d108554381417a9750"
+last_commit_time = "2022-07-18T18:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+watching = 2
+branches = 37
+commits = 12
+stars = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-dit-integration-symphony"
+last_commit = "54cefc75e2825de4aa91a17cce007bb3c9c7c9b0"
+last_commit_time = "2022-07-18T19:32"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 30
+commits = 9
+tag_count = 0
+watching = 3
+forks = 1
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-ghcide"
+last_commit = "0572146d4b792c6c67affe461e0bd07d49d9df72"
+last_commit_time = "2022-02-25T13:29"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 6
+tag_count = 0
+branches = 490
+forks = 1
+commits = 8
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-js"
+last_commit = "b2ffa858ee0ce4a7c645b66c72791ac6580276f7"
+last_commit_time = "2022-01-18T17:49"
+status = "200"
+
+[repo.stats]
+forks = 3
+commits = 5
+watching = 10
+stars = 8
+tag_count = 0
+branches = 76
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-katacoda"
+last_commit = "61a468653dca6ebfc1b7bbc447d5231094311e26"
+last_commit_time = "2022-05-30T15:44"
+status = "200"
+
+[repo.stats]
+watching = 6
+tag_count = 0
+stars = 2
+branches = 447
+commits = 28
+forks = 11
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-maven-plugin"
+last_commit = "0a0c553d86aafabceea7afbf9efe6f3056010f01"
+last_commit_time = "2021-04-14T16:04"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 4
+forks = 1
+branches = 29
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-net"
+last_commit = "a7853829d2cb7ba8b76b0140cc858caea6fec0cf"
+last_commit_time = "2021-03-04T13:00"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 3
+forks = 2
+commits = 4
+branches = 61
+watching = 13
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-on-fabric"
+last_commit = "53d81f494eee9a54196abda11105ef8292aba9d8"
+last_commit_time = "2022-05-19T00:48"
+status = "200"
+
+[repo.stats]
+branches = 68
+tag_count = 0
+forks = 18
+stars = 24
+commits = 4
+watching = 6
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-on-x-example"
+last_commit = "f6d8f893cb802b807c4bd65957060cc88812cc07"
+last_commit_time = "2020-05-16T02:26"
+status = "200"
+
+[repo.stats]
+forks = 5
+branches = 104
+watching = 15
+commits = 4
+tag_count = 0
+stars = 6
 
 [[repo]]
 url = "https://github.com/digital-asset/daml-ui-template"
+last_commit = "9c76c3548a65bd2603614e7760f460697d566dbf"
+last_commit_time = "2022-06-20T15:10"
+status = "200"
+
+[repo.stats]
+watching = 9
+commits = 24
+branches = 111
+forks = 12
+stars = 8
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/damlhub-api"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 0
+branches = 0
+commits = 0
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/davl"
+last_commit = "3b50b80b7a769c66e25b6e4a2432ac47022d9a74"
+last_commit_time = "2022-04-28T11:24"
+status = "200"
+
+[repo.stats]
+commits = 7
+stars = 5
+watching = 8
+tag_count = 0
+forks = 3
+branches = 337
 
 [[repo]]
 url = "https://github.com/digital-asset/dazl-client"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 620
+watching = 5
+stars = 10
+forks = 8
+commits = 13
 
 [[repo]]
 url = "https://github.com/digital-asset/derivhack2019"
+last_commit = "bd1d1922821136d145072dee8fc5951c0e4d8f66"
+last_commit_time = "2020-09-28T09:05"
+status = "200"
+
+[repo.stats]
+stars = 4
+watching = 4
+branches = 42
+tag_count = 0
+commits = 4
+forks = 10
 
 [[repo]]
 url = "https://github.com/digital-asset/dev-env"
+last_commit = "92c059d6b3bca29b8c097ac41a285140b4270bfd"
+last_commit_time = "2021-09-23T16:13"
+status = "200"
+
+[repo.stats]
+watching = 5
+tag_count = 0
+commits = 1
+stars = 34
+branches = 5
+forks = 5
 
 [[repo]]
 url = "https://github.com/digital-asset/docs.daml.com"
+last_commit = "916d04c00c62fcb89cfc207921c43dafcbbb5f3f"
+last_commit_time = "2022-07-27T11:43"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+branches = 24
+watching = 5
+stars = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-asset-servicing"
+last_commit = "942379f9647a7bee88b833249c95c1f50d84b9a5"
+last_commit_time = "2022-01-07T20:06"
+status = "200"
+
+[repo.stats]
+stars = 6
+forks = 0
+watching = 9
+tag_count = 0
+commits = 14
+branches = 21
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-authentication-auth0"
+last_commit = "a31cd9bad7f83b37b59a587e0c445c124aaf92de"
+last_commit_time = "2020-11-02T13:51"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 2
+stars = 0
+commits = 1
+tag_count = 0
+branches = 23
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-bond-issuance"
+last_commit = "9a68bce68e0da516dce586c2b6c914497a2776c4"
+last_commit_time = "2022-02-21T10:27"
+status = "200"
+
+[repo.stats]
+commits = 17
+tag_count = 0
+stars = 17
+branches = 193
+watching = 11
+forks = 7
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-bond-trading"
+last_commit = "78d56cc27f48206723ff687d799063a90bff14ac"
+last_commit_time = "2020-09-16T13:01"
+status = "200"
+
+[repo.stats]
+stars = 10
+watching = 11
+tag_count = 0
+commits = 6
+branches = 12
+forks = 9
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-cbdc"
+last_commit = "9b640aabf788dceb21ca8e3cc824ab3d166fb8ac"
+last_commit_time = "2022-07-29T07:50"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+commits = 7
+branches = 230
+stars = 14
+forks = 10
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-cdm-swaps"
+last_commit = "ba8e1f0dec418b30a5b5c05c0c46c4111b365c92"
+last_commit_time = "2020-01-27T13:33"
+status = "200"
+
+[repo.stats]
+forks = 3
+branches = 20
+watching = 13
+commits = 11
+tag_count = 0
+stars = 11
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-collateral"
+last_commit = "12f0820bf282b646d6430e1e4baadf8dadb1a276"
+last_commit_time = "2020-11-27T13:02"
+status = "200"
+
+[repo.stats]
+watching = 15
+branches = 11
+tag_count = 0
+forks = 2
+stars = 7
+commits = 2
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-daml-contention"
+last_commit = "c1a666437907d700187a42ccabe9fc6ba108cfb7"
+last_commit_time = "2020-05-26T09:03"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 2
+commits = 1
+tag_count = 0
+watching = 9
+forks = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-daml-error-handling"
+last_commit = "6768ddb60e85eb67c303362ff235aa739633aa00"
+last_commit_time = "2020-05-26T08:56"
+status = "200"
+
+[repo.stats]
+watching = 9
+stars = 0
+branches = 1
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-healthcare-claims-processing"
+last_commit = "e1166958244649d5dfd2375598c920450d375837"
+last_commit_time = "2022-02-21T10:27"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 14
+commits = 13
+branches = 127
+forks = 15
+stars = 27
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-inventory-management"
+last_commit = "f0484f7d8d027fec7995922586b60f6b7e48bad0"
+last_commit_time = "2022-01-18T13:00"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 8
+tag_count = 0
+forks = 3
+stars = 3
+branches = 70
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-java-bindings"
+last_commit = "89052898bbdf9828f08ea039c87095bf65bf679b"
+last_commit_time = "2022-04-29T08:45"
+status = "200"
+
+[repo.stats]
+watching = 13
+branches = 11
+tag_count = 0
+forks = 6
+stars = 9
+commits = 5
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-know-your-customer"
+last_commit = "8057f70f96d5c2e3a6f25bf5c4f2b5dc17fcf825"
+last_commit_time = "2022-01-18T13:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 58
+commits = 4
+watching = 4
+stars = 5
+forks = 5
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-market-data-service"
+last_commit = "2563ac3a308b36d65c82db65b84f4f337f8d0de1"
+last_commit_time = "2022-01-18T13:01"
+status = "200"
+
+[repo.stats]
+branches = 71
+forks = 2
+watching = 5
+commits = 7
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-models"
+last_commit = "ca6818c10923360f7158e03a4c50dabe156f5419"
+last_commit_time = "2021-10-05T14:31"
+status = "200"
+
+[repo.stats]
+forks = 26
+branches = 34
+stars = 42
+tag_count = 0
+watching = 17
+commits = 12
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-mortgage-repackaging"
+last_commit = "d492eab81dfe7e0ecdcb6a214737d04aa5e96898"
+last_commit_time = "2022-01-18T12:52"
+status = "200"
+
+[repo.stats]
+stars = 8
+tag_count = 0
+watching = 12
+branches = 78
+forks = 3
+commits = 2
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-proposal-delegation-model"
+status = "200"
+
+[repo.stats]
+commits = 8
+stars = 0
+forks = 0
+watching = 3
+tag_count = 0
+branches = 36
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-repo-market"
+last_commit = "264202574813a4ca79bd052371464dc369a4fcf0"
+last_commit_time = "2020-03-17T10:25"
+status = "200"
+
+[repo.stats]
+commits = 2
+forks = 2
+watching = 15
+stars = 6
+tag_count = 0
+branches = 39
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-secure-daml-infra"
+last_commit = "98ef94810e9c893fe75abb5c29db5338cea8fa1d"
+last_commit_time = "2022-03-11T18:35"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 39
+tag_count = 0
+watching = 9
+forks = 4
+stars = 6
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-structured-products"
+last_commit = "592bd2cd21e38dbf58178e1716c1c952bb306db4"
+last_commit_time = "2022-01-18T12:52"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 6
+watching = 11
+forks = 5
+branches = 98
+commits = 2
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-structured-trade-finance"
+last_commit = "267ab8146bfea45f60d6c264a0738b98839808fe"
+last_commit_time = "2022-01-18T12:58"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 4
+forks = 3
+branches = 69
+commits = 2
+watching = 8
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-supply-chain"
+last_commit = "b1047b4e1bf182e8d77e85cb68a480d7e7b65bdc"
+last_commit_time = "2022-02-21T10:26"
+status = "200"
+
+[repo.stats]
+stars = 13
+branches = 285
+watching = 9
+forks = 10
+commits = 16
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-tutorial-nodejs"
+last_commit = "012f800443501c115ab3e61f5a50b692d0652181"
+last_commit_time = "2020-08-18T16:24"
+status = "200"
+
+[repo.stats]
+commits = 8
+stars = 11
+watching = 11
+branches = 15
+forks = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/ex-upgrade"
+last_commit = "53a6e59114ba1567908293d2f5b1435a3b44b01f"
+last_commit_time = "2020-11-02T12:35"
+status = "200"
+
+[repo.stats]
+stars = 1
+tag_count = 0
+commits = 1
+watching = 15
+branches = 5
+forks = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/gadi-example"
+last_commit = "996b324a7a8b51fa63130097c182d3c7236f81a6"
+last_commit_time = "2021-06-08T14:01"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 18
+commits = 13
+forks = 0
+tag_count = 0
+stars = 1
 
 [[repo]]
 url = "https://github.com/digital-asset/ghc"
+last_commit = "0bb070fac5370b2a68d5e132b4c74a36cbaf4d29"
+last_commit_time = "2022-07-28T15:32"
+status = "200"
+
+[repo.stats]
+forks = 4
+commits = 51
+stars = 8
+tag_count = 0
+watching = 8
+branches = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/ghc-lib"
+last_commit = "5511c7da626e785d8e27be648264eb3e5ebafd47"
+last_commit_time = "2022-07-29T15:22"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 11
+branches = 520
+commits = 2
+stars = 148
+watching = 16
 
 [[repo]]
 url = "https://github.com/digital-asset/haskell-lsp"
+last_commit = "5497e9fc975f47f54fd677fce0c2a8d675ce3aee"
+last_commit_time = "2019-12-15T14:15"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 616
+tag_count = 0
+stars = 0
+forks = 77
+commits = 26
 
 [[repo]]
 url = "https://github.com/digital-asset/hlint"
+last_commit = "99999eee1c220396e1545788ef22ca3c204908a9"
+last_commit_time = "2022-01-27T09:26"
+status = "200"
+
+[repo.stats]
+stars = 1
+forks = 0
+tag_count = 0
+watching = 8
+branches = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/digital-asset/json-api"
+last_commit = "296d182a639a72791a1f3e96354035273554dc6e"
+last_commit_time = "2022-05-16T11:21"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 0
+branches = 0
+watching = 3
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/digital-asset/lib-cdm-event-specification-module"
+last_commit = "c48e4303fae881867b96120ead8dc16be707b30a"
+last_commit_time = "2020-01-28T10:34"
+status = "200"
+
+[repo.stats]
+branches = 9
+forks = 4
+stars = 14
+watching = 17
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/digital-asset/lib-daml-jvm-test"
+last_commit = "7b658582d787eb26169724c44eec679f0677c08e"
+last_commit_time = "2022-07-04T07:45"
+status = "200"
+
+[repo.stats]
+watching = 6
+stars = 2
+branches = 82
+commits = 7
+forks = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/lib-finance"
+last_commit = "0b21a0723db01f63f7d6b16ed59ea8d37030219f"
+last_commit_time = "2022-01-21T12:52"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 14
+forks = 4
+commits = 6
+stars = 11
+watching = 9
 
 [[repo]]
 url = "https://github.com/digital-asset/lib-message-integration"
+last_commit = "9bc5d1e27b60353826b4be9b41b77c4551ddaabb"
+last_commit_time = "2021-09-29T09:05"
+status = "200"
+
+[repo.stats]
+branches = 13
+commits = 10
+watching = 9
+forks = 1
+stars = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/ref-ledger-authenticator"
+last_commit = "b32c9e3c0b5e5d8dbef30646c2e3884df004efec"
+last_commit_time = "2021-05-17T15:13"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 8
+stars = 0
+tag_count = 0
+branches = 18
+forks = 0
 
 [[repo]]
 url = "https://github.com/digital-asset/rusty-engine"
+last_commit = "4a632c167307cf01b105e6ccfee8b503b19cdc48"
+last_commit_time = "2020-05-11T18:02"
+status = "200"
+
+[repo.stats]
+stars = 5
+forks = 0
+tag_count = 0
+branches = 138
+watching = 13
+commits = 4
 
 [[repo]]
 url = "https://github.com/digital-asset/singapore-healthcare-claims-demo"
+last_commit = "2272e07db03a44e7610a1d6d98dfbcf06895f8b0"
+last_commit_time = "2021-03-22T14:30"
+status = "200"
+
+[repo.stats]
+watching = 3
+tag_count = 0
+stars = 0
+forks = 0
+branches = 2
+commits = 1
 
 [[repo]]
 url = "https://github.com/digital-asset/team-application-runtime"
+last_commit = "ea73e15a3f29760061d38def65807efb183872d5"
+last_commit_time = "2022-04-22T09:13"
+status = "200"
+
+[repo.stats]
+forks = 0
+branches = 7
+stars = 0
+watching = 3
+tag_count = 0
+commits = 3

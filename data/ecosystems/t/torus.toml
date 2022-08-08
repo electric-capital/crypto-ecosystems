@@ -1,529 +1,2416 @@
-# Ecosystem Level Information
 title = "Torus"
-
+toml_path = "data/ecosystems/t/torus.toml"
+github_organizations = ["https://github.com/torusresearch"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/torusresearch"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/torusresearch/abi-decoder"
+last_commit = "a9ed4923433ad32069e2ea963d683ed2ff49fa07"
+last_commit_time = "2020-02-04T10:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 5
+stars = 1
+branches = 71
+watching = 1
+forks = 171
 
 [[repo]]
 url = "https://github.com/torusresearch/alchemy"
+last_commit = "5c1f6f7b88fa99ca7e1586bc8e4a7978b8874025"
+last_commit_time = "2020-04-13T13:42"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 1
+stars = 0
+forks = 82
+commits = 54
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/amazon-ecr-credential-helper"
+last_commit = "efd1603705e91c31bf28cbbc5dba8c3e09c63100"
+last_commit_time = "2021-03-24T19:11"
+status = "200"
+
+[repo.stats]
+commits = 5
+branches = 198
+forks = 282
+watching = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/audit"
+last_commit = "15bebe233fd0fcf7505ae748d025c672fa64cb7a"
+last_commit_time = "2021-04-16T07:02"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 9
+forks = 4
+branches = 3
+commits = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/ava-wallet"
+last_commit = "d885836fd6949fd97444bd404c61065c7f5a24d2"
+last_commit_time = "2020-07-03T03:47"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 1
+forks = 114
+branches = 133
+tag_count = 0
+commits = 11
 
 [[repo]]
 url = "https://github.com/torusresearch/avalanchego"
+last_commit = "54a5d522a415e60f37ad3819b764f42821f072cf"
+last_commit_time = "2021-01-15T21:35"
+status = "200"
+
+[repo.stats]
+forks = 391
+branches = 0
+tag_count = 0
+watching = 1
+stars = 0
+commits = 49
 
 [[repo]]
 url = "https://github.com/torusresearch/bijson"
+last_commit = "98da85656344c367721d35c4c092c144b9d710ac"
+last_commit_time = "2020-02-27T06:59"
+status = "200"
+
+[repo.stats]
+forks = 4
+stars = 0
+commits = 1
+tag_count = 0
+watching = 2
+branches = 25
 
 [[repo]]
 url = "https://github.com/torusresearch/blocusign"
+last_commit = "27369c86aa34f8c652bab71530cfbffa96835484"
+last_commit_time = "2020-07-07T08:56"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 179
+watching = 2
+forks = 1
+tag_count = 0
+stars = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/broadcast-channel"
+last_commit = "6edbbfd1b1ccf8caaf4cc49aa0f54efaf52f8733"
+last_commit_time = "2022-07-12T09:49"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 6
+watching = 0
+stars = 1
+forks = 98
 
 [[repo]]
 url = "https://github.com/torusresearch/casper-embed"
+last_commit = "38e19ed652a5901f39205e0c354c7860c2ff88b1"
+last_commit_time = "2022-05-20T08:57"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 1
+tag_count = 0
+branches = 82
+commits = 10
+stars = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/casper-js-sdk"
+last_commit = "dae83aec0553696ba771336e7f0c5e7893c3d13c"
+last_commit_time = "2021-06-18T11:46"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+commits = 24
+forks = 45
+branches = 185
 
 [[repo]]
 url = "https://github.com/torusresearch/circuits"
+last_commit = "cab09737ee7a76ead1cefa43860c949e8d7b16df"
+last_commit_time = "2021-04-06T22:45"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+branches = 2
+forks = 2
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/client_golang"
+last_commit = "9899b849d946fc52e6b1aab89b07800f8cd7aa2b"
+last_commit_time = "2021-05-21T05:36"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 0
+tag_count = 0
+commits = 7
+forks = 971
+watching = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/curv"
+last_commit = "44537a746292be65961e9c38191319c17a3d2977"
+last_commit_time = "2021-12-28T10:39"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 84
+branches = 262
+stars = 0
+commits = 41
+watching = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/CustomAuth"
+status = "200"
+
+[repo.stats]
+commits = 13
+tag_count = 0
+watching = 5
+stars = 64
+forks = 25
+branches = 698
 
 [[repo]]
 url = "https://github.com/torusresearch/customauth-android-sample"
+last_commit = "0cf2eb50ebea173a0b762ab501c02366d5f5888f"
+last_commit_time = "2021-12-17T07:06"
+status = "200"
+
+[repo.stats]
+branches = 4
+commits = 1
+forks = 1
+watching = 3
+tag_count = 0
+stars = 4
 
 [[repo]]
 url = "https://github.com/torusresearch/customauth-android-sdk"
+last_commit = "f2e996e76628a269e17b4c3c2981166f5edb20f3"
+last_commit_time = "2022-05-31T16:45"
+status = "200"
+
+[repo.stats]
+stars = 6
+forks = 13
+tag_count = 0
+watching = 3
+branches = 112
+commits = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/customauth-flutter-sample"
+last_commit = "f3634eeed318d4e1cc0796d0076811f71da22f15"
+last_commit_time = "2021-12-17T11:34"
+status = "200"
+
+[repo.stats]
+branches = 2
+commits = 1
+stars = 3
+forks = 1
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/customauth-flutter-sdk"
+last_commit = "cc26ecdc94c4de60e88ae2361a83312f068f8fab"
+last_commit_time = "2022-01-04T08:41"
+status = "200"
+
+[repo.stats]
+stars = 7
+tag_count = 0
+watching = 4
+forks = 5
+commits = 1
+branches = 69
 
 [[repo]]
 url = "https://github.com/torusresearch/customauth-react-native-sample"
+last_commit = "01cea589a4448fff33594120b850edf0be2a535a"
+last_commit_time = "2022-01-24T05:39"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 3
+branches = 1
+stars = 3
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/customauth-react-native-sdk"
+status = "200"
+
+[repo.stats]
+watching = 4
+commits = 18
+tag_count = 0
+branches = 158
+forks = 10
+stars = 10
 
 [[repo]]
 url = "https://github.com/torusresearch/customauth-swift-sample"
+last_commit = "b5bb6306223467cb39f434defa3b5821637143e8"
+last_commit_time = "2021-12-07T11:37"
+status = "200"
+
+[repo.stats]
+forks = 1
+stars = 4
+watching = 3
+tag_count = 0
+branches = 6
+commits = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/customauth-swift-sdk"
+status = "200"
+
+[repo.stats]
+commits = 27
+tag_count = 0
+branches = 190
+watching = 3
+forks = 11
+stars = 9
 
 [[repo]]
 url = "https://github.com/torusresearch/cyano-wallet"
+last_commit = "667176866aa0064b07e3cba0758f8775f6687344"
+last_commit_time = "2020-04-20T03:40"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 1
+branches = 248
+forks = 35
+tag_count = 0
+commits = 11
 
 [[repo]]
 url = "https://github.com/torusresearch/docker-influxdb-to-s3"
+last_commit = "16dab9be97ca6d39a940c5588fe7f125269e1eb3"
+last_commit_time = "2020-10-21T03:45"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+stars = 0
+forks = 20
+watching = 2
+branches = 11
 
 [[repo]]
 url = "https://github.com/torusresearch/documentation"
+last_commit = "e32c88754c29cdce8f1b11c2122fdac83e6dcfa9"
+last_commit_time = "2022-01-12T10:02"
+status = "200"
+
+[repo.stats]
+branches = 300
+forks = 7
+watching = 3
+stars = 9
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/torusresearch/eccrypto"
+last_commit = "6eb773dcc6af7c7864fe02c59217a26ef350403a"
+last_commit_time = "2021-11-29T04:33"
+status = "200"
+
+[repo.stats]
+branches = 120
+watching = 2
+forks = 3
+commits = 10
+stars = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/efficient-tss"
+last_commit = "c6d2196954a3c03add714ae25b055da4898457b5"
+last_commit_time = "2022-03-22T10:16"
+status = "200"
+
+[repo.stats]
+commits = 2
+tag_count = 0
+stars = 3
+watching = 3
+forks = 1
+branches = 8
 
 [[repo]]
 url = "https://github.com/torusresearch/elliptic-curves"
+last_commit = "c878f0bb814f760c75707919d693d965a4849f70"
+last_commit_time = "2022-03-29T15:34"
+status = "200"
+
+[repo.stats]
+forks = 82
+branches = 521
+watching = 0
+stars = 0
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-block-tracker"
+last_commit = "f6870ce85fb09c555b49e648fb5d9a003533cf9e"
+last_commit_time = "2020-07-21T13:36"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 85
+watching = 1
+branches = 179
+tag_count = 0
+commits = 8
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-contract-metadata"
+last_commit = "0910a98619a82ccc8e77b66d1e74678de437959c"
+last_commit_time = "2020-07-11T03:47"
+status = "200"
+
+[repo.stats]
+forks = 922
+watching = 1
+branches = 507
+stars = 0
+tag_count = 0
+commits = 9
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-hd-keyring"
+last_commit = "102ae2bbe176c002c5086ef4d5723a25f755b104"
+last_commit_time = "2020-07-30T03:25"
+status = "200"
+
+[repo.stats]
+forks = 49
+branches = 64
+commits = 7
+watching = 1
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-json-rpc-filters"
+last_commit = "d801fa434006b20a4b6c7cd68a85ce0c17a1cf3e"
+last_commit_time = "2020-04-21T22:35"
+status = "200"
+
+[repo.stats]
+commits = 3
+watching = 1
+stars = 0
+forks = 41
+branches = 86
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-json-rpc-infura"
+last_commit = "77df39565fc777adb2467e7542bb5c2dea02b6e2"
+last_commit_time = "2020-07-29T22:00"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 51
+branches = 69
+commits = 6
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-json-rpc-middleware"
+last_commit = "e1aaed60d1dd8f9a19fc546bdc17f3c93956cc45"
+last_commit_time = "2020-07-21T13:36"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+forks = 88
+branches = 176
+commits = 7
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-ledger-bridge-keyring"
+last_commit = "46563c60488a86065ae8da38836fffc3a9d6b443"
+last_commit_time = "2020-08-01T16:26"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+watching = 1
+forks = 82
+branches = 43
+commits = 5
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-method-registry"
+last_commit = "64536b7f7a5ff148144eb69ae97cd025da173941"
+last_commit_time = "2020-04-29T14:38"
+status = "200"
+
+[repo.stats]
+forks = 14
+stars = 0
+commits = 2
+tag_count = 0
+branches = 26
+watching = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-phishing-detect"
+last_commit = "4c9071bdf28b9dcaf3370750a862f11f2734d26a"
+last_commit_time = "2020-08-21T22:29"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 547
+commits = 8
+stars = 0
+watching = 1
+branches = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-rpc-errors"
+last_commit = "188de6c7b2a70bea39519c6df2e7593fa2441a17"
+last_commit_time = "2020-08-19T16:58"
+status = "200"
+
+[repo.stats]
+commits = 6
+branches = 55
+stars = 0
+forks = 26
+watching = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-sig-util"
+last_commit = "440a015eb9205d33ba3fe33cb7ae81494b03a075"
+last_commit_time = "2020-08-01T12:58"
+status = "200"
+
+[repo.stats]
+forks = 204
+stars = 0
+watching = 1
+branches = 145
+tag_count = 0
+commits = 6
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-simple-keyring"
+last_commit = "c885cc85a415da8e185ba37b200aad3828c2c22f"
+last_commit_time = "2020-08-20T17:14"
+status = "200"
+
+[repo.stats]
+branches = 85
+commits = 9
+watching = 1
+stars = 0
+forks = 38
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/eth-token-tracker"
+last_commit = "363ea9e358a51e7de9c09ade71e0d237c39c717d"
+last_commit_time = "2020-08-01T18:55"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 98
+commits = 3
+stars = 0
+watching = 1
+forks = 43
 
 [[repo]]
 url = "https://github.com/torusresearch/Ethereum-Wallet-SDK"
+last_commit = "ad55748af3d15b9c674ac61f124e490a95052b4a"
+last_commit_time = "2020-07-06T07:47"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+branches = 111
+commits = 6
+tag_count = 0
+forks = 13
 
 [[repo]]
 url = "https://github.com/torusresearch/ethereumjs-wallet"
+last_commit = "9b5f5fe585b8c897a0bb80b688fec74be684048f"
+last_commit_time = "2020-09-14T07:23"
+status = "200"
+
+[repo.stats]
+branches = 190
+stars = 0
+forks = 280
+tag_count = 0
+commits = 9
+watching = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/ethermint"
+last_commit = "b96bc5db9f4249111b5126890495495940fa3653"
+last_commit_time = "2020-09-04T05:20"
+status = "200"
+
+[repo.stats]
+forks = 150
+branches = 404
+stars = 1
+watching = 1
+commits = 44
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/etherscan-link"
+last_commit = "1d897dcdf04fe7778753054cb1b6597d58074089"
+last_commit_time = "2020-07-20T03:46"
+status = "200"
+
+[repo.stats]
+stars = 0
+commits = 3
+tag_count = 0
+branches = 14
+watching = 1
+forks = 38
 
 [[repo]]
 url = "https://github.com/torusresearch/ethexporter"
+last_commit = "b574ec3d5501398183e8b2103025cd42ece6ce68"
+last_commit_time = "2021-05-04T04:16"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+tag_count = 0
+branches = 22
+forks = 13
+commits = 2
 
 [[repo]]
 url = "https://github.com/torusresearch/EventBus"
+last_commit = "af5a66feb49e9180584402c71b869a699537b521"
+last_commit_time = "2019-07-05T05:24"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 1
+tag_count = 0
+branches = 66
+forks = 156
+stars = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/extensionizer"
+last_commit = "8ebe349b1005ec58981d3343ff33407ac4b12328"
+last_commit_time = "2020-09-02T15:13"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 3
+branches = 19
+watching = 1
+forks = 22
 
 [[repo]]
 url = "https://github.com/torusresearch/fastrand"
+last_commit = "5f11da4a822d6a3bb7f136139073812447dcc6c2"
+last_commit_time = "2019-09-05T02:11"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 7
+forks = 4
+tag_count = 0
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/fetch-node-details"
+last_commit = "e3aeb0cc18f0d02b14c6c3c795a207660b98380f"
+last_commit_time = "2022-06-29T10:47"
+status = "200"
+
+[repo.stats]
+commits = 5
+stars = 3
+forks = 4
+tag_count = 0
+branches = 170
+watching = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/fetch-node-details-java"
+last_commit = "3518dc60dff255a8d8048791b0a0d0bf25dee4ba"
+last_commit_time = "2022-05-30T14:33"
+status = "200"
+
+[repo.stats]
+forks = 2
+stars = 3
+branches = 43
+commits = 1
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/fetch-node-details-swift"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 7
+commits = 23
+stars = 5
+tag_count = 0
+branches = 127
 
 [[repo]]
 url = "https://github.com/torusresearch/ffjavascript"
+last_commit = "b7d6d46e07241ceddfa1b833182880e5ed6e6d80"
+last_commit_time = "2021-05-11T03:55"
+status = "200"
+
+[repo.stats]
+commits = 7
+watching = 1
+stars = 0
+branches = 133
+forks = 24
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/forwarder"
+last_commit = "0d2e15c555f1e97c7c8e82e03f9d7e65159f5ba0"
+last_commit_time = "2019-12-02T16:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 23
+commits = 2
+watching = 1
+forks = 7
+stars = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/ganache-http-proxy"
+last_commit = "ef8a27ce25434cf2188d068cf01d5106addacc2e"
+last_commit_time = "2020-05-11T03:35"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 4
+watching = 2
+branches = 13
+stars = 3
+forks = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/go-ethereum"
+last_commit = "f86324edb7897b539cd44ce9710095d570e27699"
+last_commit_time = "2020-09-02T10:52"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+branches = 0
+watching = 1
+tag_count = 0
+commits = 24
 
 [[repo]]
 url = "https://github.com/torusresearch/go-libp2p"
+last_commit = "efcd3595cb3698e16c04a082e2ee733a55225e2b"
+last_commit_time = "2020-06-22T05:11"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 64
+stars = 0
+tag_count = 0
+forks = 779
+watching = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/go-libp2p-yamux"
+last_commit = "bd3e81d9687c2eaf8ead4459bc3419c2e1085fde"
+last_commit_time = "2020-06-22T03:59"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 8
+stars = 0
+watching = 1
+branches = 84
+commits = 7
 
 [[repo]]
 url = "https://github.com/torusresearch/go-opera"
+last_commit = "8401190ee991ddf47482c86b6c9648544c99ed63"
+last_commit_time = "2021-10-01T08:32"
+status = "200"
+
+[repo.stats]
+commits = 24
+forks = 129
+watching = 0
+tag_count = 0
+stars = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/go-yamux"
+last_commit = "864962d9943fa88bcf67aa80eb89806274e676de"
+last_commit_time = "2020-06-22T03:54"
+status = "200"
+
+[repo.stats]
+forks = 11
+stars = 0
+commits = 8
+watching = 1
+tag_count = 0
+branches = 219
 
 [[repo]]
 url = "https://github.com/torusresearch/gorm"
+last_commit = "73c6d3e64e4341bfa47d1d2a2bd72f7d20caf149"
+last_commit_time = "2021-03-29T10:36"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+branches = 0
+tag_count = 0
+commits = 1
+forks = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/hackathon-bounties"
+last_commit = "38727c1b61cf7a15f9b1488d7e376a2bfdbaa8ba"
+last_commit_time = "2019-11-09T03:18"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 1
+stars = 3
+commits = 1
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/holaplex"
+last_commit = "ccadbd89a3b396d2e4f54f855976e3719b41ba69"
+last_commit_time = "2022-03-03T11:46"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 959
+forks = 91
+commits = 86
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/http-helpers"
+last_commit = "f18931d964bbf97e33204e600784f321cce2f503"
+last_commit_time = "2022-07-12T10:08"
+status = "200"
+
+[repo.stats]
+watching = 2
+tag_count = 0
+forks = 3
+commits = 4
+branches = 95
+stars = 4
 
 [[repo]]
 url = "https://github.com/torusresearch/inpage-provider"
+last_commit = "6db8c33e66ad21b470320372c53420dbd2c74eb2"
+last_commit_time = "2020-08-19T17:14"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+tag_count = 0
+forks = 109
+branches = 114
+commits = 13
 
 [[repo]]
 url = "https://github.com/torusresearch/json-rpc-engine"
+last_commit = "06b8bc8ffc48102a9f3725503f85aabadd9c7710"
+last_commit_time = "2020-07-30T20:01"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 5
+stars = 0
+forks = 58
+watching = 1
+branches = 138
 
 [[repo]]
 url = "https://github.com/torusresearch/json-rpc-middleware-stream"
+last_commit = "31f73ddbd9b307fcf48bf18cfc954c2943db808d"
+last_commit_time = "2020-07-20T16:54"
+status = "200"
+
+[repo.stats]
+commits = 7
+forks = 13
+watching = 1
+tag_count = 0
+branches = 16
+stars = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/jsonrpc"
+last_commit = "f6ab4bbc19f4ee4390a4eb8c5025325f206bb93f"
+last_commit_time = "2020-02-27T07:01"
+status = "200"
+
+[repo.stats]
+commits = 3
+stars = 0
+forks = 20
+watching = 2
+tag_count = 0
+branches = 94
 
 [[repo]]
 url = "https://github.com/torusresearch/jwt-prover-cairo"
+last_commit = "4ac854ceb11ef7936c18f8ce81690132d84c938e"
+last_commit_time = "2021-12-22T03:58"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 8
+commits = 1
+stars = 3
+watching = 4
+forks = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/KeyringController"
+last_commit = "ad823d0ac15560d2bd22f737516736361f3ea107"
+last_commit_time = "2020-08-01T17:34"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+branches = 105
+forks = 117
+watching = 1
+commits = 11
 
 [[repo]]
 url = "https://github.com/torusresearch/kreme"
+last_commit = "eaddb6adfdd051b30ff8bcfc84adf69d2922d7ac"
+last_commit_time = "2021-03-29T22:45"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 3
+forks = 2
+tag_count = 0
+commits = 6
+branches = 58
 
 [[repo]]
 url = "https://github.com/torusresearch/lachesis-base"
+last_commit = "54ad3c8a18c1c2d358b245e38fd3c21dd1bf3361"
+last_commit_time = "2021-07-21T13:06"
+status = "200"
+
+[repo.stats]
+commits = 4
+forks = 23
+watching = 0
+stars = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/loglevel-sentry"
+last_commit = "95ec3c418eb5dd12a01f8fe8a98b72b3b4bc4875"
+last_commit_time = "2022-06-06T03:41"
+status = "200"
+
+[repo.stats]
+stars = 5
+branches = 75
+forks = 1
+watching = 3
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/metadata-helpers"
+last_commit = "a040e1f5fd54855220d31e76d55c97266ccd8e67"
+last_commit_time = "2022-05-19T05:50"
+status = "200"
+
+[repo.stats]
+stars = 3
+watching = 3
+commits = 4
+branches = 62
+tag_count = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/metamask-extension"
+last_commit = "063a15c085b57f93f82c0da5817aecadf40e7836"
+last_commit_time = "2022-03-01T23:29"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+forks = 0
+tag_count = 0
+commits = 51
+branches = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/metamask-mobile"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 903
+commits = 59
+watching = 1
+tag_count = 0
+forks = 575
 
 [[repo]]
 url = "https://github.com/torusresearch/metamask-snaps-beta"
+last_commit = "db5e24849af9e54ceb743de62c1458261815aece"
+last_commit_time = "2020-05-18T14:37"
+status = "200"
+
+[repo.stats]
+forks = 55
+tag_count = 0
+commits = 50
+stars = 0
+branches = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/metaplex"
+last_commit = "8667e29c032eba542c83ccd2501f18ba182fb228"
+last_commit_time = "2022-03-07T18:36"
+status = "200"
+
+[repo.stats]
+watching = 0
+commits = 192
+stars = 0
+forks = 0
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/msg-editor"
+last_commit = "3f0ba9221318b5a46c9243bc19fbd3433aa4be3d"
+last_commit_time = "2019-12-18T06:56"
+status = "200"
+
+[repo.stats]
+commits = 1
+watching = 2
+tag_count = 0
+stars = 3
+forks = 2
+branches = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/multi-party-ecdsa"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+watching = 0
+commits = 0
+forks = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/nft-dapp"
+last_commit = "d0948ae2a4431b16f2538dcf67d512ac384b5ebe"
+last_commit_time = "2022-03-10T11:36"
+status = "200"
+
+[repo.stats]
+forks = 2
+tag_count = 0
+commits = 5
+watching = 3
+branches = 3
+stars = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/nginx-prometheus-exporter"
+last_commit = "137fbaf129ea18d1a785020cce20be94ee93b1a3"
+last_commit_time = "2021-03-29T17:02"
+status = "200"
+
+[repo.stats]
+commits = 10
+branches = 114
+stars = 0
+watching = 1
+forks = 274
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/nonce-tracker"
+last_commit = "f4ff0427157f2e5736b634c74e684b43e9862506"
+last_commit_time = "2020-08-01T12:59"
+status = "200"
+
+[repo.stats]
+commits = 2
+branches = 12
+tag_count = 0
+stars = 0
+watching = 1
+forks = 22
 
 [[repo]]
 url = "https://github.com/torusresearch/obj-multiplex"
+last_commit = "8e55bbf614f0f2ec58c893afb699562bf5ceca4f"
+last_commit_time = "2017-09-08T05:29"
+status = "200"
+
+[repo.stats]
+branches = 5
+forks = 11
+stars = 0
+tag_count = 0
+watching = 1
+commits = 31
 
 [[repo]]
 url = "https://github.com/torusresearch/obs-store"
+last_commit = "58aa059e519aef8e4ef89a430c9174cafedf6f40"
+last_commit_time = "2020-07-20T11:38"
+status = "200"
+
+[repo.stats]
+stars = 0
+forks = 18
+tag_count = 0
+commits = 8
+branches = 58
+watching = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-android-sdk"
+last_commit = "14b296a60dabbf47d375ff2885edb3cd40f1ff3a"
+last_commit_time = "2022-07-22T09:14"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+stars = 23
+forks = 3
+watching = 6
+branches = 128
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-arbitrum-example"
+last_commit = "6180ba6b6d4eea25f5ee1f412208753fd48b54c6"
+last_commit_time = "2021-04-12T10:18"
+status = "200"
+
+[repo.stats]
+branches = 9
+commits = 10
+stars = 3
+forks = 1
+watching = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-avalanche-example"
+last_commit = "1831d097daa05527b3708063c0ebbceeb7239921"
+last_commit_time = "2021-04-05T04:27"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 3
+stars = 4
+commits = 9
+forks = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-binance-example"
+last_commit = "c892b8003e427993fc5bfede5891f7cecd453719"
+last_commit_time = "2021-04-09T09:13"
+status = "200"
+
+[repo.stats]
+stars = 5
+branches = 5
+forks = 2
+commits = 10
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-chrome-extension"
+last_commit = "acad3dd17043190760a8f62600b6807f18600d2c"
+last_commit_time = "2022-01-18T10:55"
+status = "200"
+
+[repo.stats]
+stars = 3
+branches = 2
+forks = 1
+watching = 3
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-ethereum-example"
+last_commit = "b79799457e2e52d5bb7af93eecd28b21829effc9"
+last_commit_time = "2021-03-23T04:59"
+status = "200"
+
+[repo.stats]
+forks = 2
+watching = 3
+branches = 3
+tag_count = 0
+commits = 10
+stars = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-expo-bare-sample"
+last_commit = "25310c0c9a85cb403dced3eb14f13bb4adede91f"
+last_commit_time = "2022-02-19T13:54"
+status = "200"
+
+[repo.stats]
+commits = 9
+stars = 3
+tag_count = 0
+branches = 5
+forks = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-expo-sdk"
+status = "404"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+commits = 0
+branches = 0
+forks = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-expo-sdk-bare-demo-2"
+last_commit = "bd10432a4ce7c3e39c98912e8fa9c5baf003e6a8"
+last_commit_time = "2022-05-09T12:16"
+status = "200"
+
+[repo.stats]
+branches = 2
+stars = 0
+forks = 0
+commits = 1
+tag_count = 0
+watching = 4
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-flutter-sdk"
+last_commit = "c80b4d457f6fb536ed5e8923559e72b783df1b80"
+last_commit_time = "2022-06-15T10:45"
+status = "200"
+
+[repo.stats]
+branches = 50
+watching = 3
+forks = 5
+tag_count = 0
+commits = 2
+stars = 9
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-polygon-example"
+last_commit = "e9ed07c84844fac7fade7415c6628cec96f7a365"
+last_commit_time = "2022-01-30T18:41"
+status = "200"
+
+[repo.stats]
+stars = 5
+branches = 12
+commits = 9
+forks = 6
+tag_count = 0
+watching = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-react-native-sdk"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 6
+tag_count = 0
+branches = 99
+commits = 2
+stars = 8
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-solana-example"
+last_commit = "08f370f4a5bce71658fbfd19864e315522ba8366"
+last_commit_time = "2022-01-20T12:30"
+status = "200"
+
+[repo.stats]
+forks = 3
+watching = 4
+stars = 6
+tag_count = 0
+branches = 23
+commits = 14
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-swift-sdk"
+last_commit = "96b2911ce5044dd74d3ecdf7cbd72bc2d40cfc1e"
+last_commit_time = "2022-07-27T03:35"
+status = "200"
+
+[repo.stats]
+branches = 95
+watching = 5
+commits = 5
+forks = 5
+stars = 12
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-terra-example"
+last_commit = "448e66b7f28766ea121a6690f77095a02750d9a9"
+last_commit_time = "2022-02-11T05:47"
+status = "200"
+
+[repo.stats]
+forks = 1
+commits = 12
+branches = 5
+watching = 3
+stars = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-web3modal-example"
+last_commit = "894494ed70d6b594380a390ce337378faab54381"
+last_commit_time = "2021-03-31T13:53"
+status = "200"
+
+[repo.stats]
+watching = 4
+tag_count = 0
+branches = 8
+commits = 9
+forks = 3
+stars = 4
 
 [[repo]]
 url = "https://github.com/torusresearch/openlogin-zkSync-example"
+last_commit = "9eb7d517063510c63cab807a7b19792b3fda450b"
+last_commit_time = "2021-04-12T10:55"
+status = "200"
+
+[repo.stats]
+forks = 2
+commits = 9
+stars = 4
+watching = 4
+branches = 5
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/OpenLoginSdk"
+last_commit = "a0789b361e927b950dd4c97ad443e24eab6bee4a"
+last_commit_time = "2022-07-22T08:50"
+status = "200"
+
+[repo.stats]
+watching = 3
+branches = 619
+commits = 20
+stars = 100
+tag_count = 0
+forks = 10
 
 [[repo]]
 url = "https://github.com/torusresearch/post-message-stream"
+last_commit = "dd585b7d718f3d86394d371c13879c7e38cfb69e"
+last_commit_time = "2020-06-22T07:57"
+status = "200"
+
+[repo.stats]
+commits = 15
+stars = 0
+forks = 19
+watching = 1
+tag_count = 0
+branches = 11
 
 [[repo]]
 url = "https://github.com/torusresearch/prometheus-timestream-adapter"
+last_commit = "2ad1124f46edbdc8b19b870304fac97fd8480cac"
+last_commit_time = "2021-03-22T16:40"
+status = "200"
+
+[repo.stats]
+commits = 2
+watching = 1
+stars = 0
+branches = 24
+tag_count = 0
+forks = 9
 
 [[repo]]
 url = "https://github.com/torusresearch/pvss"
+last_commit = "88f3d369339f9fe2a80fca08648927c67e05265f"
+last_commit_time = "2019-05-05T11:14"
+status = "200"
+
+[repo.stats]
+stars = 19
+forks = 7
+branches = 10
+commits = 1
+watching = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/rawtransaction"
+last_commit = "9033129cc4db6e2bd74615e7217b7f35947d4615"
+last_commit_time = "2021-05-07T07:53"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 3
+watching = 4
+stars = 4
+forks = 1
+branches = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/rds_exporter"
+last_commit = "fd2c630760ba7d557e4c52a2c0ade028b249198d"
+last_commit_time = "2021-04-19T10:49"
+status = "200"
+
+[repo.stats]
+forks = 125
+watching = 1
+branches = 107
+commits = 3
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/react-native-web-browser"
+last_commit = "1c74d5d889c8fbf2ea2dd7c03c38e8362939a217"
+last_commit_time = "2022-06-01T09:33"
+status = "200"
+
+[repo.stats]
+branches = 37
+tag_count = 0
+stars = 2
+commits = 3
+forks = 1
+watching = 5
 
 [[repo]]
 url = "https://github.com/torusresearch/rpc-cap"
+last_commit = "8288660570c5fb62b3c152c069dfda7b143e9f81"
+last_commit_time = "2020-02-12T18:32"
+status = "200"
+
+[repo.stats]
+branches = 271
+commits = 16
+forks = 33
+stars = 0
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/rust-paillier"
+status = "404"
+
+[repo.stats]
+branches = 0
+commits = 0
+stars = 0
+watching = 0
+forks = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/saber-common"
+last_commit = "44103c7257c16cb5de231f973dd2a1855a0404e9"
+last_commit_time = "2022-03-29T00:43"
+status = "200"
+
+[repo.stats]
+forks = 43
+stars = 0
+branches = 786
+commits = 26
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/safe-event-emitter"
+last_commit = "68def57e94951f8322a97cce507c47b14f285c2b"
+last_commit_time = "2020-08-19T17:00"
+status = "200"
+
+[repo.stats]
+branches = 16
+tag_count = 0
+stars = 0
+commits = 3
+watching = 1
+forks = 19
 
 [[repo]]
 url = "https://github.com/torusresearch/serviceworker-server"
+last_commit = "2b7d49727d1e93c3142edf65bc120ef508178378"
+last_commit_time = "2022-06-30T02:44"
+status = "200"
+
+[repo.stats]
+watching = 2
+branches = 30
+tag_count = 0
+forks = 1
+stars = 3
+commits = 5
 
 [[repo]]
 url = "https://github.com/torusresearch/sol-wallet-adapter"
+last_commit = "e3a29758b70bed06f0640cc6321c0bb1c89ea68f"
+last_commit_time = "2020-08-06T13:14"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+commits = 7
+branches = 6
+forks = 86
+stars = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/solana-cookbook"
+last_commit = "7039f8b1338f1024ba247dccefcb445e1ce295ac"
+last_commit_time = "2022-03-15T15:48"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+branches = 240
+forks = 151
+commits = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/solana-embed"
+last_commit = "8b215544b3bf2027a2f74b6384d08987c597f381"
+last_commit_time = "2022-08-03T04:57"
+status = "200"
+
+[repo.stats]
+commits = 35
+branches = 209
+forks = 2
+tag_count = 0
+stars = 7
+watching = 4
 
 [[repo]]
 url = "https://github.com/torusresearch/solana-embed-react-demo"
+last_commit = "6d51e10a5167ed271829345d2e19cd4beadc2165"
+last_commit_time = "2022-02-23T10:48"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 3
+forks = 1
+watching = 3
+branches = 3
+commits = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/solana-react-native-sdk"
+last_commit = "9e657380a11f10397aa66c8083d8e465f866a12c"
+last_commit_time = "2022-02-03T19:14"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 2
+commits = 15
+stars = 6
+watching = 3
+branches = 17
 
 [[repo]]
 url = "https://github.com/torusresearch/solana-redirect-react-native-sample"
+last_commit = "5c19ce983c8e8ea791b175244a6fc0ecff3fda13"
+last_commit_time = "2021-12-20T12:00"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 3
+watching = 3
+branches = 2
+commits = 7
+forks = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/solana-rn-example"
+last_commit = "a10c2695ebe2aa86925f1b68aba2cf80046bd796"
+last_commit_time = "2022-01-11T10:28"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 3
+forks = 1
+commits = 5
+branches = 1
+stars = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/solana-serialization-bug"
+last_commit = "b790a0a4133037ac4b67be18b98673873e1bcd6e"
+last_commit_time = "2022-03-11T12:01"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 3
+branches = 6
+tag_count = 0
+commits = 1
+stars = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/solana-wallet"
+last_commit = "c3f3add841d0032149b1e0d5f7d4036a30981fce"
+last_commit_time = "2022-08-04T05:17"
+status = "200"
+
+[repo.stats]
+branches = 912
+watching = 3
+forks = 1
+tag_count = 0
+commits = 134
+stars = 11
 
 [[repo]]
 url = "https://github.com/torusresearch/solana-web3.js"
+last_commit = "7d230c0e0b90237b4d4ec5e3f4cc81cbcd2e72ad"
+last_commit_time = "2020-08-05T10:54"
+status = "200"
+
+[repo.stats]
+forks = 408
+watching = 1
+stars = 0
+commits = 13
+tag_count = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/solidity"
+last_commit = "ff6415aa9ef675c876a8a97c3fcc24351ab84a4a"
+last_commit_time = "2020-09-03T12:03"
+status = "200"
+
+[repo.stats]
+watching = 1
+stars = 0
+tag_count = 0
+forks = 0
+commits = 124
+branches = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/statping"
+last_commit = "2cee0e56c578bd1cce881c5a79de9956bdc5ac36"
+last_commit_time = "2021-08-26T13:48"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+commits = 11
+watching = 1
+stars = 1
+forks = 499
 
 [[repo]]
 url = "https://github.com/torusresearch/substrate"
+last_commit = "de8b34c814089e9561cbc1cdb4399bfc91d4cd46"
+last_commit_time = "2022-04-12T20:43"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+forks = 0
+watching = 0
+commits = 475
+branches = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/substrate-node-template"
+status = "404"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+branches = 0
+commits = 0
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/tendermint"
+last_commit = "9b77533b422a2f26a93096aec7779f98797aa7ec"
+last_commit_time = "2020-01-02T07:13"
+status = "200"
+
+[repo.stats]
+branches = 0
+watching = 1
+forks = 0
+stars = 2
+tag_count = 0
+commits = 47
 
 [[repo]]
 url = "https://github.com/torusresearch/thorchain-tss"
+last_commit = "e4c2bb7389295b8ae0f2f47bfe2aaa5e67f94be4"
+last_commit_time = "2021-09-09T05:04"
+status = "200"
+
+[repo.stats]
+forks = 14
+tag_count = 0
+stars = 0
+watching = 0
+commits = 75
+branches = 492
 
 [[repo]]
 url = "https://github.com/torusresearch/tm-db"
+last_commit = "25972cb461c9338e4bc15ac08003085b9743e53d"
+last_commit_time = "2019-12-16T06:45"
+status = "200"
+
+[repo.stats]
+commits = 3
+forks = 82
+stars = 0
+tag_count = 0
+branches = 12
+watching = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-apple-nativelogin-demo"
+last_commit = "0c9fcb8ccad9aa5cd688f081cbf7009f7ea1bf37"
+last_commit_time = "2021-07-16T04:01"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+branches = 8
+watching = 3
+stars = 4
+forks = 2
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-bridge"
+last_commit = "94b69f63fcdee8d2e750a7f0e16d6b2bc7af1008"
+last_commit_time = "2020-02-03T01:36"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+watching = 2
+forks = 3
+stars = 3
+branches = 7
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-cli"
+last_commit = "f60438a39cb0c68da17124c5fa009f88dc77f89c"
+last_commit_time = "2022-08-02T16:25"
+status = "200"
+
+[repo.stats]
+forks = 1
+tag_count = 0
+stars = 4
+watching = 3
+branches = 168
+commits = 4
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-direct-android-native-logins"
+last_commit = "3be15ae2cc1611a46ba2d958ac9a89b7d4acc69b"
+last_commit_time = "2021-08-27T01:56"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 3
+watching = 3
+branches = 3
+forks = 1
+commits = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-direct-android-sdk"
+last_commit = "f2e996e76628a269e17b4c3c2981166f5edb20f3"
+last_commit_time = "2022-05-31T16:45"
+status = "200"
+
+[repo.stats]
+commits = 3
+tag_count = 0
+forks = 13
+stars = 6
+branches = 112
+watching = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-direct-flutter-sdk"
+last_commit = "cc26ecdc94c4de60e88ae2361a83312f068f8fab"
+last_commit_time = "2022-01-04T08:41"
+status = "200"
+
+[repo.stats]
+branches = 69
+watching = 4
+stars = 7
+commits = 1
+tag_count = 0
+forks = 5
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-direct-react-native-sdk"
+last_commit = "eae27d93504ca0e48cd2088b202217adc7a39661"
+last_commit_time = "2022-07-28T07:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 18
+watching = 4
+stars = 10
+forks = 10
+branches = 158
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-direct-swift-sdk"
+last_commit = "969af6abf6f9686d428b40befaf5c5eabdf6861c"
+last_commit_time = "2022-07-14T04:01"
+status = "200"
+
+[repo.stats]
+stars = 9
+forks = 11
+branches = 190
+watching = 3
+tag_count = 0
+commits = 27
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-direct-swift-sdk-mock-example"
+last_commit = "c7523e2a7b1604f3393434b6c42fec148e4bdc1d"
+last_commit_time = "2021-10-19T02:21"
+status = "200"
+
+[repo.stats]
+branches = 18
+tag_count = 0
+forks = 1
+stars = 3
+watching = 4
+commits = 2
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-direct-unity-sdk"
+last_commit = "b04f463b6ae102869faa8ac9fabae4141b7e7df4"
+last_commit_time = "2022-07-14T07:09"
+status = "200"
+
+[repo.stats]
+watching = 4
+branches = 55
+stars = 8
+commits = 1
+tag_count = 0
+forks = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-documentation"
+last_commit = "5342c666bfef7d0aff0104b0af826121b7b64b93"
+last_commit_time = "2022-07-20T02:52"
+status = "200"
+
+[repo.stats]
+stars = 8
+branches = 435
+tag_count = 0
+watching = 4
+commits = 56
+forks = 32
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-e2e-tests"
+last_commit = "bd0712ad676f99c897fe8f01cf61653adc73a60d"
+last_commit_time = "2022-07-14T04:04"
+status = "200"
+
+[repo.stats]
+branches = 124
+tag_count = 0
+commits = 16
+forks = 2
+stars = 7
+watching = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-embed"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 23
+forks = 42
+tag_count = 0
+watching = 5
+stars = 68
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-extension"
+last_commit = "1548a182eeecda989c792590acd67f7b3ad42d63"
+last_commit_time = "2020-12-14T07:20"
+status = "200"
+
+[repo.stats]
+stars = 7
+forks = 1
+branches = 0
+watching = 5
+commits = 12
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-fetch-node-details-swift"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 0
+commits = 0
+branches = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-matic"
+last_commit = "4c3cd3448c88dd39e0f6b64701af2622a76c6546"
+last_commit_time = "2020-02-02T02:06"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 3
+tag_count = 0
+forks = 2
+branches = 8
+commits = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-metadata"
+last_commit = "23b5d2126acec1a6eced138391a25c04c64c1e05"
+last_commit_time = "2022-06-06T20:32"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 4
+commits = 7
+watching = 4
+branches = 207
+stars = 4
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-metadata-js"
+last_commit = "23b5d2126acec1a6eced138391a25c04c64c1e05"
+last_commit_time = "2022-06-06T20:32"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 4
+stars = 4
+commits = 7
+tag_count = 0
+branches = 207
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-node"
+last_commit = "d9fe26e7d8714fe199a893cd7667c0f46a775620"
+last_commit_time = "2020-02-14T05:32"
+status = "200"
+
+[repo.stats]
+branches = 781
+watching = 8
+tag_count = 0
+stars = 192
+forks = 14
+commits = 2
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-serverless"
+last_commit = "ac9aa78e6ca23f03af690543c86986be6dd3e564"
+last_commit_time = "2022-07-14T12:57"
+status = "200"
+
+[repo.stats]
+branches = 355
+commits = 4
+stars = 4
+forks = 2
+watching = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-solana-example"
+last_commit = "e7631644aeb72f9af20b1597b9eb22d3e168e95e"
+last_commit_time = "2021-02-25T13:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+commits = 8
+watching = 3
+stars = 5
+branches = 9
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-swift-direct-sdk-demo-application"
+last_commit = "3a081136acf86e5e19f92b78c4653155d62d7429"
+last_commit_time = "2021-04-06T10:34"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 5
+stars = 3
+forks = 1
+commits = 1
+watching = 4
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-timer"
+last_commit = "ebbeb8f30120b85466f137ad617eb0dcc2568232"
+last_commit_time = "2020-10-12T08:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+forks = 1
+watching = 3
+stars = 3
+commits = 1
+branches = 5
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-utils-java"
+last_commit = "dbc9ea6a11d4b4a842ee145ed4ce2bd1be8f97f7"
+last_commit_time = "2022-05-31T10:26"
+status = "200"
+
+[repo.stats]
+forks = 6
+stars = 3
+branches = 63
+tag_count = 0
+commits = 2
+watching = 2
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-utils-swift"
+last_commit = "4ee80a55cc6a43c2ff3182d97b7b9be69d4fb7c9"
+last_commit_time = "2022-07-07T09:59"
+status = "200"
+
+[repo.stats]
+branches = 152
+watching = 3
+forks = 7
+stars = 3
+tag_count = 0
+commits = 4
 
 [[repo]]
 url = "https://github.com/torusresearch/torus-website"
+last_commit = "5d6212802955fe57652e54b4967487587d1b4785"
+last_commit_time = "2022-08-04T11:24"
+status = "200"
+
+[repo.stats]
+stars = 62
+commits = 54
+forks = 41
+tag_count = 0
+watching = 5
+branches = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/torus.js"
+last_commit = "76ba51c770705578b8b3a8e66a7f948510b07da1"
+last_commit_time = "2022-06-29T11:22"
+status = "200"
+
+[repo.stats]
+watching = 3
+forks = 7
+branches = 363
+stars = 15
+commits = 11
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/tweetnacl-js"
+last_commit = "c9b37744cf8721624b205d7cea8d57a91a66b5f2"
+last_commit_time = "2021-04-05T05:35"
+status = "200"
+
+[repo.stats]
+watching = 1
+tag_count = 0
+stars = 0
+branches = 402
+forks = 290
+commits = 12
 
 [[repo]]
 url = "https://github.com/torusresearch/verenc"
+last_commit = "1442bdd8e0b19aacdf3ca396d14249ee0419345e"
+last_commit_time = "2021-12-13T09:02"
+status = "200"
+
+[repo.stats]
+forks = 1
+branches = 37
+watching = 3
+stars = 3
+tag_count = 0
+commits = 7
 
 [[repo]]
 url = "https://github.com/torusresearch/wallet-adapter"
+last_commit = "d52c2797a6480e9710eea54ea947222c69c2d620"
+last_commit_time = "2022-07-05T17:58"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+commits = 26
+stars = 0
+forks = 547
+branches = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/walletconnect-test-wallet"
+last_commit = "deca6fbfd852c57cdb40a8b4ccd6eb59a936a4ae"
+last_commit_time = "2020-09-24T12:42"
+status = "200"
+
+[repo.stats]
+branches = 154
+forks = 122
+stars = 0
+tag_count = 0
+watching = 1
+commits = 7
 
 [[repo]]
 url = "https://github.com/torusresearch/walletkit"
+last_commit = "e99ddc92570930ff1f3c9f3e96ed1128cdb6a621"
+last_commit_time = "2022-03-21T19:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 12
+branches = 112
+forks = 44
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/watchtower"
+last_commit = "da56c215db6e78a5b420125abc3732ef65dbe7dd"
+last_commit_time = "2021-03-29T16:19"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 611
+watching = 1
+commits = 11
+stars = 0
+forks = 635
 
 [[repo]]
 url = "https://github.com/torusresearch/web3-provider-engine"
+last_commit = "15bc747a62b94509c7c9fc3211be7874382d4bc8"
+last_commit_time = "2020-05-28T06:22"
+status = "200"
+
+[repo.stats]
+branches = 801
+stars = 0
+forks = 343
+commits = 67
+tag_count = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/torusresearch/web3-test"
+last_commit = "70749cf99c82e6e845f546b6e8726db7ab5e89fa"
+last_commit_time = "2019-05-29T10:56"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 2
+commits = 7
+branches = 10
+forks = 2
+stars = 4
 
 [[repo]]
 url = "https://github.com/torusresearch/web3.swift"
+last_commit = "0f0f8b09f8b77250fbdd140045b5a60bbf18c11f"
+last_commit_time = "2022-01-10T13:13"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+branches = 351
+forks = 96
+tag_count = 0
+commits = 21
 
 [[repo]]
 url = "https://github.com/torusresearch/web3connect"
+last_commit = "628ab8357ec2816d607af13ab8359c8558efdb04"
+last_commit_time = "2020-07-24T11:37"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 1
+branches = 482
+commits = 13
+forks = 768
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/webapp-v2"
+last_commit = "bc29990edb72fc2b27429941c19e87f13cf81c79"
+last_commit_time = "2021-12-21T01:30"
+status = "200"
+
+[repo.stats]
+branches = 0
+commits = 18
+tag_count = 0
+watching = 0
+stars = 0
+forks = 27
 
 [[repo]]
 url = "https://github.com/torusresearch/webauthn"
+last_commit = "1daaee874e43b3bc324ade89467c603b5016d4b9"
+last_commit_time = "2020-07-14T21:17"
+status = "200"
+
+[repo.stats]
+forks = 159
+stars = 0
+watching = 1
+tag_count = 0
+branches = 141
+commits = 3
 
 [[repo]]
 url = "https://github.com/torusresearch/webauthn-test"
+last_commit = "18e60937a47f796af3a27e50b0fd7c41cd6dab74"
+last_commit_time = "2020-12-08T05:48"
+status = "200"
+
+[repo.stats]
+commits = 5
+stars = 3
+watching = 3
+branches = 69
+forks = 1
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/torusresearch/webauthn.io"
+last_commit = "c031a3e0f95d5964f11da23d2bb6fd05b3a7192c"
+last_commit_time = "2020-09-29T14:41"
+status = "200"
+
+[repo.stats]
+forks = 79
+tag_count = 0
+commits = 5
+watching = 1
+stars = 0
+branches = 54
 
 [[repo]]
 url = "https://github.com/torusresearch/zillet"
+last_commit = "3f7d6b9a9b99ff718465cf35d7b29ae52cb09efd"
+last_commit_time = "2020-03-29T06:41"
+status = "200"
+
+[repo.stats]
+watching = 1
+commits = 14
+forks = 26
+tag_count = 0
+stars = 0
+branches = 142

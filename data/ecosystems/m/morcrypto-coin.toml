@@ -1,22 +1,74 @@
-# Ecosystem Level Information
 title = "MorCrypto Coin"
-
+toml_path = "data/ecosystems/m/morcrypto-coin.toml"
+github_organizations = ["https://github.com/Morcrypto"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Morcrypto"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Morcrypto/assets"
+last_commit = "af35c0ceb27f5d3db383a1d07fd465f7e948c466"
+last_commit_time = "2019-09-12T04:39"
+status = "200"
+
+[repo.stats]
+stars = 0
+tag_count = 0
+forks = 0
+branches = 209
+commits = 1
+watching = 1
 
 [[repo]]
 url = "https://github.com/Morcrypto/eth-phishing-detect"
+last_commit = "8520508437dce1bf675c42bccd5db6ed1364a674"
+last_commit_time = "2019-09-09T22:10"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 0
+forks = 547
+commits = 9
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/Morcrypto/Exchange"
+last_commit = "7618781e6f270803b816ddc18e579f491e48ecb6"
+last_commit_time = "2020-05-09T16:58"
+status = "200"
+
+[repo.stats]
+branches = 2
+commits = 2
+tag_count = 0
+watching = 2
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Morcrypto/tokens"
+last_commit = "4c54adfd55e0a707114fbaf466178157a8017d85"
+last_commit_time = "2019-09-09T12:43"
+status = "200"
+
+[repo.stats]
+watching = 1
+forks = 0
+stars = 0
+tag_count = 0
+branches = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/Morcrypto/whitelist"
+last_commit = "95b77a4ba88ade5cc28e87472bcdc86411376c16"
+last_commit_time = "2019-09-17T09:03"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 7
+commits = 1
+watching = 1
+forks = 3
+stars = 0

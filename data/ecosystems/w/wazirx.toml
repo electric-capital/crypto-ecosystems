@@ -1,25 +1,86 @@
-# Ecosystem Level Information
 title = "WazirX"
-
+toml_path = "data/ecosystems/w/wazirx.toml"
+github_organizations = ["https://github.com/WazirX"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/WazirX"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/WazirX/slate"
+last_commit = "0727ecd79c3da0394698dd810563cb350c2599f2"
+last_commit_time = "2020-12-15T11:13"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 636
+commits = 7
+forks = 0
+stars = 0
+watching = 1
 
 [[repo]]
 url = "https://github.com/WazirX/wazirx-api"
+status = "200"
+
+[repo.stats]
+forks = 41
+commits = 1
+branches = 15
+stars = 191
+tag_count = 0
+watching = 24
 
 [[repo]]
 url = "https://github.com/WazirX/wazirx-api-postman"
+last_commit = "9bf676bc66efd387af9e8301898b63bb99189beb"
+last_commit_time = "2021-11-02T07:24"
+status = "200"
+
+[repo.stats]
+watching = 4
+forks = 13
+stars = 5
+commits = 1
+branches = 3
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/WazirX/wazirx-connector-nodejs"
+last_commit = "0f11ae482e701f14bd5c994cf50e46296f27a987"
+last_commit_time = "2022-04-08T04:29"
+status = "200"
+
+[repo.stats]
+branches = 14
+stars = 1
+watching = 2
+forks = 1
+tag_count = 0
+commits = 2
 
 [[repo]]
 url = "https://github.com/WazirX/wazirx-connector-python"
+last_commit = "ea6b5712ddc05d7115e631153939e1629ed932ce"
+last_commit_time = "2022-04-08T04:29"
+status = "200"
+
+[repo.stats]
+stars = 27
+branches = 11
+watching = 4
+tag_count = 0
+commits = 2
+forks = 13
 
 [[repo]]
 url = "https://github.com/WazirX/wazirx-connector-ruby"
+last_commit = "7697593c214185f2064c1fcfeb55b588b14f02e9"
+last_commit_time = "2022-04-07T15:11"
+status = "200"
+
+[repo.stats]
+stars = 1
+watching = 2
+forks = 3
+branches = 11
+tag_count = 0
+commits = 1

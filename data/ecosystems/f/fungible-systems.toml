@@ -1,172 +1,770 @@
-# Ecosystem Level Information
 title = "Fungible Systems"
-
+toml_path = "data/ecosystems/f/fungible-systems.toml"
+github_organizations = ["https://github.com/fungible-systems"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/fungible-systems"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/fungible-systems/bird-count"
+last_commit = "e673e6c33b58f0afd7d5e001a592f14b63700a3c"
+last_commit_time = "2021-11-02T20:18"
+status = "200"
+
+[repo.stats]
+watching = 0
+branches = 128
+commits = 2
+stars = 0
+forks = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/clarigen"
+last_commit = "81b6f3116c53593290437e0d92233e8b2249a7f0"
+last_commit_time = "2022-01-12T21:09"
+status = "200"
+
+[repo.stats]
+branches = 129
+forks = 5
+tag_count = 0
+stars = 0
+watching = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/fungible-systems/clarity.tmbundle"
+last_commit = "0610d0d1676011ddbbb50763d3773fc858cbf9b3"
+last_commit_time = "2021-11-24T20:40"
+status = "200"
+
+[repo.stats]
+branches = 8
+commits = 1
+tag_count = 0
+forks = 2
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/compressed-size-action"
+last_commit = "372dd3d43cd31af0ae9750e6e61f7cac65749b1f"
+last_commit_time = "2021-09-28T01:47"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 136
+commits = 3
+forks = 68
+watching = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/fly-stacks"
+last_commit = "ee1c87cbfb692e58cb68997acda3adbce1c8e425"
+last_commit_time = "2022-05-12T22:14"
+status = "200"
+
+[repo.stats]
+branches = 18
+stars = 0
+forks = 2
+commits = 1
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/gaia"
+last_commit = "ac886f1d866f654404208ca0917eb41ac01cd279"
+last_commit_time = "2021-05-10T16:34"
+status = "200"
+
+[repo.stats]
+forks = 151
+watching = 0
+commits = 106
+stars = 0
+tag_count = 0
+branches = 896
 
 [[repo]]
 url = "https://github.com/fungible-systems/grafana-loki-syslog-aio"
+last_commit = "808ab0d73e4fcfa9d5a8c32d97976320a9f790b1"
+last_commit_time = "2021-09-23T23:02"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+branches = 103
+commits = 1
+forks = 23
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/hasura-graphql-metadata-db-only"
+last_commit = "dda5fe0931f729870a266f446e32a7de2eeb961c"
+last_commit_time = "2022-01-06T21:21"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+forks = 2
+branches = 15
+stars = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/fungible-systems/hestia"
+last_commit = "a1e624457b696c32b23e73f7392f155f14a5ce1b"
+last_commit_time = "2019-08-13T14:42"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 17
+stars = 0
+branches = 57
+forks = 4
+watching = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/jotai-query-toolkit"
+last_commit = "3d1625b1c6f9faf0b852e27834d5ba31d2016633"
+last_commit_time = "2021-12-18T17:19"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 27
+tag_count = 0
+commits = 25
+forks = 4
+branches = 76
 
 [[repo]]
 url = "https://github.com/fungible-systems/marketplace-partners"
+last_commit = "059aafd54b31ff1016305f98e866639cd6a223fe"
+last_commit_time = "2022-02-15T19:26"
+status = "200"
+
+[repo.stats]
+commits = 18
+watching = 0
+stars = 0
+forks = 77
+branches = 235
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/micro-packed"
+last_commit = "c7639f7949d20f733fa7d2baef57b2d1bc12cca6"
+last_commit_time = "2022-06-19T11:02"
+status = "200"
+
+[repo.stats]
+branches = 4
+stars = 0
+tag_count = 0
+commits = 1
+watching = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/fungible-systems/micro-stacks"
+last_commit = "644f918c909bc84f3212597a24538fbe0209be28"
+last_commit_time = "2022-08-04T13:59"
+status = "200"
+
+[repo.stats]
+commits = 17
+watching = 6
+branches = 415
+stars = 55
+tag_count = 0
+forks = 14
 
 [[repo]]
 url = "https://github.com/fungible-systems/micro-stacks-examples"
+last_commit = "334676cdc23ad10f1eccb45b895fbe5e33c18fe7"
+last_commit_time = "2022-07-20T20:14"
+status = "200"
+
+[repo.stats]
+stars = 4
+watching = 1
+branches = 39
+tag_count = 0
+commits = 6
+forks = 3
 
 [[repo]]
 url = "https://github.com/fungible-systems/micro-stacks-gitbook"
+last_commit = "b403b5e8b4ff733f5d194f6d4a55462c22669098"
+last_commit_time = "2022-05-20T12:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 3
+commits = 1
+forks = 3
+watching = 1
+branches = 38
 
 [[repo]]
 url = "https://github.com/fungible-systems/micro-stacks-monorepo"
+last_commit = "64100130535988f888cb76daaf3d8f30dd04b227"
+last_commit_time = "2022-06-08T14:10"
+status = "200"
+
+[repo.stats]
+commits = 24
+forks = 3
+tag_count = 0
+stars = 4
+watching = 1
+branches = 67
 
 [[repo]]
 url = "https://github.com/fungible-systems/micro-stacks-nextjs"
+last_commit = "a888a7c83c574fcdb3135c32c0793c32ad380c07"
+last_commit_time = "2021-10-31T14:13"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 0
+tag_count = 0
+branches = 1
+stars = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/micro-stacks-nextjs-example"
+last_commit = "475651ddfa93721862050cce0f4fbc05d952c65c"
+last_commit_time = "2022-08-03T15:11"
+status = "200"
+
+[repo.stats]
+commits = 1
+forks = 1
+stars = 0
+tag_count = 0
+watching = 0
+branches = 13
 
 [[repo]]
 url = "https://github.com/fungible-systems/micro-stacks-react"
+last_commit = "64100130535988f888cb76daaf3d8f30dd04b227"
+last_commit_time = "2022-06-08T14:10"
+status = "200"
+
+[repo.stats]
+commits = 24
+forks = 3
+branches = 67
+watching = 1
+stars = 4
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/micro-stacks-remix-example"
+last_commit = "7edf9f44772521ccb7a45881509586363e5b41a8"
+last_commit_time = "2022-08-03T15:11"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+commits = 1
+watching = 0
+branches = 8
+forks = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/micro-stacks-svelte-example"
+last_commit = "fcfe949b048f2e41ea17f799b681a29ec0478dd3"
+last_commit_time = "2022-08-03T15:10"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 0
+branches = 5
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/fungible-systems/micro-stacks-vue3"
+status = "404"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 0
+branches = 0
+commits = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/multisafe-ui"
+last_commit = "d3530e0624f38e53819ed427561fb06189a4a7cc"
+last_commit_time = "2022-06-17T12:38"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+branches = 300
+commits = 8
+forks = 1
 
 [[repo]]
 url = "https://github.com/fungible-systems/nelson-ui"
+last_commit = "0f78952fe35e59a1cd056661b0be4719c83bb63c"
+last_commit_time = "2022-05-04T12:38"
+status = "200"
+
+[repo.stats]
+watching = 2
+stars = 6
+commits = 13
+tag_count = 0
+forks = 0
+branches = 79
 
 [[repo]]
 url = "https://github.com/fungible-systems/nextra"
+last_commit = "9760e87ea2dd4965afc5d64d9fad12f9f3714711"
+last_commit_time = "2022-05-30T19:39"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+forks = 555
+tag_count = 0
+branches = 143
+commits = 7
 
 [[repo]]
 url = "https://github.com/fungible-systems/nft-nyc-exclusive-app"
+last_commit = "960b1f34c266c133e310d75f7260af5f74dc54d5"
+last_commit_time = "2021-10-28T19:32"
+status = "200"
+
+[repo.stats]
+forks = 5
+commits = 2
+branches = 43
+watching = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/noble-hashes"
+last_commit = "0a8bbd5bf423e10d3e4f7847eab0fa2d7a1aa418"
+last_commit_time = "2021-10-21T11:08"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 0
+branches = 56
+watching = 0
+commits = 3
+forks = 11
 
 [[repo]]
 url = "https://github.com/fungible-systems/noble-secp256k1"
+last_commit = "7f56a017c70bf068e01828d1be011e8d2f02359e"
+last_commit_time = "2021-07-24T19:30"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 1
+forks = 46
+branches = 253
+commits = 2
+stars = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/nox.sh"
+last_commit = "ec05f79ae06807ca85a157fdb763de6fa23a333b"
+last_commit_time = "2022-03-26T17:49"
+status = "200"
+
+[repo.stats]
+stars = 2
+watching = 0
+branches = 6
+forks = 0
+tag_count = 0
+commits = 1
 
 [[repo]]
 url = "https://github.com/fungible-systems/radiks"
+last_commit = "850042b5e0e6b3bff4717dc0d3ced25a2f01eaab"
+last_commit_time = "2020-07-29T15:25"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 173
+commits = 20
+stars = 0
+watching = 0
+forks = 35
 
 [[repo]]
 url = "https://github.com/fungible-systems/radiks-server"
+last_commit = "99f2da87285427d8cec34569b1ac69e3644ce52c"
+last_commit_time = "2020-07-29T15:23"
+status = "200"
+
+[repo.stats]
+branches = 122
+commits = 16
+stars = 0
+tag_count = 0
+watching = 0
+forks = 20
 
 [[repo]]
 url = "https://github.com/fungible-systems/railway-stacks"
+last_commit = "6077a196fbc58d28665184f2221aef4570c00b3d"
+last_commit_time = "2021-12-21T02:16"
+status = "200"
+
+[repo.stats]
+watching = 1
+branches = 5
+tag_count = 0
+commits = 1
+stars = 0
+forks = 1
 
 [[repo]]
 url = "https://github.com/fungible-systems/react-native-webview-crypto"
+last_commit = "d2c31eca67a0caea876274a302c7271aa391c98b"
+last_commit_time = "2021-11-17T11:38"
+status = "200"
+
+[repo.stats]
+branches = 120
+stars = 0
+commits = 3
+forks = 19
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/react-vite-webext"
+last_commit = "5a366dd9f187e5e46de6c715994f5b445b51ef3e"
+last_commit_time = "2021-10-26T17:55"
+status = "200"
+
+[repo.stats]
+commits = 1
+tag_count = 0
+branches = 73
+watching = 0
+stars = 0
+forks = 8
 
 [[repo]]
 url = "https://github.com/fungible-systems/redstone-clarity-connector"
+last_commit = "c79eb1581861abd361512979fda302d6885be058"
+last_commit_time = "2022-03-24T04:17"
+status = "200"
+
+[repo.stats]
+branches = 10
+forks = 2
+commits = 2
+watching = 0
+stars = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/render-stacks"
+last_commit = "90c31f2d1c550b9702e422edf23581913870aa05"
+last_commit_time = "2022-01-06T19:41"
+status = "200"
+
+[repo.stats]
+commits = 6
+branches = 55
+tag_count = 0
+forks = 6
+watching = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/reservoir-indexer"
+last_commit = "90932bcac6bf98a88dafa7096292cba31d3ebe64"
+last_commit_time = "2022-05-12T18:06"
+status = "200"
+
+[repo.stats]
+branches = 0
+tag_count = 0
+forks = 23
+watching = 0
+stars = 0
+commits = 47
 
 [[repo]]
 url = "https://github.com/fungible-systems/rx"
+last_commit = "200f20a4c10235269f8e2aebf708eaa0f3e83dda"
+last_commit_time = "2021-05-08T14:50"
+status = "200"
+
+[repo.stats]
+stars = 0
+branches = 15
+commits = 2
+forks = 2
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/sip-12-js"
+last_commit = "7e958521592afe2c4ee32ea33ceb6507578e65f8"
+last_commit_time = "2021-11-05T17:33"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 1
+commits = 4
+branches = 23
+tag_count = 0
+stars = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/sip012.xyz"
+last_commit = "b4568f206c645d8b8395953880853686f6ed7262"
+last_commit_time = "2021-11-05T21:06"
+status = "200"
+
+[repo.stats]
+forks = 1
+watching = 0
+stars = 3
+branches = 32
+tag_count = 0
+commits = 5
 
 [[repo]]
 url = "https://github.com/fungible-systems/sip12"
+last_commit = "e474a2eb2779e3f2754ccf2a770cfdcc804eeddf"
+last_commit_time = "2021-10-27T18:25"
+status = "200"
+
+[repo.stats]
+watching = 0
+commits = 1
+tag_count = 0
+stars = 0
+branches = 6
+forks = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/stacking-club"
+status = "200"
+
+[repo.stats]
+watching = 0
+forks = 0
+stars = 0
+tag_count = 0
+commits = 0
+branches = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/stacks-api-node"
+last_commit = "03ba2e5983413d42a2d606e9d7d9d391c56f913c"
+last_commit_time = "2021-10-23T14:51"
+status = "200"
+
+[repo.stats]
+forks = 3
+tag_count = 0
+watching = 0
+stars = 0
+commits = 1
+branches = 27
 
 [[repo]]
 url = "https://github.com/fungible-systems/stacks-apps-registry"
+last_commit = "2bab03297e34bf1d3448a432beb80709ddf33cc1"
+last_commit_time = "2022-05-20T18:52"
+status = "200"
+
+[repo.stats]
+branches = 2
+forks = 0
+tag_count = 0
+commits = 1
+watching = 1
+stars = 1
 
 [[repo]]
 url = "https://github.com/fungible-systems/stacks-blockchain"
+last_commit = "8d9618de92559a96f496728a59df34c65892fd19"
+last_commit_time = "2022-01-18T14:48"
+status = "200"
+
+[repo.stats]
+branches = 0
+stars = 0
+commits = 517
+watching = 0
+forks = 538
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/stacks-blockchain-api"
+last_commit = "583c7e4e5052885ba614021fe782f5c3d3534c9c"
+last_commit_time = "2022-03-08T18:05"
+status = "200"
+
+[repo.stats]
+forks = 78
+stars = 0
+commits = 53
+branches = 0
+tag_count = 0
+watching = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/stacks-graphql-api"
+last_commit = "0ed58d6d47c4aa1ace19d50c6d5b29bd94f9e8a9"
+last_commit_time = "2021-12-27T17:30"
+status = "200"
+
+[repo.stats]
+watching = 0
+stars = 0
+branches = 4
+tag_count = 0
+forks = 1
+commits = 2
 
 [[repo]]
 url = "https://github.com/fungible-systems/stacks-wallet-web"
+last_commit = "70c9a54b7aab46a01e29a36f40ee052a2225cdac"
+last_commit_time = "2022-01-26T15:51"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+commits = 46
+branches = 0
+forks = 76
 
 [[repo]]
 url = "https://github.com/fungible-systems/store"
+last_commit = "687392b7f979a5c386fb6e04f8911f49a75385c8"
+last_commit_time = "2021-11-29T20:01"
+status = "200"
+
+[repo.stats]
+branches = 4
+forks = 0
+stars = 0
+commits = 1
+watching = 0
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/storm"
+last_commit = "2cbd4b3280bde38b09645a2145e6eea4b84253cf"
+last_commit_time = "2021-11-27T14:12"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+watching = 0
+forks = 2
+commits = 2
+stars = 0
+branches = 24
 
 [[repo]]
 url = "https://github.com/fungible-systems/temporal-render-simple"
+last_commit = "ed9fe231462886a06c3e591c57c4cdb9b600d2f2"
+last_commit_time = "2022-02-01T18:47"
+status = "200"
+
+[repo.stats]
+branches = 12
+watching = 0
+forks = 16
+stars = 0
+tag_count = 0
+commits = 3
 
 [[repo]]
 url = "https://github.com/fungible-systems/uptime-kuma"
+last_commit = "4ba20254519d863df1387b3b297b6642039e8c0c"
+last_commit_time = "2021-10-10T06:40"
+status = "200"
+
+[repo.stats]
+stars = 0
+watching = 0
+tag_count = 0
+commits = 8
+branches = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/vanilla-extract"
+last_commit = "0222a807f99f4a94228d565831b11427626bf350"
+last_commit_time = "2021-09-27T12:34"
+status = "200"
+
+[repo.stats]
+watching = 0
+commits = 9
+branches = 336
+tag_count = 0
+stars = 0
+forks = 146
 
 [[repo]]
 url = "https://github.com/fungible-systems/webview-crypto"
+last_commit = "6e74de54175b4eb0081bd71f02b94af9dcec7d1b"
+last_commit_time = "2021-11-11T13:39"
+status = "200"
+
+[repo.stats]
+commits = 1
+branches = 60
+watching = 0
+stars = 0
+forks = 13
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/fungible-systems/zora-docs"
+last_commit = "05eca63705f7462887b2eee51382b49fbc4c33ee"
+last_commit_time = "2021-10-18T22:20"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+branches = 174
+stars = 0
+forks = 24
+commits = 11
+watching = 0

@@ -1,16 +1,44 @@
-# Ecosystem Level Information
 title = "Panvala"
-
+toml_path = "data/ecosystems/p/panvala.toml"
+github_organizations = ["https://github.com/Panvala"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Panvala"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Panvala/archives"
+status = "200"
+
+[repo.stats]
+watching = 0
+tag_count = 0
+branches = 0
+commits = 0
+stars = 0
+forks = 0
 
 [[repo]]
 url = "https://github.com/Panvala/handbook"
+last_commit = "9bbebbc0727c96691eccb790e74c4407be517c59"
+last_commit_time = "2021-09-06T20:15"
+status = "200"
+
+[repo.stats]
+forks = 0
+stars = 0
+watching = 2
+branches = 86
+commits = 2
+tag_count = 0
 
 [[repo]]
 url = "https://github.com/Panvala/panvala"
+last_commit = "5e885b6b3125a36a0685160266c0b826a4eaa44f"
+last_commit_time = "2022-05-01T23:17"
+status = "200"
+
+[repo.stats]
+stars = 12
+branches = 0
+commits = 115
+tag_count = 0
+watching = 3
+forks = 7

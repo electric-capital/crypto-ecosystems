@@ -1,13 +1,32 @@
-# Ecosystem Level Information
 title = "Soma"
-
+toml_path = "data/ecosystems/s/soma.toml"
+github_organizations = ["https://github.com/Soma-co"]
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Soma-co"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/Soma-co/soma-community-token"
+last_commit = "edb26674607e4ec13674bd3a9d08d017b9703169"
+last_commit_time = "2017-10-10T13:06"
+status = "200"
+
+[repo.stats]
+watching = 5
+forks = 1
+stars = 8
+tag_count = 0
+branches = 3
+commits = 2
 
 [[repo]]
 url = "https://github.com/Soma-co/soma-snapshots"
+last_commit = "22111ac390139cca411e1d3df304da43bb8e693f"
+last_commit_time = "2017-07-13T13:51"
+status = "200"
+
+[repo.stats]
+tag_count = 0
+stars = 2
+forks = 0
+branches = 1
+commits = 1
+watching = 3

@@ -46,3 +46,4 @@ By specifying the data as evolving config files in git, we benefit from a long t
 #### How to Contribute
 
 ✍️ You can make any .toml file for an ecosystem in the /data/ecosystems directory or edit an existing one to help improve data around an ecosystem.  Pull Requests are encouraged. 
+

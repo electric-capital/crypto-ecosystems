@@ -1,0 +1,30 @@
+# Ecosystem Level Information
+title = "Elastic IPFS"
+
+# Sub Ecosystems
+# These are the titles of other ecosystems in different .toml files in the /data/ecosystems directory
+sub_ecosystems = [ "IPFS"]
+
+# GitHub Organizations
+# This is a list of links to associated GitHub organizations.
+github_organizations = ["https://github.com/elastic-ipfs/"]
+
+# Repositories
+# These are structs including a url and tags for a git repository. These URLs do not necessarily have to be on GitHub.
+[[repo]]
+url = "https://github.com/elastic-ipfs/elastic-ipfs"
+
+[[repo]]
+url = "https://github.com/elastic-ipfs/bitswap-peer"
+
+[[repo]]
+url = "https://github.com/elastic-ipfs/indexer-lambda"
+
+[[repo]]
+url = "https://github.com/elastic-ipfs/metrics-collector"
+
+[[repo]]
+url = "https://github.com/elastic-ipfs/bucket-to-indexer"
+
+[[repo]]
+url = "https://github.com/elastic-ipfs/side-indexer-lambda"

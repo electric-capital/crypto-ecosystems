@@ -9,13 +9,18 @@ sub_ecosystems = [
   "Anatha",
   "Antlia",
   "Artiqox",
+  "AssetMantle",
   "BitCanna",
   "Bitsong",
+  "Cerberus Zone",
   "Chainapsis",
+  "Chihuahua Chain",
+  "Comdex",
   "commercio.network",
   "confio",
   "Cosmic Bridge",
   "CosmWasm",
+  "Crescent Network",
   "Cronos",
   "Crypto.com Chain",
   "Cudos",
@@ -32,6 +37,7 @@ sub_ecosystems = [
   "evmos",
   "Fetch",
   "FOAM",
+  "Gravity Bridge",
   "GravityDEX",
   "HBTC Chain",
   "Injective Protocol",
@@ -41,13 +47,17 @@ sub_ecosystems = [
   "IRITA Consortium Blockchain",
   "ixo",
   "Juno",
+  "Ki Foundation",
   "KiChain",
   "Kira",
+  "Konstellation",
   "Kuchain Network",
   "Lazy Ledger",
   "lcnem",
   "LikeCoin",
   "Loom Network",
+  "Lum Network",
+  "MediBloc",
   "microtick",
   "Mises Network",
   "netcloth",
@@ -62,16 +72,19 @@ sub_ecosystems = [
   "Penumbra Zone",
   "Persistence",
   "Provenance",
+  "Provenance Blockchain",
   "Regen Network",
   "Rizon",
   "Secret",
   "Sentinel",
   "Shade Protocol",
+  "Shentu Chain",
   "Sifchain",
   "Sputnik Network",
   "Stargaze",
   "Starname",
   "Terra",
+  "Tharsis",
   "THORChain",
   "Unifi DAO",
   "UP Voting System",
@@ -313,6 +326,9 @@ url = "https://github.com/celestiaorg/evmos"
 url = "https://github.com/celestiaorg/gatsby-plugin-plausible"
 
 [[repo]]
+url = "https://github.com/celestiaorg/go-car"
+
+[[repo]]
 url = "https://github.com/celestiaorg/go-cnc"
 
 [[repo]]
@@ -398,6 +414,9 @@ url = "https://github.com/celestiaorg/protobuf3-solidity-lib"
 
 [[repo]]
 url = "https://github.com/celestiaorg/quantum-gravity-bridge"
+
+[[repo]]
+url = "https://github.com/celestiaorg/reverse-proxy"
 
 [[repo]]
 url = "https://github.com/celestiaorg/rsmt2d"
@@ -638,7 +657,13 @@ url = "https://github.com/cheqd/product"
 url = "https://github.com/cheqd/restake"
 
 [[repo]]
+url = "https://github.com/cheqd/sdk"
+
+[[repo]]
 url = "https://github.com/cheqd/sdk-javascript"
+
+[[repo]]
+url = "https://github.com/cheqd/secret-box-service"
 
 [[repo]]
 url = "https://github.com/cheqd/slips"
@@ -650,7 +675,16 @@ url = "https://github.com/cheqd/snapshots-ui"
 url = "https://github.com/cheqd/starport"
 
 [[repo]]
+url = "https://github.com/cheqd/ts-proto"
+
+[[repo]]
 url = "https://github.com/cheqd/uni-resolver-driver-did-cheqd"
+
+[[repo]]
+url = "https://github.com/cheqd/universal-resolver"
+
+[[repo]]
+url = "https://github.com/cheqd/validator-status"
 
 [[repo]]
 url = "https://github.com/cheqd/vdr-tools-sdk"
@@ -809,6 +843,9 @@ url = "https://github.com/cosmos/autoalias"
 url = "https://github.com/cosmos/awesome"
 
 [[repo]]
+url = "https://github.com/cosmos/awesome-cosmos"
+
+[[repo]]
 url = "https://github.com/cosmos/b9-checkers-academy-draft"
 
 [[repo]]
@@ -853,6 +890,9 @@ tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/cosmos/cosmos-academy"
+
+[[repo]]
+url = "https://github.com/cosmos/cosmos-db"
 
 [[repo]]
 url = "https://github.com/cosmos/cosmos-multisig-ui"
@@ -939,6 +979,9 @@ url = "https://github.com/cosmos/gogoproto"
 url = "https://github.com/cosmos/gorocksdb"
 
 [[repo]]
+url = "https://github.com/cosmos/gosec"
+
+[[repo]]
 url = "https://github.com/cosmos/governance"
 
 [[repo]]
@@ -985,6 +1028,9 @@ url = "https://github.com/cosmos/ibc-temp"
 
 [[repo]]
 url = "https://github.com/cosmos/ics"
+
+[[repo]]
+url = "https://github.com/cosmos/images"
 
 [[repo]]
 url = "https://github.com/cosmos/interchain-account"
@@ -1131,6 +1177,9 @@ url = "https://github.com/cosmostation/BitcoinKit"
 url = "https://github.com/cosmostation/bridge-launch-governance"
 
 [[repo]]
+url = "https://github.com/cosmostation/cosmos-client"
+
+[[repo]]
 url = "https://github.com/cosmostation/cosmos-sdk"
 
 [[repo]]
@@ -1149,6 +1198,9 @@ url = "https://github.com/cosmostation/cosmostation-chrome-extension-client"
 url = "https://github.com/cosmostation/cosmostation-dapps-asset"
 
 [[repo]]
+url = "https://github.com/cosmostation/cosmostation-dapps-example"
+
+[[repo]]
 url = "https://github.com/cosmostation/cosmostation-ios"
 
 [[repo]]
@@ -1162,6 +1214,9 @@ url = "https://github.com/cosmostation/cosmostation.github.io"
 
 [[repo]]
 url = "https://github.com/cosmostation/cosmostation_token_resource"
+
+[[repo]]
+url = "https://github.com/cosmostation/CosmWasmJS"
 
 [[repo]]
 url = "https://github.com/cosmostation/defistation-web"
@@ -1234,6 +1289,9 @@ url = "https://github.com/cosmostation/networks-1"
 
 [[repo]]
 url = "https://github.com/cosmostation/OIPs"
+
+[[repo]]
+url = "https://github.com/cosmostation/passage-mainnet-fork"
 
 [[repo]]
 url = "https://github.com/cosmostation/pegzone"
@@ -1344,6 +1402,9 @@ url = "https://github.com/CosmWasm/cosmwasm.js"
 url = "https://github.com/CosmWasm/CosmWasmJS"
 
 [[repo]]
+url = "https://github.com/CosmWasm/cw-academy-course"
+
+[[repo]]
 url = "https://github.com/CosmWasm/cw-cron"
 
 [[repo]]
@@ -1366,6 +1427,9 @@ url = "https://github.com/CosmWasm/cw-template"
 
 [[repo]]
 url = "https://github.com/CosmWasm/cw-tokens"
+
+[[repo]]
+url = "https://github.com/CosmWasm/cw-tools"
 
 [[repo]]
 url = "https://github.com/CosmWasm/CWIPs"
@@ -1419,6 +1483,9 @@ url = "https://github.com/CosmWasm/name-app"
 url = "https://github.com/CosmWasm/relayer"
 
 [[repo]]
+url = "https://github.com/CosmWasm/resources"
+
+[[repo]]
 url = "https://github.com/CosmWasm/rust-optimizer"
 
 [[repo]]
@@ -1447,6 +1514,9 @@ url = "https://github.com/CosmWasm/tinygo"
 
 [[repo]]
 url = "https://github.com/CosmWasm/tinyjson"
+
+[[repo]]
+url = "https://github.com/CosmWasm/ts-codegen"
 
 [[repo]]
 url = "https://github.com/CosmWasm/ts-proto"
@@ -1727,6 +1797,9 @@ url = "https://github.com/OpenGenus/cosmos-search"
 url = "https://github.com/osmosis-labs/osmosis"
 
 [[repo]]
+url = "https://github.com/PeggyJV/aave-v2-cellar"
+
+[[repo]]
 url = "https://github.com/PeggyJV/cellar-contracts"
 
 [[repo]]
@@ -1743,6 +1816,9 @@ url = "https://github.com/PeggyJV/cellar_rebalancer_rs"
 
 [[repo]]
 url = "https://github.com/PeggyJV/cellars"
+
+[[repo]]
+url = "https://github.com/PeggyJV/chain-registry"
 
 [[repo]]
 url = "https://github.com/PeggyJV/deep_space"
@@ -1764,6 +1840,9 @@ url = "https://github.com/PeggyJV/ocular"
 
 [[repo]]
 url = "https://github.com/PeggyJV/somm-token"
+
+[[repo]]
+url = "https://github.com/PeggyJV/somm_distributor"
 
 [[repo]]
 url = "https://github.com/PeggyJV/sommelier"
@@ -1791,6 +1870,9 @@ url = "https://github.com/PeggyJV/tendermint"
 
 [[repo]]
 url = "https://github.com/PeggyJV/testnets"
+
+[[repo]]
+url = "https://github.com/PeggyJV/tm-ingress"
 
 [[repo]]
 url = "https://github.com/PeggyJV/uniswap-v2-subgraph"
@@ -1836,10 +1918,16 @@ tags = ["Developer Tool"]
 url = "https://github.com/Staketab/cosmos-tools"
 
 [[repo]]
-url = "https://github.com/strangelove-ventures/horcrux"
+url = "https://github.com/strangelove-ventures/graz"
 
 [[repo]]
 url = "https://github.com/strangelove-ventures/heighliner"
+
+[[repo]]
+url = "https://github.com/strangelove-ventures/horcrux"
+
+[[repo]]
+url = "https://github.com/strangelove-ventures/ibctest"
 
 [[repo]]
 url = "https://github.com/strangelove-ventures/lens"
@@ -1849,12 +1937,6 @@ url = "https://github.com/strangelove-ventures/packet-forward-middleware"
 
 [[repo]]
 url = "https://github.com/strangelove-ventures/relayer"
-
-[[repo]]
-url = "https://github.com/strangelove-ventures/ibctest"
-
-[[repo]]
-url = "https://github.com/strangelove-ventures/graz"
 
 [[repo]]
 url = "https://github.com/sweeneyf/dm-ledger"

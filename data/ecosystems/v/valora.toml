@@ -1,9 +1,13 @@
 # Ecosystem Level Information
 title = "Valora"
 
-sub_ecosystems = []
+sub_ecosystems = [
+    "Fiat Connect",
+]
 
-github_organizations = ["https://github.com/valora-inc"]
+github_organizations = [
+    "https://github.com/valora-inc",
+]
 
 # Repositories
 [[repo]]
@@ -134,3 +138,18 @@ url = "https://github.com/valora-inc/wallet"
 
 [[repo]]
 url = "https://github.com/valora-inc/nft-list"
+
+[[repo]]
+url = "https://github.com/fiatconnect/specification"
+
+[[repo]]
+url = "https://github.com/fiatconnect/validate"
+
+[[repo]]
+url = "https://github.com/fiatconnect/fiatconnect-sdk"
+
+[[repo]]
+url = "https://github.com/fiatconnect/api-starter"
+
+[[repo]]
+url = "https://github.com/fiatconnect/fiatconnect-types"

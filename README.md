@@ -15,15 +15,18 @@ Attribution needs to have 3 components:
 2. Link: https://github.com/electric-capital/crypto-ecosystems
 3. Logo: [Link to logo](https://drive.google.com/file/d/1DAX6wmcbtia7kaP5AaUWyg6t-ZEW9z22/view?usp=sharing)
 
-Sample attribution:
-Data Source: [Electric Capital Crypto Ecosystems Mapping](https://github.com/electric-capital/crypto-ecosystems)
-If you’re working in open source crypto, submit your repository [here](https://github.com/electric-capital/crypto-ecosystems) to be counted.
-
 Optional:
 Everyone in the crypto ecosystem benefits from additions to this repository.
 It is a help to everyone to include an ask to contribute next to your attribution.
 
 Sample request language: "If you’re working in open source crypto, submit your repository here to be counted."
+
+
+<ins>Sample attribution</ins>
+
+Data Source: [Electric Capital Crypto Ecosystems Mapping](https://github.com/electric-capital/crypto-ecosystems)
+
+If you’re working in open source crypto, submit your repository [here](https://github.com/electric-capital/crypto-ecosystems) to be counted.
 
 ## How to Contribute
 There's a couple of ways you can help grow this initiative.

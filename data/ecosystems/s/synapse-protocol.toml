@@ -3,7 +3,7 @@ title = "Synapse Protocol"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/synapsecns"]
+github_organizations = []
 
 # Repositories
 [[repo]]
@@ -26,6 +26,9 @@ url = "https://github.com/synapsecns/goreleaser-cgo-cross-compiler"
 
 [[repo]]
 url = "https://github.com/synapsecns/GoWebsocket"
+
+[[repo]]
+url = "https://github.com/synapsecns/interface"
 
 [[repo]]
 url = "https://github.com/synapsecns/joe-core"

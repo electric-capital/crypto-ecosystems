@@ -2,6 +2,7 @@
 title = "Avalanche"
 
 sub_ecosystems = [
+  " deBridge.Finance",
   "0.exchange",
   "AllianceBlock",
   "Apa NFT",
@@ -14,21 +15,27 @@ sub_ecosystems = [
   "Avaware",
   "avme",
   "AxDAO",
+  "axia-coin",
   "Baby Trader Joe",
   "Baguette Token",
+  "BAKLAVA SPACE",
   "Bamboo Token",
   "BENQI",
+  "Bet Swirl",
   "BiFi",
   "Birdy Finance",
   "Blizz Finance",
   "Canary",
   "Canopus",
+  "CapxFi",
+  "Cask",
   "Complus Network",
   "Cougar Swap",
   "Curate",
   "Cycle Finance",
   "DAI Option",
   "Dante Network",
+  "DeFiHelper",
   "Defrost Finance",
   "Dexible",
   "E-Money",
@@ -39,7 +46,9 @@ sub_ecosystems = [
   "Fortress DAO",
   "Gaj Finance",
   "Ghost Market",
+  "GMX",
   "Gondola Finance",
+  "Grape Finance",
   "Hashstack",
   "Heroes of NFT",
   "Hurricane Swap",
@@ -48,8 +57,10 @@ sub_ecosystems = [
   "IceSlush Finance",
   "Iron Finance",
   "KNIT Finance",
+  "ldclabs",
   "Lydia",
   "Maximizer",
+  "Muon Protocol",
   "nekoverse",
   "NFTrade",
   "Niftyx",
@@ -71,6 +82,7 @@ sub_ecosystems = [
   "Router Protocol",
   "RUGenerous",
   "Sherpa Cash",
+  "simplefi",
   "SmartCoin",
   "Snowball",
   "Snowball Finance",
@@ -91,12 +103,25 @@ sub_ecosystems = [
   "YetiSwap",
   "Yield Yak",
   "Zabu Finance",
+  "zapa-labs",
   "Zeal Farm",
 ]
 
 github_organizations = ["https://github.com/ava-labs", "https://github.com/malden-feuerstein"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/0rtis/dfktools"
+
+[[repo]]
+url = "https://github.com/2phi/weac"
+
+[[repo]]
+url = "https://github.com/2pinetwork/beta"
+
+[[repo]]
+url = "https://github.com/2pinetwork/contracts"
+
 [[repo]]
 url = "https://github.com/ablockio/Auto-AVA-Denali-node-deployment"
 
@@ -107,7 +132,13 @@ url = "https://github.com/aleph-im/aleph-swap-dapp"
 url = "https://github.com/algorder/algorthic"
 
 [[repo]]
+url = "https://github.com/AlpsFinance/alpsfinance-website"
+
+[[repo]]
 url = "https://github.com/anthdm/avalanche"
+
+[[repo]]
+url = "https://github.com/ap0calyp/abracadabra-liquidations-ui"
 
 [[repo]]
 url = "https://github.com/ArtashesMargaryan/emptyProject"
@@ -228,6 +259,9 @@ url = "https://github.com/ava-labs/avalanche-telemetry"
 url = "https://github.com/ava-labs/avalanche-testing"
 
 [[repo]]
+url = "https://github.com/ava-labs/avalanche-types-rs"
+
+[[repo]]
 url = "https://github.com/ava-labs/avalanche-wallet"
 tags = ["Protocol"]
 
@@ -245,6 +279,9 @@ url = "https://github.com/ava-labs/avalanchego-kurtosis"
 
 [[repo]]
 url = "https://github.com/ava-labs/avalanchego-operator"
+
+[[repo]]
+url = "https://github.com/ava-labs/avalanchejs"
 
 [[repo]]
 url = "https://github.com/ava-labs/avalanchejs"
@@ -268,6 +305,9 @@ url = "https://github.com/ava-labs/blobvm"
 url = "https://github.com/ava-labs/bridge-tokens"
 
 [[repo]]
+url = "https://github.com/ava-labs/btcb-por-workshop"
+
+[[repo]]
 url = "https://github.com/ava-labs/cedrusdb-go"
 
 [[repo]]
@@ -279,6 +319,9 @@ url = "https://github.com/ava-labs/chainsafe-scripts"
 [[repo]]
 url = "https://github.com/ava-labs/coreth"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/ava-labs/crazy-blockchain-tutorial"
 
 [[repo]]
 url = "https://github.com/ava-labs/docker-bitcoind"
@@ -314,8 +357,14 @@ url = "https://github.com/ava-labs/faucet-site"
 url = "https://github.com/ava-labs/gecko"
 
 [[repo]]
+url = "https://github.com/ava-labs/gnosis-subnet"
+
+[[repo]]
 url = "https://github.com/ava-labs/go-ethereum"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/ava-labs/hello-world-official-precompile-tutorial"
 
 [[repo]]
 url = "https://github.com/ava-labs/homebrew-avalanchego"
@@ -336,6 +385,9 @@ url = "https://github.com/ava-labs/ledger-app-avalanche"
 url = "https://github.com/ava-labs/linux-sgx"
 
 [[repo]]
+url = "https://github.com/ava-labs/lotus-docs"
+
+[[repo]]
 url = "https://github.com/ava-labs/mastering-avalanche"
 
 [[repo]]
@@ -349,6 +401,9 @@ url = "https://github.com/ava-labs/open-defi-hackathon"
 
 [[repo]]
 url = "https://github.com/ava-labs/ortelius"
+
+[[repo]]
+url = "https://github.com/ava-labs/public-chain-assets"
 
 [[repo]]
 url = "https://github.com/ava-labs/public-facing-docs"
@@ -372,6 +427,12 @@ url = "https://github.com/ava-labs/spacesvm"
 url = "https://github.com/ava-labs/spacesvm-js"
 
 [[repo]]
+url = "https://github.com/ava-labs/spacesvm-postman-collection"
+
+[[repo]]
+url = "https://github.com/ava-labs/spacesvm-rs"
+
+[[repo]]
 url = "https://github.com/ava-labs/subnet-assets"
 
 [[repo]]
@@ -379,6 +440,9 @@ url = "https://github.com/ava-labs/subnet-cli"
 
 [[repo]]
 url = "https://github.com/ava-labs/subnet-evm"
+
+[[repo]]
+url = "https://github.com/ava-labs/subnet-evm-hello-world-official-precompile-tutorial"
 
 [[repo]]
 url = "https://github.com/ava-labs/subnet-evm-test"
@@ -394,6 +458,9 @@ url = "https://github.com/ava-labs/test-subnet-configs"
 
 [[repo]]
 url = "https://github.com/ava-labs/timestampvm"
+
+[[repo]]
+url = "https://github.com/ava-labs/timestampvm-rs"
 
 [[repo]]
 url = "https://github.com/ava-labs/viper"
@@ -420,6 +487,9 @@ url = "https://github.com/AvadoDServer/AVADO-DNP-AvalancheGo"
 url = "https://github.com/avcdsld/figment-learn-tutorials"
 
 [[repo]]
+url = "https://github.com/barroqt/catapult-dao"
+
+[[repo]]
 url = "https://github.com/basalt-rps/avalanchego-basalt"
 
 [[repo]]
@@ -441,6 +511,9 @@ url = "https://github.com/BradMcFall/MDNANFT"
 url = "https://github.com/bws9000/avalanchejs-demo-cms"
 
 [[repo]]
+url = "https://github.com/Cestafinance/cesta-app"
+
+[[repo]]
 url = "https://github.com/cgcardona/AVAX-hd-address-generator"
 
 [[repo]]
@@ -453,7 +526,13 @@ url = "https://github.com/cinquemb/dollar-avax"
 url = "https://github.com/cjthoma1/flashswap-arbitrage-avalanche"
 
 [[repo]]
+url = "https://github.com/code-423n4/2021-12-yetifinance"
+
+[[repo]]
 url = "https://github.com/collincusce/makeutxos"
+
+[[repo]]
+url = "https://github.com/Colm3na/DAppNodePackage-avalanche"
 
 [[repo]]
 url = "https://github.com/ColonyLab/ColonyAppV1"
@@ -462,10 +541,19 @@ url = "https://github.com/ColonyLab/ColonyAppV1"
 url = "https://github.com/complusnetwork/complus-master-ava"
 
 [[repo]]
+url = "https://github.com/connext/nxtp"
+
+[[repo]]
 url = "https://github.com/cryptobi/avax-python"
 
 [[repo]]
 url = "https://github.com/cryptobi/cavax"
+
+[[repo]]
+url = "https://github.com/danaszova/DEX"
+
+[[repo]]
+url = "https://github.com/dannpr/avax-moralis-hack"
 
 [[repo]]
 url = "https://github.com/datadef/ava-hd-wallet"
@@ -474,10 +562,28 @@ url = "https://github.com/datadef/ava-hd-wallet"
 url = "https://github.com/datadef/com.avamatic.client"
 
 [[repo]]
+url = "https://github.com/deepsquare-io/smart-contracts"
+
+[[repo]]
+url = "https://github.com/Defi-Coders/CryptoSniper"
+
+[[repo]]
+url = "https://github.com/defoundationxyz/defo-contract"
+
+[[repo]]
+url = "https://github.com/DeltaPrimeLabs/deltaprime-primeloans"
+
+[[repo]]
+url = "https://github.com/deusfinance/app-ui"
+
+[[repo]]
 url = "https://github.com/Devilla/avalanche-truffle"
 
 [[repo]]
 url = "https://github.com/Dexalot/contracts"
+
+[[repo]]
+url = "https://github.com/didoshotev/ThePeach-hardhat"
 
 [[repo]]
 url = "https://github.com/droidsb/droidsb.github.io"
@@ -495,10 +601,31 @@ url = "https://github.com/DY-76/HAGO3"
 url = "https://github.com/echoamireux/AVAX"
 
 [[repo]]
+url = "https://github.com/ElasticSwap/elasticswap"
+
+[[repo]]
+url = "https://github.com/eldorado-Coder/penguin-finance-frontend"
+
+[[repo]]
 url = "https://github.com/encKrish/Medibase"
 
 [[repo]]
+url = "https://github.com/EZChain-core/ezchain-explorer"
+
+[[repo]]
+url = "https://github.com/factor-finance/xusd-contracts"
+
+[[repo]]
+url = "https://github.com/factor-finance/xusd-dapp"
+
+[[repo]]
 url = "https://github.com/fairhive-labs/timestampvm"
+
+[[repo]]
+url = "https://github.com/farukterzioglu/HDWallet"
+
+[[repo]]
+url = "https://github.com/figment-networks/avalanche-indexer"
 
 [[repo]]
 url = "https://github.com/flare-foundation/coreth"
@@ -507,13 +634,40 @@ url = "https://github.com/flare-foundation/coreth"
 url = "https://github.com/fueledonbacon/nft-contracts"
 
 [[repo]]
+url = "https://github.com/geektechniquestudios/ChessWager"
+
+[[repo]]
+url = "https://github.com/gmx-io/gmx-interface"
+
+[[repo]]
+url = "https://github.com/gmx-io/gmx-stats"
+
+[[repo]]
+url = "https://github.com/gmx-io/gmx-subgraph"
+
+[[repo]]
+url = "https://github.com/grape-finance/Wine_Connoisseur_GameFE"
+
+[[repo]]
+url = "https://github.com/grapefi/front-end"
+
+[[repo]]
+url = "https://github.com/Graviton-One/graviton-contracts"
+
+[[repo]]
 url = "https://github.com/gyuho/avax-tester"
 
 [[repo]]
 url = "https://github.com/happy-bits/vinlotteri"
 
 [[repo]]
+url = "https://github.com/helix-bridge/helix-ui"
+
+[[repo]]
 url = "https://github.com/hsk81/avalanche-cli"
+
+[[repo]]
+url = "https://github.com/iamnotstatic/multichain-crypto-wallet"
 
 [[repo]]
 url = "https://github.com/innerfirexy/interactive-web-ai"
@@ -540,6 +694,12 @@ url = "https://github.com/JSH1995/HAGO2"
 url = "https://github.com/jtormey/avax-wallet"
 
 [[repo]]
+url = "https://github.com/KassandraFinance/kassandra-frontend"
+
+[[repo]]
+url = "https://github.com/klaytn/tx-latency-measurement"
+
+[[repo]]
 url = "https://github.com/kryptochaot/flare"
 
 [[repo]]
@@ -558,6 +718,12 @@ url = "https://github.com/malden-feuerstein/contracts"
 url = "https://github.com/n1az/n1az.github.io-old"
 
 [[repo]]
+url = "https://github.com/nereusfinance/nereus-stablecoin-core"
+
+[[repo]]
+url = "https://github.com/NestedFi/nested-core-lego"
+
+[[repo]]
 url = "https://github.com/obsidiansystems/avalanche-wallet-cli"
 
 [[repo]]
@@ -568,6 +734,9 @@ url = "https://github.com/Permissionless-Software-Foundation/avax-bridge"
 
 [[repo]]
 url = "https://github.com/Permissionless-Software-Foundation/avax-cli-wallet"
+
+[[repo]]
+url = "https://github.com/Permissionless-Software-Foundation/avax-dex"
 
 [[repo]]
 url = "https://github.com/Permissionless-Software-Foundation/minimal-avax-wallet"
@@ -588,10 +757,25 @@ url = "https://github.com/PtitLuca/aleph-ts"
 url = "https://github.com/qsvtr/avash"
 
 [[repo]]
+url = "https://github.com/RabbyHub/Rabby"
+
+[[repo]]
 url = "https://github.com/ReallyBasicGames/Aurora-Star-Corps"
 
 [[repo]]
 url = "https://github.com/ReallyBasicGames/Idle-Mining"
+
+[[repo]]
+url = "https://github.com/redstone-finance/redstone-node"
+
+[[repo]]
+url = "https://github.com/Revest-Finance/Revest-SDK"
+
+[[repo]]
+url = "https://github.com/Rome-Blockchain-Labs/terminal-library"
+
+[[repo]]
+url = "https://github.com/rromero89/dapp"
 
 [[repo]]
 url = "https://github.com/Sanghren/avalanche-hardhat-fork-tutorial"
@@ -613,6 +797,12 @@ url = "https://github.com/setheum-js/setheum.js"
 
 [[repo]]
 url = "https://github.com/smartpassnft/scribe-contracts"
+
+[[repo]]
+url = "https://github.com/Snowball-Finance/axial-protocol"
+
+[[repo]]
+url = "https://github.com/SnowbankDAO/snowbank-frontend"
 
 [[repo]]
 url = "https://github.com/tbrunain/avalanche-nft-creation"
@@ -645,6 +835,12 @@ url = "https://github.com/Toinounet21/coreth-traffiqued-v0.8.0-rc.3"
 url = "https://github.com/Toinounet21/coreth-traffiqued-v0.8.0b"
 
 [[repo]]
+url = "https://github.com/traderjoe-xyz/joe-core"
+
+[[repo]]
+url = "https://github.com/traderjoe-xyz/joe-lending"
+
+[[repo]]
 url = "https://github.com/uphold-forks/flare"
 
 [[repo]]
@@ -660,4 +856,16 @@ url = "https://github.com/vijayengineer/V-Cred-Avalanche"
 url = "https://github.com/wimel/Delegar-fondos-en-Avalanche-AVAX"
 
 [[repo]]
+url = "https://github.com/xchainjs/xchainjs-lib"
+
+[[repo]]
+url = "https://github.com/xp-network/xpjs"
+
+[[repo]]
 url = "https://github.com/youricorocks/avalanchego"
+
+[[repo]]
+url = "https://github.com/zerodao-finance/zero-protocol"
+
+[[repo]]
+url = "https://github.com/zerodao-finance/zeroBridge"

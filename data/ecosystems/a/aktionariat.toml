@@ -1,17 +1,22 @@
 # Ecosystem Level Information
 title = "Aktionariat"
 
-# Sub Ecosystems
 sub_ecosystems = []
 
-# GitHub Organizations
-# This is a list of links to associated GitHub organizations.
 github_organizations = ["https://github.com/aktionariat"]
 
 # Repositories
-# These are structs including a url and tags for a git repository. These URLs do not necessarily have to be on GitHub.
+[[repo]]
+url = "https://github.com/aktionariat/app"
+
 [[repo]]
 url = "https://github.com/aktionariat/contracts"
+
+[[repo]]
+url = "https://github.com/aktionariat/quickbase"
+
+[[repo]]
+url = "https://github.com/aktionariat/reports"
 
 [[repo]]
 url = "https://github.com/aktionariat/walletconnect-bridge"

@@ -1,11 +1,17 @@
 # Ecosystem Level Information
 title = "Osmosis"
 
-sub_ecosystems = []
+sub_ecosystems = ["ZKValidator"]
 
 github_organizations = ["https://github.com/osmosis-labs"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/eco-stake/restake"
+
+[[repo]]
+url = "https://github.com/notional-labs/notional"
+
 [[repo]]
 url = "https://github.com/osmosis-labs/.github"
 
@@ -25,6 +31,9 @@ url = "https://github.com/osmosis-labs/beaker"
 url = "https://github.com/osmosis-labs/bech32-ibc"
 
 [[repo]]
+url = "https://github.com/osmosis-labs/beforesend-demo"
+
+[[repo]]
 url = "https://github.com/osmosis-labs/bindings"
 
 [[repo]]
@@ -32,6 +41,9 @@ url = "https://github.com/osmosis-labs/btree"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/claims"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/code-explorer"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/contract-list"
@@ -56,6 +68,9 @@ url = "https://github.com/osmosis-labs/cosmwasm"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cosmwasm-verify"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/cw-minimal-template"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cw-stargate-reflect"
@@ -98,6 +113,9 @@ url = "https://github.com/osmosis-labs/iavl"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/ibc-go"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/icns"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/infrastructure"

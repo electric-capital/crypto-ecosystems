@@ -3,7 +3,7 @@ title = "Subspace Network"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/subspace"]
+github_organizations = []
 
 # Repositories
 [[repo]]
@@ -35,6 +35,9 @@ url = "https://github.com/subspace/cumulus"
 
 [[repo]]
 url = "https://github.com/subspace/database"
+
+[[repo]]
+url = "https://github.com/subspace/decoupled-execution-experiment"
 
 [[repo]]
 url = "https://github.com/subspace/design"
@@ -74,6 +77,9 @@ url = "https://github.com/subspace/merkle-tree-binary.rs"
 
 [[repo]]
 url = "https://github.com/subspace/merkle_light"
+
+[[repo]]
+url = "https://github.com/subspace/monk-spartan-template"
 
 [[repo]]
 url = "https://github.com/subspace/multicodec"
@@ -136,6 +142,9 @@ url = "https://github.com/subspace/red-black-tree"
 url = "https://github.com/subspace/reed-solomon-erasure"
 
 [[repo]]
+url = "https://github.com/subspace/reed-solomon-erasure.wasm"
+
+[[repo]]
 url = "https://github.com/subspace/rendezvous-hash"
 
 [[repo]]
@@ -178,6 +187,9 @@ url = "https://github.com/subspace/spartan-farmer"
 url = "https://github.com/subspace/spartan-node-template"
 
 [[repo]]
+url = "https://github.com/subspace/status"
+
+[[repo]]
 url = "https://github.com/subspace/storage"
 
 [[repo]]
@@ -205,6 +217,9 @@ url = "https://github.com/subspace/subspace-docs"
 url = "https://github.com/subspace/subspace-nft-examples"
 
 [[repo]]
+url = "https://github.com/subspace/subspace-old-ts"
+
+[[repo]]
 url = "https://github.com/subspace/subspace-regenesis-tool"
 
 [[repo]]
@@ -230,9 +245,6 @@ url = "https://github.com/subspace/substrate-telemetry"
 
 [[repo]]
 url = "https://github.com/subspace/tauri-update-cloudflare"
-
-[[repo]]
-url = "https://github.com/subspace/terraform-do-droplets"
 
 [[repo]]
 url = "https://github.com/subspace/tracing-keep-last-n-logs"

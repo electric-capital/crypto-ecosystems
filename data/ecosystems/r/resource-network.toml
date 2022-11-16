@@ -3,11 +3,15 @@ title = "ReSource Network"
 
 sub_ecosystems = []
 
-github_organizations = [
-    "https://github.com/ReSource-Network",
-]
+github_organizations = []
 
 # Repositories
+[[repo]]
+url = "https://github.com/ReSource-Network/cloudlfare-dnslink-update"
+
+[[repo]]
+url = "https://github.com/ReSource-Network/dapp-list"
+
 [[repo]]
 url = "https://github.com/ReSource-Network/ReSource-Protocol"
 
@@ -16,10 +20,3 @@ url = "https://github.com/ReSource-Network/stable-credit"
 
 [[repo]]
 url = "https://github.com/ReSource-Network/stable-credit-dapp"
-
-[[repo]]
-url = "https://github.com/ReSource-Network/dapp-list"
-
-[[repo]]
-url = "https://github.com/ReSource-Network/cloudlfare-dnslink-update"
-

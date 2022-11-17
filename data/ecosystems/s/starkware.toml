@@ -1,11 +1,22 @@
 # Ecosystem Level Information
 title = "StarkWare"
 
-sub_ecosystems = ["DeversiFi", "dYdX", "Immutable", "Nethermind", "PeckShield", "Sorare"]
+sub_ecosystems = [
+  "Aboard Exchange",
+  "DeversiFi",
+  "dYdX",
+  "Immutable",
+  "Nethermind",
+  "PeckShield",
+  "Sorare",
+]
 
 github_organizations = ["https://github.com/starkware-libs"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/apibara/starknet-react"
+
 [[repo]]
 url = "https://github.com/OpenZeppelin/nile"
 
@@ -20,6 +31,9 @@ url = "https://github.com/starkware-libs/cairo-playground"
 
 [[repo]]
 url = "https://github.com/starkware-libs/crypto-cpp"
+
+[[repo]]
+url = "https://github.com/starkware-libs/davion-config"
 
 [[repo]]
 url = "https://github.com/starkware-libs/dydx-config"
@@ -71,6 +85,9 @@ url = "https://github.com/starkware-libs/starknet-addresses"
 
 [[repo]]
 url = "https://github.com/starkware-libs/StarkNet-AllCoreDevs-Meetings"
+
+[[repo]]
+url = "https://github.com/starkware-libs/starknet-api"
 
 [[repo]]
 url = "https://github.com/starkware-libs/starknet-bridge"

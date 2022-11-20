@@ -1,13 +1,22 @@
 # Ecosystem Level Information
 title = "Osmosis"
 
-sub_ecosystems = ["ZKValidator"]
+sub_ecosystems = ["Apollo DAO", "Eve Network", "ZKValidator"]
 
 github_organizations = ["https://github.com/osmosis-labs"]
 
 # Repositories
 [[repo]]
+url = "https://github.com/apollodao/apollo-proto-rust"
+
+[[repo]]
 url = "https://github.com/eco-stake/restake"
+
+[[repo]]
+url = "https://github.com/niccoloraspa/osmosis-halt-data"
+
+[[repo]]
+url = "https://github.com/notional-labs/multisig-ui"
 
 [[repo]]
 url = "https://github.com/notional-labs/notional"

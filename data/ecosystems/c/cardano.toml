@@ -11,11 +11,13 @@ sub_ecosystems = [
   "Ouroboros",
   "Plutonomicon",
   "Seal Finance",
+  "SingularityNET",
   "SundaeSwap",
   "TxPipe",
 ]
 
 github_organizations = [
+  "https://github.com/aadafinance",
   "https://github.com/armada-alliance",
   "https://github.com/cardano-foundation",
   "https://github.com/CardanoSolutions",
@@ -37,10 +39,43 @@ url = "https://github.com/2nd-Layer/www.dolcapool.eu"
 url = "https://github.com/a-traveller/cardan"
 
 [[repo]]
+url = "https://github.com/aadafinance/aada-finance"
+
+[[repo]]
+url = "https://github.com/aadafinance/aada-tokens-staking"
+
+[[repo]]
+url = "https://github.com/aadafinance/aada-tokens-swap"
+
+[[repo]]
+url = "https://github.com/aadafinance/DefiLlama-Adapters"
+
+[[repo]]
+url = "https://github.com/aadafinance/governance"
+
+[[repo]]
+url = "https://github.com/aadafinance/materials"
+
+[[repo]]
+url = "https://github.com/aadafinance/plutus-starter"
+
+[[repo]]
+url = "https://github.com/adabox-aio/ogmios-java-client"
+
+[[repo]]
+url = "https://github.com/ADAOcommunity/nft-hawkr"
+
+[[repo]]
+url = "https://github.com/ADAPhilippines/ADAPH.TxSubmit"
+
+[[repo]]
 url = "https://github.com/Akagi201/learning-cardano"
 
 [[repo]]
 url = "https://github.com/antipalos/antipalos.github.io"
+
+[[repo]]
+url = "https://github.com/Apexaverse-metaverse/P2E"
 
 [[repo]]
 url = "https://github.com/armada-alliance/.github"
@@ -65,6 +100,9 @@ url = "https://github.com/armada-alliance/armada-api"
 
 [[repo]]
 url = "https://github.com/armada-alliance/armada-ping"
+
+[[repo]]
+url = "https://github.com/armada-alliance/armada-plunder-bot"
 
 [[repo]]
 url = "https://github.com/armada-alliance/armada-resource-index"
@@ -148,6 +186,21 @@ url = "https://github.com/armada-alliance/test-repo"
 url = "https://github.com/attadje/py-cardano-explorer"
 
 [[repo]]
+url = "https://github.com/AylluAcademy-org/ayllu-plutus-sc"
+
+[[repo]]
+url = "https://github.com/badgedotar/badgedotar"
+
+[[repo]]
+url = "https://github.com/berlinpool/cnft-utxo"
+
+[[repo]]
+url = "https://github.com/blamario/plutarch-FFI-tests"
+
+[[repo]]
+url = "https://github.com/blockchainrelativity/Emurgo"
+
+[[repo]]
 url = "https://github.com/blockfrost/blockfrost-js"
 
 [[repo]]
@@ -160,10 +213,16 @@ url = "https://github.com/blockfrost/openapi"
 url = "https://github.com/bloxbean/cardano-client-lib"
 
 [[repo]]
+url = "https://github.com/byron-network/byron-cardano-toolkit"
+
+[[repo]]
 url = "https://github.com/byron-network/byron-dex"
 
 [[repo]]
 url = "https://github.com/C3ETH/c3eth.github.io"
+
+[[repo]]
+url = "https://github.com/Canonical-LLC/escrow"
 
 [[repo]]
 url = "https://github.com/cardano-community/concepts"
@@ -172,16 +231,46 @@ url = "https://github.com/cardano-community/concepts"
 url = "https://github.com/cardano-community/guild-operators"
 
 [[repo]]
+url = "https://github.com/cardano-community/koios-artifacts"
+
+[[repo]]
+url = "https://github.com/cardano-community/koios-cli"
+
+[[repo]]
+url = "https://github.com/cardano-community/koios-go-client"
+
+[[repo]]
+url = "https://github.com/cardano-community/koios-java-client"
+
+[[repo]]
+url = "https://github.com/cardano-community/koios-python"
+
+[[repo]]
+url = "https://github.com/cardano-community/pool_groups"
+
+[[repo]]
 url = "https://github.com/cardano-community/support-faq"
 
 [[repo]]
 url = "https://github.com/cardano-foundation/ambassadors-guild"
 
 [[repo]]
+url = "https://github.com/cardano-foundation/cardano-connect-with-wallet"
+
+[[repo]]
 url = "https://github.com/cardano-foundation/cardano-org-header"
 
 [[repo]]
 url = "https://github.com/cardano-foundation/cardano-token-registry"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/cf-summit-evoting-status"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/cip30-data-signature-parser"
+
+[[repo]]
+url = "https://github.com/cardano-foundation/cip8-java"
 
 [[repo]]
 url = "https://github.com/cardano-foundation/CIPs"
@@ -205,16 +294,31 @@ url = "https://github.com/cardano-foundation/ledger-app-cardano"
 url = "https://github.com/cardano-foundation/ledgerjs-hw-app-cardano"
 
 [[repo]]
+url = "https://github.com/cardano-foundation/merkle-tree-java"
+
+[[repo]]
 url = "https://github.com/cardano-foundation/stake-pool-school-handbook"
 
 [[repo]]
+url = "https://github.com/cardano-foundation/state-of-the-developer-ecosystem"
+
+[[repo]]
 url = "https://github.com/cardano-foundation/testnets-cardano-org"
+
+[[repo]]
+url = "https://github.com/cardano-rust-cli/cardano"
 
 [[repo]]
 url = "https://github.com/cardanofans/homeland"
 
 [[repo]]
 url = "https://github.com/CardanoSharp/cardanosharp-wallet"
+
+[[repo]]
+url = "https://github.com/CardanoSharp/cscli"
+
+[[repo]]
+url = "https://github.com/CardanoSolutions/aiken-vim"
 
 [[repo]]
 url = "https://github.com/CardanoSolutions/ByronWalletRecovery"
@@ -238,10 +342,16 @@ url = "https://github.com/CardanoSolutions/kupo"
 url = "https://github.com/CardanoSolutions/ogmios"
 
 [[repo]]
+url = "https://github.com/CardanoSolutions/ogmios-client-starter-kit"
+
+[[repo]]
 url = "https://github.com/CardanoSolutions/ouroboros-network"
 
 [[repo]]
 url = "https://github.com/CardanoSolutions/plutus"
+
+[[repo]]
+url = "https://github.com/CardanoSolutions/sqlite-simple"
 
 [[repo]]
 url = "https://github.com/cardanosounds/cardano-sounds"
@@ -250,22 +360,55 @@ url = "https://github.com/cardanosounds/cardano-sounds"
 url = "https://github.com/CardanoUmbrella/awesome-cardano"
 
 [[repo]]
+url = "https://github.com/cffls/pycardano"
+
+[[repo]]
+url = "https://github.com/cloudstruct/go-cardano-submit-api"
+
+[[repo]]
+url = "https://github.com/cloudstruct/go-ouroboros-network"
+
+[[repo]]
 url = "https://github.com/codejones-hub/plutus"
 
 [[repo]]
 url = "https://github.com/CodiePP/cardano4all"
 
 [[repo]]
+url = "https://github.com/dcSpark/cardano-multiplatform-lib"
+
+[[repo]]
+url = "https://github.com/dcSpark/carp"
+
+[[repo]]
 url = "https://github.com/dcSpark/fracada"
 
 [[repo]]
+url = "https://github.com/dcSpark/fracada-il-primo"
+
+[[repo]]
+url = "https://github.com/dcSpark/token-registry-service"
+
+[[repo]]
+url = "https://github.com/devhulk/cardano-scripts"
+
+[[repo]]
 url = "https://github.com/DimS0ft/dotnet-cardano-rest-api-blockchain-explorer"
+
+[[repo]]
+url = "https://github.com/dQuadrant/cardano-marketplace"
+
+[[repo]]
+url = "https://github.com/dQuadrant/kuber"
 
 [[repo]]
 url = "https://github.com/eko-mirhard/ada-tx-flight"
 
 [[repo]]
 url = "https://github.com/Emurgo/cardano-serialization-lib"
+
+[[repo]]
+url = "https://github.com/Emurgo/dapp-connector-web"
 
 [[repo]]
 url = "https://github.com/Emurgo/react-native-haskell-shelley"
@@ -277,16 +420,43 @@ url = "https://github.com/Emurgo/yoroi-extension-ledger-bridge"
 url = "https://github.com/Emurgo/yoroi-frontend"
 
 [[repo]]
+url = "https://github.com/Emurgo/yoroi-graphql-migration-backend"
+
+[[repo]]
 url = "https://github.com/ergolabs/ergo-dex-frontend"
+
+[[repo]]
+url = "https://github.com/EveryBlockStudio/cardabot"
 
 [[repo]]
 url = "https://github.com/exec009/Cardano-Api-PHP-Wrapper"
 
 [[repo]]
+url = "https://github.com/fivebinaries/go-cardano-serialization"
+
+[[repo]]
 url = "https://github.com/floydcraft/cardano-py"
 
 [[repo]]
+url = "https://github.com/fsamvura/Goma_Cardano"
+
+[[repo]]
+url = "https://github.com/GabriIT/HackTh_Digiservices"
+
+[[repo]]
+url = "https://github.com/GADA-finance/gada-smartcontract"
+
+[[repo]]
 url = "https://github.com/GenesisVision/ada-blockexplorer-api"
+
+[[repo]]
+url = "https://github.com/georgeos/paarka"
+
+[[repo]]
+url = "https://github.com/ggcaponetto/141x-game-authorizer"
+
+[[repo]]
+url = "https://github.com/ggcaponetto/141x-game-authorizer-server"
 
 [[repo]]
 url = "https://github.com/gitmachtl/scripts"
@@ -298,16 +468,28 @@ url = "https://github.com/gitmachtl/StakePool-Operator-Tools-Alliance"
 url = "https://github.com/Glow-Lang/glow"
 
 [[repo]]
+url = "https://github.com/Glow-Lang/glow2-haskell"
+
+[[repo]]
 url = "https://github.com/gocardano/go-cardano-client"
 
 [[repo]]
 url = "https://github.com/gocardano/shelley-socket-proxy"
 
 [[repo]]
+url = "https://github.com/HachiSecurity/plc-llvm"
+
+[[repo]]
 url = "https://github.com/hcvst/cardano-daedalus-docker"
 
 [[repo]]
 url = "https://github.com/hellc/cardano-ios"
+
+[[repo]]
+url = "https://github.com/Hyperion-BT/Helios"
+
+[[repo]]
+url = "https://github.com/Hyperion-BT/Helios-Book"
 
 [[repo]]
 url = "https://github.com/iagon-tech/proof-of-burn-cardano"
@@ -421,7 +603,13 @@ url = "https://github.com/input-output-hk/bitte-iogo"
 url = "https://github.com/input-output-hk/bitte-test-cluster"
 
 [[repo]]
+url = "https://github.com/input-output-hk/bitte-world"
+
+[[repo]]
 url = "https://github.com/input-output-hk/blake2b-no-wasm"
+
+[[repo]]
+url = "https://github.com/input-output-hk/blaze-markup"
 
 [[repo]]
 url = "https://github.com/input-output-hk/block_expectation_paper"
@@ -439,6 +627,9 @@ url = "https://github.com/input-output-hk/bors-ng"
 url = "https://github.com/input-output-hk/Bridges-working-group"
 
 [[repo]]
+url = "https://github.com/input-output-hk/bytestring"
+
+[[repo]]
 url = "https://github.com/input-output-hk/cabal"
 
 [[repo]]
@@ -452,6 +643,9 @@ url = "https://github.com/input-output-hk/cardano"
 
 [[repo]]
 url = "https://github.com/input-output-hk/cardano-addresses"
+
+[[repo]]
+url = "https://github.com/input-output-hk/cardano-automation"
 
 [[repo]]
 url = "https://github.com/input-output-hk/cardano-base"
@@ -511,6 +705,9 @@ url = "https://github.com/input-output-hk/cardano-docs.iohk.io"
 url = "https://github.com/input-output-hk/cardano-documentation"
 
 [[repo]]
+url = "https://github.com/input-output-hk/cardano-engineering-handbook"
+
+[[repo]]
 url = "https://github.com/input-output-hk/cardano-entropy"
 
 [[repo]]
@@ -538,6 +735,9 @@ url = "https://github.com/input-output-hk/cardano-haskell"
 url = "https://github.com/input-output-hk/cardano-haskell-package-repo"
 
 [[repo]]
+url = "https://github.com/input-output-hk/cardano-haskell-packages"
+
+[[repo]]
 url = "https://github.com/input-output-hk/cardano-http"
 
 [[repo]]
@@ -554,6 +754,9 @@ url = "https://github.com/input-output-hk/cardano-launcher"
 
 [[repo]]
 url = "https://github.com/input-output-hk/cardano-ledger"
+
+[[repo]]
+url = "https://github.com/input-output-hk/cardano-ledger-1-tech-writing-tweaks"
 
 [[repo]]
 url = "https://github.com/input-output-hk/cardano-ledger-byron"
@@ -580,7 +783,13 @@ url = "https://github.com/input-output-hk/cardano-mq-sync"
 url = "https://github.com/input-output-hk/cardano-node"
 
 [[repo]]
+url = "https://github.com/input-output-hk/cardano-node-native-tokens-folder-TW"
+
+[[repo]]
 url = "https://github.com/input-output-hk/cardano-node-tests"
+
+[[repo]]
+url = "https://github.com/input-output-hk/cardano-node-tests-dorin"
 
 [[repo]]
 url = "https://github.com/input-output-hk/cardano-ogmios"
@@ -686,6 +895,15 @@ url = "https://github.com/input-output-hk/casbin-pgx-adapter"
 url = "https://github.com/input-output-hk/casino"
 
 [[repo]]
+url = "https://github.com/input-output-hk/catalyst-core"
+
+[[repo]]
+url = "https://github.com/input-output-hk/catalyst-eks-blueprints-add-ons"
+
+[[repo]]
+url = "https://github.com/input-output-hk/catalyst-eks-blueprints-workloads"
+
+[[repo]]
 url = "https://github.com/input-output-hk/catalyst-fund-archive-tool"
 
 [[repo]]
@@ -693,6 +911,12 @@ url = "https://github.com/input-output-hk/catalyst-toolbox"
 
 [[repo]]
 url = "https://github.com/input-output-hk/cbor-sets-spec"
+
+[[repo]]
+url = "https://github.com/input-output-hk/ce-semantics-dsl"
+
+[[repo]]
+url = "https://github.com/input-output-hk/Certification-working-group"
 
 [[repo]]
 url = "https://github.com/input-output-hk/chain-libs"
@@ -711,6 +935,9 @@ url = "https://github.com/input-output-hk/ci-world"
 
 [[repo]]
 url = "https://github.com/input-output-hk/cicero"
+
+[[repo]]
+url = "https://github.com/input-output-hk/cicero-api"
 
 [[repo]]
 url = "https://github.com/input-output-hk/cicero-pipe"
@@ -755,6 +982,12 @@ url = "https://github.com/input-output-hk/dapps-certification"
 url = "https://github.com/input-output-hk/dapps-certification-actions"
 
 [[repo]]
+url = "https://github.com/input-output-hk/dapps-world"
+
+[[repo]]
+url = "https://github.com/input-output-hk/data-analytics-bigquery"
+
+[[repo]]
 url = "https://github.com/input-output-hk/decco"
 
 [[repo]]
@@ -786,6 +1019,9 @@ url = "https://github.com/input-output-hk/Developer-Experience-working-group"
 
 [[repo]]
 url = "https://github.com/input-output-hk/devshell-capsules"
+
+[[repo]]
+url = "https://github.com/input-output-hk/devx"
 
 [[repo]]
 url = "https://github.com/input-output-hk/devx-docs"
@@ -962,6 +1198,9 @@ url = "https://github.com/input-output-hk/genesis-auditor"
 url = "https://github.com/input-output-hk/ghc"
 
 [[repo]]
+url = "https://github.com/input-output-hk/ghc-next-packages"
+
+[[repo]]
 url = "https://github.com/input-output-hk/ghc.nix"
 
 [[repo]]
@@ -989,6 +1228,9 @@ url = "https://github.com/input-output-hk/hackage.nix"
 url = "https://github.com/input-output-hk/haskell-course"
 
 [[repo]]
+url = "https://github.com/input-output-hk/haskell-course-1"
+
+[[repo]]
 url = "https://github.com/input-output-hk/haskell-for-marlowe-bootcamp"
 
 [[repo]]
@@ -1002,6 +1244,9 @@ url = "https://github.com/input-output-hk/haskell-lmdb"
 
 [[repo]]
 url = "https://github.com/input-output-hk/haskell-nsis"
+
+[[repo]]
+url = "https://github.com/input-output-hk/haskell-package-automation"
 
 [[repo]]
 url = "https://github.com/input-output-hk/haskell.nix"
@@ -1031,6 +1276,9 @@ url = "https://github.com/input-output-hk/hoc2js"
 url = "https://github.com/input-output-hk/hokey-pokey"
 
 [[repo]]
+url = "https://github.com/input-output-hk/home-manager"
+
+[[repo]]
 url = "https://github.com/input-output-hk/homebrew-cardano"
 
 [[repo]]
@@ -1040,6 +1288,9 @@ url = "https://github.com/input-output-hk/homebrew-jormungandr"
 url = "https://github.com/input-output-hk/hs-opt-handbook.github.io"
 
 [[repo]]
+url = "https://github.com/input-output-hk/HsOpenSSL"
+
+[[repo]]
 url = "https://github.com/input-output-hk/http-api-data"
 
 [[repo]]
@@ -1047,6 +1298,9 @@ url = "https://github.com/input-output-hk/hydra"
 
 [[repo]]
 url = "https://github.com/input-output-hk/hydra-charter"
+
+[[repo]]
+url = "https://github.com/input-output-hk/hydra-ci"
 
 [[repo]]
 url = "https://github.com/input-output-hk/hydra-poc"
@@ -1071,6 +1325,15 @@ url = "https://github.com/input-output-hk/implementation-decisions"
 
 [[repo]]
 url = "https://github.com/input-output-hk/infra-ops"
+
+[[repo]]
+url = "https://github.com/input-output-hk/inspector"
+
+[[repo]]
+url = "https://github.com/input-output-hk/int-cast"
+
+[[repo]]
+url = "https://github.com/input-output-hk/Interoperability-working-group"
 
 [[repo]]
 url = "https://github.com/input-output-hk/io-sim"
@@ -1181,6 +1444,9 @@ url = "https://github.com/input-output-hk/latest_docker_dev"
 url = "https://github.com/input-output-hk/laughing-disco"
 
 [[repo]]
+url = "https://github.com/input-output-hk/ledger-determinism"
+
+[[repo]]
 url = "https://github.com/input-output-hk/leveldb"
 
 [[repo]]
@@ -1274,6 +1540,9 @@ url = "https://github.com/input-output-hk/marconi"
 url = "https://github.com/input-output-hk/marlowe"
 
 [[repo]]
+url = "https://github.com/input-output-hk/marlowe-actus-labs"
+
+[[repo]]
 url = "https://github.com/input-output-hk/marlowe-cardano"
 
 [[repo]]
@@ -1281,6 +1550,9 @@ url = "https://github.com/input-output-hk/marlowe-dependency-docs"
 
 [[repo]]
 url = "https://github.com/input-output-hk/marlowe-hydra-poc"
+
+[[repo]]
+url = "https://github.com/input-output-hk/marlowe-lambda"
 
 [[repo]]
 url = "https://github.com/input-output-hk/marlowe-pioneer-program"
@@ -1331,6 +1603,9 @@ url = "https://github.com/input-output-hk/MIPs"
 url = "https://github.com/input-output-hk/mithril"
 
 [[repo]]
+url = "https://github.com/input-output-hk/moo"
+
+[[repo]]
 url = "https://github.com/input-output-hk/morpheus-graphql"
 
 [[repo]]
@@ -1374,6 +1649,9 @@ url = "https://github.com/input-output-hk/nix-bundle"
 
 [[repo]]
 url = "https://github.com/input-output-hk/nix-cache-proxy"
+
+[[repo]]
+url = "https://github.com/input-output-hk/nix-daemon-protocol"
 
 [[repo]]
 url = "https://github.com/input-output-hk/nix-darwin"
@@ -1448,6 +1726,9 @@ url = "https://github.com/input-output-hk/nomad-driver-nspawn-nixos-container"
 url = "https://github.com/input-output-hk/nomad-follower"
 
 [[repo]]
+url = "https://github.com/input-output-hk/nomad-follower"
+
+[[repo]]
 url = "https://github.com/input-output-hk/nomad_follower"
 
 [[repo]]
@@ -1476,6 +1757,12 @@ url = "https://github.com/input-output-hk/optparse-applicative"
 
 [[repo]]
 url = "https://github.com/input-output-hk/ouroboros-high-assurance"
+
+[[repo]]
+url = "https://github.com/input-output-hk/ouroboros-leios"
+
+[[repo]]
+url = "https://github.com/input-output-hk/ouroboros-leios-sim"
 
 [[repo]]
 url = "https://github.com/input-output-hk/ouroboros-network"
@@ -1580,6 +1867,9 @@ url = "https://github.com/input-output-hk/project-icarus-chrome"
 url = "https://github.com/input-output-hk/project-icarus-importer"
 
 [[repo]]
+url = "https://github.com/input-output-hk/prophecy-prediction"
+
+[[repo]]
 url = "https://github.com/input-output-hk/proposal-ui"
 
 [[repo]]
@@ -1650,6 +1940,9 @@ url = "https://github.com/input-output-hk/purescript-websocket-simple"
 
 [[repo]]
 url = "https://github.com/input-output-hk/pvss-haskell"
+
+[[repo]]
+url = "https://github.com/input-output-hk/PyF"
 
 [[repo]]
 url = "https://github.com/input-output-hk/qeditas"
@@ -1853,6 +2146,9 @@ url = "https://github.com/input-output-hk/symphony-2"
 url = "https://github.com/input-output-hk/systemd-attestor"
 
 [[repo]]
+url = "https://github.com/input-output-hk/tasty-hedgehog"
+
+[[repo]]
 url = "https://github.com/input-output-hk/technical-docs"
 
 [[repo]]
@@ -1997,7 +2293,28 @@ url = "https://github.com/input-output-hk/zip"
 url = "https://github.com/islishude/cardano-cli-docker"
 
 [[repo]]
+url = "https://github.com/jaelcartel/discoin"
+
+[[repo]]
+url = "https://github.com/joleitner/cardano-car-documents"
+
+[[repo]]
+url = "https://github.com/jonathanfishbein1/cardania-contracts"
+
+[[repo]]
+url = "https://github.com/jpg-store/contract-v2"
+
+[[repo]]
+url = "https://github.com/jrx-sjg/cardano-helm"
+
+[[repo]]
+url = "https://github.com/jungmyeong96/PlutusPioneer3rdCohort"
+
+[[repo]]
 url = "https://github.com/khwerhahn/cardano"
+
+[[repo]]
+url = "https://github.com/kk-anlm/simple-setup"
 
 [[repo]]
 url = "https://github.com/KtorZ/cardano-ogmios"
@@ -2006,16 +2323,58 @@ url = "https://github.com/KtorZ/cardano-ogmios"
 url = "https://github.com/kxpone/cardano-swift"
 
 [[repo]]
+url = "https://github.com/leb4r/charts"
+
+[[repo]]
+url = "https://github.com/Liqwid-Labs/agora"
+
+[[repo]]
+url = "https://github.com/Liqwid-Labs/liqwid-plutarch-extra"
+
+[[repo]]
+url = "https://github.com/Liqwid-Labs/plutarch-benchmark"
+
+[[repo]]
+url = "https://github.com/Liqwid-Labs/plutarch-context-builder"
+
+[[repo]]
+url = "https://github.com/Liqwid-Labs/plutarch-quickcheck"
+
+[[repo]]
+url = "https://github.com/Liqwid-Labs/plutarch-safe-money"
+
+[[repo]]
+url = "https://github.com/Liqwid-Labs/plutarch-unit"
+
+[[repo]]
 url = "https://github.com/Liqwid-Labs/plutus-extra"
 
 [[repo]]
 url = "https://github.com/LovelaceAcademy/Learn"
 
 [[repo]]
+url = "https://github.com/MadeWithLovelace/SeaMonk"
+
+[[repo]]
+url = "https://github.com/MangoIV/plutus-apps-tmp"
+
+[[repo]]
+url = "https://github.com/MangoIV/plutus-contract"
+
+[[repo]]
 url = "https://github.com/marcosrachid/ethereum_x_cardano"
 
 [[repo]]
 url = "https://github.com/mateusap1/athena"
+
+[[repo]]
+url = "https://github.com/MattHalloran/Vrooli"
+
+[[repo]]
+url = "https://github.com/mayanhavoc/gimbalabs-pbl-2022"
+
+[[repo]]
+url = "https://github.com/meemalabs/cardano-stake-pool-aws"
 
 [[repo]]
 url = "https://github.com/mlabs-haskell/CardStarter-bulk-airdrop-script"
@@ -2027,13 +2386,50 @@ url = "https://github.com/mlabs-haskell/majority-multisign"
 url = "https://github.com/mmahut/cardano.beer"
 
 [[repo]]
+url = "https://github.com/moaipool/ansible-cardano-node"
+
+[[repo]]
+url = "https://github.com/Mr-Andersen/majority-multisign"
+
+[[repo]]
 url = "https://github.com/MuKnIO/glow"
+
+[[repo]]
+url = "https://github.com/nathanclough/Kraken-Capstone"
+
+[[repo]]
+url = "https://github.com/nemanjamil/blokaria-transactions"
+
+[[repo]]
+url = "https://github.com/NicholasMaselli/ADABlobsPlutus"
+
+[[repo]]
+url = "https://github.com/nilaysaha/cardano-scripts"
+
+[[repo]]
+url = "https://github.com/nilscodes/hazelnet"
+tags = ["Integration"]
+
+[[repo]]
+url = "https://github.com/noops-spo/backend-pigeons"
+
+[[repo]]
+url = "https://github.com/omarobot/animaliens-ui"
+
+[[repo]]
+url = "https://github.com/Orbis-Tertius/tinyram-toolchain"
 
 [[repo]]
 url = "https://github.com/osodevops/ansible-role-cardano-node"
 
 [[repo]]
+url = "https://github.com/perun-network/perun-cardano-contract"
+
+[[repo]]
 url = "https://github.com/philipqnguyen/cardano_explorer"
+
+[[repo]]
+url = "https://github.com/PiotrNap/bonfire"
 
 [[repo]]
 url = "https://github.com/PlanetCardano/cardano-explorer"
@@ -2042,10 +2438,16 @@ url = "https://github.com/PlanetCardano/cardano-explorer"
 url = "https://github.com/PortalNetwork/cns"
 
 [[repo]]
+url = "https://github.com/projectNEWM/contracts"
+
+[[repo]]
 url = "https://github.com/psychomb/Cardano-fr-translations"
 
 [[repo]]
 url = "https://github.com/Quantumplation/cardano-monitor"
+
+[[repo]]
+url = "https://github.com/rahulnair87/mint-nfts-bulk-cardano"
 
 [[repo]]
 url = "https://github.com/robkorn/iOS-Cardano-Guessing-Game"
@@ -2057,10 +2459,19 @@ url = "https://github.com/rocketdev007/Cardano-Api-PHP-Wrapper"
 url = "https://github.com/rodrigoalvesvieira/cardano_ruby_explorer"
 
 [[repo]]
+url = "https://github.com/runtimeverification/plutus-core-semantics"
+
+[[repo]]
 url = "https://github.com/SandyYoung01/Cardano-FAQ"
 
 [[repo]]
 url = "https://github.com/sharkspeed/cardano-sl-alpine"
+
+[[repo]]
+url = "https://github.com/SIDANWhatever/PlutusPioneerProgramme"
+
+[[repo]]
+url = "https://github.com/sirhung1993/hodler-pool"
 
 [[repo]]
 url = "https://github.com/smart-chain-fr/tokenomia"
@@ -2072,77 +2483,67 @@ url = "https://github.com/SmaugPool/blender-cardano-logo"
 url = "https://github.com/SmaugPool/cardano-linux-binaries"
 
 [[repo]]
+url = "https://github.com/Snapbrillia/quadraticvoting"
+
+[[repo]]
+url = "https://github.com/SpaceBudz/spacebudz-identity"
+
+[[repo]]
 url = "https://github.com/stakhanovite-io/stakhanovite-io.github.io"
-
-[[repo]]
-url = "https://github.com/subnetdev/cardano-jormungandr-node"
-
-[[repo]]
-url = "https://github.com/tdiesler/nessus-cardano"
-
-[[repo]]
-url = "https://github.com/tugolukov/Cardano"
-
-[[repo]]
-url = "https://github.com/vacuumlabs/adalite"
-
-[[repo]]
-url = "https://github.com/wutzebaer/cardano-tools"
-
-[[repo]]
-url = "https://github.com/hyperion-bt/helios"
-
-[[repo]]
-url = "https://github.com/nilscodes/hazelnet"
-tags = ["Integration"]
-
-[[repo]]
-url = "https://github.com/Hyperion-BT/Helios-Book"
-
-[[repo]]
-url = "https://github.com/CardanoSharp/cscli"
-
-[[repo]]
-url = "https://github.com/cloudstruct/go-cardano-submit-api"
-
-[[repo]]
-url = "https://github.com/cloudstruct/go-ouroboros-network"
-
-[[repo]]
-url = "https://github.com/tweag/pirouette"
-
-[[repo]]
-url = "https://github.com/dcSpark/carp"
-
-[[repo]]
-url = "https://github.com/dcSpark/cardano-multiplatform-lib"
-
-[[repo]]
-url = "https://github.com/dcSpark/token-registry-service"
 
 [[repo]]
 url = "https://github.com/StricaHQ/typhonjs"
 
 [[repo]]
-url = "https://github.com/input-output-hk/haskell.nix"
+url = "https://github.com/subnetdev/cardano-jormungandr-node"
 
 [[repo]]
-url = "https://github.com/input-output-hk/catalyst-core"
+url = "https://github.com/TangentADA/Tangent.contracts.public"
 
 [[repo]]
-url = "https://github.com/input-output-hk/devx"
+url = "https://github.com/tango-crypto/cardano-wallet-js"
 
 [[repo]]
-url = "https://github.com/cardano-community/koios-artifacts"
+url = "https://github.com/tdiesler/nessus-cardano"
 
 [[repo]]
-url = "https://github.com/cardano-community/koios-python"
+url = "https://github.com/tesseract-one/Cardano.swift"
 
 [[repo]]
-url = "https://github.com/cardano-community/koios-cli"
+url = "https://github.com/TosiDrop/vm-frontend"
 
 [[repo]]
-url = "https://github.com/cardano-community/koios-go-client"
+url = "https://github.com/truestaking/cncm"
 
 [[repo]]
-url = "https://github.com/cardano-community/koios-java-client"
+url = "https://github.com/tugolukov/Cardano"
+
+[[repo]]
+url = "https://github.com/tuvalusoftware/CardanoService"
+
+[[repo]]
+url = "https://github.com/tweag/pirouette"
+
+[[repo]]
+url = "https://github.com/tweag/plutus-libs"
+
+[[repo]]
+url = "https://github.com/txpipe/oura"
+
+[[repo]]
+url = "https://github.com/txpipe/pallas"
+
+[[repo]]
+url = "https://github.com/txpipe/scrolls"
+
+[[repo]]
+url = "https://github.com/vacuumlabs/adalite"
+
+[[repo]]
+url = "https://github.com/well-typed/plutonomy"
+
+[[repo]]
+url = "https://github.com/woofpool/cardano-private-testnet-setup"
+
+[[repo]]
+url = "https://github.com/wutzebaer/cardano-tools"

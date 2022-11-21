@@ -1,9 +1,19 @@
 # Ecosystem Level Information
 title = "Algorand"
 
-sub_ecosystems = ["Bleumi", "Choice Coin", "FlexFinTx", "Smile Coin", "Tinyman", "Xfinite"]
+sub_ecosystems = [
+  "AbstrLabs",
+  "Algofi",
+  "Aramid Finance",
+  "Bleumi",
+  "Choice Coin",
+  "FlexFinTx",
+  "Smile Coin",
+  "Tinyman",
+  "Xfinite",
+]
 
-github_organizations = ["https://github.com/algorand"]
+github_organizations = ["https://github.com/algorand", "https://github.com/algorand-devrel"]
 
 # Repositories
 [[repo]]
@@ -19,13 +29,160 @@ url = "https://github.com/algoduino/algoduino"
 url = "https://github.com/Algofiorg/algofi-js-sdk"
 
 [[repo]]
+url = "https://github.com/algorand-devrel/algo-web-template"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/algorand-teal-examples"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/AlgorandDeveloperTasks"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/app-whiteboarding"
+
+[[repo]]
 url = "https://github.com/algorand-devrel/ASA-Tutorial"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/beaker"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/beaker-auction"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/beaker-calculator"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/beaker-starter-kit"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/beaker-ts"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/bounties"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/challenges"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/chessexample"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/coin-flipper"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/community"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/constant-product"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/debugging"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/decipher-drop"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/decipher-tickets"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/demo-abi"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/demo-avm1"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/demo-avm1.1"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/demo-avm7"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/demo-counter-walletconnect-react"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/demo-dryrun"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/demo-local-state-expansion"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/demo-pool"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/django-staking-demo"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/encode-smart-contracts"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/ExtendableDAO"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/flask-atc-demo"
 
 [[repo]]
 url = "https://github.com/algorand-devrel/hackathon"
 
 [[repo]]
+url = "https://github.com/algorand-devrel/hello-beaker"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/JavaOfflineSign"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/js-webapp"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/nft-dropper"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/NFTBooth"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/parent-child-contracts"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/paytx"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/pyteal-course"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/raspberry-pi-rfid-setup"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/Reach-Morra-Game"
+
+[[repo]]
 url = "https://github.com/algorand-devrel/react-workshop"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/recurring-tx-lambda"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/royalty"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/vrf-oracle"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/Walletconnect-Reach"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/workshop-gettingstarted"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/workshop-pyteal"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/wormhole-demo"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/xamarin-ios-android-uwp"
+
+[[repo]]
+url = "https://github.com/algorand-devrel/zerobalance-innertxns-pyteal"
 
 [[repo]]
 url = "https://github.com/algorand/aardvark-prototype"
@@ -59,6 +216,9 @@ url = "https://github.com/algorand/c-sumhash"
 
 [[repo]]
 url = "https://github.com/algorand/code-samples"
+
+[[repo]]
+url = "https://github.com/algorand/Derivhack-Demo"
 
 [[repo]]
 url = "https://github.com/algorand/Derivhack-Demo"
@@ -281,6 +441,9 @@ url = "https://github.com/BosonLabs/CIFI"
 url = "https://github.com/bricerisingalgorand/NFTickets"
 
 [[repo]]
+url = "https://github.com/CaptAlpha/SDHRS"
+
+[[repo]]
 url = "https://github.com/certusone/wormhole"
 
 [[repo]]
@@ -326,6 +489,9 @@ url = "https://github.com/FlexFinTx/sidetree-algorand"
 url = "https://github.com/FoodPrintLabs/foodprint-algo"
 
 [[repo]]
+url = "https://github.com/freeflowuniverse/twinactions"
+
+[[repo]]
 url = "https://github.com/FusionLedger/CellarNet"
 
 [[repo]]
@@ -351,6 +517,9 @@ url = "https://github.com/Invertisment/algob-asa-deploy-opt-in"
 
 [[repo]]
 url = "https://github.com/ivanschuetz/swaplink"
+
+[[repo]]
+url = "https://github.com/jajukajulz/foodprint"
 
 [[repo]]
 url = "https://github.com/jannotti/cpp-algorand-sdk"
@@ -386,6 +555,12 @@ url = "https://github.com/Man-Jain/TrackAlgo"
 url = "https://github.com/MangoDev-io/mango"
 
 [[repo]]
+url = "https://github.com/matamicenclimate/climatecoin_back1"
+
+[[repo]]
+url = "https://github.com/matamicenclimate/climatecoin_back5"
+
+[[repo]]
 url = "https://github.com/mickeymond/algorand-messaging"
 
 [[repo]]
@@ -408,6 +583,9 @@ url = "https://github.com/ObsidianLabs/AlgorandStudio"
 
 [[repo]]
 url = "https://github.com/ObsidianLabs/vscode-algorand"
+
+[[repo]]
+url = "https://github.com/Orca18/Bubbly"
 
 [[repo]]
 url = "https://github.com/padamchopra/paysy"

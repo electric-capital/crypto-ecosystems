@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Filecoin"
 
-sub_ecosystems = ["Application Research Group"]
+sub_ecosystems = ["Application Research Group", "NFT Storage", "Slate Engineering Services"]
 
 github_organizations = ["https://github.com/filecoin-project", "https://github.com/filecoin-shipyard"]
 
@@ -10,7 +10,13 @@ github_organizations = ["https://github.com/filecoin-project", "https://github.c
 url = "https://github.com/12shipsDevelopment/go-fil-markets"
 
 [[repo]]
+url = "https://github.com/application-research/barge"
+
+[[repo]]
 url = "https://github.com/application-research/estuary"
+
+[[repo]]
+url = "https://github.com/application-research/estuary-docs"
 
 [[repo]]
 url = "https://github.com/AstralProtocol/GeoDID-Browser"
@@ -26,6 +32,9 @@ url = "https://github.com/ChainSafe/forest"
 
 [[repo]]
 url = "https://github.com/ChainSafe/ui-monorepo"
+
+[[repo]]
+url = "https://github.com/CloudSlit/cloudslit"
 
 [[repo]]
 url = "https://github.com/ConsenSys/fc-latency-map"
@@ -97,6 +106,9 @@ url = "https://github.com/filecoin-project/canonical-actors"
 url = "https://github.com/filecoin-project/cgo-blockstore"
 
 [[repo]]
+url = "https://github.com/filecoin-project/chain-love-website"
+
+[[repo]]
 url = "https://github.com/filecoin-project/chain-validation"
 
 [[repo]]
@@ -133,6 +145,9 @@ url = "https://github.com/filecoin-project/designdocs"
 url = "https://github.com/filecoin-project/devgrants"
 
 [[repo]]
+url = "https://github.com/filecoin-project/docker-hub-exporter"
+
+[[repo]]
 url = "https://github.com/filecoin-project/docs"
 
 [[repo]]
@@ -151,10 +166,16 @@ url = "https://github.com/filecoin-project/eudico"
 url = "https://github.com/filecoin-project/evergreen-dealer"
 
 [[repo]]
+url = "https://github.com/filecoin-project/FEVM-Hardhat-Kit"
+
+[[repo]]
 url = "https://github.com/filecoin-project/ff"
 
 [[repo]]
 url = "https://github.com/filecoin-project/ff-cl-gen"
+
+[[repo]]
+url = "https://github.com/filecoin-project/fff"
 
 [[repo]]
 url = "https://github.com/filecoin-project/ffi-stub"
@@ -176,6 +197,9 @@ url = "https://github.com/filecoin-project/fil_pasta_curves"
 
 [[repo]]
 url = "https://github.com/filecoin-project/filecoin"
+
+[[repo]]
+url = "https://github.com/filecoin-project/filecoin-actor-utils"
 
 [[repo]]
 url = "https://github.com/filecoin-project/filecoin-chain-archiver"
@@ -241,6 +265,9 @@ url = "https://github.com/filecoin-project/filecoin-station"
 url = "https://github.com/filecoin-project/filecoin-storage-analysis"
 
 [[repo]]
+url = "https://github.com/filecoin-project/filet"
+
+[[repo]]
 url = "https://github.com/filecoin-project/FIPs"
 
 [[repo]]
@@ -259,6 +286,9 @@ url = "https://github.com/filecoin-project/fvm-docs"
 url = "https://github.com/filecoin-project/fvm-evm"
 
 [[repo]]
+url = "https://github.com/filecoin-project/fvm-example-actors"
+
+[[repo]]
 url = "https://github.com/filecoin-project/fvm-project"
 
 [[repo]]
@@ -272,6 +302,9 @@ url = "https://github.com/filecoin-project/fvm-test-vectors"
 
 [[repo]]
 url = "https://github.com/filecoin-project/fvm-wasm-instrument"
+
+[[repo]]
+url = "https://github.com/filecoin-project/github-exporter"
 
 [[repo]]
 url = "https://github.com/filecoin-project/gitops-profile-catalog"
@@ -442,6 +475,9 @@ url = "https://github.com/filecoin-project/lily"
 url = "https://github.com/filecoin-project/lotus"
 
 [[repo]]
+url = "https://github.com/filecoin-project/lotus-2"
+
+[[repo]]
 url = "https://github.com/filecoin-project/lotus-archived"
 
 [[repo]]
@@ -530,6 +566,9 @@ url = "https://github.com/filecoin-project/ref-fvm"
 
 [[repo]]
 url = "https://github.com/filecoin-project/ref-fvm-fuzz-corpora"
+
+[[repo]]
+url = "https://github.com/filecoin-project/release-metrics-gitops"
 
 [[repo]]
 url = "https://github.com/filecoin-project/replication-game"
@@ -697,6 +736,9 @@ url = "https://github.com/filecoin-project/system-test-matrix"
 url = "https://github.com/filecoin-project/taupipp"
 
 [[repo]]
+url = "https://github.com/filecoin-project/test-repo-lexluthr"
+
+[[repo]]
 url = "https://github.com/filecoin-project/test-vectors"
 
 [[repo]]
@@ -736,6 +778,9 @@ url = "https://github.com/filecoin-project/venus-wallet"
 url = "https://github.com/filecoin-project/visor"
 
 [[repo]]
+url = "https://github.com/filecoin-project/wasm-tools"
+
+[[repo]]
 url = "https://github.com/filecoin-project/wasmtime"
 
 [[repo]]
@@ -743,6 +788,9 @@ url = "https://github.com/filecoin-project/website-bounty.filecoin.io"
 
 [[repo]]
 url = "https://github.com/filecoin-project/website-security.filecoin.io"
+
+[[repo]]
+url = "https://github.com/filecoin-project/wge-post-deployment-template-renderer"
 
 [[repo]]
 url = "https://github.com/filecoin-project/zexe"
@@ -883,7 +931,19 @@ url = "https://github.com/FilecoinFoundationWeb/filecoin-foundation-site"
 url = "https://github.com/filestar-project/specs-actors"
 
 [[repo]]
+url = "https://github.com/filswan/multi-chain-storage"
+
+[[repo]]
 url = "https://github.com/functionland/box"
+
+[[repo]]
+url = "https://github.com/helix-onchain/filecoin"
+
+[[repo]]
+url = "https://github.com/ipfs-force-community/go-fvm-sdk"
+
+[[repo]]
+url = "https://github.com/ipfs-force-community/venus-cluster"
 
 [[repo]]
 url = "https://github.com/ipfs-force-community/venus-gateway"
@@ -899,6 +959,9 @@ url = "https://github.com/NilFoundation/crypto3-fil-proofs"
 
 [[repo]]
 url = "https://github.com/OB1Company/filehive"
+
+[[repo]]
+url = "https://github.com/polyphene/fvm-rs-sdk"
 
 [[repo]]
 url = "https://github.com/ProtoSchool/protoschool.github.io"
@@ -926,6 +989,9 @@ url = "https://github.com/xjrwfilecoin/docs"
 
 [[repo]]
 url = "https://github.com/Zondax/filecoin-signing-tools"
+
+[[repo]]
+url = "https://github.com/Zondax/fvm-as-sdk"
 
 [[repo]]
 url = "https://github.com/Zondax/ledger-filecoin"

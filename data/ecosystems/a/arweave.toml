@@ -1,7 +1,15 @@
 # Ecosystem Level Information
 title = "Arweave"
 
-sub_ecosystems = ["ArVerify", "KYVE", "Redstone Finance", "Sarcophagus", "Verto"]
+sub_ecosystems = [
+  "ArVerify",
+  "decent.land",
+  "everFinance",
+  "KYVE",
+  "Redstone Finance",
+  "Sarcophagus",
+  "Verto",
+]
 
 github_organizations = [
   "https://github.com/ArweaveTeam",
@@ -10,6 +18,9 @@ github_organizations = [
 ]
 
 # Repositories
+[[repo]]
+url = "https://github.com/ardriveapp/ardrive-web"
+
 [[repo]]
 url = "https://github.com/ArweaveTeam/archain-client"
 
@@ -119,6 +130,9 @@ url = "https://github.com/ArweaveTeam/vartex"
 url = "https://github.com/ArweaveTeam/weavemail"
 
 [[repo]]
+url = "https://github.com/CommunityXYZ/community-js"
+
+[[repo]]
 url = "https://github.com/nestdotland/.github"
 
 [[repo]]
@@ -219,6 +233,9 @@ url = "https://github.com/nestdotland/x"
 
 [[repo]]
 url = "https://github.com/nestdotland/yolk"
+
+[[repo]]
+url = "https://github.com/swole-protocol/swole-protocol-web"
 
 [[repo]]
 url = "https://github.com/th8ta/AMS"

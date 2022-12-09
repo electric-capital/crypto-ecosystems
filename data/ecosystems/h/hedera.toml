@@ -1,89 +1,29 @@
 # Ecosystem Level Information
 title = "Hedera"
 
-sub_ecosystems = ["Calaxy"]
+sub_ecosystems = [
+"Calaxy", 
+"Heliswap", 
+"Hashport",
+"SaucerSwap Labs",
+"Heliswap",
+"Buidler Labs",
+"Blade Labs",
+"Burstall",
+"PieFi Platform",
+"Mintmaster Labs",
+"HashGuild",
+"TxMQ, Inc",
+"HSuite",
+"Trust Enterprises",
+"DOVU",
+]
 
-github_organizations = ["https://github.com/hashgraph"]
+github_organizations = [
+"https://github.com/hashgraph",
+]
 
 # Repositories
-[[repo]]
-url = "https://github.com/agear13/hederaweathernfts"
-
-[[repo]]
-url = "https://github.com/AkashWarlocks/notarization-on-blockchain"
-
-[[repo]]
-url = "https://github.com/Blade-Labs/hedera-mirror-node"
-
-[[repo]]
-url = "https://github.com/Blade-Labs/swift-blade"
-
-[[repo]]
-url = "https://github.com/bugbytesinc/Hashgraph"
-
-[[repo]]
-url = "https://github.com/bugbytesinc/Hashgraph-Portal"
-
-[[repo]]
-url = "https://github.com/buidler-labs/dockerized-hedera-services"
-
-[[repo]]
-url = "https://github.com/buidler-labs/headstarter-coingecko-api"
-
-[[repo]]
-url = "https://github.com/buidler-labs/hedera-mirror-node"
-
-[[repo]]
-url = "https://github.com/buidler-labs/hedera-strato-demo"
-
-[[repo]]
-url = "https://github.com/buidler-labs/hedera-strato-hscs-tutorial"
-
-[[repo]]
-url = "https://github.com/buidler-labs/hedera-strato-js"
-
-[[repo]]
-url = "https://github.com/buidler-labs/hedera-strato-rollup"
-
-[[repo]]
-url = "https://github.com/buidler-labs/hsj-rollup-demo"
-
-[[repo]]
-url = "https://github.com/Burstall/hedera-FT-SC-implementation"
-
-[[repo]]
-url = "https://github.com/Burstall/hedera-nft-scripts"
-
-[[repo]]
-url = "https://github.com/Burstall/hedera-SC-LAZY-FT-implementation"
-
-[[repo]]
-url = "https://github.com/Burstall/hedera-token-graveyard"
-
-[[repo]]
-url = "https://github.com/daly4/hedera_rust_client"
-
-[[repo]]
-url = "https://github.com/danielHype/hedera_minting_engine"
-
-[[repo]]
-url = "https://github.com/dovuofficial/hedera-hardhat-tooling"
-
-[[repo]]
-url = "https://github.com/Eleeos-Crypto/ivy-deploy"
-
-[[repo]]
-url = "https://github.com/falcucci/hedera-coin-api"
-
-[[repo]]
-url = "https://github.com/Fugitives-Club/nft-cli"
-
-[[repo]]
-url = "https://github.com/h1xten/hexplorer"
-
-[[repo]]
-url = "https://github.com/HashDudes/Hedera-Hashlips"
-
 [[repo]]
 url = "https://github.com/hashgraph/.github"
 
@@ -128,9 +68,6 @@ url = "https://github.com/hashgraph/fabric-samples-hcs"
 
 [[repo]]
 url = "https://github.com/hashgraph/guardian"
-
-[[repo]]
-url = "https://github.com/hashgraph/hashgraph-defi-alliance"
 
 [[repo]]
 url = "https://github.com/hashgraph/hashgraph.github.io"
@@ -193,9 +130,6 @@ url = "https://github.com/hashgraph/hedera-hcs-token-example"
 url = "https://github.com/hashgraph/hedera-heroes"
 
 [[repo]]
-url = "https://github.com/hashgraph/hedera-hip-automation-test"
-
-[[repo]]
 url = "https://github.com/hashgraph/hedera-hts-demo"
 
 [[repo]]
@@ -229,9 +163,6 @@ url = "https://github.com/hashgraph/hedera-network-e2e"
 url = "https://github.com/hashgraph/hedera-nft-auction-demo"
 
 [[repo]]
-url = "https://github.com/hashgraph/hedera-platform"
-
-[[repo]]
 url = "https://github.com/hashgraph/hedera-proof-of-action-api"
 
 [[repo]]
@@ -247,9 +178,6 @@ url = "https://github.com/hashgraph/hedera-protobuf"
 url = "https://github.com/hashgraph/hedera-protobufs"
 
 [[repo]]
-url = "https://github.com/hashgraph/hedera-protobufs-cpp"
-
-[[repo]]
 url = "https://github.com/hashgraph/hedera-protobufs-go"
 
 [[repo]]
@@ -263,9 +191,6 @@ url = "https://github.com/hashgraph/hedera-sdk"
 
 [[repo]]
 url = "https://github.com/hashgraph/hedera-sdk-c"
-
-[[repo]]
-url = "https://github.com/hashgraph/hedera-sdk-cpp"
 
 [[repo]]
 url = "https://github.com/hashgraph/hedera-sdk-go"
@@ -388,91 +313,67 @@ url = "https://github.com/hashgraph/txmapper"
 url = "https://github.com/hashgraph/winston-transport-hedera"
 
 [[repo]]
-url = "https://github.com/HashGuild/hedera-minting"
+url = "https://github.com/LimeChain/hedera-services"
 
 [[repo]]
-url = "https://github.com/hashingsystems/MyHbarTokens"
+url = "https://github.com/LimeChain/hedera-protobufs"
 
 [[repo]]
-url = "https://github.com/HbarSuite/nestjs-hedera"
+url = "https://github.com/LimeChain/hedera-sdk-go"
 
 [[repo]]
-url = "https://github.com/HGraphPunks/nft"
+url = "https://github.com/LimeChain/hedera-improvement-proposal"
 
 [[repo]]
-url = "https://github.com/inkyartclub/art-club-engine"
+url = "https://github.com/LimeChain/hedera-protobufs-java"
 
 [[repo]]
-url = "https://github.com/jasperpotts/hedera-records-processor"
-
-[[repo]]
-url = "https://github.com/jasperpotts/hedera-records-server"
-
-[[repo]]
-url = "https://github.com/JoeyHentges/Hedera-Smart-Contract-Deployment"
-
-[[repo]]
-url = "https://github.com/launchbadge/hedera-protobufs-rust"
-
-[[repo]]
-url = "https://github.com/LimeChain/hardhat-hethers"
-
-[[repo]]
-url = "https://github.com/LimeChain/hardhat-local-hedera"
+url = "https://github.com/LimeChain/hedera-smart-contracts"
 
 [[repo]]
 url = "https://github.com/LimeChain/local-hedera"
 
 [[repo]]
-url = "https://github.com/manucabrera8/HederaverseNFT-Toolkit"
+url = "https://github.com/LimeChain/hardhat-hethers"
 
 [[repo]]
-url = "https://github.com/mok0230/hedera-contracts"
+url = "https://github.com/LimeChain/hardhat-hedera-example"
 
 [[repo]]
-url = "https://github.com/pathornteng/hedera-truffle"
+url = "https://github.com/LimeChain/hedera-mirror-node"
 
 [[repo]]
-url = "https://github.com/pieFi-platform/hashgraph-name-resolution-sdk"
+url = "https://github.com/LimeChain/MyHbarWallet"
 
 [[repo]]
-url = "https://github.com/pieFi-platform/simple-dao"
+url = "https://github.com/bugbytesinc/Hashgraph"
 
 [[repo]]
-url = "https://github.com/publu/hedera-express-boilerplate"
+url = "https://github.com/bugbytesinc/Hashgraph-Portal"
 
 [[repo]]
-url = "https://github.com/Rejolut/hedera-ios-sdk"
+url = "https://github.com/bugbytesinc/hashgraph-transaction-signing-tool"
 
 [[repo]]
-url = "https://github.com/renix-codex/hedera-connect"
+url = "https://github.com/bugbytesinc/Hashgraph-Signing-Tool"
 
 [[repo]]
-url = "https://github.com/rocketmay/hashgraph-bootstrap"
+url = "https://github.com/bugbytesinc/hapi-proto"
 
 [[repo]]
-url = "https://github.com/saswatsam786/movieNix"
+url = "https://github.com/agear13/hederaweathernfts"
 
 [[repo]]
-url = "https://github.com/scalemaildev/hashgraph_chess"
+url = "https://github.com/AkashWarlocks/notarization-on-blockchain"
 
 [[repo]]
-url = "https://github.com/sdesalas/hedera-eth-rpc"
+url = "https://github.com/Blade-Labs/hedera-mirror-node"
 
 [[repo]]
-url = "https://github.com/ShivamAgarwal-code/3runnerz"
+url = "https://github.com/Blade-Labs/swift-blade"
 
 [[repo]]
-url = "https://github.com/stop-it-io/hedera-nft-owner-snapshot"
+url = "https://github.com/Brayton-Lordianto/AnimalLoversHacks"
 
 [[repo]]
-url = "https://github.com/TikZSZ/ts-hedera-mirror-node-wrapper"
-
-[[repo]]
-url = "https://github.com/trustenterprises/hedera-serverless-api"
-
-[[repo]]
-url = "https://github.com/trustenterprises/laravel-hashgraph"
-
-[[repo]]
-url = "https://github.com/wensheng/hedera-sdk-py"
+url = "https://github.com/bugbytesinc/Hashgraph"

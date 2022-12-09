@@ -2,7 +2,7 @@
 title = "Arbitrum"
 
 sub_ecosystems = [
-  " deBridge.Finance",
+  "deBridge.Finance",
   "Aboard Exchange",
   "AnyToNFT",
   "Arbi's Finance",
@@ -22,9 +22,16 @@ sub_ecosystems = [
   "Tracer",
 ]
 
-github_organizations = ["https://github.com/OffchainLabs"]
+github_organizations = [
+  "https://github.com/coco-verse",
+  "https://github.com/OffchainLabs",
+  "https://github.com/waterfall-foundation",
+]
 
 # Repositories
+[[repo]]
+url = "https://github.com/coco-verse/coco-monorepo"
+
 [[repo]]
 url = "https://github.com/deri-protocol/source-deri.fi"
 
@@ -282,6 +289,27 @@ url = "https://github.com/veMarketCap/veMarketCap"
 
 [[repo]]
 url = "https://github.com/violetprotocol/TrustPOAP"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/aave-contracts"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/aave-ui"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/curve-contracts"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/curve-ui"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/recurring-payment-contract"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/uniswap-contracts"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/uniswap-ui"
 
 [[repo]]
 url = "https://github.com/zerodao-finance/zeroBridge"

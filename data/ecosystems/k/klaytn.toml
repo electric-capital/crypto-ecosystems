@@ -1,11 +1,23 @@
 # Ecosystem Level Information
 title = "Klaytn"
 
-sub_ecosystems = ["Belt", "Bluewhale Protocol", "Definix", "KlaySwap", "Kronos", "Wemix"]
+sub_ecosystems = [
+  "Belt",
+  "Bluewhale Protocol",
+  "Definix",
+  "KlaySwap",
+  "Kronos",
+  "Pangea Swap Protocol",
+  "Stakely Protocol",
+  "Wemix",
+]
 
 github_organizations = ["https://github.com/klaytn"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/bwarelabs/klaytn-indexing"
+
 [[repo]]
 url = "https://github.com/han-um/Blot"
 
@@ -74,6 +86,9 @@ url = "https://github.com/klaytn/kaikas-web3-provider"
 
 [[repo]]
 url = "https://github.com/klaytn/kips"
+
+[[repo]]
+url = "https://github.com/klaytn/klayspray"
 
 [[repo]]
 url = "https://github.com/klaytn/klaystagram"
@@ -248,3 +263,6 @@ url = "https://github.com/klaytn/tx-latency-measurement"
 
 [[repo]]
 url = "https://github.com/klaytn/xgo"
+
+[[repo]]
+url = "https://github.com/SeogyuGim/Klaymakers2022-Lillybox"

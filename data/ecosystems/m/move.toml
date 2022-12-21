@@ -1,11 +1,17 @@
 # Ecosystem Level Information
 title = "Move"
 
-sub_ecosystems = ["The Moving Company", "Aptos", "Ferum"]
+sub_ecosystems = ["Aptos", "Ferum", "Starcoin", "Sui Network", "The Moving Company"]
 
 github_organizations = ["https://github.com/move-language", "https://github.com/movefuns"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/diem/move"
+
+[[repo]]
+url = "https://github.com/EthosWallet/checkers"
+
 [[repo]]
 url = "https://github.com/kepler-homes/kepler-aptos-contract"
 
@@ -28,7 +34,13 @@ url = "https://github.com/movefuns/0to1swap"
 url = "https://github.com/movefuns/aptos-dapp-scaffold"
 
 [[repo]]
+url = "https://github.com/movefuns/aptos-move-course"
+
+[[repo]]
 url = "https://github.com/movefuns/move-by-example"
+
+[[repo]]
+url = "https://github.com/movefuns/move-course"
 
 [[repo]]
 url = "https://github.com/movefuns/move-js"
@@ -50,6 +62,9 @@ url = "https://github.com/movefuns/startrek-dao"
 
 [[repo]]
 url = "https://github.com/movefuns/sui-dapp-scaffold"
+
+[[repo]]
+url = "https://github.com/movefuns/sui-ido"
 
 [[repo]]
 url = "https://github.com/movefuns/sui-swap-course"

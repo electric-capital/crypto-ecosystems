@@ -1101,6 +1101,7 @@ url = "https://github.com/juster-finance/juster-app"
 
 [[repo]]
 url = "https://github.com/juztin/flextesa-easybake"
+tags = ["Testing", "Testnet", "Infrastructure"]
 
 [[repo]]
 url = "https://github.com/juztin/pytezos"
@@ -1408,6 +1409,7 @@ url = "https://github.com/maxtez-raspbaker/tezos-rpi3"
 
 [[repo]]
 url = "https://github.com/mblockelet/opentezos"
+tags = ["Documentation"]
 
 [[repo]]
 url = "https://github.com/mcwithimp/tezos-quickstart"
@@ -1534,6 +1536,7 @@ url = "https://github.com/OCamlPro/tzscan"
 
 [[repo]]
 url = "https://github.com/octo-technology/OpenTezos"
+tags = ["Documentation"]
 
 [[repo]]
 url = "https://github.com/octo-technology/tezos-academy"
@@ -2473,6 +2476,9 @@ url = "https://github.com/zastrin/tezos-voting-dapp"
 url = "https://github.com/Zondax/ledger-tezos"
 
 [[repo]]
+url = "https://gitlab.com/MBourgoin/octez-rpc-web-server"
+
+[[repo]]
 url = "https://gitlab.com/camlcase-dev/bs-tezos"
 
 [[repo]]
@@ -2534,12 +2540,16 @@ url = "https://gitlab.com/et4te/igloo"
 
 [[repo]]
 url = "https://gitlab.com/et4te/ocaml-hacl"
+tags = ["Developer Tools", "Formal Verification", "Library"]
 
 [[repo]]
 url = "https://gitlab.com/et4te/tezos-tendermint"
 
 [[repo]]
 url = "https://gitlab.com/formal-land/coq-tezos-of-ocaml"
+
+[[repo]]
+url = "https://gitlab.com/Killian-Delarue/octez-testnets-scripts"
 
 [[repo]]
 url = "https://gitlab.com/ligolang/ligo"
@@ -2585,18 +2595,23 @@ url = "https://gitlab.com/metastatedev/tezos"
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/albert"
+tags = ["Developer Tools", "Library", "Formal Methods"]
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/albert-lang.io"
+tags = ["Website"]
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/ansible-tezos-source-role"
+tags = ["DevOps"]
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/ansible-tezos-source-run-role"
+tags = ["DevOps"]
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/coq-tezos-of-ocaml"
+tags = ["Developer Tools", "Formal Verification"]
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/cortez-android"
@@ -2607,25 +2622,43 @@ url = "https://gitlab.com/nomadic-labs/cortez-ios"
 tags = ["Wallet"]
 
 [[repo]]
+url = "https://gitlab.com/nomadic-labs/data-encoding"
+tags = ["Library"]
+
+[[repo]]
 url = "https://gitlab.com/nomadic-labs/emmy-simulator"
+tags = ["Developer Tools"]
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/emmyplus-experiments"
+tags = ["Developer Tools"]
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/grafazos"
+tags = ["Developer Tools", "Analysis"]
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/mezos"
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/mi-cho-coq"
+tags = ["Developer Tools", "Library", "Formal Verification"]
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/monitoring-playbooks"
+tags = ["DevOps", "Infrastructure"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/ringo"
+tags = ["Library"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/seqes"
+tags = ["Library"]
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/sapling-verification"
+tags = ["Formal Verification"]
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/smart-contracts"
@@ -2635,6 +2668,7 @@ url = "https://gitlab.com/nomadic-labs/stuck-node-alarm"
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/tezos"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://gitlab.com/nomadic-labs/tezos-dapp-demo"
@@ -2655,6 +2689,14 @@ url = "https://gitlab.com/nomadic-labs/tezos-metrics"
 url = "https://gitlab.com/nomadic-labs/tezos-protocols"
 
 [[repo]]
+url = "https://gitlab.com/nomadic-labs/tezt"
+tags = ["Testing", "Developer Tools"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/teztale"
+tags = ["Developer Tools", "Analysis"]
+
+[[repo]]
 url = "https://gitlab.com/nomadic-labs/teztool"
 
 [[repo]]
@@ -2664,7 +2706,80 @@ url = "https://gitlab.com/nomadic-labs/training.nomadic-labs.com"
 url = "https://gitlab.com/nomadic-labs/try-michelson"
 
 [[repo]]
+url = "https://gitlab.com/nomadic-labs/cryptography/hacl-benchmark"
+tags = ["Developer Tools", "Formal Verification"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/cryptography/ocaml-bls12-381"
+tags = ["Library"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/cryptography/ocaml-bls12-381-hash"
+tags = ["Library"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/cryptography/ocaml-bls12-381-signature"
+tags = ["Library"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/cryptography/ocaml-chia-vdf"
+tags = ["Library"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/cryptography/distributed"
+tags = ["Library"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/cryptography/ocaml-ec"
+tags = ["Library"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/cryptography/ocaml-ff"
+tags = ["Library"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/cryptography/ocaml-polynomial"
+tags = ["Library"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/cryptography/privacy-team"
+tags = ["Library"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/umami-wallet/graphic-proxy"
+tags = ["Developer Tools"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/umami-wallet/testruns"
+tags = ["Developer Tools"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/umami-wallet/umami"
+tags = ["Wallet"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/umami-wallet/umami-mobile"
+tags = ["Wallet"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs/umami-wallet/umami-stack-orchestration"
+tags = ["Wallet", "Infrastructure", "DevOps"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs-free-resources/claimz"
+tags = ["Contracts"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs-free-resources/opentezos"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://gitlab.com/nomadic-labs-free-resources/tzsign"
+tags = ["Developer Tools"]
+
+[[repo]]
 url = "https://gitlab.com/obsidian.systems/flextesa-extras"
+tags = ["Testing", "Testnet", "Infrastructure"]
 
 [[repo]]
 url = "https://gitlab.com/obsidian.systems/tezos-bake-monitor"
@@ -2688,29 +2803,12 @@ url = "https://gitlab.com/polychainlabs/tezos-hsm-signer"
 url = "https://gitlab.com/polychainlabs/tezos-network-monitor"
 
 [[repo]]
-url = "https://gitlab.com/tezos-domains/app"
-
-[[repo]]
-url = "https://gitlab.com/tezos-domains/client"
-
-[[repo]]
-url = "https://gitlab.com/tezos-domains/contracts"
-
-[[repo]]
-url = "https://gitlab.com/tezos-domains/examples"
-
-[[repo]]
-url = "https://gitlab.com/tezos-domains/indexer"
-
-[[repo]]
-url = "https://gitlab.com/tezos-kiln/kiln"
-
-[[repo]]
 url = "https://gitlab.com/tezos/cortez-android"
 tags = ["Wallet"]
 
 [[repo]]
 url = "https://gitlab.com/tezos/flextesa"
+tags = ["Testing", "Testnet", "Infrastructure"]
 
 [[repo]]
 url = "https://gitlab.com/tezos/michelson-reference"
@@ -2727,9 +2825,39 @@ url = "https://gitlab.com/tezos/tezos-faucet"
 
 [[repo]]
 url = "https://gitlab.com/tezos/tezos.gitlab.io"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://gitlab.com/tezos/kernel"
+
+[[repo]]
+url = "https://gitlab.com/tezos/tezos-rust-libs"
+
+[[repo]]
+url = "https://gitlab.com/tezos/tzip"
+tags = ["RFC", "Standards"]
 
 [[repo]]
 url = "https://gitlab.com/tzip/tzip"
+tags = ["RFC", "Standards"]
+
+[[repo]]
+url = "https://gitlab.com/tezos-domains/app"
+
+[[repo]]
+url = "https://gitlab.com/tezos-domains/client"
+
+[[repo]]
+url = "https://gitlab.com/tezos-domains/contracts"
+
+[[repo]]
+url = "https://gitlab.com/tezos-domains/examples"
+
+[[repo]]
+url = "https://gitlab.com/tezos-domains/indexer"
+
+[[repo]]
+url = "https://gitlab.com/tezos-kiln/kiln"
 
 [[repo]]
 url = "https://gitlab.com/witoff/key-encoder"

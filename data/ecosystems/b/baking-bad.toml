@@ -1,94 +1,23 @@
 # Ecosystem Level Information
 title = "Baking Bad"
 
-sub_ecosystems = []
+sub_ecosystems = [
+    "TzKT",
+    "DipDup",
+    "3route",
+    "Juster",
+    "Atomex"
+]
 
-github_organizations = ["https://github.com/baking-bad"]
+github_organizations = [
+    "https://github.com/baking-bad",
+    "https://github.com/tzkt",
+    "https://github.com/dipdup-io",
+    "https://github.com/juster-finance",
+    "https://github.com/atomex-me",
+]
 
 # Repositories
-[[repo]]
-url = "https://github.com/baking-bad/bakers-registry-cli"
-
-[[repo]]
-url = "https://github.com/baking-bad/bbbox"
-
-[[repo]]
-url = "https://github.com/baking-bad/bcd"
-
-[[repo]]
-url = "https://github.com/baking-bad/bcdhub"
-
-[[repo]]
-url = "https://github.com/baking-bad/beacon-dotnet-sdk"
-
-[[repo]]
-url = "https://github.com/baking-bad/better-call-dev"
-
-[[repo]]
-url = "https://github.com/baking-bad/conseilpy"
-
-[[repo]]
-url = "https://github.com/baking-bad/developers.tezos.com"
-
-[[repo]]
-url = "https://github.com/baking-bad/elastic-s3-backup"
-
-[[repo]]
-url = "https://github.com/baking-bad/matrix-dotnet-sdk"
-
-[[repo]]
-url = "https://github.com/baking-bad/matrix.org"
-
-[[repo]]
-url = "https://github.com/baking-bad/metadata"
-
-[[repo]]
-url = "https://github.com/baking-bad/michelson-kernel"
-
-[[repo]]
-url = "https://github.com/baking-bad/michelson-labs"
-
-[[repo]]
-url = "https://github.com/baking-bad/netezos"
-
-[[repo]]
-url = "https://github.com/baking-bad/postgrest-py"
-
-[[repo]]
-url = "https://github.com/baking-bad/pysignalr"
-
-[[repo]]
-url = "https://github.com/baking-bad/pytezos"
-
-[[repo]]
-url = "https://github.com/baking-bad/pytezos-core"
-
-[[repo]]
-url = "https://github.com/baking-bad/pytezos-labs"
-
-[[repo]]
-url = "https://github.com/baking-bad/sandboxed-node"
-
-[[repo]]
-url = "https://github.com/baking-bad/smart-contracts"
-
-[[repo]]
-url = "https://github.com/baking-bad/smartpy-cli"
-
-[[repo]]
-url = "https://github.com/baking-bad/suredao"
-
-[[repo]]
-url = "https://github.com/baking-bad/tezos-client"
-
-[[repo]]
-url = "https://github.com/baking-bad/tezos-dyor"
-
-[[repo]]
-url = "https://github.com/baking-bad/tezos-nft-sample"
-
-[[repo]]
-url = "https://github.com/baking-bad/tezos-node"
 
 [[repo]]
 url = "https://github.com/baking-bad/tezos-on-tezos"
@@ -97,10 +26,142 @@ url = "https://github.com/baking-bad/tezos-on-tezos"
 url = "https://github.com/baking-bad/tzkt"
 
 [[repo]]
+url = "https://github.com/baking-bad/netezos"
+
+[[repo]]
 url = "https://github.com/baking-bad/tzkt-pro"
+
+[[repo]]
+url = "https://github.com/tzkt/api-sdk-ts"
+
+[[repo]]
+url = "https://github.com/baking-bad/bcd"
+
+[[repo]]
+url = "https://github.com/baking-bad/bcdhub"
+
+[[repo]]
+url = "https://github.com/baking-bad/better-call-dev"
+
+[[repo]]
+url = "https://github.com/baking-bad/beacon-dotnet-sdk"
+
+[[repo]]
+url = "https://github.com/baking-bad/matrix-dotnet-sdk"
+
+[[repo]]
+url = "https://github.com/baking-bad/pytezos"
+
+[[repo]]
+url = "https://github.com/baking-bad/michelson-labs"
+
+[[repo]]
+url = "https://github.com/baking-bad/pytezos-labs"
 
 [[repo]]
 url = "https://github.com/baking-bad/vscode-michelson-syntax"
 
 [[repo]]
-url = "https://github.com/baking-bad/vuetify-jsonschema-form"
+url = "https://github.com/baking-bad/sandboxed-node"
+
+[[repo]]
+url = "https://github.com/baking-bad/conseilpy"
+
+[[repo]]
+url = "https://github.com/baking-bad/pysignalr"
+
+[[repo]]
+url = "https://github.com/baking-bad/bakers-registry-cli"
+
+# DipDup
+
+[[repo]]
+url = "https://github.com/dipdup-io/dipdup"
+
+[[repo]]
+url = "https://github.com/dipdup-io/metadata"
+
+[[repo]]
+url = "https://github.com/dipdup-io/mempool"
+
+[[repo]]
+url = "https://github.com/dipdup-io/go-lib"
+
+[[repo]]
+url = "https://github.com/dipdup-io/indexer-sdk"
+
+[[repo]]
+url = "https://github.com/dipdup-io/abi-indexer"
+
+[[repo]]
+url = "https://github.com/dipdup-io/workerpool"
+
+[[repo]]
+url = "https://github.com/dipdup-io/tezos-domains"
+
+[[repo]]
+url = "https://github.com/dipdup-io/sourcify-api"
+
+[[repo]]
+url = "https://github.com/dipdup-io/celestia-node-api"
+
+[[repo]]
+url = "https://github.com/dipdup-io/playground"
+
+[[repo]]
+url = "https://github.com/dipdup-io/quartz-metadata"
+
+[[repo]]
+url = "https://github.com/dipdup-io/rarible-marketplace-indexer"
+
+[[repo]]
+url = "https://github.com/dipdup-io/reorg-tracker"
+
+# Juster
+
+[[repo]]
+url = "https://github.com/juster-finance/juster-app"
+
+[[repo]]
+url = "https://github.com/juster-finance/juster-sdk"
+
+[[repo]]
+url = "https://github.com/juster-finance/juster-dipdup"
+
+[[repo]]
+url = "https://github.com/juster-finance/juster-core"
+
+# Atomex
+
+[[repo]]
+url = "https://github.com/atomex-me/atomex.client.desktop"
+
+[[repo]]
+url = "https://github.com/atomex-me/atomex.mobile"
+
+[[repo]]
+url = "https://github.com/atomex-me/atomex-erc20-solidity"
+
+[[repo]]
+url = "https://github.com/atomex-me/atomex-solidity"
+
+[[repo]]
+url = "https://github.com/atomex-me/atomex.client.core"
+
+[[repo]]
+url = "https://github.com/atomex-me/atomex.imageservice"
+
+[[repo]]
+url = "https://github.com/atomex-me/atomex.client.web"
+
+[[repo]]
+url = "https://github.com/atomex-me/atomex.bitcoinfees.scraper"
+
+[[repo]]
+url = "https://github.com/atomex-me/atomex-fa2-ligo"
+
+[[repo]]
+url = "https://github.com/atomex-me/atomex-michelson"
+
+[[repo]]
+url = "https://github.com/atomex-me/atomex-fa12-ligo"

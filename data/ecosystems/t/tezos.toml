@@ -3,6 +3,7 @@ title = "Tezos"
 
 sub_ecosystems = [
   "Baking Bad",
+  "Baktz",
   "Bender Labs",
   "Blockswap Network",
   "DipDup",
@@ -44,6 +45,7 @@ github_organizations = [
   "https://github.com/tezos-reward-distributor-organization",
   "https://github.com/tzbutton",
   "https://github.com/uconomy",
+  "https://github.com/ExodusMovement",
 ]
 
 # Repositories
@@ -2642,3 +2644,19 @@ url = "https://gitlab.com/witoff/key-encoder"
 
 [[repo]]
 url = "https://gitlab.com/witoff/tezos-hsm-signer"
+
+[[repo]]
+url = "https://github.com/RichAyotte/baktz"
+tags = [ "Baking"]
+
+[[repo]]
+url = "https://github.com/ExodusMovement/exodus-mobile"
+tags = [ "Wallet"]
+
+[[repo]]
+url = "https://github.com/ExodusMovement/exodus-browser"
+tags = [ "Wallet"]
+
+[[repo]]
+url = "https://github.com/ExodusMovement/exodus-desktop"
+tags = [ "Wallet"]

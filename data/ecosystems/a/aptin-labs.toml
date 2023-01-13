@@ -1,17 +1,19 @@
+# Ecosystem Level Information
 title = "Aptin Labs"
 
 sub_ecosystems = []
 
-github_organizations = [
-    "https://github.com/AptinLabs"
-]
+github_organizations = ["https://github.com/AptinLabs"]
 
 # Repositories
 [[repo]]
-url = "https://github.com/AptinLabs/defillama-server"
+url = "https://github.com/AptinLabs/aptos-core"
 
 [[repo]]
 url = "https://github.com/AptinLabs/DefiLlama-Adapters"
+
+[[repo]]
+url = "https://github.com/AptinLabs/defillama-server"
 
 [[repo]]
 url = "https://github.com/AptinLabs/interface-sdk-js"
@@ -20,10 +22,7 @@ url = "https://github.com/AptinLabs/interface-sdk-js"
 url = "https://github.com/AptinLabs/lend-config"
 
 [[repo]]
-url = "https://github.com/AptinLabs/test-coins"
-
-[[repo]]
-url = "https://github.com/AptinLabs/aptos-core"
-
-[[repo]]
 url = "https://github.com/AptinLabs/move"
+
+[[repo]]
+url = "https://github.com/AptinLabs/test-coins"

@@ -27,8 +27,8 @@ sub_ecosystems = [
   "Laminar",
   "Martian DAO",
   "Module Labs",
-  "Momentum Safe",
   "Mokshya Protocol",
+  "Momentum Safe",
   "Nightly Wallet",
   "NodeReal",
   "OmniBTC",
@@ -48,10 +48,7 @@ sub_ecosystems = [
   "ZettaBlock",
 ]
 
-github_organizations = [
-  "https://github.com/aptos-foundation",
-  "https://github.com/aptos-labs",
-]
+github_organizations = ["https://github.com/aptos-foundation", "https://github.com/aptos-labs"]
 
 # Repositories
 [[repo]]
@@ -286,6 +283,9 @@ url = "https://github.com/switchboard-xyz/switchboard-aptos-public"
 url = "https://github.com/taranchik/aptos-blockchain-oracle"
 
 [[repo]]
+url = "https://github.com/tolgaand/aptosfaucet"
+
+[[repo]]
 url = "https://github.com/topcoder1208/aptos-test-vault"
 
 [[repo]]
@@ -299,6 +299,3 @@ url = "https://github.com/wormhole-foundation/wormhole/tree/main/aptos"
 
 [[repo]]
 url = "https://github.com/zeeis/smart-contract"
-
-[[repo]]
-url = "https://github.com/tolgaand/aptosfaucet"

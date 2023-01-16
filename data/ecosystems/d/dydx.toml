@@ -3,9 +3,24 @@ title = "dYdX"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/dydxprotocol"]
+github_organizations = ["https://github.com/dydxfoundation", "https://github.com/dydxprotocol"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/dydxfoundation/dip"
+
+[[repo]]
+url = "https://github.com/dydxfoundation/dydx-subgraph"
+
+[[repo]]
+url = "https://github.com/dydxfoundation/governance-contracts"
+
+[[repo]]
+url = "https://github.com/dydxfoundation/governance-documentation"
+
+[[repo]]
+url = "https://github.com/dydxfoundation/pnyx"
+
 [[repo]]
 url = "https://github.com/dydxprotocol/abi-decoder"
 
@@ -104,3 +119,9 @@ url = "https://github.com/dydxprotocol/walletdirect"
 
 [[repo]]
 url = "https://github.com/dydxprotocol/web3.swift"
+
+[[repo]]
+url = "https://github.com/henrykash/DyDx"
+
+[[repo]]
+url = "https://github.com/matextrem/DeFi-panel-api"

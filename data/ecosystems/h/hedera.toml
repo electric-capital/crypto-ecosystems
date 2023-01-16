@@ -8,6 +8,7 @@ sub_ecosystems = [
   "Burstall",
   "Calaxy",
   "DOVU",
+  "EnergyTrade",
   "HashGuild",
   "Hashport",
   "Heliswap",
@@ -19,7 +20,11 @@ sub_ecosystems = [
   "TxMQ, Inc",
 ]
 
-github_organizations = ["https://github.com/hashgraph"]
+github_organizations = [
+  "https://github.com/hashgraph",
+  "https://github.com/Hashpack",
+  "https://github.com/linkd-network",
+]
 
 # Repositories
 [[repo]]
@@ -56,6 +61,15 @@ url = "https://github.com/bugbytesinc/hashgraph-transaction-signing-tool"
 url = "https://github.com/buidler-labs/dockerized-hedera-services"
 
 [[repo]]
+url = "https://github.com/buidler-labs/hashgraph-venin-demo"
+
+[[repo]]
+url = "https://github.com/buidler-labs/hashgraph-venin-js"
+
+[[repo]]
+url = "https://github.com/buidler-labs/hashgraph-venin-rollup"
+
+[[repo]]
 url = "https://github.com/buidler-labs/headstarter-coingecko-api"
 
 [[repo]]
@@ -89,10 +103,19 @@ url = "https://github.com/Burstall/hedera-SC-LAZY-FT-implementation"
 url = "https://github.com/Burstall/hedera-token-graveyard"
 
 [[repo]]
+url = "https://github.com/codestates/BTAFinalProject-06"
+
+[[repo]]
 url = "https://github.com/daly4/hedera_rust_client"
 
 [[repo]]
 url = "https://github.com/danielHype/hedera_minting_engine"
+
+[[repo]]
+url = "https://github.com/DarthSalad/scholar-up"
+
+[[repo]]
+url = "https://github.com/devutnia/devutnia"
 
 [[repo]]
 url = "https://github.com/dovuofficial/hedera-hardhat-tooling"
@@ -102,6 +125,9 @@ url = "https://github.com/Eleeos-Crypto/ivy-deploy"
 
 [[repo]]
 url = "https://github.com/eugenioclrc/getsponsoreth"
+
+[[repo]]
+url = "https://github.com/EvercityEcosystem/hedera-forwards-frontend"
 
 [[repo]]
 url = "https://github.com/falcucci/hedera-coin-api"
@@ -201,6 +227,9 @@ url = "https://github.com/hashgraph/hedera-fabric-txmapper"
 
 [[repo]]
 url = "https://github.com/hashgraph/hedera-fee-tool-js"
+
+[[repo]]
+url = "https://github.com/hashgraph/hedera-grpcWeb-proxy"
 
 [[repo]]
 url = "https://github.com/hashgraph/hedera-hardhat-hethers"
@@ -437,6 +466,12 @@ url = "https://github.com/HashGuild/hedera-minting"
 url = "https://github.com/hashingsystems/MyHbarTokens"
 
 [[repo]]
+url = "https://github.com/Hashpack/CAIPs"
+
+[[repo]]
+url = "https://github.com/Hashpack/hashconnect"
+
+[[repo]]
 url = "https://github.com/HbarSuite/nestjs-hedera"
 
 [[repo]]
@@ -458,13 +493,28 @@ url = "https://github.com/JoeyHentges/Hedera-Smart-Contract-Deployment"
 url = "https://github.com/juberiya1ajaz/Hackerland"
 
 [[repo]]
+url = "https://github.com/juberiya1ajaz/Hawk_hacks"
+
+[[repo]]
+url = "https://github.com/Just-Jam/Paths2Abundance-nextjs"
+
+[[repo]]
 url = "https://github.com/kevalvavaliya/Yog4Life"
+
+[[repo]]
+url = "https://github.com/kimgysen/hbarTexting"
 
 [[repo]]
 url = "https://github.com/lab49/web3-hedera-react-india"
 
 [[repo]]
 url = "https://github.com/launchbadge/hedera-protobufs-rust"
+
+[[repo]]
+url = "https://github.com/launchbadge/hedera-sdk-c"
+
+[[repo]]
+url = "https://github.com/launchbadge/hedera-sdk-python"
 
 [[repo]]
 url = "https://github.com/LimeChain/hardhat-hedera-example"
@@ -503,7 +553,25 @@ url = "https://github.com/LimeChain/local-hedera"
 url = "https://github.com/LimeChain/MyHbarWallet"
 
 [[repo]]
+url = "https://github.com/linkd-network/linkd"
+
+[[repo]]
 url = "https://github.com/manucabrera8/HederaverseNFT-Toolkit"
+
+[[repo]]
+url = "https://github.com/MasseyCapstoneGroup5/json-rpc-java"
+
+[[repo]]
+url = "https://github.com/MasseyCapstoneGroup5/test-driver-js"
+
+[[repo]]
+url = "https://github.com/mbrenn07/VTHacks2022"
+
+[[repo]]
+url = "https://github.com/Meeco/identity-network"
+
+[[repo]]
+url = "https://github.com/mike-petrov/hedera2022"
 
 [[repo]]
 url = "https://github.com/mok0230/hedera-contracts"
@@ -545,10 +613,19 @@ url = "https://github.com/scalemaildev/hashgraph_chess"
 url = "https://github.com/sdesalas/hedera-eth-rpc"
 
 [[repo]]
+url = "https://github.com/shaylagrymaloski/mentHERship"
+
+[[repo]]
 url = "https://github.com/ShivamAgarwal-code/3runnerz"
 
 [[repo]]
 url = "https://github.com/stop-it-io/hedera-nft-owner-snapshot"
+
+[[repo]]
+url = "https://github.com/tammmyz/badger"
+
+[[repo]]
+url = "https://github.com/thekavikumar/Ratio"
 
 [[repo]]
 url = "https://github.com/TikZSZ/ts-hedera-mirror-node-wrapper"
@@ -560,7 +637,16 @@ url = "https://github.com/trustenterprises/hedera-serverless-api"
 url = "https://github.com/trustenterprises/laravel-hashgraph"
 
 [[repo]]
+url = "https://github.com/waverew/eth_Toronto_project"
+
+[[repo]]
 url = "https://github.com/waverew/hackaton_project"
 
 [[repo]]
+url = "https://github.com/web3devs/hedera-hashies"
+
+[[repo]]
 url = "https://github.com/wensheng/hedera-sdk-py"
+
+[[repo]]
+url = "https://github.com/yiktungY/hack-the-6ix-2022-react"

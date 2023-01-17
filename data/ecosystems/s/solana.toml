@@ -47,6 +47,7 @@ sub_ecosystems = [
   "Crossmint",
   "Cryptoplease",
   "Cyclos",
+  "Cykura",
   "Cypher",
   "Cystal Project",
   "Dappio",
@@ -57,14 +58,19 @@ sub_ecosystems = [
   "DescartesNetwork",
   "Diabolo",
   "Dialect Labs",
+  "Drift Protocol",
   "Dual Finance",
   "Elk Finance",
+  "Ellipsis Labs",
+  "Encore.Fans",
   "Everlend",
   "Fluidity",
   "frakt",
   "Francium",
   "Friktion Labs",
   "Future Finance",
+  "Garbles Labs",
+  "Gilder",
   "Glow.xyz wallet",
   "GoblinGold",
   "Goki Protocol",
@@ -88,6 +94,7 @@ sub_ecosystems = [
   "Lagrange",
   "Larix",
   "LIQ Protocol",
+  "Lotus Gang",
   "LP Finance",
   "Magic Eden",
   "Mango Markets",
@@ -109,6 +116,8 @@ sub_ecosystems = [
   "NFTrade",
   "NFTSoul",
   "nina",
+  "Nina Protocol",
+  "Nosana CI",
   "Notifi Network",
   "Nova Finance",
   "off-piste",
@@ -121,9 +130,12 @@ sub_ecosystems = [
   "Parasol Finance",
   "Parrot",
   "PARSIQ",
+  "Particle Network",
+  "Penguin Finance (png_fi)",
   "Phant Project",
   "Phantom",
   "Pluto Network",
+  "plutoniansgame",
   "Plutos Network",
   "Port Finance",
   "Professor NFTs",
@@ -176,6 +188,7 @@ sub_ecosystems = [
   "Squads",
   "Star Atlas",
   "Step Finance",
+  "Strata Foundation",
   "StreamFlow Finance",
   "Strike Protocols",
   "Sunny Aggregator",
@@ -191,6 +204,8 @@ sub_ecosystems = [
   "Tokr Labs",
   "Tribeca Protocol",
   "Triton One",
+  "Ultra Sound Music",
+  "UPFI",
   "UXD Protocol",
   "Valholla",
   "VaultLaboratories",
@@ -213,9 +228,11 @@ github_organizations = [
   "https://github.com/Bonfida",
   "https://github.com/coherence-finance",
   "https://github.com/create-anchor-app",
+  "https://github.com/Fair-Exchange",
   "https://github.com/firedancer-io",
   "https://github.com/generatus",
   "https://github.com/hashblock",
+  "https://github.com/magiceden-oss",
   "https://github.com/Nebula-Wallet",
   "https://github.com/phantom-labs",
   "https://github.com/plantoids",
@@ -224,10 +241,14 @@ github_organizations = [
   "https://github.com/solana-developers",
   "https://github.com/solana-labs",
   "https://github.com/sollpay",
+  "https://github.com/soluna-protocol",
   "https://github.com/Synthetify",
 ]
 
 # Repositories
+[[repo]]
+url = "https://github.com/0122wndnjs/airbnb-solana"
+
 [[repo]]
 url = "https://github.com/01protocol/zo-abi"
 
@@ -238,10 +259,52 @@ url = "https://github.com/01protocol/zo-keeper"
 url = "https://github.com/0base-vc/0base-exporter"
 
 [[repo]]
+url = "https://github.com/0x-echo/widget"
+
+[[repo]]
 url = "https://github.com/0x1990c/parimutuel-ui"
 
 [[repo]]
+url = "https://github.com/0xabstracted/alpha_stake"
+
+[[repo]]
+url = "https://github.com/0xabstracted/apl-stake"
+
+[[repo]]
+url = "https://github.com/0xabstracted/apl_raffles"
+
+[[repo]]
+url = "https://github.com/0xabstracted/magic-stake"
+
+[[repo]]
+url = "https://github.com/0xalpha0123/simple-vote"
+
+[[repo]]
+url = "https://github.com/0xcen/mint-buildooor"
+
+[[repo]]
 url = "https://github.com/0xDiabl0/sol_earp"
+
+[[repo]]
+url = "https://github.com/0xekez/simple-solana-program"
+
+[[repo]]
+url = "https://github.com/0xgautamm/solana-js-airdrop"
+
+[[repo]]
+url = "https://github.com/0xhipo/0xhipo-cell-sdk-release"
+
+[[repo]]
+url = "https://github.com/0xlazytron/candymachine"
+
+[[repo]]
+url = "https://github.com/0xlazytron/Cmv3"
+
+[[repo]]
+url = "https://github.com/0xlazytron/grapewine"
+
+[[repo]]
+url = "https://github.com/0xlazytron/grapvine"
 
 [[repo]]
 url = "https://github.com/0xnabeix/solana-token"
@@ -250,7 +313,22 @@ url = "https://github.com/0xnabeix/solana-token"
 url = "https://github.com/0xNeuroD-RC/solitaires"
 
 [[repo]]
+url = "https://github.com/0xPratik/CJ"
+
+[[repo]]
+url = "https://github.com/0xPratik/funfusion"
+
+[[repo]]
+url = "https://github.com/0xPratik/token-gate"
+
+[[repo]]
+url = "https://github.com/0xraidr/NFT-minter-frontend"
+
+[[repo]]
 url = "https://github.com/0xSavant/MobiusProtocolPL"
+
+[[repo]]
+url = "https://github.com/0xSavant/Stockpile"
 
 [[repo]]
 url = "https://github.com/0xscuba/rent-free"
@@ -259,22 +337,106 @@ url = "https://github.com/0xscuba/rent-free"
 url = "https://github.com/0xSense/Lofi-vibes"
 
 [[repo]]
+url = "https://github.com/0xSmick/buildspace-sushi"
+
+[[repo]]
+url = "https://github.com/0xTokk/learning"
+
+[[repo]]
+url = "https://github.com/0xzuru/bulder"
+
+[[repo]]
+url = "https://github.com/0xzuru/buldoor"
+
+[[repo]]
 url = "https://github.com/21e8/cryptostraps.tools"
 
 [[repo]]
 url = "https://github.com/21e8/sol-nft-tools"
 
 [[repo]]
+url = "https://github.com/256hax/solana-anchor-react-minimal-example"
+
+[[repo]]
+url = "https://github.com/256hax/solana-pay-minimal-example"
+
+[[repo]]
+url = "https://github.com/4everland/dashboard-website"
+
+[[repo]]
 url = "https://github.com/4MarkusMarkus/tenderize-on-solana"
+
+[[repo]]
+url = "https://github.com/51smith/bouwow"
+
+[[repo]]
+url = "https://github.com/5elfle5/coinflip-bet"
+
+[[repo]]
+url = "https://github.com/a-yo-defi/WAVE-AYO"
+
+[[repo]]
+url = "https://github.com/a7rs/scy-app"
+
+[[repo]]
+url = "https://github.com/aacsspkt/SpyRelayers"
+
+[[repo]]
+url = "https://github.com/aadya608/solanahack"
+
+[[repo]]
+url = "https://github.com/aaqibsheikh/solana-nft-minter"
+
+[[repo]]
+url = "https://github.com/aaronquijano/challenge2-solana"
+
+[[repo]]
+url = "https://github.com/aaronquijano/Challenge_1_Solana"
+
+[[repo]]
+url = "https://github.com/aashishgupta49/BookSquare"
+
+[[repo]]
+url = "https://github.com/Aayushch1212/hackday-delhi-solanafina"
+
+[[repo]]
+url = "https://github.com/AbalaKparobo/solana-dezz-minter-and-stacking"
 
 [[repo]]
 url = "https://github.com/abdelhakeem/nft-mutator"
 
 [[repo]]
+url = "https://github.com/abdullahqureshi5050/pstake"
+
+[[repo]]
 url = "https://github.com/Abdulmoiz-Ahmer/cryptobros-mint-machine"
 
 [[repo]]
+url = "https://github.com/Abdulrahman479/airdrop"
+
+[[repo]]
+url = "https://github.com/abdulsagheer/web3-spotify"
+
+[[repo]]
+url = "https://github.com/abhi3700/sol-playground"
+
+[[repo]]
+url = "https://github.com/AbhinavGor/Buildoor-NFT-Buildspace"
+
+[[repo]]
+url = "https://github.com/abhirajthakur/solana-nft-minter"
+
+[[repo]]
+url = "https://github.com/abhisheksunil2201/solana-nft-minter-frontend"
+
+[[repo]]
 url = "https://github.com/abiaspalau-idt/CryptoAvenueApp"
+
+[[repo]]
+url = "https://github.com/Abou1205/Solana-NFT-Minter"
+
+[[repo]]
+url = "https://github.com/AbuzarGhazanfarKhan/soalan-practice"
 
 [[repo]]
 url = "https://github.com/acedev0816/Solana-Web3-Wallet-Manage"
@@ -283,19 +445,73 @@ url = "https://github.com/acedev0816/Solana-Web3-Wallet-Manage"
 url = "https://github.com/acedev0816/Solana-Wrapped-Token-Manage"
 
 [[repo]]
+url = "https://github.com/Ackee-Blockchain/nie-blo-solana-counter"
+
+[[repo]]
 url = "https://github.com/Ackee-Blockchain/summer-school-of-solana-2022"
 
 [[repo]]
 url = "https://github.com/Ackee-Blockchain/trdelnik"
 
 [[repo]]
+url = "https://github.com/adamdelsol/challenge2-solana"
+
+[[repo]]
+url = "https://github.com/adamdelsol/mc-mod2"
+
+[[repo]]
+url = "https://github.com/adamdelsol/module2-project"
+
+[[repo]]
+url = "https://github.com/adamdelsol/solana-challenge3-phantom"
+
+[[repo]]
 url = "https://github.com/AdamSioud/MINTA"
+
+[[repo]]
+url = "https://github.com/Adithya-jh/Solana-Pay"
+
+[[repo]]
+url = "https://github.com/AdithyaChauhan/sol_airdrop4"
+
+[[repo]]
+url = "https://github.com/advaith0810/airdrop-sol"
+
+[[repo]]
+url = "https://github.com/adytiaa/alfazero"
+
+[[repo]]
+url = "https://github.com/aeaa1998/solana-i-am-entity"
+
+[[repo]]
+url = "https://github.com/AESETH/deposit"
+
+[[repo]]
+url = "https://github.com/AffableSarthak/flaq-learn-cms"
+
+[[repo]]
+url = "https://github.com/afreekamode/solpay"
 
 [[repo]]
 url = "https://github.com/agoraxyz/dungeon"
 
 [[repo]]
 url = "https://github.com/agoraxyz/gold-rust"
+
+[[repo]]
+url = "https://github.com/Agrim-Ani/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/AguadulceHQ/solana-deep-dive"
+
+[[repo]]
+url = "https://github.com/Aicl0ud/candy-machine-ui"
+
+[[repo]]
+url = "https://github.com/Aicl0ud/nft-minter-on-solana"
+
+[[repo]]
+url = "https://github.com/Aicl0ud/pepe-coin-on-solana"
 
 [[repo]]
 url = "https://github.com/aiell0/mineum"
@@ -307,16 +523,103 @@ url = "https://github.com/ajamaica/Solana.Swift"
 url = "https://github.com/ajoliat23/blockBook"
 
 [[repo]]
+url = "https://github.com/AkhilSharma90/basic-solana-program"
+
+[[repo]]
+url = "https://github.com/AkhilSharma90/solana-custom-project"
+
+[[repo]]
+url = "https://github.com/Akihi-Sumi/Solana-GIF-dApp"
+
+[[repo]]
+url = "https://github.com/akinwol/minter"
+
+[[repo]]
+url = "https://github.com/akira0502/atlas-contracts-audit"
+
+[[repo]]
+url = "https://github.com/akira0502/atlas-farm-contracts"
+
+[[repo]]
+url = "https://github.com/akrap19/impact_frontend"
+
+[[repo]]
+url = "https://github.com/Akshat-2512/javascriptsbasics"
+
+[[repo]]
 url = "https://github.com/AkshatSaraswat03/Project-Noise"
+
+[[repo]]
+url = "https://github.com/akshaydhayal/Seahorse-Lottery-Program"
+
+[[repo]]
+url = "https://github.com/akshita642/sole-airdrop"
+
+[[repo]]
+url = "https://github.com/alaydin/Solana-CLI-Token-Mint"
+
+[[repo]]
+url = "https://github.com/alaydin/Solana-NFT-Minter-UI"
+
+[[repo]]
+url = "https://github.com/albincsergo/nerdoos"
+
+[[repo]]
+url = "https://github.com/alchemyplatform/solana-hello-world"
+
+[[repo]]
+url = "https://github.com/AlejoLovallo/Solana-hooks"
+
+[[repo]]
+url = "https://github.com/aleksadencic/fis-wall-in"
+
+[[repo]]
+url = "https://github.com/aleph-im/aleph-sdk-ts"
 
 [[repo]]
 url = "https://github.com/aleph-im/pyaleph"
 
 [[repo]]
+url = "https://github.com/aleph-im/solana-indexer-framework"
+
+[[repo]]
+url = "https://github.com/aleph-im/solana-indexer-library"
+
+[[repo]]
 url = "https://github.com/alephium/wormhole-fork"
 
 [[repo]]
+url = "https://github.com/alex-dp/solana-awards"
+
+[[repo]]
+url = "https://github.com/alex-dp/solana-ubi"
+
+[[repo]]
+url = "https://github.com/alexanderlukens/resume-nft"
+
+[[repo]]
+url = "https://github.com/AlexViapiano/minter"
+
+[[repo]]
+url = "https://github.com/AlfonChitoSalano/SolanaExamples"
+
+[[repo]]
+url = "https://github.com/AlgoTrdng/orca-whirlpools-farming"
+
+[[repo]]
+url = "https://github.com/AlgoTrdng/stables-arbs"
+
+[[repo]]
+url = "https://github.com/AlgoTrdng/ush-arbitrage"
+
+[[repo]]
 url = "https://github.com/ali-bahjati/balex"
+
+[[repo]]
+url = "https://github.com/alikulaOwen/noor"
+
+[[repo]]
+url = "https://github.com/alikulaOwen/owenoor-nfts"
 
 [[repo]]
 url = "https://github.com/allamadramaclub/llamadramaclub-nft"
@@ -325,19 +628,124 @@ url = "https://github.com/allamadramaclub/llamadramaclub-nft"
 url = "https://github.com/allartprotocol/unity-solana-wallet"
 
 [[repo]]
+url = "https://github.com/allbridge-io/allbridge-core-js-sdk"
+
+[[repo]]
+url = "https://github.com/ALLIIPP/emptyLUT"
+
+[[repo]]
+url = "https://github.com/ALLIIPP/Jupiter-arbs-bot"
+
+[[repo]]
+url = "https://github.com/ALLIIPP/Liq-Accounts"
+
+[[repo]]
+url = "https://github.com/ALLIIPP/mint_lol_upload"
+
+[[repo]]
+url = "https://github.com/ALLIIPP/mintLol_community"
+
+[[repo]]
+url = "https://github.com/ALLIIPP/ray_arbs"
+
+[[repo]]
+url = "https://github.com/ALLOVRStudios/ovr-program"
+
+[[repo]]
 url = "https://github.com/AlphaPlusVN/AMeta-nodejs-solana"
 
 [[repo]]
 url = "https://github.com/AlphaPrime8/climax_controller"
 
 [[repo]]
+url = "https://github.com/AlphaPrime8/GigaDAOUpgrader"
+
+[[repo]]
+url = "https://github.com/AlphaPrime8/GigaDAOVesting"
+
+[[repo]]
+url = "https://github.com/AlphaWoolfGame/interface"
+
+[[repo]]
+url = "https://github.com/ALsJourney/counter-anchor"
+
+[[repo]]
+url = "https://github.com/ALsJourney/smartcontract-for-cybersec"
+
+[[repo]]
+url = "https://github.com/ALsJourney/solana-public-posts"
+
+[[repo]]
+url = "https://github.com/Altar12/buildoor"
+
+[[repo]]
+url = "https://github.com/Altar12/Crab-NFT-collection-UI"
+
+[[repo]]
+url = "https://github.com/Altar12/NFT-Fetcher"
+
+[[repo]]
+url = "https://github.com/Altar12/PipCoin"
+
+[[repo]]
+url = "https://github.com/Altar12/solana-student-intro-program"
+
+[[repo]]
+url = "https://github.com/Alumist/geko-api"
+
+[[repo]]
+url = "https://github.com/Alumist/TerribleCode"
+
+[[repo]]
+url = "https://github.com/amazingfarooqq/daily-rust"
+
+[[repo]]
+url = "https://github.com/amazingfarooqq/git-portal--react-anchor-solana"
+
+[[repo]]
+url = "https://github.com/amazingfarooqq/solana-programme-anchor-gif-portal"
+
+[[repo]]
+url = "https://github.com/amazingfarooqq/solana-react-gif-portal"
+
+[[repo]]
 url = "https://github.com/ambition-so/controllers"
+
+[[repo]]
+url = "https://github.com/amitayas/parrhesia"
+
+[[repo]]
+url = "https://github.com/amorriscode/claynoscorz"
+
+[[repo]]
+url = "https://github.com/amorriscode/ovol-salesbot"
 
 [[repo]]
 url = "https://github.com/amosproj/amos2022ss07-nft-playbook"
 
 [[repo]]
+url = "https://github.com/Anan7Codes/Buildspace-Solana"
+
+[[repo]]
+url = "https://github.com/Anasjaidi/solana"
+
+[[repo]]
+url = "https://github.com/AnderUstarroz/cubist-games-lib"
+
+[[repo]]
+url = "https://github.com/andes-blockchain-lab/solana-hello-world"
+
+[[repo]]
+url = "https://github.com/andrei-kozel/solana-nft-minter"
+
+[[repo]]
 url = "https://github.com/andreisilviudragnea/friend-list"
+
+[[repo]]
+url = "https://github.com/AndreLCanada/MetaCrafters-Solana"
+
+[[repo]]
+url = "https://github.com/andresmgsl/bogota-hh-bounty-program-website"
 
 [[repo]]
 url = "https://github.com/andresmgsl/solana-cohort-june-2022"
@@ -349,7 +757,52 @@ url = "https://github.com/AndrewHeinke/saiba-gang-nft"
 url = "https://github.com/andrey-do/solletmobile"
 
 [[repo]]
+url = "https://github.com/andropixels/ERC20-solana-"
+
+[[repo]]
+url = "https://github.com/anhquoc92/Dropium-CheckBalance-Token-NFT"
+
+[[repo]]
+url = "https://github.com/animeshdas2000/solfty"
+
+[[repo]]
+url = "https://github.com/AnishDe12020/solana-base-app-next-chakra"
+
+[[repo]]
+url = "https://github.com/ankit2020bhagat/Solana_With_React"
+
+[[repo]]
 url = "https://github.com/ankitzm/solana-wedding"
+
+[[repo]]
+url = "https://github.com/ankt-kmr/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/anmol-Git/nft-minter"
+
+[[repo]]
+url = "https://github.com/Anny023/Projects"
+
+[[repo]]
+url = "https://github.com/Anonbuildoor/Gwap-protocol-"
+
+[[repo]]
+url = "https://github.com/anoushk1234/anchor-merkle-tree"
+
+[[repo]]
+url = "https://github.com/anoushk1234/pyth-example"
+
+[[repo]]
+url = "https://github.com/anoushk1234/sqlana-store"
+
+[[repo]]
+url = "https://github.com/anselsol/gate-api"
+
+[[repo]]
+url = "https://github.com/anshumanpatil/solana"
+
+[[repo]]
+url = "https://github.com/antematter/frontend-developer-test"
 
 [[repo]]
 url = "https://github.com/Anthony62039/Solana-Balance-Wallet"
@@ -358,7 +811,40 @@ url = "https://github.com/Anthony62039/Solana-Balance-Wallet"
 url = "https://github.com/anyswap/router-solana-contract"
 
 [[repo]]
+url = "https://github.com/Aoi1011/loan"
+
+[[repo]]
+url = "https://github.com/AP696/Airbnb-solana"
+
+[[repo]]
 url = "https://github.com/Aparna-Bindhu/solana-ride-sharing"
+
+[[repo]]
+url = "https://github.com/apmfree78/candy-machine-lookup"
+
+[[repo]]
+url = "https://github.com/Apocentre/anchor-metaplex"
+
+[[repo]]
+url = "https://github.com/Apocentre/solana-test-utils"
+
+[[repo]]
+url = "https://github.com/Apocentre/solana-web3"
+
+[[repo]]
+url = "https://github.com/apoorva1823000/SolanaStaycations"
+
+[[repo]]
+url = "https://github.com/AptosZombies/web-port"
+
+[[repo]]
+url = "https://github.com/AptosZombies/web-stake"
+
+[[repo]]
+url = "https://github.com/AptosZombies/y"
+
+[[repo]]
+url = "https://github.com/Ar1kol/test_task"
 
 [[repo]]
 url = "https://github.com/Araekiel/solbond"
@@ -367,7 +853,133 @@ url = "https://github.com/Araekiel/solbond"
 url = "https://github.com/ARBProtocol/solana-jupiter-bot"
 
 [[repo]]
+url = "https://github.com/archae0pteryx/bs-student-last-words"
+
+[[repo]]
+url = "https://github.com/archae0pteryx/buildspace-nft-minter"
+
+[[repo]]
+url = "https://github.com/archae0pteryx/buildspace-solana"
+
+[[repo]]
+url = "https://github.com/Arcturus91/NFTourism-client"
+
+[[repo]]
+url = "https://github.com/Arcturus91/NFTourism-server"
+
+[[repo]]
+url = "https://github.com/Arcturus91/solanaWorkshopOne"
+
+[[repo]]
+url = "https://github.com/Aridema-Labs/Bus-Trip-Ticket"
+
+[[repo]]
+url = "https://github.com/Aridema-Labs/Ticket_System_Solana"
+
+[[repo]]
+url = "https://github.com/arihantbansal/soldev-course"
+
+[[repo]]
+url = "https://github.com/arijeetsinha/airdrop"
+
+[[repo]]
+url = "https://github.com/arjavjain21/Mail-DApp-Solana"
+
+[[repo]]
+url = "https://github.com/arjunbharathikumar/airdrop-sol"
+
+[[repo]]
 url = "https://github.com/armujahid/solana-voting"
+
+[[repo]]
+url = "https://github.com/Arnav3094/airdrop"
+
+[[repo]]
+url = "https://github.com/arncv/De-Organ"
+
+[[repo]]
+url = "https://github.com/arsenijkovalov/solana-staking"
+
+[[repo]]
+url = "https://github.com/Artoshi/tiktok-web3"
+
+[[repo]]
+url = "https://github.com/arunavo4/sol-nft-sell-program"
+
+[[repo]]
+url = "https://github.com/arunavo4/sol-sell-escrow"
+
+[[repo]]
+url = "https://github.com/arunbluez/wallet-adapter-react-ui"
+
+[[repo]]
+url = "https://github.com/aryabhat1/Arya_NFT_Minter"
+
+[[repo]]
+url = "https://github.com/aryabhat1/Flower_NFT"
+
+[[repo]]
+url = "https://github.com/aryanbhosale/airdrop"
+
+[[repo]]
+url = "https://github.com/aryanbhosale/solanatransfer"
+
+[[repo]]
+url = "https://github.com/aryanbhosale/transfer-sol-web3js"
+
+[[repo]]
+url = "https://github.com/aryanbhosale/universal-sol-balance-fetcher"
+
+[[repo]]
+url = "https://github.com/Ashish9140/solAirdrop"
+
+[[repo]]
+url = "https://github.com/ashishpandiit23/Metaplex_NFT"
+
+[[repo]]
+url = "https://github.com/Ashley936/Solana-airdrop"
+
+[[repo]]
+url = "https://github.com/ashllxyy/airdrop"
+
+[[repo]]
+url = "https://github.com/askibin/launchpad"
+
+[[repo]]
+url = "https://github.com/aslaker/buildoors-ui"
+
+[[repo]]
+url = "https://github.com/aslaker/create-spl-token"
+
+[[repo]]
+url = "https://github.com/aspnxdd/fragmentor"
+
+[[repo]]
+url = "https://github.com/AtDinesh/JokerCoin"
+
+[[repo]]
+url = "https://github.com/AtDinesh/NFT_minter_solana"
+
+[[repo]]
+url = "https://github.com/AtDinesh/solana_candy_machine"
+
+[[repo]]
+url = "https://github.com/AtDinesh/solana_display_nfts_frontend"
+
+[[repo]]
+url = "https://github.com/atellix/aqua-dex"
+
+[[repo]]
+url = "https://github.com/atellix/token-delegate"
+
+[[repo]]
+url = "https://github.com/atharmohammad/Token-Pool"
+
+[[repo]]
+url = "https://github.com/AthleteX-DAO/AthleteXchange"
+
+[[repo]]
+url = "https://github.com/athulreji/solana-airdrop"
 
 [[repo]]
 url = "https://github.com/atlasdex/atlas-bridge"
@@ -377,6 +989,12 @@ url = "https://github.com/atonoy/solana-suite"
 
 [[repo]]
 url = "https://github.com/atticlab/audius-reward-manager"
+
+[[repo]]
+url = "https://github.com/atul-blok/solana-nfts"
+
+[[repo]]
+url = "https://github.com/atyant20039/Vote-Karo"
 
 [[repo]]
 url = "https://github.com/AudacesFoundation/audaces-perps"
@@ -397,6 +1015,9 @@ url = "https://github.com/augustine76/Auction_House-UI"
 url = "https://github.com/AuroraLantean/Solana-demo1-frontend"
 
 [[repo]]
+url = "https://github.com/Aurory-Game/aurorians-on-expedition"
+
+[[repo]]
 url = "https://github.com/Aurory-Game/comptoir"
 
 [[repo]]
@@ -409,25 +1030,94 @@ url = "https://github.com/ava-global/avantis-realtime-salary"
 url = "https://github.com/avareum/avareum-nft"
 
 [[repo]]
+url = "https://github.com/avaulto/Compact-DeFi"
+
+[[repo]]
 url = "https://github.com/AverBet/SDK"
+
+[[repo]]
+url = "https://github.com/Avinier/Creador-NFT-Minter"
 
 [[repo]]
 url = "https://github.com/Avnshrai/solana-main"
 
 [[repo]]
+url = "https://github.com/AwesomeDracula/solana-anchor"
+
+[[repo]]
+url = "https://github.com/AwesomeDracula/solana-react"
+
+[[repo]]
 url = "https://github.com/axleiro/solana-main"
+
+[[repo]]
+url = "https://github.com/AyushSoni86/solana-todo-Dapp"
+
+[[repo]]
+url = "https://github.com/azmalshaikh/AlphaAudio"
+
+[[repo]]
+url = "https://github.com/Aztech-42/Memorian"
+
+[[repo]]
+url = "https://github.com/azuwey/friendly-lamp"
+
+[[repo]]
+url = "https://github.com/b02505048/tesolana"
+
+[[repo]]
+url = "https://github.com/bacharSalleh/streamflow-coding"
 
 [[repo]]
 url = "https://github.com/bachlongkocanh/wallet-demo"
 
 [[repo]]
+url = "https://github.com/badia-41v4r0/core1-solana"
+
+[[repo]]
+url = "https://github.com/baibhav-tiwari/blockify"
+
+[[repo]]
 url = "https://github.com/balasbk/PAYSOL"
+
+[[repo]]
+url = "https://github.com/balexander123/solana-core-2-Buildoor-NFT"
+
+[[repo]]
+url = "https://github.com/balexander123/solana-nft-mint-frontend"
+
+[[repo]]
+url = "https://github.com/balexander123/solana-simple-mint-client"
+
+[[repo]]
+url = "https://github.com/Balianos/smart-royalitics"
+
+[[repo]]
+url = "https://github.com/Baltino/streamflow"
+
+[[repo]]
+url = "https://github.com/bandibandi/Dapp-Solana-TODO"
+
+[[repo]]
+url = "https://github.com/Banksea-Finance/banksea-finance-exchange"
+
+[[repo]]
+url = "https://github.com/Banksea-Finance/banksea-oracle-frontend"
 
 [[repo]]
 url = "https://github.com/Banksea-Finance/banksea-solana"
 
 [[repo]]
 url = "https://github.com/Banksy-Finance/banksy-finance-exchange"
+
+[[repo]]
+url = "https://github.com/bar2693lis/assignment"
+
+[[repo]]
+url = "https://github.com/barakcodes/Job-application-platform--main"
+
+[[repo]]
+url = "https://github.com/BASCDAO/basc-cm-ui"
 
 [[repo]]
 url = "https://github.com/bastion-multisig/goki"
@@ -439,10 +1129,76 @@ url = "https://github.com/bastion-multisig/multisig"
 url = "https://github.com/bcmaster20/solana_web3_project"
 
 [[repo]]
+url = "https://github.com/BDucky/Solana-Frontend"
+
+[[repo]]
+url = "https://github.com/bedrock-foundation/faucet-starter"
+
+[[repo]]
+url = "https://github.com/beeman/solana-core-nft-frontend"
+
+[[repo]]
+url = "https://github.com/beepsaidblue/serum-shop"
+
+[[repo]]
+url = "https://github.com/beepsaidblue/wos-marketplace"
+
+[[repo]]
+url = "https://github.com/Bentipa/solana-orca-playground"
+
+[[repo]]
 url = "https://github.com/berberin/qrpay-sol"
 
 [[repo]]
+url = "https://github.com/berkingurcan/Solana-Practicum-Core-1"
+
+[[repo]]
+url = "https://github.com/betosmith2000/solana-minter"
+
+[[repo]]
+url = "https://github.com/bhagyamudgal/film-feed"
+
+[[repo]]
+url = "https://github.com/bhagyamudgal/peeksol"
+
+[[repo]]
+url = "https://github.com/bhagyamudgal/robocoin-spl-token-script"
+
+[[repo]]
+url = "https://github.com/bhagyamudgal/robotar-nft-app"
+
+[[repo]]
+url = "https://github.com/bhagyamudgal/sol-sender"
+
+[[repo]]
+url = "https://github.com/bhaskarkh01/Solana-Core_1-Challenge_1"
+
+[[repo]]
+url = "https://github.com/bhaskarorre/Challenge1-solana"
+
+[[repo]]
+url = "https://github.com/bhaskarorre/solana-modeule2-final-challenge"
+
+[[repo]]
+url = "https://github.com/bhattabhi013/Broken-Code---Solana-Hack-Day"
+
+[[repo]]
+url = "https://github.com/Bhawna1203/SolAiMint"
+
+[[repo]]
+url = "https://github.com/biccsdev/villinzBotV2"
+
+[[repo]]
+url = "https://github.com/BifrostTitan/SolnetNET4"
+
+[[repo]]
+url = "https://github.com/BigMysti/k9-store"
+
+[[repo]]
 url = "https://github.com/BigMysti/LaDogos-WL-Test"
+
+[[repo]]
+url = "https://github.com/bigtimetapin/somos-crowd"
 
 [[repo]]
 url = "https://github.com/bigtimetapin/somos-solana"
@@ -451,19 +1207,49 @@ url = "https://github.com/bigtimetapin/somos-solana"
 url = "https://github.com/birmantc/tetra-cubes-game"
 
 [[repo]]
+url = "https://github.com/bitb0ys/bitboysmint"
+
+[[repo]]
+url = "https://github.com/Bitcoinera/solana-nft-display"
+
+[[repo]]
+url = "https://github.com/BitGo/wallet-recovery-wizard"
+
+[[repo]]
 url = "https://github.com/black-wyvern-dev/solana_nft_marketplace"
+
+[[repo]]
+url = "https://github.com/BladeOfCode/Metaplex-origin"
 
 [[repo]]
 url = "https://github.com/blairmunroakusaLEAF/fracpay"
 
 [[repo]]
+url = "https://github.com/blairsec/challenges"
+
+[[repo]]
 url = "https://github.com/block-breakers/champion-draft"
+
+[[repo]]
+url = "https://github.com/blockchain-app12/Solana-NFT"
 
 [[repo]]
 url = "https://github.com/blockchainer2022/BUNNY_BUSSINESS"
 
 [[repo]]
 url = "https://github.com/Blockdaemon/pyth-go"
+
+[[repo]]
+url = "https://github.com/Blockdaemon/pyth_exporter"
+
+[[repo]]
+url = "https://github.com/Blockdaemon/solana-accountsdb-plugin-kafka"
+
+[[repo]]
+url = "https://github.com/Blockdaemon/solana-cluster"
+
+[[repo]]
+url = "https://github.com/blockdemy/solana-almacen"
 
 [[repo]]
 url = "https://github.com/blockfield/proof-of-trade"
@@ -544,6 +1330,9 @@ url = "https://github.com/blockworks-foundation/mango-explorer"
 url = "https://github.com/blockworks-foundation/mango-explorer-examples"
 
 [[repo]]
+url = "https://github.com/blockworks-foundation/mango-router"
+
+[[repo]]
 url = "https://github.com/blockworks-foundation/mango-simple-client-ts"
 
 [[repo]]
@@ -587,6 +1376,9 @@ url = "https://github.com/blockworks-foundation/mango-v3-reimbursement-ui"
 
 [[repo]]
 url = "https://github.com/blockworks-foundation/mango-v3-service"
+
+[[repo]]
+url = "https://github.com/blockworks-foundation/mango-v4"
 
 [[repo]]
 url = "https://github.com/blockworks-foundation/mango-web"
@@ -655,10 +1447,28 @@ url = "https://github.com/blockworks-foundation/voter-stake-registry-client"
 url = "https://github.com/bloXroute-Labs/serum-client-go"
 
 [[repo]]
+url = "https://github.com/bloXroute-Labs/solana-trader-client-go"
+
+[[repo]]
+url = "https://github.com/bloXroute-Labs/solana-trader-client-ts"
+
+[[repo]]
+url = "https://github.com/bmorrise/jito-labs"
+
+[[repo]]
 url = "https://github.com/bmresearch/Solnet"
 
 [[repo]]
+url = "https://github.com/bmstar2012/custom-solana-web3"
+
+[[repo]]
 url = "https://github.com/bodytexture/serum"
+
+[[repo]]
+url = "https://github.com/bokoup/bokoup-program-library"
+
+[[repo]]
+url = "https://github.com/bonedaddy/anyix"
 
 [[repo]]
 url = "https://github.com/Bonfida/agnostic-candles"
@@ -730,6 +1540,9 @@ url = "https://github.com/Bonfida/metaplex-program-library"
 url = "https://github.com/Bonfida/metaplex-vulnerability-012022"
 
 [[repo]]
+url = "https://github.com/Bonfida/minimal-matrix"
+
+[[repo]]
 url = "https://github.com/Bonfida/name-resolver"
 
 [[repo]]
@@ -793,7 +1606,22 @@ url = "https://github.com/Bonfida/validators"
 url = "https://github.com/Bonfida/vault-watcher"
 
 [[repo]]
+url = "https://github.com/bongdungyeuem27/xtuning-next"
+
+[[repo]]
+url = "https://github.com/boom-army/boom-client"
+
+[[repo]]
+url = "https://github.com/boragonul/solana-bootcamp"
+
+[[repo]]
+url = "https://github.com/boringprotocol/motherbored"
+
+[[repo]]
 url = "https://github.com/boxfish-studio/sugar-rush"
+
+[[repo]]
+url = "https://github.com/BraianMendes/portfolio_simple_Solana-Wallet"
 
 [[repo]]
 url = "https://github.com/braposo/magiceden-wolves-monitor"
@@ -805,7 +1633,52 @@ url = "https://github.com/braposo/solanart-gloom-monitor"
 url = "https://github.com/braposo/thetower-monitor"
 
 [[repo]]
+url = "https://github.com/BreakroomShow/app"
+
+[[repo]]
 url = "https://github.com/BreakroomShow/programs"
+
+[[repo]]
+url = "https://github.com/BRENMA/vers"
+
+[[repo]]
+url = "https://github.com/brianchitester/my-nina-hub"
+
+[[repo]]
+url = "https://github.com/brianlong/www.validators.app"
+
+[[repo]]
+url = "https://github.com/BroderViktor/SolanaNodeTest"
+
+[[repo]]
+url = "https://github.com/broxus/octusbridge-solana-contracts"
+
+[[repo]]
+url = "https://github.com/broxus/octusbridge-solana-multisig-contracts"
+
+[[repo]]
+url = "https://github.com/Brr0/CRaiNIUMS-DECAY-mint"
+
+[[repo]]
+url = "https://github.com/Brr0/CRaiNIUMS-WLZ-mint"
+
+[[repo]]
+url = "https://github.com/Brr0/thecrypt1"
+
+[[repo]]
+url = "https://github.com/bruhfrawd/setMeta"
+
+[[repo]]
+url = "https://github.com/brunoscholz/solana-core-nft"
+
+[[repo]]
+url = "https://github.com/brunoscholz/solana-gif-wall"
+
+[[repo]]
+url = "https://github.com/brunovjk/SaudeVapor"
+
+[[repo]]
+url = "https://github.com/bryantanjw/pascal-client-v1"
 
 [[repo]]
 url = "https://github.com/bucket-dao/bucket-program"
@@ -817,10 +1690,25 @@ url = "https://github.com/buildspace/nft-drop-starter-project"
 url = "https://github.com/Bundlr-Network/js-client"
 
 [[repo]]
+url = "https://github.com/Bundlr-Network/js-sdk"
+
+[[repo]]
 url = "https://github.com/bunnyducky/go-invest-sdk"
 
 [[repo]]
+url = "https://github.com/buraktitiz/solana-frontend"
+
+[[repo]]
+url = "https://github.com/busster/monkemaps-web"
+
+[[repo]]
+url = "https://github.com/BysGits/swap-token-solana"
+
+[[repo]]
 url = "https://github.com/c29r3/solana-snapshot-finder"
+
+[[repo]]
+url = "https://github.com/cagatayonder/NFT-minter"
 
 [[repo]]
 url = "https://github.com/Cain310/solanaNftStaking"
@@ -832,7 +1720,16 @@ url = "https://github.com/CalebEverett/arloader"
 url = "https://github.com/CalebEverett/metaplex-cli"
 
 [[repo]]
+url = "https://github.com/CalhacksBestTeam/wallet"
+
+[[repo]]
+url = "https://github.com/Calindra/cartesi-solana"
+
+[[repo]]
 url = "https://github.com/callensm/soloha"
+
+[[repo]]
+url = "https://github.com/camvassallo/ffProject"
 
 [[repo]]
 url = "https://github.com/CanaHealth/period-tracker"
@@ -853,16 +1750,73 @@ url = "https://github.com/cardinal-labs/cardinal-rental-ui"
 url = "https://github.com/cardinal-labs/cardinal-staking"
 
 [[repo]]
+url = "https://github.com/Caruso33/solana"
+
+[[repo]]
 url = "https://github.com/CasperKjaerhus/P7"
 
 [[repo]]
 url = "https://github.com/castle-finance/castle-vault"
 
 [[repo]]
+url = "https://github.com/CatchTheRecord/Mic-The-Art-SFD"
+
+[[repo]]
+url = "https://github.com/CatsBox/Challenge1-solana"
+
+[[repo]]
+url = "https://github.com/caughmanconsulting/royalitics-dapp"
+
+[[repo]]
 url = "https://github.com/cavanmflynn/solsnap"
 
 [[repo]]
+url = "https://github.com/cavemanloverboy/zipper"
+
+[[repo]]
+url = "https://github.com/ccddan/solana-core-ui-buildspace"
+
+[[repo]]
 url = "https://github.com/Cecil-Zhang/AggieShell"
+
+[[repo]]
+url = "https://github.com/celalaksu/core3-dapp3-student-intro-solana"
+
+[[repo]]
+url = "https://github.com/celalaksu/core3-dapp4-nft-stake-solana-program"
+
+[[repo]]
+url = "https://github.com/celalaksu/core4-student-intro-solana"
+
+[[repo]]
+url = "https://github.com/celalaksu/dapp3-spltoken-challenge"
+
+[[repo]]
+url = "https://github.com/celalaksu/dapp7-solana-display-nfts-frontend"
+
+[[repo]]
+url = "https://github.com/celalaksu/dapp8-mint-nft-solana"
+
+[[repo]]
+url = "https://github.com/celalaksu/solana-nft-frontend"
+
+[[repo]]
+url = "https://github.com/celenksercan/ezwallet"
+
+[[repo]]
+url = "https://github.com/cemore2048/mintur"
+
+[[repo]]
+url = "https://github.com/CensoCustody/censo-solana-wallet"
+
+[[repo]]
+url = "https://github.com/centrehq/verite"
+
+[[repo]]
+url = "https://github.com/certinize/certinize-app"
+
+[[repo]]
+url = "https://github.com/certinize/certinize-app-mui"
 
 [[repo]]
 url = "https://github.com/certusone/solana_exporter"
@@ -871,7 +1825,25 @@ url = "https://github.com/certusone/solana_exporter"
 url = "https://github.com/certusone/wormhole"
 
 [[repo]]
+url = "https://github.com/cetra-finance/cetra-core"
+
+[[repo]]
+url = "https://github.com/cetra-finance/cetra-program-test"
+
+[[repo]]
+url = "https://github.com/cetra-finance/sdk"
+
+[[repo]]
+url = "https://github.com/cetra-finance/tulipv2-sdk"
+
+[[repo]]
 url = "https://github.com/chaaaaaaaau/solana-test"
+
+[[repo]]
+url = "https://github.com/chainBack/cm3-ts"
+
+[[repo]]
+url = "https://github.com/chainBack/react-wallet-ts"
 
 [[repo]]
 url = "https://github.com/ChainDev931105/anchor-coin-flip"
@@ -880,28 +1852,64 @@ url = "https://github.com/ChainDev931105/anchor-coin-flip"
 url = "https://github.com/ChainSafe/api3-rust"
 
 [[repo]]
+url = "https://github.com/ChaitanyaGeek/Solana-Balance"
+
+[[repo]]
 url = "https://github.com/charles-e/bh-safecoin-prog-lib"
 
 [[repo]]
 url = "https://github.com/charles-e/visible-safecoin"
 
 [[repo]]
+url = "https://github.com/cherri-labs/astrobank"
+
+[[repo]]
+url = "https://github.com/cherri-labs/astronauts-space-rocket"
+
+[[repo]]
 url = "https://github.com/cherub-protocol/cherub-protocol"
+
+[[repo]]
+url = "https://github.com/chetheaker/findle"
 
 [[repo]]
 url = "https://github.com/chetheaker/trinity"
 
 [[repo]]
+url = "https://github.com/chiesa/overland_website"
+
+[[repo]]
 url = "https://github.com/chillchatme/solana-sc"
+
+[[repo]]
+url = "https://github.com/ChoiceCoin/Compliance"
 
 [[repo]]
 url = "https://github.com/ChorusOne/solido"
 
 [[repo]]
+url = "https://github.com/chr1s-t0pher/Walkenscraper"
+
+[[repo]]
+url = "https://github.com/ChrisMetaCrypto/minter"
+
+[[repo]]
 url = "https://github.com/chugach-foundation/cypher-cpi"
 
 [[repo]]
+url = "https://github.com/ChunWang1998/solMeet"
+
+[[repo]]
 url = "https://github.com/cideM/solana-nix"
+
+[[repo]]
+url = "https://github.com/cierbochain/solana-mint"
+
+[[repo]]
+url = "https://github.com/cihancanayyildiz/nft-minter-front-end"
+
+[[repo]]
+url = "https://github.com/cinojosa0705/hxro"
 
 [[repo]]
 url = "https://github.com/civicteam/identity-swap"
@@ -910,16 +1918,82 @@ url = "https://github.com/civicteam/identity-swap"
 url = "https://github.com/CJunbot/Solove"
 
 [[repo]]
+url = "https://github.com/clarkezone/solana-core"
+
+[[repo]]
 url = "https://github.com/CLBExchange/token-list-builder"
 
 [[repo]]
+url = "https://github.com/ClebersonT/solana-buildspace"
+
+[[repo]]
+url = "https://github.com/cleon30/Lisbon-Bounties"
+
+[[repo]]
+url = "https://github.com/CleverProgrammers/instagram-solana-youtube"
+
+[[repo]]
+url = "https://github.com/clflhq/coinfra-program-library"
+
+[[repo]]
+url = "https://github.com/Clish254/buildor"
+
+[[repo]]
+url = "https://github.com/Clish254/solana-pay-store"
+
+[[repo]]
+url = "https://github.com/Clish254/volatility"
+
+[[repo]]
+url = "https://github.com/clockwork-xyz/clockwork"
+
+[[repo]]
+url = "https://github.com/cmgoes/unimoon-smartcontracts"
+
+[[repo]]
+url = "https://github.com/CoachChuckFF/Corvus-Drive"
+
+[[repo]]
+url = "https://github.com/CoachChuckFF/RPS-Respawn"
+
+[[repo]]
+url = "https://github.com/CoachChuckFF/YAL-xNFT"
+
+[[repo]]
 url = "https://github.com/cock45/naraa-marketplace"
+
+[[repo]]
+url = "https://github.com/CodeableSystems/buzz-anchor-contract"
+
+[[repo]]
+url = "https://github.com/CodeableSystems/muffin-social-frontend"
+
+[[repo]]
+url = "https://github.com/CodeableSystems/vrf-starter"
+
+[[repo]]
+url = "https://github.com/CodeDaddy69/solana_escrow"
+
+[[repo]]
+url = "https://github.com/codemobii/soldot"
 
 [[repo]]
 url = "https://github.com/coderasha/Solana-Smart-Contract1"
 
 [[repo]]
 url = "https://github.com/codestates/BTC2nd-08"
+
+[[repo]]
+url = "https://github.com/CodingIsaac/Solana-Airdrop-Disburser"
+
+[[repo]]
+url = "https://github.com/CodingPythonMan/NFTMint"
+
+[[repo]]
+url = "https://github.com/Cogent-Crypto/identity-account-rewards-distribution"
+
+[[repo]]
+url = "https://github.com/Cogent-Crypto/staking-xnft"
 
 [[repo]]
 url = "https://github.com/coherence-finance/anchor"
@@ -934,7 +2008,19 @@ url = "https://github.com/coherence-finance/next-auth"
 url = "https://github.com/coherence-finance/serum-dex"
 
 [[repo]]
+url = "https://github.com/coin98/coin98-dollar-mint-burn-sol"
+
+[[repo]]
 url = "https://github.com/coin98/coin98-vault"
+
+[[repo]]
+url = "https://github.com/coin98/coin98-vault-evm"
+
+[[repo]]
+url = "https://github.com/coin98/coin98-vault-sol"
+
+[[repo]]
+url = "https://github.com/coin98/saros-swap"
 
 [[repo]]
 url = "https://github.com/CoinCracy/Sikka"
@@ -943,19 +2029,43 @@ url = "https://github.com/CoinCracy/Sikka"
 url = "https://github.com/coinwarsolana/coinwar"
 
 [[repo]]
+url = "https://github.com/Collectorsh/Collector"
+
+[[repo]]
+url = "https://github.com/conlotor/solana-rust-development"
+
+[[repo]]
 url = "https://github.com/Convex-Labs/honestnft-shenanigans"
+
+[[repo]]
+url = "https://github.com/cooperativamental/mate"
 
 [[repo]]
 url = "https://github.com/cooperativamental/MATE-app"
 
 [[repo]]
+url = "https://github.com/coozebra/solana-bpf-program-template"
+
+[[repo]]
 url = "https://github.com/coreyman11/niftypay"
+
+[[repo]]
+url = "https://github.com/Corfish123/SolanaWallet"
+
+[[repo]]
+url = "https://github.com/Corfish123/SolanaWallet2"
 
 [[repo]]
 url = "https://github.com/cottonsmithco/dotwav"
 
 [[repo]]
+url = "https://github.com/coyotespike/solana-nft-buildoor"
+
+[[repo]]
 url = "https://github.com/coyotespike/solana-starter-apps"
+
+[[repo]]
+url = "https://github.com/Crazy-Solana-Labs/me-get-listed-nfts-by-owner"
 
 [[repo]]
 url = "https://github.com/create-anchor-app/anchor-escrow"
@@ -991,16 +2101,58 @@ url = "https://github.com/CremaFinance/crema-swap-front"
 url = "https://github.com/CriesofCarrots/ts-test"
 
 [[repo]]
+url = "https://github.com/CrossStack-Q/Solana_Wallets_C1"
+
+[[repo]]
+url = "https://github.com/crypner/react-solana-dapp"
+
+[[repo]]
+url = "https://github.com/crypt0miester/cmv3-mint-ui"
+
+[[repo]]
+url = "https://github.com/crypt0s0nic/buildspace-buildoors"
+
+[[repo]]
+url = "https://github.com/crypticmeta/tagFlip-smart-contract"
+
+[[repo]]
 url = "https://github.com/CryptoKG94/Puffu-staking-contract"
+
+[[repo]]
+url = "https://github.com/cryptoloutre/otteeer"
+
+[[repo]]
+url = "https://github.com/cryptoloutre/solana-tools"
+
+[[repo]]
+url = "https://github.com/crytic/solana-lints"
 
 [[repo]]
 url = "https://github.com/Crytoproof/Solana-save-image-to-on-chain"
 
 [[repo]]
+url = "https://github.com/csornyei/dungeon_crawler_nft_minter"
+
+[[repo]]
 url = "https://github.com/ctapang/solana"
 
 [[repo]]
+url = "https://github.com/ctk12/Module2-CandyMachine"
+
+[[repo]]
+url = "https://github.com/curest0x1021/FunnySolanaPay"
+
+[[repo]]
+url = "https://github.com/curest0x1021/mint-fungible-spl-token"
+
+[[repo]]
+url = "https://github.com/curest0x1021/SolanaTwitter"
+
+[[repo]]
 url = "https://github.com/CurryUncurry/Tychi"
+
+[[repo]]
+url = "https://github.com/curtislbyrd/PNSC_Site"
 
 [[repo]]
 url = "https://github.com/cva333/sovananft2"
@@ -1012,7 +2164,16 @@ url = "https://github.com/Cyber-Wave-NFT/cyber-wave-anchor"
 url = "https://github.com/cykura/liquidity-mining"
 
 [[repo]]
+url = "https://github.com/cykura/sdk"
+
+[[repo]]
+url = "https://github.com/Cynova-Group/builderz-solana-dapp-scaffold"
+
+[[repo]]
 url = "https://github.com/cyphersnake/solana-events-parser"
+
+[[repo]]
+url = "https://github.com/Cyzerx/Solana"
 
 [[repo]]
 url = "https://github.com/cz-it/learn-solana"
@@ -1033,10 +2194,121 @@ url = "https://github.com/d3fkon/solace-wallet"
 url = "https://github.com/D3v0-wsc/waffleclub"
 
 [[repo]]
+url = "https://github.com/dabass51/metacrafters-solana-challenge"
+
+[[repo]]
+url = "https://github.com/daiwanwei/solana-wallet-demo"
+
+[[repo]]
+url = "https://github.com/danicuki/nft-minter"
+
+[[repo]]
+url = "https://github.com/danicuki/solana-intro-client"
+
+[[repo]]
+url = "https://github.com/daniel-888/Furrsol_simpleStaking_contract"
+
+[[repo]]
+url = "https://github.com/daniel-888/Limitless_sales_bot"
+
+[[repo]]
+url = "https://github.com/daniel-888/Megawob_backend"
+
+[[repo]]
+url = "https://github.com/daniel-888/Megawob_contract"
+
+[[repo]]
+url = "https://github.com/danielchaveroc/candymachine2"
+
+[[repo]]
+url = "https://github.com/danielchaveroc/webgrape"
+
+[[repo]]
+url = "https://github.com/danielgruesso/solana-prediction-game"
+
+[[repo]]
+url = "https://github.com/danielpavel/boync-anchor-program"
+
+[[repo]]
+url = "https://github.com/Danieltrue/simple-solana-airdrop"
+
+[[repo]]
 url = "https://github.com/dankelleher/solarium"
 
 [[repo]]
+url = "https://github.com/dankelleher/sunrise-stake"
+
+[[repo]]
 url = "https://github.com/Danlowe95/Explorio"
+
+[[repo]]
+url = "https://github.com/Dante281/nft.sol"
+
+[[repo]]
+url = "https://github.com/Dante281/nft.solv2"
+
+[[repo]]
+url = "https://github.com/Dante281/sol"
+
+[[repo]]
+url = "https://github.com/dao-xyz/identity-wallet-adapter"
+
+[[repo]]
+url = "https://github.com/dao-xyz/peerbit"
+
+[[repo]]
+url = "https://github.com/dao-xyz/protocols"
+
+[[repo]]
+url = "https://github.com/Daoverse123/client"
+
+[[repo]]
+url = "https://github.com/dap-cool/protocol"
+
+[[repo]]
+url = "https://github.com/dap-cool/site"
+
+[[repo]]
+url = "https://github.com/DappStarter/chief-bedisa-8pJb"
+
+[[repo]]
+url = "https://github.com/DappStarter/credible-eyatay-Kztc"
+
+[[repo]]
+url = "https://github.com/DappStarter/educated-shemuma-jfgG"
+
+[[repo]]
+url = "https://github.com/DappStarter/exciting-quelisuth-fpQg"
+
+[[repo]]
+url = "https://github.com/DappStarter/faithful-rubhieyon-bMJd"
+
+[[repo]]
+url = "https://github.com/DappStarter/flowery-bateni-fF9P"
+
+[[repo]]
+url = "https://github.com/DappStarter/jolly-doly-zDfQ"
+
+[[repo]]
+url = "https://github.com/DappStarter/joyous-sosunuck-HjcP"
+
+[[repo]]
+url = "https://github.com/DappStarter/nimble-grisraso-NcGF"
+
+[[repo]]
+url = "https://github.com/DappStarter/wacky-gigresa-DPbW"
+
+[[repo]]
+url = "https://github.com/DappStarter/zany-niteslu-pr9M"
+
+[[repo]]
+url = "https://github.com/datvu1907/amm-rust"
+
+[[repo]]
+url = "https://github.com/davidbrowns/metaplex"
+
+[[repo]]
+url = "https://github.com/daviddodda1/3dGameOfLife"
 
 [[repo]]
 url = "https://github.com/dbricks-xyz/dbricks-app"
@@ -1048,7 +2320,25 @@ url = "https://github.com/dbricks-xyz/dbricks-server"
 url = "https://github.com/dbsgmlrua/solanatutorial"
 
 [[repo]]
+url = "https://github.com/dcaf-labs/drip-sdk"
+
+[[repo]]
+url = "https://github.com/dcaf-labs/solana-go-clients"
+
+[[repo]]
+url = "https://github.com/de-plan/proto-backend"
+
+[[repo]]
+url = "https://github.com/de-plan/proto-PDL"
+
+[[repo]]
 url = "https://github.com/DeadmanLabs/Chess.sol"
+
+[[repo]]
+url = "https://github.com/debridge-finance/solana-tx-parser-public"
+
+[[repo]]
+url = "https://github.com/deepak19158/Solana"
 
 [[repo]]
 url = "https://github.com/defactojob/partyparrot"
@@ -1060,7 +2350,70 @@ url = "https://github.com/defactojob/solana-faucet"
 url = "https://github.com/defactojob/solray"
 
 [[repo]]
+url = "https://github.com/defi-protocols/rust-nft-fractionalization"
+
+[[repo]]
+url = "https://github.com/defi-protocols/rust-public-lending"
+
+[[repo]]
+url = "https://github.com/defi-protocols/rust-yield-farm"
+
+[[repo]]
+url = "https://github.com/defi-protocols/solana-lending-oracle"
+
+[[repo]]
+url = "https://github.com/Defi-Time/skjl.me"
+
+[[repo]]
+url = "https://github.com/degenmugenGaetan/nft-minter-front"
+
+[[repo]]
+url = "https://github.com/degenpig/solana-GIM"
+
+[[repo]]
+url = "https://github.com/degenpig/solCro-Bridge"
+
+[[repo]]
+url = "https://github.com/degenpig/stake-sol-multi"
+
+[[repo]]
+url = "https://github.com/degenpig/surgeproto-job"
+
+[[repo]]
+url = "https://github.com/dejavu-money/dejavu-api-serverless"
+
+[[repo]]
+url = "https://github.com/dejavu-money/dejavu-football"
+
+[[repo]]
+url = "https://github.com/dejavu-money/dejavu-v2-on-chain"
+
+[[repo]]
+url = "https://github.com/demandcluster/gatsbyjs-starter-tailwindplay"
+
+[[repo]]
+url = "https://github.com/Denham-jules/airdrop-sol"
+
+[[repo]]
+url = "https://github.com/denimcodes/anchor-lottery"
+
+[[repo]]
+url = "https://github.com/denimcodes/buildor"
+
+[[repo]]
+url = "https://github.com/denimcodes/solana-send-sol-frontend"
+
+[[repo]]
+url = "https://github.com/DenisParamount/destruct"
+
+[[repo]]
+url = "https://github.com/denizTutuncu/SolanaNFTFrontEndNextJS"
+
+[[repo]]
 url = "https://github.com/denvar15/Solana-Summer-Camp-2022"
+
+[[repo]]
+url = "https://github.com/DerLomo/achtung"
 
 [[repo]]
 url = "https://github.com/DescartesNetwork/senswap-contract"
@@ -1075,10 +2428,40 @@ url = "https://github.com/DescartesNetwork/soprox-abi"
 url = "https://github.com/developerfred/AS-bridge"
 
 [[repo]]
+url = "https://github.com/developerhimel/ideezaApi"
+
+[[repo]]
 url = "https://github.com/devNgeni/3bob"
 
 [[repo]]
+url = "https://github.com/devofficer/solax-landing"
+
+[[repo]]
+url = "https://github.com/DevonMartens/Solana-NFT"
+
+[[repo]]
+url = "https://github.com/DevonMartens/Solana-Staking-JS"
+
+[[repo]]
+url = "https://github.com/devsob003/Devsprint_Psudocoders"
+
+[[repo]]
+url = "https://github.com/dFohlen/GeoNFT"
+
+[[repo]]
 url = "https://github.com/dfuse-io/solana-dapp"
+
+[[repo]]
+url = "https://github.com/DgDamis/Solana-development"
+
+[[repo]]
+url = "https://github.com/Dhananjaymahajan2001/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/dhanwannitish/spotify-clone-blockchain-main"
+
+[[repo]]
+url = "https://github.com/dhire-platform/dhire-app"
 
 [[repo]]
 url = "https://github.com/dhyon/prototype"
@@ -1087,13 +2470,70 @@ url = "https://github.com/dhyon/prototype"
 url = "https://github.com/digxv/solana-splits"
 
 [[repo]]
+url = "https://github.com/dinodev0101/bonfida-bot"
+
+[[repo]]
+url = "https://github.com/dipanshuhappy/slog"
+
+[[repo]]
+url = "https://github.com/dipenkalsi/pandora"
+
+[[repo]]
+url = "https://github.com/dippies-club/dippies-club.github.io"
+
+[[repo]]
+url = "https://github.com/dippies-club/dippies-index-protocol"
+
+[[repo]]
+url = "https://github.com/dippies-club/entangler"
+
+[[repo]]
 url = "https://github.com/Disco-Foundation/event-manager-platform"
+
+[[repo]]
+url = "https://github.com/Disha-Baghel/airdrop"
 
 [[repo]]
 url = "https://github.com/DistributedTown/distributed-town-backend"
 
 [[repo]]
+url = "https://github.com/dj8yfo/agsol-borsh-schema"
+
+[[repo]]
+url = "https://github.com/dj8yfo/borshy_ts_bch"
+
+[[repo]]
+url = "https://github.com/dkachhot21/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/dmarcr1997/invention-idea-portal"
+
+[[repo]]
+url = "https://github.com/dmarcr1997/solana-todoDapp"
+
+[[repo]]
+url = "https://github.com/Dmc0125/delta-neutral-framing"
+
+[[repo]]
+url = "https://github.com/dmcong/anchor-program"
+
+[[repo]]
+url = "https://github.com/DmytroTrembach/Solana"
+
+[[repo]]
 url = "https://github.com/DoNFT/DoNFT-MVP-Solana"
+
+[[repo]]
+url = "https://github.com/doommankaz/sol1"
+
+[[repo]]
+url = "https://github.com/Dornmarv/solana-intro-frontend"
+
+[[repo]]
+url = "https://github.com/Dornmarv/solana-ping-frontend"
+
+[[repo]]
+url = "https://github.com/DougBeckford/solanaRobots"
 
 [[repo]]
 url = "https://github.com/dr497/awesome-serum-markets"
@@ -1102,10 +2542,25 @@ url = "https://github.com/dr497/awesome-serum-markets"
 url = "https://github.com/dr497/serum-nft-gui"
 
 [[repo]]
+url = "https://github.com/dradex-io/sdk"
+
+[[repo]]
+url = "https://github.com/dragochar/stuff"
+
+[[repo]]
+url = "https://github.com/DragonProtocol/enchanft"
+
+[[repo]]
 url = "https://github.com/DragonProtocol/synft"
 
 [[repo]]
 url = "https://github.com/draskovic26z/vesting"
+
+[[repo]]
+url = "https://github.com/DrDeranged/NFT-Marketplace-Built-on-Solana-Blockchain"
+
+[[repo]]
+url = "https://github.com/DrDeranged/Stake_Delegate_Withdraw_SOL"
 
 [[repo]]
 url = "https://github.com/drift-labs/driftpy"
@@ -1114,22 +2569,142 @@ url = "https://github.com/drift-labs/driftpy"
 url = "https://github.com/drift-labs/protocol-v2"
 
 [[repo]]
+url = "https://github.com/drsaint1/NORA"
+
+[[repo]]
 url = "https://github.com/drummerjolev/apeshit"
+
+[[repo]]
+url = "https://github.com/Dsere2020/Challenge1-solana"
+
+[[repo]]
+url = "https://github.com/DungbeetleIO/solana-can-store"
 
 [[repo]]
 url = "https://github.com/dvcrn/solana-react-quickstart"
 
 [[repo]]
+url = "https://github.com/dwisulfahnur/solana-blog"
+
+[[repo]]
+url = "https://github.com/dz016/community-learn-sol-airdrop"
+
+[[repo]]
+url = "https://github.com/earlpacs/Challenge1-solana"
+
+[[repo]]
+url = "https://github.com/ebrightfield/anchor-multisig-demo"
+
+[[repo]]
+url = "https://github.com/echohtp/btools"
+
+[[repo]]
+url = "https://github.com/echohtp/EditionPrinterSeller"
+
+[[repo]]
+url = "https://github.com/ecoflip/Testing"
+
+[[repo]]
+url = "https://github.com/ecoWarriors/stake-pool-ui"
+
+[[repo]]
+url = "https://github.com/edc1970/SolanaChallenge1"
+
+[[repo]]
 url = "https://github.com/edgareler/metaplex-cli"
 
 [[repo]]
+url = "https://github.com/edulanasca/nft-minter"
+
+[[repo]]
+url = "https://github.com/edyi13/solana-buildernft-app"
+
+[[repo]]
+url = "https://github.com/ekcmuhammed08/sol-nft-mint-buildoors"
+
+[[repo]]
+url = "https://github.com/ekinolkan/Create-the-minting-UI"
+
+[[repo]]
+url = "https://github.com/ekinolkan/my-blockchain-projects"
+
+[[repo]]
+url = "https://github.com/ekinolkan/sol-token"
+
+[[repo]]
+url = "https://github.com/Ekoios-Kevin/test"
+
+[[repo]]
+url = "https://github.com/Ellipsis-Labs/devnet-token-faucet"
+
+[[repo]]
+url = "https://github.com/Ellipsis-Labs/ellipsis-client"
+
+[[repo]]
+url = "https://github.com/Ellipsis-Labs/phoenix-sdk"
+
+[[repo]]
+url = "https://github.com/Elod-T/_SolChess"
+
+[[repo]]
+url = "https://github.com/eluv-io/elv-dapp-sample"
+
+[[repo]]
+url = "https://github.com/Emerald2025/Solana-NFT-Staking"
+
+[[repo]]
+url = "https://github.com/Emerald2025/Solana_NFT_marketplace"
+
+[[repo]]
 url = "https://github.com/emperorgurgeh/desolates-map"
+
+[[repo]]
+url = "https://github.com/Emvil-git/challenge2-solana"
+
+[[repo]]
+url = "https://github.com/Emvil-git/challenge3-solana"
+
+[[repo]]
+url = "https://github.com/EpicsDAO/dapp-boilerplate-v2"
+
+[[repo]]
+url = "https://github.com/Epparamnivas/airDrop"
+
+[[repo]]
+url = "https://github.com/EquilateralDelta/anchor-stack-issue"
+
+[[repo]]
+url = "https://github.com/eraydmrcoglu/NFT-Minter"
+
+[[repo]]
+url = "https://github.com/eraydmrcoglu/Solana-Token-Project"
+
+[[repo]]
+url = "https://github.com/erenyusufduran/mint-tokens-on-solana"
+
+[[repo]]
+url = "https://github.com/erenyusufduran/solana-nft-mint-frontend"
+
+[[repo]]
+url = "https://github.com/erinyesinfo/blockchain-challenge-server"
 
 [[repo]]
 url = "https://github.com/ErJavid/solhackathondapp"
 
 [[repo]]
 url = "https://github.com/eslainexp/temp"
+
+[[repo]]
+url = "https://github.com/EthanLam17/hello_moon"
+
+[[repo]]
+url = "https://github.com/Evergreen901/Sol_Aggregator"
+
+[[repo]]
+url = "https://github.com/Evergreen901/solana_aggregator"
+
+[[repo]]
+url = "https://github.com/everlastingsong/solsandbox"
 
 [[repo]]
 url = "https://github.com/everstake/tagger"
@@ -1144,16 +2719,415 @@ url = "https://github.com/ExidioCo/modules"
 url = "https://github.com/ExodusMovement/solana-spl-token"
 
 [[repo]]
+url = "https://github.com/expressodaily/Solana-Candymachine-Metaplex"
+
+[[repo]]
 url = "https://github.com/ExtendXYZ/extend-official"
 
 [[repo]]
 url = "https://github.com/ExtropyIO/solana-course"
 
 [[repo]]
+url = "https://github.com/ExtropyIO/SolanaBootcampOctober"
+
+[[repo]]
+url = "https://github.com/Exxempt/basc-cm-ui"
+
+[[repo]]
 url = "https://github.com/eywa-protocol/solana-integration"
 
 [[repo]]
+url = "https://github.com/eyyubmermer/Solana-Practicum-Assignment-1"
+
+[[repo]]
+url = "https://github.com/f-sky/solana-cmv2-mint-presale-10k-ui"
+
+[[repo]]
+url = "https://github.com/f80dev/NFluentMainSite"
+
+[[repo]]
+url = "https://github.com/fa8ster/aos-tools"
+
+[[repo]]
+url = "https://github.com/fa8ster/snapshot-ninja"
+
+[[repo]]
+url = "https://github.com/Fabbeauty/fab"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/app-safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bip39"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitauth"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcoind-rpc"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcoinforkjs-lib"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcoinforksjs-lib"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcoinjs-lib"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcoinjs-lib-pos"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-build-safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-lib-anon-mini"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-lib-btcz-mini"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-lib-ltc-mini"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-lib-rvn-mini"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-lib-safe-mini"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-lib-safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-lib-zcl-mini"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-lib-zel-mini"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-message-safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-mnemonic-safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-node-safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-wallet-client-safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-wallet-service-old"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitcore-wallet-service-safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitgo-utxo-lib"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/bitgo-utxo-lib-safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/buffer-layout"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/buffer-layout-utils"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/coding-standards"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/Commercium"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/config-generator"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/copay-safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/cryptocurrency-icons"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/currency-flags"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/documentation"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/ecosystem"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/electrumx"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/example-helloworld"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/explorer"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/gateway"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/insight-api"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/insight-api-docker"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/insight-api-safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/insight-ui-safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/ledamint"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/ledamint-program-library"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/libsodium"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/MySafeCoinWallet"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/ngind"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/nihao-example"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/oyster-swap"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/peatio-1"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/pywallet"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/rails"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/rates-api"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/Ravencoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/rust-speedb"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/s-nomp"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safe-wallet-adapter"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safeaddress"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safebot"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecash"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safechat"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safechat-server"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/Safecoin"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoin-bitcore-old"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoin-block-explorer"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoin-copay-wallet"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoin-docker"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoin-mobile"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoin-omni-explorer"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/SafeCoin-Paperwallet-Generator"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoin-perf-libs"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoin-program-library"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoin-seeder"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoin-web3.js"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoin-webinterface"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoin_tools"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoinbot_old"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/SafecoinClassic"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/SafeCoinEasyMiner"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoinjs"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/SafeCoinWebWallet"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safecoinwiki"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safejs"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safenode-docker"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/Safenode-Install"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safenodes.org"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safepay.safecoin.org"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safepaypubkeys"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safeprice"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/SafePrice-applet"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safestake"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/SafeTradeBot"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safewallet"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/safewallet_old"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/SafeWalletnew"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/sc-simple-starter"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/serum-vial"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/silentarmy"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/solana-deployer"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/SolarweaveBridge"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/spl-token-wallet"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/stable-swap"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/SuperNET"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/token-list"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/token-list-solana"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/tower"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/UraniumX"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/vault-rails"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/wallet-adapter"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/website"
+
+[[repo]]
+url = "https://github.com/Fair-Exchange/wormhole"
+
+[[repo]]
 url = "https://github.com/faktorfi/faktor"
+
+[[repo]]
+url = "https://github.com/falcon-721/solana-nft-candyMachinV2"
+
+[[repo]]
+url = "https://github.com/Farazuddin178/airdrop1"
+
+[[repo]]
+url = "https://github.com/FARHAN0075/air-drop"
+
+[[repo]]
+url = "https://github.com/farhanhunzai/solana-airdrop"
+
+[[repo]]
+url = "https://github.com/Fawaaz7/airdrop"
+
+[[repo]]
+url = "https://github.com/felipsoarez/Challenge1-solana"
+
+[[repo]]
+url = "https://github.com/Feliz-Labs/hyperspace-js"
+
+[[repo]]
+url = "https://github.com/fgmuller/NFTVendingU"
+
+[[repo]]
+url = "https://github.com/findtruman-official/ugceditor-server"
+
+[[repo]]
+url = "https://github.com/findtruman-official/ugceditor-web"
+
+[[repo]]
+url = "https://github.com/fingerPrintNfts/candy-machine-mint"
+
+[[repo]]
+url = "https://github.com/firascodes/lowbattery-hackday"
 
 [[repo]]
 url = "https://github.com/firedancer-io/firedancer"
@@ -1168,19 +3142,52 @@ url = "https://github.com/firedancer-io/radiance"
 url = "https://github.com/firedancer-io/SIMDs"
 
 [[repo]]
+url = "https://github.com/firedancer-io/solana"
+
+[[repo]]
 url = "https://github.com/firedancer-io/specs"
 
 [[repo]]
 url = "https://github.com/firedancer-io/specs-old"
 
 [[repo]]
+url = "https://github.com/firefly-sol/login-wtih-solana"
+
+[[repo]]
 url = "https://github.com/flappy-07/pigeonsol"
+
+[[repo]]
+url = "https://github.com/Flawm/solana_raffler"
+
+[[repo]]
+url = "https://github.com/flipthetip/fm"
+
+[[repo]]
+url = "https://github.com/flipthetip/tscutils"
 
 [[repo]]
 url = "https://github.com/flokibaby/token-list"
 
 [[repo]]
+url = "https://github.com/flooijdt/airdrop-project"
+
+[[repo]]
 url = "https://github.com/Flow-Biboux/PSCHARM-Front"
+
+[[repo]]
+url = "https://github.com/fluturecode/candy_machine_UI"
+
+[[repo]]
+url = "https://github.com/fluturecode/my-solana-app-client"
+
+[[repo]]
+url = "https://github.com/fluturecode/solana-core-interactive-script"
+
+[[repo]]
+url = "https://github.com/fluturecode/solana-core-ping"
+
+[[repo]]
+url = "https://github.com/fluturecode/solana-wallet-app"
 
 [[repo]]
 url = "https://github.com/foonetic/solarium"
@@ -1189,16 +3196,73 @@ url = "https://github.com/foonetic/solarium"
 url = "https://github.com/forgetscode/gamble_match_escrow"
 
 [[repo]]
+url = "https://github.com/forgetscode/sosmo"
+
+[[repo]]
+url = "https://github.com/fractalwagmi/react-sdk"
+
+[[repo]]
+url = "https://github.com/Francium-DeFi/francium-pubkeys"
+
+[[repo]]
+url = "https://github.com/FraNoceti/solanasign"
+
+[[repo]]
+url = "https://github.com/freaks211/SolModule2Challenge3"
+
+[[repo]]
+url = "https://github.com/freeCodeCamp/solana-curriculum"
+
+[[repo]]
+url = "https://github.com/Frees4/LinkNFT"
+
+[[repo]]
+url = "https://github.com/furkanunutmaz/createNFTwithsolana"
+
+[[repo]]
+url = "https://github.com/furkanunutmaz/solana-nft"
+
+[[repo]]
+url = "https://github.com/furkanunutmaz/SolanaTokenCreate"
+
+[[repo]]
 url = "https://github.com/fuzzc0re/deliberatively"
 
 [[repo]]
+url = "https://github.com/fuzzyyeti/grape-state-example"
+
+[[repo]]
 url = "https://github.com/fxethos/kana99_web"
+
+[[repo]]
+url = "https://github.com/gabrielkoerich/defi-automator"
+
+[[repo]]
+url = "https://github.com/GabrielWeinbrenner/sft"
+
+[[repo]]
+url = "https://github.com/gabspeck/metaplex-auction-house-demo"
+
+[[repo]]
+url = "https://github.com/Gabulhas/solan_program"
+
+[[repo]]
+url = "https://github.com/gaccheshubham/marketplacefe"
 
 [[repo]]
 url = "https://github.com/gagliardetto/anchor-go"
 
 [[repo]]
 url = "https://github.com/gagliardetto/solana-go"
+
+[[repo]]
+url = "https://github.com/gakshita/Astro-Gallery"
+
+[[repo]]
+url = "https://github.com/gamedevCloudy/solana-airdrop"
+
+[[repo]]
+url = "https://github.com/gamerplexOG/deficompare"
 
 [[repo]]
 url = "https://github.com/gameyoo/spl-token-timelock"
@@ -1210,10 +3274,37 @@ url = "https://github.com/gameyoo/token-faucet"
 url = "https://github.com/gamifyclubcom/lp-api-pools"
 
 [[repo]]
+url = "https://github.com/ganesh1729ganesh/airdrop"
+
+[[repo]]
+url = "https://github.com/garbles-labs/magicblock"
+
+[[repo]]
+url = "https://github.com/garbles-labs/Solana.Unity-SDK"
+
+[[repo]]
+url = "https://github.com/gari-network/gari-sdk"
+
+[[repo]]
+url = "https://github.com/gautamprikshit1/buildspace-buildoors"
+
+[[repo]]
+url = "https://github.com/gaylonalfano/solana-anchor-sveltekit-multiple-programs"
+
+[[repo]]
 url = "https://github.com/gemacoin/gemachain-program-library"
 
 [[repo]]
 url = "https://github.com/gemworks/gem-farm"
+
+[[repo]]
+url = "https://github.com/gemworks/gem-farm-refresh"
+
+[[repo]]
+url = "https://github.com/gemworks/gem-farm-ui"
+
+[[repo]]
+url = "https://github.com/gemworks/transmuter-ui"
 
 [[repo]]
 url = "https://github.com/generatus/master_program"
@@ -1222,25 +3313,112 @@ url = "https://github.com/generatus/master_program"
 url = "https://github.com/generatus/monorepo"
 
 [[repo]]
+url = "https://github.com/Genesis671230/AvaxBattle"
+
+[[repo]]
+url = "https://github.com/GenesysGo/shadow-drive"
+
+[[repo]]
+url = "https://github.com/GenesysGo/shadow-drive-cli"
+
+[[repo]]
+url = "https://github.com/GeoTk/tiktok-sol"
+
+[[repo]]
+url = "https://github.com/ggwplabs/frontend"
+
+[[repo]]
+url = "https://github.com/ggwplabs/solana-sc"
+
+[[repo]]
+url = "https://github.com/gharibuna/solana-tiktok"
+
+[[repo]]
+url = "https://github.com/Ghazzog/nft-buildspace"
+
+[[repo]]
+url = "https://github.com/GHesericsu/solana-gifs-app"
+
+[[repo]]
+url = "https://github.com/Gilder-Labs/backend-services"
+
+[[repo]]
+url = "https://github.com/Gilder-Labs/gilder-app"
+
+[[repo]]
+url = "https://github.com/gillest/solana-core-1-9-buildoor-assignment"
+
+[[repo]]
+url = "https://github.com/gillest/solana-core-2-18-create-minting-ui"
+
+[[repo]]
+url = "https://github.com/git-pi-e/airdrop"
+
+[[repo]]
 url = "https://github.com/GitBolt/nodeair"
 
 [[repo]]
 url = "https://github.com/GitBolt/solathon"
 
 [[repo]]
+url = "https://github.com/Gitesh-batra/solana_hackathon"
+
+[[repo]]
+url = "https://github.com/glacial-engineering/easy-mint"
+
+[[repo]]
+url = "https://github.com/glow-xyz/glow-js"
+
+[[repo]]
 url = "https://github.com/glow-xyz/nftoken"
+
+[[repo]]
+url = "https://github.com/gnikita432/solpay-template"
 
 [[repo]]
 url = "https://github.com/gnoose/deltafi-contracts"
 
 [[repo]]
+url = "https://github.com/godmodegalactus/configure_mango"
+
+[[repo]]
+url = "https://github.com/godmodegalactus/mango_bencher"
+
+[[repo]]
+url = "https://github.com/goldendriver/mushy"
+
+[[repo]]
+url = "https://github.com/GonzalezGabriel-dev/calf-track"
+
+[[repo]]
+url = "https://github.com/GonzalezGabriel-dev/calf-track2"
+
+[[repo]]
 url = "https://github.com/googlebest/Solana_send_message_to_wallet_via_instruction_data"
+
+[[repo]]
+url = "https://github.com/goojohnlaptop/sendsol"
 
 [[repo]]
 url = "https://github.com/GooseFX1/gfx-web-app"
 
 [[repo]]
+url = "https://github.com/Gopividha/Gari_token"
+
+[[repo]]
+url = "https://github.com/gopulse-labs/gopulse"
+
+[[repo]]
+url = "https://github.com/gordonjun2/StarAtlas-GM-Price-Bot"
+
+[[repo]]
 url = "https://github.com/GoRiant-Finance/goriant-rs"
+
+[[repo]]
+url = "https://github.com/GotokHQ/card"
+
+[[repo]]
+url = "https://github.com/GottliebGlob/amai-aki"
 
 [[repo]]
 url = "https://github.com/gpathela/Charm_Meta"
@@ -1249,7 +3427,43 @@ url = "https://github.com/gpathela/Charm_Meta"
 url = "https://github.com/gpathela/hpexchange"
 
 [[repo]]
+url = "https://github.com/gr8den/solana-tic-tac-toe"
+
+[[repo]]
+url = "https://github.com/gr8h/solana-buildoor"
+
+[[repo]]
 url = "https://github.com/grahamplata/grim"
+
+[[repo]]
+url = "https://github.com/grajnikanth/solana_chainlink_SOL_feed"
+
+[[repo]]
+url = "https://github.com/grajnikanth/solana_crowdfunding_dapp"
+
+[[repo]]
+url = "https://github.com/grajnikanth/solana_gifportal"
+
+[[repo]]
+url = "https://github.com/grajnikanth/solana_hello_world"
+
+[[repo]]
+url = "https://github.com/grajnikanth/solana_helloworld_updated"
+
+[[repo]]
+url = "https://github.com/grajnikanth/solana_progs_data_sent_buffer_"
+
+[[repo]]
+url = "https://github.com/grajnikanth/solana_sample_client_code"
+
+[[repo]]
+url = "https://github.com/grajnikanth/solana_serlz_string_ex"
+
+[[repo]]
+url = "https://github.com/grajnikanth/solana_staking_js"
+
+[[repo]]
+url = "https://github.com/grajnikanth/solana_USDC_interaction_client"
 
 [[repo]]
 url = "https://github.com/Grape-Labs/grape-art"
@@ -1261,6 +3475,12 @@ url = "https://github.com/Grape-Labs/grape-dashboard"
 url = "https://github.com/Grape-Labs/grape-eve"
 
 [[repo]]
+url = "https://github.com/Grape-Labs/grape-verification-dashboard"
+
+[[repo]]
+url = "https://github.com/Graviton-One/gravity-core"
+
+[[repo]]
 url = "https://github.com/Gravity-Tech/gravity-core"
 
 [[repo]]
@@ -1270,10 +3490,67 @@ url = "https://github.com/Gravity-Tech/gravity-explorer-ui"
 url = "https://github.com/Gravity-Tech/solana-adapter"
 
 [[repo]]
+url = "https://github.com/greatasher7/wallet-demo"
+
+[[repo]]
+url = "https://github.com/grex-git/solana-nft-marketplace"
+
+[[repo]]
+url = "https://github.com/GridPlus/lattice-manager"
+
+[[repo]]
+url = "https://github.com/grijalvaromero/solana"
+
+[[repo]]
+url = "https://github.com/growing-scott/spl-token"
+
+[[repo]]
 url = "https://github.com/GTON-capital/OGSwap-Frontend"
 
 [[repo]]
+url = "https://github.com/GTON-capital/solana-adapter"
+
+[[repo]]
+url = "https://github.com/GTON-capital/susy-v2"
+
+[[repo]]
+url = "https://github.com/GTON-capital/susy-web"
+
+[[repo]]
+url = "https://github.com/GuidoDipietro/solana-rubiks-cube"
+
+[[repo]]
+url = "https://github.com/GuidoDipietro/solana-switchboard-vrf-pool"
+
+[[repo]]
+url = "https://github.com/guilleBFG/solana-core-nft"
+
+[[repo]]
+url = "https://github.com/gungorcaglar/Solana_Coin_Exercise"
+
+[[repo]]
+url = "https://github.com/gungorcaglar/Solana_Display_Nfts_Frontend_Exercise"
+
+[[repo]]
+url = "https://github.com/gungorcaglar/Solana_Minting_UI"
+
+[[repo]]
+url = "https://github.com/gungorcaglar/Solana_Nft_Collection_Exercise"
+
+[[repo]]
+url = "https://github.com/gungorcaglar/Solana_NFT_Exercise"
+
+[[repo]]
+url = "https://github.com/gupnik/khoj-contracts"
+
+[[repo]]
+url = "https://github.com/h4rkl/metaplex-auctioneer-cli"
+
+[[repo]]
 url = "https://github.com/ha280/Project-Noise-Posrtal"
+
+[[repo]]
+url = "https://github.com/hadeswap-solana/hadeswap-sdk-public"
 
 [[repo]]
 url = "https://github.com/haggle-quest/solana_game"
@@ -1282,7 +3559,64 @@ url = "https://github.com/haggle-quest/solana_game"
 url = "https://github.com/haggle-quest/voting-drone-server"
 
 [[repo]]
+url = "https://github.com/Halfgork/nft-minter"
+
+[[repo]]
+url = "https://github.com/hamletSolanoD/blockchain"
+
+[[repo]]
+url = "https://github.com/hamzabell/buildoor-solana"
+
+[[repo]]
+url = "https://github.com/Hanan-7101/digitalweb"
+
+[[repo]]
+url = "https://github.com/haomaaax/solana-intro-client"
+
+[[repo]]
+url = "https://github.com/haomaaax/solana-mint-token"
+
+[[repo]]
+url = "https://github.com/haomaaax/solana-nft-client"
+
+[[repo]]
+url = "https://github.com/haomaaax/solana-nft-minter"
+
+[[repo]]
+url = "https://github.com/haomaaax/solana-ping-frontend"
+
+[[repo]]
+url = "https://github.com/haomaaax/solana-send-sol-frontend"
+
+[[repo]]
+url = "https://github.com/haomaaax/solana-token-client"
+
+[[repo]]
+url = "https://github.com/happydreamman/solminer"
+
+[[repo]]
+url = "https://github.com/hardiktheprogrammer/ChatAppdemo"
+
+[[repo]]
+url = "https://github.com/hari-2004-cr7/airdrop"
+
+[[repo]]
+url = "https://github.com/harsh4786/token_swap"
+
+[[repo]]
+url = "https://github.com/harsh4786/xNFT-entangler"
+
+[[repo]]
 url = "https://github.com/HarshChaudhari/balance-fetcher-service"
+
+[[repo]]
+url = "https://github.com/HARSHRAJ7899/sol_airdrop"
+
+[[repo]]
+url = "https://github.com/haryl13/Airdrop"
+
+[[repo]]
+url = "https://github.com/HaseebH-Khan/sol-airdrop"
 
 [[repo]]
 url = "https://github.com/hashblock/fastcrypto"
@@ -1330,10 +3664,34 @@ url = "https://github.com/hashblock/sui-client"
 url = "https://github.com/hashblock/sui-track"
 
 [[repo]]
+url = "https://github.com/haudnn/dapp-solana"
+
+[[repo]]
+url = "https://github.com/hayes-roach/solana-escrow-program"
+
+[[repo]]
+url = "https://github.com/Haykay2020/Challenge1-solana"
+
+[[repo]]
 url = "https://github.com/healer1064/Cropper_finance"
 
 [[repo]]
+url = "https://github.com/Heimdall-Industries/Heidrun"
+
+[[repo]]
+url = "https://github.com/helium/helium-program-library"
+
+[[repo]]
+url = "https://github.com/helius-labs/royalties-example"
+
+[[repo]]
 url = "https://github.com/hellomalaysia/example-webwallet"
+
+[[repo]]
+url = "https://github.com/HellSOLdev/PawStore"
+
+[[repo]]
+url = "https://github.com/Hemp-City/potluck"
 
 [[repo]]
 url = "https://github.com/Henry-E/auction-house"
@@ -1342,7 +3700,34 @@ url = "https://github.com/Henry-E/auction-house"
 url = "https://github.com/heyAyushh/hyperound"
 
 [[repo]]
+url = "https://github.com/heyztb/oceanview"
+
+[[repo]]
+url = "https://github.com/hhiruko/nft-minter"
+
+[[repo]]
 url = "https://github.com/HighOutputVentures/experiments"
+
+[[repo]]
+url = "https://github.com/hikarataas/candy-machine"
+
+[[repo]]
+url = "https://github.com/hikarataas/NFT-Solana"
+
+[[repo]]
+url = "https://github.com/hikarataas/NFTs-Display"
+
+[[repo]]
+url = "https://github.com/hikarataas/token-project"
+
+[[repo]]
+url = "https://github.com/hjozwiak/assert-keys-equal"
+
+[[repo]]
+url = "https://github.com/HN026/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/hoale58-vl/sol-simple-swap"
 
 [[repo]]
 url = "https://github.com/hoangdaothienmenh/solana-wallet--create"
@@ -1357,10 +3742,49 @@ url = "https://github.com/holaplex/graph-program"
 url = "https://github.com/holaplex/holaplex"
 
 [[repo]]
+url = "https://github.com/holaplex/indexer"
+
+[[repo]]
 url = "https://github.com/holaplex/indexer-geyser-plugin"
 
 [[repo]]
 url = "https://github.com/holaplex/metaplex-indexer"
+
+[[repo]]
+url = "https://github.com/holaplex/wonka"
+
+[[repo]]
+url = "https://github.com/hongphong/solana-programs-anchor"
+
+[[repo]]
+url = "https://github.com/HongThaiPham/sol-started"
+
+[[repo]]
+url = "https://github.com/HongThaiPham/solana-bp-leo-spltoken"
+
+[[repo]]
+url = "https://github.com/HongThaiPham/solana-buildoors"
+
+[[repo]]
+url = "https://github.com/HongThaiPham/solana-nft-minter"
+
+[[repo]]
+url = "https://github.com/HongThaiPham/solana-pool-amm"
+
+[[repo]]
+url = "https://github.com/hopisaurus/nft-drop-starter-project"
+
+[[repo]]
+url = "https://github.com/Hornos3/pwnfile"
+
+[[repo]]
+url = "https://github.com/Hotcooldev/Solana-Coinflip"
+
+[[repo]]
+url = "https://github.com/howellsy/sports-gif-portal"
+
+[[repo]]
+url = "https://github.com/HowRareIs/solproxy"
 
 [[repo]]
 url = "https://github.com/hubbleprotocol/scope"
@@ -1375,7 +3799,64 @@ url = "https://github.com/hui-labs/hui-app"
 url = "https://github.com/huisso97/SOLNIVERSE"
 
 [[repo]]
+url = "https://github.com/humangillerden/react-solana-connect-wallets"
+
+[[repo]]
+url = "https://github.com/hunterchristian/Challenge-1---Solana"
+
+[[repo]]
+url = "https://github.com/huutam1991/solana_token_swap"
+
+[[repo]]
+url = "https://github.com/huuthang2509/crypto-digging-marketplace"
+
+[[repo]]
+url = "https://github.com/huuthang2509/test-vercel"
+
+[[repo]]
+url = "https://github.com/hwnprsd/solace-demo"
+
+[[repo]]
+url = "https://github.com/HyeKye/-Solana-React-BlogWebsite"
+
+[[repo]]
+url = "https://github.com/hyper63/hyper-website"
+
+[[repo]]
+url = "https://github.com/hyperledger/solang"
+
+[[repo]]
+url = "https://github.com/Hyphenhypen/airdrop"
+
+[[repo]]
+url = "https://github.com/hyplabs/hype-sol"
+
+[[repo]]
 url = "https://github.com/iamankitkathayat/NFT-Marketplace"
+
+[[repo]]
+url = "https://github.com/IamSiddharthChoudhary/Organ-iser"
+
+[[repo]]
+url = "https://github.com/iamvon/solana-codingcamp-ss2-nft-workshop"
+
+[[repo]]
+url = "https://github.com/ibrahimraimi/sega-nfts"
+
+[[repo]]
+url = "https://github.com/ibrohimkhan/frontchain"
+
+[[repo]]
+url = "https://github.com/ICavlek/SolanaFundTransfer"
+
+[[repo]]
+url = "https://github.com/ICavlek/SolanaIntro"
+
+[[repo]]
+url = "https://github.com/ICavlek/SolanaNFT"
+
+[[repo]]
+url = "https://github.com/ICavlek/SolanaPDAs"
 
 [[repo]]
 url = "https://github.com/Iceymann18777/solana-program-library"
@@ -1387,10 +3868,31 @@ url = "https://github.com/Iceymann18777/spl-token-wallet"
 url = "https://github.com/iconifysoft-team/rich-monkey-island"
 
 [[repo]]
+url = "https://github.com/ICREE8/Mintoor"
+
+[[repo]]
+url = "https://github.com/ICREE8/scaf-sol-frontend"
+
+[[repo]]
 url = "https://github.com/idelgado/solana-lottery-program"
 
 [[repo]]
 url = "https://github.com/ihbang/solana-myweb"
+
+[[repo]]
+url = "https://github.com/ihorkryvoshlyk/solana-pay-tutorial"
+
+[[repo]]
+url = "https://github.com/ijs32/nft-minter"
+
+[[repo]]
+url = "https://github.com/ijs32/solana-ts-cli"
+
+[[repo]]
+url = "https://github.com/IlliniBlockchain/agora-court"
+
+[[repo]]
+url = "https://github.com/IlliniBlockchain/agora-marketplace"
 
 [[repo]]
 url = "https://github.com/IlliniBlockchain/buoyant"
@@ -1399,10 +3901,46 @@ url = "https://github.com/IlliniBlockchain/buoyant"
 url = "https://github.com/ilmoi/nftape.me"
 
 [[repo]]
+url = "https://github.com/ilmoi/solana-versioned-tx"
+
+[[repo]]
+url = "https://github.com/ilpr/solmint"
+
+[[repo]]
+url = "https://github.com/im-zshan/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/IMEF-FEMI/asset_rebalancer"
+
+[[repo]]
+url = "https://github.com/IMEF-FEMI/no-loss-lottery"
+
+[[repo]]
+url = "https://github.com/IMEF-FEMI/solana_p2p_nft_lending"
+
+[[repo]]
+url = "https://github.com/imgohar/salona-course"
+
+[[repo]]
+url = "https://github.com/impin2rex/solana-display-nfts"
+
+[[repo]]
+url = "https://github.com/ImPranavAg/dapp-mail-app"
+
+[[repo]]
 url = "https://github.com/inafis/solsantas"
 
 [[repo]]
 url = "https://github.com/InCrypto-io/solana-dice"
+
+[[repo]]
+url = "https://github.com/Inderpreetsingh1064/Rust-Smart-Contracts"
+
+[[repo]]
+url = "https://github.com/indigofficial/sorbet"
+
+[[repo]]
+url = "https://github.com/infraform/permissionless-staking"
 
 [[repo]]
 url = "https://github.com/ingl-DAO/ingl"
@@ -1411,10 +3949,82 @@ url = "https://github.com/ingl-DAO/ingl"
 url = "https://github.com/inituy/solana"
 
 [[repo]]
+url = "https://github.com/interlock-network/interlock-smartcontracts"
+
+[[repo]]
 url = "https://github.com/Investin-pro/investin-sdk"
 
 [[repo]]
 url = "https://github.com/Investin-pro/MANGO-MM-FUNDS"
+
+[[repo]]
+url = "https://github.com/inviBeast/airdrop-Web-3"
+
+[[repo]]
+url = "https://github.com/iovsomnium/wallet-testing"
+
+[[repo]]
+url = "https://github.com/Iqbalfachry19/buildoor"
+
+[[repo]]
+url = "https://github.com/irene-bbox/sc-solana-examples"
+
+[[repo]]
+url = "https://github.com/irene-bbox/sc-solana-helloworld"
+
+[[repo]]
+url = "https://github.com/irffanasiff/solana-core"
+
+[[repo]]
+url = "https://github.com/irffanasiff/solana-india-tour-2"
+
+[[repo]]
+url = "https://github.com/ironaddicteddog/anchor-escrow"
+
+[[repo]]
+url = "https://github.com/ironforge-cloud/soldev-ui"
+
+[[repo]]
+url = "https://github.com/IsaacMorzy/solatikto"
+
+[[repo]]
+url = "https://github.com/isamyakt/creating-solana-wallet"
+
+[[repo]]
+url = "https://github.com/isamyakt/solana-anchor"
+
+[[repo]]
+url = "https://github.com/isamyakt/solana-nft-minter"
+
+[[repo]]
+url = "https://github.com/isamyakt/solana-practice"
+
+[[repo]]
+url = "https://github.com/isamyakt/solana-pune"
+
+[[repo]]
+url = "https://github.com/itachi2003/My-solana_project"
+
+[[repo]]
+url = "https://github.com/ithsirs/airdrop.js"
+
+[[repo]]
+url = "https://github.com/itodevio/solana-voting-system-frontend"
+
+[[repo]]
+url = "https://github.com/itodevio/solana-voting-system-program"
+
+[[repo]]
+url = "https://github.com/its-harsshhh/UDAAN"
+
+[[repo]]
+url = "https://github.com/ItsAditya-xyz/SolAiMint-frontend"
+
+[[repo]]
+url = "https://github.com/ItsAzeni/solana-intro-client"
+
+[[repo]]
+url = "https://github.com/itsmsn/Solana-NFT-Minter-Dapp"
 
 [[repo]]
 url = "https://github.com/Itsystemsproyect/itscash.me"
@@ -1426,10 +4036,49 @@ url = "https://github.com/ivmidable/hihi"
 url = "https://github.com/ivmidable/pow_anchor"
 
 [[repo]]
+url = "https://github.com/IvoBiaus/minter-frontend"
+
+[[repo]]
+url = "https://github.com/ixmorrow/decentralized-invoice-listener"
+
+[[repo]]
+url = "https://github.com/ixmorrow/decentralized-invoices"
+
+[[repo]]
+url = "https://github.com/ixmorrow/raindrops-oracle-crank"
+
+[[repo]]
+url = "https://github.com/ixmorrow/rnd-staking"
+
+[[repo]]
+url = "https://github.com/iyansr/walletconnect-poc"
+
+[[repo]]
 url = "https://github.com/j0nnyboi/Safecoin-Metaplex"
 
 [[repo]]
+url = "https://github.com/J0ssue/solana_project"
+
+[[repo]]
+url = "https://github.com/Jac0xb/feeble-machine"
+
+[[repo]]
+url = "https://github.com/jackbl1/live-stoic"
+
+[[repo]]
+url = "https://github.com/JaffarAman/phantom_wallet"
+
+[[repo]]
+url = "https://github.com/Jakobus51/solana-minter-2"
+
+[[repo]]
 url = "https://github.com/jameswilliams1/solana-blockchain-index"
+
+[[repo]]
+url = "https://github.com/janaSunrise/otaku-minter-solana"
+
+[[repo]]
+url = "https://github.com/jandutkiewicz0309/Solana-airdrop-app"
 
 [[repo]]
 url = "https://github.com/jarry-xiao/candyland"
@@ -1438,13 +4087,61 @@ url = "https://github.com/jarry-xiao/candyland"
 url = "https://github.com/jarry-xiao/solana-bootcamp-lectures"
 
 [[repo]]
+url = "https://github.com/JasonElke/solana-program"
+
+[[repo]]
 url = "https://github.com/jasonrudin/trashpile"
+
+[[repo]]
+url = "https://github.com/jassiii-17/sol_airdrops"
+
+[[repo]]
+url = "https://github.com/jbrit/anchor-swap"
+
+[[repo]]
+url = "https://github.com/jeffersonbenson/starship"
+
+[[repo]]
+url = "https://github.com/jeffhu1/signing"
+
+[[repo]]
+url = "https://github.com/jefsamo/mint-buildoors"
+
+[[repo]]
+url = "https://github.com/jejemerong/challengeNote"
+
+[[repo]]
+url = "https://github.com/jenkruk/solana_rust_backend"
+
+[[repo]]
+url = "https://github.com/Jerm23/CashCowsCollect"
+
+[[repo]]
+url = "https://github.com/jerryliu862/K6Test"
 
 [[repo]]
 url = "https://github.com/jferrer/expo-solana-wallet"
 
 [[repo]]
+url = "https://github.com/JHDsoftware/hackthon-trade-any"
+
+[[repo]]
+url = "https://github.com/jhonkus/mint-nft"
+
+[[repo]]
+url = "https://github.com/jia-ayo/gifhy_sol"
+
+[[repo]]
+url = "https://github.com/jia-ayo/sol-calc"
+
+[[repo]]
+url = "https://github.com/jieguann/MetaGo-XR-Geolocation-Solana-Hackthon"
+
+[[repo]]
 url = "https://github.com/jieguann/XR-Geolocation-Solana-Hackthon"
+
+[[repo]]
+url = "https://github.com/JigJug/CryptoBot"
 
 [[repo]]
 url = "https://github.com/JigJug/DataCollector"
@@ -1459,13 +4156,85 @@ url = "https://github.com/Jkat/SOL-Drop"
 url = "https://github.com/jlew24asu/metaplex"
 
 [[repo]]
+url = "https://github.com/jlx23/pdf-report-streamflow"
+
+[[repo]]
+url = "https://github.com/jmdollosa/solana-challenge1"
+
+[[repo]]
+url = "https://github.com/jmdollosa/solana-challenge2"
+
+[[repo]]
+url = "https://github.com/joanguardia19/CORE-1"
+
+[[repo]]
+url = "https://github.com/joanguardia19/core2-final"
+
+[[repo]]
 url = "https://github.com/joeaba/solana-new"
+
+[[repo]]
+url = "https://github.com/JoeHowarth/dominari-gfx"
 
 [[repo]]
 url = "https://github.com/joeshmoenft/solana-shield"
 
 [[repo]]
+url = "https://github.com/joeylaya/solana-rust"
+
+[[repo]]
+url = "https://github.com/JohnVersus/solana-anchor-dapp-helloWorld"
+
+[[repo]]
+url = "https://github.com/JohnVersus/solana-contracts"
+
+[[repo]]
+url = "https://github.com/JohnVersus/solana-dapp-tic-tac-toe"
+
+[[repo]]
+url = "https://github.com/JohnVersus/solana-nft-minter"
+
+[[repo]]
 url = "https://github.com/joinpoolparty/NoLossLottery"
+
+[[repo]]
+url = "https://github.com/Jojo-Rabbit/solana-airDrop"
+
+[[repo]]
+url = "https://github.com/jonestsai/metricNFT"
+
+[[repo]]
+url = "https://github.com/josedowf/challenge1-sol"
+
+[[repo]]
+url = "https://github.com/josedowf/challenge2-solana"
+
+[[repo]]
+url = "https://github.com/JosephDoUrden/Solana-Practicum"
+
+[[repo]]
+url = "https://github.com/joshuatanwm/Challenge1-solana"
+
+[[repo]]
+url = "https://github.com/jozark/test-pda"
+
+[[repo]]
+url = "https://github.com/jrocca82/solana-candy-machine"
+
+[[repo]]
+url = "https://github.com/jrocca82/solana-core"
+
+[[repo]]
+url = "https://github.com/jrocca82/solana-miner"
+
+[[repo]]
+url = "https://github.com/jrocca82/solana-nft"
+
+[[repo]]
+url = "https://github.com/jrocca82/solana-shoop"
+
+[[repo]]
+url = "https://github.com/jslusser/m2challenge5"
 
 [[repo]]
 url = "https://github.com/jsoneaday/solana-example-helloworld"
@@ -1474,25 +4243,133 @@ url = "https://github.com/jsoneaday/solana-example-helloworld"
 url = "https://github.com/jstarry/solana-feed-rs"
 
 [[repo]]
+url = "https://github.com/jsunnykhan/tenant-system-anchor-solana"
+
+[[repo]]
+url = "https://github.com/jtaaa/solana-signature-testing"
+
+[[repo]]
+url = "https://github.com/JuanMarchetto/bubbles"
+
+[[repo]]
 url = "https://github.com/jubeless/test"
+
+[[repo]]
+url = "https://github.com/juiced-fi/juiced"
+
+[[repo]]
+url = "https://github.com/juliotpaez/fankor"
+
+[[repo]]
+url = "https://github.com/Jungle-Finance/jungle-fi-cli-utils"
+
+[[repo]]
+url = "https://github.com/Jungle-Finance/jungle-fi-sdk"
 
 [[repo]]
 url = "https://github.com/jungsNN/FunkyFlowerz"
 
 [[repo]]
+url = "https://github.com/jup-ag/jupiter-core-example"
+
+[[repo]]
+url = "https://github.com/jup-ag/jupiter-cpi"
+
+[[repo]]
+url = "https://github.com/jup-ag/jupiter-nextjs-example"
+
+[[repo]]
+url = "https://github.com/jup-ag/raydium-clmm-sdk"
+
+[[repo]]
+url = "https://github.com/jup-ag/symmetry-hq-liquidity-sdk"
+
+[[repo]]
+url = "https://github.com/Just-JB/DD-Transcendents"
+
+[[repo]]
+url = "https://github.com/juwonleedev/Anchor-HelloWorld"
+
+[[repo]]
 url = "https://github.com/jwrookie/stablecoin"
+
+[[repo]]
+url = "https://github.com/kabut000/CTF"
+
+[[repo]]
+url = "https://github.com/kadersarikaya/nft-frontend"
+
+[[repo]]
+url = "https://github.com/kady-z/solana-workshop-projectII"
 
 [[repo]]
 url = "https://github.com/kaizencorps/doorman"
 
 [[repo]]
+url = "https://github.com/kaizencorps/keychain-ui"
+
+[[repo]]
+url = "https://github.com/Kamran-Mohammed/Airdrop"
+
+[[repo]]
+url = "https://github.com/kanishq1/streampay-frontend"
+
+[[repo]]
+url = "https://github.com/karywjh/ToBeContinued-Magic"
+
+[[repo]]
+url = "https://github.com/kathodler/anchor-feature-flag-issue"
+
+[[repo]]
+url = "https://github.com/Kaushik20-02/tiktok"
+
+[[repo]]
+url = "https://github.com/Kaushikkar/airdrop"
+
+[[repo]]
+url = "https://github.com/kaustubhthakur/solana-wallet-connect-button"
+
+[[repo]]
+url = "https://github.com/Kavinkp/airdrop-sol"
+
+[[repo]]
+url = "https://github.com/kazinarka/betting"
+
+[[repo]]
+url = "https://github.com/keepresolve/Blockchain"
+
+[[repo]]
 url = "https://github.com/keinsell/chainized"
+
+[[repo]]
+url = "https://github.com/keinsell/solana-spl-token"
+
+[[repo]]
+url = "https://github.com/keithasilom/mintin-ui"
+
+[[repo]]
+url = "https://github.com/keithnoguchi/bpr"
 
 [[repo]]
 url = "https://github.com/kekloldyormarket/Mango-Money-Multiplier"
 
 [[repo]]
+url = "https://github.com/kelvinkirima014/animegif"
+
+[[repo]]
+url = "https://github.com/kelvinkirima014/ft"
+
+[[repo]]
+url = "https://github.com/kelvinkirima014/Otaku"
+
+[[repo]]
 url = "https://github.com/kemargrant/soltalk"
+
+[[repo]]
+url = "https://github.com/kengarancho/Challenge1-solana"
+
+[[repo]]
+url = "https://github.com/kenmaro3/solana-todo"
 
 [[repo]]
 url = "https://github.com/keramostech/keradex"
@@ -1504,10 +4381,43 @@ url = "https://github.com/ketyung/nft_staking_program_v2"
 url = "https://github.com/kevinfaveri/solana-candy-factory"
 
 [[repo]]
+url = "https://github.com/KevinFiorentino/angular-solana-chat"
+
+[[repo]]
+url = "https://github.com/KevinFiorentino/hotwallet-signing-solana"
+
+[[repo]]
+url = "https://github.com/KevinFiorentino/react-solana-pay"
+
+[[repo]]
+url = "https://github.com/KevinFiorentino/react-solana-portal"
+
+[[repo]]
+url = "https://github.com/KevinFiorentino/solana-chat"
+
+[[repo]]
+url = "https://github.com/KevinFiorentino/solana-nft-minter"
+
+[[repo]]
+url = "https://github.com/KevinFiorentino/solana-portal"
+
+[[repo]]
 url = "https://github.com/kevinheavey/anchorpy"
 
 [[repo]]
 url = "https://github.com/kevinz420/SOLr-Pay"
+
+[[repo]]
+url = "https://github.com/khaIilnafis/solsantas"
+
+[[repo]]
+url = "https://github.com/KhalilJouaneh/front-end-nft-minter-DAPP"
+
+[[repo]]
+url = "https://github.com/khatriamit/anchor-nft-program"
+
+[[repo]]
+url = "https://github.com/kidph/magic-eden-submission"
 
 [[repo]]
 url = "https://github.com/kiemtienonline360/solana-keyring-controller"
@@ -1519,16 +4429,139 @@ url = "https://github.com/kiemtienonline360/solana-lite-metamask"
 url = "https://github.com/kiemtienonline360/solana-query"
 
 [[repo]]
+url = "https://github.com/kien6034/Solana-NFT-Staking"
+
+[[repo]]
+url = "https://github.com/kien6034/solana-swap-dapp"
+
+[[repo]]
+url = "https://github.com/Kiernan-G/ru-sol-project"
+
+[[repo]]
+url = "https://github.com/Killpit/Display-NFTs-Frontend"
+
+[[repo]]
+url = "https://github.com/Killpit/Solana-NFT-Front-End"
+
+[[repo]]
+url = "https://github.com/kin-labs/kinetic"
+
+[[repo]]
+url = "https://github.com/kin-starters/kin-dapp-sdk-less"
+
+[[repo]]
+url = "https://github.com/kin-starters/kinetic-playground"
+
+[[repo]]
+url = "https://github.com/kin-starters/kinetic-typescript-dapp"
+
+[[repo]]
 url = "https://github.com/kinecosystem/kin-node"
 
 [[repo]]
 url = "https://github.com/kinecosystem/mykinwallet"
 
 [[repo]]
+url = "https://github.com/kingsframe/gh-action-secrets"
+
+[[repo]]
+url = "https://github.com/kingsframe/solana-anchor-actions"
+
+[[repo]]
+url = "https://github.com/kiran-bhalerao/blog-dapp-solana"
+
+[[repo]]
+url = "https://github.com/kiranmuddam/solana-intro-client"
+
+[[repo]]
 url = "https://github.com/kishorehari231/solana-helloworld"
 
 [[repo]]
+url = "https://github.com/KitanGarcia/Buildspace-solana-core"
+
+[[repo]]
+url = "https://github.com/KitanGarcia/NFT-Project"
+
+[[repo]]
+url = "https://github.com/KIWIbird717/riddel"
+
+[[repo]]
+url = "https://github.com/KiwiPetal/NftMint"
+
+[[repo]]
+url = "https://github.com/kklas/anchor-client-gen"
+
+[[repo]]
+url = "https://github.com/kody435/gif-web3"
+
+[[repo]]
+url = "https://github.com/kody435/SOL-balance-checker"
+
+[[repo]]
+url = "https://github.com/kody435/sol-pay-store"
+
+[[repo]]
+url = "https://github.com/Komefumi/Metacrafters-SOL-Proof-Beginner-Course-Assignments"
+
+[[repo]]
+url = "https://github.com/komoverse/nft_marketplace_ui"
+
+[[repo]]
+url = "https://github.com/konstantintuev/LoyalFi"
+
+[[repo]]
+url = "https://github.com/KopylovVadik/for_buildspace_nft_minter"
+
+[[repo]]
+url = "https://github.com/krishkpatil/crowd_funding"
+
+[[repo]]
+url = "https://github.com/krishnaswamyv/airdrop-solana"
+
+[[repo]]
+url = "https://github.com/krishnaswamyv/Challenge2-solana"
+
+[[repo]]
+url = "https://github.com/krishnaswamyv/solana-challenge3-phantom"
+
+[[repo]]
+url = "https://github.com/ksirrah13/solana-voter-examples"
+
+[[repo]]
+url = "https://github.com/kubaplata/hade_sales_bot"
+
+[[repo]]
+url = "https://github.com/kudarukuni/BAMS"
+
+[[repo]]
+url = "https://github.com/kudarukuni/CHP-Smart-Contract"
+
+[[repo]]
+url = "https://github.com/kudarukuni/GRT-UI"
+
+[[repo]]
+url = "https://github.com/kudarukuni/MNFT"
+
+[[repo]]
+url = "https://github.com/kudarukuni/SPDAC"
+
+[[repo]]
+url = "https://github.com/KultureElectric/OceanGuardians-dApp-v2"
+
+[[repo]]
+url = "https://github.com/KunalBagaria/solana-vision"
+
+[[repo]]
+url = "https://github.com/kunduy/sol-repo"
+
+[[repo]]
 url = "https://github.com/Kunkka0822/nft-drop-start-project"
+
+[[repo]]
+url = "https://github.com/kvenus-uj/non-transferable-token-mint"
+
+[[repo]]
+url = "https://github.com/KyberNetwork/openbook-spl"
 
 [[repo]]
 url = "https://github.com/Kyonax/bot-discord-rottenville"
@@ -1537,19 +4570,112 @@ url = "https://github.com/Kyonax/bot-discord-rottenville"
 url = "https://github.com/kytek-hub/serumold-js"
 
 [[repo]]
+url = "https://github.com/KYVENetwork/node"
+
+[[repo]]
+url = "https://github.com/L-tech/sol-scaffold"
+
+[[repo]]
 url = "https://github.com/ladder-caster/ladder-caster-frontend"
+
+[[repo]]
+url = "https://github.com/lahkens/airdrop-solana"
+
+[[repo]]
+url = "https://github.com/laithalkawalit/Solana-Escrow-Project"
+
+[[repo]]
+url = "https://github.com/Lamas-Finance-Official/Lamas-Finance-Magic-Eden-Hackathon"
+
+[[repo]]
+url = "https://github.com/lancetoledo/candy-machine-test"
+
+[[repo]]
+url = "https://github.com/lancetoledo/cashapp-solana-test"
+
+[[repo]]
+url = "https://github.com/lannn/buildoor"
+
+[[repo]]
+url = "https://github.com/lantuyan/tiktok-social"
+
+[[repo]]
+url = "https://github.com/lantuyan/tiktok-solana"
+
+[[repo]]
+url = "https://github.com/lanzosuarez/metacrafters-course"
+
+[[repo]]
+url = "https://github.com/laptrinhbockchain/solana-keyring-controller"
+
+[[repo]]
+url = "https://github.com/laptrinhbockchain/solana-lite-metamask"
+
+[[repo]]
+url = "https://github.com/laptrinhbockchain/solana-query"
+
+[[repo]]
+url = "https://github.com/lastemp/donation-app-main"
 
 [[repo]]
 url = "https://github.com/LastSymbol0/Asylum"
 
 [[repo]]
+url = "https://github.com/leannejdong/test-logger"
+
+[[repo]]
+url = "https://github.com/leeftk/solanaapp"
+
+[[repo]]
+url = "https://github.com/legome0937/Solana-Program"
+
+[[repo]]
+url = "https://github.com/lenardlopez/challenge1-solana"
+
+[[repo]]
+url = "https://github.com/lenardlopez/challenge2-solana"
+
+[[repo]]
+url = "https://github.com/lenardlopez/solana-challenge3-phantom"
+
+[[repo]]
+url = "https://github.com/LePingu/SolPlayground"
+
+[[repo]]
+url = "https://github.com/LevanPangani5/Ticktock_solana"
+
+[[repo]]
+url = "https://github.com/LevanPangani5/tiktok_solana"
+
+[[repo]]
+url = "https://github.com/lidofinance/solana-validators-monitoring"
+
+[[repo]]
+url = "https://github.com/lidofinance/solido-sdk"
+
+[[repo]]
 url = "https://github.com/Lightprotocol/light-protocol-program"
+
+[[repo]]
+url = "https://github.com/lightyaer/buildor-solana"
 
 [[repo]]
 url = "https://github.com/ligulfzhou/knight-site-sol"
 
 [[repo]]
+url = "https://github.com/lilemw/two-party-eddsa-problem"
+
+[[repo]]
+url = "https://github.com/lilmax98/undead-penguins-mint-ui"
+
+[[repo]]
 url = "https://github.com/limjesslyn/solana-wallet"
+
+[[repo]]
+url = "https://github.com/lincot/solana-crowdfunding"
+
+[[repo]]
+url = "https://github.com/Lioncat2002/lightrpc-test"
 
 [[repo]]
 url = "https://github.com/LIQNFT/candy-shop"
@@ -1558,13 +4684,67 @@ url = "https://github.com/LIQNFT/candy-shop"
 url = "https://github.com/LIQNFT/candy-shop-storefront"
 
 [[repo]]
+url = "https://github.com/lis-dima/airdrop-proj"
+
+[[repo]]
+url = "https://github.com/lis-dima/solana-nft-drop-starter-project"
+
+[[repo]]
+url = "https://github.com/lis-dima/solana-staking"
+
+[[repo]]
+url = "https://github.com/lis-dima/stupid-calc-app"
+
+[[repo]]
+url = "https://github.com/lis-dima/stupid-crowdfunging"
+
+[[repo]]
 url = "https://github.com/lithdew/alon"
 
 [[repo]]
 url = "https://github.com/liyanhua111/banana-swap"
 
 [[repo]]
+url = "https://github.com/llllllluc/learn-smart-contract-in-rust"
+
+[[repo]]
+url = "https://github.com/lmduy2612/web3-solana"
+
+[[repo]]
+url = "https://github.com/lmvdz/prediction-game"
+
+[[repo]]
+url = "https://github.com/lmvdz/prediction-game-crank"
+
+[[repo]]
+url = "https://github.com/lmvdz/prediction-game-frontend"
+
+[[repo]]
+url = "https://github.com/lmvdz/prediction-game-sdk"
+
+[[repo]]
+url = "https://github.com/lmvdz/prediction-game-server"
+
+[[repo]]
+url = "https://github.com/lndgalante/solutils"
+
+[[repo]]
+url = "https://github.com/lokeshchekuri/airdrop"
+
+[[repo]]
+url = "https://github.com/LoNeWoLf003/solana"
+
+[[repo]]
 url = "https://github.com/lorisleiva/solana-wallets-vue"
+
+[[repo]]
+url = "https://github.com/lots-of-boilerplates/express-react-solana"
+
+[[repo]]
+url = "https://github.com/Lotus-Gang-NFT/lotus"
+
+[[repo]]
+url = "https://github.com/lovecodingdev/solana-helloworld"
 
 [[repo]]
 url = "https://github.com/lowprivuser/solana-test-framework"
@@ -1576,6 +4756,39 @@ url = "https://github.com/LP-Finance-Inc/lpfinance-devnet-program-v2"
 url = "https://github.com/LP-Finance-Inc/lpfinance-devnet-solana"
 
 [[repo]]
+url = "https://github.com/LStan/Solana_Blockchain_Developer-Bootcamp_2022"
+
+[[repo]]
+url = "https://github.com/LuatCoi97/mint-nft"
+
+[[repo]]
+url = "https://github.com/LuatCoi97/rust-nft-marketplace"
+
+[[repo]]
+url = "https://github.com/lucidrohit/solanaAirdrop"
+
+[[repo]]
+url = "https://github.com/Ludex-Labs/ludex-sdk-js"
+
+[[repo]]
+url = "https://github.com/Ludex-Labs/LudexTxCore"
+
+[[repo]]
+url = "https://github.com/lukaTarimana/tiktok-solana"
+
+[[repo]]
+url = "https://github.com/Luke-Longo/nftProject"
+
+[[repo]]
+url = "https://github.com/lyndipc/solana-frontend"
+
+[[repo]]
+url = "https://github.com/lytien2429/token-swap"
+
+[[repo]]
+url = "https://github.com/m-ahmadshaikh/dashboard-antematter"
+
+[[repo]]
 url = "https://github.com/m1tttt4/solana-soce-ui"
 
 [[repo]]
@@ -1585,13 +4798,91 @@ url = "https://github.com/maars202/solmate"
 url = "https://github.com/madrugada-labs/candidate-staking"
 
 [[repo]]
+url = "https://github.com/Maeschlimo/challange3-solana"
+
+[[repo]]
+url = "https://github.com/Maeschlimo/Challenge1-solana"
+
+[[repo]]
+url = "https://github.com/Maeschlimo/challenge2-solana"
+
+[[repo]]
+url = "https://github.com/magiceden-oss/.github"
+
+[[repo]]
+url = "https://github.com/magiceden-oss/community-managed-token"
+
+[[repo]]
+url = "https://github.com/magiceden-oss/dex-v4"
+
+[[repo]]
+url = "https://github.com/magiceden-oss/erc721m"
+
+[[repo]]
+url = "https://github.com/magiceden-oss/hn"
+
+[[repo]]
+url = "https://github.com/magiceden-oss/open_creator_protocol"
+
+[[repo]]
+url = "https://github.com/MaheshVarma007/Major-Project-Web3"
+
+[[repo]]
 url = "https://github.com/Maius-Protocol/maius-core"
 
 [[repo]]
 url = "https://github.com/Maius-Protocol/maius-program-library"
 
 [[repo]]
+url = "https://github.com/maksim-romanov/buildoor"
+
+[[repo]]
+url = "https://github.com/mallikarai05/solanatodo"
+
+[[repo]]
+url = "https://github.com/mallikarai05/todoappsolana"
+
+[[repo]]
+url = "https://github.com/MalloryShackford/psychic-disco"
+
+[[repo]]
+url = "https://github.com/mammothtraining/metaplex"
+
+[[repo]]
+url = "https://github.com/ManavGora/Solana_Project_blog_nft_marketplace"
+
+[[repo]]
+url = "https://github.com/manderhub/solana-intro-frontend"
+
+[[repo]]
+url = "https://github.com/Mango-Heroes/mango-heroes-integration"
+
+[[repo]]
+url = "https://github.com/Manimozhi121/airdrop"
+
+[[repo]]
+url = "https://github.com/Manish-Rawat-1186/solana"
+
+[[repo]]
 url = "https://github.com/mankinskin/budget-app"
+
+[[repo]]
+url = "https://github.com/mankinskin/web-app"
+
+[[repo]]
+url = "https://github.com/manuel040192/gif-portal"
+
+[[repo]]
+url = "https://github.com/manuel040192/solana-intro-client"
+
+[[repo]]
+url = "https://github.com/manuel040192/solana-intro-frontend"
+
+[[repo]]
+url = "https://github.com/manuel040192/solana-ping-frontend"
+
+[[repo]]
+url = "https://github.com/manuel040192/solana-send-sol-connected-wallet"
 
 [[repo]]
 url = "https://github.com/manugildev/solend-apy-bot"
@@ -1609,19 +4900,85 @@ url = "https://github.com/marc2332/reactor-wallet"
 url = "https://github.com/marc2332/solana-mobile-wallet"
 
 [[repo]]
+url = "https://github.com/marcnjaramillo/solana-buildoor"
+
+[[repo]]
 url = "https://github.com/Margotte83/metaplex"
+
+[[repo]]
+url = "https://github.com/markoinether/tenderize-on-solana"
+
+[[repo]]
+url = "https://github.com/markovic-ana/solana-aibnb"
+
+[[repo]]
+url = "https://github.com/martinavagyan/web3-auth"
 
 [[repo]]
 url = "https://github.com/MartinKavik/voting-anchor-moonzoon"
 
 [[repo]]
+url = "https://github.com/martiolozz/solana-core"
+
+[[repo]]
+url = "https://github.com/maryan-mandzyuk/defi-scripts"
+
+[[repo]]
+url = "https://github.com/masapasa/alfazero"
+
+[[repo]]
+url = "https://github.com/masapasa/nftid"
+
+[[repo]]
+url = "https://github.com/masapasa/solnft"
+
+[[repo]]
+url = "https://github.com/masterweb1125/NFT_smart_contract"
+
+[[repo]]
+url = "https://github.com/mateolafalce/Decentralized_stock_exchange"
+
+[[repo]]
+url = "https://github.com/mateolafalce/SOLotery"
+
+[[repo]]
 url = "https://github.com/Math1987/solemPoker_anchor"
+
+[[repo]]
+url = "https://github.com/mathieu-chauvin/cardzzz"
+
+[[repo]]
+url = "https://github.com/MathieuCesbron/unidouble"
 
 [[repo]]
 url = "https://github.com/mathwallet/math-solana-js"
 
 [[repo]]
+url = "https://github.com/matiman/NFT_Buildor_Buildspace"
+
+[[repo]]
+url = "https://github.com/mattdegods/mickey-gem-farm"
+
+[[repo]]
+url = "https://github.com/mattheworris/n00dles"
+
+[[repo]]
+url = "https://github.com/mattvioli/jupiter-integration"
+
+[[repo]]
+url = "https://github.com/mauricioakito/consola.finance"
+
+[[repo]]
+url = "https://github.com/Maverick9081/Nft-minter"
+
+[[repo]]
+url = "https://github.com/maweiche/solana-core-1"
+
+[[repo]]
 url = "https://github.com/max-block/mb-solana"
+
+[[repo]]
+url = "https://github.com/max-block/mb-solana-py"
 
 [[repo]]
 url = "https://github.com/maxantonio/blockchainlearning"
@@ -1639,10 +4996,28 @@ url = "https://github.com/mcf-rocks/simple-vote-tutorial"
 url = "https://github.com/mcf-rocks/solana-upload"
 
 [[repo]]
+url = "https://github.com/mcintyre94/solana-pay-nfts"
+
+[[repo]]
+url = "https://github.com/md-armaan13/solmint"
+
+[[repo]]
+url = "https://github.com/MeetHrishii/solanaDevPune"
+
+[[repo]]
+url = "https://github.com/MehmetZiya/gif-portal"
+
+[[repo]]
+url = "https://github.com/mehtaishita/audius-track-upload"
+
+[[repo]]
 url = "https://github.com/mehulbhardwaj/cfa_charter"
 
 [[repo]]
 url = "https://github.com/MembraneGame/storage"
+
+[[repo]]
+url = "https://github.com/Merrick17/jup-example-fixed"
 
 [[repo]]
 url = "https://github.com/Merstab/01-flask"
@@ -1651,13 +5026,37 @@ url = "https://github.com/Merstab/01-flask"
 url = "https://github.com/mertbezirgan/COMP491_Project_FrontEnd"
 
 [[repo]]
+url = "https://github.com/mertthesamael/solana-nftmint"
+
+[[repo]]
+url = "https://github.com/mertthesamael/solana-practicum"
+
+[[repo]]
 url = "https://github.com/metabuild8/metastack.ml"
+
+[[repo]]
+url = "https://github.com/MetacampDAO/tradehaus-program"
+
+[[repo]]
+url = "https://github.com/MetaCourt/Dispute-Resolution"
+
+[[repo]]
+url = "https://github.com/Metacrafters/airdrop-program"
+
+[[repo]]
+url = "https://github.com/Metacrafters/counter-program"
 
 [[repo]]
 url = "https://github.com/Metapass/metapass-sdk"
 
 [[repo]]
+url = "https://github.com/metaplex-foundation/js-deprecated"
+
+[[repo]]
 url = "https://github.com/metaplex-foundation/metaplex"
+
+[[repo]]
+url = "https://github.com/metaplex-foundation/Solana.Swift"
 
 [[repo]]
 url = "https://github.com/metaplex/js"
@@ -1681,34 +5080,250 @@ url = "https://github.com/microwavedcola1/mango-rekt-bot"
 url = "https://github.com/microwavedcola1/mango-v3-service"
 
 [[repo]]
+url = "https://github.com/miguel-ot/seahorse-deposit-pool"
+
+[[repo]]
+url = "https://github.com/mihailo-maksa/clc-mint"
+
+[[repo]]
+url = "https://github.com/mihailo-maksa/cool-lions-site"
+
+[[repo]]
+url = "https://github.com/mihalex98/escrow"
+
+[[repo]]
 url = "https://github.com/MikaelCarpenter/NFT-Club"
+
+[[repo]]
+url = "https://github.com/mikebrownie/origin-validation"
+
+[[repo]]
+url = "https://github.com/mikebrownie/solana-tic-tac-toe"
+
+[[repo]]
+url = "https://github.com/mikejhale/buildspace-solana-core-nft-minter"
+
+[[repo]]
+url = "https://github.com/mikkolmillo/rascal-land-staking"
 
 [[repo]]
 url = "https://github.com/milktoastlab/SolanaNFTBot"
 
 [[repo]]
+url = "https://github.com/miner0017/jar-health-check"
+
+[[repo]]
+url = "https://github.com/ming070492/module4-final-project-smart-contract-"
+
+[[repo]]
+url = "https://github.com/minhduc2611/solance-ui"
+
+[[repo]]
+url = "https://github.com/MinhDuc30042002/solana"
+
+[[repo]]
+url = "https://github.com/Miraii133/solana-nft-mint"
+
+[[repo]]
+url = "https://github.com/miraland-labs/explorer"
+
+[[repo]]
+url = "https://github.com/miraland-labs/metaplex-solarti-mpl-token-metadata-2.5.1"
+
+[[repo]]
+url = "https://github.com/miraland-labs/solarti-program-library-token-cli-v2.2.0"
+
+[[repo]]
+url = "https://github.com/mirirtiqa/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/MirzaMuhammadBaig/solana_escrow_program"
+
+[[repo]]
+url = "https://github.com/mishra811/solana-core"
+
+[[repo]]
 url = "https://github.com/mithraiclabs/ttp-oracle"
+
+[[repo]]
+url = "https://github.com/Mjavala/metaplex-auction-ui"
+
+[[repo]]
+url = "https://github.com/Mohammed-saad-riyan/airdrop"
+
+[[repo]]
+url = "https://github.com/MohdIrfan14/air-drop"
+
+[[repo]]
+url = "https://github.com/mohitthakkar30/SnapSol"
+
+[[repo]]
+url = "https://github.com/mohitthakkar30/SnapSol-Frontend"
+
+[[repo]]
+url = "https://github.com/Mohsinsiddi/bildoor-nft"
+
+[[repo]]
+url = "https://github.com/mominkaleem/sol-address"
+
+[[repo]]
+url = "https://github.com/MonacoProtocol/admin-client"
+
+[[repo]]
+url = "https://github.com/MonacoProtocol/crank"
+
+[[repo]]
+url = "https://github.com/MonacoProtocol/market-seeder"
+
+[[repo]]
+url = "https://github.com/MonacoProtocol/protocol"
+
+[[repo]]
+url = "https://github.com/MonacoProtocol/sdk"
 
 [[repo]]
 url = "https://github.com/monomadic/solana-tokenlist"
 
 [[repo]]
+url = "https://github.com/MonsterKey/WEB3build"
+
+[[repo]]
+url = "https://github.com/moobaaclub/archelian-mint"
+
+[[repo]]
+url = "https://github.com/Moosakalam/moosa"
+
+[[repo]]
+url = "https://github.com/moshthepitt/flash-loan-mastery"
+
+[[repo]]
+url = "https://github.com/moshthepitt/flash-loan-mastery-cli"
+
+[[repo]]
+url = "https://github.com/moshthepitt/flash-loan-mastery-js"
+
+[[repo]]
+url = "https://github.com/moshthepitt/solana-client-cpi-poc"
+
+[[repo]]
+url = "https://github.com/Mounir-Bouaiche/EthWalletConnection"
+
+[[repo]]
+url = "https://github.com/Mr-okey/Solana"
+
+[[repo]]
+url = "https://github.com/mreymatthewe/assessment-solana"
+
+[[repo]]
 url = "https://github.com/mrgnlabs/marginfi-sdk"
+
+[[repo]]
+url = "https://github.com/Mridulklra/airdrop.js"
+
+[[repo]]
+url = "https://github.com/MrKevin0308/solana-bpf-template"
 
 [[repo]]
 url = "https://github.com/mrlucciola/cdp"
 
 [[repo]]
+url = "https://github.com/MSarfarazMeyo/MekkaLab-Frontend"
+
+[[repo]]
+url = "https://github.com/MSarfarazMeyo/mfrontend"
+
+[[repo]]
 url = "https://github.com/mschneider/solcpp"
+
+[[repo]]
+url = "https://github.com/mshahbaazshareef/airdrop"
+
+[[repo]]
+url = "https://github.com/muharremmandaci/Create-Solana-Coin"
+
+[[repo]]
+url = "https://github.com/muharremmandaci/Create-the-minting-UI"
+
+[[repo]]
+url = "https://github.com/muharremmandaci/mine-buildor"
+
+[[repo]]
+url = "https://github.com/muharremmandaci/mine-buildor-stake-gui"
+
+[[repo]]
+url = "https://github.com/muharremmandaci/Solana-Nft-Frontend"
+
+[[repo]]
+url = "https://github.com/Mulander-J/web3-starter"
+
+[[repo]]
+url = "https://github.com/muneeb-i-khan/sol-airdrop"
 
 [[repo]]
 url = "https://github.com/munnamizan1494/Defi-projects-"
 
 [[repo]]
+url = "https://github.com/murataslan1/dapp-scaffold-explorer-solana"
+
+[[repo]]
+url = "https://github.com/murathanje/Solana-Dev"
+
+[[repo]]
+url = "https://github.com/murtaza1sol/learn-sol-airdrop"
+
+[[repo]]
+url = "https://github.com/MusaibUmar/airdrop"
+
+[[repo]]
+url = "https://github.com/Musechainofficial/MuseChain_Client"
+
+[[repo]]
+url = "https://github.com/Musharraffaijaz/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/MuskanBartaula/sniperaio-aptos"
+
+[[repo]]
+url = "https://github.com/Mustafa-geek/solana-basics"
+
+[[repo]]
+url = "https://github.com/mustafaUrl/fs"
+
+[[repo]]
+url = "https://github.com/mustafaUrl/solona_1"
+
+[[repo]]
 url = "https://github.com/mutable-dev/jmx"
 
 [[repo]]
+url = "https://github.com/mvgregoryj/create-nft-solana"
+
+[[repo]]
+url = "https://github.com/mvines/sol-rewards-vault"
+
+[[repo]]
+url = "https://github.com/MxDui/solana-core"
+
+[[repo]]
 url = "https://github.com/myfridayio/friyay"
+
+[[repo]]
+url = "https://github.com/N8BWert/arcade"
+
+[[repo]]
+url = "https://github.com/Nabeel06022002/airdrop-sol"
+
+[[repo]]
+url = "https://github.com/Nagacash/nagas-mint"
+
+[[repo]]
+url = "https://github.com/Nagaprasadvr/ChainTAG"
+
+[[repo]]
+url = "https://github.com/Nagaprasadvr/solana-chain-tag"
+
+[[repo]]
+url = "https://github.com/Nagaprasadvr/switchboard"
 
 [[repo]]
 url = "https://github.com/nagare-labs/nagare"
@@ -1717,16 +5332,76 @@ url = "https://github.com/nagare-labs/nagare"
 url = "https://github.com/nagdab/crossmint_demo"
 
 [[repo]]
+url = "https://github.com/Nakamura0315/metacrafter-challenge"
+
+[[repo]]
+url = "https://github.com/NamNguyen-161/react-solana"
+
+[[repo]]
+url = "https://github.com/naresh5033/Facebook-solana"
+
+[[repo]]
+url = "https://github.com/naresh5033/Solana-Todo"
+
+[[repo]]
+url = "https://github.com/natassafar/airdrop"
+
+[[repo]]
+url = "https://github.com/nathannlu/dasdsad"
+
+[[repo]]
+url = "https://github.com/NaveenMare/solana-nft-frontend"
+
+[[repo]]
+url = "https://github.com/navistonks/buildspace-gif-portal"
+
+[[repo]]
+url = "https://github.com/navodayan14/todo-web3"
+
+[[repo]]
+url = "https://github.com/nawed2611/solanaweb3-next"
+
+[[repo]]
+url = "https://github.com/Nazaire/pixelguild-staking"
+
+[[repo]]
+url = "https://github.com/Ndukiye/display-phantom-wallet-nfts"
+
+[[repo]]
 url = "https://github.com/Nebula-Wallet/nebula-website"
 
 [[repo]]
 url = "https://github.com/Nebula-Wallet/solana-name-service"
 
 [[repo]]
+url = "https://github.com/neel-ds/solana-core"
+
+[[repo]]
+url = "https://github.com/neo808/Metacrafters-m2"
+
+[[repo]]
+url = "https://github.com/neonlabsorg/geyser-neon-plugin"
+
+[[repo]]
 url = "https://github.com/neonlabsorg/neon-evm"
 
 [[repo]]
+url = "https://github.com/neonlabsorg/neon-spl-governance"
+
+[[repo]]
+url = "https://github.com/neonlabsorg/proxy-model.py"
+
+[[repo]]
+url = "https://github.com/nesg-9424/solana-mintor"
+
+[[repo]]
 url = "https://github.com/nextdotid/proof-server"
+
+[[repo]]
+url = "https://github.com/nextdotid/proof_server"
+
+[[repo]]
+url = "https://github.com/NFT-Tech-Labs/sweepstake-program"
 
 [[repo]]
 url = "https://github.com/NftEyez/sol-rayz"
@@ -1738,25 +5413,94 @@ url = "https://github.com/ngocbv/renec"
 url = "https://github.com/nhocbun741/pokemon"
 
 [[repo]]
+url = "https://github.com/niclasschuemann/hackatum-solana-challenge"
+
+[[repo]]
+url = "https://github.com/nicolaufs/ailiens-ui"
+
+[[repo]]
+url = "https://github.com/nicolaufs/solana-boilerplate"
+
+[[repo]]
 url = "https://github.com/nicoSix/solana-marketplace-listener"
 
 [[repo]]
 url = "https://github.com/nicoSix/solana-nft-explorer-extension"
 
 [[repo]]
+url = "https://github.com/nicoSix/solblogs"
+
+[[repo]]
+url = "https://github.com/Niet-Pham/solana-token-fe"
+
+[[repo]]
+url = "https://github.com/NigmaZ/Pwnable"
+
+[[repo]]
+url = "https://github.com/nilbo/deneme"
+
+[[repo]]
+url = "https://github.com/nilbo/DENEME-2"
+
+[[repo]]
+url = "https://github.com/nilbo/test-ui"
+
+[[repo]]
+url = "https://github.com/nina-protocol/js-sdk"
+
+[[repo]]
+url = "https://github.com/nina-protocol/nina-indexer"
+
+[[repo]]
+url = "https://github.com/ninjadev0706/nft-minter"
+
+[[repo]]
+url = "https://github.com/ninjadev0706/solana-nft"
+
+[[repo]]
 url = "https://github.com/nipun1999/NFT-Calendar"
+
+[[repo]]
+url = "https://github.com/NishantJoshi00/paytition"
+
+[[repo]]
+url = "https://github.com/Niten619/solana-pay-anchor"
+
+[[repo]]
+url = "https://github.com/noah-ts/swap"
+
+[[repo]]
+url = "https://github.com/noncepad/go-tutorial-1"
+
+[[repo]]
+url = "https://github.com/noobosapien/IGQ2App"
 
 [[repo]]
 url = "https://github.com/nosana-ci/nosana-jobs"
 
 [[repo]]
+url = "https://github.com/nosana-ci/nosana-programs"
+
+[[repo]]
 url = "https://github.com/Notariz/notariz-programs"
+
+[[repo]]
+url = "https://github.com/notmatical/web3-platform"
+
+[[repo]]
+url = "https://github.com/NotNetohog/solana-frontend"
 
 [[repo]]
 url = "https://github.com/NovaFi/NToken-solana"
 
 [[repo]]
+url = "https://github.com/noxcusej/metamorphic2"
+
+[[repo]]
 url = "https://github.com/nozomi-ai/spi-wrapper"
+
+[[repo]]
+url = "https://github.com/nphenley/communityTalent"
 
 [[repo]]
 url = "https://github.com/NpoolPlatform/sphinx-proxy"
@@ -1765,19 +5509,76 @@ url = "https://github.com/NpoolPlatform/sphinx-proxy"
 url = "https://github.com/npsables/hdcore"
 
 [[repo]]
+url = "https://github.com/nurnaoe/create-solana-nft-collection"
+
+[[repo]]
+url = "https://github.com/nurnaoe/nft-minting-solana-front"
+
+[[repo]]
+url = "https://github.com/nurnaoe/solana-candy-machine"
+
+[[repo]]
+url = "https://github.com/nurnaoe/solana-nft-display"
+
+[[repo]]
 url = "https://github.com/obsidiansystems/solana-bridges"
+
+[[repo]]
+url = "https://github.com/ochaloup/solana-typescript-api"
+
+[[repo]]
+url = "https://github.com/ognjenjevremovic/sf-streaming-payments"
 
 [[repo]]
 url = "https://github.com/oiga-proko/coralreef"
 
 [[repo]]
+url = "https://github.com/ols87/s-flow"
+
+[[repo]]
 url = "https://github.com/omar2535/CTF"
+
+[[repo]]
+url = "https://github.com/omersuve/superiorrobots"
+
+[[repo]]
+url = "https://github.com/omkar-2882/Spotify-Clone-Using-Blockchain"
+
+[[repo]]
+url = "https://github.com/onsol-labs/tld-parser"
+
+[[repo]]
+url = "https://github.com/open-sauce-labs/d-reader-backend"
+
+[[repo]]
+url = "https://github.com/open-sauce-labs/d-reader-frontend"
+
+[[repo]]
+url = "https://github.com/open-sauce-labs/d-reader-landing"
+
+[[repo]]
+url = "https://github.com/open-sauce-labs/gorecats-comic-reader-frontend"
+
+[[repo]]
+url = "https://github.com/open-sauce-labs/niko-rewards-frontend"
+
+[[repo]]
+url = "https://github.com/open-sauce-labs/saga-tv"
+
+[[repo]]
+url = "https://github.com/open-sauce-labs/solomon"
 
 [[repo]]
 url = "https://github.com/Open-Sorcerer/SoLingo"
 
 [[repo]]
 url = "https://github.com/openhaus-dao/tradehaus-program"
+
+[[repo]]
+url = "https://github.com/OpeOginni/solana-intro-frontend"
+
+[[repo]]
+url = "https://github.com/opptylabs/raffle-calculator"
 
 [[repo]]
 url = "https://github.com/OptiFi-Team/optifi-sdk"
@@ -1789,10 +5590,28 @@ url = "https://github.com/orao-network/solana-vrf"
 url = "https://github.com/orca-so/typescript-sdk"
 
 [[repo]]
+url = "https://github.com/orimaro123/solana-app"
+
+[[repo]]
 url = "https://github.com/otter-sec/bn-ebpf-solana"
 
 [[repo]]
+url = "https://github.com/otter-sec/drift-liquidator"
+
+[[repo]]
 url = "https://github.com/otter-sec/sol-ctf-framework"
+
+[[repo]]
+url = "https://github.com/oxfeeefeee/golana"
+
+[[repo]]
+url = "https://github.com/Ozone-Labs/Candy_Machine_ui"
+
+[[repo]]
+url = "https://github.com/ozorenye/hello-program"
+
+[[repo]]
+url = "https://github.com/ozqr20/Solana-blockchain"
 
 [[repo]]
 url = "https://github.com/p2p-org/FeeRelayerSwift"
@@ -1816,10 +5635,52 @@ url = "https://github.com/p2p-org/solana-swift"
 url = "https://github.com/p2p-org/solanaj"
 
 [[repo]]
+url = "https://github.com/pablofelipe01/token-factory"
+
+[[repo]]
+url = "https://github.com/pairswap/pairswap-frontend"
+
+[[repo]]
+url = "https://github.com/paladin-120/testing-tx-fetcher"
+
+[[repo]]
+url = "https://github.com/Pallavi235222/AirBnb-web3-solana"
+
+[[repo]]
+url = "https://github.com/Pallavi235222/Spotify-web3-clone"
+
+[[repo]]
+url = "https://github.com/Pallavi235222/Web3-Blog-Solana"
+
+[[repo]]
 url = "https://github.com/palsp/solrace"
 
 [[repo]]
+url = "https://github.com/pappas999/sc22-solana-workshop"
+
+[[repo]]
+url = "https://github.com/parasol-aser/vrust-open-source"
+
+[[repo]]
+url = "https://github.com/Parathps7/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/paritomarrr/myepicproject"
+
+[[repo]]
+url = "https://github.com/paritomarrr/Solana-Gif"
+
+[[repo]]
+url = "https://github.com/parminderqualhon/code-crow"
+
+[[repo]]
 url = "https://github.com/Parth59/SolanaHackathonSubmit"
+
+[[repo]]
+url = "https://github.com/parthpankajtiwary/solana"
+
+[[repo]]
+url = "https://github.com/patriciobcs/solana-snippets"
 
 [[repo]]
 url = "https://github.com/paul-schaaf/awesome-solana"
@@ -1849,10 +5710,25 @@ url = "https://github.com/paul-schaaf/spl-token-faucet"
 url = "https://github.com/paul-schaaf/spl-token-ui"
 
 [[repo]]
+url = "https://github.com/paulmarvinlumen/Solana"
+
+[[repo]]
+url = "https://github.com/paulo-gio/nft-drop-starter-project-main"
+
+[[repo]]
 url = "https://github.com/paulpierre/solglow-hackathon"
 
 [[repo]]
+url = "https://github.com/pavelkirilichev/nova_marketplace"
+
+[[repo]]
+url = "https://github.com/pdahlberg/got_a_min"
+
+[[repo]]
 url = "https://github.com/penta-fun/sol-nft-tools"
+
+[[repo]]
+url = "https://github.com/Perronef5/buildor"
 
 [[repo]]
 url = "https://github.com/phantom-labs/blocklist"
@@ -1906,6 +5782,27 @@ url = "https://github.com/phantom-labs/validators"
 url = "https://github.com/phantom-labs/yarn-lock-changes"
 
 [[repo]]
+url = "https://github.com/PhemiT/phantom-app"
+
+[[repo]]
+url = "https://github.com/PhuocLocNguyen/WalletServices"
+
+[[repo]]
+url = "https://github.com/PierrePetiteau/metacrafters"
+
+[[repo]]
+url = "https://github.com/Pietro-Lungarini/wherescrypto"
+
+[[repo]]
+url = "https://github.com/PirosB3/Breakpoint-tutorial-internal"
+
+[[repo]]
+url = "https://github.com/pixelteco/te-TEst"
+
+[[repo]]
+url = "https://github.com/piyushchry/AirDrop"
+
+[[repo]]
 url = "https://github.com/plantoids/archive-plantoids-devpost"
 
 [[repo]]
@@ -1915,10 +5812,37 @@ url = "https://github.com/plantoids/react-app"
 url = "https://github.com/platinum-engineering/x5margin-solana"
 
 [[repo]]
+url = "https://github.com/playarising/arising-sol"
+
+[[repo]]
+url = "https://github.com/plexor/my-mp"
+
+[[repo]]
+url = "https://github.com/Plxyer/plxyer-v1"
+
+[[repo]]
+url = "https://github.com/pngfi/react-hooks"
+
+[[repo]]
+url = "https://github.com/PnW1/natterBox"
+
+[[repo]]
 url = "https://github.com/poketapp/solana-hackathon-2021"
 
 [[repo]]
 url = "https://github.com/polea003/panther-votes-stack"
+
+[[repo]]
+url = "https://github.com/polea003/voting-frontend"
+
+[[repo]]
+url = "https://github.com/Poosudeena/solana-todo-app"
+
+[[repo]]
+url = "https://github.com/portto/blocto-connector"
+
+[[repo]]
+url = "https://github.com/portto/blocto-sdk"
 
 [[repo]]
 url = "https://github.com/portto/solana-contract-wallet"
@@ -1927,10 +5851,37 @@ url = "https://github.com/portto/solana-contract-wallet"
 url = "https://github.com/portto/solana-go-sdk"
 
 [[repo]]
+url = "https://github.com/PPPeony/raydium"
+
+[[repo]]
 url = "https://github.com/pqv199x/reveal-private-key"
 
 [[repo]]
+url = "https://github.com/pqv199x/show-key"
+
+[[repo]]
+url = "https://github.com/Pr1s0ner627/solana-workshop"
+
+[[repo]]
+url = "https://github.com/PrachitiDawande/airbnb-solana"
+
+[[repo]]
+url = "https://github.com/prajwal00017/Airdrop"
+
+[[repo]]
 url = "https://github.com/prakhardubey2002/dao-marketplace"
+
+[[repo]]
+url = "https://github.com/praneethprani75/airdrop"
+
+[[repo]]
+url = "https://github.com/praskoson/blastctrl-tools"
+
+[[repo]]
+url = "https://github.com/Prathamesh12111/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/prathikshetty2002/web3.js-basics"
 
 [[repo]]
 url = "https://github.com/prikhi/solana-staking-csvs"
@@ -1948,7 +5899,19 @@ url = "https://github.com/prin-r/solana-example"
 url = "https://github.com/princesinha19/solgsn"
 
 [[repo]]
+url = "https://github.com/PrithvirajMazumder/learning-solana"
+
+[[repo]]
+url = "https://github.com/priyankasaini69/review-Dapp"
+
+[[repo]]
+url = "https://github.com/PriyanshuSharma23/solana-hackathon-frontend"
+
+[[repo]]
 url = "https://github.com/project-serum/spl-token-wallet"
+
+[[repo]]
+url = "https://github.com/proparitoshsingh/airdropOfSOL"
 
 [[repo]]
 url = "https://github.com/ProPratik1405/CJ"
@@ -1957,10 +5920,28 @@ url = "https://github.com/ProPratik1405/CJ"
 url = "https://github.com/ProtoDao/solana-fantasy-app"
 
 [[repo]]
+url = "https://github.com/proyceus/solana_nft_dashboard"
+
+[[repo]]
+url = "https://github.com/prykdev/nftmarketplace"
+
+[[repo]]
 url = "https://github.com/pshpis/PoolWars"
 
 [[repo]]
+url = "https://github.com/PsilAxis/SolanaTools"
+
+[[repo]]
+url = "https://github.com/PTChinh/rust-tutorial"
+
+[[repo]]
 url = "https://github.com/Pulko/Solanyte"
+
+[[repo]]
+url = "https://github.com/purebet/Purebet-Official"
+
+[[repo]]
+url = "https://github.com/purefinance/mmb"
 
 [[repo]]
 url = "https://github.com/PurpleZone/NFTs"
@@ -1969,10 +5950,43 @@ url = "https://github.com/PurpleZone/NFTs"
 url = "https://github.com/PwnedNoMore/cashio-exploit-workshop"
 
 [[repo]]
+url = "https://github.com/Pylypchukzzz/candy-shop-storefront"
+
+[[repo]]
 url = "https://github.com/qapquiz/solscatter"
 
 [[repo]]
+url = "https://github.com/qasim5611/loyaltyToken"
+
+[[repo]]
+url = "https://github.com/qipqop/tiktok-solana"
+
+[[repo]]
 url = "https://github.com/QualifiedDevs/solana-wallet-adapter-mui"
+
+[[repo]]
+url = "https://github.com/quantium-rock/codeworks"
+
+[[repo]]
+url = "https://github.com/quantium-rock/nft-mint"
+
+[[repo]]
+url = "https://github.com/QuestionSigns/solana-challenge-1"
+
+[[repo]]
+url = "https://github.com/rabbit-sol/metakul-final-before-mint"
+
+[[repo]]
+url = "https://github.com/RACE-Game/racepoker-transactor"
+
+[[repo]]
+url = "https://github.com/Radimersky/Kontent.ai-data-integrity-validation"
+
+[[repo]]
+url = "https://github.com/Radimersky/Solana-smart-contract-for-data-integrity-validation"
+
+[[repo]]
+url = "https://github.com/RafaBlockDev/Hello-World-Solana"
 
 [[repo]]
 url = "https://github.com/RafaCypherpunk/Dapp-Solana"
@@ -1981,25 +5995,88 @@ url = "https://github.com/RafaCypherpunk/Dapp-Solana"
 url = "https://github.com/rahuljaguste/solana-riptide-hackathon"
 
 [[repo]]
+url = "https://github.com/rahulkathuriaaa/organ-donor-blockchain"
+
+[[repo]]
 url = "https://github.com/rahulmadduluri/DeFiBrowser"
+
+[[repo]]
+url = "https://github.com/rahulpatilcodeb/Gari-SDK-FrontEnd"
+
+[[repo]]
+url = "https://github.com/Rahuls-Coding/solana-guestbook"
+
+[[repo]]
+url = "https://github.com/rahultejus/sol_airdrop"
+
+[[repo]]
+url = "https://github.com/raibove/solana-intro-frontend"
 
 [[repo]]
 url = "https://github.com/RainbowDAO/01-Near-MetaBUILD-RainbowDAO-Factory"
 
 [[repo]]
+url = "https://github.com/RajAdwaita/BtcMusic"
+
+[[repo]]
+url = "https://github.com/RajAdwaita/Studious"
+
+[[repo]]
+url = "https://github.com/rajarshigit14/solana-wallet"
+
+[[repo]]
 url = "https://github.com/rally-dfs/anchor-token-swap"
+
+[[repo]]
+url = "https://github.com/RAMJI-16/airdrop-sol"
 
 [[repo]]
 url = "https://github.com/randlabs/pricecaster-v2"
 
 [[repo]]
+url = "https://github.com/Ranjan416kumar/airdrop-sol"
+
+[[repo]]
+url = "https://github.com/rarible/sdk"
+
+[[repo]]
+url = "https://github.com/RasButAss/sol-airdrop"
+
+[[repo]]
 url = "https://github.com/RASPER-Nest/Pyth-Indexing"
+
+[[repo]]
+url = "https://github.com/rathe-tech/rathe-solana-template"
+
+[[repo]]
+url = "https://github.com/ratneshjais/web3.js-basics"
+
+[[repo]]
+url = "https://github.com/Raul-A-Flores/solana_frontent_nft"
+
+[[repo]]
+url = "https://github.com/Raul-Alexander-Flores/solana-nft-store"
+
+[[repo]]
+url = "https://github.com/Raul-Alexander-Flores/solana-rust-frontend"
+
+[[repo]]
+url = "https://github.com/ravikant333/Charity-Solana"
+
+[[repo]]
+url = "https://github.com/ravikant333/Xnft-Token"
+
+[[repo]]
+url = "https://github.com/rayaanoidPrime/nft-mint-app"
 
 [[repo]]
 url = "https://github.com/raydium-io/amm_anchor"
 
 [[repo]]
 url = "https://github.com/raydium-io/arrform"
+
+[[repo]]
+url = "https://github.com/raydium-io/dec_16_exploit"
 
 [[repo]]
 url = "https://github.com/raydium-io/media-assets"
@@ -2047,10 +6124,25 @@ url = "https://github.com/raydium-io/swap-widget"
 url = "https://github.com/raydium-io/token-list"
 
 [[repo]]
+url = "https://github.com/Rayfenglei/ship-solana-nft-collection"
+
+[[repo]]
 url = "https://github.com/raymondjacobson/dropunlock"
 
 [[repo]]
+url = "https://github.com/Razdan123/sol_airdrop"
+
+[[repo]]
 url = "https://github.com/RealAwesomeness/drift-liquidator"
+
+[[repo]]
+url = "https://github.com/redazul/vanilla_sol"
+
+[[repo]]
+url = "https://github.com/redfieldfire/Etherfuse-Hackathon"
+
+[[repo]]
+url = "https://github.com/Redmon540/solana-dapp-wallet-connection"
 
 [[repo]]
 url = "https://github.com/reecen96/Riff-Raffle-Solana-NFT"
@@ -2059,19 +6151,148 @@ url = "https://github.com/reecen96/Riff-Raffle-Solana-NFT"
 url = "https://github.com/reguengos/galaticgeckosolanartrank"
 
 [[repo]]
+url = "https://github.com/rehmanm/soldev-01"
+
+[[repo]]
 url = "https://github.com/Rengo-Labs/CasperLabs-Solana-bridge"
 
 [[repo]]
 url = "https://github.com/renproject/ren-solana"
 
 [[repo]]
+url = "https://github.com/renzium/phantom-app"
+
+[[repo]]
 url = "https://github.com/repomint/repomint-web"
+
+[[repo]]
+url = "https://github.com/revick/DeBooks"
+
+[[repo]]
+url = "https://github.com/revick/hukka_riptide"
 
 [[repo]]
 url = "https://github.com/Rewired-one/occam"
 
 [[repo]]
+url = "https://github.com/rex-god/shyft_signer_frontend"
+
+[[repo]]
+url = "https://github.com/reza2870/Realm-web3"
+
+[[repo]]
+url = "https://github.com/reza2870/Solana-cmv3-multi-guards-Mint"
+
+[[repo]]
+url = "https://github.com/RhettButler529/Solana-Raffle"
+
+[[repo]]
+url = "https://github.com/RhettButler529/Solana-Staking-Core-SmartContract"
+
+[[repo]]
+url = "https://github.com/ricardocr987/heavy-duty-challenges"
+
+[[repo]]
+url = "https://github.com/ricardomlima/gif-portal-solana-backend"
+
+[[repo]]
+url = "https://github.com/richiehydra/Gif-portal-solana"
+
+[[repo]]
+url = "https://github.com/rilwan99/buildspace-gif-portal"
+
+[[repo]]
+url = "https://github.com/rilwan99/y00ts-dashboard"
+
+[[repo]]
+url = "https://github.com/rimtzg/react-unity"
+
+[[repo]]
+url = "https://github.com/risingsun007/solana_rust_tweet"
+
+[[repo]]
+url = "https://github.com/RiteshPuvvada/Create-your-personal-cryptocurrency-with-Javascript"
+
+[[repo]]
+url = "https://github.com/RiteshPuvvada/Personal-Token-With-Rust-Smart-Contracts"
+
+[[repo]]
+url = "https://github.com/riyahope77/candy-shop-storefront"
+
+[[repo]]
+url = "https://github.com/rjramirez/Challenge1-solana"
+
+[[repo]]
+url = "https://github.com/rkmonarch/Solana-Intro"
+
+[[repo]]
+url = "https://github.com/rkmonarch/Solana-NFT-Minter"
+
+[[repo]]
+url = "https://github.com/rluevanos/solana-airdrop-tut"
+
+[[repo]]
+url = "https://github.com/rluevanos/solana-calculate-tut"
+
+[[repo]]
+url = "https://github.com/rluevanos/solana-crowdfunding-dapp"
+
+[[repo]]
 url = "https://github.com/robbiewain/solana-viz"
+
+[[repo]]
+url = "https://github.com/robport/nextjs-solana"
+
+[[repo]]
+url = "https://github.com/rocky2801/Solana-Starters"
+
+[[repo]]
+url = "https://github.com/rockymartin0124/Solana-Betting-Game"
+
+[[repo]]
+url = "https://github.com/rohan-201/solana-auth-adapter"
+
+[[repo]]
+url = "https://github.com/RohanKapurDEV/solend-fork-mev"
+
+[[repo]]
+url = "https://github.com/Rohitkk432/airdrop"
+
+[[repo]]
+url = "https://github.com/Rohitkk432/Buildoor"
+
+[[repo]]
+url = "https://github.com/Rohitprajapat052/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/RohitSingh107/anchor-nft-mint"
+
+[[repo]]
+url = "https://github.com/RohitSingh107/pdas"
+
+[[repo]]
+url = "https://github.com/RohitSingh107/transfer-sol"
+
+[[repo]]
+url = "https://github.com/romangordeew/streamglow-example"
+
+[[repo]]
+url = "https://github.com/ronnie-36/Review-System"
+
+[[repo]]
+url = "https://github.com/ronnyhaase/solplorer"
+
+[[repo]]
+url = "https://github.com/rooware-io/executor"
+
+[[repo]]
+url = "https://github.com/rooware-io/sol-desktop-wallet"
+
+[[repo]]
+url = "https://github.com/rorocabrera/nftator"
+
+[[repo]]
+url = "https://github.com/RostislavLitovkin/GalaxyLogicGameMAUI"
 
 [[repo]]
 url = "https://github.com/rove-to/solana-smart-contracts"
@@ -2080,7 +6301,16 @@ url = "https://github.com/rove-to/solana-smart-contracts"
 url = "https://github.com/roynalnaruto/moebius"
 
 [[repo]]
+url = "https://github.com/rpajo/solana-staking"
+
+[[repo]]
 url = "https://github.com/rudijs/serum-dex-scripts"
+
+[[repo]]
+url = "https://github.com/RustBlockchainEngineer/atlas-contracts-audit"
+
+[[repo]]
+url = "https://github.com/RustBlockchainEngineer/nft-launchpad"
 
 [[repo]]
 url = "https://github.com/RustBlockchainEngineer/ratio-backend"
@@ -2095,10 +6325,82 @@ url = "https://github.com/RustBlockchainEngineer/ratio-frontend"
 url = "https://github.com/RustBlockchainEngineer/sol-liquity"
 
 [[repo]]
+url = "https://github.com/RustBlockchainEngineer/unloc-admin-next"
+
+[[repo]]
 url = "https://github.com/RustBlockchainEngineer/unloc-contracts"
 
 [[repo]]
 url = "https://github.com/RustBlockchainEngineer/unloc-frontend"
+
+[[repo]]
+url = "https://github.com/RustBlockchainEngineer/vovo-finance-protocol"
+
+[[repo]]
+url = "https://github.com/Rutujeet/airdrop-sol"
+
+[[repo]]
+url = "https://github.com/rxthore/solana-splits"
+
+[[repo]]
+url = "https://github.com/rxyxn/airdrop"
+
+[[repo]]
+url = "https://github.com/rye-com/store-builder"
+
+[[repo]]
+url = "https://github.com/s6thgehr/buidloor"
+
+[[repo]]
+url = "https://github.com/s6thgehr/buidloor-nft-minter"
+
+[[repo]]
+url = "https://github.com/s6thgehr/movie-review-comments"
+
+[[repo]]
+url = "https://github.com/saadjhk/glitter-lock"
+
+[[repo]]
+url = "https://github.com/saadjhk/token-lottery"
+
+[[repo]]
+url = "https://github.com/SabariGanesh-K/some-nameless-solana-project"
+
+[[repo]]
+url = "https://github.com/saber-hq/stable-swap"
+
+[[repo]]
+url = "https://github.com/sablevsky/solana-helpers"
+
+[[repo]]
+url = "https://github.com/sacred-danny/fetch-nft"
+
+[[repo]]
+url = "https://github.com/sacredstarfamily/awesomesauce"
+
+[[repo]]
+url = "https://github.com/saddam-hussain-ideo/volatility-solana"
+
+[[repo]]
+url = "https://github.com/sadia-4/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/Sagar-Gondage/solana"
+
+[[repo]]
+url = "https://github.com/sahildotexe/buildoors"
+
+[[repo]]
+url = "https://github.com/Sahilsingh0507/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/saicharanpogul/anchor-nft-staking"
+
+[[repo]]
+url = "https://github.com/saicharanpogul/essential-elements"
+
+[[repo]]
+url = "https://github.com/saicharanpogul/tatvos"
 
 [[repo]]
 url = "https://github.com/SairamNomula/Shaadhi-Patr"
@@ -2107,7 +6409,28 @@ url = "https://github.com/SairamNomula/Shaadhi-Patr"
 url = "https://github.com/salmanbao/alienloop"
 
 [[repo]]
+url = "https://github.com/salmanghazi/SOLANA-Airdrop"
+
+[[repo]]
+url = "https://github.com/salmonw/salmon-wallet-standard"
+
+[[repo]]
+url = "https://github.com/samcms1234/nftproject"
+
+[[repo]]
+url = "https://github.com/SAMUEL-ZUOKUMOR/mintfu-tokens"
+
+[[repo]]
+url = "https://github.com/SAMUEL-ZUOKUMOR/my-first-solana-script"
+
+[[repo]]
 url = "https://github.com/samuelvanderwaal/metaboss"
+
+[[repo]]
+url = "https://github.com/samuelvanderwaal/solana-transaction-crawler"
+
+[[repo]]
+url = "https://github.com/samumirandam/platzi-rust-solana-movies"
 
 [[repo]]
 url = "https://github.com/sanjeetunited100/sol-launch"
@@ -2119,22 +6442,88 @@ url = "https://github.com/sanjsingh07/private-blockchain"
 url = "https://github.com/Sapien-news/sapien-solana-wallet"
 
 [[repo]]
+url = "https://github.com/SarakondaRithvik/airdrop"
+
+[[repo]]
+url = "https://github.com/saranshisavailable/airdrop"
+
+[[repo]]
 url = "https://github.com/sarawut11/spl-token-chrome-extension-wallet"
+
+[[repo]]
+url = "https://github.com/sarhugo/vue-candy-machine-ui"
+
+[[repo]]
+url = "https://github.com/sasuke0601/woodpeckers-staking-solana"
+
+[[repo]]
+url = "https://github.com/Satellite-im/Core-PWA"
 
 [[repo]]
 url = "https://github.com/Satellite-im/Satellite-Absolute"
 
 [[repo]]
+url = "https://github.com/sayantank/serum-explorer"
+
+[[repo]]
+url = "https://github.com/sayantank/serum-sdk"
+
+[[repo]]
+url = "https://github.com/scale-protocol/bond"
+
+[[repo]]
+url = "https://github.com/scale-protocol/web"
+
+[[repo]]
+url = "https://github.com/scallop-io/scallop-user-snapshot-scrapper"
+
+[[repo]]
+url = "https://github.com/schellenbergk/solana-wallet-adapter-nextjs13-example"
+
+[[repo]]
+url = "https://github.com/scooptix/simpl3r_prot3ct_init"
+
+[[repo]]
+url = "https://github.com/scott-dn/sol-swap"
+
+[[repo]]
+url = "https://github.com/SDEEY/solReact1upgrade"
+
+[[repo]]
+url = "https://github.com/SDEEY/solReact2upgrade"
+
+[[repo]]
+url = "https://github.com/SDEEY/solReact3upgrade"
+
+[[repo]]
 url = "https://github.com/SealSC/multi-chain-js"
+
+[[repo]]
+url = "https://github.com/seanpanpan321/BuidlCamp"
 
 [[repo]]
 url = "https://github.com/Secured-Finance/dione"
 
 [[repo]]
+url = "https://github.com/sededege/solanaworldcup2022"
+
+[[repo]]
 url = "https://github.com/Seedifyfund/Ghost-Snapshot"
 
 [[repo]]
+url = "https://github.com/sei-protocol/nitro-replayer"
+
+[[repo]]
+url = "https://github.com/seraph-foundation/cherub-dex"
+
+[[repo]]
+url = "https://github.com/serejke/solana-place"
+
+[[repo]]
 url = "https://github.com/serfrae/scy-app"
+
+[[repo]]
+url = "https://github.com/sergeytimoshin/solana-nft"
 
 [[repo]]
 url = "https://github.com/SerumTaxTime/serum-dex-ui"
@@ -2152,10 +6541,118 @@ url = "https://github.com/seunbayo/gif-portal"
 url = "https://github.com/SHA888/solana-tutorial"
 
 [[repo]]
+url = "https://github.com/shabbiryk/Solana_Core_1"
+
+[[repo]]
+url = "https://github.com/shadymfer/stknew"
+
+[[repo]]
+url = "https://github.com/shahbaz17/web3auth-solana-react-demo"
+
+[[repo]]
+url = "https://github.com/sharbat/BuildanNFTminter"
+
+[[repo]]
+url = "https://github.com/SharkyFi/client"
+
+[[repo]]
+url = "https://github.com/shashkovdanil/solana-crowdfunding"
+
+[[repo]]
+url = "https://github.com/ShineDev0803/Candy-shop-storefront-nextjs"
+
+[[repo]]
+url = "https://github.com/shiroperu/solana-pay_with_iot"
+
+[[repo]]
+url = "https://github.com/shittyfibby/candyshop"
+
+[[repo]]
+url = "https://github.com/shittyfibby/cautious-telegram"
+
+[[repo]]
+url = "https://github.com/shittyfibby/wabbits2"
+
+[[repo]]
+url = "https://github.com/shittyfibby/wabbits3"
+
+[[repo]]
+url = "https://github.com/shittyfibby/wabbitsshop1"
+
+[[repo]]
+url = "https://github.com/ShivamAgarwal-code/HydraSwap"
+
+[[repo]]
+url = "https://github.com/shivanshg06/airdrop"
+
+[[repo]]
+url = "https://github.com/shivanshi-s/tunes.dao"
+
+[[repo]]
+url = "https://github.com/Shiyasmohd/solana-twitter"
+
+[[repo]]
+url = "https://github.com/shnoopysol/gif-portal"
+
+[[repo]]
+url = "https://github.com/shockValue666/ds"
+
+[[repo]]
+url = "https://github.com/shockValue666/wl"
+
+[[repo]]
+url = "https://github.com/shokod/airbnb-solana"
+
+[[repo]]
 url = "https://github.com/sholtodouglas/amplify"
 
 [[repo]]
+url = "https://github.com/Shpota/game"
+
+[[repo]]
+url = "https://github.com/Shpota/game-contract"
+
+[[repo]]
+url = "https://github.com/SHREERUTHRA/airdrop"
+
+[[repo]]
+url = "https://github.com/Shreyash-Addepalli/proto_final"
+
+[[repo]]
 url = "https://github.com/ShreyderD/eyes"
+
+[[repo]]
+url = "https://github.com/SHU-BABA/Airdrop"
+
+[[repo]]
+url = "https://github.com/SHU-BABA/airDroptut"
+
+[[repo]]
+url = "https://github.com/Shubh-1-am/sol_airdrop1"
+
+[[repo]]
+url = "https://github.com/shubham-0536/Test-Solana"
+
+[[repo]]
+url = "https://github.com/shubham-rathod1/solana_core"
+
+[[repo]]
+url = "https://github.com/Shubhisingh921/file-manager"
+
+[[repo]]
+url = "https://github.com/Shubhisingh921/filemanager"
+
+[[repo]]
+url = "https://github.com/Shubhisingh921/SOLTORRENT"
+
+[[repo]]
+url = "https://github.com/shubhsardana29/solana-balance-fetcher"
+
+[[repo]]
+url = "https://github.com/shungo0222/nft-minter"
+
+[[repo]]
+url = "https://github.com/shungo0222/spl-token"
 
 [[repo]]
 url = "https://github.com/Shyft-to/shyft-solana-api"
@@ -2170,22 +6667,67 @@ url = "https://github.com/siddharths067/hellosolana"
 url = "https://github.com/siddharths067/solanaconv"
 
 [[repo]]
+url = "https://github.com/sifang/anchor-tracks"
+
+[[repo]]
 url = "https://github.com/simplesthing/solana-escrow"
+
+[[repo]]
+url = "https://github.com/singhkaran202/airdrop-sol"
 
 [[repo]]
 url = "https://github.com/Sir-muhell/nftmarket"
 
 [[repo]]
+url = "https://github.com/sistemaseltigre/destinybuildor"
+
+[[repo]]
+url = "https://github.com/sistemaseltigre/destinyvercel"
+
+[[repo]]
 url = "https://github.com/siuclau4/solana-course"
 
 [[repo]]
+url = "https://github.com/siyavashhamdi/connect-to-solana-wallet"
+
+[[repo]]
+url = "https://github.com/sk1122/svinge"
+
+[[repo]]
+url = "https://github.com/skdonepudi/buildoor-nfts"
+
+[[repo]]
+url = "https://github.com/skdonepudi/solanacore-buildspace"
+
+[[repo]]
+url = "https://github.com/skullnbonesdao/cove.skullnbones.xyz"
+
+[[repo]]
 url = "https://github.com/skullnbonesdao/trade.skullnbones.xyz"
+
+[[repo]]
+url = "https://github.com/skydiver107/SnapShot_ToolKit"
+
+[[repo]]
+url = "https://github.com/skydiver107/Three_Refund_Frontend"
+
+[[repo]]
+url = "https://github.com/skydiver107/Three_Staking_Frontend"
+
+[[repo]]
+url = "https://github.com/skydiver107/yourNFT_Hub"
 
 [[repo]]
 url = "https://github.com/skynetcap/solanaj-programs"
 
 [[repo]]
 url = "https://github.com/skynetcapital/solanaj"
+
+[[repo]]
+url = "https://github.com/slckbsk/solana-nftminter-vercel"
+
+[[repo]]
+url = "https://github.com/Sly-Web3/Buildspace-Solana-Walkthrough"
 
 [[repo]]
 url = "https://github.com/smartcode1107/smart_synesis_ui"
@@ -2197,7 +6739,25 @@ url = "https://github.com/smartcontractkit/chainlink-solana"
 url = "https://github.com/smartcontractkit/solana-starter-kit"
 
 [[repo]]
+url = "https://github.com/smartdev0530/solana-rent-share"
+
+[[repo]]
+url = "https://github.com/SmartGru25/Solana-React-Minimal"
+
+[[repo]]
+url = "https://github.com/snowy881/mhcnft-shop"
+
+[[repo]]
+url = "https://github.com/SokuPay/frontend"
+
+[[repo]]
+url = "https://github.com/SokuPay/web3server"
+
+[[repo]]
 url = "https://github.com/sol-blockstream/solstream"
+
+[[repo]]
+url = "https://github.com/sol-flex/detectoor"
 
 [[repo]]
 url = "https://github.com/sol-survivor/awesome-solana-gaming"
@@ -2222,6 +6782,9 @@ url = "https://github.com/sol-survivor/token-list"
 
 [[repo]]
 url = "https://github.com/sol-survivor/wager_program"
+
+[[repo]]
+url = "https://github.com/solace-labs/solace-wallet"
 
 [[repo]]
 url = "https://github.com/solana-dev-adv/solana-cookbook"
@@ -2275,6 +6838,9 @@ url = "https://github.com/solana-developers/solana-grants"
 url = "https://github.com/solana-developers/solana-guides"
 
 [[repo]]
+url = "https://github.com/solana-developers/tooling-examples"
+
+[[repo]]
 url = "https://github.com/solana-developers/web3-examples"
 
 [[repo]]
@@ -2282,6 +6848,18 @@ url = "https://github.com/solana-developers/workshop-dapps"
 
 [[repo]]
 url = "https://github.com/solana-developers/workshop-dapps-redacted"
+
+[[repo]]
+url = "https://github.com/solana-developers/workshops"
+
+[[repo]]
+url = "https://github.com/solana-fm/spi-wrapper"
+
+[[repo]]
+url = "https://github.com/solana-kaizen/kaizen"
+
+[[repo]]
+url = "https://github.com/solana-kaizen/kaizen-example"
 
 [[repo]]
 url = "https://github.com/solana-labs/bench-tps-dos-test"
@@ -2333,6 +6911,9 @@ url = "https://github.com/solana-labs/compiler-builtins"
 
 [[repo]]
 url = "https://github.com/solana-labs/compiler-rt"
+
+[[repo]]
+url = "https://github.com/solana-labs/contributor-access-policy"
 
 [[repo]]
 url = "https://github.com/solana-labs/create-react-app-buildpack"
@@ -2588,6 +7169,9 @@ url = "https://github.com/solana-labs/solana-learning-content"
 url = "https://github.com/solana-labs/solana-pay"
 
 [[repo]]
+url = "https://github.com/solana-labs/solana-pay-scaffold"
+
+[[repo]]
 url = "https://github.com/solana-labs/solana-perf-libs"
 
 [[repo]]
@@ -2669,6 +7253,9 @@ url = "https://github.com/solana-labs/wormhole-hackathon"
 url = "https://github.com/solana-labs/ws-rs"
 
 [[repo]]
+url = "https://github.com/Solana-Studio/Candy-Machine-V3-UI"
+
+[[repo]]
 url = "https://github.com/SolanaEngineer/atlas-contracts-audit"
 
 [[repo]]
@@ -2681,10 +7268,16 @@ url = "https://github.com/SolanaEngineer/vovo-finance-protocol"
 url = "https://github.com/solanasail/tipsailbot"
 
 [[repo]]
+url = "https://github.com/solanasoap/portal"
+
+[[repo]]
 url = "https://github.com/solanatiger/token-list"
 
 [[repo]]
 url = "https://github.com/solanax/deficompare"
+
+[[repo]]
+url = "https://github.com/solape-dex/solape-explorer"
 
 [[repo]]
 url = "https://github.com/solarbitrage/solarbitrage"
@@ -2693,7 +7286,25 @@ url = "https://github.com/solarbitrage/solarbitrage"
 url = "https://github.com/solaris-protocol/solaris-ui"
 
 [[repo]]
+url = "https://github.com/SolarityVR/solarity-backend"
+
+[[repo]]
+url = "https://github.com/solaxlabs/spl-faucet"
+
+[[repo]]
+url = "https://github.com/solaxlabs/spl-utils"
+
+[[repo]]
+url = "https://github.com/solcryptic/gun-chat"
+
+[[repo]]
 url = "https://github.com/soldex-ai/soldex-tokens-swap"
+
+[[repo]]
+url = "https://github.com/solflare-wallet/utl-aggregator"
+
+[[repo]]
+url = "https://github.com/solfren-team/solfren-web-sdk"
 
 [[repo]]
 url = "https://github.com/SOLLock/raydium-ui"
@@ -2732,22 +7343,100 @@ url = "https://github.com/solongwallet/solong.js"
 url = "https://github.com/Solottery/Backend"
 
 [[repo]]
+url = "https://github.com/solpressplugins/solpress-login-plugin"
+
+[[repo]]
+url = "https://github.com/solpressplugins/solpress-pay"
+
+[[repo]]
+url = "https://github.com/SolSlugs/slugs-website-reloaded"
+
+[[repo]]
+url = "https://github.com/soluna-protocol/bridge-forwarder"
+
+[[repo]]
+url = "https://github.com/soluna-protocol/DefiLlama-Adapters"
+
+[[repo]]
+url = "https://github.com/soluna-protocol/dfunk_contracts"
+
+[[repo]]
+url = "https://github.com/soluna-protocol/interest-redirect"
+
+[[repo]]
+url = "https://github.com/soluna-protocol/rewarder-list"
+
+[[repo]]
+url = "https://github.com/soluna-protocol/saber-periphery"
+
+[[repo]]
+url = "https://github.com/soluna-protocol/slna-supply-registry"
+
+[[repo]]
+url = "https://github.com/soluna-protocol/soluna-rebase-registry"
+
+[[repo]]
+url = "https://github.com/soluna-protocol/soluna-switchboard-oracle"
+
+[[repo]]
+url = "https://github.com/soluna-protocol/solust-rebase"
+
+[[repo]]
+url = "https://github.com/soluna-protocol/token-list"
+
+[[repo]]
 url = "https://github.com/solventprotocol/solvent-program"
+
+[[repo]]
+url = "https://github.com/solvia-labs/node-dapp"
+
+[[repo]]
+url = "https://github.com/Somil-Shukla/Airdrop"
+
+[[repo]]
+url = "https://github.com/somya-15/de-monopoly"
+
+[[repo]]
+url = "https://github.com/sonarwatch/workshop-solana-data"
+
+[[repo]]
+url = "https://github.com/sooyeon0901/edu_mintNft"
+
+[[repo]]
+url = "https://github.com/sophiayk/banana-swap"
 
 [[repo]]
 url = "https://github.com/sosol-gmi/sosol-client"
 
 [[repo]]
+url = "https://github.com/Sotatek-AnhDao/solana-nft-minter"
+
+[[repo]]
 url = "https://github.com/sotatek-dev/sol-staking-onchain-sdk"
 
 [[repo]]
+url = "https://github.com/Sotatek-LoiNguyen2/real-estate-self"
+
+[[repo]]
 url = "https://github.com/Sotatek-NguyenNguyen/gaming-api"
+
+[[repo]]
+url = "https://github.com/Sotatek-TruongNguyen2/solana-counter-sample"
 
 [[repo]]
 url = "https://github.com/soukaryag/xaiv"
 
 [[repo]]
 url = "https://github.com/Space-Runners/design-space-contracts"
+
+[[repo]]
+url = "https://github.com/spacemandev-git/dominari-ecs"
+
+[[repo]]
+url = "https://github.com/spinamp/spindexer"
+
+[[repo]]
+url = "https://github.com/spling-labs/social-protocol"
 
 [[repo]]
 url = "https://github.com/spling-protocol/social"
@@ -2759,7 +7448,22 @@ url = "https://github.com/SportsToken/solana-dashboard"
 url = "https://github.com/Squads-Protocol/squads-mpl"
 
 [[repo]]
+url = "https://github.com/squirdev/Solana-NFT-Scripts"
+
+[[repo]]
+url = "https://github.com/Srijan-1543/airdrop"
+
+[[repo]]
+url = "https://github.com/srijan029/airdrop-solana"
+
+[[repo]]
+url = "https://github.com/SrJMaia/solana-blockchain-developer-course"
+
+[[repo]]
 url = "https://github.com/srmswap/srmswap.github.io"
+
+[[repo]]
+url = "https://github.com/ssdbkey/spl-token-chrome-extension-wallet"
 
 [[repo]]
 url = "https://github.com/staccDOTsol/f3d.fair3d.me"
@@ -2768,13 +7472,43 @@ url = "https://github.com/staccDOTsol/f3d.fair3d.me"
 url = "https://github.com/staccDOTsol/gumdrop"
 
 [[repo]]
+url = "https://github.com/staccDOTsol/notPplPleasr"
+
+[[repo]]
+url = "https://github.com/staccDOTsol/rainyStrata"
+
+[[repo]]
+url = "https://github.com/staccDOTsol/subscription_backend"
+
+[[repo]]
+url = "https://github.com/staccDOTsol/subscription_services_as_a_service"
+
+[[repo]]
+url = "https://github.com/staccDOTsol/traitupgrad00r"
+
+[[repo]]
 url = "https://github.com/Stacktical/stacktical-dsla-contracts-solana"
+
+[[repo]]
+url = "https://github.com/Stacktical/stacktical-dsla-solana-program"
+
+[[repo]]
+url = "https://github.com/stafiprotocol/stafi-rtoken"
+
+[[repo]]
+url = "https://github.com/staratlas-italia/frontend"
+
+[[repo]]
+url = "https://github.com/staratlas-italia/sai-programs"
 
 [[repo]]
 url = "https://github.com/StarBots-NFT/metaplex-robots"
 
 [[repo]]
 url = "https://github.com/statikdev/solana-daovote"
+
+[[repo]]
+url = "https://github.com/stegaBOB/solana-program-template"
 
 [[repo]]
 url = "https://github.com/Stellar-Galactic-Force/sgfunited-website"
@@ -2789,16 +7523,79 @@ url = "https://github.com/step-finance/serum-ts"
 url = "https://github.com/step-finance/token-list"
 
 [[repo]]
+url = "https://github.com/Stepanishin/dsShop"
+
+[[repo]]
+url = "https://github.com/Stepanishin/SandCity"
+
+[[repo]]
+url = "https://github.com/stephenasuncionDEV/nfthost"
+
+[[repo]]
+url = "https://github.com/stik-proj/mint-token-stik"
+
+[[repo]]
+url = "https://github.com/storyworx/solana-client"
+
+[[repo]]
 url = "https://github.com/strangemoodfoundation/strangemood"
+
+[[repo]]
+url = "https://github.com/StrawHatDAO/solana"
 
 [[repo]]
 url = "https://github.com/Strawhats-DAO/solana"
 
 [[repo]]
+url = "https://github.com/stream-protocol/payment-dapp"
+
+[[repo]]
+url = "https://github.com/stream-protocol/solana-pay-example"
+
+[[repo]]
+url = "https://github.com/stream-protocol/stream-pay-app"
+
+[[repo]]
+url = "https://github.com/stream-protocol/stream-pay-mobile-wallet-app"
+
+[[repo]]
+url = "https://github.com/StreaXOfficial/streax-hub"
+
+[[repo]]
 url = "https://github.com/StrikeProtocols/strike-solana-wallet"
 
 [[repo]]
+url = "https://github.com/studentofcoding/VV_staking_frontend"
+
+[[repo]]
+url = "https://github.com/StudioThree/hypeday-react"
+
+[[repo]]
+url = "https://github.com/sudoeer/solplace"
+
+[[repo]]
+url = "https://github.com/sultandilaram/express-template"
+
+[[repo]]
+url = "https://github.com/SuluKarpuz/solana-core-1"
+
+[[repo]]
+url = "https://github.com/sunrise-stake/app"
+
+[[repo]]
+url = "https://github.com/superdev0527/automint"
+
+[[repo]]
+url = "https://github.com/superdev0527/staking-solana"
+
+[[repo]]
+url = "https://github.com/supermean-ayaz/katana-lp-prices"
+
+[[repo]]
 url = "https://github.com/supersapiensdevlab/Mintflick-webapp"
+
+[[repo]]
+url = "https://github.com/supreeth99/Ride-share-Dapp"
 
 [[repo]]
 url = "https://github.com/Sure-Protocol/sure-v1"
@@ -2810,10 +7607,22 @@ url = "https://github.com/SuSy-One/susy-v2"
 url = "https://github.com/SuSy-One/susy-web"
 
 [[repo]]
+url = "https://github.com/svelte-on-solana/wallet-adapter"
+
+[[repo]]
+url = "https://github.com/swaingotnochill/SoLBalanceChecker"
+
+[[repo]]
+url = "https://github.com/Swap-nil-2003/solana_wallet-airdrop"
+
+[[repo]]
 url = "https://github.com/swim-io/pool"
 
 [[repo]]
 url = "https://github.com/syco214/BHSG"
+
+[[repo]]
+url = "https://github.com/syed-dce/solana-social-react-native"
 
 [[repo]]
 url = "https://github.com/Synthetify/api"
@@ -2855,6 +7664,36 @@ url = "https://github.com/t-900-a/odoo-solana-payments"
 url = "https://github.com/t-nelson/solana"
 
 [[repo]]
+url = "https://github.com/t0n1zz/elon-dao"
+
+[[repo]]
+url = "https://github.com/tac0turtle/squifi"
+
+[[repo]]
+url = "https://github.com/tadeoaguilar/flipper"
+
+[[repo]]
+url = "https://github.com/tadeoaguilar/solana"
+
+[[repo]]
+url = "https://github.com/Taimoorkhan1122/solana-buildoor"
+
+[[repo]]
+url = "https://github.com/talha4real/ween_friens"
+
+[[repo]]
+url = "https://github.com/Talos2251/buildoor"
+
+[[repo]]
+url = "https://github.com/Tan-Software-Studio/rumble_auto_upgrade"
+
+[[repo]]
+url = "https://github.com/tanmay-0017/Blog-NFT-MarketPlace"
+
+[[repo]]
+url = "https://github.com/Tanmaydeep-Singh/Phantom-Wallet-Connection"
+
+[[repo]]
 url = "https://github.com/TapestryDAO/tapestry"
 
 [[repo]]
@@ -2867,13 +7706,61 @@ url = "https://github.com/tardis-dev/serum-machine"
 url = "https://github.com/tardis-dev/serum-vial"
 
 [[repo]]
+url = "https://github.com/tariqrasheed172001/solana-airDrop"
+
+[[repo]]
+url = "https://github.com/TauqeerAhmad5201/low-battery-hackday"
+
+[[repo]]
+url = "https://github.com/TeamX-x/DHub-solana-store"
+
+[[repo]]
+url = "https://github.com/TeamX-x/metaplex-script"
+
+[[repo]]
+url = "https://github.com/techakhil-me/solana"
+
+[[repo]]
+url = "https://github.com/techcapo/3dmob"
+
+[[repo]]
+url = "https://github.com/TechieTeee/Helium_Token_Balances_Webhook"
+
+[[repo]]
+url = "https://github.com/TechieTeee/Swage"
+
+[[repo]]
+url = "https://github.com/technomads-in/rumble-auto-upgrade"
+
+[[repo]]
 url = "https://github.com/tema7707/solana_hack"
+
+[[repo]]
+url = "https://github.com/Temperedfire/continuum"
+
+[[repo]]
+url = "https://github.com/terorie/gerrit-plugin-gh-actions"
+
+[[repo]]
+url = "https://github.com/Terry-Diana/Solana-module2-lesson1"
 
 [[repo]]
 url = "https://github.com/testhostdevelopers/Project-SM"
 
 [[repo]]
+url = "https://github.com/Tfauves/sol_social_app"
+
+[[repo]]
 url = "https://github.com/thachtb/solana-bridge"
+
+[[repo]]
+url = "https://github.com/ThanhPhucHuynh/ppbike"
+
+[[repo]]
+url = "https://github.com/thanhtradev/react-solana-learn"
+
+[[repo]]
+url = "https://github.com/thanhvk/wallet-adapter-example"
 
 [[repo]]
 url = "https://github.com/the-market-finance/backend_v2"
@@ -2882,7 +7769,34 @@ url = "https://github.com/the-market-finance/backend_v2"
 url = "https://github.com/the-solvei/solvei-protocol"
 
 [[repo]]
+url = "https://github.com/thebobfather2/buildtorarity"
+
+[[repo]]
+url = "https://github.com/thebobfather2/candyshopex"
+
+[[repo]]
+url = "https://github.com/thebobfather2/pitybutton2"
+
+[[repo]]
+url = "https://github.com/thebobfather2/pitysjc"
+
+[[repo]]
 url = "https://github.com/TheBuilderDAO/kafe"
+
+[[repo]]
+url = "https://github.com/thecodingwhale/git-solana-buildspace"
+
+[[repo]]
+url = "https://github.com/TheDARKFURY/Switchboard-feed-Rust-Solana"
+
+[[repo]]
+url = "https://github.com/thedonmon/spl-airdrop"
+
+[[repo]]
+url = "https://github.com/thegitparticle/aptos-quick-nft"
+
+[[repo]]
+url = "https://github.com/TheHiddenValley/hiddentools"
 
 [[repo]]
 url = "https://github.com/TheLoneRonin/SolarweaveBridge"
@@ -2891,25 +7805,124 @@ url = "https://github.com/TheLoneRonin/SolarweaveBridge"
 url = "https://github.com/thisdot/blockchain-prediction-game"
 
 [[repo]]
+url = "https://github.com/thisisharsh7/BlockChain-Learning"
+
+[[repo]]
+url = "https://github.com/thisisharsh7/nft-exporters"
+
+[[repo]]
+url = "https://github.com/thisissamridh/limelight"
+
+[[repo]]
+url = "https://github.com/thivyaa-web-dev/airdrop-sol"
+
+[[repo]]
 url = "https://github.com/thuglabs/create-dapp-solana-nextjs"
 
 [[repo]]
 url = "https://github.com/thuglabs/solana-nft-token-metadata-update"
 
 [[repo]]
+url = "https://github.com/TiagoMat/LoginWeb3Auth"
+
+[[repo]]
+url = "https://github.com/Tidelaw/solrnkr"
+
+[[repo]]
 url = "https://github.com/tigthor/candy_machine"
+
+[[repo]]
+url = "https://github.com/tikkanenfelix/intro-solana-pinger"
+
+[[repo]]
+url = "https://github.com/tikkanenfelix/intro-solana-send"
+
+[[repo]]
+url = "https://github.com/tikkanenfelix/NFT-Minting-Platform"
+
+[[repo]]
+url = "https://github.com/Timadigwe/IvoryPayNative"
+
+[[repo]]
+url = "https://github.com/Timadigwe/metacrafter_project"
+
+[[repo]]
+url = "https://github.com/time-chambers/genesysgo-jwt-api"
+
+[[repo]]
+url = "https://github.com/Timothy1102/DHub-solana-store"
+
+[[repo]]
+url = "https://github.com/tinhbeng/solanaPayTest"
 
 [[repo]]
 url = "https://github.com/tinkin-tech/CryptoChess"
 
 [[repo]]
+url = "https://github.com/tinomudashe/solona-escrow"
+
+[[repo]]
+url = "https://github.com/TipLink/tiplink-sdk"
+
+[[repo]]
+url = "https://github.com/Tkay6677/Mint-Nft"
+
+[[repo]]
+url = "https://github.com/tleecode/notepad-solana"
+
+[[repo]]
+url = "https://github.com/TNFTM/skycan"
+
+[[repo]]
+url = "https://github.com/tobealive/anchor-solana-twitter"
+
+[[repo]]
+url = "https://github.com/ToddDeFi/escrow"
+
+[[repo]]
+url = "https://github.com/tolgaand/buildoor"
+
+[[repo]]
+url = "https://github.com/tolgaand/solana-spltoken-generator"
+
+[[repo]]
+url = "https://github.com/tolgatopkac/NFT-minter-frontend-on-solana"
+
+[[repo]]
+url = "https://github.com/tolgatopkac/Solana_Practicum"
+
+[[repo]]
+url = "https://github.com/tolgatopkac/StrawberryToken_Solana"
+
+[[repo]]
+url = "https://github.com/tomiece317/nftminter"
+
+[[repo]]
+url = "https://github.com/tomjrch/solana-sender"
+
+[[repo]]
 url = "https://github.com/tomland123/solana-roguelike"
+
+[[repo]]
+url = "https://github.com/tommyd2377/multisig"
 
 [[repo]]
 url = "https://github.com/tomoima525/escrow-program"
 
 [[repo]]
 url = "https://github.com/tomoima525/solana-sandbox"
+
+[[repo]]
+url = "https://github.com/topcook/nft-mint-sc-on-solana"
+
+[[repo]]
+url = "https://github.com/torusresearch/solana-embed"
+
+[[repo]]
+url = "https://github.com/torusresearch/solana-wallet"
+
+[[repo]]
+url = "https://github.com/tr0n-xD/solsplit"
 
 [[repo]]
 url = "https://github.com/TractionDAO/traction"
@@ -2921,7 +7934,16 @@ url = "https://github.com/trailofbits/solana-lints"
 url = "https://github.com/tranchien2002/solana-sdk"
 
 [[repo]]
+url = "https://github.com/tranvinh146/spl-payment"
+
+[[repo]]
+url = "https://github.com/tratteo/SolmangoNET"
+
+[[repo]]
 url = "https://github.com/travisseh/radiantwallet"
+
+[[repo]]
+url = "https://github.com/treviware/solify"
 
 [[repo]]
 url = "https://github.com/TribecaHQ/save"
@@ -2930,13 +7952,34 @@ url = "https://github.com/TribecaHQ/save"
 url = "https://github.com/TribecaHQ/tribeca"
 
 [[repo]]
+url = "https://github.com/trkurl/coin"
+
+[[repo]]
+url = "https://github.com/trkurl/NFTBuild"
+
+[[repo]]
+url = "https://github.com/TrueKupo/cluster"
+
+[[repo]]
 url = "https://github.com/TrueSightDAO/truesight_protocol"
+
+[[repo]]
+url = "https://github.com/truflationdev/solana-link"
+
+[[repo]]
+url = "https://github.com/trungbach/solana-template"
 
 [[repo]]
 url = "https://github.com/trungdung22/react-sample-iu"
 
 [[repo]]
+url = "https://github.com/truonggau/swap_token"
+
+[[repo]]
 url = "https://github.com/trustee-wallet/trusteeWallet"
+
+[[repo]]
+url = "https://github.com/TrustWallet/trust-web3-provider"
 
 [[repo]]
 url = "https://github.com/tsarkar23/escrow"
@@ -2948,13 +7991,82 @@ url = "https://github.com/tsnyder701/everybuddy"
 url = "https://github.com/tsnyder701/solana-name-server"
 
 [[repo]]
+url = "https://github.com/tuananhvp25081995/firefox_esport_bot"
+
+[[repo]]
+url = "https://github.com/tuananhvp25081995/fisport_bot"
+
+[[repo]]
+url = "https://github.com/tuanle161099/le-flash"
+
+[[repo]]
+url = "https://github.com/tuanle161099/le-flash-app"
+
+[[repo]]
+url = "https://github.com/tule24/solana_dapp"
+
+[[repo]]
+url = "https://github.com/tule24/Solana_learn"
+
+[[repo]]
+url = "https://github.com/tuphan-dn/private-coachin-amm-prog"
+
+[[repo]]
 url = "https://github.com/turnyay/solanaroll"
+
+[[repo]]
+url = "https://github.com/Tushar2930/Web3-js"
+
+[[repo]]
+url = "https://github.com/tusharv01/solairdrop"
+
+[[repo]]
+url = "https://github.com/tuvshinbatgeru/geru-editor"
+
+[[repo]]
+url = "https://github.com/tuvudu/solana-spl-token"
+
+[[repo]]
+url = "https://github.com/tylercaton2350/Solana_ws"
 
 [[repo]]
 url = "https://github.com/U1tra-Labs/solana-program-library"
 
 [[repo]]
+url = "https://github.com/ugurgunes95/mint-solana"
+
+[[repo]]
+url = "https://github.com/ugurgunes95/sol-nft-minter"
+
+[[repo]]
+url = "https://github.com/umarluqman/solana-gallery"
+
+[[repo]]
+url = "https://github.com/Unboxed-Software/solana-owner-checks"
+
+[[repo]]
+url = "https://github.com/Unboxed-Software/solana-signer-auth"
+
+[[repo]]
+url = "https://github.com/UnCaged-Studios/kaching-cash-register-admin"
+
+[[repo]]
+url = "https://github.com/UnCaged-Studios/solana-program-library"
+
+[[repo]]
+url = "https://github.com/unicorndev99/DegenSweeper"
+
+[[repo]]
 url = "https://github.com/UNIMOONnetwork/unimoon-marketplace"
+
+[[repo]]
+url = "https://github.com/Upasana-Roy/Solana-wallet"
+
+[[repo]]
+url = "https://github.com/urbentom/candymachine-v3-ui"
+
+[[repo]]
+url = "https://github.com/usedispatch/dispatch-forum-npm-package"
 
 [[repo]]
 url = "https://github.com/user2745/spl-wallet"
@@ -2963,19 +8075,118 @@ url = "https://github.com/user2745/spl-wallet"
 url = "https://github.com/Usman-47/nftGenerator"
 
 [[repo]]
+url = "https://github.com/Usman3070/art-tool"
+
+[[repo]]
+url = "https://github.com/UsmanKhan172014/anchor-mint-nft"
+
+[[repo]]
+url = "https://github.com/Uttamrajput305/airdrop"
+
+[[repo]]
 url = "https://github.com/uttarayan21/hello-world-solana"
 
 [[repo]]
 url = "https://github.com/utx0/hydra-protocol"
 
 [[repo]]
+url = "https://github.com/utx0/mint-nft"
+
+[[repo]]
+url = "https://github.com/utx0/mint-ntf-raw"
+
+[[repo]]
 url = "https://github.com/uuusoftware/icc-lab"
+
+[[repo]]
+url = "https://github.com/UzairMuzaffer/web3-test"
+
+[[repo]]
+url = "https://github.com/val-samonte/bindentity"
+
+[[repo]]
+url = "https://github.com/val-samonte/p2p-trade-facilitator-web"
+
+[[repo]]
+url = "https://github.com/val-samonte/solana-mobile-number-identity-web"
+
+[[repo]]
+url = "https://github.com/valentinmadrid/berlin-solana-tuto"
+
+[[repo]]
+url = "https://github.com/valluminarias/metacrafter-solana-challenge1"
+
+[[repo]]
+url = "https://github.com/valluminarias/metacrafter-solana-challenge2"
+
+[[repo]]
+url = "https://github.com/valluminarias/metacrafter-solana-challenge3"
+
+[[repo]]
+url = "https://github.com/valluminarias/metacrafters-solana-assessment"
+
+[[repo]]
+url = "https://github.com/Vampo7152/base"
 
 [[repo]]
 url = "https://github.com/vamsi937/roulette_game_in_solana"
 
 [[repo]]
+url = "https://github.com/Varatharaj-K/airdrop"
+
+[[repo]]
+url = "https://github.com/vatsalsinghkv/pay-markup"
+
+[[repo]]
 url = "https://github.com/vbstreetz/hedge"
+
+[[repo]]
+url = "https://github.com/veeso/solana-polls"
+
+[[repo]]
+url = "https://github.com/veewoo/next-solana-web3js"
+
+[[repo]]
+url = "https://github.com/vekkele/solana-gifs"
+
+[[repo]]
+url = "https://github.com/velas/borsh-schema-derive"
+
+[[repo]]
+url = "https://github.com/velas/tic-tac-toe-example"
+
+[[repo]]
+url = "https://github.com/venu-369/tiktok-solana"
+
+[[repo]]
+url = "https://github.com/VFe/solana-sign-with-payment"
+
+[[repo]]
+url = "https://github.com/VicBikey/Rust-blog-"
+
+[[repo]]
+url = "https://github.com/VicBikey/solana-todoDapp"
+
+[[repo]]
+url = "https://github.com/VictorKwasara/diary-app"
+
+[[repo]]
+url = "https://github.com/VictorKwasara/nftbuildoor"
+
+[[repo]]
+url = "https://github.com/VictorKwasara/notes-frontend"
+
+[[repo]]
+url = "https://github.com/VictorKwasara/sendsolclient"
+
+[[repo]]
+url = "https://github.com/VictorKwasara/solana-client-ts"
+
+[[repo]]
+url = "https://github.com/VictorKwasara/solanabalance"
+
+[[repo]]
+url = "https://github.com/vicyyn/tictactoe-anchor"
 
 [[repo]]
 url = "https://github.com/vidhunv1/jabber"
@@ -2984,10 +8195,88 @@ url = "https://github.com/vidhunv1/jabber"
 url = "https://github.com/vidorge/solflare-decrypt"
 
 [[repo]]
+url = "https://github.com/vietpv94/ourNhiProject"
+
+[[repo]]
+url = "https://github.com/viettriit2110/React-Solana-Template"
+
+[[repo]]
+url = "https://github.com/vijay-kesanakurthi/nft-minter-frontend"
+
+[[repo]]
+url = "https://github.com/vijay-kesanakurthi/solana-client-starter"
+
+[[repo]]
+url = "https://github.com/vijay-kesanakurthi/solana-core"
+
+[[repo]]
+url = "https://github.com/VikalpP/Metacrafters-challenge-1"
+
+[[repo]]
 url = "https://github.com/ViktorLS/solana-1.9.4"
 
 [[repo]]
+url = "https://github.com/VincFive19/nextjs-commerce-solana"
+
+[[repo]]
+url = "https://github.com/VincFive19/Web3-NextJS-Ecommerce-"
+
+[[repo]]
+url = "https://github.com/VineetBESTMAN/Paginate-NFTs-v1-starter"
+
+[[repo]]
+url = "https://github.com/ViniciusLimaFernandes/tcc-blockchain"
+
+[[repo]]
 url = "https://github.com/viraja1/solana_asset_platform"
+
+[[repo]]
+url = "https://github.com/Virtucious/airdrop"
+
+[[repo]]
+url = "https://github.com/vishal-sharma-369/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/vishalbirajdat/todo_solana"
+
+[[repo]]
+url = "https://github.com/VISHALGUPTA100803/solana"
+
+[[repo]]
+url = "https://github.com/VishalPachpor/Nft_collection_solana"
+
+[[repo]]
+url = "https://github.com/VishalPachpor/tiktok-solana"
+
+[[repo]]
+url = "https://github.com/visopsys/test-bridge"
+
+[[repo]]
+url = "https://github.com/vitormancio/Solana_NFTs_last_chance"
+
+[[repo]]
+url = "https://github.com/vitormancio/Solana_NFTs_Mint"
+
+[[repo]]
+url = "https://github.com/vitorribeiro99/solearning"
+
+[[repo]]
+url = "https://github.com/Vitruvianus/first-nft-project"
+
+[[repo]]
+url = "https://github.com/Vivek1898/web3"
+
+[[repo]]
+url = "https://github.com/viveksharma8934/Solana-Gif-Starter"
+
+[[repo]]
+url = "https://github.com/vjtvalero/solana-react-sandbox"
+
+[[repo]]
+url = "https://github.com/vkeycode/nftmintersol"
+
+[[repo]]
+url = "https://github.com/vking45/CWall_Devnet"
 
 [[repo]]
 url = "https://github.com/vkomenda/auction"
@@ -2996,22 +8285,91 @@ url = "https://github.com/vkomenda/auction"
 url = "https://github.com/vlzhr/YieldDAO"
 
 [[repo]]
+url = "https://github.com/void-ness/Sol-Intro-Student"
+
+[[repo]]
+url = "https://github.com/voidash/solbin"
+
+[[repo]]
+url = "https://github.com/vrajdesai78/mint-my-nft"
+
+[[repo]]
 url = "https://github.com/vsmelov/serum-fortune-crank"
+
+[[repo]]
+url = "https://github.com/vtikhonyuk/SolanaBootcampOctober"
+
+[[repo]]
+url = "https://github.com/VuNam1812/metaplex-instructionss"
+
+[[repo]]
+url = "https://github.com/vybenetwork/serum-dex-ui"
 
 [[repo]]
 url = "https://github.com/vyper-protocol/vyper-core"
 
 [[repo]]
+url = "https://github.com/w3b3d3v/Solana_NFTs"
+
+[[repo]]
+url = "https://github.com/w3ia/nft-minter"
+
+[[repo]]
+url = "https://github.com/w3rc/solana-sample-project"
+
+[[repo]]
+url = "https://github.com/WalletConnect/solana-wallet"
+
+[[repo]]
+url = "https://github.com/WalletConnect/solib"
+
+[[repo]]
+url = "https://github.com/waterquarks/mangolorians"
+
+[[repo]]
+url = "https://github.com/WayneAl/nft-minter-front-end"
+
+[[repo]]
+url = "https://github.com/wb-ts/solana-nft-minting"
+
+[[repo]]
+url = "https://github.com/web-tricks/Daory-Election"
+
+[[repo]]
+url = "https://github.com/web3wes/Audius-takehome"
+
+[[repo]]
+url = "https://github.com/WeBallLotto/weball"
+
+[[repo]]
 url = "https://github.com/wei1769/Solana-Lottery-Machine"
 
 [[repo]]
+url = "https://github.com/weippig/solana-counter"
+
+[[repo]]
+url = "https://github.com/weippig/solana-counter-project"
+
+[[repo]]
 url = "https://github.com/WhiteDragon001227/mango-v3-smart-contract"
+
+[[repo]]
+url = "https://github.com/WiFoDev/nft-minter-solana"
 
 [[repo]]
 url = "https://github.com/wilbarnes/solana-structured-products"
 
 [[repo]]
 url = "https://github.com/wildonion/uniXerr"
+
+[[repo]]
+url = "https://github.com/WildyPixel/stake_DWA"
+
+[[repo]]
+url = "https://github.com/WildyPixel/stake_PD"
+
+[[repo]]
+url = "https://github.com/william-brooks/gwv2-sample"
 
 [[repo]]
 url = "https://github.com/williamjin127/sabercommon"
@@ -3023,13 +8381,61 @@ url = "https://github.com/williamjin127/stableswap"
 url = "https://github.com/williamjin127/vipers"
 
 [[repo]]
+url = "https://github.com/winter-love/web"
+
+[[repo]]
+url = "https://github.com/wishka/Solana"
+
+[[repo]]
+url = "https://github.com/wjsxqs/w3poker-solana-nft"
+
+[[repo]]
+url = "https://github.com/wmjtyd/homepage"
+
+[[repo]]
 url = "https://github.com/woibldd/pro_h5_app"
+
+[[repo]]
+url = "https://github.com/WojciechJelen/papecoin"
+
+[[repo]]
+url = "https://github.com/WojciechJelen/sol-nft-minter-fe"
+
+[[repo]]
+url = "https://github.com/woniderhaf/aywa"
 
 [[repo]]
 url = "https://github.com/WoofSolana/woof-dex"
 
 [[repo]]
+url = "https://github.com/Wordcel/walkyire-wallet"
+
+[[repo]]
+url = "https://github.com/Wordcel/wordcel"
+
+[[repo]]
+url = "https://github.com/Wordcel/wordcel-upload-api"
+
+[[repo]]
 url = "https://github.com/workbenchapp/solana-workbench"
+
+[[repo]]
+url = "https://github.com/workflow-rs/workflow-core"
+
+[[repo]]
+url = "https://github.com/workflow-rs/workflow-log"
+
+[[repo]]
+url = "https://github.com/workoffice99/CM"
+
+[[repo]]
+url = "https://github.com/workoffice99/tessst"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/wormhole"
+
+[[repo]]
+url = "https://github.com/wosleyv/lycaon"
 
 [[repo]]
 url = "https://github.com/wowBlaBla/Givetree-Frontend"
@@ -3041,13 +8447,64 @@ url = "https://github.com/wsc-dao/wafflesocialclub"
 url = "https://github.com/wyt111/legalCurrency-orderPage"
 
 [[repo]]
+url = "https://github.com/X-justice/testbet"
+
+[[repo]]
+url = "https://github.com/XFantasy88/solana-explorer"
+
+[[repo]]
+url = "https://github.com/XFantasy88/solana-wallet-adapter"
+
+[[repo]]
+url = "https://github.com/Xin-Dragons/XinDragons.io"
+
+[[repo]]
+url = "https://github.com/xiniexhin/Challenge1-solana"
+
+[[repo]]
+url = "https://github.com/xp-network/xpjs"
+
+[[repo]]
 url = "https://github.com/xTeKc/SolDapp"
+
+[[repo]]
+url = "https://github.com/xuanbao2008/solana-nft-fiat-wallet"
 
 [[repo]]
 url = "https://github.com/Xuriwork/Solly-Wallet"
 
 [[repo]]
+url = "https://github.com/YagnikVadadoriya07/Rumble-Stacking-18"
+
+[[repo]]
+url = "https://github.com/yaseenammaar/GoOnDate-Tailwind"
+
+[[repo]]
+url = "https://github.com/Yash-Sajwan24/organ-donor"
+
+[[repo]]
+url = "https://github.com/yashjain197/Betting_game"
+
+[[repo]]
+url = "https://github.com/yashjain197/Solana-bpf"
+
+[[repo]]
+url = "https://github.com/yashsavla9/solana-streamflow"
+
+[[repo]]
+url = "https://github.com/Yasir-Mohi-ud-din/sol-airdrop"
+
+[[repo]]
+url = "https://github.com/yasseen-salama/solana-gif-portal"
+
+[[repo]]
 url = "https://github.com/yclnl/yclnl.github.io"
+
+[[repo]]
+url = "https://github.com/Ye1eke/sol1-app"
+
+[[repo]]
+url = "https://github.com/yellowberard/SolWag"
 
 [[repo]]
 url = "https://github.com/YHTerrance/SOLution"
@@ -3056,10 +8513,55 @@ url = "https://github.com/YHTerrance/SOLution"
 url = "https://github.com/yigiterinc/munich-nft"
 
 [[repo]]
+url = "https://github.com/yigiteth/mint"
+
+[[repo]]
+url = "https://github.com/yigiteth/tokens"
+
+[[repo]]
 url = "https://github.com/yihau/solana-web3-demo"
 
 [[repo]]
+url = "https://github.com/Ylgr/solana-basic-swap"
+
+[[repo]]
+url = "https://github.com/Ylgr/spl-token-2022-test-program"
+
+[[repo]]
+url = "https://github.com/ynccsyd/MangIrCoin"
+
+[[repo]]
+url = "https://github.com/ynccsyd/Solana-intro-frontend"
+
+[[repo]]
+url = "https://github.com/ynccsyd/Solana-NFT-Upload-Update"
+
+[[repo]]
+url = "https://github.com/ynccsyd/Solana-NFTminter-Frontend"
+
+[[repo]]
+url = "https://github.com/ynccsyd/Solana-Token-Metadata"
+
+[[repo]]
+url = "https://github.com/ynccsyd/Solana_Web3"
+
+[[repo]]
+url = "https://github.com/yogeshsingh2672000/counter-program"
+
+[[repo]]
+url = "https://github.com/yogeshsingh2672000/solana-utility-functions"
+
+[[repo]]
+url = "https://github.com/yomi-digital/solana-nft"
+
+[[repo]]
 url = "https://github.com/yosoybartsolo/aucoin"
+
+[[repo]]
+url = "https://github.com/ysun062/chainlink_solana_dapp"
+
+[[repo]]
+url = "https://github.com/ysun062/crowdfunding"
 
 [[repo]]
 url = "https://github.com/ytdbuolf/unimoon-devops-origin"
@@ -3068,13 +8570,58 @@ url = "https://github.com/ytdbuolf/unimoon-devops-origin"
 url = "https://github.com/ytdbuolf/unimoon-smartcontracts"
 
 [[repo]]
+url = "https://github.com/YTW7/get_help"
+
+[[repo]]
+url = "https://github.com/YTW7/get_help_v2"
+
+[[repo]]
 url = "https://github.com/yuentung19/exchange_booth"
+
+[[repo]]
+url = "https://github.com/yugg2010/solana-nfts"
+
+[[repo]]
+url = "https://github.com/yungcrypt/portfolio"
+
+[[repo]]
+url = "https://github.com/yusheng0625/stakingUI-secretum"
+
+[[repo]]
+url = "https://github.com/Yusufcihan1/DisplayNFTsCandyMachine"
+
+[[repo]]
+url = "https://github.com/Yusufcihan1/Minting-UI"
+
+[[repo]]
+url = "https://github.com/Yusufcihan1/NFTMinter"
+
+[[repo]]
+url = "https://github.com/Yusufcihan1/Payment-System-Solana"
+
+[[repo]]
+url = "https://github.com/Yusufcihan1/SPL-TOKEN"
 
 [[repo]]
 url = "https://github.com/yyprime-exchange/yyprime-exchange"
 
 [[repo]]
 url = "https://github.com/zachzafar/NFTS-meet-GA"
+
+[[repo]]
+url = "https://github.com/Zack-Xb/Solana_Connect_React_Template"
+
+[[repo]]
+url = "https://github.com/zaidmohammed26/solana-basics"
+
+[[repo]]
+url = "https://github.com/zailakibo/m2"
+
+[[repo]]
+url = "https://github.com/zara-gm/weave"
+
+[[repo]]
+url = "https://github.com/zarrix/solana-nft-minter"
 
 [[repo]]
 url = "https://github.com/Zebec-protocol/zebec-program-v2"
@@ -3086,13 +8633,58 @@ url = "https://github.com/ZekeMedley/simple-solana-program"
 url = "https://github.com/zemse/solana-rust-contract"
 
 [[repo]]
+url = "https://github.com/zephy20/gif-portal-starter"
+
+[[repo]]
+url = "https://github.com/zephy20/solana-rust"
+
+[[repo]]
+url = "https://github.com/ZephyrEnterprise/stake_engine"
+
+[[repo]]
 url = "https://github.com/Zergity/static"
+
+[[repo]]
+url = "https://github.com/ZeroQ4/solana-core-app"
+
+[[repo]]
+url = "https://github.com/ZeroQ4/Swap-UI-1SP"
 
 [[repo]]
 url = "https://github.com/zetamarkets/sdk"
 
 [[repo]]
+url = "https://github.com/ZeyadSaeed/gif-portal"
+
+[[repo]]
+url = "https://github.com/ZeyadSaeed/nfts-mintor"
+
+[[repo]]
+url = "https://github.com/ZeyadSaeed/sol-pay"
+
+[[repo]]
+url = "https://github.com/zh/buildspace-solana-minter"
+
+[[repo]]
+url = "https://github.com/zh/buildspace-solana-stake"
+
+[[repo]]
+url = "https://github.com/zhanymkanov/buildspace-solana-core-1"
+
+[[repo]]
 url = "https://github.com/zhvng/sol-autochess"
+
+[[repo]]
+url = "https://github.com/zinduolis/gif-portal-solana"
+
+[[repo]]
+url = "https://github.com/zinduolis/solana-buildoor-frontend"
+
+[[repo]]
+url = "https://github.com/zinduolis/solana-intro-client"
+
+[[repo]]
+url = "https://github.com/ZINV-K/test-escrow"
 
 [[repo]]
 url = "https://github.com/zjhmale/solana-explorer-tui"
@@ -3102,6 +8694,36 @@ url = "https://github.com/Zoints/staking"
 
 [[repo]]
 url = "https://github.com/Zoints/treasury"
+
+[[repo]]
+url = "https://github.com/zpalmtree/genesysgo-lambda-worker"
+
+[[repo]]
+url = "https://github.com/ZSBRybnik/frontend"
+
+[[repo]]
+url = "https://github.com/ZYJLiu/admin-test"
+
+[[repo]]
+url = "https://github.com/ZYJLiu/anchor-nft"
+
+[[repo]]
+url = "https://github.com/ZYJLiu/common-sealevel-attacks"
+
+[[repo]]
+url = "https://github.com/ZYJLiu/duplicate-mutable-accounts"
+
+[[repo]]
+url = "https://github.com/ZYJLiu/oauth-test"
+
+[[repo]]
+url = "https://github.com/ZYJLiu/pda-sharing"
+
+[[repo]]
+url = "https://github.com/ZYJLiu/signer-authorization"
+
+[[repo]]
+url = "https://github.com/ZYJLiu/token-creation-frontend"
 
 [[repo]]
 url = "https://gitlab.com/sigrlami/omuon"

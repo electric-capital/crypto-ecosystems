@@ -1,0 +1,27 @@
+# RISC Zero is an ecosystem built around a RISC-V zkVM allowing verifiable execution of Rust and
+# other general pupose languages. https://www.risczero.com/
+title = "RISC Zero"
+
+sub_ecosystems = []
+
+github_organizations = ["https://github.com/risc0"]
+
+[[repo]]
+url = "https://github.com/risc0/risc0"
+tags = [ "Protocol", "SDK", "Developer Tools"]
+
+[[repo]]
+url = "https://github.com/risc0/website"
+tags = "Website"
+
+[[repo]]
+url = "https://github.com/risc0/risc0-rust-examples"
+tags = "Documentation", "Examples"
+
+[[repo]]
+url = "https://github.com/risc0/risc0-rust-starter"
+tags = "Documentation", "Examples"
+
+[[repo]]
+url = "https://github.com/risc0/battleship-example"
+tags = "Documentation", "Examples"

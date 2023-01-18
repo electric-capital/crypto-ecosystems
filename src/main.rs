@@ -24,6 +24,10 @@ enum Cli {
 
         /// JSON File to export the list of repos
         output_path: String,
+
+        /// Include only repository files
+        #[structopt(short, long)]
+        only_repos: bool,
     },
 }
 
@@ -163,13 +167,28 @@ fn validate(data_path: String) -> Result<()> {
     Ok(())
 }
 
-fn export(data_path: String, output_path: String) -> Result<()> {
+fn export(data_path: String, output_path: String, only_repos: bool) -> Result<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
         Ok(ecosystem_map) => {
             let errors = validate_ecosystems(&ecosystem_map);
             if errors.len() > 0 {
                 std::process::exit(-1);
+            }
+            if only_repos {
+                let mut repo_set: HashMap<&String, Vec<String>> = HashMap::new();
+                for ecosystem in ecosystem_map.values() {
+                    if let Some(ref repositories) = ecosystem.repo {
+                        for repo in repositories {
+                            repo_set
+                                .entry(&ecosystem.title)
+                                .or_insert(Vec::new())
+                                .push(repo.url.clone());
+                        }
+                    }
+                }
+                serde_json::to_writer_pretty(File::create(output_path)?, &repo_set)?;
+                return Ok(());
             }
             serde_json::to_writer_pretty(File::create(output_path)?, &ecosystem_map)?;
         }
@@ -190,7 +209,8 @@ fn main() -> Result<()> {
         Cli::Export {
             data_path,
             output_path,
-        } => export(data_path, output_path)?,
+            only_repos,
+        } => export(data_path, output_path, only_repos)?,
     }
     Ok(())
 }

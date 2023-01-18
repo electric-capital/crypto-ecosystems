@@ -1,11 +1,124 @@
 # Ecosystem Level Information
 title = "Kadena"
 
-sub_ecosystems = []
+sub_ecosystems = ["Docushield", "Kaddex"]
 
-github_organizations = ["https://github.com/kadena-io"]
+github_organizations = [
+  "https://github.com/Docushield",
+  "https://github.com/kaddex-org",
+  "https://github.com/kadena-community",
+  "https://github.com/kadena-io",
+]
 
 # Repositories
+[[repo]]
+url = "https://github.com/Docushield/doc-bonding-staking"
+
+[[repo]]
+url = "https://github.com/Docushield/doc-bonding-staking-contracts"
+
+[[repo]]
+url = "https://github.com/Docushield/docushield-app-backend"
+
+[[repo]]
+url = "https://github.com/Docushield/mintit-backend"
+
+[[repo]]
+url = "https://github.com/Docushield/MintIt-Front"
+
+[[repo]]
+url = "https://github.com/Docushield/mintit-policy-pact"
+
+[[repo]]
+url = "https://github.com/Docushield/nft-generator-tool"
+
+[[repo]]
+url = "https://github.com/Docushield/pact"
+
+[[repo]]
+url = "https://github.com/Docushield/pact-airdrop-contracts"
+
+[[repo]]
+url = "https://github.com/kaddex-org/home-page"
+
+[[repo]]
+url = "https://github.com/kaddex-org/smart-contracts"
+
+[[repo]]
+url = "https://github.com/kaddex-org/swap-v2"
+
+[[repo]]
+url = "https://github.com/kaddex-org/x-wallet"
+
+[[repo]]
+url = "https://github.com/kaddex-org/x-wallet-landing"
+
+[[repo]]
+url = "https://github.com/kaddex-org/x-wallet-mobile"
+
+[[repo]]
+url = "https://github.com/kadena-community/bag-of-holding"
+
+[[repo]]
+url = "https://github.com/kadena-community/bigolchungus"
+
+[[repo]]
+url = "https://github.com/kadena-community/chainweb-forks"
+
+[[repo]]
+url = "https://github.com/kadena-community/docs"
+
+[[repo]]
+url = "https://github.com/kadena-community/glacierprotocol.github.io"
+
+[[repo]]
+url = "https://github.com/kadena-community/hello-dapp"
+
+[[repo]]
+url = "https://github.com/kadena-community/kadena-balance"
+
+[[repo]]
+url = "https://github.com/kadena-community/kadena-tools"
+
+[[repo]]
+url = "https://github.com/kadena-community/kadena-transfer-js"
+
+[[repo]]
+url = "https://github.com/kadena-community/kadena.js"
+
+[[repo]]
+url = "https://github.com/kadena-community/kadenachan"
+
+[[repo]]
+url = "https://github.com/kadena-community/keychain"
+
+[[repo]]
+url = "https://github.com/kadena-community/mainnet-utils"
+
+[[repo]]
+url = "https://github.com/kadena-community/node-setup"
+
+[[repo]]
+url = "https://github.com/kadena-community/pact-vscode"
+
+[[repo]]
+url = "https://github.com/kadena-community/pykadena"
+
+[[repo]]
+url = "https://github.com/kadena-community/saved-by-kadena"
+
+[[repo]]
+url = "https://github.com/kadena-community/secure-keygen"
+
+[[repo]]
+url = "https://github.com/kadena-community/stake-for-steak"
+
+[[repo]]
+url = "https://github.com/kadena-community/torus-wallet"
+
+[[repo]]
+url = "https://github.com/kadena-community/tx-tester"
+
 [[repo]]
 url = "https://github.com/kadena-io/assetchain"
 
@@ -127,6 +240,9 @@ url = "https://github.com/kadena-io/equihash-bindings"
 url = "https://github.com/kadena-io/flycheck-pact"
 
 [[repo]]
+url = "https://github.com/kadena-io/hashable"
+
+[[repo]]
 url = "https://github.com/kadena-io/hft"
 
 [[repo]]
@@ -168,6 +284,9 @@ url = "https://github.com/kadena-io/kda-exchange-integration"
 
 [[repo]]
 url = "https://github.com/kadena-io/KDA-to-ETH-Attestation"
+
+[[repo]]
+url = "https://github.com/kadena-io/kda-tool"
 
 [[repo]]
 url = "https://github.com/kadena-io/KIPs"
@@ -310,16 +429,28 @@ url = "https://github.com/kadena-io/testnet-faucet"
 url = "https://github.com/kadena-io/thyme"
 
 [[repo]]
+url = "https://github.com/kadena-io/trifecta"
+
+[[repo]]
 url = "https://github.com/kadena-io/tx-template"
 
 [[repo]]
 url = "https://github.com/kadena-io/txg"
 
 [[repo]]
+url = "https://github.com/kadena-io/txlib"
+
+[[repo]]
 url = "https://github.com/kadena-io/verifier-contract-benchmarking"
 
 [[repo]]
 url = "https://github.com/kadena-io/wai-middleware-validation"
+
+[[repo]]
+url = "https://github.com/kadena-io/wallet-connect-example"
+
+[[repo]]
+url = "https://github.com/kadena-io/wallet-connect-web-examples"
 
 [[repo]]
 url = "https://github.com/kadena-io/walletconnect-hs-interface"

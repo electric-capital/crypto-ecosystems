@@ -1,13 +1,16 @@
 # Ecosystem Level Information
 title = "Octopus Network"
 
-sub_ecosystems = ["DeBio Network", "Myriad Social"]
+sub_ecosystems = ["DeBio Network", "Myriad Social", "Unique One Official"]
 
 github_organizations = ["https://github.com/octopus-network"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/octopus-network/appchain-block-retriever"
+
+[[repo]]
+url = "https://github.com/octopus-network/appchain-fiat-ramp"
 
 [[repo]]
 url = "https://github.com/octopus-network/appchain-launch"
@@ -34,13 +37,40 @@ url = "https://github.com/octopus-network/cdot.network"
 url = "https://github.com/octopus-network/ChainBridge"
 
 [[repo]]
+url = "https://github.com/octopus-network/chainbridge-cli"
+
+[[repo]]
 url = "https://github.com/octopus-network/chainbridge-deploy"
+
+[[repo]]
+url = "https://github.com/octopus-network/chainbridge-docs"
+
+[[repo]]
+url = "https://github.com/octopus-network/chainbridge-solidity"
+
+[[repo]]
+url = "https://github.com/octopus-network/chainbridge-substrate"
+
+[[repo]]
+url = "https://github.com/octopus-network/chainbridge-substrate-events"
+
+[[repo]]
+url = "https://github.com/octopus-network/chainbridge-ui"
+
+[[repo]]
+url = "https://github.com/octopus-network/chainbridge-utils"
 
 [[repo]]
 url = "https://github.com/octopus-network/chainspec-generator"
 
 [[repo]]
+url = "https://github.com/octopus-network/cosmos-ibc-rs"
+
+[[repo]]
 url = "https://github.com/octopus-network/cosmos-sdk"
+
+[[repo]]
+url = "https://github.com/octopus-network/crates"
 
 [[repo]]
 url = "https://github.com/octopus-network/devgrants"
@@ -49,7 +79,16 @@ url = "https://github.com/octopus-network/devgrants"
 url = "https://github.com/octopus-network/DRN-sol"
 
 [[repo]]
+url = "https://github.com/octopus-network/gaia"
+
+[[repo]]
 url = "https://github.com/octopus-network/grandpa-bridge-gadget"
+
+[[repo]]
+url = "https://github.com/octopus-network/grandpa-go"
+
+[[repo]]
+url = "https://github.com/octopus-network/hermes"
 
 [[repo]]
 url = "https://github.com/octopus-network/hermes-test"
@@ -70,6 +109,9 @@ url = "https://github.com/octopus-network/ibc-frontend-demo"
 url = "https://github.com/octopus-network/ibc-go"
 
 [[repo]]
+url = "https://github.com/octopus-network/ibc-proto-rs"
+
+[[repo]]
 url = "https://github.com/octopus-network/ibc-rs"
 
 [[repo]]
@@ -88,10 +130,22 @@ url = "https://github.com/octopus-network/issues"
 url = "https://github.com/octopus-network/kyve"
 
 [[repo]]
+url = "https://github.com/octopus-network/light-clients"
+
+[[repo]]
+url = "https://github.com/octopus-network/messages-decoder"
+
+[[repo]]
 url = "https://github.com/octopus-network/mock-grandpa"
 
 [[repo]]
+url = "https://github.com/octopus-network/near-ibc"
+
+[[repo]]
 url = "https://github.com/octopus-network/near-indexer-for-explorer"
+
+[[repo]]
+url = "https://github.com/octopus-network/near-light-client-rs"
 
 [[repo]]
 url = "https://github.com/octopus-network/near-sdk-rs"
@@ -124,7 +178,13 @@ url = "https://github.com/octopus-network/nep141-token-vesting-subgraph"
 url = "https://github.com/octopus-network/oct-backup"
 
 [[repo]]
+url = "https://github.com/octopus-network/oct-cli-rs"
+
+[[repo]]
 url = "https://github.com/octopus-network/oct-faucet"
+
+[[repo]]
+url = "https://github.com/octopus-network/oct-poap"
 
 [[repo]]
 url = "https://github.com/octopus-network/OCT-token"
@@ -148,6 +208,9 @@ url = "https://github.com/octopus-network/octopus-appchain-registry"
 url = "https://github.com/octopus-network/octopus-bridge"
 
 [[repo]]
+url = "https://github.com/octopus-network/octopus-chainbridge"
+
+[[repo]]
 url = "https://github.com/octopus-network/octopus-dao"
 
 [[repo]]
@@ -158,6 +221,9 @@ url = "https://github.com/octopus-network/octopus-explorer"
 
 [[repo]]
 url = "https://github.com/octopus-network/octopus-gateway"
+
+[[repo]]
+url = "https://github.com/octopus-network/octopus-light-client"
 
 [[repo]]
 url = "https://github.com/octopus-network/octopus-near-indexer-kafka"
@@ -208,6 +274,9 @@ url = "https://github.com/octopus-network/pallet-octopus-lpos"
 url = "https://github.com/octopus-network/papers"
 
 [[repo]]
+url = "https://github.com/octopus-network/parity-common"
+
+[[repo]]
 url = "https://github.com/octopus-network/planets"
 
 [[repo]]
@@ -227,6 +296,9 @@ url = "https://github.com/octopus-network/rhdnode"
 
 [[repo]]
 url = "https://github.com/octopus-network/rhododendron"
+
+[[repo]]
+url = "https://github.com/octopus-network/rust-hex"
 
 [[repo]]
 url = "https://github.com/octopus-network/rust-libp2p"
@@ -268,13 +340,22 @@ url = "https://github.com/octopus-network/substrate-subxt"
 url = "https://github.com/octopus-network/substrate-telemetry"
 
 [[repo]]
+url = "https://github.com/octopus-network/syn"
+
+[[repo]]
 url = "https://github.com/octopus-network/tendermint-rs"
 
 [[repo]]
 url = "https://github.com/octopus-network/token-mapping-contract"
 
 [[repo]]
+url = "https://github.com/octopus-network/trie-go"
+
+[[repo]]
 url = "https://github.com/octopus-network/wrapped-appchain-nft"
 
 [[repo]]
 url = "https://github.com/octopus-network/wrapped-appchain-token"
+
+[[repo]]
+url = "https://github.com/uinb/fusotao"

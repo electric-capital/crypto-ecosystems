@@ -3,7 +3,13 @@ title = "Conflux Network"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Conflux-Chain", "https://github.com/Proposal-Stampers"]
+github_organizations = [
+  "https://github.com/conflux-chain",
+  "https://github.com/Conflux-Chain",
+  "https://github.com/conflux-network-global",
+  "https://github.com/Conflux-Network-Global",
+  "https://github.com/Proposal-Stampers",
+]
 
 # Repositories
 [[repo]]
@@ -20,6 +26,9 @@ url = "https://github.com/Conflux-Chain/bls-signatures"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/bn"
+
+[[repo]]
+url = "https://github.com/Conflux-Chain/cfx-evm"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/cfx-lib"
@@ -40,10 +49,16 @@ url = "https://github.com/Conflux-Chain/conflux-dapps"
 url = "https://github.com/Conflux-Chain/conflux-design-assets"
 
 [[repo]]
+url = "https://github.com/conflux-chain/conflux-developer-site"
+
+[[repo]]
 url = "https://github.com/Conflux-Chain/conflux-developer-site"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/conflux-doc"
+
+[[repo]]
+url = "https://github.com/conflux-chain/conflux-docker"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/conflux-docker"
@@ -70,6 +85,9 @@ url = "https://github.com/Conflux-Chain/conflux-nft-contract"
 url = "https://github.com/Conflux-Chain/conflux-parity-deps"
 
 [[repo]]
+url = "https://github.com/conflux-chain/conflux-portal"
+
+[[repo]]
 url = "https://github.com/Conflux-Chain/conflux-portal"
 
 [[repo]]
@@ -79,10 +97,16 @@ url = "https://github.com/Conflux-Chain/conflux-portal-docs"
 url = "https://github.com/Conflux-Chain/conflux-portal-website"
 
 [[repo]]
+url = "https://github.com/conflux-chain/conflux-protocol"
+
+[[repo]]
 url = "https://github.com/Conflux-Chain/conflux-protocol"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/conflux-remix"
+
+[[repo]]
+url = "https://github.com/conflux-chain/conflux-rust"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/conflux-rust"
@@ -97,7 +121,13 @@ url = "https://github.com/Conflux-Chain/conflux-scan"
 url = "https://github.com/Conflux-Chain/conflux-sponsor-faucet"
 
 [[repo]]
+url = "https://github.com/conflux-chain/conflux-toolkit"
+
+[[repo]]
 url = "https://github.com/Conflux-Chain/conflux-toolkit"
+
+[[repo]]
+url = "https://github.com/conflux-chain/conflux-truffle"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/conflux-truffle"
@@ -145,7 +175,13 @@ url = "https://github.com/Conflux-Chain/fluent-wallet-storybook"
 url = "https://github.com/Conflux-Chain/gitcoin-bounties"
 
 [[repo]]
+url = "https://github.com/conflux-chain/go-conflux-sdk"
+
+[[repo]]
 url = "https://github.com/Conflux-Chain/go-conflux-sdk"
+
+[[repo]]
+url = "https://github.com/conflux-chain/go-conflux-sdk-for-wallet"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/go-conflux-sdk-for-wallet"
@@ -166,10 +202,16 @@ url = "https://github.com/Conflux-Chain/helios"
 url = "https://github.com/Conflux-Chain/hw-app-conflux"
 
 [[repo]]
+url = "https://github.com/conflux-chain/java-conflux-sdk"
+
+[[repo]]
 url = "https://github.com/Conflux-Chain/java-conflux-sdk"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/java-sdk-example"
+
+[[repo]]
+url = "https://github.com/conflux-chain/js-conflux-sdk"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/js-conflux-sdk"
@@ -184,6 +226,9 @@ url = "https://github.com/Conflux-Chain/ledger-app-conflux"
 url = "https://github.com/Conflux-Chain/libcfxaddr"
 
 [[repo]]
+url = "https://github.com/conflux-chain/open-cfxmine"
+
+[[repo]]
 url = "https://github.com/Conflux-Chain/open-cfxmine"
 
 [[repo]]
@@ -191,6 +236,9 @@ url = "https://github.com/Conflux-Chain/OSSRH-63803"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/python-conflux-sdk"
+
+[[repo]]
+url = "https://github.com/conflux-chain/react-hooks"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/react-hooks"
@@ -211,7 +259,13 @@ url = "https://github.com/Conflux-Chain/rust-conflux-sdk"
 url = "https://github.com/Conflux-Chain/rust-rocksdb"
 
 [[repo]]
+url = "https://github.com/conflux-chain/shuttleflow"
+
+[[repo]]
 url = "https://github.com/Conflux-Chain/shuttleflow"
+
+[[repo]]
+url = "https://github.com/conflux-chain/sirius"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/sirius"
@@ -221,6 +275,9 @@ url = "https://github.com/Conflux-Chain/sirius-eth"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/sqlite3-sys"
+
+[[repo]]
+url = "https://github.com/conflux-chain/swift-conflux-wallet-sdk"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/swift-conflux-wallet-sdk"
@@ -253,22 +310,88 @@ url = "https://github.com/Conflux-Chain/zh-hans.developer.conflux-chain.org"
 url = "https://github.com/Conflux-Chain/zh-hans.developer.confluxnetwork.org"
 
 [[repo]]
+url = "https://github.com/Conflux-Network-Global/aragon-apps"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/aragon-client"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/aragon-dao-templates"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/aragon-id"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/aragon-ui"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/aragon.js"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/aragonOS"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/conflux-aragon-utils"
+
+[[repo]]
+url = "https://github.com/conflux-network-global/conflux-network-adapter"
+
+[[repo]]
 url = "https://github.com/Conflux-Network-Global/conflux-network-adapter"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/contact-tracing"
+
+[[repo]]
+url = "https://github.com/conflux-network-global/demo-cfx-chainlink"
 
 [[repo]]
 url = "https://github.com/Conflux-Network-Global/demo-cfx-chainlink"
 
 [[repo]]
+url = "https://github.com/conflux-network-global/demo-cfx-graphprotocol"
+
+[[repo]]
 url = "https://github.com/Conflux-Network-Global/demo-cfx-graphprotocol"
+
+[[repo]]
+url = "https://github.com/conflux-network-global/eth2cfx-relay"
 
 [[repo]]
 url = "https://github.com/Conflux-Network-Global/eth2cfx-relay"
 
 [[repo]]
+url = "https://github.com/conflux-network-global/external-initiator"
+
+[[repo]]
 url = "https://github.com/Conflux-Network-Global/external-initiator"
 
 [[repo]]
+url = "https://github.com/Conflux-Network-Global/graph-node"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/nft-gallery"
+
+[[repo]]
+url = "https://github.com/conflux-network-global/prometheus-metrics"
+
+[[repo]]
 url = "https://github.com/Conflux-Network-Global/prometheus-metrics"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/sponsored-erc721"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/token-conversion-HNT-FIL"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/trustwallet-assets"
+
+[[repo]]
+url = "https://github.com/Conflux-Network-Global/trustwallet-wallet-core"
+
+[[repo]]
+url = "https://github.com/conflux-network-global/webinar-code"
 
 [[repo]]
 url = "https://github.com/Conflux-Network-Global/webinar-code"

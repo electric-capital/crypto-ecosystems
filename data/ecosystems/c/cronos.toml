@@ -1,11 +1,14 @@
 # Ecosystem Level Information
 title = "Cronos"
 
-sub_ecosystems = ["Crypto.org"]
+sub_ecosystems = ["Crypto.org", "Phenix Finance", "The Gas Station"]
 
 github_organizations = ["https://github.com/crypto-org-chain"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/connext/nxtp"
+
 [[repo]]
 url = "https://github.com/crypto-org-chain/actions-pull-request-add-comment"
 
@@ -125,3 +128,6 @@ url = "https://github.com/crypto-org-chain/wasmd"
 
 [[repo]]
 url = "https://github.com/crypto-org-chain/wasmvm"
+
+[[repo]]
+url = "https://github.com/validity-labs/crypto-rocket"

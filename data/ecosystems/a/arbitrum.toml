@@ -2,19 +2,91 @@
 title = "Arbitrum"
 
 sub_ecosystems = [
+  "0xSplits",
+  "123swap",
+  "Aboard Exchange",
+  "Across Protocol",
+  "Aelin",
+  "AnyToNFT",
   "Arbi's Finance",
   "arbirise",
   "Cap",
+  "Cask",
   "Composable Finance",
+  "Dolomite Exchange",
+  "Fuji DAO",
+  "Gamma Swap Labs",
+  "GMX",
+  "Highstreet Market",
+  "Lemma Finance",
   "MCDEX",
+  "NFTPerp",
+  "Numoen",
   "Omicron",
+  "prePO",
+  "Risedle",
+  "Rysk Finance",
   "Smol Puddle",
+  "Sperax",
+  "Suberra",
+  "SynFutures",
   "Tracer",
+  "Volvo Finance",
+  "WeavrDao",
 ]
 
-github_organizations = ["https://github.com/OffchainLabs"]
+github_organizations = [
+  "https://github.com/coco-verse",
+  "https://github.com/OffchainLabs",
+  "https://github.com/waterfall-foundation",
+]
 
 # Repositories
+[[repo]]
+url = "https://github.com/Aishwarya-Ganesh/CoinOnGo"
+
+[[repo]]
+url = "https://github.com/barternetwork/barter-smart-router"
+
+[[repo]]
+url = "https://github.com/blahkheart/ETH-Speedrunner"
+
+[[repo]]
+url = "https://github.com/butternetwork/butter-smart-router"
+
+[[repo]]
+url = "https://github.com/chrisalexadams/balancer-ac"
+
+[[repo]]
+url = "https://github.com/coco-verse/coco-monorepo"
+
+[[repo]]
+url = "https://github.com/codingshot/genadrop"
+
+[[repo]]
+url = "https://github.com/dallonasnes/cryptolingo"
+
+[[repo]]
+url = "https://github.com/deri-protocol/source-deri.fi"
+
+[[repo]]
+url = "https://github.com/etherspot/etherspot-contracts"
+
+[[repo]]
+url = "https://github.com/hash-space/hash-space"
+
+[[repo]]
+url = "https://github.com/jckamaicha/playpoint-user"
+
+[[repo]]
+url = "https://github.com/LenkedIn/LenkedIn"
+
+[[repo]]
+url = "https://github.com/liquality/wallet-core"
+
+[[repo]]
+url = "https://github.com/OffchainLabs/actions"
+
 [[repo]]
 url = "https://github.com/OffchainLabs/aragonOS"
 
@@ -88,6 +160,9 @@ url = "https://github.com/OffchainLabs/arbitrum"
 url = "https://github.com/OffchainLabs/arbitrum-deployment-website"
 
 [[repo]]
+url = "https://github.com/OffchainLabs/arbitrum-docs"
+
+[[repo]]
 url = "https://github.com/OffchainLabs/arbitrum-interop-quickstart"
 
 [[repo]]
@@ -122,6 +197,9 @@ url = "https://github.com/OffchainLabs/blockscout"
 
 [[repo]]
 url = "https://github.com/OffchainLabs/configurable-rights-pool"
+
+[[repo]]
+url = "https://github.com/OffchainLabs/crosschain-oracle-workshop-demo"
 
 [[repo]]
 url = "https://github.com/OffchainLabs/demo-dapp-election"
@@ -169,6 +247,9 @@ url = "https://github.com/OffchainLabs/multicall"
 url = "https://github.com/OffchainLabs/navigator"
 
 [[repo]]
+url = "https://github.com/OffchainLabs/nft-bridge-workshop-demo"
+
+[[repo]]
 url = "https://github.com/OffchainLabs/nitro"
 
 [[repo]]
@@ -181,10 +262,16 @@ url = "https://github.com/OffchainLabs/openzeppelin-contracts"
 url = "https://github.com/OffchainLabs/paired-erc20"
 
 [[repo]]
+url = "https://github.com/OffchainLabs/RescuETH"
+
+[[repo]]
 url = "https://github.com/OffchainLabs/retryable-tx-panel"
 
 [[repo]]
 url = "https://github.com/OffchainLabs/retryables_tracker"
+
+[[repo]]
+url = "https://github.com/OffchainLabs/safe-contracts"
 
 [[repo]]
 url = "https://github.com/OffchainLabs/SoftFloat"
@@ -230,3 +317,66 @@ url = "https://github.com/OffchainLabs/vector-modal"
 
 [[repo]]
 url = "https://github.com/OffchainLabs/wyvern-ethereum"
+
+[[repo]]
+url = "https://github.com/Pana-DAO/pana-dapp"
+
+[[repo]]
+url = "https://github.com/perpdex/perpdex-lite"
+
+[[repo]]
+url = "https://github.com/RabbyHub/Rabby"
+
+[[repo]]
+url = "https://github.com/rpc404/playpoint-user"
+
+[[repo]]
+url = "https://github.com/sandymandy12/BeatSuite"
+
+[[repo]]
+url = "https://github.com/Sednaoui/Candide"
+
+[[repo]]
+url = "https://github.com/suberra/funnel-contracts"
+
+[[repo]]
+url = "https://github.com/superfluid-finance/protocol-monorepo"
+
+[[repo]]
+url = "https://github.com/technophile-04/speed-run"
+
+[[repo]]
+url = "https://github.com/thales-markets/contracts"
+
+[[repo]]
+url = "https://github.com/veMarketCap/veMarketCap"
+
+[[repo]]
+url = "https://github.com/violetprotocol/TrustPOAP"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/aave-contracts"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/aave-ui"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/curve-contracts"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/curve-ui"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/recurring-payment-contract"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/uniswap-contracts"
+
+[[repo]]
+url = "https://github.com/waterfall-foundation/uniswap-ui"
+
+[[repo]]
+url = "https://github.com/zerodao-finance/zeroBridge"
+
+[[repo]]
+url = "https://github.com/ZigZagExchange/frontend"

@@ -1,13 +1,19 @@
 # Ecosystem Level Information
 title = "Axelar Network"
 
-sub_ecosystems = []
+sub_ecosystems = ["Squid"]
 
 github_organizations = ["https://github.com/axelarnetwork"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/axelarnetwork/audits"
+
+[[repo]]
+url = "https://github.com/axelarnetwork/axelar-cgp-aptos"
+
+[[repo]]
+url = "https://github.com/axelarnetwork/axelar-cgp-move"
 
 [[repo]]
 url = "https://github.com/axelarnetwork/axelar-cgp-solidity"
@@ -26,6 +32,12 @@ url = "https://github.com/axelarnetwork/axelar-gateway-sample"
 
 [[repo]]
 url = "https://github.com/axelarnetwork/axelar-gmp-sample"
+
+[[repo]]
+url = "https://github.com/axelarnetwork/axelar-gmp-sdk-solidity"
+
+[[repo]]
+url = "https://github.com/axelarnetwork/axelar-interchain-token"
 
 [[repo]]
 url = "https://github.com/axelarnetwork/axelar-local-dev"
@@ -85,7 +97,13 @@ url = "https://github.com/axelarnetwork/cosmos-sdk"
 url = "https://github.com/axelarnetwork/cosmwasm-gateway"
 
 [[repo]]
+url = "https://github.com/axelarnetwork/crosschain-usdc-demo"
+
+[[repo]]
 url = "https://github.com/axelarnetwork/deposit-address-demo"
+
+[[repo]]
+url = "https://github.com/axelarnetwork/evm-cosmos-gmp-sample"
 
 [[repo]]
 url = "https://github.com/axelarnetwork/gmp-api"
@@ -101,6 +119,12 @@ url = "https://github.com/axelarnetwork/gmp-caching-nodejs"
 
 [[repo]]
 url = "https://github.com/axelarnetwork/gmp-crawler"
+
+[[repo]]
+url = "https://github.com/axelarnetwork/gmp-express"
+
+[[repo]]
+url = "https://github.com/axelarnetwork/gmp-forecaller"
 
 [[repo]]
 url = "https://github.com/axelarnetwork/grpc-protobuf"
@@ -122,6 +146,9 @@ url = "https://github.com/axelarnetwork/rust-paillier"
 
 [[repo]]
 url = "https://github.com/axelarnetwork/sdk-demo-v5-deposit-address"
+
+[[repo]]
+url = "https://github.com/axelarnetwork/sentinel"
 
 [[repo]]
 url = "https://github.com/axelarnetwork/solidity-cgp-gateway"

@@ -1,11 +1,1243 @@
 # Ecosystem Level Information
 title = "Osmosis"
 
-sub_ecosystems = []
+sub_ecosystems = [
+  "Apollo DAO",
+  "Citadel.one",
+  "Cosmology",
+  "CronCat",
+  "Defund",
+  "Eve Network",
+  "ION DAO",
+  "Laika Labs",
+  "Leap Wallet",
+  "Levana Protocol",
+  "Margined",
+  "quasar finance",
+  "Skip",
+  "ZKValidator",
+]
 
-github_organizations = ["https://github.com/osmosis-labs"]
+github_organizations = [
+  "https://github.com/chainapsis",
+  "https://github.com/confio",
+  "https://github.com/cosmology-tech",
+  "https://github.com/DefiantLabs",
+  "https://github.com/notional-labs",
+  "https://github.com/osmosis-labs",
+  "https://github.com/teamscanworks",
+]
 
 # Repositories
+[[repo]]
+url = "https://github.com/apollodao/apollo-proto-rust"
+
+[[repo]]
+url = "https://github.com/blockpane/tenderduty"
+
+[[repo]]
+url = "https://github.com/chainapsis/astro-canvas"
+
+[[repo]]
+url = "https://github.com/chainapsis/astro-canvas-frontend"
+
+[[repo]]
+url = "https://github.com/chainapsis/cicd-test"
+
+[[repo]]
+url = "https://github.com/chainapsis/cicd-test-temp"
+
+[[repo]]
+url = "https://github.com/chainapsis/cicd-test-test"
+
+[[repo]]
+url = "https://github.com/chainapsis/cosmodal"
+
+[[repo]]
+url = "https://github.com/chainapsis/cosmos-sdk"
+
+[[repo]]
+url = "https://github.com/chainapsis/cosmos-sdk-interchain-account"
+
+[[repo]]
+url = "https://github.com/chainapsis/cosmosjs"
+
+[[repo]]
+url = "https://github.com/chainapsis/cosmosjs-dist"
+
+[[repo]]
+url = "https://github.com/chainapsis/ethereum-interchain-account"
+
+[[repo]]
+url = "https://github.com/chainapsis/everett-hackathon"
+
+[[repo]]
+url = "https://github.com/chainapsis/gaia"
+
+[[repo]]
+url = "https://github.com/chainapsis/GameOfZones"
+
+[[repo]]
+url = "https://github.com/chainapsis/ics"
+
+[[repo]]
+url = "https://github.com/chainapsis/kepler-extension"
+
+[[repo]]
+url = "https://github.com/chainapsis/kepler-hackathon"
+
+[[repo]]
+url = "https://github.com/chainapsis/keplr-chain-registry"
+
+[[repo]]
+url = "https://github.com/chainapsis/keplr-example"
+
+[[repo]]
+url = "https://github.com/chainapsis/keplr-extension"
+
+[[repo]]
+url = "https://github.com/chainapsis/keplr-wallet"
+
+[[repo]]
+url = "https://github.com/chainapsis/osmosis"
+
+[[repo]]
+url = "https://github.com/chainapsis/phishing-block-list"
+
+[[repo]]
+url = "https://github.com/chainapsis/relayer"
+
+[[repo]]
+url = "https://github.com/chainapsis/SecretNetwork"
+
+[[repo]]
+url = "https://github.com/chainapsis/terra-oracle"
+
+[[repo]]
+url = "https://github.com/chainapsis/ts-amino"
+
+[[repo]]
+url = "https://github.com/codestates/BTA1stProject-03"
+
+[[repo]]
+url = "https://github.com/codestates/BTAFinalProject-08"
+
+[[repo]]
+url = "https://github.com/confio/amino-test-suite"
+
+[[repo]]
+url = "https://github.com/confio/assetlists"
+
+[[repo]]
+url = "https://github.com/confio/burner-chains"
+
+[[repo]]
+url = "https://github.com/confio/chain-registry"
+
+[[repo]]
+url = "https://github.com/confio/chat.tgrade.finance"
+
+[[repo]]
+url = "https://github.com/confio/cosmjs-types"
+
+[[repo]]
+url = "https://github.com/confio/cosmonaut"
+
+[[repo]]
+url = "https://github.com/confio/cosmos-hd-key-derivation-spec"
+
+[[repo]]
+url = "https://github.com/confio/credible-chain"
+
+[[repo]]
+url = "https://github.com/confio/crev-proofs"
+
+[[repo]]
+url = "https://github.com/confio/cw-ibc-demo"
+
+[[repo]]
+url = "https://github.com/confio/decode_raw"
+
+[[repo]]
+url = "https://github.com/confio/dsrv-poap"
+
+[[repo]]
+url = "https://github.com/confio/emeris-utils"
+
+[[repo]]
+url = "https://github.com/confio/eth-atomic-swap"
+
+[[repo]]
+url = "https://github.com/confio/go-ext-wasm"
+
+[[repo]]
+url = "https://github.com/confio/go-rust-demo"
+
+[[repo]]
+url = "https://github.com/confio/go-wasm"
+
+[[repo]]
+url = "https://github.com/confio/iavl"
+
+[[repo]]
+url = "https://github.com/confio/ibc"
+
+[[repo]]
+url = "https://github.com/confio/ibc-go"
+
+[[repo]]
+url = "https://github.com/confio/ibc-tests-ics20"
+
+[[repo]]
+url = "https://github.com/confio/ics23"
+
+[[repo]]
+url = "https://github.com/confio/ics23-iavl"
+
+[[repo]]
+url = "https://github.com/confio/ics23-tendermint"
+
+[[repo]]
+url = "https://github.com/confio/iov-connect"
+
+[[repo]]
+url = "https://github.com/confio/job-opening"
+
+[[repo]]
+url = "https://github.com/confio/js-tendermint"
+
+[[repo]]
+url = "https://github.com/confio/marketing"
+
+[[repo]]
+url = "https://github.com/confio/mask"
+
+[[repo]]
+url = "https://github.com/confio/matadores-backlog-collection"
+
+[[repo]]
+url = "https://github.com/confio/nym"
+
+[[repo]]
+url = "https://github.com/confio/osmo-oracle"
+
+[[repo]]
+url = "https://github.com/confio/osmosis"
+
+[[repo]]
+url = "https://github.com/confio/osmosis-bindings"
+
+[[repo]]
+url = "https://github.com/confio/osmosis-frontend"
+
+[[repo]]
+url = "https://github.com/confio/pbstream"
+
+[[repo]]
+url = "https://github.com/confio/poe-contracts"
+
+[[repo]]
+url = "https://github.com/confio/ProofOfEngagement"
+
+[[repo]]
+url = "https://github.com/confio/proofs-ethereum"
+
+[[repo]]
+url = "https://github.com/confio/proofs-merk"
+
+[[repo]]
+url = "https://github.com/confio/public-testnets"
+
+[[repo]]
+url = "https://github.com/confio/rand"
+
+[[repo]]
+url = "https://github.com/confio/relayer-ci-images"
+
+[[repo]]
+url = "https://github.com/confio/rust-decimal"
+
+[[repo]]
+url = "https://github.com/confio/tfi"
+
+[[repo]]
+url = "https://github.com/confio/tgrade"
+
+[[repo]]
+url = "https://github.com/confio/tgrade-app"
+
+[[repo]]
+url = "https://github.com/confio/tgrade-docs"
+
+[[repo]]
+url = "https://github.com/confio/tgrade-multisig"
+
+[[repo]]
+url = "https://github.com/confio/tgrade-networks"
+
+[[repo]]
+url = "https://github.com/confio/tinygo"
+
+[[repo]]
+url = "https://github.com/confio/token-finder"
+
+[[repo]]
+url = "https://github.com/confio/ts-relayer"
+
+[[repo]]
+url = "https://github.com/confio/wasm-bindings"
+
+[[repo]]
+url = "https://github.com/confio/wasm-opt"
+
+[[repo]]
+url = "https://github.com/confio/wasmer"
+
+[[repo]]
+url = "https://github.com/confio/weave-js"
+
+[[repo]]
+url = "https://github.com/confio/weave-ops"
+
+[[repo]]
+url = "https://github.com/confio/wevops"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/ast-challenge"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/chain-registry"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/code-challenge-v2"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/coding-challenge"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/cosmjs-utils"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/cosmjson"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/cosmodal"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/cosmology"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/cosmology-ui"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/cosmos-kit"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/cosmostation_token_resource"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/create-cosmos-app"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/cw-awesome"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/daodao"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/injectivejs"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/interchain"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/interchain-lcd"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/interchain-rpc"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/kavajs"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/networks"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/orig-stridejs"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/osmosis"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/proto-registry"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/protobuf.js"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/quicksilverjs"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/stargazejs"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/stridejs"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/telescope-react-query-test"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/telescope-tscodegen-demo"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/teritori"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/terrascope"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/wasmd"
+
+[[repo]]
+url = "https://github.com/cosmos/chain-registry"
+
+[[repo]]
+url = "https://github.com/cosmos/gaia"
+
+[[repo]]
+url = "https://github.com/cosmos/ibc-go"
+
+[[repo]]
+url = "https://github.com/cosmos/ics23"
+
+[[repo]]
+url = "https://github.com/CosmosContracts/junoswap-asset-list"
+
+[[repo]]
+url = "https://github.com/CosmWasm/mesh-security"
+
+[[repo]]
+url = "https://github.com/CosmWasm/tinygo"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/consensus"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/cosmos-exporter"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/cosmos-tax-cli"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/cosmos-tax-cli-web"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/cosmosnodes"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/defiant-docs"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/defiant-swap"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/defiant-website"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/externalPackages"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/halflife"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/horcrux"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/ics-testnets"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/juno"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/KujiraClient"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/lens"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/oracle-price-feeder"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/pre-commit-golang"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/RedpointSwap"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/Team-Kujira-networks"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/terraform-aws-cosmos-node-skel"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/validator-registry"
+
+[[repo]]
+url = "https://github.com/eco-stake/restake"
+
+[[repo]]
+url = "https://github.com/mars-protocol/v1-core"
+
+[[repo]]
+url = "https://github.com/Medniyy/Posthuman-Validator-Contributions-for-Osmosis-Chain"
+
+[[repo]]
+url = "https://github.com/niccoloraspa/osmosis-halt-data"
+
+[[repo]]
+url = "https://github.com/notional-labs/.github"
+
+[[repo]]
+url = "https://github.com/notional-labs/address-converter"
+
+[[repo]]
+url = "https://github.com/notional-labs/akash"
+
+[[repo]]
+url = "https://github.com/notional-labs/anone"
+
+[[repo]]
+url = "https://github.com/notional-labs/anone-nft-market"
+
+[[repo]]
+url = "https://github.com/notional-labs/anone-ui"
+
+[[repo]]
+url = "https://github.com/notional-labs/anonejs"
+
+[[repo]]
+url = "https://github.com/notional-labs/another1"
+
+[[repo]]
+url = "https://github.com/notional-labs/app.digchain.org"
+
+[[repo]]
+url = "https://github.com/notional-labs/arm-profiles"
+
+[[repo]]
+url = "https://github.com/notional-labs/assetlists"
+
+[[repo]]
+url = "https://github.com/notional-labs/aura"
+
+[[repo]]
+url = "https://github.com/notional-labs/aura-explorer-api"
+
+[[repo]]
+url = "https://github.com/notional-labs/aurascan"
+
+[[repo]]
+url = "https://github.com/notional-labs/auto-farm"
+
+[[repo]]
+url = "https://github.com/notional-labs/axelar-core"
+
+[[repo]]
+url = "https://github.com/notional-labs/badger"
+
+[[repo]]
+url = "https://github.com/notional-labs/basecoin-rs"
+
+[[repo]]
+url = "https://github.com/notional-labs/bcna"
+
+[[repo]]
+url = "https://github.com/notional-labs/bech32-ibc"
+
+[[repo]]
+url = "https://github.com/notional-labs/bindings"
+
+[[repo]]
+url = "https://github.com/notional-labs/bounties"
+
+[[repo]]
+url = "https://github.com/notional-labs/c17"
+
+[[repo]]
+url = "https://github.com/notional-labs/canine-chain"
+
+[[repo]]
+url = "https://github.com/notional-labs/canine-mainnet-genesis"
+
+[[repo]]
+url = "https://github.com/notional-labs/cblurt"
+
+[[repo]]
+url = "https://github.com/notional-labs/ccs"
+
+[[repo]]
+url = "https://github.com/notional-labs/cerberus"
+
+[[repo]]
+url = "https://github.com/notional-labs/chain"
+
+[[repo]]
+url = "https://github.com/notional-labs/chain-1"
+
+[[repo]]
+url = "https://github.com/notional-labs/chain-chores"
+
+[[repo]]
+url = "https://github.com/notional-labs/chain-info"
+
+[[repo]]
+url = "https://github.com/notional-labs/chain-registry"
+
+[[repo]]
+url = "https://github.com/notional-labs/chain-upgrade-testing-framework"
+
+[[repo]]
+url = "https://github.com/notional-labs/chainlink-cosmos"
+
+[[repo]]
+url = "https://github.com/notional-labs/cheqd-node"
+
+[[repo]]
+url = "https://github.com/notional-labs/chihuahua"
+
+[[repo]]
+url = "https://github.com/notional-labs/classic"
+
+[[repo]]
+url = "https://github.com/notional-labs/classic-core"
+
+[[repo]]
+url = "https://github.com/notional-labs/comdex"
+
+[[repo]]
+url = "https://github.com/notional-labs/containers"
+
+[[repo]]
+url = "https://github.com/notional-labs/cookiemonster"
+
+[[repo]]
+url = "https://github.com/notional-labs/corgi"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmos-discord-faucet"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmos-governance"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmos-governance-bot"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmos-gravity-bridge"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmos-omnibus"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmos-relayer"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmos-sdk"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmos-snapshots"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmoshub-legacy-multisig"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmosia"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmospy"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmostation_token_resource"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmprund"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmwasm"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmwasm-go"
+
+[[repo]]
+url = "https://github.com/notional-labs/craft"
+
+[[repo]]
+url = "https://github.com/notional-labs/craft-airdrop"
+
+[[repo]]
+url = "https://github.com/notional-labs/crescent"
+
+[[repo]]
+url = "https://github.com/notional-labs/cross-chain-swap"
+
+[[repo]]
+url = "https://github.com/notional-labs/csec"
+
+[[repo]]
+url = "https://github.com/notional-labs/cw-nfts"
+
+[[repo]]
+url = "https://github.com/notional-labs/cw-plus"
+
+[[repo]]
+url = "https://github.com/notional-labs/cw-tokens"
+
+[[repo]]
+url = "https://github.com/notional-labs/dao-contracts"
+
+[[repo]]
+url = "https://github.com/notional-labs/decimal"
+
+[[repo]]
+url = "https://github.com/notional-labs/desmos"
+
+[[repo]]
+url = "https://github.com/notional-labs/devops-exercises"
+
+[[repo]]
+url = "https://github.com/notional-labs/dig"
+
+[[repo]]
+url = "https://github.com/notional-labs/dig-mobile-app"
+
+[[repo]]
+url = "https://github.com/notional-labs/Dig-NFT-Marketplace"
+
+[[repo]]
+url = "https://github.com/notional-labs/dig-nft-marketplace-backend"
+
+[[repo]]
+url = "https://github.com/notional-labs/dig-web-wallet"
+
+[[repo]]
+url = "https://github.com/notional-labs/em-ledger"
+
+[[repo]]
+url = "https://github.com/notional-labs/erc721"
+
+[[repo]]
+url = "https://github.com/notional-labs/ethermint"
+
+[[repo]]
+url = "https://github.com/notional-labs/evmos"
+
+[[repo]]
+url = "https://github.com/notional-labs/fa-chain"
+
+[[repo]]
+url = "https://github.com/notional-labs/fee-abstraction"
+
+[[repo]]
+url = "https://github.com/notional-labs/feeabstraction-contract"
+
+[[repo]]
+url = "https://github.com/notional-labs/fetchd"
+
+[[repo]]
+url = "https://github.com/notional-labs/fractional-collection-ownership-contract"
+
+[[repo]]
+url = "https://github.com/notional-labs/gaia"
+
+[[repo]]
+url = "https://github.com/notional-labs/gaia-analyzer"
+
+[[repo]]
+url = "https://github.com/notional-labs/gamm-bounty"
+
+[[repo]]
+url = "https://github.com/notional-labs/gateway"
+
+[[repo]]
+url = "https://github.com/notional-labs/genesis-registration"
+
+[[repo]]
+url = "https://github.com/notional-labs/genesis-tool"
+
+[[repo]]
+url = "https://github.com/notional-labs/get"
+
+[[repo]]
+url = "https://github.com/notional-labs/gno"
+
+[[repo]]
+url = "https://github.com/notional-labs/go-bitsong"
+
+[[repo]]
+url = "https://github.com/notional-labs/go-cyber"
+
+[[repo]]
+url = "https://github.com/notional-labs/gobetween"
+
+[[repo]]
+url = "https://github.com/notional-labs/gorocksdb"
+
+[[repo]]
+url = "https://github.com/notional-labs/gov"
+
+[[repo]]
+url = "https://github.com/notional-labs/governance"
+
+[[repo]]
+url = "https://github.com/notional-labs/helpful-tools"
+
+[[repo]]
+url = "https://github.com/notional-labs/hermes"
+
+[[repo]]
+url = "https://github.com/notional-labs/hub"
+
+[[repo]]
+url = "https://github.com/notional-labs/hyprspace"
+
+[[repo]]
+url = "https://github.com/notional-labs/iavl"
+
+[[repo]]
+url = "https://github.com/notional-labs/ibb"
+
+[[repo]]
+url = "https://github.com/notional-labs/ibc-community-pool"
+
+[[repo]]
+url = "https://github.com/notional-labs/ibc-go"
+
+[[repo]]
+url = "https://github.com/notional-labs/ibc-test"
+
+[[repo]]
+url = "https://github.com/notional-labs/ibctest"
+
+[[repo]]
+url = "https://github.com/notional-labs/ica-contract"
+
+[[repo]]
+url = "https://github.com/notional-labs/icns-verifier"
+
+[[repo]]
+url = "https://github.com/notional-labs/ics-testnets"
+
+[[repo]]
+url = "https://github.com/notional-labs/ics23"
+
+[[repo]]
+url = "https://github.com/notional-labs/incident-response"
+
+[[repo]]
+url = "https://github.com/notional-labs/interchain-accounts"
+
+[[repo]]
+url = "https://github.com/notional-labs/interchain-security"
+
+[[repo]]
+url = "https://github.com/notional-labs/ionizer"
+
+[[repo]]
+url = "https://github.com/notional-labs/ipfs-lite"
+
+[[repo]]
+url = "https://github.com/notional-labs/ipfsync"
+
+[[repo]]
+url = "https://github.com/notional-labs/ipget"
+
+[[repo]]
+url = "https://github.com/notional-labs/ipvpn"
+
+[[repo]]
+url = "https://github.com/notional-labs/iso-profiles"
+
+[[repo]]
+url = "https://github.com/notional-labs/ixo-blockchain"
+
+[[repo]]
+url = "https://github.com/notional-labs/json-iterator-go"
+
+[[repo]]
+url = "https://github.com/notional-labs/juno"
+
+[[repo]]
+url = "https://github.com/notional-labs/juno-rust"
+
+[[repo]]
+url = "https://github.com/notional-labs/juno-tools"
+
+[[repo]]
+url = "https://github.com/notional-labs/junoswap-asset-list"
+
+[[repo]]
+url = "https://github.com/notional-labs/junoswap-interface"
+
+[[repo]]
+url = "https://github.com/notional-labs/kava"
+
+[[repo]]
+url = "https://github.com/notional-labs/kcptun"
+
+[[repo]]
+url = "https://github.com/notional-labs/keplr-extension"
+
+[[repo]]
+url = "https://github.com/notional-labs/ki-tools"
+
+[[repo]]
+url = "https://github.com/notional-labs/kitty"
+
+[[repo]]
+url = "https://github.com/notional-labs/konstellation"
+
+[[repo]]
+url = "https://github.com/notional-labs/kuji-research"
+
+[[repo]]
+url = "https://github.com/notional-labs/kujira-core"
+
+[[repo]]
+url = "https://github.com/notional-labs/launch-kit"
+
+[[repo]]
+url = "https://github.com/notional-labs/ledger-cosmos"
+
+[[repo]]
+url = "https://github.com/notional-labs/ledger-cosmos-go"
+
+[[repo]]
+url = "https://github.com/notional-labs/ledger-go"
+
+[[repo]]
+url = "https://github.com/notional-labs/lens"
+
+[[repo]]
+url = "https://github.com/notional-labs/level-to-rocks"
+
+[[repo]]
+url = "https://github.com/notional-labs/level2pebble"
+
+[[repo]]
+url = "https://github.com/notional-labs/lfb"
+
+[[repo]]
+url = "https://github.com/notional-labs/likecoin-chain"
+
+[[repo]]
+url = "https://github.com/notional-labs/liquid-staking-contract"
+
+[[repo]]
+url = "https://github.com/notional-labs/liquidity"
+
+[[repo]]
+url = "https://github.com/notional-labs/liquidity-staking-module"
+
+[[repo]]
+url = "https://github.com/notional-labs/loyal"
+
+[[repo]]
+url = "https://github.com/notional-labs/MageNFT"
+
+[[repo]]
+url = "https://github.com/notional-labs/MageNFT-airdrop-bot"
+
+[[repo]]
+url = "https://github.com/notional-labs/mainnet"
+
+[[repo]]
+url = "https://github.com/notional-labs/mainnet-1"
+
+[[repo]]
+url = "https://github.com/notional-labs/mainnet-2"
+
+[[repo]]
+url = "https://github.com/notional-labs/mainnet-qs"
+
+[[repo]]
+url = "https://github.com/notional-labs/marshub"
+
+[[repo]]
+url = "https://github.com/notional-labs/meile-gui"
+
+[[repo]]
+url = "https://github.com/notional-labs/mesh-security"
+
+[[repo]]
+url = "https://github.com/notional-labs/mev-tendermint"
+
+[[repo]]
+url = "https://github.com/notional-labs/monitor-uptime-tool"
+
+[[repo]]
+url = "https://github.com/notional-labs/multisig-ui"
+
+[[repo]]
+url = "https://github.com/notional-labs/multisignature-service"
+
+[[repo]]
+url = "https://github.com/notional-labs/networks"
+
+[[repo]]
+url = "https://github.com/notional-labs/networks-Mars"
+
+[[repo]]
+url = "https://github.com/notional-labs/neutron"
+
+[[repo]]
+url = "https://github.com/notional-labs/neutron-testnet"
+
+[[repo]]
+url = "https://github.com/notional-labs/nft-marketplace"
+
+[[repo]]
+url = "https://github.com/notional-labs/notional"
+
+[[repo]]
+url = "https://github.com/notional-labs/notional.ventures"
+
+[[repo]]
+url = "https://github.com/notional-labs/oasis"
+
+[[repo]]
+url = "https://github.com/notional-labs/omniflixhub"
+
+[[repo]]
+url = "https://github.com/notional-labs/onboarding"
+
+[[repo]]
+url = "https://github.com/notional-labs/oracle-ibc"
+
+[[repo]]
+url = "https://github.com/notional-labs/OracleQuery"
+
+[[repo]]
+url = "https://github.com/notional-labs/osmosis"
+
+[[repo]]
+url = "https://github.com/notional-labs/osmosis-frontend"
+
+[[repo]]
+url = "https://github.com/notional-labs/osmosis-sdk"
+
+[[repo]]
+url = "https://github.com/notional-labs/packet-forward-middleware"
+
+[[repo]]
+url = "https://github.com/notional-labs/Passage3D"
+
+[[repo]]
+url = "https://github.com/notional-labs/Pat"
+
+[[repo]]
+url = "https://github.com/notional-labs/pebblecompact"
+
+[[repo]]
+url = "https://github.com/notional-labs/persistenceCore"
+
+[[repo]]
+url = "https://github.com/notional-labs/pixel"
+
+[[repo]]
+url = "https://github.com/notional-labs/price-feeder"
+
+[[repo]]
+url = "https://github.com/notional-labs/protobuf"
+
+[[repo]]
+url = "https://github.com/notional-labs/provenance"
+
+[[repo]]
+url = "https://github.com/notional-labs/pylons"
+
+[[repo]]
+url = "https://github.com/notional-labs/questnet-Notional"
+
+[[repo]]
+url = "https://github.com/notional-labs/quicksilver"
+
+[[repo]]
+url = "https://github.com/notional-labs/regen-ledger"
+
+[[repo]]
+url = "https://github.com/notional-labs/relayers"
+
+[[repo]]
+url = "https://github.com/notional-labs/restake"
+
+[[repo]]
+url = "https://github.com/notional-labs/restake-tools"
+
+[[repo]]
+url = "https://github.com/notional-labs/reward-bot"
+
+[[repo]]
+url = "https://github.com/notional-labs/sdk"
+
+[[repo]]
+url = "https://github.com/notional-labs/seahorse"
+
+[[repo]]
+url = "https://github.com/notional-labs/seahorse-chain-archive"
+
+[[repo]]
+url = "https://github.com/notional-labs/SecretNetwork"
+
+[[repo]]
+url = "https://github.com/notional-labs/sei-chain"
+
+[[repo]]
+url = "https://github.com/notional-labs/sei-testnet"
+
+[[repo]]
+url = "https://github.com/notional-labs/sentinel"
+
+[[repo]]
+url = "https://github.com/notional-labs/shentu"
+
+[[repo]]
+url = "https://github.com/notional-labs/sifnode"
+
+[[repo]]
+url = "https://github.com/notional-labs/something-special"
+
+[[repo]]
+url = "https://github.com/notional-labs/sommelier"
+
+[[repo]]
+url = "https://github.com/notional-labs/sovereign"
+
+[[repo]]
+url = "https://github.com/notional-labs/spm"
+
+[[repo]]
+url = "https://github.com/notional-labs/spn"
+
+[[repo]]
+url = "https://github.com/notional-labs/Staking-data-collection"
+
+[[repo]]
+url = "https://github.com/notional-labs/stargaze"
+
+[[repo]]
+url = "https://github.com/notional-labs/starnamed"
+
+[[repo]]
+url = "https://github.com/notional-labs/stride"
+
+[[repo]]
+url = "https://github.com/notional-labs/subnode"
+
+[[repo]]
+url = "https://github.com/notional-labs/sypersign-networks"
+
+[[repo]]
+url = "https://github.com/notional-labs/tenderduty.notional.ventures"
+
+[[repo]]
+url = "https://github.com/notional-labs/tendermint"
+
+[[repo]]
+url = "https://github.com/notional-labs/tendermint-debug-tool"
+
+[[repo]]
+url = "https://github.com/notional-labs/Tendermint_issues"
+
+[[repo]]
+url = "https://github.com/notional-labs/teritori-chain"
+
+[[repo]]
+url = "https://github.com/notional-labs/Test"
+
+[[repo]]
+url = "https://github.com/notional-labs/test-chain"
+
+[[repo]]
+url = "https://github.com/notional-labs/test-ci"
+
+[[repo]]
+url = "https://github.com/notional-labs/testnets"
+
+[[repo]]
+url = "https://github.com/notional-labs/testnets-2"
+
+[[repo]]
+url = "https://github.com/notional-labs/tinyport"
+
+[[repo]]
+url = "https://github.com/notional-labs/tinyport-scaffold"
+
+[[repo]]
+url = "https://github.com/notional-labs/tinyportapp"
+
+[[repo]]
+url = "https://github.com/notional-labs/tinyseed"
+
+[[repo]]
+url = "https://github.com/notional-labs/tm-db"
+
+[[repo]]
+url = "https://github.com/notional-labs/tm-db-line"
+
+[[repo]]
+url = "https://github.com/notional-labs/token-factory"
+
+[[repo]]
+url = "https://github.com/notional-labs/ts-relayer"
+
+[[repo]]
+url = "https://github.com/notional-labs/twilight"
+
+[[repo]]
+url = "https://github.com/notional-labs/UltraStableJuno"
+
+[[repo]]
+url = "https://github.com/notional-labs/umee"
+
+[[repo]]
+url = "https://github.com/notional-labs/validator-guide"
+
+[[repo]]
+url = "https://github.com/notional-labs/validator-registry"
+
+[[repo]]
+url = "https://github.com/notional-labs/vidulum"
+
+[[repo]]
+url = "https://github.com/notional-labs/vroom-validator"
+
+[[repo]]
+url = "https://github.com/notional-labs/vue"
+
+[[repo]]
+url = "https://github.com/notional-labs/vue-1"
+
+[[repo]]
+url = "https://github.com/notional-labs/wallet-core"
+
+[[repo]]
+url = "https://github.com/notional-labs/warpzone"
+
+[[repo]]
+url = "https://github.com/notional-labs/wasmd"
+
+[[repo]]
+url = "https://github.com/notional-labs/wasmd-1"
+
+[[repo]]
+url = "https://github.com/notional-labs/wasmswap-contracts"
+
+[[repo]]
+url = "https://github.com/notional-labs/wasmvm"
+
+[[repo]]
+url = "https://github.com/notional-labs/websocket"
+
 [[repo]]
 url = "https://github.com/osmosis-labs/.github"
 
@@ -25,6 +1257,9 @@ url = "https://github.com/osmosis-labs/beaker"
 url = "https://github.com/osmosis-labs/bech32-ibc"
 
 [[repo]]
+url = "https://github.com/osmosis-labs/beforesend-demo"
+
+[[repo]]
 url = "https://github.com/osmosis-labs/bindings"
 
 [[repo]]
@@ -32,6 +1267,9 @@ url = "https://github.com/osmosis-labs/btree"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/claims"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/code-explorer"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/contract-list"
@@ -56,6 +1294,9 @@ url = "https://github.com/osmosis-labs/cosmwasm"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cosmwasm-verify"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/cw-minimal-template"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cw-stargate-reflect"
@@ -100,10 +1341,19 @@ url = "https://github.com/osmosis-labs/iavl"
 url = "https://github.com/osmosis-labs/ibc-go"
 
 [[repo]]
+url = "https://github.com/osmosis-labs/icns"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/icns-leaderboard"
+
+[[repo]]
 url = "https://github.com/osmosis-labs/infrastructure"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/ionsupply"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/keplr-wallet"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/LocalOsmosis"
@@ -184,6 +1434,9 @@ url = "https://github.com/osmosis-labs/tendermint-rpc-swagger"
 url = "https://github.com/osmosis-labs/terraform-digitalocean-cosmos-droplet"
 
 [[repo]]
+url = "https://github.com/osmosis-labs/test-tube"
+
+[[repo]]
 url = "https://github.com/osmosis-labs/tm-db"
 
 [[repo]]
@@ -191,3 +1444,42 @@ url = "https://github.com/osmosis-labs/wasmd"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/wormhole"
+
+[[repo]]
+url = "https://github.com/OsmosisIncentivesCommittee/OsmoIncentives"
+
+[[repo]]
+url = "https://github.com/Philipp-Sc/cosmos-rust-bot"
+
+[[repo]]
+url = "https://github.com/polkachu/cosmos-validators"
+
+[[repo]]
+url = "https://github.com/pyramation/cosmology"
+
+[[repo]]
+url = "https://github.com/rebuschain/rebus.app.web"
+
+[[repo]]
+url = "https://github.com/Sifchain/sifnode"
+
+[[repo]]
+url = "https://github.com/Snedashkovsky/cybergift"
+
+[[repo]]
+url = "https://github.com/teamscanworks/codebreaker"
+
+[[repo]]
+url = "https://github.com/teamscanworks/cosmos-sdk"
+
+[[repo]]
+url = "https://github.com/teamscanworks/cw-contracts-registry"
+
+[[repo]]
+url = "https://github.com/teamscanworks/simple-security-toolkit"
+
+[[repo]]
+url = "https://github.com/teamscanworks/verification-contracts"
+
+[[repo]]
+url = "https://github.com/teamscanworks/wasmd"

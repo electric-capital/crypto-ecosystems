@@ -2,22 +2,77 @@
 title = "Moonbeam"
 
 sub_ecosystems = [
+  "1beam",
   "1Swap",
+  "ACryptoS",
+  "AirGap",
+  "Amara Finance",
+  "Apillon",
   "Authtrail",
   "Auto",
+  "Banksea Finance",
+  "BeamSwap",
   "Bepro Network",
+  "Bithotel",
+  "Bitquery",
+  "Bware Labs",
+  "Cask",
+  "Certhum",
+  "Chaotic Finance",
+  "Collectify",
   "Convergence Finance",
+  "Cougar Swap",
   "COVA",
   "Cover Compared",
+  "crystyl.finance",
+  "DefiYield",
+  "Demodyfi",
+  "Exiled Racers",
+  "Firefly",
+  "Galxe",
   "Huckleberry",
+  "IBetYou",
+  "Klever",
+  "Lunardex",
+  "MidasProtocol",
+  "Minterest Finance",
+  "MixBytes",
+  "Moonbeans",
   "Moonfarmin",
+  "Moonsama",
+  "Moonwell",
+  "Mystiko",
+  "MyTrade",
+  "Narwhalswap",
+  "Novasama Technologies",
+  "OnFinality",
+  "Polkadotters",
   "Polkamarkets",
+  "Polkassembly",
+  "Protofire",
+  "Qoda",
+  "Raresama",
   "Razor Network",
-  "Seascape",
+  "RMRK Team",
+  "Ryabina",
+  "Seascape Network",
   "Solarbeam",
   "StellaSwap",
+  "Subscan",
+  "Subsquid",
+  "SubWallet",
+  "Toad Network",
+  "Transak",
+  "TrueStaking",
   "Unifty",
+  "Vulture Finance",
+  "Web3Go",
+  "XDAO",
+  "Yield Bay",
   "Zenlink",
+  "Zircon",
+  "ZKValidator",
+  "Zoombies",
 ]
 
 github_organizations = ["https://github.com/PureStake"]
@@ -25,6 +80,30 @@ github_organizations = ["https://github.com/PureStake"]
 # Repositories
 [[repo]]
 url = "https://github.com/bwarelabs/moonbeam-launch"
+
+[[repo]]
+url = "https://github.com/ChaosDAO-org/subscrape"
+
+[[repo]]
+url = "https://github.com/manuelhb14/moonbridge"
+
+[[repo]]
+url = "https://github.com/merc1er/moonsama-gain-calculator"
+
+[[repo]]
+url = "https://github.com/moonbeam-foundation/code-of-conduct"
+
+[[repo]]
+url = "https://github.com/moonbeam-foundation/crowdloan-self-attestation"
+
+[[repo]]
+url = "https://github.com/moonbeam-foundation/grants"
+
+[[repo]]
+url = "https://github.com/moonbeam-foundation/treasury"
+
+[[repo]]
+url = "https://github.com/ParityAsia/hackathon-2022-summer"
 
 [[repo]]
 url = "https://github.com/PureStake/algosigner"
@@ -63,6 +142,9 @@ url = "https://github.com/PureStake/chainbridge-ui"
 url = "https://github.com/PureStake/chains"
 
 [[repo]]
+url = "https://github.com/PureStake/chopsticks"
+
+[[repo]]
 url = "https://github.com/PureStake/cli-ts-signer"
 
 [[repo]]
@@ -85,6 +167,9 @@ url = "https://github.com/PureStake/crowdloan-tools"
 
 [[repo]]
 url = "https://github.com/PureStake/cumulus"
+
+[[repo]]
+url = "https://github.com/PureStake/data-retention-discord-bot"
 
 [[repo]]
 url = "https://github.com/PureStake/DefiLlama-Adapters"
@@ -154,6 +239,9 @@ url = "https://github.com/PureStake/metamask-extension"
 
 [[repo]]
 url = "https://github.com/PureStake/mitmproxy"
+
+[[repo]]
+url = "https://github.com/PureStake/moon-command-bot"
 
 [[repo]]
 url = "https://github.com/PureStake/moonbase-mintableERC20"
@@ -231,6 +319,9 @@ url = "https://github.com/PureStake/moonbeam-walletconnect-template"
 url = "https://github.com/PureStake/moonbridge-subgraph"
 
 [[repo]]
+url = "https://github.com/PureStake/moonbuilderNFT"
+
+[[repo]]
 url = "https://github.com/PureStake/moonbuilders-academy"
 
 [[repo]]
@@ -276,6 +367,9 @@ url = "https://github.com/PureStake/polkadot-api"
 url = "https://github.com/PureStake/polkadot-launch"
 
 [[repo]]
+url = "https://github.com/PureStake/polkadot_network_directory"
+
+[[repo]]
 url = "https://github.com/PureStake/polkassembly"
 
 [[repo]]
@@ -292,6 +386,9 @@ url = "https://github.com/PureStake/sccache"
 
 [[repo]]
 url = "https://github.com/PureStake/slips"
+
+[[repo]]
+url = "https://github.com/PureStake/sqlx"
 
 [[repo]]
 url = "https://github.com/PureStake/sub-flood"
@@ -330,7 +427,13 @@ url = "https://github.com/PureStake/txwrapper-core"
 url = "https://github.com/PureStake/ui"
 
 [[repo]]
+url = "https://github.com/PureStake/wagmi"
+
+[[repo]]
 url = "https://github.com/PureStake/walletconnect-example-dapp"
+
+[[repo]]
+url = "https://github.com/PureStake/wormhole-example-relayer-engine"
 
 [[repo]]
 url = "https://github.com/PureStake/xcm-sdk"
@@ -339,4 +442,13 @@ url = "https://github.com/PureStake/xcm-sdk"
 url = "https://github.com/PureStake/xcm-tools"
 
 [[repo]]
+url = "https://github.com/PureStake/zombienet"
+
+[[repo]]
+url = "https://github.com/remorablackflag/scaffold-eth-challenges"
+
+[[repo]]
 url = "https://github.com/rstormsf/multisender"
+
+[[repo]]
+url = "https://github.com/subdirectory/subshell"

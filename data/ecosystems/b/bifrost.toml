@@ -1,7 +1,17 @@
 # Ecosystem Level Information
 title = "Bifrost"
 
-sub_ecosystems = []
+sub_ecosystems = [
+  "ArthSwap",
+  "AstridDao",
+  "BeamSwap",
+  "Mangata Finance",
+  "Moonwell",
+  "Solarbeam",
+  "Starlay Finance",
+  "StellaSwap",
+  "Zircon",
+]
 
 github_organizations = ["https://github.com/bifrost-finance"]
 
@@ -14,6 +24,9 @@ url = "https://github.com/bifrost-finance/app"
 
 [[repo]]
 url = "https://github.com/bifrost-finance/apps"
+
+[[repo]]
+url = "https://github.com/bifrost-finance/astar-apps"
 
 [[repo]]
 url = "https://github.com/bifrost-finance/awesome-substrate"
@@ -91,6 +104,12 @@ url = "https://github.com/bifrost-finance/DefiLlama-Adapters"
 url = "https://github.com/bifrost-finance/design-assets"
 
 [[repo]]
+url = "https://github.com/bifrost-finance/e2e-test"
+
+[[repo]]
+url = "https://github.com/bifrost-finance/enKrypt"
+
+[[repo]]
 url = "https://github.com/bifrost-finance/eos"
 
 [[repo]]
@@ -124,6 +143,12 @@ url = "https://github.com/bifrost-finance/kusd-compensate-server"
 url = "https://github.com/bifrost-finance/ledger-bifrost"
 
 [[repo]]
+url = "https://github.com/bifrost-finance/ledger-bifrost-kusama"
+
+[[repo]]
+url = "https://github.com/bifrost-finance/ledger-bifrost-old"
+
+[[repo]]
 url = "https://github.com/bifrost-finance/libsecp256k1"
 
 [[repo]]
@@ -131,6 +156,9 @@ url = "https://github.com/bifrost-finance/merkle-distributor"
 
 [[repo]]
 url = "https://github.com/bifrost-finance/moonbeam"
+
+[[repo]]
+url = "https://github.com/bifrost-finance/moonbeam-xcm-action"
 
 [[repo]]
 url = "https://github.com/bifrost-finance/nimbus"
@@ -212,6 +240,9 @@ url = "https://github.com/bifrost-finance/subql"
 
 [[repo]]
 url = "https://github.com/bifrost-finance/subql_behavioral_incentives"
+
+[[repo]]
+url = "https://github.com/bifrost-finance/subql_bifrost_for_vfil"
 
 [[repo]]
 url = "https://github.com/bifrost-finance/substrate"

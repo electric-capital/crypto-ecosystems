@@ -1,21 +1,42 @@
 # Ecosystem Level Information
 title = "Lightning"
 
-sub_ecosystems = ["Sparkswap"]
+sub_ecosystems = [
+  "OmniLab",
+  "P2P Derivatives",
+  "RGB Working Group",
+  "Sparkswap",
+  "Stakwork & Sphinx",
+  "Vortex",
+]
 
 github_organizations = [
   "https://github.com/ACINQ",
   "https://github.com/altangent",
+  "https://github.com/BoltzExchange",
+  "https://github.com/bottlepay",
   "https://github.com/breez",
+  "https://github.com/clams-tech",
   "https://github.com/GaloyMoney",
+  "https://github.com/getAlby",
+  "https://github.com/getumbrel",
   "https://github.com/Lightning-Family",
   "https://github.com/lightningdevkit",
   "https://github.com/lightningnetwork",
   "https://github.com/LightningPeach",
+  "https://github.com/lnbits",
+  "https://github.com/lncapital",
+  "https://github.com/muun",
   "https://github.com/nayutaco",
+  "https://github.com/nbd-wtf",
+  "https://github.com/Start9Labs",
+  "https://github.com/synonymdev",
 ]
 
 # Repositories
+[[repo]]
+url = "https://github.com/accumulator/charge-lnd"
+
 [[repo]]
 url = "https://github.com/ACINQ/acinq-tools"
 
@@ -51,6 +72,9 @@ url = "https://github.com/ACINQ/eclair-mobile"
 tags = ["Wallet"]
 
 [[repo]]
+url = "https://github.com/ACINQ/eclair-plugins"
+
+[[repo]]
 url = "https://github.com/ACINQ/electrum-lib"
 
 [[repo]]
@@ -84,6 +108,9 @@ url = "https://github.com/ACINQ/secp256k1"
 url = "https://github.com/ACINQ/secp256k1-kmp"
 
 [[repo]]
+url = "https://github.com/ACINQ/tor-mobile-kmp"
+
+[[repo]]
 url = "https://github.com/ACINQ/Tor_Onion_Proxy_Library"
 
 [[repo]]
@@ -94,6 +121,18 @@ url = "https://github.com/ACINQ/woocommerce-strike-gateway"
 
 [[repo]]
 url = "https://github.com/agora-org/agora"
+
+[[repo]]
+url = "https://github.com/akumaigorodski/IMMORTAN"
+
+[[repo]]
+url = "https://github.com/akumaigorodski/lnwallet"
+
+[[repo]]
+url = "https://github.com/akumaigorodski/plugin-hosted-channels"
+
+[[repo]]
+url = "https://github.com/akumaigorodski/wallet"
 
 [[repo]]
 url = "https://github.com/alexbosworth/balanceofsatoshis"
@@ -223,10 +262,34 @@ url = "https://github.com/biscottigelato/SwiftLightning"
 url = "https://github.com/bitcoin-studio/LightningNespressoUI"
 
 [[repo]]
+url = "https://github.com/BitcoinDevShop/bakeshop"
+
+[[repo]]
+url = "https://github.com/BitcoinDevShop/hidden-lightning-network"
+
+[[repo]]
+url = "https://github.com/BitcoinDevShop/lightning-privacy-research"
+
+[[repo]]
+url = "https://github.com/BitcoinDevShop/mutiny-web-poc"
+
+[[repo]]
+url = "https://github.com/BitcoinDevShop/pln"
+
+[[repo]]
+url = "https://github.com/BitcoinDevShop/satslayer"
+
+[[repo]]
 url = "https://github.com/bitfinexcom/dazaar-payment-lightning"
 
 [[repo]]
+url = "https://github.com/bitromortac/lndmanage"
+
+[[repo]]
 url = "https://github.com/bkiac/tarnhelm"
+
+[[repo]]
+url = "https://github.com/bleskomat/bleskomat-diy"
 
 [[repo]]
 url = "https://github.com/blockfirm/pine-api"
@@ -256,19 +319,217 @@ url = "https://github.com/BlueWallet/LndHub"
 url = "https://github.com/BlueWallet/rn-ldk"
 
 [[repo]]
+url = "https://github.com/BoltzExchange/bitcoin-ops"
+
+[[repo]]
+url = "https://github.com/BoltzExchange/bolt11"
+
+[[repo]]
 url = "https://github.com/BoltzExchange/boltz-backend"
 
 [[repo]]
 url = "https://github.com/BoltzExchange/boltz-core"
 
 [[repo]]
+url = "https://github.com/BoltzExchange/boltz-core-angular"
+
+[[repo]]
+url = "https://github.com/BoltzExchange/boltz-frontend"
+
+[[repo]]
 url = "https://github.com/BoltzExchange/boltz-lnd"
+
+[[repo]]
+url = "https://github.com/BoltzExchange/boltz-middleware"
 
 [[repo]]
 url = "https://github.com/BoltzExchange/channel-bot"
 
 [[repo]]
 url = "https://github.com/BoltzExchange/channel-creation-plugin"
+
+[[repo]]
+url = "https://github.com/BoltzExchange/hedgy"
+
+[[repo]]
+url = "https://github.com/BoltzExchange/monitoring"
+
+[[repo]]
+url = "https://github.com/BoltzExchange/slides"
+
+[[repo]]
+url = "https://github.com/bottlepay/art-qr"
+
+[[repo]]
+url = "https://github.com/bottlepay/base58check"
+
+[[repo]]
+url = "https://github.com/bottlepay/blips"
+
+[[repo]]
+url = "https://github.com/bottlepay/btc_address_validate"
+
+[[repo]]
+url = "https://github.com/bottlepay/btcwallet"
+
+[[repo]]
+url = "https://github.com/bottlepay/camera_awesome"
+
+[[repo]]
+url = "https://github.com/bottlepay/crypto_keys"
+
+[[repo]]
+url = "https://github.com/bottlepay/dart_lnurl"
+
+[[repo]]
+url = "https://github.com/bottlepay/dd-sdk-flutter"
+
+[[repo]]
+url = "https://github.com/bottlepay/easy_localization"
+
+[[repo]]
+url = "https://github.com/bottlepay/engine"
+
+[[repo]]
+url = "https://github.com/bottlepay/fireblocks-key-recovery-tool"
+
+[[repo]]
+url = "https://github.com/bottlepay/flutter"
+
+[[repo]]
+url = "https://github.com/bottlepay/flutter-geocoding"
+
+[[repo]]
+url = "https://github.com/bottlepay/flutter-widgets"
+
+[[repo]]
+url = "https://github.com/bottlepay/flutter_cached_network_image"
+
+[[repo]]
+url = "https://github.com/bottlepay/flutter_confetti"
+
+[[repo]]
+url = "https://github.com/bottlepay/flutter_crispchat"
+
+[[repo]]
+url = "https://github.com/bottlepay/flutter_libphonenumber"
+
+[[repo]]
+url = "https://github.com/bottlepay/flutter_multi_formatter"
+
+[[repo]]
+url = "https://github.com/bottlepay/flutter_oktoast"
+
+[[repo]]
+url = "https://github.com/bottlepay/flutter_pulltorefresh"
+
+[[repo]]
+url = "https://github.com/bottlepay/flutter_secure_storage"
+
+[[repo]]
+url = "https://github.com/bottlepay/flutter_showtime"
+
+[[repo]]
+url = "https://github.com/bottlepay/giphy_client"
+
+[[repo]]
+url = "https://github.com/bottlepay/Google-Ml-Kit-plugin"
+
+[[repo]]
+url = "https://github.com/bottlepay/google_geocoding"
+
+[[repo]]
+url = "https://github.com/bottlepay/google_place"
+
+[[repo]]
+url = "https://github.com/bottlepay/grpc-dart"
+
+[[repo]]
+url = "https://github.com/bottlepay/http_extensions"
+
+[[repo]]
+url = "https://github.com/bottlepay/hydrated_riverpod"
+
+[[repo]]
+url = "https://github.com/bottlepay/infinite_scroll_pagination"
+
+[[repo]]
+url = "https://github.com/bottlepay/injectable"
+
+[[repo]]
+url = "https://github.com/bottlepay/intl_generator"
+
+[[repo]]
+url = "https://github.com/bottlepay/isolate_handler"
+
+[[repo]]
+url = "https://github.com/bottlepay/jose"
+
+[[repo]]
+url = "https://github.com/bottlepay/json_serializable_immutable_collections"
+
+[[repo]]
+url = "https://github.com/bottlepay/lightning-benchmark"
+
+[[repo]]
+url = "https://github.com/bottlepay/lnd"
+
+[[repo]]
+url = "https://github.com/bottlepay/lndmon"
+
+[[repo]]
+url = "https://github.com/bottlepay/lndsigner"
+
+[[repo]]
+url = "https://github.com/bottlepay/lnmux"
+
+[[repo]]
+url = "https://github.com/bottlepay/Mad-Pay-Flutter"
+
+[[repo]]
+url = "https://github.com/bottlepay/melos"
+
+[[repo]]
+url = "https://github.com/bottlepay/mobx.dart"
+
+[[repo]]
+url = "https://github.com/bottlepay/mockito"
+
+[[repo]]
+url = "https://github.com/bottlepay/pathfinding-benchmark"
+
+[[repo]]
+url = "https://github.com/bottlepay/plain_notification_token"
+
+[[repo]]
+url = "https://github.com/bottlepay/plugins"
+
+[[repo]]
+url = "https://github.com/bottlepay/plus_plugins"
+
+[[repo]]
+url = "https://github.com/bottlepay/RateMyApp"
+
+[[repo]]
+url = "https://github.com/bottlepay/retool-onpremise"
+
+[[repo]]
+url = "https://github.com/bottlepay/sentry-dart"
+
+[[repo]]
+url = "https://github.com/bottlepay/stackstorm-rabbitmq"
+
+[[repo]]
+url = "https://github.com/bottlepay/story_view"
+
+[[repo]]
+url = "https://github.com/bottlepay/sylph"
+
+[[repo]]
+url = "https://github.com/bottlepay/table_calendar"
+
+[[repo]]
+url = "https://github.com/bottlepay/x509"
 
 [[repo]]
 url = "https://github.com/breez/anytime_podcast_player"
@@ -349,6 +610,9 @@ url = "https://github.com/breez/ln-decodepay"
 url = "https://github.com/breez/lnd"
 
 [[repo]]
+url = "https://github.com/breez/lntest"
+
+[[repo]]
 url = "https://github.com/breez/local_auth"
 
 [[repo]]
@@ -362,6 +626,9 @@ url = "https://github.com/breez/marketdata"
 
 [[repo]]
 url = "https://github.com/breez/neutrino"
+
+[[repo]]
+url = "https://github.com/breez/neutrino-breez"
 
 [[repo]]
 url = "https://github.com/breez/nfc_in_flutter"
@@ -389,6 +656,9 @@ url = "https://github.com/breez/swapper"
 
 [[repo]]
 url = "https://github.com/breez/tsacdop"
+
+[[repo]]
+url = "https://github.com/breez/website"
 
 [[repo]]
 url = "https://github.com/btcontract/IMMORTAN"
@@ -428,6 +698,12 @@ url = "https://github.com/bucko13/prism"
 url = "https://github.com/bucko13/sats4chats"
 
 [[repo]]
+url = "https://github.com/bumi/lnme"
+
+[[repo]]
+url = "https://github.com/C-Otto/lnd-manageJ"
+
+[[repo]]
 url = "https://github.com/C-Otto/rebalance-lnd"
 
 [[repo]]
@@ -456,6 +732,21 @@ url = "https://github.com/chill117/lnurl-node"
 url = "https://github.com/chill117/passport-lnurl-auth"
 
 [[repo]]
+url = "https://github.com/clams-tech/browser-app"
+
+[[repo]]
+url = "https://github.com/clams-tech/docs"
+
+[[repo]]
+url = "https://github.com/clams-tech/ln-ws-proxy"
+
+[[repo]]
+url = "https://github.com/clams-tech/rune-decoder"
+
+[[repo]]
+url = "https://github.com/clams-tech/website"
+
+[[repo]]
 url = "https://github.com/coinmesh/coinmesh"
 
 [[repo]]
@@ -477,6 +768,9 @@ url = "https://github.com/conscott/get-lightning-paid"
 url = "https://github.com/corollari/tbtcswaps"
 
 [[repo]]
+url = "https://github.com/crypto-coins/fortuneCookies"
+
+[[repo]]
 url = "https://github.com/CryptoFR/ln-tip-slack"
 
 [[repo]]
@@ -487,6 +781,9 @@ url = "https://github.com/dennisreimann/blitzbank-dashboard"
 
 [[repo]]
 url = "https://github.com/dianerey/lnsim"
+
+[[repo]]
+url = "https://github.com/djbooth007/tallycoin_connect"
 
 [[repo]]
 url = "https://github.com/Dolu89/lapps-donation-example"
@@ -602,7 +899,13 @@ url = "https://github.com/Fr4nZ82/lnprint"
 url = "https://github.com/GaloyMoney/.github"
 
 [[repo]]
+url = "https://github.com/GaloyMoney/ab22-dashboard"
+
+[[repo]]
 url = "https://github.com/GaloyMoney/admin-panel"
+
+[[repo]]
+url = "https://github.com/GaloyMoney/admin-panel-test"
 
 [[repo]]
 url = "https://github.com/GaloyMoney/api-docs"
@@ -629,6 +932,9 @@ url = "https://github.com/GaloyMoney/dealer-rs"
 url = "https://github.com/GaloyMoney/dev.galoy.io"
 
 [[repo]]
+url = "https://github.com/GaloyMoney/Earn"
+
+[[repo]]
 url = "https://github.com/GaloyMoney/galoy"
 
 [[repo]]
@@ -645,6 +951,9 @@ url = "https://github.com/GaloyMoney/galoy-mobile"
 
 [[repo]]
 url = "https://github.com/GaloyMoney/galoy-pay"
+
+[[repo]]
+url = "https://github.com/GaloyMoney/galoy-plugin-proof-of-liabilities"
 
 [[repo]]
 url = "https://github.com/GaloyMoney/galoy-react"
@@ -683,6 +992,12 @@ url = "https://github.com/GaloyMoney/opentelemetry-js-contrib"
 url = "https://github.com/GaloyMoney/price"
 
 [[repo]]
+url = "https://github.com/GaloyMoney/proof-of-sats"
+
+[[repo]]
+url = "https://github.com/GaloyMoney/proof-of-sats-plugin"
+
+[[repo]]
 url = "https://github.com/GaloyMoney/react-native-geetest-module"
 
 [[repo]]
@@ -704,28 +1019,217 @@ url = "https://github.com/GaloyMoney/web-wallet"
 url = "https://github.com/gdistasi/LNSim"
 
 [[repo]]
+url = "https://github.com/getAlby/alby-companion-rs"
+
+[[repo]]
+url = "https://github.com/getAlby/alby-installer-linux"
+
+[[repo]]
+url = "https://github.com/getAlby/alby-installer-macos"
+
+[[repo]]
+url = "https://github.com/getAlby/alby-installer-windows"
+
+[[repo]]
+url = "https://github.com/getAlby/alby-js-sdk"
+
+[[repo]]
+url = "https://github.com/getAlby/alby-tools"
+
+[[repo]]
+url = "https://github.com/getAlby/build-powered-by"
+
+[[repo]]
+url = "https://github.com/getAlby/docker-bitcoind"
+
+[[repo]]
+url = "https://github.com/getAlby/echo-lsat"
+
+[[repo]]
+url = "https://github.com/getAlby/electrs"
+
+[[repo]]
+url = "https://github.com/getAlby/getalby.github.io"
+
+[[repo]]
+url = "https://github.com/getAlby/go-oauth2-gorm"
+
+[[repo]]
+url = "https://github.com/getAlby/lightning-address-details-proxy"
+
+[[repo]]
 url = "https://github.com/getAlby/lightning-browser-extension"
 
 [[repo]]
 url = "https://github.com/getAlby/lightning-node-connect"
 
 [[repo]]
+url = "https://github.com/getAlby/lightning-publisher-wordpress"
+
+[[repo]]
+url = "https://github.com/getAlby/liquimercado"
+
+[[repo]]
+url = "https://github.com/getAlby/ln-ws-proxy"
+
+[[repo]]
+url = "https://github.com/getAlby/lndg"
+
+[[repo]]
+url = "https://github.com/getAlby/lndhub.go"
+
+[[repo]]
+url = "https://github.com/getAlby/lndhub.go.landing"
+
+[[repo]]
+url = "https://github.com/getAlby/lndinit"
+
+[[repo]]
+url = "https://github.com/getAlby/lnsocket-proxy"
+
+[[repo]]
 url = "https://github.com/getAlby/local-proxy"
+
+[[repo]]
+url = "https://github.com/getAlby/lsat-middleware"
+
+[[repo]]
+url = "https://github.com/getAlby/lsat-proxy"
+
+[[repo]]
+url = "https://github.com/getAlby/lsatplayer-demo"
+
+[[repo]]
+url = "https://github.com/getAlby/media"
+
+[[repo]]
+url = "https://github.com/getAlby/mercado-liquiditad"
+
+[[repo]]
+url = "https://github.com/getAlby/nginx-default-backend"
+
+[[repo]]
+url = "https://github.com/getAlby/oauth2"
+
+[[repo]]
+url = "https://github.com/getAlby/oauth2server"
+
+[[repo]]
+url = "https://github.com/getAlby/regtest-website"
+
+[[repo]]
+url = "https://github.com/getAlby/secret-satsa"
+
+[[repo]]
+url = "https://github.com/getAlby/sell-lsat-files"
+
+[[repo]]
+url = "https://github.com/getAlby/simple-boost"
+
+[[repo]]
+url = "https://github.com/getAlby/taro"
+
+[[repo]]
+url = "https://github.com/getAlby/trustedcoin"
+
+[[repo]]
+url = "https://github.com/getAlby/webln"
 
 [[repo]]
 url = "https://github.com/getAlby/webln-guide"
 
 [[repo]]
+url = "https://github.com/getAlby/webln-oauth-simple-demo"
+
+[[repo]]
+url = "https://github.com/getAlby/website"
+
+[[repo]]
+url = "https://github.com/getmash/mash-js"
+
+[[repo]]
+url = "https://github.com/getmash/wordpress-mash-plugin"
+
+[[repo]]
+url = "https://github.com/getumbrel/docker-bitcoind"
+
+[[repo]]
+url = "https://github.com/getumbrel/docker-btc-rpc-explorer"
+
+[[repo]]
+url = "https://github.com/getumbrel/docker-electrs"
+
+[[repo]]
+url = "https://github.com/getumbrel/docker-gotty"
+
+[[repo]]
+url = "https://github.com/getumbrel/docker-lnd"
+
+[[repo]]
+url = "https://github.com/getumbrel/docker-lnd-neutrino-switch"
+
+[[repo]]
+url = "https://github.com/getumbrel/docker-lnd-unlock"
+
+[[repo]]
+url = "https://github.com/getumbrel/docker-snowflake"
+
+[[repo]]
+url = "https://github.com/getumbrel/docker-tor"
+
+[[repo]]
+url = "https://github.com/getumbrel/dosh"
+
+[[repo]]
+url = "https://github.com/getumbrel/tor-server"
+
+[[repo]]
 url = "https://github.com/getumbrel/umbrel"
+
+[[repo]]
+url = "https://github.com/getumbrel/umbrel-apps"
+
+[[repo]]
+url = "https://github.com/getumbrel/umbrel-apps-gallery"
+
+[[repo]]
+url = "https://github.com/getumbrel/umbrel-bitcoin"
+
+[[repo]]
+url = "https://github.com/getumbrel/umbrel-community-app-store"
+
+[[repo]]
+url = "https://github.com/getumbrel/umbrel-compose"
+
+[[repo]]
+url = "https://github.com/getumbrel/umbrel-core-lightning"
 
 [[repo]]
 url = "https://github.com/getumbrel/umbrel-dashboard"
 
 [[repo]]
+url = "https://github.com/getumbrel/umbrel-dev"
+
+[[repo]]
+url = "https://github.com/getumbrel/umbrel-electrs"
+
+[[repo]]
+url = "https://github.com/getumbrel/umbrel-frontail"
+
+[[repo]]
+url = "https://github.com/getumbrel/umbrel-lightning"
+
+[[repo]]
 url = "https://github.com/getumbrel/umbrel-manager"
 
 [[repo]]
+url = "https://github.com/getumbrel/umbrel-middleware"
+
+[[repo]]
 url = "https://github.com/getumbrel/umbrel-os"
+
+[[repo]]
+url = "https://github.com/getumbrel/umbrel-website"
 
 [[repo]]
 url = "https://github.com/getvoltage/voltageapp.io"
@@ -785,10 +1289,16 @@ url = "https://github.com/igreshev/lightning-poker"
 url = "https://github.com/igreshev/lightning-roulette"
 
 [[repo]]
+url = "https://github.com/IHIHIKI/lightning-roulette"
+
+[[repo]]
 url = "https://github.com/IIIHIHIKIII/lightning-roulette"
 
 [[repo]]
 url = "https://github.com/interledger-deprecated/ilp-lightning-demo"
+
+[[repo]]
+url = "https://github.com/itsneski/lightning-jet"
 
 [[repo]]
 url = "https://github.com/JacksonDMiller/BitcoinFortuneCookie"
@@ -809,6 +1319,21 @@ url = "https://github.com/jarret/moneysocket"
 url = "https://github.com/Jasonhcwong/lnswaps"
 
 [[repo]]
+url = "https://github.com/jb55/awesome-core-lightning"
+
+[[repo]]
+url = "https://github.com/jb55/ln-ws-proxy"
+
+[[repo]]
+url = "https://github.com/jb55/lnlink"
+
+[[repo]]
+url = "https://github.com/jb55/lnsocket"
+
+[[repo]]
+url = "https://github.com/jb55/lnurl-commando"
+
+[[repo]]
 url = "https://github.com/joostjager/whatsat"
 
 [[repo]]
@@ -821,7 +1346,13 @@ url = "https://github.com/joule-labs/joule-extension"
 url = "https://github.com/joule-labs/webln"
 
 [[repo]]
+url = "https://github.com/keep-community/tbtcswaps"
+
+[[repo]]
 url = "https://github.com/krtk6160/ln-multipath-finder"
+
+[[repo]]
+url = "https://github.com/kubbentio/KubbentWallet"
 
 [[repo]]
 url = "https://github.com/Kukks/LNURL"
@@ -851,7 +1382,13 @@ url = "https://github.com/lightning-power-users/lnd-sql"
 url = "https://github.com/lightning-power-users/node-launcher"
 
 [[repo]]
+url = "https://github.com/lightning/bolts"
+
+[[repo]]
 url = "https://github.com/lightningdevkit/.github"
+
+[[repo]]
+url = "https://github.com/lightningdevkit/ess-server"
 
 [[repo]]
 url = "https://github.com/lightningdevkit/ldk-c-bindings"
@@ -861,6 +1398,9 @@ url = "https://github.com/lightningdevkit/ldk-garbagecollected"
 
 [[repo]]
 url = "https://github.com/lightningdevkit/ldk-lite"
+
+[[repo]]
+url = "https://github.com/lightningdevkit/ldk-node"
 
 [[repo]]
 url = "https://github.com/lightningdevkit/ldk-nodejs"
@@ -885,6 +1425,9 @@ url = "https://github.com/lightningdevkit/rapid-gossip-sync-server"
 
 [[repo]]
 url = "https://github.com/lightningdevkit/rust-lightning"
+
+[[repo]]
+url = "https://github.com/lightningdevkit/vss-server"
 
 [[repo]]
 url = "https://github.com/lightninglabs/aperture"
@@ -1023,6 +1566,9 @@ url = "https://github.com/LightningPeach/starlight-demo-impl"
 url = "https://github.com/LightningPeach/watchtower"
 
 [[repo]]
+url = "https://github.com/LightningTipBot/LightningTipBot"
+
+[[repo]]
 url = "https://github.com/LN-Juggernaut/juggernaut-desktop"
 
 [[repo]]
@@ -1054,13 +1600,37 @@ tags = ["Wallet"]
 url = "https://github.com/LN-Zap/zap-iOS"
 
 [[repo]]
+url = "https://github.com/lnbits/bitcoinswitch"
+
+[[repo]]
+url = "https://github.com/lnbits/bolt11"
+
+[[repo]]
+url = "https://github.com/lnbits/btcpaywall"
+
+[[repo]]
 url = "https://github.com/lnbits/conduct"
 
 [[repo]]
 url = "https://github.com/lnbits/Diagon-Alley"
 
 [[repo]]
+url = "https://github.com/lnbits/fossa"
+
+[[repo]]
+url = "https://github.com/lnbits/hardware-wallet"
+
+[[repo]]
+url = "https://github.com/lnbits/infinity"
+
+[[repo]]
+url = "https://github.com/lnbits/legend-regtest-enviroment"
+
+[[repo]]
 url = "https://github.com/lnbits/lnbits"
+
+[[repo]]
+url = "https://github.com/lnbits/lnbits-extensions"
 
 [[repo]]
 url = "https://github.com/lnbits/lnbits-infinity"
@@ -1069,7 +1639,61 @@ url = "https://github.com/lnbits/lnbits-infinity"
 url = "https://github.com/lnbits/lnbits-legend"
 
 [[repo]]
+url = "https://github.com/lnbits/lnbits-legend-1"
+
+[[repo]]
+url = "https://github.com/lnbits/lnbits.github.io"
+
+[[repo]]
+url = "https://github.com/lnbits/lnpos"
+
+[[repo]]
+url = "https://github.com/lnbits/lnurl"
+
+[[repo]]
+url = "https://github.com/lnbits/relampago"
+
+[[repo]]
+url = "https://github.com/lnbits/watchonly"
+
+[[repo]]
+url = "https://github.com/lnbits/woocommerce-payment-gateway"
+
+[[repo]]
 url = "https://github.com/lnbook/lnbook"
+
+[[repo]]
+url = "https://github.com/lncapital/btcpayserver"
+
+[[repo]]
+url = "https://github.com/lncapital/btcpayserver-docker"
+
+[[repo]]
+url = "https://github.com/lncapital/ringtooljs"
+
+[[repo]]
+url = "https://github.com/lncapital/torq"
+
+[[repo]]
+url = "https://github.com/lncapital/torq-docs"
+
+[[repo]]
+url = "https://github.com/lncapital/torq-install"
+
+[[repo]]
+url = "https://github.com/lncapital/torq.sh"
+
+[[repo]]
+url = "https://github.com/lncapital/umbrel-apps"
+
+[[repo]]
+url = "https://github.com/lncapital/umbrel-community-app-store"
+
+[[repo]]
+url = "https://github.com/lnmarkets/umbrel"
+
+[[repo]]
+url = "https://github.com/lnp2pBot/bot"
 
 [[repo]]
 url = "https://github.com/lnpay/lnd_ruby_sdk"
@@ -1093,6 +1717,9 @@ url = "https://github.com/lnpay/php-lndconnect"
 url = "https://github.com/lnpay/react-lightning-gifts"
 
 [[repo]]
+url = "https://github.com/lnurl/luds"
+
+[[repo]]
 url = "https://github.com/mably/lncli-web"
 
 [[repo]]
@@ -1111,6 +1738,15 @@ url = "https://github.com/michael1011/lightningtip"
 url = "https://github.com/michael1011/lncall"
 
 [[repo]]
+url = "https://github.com/microlancer/lightning-php"
+
+[[repo]]
+url = "https://github.com/microlancer/lnwiki"
+
+[[repo]]
+url = "https://github.com/microlancer/microlancer"
+
+[[repo]]
 url = "https://github.com/mit-dci/lit"
 tags = ["Protocol"]
 
@@ -1119,6 +1755,60 @@ url = "https://github.com/molxyz/ln-satoshilife"
 
 [[repo]]
 url = "https://github.com/mutatrum/lnd_graph_crawl"
+
+[[repo]]
+url = "https://github.com/muun/apollo"
+
+[[repo]]
+url = "https://github.com/muun/barcodescanner"
+
+[[repo]]
+url = "https://github.com/muun/bitcoin"
+
+[[repo]]
+url = "https://github.com/muun/bitcoinj"
+
+[[repo]]
+url = "https://github.com/muun/bitrise-step-android-build-for-ui-testing"
+
+[[repo]]
+url = "https://github.com/muun/bors-ng"
+
+[[repo]]
+url = "https://github.com/muun/brew-tap"
+
+[[repo]]
+url = "https://github.com/muun/btcd"
+
+[[repo]]
+url = "https://github.com/muun/btcwallet"
+
+[[repo]]
+url = "https://github.com/muun/electrs"
+
+[[repo]]
+url = "https://github.com/muun/falcon"
+
+[[repo]]
+url = "https://github.com/muun/glide-transformations"
+
+[[repo]]
+url = "https://github.com/muun/journald-cloudwatch-logs"
+
+[[repo]]
+url = "https://github.com/muun/libwallet"
+
+[[repo]]
+url = "https://github.com/muun/mobile"
+
+[[repo]]
+url = "https://github.com/muun/neutrino"
+
+[[repo]]
+url = "https://github.com/muun/recovery"
+
+[[repo]]
+url = "https://github.com/muun/sqldelight"
 
 [[repo]]
 url = "https://github.com/mynodebtc/mynode"
@@ -1196,6 +1886,75 @@ url = "https://github.com/nayutaco/ptarmigan-jar"
 url = "https://github.com/nayutaco/Support"
 
 [[repo]]
+url = "https://github.com/nbd-wtf/bip340"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/bolt11"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/cliche"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/dart-bip340"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/eclair-go"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/firebaseless-web-push-api-demo"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/go-nostr"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/immortan"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/invoicewithdescriptionhash"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/js-lnurl"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/light-bolt11-decoder"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/ln-decodepay"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/nbd"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/nostr-tools"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/obw"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/poncho"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/satdress"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/simple-ctv-spacechain"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/sn-sha256"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/syncslice"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/triple-c-lightning-liquid"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/trustedcoin"
+
+[[repo]]
+url = "https://github.com/nbd-wtf/use-computed-state"
+
+[[repo]]
 url = "https://github.com/nicolasburtey/boltathon2"
 
 [[repo]]
@@ -1203,6 +1962,9 @@ url = "https://github.com/niftynei/glightning"
 
 [[repo]]
 url = "https://github.com/niftynei/sitzprobe"
+
+[[repo]]
+url = "https://github.com/node-lightning/node-lightning"
 
 [[repo]]
 url = "https://github.com/opennodedev/lightning-workshop"
@@ -1230,6 +1992,12 @@ url = "https://github.com/philippgille/ln-paywall"
 
 [[repo]]
 url = "https://github.com/PLEBNET-PLAYGROUND/plebnet-playground-docker"
+
+[[repo]]
+url = "https://github.com/plwalters/lnd-gui"
+
+[[repo]]
+url = "https://github.com/plwalters/proofof.chat"
 
 [[repo]]
 url = "https://github.com/PWKad/lnd-gui"
@@ -1343,6 +2111,9 @@ tags = ["Wallet"]
 url = "https://github.com/shocknet/api"
 
 [[repo]]
+url = "https://github.com/shocknet/Lightning.Pub"
+
+[[repo]]
 url = "https://github.com/shocknet/shock-common"
 
 [[repo]]
@@ -1350,6 +2121,9 @@ url = "https://github.com/shocknet/wallet"
 
 [[repo]]
 url = "https://github.com/shocknet/Wizard"
+
+[[repo]]
+url = "https://github.com/smallworlnd/LNnodeInsight"
 
 [[repo]]
 url = "https://github.com/solidpayorg/lightning.money"
@@ -1385,37 +2159,532 @@ url = "https://github.com/stakwork/sphinx-relay"
 url = "https://github.com/stakwork/sphinx-tribes"
 
 [[repo]]
+url = "https://github.com/stakwork/sphinx-win-linux-desktop"
+
+[[repo]]
+url = "https://github.com/Start9Labs/.github"
+
+[[repo]]
+url = "https://github.com/Start9Labs/argon2"
+
+[[repo]]
+url = "https://github.com/Start9Labs/avahi-sys"
+
+[[repo]]
+url = "https://github.com/Start9Labs/balanceofsatoshis-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/bitcoind-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/bitwarden_rs"
+
+[[repo]]
+url = "https://github.com/Start9Labs/bitwish-ui"
+
+[[repo]]
+url = "https://github.com/Start9Labs/brochure-marketplace"
+
+[[repo]]
+url = "https://github.com/Start9Labs/btc-rpc-proxy"
+
+[[repo]]
+url = "https://github.com/Start9Labs/btc-rpc-proxy-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/btcpayserver-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/bunker"
+
+[[repo]]
+url = "https://github.com/Start9Labs/burn-after-reading"
+
+[[repo]]
+url = "https://github.com/Start9Labs/bwt-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/c-lightning-http-plugin"
+
+[[repo]]
+url = "https://github.com/Start9Labs/c-lightning-http-plugin-stdio"
+
+[[repo]]
+url = "https://github.com/Start9Labs/c-lightning-pruning-plugin"
+
+[[repo]]
+url = "https://github.com/Start9Labs/c-lightning-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/capacitor"
+
+[[repo]]
+url = "https://github.com/Start9Labs/capacitor-cert-installer"
+
+[[repo]]
+url = "https://github.com/Start9Labs/capacitor-http"
+
+[[repo]]
+url = "https://github.com/Start9Labs/capacitor-tor"
+
+[[repo]]
+url = "https://github.com/Start9Labs/capacitor-webview-overlay"
+
+[[repo]]
+url = "https://github.com/Start9Labs/community-services"
+
+[[repo]]
+url = "https://github.com/Start9Labs/cups-cli"
+
+[[repo]]
+url = "https://github.com/Start9Labs/cups-messenger"
+
+[[repo]]
+url = "https://github.com/Start9Labs/cups-messenger-ui"
+
+[[repo]]
+url = "https://github.com/Start9Labs/cups-shell"
+
+[[repo]]
+url = "https://github.com/Start9Labs/cups-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/cwtch-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/ddclient-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/deno"
+
+[[repo]]
+url = "https://github.com/Start9Labs/docker-bitcoind"
+
+[[repo]]
+url = "https://github.com/Start9Labs/documentation"
+
+[[repo]]
+url = "https://github.com/Start9Labs/dojo-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/electrs-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/electrum-personal-pkg"
+
+[[repo]]
+url = "https://github.com/Start9Labs/electrum-personal-server"
+
+[[repo]]
+url = "https://github.com/Start9Labs/element-web-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/embassy-os"
+
+[[repo]]
+url = "https://github.com/Start9Labs/embassy-os-deb"
+
+[[repo]]
+url = "https://github.com/Start9Labs/embassy-os-legacy"
+
+[[repo]]
+url = "https://github.com/Start9Labs/embassy-pages-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/embassy-sdk-ts"
+
+[[repo]]
+url = "https://github.com/Start9Labs/emver-rs"
+
+[[repo]]
+url = "https://github.com/Start9Labs/eos-image-recipes"
+
+[[repo]]
+url = "https://github.com/Start9Labs/filebrowser"
+
+[[repo]]
+url = "https://github.com/Start9Labs/filebrowser-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/FullyNoded"
+
+[[repo]]
+url = "https://github.com/Start9Labs/ghost-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/gitea-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/hamstr"
+
+[[repo]]
+url = "https://github.com/Start9Labs/hashabler"
+
+[[repo]]
+url = "https://github.com/Start9Labs/haskell-arm-builder"
+
+[[repo]]
+url = "https://github.com/Start9Labs/health-check-bot"
+
+[[repo]]
+url = "https://github.com/Start9Labs/hello-world"
+
+[[repo]]
+url = "https://github.com/Start9Labs/hello-world-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/http"
+
+[[repo]]
+url = "https://github.com/Start9Labs/hyper-ws-listener"
+
+[[repo]]
+url = "https://github.com/Start9Labs/jam-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/JSON-Patch"
+
+[[repo]]
+url = "https://github.com/Start9Labs/keepkey-firmware"
+
+[[repo]]
+url = "https://github.com/Start9Labs/lightning"
+
+[[repo]]
+url = "https://github.com/Start9Labs/lightning-jet-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/lightning-terminal-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/lnbits-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/lnd-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/lndboss-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/lndg-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/marketplace-ui"
+
+[[repo]]
+url = "https://github.com/Start9Labs/mastodon"
+
+[[repo]]
+url = "https://github.com/Start9Labs/mastodon-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/md-packer"
+
+[[repo]]
+url = "https://github.com/Start9Labs/mempool-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/nextcloud-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/node-guide"
+
+[[repo]]
+url = "https://github.com/Start9Labs/pastebin-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/patch-db"
+
+[[repo]]
+url = "https://github.com/Start9Labs/photoview"
+
+[[repo]]
+url = "https://github.com/Start9Labs/photoview-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/pi-beep"
+
+[[repo]]
+url = "https://github.com/Start9Labs/Plume"
+
+[[repo]]
+url = "https://github.com/Start9Labs/purescript-ionic-react"
+
+[[repo]]
+url = "https://github.com/Start9Labs/python-keepkey"
+
+[[repo]]
+url = "https://github.com/Start9Labs/ride-the-lightning-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/rpc-toolkit"
+
+[[repo]]
+url = "https://github.com/Start9Labs/rust-arm-builder"
+
+[[repo]]
+url = "https://github.com/Start9Labs/rust-bitcoincore-rpc"
+
+[[repo]]
+url = "https://github.com/Start9Labs/rust-lightning"
+
+[[repo]]
+url = "https://github.com/Start9Labs/rust-musl-cross"
+
+[[repo]]
+url = "https://github.com/Start9Labs/rust-musl-cross-x86"
+
+[[repo]]
+url = "https://github.com/Start9Labs/searxng-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/service-pipeline"
+
+[[repo]]
+url = "https://github.com/Start9Labs/setup-app"
+
+[[repo]]
+url = "https://github.com/Start9Labs/spark-wallet-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/specter-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/sphinx-relay-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/sphinx-scylladb-theme"
+
+[[repo]]
+url = "https://github.com/Start9Labs/start9.com"
+
+[[repo]]
+url = "https://github.com/Start9Labs/synapse"
+
+[[repo]]
+url = "https://github.com/Start9Labs/synapse-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/syncthing-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/templating-engine-rs"
+
+[[repo]]
+url = "https://github.com/Start9Labs/thunderhub"
+
+[[repo]]
+url = "https://github.com/Start9Labs/thunderhub-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/Tor.framework"
+
+[[repo]]
+url = "https://github.com/Start9Labs/torut"
+
+[[repo]]
+url = "https://github.com/Start9Labs/uptime"
+
+[[repo]]
+url = "https://github.com/Start9Labs/vaultwarden-wrapper"
+
+[[repo]]
+url = "https://github.com/Start9Labs/ws-example"
+
+[[repo]]
 url = "https://github.com/submarineswaps/swaps-service"
 
 [[repo]]
 url = "https://github.com/Suredbits/sb-api-lnd"
 
 [[repo]]
+url = "https://github.com/synonymdev/backpack-client"
+
+[[repo]]
+url = "https://github.com/synonymdev/backpack-client-old"
+
+[[repo]]
+url = "https://github.com/synonymdev/backpack-host"
+
+[[repo]]
+url = "https://github.com/synonymdev/backpack-host-old"
+
+[[repo]]
+url = "https://github.com/synonymdev/bip32"
+
+[[repo]]
+url = "https://github.com/synonymdev/bitkit"
+
+[[repo]]
+url = "https://github.com/synonymdev/bitkit-backup-client"
+
+[[repo]]
 url = "https://github.com/synonymdev/blocktank-client"
+
+[[repo]]
+url = "https://github.com/synonymdev/blocktank-exchange-rate"
+
+[[repo]]
+url = "https://github.com/synonymdev/blocktank-monitor"
+
+[[repo]]
+url = "https://github.com/synonymdev/blocktank-routing-manager"
+
+[[repo]]
+url = "https://github.com/synonymdev/blocktank-server"
+
+[[repo]]
+url = "https://github.com/synonymdev/blocktank-tightrope"
 
 [[repo]]
 url = "https://github.com/synonymdev/blocktank-ui"
 
 [[repo]]
+url = "https://github.com/synonymdev/blocktank-worker"
+
+[[repo]]
+url = "https://github.com/synonymdev/blocktank-worker-btc"
+
+[[repo]]
+url = "https://github.com/synonymdev/blocktank-worker-ln"
+
+[[repo]]
+url = "https://github.com/synonymdev/corestore-networker"
+
+[[repo]]
 url = "https://github.com/synonymdev/dht"
+
+[[repo]]
+url = "https://github.com/synonymdev/dht-relay"
+
+[[repo]]
+url = "https://github.com/synonymdev/dht-universal"
+
+[[repo]]
+url = "https://github.com/synonymdev/docker-electrs"
+
+[[repo]]
+url = "https://github.com/synonymdev/docker-lnd"
+
+[[repo]]
+url = "https://github.com/synonymdev/docker-obd"
+
+[[repo]]
+url = "https://github.com/synonymdev/docker-omnicore"
 
 [[repo]]
 url = "https://github.com/synonymdev/hypercore-next"
 
 [[repo]]
+url = "https://github.com/synonymdev/hyperswarm"
+
+[[repo]]
+url = "https://github.com/synonymdev/ldk-garbagecollected-docker"
+
+[[repo]]
+url = "https://github.com/synonymdev/ldk-node-js"
+
+[[repo]]
+url = "https://github.com/synonymdev/lightning-channel-id-js"
+
+[[repo]]
+url = "https://github.com/synonymdev/lnd"
+
+[[repo]]
+url = "https://github.com/synonymdev/lsp-spec"
+
+[[repo]]
+url = "https://github.com/synonymdev/lspd"
+
+[[repo]]
+url = "https://github.com/synonymdev/nigiri"
+
+[[repo]]
+url = "https://github.com/synonymdev/nigiri-chopsticks"
+
+[[repo]]
+url = "https://github.com/synonymdev/noise-curve-tiny-secp256k1"
+
+[[repo]]
+url = "https://github.com/synonymdev/omni-js"
+
+[[repo]]
+url = "https://github.com/synonymdev/omni-tracker-api"
+
+[[repo]]
 url = "https://github.com/synonymdev/omnibolt-js"
+
+[[repo]]
+url = "https://github.com/synonymdev/react-native-electrum-client"
 
 [[repo]]
 url = "https://github.com/synonymdev/react-native-fs"
 
 [[repo]]
+url = "https://github.com/synonymdev/react-native-ldk"
+
+[[repo]]
 url = "https://github.com/synonymdev/react-native-lightning"
+
+[[repo]]
+url = "https://github.com/synonymdev/react-native-lnurl"
+
+[[repo]]
+url = "https://github.com/synonymdev/react-native-slashtags"
+
+[[repo]]
+url = "https://github.com/synonymdev/slash-pay-demo-server"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashpay-istanbul-hackday"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtag-dht-relay"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtag-seeding-server"
 
 [[repo]]
 url = "https://github.com/synonymdev/slashtags"
 
 [[repo]]
+url = "https://github.com/synonymdev/slashtags-auth"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtags-auth-demo"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtags-bootstrap-server"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtags-browser-extension"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtags-exchange-account-daemon"
+
+[[repo]]
 url = "https://github.com/synonymdev/slashtags-extension"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtags-feeds"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtags-keychain"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtags-rn-example"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtags-widget-bitcoin-feed"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtags-widget-facts-feed"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtags-widget-news-feed"
+
+[[repo]]
+url = "https://github.com/synonymdev/slashtags-widget-price-feed"
 
 [[repo]]
 url = "https://github.com/tdickman/auto-loop"
@@ -1454,6 +2723,9 @@ url = "https://github.com/Tierion/now-boltwall"
 url = "https://github.com/velomig/secure-lnd-unlock"
 
 [[repo]]
+url = "https://github.com/voltagecloud/voltageapp.io"
+
+[[repo]]
 url = "https://github.com/wbobeirne/run-lnd-store"
 
 [[repo]]
@@ -1484,6 +2756,9 @@ tags = ["Dapp"]
 url = "https://github.com/xsb/lngraph"
 
 [[repo]]
+url = "https://github.com/zap-me/beryllium"
+
+[[repo]]
 url = "https://github.com/zebedeeio/go-sdk"
 
 [[repo]]
@@ -1500,3 +2775,6 @@ url = "https://github.com/ZmnSCPxj/clboss"
 
 [[repo]]
 url = "https://github.com/ZmnSCPxj/cldcb"
+
+[[repo]]
+url = "https://gitlab.com/lightning-signer/validating-lightning-signer"

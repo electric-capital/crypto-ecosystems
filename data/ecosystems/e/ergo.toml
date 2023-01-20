@@ -4,25 +4,33 @@ title = "Ergo"
 sub_ecosystems = ["Ergo Labs"]
 
 github_organizations = ["https://github.com/ergoplatform", 
-                        "https://github.com/rosen-bridge", 
-                        
+                                             
+                        # Ecosystem
+                        "https://github.com/ObolFlip/",
+                        "https://github.com/ergolabs/",
+                        "https://github.com/spectrum-finance",
+                        "https://github.com/ergoMixer",
+                        "https://github.com/duckpools",
+                        "https://github.com/nightowlcasino",
                         "https://github.com/ergo-pad", 
                         "https://github.com/ErgoRaffle", 
                         "https://github.com/skyharbor-market",
                         "https://github.com/Ergo-Lend",
-                        "https://github.com/ergoMixer",
-                        "https://github.com/duckpools",
-                        "https://github.com/nightowlcasino",
-                        "https://github.com/GetBlok-io/",
-                        "https://github.com/Lithos-Protocol",
-                        "https://github.com/gsblabsio/azorus",
-                        "https://github.com/spectrum-finance",
-                        "https://github.com/ergolabs/", 
-                        "https://github.com/minotaur-ergo/",
-                        "https://github.com/GuapSwap"
-                        "https://github.com/ObolFlip/",
+
+                        # Infrastructure 
                         "https://github.com/ergonames",
                         "https://github.com/fleet-sdk",
+                        "https://github.com/minotaur-ergo/",
+
+                        # Mining-related 
+                        "https://github.com/GuapSwap",
+                        "https://github.com/GetBlok-io/",
+
+                        # Layer 2 / Bridges
+                        "https://github.com/rosen-bridge"
+                        "https://github.com/Lithos-Protocol",
+                        
+                        # Devs (where ~100% of repo is dedicated to Ergo)
                         "https://github.com/anon-real/",
                         "https://github.com/capt-nemo429",
                         "https://github.com/anon-br",
@@ -91,3 +99,5 @@ url = "https://github.com/input-output-hk/scrypto"
 [[repo]]
 url = "https://github.com/azhiganov/ergo-golang"
 
+[[repo]]
+url = "https://github.com/gsblabsio/azorus"

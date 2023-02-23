@@ -5,41 +5,45 @@ sub_ecosystems = [
     "Spectrum Labs",
     "anetaBTC",
     "ErgoPad",
-    "Lithos Protocol"
+    "ChainCash"
+    "Lithos Protocol",
+    "Ergo Names",
+    "Minotaur",
+    "EXLE",
+    "NightOwl Casino",
+    "Nautilus",
+    "ErgoMixer", 
+    "Duckpools", 
+    "SkyHarbor", 
+    "FleetSDK",
+    "Satergo",
+    "GuapSwap", 
+    "SentientFoundation",
+    "azorus",
+    "SAFEW", 
+    "Swamp Audio",
+    "COMET", 
+    "Kiosk", 
+    "Ergo Auction House", 
+    "BlobsTopia",
+    "Grand Gambit",
+    "Ergo Raffle", 
+    "SigmaUSD", 
+    "PaideiaDAO",
+    "ZenGate Global",
+    "SigmaFi", 
+    "ZK Treasury",
+    "Dexy", 
+    "ErgoTeam", 
+    "Ergode",
+    "Ergo Miner Tooling",
+    "Ergo Hackathons", 
+    "Ergo Stats & Analysis", 
+    "Ergo Education", 
+    "Ergo Developer Tooling"
     ]
 
-github_organizations = ["https://github.com/ergoplatform", 
-                                             
-                        # Ecosystem
-                        "https://github.com/ObolFlip/",
-                        "https://github.com/ergoMixer",
-                        "https://github.com/duckpools",
-                        "https://github.com/nightowlcasino",
-                        "https://github.com/ErgoRaffle", 
-                        "https://github.com/skyharbor-market",
-                        "https://github.com/Ergo-Lend",
-                        "https://github.com/ergflip/",
-                        "https://github.com/sigmastamp",
-                        "https://github.com/inergitance",
-                        
-
-                        # Infrastructure 
-                        "https://github.com/ergonames",
-                        "https://github.com/fleet-sdk",
-                        "https://github.com/minotaur-ergo/",
-                        "https://github.com/Satergo/",
-                        "https://github.com/DeCo-Education/",
-
-                        # Mining-related 
-                        "https://github.com/GuapSwap",
-                        "https://github.com/GetBlok-io/",
-
-                        # Layer 2 / Bridges
-                        "https://github.com/rosen-bridge",
-                        "https://github.com/SentientFoundation"
-                        
-
-                        ]
+github_organizations = ["https://github.com/ergoplatform"]
 
 # Repositories
 [[repo]]
@@ -55,374 +59,22 @@ url = "https://github.com/ergoplatform/ergo-wallet-app"
 tags = [ "Wallet"]
 
 [[repo]]
-url = "https://github.com/tesseract-one/ledger-app-ergo"
-
-[[repo]]
-url = "https://github.com/ScorexFoundation/sigmastate-interpreter"
-
-[[repo]]
-url = "https://github.com/nn-dmt/swamp_ergo"
-
-[[repo]]
-url = "https://github.com/ThierryM1212/blobs-topia"
-
-[[repo]]
-url = "https://github.com/MrStahlfelge/mosaik"
-
-[[repo]]
-url = "https://github.com/MrStahlfelge/mosaik-tutorial-series"
-
-[[repo]]
-url = "https://github.com/MrStahlfelge/mosaik-ageusddemo"
-
-[[repo]]
-url = "https://github.com/MrStahlfelge/ergo-offchain"
-
-[[repo]]
-url = "https://github.com/ThierryM1212/cyti"
-
-[[repo]]
-url = "https://github.com/mgpai22/ergo-synced-node"
-
-[[repo]]
-url = "https://github.com/mgpai22/ergpy"
-
-[[repo]]
-url = "https://github.com/abchrisxyz/ergo-setup"
-
-[[repo]]
-url = "https://github.com/pragmaxim/ergo-uexplorer/"
-
-[[repo]]
-url = "https://github.com/dav009/ergo-scala-skeleton-app"
-
-[[repo]]
-url = "https://github.com/zackbalbin/ErgoTutorials"
-
-[[repo]]
-url = "https://github.com/scorexfoundation/scorex"
-
-[[repo]]
-url = "https://github.com/input-output-hk/scrypto"
-
-[[repo]]
-url = "https://github.com/azhiganov/ergo-golang"
-
-[[repo]]
-url = "https://github.com/gsblabsio/azorus"
-
-[[repo]]
-url = "https://github.com/ThierryM1212/SAFEW"
-
-[[repo]]
-url = "https://github.com/ThierryM1212/SigmaO"
-
-[[repo]]
-url = "https://github.com/Emurgo/age-usd"
-
-[[repo]]
-url = "https://github.com/Emurgo/yoroi-ergo-backend"
-
-[[repo]]
-url = "https://github.com/Emurgo/yoroi-ergo-connector"
-
-[[repo]]
-url = "https://github.com/anetabtc/aneta_wrapping"
-
-[[repo]]
-url = "https://github.com/K-Singh/Sigma-Finance"
-
-
-[[repo]]
-url = "https://github.com/kushti/ergo-simple-addresses"
-
-[[repo]]
-url = "https://github.com/Eeysirhc/sigmabot"
-
-[[repo]]
-url = "https://github.com/Eeysirhc/ergo-champions-bot"
-
-[[repo]]
-url = "https://github.com/Eeysirhc/ergo-intelligence"
-
-[[repo]]
-url = "https://github.com/abchrisxyz/ergowatch"
-
-[[repo]]
-url = "https://github.com/reqlez/tn-ergo-easy-oracle"
-
-[[repo]]
-url = "https://github.com/mgpai22/comet-lottery"
-
-[[repo]]
-url = "https://github.com/mgpai22/comet-airdrop-bot"
-
-[[repo]]
-url = "https://github.com/bdkent/sigmausd-history"
-
-[[repo]]
-url = "https://github.com/kushti/chaincash"
-
-[[repo]]
-url = "https://github.com/ach2swift/ErgoStats"
-
-[[repo]]
-url = "https://github.com/ross-weir/ergode"
-
-[[repo]]
-url = "https://github.com/kushti/dexy-stable"
-
-[[repo]]
-url = "https://github.com/mgpai22/ergo_faucet/"
-
-[[repo]]
-url = "https://github.com/dzyphr/SigmaParticle/"
-
-[[repo]]
-url = "https://github.com/cornbelt-dev/sigma-subscriptions"
-
-[[repo]]
-url = "https://github.com/crystoll/export-erg-transactions"
-
-[[repo]]
-url = "https://github.com/mgpai22/ergpy-native"
-
-[[repo]]
-url = "https://github.com/ApexTheory/appkit-by-example"
-
-[[repo]]
 url = "https://github.com/mgpai22/ergosapiens"
 
 [[repo]]
-url = "https://github.com/ross-weir/just-ergo-things"
-
-[[repo]]
-url = "https://github.com/ross-weir/Ergode.Bridge"
-
-[[repo]]
-url = "https://github.com/ross-weir/Ergode.Tizen"
-
-[[repo]]
-url = "https://github.com/FlyingPig69/Ergo_Explorer_Queries"
-
-[[repo]]
-url = "https://github.com/Luivatra/ergotipper-tokens"
-
-[[repo]]
-url = "https://github.com/andrehafner/ergo-payroll"
-
-[[repo]]
-url = "https://github.com/iandebeer/ergo-castanet"
-
-[[repo]]
-url = "https://github.com/networkspore/Netnotes"
-
-[[repo]]
-url = "https://github.com/nirvanush/dappstep-play"
-
-[[repo]]
-url = "https://github.com/thedlop/sigma_mint"
-
-[[repo]]
-url = "https://github.com/thedlop/sigma_rb"
-
-[[repo]]
 url = "https://github.com/thedlop/twotens"
-
-[[repo]]
-url = "https://github.com/deadit/paizo"
-
-[[repo]]
-url = "https://github.com/kii-dot/dumdumdum"
-
-[[repo]]
-url = "https://github.com/osmanthusleaf/ergo-gig"
-
-[[repo]]
-url = "https://github.com/ross-weir/ergo-stealth-address-example"
-
-[[repo]]
-url = "https://github.com/kushti/kya"
-
-[[repo]]
-url = "https://github.com/coinbarn/ergo-ts"
-
-[[repo]]
-url = "https://github.com/zkastn/ergo-raffle-bot"
-
-[[repo]]
-url = "https://github.com/hypo10use/quid-games"
-
-[[repo]]
-url = "https://github.com/robkorn/ergo-utilities-rust/"
-
-[[repo]]
-url = "https://github.com/SabaunT/ergo-monitoring"
-
-[[repo]]
-url = "https://github.com/knizhnik/scorex_crypto_avltree"
-
-[[repo]]
-url = "https://github.com/SabaunT/ergo-handshake"
-
-[[repo]]
-url = "https://github.com/ThierryM1212/transaction-builder/"
-
-[[repo]]
-url = "https://github.com/ross-weir/ergo-script-re"
-
-[[repo]]
-url = "https://github.com/aslesarenko/ergo-appkit-examples"
-
-[[repo]]
-url = "https://github.com/lucagdangelo/flowcardLib"
-
-[[repo]]
-url = "https://github.com/ErgoGravity/"
-
-[[repo]]
-url = "https://github.com/scalahub/Kiosk/"
-
-[[repo]]
-url = "https://github.com/aslesarenko/ergo-tool"
-
-[[repo]]
-url = "https://github.com/lorien/ergotools"
-
-[[repo]]
-url = "https://github.com/CryptoCream/ErgoVision"
-
-[[repo]]
-url = "https://github.com/Eeysirhc/ergo_intelligence"
-
-[[repo]]
-url = "https://github.com/aslesarenko/ergo-appkit"
-
-[[repo]]
-url = "https://github.com/aragogi/Stealth-doc"
-
-[[repo]]
-url = "https://github.com/Ergohack-Dashboard-Project"
-
-[[repo]]
-url = "https://github.com/WilfordGrimley/ErgoSmartPools"
-
-[[repo]]
-url = "https://github.com/WilfordGrimley/eip38PartialVoting"
-
-[[repo]]
-url = "https://github.com/WilfordGrimley/ergo"
-
-[[repo]]
-url = "https://github.com/jaythiya/ergodns-frontend/"
-
-[[repo]]
-url = "https://github.com/K-Singh/ergo-subpooling"
-
-[[repo]]
-url = "https://github.com/mhssamadani/Autolykos2_AMD_Miner"
-
-[[repo]]
-url = "https://github.com/mhssamadani/Autolykos2_NV_Miner"
-
-[[repo]]
-url = "https://github.com/dzyphr/atomicswapexample/"
-
-[[repo]]
-url = "https://github.com/danieloravec/ergo-token-swap"
-
-[[repo]]
-url = "https://github.com/anon-real/ErgoAuctionHouse"
-
-[[repo]]
-url = "https://github.com/anon-real/sigma-usd"
-
-[[repo]]
-url = "https://github.com/anon-real/ErgoUtils"
-
-[[repo]]
-url = "https://github.com/anon-real/ergo-assembler"
-
-[[repo]]
-url = "https://github.com/anon-real/contract-testing"
-
-[[repo]]
-url = "https://github.com/anon-real/ergo-js-template"
-
-[[repo]]
-url = "https://github.com/anon-real/ergo-team"
-
-[[repo]]
-url = "https://github.com/anon-real/ErgoTeam"
-
-[[repo]]
-url = "https://github.com/anon-real/DistributedSigsClient"
-
-[[repo]]
-url = "https://github.com/anon-real/DistributedSigsServer"
-
-[[repo]]
-url = "https://github.com/capt-nemo429/sigmafi-ui"
-
-[[repo]]
-url = "https://github.com/capt-nemo429/nautilus-wallet"
-
-[[repo]]
-url = "https://github.com/capt-nemo429/ergo-graphql"
-
-[[repo]]
-url = "https://github.com/capt-nemo429/eip12-types"
-
-[[repo]]
-url = "https://github.com/capt-nemo429/nautilus-nft-sandbox"
-
-[[repo]]
-url = "https://github.com/anon-br/sigmajs-crypto-facade"
-
-[[repo]]
-url = "https://github.com/anon-br/ledger-ergo-js"
-
-[[repo]]
-url = "https://github.com/anon-br/ergo-paper-wallet"
-
-[[repo]]
-url = "https://github.com/anon-br/ErgoUtilsUploadService"
-
-[[repo]]
-url = "https://github.com/mhssamadani/ErgoWell"
-
-[[repo]]
-url = "https://github.com/mhssamadani/Autolykos2_NV_Miner"
-
-[[repo]]
-url = "https://github.com/mhssamadani/RosenBridge"
-
-[[repo]]
-url = "https://github.com/mhssamadani/ErgoProfitSharingDapp"
-
-[[repo]]
-url = "https://github.com/mhssamadani/SusyErgoScanner"
-
-[[repo]]
-url = "https://github.com/mhssamadani/SusyErgoRPC"
-
-[[repo]]
-url = "https://github.com/mhssamadani/Autolykos2_AMD_Miner"
-
-[[repo]]
-url = "https://github.com/mhssamadani/SigmaUSD_WhaleScript"
-
-[[repo]]
-url = "https://github.com/mhssamadani/ErgoStratumProxy"
-
-[[repo]]
-url = "https://github.com/mhssamadani/Autolykos2-CPUMiner"
-
-[[repo]]
-url = "https://github.com/mhssamadani/ergoAMDminer"
 
 [[repo]]
 url = "https://github.com/aragogi/Stealth-doc"
 
 [[repo]]
 url = "https://github.com/aragogi/scanner-front"
+
+[[repo]]
+url = "https://github.com/mhssamadani/ErgoWell"
+
+[[repo]]
+url = "https://github.com/mhssamadani/SusyErgoScanner"
+
+[[repo]]
+url = "https://github.com/mhssamadani/SusyErgoRPC"

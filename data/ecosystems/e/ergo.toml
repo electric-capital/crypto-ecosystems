@@ -2,45 +2,74 @@
 title = "Ergo"
 
 sub_ecosystems = [
+    # Exchanges
     "Spectrum Labs",
     "anetaBTC",
+
+    # Launchpad
     "ErgoPad",
+
+    # Stablecoins
     "ChainCash",
+    "Dexy",
+    "SigmaUSD", 
+
+    # Fundraising
+    "Ergo Raffle", 
+
+
+    # Mining
     "Lithos Protocol",
-    "Ergo Names",
-    "Minotaur",
-    "EXLE",
-    "NightOwl Casino",
-    "Nautilus",
-    "ErgoMixer", 
-    "Duckpools", 
-    "SkyHarbor", 
-    "FleetSDK",
-    "Satergo",
     "GuapSwap", 
-    "SentientFoundation",
-    "azorus",
-    "SAFEW", 
-    "Swamp Audio",
-    "COMET", 
-    "Kiosk", 
-    "Ergo Auction House", 
+    "Ergo Miner Tooling",
+    
+    # Lending
+    "EXLE",
+    "Duckpools",
+    "SigmaFi", 
+
+    # Gambling
+    "NightOwl Casino",
     "BlobsTopia",
     "Grand Gambit",
-    "Ergo Raffle", 
-    "SigmaUSD", 
-    "PaideiaDAO",
-    "ZenGate Global",
-    "SigmaFi", 
+
+    # Wallets
+    "Nautilus",
+    "Minotaur",
+    "Satergo",
+    "SAFEW", 
+
+    # Privacy
+    "ErgoMixer",
     "ZK Treasury",
-    "Dexy", 
-    "ErgoTeam", 
-    "Ergode",
-    "Ergo Miner Tooling",
-    "Ergo Hackathons", 
-    "Ergo Stats & Analysis", 
+
+    # NFTs 
+    "SkyHarbor",
+    "Ergo Auction House",
+
+    # Dev
+    "FleetSDK",
+    "Kiosk",
+    "Azorus",
     "Ergo Education", 
-    "Ergo Developer Tooling"
+    "Ergo Developer Tooling",
+    "Ergo Hackathons", 
+
+    # DAO 
+    "PaideiaDAO",
+    "ErgoTeam",
+    "Swamp Audio",
+
+    # Layer 2s / Sidechains
+    "SentientFoundation",
+
+    # Misc 
+    "ZenGate Global",
+    "Ergode",
+    "Ergo Names",
+    "COMET", 
+    "Ergo Stats & Analysis"
+
     ]
 
 github_organizations = ["https://github.com/ergoplatform"]
@@ -68,13 +97,5 @@ url = "https://github.com/thedlop/twotens"
 url = "https://github.com/aragogi/Stealth-doc"
 
 [[repo]]
-url = "https://github.com/aragogi/scanner-front"
-
-[[repo]]
 url = "https://github.com/mhssamadani/ErgoWell"
 
-[[repo]]
-url = "https://github.com/mhssamadani/SusyErgoScanner"
-
-[[repo]]
-url = "https://github.com/mhssamadani/SusyErgoRPC"

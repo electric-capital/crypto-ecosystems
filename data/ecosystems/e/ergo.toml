@@ -2,95 +2,62 @@
 title = "Ergo"
 
 sub_ecosystems = [
-    # Exchanges
-    "Spectrum Labs",
-    "anetaBTC",
-
-    # Launchpad
-    "ErgoPad",
-
-    # Stablecoins
-    "ChainCash",
-    "Dexy",
-    "SigmaUSD", 
-
-    # Fundraising
-    "Ergo Raffle", 
-
-    # Mining
-    "Lithos Protocol",
-    "GuapSwap", 
-    "Ergo Miner Tooling",
-    
-    # Lending
-    "EXLE",
-    "Duckpools",
-    "SigmaFi", 
-
-    # Gambling
-    "NightOwl Casino",
-    "BlobsTopia",
-    "Grand Gambit",
-
-    # Wallets
-    "Nautilus",
-    "Minotaur",
-    "Satergo",
-    "SAFEW", 
-
-    # Privacy
-    "ErgoMixer",
-    "ZK Treasury",
-
-    # NFTs 
-    "SkyHarbor",
-    "Ergo Auction House",
-
-    # Dev
-    "FleetSDK",
-    "Kiosk",
-    "Azorus",
-    "Ergo Education", 
-    "Ergo Developer Tooling",
-    "Ergo Hackathons", 
-
-    # DAO 
-    "PaideiaDAO",
-    "ErgoTeam",
-    "Swamp Audio",
-
-    # Layer 2s / Sidechains
-    "SentientFoundation",
-
-    # Misc 
-    "ZenGate Global",
-    "Ergode",
-    "Ergo Names",
-    "LiliumErgo",
-    "COMET", 
-    "Ergo Stats & Analysis"
-
-    ]
+  "anetaBTC",
+  "Azorus",
+  "BlobsTopia",
+  "ChainCash",
+  "COMET",
+  "Dexy",
+  "Duckpools",
+  "Ergo Auction House",
+  "Ergo Developer Tooling",
+  "Ergo Education",
+  "Ergo Hackathons",
+  "Ergo Miner Tooling",
+  "Ergo Names",
+  "Ergo Raffle",
+  "Ergo Stats & Analysis",
+  "Ergode",
+  "ErgoMixer",
+  "ErgoPad",
+  "ErgoTeam",
+  "EXLE",
+  "FleetSDK",
+  "Grand Gambit",
+  "GuapSwap",
+  "Kiosk",
+  "LiliumErgo",
+  "Lithos Protocol",
+  "Minotaur",
+  "Nautilus",
+  "NightOwl Casino",
+  "PaideiaDAO",
+  "SAFEW",
+  "Satergo",
+  "SentientFoundation",
+  "SigmaFi",
+  "SigmaUSD",
+  "SkyHarbor",
+  "Spectrum Labs",
+  "Swamp Audio",
+  "ZenGate Global",
+  "ZK Treasury",
+]
 
 github_organizations = ["https://github.com/ergoplatform"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/ergoplatform/ergo"
-tags = [ "Protocol"]
-
-[[repo]]
-url = "https://github.com/ergoplatform/ergodocs"
-tags = [ "Documentation"]
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/ergoplatform/ergo-wallet-app"
-tags = [ "Wallet"]
+tags = ["Wallet"]
+
+[[repo]]
+url = "https://github.com/ergoplatform/ergodocs"
+tags = ["Documentation"]
 
 [[repo]]
 url = "https://github.com/mgpai22/ergosapiens"
-
-
-
-
-

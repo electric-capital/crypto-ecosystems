@@ -128,6 +128,7 @@ sub_ecosystems = [
 ]
 
 github_organizations = [
+  "https://github.com/Abstract-OS",
   "https://github.com/allinbits",
   "https://github.com/AstroTech-Labs",
   "https://github.com/Autonomy-Network",
@@ -150,10 +151,16 @@ github_organizations = [
   "https://github.com/PeggyJV",
   "https://github.com/strangelove-ventures",
   "https://github.com/tendermint",
-  "https://github.com/Abstract-OS"
 ]
 
 # Repositories
+[[repo]]
+url = "https://github.com/Abstract-OS/ans-scraper"
+
+[[repo]]
+url = "https://github.com/Abstract-OS/BOOT"
+tags = ["Developer Tool"]
+
 [[repo]]
 url = "https://github.com/alenzer/Stablecoin_cosmwasm"
 
@@ -3758,10 +3765,3 @@ url = "https://github.com/ZcashFoundation/zcash-pegzone"
 
 [[repo]]
 url = "https://github.com/zorostang/secret-factory-contract"
-
-[[repo]]
-url = "https://github.com/Abstract-OS/BOOT"
-tags = ["Developer Tool"]
-
-[[repo]]
-url = "https://github.com/Abstract-OS/ans-scraper"

@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "ZKSync"
 
-sub_ecosystems = ["Aboard Exchange", "Golem Factory", "perpdex", "ZigZag Exchange"]
+sub_ecosystems = ["Aboard Exchange", "Golem Factory", "perpdex", "Sismo", "ZigZag Exchange"]
 
 github_organizations = [
   "https://github.com/matter-labs",
@@ -18,7 +18,7 @@ url = "https://github.com/argentlabs/argent-trustlists"
 url = "https://github.com/blockchainsllc/in3"
 
 [[repo]]
-url = "https://github.com/connext/nxtp"
+url = "https://github.com/connext/monorepo"
 
 [[repo]]
 url = "https://github.com/crypto-swap/zksync-interface"
@@ -315,55 +315,28 @@ url = "https://github.com/matter-labs/.github"
 url = "https://github.com/matter-labs/aa-signature-checker"
 
 [[repo]]
-url = "https://github.com/matter-labs/ABIencodingForPlasmas"
-
-[[repo]]
 url = "https://github.com/matter-labs/action-hosting-deploy"
-
-[[repo]]
-url = "https://github.com/matter-labs/actix-web"
-
-[[repo]]
-url = "https://github.com/matter-labs/alpha-wallet-ios"
-
-[[repo]]
-url = "https://github.com/matter-labs/alpha_line"
 
 [[repo]]
 url = "https://github.com/matter-labs/aptos-consensus"
 
 [[repo]]
-url = "https://github.com/matter-labs/atomic-swaps"
-
-[[repo]]
 url = "https://github.com/matter-labs/awesome-zero-knowledge-proofs"
-
-[[repo]]
-url = "https://github.com/matter-labs/belle_cuda"
 
 [[repo]]
 url = "https://github.com/matter-labs/bellman"
 
 [[repo]]
-url = "https://github.com/matter-labs/bellman-examples"
-
-[[repo]]
 url = "https://github.com/matter-labs/bellman-fork"
-
-[[repo]]
-url = "https://github.com/matter-labs/BellmanBindings-iOS"
 
 [[repo]]
 url = "https://github.com/matter-labs/Best-README-Template"
 
 [[repo]]
-url = "https://github.com/matter-labs/bip39"
-
-[[repo]]
-url = "https://github.com/matter-labs/blake2_rfc_bellman_edition"
-
-[[repo]]
 url = "https://github.com/matter-labs/blockscout"
+
+[[repo]]
+url = "https://github.com/matter-labs/cli-empty-template"
 
 [[repo]]
 url = "https://github.com/matter-labs/cloudflare-access-grafana"
@@ -396,12 +369,6 @@ url = "https://github.com/matter-labs/compiler-tests"
 url = "https://github.com/matter-labs/compiler-yul"
 
 [[repo]]
-url = "https://github.com/matter-labs/compound-protocol"
-
-[[repo]]
-url = "https://github.com/matter-labs/create2-example"
-
-[[repo]]
 url = "https://github.com/matter-labs/cross-chain-tutorial"
 
 [[repo]]
@@ -414,13 +381,13 @@ url = "https://github.com/matter-labs/custom-aa-tutorial"
 url = "https://github.com/matter-labs/custom-paymaster-tutorial"
 
 [[repo]]
+url = "https://github.com/matter-labs/daily-spendlimit-tutorial"
+
+[[repo]]
 url = "https://github.com/matter-labs/data-restore"
 
 [[repo]]
 url = "https://github.com/matter-labs/demo-circuit"
-
-[[repo]]
-url = "https://github.com/matter-labs/DeploymentTools"
 
 [[repo]]
 url = "https://github.com/matter-labs/discord-ban-appeal"
@@ -435,55 +402,82 @@ url = "https://github.com/matter-labs/docker-github-runner"
 url = "https://github.com/matter-labs/docker-kubectl"
 
 [[repo]]
-url = "https://github.com/matter-labs/Edcon2019_material"
-
-[[repo]]
 url = "https://github.com/matter-labs/eip1962"
-
-[[repo]]
-url = "https://github.com/matter-labs/eip1962_caller"
-
-[[repo]]
-url = "https://github.com/matter-labs/eip1962_cpp"
-
-[[repo]]
-url = "https://github.com/matter-labs/eip1962_fuzzing"
-
-[[repo]]
-url = "https://github.com/matter-labs/eip1962_lib"
 
 [[repo]]
 url = "https://github.com/matter-labs/eip1962_specs"
 
 [[repo]]
-url = "https://github.com/matter-labs/EIPs"
+url = "https://github.com/matter-labs/era-bellman-cuda"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-circuit_testing"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-compiler-common"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-compiler-llvm"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-compiler-llvm-builder"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-compiler-llvm-context"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-compiler-solidity"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-compiler-vyper"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-contracts"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-heavy-ops-service"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-openzeppelin"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-sync_vm"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-system-contracts"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-tutorial-examples"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-zk_evm"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-zkEVM-assembly"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-zkevm_opcode_defs"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-zkevm_test_harness"
 
 [[repo]]
 url = "https://github.com/matter-labs/ERADICATE2"
 
 [[repo]]
-url = "https://github.com/matter-labs/eslint-config"
-
-[[repo]]
-url = "https://github.com/matter-labs/ETHBerlinFrontend"
-
-[[repo]]
 url = "https://github.com/matter-labs/ETHLisbon-2022-hackathon"
 
 [[repo]]
-url = "https://github.com/matter-labs/ETHSF-Advanced-DEX-Trading-Tools"
+url = "https://github.com/matter-labs/example"
 
 [[repo]]
-url = "https://github.com/matter-labs/ETHSF-ReEncryptHealth-demo"
-
-[[repo]]
-url = "https://github.com/matter-labs/faucet"
+url = "https://github.com/matter-labs/exploring-hack"
 
 [[repo]]
 url = "https://github.com/matter-labs/ff"
 
 [[repo]]
-url = "https://github.com/matter-labs/firebase-action"
+url = "https://github.com/matter-labs/foundry"
 
 [[repo]]
 url = "https://github.com/matter-labs/franklin-crypto"
@@ -495,37 +489,10 @@ url = "https://github.com/matter-labs/franklin-crypto"
 url = "https://github.com/matter-labs/franklin-crypto-fork"
 
 [[repo]]
-url = "https://github.com/matter-labs/franklin-web"
-
-[[repo]]
-url = "https://github.com/matter-labs/franklin-webpage"
-
-[[repo]]
-url = "https://github.com/matter-labs/franklin-website-source"
-
-[[repo]]
-url = "https://github.com/matter-labs/franklin_crypto"
-
-[[repo]]
-url = "https://github.com/matter-labs/FranklinPay-iOS"
-
-[[repo]]
-url = "https://github.com/matter-labs/FranklinWallet-iOS"
-
-[[repo]]
-url = "https://github.com/matter-labs/GameOfSnarks_contracts"
-
-[[repo]]
 url = "https://github.com/matter-labs/gh-workflows"
 
 [[repo]]
-url = "https://github.com/matter-labs/git_mover"
-
-[[repo]]
 url = "https://github.com/matter-labs/github-actions-runner"
-
-[[repo]]
-url = "https://github.com/matter-labs/github-wide"
 
 [[repo]]
 url = "https://github.com/matter-labs/github-workflows"
@@ -534,16 +501,7 @@ url = "https://github.com/matter-labs/github-workflows"
 url = "https://github.com/matter-labs/githubot"
 
 [[repo]]
-url = "https://github.com/matter-labs/go-eip1962"
-
-[[repo]]
-url = "https://github.com/matter-labs/go-ethereum"
-
-[[repo]]
 url = "https://github.com/matter-labs/greeter-tutorial-starter"
-
-[[repo]]
-url = "https://github.com/matter-labs/Groth16BatchVerifier"
 
 [[repo]]
 url = "https://github.com/matter-labs/hardhat-zksync"
@@ -558,19 +516,19 @@ url = "https://github.com/matter-labs/hubot-docker"
 url = "https://github.com/matter-labs/hubot-github-deployments"
 
 [[repo]]
-url = "https://github.com/matter-labs/ignition-verification"
-
-[[repo]]
-url = "https://github.com/matter-labs/inkline"
-
-[[repo]]
 url = "https://github.com/matter-labs/jetbrains-plugin"
 
 [[repo]]
 url = "https://github.com/matter-labs/jsonrpc"
 
 [[repo]]
-url = "https://github.com/matter-labs/libsnark_gadgetlib3"
+url = "https://github.com/matter-labs/l2-intro-demo"
+
+[[repo]]
+url = "https://github.com/matter-labs/l2-intro-ethdenver"
+
+[[repo]]
+url = "https://github.com/matter-labs/l2-intro-pre-ethdenver"
 
 [[repo]]
 url = "https://github.com/matter-labs/llvm-project"
@@ -579,19 +537,10 @@ url = "https://github.com/matter-labs/llvm-project"
 url = "https://github.com/matter-labs/local-setup"
 
 [[repo]]
-url = "https://github.com/matter-labs/matter-network"
-
-[[repo]]
-url = "https://github.com/matter-labs/matter-site"
-
-[[repo]]
 url = "https://github.com/matter-labs/matterdb"
 
 [[repo]]
 url = "https://github.com/matter-labs/matterinc.github.io"
-
-[[repo]]
-url = "https://github.com/matter-labs/MerkleShrubs"
 
 [[repo]]
 url = "https://github.com/matter-labs/module-template"
@@ -600,13 +549,7 @@ url = "https://github.com/matter-labs/module-template"
 url = "https://github.com/matter-labs/multisig"
 
 [[repo]]
-url = "https://github.com/matter-labs/MultiSigWallet"
-
-[[repo]]
-url = "https://github.com/matter-labs/onboard"
-
-[[repo]]
-url = "https://github.com/matter-labs/openethereum"
+url = "https://github.com/matter-labs/os-example"
 
 [[repo]]
 url = "https://github.com/matter-labs/pairing"
@@ -615,70 +558,10 @@ url = "https://github.com/matter-labs/pairing"
 url = "https://github.com/matter-labs/parity-ethereum"
 
 [[repo]]
-url = "https://github.com/matter-labs/pay.now.sh"
-
-[[repo]]
-url = "https://github.com/matter-labs/pedersen_hash_standard"
-
-[[repo]]
-url = "https://github.com/matter-labs/PeepethClient"
-
-[[repo]]
-url = "https://github.com/matter-labs/plasma.js"
-
-[[repo]]
-url = "https://github.com/matter-labs/Plasma_API"
-
-[[repo]]
-url = "https://github.com/matter-labs/plasma_cash_history_snark"
-
-[[repo]]
-url = "https://github.com/matter-labs/plasma_winter"
-
-[[repo]]
-url = "https://github.com/matter-labs/PlasmaBlockCreator"
-
-[[repo]]
-url = "https://github.com/matter-labs/PlasmaBlockVerifier"
-
-[[repo]]
-url = "https://github.com/matter-labs/PlasmaCashHistorySnark-iOS"
-
-[[repo]]
-url = "https://github.com/matter-labs/PlasmaCommons"
-
-[[repo]]
-url = "https://github.com/matter-labs/PlasmaCompact"
-
-[[repo]]
-url = "https://github.com/matter-labs/PlasmaContract"
-
-[[repo]]
-url = "https://github.com/matter-labs/PlasmaManager"
-
-[[repo]]
 url = "https://github.com/matter-labs/PlasmaParentContract"
 
 [[repo]]
 url = "https://github.com/matter-labs/PlasmaPoSmiddleware"
-
-[[repo]]
-url = "https://github.com/matter-labs/PlasmaSwiftLib"
-
-[[repo]]
-url = "https://github.com/matter-labs/PlasmaTransactionJS"
-
-[[repo]]
-url = "https://github.com/matter-labs/PlasmaWebExplorer"
-
-[[repo]]
-url = "https://github.com/matter-labs/PlasmaWebUI"
-
-[[repo]]
-url = "https://github.com/matter-labs/powersoftau"
-
-[[repo]]
-url = "https://github.com/matter-labs/PowersOfTau-iOS"
 
 [[repo]]
 url = "https://github.com/matter-labs/proof_system_info_v1.0"
@@ -696,55 +579,16 @@ url = "https://github.com/matter-labs/quantum_wallet"
 url = "https://github.com/matter-labs/recursive_aggregation_circuit"
 
 [[repo]]
-url = "https://github.com/matter-labs/reddit-demo"
-
-[[repo]]
-url = "https://github.com/matter-labs/rescue"
-
-[[repo]]
 url = "https://github.com/matter-labs/rescue-poseidon"
 
 [[repo]]
 url = "https://github.com/matter-labs/rescue-poseidon-fork"
 
 [[repo]]
-url = "https://github.com/matter-labs/research"
-
-[[repo]]
-url = "https://github.com/matter-labs/retesteth"
-
-[[repo]]
-url = "https://github.com/matter-labs/rge-faucet"
-
-[[repo]]
-url = "https://github.com/matter-labs/rollup"
-
-[[repo]]
-url = "https://github.com/matter-labs/RSAAccumulator"
-
-[[repo]]
 url = "https://github.com/matter-labs/rust-web3"
 
 [[repo]]
-url = "https://github.com/matter-labs/safe-react"
-
-[[repo]]
-url = "https://github.com/matter-labs/safe-transaction-service"
-
-[[repo]]
-url = "https://github.com/matter-labs/sapling-crypto"
-
-[[repo]]
 url = "https://github.com/matter-labs/schnorr-musig"
-
-[[repo]]
-url = "https://github.com/matter-labs/simple_spawner"
-
-[[repo]]
-url = "https://github.com/matter-labs/slate"
-
-[[repo]]
-url = "https://github.com/matter-labs/snarkyGPU"
 
 [[repo]]
 url = "https://github.com/matter-labs/solidity"
@@ -753,22 +597,10 @@ url = "https://github.com/matter-labs/solidity"
 url = "https://github.com/matter-labs/solidity_plonk_verifier"
 
 [[repo]]
-url = "https://github.com/matter-labs/Talks-presentations"
-
-[[repo]]
 url = "https://github.com/matter-labs/tendermint"
 
 [[repo]]
 url = "https://github.com/matter-labs/testnet-faucet"
-
-[[repo]]
-url = "https://github.com/matter-labs/tests"
-
-[[repo]]
-url = "https://github.com/matter-labs/threshold_crypto"
-
-[[repo]]
-url = "https://github.com/matter-labs/TinyBigIntSwift"
 
 [[repo]]
 url = "https://github.com/matter-labs/Trees"
@@ -778,12 +610,6 @@ url = "https://github.com/matter-labs/trust-wallet-ios"
 
 [[repo]]
 url = "https://github.com/matter-labs/tutorial-examples"
-
-[[repo]]
-url = "https://github.com/matter-labs/uint64prime"
-
-[[repo]]
-url = "https://github.com/matter-labs/UniLogin"
 
 [[repo]]
 url = "https://github.com/matter-labs/uniswap-v3-proposal"
@@ -796,12 +622,6 @@ url = "https://github.com/matter-labs/vm-benchmarks"
 
 [[repo]]
 url = "https://github.com/matter-labs/vscode-extension"
-
-[[repo]]
-url = "https://github.com/matter-labs/web3swift"
-
-[[repo]]
-url = "https://github.com/matter-labs/whitepaper"
 
 [[repo]]
 url = "https://github.com/matter-labs/workflow-dispatch"
@@ -819,10 +639,10 @@ url = "https://github.com/matter-labs/zinc"
 url = "https://github.com/matter-labs/zinc.github.io"
 
 [[repo]]
-url = "https://github.com/matter-labs/zks-crypto"
+url = "https://github.com/matter-labs/zksolc-bin"
 
 [[repo]]
-url = "https://github.com/matter-labs/zksolc-bin"
+url = "https://github.com/matter-labs/zksolc-prerelease"
 
 [[repo]]
 url = "https://github.com/matter-labs/zksync"
@@ -843,22 +663,16 @@ url = "https://github.com/matter-labs/zksync-dapp-wallet-v2"
 url = "https://github.com/matter-labs/zksync-docs"
 
 [[repo]]
-url = "https://github.com/matter-labs/zksync-hardhat-template"
+url = "https://github.com/matter-labs/zksync-era"
 
 [[repo]]
-url = "https://github.com/matter-labs/zksync-init"
+url = "https://github.com/matter-labs/zksync-hardhat-template"
 
 [[repo]]
 url = "https://github.com/matter-labs/zksync-link"
 
 [[repo]]
 url = "https://github.com/matter-labs/zksync-packages-info"
-
-[[repo]]
-url = "https://github.com/matter-labs/zksync-sdk"
-
-[[repo]]
-url = "https://github.com/matter-labs/zksync-sdk-swift"
 
 [[repo]]
 url = "https://github.com/matter-labs/zksync-tool-locker"
@@ -870,6 +684,9 @@ url = "https://github.com/matter-labs/zksync-v2-issues"
 url = "https://github.com/matter-labs/zksync-wallet-vue"
 
 [[repo]]
+url = "https://github.com/matter-labs/zksync-web-era-docs"
+
+[[repo]]
 url = "https://github.com/matter-labs/zksync-web-landing"
 
 [[repo]]
@@ -879,16 +696,13 @@ url = "https://github.com/matter-labs/zksync-web-v2-docs"
 url = "https://github.com/matter-labs/zksync-web-v2-docs-1"
 
 [[repo]]
-url = "https://github.com/matter-labs/zksync.js"
-
-[[repo]]
 url = "https://github.com/matter-labs/zkvyper-bin"
 
 [[repo]]
-url = "https://github.com/matter-labs/zrust.github.io"
+url = "https://github.com/nextdotid/relation_server"
 
 [[repo]]
-url = "https://github.com/nextdotid/relation_server"
+url = "https://github.com/omurovec/foundry-zksync-era"
 
 [[repo]]
 url = "https://github.com/Quantik-Solutions/qs-react-native-zksync"
@@ -940,6 +754,9 @@ url = "https://github.com/zkLinkProtocol/zklink-exchange"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-homepage"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-starknet-contracts"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-static"

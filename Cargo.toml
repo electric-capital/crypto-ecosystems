@@ -6,9 +6,9 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0"
-glob = "0.3.0"
-serde = { version = "1.0.137", features = ["derive"] }
-serde_json = "1.0.81"
+glob = "0.3.1"
+serde = { version = "1.0.158", features = ["derive"] }
+serde_json = "1.0.94"
 structopt = "0.3.26"
-thiserror = "1.0.31"
-toml = "0.5.9"
+thiserror = "1.0.40"
+toml = "0.7.3"

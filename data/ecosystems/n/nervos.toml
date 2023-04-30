@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Nervos"
 
-sub_ecosystems = []
+sub_ecosystems = ["Axon Web3"]
 
 github_organizations = [
   "https://github.com/glias",
@@ -71,9 +71,6 @@ url = "https://github.com/ckb-js/ckit"
 url = "https://github.com/ckb-js/lumos"
 
 [[repo]]
-url = "https://github.com/CloudSlit/cloudslit"
-
-[[repo]]
 url = "https://github.com/cosinlink/ckb-cross"
 
 [[repo]]
@@ -102,6 +99,9 @@ url = "https://github.com/duanyytop/ckb-oracle-bridge"
 
 [[repo]]
 url = "https://github.com/DylanOpenDev/ckb-dex-test"
+
+[[repo]]
+url = "https://github.com/FlowShield/flowshield"
 
 [[repo]]
 url = "https://github.com/glias/deal-maker-cli"
@@ -182,13 +182,7 @@ url = "https://github.com/hackathon-cross/cross-demo"
 url = "https://github.com/hackathon-cross/relayer"
 
 [[repo]]
-url = "https://github.com/homura/ckit"
-
-[[repo]]
 url = "https://github.com/HuobiGroup/huobi-chain"
-
-[[repo]]
-url = "https://github.com/huwenchao/bitcoin-spv-lib"
 
 [[repo]]
 url = "https://github.com/jjyr/godwoken-original"
@@ -222,9 +216,6 @@ url = "https://github.com/lay2dev/eth.swap.backend"
 
 [[repo]]
 url = "https://github.com/lay2dev/portal-wallet-frontend"
-
-[[repo]]
-url = "https://github.com/lay2dev/PortalWallet"
 
 [[repo]]
 url = "https://github.com/lay2dev/pw-core"
@@ -266,24 +257,6 @@ url = "https://github.com/nervoscommunity/mineckb_rank_backend"
 url = "https://github.com/nervosnetwork/app-dirs-rs"
 
 [[repo]]
-url = "https://github.com/nervosnetwork/axon"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/axon-backup"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/axon-bridge-ui"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/axon-contract"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/axon-devops"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/axon-faucet"
-
-[[repo]]
 url = "https://github.com/nervosnetwork/axon-prototype-1"
 
 [[repo]]
@@ -315,13 +288,7 @@ url = "https://github.com/nervosnetwork/ckb"
 tags = ["Protocol"]
 
 [[repo]]
-url = "https://github.com/nervosnetwork/ckb-anyone-can-pay"
-
-[[repo]]
 url = "https://github.com/nervosnetwork/ckb-assets"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/ckb-bench"
 
 [[repo]]
 url = "https://github.com/nervosnetwork/ckb-bench-archived"
@@ -453,9 +420,6 @@ url = "https://github.com/nervosnetwork/ckb-sdk-go"
 url = "https://github.com/nervosnetwork/ckb-sdk-java"
 
 [[repo]]
-url = "https://github.com/nervosnetwork/ckb-sdk-js"
-
-[[repo]]
 url = "https://github.com/nervosnetwork/ckb-sdk-ruby"
 
 [[repo]]
@@ -519,9 +483,6 @@ url = "https://github.com/nervosnetwork/ckb-why-the-design"
 url = "https://github.com/nervosnetwork/ckb-x64-simulator"
 
 [[repo]]
-url = "https://github.com/nervosnetwork/ckit"
-
-[[repo]]
 url = "https://github.com/nervosnetwork/clerkb"
 
 [[repo]]
@@ -537,7 +498,7 @@ url = "https://github.com/nervosnetwork/docs"
 url = "https://github.com/nervosnetwork/docs-new"
 
 [[repo]]
-url = "https://github.com/nervosnetwork/drone"
+url = "https://github.com/nervosnetwork/docs.nervos.org"
 
 [[repo]]
 url = "https://github.com/nervosnetwork/eaglesong"
@@ -588,43 +549,13 @@ url = "https://github.com/nervosnetwork/genesis-block-generator"
 url = "https://github.com/nervosnetwork/glimmer-cape"
 
 [[repo]]
-url = "https://github.com/nervosnetwork/godwoken"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/godwoken-doc"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/godwoken-docker-prebuilds"
-
-[[repo]]
 url = "https://github.com/nervosnetwork/godwoken-examples"
 
 [[repo]]
 url = "https://github.com/nervosnetwork/godwoken-gaming"
 
 [[repo]]
-url = "https://github.com/nervosnetwork/godwoken-info"
-
-[[repo]]
 url = "https://github.com/nervosnetwork/godwoken-js-sdk"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/godwoken-polyjuice"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/godwoken-public"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/godwoken-scripts"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/godwoken-testnet"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/godwoken-tests"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/godwoken-web3"
 
 [[repo]]
 url = "https://github.com/nervosnetwork/golomb-coded-set"
@@ -654,16 +585,10 @@ url = "https://github.com/nervosnetwork/keypering"
 url = "https://github.com/nervosnetwork/layer2-evm-documentation"
 
 [[repo]]
-url = "https://github.com/nervosnetwork/light-godwoken"
-
-[[repo]]
 url = "https://github.com/nervosnetwork/linked-hash-map"
 
 [[repo]]
 url = "https://github.com/nervosnetwork/lru-cache"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/lumos"
 
 [[repo]]
 url = "https://github.com/nervosnetwork/mandrake"
@@ -688,9 +613,6 @@ url = "https://github.com/nervosnetwork/merkle-tree"
 
 [[repo]]
 url = "https://github.com/nervosnetwork/metrics-rs"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/minits"
 
 [[repo]]
 url = "https://github.com/nervosnetwork/molecule"
@@ -783,9 +705,6 @@ url = "https://github.com/nervosnetwork/openssl"
 url = "https://github.com/nervosnetwork/overlord"
 
 [[repo]]
-url = "https://github.com/nervosnetwork/p2p"
-
-[[repo]]
 url = "https://github.com/nervosnetwork/pbc"
 
 [[repo]]
@@ -814,9 +733,6 @@ url = "https://github.com/nervosnetwork/rfcs"
 
 [[repo]]
 url = "https://github.com/nervosnetwork/riscv-compliance"
-
-[[repo]]
-url = "https://github.com/nervosnetwork/riscv-contract-tutorials"
 
 [[repo]]
 url = "https://github.com/nervosnetwork/riscv-demo-sources"
@@ -903,9 +819,6 @@ url = "https://github.com/nervosnetwork/tippy"
 url = "https://github.com/nervosnetwork/tippy-explorer-frontend"
 
 [[repo]]
-url = "https://github.com/nervosnetwork/toCKB"
-
-[[repo]]
 url = "https://github.com/nervosnetwork/tockb-cli"
 
 [[repo]]
@@ -976,12 +889,6 @@ url = "https://github.com/rebase-network/tokenbridge-frontend"
 
 [[repo]]
 url = "https://github.com/sec-bit/ckb-zkp"
-
-[[repo]]
-url = "https://github.com/sking789/js_verify_ckb_script"
-
-[[repo]]
-url = "https://github.com/sking789/math-nervosjs"
 
 [[repo]]
 url = "https://github.com/stwith/cellmap.ckb.dev"

@@ -59,6 +59,7 @@ struct Repo {
     pub url: String,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub tags: Option<Vec<String>>,
+    pub missing: Option<bool>,
 }
 
 #[derive(Debug, Error)]
@@ -110,6 +111,7 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
     let mut tagmap: HashMap<String, u32> = HashMap::new();
     let mut repo_set = HashSet::new();
     let mut errors = vec![];
+    let mut missing_count = 0;
     for ecosystem in ecosystem_map.values() {
         if let Some(ref sub_ecosystems) = ecosystem.sub_ecosystems {
             for sub in sub_ecosystems {
@@ -123,6 +125,9 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
         }
         if let Some(ref repos) = ecosystem.repo {
             for repo in repos {
+                if let Some(true) = repo.missing {
+                    missing_count += 1;
+                }
                 repo_set.insert(repo.url.clone());
                 if let Some(tags) = &repo.tags {
                     for tag in tags {
@@ -135,9 +140,10 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
     }
     if errors.len() == 0 {
         println!(
-            "Validated {} ecosystems and {} repos",
+            "Validated {} ecosystems and {} repos ({} missing)",
             ecosystem_map.len(),
             repo_set.len(),
+            missing_count,
         );
         println!("\nTags");
         for (tag, count) in tagmap {

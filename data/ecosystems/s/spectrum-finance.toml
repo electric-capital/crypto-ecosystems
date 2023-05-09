@@ -1,11 +1,14 @@
 # Ecosystem Level Information
-title = "Ergo Labs"
+title = "Spectrum Finance"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/ergolabs"]
+github_organizations = ["https://github.com/ergolabs", "https://github.com/spectrum-finance"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/spectrum-finance/analytics"
+
 [[repo]]
 url = "https://github.com/spectrum-finance/cardano-datum-keeper"
 
@@ -55,6 +58,12 @@ url = "https://github.com/spectrum-finance/docs"
 url = "https://github.com/spectrum-finance/downloader"
 
 [[repo]]
+url = "https://github.com/spectrum-finance/ergo-analytics"
+
+[[repo]]
+url = "https://github.com/spectrum-finance/ergo-analytics-events-streaming"
+
+[[repo]]
 url = "https://github.com/spectrum-finance/ergo-dex"
 
 [[repo]]
@@ -73,6 +82,9 @@ url = "https://github.com/spectrum-finance/ergo_dex_aiobot"
 url = "https://github.com/spectrum-finance/ergodex_landing"
 
 [[repo]]
+url = "https://github.com/spectrum-finance/ergoscript-simulator"
+
+[[repo]]
 url = "https://github.com/spectrum-finance/hlog"
 
 [[repo]]
@@ -86,6 +98,9 @@ url = "https://github.com/spectrum-finance/sips"
 
 [[repo]]
 url = "https://github.com/spectrum-finance/spectrum"
+
+[[repo]]
+url = "https://github.com/spectrum-finance/spectrum-offchain-ergo"
 
 [[repo]]
 url = "https://github.com/spectrum-finance/token-logos"

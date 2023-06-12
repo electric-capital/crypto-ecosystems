@@ -6,18 +6,22 @@ sub_ecosystems = [
   "AnyToNFT",
   "Aramid Finance",
   "Aries Protocol",
+  "Artic Trade",
   "AuroraSwap",
   "Australis Finance",
   "BlueBit Finance",
+  "BoringDAO",
   "Cask",
   "decent.land",
   "DeFiHelper",
+  "Fileverse",
   "Flair",
   "Freename",
   "GREENHOUSE DEX",
   "HEO.finance",
   "Histopia",
   "Holdr",
+  "IndexZoo",
   "iZUMi.finance",
   "Kenshi",
   "Kresko",
@@ -27,6 +31,8 @@ sub_ecosystems = [
   "OpenOcean",
   "Polaris Finance",
   "RabbyHub",
+  "Rango Exchange",
+  "Reveel",
   "Rose On Aurora",
   "SynFutures",
   "TokenPocket",
@@ -34,9 +40,33 @@ sub_ecosystems = [
   "wannaswap",
 ]
 
-github_organizations = ["https://github.com/aurora-is-near"]
+github_organizations = [
+  "https://github.com/Atomicgreen",
+  "https://github.com/Aurigami-Finance",
+  "https://github.com/aurora-is-near",
+  "https://github.com/DeFiEye",
+  "https://github.com/Gymnasia-Labs",
+]
 
 # Repositories
+[[repo]]
+url = "https://github.com/anima-protocol/claims-polygonid"
+
+[[repo]]
+url = "https://github.com/Atomicgreen/audit"
+
+[[repo]]
+url = "https://github.com/Atomicgreen/defilama-yield-server"
+
+[[repo]]
+url = "https://github.com/Atomicgreen/DefiLlama-Adapters"
+
+[[repo]]
+url = "https://github.com/Aurigami-Finance/aurigami-smart-contracts"
+
+[[repo]]
+url = "https://github.com/Aurigami-Finance/bridge-assets"
+
 [[repo]]
 url = "https://github.com/aurora-is-near/.github"
 
@@ -135,6 +165,9 @@ url = "https://github.com/aurora-is-near/azul-app"
 
 [[repo]]
 url = "https://github.com/aurora-is-near/backstage-entities"
+
+[[repo]]
+url = "https://github.com/aurora-is-near/backstage-plugin-blockchain"
 
 [[repo]]
 url = "https://github.com/aurora-is-near/blockscout"
@@ -356,6 +389,27 @@ url = "https://github.com/batasm-finance/batasm-contract"
 url = "https://github.com/codingshot/genadrop"
 
 [[repo]]
+url = "https://github.com/DeFiEye/BridgeEye"
+
+[[repo]]
+url = "https://github.com/DeFiEye/MyWalletScan"
+
+[[repo]]
+url = "https://github.com/DeFiEye/networklist-org"
+
+[[repo]]
+url = "https://github.com/DeFinerOrg/Savings"
+
+[[repo]]
+url = "https://github.com/Endemic-NFT/aurora-contracts"
+
+[[repo]]
+url = "https://github.com/Endemic-NFT/endemic-subgraph"
+
+[[repo]]
+url = "https://github.com/Gymnasia-Labs/fitness-challenge-evaluation-smartcontract"
+
+[[repo]]
 url = "https://github.com/insight-chain/documentation"
 
 [[repo]]
@@ -378,3 +432,36 @@ url = "https://github.com/insight-chain/inb-wallet-ios"
 
 [[repo]]
 url = "https://github.com/insight-chain/inb-web3i.js"
+
+[[repo]]
+url = "https://github.com/Instadapp/avocado-sdk"
+
+[[repo]]
+url = "https://github.com/itsobvioustech/aa-passkeys-wallet"
+
+[[repo]]
+url = "https://github.com/layerx-labs/webnetwork"
+
+[[repo]]
+url = "https://github.com/Mycelium-Lab/uno-contracts"
+
+[[repo]]
+url = "https://github.com/opolis/crypto-payroll-contracts"
+
+[[repo]]
+url = "https://github.com/opolis/opolis-subgraph"
+
+[[repo]]
+url = "https://github.com/trustrecruit/aurora"
+
+[[repo]]
+url = "https://github.com/VaporwaveFinance/studio"
+
+[[repo]]
+url = "https://github.com/wondrous-dev/wondrous-frontend"
+
+[[repo]]
+url = "https://github.com/xp-network/xpjs"
+
+[[repo]]
+url = "https://gitlab.com/ivankuzovkin/wordle-aurora"

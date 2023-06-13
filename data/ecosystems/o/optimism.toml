@@ -3,7 +3,6 @@ title = "Optimism"
 
 sub_ecosystems = [
   "0xSplits",
-  "Across Protocol",
   "DeFiHelper",
   "Fuji DAO",
   "Kwenta",
@@ -17,6 +16,7 @@ sub_ecosystems = [
   "Overnight",
   "Perpetual Protocol",
   "Reservoir Protocol",
+  "Reveel",
   "Sonne Finance",
   "Velodrome",
 ]
@@ -24,10 +24,14 @@ sub_ecosystems = [
 github_organizations = [
   "https://github.com/ethereum-optimism",
   "https://github.com/PromiseLand-App",
+  "https://github.com/TalentLayer",
   "https://github.com/waterfall-foundation",
 ]
 
 # Repositories
+[[repo]]
+url = "https://github.com/0xreentrant/2023-05-USSD"
+
 [[repo]]
 url = "https://github.com/10clouds/blockchain-team-hackathon-ethonline"
 
@@ -44,11 +48,10 @@ url = "https://github.com/Alpha-Team-7/Reward-coin"
 url = "https://github.com/ApeWorX/ape-optimism"
 
 [[repo]]
-url = "https://github.com/Baraa42/SBT_NYC"
+url = "https://github.com/Avelous/Eth-Splitter"
 
 [[repo]]
-url = "https://github.com/barternetwork/barter-smart-router"
-missing = true
+url = "https://github.com/Baraa42/SBT_NYC"
 
 [[repo]]
 url = "https://github.com/Bg-Team-C/Voting"
@@ -70,6 +73,15 @@ url = "https://github.com/connext/monorepo"
 
 [[repo]]
 url = "https://github.com/dallonasnes/cryptolingo"
+
+[[repo]]
+url = "https://github.com/danieloadebimpe/persona"
+
+[[repo]]
+url = "https://github.com/david30907d/lensLend"
+
+[[repo]]
+url = "https://github.com/DuanYuFi/GPT-Web"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/.github"
@@ -126,6 +138,9 @@ url = "https://github.com/ethereum-optimism/dev"
 url = "https://github.com/ethereum-optimism/docker"
 
 [[repo]]
+url = "https://github.com/ethereum-optimism/ecosystem-contributions"
+
+[[repo]]
 url = "https://github.com/ethereum-optimism/EIPs"
 
 [[repo]]
@@ -142,6 +157,9 @@ url = "https://github.com/ethereum-optimism/ethereumjs-vm"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/explorer-core-plugins"
+
+[[repo]]
+url = "https://github.com/ethereum-optimism/foundation-missions"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/frontends"
@@ -231,10 +249,6 @@ url = "https://github.com/ethereum-optimism/optimism-audit-fixes"
 url = "https://github.com/ethereum-optimism/optimism-bridge-token"
 
 [[repo]]
-url = "https://github.com/ethereum-optimism/optimism-bridge-ui"
-missing = true
-
-[[repo]]
 url = "https://github.com/ethereum-optimism/optimism-devex"
 
 [[repo]]
@@ -242,10 +256,6 @@ url = "https://github.com/ethereum-optimism/optimism-faq-bot"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/optimism-gateway"
-
-[[repo]]
-url = "https://github.com/ethereum-optimism/optimism-gateway-tracker"
-missing = true
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/Optimism-Gateway-UI"
@@ -258,6 +268,12 @@ url = "https://github.com/ethereum-optimism/optimism-l1-subgraph"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/optimism-l2-subgraph"
+
+[[repo]]
+url = "https://github.com/ethereum-optimism/optimism-legacy"
+
+[[repo]]
+url = "https://github.com/ethereum-optimism/optimism-mud-starter"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/optimism-project-ideas"
@@ -305,6 +321,9 @@ url = "https://github.com/ethereum-optimism/reference-optimistic-geth"
 url = "https://github.com/ethereum-optimism/regenesis"
 
 [[repo]]
+url = "https://github.com/ethereum-optimism/roadmap"
+
+[[repo]]
 url = "https://github.com/ethereum-optimism/scripts"
 
 [[repo]]
@@ -312,10 +331,6 @@ url = "https://github.com/ethereum-optimism/service-base"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/smock"
-
-[[repo]]
-url = "https://github.com/ethereum-optimism/snx-transfer-tracker"
-missing = true
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/solc-bin"
@@ -352,6 +367,9 @@ url = "https://github.com/ethereum-optimism/tokenlist"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/Truffle-ERC20-Example"
+
+[[repo]]
+url = "https://github.com/ethereum-optimism/tx-overload"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/uniswap-v2-core"
@@ -411,10 +429,25 @@ url = "https://github.com/latticexyz/opcraft"
 url = "https://github.com/latticexyz/persona"
 
 [[repo]]
+url = "https://github.com/luaroncrew/Loyo"
+
+[[repo]]
+url = "https://github.com/MattyChoi/lendio"
+
+[[repo]]
+url = "https://github.com/miguel-bm/naturalchain"
+
+[[repo]]
 url = "https://github.com/namrapatel/rxchain"
 
 [[repo]]
 url = "https://github.com/Ncookiez/pooltogether-multidelegator-preview"
+
+[[repo]]
+url = "https://github.com/Nonnyjoe/GenesisIgnite"
+
+[[repo]]
+url = "https://github.com/novusys/novusys-paymaster"
 
 [[repo]]
 url = "https://github.com/omgnetwork/optimism-v2"
@@ -462,6 +495,9 @@ url = "https://github.com/ScopeLift/umbra-protocol"
 url = "https://github.com/Sednaoui/Candide"
 
 [[repo]]
+url = "https://github.com/shadmau/ethLisbon-PoS"
+
+[[repo]]
 url = "https://github.com/SiC-eth-berlin/monorepo"
 
 [[repo]]
@@ -471,7 +507,31 @@ url = "https://github.com/smartcontracts/simple-optimism-node"
 url = "https://github.com/sraylr/Hackjack"
 
 [[repo]]
+url = "https://github.com/TalentLayer/.github"
+
+[[repo]]
+url = "https://github.com/TalentLayer/talentlayer-contracts"
+
+[[repo]]
+url = "https://github.com/TalentLayer/talentlayer-id-contracts"
+
+[[repo]]
+url = "https://github.com/TalentLayer/talentlayer-id-subgraph"
+
+[[repo]]
+url = "https://github.com/TalentLayer/talentlayer-subgraph"
+
+[[repo]]
+url = "https://github.com/TalentLayer/user-docs"
+
+[[repo]]
 url = "https://github.com/testinprod-io/op-erigon"
+
+[[repo]]
+url = "https://github.com/therealbytes/concrete-geth"
+
+[[repo]]
+url = "https://github.com/therealbytes/ticking-optimism"
 
 [[repo]]
 url = "https://github.com/violetprotocol/TrustPOAP"
@@ -496,6 +556,12 @@ url = "https://github.com/waterfall-foundation/uniswap-contracts"
 
 [[repo]]
 url = "https://github.com/waterfall-foundation/uniswap-ui"
+
+[[repo]]
+url = "https://github.com/wefa-tech/openar"
+
+[[repo]]
+url = "https://github.com/zKatcha/zKatcha"
 
 [[repo]]
 url = "https://github.com/Zodomo/Thoth"

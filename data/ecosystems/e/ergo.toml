@@ -2,78 +2,50 @@
 title = "Ergo"
 
 sub_ecosystems = [
-    # Exchanges
-    "Spectrum Finance",
-    "anetaBTC",
+  "anetaBTC",
+  "Azorus",
+  "BlobsTopia",
+  "ChainCash",
+  "Comet",
+  "Dexy",
+  "Duckpools",
+  "Ergo Auction House",
+  "Ergo Developer Tooling",
+  "Ergo Education",
+  "Ergo Hackathons",
+  "Ergo Miner Tooling",
+  "Ergo Names",
+  "Ergo Raffle",
+  "Ergo Stats and Analysis",
+  "Ergode",
+  "ErgoMixer",
+  "ErgoPad",
+  "ErgoTeam",
+  "EXLE",
+  "FleetSDK",
+  "Grand Gambit",
+  "GuapSwap",
+  "Kiosk",
+  "LiliumErgo",
+  "Lithos Protocol",
+  "Minotaur",
+  "Nautilus",
+  "NightOwl Casino",
+  "PaideiaDAO",
+  "Rosen Bridge",
+  "SAFEW",
+  "Satergo",
+  "SentientFoundation",
+  "SigmaFi",
+  "SigmaUSD",
+  "SkyHarbor",
+  "Spectrum Finance",
+  "Swamp Audio",
+  "ZenGate Global",
+  "ZK Treasury",
+]
 
-    # Launchpad
-    "ErgoPad",
-
-    # Stablecoins
-    "ChainCash",
-    "Dexy",
-    "SigmaUSD", 
-
-    # Fundraising
-    "Ergo Raffle", 
-
-    # Mining
-    "Lithos Protocol",
-    "GuapSwap", 
-    "Ergo Miner Tooling",
-    
-    # Lending
-    "EXLE",
-    "Duckpools",
-    "SigmaFi", 
-
-    # Gambling
-    "NightOwl Casino",
-    "BlobsTopia",
-    "Grand Gambit",
-
-    # Wallets
-    "Nautilus",
-    "Minotaur",
-    "Satergo",
-    "SAFEW", 
-
-    # Privacy
-    "ErgoMixer",
-    "ZK Treasury",
-
-    # NFTs 
-    "SkyHarbor",
-    "Ergo Auction House",
-
-    # Dev
-    "FleetSDK",
-    "Kiosk",
-    "Azorus",
-    "Ergo Education", 
-    "Ergo Developer Tooling",
-    "Ergo Hackathons", 
-
-    # DAO 
-    "PaideiaDAO",
-    "ErgoTeam",
-    "Swamp Audio",
-
-    # Layer 2s / Sidechains / Bridges
-    "SentientFoundation",
-    "Rosen Bridge",
-
-    # Misc 
-    "ZenGate Global",
-    "Ergode",
-    "Ergo Names",
-    "LiliumErgo",
-    "Comet", 
-    "Ergo Stats and Analysis"
-
-    ]
-
-github_organizations = ["https://github.com/ergoplatform","https://github.com/ScorexFoundation/"]
+github_organizations = ["https://github.com/ergoplatform", "https://github.com/ScorexFoundation/"]
 
 # Repositories
 [[repo]]
@@ -266,10 +238,7 @@ url = "https://github.com/ergoplatform/website"
 url = "https://github.com/scalahub/ErgoScriptCompiler"
 
 [[repo]]
-url = "https://github.com/glasgowm148/ergodocs"
+url = "https://github.com/scalahub/ErgoScriptCompiler"
 
 [[repo]]
 url = "https://github.com/ScorexFoundation/sigmastate-interpreter"
-
-[[repo]]
-url = "https://github.com/scalahub/ErgoScriptCompiler"

@@ -3,7 +3,10 @@ title = "ApeRocket"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/ApeRocket-Labs", "https://github.com/ApeWorX"]
+github_organizations = [
+  "https://github.com/ApeRocket-Labs",
+  "https://github.com/ApeWorX",
+]
 
 # Repositories
 [[repo]]
@@ -11,21 +14,27 @@ url = "https://github.com/ApeRocket-Labs/ApeRocket-Labs.github.io"
 
 [[repo]]
 url = "https://github.com/ApeRocket-Labs/audits"
+missing = true
 
 [[repo]]
 url = "https://github.com/ApeRocket-Labs/compensation"
+missing = true
 
 [[repo]]
 url = "https://github.com/ApeRocket-Labs/core-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/ApeRocket-Labs/core-v2"
+missing = true
 
 [[repo]]
 url = "https://github.com/ApeRocket-Labs/v3-public"
+missing = true
 
 [[repo]]
 url = "https://github.com/ApeRocket-Labs/vaults"
+missing = true
 
 [[repo]]
 url = "https://github.com/ApeWorX/ape"
@@ -176,6 +185,7 @@ url = "https://github.com/ApeWorX/iroh"
 
 [[repo]]
 url = "https://github.com/ApeWorX/lazyasd"
+missing = true
 
 [[repo]]
 url = "https://github.com/ApeWorX/medici-contracts-demo"
@@ -212,6 +222,7 @@ url = "https://github.com/ApeWorX/revm"
 
 [[repo]]
 url = "https://github.com/ApeWorX/simple-nft"
+missing = true
 
 [[repo]]
 url = "https://github.com/ApeWorX/walletconnect-py"

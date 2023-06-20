@@ -1,9 +1,18 @@
 # Ecosystem Level Information
 title = "Move"
 
-sub_ecosystems = ["Aptos", "Ferum", "Starcoin", "Sui", "The Moving Company"]
+sub_ecosystems = [
+  "Aptos",
+  "Ferum",
+  "Starcoin",
+  "Sui",
+  "The Moving Company",
+]
 
-github_organizations = ["https://github.com/move-language", "https://github.com/movefuns"]
+github_organizations = [
+  "https://github.com/move-language",
+  "https://github.com/movefuns",
+]
 
 # Repositories
 [[repo]]
@@ -62,9 +71,11 @@ url = "https://github.com/kepler-homes/kepler-aptos-contract"
 
 [[repo]]
 url = "https://github.com/Kernel-Labs/novavm"
+missing = true
 
 [[repo]]
 url = "https://github.com/laminar-markets/flow"
+missing = true
 
 [[repo]]
 url = "https://github.com/LucCrypto/aptos-core"
@@ -104,6 +115,7 @@ url = "https://github.com/movefuns/highlightjs-move"
 
 [[repo]]
 url = "https://github.com/movefuns/move"
+missing = true
 
 [[repo]]
 url = "https://github.com/movefuns/move-by-example"

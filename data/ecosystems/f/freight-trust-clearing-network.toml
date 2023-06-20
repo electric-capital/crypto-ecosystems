@@ -3,7 +3,10 @@ title = "Freight Trust & Clearing Network"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/freight-chain", "https://github.com/freight-trust"]
+github_organizations = [
+  "https://github.com/freight-chain",
+  "https://github.com/freight-trust",
+]
 
 # Repositories
 [[repo]]
@@ -68,6 +71,7 @@ url = "https://github.com/freight-chain/besu-station-util"
 
 [[repo]]
 url = "https://github.com/freight-chain/besu-storage-redis"
+missing = true
 
 [[repo]]
 url = "https://github.com/freight-chain/besu-terraform"

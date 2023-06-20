@@ -3,7 +3,10 @@ title = "ErgoPad"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/ergo-pad", "https://github.com/ergopad"]
+github_organizations = [
+  "https://github.com/ergo-pad",
+  "https://github.com/ergopad",
+]
 
 # Repositories
 [[repo]]
@@ -95,6 +98,7 @@ url = "https://github.com/ergo-pad/paideia"
 
 [[repo]]
 url = "https://github.com/ergo-pad/paideia-api"
+missing = true
 
 [[repo]]
 url = "https://github.com/ergo-pad/paideia-backend"
@@ -107,6 +111,7 @@ url = "https://github.com/ergo-pad/paideia-data"
 
 [[repo]]
 url = "https://github.com/ergo-pad/paideia-frontend"
+missing = true
 
 [[repo]]
 url = "https://github.com/ergo-pad/paideia-offchain"

@@ -45,7 +45,10 @@ sub_ecosystems = [
   "ZK Treasury",
 ]
 
-github_organizations = ["https://github.com/ergoplatform", "https://github.com/ScorexFoundation"]
+github_organizations = [
+  "https://github.com/ergoplatform",
+  "https://github.com/ScorexFoundation",
+]
 
 # Repositories
 [[repo]]
@@ -129,6 +132,7 @@ url = "https://github.com/ergoplatform/ergo-node-interface-rust"
 
 [[repo]]
 url = "https://github.com/ergoplatform/ergo-p2p"
+missing = true
 
 [[repo]]
 url = "https://github.com/ergoplatform/ergo-playgrounds"

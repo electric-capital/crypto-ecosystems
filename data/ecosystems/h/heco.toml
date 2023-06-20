@@ -1,7 +1,11 @@
 # Ecosystem Level Information
 title = "HECO"
 
-sub_ecosystems = ["DAI Option", "Deri Protocol", "Trust Domains"]
+sub_ecosystems = [
+  "DAI Option",
+  "Deri Protocol",
+  "Trust Domains",
+]
 
 github_organizations = ["https://github.com/stars-labs"]
 
@@ -14,6 +18,7 @@ url = "https://github.com/stars-labs/blog-site"
 
 [[repo]]
 url = "https://github.com/stars-labs/encryption"
+missing = true
 
 [[repo]]
 url = "https://github.com/stars-labs/go-pvss"

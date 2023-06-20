@@ -3,7 +3,10 @@ title = "Akash Network"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/akash-network", "https://github.com/ovrclk"]
+github_organizations = [
+  "https://github.com/akash-network",
+  "https://github.com/ovrclk",
+]
 
 # Repositories
 [[repo]]
@@ -143,6 +146,7 @@ url = "https://github.com/ovrclk/akashlytics-deploy"
 
 [[repo]]
 url = "https://github.com/ovrclk/akcmd"
+missing = true
 
 [[repo]]
 url = "https://github.com/ovrclk/awesome-akash-1"
@@ -257,6 +261,7 @@ url = "https://github.com/ovrclk/Gravity-Docs"
 
 [[repo]]
 url = "https://github.com/ovrclk/helm"
+missing = true
 
 [[repo]]
 url = "https://github.com/ovrclk/helm-charts"
@@ -284,12 +289,14 @@ url = "https://github.com/ovrclk/k8s-inventory-operator"
 
 [[repo]]
 url = "https://github.com/ovrclk/k8s_inventory_operator"
+missing = true
 
 [[repo]]
 url = "https://github.com/ovrclk/kittycat-akash"
 
 [[repo]]
 url = "https://github.com/ovrclk/kubespray"
+missing = true
 
 [[repo]]
 url = "https://github.com/ovrclk/leaderboard-api"

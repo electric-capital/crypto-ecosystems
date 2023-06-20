@@ -3,7 +3,10 @@ title = "CertiK"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/certikfoundation", "https://github.com/CertiKProject"]
+github_organizations = [
+  "https://github.com/certikfoundation",
+  "https://github.com/CertiKProject",
+]
 
 # Repositories
 [[repo]]
@@ -38,6 +41,7 @@ url = "https://github.com/CertiKProject/ocaml-solidity"
 
 [[repo]]
 url = "https://github.com/CertiKProject/QuoteTools"
+missing = true
 
 [[repo]]
 url = "https://github.com/CertiKProject/shentu"
@@ -53,6 +57,7 @@ url = "https://github.com/CertiKProject/solc-select"
 
 [[repo]]
 url = "https://github.com/CertiKProject/SVS"
+missing = true
 
 [[repo]]
 url = "https://github.com/CertiKProject/SWC-registry"

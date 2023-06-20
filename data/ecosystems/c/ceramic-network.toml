@@ -3,7 +3,10 @@ title = "Ceramic Network"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/ceramicnetwork", "https://github.com/ceramicstudio"]
+github_organizations = [
+  "https://github.com/ceramicnetwork",
+  "https://github.com/ceramicstudio",
+]
 
 # Repositories
 [[repo]]
@@ -50,9 +53,11 @@ url = "https://github.com/ceramicnetwork/codeco"
 
 [[repo]]
 url = "https://github.com/ceramicnetwork/did-jwt"
+missing = true
 
 [[repo]]
 url = "https://github.com/ceramicnetwork/did-resolver"
+missing = true
 
 [[repo]]
 url = "https://github.com/ceramicnetwork/did-spec-registries"
@@ -74,6 +79,7 @@ url = "https://github.com/ceramicnetwork/go-dag-jose"
 
 [[repo]]
 url = "https://github.com/ceramicnetwork/go-ipfs"
+missing = true
 
 [[repo]]
 url = "https://github.com/ceramicnetwork/go-ipfs-daemon"
@@ -83,6 +89,7 @@ url = "https://github.com/ceramicnetwork/go-ipfs-healthcheck"
 
 [[repo]]
 url = "https://github.com/ceramicnetwork/go-ipld-prime"
+missing = true
 
 [[repo]]
 url = "https://github.com/ceramicnetwork/ipld"
@@ -149,6 +156,7 @@ url = "https://github.com/ceramicnetwork/peerlist"
 
 [[repo]]
 url = "https://github.com/ceramicnetwork/research"
+missing = true
 
 [[repo]]
 url = "https://github.com/ceramicnetwork/rust-dag-jose"
@@ -164,18 +172,21 @@ url = "https://github.com/ceramicnetwork/tipsync-poc"
 
 [[repo]]
 url = "https://github.com/ceramicstudio/3id-connect-management"
+missing = true
 
 [[repo]]
 url = "https://github.com/ceramicstudio/aragon-workshop"
 
 [[repo]]
 url = "https://github.com/ceramicstudio/awesome-services"
+missing = true
 
 [[repo]]
 url = "https://github.com/ceramicstudio/caip-js"
 
 [[repo]]
 url = "https://github.com/ceramicstudio/ceramic-explorer"
+missing = true
 
 [[repo]]
 url = "https://github.com/ceramicstudio/ceramic-infra-poc"

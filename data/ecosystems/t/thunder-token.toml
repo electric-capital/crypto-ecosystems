@@ -3,7 +3,10 @@ title = "Thunder Token"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/thundercore", "https://github.com/thundertoken"]
+github_organizations = [
+  "https://github.com/thundercore",
+  "https://github.com/thundertoken",
+]
 
 # Repositories
 [[repo]]
@@ -11,6 +14,7 @@ url = "https://github.com/thundercore/asciinema"
 
 [[repo]]
 url = "https://github.com/thundercore/assets"
+missing = true
 
 [[repo]]
 url = "https://github.com/thundercore/auction-template"
@@ -41,6 +45,7 @@ url = "https://github.com/thundercore/defillama-app"
 
 [[repo]]
 url = "https://github.com/thundercore/defillama-sdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/thundercore/defillama_icons"
@@ -86,6 +91,7 @@ url = "https://github.com/thundercore/ganache-core"
 
 [[repo]]
 url = "https://github.com/thundercore/hardhat-safe-wrapper"
+missing = true
 
 [[repo]]
 url = "https://github.com/thundercore/hubbit-field-support"
@@ -125,6 +131,7 @@ url = "https://github.com/thundercore/openzeppelin-upgrades"
 
 [[repo]]
 url = "https://github.com/thundercore/pala"
+missing = true
 
 [[repo]]
 url = "https://github.com/thundercore/pala-poc"
@@ -254,3 +261,4 @@ url = "https://github.com/thundercore/wtt"
 
 [[repo]]
 url = "https://github.com/thundertoken/dapp-tutorial"
+missing = true

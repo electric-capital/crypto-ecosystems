@@ -3,7 +3,10 @@ title = "Open Source Cryptography"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/dalek-cryptography", "https://github.com/gpg"]
+github_organizations = [
+  "https://github.com/dalek-cryptography",
+  "https://github.com/gpg",
+]
 
 # Repositories
 [[repo]]
@@ -13,6 +16,7 @@ tags = ["Library"]
 [[repo]]
 url = "https://github.com/adjoint-io/uplink"
 tags = ["Developer Tool"]
+missing = true
 
 [[repo]]
 url = "https://github.com/AleoHQ/wagyu"
@@ -258,6 +262,7 @@ url = "https://github.com/iqlusioninc/sear"
 
 [[repo]]
 url = "https://github.com/iqlusioninc/signatory"
+missing = true
 
 [[repo]]
 url = "https://github.com/iqlusioninc/veriform"

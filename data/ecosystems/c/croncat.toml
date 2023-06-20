@@ -3,7 +3,10 @@ title = "CronCat"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Cron-Near", "https://github.com/CronCats"]
+github_organizations = [
+  "https://github.com/Cron-Near",
+  "https://github.com/CronCats",
+]
 
 # Repositories
 [[repo]]
@@ -20,6 +23,7 @@ url = "https://github.com/CronCats/branding"
 
 [[repo]]
 url = "https://github.com/CronCats/catgrass-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/CronCats/chain-registry"
@@ -101,6 +105,7 @@ url = "https://github.com/CronCats/recipes"
 
 [[repo]]
 url = "https://github.com/CronCats/rpc-api"
+missing = true
 
 [[repo]]
 url = "https://github.com/CronCats/Schedule"

@@ -1,8 +1,14 @@
+# Ecosystem Level Information
 title = "MR Research AG"
+
 sub_ecosystems = []
+
 github_organizations = ["https://github.com/research-ag"]
+
+# Repositories
 [[repo]]
 url = "https://github.com/research-ag/hpl"
+missing = true
 
 [[repo]]
 url = "https://github.com/research-ag/motoko-lib"
@@ -12,4 +18,3 @@ url = "https://github.com/research-ag/canister-profiling"
 
 [[repo]]
 url = "https://github.com/research-ag/hpl-stats"
-

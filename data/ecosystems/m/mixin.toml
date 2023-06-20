@@ -3,11 +3,15 @@ title = "Mixin"
 
 sub_ecosystems = ["Pando"]
 
-github_organizations = ["https://github.com/MixinMessenger", "https://github.com/MixinNetwork"]
+github_organizations = [
+  "https://github.com/MixinMessenger",
+  "https://github.com/MixinNetwork",
+]
 
 # Repositories
 [[repo]]
 url = "https://github.com/MixinMessenger/curve"
+missing = true
 
 [[repo]]
 url = "https://github.com/MixinNetwork/android-app"
@@ -95,6 +99,7 @@ url = "https://github.com/MixinNetwork/help.mvm.app"
 
 [[repo]]
 url = "https://github.com/MixinNetwork/homebrew-tap"
+missing = true
 
 [[repo]]
 url = "https://github.com/MixinNetwork/ios-app"
@@ -104,6 +109,7 @@ url = "https://github.com/MixinNetwork/jjwt"
 
 [[repo]]
 url = "https://github.com/MixinNetwork/jsonwebtoken"
+missing = true
 
 [[repo]]
 url = "https://github.com/MixinNetwork/jubjub"

@@ -11,7 +11,10 @@ sub_ecosystems = [
   "PeerMeHQ",
 ]
 
-github_organizations = ["https://github.com/ElrondNetwork", "https://github.com/multiversx"]
+github_organizations = [
+  "https://github.com/ElrondNetwork",
+  "https://github.com/multiversx",
+]
 
 # Repositories
 [[repo]]
@@ -28,9 +31,11 @@ url = "https://github.com/acolyte-xyz/multiversx_sdk"
 
 [[repo]]
 url = "https://github.com/adrianlari/the-bucharest-hackathon"
+missing = true
 
 [[repo]]
 url = "https://github.com/andrei-diaconescu/MyRepo"
+missing = true
 
 [[repo]]
 url = "https://github.com/andreigiura/ngx-sdk-dapp"
@@ -49,6 +54,7 @@ url = "https://github.com/ashswap/ash-interface"
 
 [[repo]]
 url = "https://github.com/ashswap/faucet"
+missing = true
 
 [[repo]]
 url = "https://github.com/AtlanticBridge/brandywine-bridge"
@@ -172,132 +178,174 @@ url = "https://github.com/elrondex/elrondex"
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/apidiff"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/dapp"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/dapp-utils"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-bsc-bridge"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-config"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-config-testing"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-go-node-debug"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-go-p2p-1"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-go-scripts"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-go-scripts-devnet-old"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-go-scripts-mainnet-old"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-go-scripts-testnet-old"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-go-scripts-v2"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-go-testing"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-sdk-docs"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-sdk-images"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/elrond-vm-util"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/evmc"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/express-api"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/go-nat"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/hera"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/logolas"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/mandos-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/procmaplogger"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/react-native-keychain"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/rosetta-cli"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/rosetta-sdk-go"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/samwise"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/sc-bridge-ethereum-sol-backup"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/sc-ethereum-bridge"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/sc-examples-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/sc-launchpad-rs"
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/slips"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/statistics-go"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/test-release"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/Test01"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/Test02-renamed"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/testingarelrond"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/tokens"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/tokens-info"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/vscode-elrond-rust"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/walletconnect-monorepo"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElrondNetwork/web3.js"
+missing = true
 
 [[repo]]
 url = "https://github.com/ElvenTools/elven-nft-minter-sc"
@@ -331,6 +379,7 @@ url = "https://github.com/estargames/sale"
 
 [[repo]]
 url = "https://github.com/estargames/server_dev"
+missing = true
 
 [[repo]]
 url = "https://github.com/estargames/swap"
@@ -406,6 +455,7 @@ url = "https://github.com/Itheum/data-dex"
 
 [[repo]]
 url = "https://github.com/Itheum/itheumcore-elrond-data-nft-minter"
+missing = true
 
 [[repo]]
 url = "https://github.com/Itheum/itheumcore-elrond-sc-claims"
@@ -427,9 +477,11 @@ url = "https://github.com/jasonwartell/esdt-operations"
 
 [[repo]]
 url = "https://github.com/jimmylies/archillect-dapp"
+missing = true
 
 [[repo]]
 url = "https://github.com/jimmylies/archillect-sc"
+missing = true
 
 [[repo]]
 url = "https://github.com/jokeru/lockedmex-exchange-lkmex-rates"
@@ -1203,6 +1255,7 @@ url = "https://github.com/ReneDuris/Utils-erdjs"
 
 [[repo]]
 url = "https://github.com/Rock-n-Block/ArtCPA-frontend"
+missing = true
 
 [[repo]]
 url = "https://github.com/rstancioiu/elrond-voting"
@@ -1233,6 +1286,7 @@ url = "https://github.com/SkyzoxRobin/sc-multisig-wallet-rs"
 
 [[repo]]
 url = "https://github.com/SkyzoxRobin/sc-presale-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/SkyzoxRobin/sc-split-rs"
@@ -1254,6 +1308,7 @@ url = "https://github.com/Superciety/assets"
 
 [[repo]]
 url = "https://github.com/Superciety/distribution-sc"
+missing = true
 
 [[repo]]
 url = "https://github.com/Superciety/elrond-sdk-laravel"
@@ -1269,9 +1324,11 @@ url = "https://github.com/Superciety/know"
 
 [[repo]]
 url = "https://github.com/Superciety/pwa-core-library"
+missing = true
 
 [[repo]]
 url = "https://github.com/tgima1/elrond-gift-card-website"
+missing = true
 
 [[repo]]
 url = "https://github.com/tgima1/elrond-qrcode-generator"

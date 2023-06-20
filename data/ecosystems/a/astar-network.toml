@@ -1,9 +1,17 @@
 # Ecosystem Level Information
 title = "Astar Network"
 
-sub_ecosystems = ["Artzero", "SiO2", "Starfish Finance", "Starlay Finance"]
+sub_ecosystems = [
+  "Artzero",
+  "SiO2",
+  "Starfish Finance",
+  "Starlay Finance",
+]
 
-github_organizations = ["https://github.com/AstarNetwork", "https://github.com/PlasmNetwork"]
+github_organizations = [
+  "https://github.com/AstarNetwork",
+  "https://github.com/PlasmNetwork",
+]
 
 # Repositories
 [[repo]]
@@ -32,6 +40,7 @@ url = "https://github.com/AstarNetwork/astar-docs"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/astar-docs-staging"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/astar-evm-example"
@@ -62,6 +71,7 @@ url = "https://github.com/AstarNetwork/AstarBounties"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/AstarWebPage_V2"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/astarwebsite_v2"
@@ -302,6 +312,7 @@ url = "https://github.com/AstarNetwork/safe-eth-py"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/safe-infrastructure-devops"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/safe-react"
@@ -371,6 +382,7 @@ url = "https://github.com/AstarNetwork/wasm-flipper"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/WASM-Governor-Workshop"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/wasm-lottery"
@@ -392,6 +404,8 @@ url = "https://github.com/hoonsubin/astar-xcm-tools"
 
 [[repo]]
 url = "https://github.com/perpdex/perpdex-lite"
+missing = true
 
 [[repo]]
 url = "https://github.com/PlasmNetwork/defillama-app"
+missing = true

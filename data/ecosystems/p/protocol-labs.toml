@@ -21,7 +21,10 @@ sub_ecosystems = [
   "Valist",
 ]
 
-github_organizations = ["https://github.com/filedrive-team", "https://github.com/protocol"]
+github_organizations = [
+  "https://github.com/filedrive-team",
+  "https://github.com/protocol",
+]
 
 # Repositories
 [[repo]]
@@ -284,6 +287,7 @@ url = "https://github.com/protocol/launchpad-website"
 
 [[repo]]
 url = "https://github.com/protocol/moonlanding"
+missing = true
 
 [[repo]]
 url = "https://github.com/protocol/multiple-go-modules"
@@ -311,6 +315,7 @@ url = "https://github.com/protocol/probelab"
 
 [[repo]]
 url = "https://github.com/protocol/probelab-infra"
+missing = true
 
 [[repo]]
 url = "https://github.com/protocol/prodeng"

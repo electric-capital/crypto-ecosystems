@@ -3,14 +3,19 @@ title = "Elk Finance"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/elkfinance", "https://github.com/elkrem"]
+github_organizations = [
+  "https://github.com/elkfinance",
+  "https://github.com/elkrem",
+]
 
 # Repositories
 [[repo]]
 url = "https://github.com/elkfinance/avax-bridge-tokens"
+missing = true
 
 [[repo]]
 url = "https://github.com/elkfinance/avax-tokenlists"
+missing = true
 
 [[repo]]
 url = "https://github.com/elkfinance/brand-assets"
@@ -29,18 +34,21 @@ url = "https://github.com/elkfinance/graph-node"
 
 [[repo]]
 url = "https://github.com/elkfinance/liquidity-scores"
+missing = true
 
 [[repo]]
 url = "https://github.com/elkfinance/nginx-certbot"
 
 [[repo]]
 url = "https://github.com/elkfinance/okex-subgraph"
+missing = true
 
 [[repo]]
 url = "https://github.com/elkfinance/rewards"
 
 [[repo]]
 url = "https://github.com/elkfinance/tokenlists"
+missing = true
 
 [[repo]]
 url = "https://github.com/elkfinance/tokens"
@@ -50,6 +58,7 @@ url = "https://github.com/elkfinance/xion_smart-contracts-bugfix"
 
 [[repo]]
 url = "https://github.com/elkfinance/XionTesting"
+missing = true
 
 [[repo]]
 url = "https://github.com/elkrem/elk-hardware"

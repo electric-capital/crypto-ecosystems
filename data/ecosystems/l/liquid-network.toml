@@ -1,16 +1,23 @@
 # Ecosystem Level Information
 title = "Liquid Network"
 
-sub_ecosystems = ["Fuji Money", "liquidnft", "TDEX Network", "Token Ocean"]
+sub_ecosystems = [
+  "Fuji Money",
+  "liquidnft",
+  "TDEX Network",
+  "Token Ocean",
+]
 
 github_organizations = []
 
 # Repositories
 [[repo]]
 url = "https://github.com/allenpiscitello/liquid-assets"
+missing = true
 
 [[repo]]
 url = "https://github.com/allenpiscitello/liquid-options.github.io"
+missing = true
 
 [[repo]]
 url = "https://github.com/andreabonel/java-elements-rpc-client"

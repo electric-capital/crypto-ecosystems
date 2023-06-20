@@ -3,7 +3,10 @@ title = "CoMakery"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/comakery", "https://github.com/CoMakery"]
+github_organizations = [
+  "https://github.com/comakery",
+  "https://github.com/CoMakery",
+]
 
 # Repositories
 [[repo]]
@@ -53,6 +56,7 @@ url = "https://github.com/CoMakery/eslint-config-comakery"
 
 [[repo]]
 url = "https://github.com/CoMakery/ethereum.rb"
+missing = true
 
 [[repo]]
 url = "https://github.com/CoMakery/fission-codes"

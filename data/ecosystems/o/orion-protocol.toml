@@ -3,7 +3,10 @@ title = "Orion Protocol"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/orionprotocol", "https://github.com/orionterra"]
+github_organizations = [
+  "https://github.com/orionprotocol",
+  "https://github.com/orionterra",
+]
 
 # Repositories
 [[repo]]
@@ -20,9 +23,11 @@ url = "https://github.com/orionprotocol/orion-atomic"
 
 [[repo]]
 url = "https://github.com/orionprotocol/orion-backend"
+missing = true
 
 [[repo]]
 url = "https://github.com/orionprotocol/orion-blockchain"
+missing = true
 
 [[repo]]
 url = "https://github.com/orionprotocol/orion-broker"
@@ -62,15 +67,18 @@ url = "https://github.com/orionprotocol/orion-site"
 
 [[repo]]
 url = "https://github.com/orionprotocol/orion-ui-kit"
+missing = true
 
 [[repo]]
 url = "https://github.com/orionprotocol/orion-wanchain"
+missing = true
 
 [[repo]]
 url = "https://github.com/orionprotocol/orn-liquidity-mining-ui"
 
 [[repo]]
 url = "https://github.com/orionprotocol/price-feed"
+missing = true
 
 [[repo]]
 url = "https://github.com/orionprotocol/price-feed-go"
@@ -113,9 +121,12 @@ url = "https://github.com/orionterra/genesis-tools"
 
 [[repo]]
 url = "https://github.com/orionterra/rpc-proxy"
+missing = true
 
 [[repo]]
 url = "https://github.com/orionterra/terra-money-assets"
+missing = true
 
 [[repo]]
 url = "https://github.com/orionterra/validator-profiles"
+missing = true

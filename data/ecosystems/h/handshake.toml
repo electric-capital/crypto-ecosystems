@@ -3,7 +3,10 @@ title = "Handshake"
 
 sub_ecosystems = ["Namebase"]
 
-github_organizations = ["https://github.com/handshake-org", "https://github.com/HandshakeAlliance"]
+github_organizations = [
+  "https://github.com/handshake-org",
+  "https://github.com/HandshakeAlliance",
+]
 
 # Repositories
 [[repo]]
@@ -14,6 +17,7 @@ url = "https://github.com/handshake-org/bcuckoo"
 
 [[repo]]
 url = "https://github.com/handshake-org/blog"
+missing = true
 
 [[repo]]
 url = "https://github.com/handshake-org/bns"
@@ -32,6 +36,7 @@ url = "https://github.com/handshake-org/handshake-web"
 
 [[repo]]
 url = "https://github.com/handshake-org/HandshakeWebsite"
+missing = true
 
 [[repo]]
 url = "https://github.com/handshake-org/hdns"
@@ -95,9 +100,11 @@ url = "https://github.com/HandshakeAlliance/handshakealliance.org"
 
 [[repo]]
 url = "https://github.com/HandshakeAlliance/HandyMiner-CLI"
+missing = true
 
 [[repo]]
 url = "https://github.com/HandshakeAlliance/HandyMiner-GUI"
+missing = true
 
 [[repo]]
 url = "https://github.com/HandshakeAlliance/hindexer"
@@ -107,6 +114,7 @@ url = "https://github.com/HandshakeAlliance/hs-client-go"
 
 [[repo]]
 url = "https://github.com/HandshakeAlliance/hsd"
+missing = true
 
 [[repo]]
 url = "https://github.com/HandshakeAlliance/hstratum"

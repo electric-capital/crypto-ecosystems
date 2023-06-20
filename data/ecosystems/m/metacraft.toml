@@ -3,7 +3,10 @@ title = "Metacraft"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/cocrafts", "https://github.com/Metacraft-Team"]
+github_organizations = [
+  "https://github.com/cocrafts",
+  "https://github.com/Metacraft-Team",
+]
 
 # Repositories
 [[repo]]
@@ -23,6 +26,7 @@ url = "https://github.com/cocrafts/kernel"
 
 [[repo]]
 url = "https://github.com/cocrafts/mallet"
+missing = true
 
 [[repo]]
 url = "https://github.com/cocrafts/marketplace"

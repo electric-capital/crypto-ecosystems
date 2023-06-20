@@ -3,7 +3,10 @@ title = "Autonomy Network"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Autonomy-Network", "https://github.com/AutonomyNetwork"]
+github_organizations = [
+  "https://github.com/Autonomy-Network",
+  "https://github.com/AutonomyNetwork",
+]
 
 # Repositories
 [[repo]]
@@ -17,9 +20,11 @@ url = "https://github.com/Autonomy-Network/astroport-subquery"
 
 [[repo]]
 url = "https://github.com/Autonomy-Network/Auto-Hedge"
+missing = true
 
 [[repo]]
 url = "https://github.com/Autonomy-Network/AutoHedge"
+missing = true
 
 [[repo]]
 url = "https://github.com/Autonomy-Network/autonomy-contracts"

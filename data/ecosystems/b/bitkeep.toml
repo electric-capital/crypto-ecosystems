@@ -3,29 +3,39 @@ title = "Bitkeep"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/bitkeepcom", "https://github.com/bitkeepwallet"]
+github_organizations = [
+  "https://github.com/bitkeepcom",
+  "https://github.com/bitkeepwallet",
+]
 
 # Repositories
 [[repo]]
 url = "https://github.com/bitkeepcom/docs"
+missing = true
 
 [[repo]]
 url = "https://github.com/bitkeepcom/docs-site"
+missing = true
 
 [[repo]]
 url = "https://github.com/bitkeepcom/download"
+missing = true
 
 [[repo]]
 url = "https://github.com/bitkeepcom/ecosystem"
+missing = true
 
 [[repo]]
 url = "https://github.com/bitkeepcom/General-Grants-Program"
+missing = true
 
 [[repo]]
 url = "https://github.com/bitkeepcom/wallet-provider"
+missing = true
 
 [[repo]]
 url = "https://github.com/bitkeepcom/walletconnect-monorepo"
+missing = true
 
 [[repo]]
 url = "https://github.com/bitkeepwallet/aptos-wallet-adapter"

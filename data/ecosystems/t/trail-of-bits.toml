@@ -3,7 +3,10 @@ title = "Trail of Bits"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/crytic", "https://github.com/trailofbits"]
+github_organizations = [
+  "https://github.com/crytic",
+  "https://github.com/trailofbits",
+]
 
 # Repositories
 [[repo]]
@@ -35,9 +38,11 @@ url = "https://github.com/crytic/crytic-compile"
 
 [[repo]]
 url = "https://github.com/crytic/crytic-demo"
+missing = true
 
 [[repo]]
 url = "https://github.com/crytic/crytic-support"
+missing = true
 
 [[repo]]
 url = "https://github.com/crytic/damn-vulnerable-defi-echidna"
@@ -68,6 +73,7 @@ url = "https://github.com/crytic/embark-contract-info"
 
 [[repo]]
 url = "https://github.com/crytic/ethcc-demo"
+missing = true
 
 [[repo]]
 url = "https://github.com/crytic/etheno"
@@ -197,6 +203,7 @@ url = "https://github.com/trailofbits/ASanBench"
 
 [[repo]]
 url = "https://github.com/trailofbits/attribution-vm"
+missing = true
 
 [[repo]]
 url = "https://github.com/trailofbits/audit-kubernetes"
@@ -245,6 +252,7 @@ url = "https://github.com/trailofbits/circomspect"
 
 [[repo]]
 url = "https://github.com/trailofbits/circuitous-benchmarks"
+missing = true
 
 [[repo]]
 url = "https://github.com/trailofbits/clang-cfi-showcase"
@@ -266,6 +274,7 @@ url = "https://github.com/trailofbits/cookiecutter-python"
 
 [[repo]]
 url = "https://github.com/trailofbits/crytic-demo"
+missing = true
 
 [[repo]]
 url = "https://github.com/trailofbits/ctf"
@@ -416,6 +425,7 @@ url = "https://github.com/trailofbits/manticore-examples"
 
 [[repo]]
 url = "https://github.com/trailofbits/manticore-roadmap"
+missing = true
 
 [[repo]]
 url = "https://github.com/trailofbits/ManticoreUI"
@@ -425,6 +435,7 @@ url = "https://github.com/trailofbits/ManticoreUI-Ghidra"
 
 [[repo]]
 url = "https://github.com/trailofbits/masala"
+missing = true
 
 [[repo]]
 url = "https://github.com/trailofbits/mc-ansible"
@@ -590,6 +601,7 @@ url = "https://github.com/trailofbits/sixtyfour"
 
 [[repo]]
 url = "https://github.com/trailofbits/slither-cloud-action"
+missing = true
 
 [[repo]]
 url = "https://github.com/trailofbits/spf-query"
@@ -647,6 +659,7 @@ url = "https://github.com/trailofbits/verilog_tools"
 
 [[repo]]
 url = "https://github.com/trailofbits/vspells-smt-benchmarks"
+missing = true
 
 [[repo]]
 url = "https://github.com/trailofbits/wasm-tob"
@@ -668,6 +681,7 @@ url = "https://github.com/trailofbits/windows-ctl"
 
 [[repo]]
 url = "https://github.com/trailofbits/WoSCA"
+missing = true
 
 [[repo]]
 url = "https://github.com/trailofbits/x509-limbo"

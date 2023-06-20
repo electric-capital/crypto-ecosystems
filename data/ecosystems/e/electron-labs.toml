@@ -3,14 +3,19 @@ title = "Electron Labs"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Atom-Labs-one", "https://github.com/Electron-Labs"]
+github_organizations = [
+  "https://github.com/Atom-Labs-one",
+  "https://github.com/Electron-Labs",
+]
 
 # Repositories
 [[repo]]
 url = "https://github.com/Atom-Labs-one/electron-pay-website"
+missing = true
 
 [[repo]]
 url = "https://github.com/Atom-Labs-one/learningSolidity"
+missing = true
 
 [[repo]]
 url = "https://github.com/Electron-Labs/aes-circom"
@@ -20,15 +25,18 @@ url = "https://github.com/Electron-Labs/algebra"
 
 [[repo]]
 url = "https://github.com/Electron-Labs/appchain"
+missing = true
 
 [[repo]]
 url = "https://github.com/Electron-Labs/bn"
 
 [[repo]]
 url = "https://github.com/Electron-Labs/bridge-frontend"
+missing = true
 
 [[repo]]
 url = "https://github.com/Electron-Labs/bridge-relayer"
+missing = true
 
 [[repo]]
 url = "https://github.com/Electron-Labs/bsol"
@@ -74,6 +82,7 @@ url = "https://github.com/Electron-Labs/lodestar-quickstart"
 
 [[repo]]
 url = "https://github.com/Electron-Labs/near-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/Electron-Labs/near-light-client-go"
@@ -98,6 +107,7 @@ url = "https://github.com/Electron-Labs/sha512"
 
 [[repo]]
 url = "https://github.com/Electron-Labs/solana-circom"
+missing = true
 
 [[repo]]
 url = "https://github.com/Electron-Labs/tendermint-sol"

@@ -1,7 +1,10 @@
 # Ecosystem Level Information
 title = "KuCoin Shares"
 
-sub_ecosystems = ["Mojito Finance", "sKCS"]
+sub_ecosystems = [
+  "Mojito Finance",
+  "sKCS",
+]
 
 github_organizations = ["https://github.com/Kucoin"]
 
@@ -41,6 +44,7 @@ url = "https://github.com/Kucoin/kucoin-futures-python-sdk"
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-go-level3-demo"
+missing = true
 
 [[repo]]
 url = "https://github.com/Kucoin/kucoin-go-sdk"
@@ -83,3 +87,4 @@ url = "https://github.com/Kucoin/kumex-python-sdk"
 
 [[repo]]
 url = "https://github.com/Kucoin/python-kucoin"
+missing = true

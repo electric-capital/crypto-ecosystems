@@ -1,9 +1,15 @@
 # Ecosystem Level Information
 title = "Boba (OMG Network)"
 
-sub_ecosystems = ["Across Protocol", "OoolongSwap"]
+sub_ecosystems = [
+  "Across Protocol",
+  "OoolongSwap",
+]
 
-github_organizations = ["https://github.com/bobanetwork", "https://github.com/omgnetwork"]
+github_organizations = [
+  "https://github.com/bobanetwork",
+  "https://github.com/omgnetwork",
+]
 
 # Repositories
 [[repo]]
@@ -425,6 +431,7 @@ url = "https://github.com/omgnetwork/ruby-sdk"
 
 [[repo]]
 url = "https://github.com/omgnetwork/safe-client-gateway"
+missing = true
 
 [[repo]]
 url = "https://github.com/omgnetwork/safe-config-service"
@@ -434,6 +441,7 @@ url = "https://github.com/omgnetwork/safe-contracts"
 
 [[repo]]
 url = "https://github.com/omgnetwork/safe-deployments"
+missing = true
 
 [[repo]]
 url = "https://github.com/omgnetwork/safe-gnosis"
@@ -443,6 +451,7 @@ url = "https://github.com/omgnetwork/safe-react"
 
 [[repo]]
 url = "https://github.com/omgnetwork/safe-transaction-service"
+missing = true
 
 [[repo]]
 url = "https://github.com/omgnetwork/salty"

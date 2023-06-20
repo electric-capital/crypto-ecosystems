@@ -3,7 +3,10 @@ title = "dYdX"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/dydxfoundation", "https://github.com/dydxprotocol"]
+github_organizations = [
+  "https://github.com/dydxfoundation",
+  "https://github.com/dydxprotocol",
+]
 
 # Repositories
 [[repo]]
@@ -23,6 +26,7 @@ url = "https://github.com/dydxfoundation/pnyx"
 
 [[repo]]
 url = "https://github.com/dydxprotocol/abi-decoder"
+missing = true
 
 [[repo]]
 url = "https://github.com/dydxprotocol/actions-public"
@@ -44,6 +48,7 @@ url = "https://github.com/dydxprotocol/create-or-update-comment"
 
 [[repo]]
 url = "https://github.com/dydxprotocol/docs"
+missing = true
 
 [[repo]]
 url = "https://github.com/dydxprotocol/dydx-python"
@@ -83,6 +88,7 @@ url = "https://github.com/dydxprotocol/liquidator"
 
 [[repo]]
 url = "https://github.com/dydxprotocol/mexa-sdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/dydxprotocol/node-service-base-dev"

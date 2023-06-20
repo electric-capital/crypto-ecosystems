@@ -3,7 +3,10 @@ title = "Arcade.xyz"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/arcadexyz", "https://github.com/PawnFi"]
+github_organizations = [
+  "https://github.com/arcadexyz",
+  "https://github.com/PawnFi",
+]
 
 # Repositories
 [[repo]]
@@ -41,12 +44,14 @@ url = "https://github.com/PawnFi/ApeStaking"
 
 [[repo]]
 url = "https://github.com/PawnFi/DAO"
+missing = true
 
 [[repo]]
 url = "https://github.com/PawnFi/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/PawnFi/elsxToJson"
+missing = true
 
 [[repo]]
 url = "https://github.com/PawnFi/Lending"

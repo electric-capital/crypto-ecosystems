@@ -1,12 +1,16 @@
 # Ecosystem Level Information
 title = "Rootstock"
 
-sub_ecosystems = ["RskSwap"]
+sub_ecosystems = ["RskSwap",
+  "RIF Token",
+  "Money on Chain"
+]
 
 github_organizations = [
   "https://github.com/riflabs",
   "https://github.com/rnsdomains",
   "https://github.com/rsksmart",
+  "https://github.com/rootstock"
 ]
 
 # Repositories
@@ -906,3 +910,10 @@ url = "https://github.com/rsksmart/whitelist-disabler"
 
 [[repo]]
 url = "https://github.com/rsksmart/xray-automation"
+
+[[repo]]
+url = "https://github.com/rootstock/boltz-backend"
+
+[[repo]]
+url = "https://github.com/rootstock/boltz-core"
+

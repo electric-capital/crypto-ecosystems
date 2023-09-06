@@ -114,13 +114,12 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<EcosystemMap> {
 
 fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
     let mut errors = vec![];
+    let mut repo_set = HashSet::new();
+    let mut tagmap: HashMap<String, u32> = HashMap::new();
+    let mut missing_count = 0;
 
     for ecosystem in ecosystem_map.values() {
         let mut seen_repos = HashSet::new();
-
-        let mut tagmap: HashMap<String, u32> = HashMap::new();
-        let mut repo_set = HashSet::new();
-        let mut missing_count = 0;
 
         if let Some(ref sub_ecosystems) = ecosystem.sub_ecosystems {
             for sub in sub_ecosystems {
@@ -154,18 +153,18 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
                 }
             }
         }
+    }
 
-        if errors.len() == 0 {
-            println!(
-                "Validated {} ecosystems and {} repos ({} missing)",
-                ecosystem_map.len(),
-                repo_set.len(),
-                missing_count,
-            );
-            println!("\nTags");
-            for (tag, count) in tagmap {
-                println!("\t{}: {}", tag, count);
-            }
+    if errors.len() == 0 {
+        println!(
+            "Validated {} ecosystems and {} repos ({} missing)",
+            ecosystem_map.len(),
+            repo_set.len(),
+            missing_count,
+        );
+        println!("\nTags");
+        for (tag, count) in tagmap {
+            println!("\t{}: {}", tag, count);
         }
     }
 

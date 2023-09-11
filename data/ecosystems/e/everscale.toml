@@ -1,20 +1,96 @@
 # Ecosystem Level Information
 title = "Everscale"
 
-sub_ecosystems = []
+sub_ecosystems = [
+ "Flatqube",
+ "Gosh",
+ "Octusbridge",
+ "Venom",
+]
 
 github_organizations = [
   "https://github.com/broxus",
   "https://github.com/everscale-org",
-  "https://github.com/INTONNATION",
-  "https://github.com/nilfoundation",
   "https://github.com/NilFoundation",
   "https://github.com/radianceteam",
   "https://github.com/RSquad",
   "https://github.com/tonlabs",
+  "https://github.com/everscale-contest",
 ]
 
 # Repositories
+[[repo]]
+url = "https://github.com/mazekine/crazy-portals-contracts"
+tags = ["Dapp"]
+
+[[repo]]
+url = "https://github.com/itgoldio/everscale-tip"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://github.com/itgoldio/everscale-tip-samples"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://github.com/itgoldio/everscale-nft-helper"
+tags = ["NFT"]
+
+[[repo]]
+url = "https://github.com/INTONNATION/SubscriptionManager"
+tags = ["DevOps"]
+
+[[repo]]
+url = "https://github.com/itgoldio/everscale-dapp-server"
+tags = ["DevOps"]
+
+[[repo]]
+url = "https://github.com/itgoldio/everscale-validator"
+tags = ["DevOps"]
+
+[[repo]]
+url = "https://github.com/web3sp/inpage-provider-playground"
+
+[[repo]]
+url = "https://github.com/web3sp/venom-connect"
+
+[[repo]]
+url = "https://github.com/Custler/main.evs.dev"
+tags = ["DevOps"]
+
+[[repo]]
+url = "https://github.com/Custler/ever-node-tools"
+tags = ["DevOps"]
+
+[[repo]]
+url = "https://github.com/Custler/node-info-contract"
+tags = ["DevOps"]
+
+[[repo]]
+url = "https://github.com/ever-guild/everscale-tutor-web"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://github.com/ever-guild/debot"
+tags = ["Documentation", "SDK"]
+
+[[repo]]
+url = "https://github.com/unboxedtype/light"
+tags = ["Developer Tools", "Language"]
+
+[[repo]]
+url = "https://github.com/ever-guild/debot-browser"
+
+[[repo]]
+url = "https://github.com/ever-guild/everscale-random"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://github.com/ever-guild/locklift-sample"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://github.com/vp-mazekine/EverCraft"
+
 [[repo]]
 url = "https://github.com/airalab/freeton-robonomics_contracts"
 
@@ -164,21 +240,27 @@ url = "https://github.com/broxus/failover"
 
 [[repo]]
 url = "https://github.com/broxus/flatqube-assets"
+tags = ["Flatqube", "DeFi"]
 
 [[repo]]
 url = "https://github.com/broxus/flatqube-contracts"
+tags = ["Flatqube", "DeFi"]
 
 [[repo]]
 url = "https://github.com/broxus/flatqube-dao-contracts"
+tags = ["Flatqube", "DeFi"]
 
 [[repo]]
 url = "https://github.com/broxus/flatqube-docs"
+tags = ["Flatqube", "Documentation"]
 
 [[repo]]
 url = "https://github.com/broxus/flatqube-frontend"
+tags = ["Flatqube", "DeFi"]
 
 [[repo]]
 url = "https://github.com/broxus/flatqube-pair"
+tags = ["Flatqube", "DeFi"]
 
 [[repo]]
 url = "https://github.com/broxus/fs-dkr"
@@ -563,120 +645,158 @@ url = "https://github.com/everscale-org/distdb-bench"
 
 [[repo]]
 url = "https://github.com/everscale-org/docs"
+tags = ["Documentation"]
 
 [[repo]]
 url = "https://github.com/everscale-org/everscale-org.github.io"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/fitness"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/flat-tree"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/freeton-dens"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/freeton-infra"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/freeton-rtdb-research"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/freeton-timer"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/freeton_scheduler"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/FreeTON_timer"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/FreeTonTimerContract"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/FTC-DeNS"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/hyperbee"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/hyperspace"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/izzzio"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/job"
 
 [[repo]]
 url = "https://github.com/everscale-org/php-ton-client"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/PingPongTimerContract"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/readme"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/site"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/slips"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ticktimer"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/TickTockContract"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-aloof-timer"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-client-dotnet"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-client-go"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-client-go-1"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-client-java"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-client-kotlin"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-client-php"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-client-py"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-client-ruby"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-client-scala"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-client-swift"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-client-ts"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/TON-DeNS"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-eth-bridge-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-eth-bridge-relay"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-eth-bridge-token-contracts"
@@ -684,30 +804,39 @@ missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/TON-OS-DApp-Server-deploy"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/TON-OS-DApp-Server-k8s"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-sdk-client-scala-binding"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-swap"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton-testing-suite"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/Ton.Sdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/ton_client_dart"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/TonSdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/everscale-org/tonswap-frontend"
+missing = true
 
 [[repo]]
 url = "https://github.com/extcrystalix/crystalix-extention"

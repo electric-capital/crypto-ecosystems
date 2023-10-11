@@ -7,7 +7,11 @@ sub_ecosystems = [
   "Elk Finance",
   "Filda",
   "ForTube",
+  "iopay",
+  "iotubeproject",
+  "M3tering Protocol",
   "Magic Land",
+  "machinefi",
   "Mimo Defi",
   "Parrot DeFi",
   "StarCrazy",
@@ -18,17 +22,27 @@ sub_ecosystems = [
 ]
 
 github_organizations = [
-  "https://github.com/iotexproject",
-  "https://github.com/iotubeproject",
-  "https://github.com/machinefi",
+  "https://github.com/iotexproject"
 ]
 
 # Repositories
 [[repo]]
-url = "https://github.com/iopay/iopay-integration-example"
+url = "https://github.com/iotexproject/.github"
 
 [[repo]]
-url = "https://github.com/iotexproject/.github"
+url = "https://github.com/iotexproject/zkp-wallet-ui"
+
+[[repo]]
+url = "https://github.com/iotexproject/zkp-wallet-contracts"
+
+[[repo]]
+url = "https://github.com/iotexproject/zkp-wallet-circuits"
+
+[[repo]]
+url = "https://github.com/iotexproject/account-abstraction-contracts"
+
+[[repo]]
+url = "https://github.com/iotexproject/account-abstraction-paymaster"
 
 [[repo]]
 url = "https://github.com/iotexproject/android-ethereum-wallet"
@@ -199,6 +213,9 @@ missing = true
 url = "https://github.com/iotexproject/generate-pebble-data"
 
 [[repo]]
+url = "https://github.com/iotexproject/geostream-server"
+
+[[repo]]
 url = "https://github.com/iotexproject/ghost"
 
 [[repo]]
@@ -247,6 +264,9 @@ url = "https://github.com/iotexproject/heartrate-monitor-l1"
 missing = true
 
 [[repo]]
+url = "https://github.com/iotexproject/heartbeat"
+
+[[repo]]
 url = "https://github.com/iotexproject/high-table"
 
 [[repo]]
@@ -269,7 +289,16 @@ missing = true
 url = "https://github.com/iotexproject/IAPs"
 
 [[repo]]
+url = "https://github.com/iotexproject/iip13-contracts"
+
+[[repo]]
+url = "https://github.com/iotexproject/iip15-contracts"
+
+[[repo]]
 url = "https://github.com/iotexproject/iips"
+
+[[repo]]
+url = "https://github.com/iotexproject/ins-contracts"
 
 [[repo]]
 url = "https://github.com/iotexproject/iopay-desktop"
@@ -343,6 +372,9 @@ url = "https://github.com/iotexproject/iotex-antenna-rust"
 
 [[repo]]
 url = "https://github.com/iotexproject/iotex-antenna-swift"
+
+[[repo]]
+url = "https://github.com/iotexproject/awesome-depin"
 
 [[repo]]
 url = "https://github.com/iotexproject/iotex-bootstrap"
@@ -600,10 +632,6 @@ url = "https://github.com/iotexproject/merkle-distributor"
 url = "https://github.com/iotexproject/metabase"
 
 [[repo]]
-url = "https://github.com/iotexproject/mimo"
-missing = true
-
-[[repo]]
 url = "https://github.com/iotexproject/mini-challenges"
 
 [[repo]]
@@ -746,6 +774,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/iotexproject/snapshot-strategies"
+
+[[repo]]
+url = "https://github.com/iotexproject/solidity-dkim"
 
 [[repo]]
 url = "https://github.com/iotexproject/sqlite-sgx"
@@ -960,128 +991,4 @@ url = "https://github.com/iotexproject/wp-tasks"
 missing = true
 
 [[repo]]
-url = "https://github.com/iotubeproject/.github"
-
-[[repo]]
-url = "https://github.com/iotubeproject/chainlink-relayer"
-
-[[repo]]
-url = "https://github.com/iotubeproject/docs"
-
-[[repo]]
-url = "https://github.com/iotubeproject/ioTube"
-
-[[repo]]
-url = "https://github.com/iotubeproject/iotube-contracts"
-
-[[repo]]
-url = "https://github.com/iotubeproject/iotube-validator-service"
-
-[[repo]]
-url = "https://github.com/iotubeproject/media-kits"
-
-[[repo]]
-url = "https://github.com/iotubeproject/tips"
-
-[[repo]]
-url = "https://github.com/machinefi/Bumblebee"
-
-[[repo]]
-url = "https://github.com/machinefi/geolocation-sdk-demo"
-
-[[repo]]
-url = "https://github.com/machinefi/geolocation-ts-sdk"
-
-[[repo]]
-url = "https://github.com/machinefi/get-started"
-
-[[repo]]
-url = "https://github.com/machinefi/iot-sdk-mbedtls"
-
-[[repo]]
-url = "https://github.com/machinefi/iot-sdk-tinycrypt"
-
-[[repo]]
-url = "https://github.com/machinefi/iot-sdk-trusted-firmware"
-missing = true
-
-[[repo]]
-url = "https://github.com/machinefi/Location-nft-web-example"
-
-[[repo]]
-url = "https://github.com/machinefi/LocationNFT-example-contracts"
-
-[[repo]]
-url = "https://github.com/machinefi/metapebble-oauth-demo"
-missing = true
-
-[[repo]]
-url = "https://github.com/machinefi/metapebble-testing"
-
-[[repo]]
-url = "https://github.com/machinefi/smartpoint-demo"
-
-[[repo]]
-url = "https://github.com/machinefi/trusted-location-airdrop-dapp"
-
-[[repo]]
-url = "https://github.com/machinefi/trusted-location-get-started"
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream"
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-android-sdk"
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-compile-rust"
-missing = true
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-docs-gitbook"
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-example"
-missing = true
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-examples"
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-ios-sdk"
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-iot-sdk"
-missing = true
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-media-kit"
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-oauth"
-missing = true
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-saas"
-missing = true
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-studio"
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-ts-sdk"
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-wasm-assemblyscript-sdk"
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-wasm-golang-sdk"
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream-wasm-rust-sdk"
-
-[[repo]]
-url = "https://github.com/machinefi/w3bstream_compilets_demo"
-
-[[repo]]
-url = "https://github.com/machinefi/waas-flow-sdk-doc"
+url = "https://github.com/iotexproject/zkWasm"

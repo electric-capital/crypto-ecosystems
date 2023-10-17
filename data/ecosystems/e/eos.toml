@@ -7,11 +7,13 @@ sub_ecosystems = [
   "AtomicHub",
   "Bank of Staked",
   "BOSCore",
+  "CryptoMechanics",
   "DAO.Casino",
   "Defis Network",
   "dfuse.io",
   "EOS Knights",
   "EOS Nation",
+  "EOS Titan",
   "EOSDAC",
   "Eva",
   "Everipedia",
@@ -22,47 +24,25 @@ sub_ecosystems = [
   "SuperONE",
   "Telos",
   "TokenPocket",
+  "UX Network",
   "WAX",
   "Worbli",
   "Worldwide Asset eXchange",
 ]
 
 github_organizations = [
-  "https://github.com/AntelopeIO",
   "https://github.com/eoscostarica",
   "https://github.com/eosdac",
   "https://github.com/EOSEssentials",
   "https://github.com/EOSIO",
   "https://github.com/eosio-eps",
-  "https://github.com/eosnetworkfoundation",
   "https://github.com/eosnewyork",
   "https://github.com/eosrio",
-  "https://github.com/greymass",
-  "https://github.com/hypha-dao",
-  "https://github.com/wharfkit",
 ]
 
 # Repositories
 [[repo]]
 url = "https://github.com/activeeos/eos-helm"
-
-[[repo]]
-url = "https://github.com/AntelopeIO/appbase"
-
-[[repo]]
-url = "https://github.com/AntelopeIO/cdt"
-
-[[repo]]
-url = "https://github.com/AntelopeIO/chainbase"
-
-[[repo]]
-url = "https://github.com/AntelopeIO/DUNES"
-
-[[repo]]
-url = "https://github.com/AntelopeIO/eos-vm"
-
-[[repo]]
-url = "https://github.com/AntelopeIO/leap"
 
 [[repo]]
 url = "https://github.com/ArchonGraceland/project-graceland"
@@ -92,6 +72,9 @@ url = "https://github.com/bancorprotocol/contracts_eos"
 
 [[repo]]
 url = "https://github.com/Bearle/django-scatter-auth"
+
+[[repo]]
+url = "https://github.com/bjin9/DEX-EOSIO"
 
 [[repo]]
 url = "https://github.com/BlockABC/eos-tokens"
@@ -219,6 +202,9 @@ url = "https://github.com/edenia/wax-webapp-boilerplate"
 
 [[repo]]
 url = "https://github.com/edenia/webapp-boilerplate"
+
+[[repo]]
+url = "https://github.com/EdgeApp/edge-currency-accountbased"
 
 [[repo]]
 url = "https://github.com/EOS-BP-Developers/EOS-Test-Cave"
@@ -1037,6 +1023,36 @@ url = "https://github.com/EOSIO/slips"
 url = "https://github.com/EOSIO/spec-repo"
 
 [[repo]]
+url = "https://github.com/EOSIO/taurus-abieos"
+
+[[repo]]
+url = "https://github.com/EOSIO/taurus-appbase"
+
+[[repo]]
+url = "https://github.com/EOSIO/taurus-cdt"
+
+[[repo]]
+url = "https://github.com/EOSIO/taurus-chainbase"
+
+[[repo]]
+url = "https://github.com/EOSIO/taurus-developer-tools"
+
+[[repo]]
+url = "https://github.com/EOSIO/taurus-fc"
+
+[[repo]]
+url = "https://github.com/EOSIO/taurus-node"
+
+[[repo]]
+url = "https://github.com/EOSIO/taurus-vm"
+
+[[repo]]
+url = "https://github.com/EOSIO/taurus-wasm-spec-tests"
+
+[[repo]]
+url = "https://github.com/EOSIO/taurus-zpp-bits"
+
+[[repo]]
 url = "https://github.com/EOSIO/terraform-buildkite"
 
 [[repo]]
@@ -1123,36 +1139,6 @@ url = "https://github.com/EOSLaoMao/eos-local-voter"
 
 [[repo]]
 url = "https://github.com/eosmedi/EOS-Voter-Tracker"
-
-[[repo]]
-url = "https://github.com/eosnetworkfoundation/devhub"
-
-[[repo]]
-url = "https://github.com/eosnetworkfoundation/docs"
-
-[[repo]]
-url = "https://github.com/eosnetworkfoundation/docs-ui"
-
-[[repo]]
-url = "https://github.com/eosnetworkfoundation/eos-evm"
-
-[[repo]]
-url = "https://github.com/eosnetworkfoundation/eos-evm-miner"
-
-[[repo]]
-url = "https://github.com/eosnetworkfoundation/eos-evm-node"
-
-[[repo]]
-url = "https://github.com/eosnetworkfoundation/evm-bridge-contracts"
-
-[[repo]]
-url = "https://github.com/eosnetworkfoundation/evm-bridge-frontend"
-
-[[repo]]
-url = "https://github.com/eosnetworkfoundation/web-ide-api"
-
-[[repo]]
-url = "https://github.com/eosnetworkfoundation/web-ide-ui"
 
 [[repo]]
 url = "https://github.com/eosnewyork/abicreator"
@@ -1465,109 +1451,7 @@ url = "https://github.com/GrapheneLab/PokerChained"
 tags = ["Dapp"]
 
 [[repo]]
-url = "https://github.com/greymass/abi2core"
-
-[[repo]]
-url = "https://github.com/greymass/account-creation-lib"
-
-[[repo]]
 url = "https://github.com/greymass/anchor"
-tags = ["Wallet"]
-
-[[repo]]
-url = "https://github.com/greymass/anchor-desktop"
-tags = ["Wallet"]
-
-[[repo]]
-url = "https://github.com/greymass/anchor-link"
-
-[[repo]]
-url = "https://github.com/greymass/anchor-link-browser-transport"
-
-[[repo]]
-url = "https://github.com/greymass/anchor-link-console-transport"
-
-[[repo]]
-url = "https://github.com/greymass/anchor-link-session-manager"
-
-[[repo]]
-url = "https://github.com/greymass/buoy-client"
-
-[[repo]]
-url = "https://github.com/greymass/buoy-golang"
-
-[[repo]]
-url = "https://github.com/greymass/buoy-nodejs"
-
-[[repo]]
-url = "https://github.com/greymass/create-account"
-
-[[repo]]
-url = "https://github.com/greymass/eosio-api-ext"
-
-[[repo]]
-url = "https://github.com/greymass/eosio-failover"
-
-[[repo]]
-url = "https://github.com/greymass/eosio-key-encryption"
-
-[[repo]]
-url = "https://github.com/greymass/eosio-resource-manager"
-
-[[repo]]
-url = "https://github.com/greymass/eosio-resources"
-
-[[repo]]
-url = "https://github.com/greymass/eosio-signing-request"
-
-[[repo]]
-url = "https://github.com/greymass/eosio-uri-builder"
-
-[[repo]]
-url = "https://github.com/greymass/eosio-webauthn"
-
-[[repo]]
-url = "https://github.com/greymass/eosio.to"
-
-[[repo]]
-url = "https://github.com/greymass/go-eosio"
-
-[[repo]]
-url = "https://github.com/greymass/hyperbuoy"
-
-[[repo]]
-url = "https://github.com/greymass/idproofer"
-
-[[repo]]
-url = "https://github.com/greymass/keycert-js"
-
-[[repo]]
-url = "https://github.com/greymass/keycert-js-pdf"
-
-[[repo]]
-url = "https://github.com/greymass/mnemonic-seeds"
-
-[[repo]]
-url = "https://github.com/greymass/pricefeed"
-
-[[repo]]
-url = "https://github.com/greymass/revoter"
-
-[[repo]]
-url = "https://github.com/greymass/swift-eosio"
-
-[[repo]]
-url = "https://github.com/greymass/swift-eosio-key-encryption"
-
-[[repo]]
-url = "https://github.com/greymass/swift-scrypt"
-
-[[repo]]
-url = "https://github.com/greymass/ual-anchor"
-
-[[repo]]
-url = "https://github.com/greymass/unicove"
-tags = ["Wallet"]
 
 [[repo]]
 url = "https://github.com/grigio/eosfilestore-web"
@@ -1581,38 +1465,6 @@ url = "https://github.com/HKEOS/Ghostbusters-Testnet"
 
 [[repo]]
 url = "https://github.com/HorusPay/horus.tokenio"
-
-[[repo]]
-url = "https://github.com/hypha-dao/dao-contracts"
-
-[[repo]]
-url = "https://github.com/hypha-dao/dho-web-client"
-tags = ["Dapp"]
-
-[[repo]]
-url = "https://github.com/hypha-dao/document-graph"
-
-[[repo]]
-url = "https://github.com/hypha-dao/hypha-document-cache-gql-go"
-
-[[repo]]
-url = "https://github.com/hypha-dao/hypha-smart-contracts"
-
-[[repo]]
-url = "https://github.com/hypha-dao/hypha_wallet"
-tags = ["Wallet"]
-
-[[repo]]
-url = "https://github.com/hypha-dao/kv-eosio-contracts"
-
-[[repo]]
-url = "https://github.com/hypha-dao/ppp-api"
-
-[[repo]]
-url = "https://github.com/hypha-dao/ual-hypha"
-
-[[repo]]
-url = "https://github.com/hypha-dao/voice-token"
 
 [[repo]]
 url = "https://github.com/InfiniverseAR/infiniverse-eos"
@@ -1650,6 +1502,9 @@ url = "https://github.com/memtrip/eosreach-android"
 
 [[repo]]
 url = "https://github.com/memtrip/eosreach-ios"
+
+[[repo]]
+url = "https://github.com/miguelmota/eos-hello-world"
 
 [[repo]]
 url = "https://github.com/MonsterEOS/monstereos"
@@ -1762,82 +1617,13 @@ url = "https://github.com/ukarlsson/eos-clion-example"
 url = "https://github.com/unicoeos/eosio.nft"
 
 [[repo]]
+url = "https://github.com/vikxx/eos1bot"
+
+[[repo]]
 url = "https://github.com/wangweiX/eosram-trading-robot"
 
 [[repo]]
 url = "https://github.com/webdigi/EOS-Offline-Private-key-check"
-
-[[repo]]
-url = "https://github.com/wharfkit/abicache"
-
-[[repo]]
-url = "https://github.com/wharfkit/account"
-
-[[repo]]
-url = "https://github.com/wharfkit/antelope"
-
-[[repo]]
-url = "https://github.com/wharfkit/chains"
-
-[[repo]]
-url = "https://github.com/wharfkit/console-renderer"
-
-[[repo]]
-url = "https://github.com/wharfkit/contract"
-
-[[repo]]
-url = "https://github.com/wharfkit/docs"
-
-[[repo]]
-url = "https://github.com/wharfkit/session"
-
-[[repo]]
-url = "https://github.com/wharfkit/transact-plugin-autocorrect"
-
-[[repo]]
-url = "https://github.com/wharfkit/transact-plugin-cosigner"
-
-[[repo]]
-url = "https://github.com/wharfkit/transact-plugin-explorerlink"
-
-[[repo]]
-url = "https://github.com/wharfkit/transact-plugin-finality-callback"
-
-[[repo]]
-url = "https://github.com/wharfkit/transact-plugin-finality-checker"
-
-[[repo]]
-url = "https://github.com/wharfkit/transact-plugin-mock"
-
-[[repo]]
-url = "https://github.com/wharfkit/transact-plugin-resource-provider"
-
-[[repo]]
-url = "https://github.com/wharfkit/wallet-plugin-anchor"
-
-[[repo]]
-url = "https://github.com/wharfkit/wallet-plugin-cleos"
-
-[[repo]]
-url = "https://github.com/wharfkit/wallet-plugin-cloudwallet"
-
-[[repo]]
-url = "https://github.com/wharfkit/wallet-plugin-mock"
-
-[[repo]]
-url = "https://github.com/wharfkit/wallet-plugin-privatekey"
-
-[[repo]]
-url = "https://github.com/wharfkit/wallet-plugin-scatter"
-
-[[repo]]
-url = "https://github.com/wharfkit/wallet-plugin-template"
-
-[[repo]]
-url = "https://github.com/wharfkit/web-renderer"
-
-[[repo]]
-url = "https://github.com/wharfkit/website"
 
 [[repo]]
 url = "https://github.com/winlin/eostoolkit"

@@ -10,8 +10,8 @@ sub_ecosystems = [
   "iopay",
   "iotubeproject",
   "M3tering Protocol",
-  "Magic Land",
   "machinefi",
+  "Magic Land",
   "Mimo Defi",
   "Parrot DeFi",
   "StarCrazy",
@@ -21,22 +21,11 @@ sub_ecosystems = [
   "ZoomSwap",
 ]
 
-github_organizations = [
-  "https://github.com/iotexproject"
-]
+github_organizations = ["https://github.com/iotexproject"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/iotexproject/.github"
-
-[[repo]]
-url = "https://github.com/iotexproject/zkp-wallet-ui"
-
-[[repo]]
-url = "https://github.com/iotexproject/zkp-wallet-contracts"
-
-[[repo]]
-url = "https://github.com/iotexproject/zkp-wallet-circuits"
 
 [[repo]]
 url = "https://github.com/iotexproject/account-abstraction-contracts"
@@ -77,6 +66,9 @@ missing = true
 [[repo]]
 url = "https://github.com/iotexproject/avoTeeU2F"
 missing = true
+
+[[repo]]
+url = "https://github.com/iotexproject/awesome-depin"
 
 [[repo]]
 url = "https://github.com/iotexproject/babel-api"
@@ -214,6 +206,7 @@ url = "https://github.com/iotexproject/generate-pebble-data"
 
 [[repo]]
 url = "https://github.com/iotexproject/geostream-server"
+missing = true
 
 [[repo]]
 url = "https://github.com/iotexproject/ghost"
@@ -260,11 +253,12 @@ missing = true
 url = "https://github.com/iotexproject/hasura-graphql"
 
 [[repo]]
-url = "https://github.com/iotexproject/heartrate-monitor-l1"
+url = "https://github.com/iotexproject/heartbeat"
 missing = true
 
 [[repo]]
-url = "https://github.com/iotexproject/heartbeat"
+url = "https://github.com/iotexproject/heartrate-monitor-l1"
+missing = true
 
 [[repo]]
 url = "https://github.com/iotexproject/high-table"
@@ -372,9 +366,6 @@ url = "https://github.com/iotexproject/iotex-antenna-rust"
 
 [[repo]]
 url = "https://github.com/iotexproject/iotex-antenna-swift"
-
-[[repo]]
-url = "https://github.com/iotexproject/awesome-depin"
 
 [[repo]]
 url = "https://github.com/iotexproject/iotex-bootstrap"
@@ -989,6 +980,15 @@ missing = true
 [[repo]]
 url = "https://github.com/iotexproject/wp-tasks"
 missing = true
+
+[[repo]]
+url = "https://github.com/iotexproject/zkp-wallet-circuits"
+
+[[repo]]
+url = "https://github.com/iotexproject/zkp-wallet-contracts"
+
+[[repo]]
+url = "https://github.com/iotexproject/zkp-wallet-ui"
 
 [[repo]]
 url = "https://github.com/iotexproject/zkWasm"

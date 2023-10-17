@@ -1,96 +1,19 @@
 # Ecosystem Level Information
 title = "Everscale"
 
-sub_ecosystems = [
- "Flatqube",
- "Gosh",
- "Octusbridge",
- "Venom",
-]
+sub_ecosystems = ["Flatqube", "Gosh", "Octusbridge", "Venom"]
 
 github_organizations = [
   "https://github.com/broxus",
+  "https://github.com/everscale-contest",
   "https://github.com/everscale-org",
   "https://github.com/NilFoundation",
   "https://github.com/radianceteam",
   "https://github.com/RSquad",
   "https://github.com/tonlabs",
-  "https://github.com/everscale-contest",
 ]
 
 # Repositories
-[[repo]]
-url = "https://github.com/mazekine/crazy-portals-contracts"
-tags = ["Dapp"]
-
-[[repo]]
-url = "https://github.com/itgoldio/everscale-tip"
-tags = ["Documentation"]
-
-[[repo]]
-url = "https://github.com/itgoldio/everscale-tip-samples"
-tags = ["Documentation"]
-
-[[repo]]
-url = "https://github.com/itgoldio/everscale-nft-helper"
-tags = ["NFT"]
-
-[[repo]]
-url = "https://github.com/INTONNATION/SubscriptionManager"
-tags = ["DevOps"]
-
-[[repo]]
-url = "https://github.com/itgoldio/everscale-dapp-server"
-tags = ["DevOps"]
-
-[[repo]]
-url = "https://github.com/itgoldio/everscale-validator"
-tags = ["DevOps"]
-
-[[repo]]
-url = "https://github.com/web3sp/inpage-provider-playground"
-
-[[repo]]
-url = "https://github.com/web3sp/venom-connect"
-
-[[repo]]
-url = "https://github.com/Custler/main.evs.dev"
-tags = ["DevOps"]
-
-[[repo]]
-url = "https://github.com/Custler/ever-node-tools"
-tags = ["DevOps"]
-
-[[repo]]
-url = "https://github.com/Custler/node-info-contract"
-tags = ["DevOps"]
-
-[[repo]]
-url = "https://github.com/ever-guild/everscale-tutor-web"
-tags = ["Documentation"]
-
-[[repo]]
-url = "https://github.com/ever-guild/debot"
-tags = ["Documentation", "SDK"]
-
-[[repo]]
-url = "https://github.com/unboxedtype/light"
-tags = ["Developer Tools", "Language"]
-
-[[repo]]
-url = "https://github.com/ever-guild/debot-browser"
-
-[[repo]]
-url = "https://github.com/ever-guild/everscale-random"
-tags = ["Documentation"]
-
-[[repo]]
-url = "https://github.com/ever-guild/locklift-sample"
-tags = ["Documentation"]
-
-[[repo]]
-url = "https://github.com/vp-mazekine/EverCraft"
-
 [[repo]]
 url = "https://github.com/airalab/freeton-robonomics_contracts"
 
@@ -587,7 +510,38 @@ url = "https://github.com/broxus/wasm-pack-plugin"
 url = "https://github.com/chain-action/http-notification"
 
 [[repo]]
+url = "https://github.com/Custler/ever-node-tools"
+tags = ["DevOps"]
+
+[[repo]]
+url = "https://github.com/Custler/main.evs.dev"
+tags = ["DevOps"]
+
+[[repo]]
+url = "https://github.com/Custler/node-info-contract"
+tags = ["DevOps"]
+
+[[repo]]
+url = "https://github.com/ever-guild/debot"
+tags = ["Documentation", "SDK"]
+
+[[repo]]
+url = "https://github.com/ever-guild/debot-browser"
+
+[[repo]]
+url = "https://github.com/ever-guild/everscale-random"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://github.com/ever-guild/everscale-tutor-web"
+tags = ["Documentation"]
+
+[[repo]]
 url = "https://github.com/ever-guild/homebrew-stable"
+
+[[repo]]
+url = "https://github.com/ever-guild/locklift-sample"
+tags = ["Documentation"]
 
 [[repo]]
 url = "https://github.com/everscale-actions/everscale-dotnet"
@@ -869,6 +823,10 @@ url = "https://github.com/INTONNATION/FreeTON-Rust-Node"
 url = "https://github.com/INTONNATION/freeton-smc-scripts"
 
 [[repo]]
+url = "https://github.com/INTONNATION/SubscriptionManager"
+tags = ["DevOps"]
+
+[[repo]]
 url = "https://github.com/INTONNATION/ton-os-dapp-server-deploy"
 
 [[repo]]
@@ -884,6 +842,26 @@ url = "https://github.com/INTONNATION/tondev-vscode"
 url = "https://github.com/INTONNATION/tonos-se-installers"
 
 [[repo]]
+url = "https://github.com/itgoldio/everscale-dapp-server"
+tags = ["DevOps"]
+
+[[repo]]
+url = "https://github.com/itgoldio/everscale-nft-helper"
+tags = ["NFT"]
+
+[[repo]]
+url = "https://github.com/itgoldio/everscale-tip"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://github.com/itgoldio/everscale-tip-samples"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://github.com/itgoldio/everscale-validator"
+tags = ["DevOps"]
+
+[[repo]]
 url = "https://github.com/kobzistiy/LotteryFreeTon"
 
 [[repo]]
@@ -897,6 +875,10 @@ url = "https://github.com/kokkekpek/simple-wallet-smart-contract"
 
 [[repo]]
 url = "https://github.com/LibertonCrypto/wallet"
+
+[[repo]]
+url = "https://github.com/mazekine/crazy-portals-contracts"
+tags = ["Dapp"]
 
 [[repo]]
 url = "https://github.com/move-ton/FreeTON-guides"
@@ -1838,4 +1820,17 @@ url = "https://github.com/tonsoft-org/alpha.browser.wallet"
 url = "https://github.com/tonsoft-org/alpha.wallet"
 
 [[repo]]
+url = "https://github.com/unboxedtype/light"
+tags = ["Developer Tools", "Language"]
+
+[[repo]]
 url = "https://github.com/varnav/freeton-node-docker"
+
+[[repo]]
+url = "https://github.com/vp-mazekine/EverCraft"
+
+[[repo]]
+url = "https://github.com/web3sp/inpage-provider-playground"
+
+[[repo]]
+url = "https://github.com/web3sp/venom-connect"

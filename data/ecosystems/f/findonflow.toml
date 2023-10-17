@@ -3,17 +3,20 @@ title = "Findonflow"
 
 sub_ecosystems = []
 
-github_organizations = [
-  "https://github.com/findonflow",
-  "https://github.com/find-onefootball",
-]
+github_organizations = ["https://github.com/find-onefootball", "https://github.com/findonflow"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/find-onefootball/onefootball-aera-tx"
+
 [[repo]]
 url = "https://github.com/findonflow/alchemy-flow-contracts"
 
 [[repo]]
 url = "https://github.com/findonflow/cadence"
+
+[[repo]]
+url = "https://github.com/findonflow/event-finder"
 
 [[repo]]
 url = "https://github.com/findonflow/find"
@@ -55,6 +58,9 @@ url = "https://github.com/findonflow/flow-transactions"
 url = "https://github.com/findonflow/flowgraph-sse"
 
 [[repo]]
+url = "https://github.com/findonflow/gief-me"
+
+[[repo]]
 url = "https://github.com/findonflow/gue"
 
 [[repo]]
@@ -80,12 +86,3 @@ url = "https://github.com/findonflow/solarpups"
 
 [[repo]]
 url = "https://github.com/findonflow/tx-lookup"
-
-[[repo]]
-url = "https://github.com/find-onefootball/onefootball-aera-tx"
-
-[[repo]]
-url = "https://github.com/findonflow/gief-me"
-
-[[repo]]
-url = "https://github.com/findonflow/event-finder"

@@ -1,9 +1,11 @@
+# Ecosystem Level Information
 title = "DFINITY Side Projects"
-sub_ecosystems = []
-github_organizations = ["https://github.com/dfinity-side-projects"]
-[[repo]]
-url = "https://github.com/dfinity-side-projects/STIFTUNG-DFN-donations"
 
+sub_ecosystems = []
+
+github_organizations = ["https://github.com/dfinity-side-projects"]
+
+# Repositories
 [[repo]]
 url = "https://github.com/dfinity-side-projects/assemblyscript"
 
@@ -74,6 +76,9 @@ url = "https://github.com/dfinity-side-projects/rust-haskell-ffi"
 url = "https://github.com/dfinity-side-projects/secp256k1-haskell"
 
 [[repo]]
+url = "https://github.com/dfinity-side-projects/STIFTUNG-DFN-donations"
+
+[[repo]]
 url = "https://github.com/dfinity-side-projects/stm"
 
 [[repo]]
@@ -90,4 +95,3 @@ url = "https://github.com/dfinity-side-projects/wasm-persist"
 
 [[repo]]
 url = "https://github.com/dfinity-side-projects/winter"
-

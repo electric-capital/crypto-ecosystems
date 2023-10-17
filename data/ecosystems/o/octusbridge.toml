@@ -3,16 +3,19 @@ title = "Octusbridge"
 
 sub_ecosystems = []
 
-github_organizations = [
-]
+github_organizations = []
 
 # Repositories
 [[repo]]
-url = "https://github.com/broxus/octusbridge-frontend"
+url = "https://github.com/broxus/octusbridge-contracts"
 tags = ["DeFi"]
 
 [[repo]]
-url = "https://github.com/broxus/octusbridge-contracts"
+url = "https://github.com/broxus/octusbridge-docs"
+tags = ["Documentation"]
+
+[[repo]]
+url = "https://github.com/broxus/octusbridge-frontend"
 tags = ["DeFi"]
 
 [[repo]]
@@ -26,7 +29,3 @@ tags = ["DeFi"]
 [[repo]]
 url = "https://github.com/broxus/octusbridge-solana-multisig-contracts"
 tags = ["Multisig"]
-
-[[repo]]
-url = "https://github.com/broxus/octusbridge-docs"
-tags = ["Documentation"]

@@ -1,7 +1,14 @@
 # Ecosystem Level Information
 title = "ZKSync"
 
-sub_ecosystems = ["Aboard Exchange", "Golem Factory", "Kodadot", "perpdex", "Sismo", "ZigZag Exchange"]
+sub_ecosystems = [
+  "Aboard Exchange",
+  "Golem Factory",
+  "Kodadot",
+  "perpdex",
+  "Sismo",
+  "ZigZag Exchange",
+]
 
 github_organizations = [
   "https://github.com/matter-labs",
@@ -39,10 +46,19 @@ url = "https://github.com/Atlas-labs-inc/create-atlas-app"
 url = "https://github.com/Atlas-labs-inc/lunar-contracts"
 
 [[repo]]
+url = "https://github.com/AtomicZK/atomiK-protocol"
+
+[[repo]]
+url = "https://github.com/beefyfinance/beefy-api"
+
+[[repo]]
 url = "https://github.com/beetogether-work/contracts"
 
 [[repo]]
 url = "https://github.com/blockchainsllc/in3"
+
+[[repo]]
+url = "https://github.com/ByFishh/zk-flow"
 
 [[repo]]
 url = "https://github.com/Cabal-Labs/zkFund-contracts"
@@ -55,6 +71,9 @@ url = "https://github.com/CheemsLab/cheems-contract"
 
 [[repo]]
 url = "https://github.com/clober-dex/core-zksync"
+
+[[repo]]
+url = "https://github.com/code-423n4/2023-03-zksync"
 
 [[repo]]
 url = "https://github.com/connext/monorepo"
@@ -78,13 +97,22 @@ url = "https://github.com/credit-wallet/invoicereceivables-nft"
 url = "https://github.com/credit-wallet/joey-mono"
 
 [[repo]]
-url = "https://github.com/Cryptorubic/multi-proxy-rubic"
-
-[[repo]]
 url = "https://github.com/crypto-swap/zksync-interface"
 
 [[repo]]
+url = "https://github.com/Cryptorubic/multi-proxy-rubic"
+
+[[repo]]
 url = "https://github.com/dao-envelop/envelop-protocol-v1"
+
+[[repo]]
+url = "https://github.com/david30907d/lensLend"
+
+[[repo]]
+url = "https://github.com/eq-lab/marginly"
+
+[[repo]]
+url = "https://github.com/FilipTxFusion/zksync-web-v2-docs"
 
 [[repo]]
 url = "https://github.com/flair-sdk/contracts-solidity"
@@ -103,6 +131,9 @@ url = "https://github.com/GomerMagog/Magog"
 
 [[repo]]
 url = "https://github.com/izumiFinance/izumi-swap-core-zksync"
+
+[[repo]]
+url = "https://github.com/joelk9895/DGvote"
 
 [[repo]]
 url = "https://github.com/layerswap/layerswapapp"
@@ -411,6 +442,9 @@ url = "https://github.com/matter-labs/bellman-fork"
 url = "https://github.com/matter-labs/Best-README-Template"
 
 [[repo]]
+url = "https://github.com/matter-labs/block-explorer"
+
+[[repo]]
 url = "https://github.com/matter-labs/blockscout"
 
 [[repo]]
@@ -444,10 +478,6 @@ url = "https://github.com/matter-labs/compiler-solidity"
 url = "https://github.com/matter-labs/compiler-tests"
 
 [[repo]]
-url = "https://github.com/matter-labs/compiler-yul"
-missing = true
-
-[[repo]]
 url = "https://github.com/matter-labs/cross-chain-tutorial"
 
 [[repo]]
@@ -463,20 +493,22 @@ url = "https://github.com/matter-labs/custom-paymaster-tutorial"
 url = "https://github.com/matter-labs/daily-spendlimit-tutorial"
 
 [[repo]]
+url = "https://github.com/matter-labs/dapp-portal"
+
+[[repo]]
 url = "https://github.com/matter-labs/data-restore"
 
 [[repo]]
 url = "https://github.com/matter-labs/demo-circuit"
 
 [[repo]]
+url = "https://github.com/matter-labs/deploy-v3"
+
+[[repo]]
 url = "https://github.com/matter-labs/discord-ban-appeal"
 
 [[repo]]
 url = "https://github.com/matter-labs/discourse"
-
-[[repo]]
-url = "https://github.com/matter-labs/docker-github-runner"
-missing = true
 
 [[repo]]
 url = "https://github.com/matter-labs/docker-kubectl"
@@ -489,6 +521,15 @@ url = "https://github.com/matter-labs/eip1962_specs"
 
 [[repo]]
 url = "https://github.com/matter-labs/era-bellman-cuda"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-boojum"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-boojum-cuda"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-boojum-validator-cli"
 
 [[repo]]
 url = "https://github.com/matter-labs/era-circuit_testing"
@@ -509,10 +550,19 @@ url = "https://github.com/matter-labs/era-compiler-llvm-context"
 url = "https://github.com/matter-labs/era-compiler-solidity"
 
 [[repo]]
+url = "https://github.com/matter-labs/era-compiler-tester"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-compiler-tests"
+
+[[repo]]
 url = "https://github.com/matter-labs/era-compiler-vyper"
 
 [[repo]]
 url = "https://github.com/matter-labs/era-contracts"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-hardhat-with-plugins"
 
 [[repo]]
 url = "https://github.com/matter-labs/era-heavy-ops-service"
@@ -521,25 +571,67 @@ url = "https://github.com/matter-labs/era-heavy-ops-service"
 url = "https://github.com/matter-labs/era-openzeppelin"
 
 [[repo]]
+url = "https://github.com/matter-labs/era-permit2"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-revm"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-shivini"
+
+[[repo]]
 url = "https://github.com/matter-labs/era-sync_vm"
 
 [[repo]]
 url = "https://github.com/matter-labs/era-system-contracts"
 
 [[repo]]
+url = "https://github.com/matter-labs/era-test-node"
+
+[[repo]]
 url = "https://github.com/matter-labs/era-tutorial-examples"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-uniswap-deploy-v3"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-uniswap-swap-router-contracts"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-uniswap-v2-core"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-uniswap-v3-core"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-uniswap-v3-periphery"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-uniswap-v3-staker"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-universal-router"
 
 [[repo]]
 url = "https://github.com/matter-labs/era-zk_evm"
 
 [[repo]]
+url = "https://github.com/matter-labs/era-zk_evm_abstractions"
+
+[[repo]]
 url = "https://github.com/matter-labs/era-zkEVM-assembly"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-zkevm_circuits"
 
 [[repo]]
 url = "https://github.com/matter-labs/era-zkevm_opcode_defs"
 
 [[repo]]
 url = "https://github.com/matter-labs/era-zkevm_test_harness"
+
+[[repo]]
+url = "https://github.com/matter-labs/era-zkevm_tester"
 
 [[repo]]
 url = "https://github.com/matter-labs/ERADICATE2"
@@ -557,13 +649,25 @@ url = "https://github.com/matter-labs/exploring-hack"
 url = "https://github.com/matter-labs/ff"
 
 [[repo]]
+url = "https://github.com/matter-labs/format-release-please-for-slack-action"
+
+[[repo]]
 url = "https://github.com/matter-labs/foundry"
+
+[[repo]]
+url = "https://github.com/matter-labs/foundry-zksync"
 
 [[repo]]
 url = "https://github.com/matter-labs/franklin-crypto"
 
 [[repo]]
 url = "https://github.com/matter-labs/franklin-crypto-fork"
+
+[[repo]]
+url = "https://github.com/matter-labs/gated-nft-tutorial"
+
+[[repo]]
+url = "https://github.com/matter-labs/gated-nft-tutorial-starter"
 
 [[repo]]
 url = "https://github.com/matter-labs/gh-workflows"
@@ -579,6 +683,12 @@ url = "https://github.com/matter-labs/githubot"
 
 [[repo]]
 url = "https://github.com/matter-labs/greeter-tutorial-starter"
+
+[[repo]]
+url = "https://github.com/matter-labs/hackathon-submissions"
+
+[[repo]]
+url = "https://github.com/matter-labs/hackathon-winner-projects"
 
 [[repo]]
 url = "https://github.com/matter-labs/hardhat-zksync"
@@ -635,6 +745,12 @@ url = "https://github.com/matter-labs/pairing"
 url = "https://github.com/matter-labs/parity-ethereum"
 
 [[repo]]
+url = "https://github.com/matter-labs/paymaster-examples"
+
+[[repo]]
+url = "https://github.com/matter-labs/permit2"
+
+[[repo]]
 url = "https://github.com/matter-labs/PlasmaParentContract"
 
 [[repo]]
@@ -662,10 +778,22 @@ url = "https://github.com/matter-labs/rescue-poseidon"
 url = "https://github.com/matter-labs/rescue-poseidon-fork"
 
 [[repo]]
+url = "https://github.com/matter-labs/risc_v_simulator"
+
+[[repo]]
 url = "https://github.com/matter-labs/rust-web3"
 
 [[repo]]
+url = "https://github.com/matter-labs/scaffold-era"
+
+[[repo]]
 url = "https://github.com/matter-labs/schnorr-musig"
+
+[[repo]]
+url = "https://github.com/matter-labs/simple-oracle-benchmarking"
+
+[[repo]]
+url = "https://github.com/matter-labs/snark-wrapper"
 
 [[repo]]
 url = "https://github.com/matter-labs/solidity"
@@ -674,7 +802,19 @@ url = "https://github.com/matter-labs/solidity"
 url = "https://github.com/matter-labs/solidity_plonk_verifier"
 
 [[repo]]
+url = "https://github.com/matter-labs/swap-router-contracts"
+
+[[repo]]
 url = "https://github.com/matter-labs/tendermint"
+
+[[repo]]
+url = "https://github.com/matter-labs/terraform-google-kms"
+
+[[repo]]
+url = "https://github.com/matter-labs/terraform-google-kubernetes-engine"
+
+[[repo]]
+url = "https://github.com/matter-labs/terraform-google-sql-db"
 
 [[repo]]
 url = "https://github.com/matter-labs/testnet-faucet"
@@ -689,10 +829,31 @@ url = "https://github.com/matter-labs/trust-wallet-ios"
 url = "https://github.com/matter-labs/tutorial-examples"
 
 [[repo]]
+url = "https://github.com/matter-labs/tutorials"
+
+[[repo]]
 url = "https://github.com/matter-labs/uniswap-v3-proposal"
 
 [[repo]]
+url = "https://github.com/matter-labs/universal-router"
+
+[[repo]]
+url = "https://github.com/matter-labs/v2-core"
+
+[[repo]]
 url = "https://github.com/matter-labs/v2-testnet-contracts"
+
+[[repo]]
+url = "https://github.com/matter-labs/v3-core"
+
+[[repo]]
+url = "https://github.com/matter-labs/v3-periphery"
+
+[[repo]]
+url = "https://github.com/matter-labs/v3-staker"
+
+[[repo]]
+url = "https://github.com/matter-labs/vise"
 
 [[repo]]
 url = "https://github.com/matter-labs/vm-benchmarks"
@@ -702,6 +863,9 @@ url = "https://github.com/matter-labs/vscode-extension"
 
 [[repo]]
 url = "https://github.com/matter-labs/workflow-dispatch"
+
+[[repo]]
+url = "https://github.com/matter-labs/yubiset"
 
 [[repo]]
 url = "https://github.com/matter-labs/z-prize-msm-gpu"
@@ -716,6 +880,27 @@ url = "https://github.com/matter-labs/zinc"
 url = "https://github.com/matter-labs/zinc.github.io"
 
 [[repo]]
+url = "https://github.com/matter-labs/zk-paymaster-dapi-poc"
+
+[[repo]]
+url = "https://github.com/matter-labs/zk_os"
+
+[[repo]]
+url = "https://github.com/matter-labs/zkcli-block-explorer"
+
+[[repo]]
+url = "https://github.com/matter-labs/zkcli-dockerized-node"
+
+[[repo]]
+url = "https://github.com/matter-labs/zkcli-dummy-module"
+
+[[repo]]
+url = "https://github.com/matter-labs/zkcli-in-memory-node"
+
+[[repo]]
+url = "https://github.com/matter-labs/zkcli-portal"
+
+[[repo]]
 url = "https://github.com/matter-labs/zksolc-bin"
 
 [[repo]]
@@ -723,6 +908,10 @@ url = "https://github.com/matter-labs/zksolc-prerelease"
 
 [[repo]]
 url = "https://github.com/matter-labs/zksync"
+tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/matter-labs/zkSync-account-abstraction-template"
 
 [[repo]]
 url = "https://github.com/matter-labs/zksync-cli"
@@ -734,6 +923,9 @@ url = "https://github.com/matter-labs/zksync-dapp-checkout"
 url = "https://github.com/matter-labs/zksync-dapp-forced-exit"
 
 [[repo]]
+url = "https://github.com/matter-labs/zksync-dapp-portal"
+
+[[repo]]
 url = "https://github.com/matter-labs/zksync-dapp-wallet-v2"
 
 [[repo]]
@@ -743,7 +935,22 @@ url = "https://github.com/matter-labs/zksync-docs"
 url = "https://github.com/matter-labs/zksync-era"
 
 [[repo]]
+url = "https://github.com/matter-labs/zksync-hardhat-ft-template"
+
+[[repo]]
+url = "https://github.com/matter-labs/zksync-hardhat-nft-template"
+
+[[repo]]
 url = "https://github.com/matter-labs/zksync-hardhat-template"
+
+[[repo]]
+url = "https://github.com/matter-labs/zksync-hardhat-vyper-ft-template"
+
+[[repo]]
+url = "https://github.com/matter-labs/zksync-hardhat-vyper-nft-template"
+
+[[repo]]
+url = "https://github.com/matter-labs/zksync-hardhat-vyper-template"
 
 [[repo]]
 url = "https://github.com/matter-labs/zksync-link"
@@ -776,7 +983,13 @@ url = "https://github.com/matter-labs/zksync-web-v2-docs-1"
 url = "https://github.com/matter-labs/zkvyper-bin"
 
 [[repo]]
+url = "https://github.com/MattyChoi/lendio"
+
+[[repo]]
 url = "https://github.com/MesonFi/meson-contracts-solidity"
+
+[[repo]]
+url = "https://github.com/mpopovac-txfusion/zksync-web-v2-docs"
 
 [[repo]]
 url = "https://github.com/muteio/switch-core"
@@ -801,6 +1014,9 @@ url = "https://github.com/ovnstable/ovnstable-core"
 
 [[repo]]
 url = "https://github.com/pixel-protocol/Pixel_Protocol_Contracts"
+
+[[repo]]
+url = "https://github.com/porco-rosso-j/zksync-account-webauthn"
 
 [[repo]]
 url = "https://github.com/purefiprotocol/sdk-solidity-zksync"
@@ -828,6 +1044,9 @@ url = "https://github.com/skywinder/TinyBigIntSwift"
 
 [[repo]]
 url = "https://github.com/sushiswap/sushiswap"
+
+[[repo]]
+url = "https://github.com/SwaprHQ/swapr-dapp"
 
 [[repo]]
 url = "https://github.com/syncswap/core-contracts"
@@ -866,16 +1085,28 @@ url = "https://github.com/vareger/zksync-aa-tests"
 url = "https://github.com/Veggies-lab/zkVeggies-core"
 
 [[repo]]
+url = "https://github.com/veSync/contracts"
+
+[[repo]]
 url = "https://github.com/web3swift-team/web3swift"
 
 [[repo]]
+url = "https://github.com/widolabs/wido-contracts"
+
+[[repo]]
 url = "https://github.com/WIM3/protocol"
+
+[[repo]]
+url = "https://github.com/WoolenLamb2171/zkeasy"
 
 [[repo]]
 url = "https://github.com/woonetwork/WooPoolV2"
 
 [[repo]]
 url = "https://github.com/woonetwork/WooStakingV2"
+
+[[repo]]
+url = "https://github.com/xbank-lab/xbank-zkera-contract"
 
 [[repo]]
 url = "https://github.com/zallo-labs/zallo"
@@ -893,10 +1124,34 @@ url = "https://github.com/Zion-PTC/noiz-network-state"
 url = "https://github.com/Zion-PTC/zion-network-state"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/bellman"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/cairo1-bytes"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/franklin-crypto"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/groth16-sol-verifier"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/link_aggregation_circuit"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/parallel-signer"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/recover_state_server"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/stark_util"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/starknet-rs"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zkjump-contract"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-audit-report"
@@ -908,16 +1163,40 @@ url = "https://github.com/zkLinkProtocol/zklink-broker"
 url = "https://github.com/zkLinkProtocol/zklink-contracts"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-contracts-interface"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-docs"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-docs-gitbook"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-exchange"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-homepage"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-js-sdk"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-starknet-contract-test"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-starknet-contracts"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-starknet-contracts-cairo0"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-static"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-whitepaper"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-wihitepaper"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zkp-curve-circuit"
@@ -962,13 +1241,22 @@ url = "https://github.com/zksync-sdk/zksync-sdk-swift"
 url = "https://github.com/zksync-sdk/zksync-swift"
 
 [[repo]]
+url = "https://github.com/zksync-sdk/zksync2-examples"
+
+[[repo]]
 url = "https://github.com/zksync-sdk/zksync2-go"
 
 [[repo]]
 url = "https://github.com/zksync-sdk/zksync2-java"
 
 [[repo]]
+url = "https://github.com/zksync-sdk/zksync2-js"
+
+[[repo]]
 url = "https://github.com/zksync-sdk/zksync2-python"
+
+[[repo]]
+url = "https://github.com/zksync-sdk/zksync2-rust"
 
 [[repo]]
 url = "https://github.com/zksync-sdk/zksync2-swift"

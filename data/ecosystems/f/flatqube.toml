@@ -3,13 +3,20 @@ title = "Flatqube"
 
 sub_ecosystems = []
 
-github_organizations = [
-]
+github_organizations = []
 
 # Repositories
 [[repo]]
+url = "https://github.com/broxus/flatqube-assets"
+tags = ["DeFi"]
+
+[[repo]]
 url = "https://github.com/broxus/flatqube-contracts"
 tags = ["DeFi"]
+
+[[repo]]
+url = "https://github.com/broxus/flatqube-docs"
+tags = ["Documentation"]
 
 [[repo]]
 url = "https://github.com/broxus/flatqube-frontend"
@@ -18,11 +25,3 @@ tags = ["DeFi"]
 [[repo]]
 url = "https://github.com/broxus/flatqube-pair"
 tags = ["DeFi"]
-
-[[repo]]
-url = "https://github.com/broxus/flatqube-assets"
-tags = ["DeFi"]
-
-[[repo]]
-url = "https://github.com/broxus/flatqube-docs"
-tags = ["Documentation"]

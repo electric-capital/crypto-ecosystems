@@ -13,7 +13,15 @@ sub_ecosystems = [
   "StarkWare",
 ]
 
-github_organizations = ["https://github.com/CairOpen", "https://github.com/keep-starknet-strange"]
+github_organizations = [
+  "https://github.com/starknet-io",
+  "https://github.com/keep-starknet-strange",
+  "https://github.com/kkrt-labs",
+  "https://github.com/dojoengine",
+  "https://github.com/gizatechxyz",
+  "https://github.com/starknet-edu/",
+  "https://github.com/HerodotusDev",
+]
 
 # Repositories
 [[repo]]
@@ -147,6 +155,18 @@ url = "https://github.com/0xSpaceShard/starknet-bridge-relayer-tools"
 
 [[repo]]
 url = "https://github.com/0xSpaceShard/starknet-devnet-rs"
+
+[[repo]]
+url = "https://github.com/0xSpaceShard/cairo-cli-docker"
+
+[[repo]]
+url = "https://github.com/0xSpaceShard/starknet-devnet"
+
+[[repo]]
+url = "https://github.com/0xSpaceShard/starknet-hardhat-example"
+
+[[repo]]
+url = "https://github.com/0xSpaceShard/starknet-hardhat-plugin"
 
 [[repo]]
 url = "https://github.com/0xSuku/starknet-basecamp"
@@ -1808,7 +1828,22 @@ url = "https://github.com/HerodotusDev/herodotus-eth-starknet"
 url = "https://github.com/HerodotusDev/StarkBadge"
 
 [[repo]]
+url = "https://github.com/HerodotusDev/cairo-lib"
+
+[[repo]]
+url = "https://github.com/HerodotusDev/cairo-mmr"
+
+[[repo]]
+url = "https://github.com/HerodotusDev/starksight-zkhack"
+
+[[repo]]
+url = "https://github.com/HerodotusDev/offchain-evm-headers-processor"
+
+[[repo]]
 url = "https://github.com/himanshu-Bhatt/aave-starknet-bridge"
+
+[[repo]]
+url = "https://github.com/rkdud007/chess-dojo"
 
 [[repo]]
 url = "https://github.com/hitsuzen-eth/boilerplate-starknet-nile"
@@ -2180,6 +2215,10 @@ url = "https://github.com/keep-starknet-strange/cairo"
 url = "https://github.com/keep-starknet-strange/cairo-rs"
 
 [[repo]]
+url = "https://github.com/keep-starknet-strange/cairo-zig"
+tags = ["Protocol"]
+
+[[repo]]
 url = "https://github.com/keep-starknet-strange/edo-tensei"
 
 [[repo]]
@@ -2309,6 +2348,15 @@ url = "https://github.com/kkrt-labs/kakarot"
 url = "https://github.com/kkrt-labs/kakarot-ssj"
 
 [[repo]]
+url = "https://github.com/kkrt-labs/kakarot-rpc"
+
+[[repo]]
+url = "https://github.com/kkrt-labs/cairo-vm-ts"
+
+[[repo]]
+url = "https://github.com/kkrt-labs/ef-tests"
+
+[[repo]]
 url = "https://github.com/koloz193/ERC4626"
 
 [[repo]]
@@ -2370,6 +2418,9 @@ url = "https://github.com/lambdaclass/starknet_tendermint_sequencer"
 
 [[repo]]
 url = "https://github.com/lambdaclass/yet-another-swap"
+
+[[repo]]
+url = "https://github.com/lambdaclass/cairo_native"
 
 [[repo]]
 url = "https://github.com/Laplace5079/starknet-tarot"
@@ -3503,18 +3554,6 @@ url = "https://github.com/seshanthS/starknetIndia_2022"
 url = "https://github.com/shalomxl/ERC20_Cairo1_Starknet"
 
 [[repo]]
-url = "https://github.com/Shard-Labs/cairo-cli-docker"
-
-[[repo]]
-url = "https://github.com/Shard-Labs/starknet-devnet"
-
-[[repo]]
-url = "https://github.com/Shard-Labs/starknet-hardhat-example"
-
-[[repo]]
-url = "https://github.com/Shard-Labs/starknet-hardhat-plugin"
-
-[[repo]]
 url = "https://github.com/Shard-Labs/starknet-marbles"
 
 [[repo]]
@@ -3870,6 +3909,18 @@ url = "https://github.com/starknet-io/starknet-website"
 
 [[repo]]
 url = "https://github.com/starknet-io/types-rs"
+
+[[repo]]
+url = "https://github.com/starknet-io/starknet.js"
+
+[[repo]]
+url = "https://github.com/starknet-io/starkgate-contracts"
+
+[[repo]]
+url = "https://github.com/starknet-io/starknet-zig"
+
+[[repo]]
+url = "https://github.com/starknet-io/starknet-p2p-specs"
 
 [[repo]]
 url = "https://github.com/starknetdev/shared_wallet"
@@ -4534,3 +4585,138 @@ url = "https://github.com/zoeAD/basic-solver"
 
 [[repo]]
 url = "https://github.com/zorro-project/zorro"
+
+[[repo]]
+url = "https://github.com/hashcloak/starkjub"
+
+[[repo]]
+url = "https://github.com/hashcloak/Starkacy/"
+
+[[repo]]
+url = "https://github.com/onurinanc/cairo-aes"
+
+[[repo]]
+url = "https://github.com/project3fusion/StarkLearn"
+
+[[repo]]
+url = "https://github.com/project3fusion/StarkSharp"
+
+[[repo]]
+url = "https://github.com/project3fusion/StarkMOBA"
+
+[[repo]]
+url = "https://github.com/project3fusion/FusionFPS"
+
+[[repo]]
+url = "https://github.com/gizatechxyz/orion"
+
+[[repo]]
+url = "https://github.com/gizatechxyz/orion_tutorials"
+
+[[repo]]
+url = "https://github.com/gizatechxyz/giza-cli"
+
+[[repo]]
+url = "https://github.com/faytey/starknet-gasprice-gas-limit-endpoint"
+
+[[repo]]
+url = "https://github.com/PhilippeR26/starknet.js-workshop-typescript"
+
+[[repo]]
+url = "https://github.com/PhilippeR26/file2felts"
+
+[[repo]]
+url = "https://github.com/0xKawaka/BlockHeroesCairo"
+
+[[repo]]
+url = "https://github.com/Zohal-Starknet/zohal-interface"
+
+[[repo]]
+url = "https://github.com/Kelvyne/starknet-storage-proof-solidity"
+
+[[repo]]
+url = "https://github.com/Akinbola247/Tictactoe-Starknet"
+
+[[repo]]
+url = "https://github.com/gaetbout/starknet-array-manipulation"
+
+[[repo]]
+url = "https://github.com/gaetbout/starknet-felt-packing"
+
+[[repo]]
+url = "https://github.com/gaetbout/starknet-commit-reveal"
+
+[[repo]]
+url = "https://github.com/gaetbout/starknet-erc20-lazy-initialization"
+
+[[repo]]
+url = "https://github.com/gaetbout/stark-utils"
+
+[[repo]]
+url = "https://github.com/gaetbout/StarkWhaleAlert"
+
+[[repo]]
+url = "https://github.com/shramee/wasm-blockifier-runtime"
+
+[[repo]]
+url = "https://github.com/shramee/hanji"
+
+[[repo]]
+url = "https://github.com/shramee/cairolatte-backend"
+
+[[repo]]
+url = "https://github.com/shramee/dojo-gems"
+
+[[repo]]
+url = "https://github.com/shramee/cairo-random"
+
+[[repo]]
+url = "https://github.com/shramee/dojo-p5-starter"
+
+[[repo]]
+url = "https://github.com/shramee/linear-erc20"
+
+[[repo]]
+url = "https://github.com/shramee/dojo-raw-starter"
+
+[[repo]]
+url = "https://github.com/shramee/cairo-ecs"
+
+[[repo]]
+url = "https://github.com/ArkProjectNFTs/ark-project"
+
+[[repo]]
+url = "https://github.com/ArkProjectNFTs/katana-ci"
+
+[[repo]]
+url = "https://github.com/glihm/starknet-messaging-dev"
+
+[[repo]]
+url = "https://github.com/cairofiofficial"
+
+[[repo]]
+url = "https://github.com/StarkIDreal"
+
+[[repo]]
+url = "https://github.com/Stark-Wars/StarkWarsContracts"
+
+[[repo]]
+url = "https://github.com/CheDAOLabs/cryptsandcaverns"
+
+[[repo]]
+url = "https://github.com/CheDAOLabs/cryptsandcaverns-game-demo"
+
+[[repo]]
+url = "https://github.com/CheDAOLabs/cc-dojo-map"
+
+[[repo]]
+url = "https://github.com/CheDAOLabs/CheWorld"
+
+[[repo]]
+url = "https://github.com/CheDAOLabs/CheCell"
+
+[[repo]]
+url = "https://github.com/CheDAOLabs/che-verse"
+
+[[repo]]
+url = "https://github.com/CheDAOLabs/torch"

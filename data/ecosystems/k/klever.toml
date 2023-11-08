@@ -3,9 +3,17 @@ title = "Klever"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/klever-io"]
+github_organizations = ["https://github.com/klever-app"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/klever-app/.github"
+missing = true
+
+[[repo]]
+url = "https://github.com/klever-app/klever-cash"
+missing = true
+
 [[repo]]
 url = "https://github.com/klever-io/.github"
 
@@ -250,10 +258,19 @@ url = "https://github.com/klever-io/kleverchain-js"
 url = "https://github.com/klever-io/kleverchain-proxy"
 
 [[repo]]
+url = "https://github.com/klever-io/kleverchain-sdk-node"
+
+[[repo]]
 url = "https://github.com/klever-io/kleverchain-sdk-web"
 
 [[repo]]
 url = "https://github.com/klever-io/kleverchain-unity-example"
+
+[[repo]]
+url = "https://github.com/klever-io/kleverscan"
+
+[[repo]]
+url = "https://github.com/klever-io/kos-rs"
 
 [[repo]]
 url = "https://github.com/klever-io/ledger-wallet-api"
@@ -374,6 +391,7 @@ url = "https://github.com/klever-io/StockSharp"
 
 [[repo]]
 url = "https://github.com/klever-io/supabase"
+missing = true
 
 [[repo]]
 url = "https://github.com/klever-io/swap-contracts-core"
@@ -400,9 +418,6 @@ url = "https://github.com/klever-io/terraform-google-consul"
 url = "https://github.com/klever-io/terraform-provider-flagsmith"
 
 [[repo]]
-url = "https://github.com/klever-io/test-sonarCLoud"
-
-[[repo]]
 url = "https://github.com/klever-io/tron-contracts"
 
 [[repo]]
@@ -422,3 +437,7 @@ url = "https://github.com/klever-io/webrtc"
 
 [[repo]]
 url = "https://github.com/klever-io/WebRTC-swift"
+
+[[repo]]
+url = "https://github.com/klever-io/workflow-calls"
+missing = true

@@ -3,9 +3,18 @@ title = "BeamSwap"
 
 sub_ecosystems = []
 
-github_organizations = []
+github_organizations = ["https://github.com/BeamSwap"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/BeamSwap/beamswap-permit2-sdk"
+
+[[repo]]
+url = "https://github.com/BeamSwap/beamswap-sdk-core"
+
+[[repo]]
+url = "https://github.com/BeamSwap/beamswap-smart-order-router"
+
 [[repo]]
 url = "https://github.com/BeamSwap/beamswap-tokenlist"
 
@@ -14,3 +23,9 @@ url = "https://github.com/BeamSwap/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/BeamSwap/dexcandles"
+
+[[repo]]
+url = "https://github.com/BeamSwap/exosama-tokenlist"
+
+[[repo]]
+url = "https://github.com/BeamSwap/wormhole-token-list"

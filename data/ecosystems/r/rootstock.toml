@@ -1,19 +1,19 @@
 # Ecosystem Level Information
 title = "Rootstock"
 
-sub_ecosystems = ["RskSwap",
-  "RIF Token",
-  "Money on Chain"
-]
+sub_ecosystems = ["Money on Chain", "RIF Token", "RskSwap"]
 
 github_organizations = [
   "https://github.com/riflabs",
   "https://github.com/rnsdomains",
+  "https://github.com/rootstock",
   "https://github.com/rsksmart",
-  "https://github.com/rootstock"
 ]
 
 # Repositories
+[[repo]]
+url = "https://github.com/BabelFishProtocol/babelfish-dapp"
+
 [[repo]]
 url = "https://github.com/BabelFishProtocol/babelfish-phase-1"
 
@@ -123,10 +123,43 @@ url = "https://github.com/rnsdomains/rns-xamarin"
 url = "https://github.com/rnsdomains/RNSIPs"
 
 [[repo]]
+url = "https://github.com/rootstock/6858"
+
+[[repo]]
+url = "https://github.com/rootstock/boltz-backend"
+
+[[repo]]
+url = "https://github.com/rootstock/boltz-core"
+
+[[repo]]
+url = "https://github.com/rootstock/cpuminer"
+
+[[repo]]
+url = "https://github.com/rootstock/eccrypto"
+
+[[repo]]
+url = "https://github.com/rootstock/hsm"
+
+[[repo]]
+url = "https://github.com/rootstock/js-libp2p"
+
+[[repo]]
+url = "https://github.com/rootstock/js-libp2p-kad-dht"
+
+[[repo]]
+url = "https://github.com/rootstock/k-bucket"
+
+[[repo]]
+url = "https://github.com/rootstock/plug-and-trust"
+
+[[repo]]
 url = "https://github.com/rsksmart/2wp-api"
 
 [[repo]]
 url = "https://github.com/rsksmart/2wp-app"
+
+[[repo]]
+url = "https://github.com/rsksmart/airgap-iso-rootstock"
 
 [[repo]]
 url = "https://github.com/rsksmart/ansible-role-rsk-node"
@@ -552,6 +585,12 @@ url = "https://github.com/rsksmart/rif-relay-server"
 url = "https://github.com/rsksmart/rif-rollup"
 
 [[repo]]
+url = "https://github.com/rsksmart/rif-rollup-dapp-checkout"
+
+[[repo]]
+url = "https://github.com/rsksmart/rif-rollup-js-sdk"
+
+[[repo]]
 url = "https://github.com/rsksmart/rif-rollup-nuxt-core"
 
 [[repo]]
@@ -642,6 +681,15 @@ url = "https://github.com/rsksmart/rns-resolver.js-samples"
 url = "https://github.com/rsksmart/rns-sdk"
 
 [[repo]]
+url = "https://github.com/rsksmart/rootstock-integration-tests"
+
+[[repo]]
+url = "https://github.com/rsksmart/rootstock-network-settings"
+
+[[repo]]
+url = "https://github.com/rsksmart/rootstock-transaction-helper"
+
+[[repo]]
 url = "https://github.com/rsksmart/rosetta-rsk"
 
 [[repo]]
@@ -691,6 +739,9 @@ url = "https://github.com/rsksmart/rsk-next-box"
 
 [[repo]]
 url = "https://github.com/rsksmart/rsk-openapi-ui"
+
+[[repo]]
+url = "https://github.com/rsksmart/rsk-peglib"
 
 [[repo]]
 url = "https://github.com/rsksmart/rsk-plant-box"
@@ -852,6 +903,9 @@ url = "https://github.com/rsksmart/terraform-aws-rsk-node"
 url = "https://github.com/rsksmart/tokenbridge"
 
 [[repo]]
+url = "https://github.com/rsksmart/tokenbridge-federator"
+
+[[repo]]
 url = "https://github.com/rsksmart/tokenbridge-ui"
 
 [[repo]]
@@ -910,10 +964,3 @@ url = "https://github.com/rsksmart/whitelist-disabler"
 
 [[repo]]
 url = "https://github.com/rsksmart/xray-automation"
-
-[[repo]]
-url = "https://github.com/rootstock/boltz-backend"
-
-[[repo]]
-url = "https://github.com/rootstock/boltz-core"
-

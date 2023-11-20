@@ -8,9 +8,10 @@ sub_ecosystems = [
   "NFT Storage",
   "Slate Engineering Services",
   "Web3 Storage",
+  "InterPlanetary Consensus"
 ]
 
-github_organizations = ["https://github.com/filecoin-project", "https://github.com/filecoin-shipyard"]
+github_organizations = ["https://github.com/filecoin-project", "https://github.com/filecoin-shipyard","https://github.com/consensus-shipyard/"]
 
 # Repositories
 [[repo]]
@@ -71,7 +72,31 @@ url = "https://github.com/collective-dao/collectif-fevm-frontend-template"
 url = "https://github.com/collective-dao/liquid-staking"
 
 [[repo]]
+url = "https://github.com/consensus-shipyard/calibration"
+
+[[repo]]
+url = "https://github.com/consensus-shipyard/consensuslab"
+
+[[repo]]
+url = "https://github.com/consensus-shipyard/docs"
+
+[[repo]]
+url = "https://github.com/consensus-shipyard/fendermint"
+
+[[repo]]
+url = "https://github.com/consensus-shipyard/ipc"
+
+[[repo]]
+url = "https://github.com/consensus-shipyard/ipc-actors"
+
+[[repo]]
+url = "https://github.com/consensus-shipyard/ipc-ipld-resolver"
+
+[[repo]]
 url = "https://github.com/consensus-shipyard/ipc-solidity-actors"
+
+[[repo]]
+url = "https://github.com/consensus-shipyard/ipc-trampoline"
 
 [[repo]]
 url = "https://github.com/consensus-shipyard/lotus"
@@ -237,6 +262,9 @@ url = "https://github.com/filecoin-project/ent"
 
 [[repo]]
 url = "https://github.com/filecoin-project/eudico"
+
+[[repo]]
+url = "https://github.com/filecoin-project/f3"
 
 [[repo]]
 url = "https://github.com/filecoin-project/fevm-contract-tests"

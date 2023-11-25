@@ -36,6 +36,8 @@ enum ValidationError {
     MissingSubecosystem { parent: String, child: String },
 
     DuplicateRepoUrl(String),
+
+    TitleError(String),
 }
 
 impl Display for ValidationError {
@@ -46,6 +48,9 @@ impl Display for ValidationError {
             }
             ValidationError::DuplicateRepoUrl(url) => {
                 write!(f, "Duplicate repo URL: {}", url)
+            }
+            ValidationError::TitleError(file) => {
+                write!(f, "Title with leading or trailing spaces found in file: {}", file)
             }
         }
     }
@@ -92,13 +97,17 @@ fn get_toml_files(dir: &Path) -> Result<Vec<PathBuf>> {
     Ok(paths)
 }
 
-fn parse_toml_files(paths: &[PathBuf]) -> Result<EcosystemMap> {
+fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationError>)> {
     let mut ecosystems: HashMap<String, Ecosystem> = HashMap::new();
+    let mut errors = Vec::new();
     for toml_path in paths {
         let contents = read_to_string(toml_path)?;
         match toml::from_str::<Ecosystem>(&contents) {
             Ok(ecosystem) => {
                 let title = ecosystem.title.clone();
+                if title.trim() != title {
+                    errors.push(ValidationError::TitleError(toml_path.display().to_string()));
+                }
                 ecosystems.insert(title, ecosystem);
             }
             Err(err) => {
@@ -109,7 +118,7 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<EcosystemMap> {
             }
         }
     }
-    Ok(ecosystems)
+    Ok((ecosystems, errors))
 }
 
 fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
@@ -174,8 +183,9 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
 fn validate(data_path: String) -> Result<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
-        Ok(ecosystem_map) => {
-            let errors = validate_ecosystems(&ecosystem_map);
+        Ok((ecosystem_map, title_errors)) => {
+            let mut errors = validate_ecosystems(&ecosystem_map);
+            errors.extend(title_errors);
             if errors.len() > 0 {
                 for err in errors {
                     println!("{}", err);
@@ -194,9 +204,13 @@ fn validate(data_path: String) -> Result<()> {
 fn export(data_path: String, output_path: String, only_repos: bool) -> Result<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
-        Ok(ecosystem_map) => {
-            let errors = validate_ecosystems(&ecosystem_map);
+        Ok((ecosystem_map, title_errors)) => {
+            let mut errors = validate_ecosystems(&ecosystem_map);
+            errors.extend(title_errors);
             if errors.len() > 0 {
+                for err in errors {
+                    println!("{}", err);
+                }
                 std::process::exit(-1);
             }
             if only_repos {

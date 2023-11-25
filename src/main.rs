@@ -50,7 +50,7 @@ impl Display for ValidationError {
                 write!(f, "Duplicate repo URL: {}", url)
             }
             ValidationError::TitleError(file) => {
-                write!(f, "Title with leading or trailing spaces found in file: {}", file)
+                write!(f, "Title with leading/trailing space found in file: {}. Please remove the space(s) from your title.", file)
             }
         }
     }

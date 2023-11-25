@@ -38,6 +38,8 @@ enum ValidationError {
     DuplicateRepoUrl(String),
 
     TitleError(String),
+
+    EmptyEcosystem(String),
 }
 
 impl Display for ValidationError {
@@ -51,6 +53,9 @@ impl Display for ValidationError {
             }
             ValidationError::TitleError(file) => {
                 write!(f, "Title with leading/trailing space found in file: {}. Please remove the space(s) from your title.", file)
+            }
+            ValidationError::EmptyEcosystem(file) => {
+                write!(f, "Ecosystem in file {} has neither organizations nor sub-ecosystems. Please remove this. You can add it back later when/if you find its orgs / repos.", file)
             }
         }
     }
@@ -129,8 +134,14 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
 
     for ecosystem in ecosystem_map.values() {
         let mut seen_repos = HashSet::new();
+        let mut has_sub_ecosystems = false;
+        let mut has_orgs = false;
+        let mut has_repos = false;
 
         if let Some(ref sub_ecosystems) = ecosystem.sub_ecosystems {
+            if !sub_ecosystems.is_empty() {
+                has_sub_ecosystems = true;
+            }
             for sub in sub_ecosystems {
                 if !ecosystem_map.contains_key(sub) {
                     errors.push(ValidationError::MissingSubecosystem {
@@ -141,7 +152,16 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
             }
         }
 
+        if let Some(ref orgs) = ecosystem.github_organizations {
+            if !orgs.is_empty() {
+                has_orgs = true;
+            }
+        }
+
         if let Some(ref repos) = ecosystem.repo {
+            if !repos.is_empty() {
+                has_repos = true;
+            }
             for repo in repos {
                 let lowercase_url = repo.url.to_lowercase();
                 if seen_repos.contains(&lowercase_url) {
@@ -162,9 +182,13 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
                 }
             }
         }
+
+        if !(has_sub_ecosystems || has_orgs || has_repos) {
+            errors.push(ValidationError::EmptyEcosystem(ecosystem.title.clone()));
+        }
     }
 
-    if errors.len() == 0 {
+    if errors.is_empty() {
         println!(
             "Validated {} ecosystems and {} repos ({} missing)",
             ecosystem_map.len(),

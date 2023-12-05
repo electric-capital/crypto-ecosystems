@@ -3,8 +3,11 @@ title = "Avalanche"
 
 sub_ecosystems = [
   "0.exchange",
+  "Abracadabra",
+  "Allbridge",
   "AllianceBlock",
   "Apa NFT",
+  "Arable Protocol",
   "Argon",
   "Ash Avalanche",
   "Avacash",
@@ -16,6 +19,7 @@ sub_ecosystems = [
   "Avaterra Finance",
   "Avaware",
   "Avaxcadabra",
+  "Avvy Domains",
   "avme",
   "AxDAO",
   "axia-coin",
@@ -35,11 +39,13 @@ sub_ecosystems = [
   "Canopus",
   "CapxFi",
   "Cask",
+  "Celer Network cBridge",
   "Cerby Finance",
   "Complus Network",
   "Cougar Swap",
   "Curate",
   "Cycle Finance",
+  "deBridge.Finance",
   "DAI Option",
   "Dante Network",
   "Defi Kingdoms",
@@ -84,9 +90,12 @@ sub_ecosystems = [
   "ldclabs",
   "Liminal Market",
   "Liquality",
+  "Ludex Labs",
+  "LUX Defi",
   "Lydia",
   "Marketplace of the Multiverse",
   "Maximizer",
+  "Merit Circle",
   "Mole Finance",
   "MonoPayments",
   "MoreMoney",
@@ -106,6 +115,7 @@ sub_ecosystems = [
   "PandaSwap",
   "Pandora NFT",
   "Pangolin",
+  "Paraswap",
   "PartySwap",
   "Pendle",
   "Penguin Finance",
@@ -131,6 +141,7 @@ sub_ecosystems = [
   "Sputnik DeFi",
   "Stabilize",
   "StakeDAO",
+  "Stargate",
   "Steadefi",
   "Steady State Defi",
   "Step App",
@@ -138,6 +149,7 @@ sub_ecosystems = [
   "Struct Finance",
   "Suberra",
   "Swapsicle",
+  "Synapse Protocol",
   "TalentLayer",
   "Teddy Cash",
   "The Gas Station",
@@ -148,8 +160,10 @@ sub_ecosystems = [
   "VaporDex",
   "Vector Finance",
   "Vee Finance",
+  "Venly",
   "Verso Finance",
   "Wonderland",
+  "WOO Network",
   "WyndBlast",
   "Xavax",
   "xDollar",
@@ -160,20 +174,65 @@ sub_ecosystems = [
   "Zeal Farm",
 ]
 
-github_organizations = ["https://github.com/ava-labs", "https://github.com/malden-feuerstein"]
+github_organizations = ["https://github.com/ava-labs", "https://github.com/AnomalyFi", "https://github.com/DOSLabs", "https://github.com/etrapay/precompile-evm-pasta", "https://github.com/KingdomStudiosIO", "https://github.com/flare-foundation", "https://github.com/MetalBlockchain", "https://github.com/Interport-Finance", "https://github.com/everrise-ecosystem", "https://github.com/crabada", "https://github.com/XY-Finance", "https://github.com/Thor-Financial", "https://github.com/layerswap"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/007blockchaindeveloper/AVASH"
 
 [[repo]]
+url = "https://github.com/007vasy/functions-hardhat-starter-kit"
+
+[[repo]]
 url = "https://github.com/00labs/requestNetwork"
+
+[[repo]]
+url = "https://github.com/03kalven/avalanche-types-rs"
 
 [[repo]]
 url = "https://github.com/0rtis/dfktools"
 
 [[repo]]
+url = "https://github.com/0x0sub/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/0xAndersonZ/cctp-sample-app"
+
+[[repo]]
 url = "https://github.com/0xAppo/lodestar-vesting"
+
+[[repo]]
+url = "https://github.com/0xAritra/multisig.lol"
+
+[[repo]]
+url = "https://github.com/0xCalibur/0xcalibur-forge-template"
+
+[[repo]]
+url = "https://github.com/0xGoerliMainnet/cctp-sample-app"
+
+[[repo]]
+url = "https://github.com/0xHumban/0xHumban"
+
+[[repo]]
+url = "https://github.com/0xJarrett/my-precompile-evm"
+
+[[repo]]
+url = "https://github.com/0xJarrett/my-precompile-evm2"
+
+[[repo]]
+url = "https://github.com/0xKarl98/multichain-auditor"
+
+[[repo]]
+url = "https://github.com/0xPolycode/polycode-chainlink-sdk"
+
+[[repo]]
+url = "https://github.com/0xTyphonn/avalanche-network-runner"
+
+[[repo]]
+url = "https://github.com/0xTyphonn/avalanche-ops"
+
+[[repo]]
+url = "https://github.com/0xTyphonn/coreth"
 
 [[repo]]
 url = "https://github.com/0xconix/external-adapters-art-transfer"
@@ -182,13 +241,46 @@ url = "https://github.com/0xconix/external-adapters-art-transfer"
 url = "https://github.com/0xduality/lava-staking"
 
 [[repo]]
+url = "https://github.com/0xflair/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/0xkaz/avalanche-ops"
+
+[[repo]]
+url = "https://github.com/0xkaz/hypersdk"
+
+[[repo]]
+url = "https://github.com/0xkaz/indexvm"
+
+[[repo]]
+url = "https://github.com/0xkaz/spacesvm"
+
+[[repo]]
+url = "https://github.com/0xkaz/timestampvm"
+
+[[repo]]
+url = "https://github.com/0xkyng/DegenGamingToken"
+
+[[repo]]
+url = "https://github.com/0xkyng/tokenVM"
+
+[[repo]]
 url = "https://github.com/0xnivek/joe-liquidator"
+
+[[repo]]
+url = "https://github.com/0xprames/firewood-mit"
+
+[[repo]]
+url = "https://github.com/0xruhum/popcorn-contracts"
 
 [[repo]]
 url = "https://github.com/0xsamsar/metafarmerx"
 
 [[repo]]
 url = "https://github.com/0xsequence/wallet-contracts"
+
+[[repo]]
+url = "https://github.com/0xshikhar/chainfolio"
 
 [[repo]]
 url = "https://github.com/0xsolid22/gemgame"
@@ -206,7 +298,1567 @@ url = "https://github.com/2pinetwork/contracts"
 url = "https://github.com/3numdao/ethercache"
 
 [[repo]]
+url = "https://github.com/APU-Blockchain-Cryptocurrency-Club/LinkedOutAndAbout"
+
+[[repo]]
+url = "https://github.com/ATunaMelt/smart-picks"
+
+[[repo]]
+url = "https://github.com/AVATANetwork/avat-token-contract"
+
+[[repo]]
+url = "https://github.com/Abdonitoo/timestampvm-rs"
+
+[[repo]]
+url = "https://github.com/Abhay-2811/PixelPals"
+
+[[repo]]
+url = "https://github.com/Abhi270303/unfold2023"
+
+[[repo]]
+url = "https://github.com/Abracadabra-money/abracadabra-money-contracts"
+
+[[repo]]
+url = "https://github.com/Achthar/requiem-governance-frontend"
+
+[[repo]]
+url = "https://github.com/AdeValerio/Building-on-Avalanche---ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/AdeValerio/ETH-AVAX-Function-Errors"
+
+[[repo]]
+url = "https://github.com/AdeValerio/ETH-AVAX-FunctionFrontend"
+
+[[repo]]
+url = "https://github.com/Adelabuadeleke/devfest-lagos-interchain-dapp-workshop"
+
+[[repo]]
+url = "https://github.com/Akenta5678/smart-contracts"
+
+[[repo]]
+url = "https://github.com/Akira717/SushiSwap_Interface"
+
+[[repo]]
+url = "https://github.com/AkylbekAD/todo-smart-contract"
+
+[[repo]]
+url = "https://github.com/AlMags/Types_Of_Functions_eth_avax"
+
+[[repo]]
+url = "https://github.com/AlMags/building_on_avalanche"
+
+[[repo]]
+url = "https://github.com/AlchemismCrypto/crypto-sniper-bot"
+
+[[repo]]
+url = "https://github.com/AlpsFinance/alpsfinance-website"
+
+[[repo]]
+url = "https://github.com/Alvinjohny/ETH-AVAX-PROOF-Intermediate-EVM-Course-MODULE-1"
+
+[[repo]]
+url = "https://github.com/Alvinjohny/ETH-AVAX-PROOF-Intermediate-EVM-Course-MODULE-2"
+
+[[repo]]
+url = "https://github.com/Alvinjohny/ETH-AVAX-PROOF-Intermediate-EVM-Course-MODULE-3"
+
+[[repo]]
+url = "https://github.com/Alvinjohny/ETH-AVAX-PROOF-Intermediate-EVM-Course-MODULE-4"
+
+[[repo]]
+url = "https://github.com/AlyannaMorata/Avalanche-Subnets"
+
+[[repo]]
+url = "https://github.com/AlyannaMorata/Functions-and-Errors---ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/Ameralameri/coreth"
+
+[[repo]]
+url = "https://github.com/AmineAfia/aaa"
+
+[[repo]]
+url = "https://github.com/AmirGhMohseni/contracts"
+
+[[repo]]
+url = "https://github.com/AnEntrypoint/swagtag-avax"
+
+[[repo]]
+url = "https://github.com/AnandK-2024/AVA-precompile"
+
+[[repo]]
+url = "https://github.com/AnandK-2024/My_Ava_EVM"
+
+[[repo]]
+url = "https://github.com/AndesBlockchain/CursoCopec"
+
+[[repo]]
+url = "https://github.com/Andyvargtz/hypersdk"
+
+[[repo]]
+url = "https://github.com/Andyvargtz/my_teleporter"
+
+[[repo]]
+url = "https://github.com/Andyvargtz/precompile-evm-academy"
+
+[[repo]]
+url = "https://github.com/Angel-Petrov/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/AngleProtocol/borrow-contracts"
+
+[[repo]]
+url = "https://github.com/AngleProtocol/merkl-contracts"
+
+[[repo]]
+url = "https://github.com/AnnaNodes/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/AnomalyFi/ansible-avalanche-collection"
+
+[[repo]]
+url = "https://github.com/AnomalyFi/hypersdk"
+
+[[repo]]
+url = "https://github.com/AnomalyFi/nodekit-sdk"
+
+[[repo]]
+url = "https://github.com/AnomalyFi/nodekit-seq"
+
+[[repo]]
+url = "https://github.com/AnthonE/joe-core"
+
+[[repo]]
+url = "https://github.com/Anurag000-rgb/Rarestate-Marketplace"
+
+[[repo]]
+url = "https://github.com/ApeWorX/ape-avalanche"
+
+[[repo]]
+url = "https://github.com/Applied-Blockchain-Lab/ets-js-library"
+
+[[repo]]
+url = "https://github.com/Arcaneless/flashswap-arbitrage"
+
+[[repo]]
+url = "https://github.com/ArrowDFMs/Summit-2022-Hardhat-Workshop"
+
+[[repo]]
+url = "https://github.com/ArtBautista/Final-Project-Degen-Token-ERC-20-"
+
+[[repo]]
+url = "https://github.com/ArtashesMargaryan/emptyProject"
+
+[[repo]]
+url = "https://github.com/ArturVargas/aval-precompile-evm"
+
+[[repo]]
+url = "https://github.com/Arvinfinance/contracts"
+
+[[repo]]
+url = "https://github.com/Aryamanraj/unfold_apis"
+
+[[repo]]
+url = "https://github.com/Aryamanraj/unfold_system"
+
+[[repo]]
+url = "https://github.com/Aryan9592/borrow-contracts"
+
+[[repo]]
+url = "https://github.com/Aryan9592/teleporter"
+
+[[repo]]
+url = "https://github.com/AshAvalanche/M1"
+
+[[repo]]
+url = "https://github.com/AshAvalanche/ansible-avalanche-collection"
+
+[[repo]]
+url = "https://github.com/AshAvalanche/ash-rs"
+
+[[repo]]
+url = "https://github.com/AshAvalanche/avalanche-monitoring"
+
+[[repo]]
+url = "https://github.com/AshAvalanche/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/AshAvalanche/avalanche-types-rs"
+
+[[repo]]
+url = "https://github.com/AshAvalanche/hypersdk"
+
+[[repo]]
+url = "https://github.com/AshAvalanche/spacesvm"
+
+[[repo]]
+url = "https://github.com/AshAvalanche/timestampvm"
+
+[[repo]]
+url = "https://github.com/AthenaDAO/Athena-Contract"
+
+[[repo]]
+url = "https://github.com/AtmegaBuzz/hypersdk"
+
+[[repo]]
+url = "https://github.com/Avackathon/contracts"
+
+[[repo]]
+url = "https://github.com/Avackathon/frontend"
+
+[[repo]]
+url = "https://github.com/Avackathon/infra"
+
+[[repo]]
+url = "https://github.com/Avackathon/subnav"
+
+[[repo]]
+url = "https://github.com/AvadoDServer/AVADO-DNP-AvalancheGo"
+
+[[repo]]
+url = "https://github.com/Avelous/multisig.lol"
+
+[[repo]]
+url = "https://github.com/AvianFinance/Backend"
+
+[[repo]]
+url = "https://github.com/AwesomeEcosystem/bend"
+
+[[repo]]
+url = "https://github.com/BGHProjects/Quadratic-Voting-dApp"
+
+[[repo]]
+url = "https://github.com/BTCLTC/interface"
+
+[[repo]]
+url = "https://github.com/BaldwinCepeda/avaxankr"
+
+[[repo]]
+url = "https://github.com/BanklessLabs/v4-draw-results"
+
+[[repo]]
+url = "https://github.com/Beardev118/hector-contracts"
+
+[[repo]]
+url = "https://github.com/BeforeCrypto/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/BennettDavis36/M1"
+
+[[repo]]
+url = "https://github.com/BilliDrop-Dev/chainlink-automation-test"
+
+[[repo]]
+url = "https://github.com/Bingkaa/AvalancheHyperSDK"
+
+[[repo]]
+url = "https://github.com/Birdza87/hypersdk"
+
+[[repo]]
+url = "https://github.com/Bisonai/data-feed-consumer"
+
+[[repo]]
+url = "https://github.com/BlockJayn/DFKDuelBot-AVAX-DeFi-Kingdoms"
+
+[[repo]]
+url = "https://github.com/Blockchain-for-Real-Estate/smart-contracts"
+
+[[repo]]
+url = "https://github.com/BlockchainMasters21/Wonderland-Frontend1"
+
+[[repo]]
+url = "https://github.com/Bookcliff/awesome-web3"
+
+[[repo]]
+url = "https://github.com/Bordeauxxx02/Avalanche-HyperSDK"
+
+[[repo]]
+url = "https://github.com/BossBSJ/steadyindex-contract"
+
+[[repo]]
+url = "https://github.com/BowTiedBaboon/baboonbots"
+
+[[repo]]
+url = "https://github.com/BradMcFall/MDNANFT"
+
+[[repo]]
+url = "https://github.com/BrazilRaw/avalanche-types-rs"
+
+[[repo]]
+url = "https://github.com/Buffnick31/Observer-Node"
+
+[[repo]]
+url = "https://github.com/BuidlGuidl/multisig.lol"
+
+[[repo]]
+url = "https://github.com/BuildBearLabs/scaffold-eth"
+
+[[repo]]
+url = "https://github.com/BunsDev/joe-dex-lens"
+
+[[repo]]
+url = "https://github.com/BunsDev/lava-staking-avaxmoon"
+
+[[repo]]
+url = "https://github.com/Caetnip/Mod4avax"
+
+[[repo]]
+url = "https://github.com/Canavarasa/spark-interface"
+
+[[repo]]
+url = "https://github.com/Canavarasa/xdeployer"
+
+[[repo]]
+url = "https://github.com/CandlePlatforms/cndlgo"
+
+[[repo]]
+url = "https://github.com/Casten-io/casten-frontend"
+
+[[repo]]
+url = "https://github.com/CatalystJesal/Hardhat-boilerplate"
+
+[[repo]]
+url = "https://github.com/CavalRe/hypersdk"
+
+[[repo]]
+url = "https://github.com/CavalRe/indexvm"
+
+[[repo]]
+url = "https://github.com/CavalRe/multiswap"
+
+[[repo]]
+url = "https://github.com/CavalRe/yak-aggregator"
+
+[[repo]]
+url = "https://github.com/CavernPerson/webapp"
+
+[[repo]]
+url = "https://github.com/Cestafinance/cesta-app"
+
+[[repo]]
+url = "https://github.com/Chris-Suo/BabyDownStairs"
+
+[[repo]]
+url = "https://github.com/ChrisKath/create-ethers-app"
+
+[[repo]]
+url = "https://github.com/CinDrallig/staking-test"
+
+[[repo]]
+url = "https://github.com/ClAdora/Advance-HyperSDK"
+
+[[repo]]
+url = "https://github.com/Cocodrilette/precompile-evm"
+
+[[repo]]
+url = "https://github.com/Code0Breaker/wm-contract"
+
+[[repo]]
+url = "https://github.com/CodeBlocker52/my-evm-precompile"
+
+[[repo]]
+url = "https://github.com/CodeDecoder13/Avalanche-HyperSDK"
+
+[[repo]]
+url = "https://github.com/CodeDecoder13/Avalanche-Subnets"
+
+[[repo]]
+url = "https://github.com/CodeDecoder13/Building-on-Avalanche---ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/CodeDecoder13/Smart-Contract-Management---ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/CodeLinkIO/MoveAndWhap"
+
+[[repo]]
+url = "https://github.com/CodeSandwich/functions-hardhat-starter-kit"
+
+[[repo]]
+url = "https://github.com/CoinMasterJ/avax-academy"
+
+[[repo]]
+url = "https://github.com/CoinMasterJ/my-precompile-evm"
+
+[[repo]]
+url = "https://github.com/Collectiverse/nftseedcontracts"
+
+[[repo]]
+url = "https://github.com/Colm3na/DAppNodePackage-avalanche"
+
+[[repo]]
+url = "https://github.com/ColonyLab/ColonyAppV1"
+
+[[repo]]
+url = "https://github.com/ConsiderItDone/LandslideCore"
+
+[[repo]]
+url = "https://github.com/Contreux/strike-protocol"
+
+[[repo]]
+url = "https://github.com/CoopTRUE/SynthEQ"
+
+[[repo]]
+url = "https://github.com/CordeliaBoyance/avalanchego"
+
+[[repo]]
+url = "https://github.com/CoreNodes/dapp.encore.nodes"
+
+[[repo]]
+url = "https://github.com/Credit-First/NFTMagics-frontend"
+
+[[repo]]
+url = "https://github.com/CristianNitu/joe-tokenlists"
+
+[[repo]]
+url = "https://github.com/CryptoCoder50/interface"
+
+[[repo]]
+url = "https://github.com/CryptoKG94/Gatherswap"
+
+[[repo]]
+url = "https://github.com/CryptoKass/chainmap"
+
+[[repo]]
+url = "https://github.com/CryptoManufaktur-io/avalanche-docker"
+
+[[repo]]
+url = "https://github.com/CryptoPenguin2/joe-tokenlists"
+
+[[repo]]
+url = "https://github.com/Cryptorubic/multi-proxy-rubic"
+
+[[repo]]
+url = "https://github.com/CyberAakash/unfold2023"
+
+[[repo]]
+url = "https://github.com/CygnusDAO/price-oracle"
+
+[[repo]]
+url = "https://github.com/DCTDAO/WDCT-smartcontract"
+
+[[repo]]
+url = "https://github.com/DEEPML1818/flashloan"
+
+[[repo]]
+url = "https://github.com/DEEPML1818/flashloan-liq"
+
+[[repo]]
+url = "https://github.com/DHbas/MyDegenToken"
+
+[[repo]]
+url = "https://github.com/DODOEX/widgets"
+
+[[repo]]
+url = "https://github.com/DOSLabs/DOS"
+
+[[repo]]
+url = "https://github.com/DY-76/HAGO3"
+
+[[repo]]
+url = "https://github.com/DaddyUnikii/awesome-web3"
+
+[[repo]]
+url = "https://github.com/DakshKulkarni/Valak"
+
+[[repo]]
+url = "https://github.com/Dale0122/avalance-advanced"
+
+[[repo]]
+url = "https://github.com/Dampilov/TodoList"
+
+[[repo]]
+url = "https://github.com/DebuGGaJav/TOKEN"
+
+[[repo]]
+url = "https://github.com/DeepDoge/dweb-forum"
+
+[[repo]]
+url = "https://github.com/DeepWaterStudios/ferdyflip-vrf-server"
+
+[[repo]]
+url = "https://github.com/Defi-Coders/CryptoSniper"
+
+[[repo]]
+url = "https://github.com/Definerds/sushiswap"
+
+[[repo]]
+url = "https://github.com/Degis-Insurance/Degis-SCProtection"
+
+[[repo]]
+url = "https://github.com/DeltaPrimeLabs/deltaprime-primeloans"
+
+[[repo]]
+url = "https://github.com/Determinant/firewood"
+
+[[repo]]
+url = "https://github.com/Determinant/firewood-avax"
+
+[[repo]]
+url = "https://github.com/Determinant/qevm"
+
+[[repo]]
+url = "https://github.com/DevPelz/TokenVm"
+
+[[repo]]
+url = "https://github.com/DevSwayam/HyperHack"
+
+[[repo]]
+url = "https://github.com/DevSwayam/unfold2023"
+
+[[repo]]
+url = "https://github.com/Devilla/avalanche-truffle"
+
+[[repo]]
+url = "https://github.com/Dexalot/contracts"
+
+[[repo]]
+url = "https://github.com/Dias878/deltaprime-primeloans"
+
+[[repo]]
+url = "https://github.com/Dimitar-St/hypersdk"
+
+[[repo]]
+url = "https://github.com/DinamikoApp/Dinamiko"
+
+[[repo]]
+url = "https://github.com/DoDAO-io/dodao-onboarding-ui"
+
+[[repo]]
+url = "https://github.com/DogukanGun/UniversityHackathon"
+
+[[repo]]
+url = "https://github.com/DreamSky1996/strip-frontend"
+
+[[repo]]
+url = "https://github.com/DuanYuFi/GPT-Web"
+
+[[repo]]
+url = "https://github.com/EAMDAO/cropium-frontend"
+
+[[repo]]
+url = "https://github.com/ENEDEX-DEX/SmartContracts"
+
+[[repo]]
+url = "https://github.com/EZChain-core/ezchain-explorer"
+
+[[repo]]
+url = "https://github.com/EZChain-core/ezchain-wallet-sdk"
+
+[[repo]]
+url = "https://github.com/EasyCarbon/FiatLux"
+
+[[repo]]
+url = "https://github.com/Egatlov/awesome-web3"
+
+[[repo]]
+url = "https://github.com/ElasticSwap/elasticswap"
+
+[[repo]]
+url = "https://github.com/ElementalDao/unipos-web"
+
+[[repo]]
+url = "https://github.com/EmperorRP/payez"
+
+[[repo]]
+url = "https://github.com/Eren0180/avalanche-bridge-resources"
+
+[[repo]]
+url = "https://github.com/ExploitDarlenePRO/Ambire-Wallet-Vulnerability"
+
+[[repo]]
+url = "https://github.com/FLUUST/joe-tokenlists"
+
+[[repo]]
+url = "https://github.com/FantasmFinance/fantasm-contracts"
+
+[[repo]]
+url = "https://github.com/Feliz-Labs/avax-mp-sdk"
+
+[[repo]]
+url = "https://github.com/Fem26/DegenToken"
+
+[[repo]]
+url = "https://github.com/Fem26/Type_of_FUNCTIONS_ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/FinalScript/nft-game"
+
+[[repo]]
+url = "https://github.com/FlipsideCrypto/avalanche-models"
+
+[[repo]]
+url = "https://github.com/Forart-ai/exchange-contract"
+
+[[repo]]
+url = "https://github.com/Foxlottery/foxlottery-interface"
+
+[[repo]]
+url = "https://github.com/Foxlottery/nextjs-web3-starterkit"
+
+[[repo]]
+url = "https://github.com/FrankLoud/LandslideCore"
+
+[[repo]]
+url = "https://github.com/Friends-of-Groot-Society/groot-material"
+
+[[repo]]
+url = "https://github.com/Friktion-Labs/frontend"
+
+[[repo]]
+url = "https://github.com/Frixoe/avalanche-monitoring"
+
+[[repo]]
+url = "https://github.com/FuzzB0t/awesome-web3"
+
+[[repo]]
+url = "https://github.com/GACWR/evm-cosmos-gmp-sample"
+
+[[repo]]
+url = "https://github.com/GGueco/Building-on-Avalanche---ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/GGueco/Functions-and-Errors---ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/GHOSU1012/smartnodes-frontend-react-dex"
+
+[[repo]]
+url = "https://github.com/Garinmckayl/TheRedBladeDAOContracts"
+
+[[repo]]
+url = "https://github.com/Gauss-Gang/Noble-NFT-Marketplace"
+
+[[repo]]
+url = "https://github.com/Genie8848/AVAX-NFT-Marketplace"
+
+[[repo]]
+url = "https://github.com/GigaHierz/matchme.nft"
+
+[[repo]]
+url = "https://github.com/GioacchiniMarat/subnet-evm"
+
+[[repo]]
+url = "https://github.com/GitMac32/ipfsdapp"
+
+[[repo]]
+url = "https://github.com/Gitr007/awesome-web3"
+
+[[repo]]
+url = "https://github.com/Gnosis-Auction/auction-graph"
+
+[[repo]]
+url = "https://github.com/Gnosis-Auction/launch-auction-ux"
+
+[[repo]]
+url = "https://github.com/Gorgeorge/interface"
+
+[[repo]]
+url = "https://github.com/GoshgarIsmayilov/PTTS"
+
+[[repo]]
+url = "https://github.com/GoshgarIsmayilov/PVSS"
+
+[[repo]]
+url = "https://github.com/GoshgarIsmayilov/Proofle"
+
+[[repo]]
+url = "https://github.com/GraiemBell/Blockchain-Development-Resources"
+
+[[repo]]
+url = "https://github.com/Gravita-Protocol/layer-zero"
+
+[[repo]]
+url = "https://github.com/Graviton-One/graviton-contracts"
+
+[[repo]]
+url = "https://github.com/GregTakeo25/sushixswap-v2"
+
+[[repo]]
+url = "https://github.com/GrowthDeFi/v2-farming"
+
+[[repo]]
+url = "https://github.com/GtLibrary/gtlibrary-ico"
+
+[[repo]]
+url = "https://github.com/GuardianAudits/GMX-6"
+
+[[repo]]
+url = "https://github.com/GuruDev0807/Polywrap-Demo-URI-Resolver-As-Wrapper"
+
+[[repo]]
+url = "https://github.com/HackArchive/hypersdk"
+
+[[repo]]
+url = "https://github.com/Hackr-Sach/CPR-institutional-management"
+
+[[repo]]
+url = "https://github.com/HacopianCarmynn95/avalanchejs"
+
+[[repo]]
+url = "https://github.com/HammetteAlizah/avalanchego"
+
+[[repo]]
+url = "https://github.com/HarmonyZKDAO/lossless-ui"
+
+[[repo]]
+url = "https://github.com/Hector-Network/hector-contracts"
+
+[[repo]]
+url = "https://github.com/HedgeFarm/alpha1-contracts"
+
+[[repo]]
+url = "https://github.com/Hedgefund-defi/joe-tokenlists"
+
+[[repo]]
+url = "https://github.com/Heitao9/awesome-web3"
+
+[[repo]]
+url = "https://github.com/Hejartech/avalanche-faucet-hejar"
+
+[[repo]]
+url = "https://github.com/Helios-Chain/subnet-evm-Helios-"
+
+[[repo]]
+url = "https://github.com/Hotpot-Swap/hotpot-swap-interface"
+
+[[repo]]
+url = "https://github.com/Hsin1025/my-precompile-evm"
+
+[[repo]]
+url = "https://github.com/HudDavi/seadrop"
+
+[[repo]]
+url = "https://github.com/HuyHoang307/phowswap-interface"
+
+[[repo]]
+url = "https://github.com/ITinanceGmbH/hypersdk"
+
+[[repo]]
+url = "https://github.com/InfiniteCoder100/kyc-tokenvm"
+
+[[repo]]
+url = "https://github.com/Inspirabe/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/Interchain-Systems/avalanchego-prior-work"
+
+[[repo]]
+url = "https://github.com/IskraNikolova/VScout"
+
+[[repo]]
+url = "https://github.com/ItsJackAnton/jacksa999.github.io"
+
+[[repo]]
+url = "https://github.com/Ivan-Ivanitskiy/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/J-dev740/hypersdk"
+
+[[repo]]
+url = "https://github.com/JCGit2018/hypersdk"
+
+[[repo]]
+url = "https://github.com/JSH1995/HAGO"
+
+[[repo]]
+url = "https://github.com/JSH1995/HAGO2"
+
+[[repo]]
+url = "https://github.com/JacobEverly/ACPs"
+
+[[repo]]
+url = "https://github.com/JacobEverly/hypersdk"
+
+[[repo]]
+url = "https://github.com/Jamili88/yield-yak-avalanche-contracts"
+
+[[repo]]
+url = "https://github.com/JenisseFicorilli/avalanchego"
+
+[[repo]]
+url = "https://github.com/Jenny0115/awesome-web3"
+
+[[repo]]
+url = "https://github.com/Jermanium1/AVAXADVMOD2"
+
+[[repo]]
+url = "https://github.com/Jewely0/oft-transfer-script"
+
+[[repo]]
+url = "https://github.com/JheyBerry/avalanche-pathway"
+
+[[repo]]
+url = "https://github.com/JohnRising/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/JokeDAO/JokeDaoV2Dev"
+
+[[repo]]
+url = "https://github.com/JuanXavier/ng-questplay"
+
+[[repo]]
+url = "https://github.com/JudioLam9/beefy-contracts"
+
+[[repo]]
+url = "https://github.com/Julian-dev28/BalanceERC721Script"
+
+[[repo]]
+url = "https://github.com/Julian-dev28/upgradeable-contract-quickstart"
+
+[[repo]]
+url = "https://github.com/Jusharra/ccip-cross-chain-nft"
+
+[[repo]]
+url = "https://github.com/JustAnotherDevv/Lester-EthLondon-2023"
+
+[[repo]]
+url = "https://github.com/Kagrenzel/Avalanche-HyperSDK"
+
+[[repo]]
+url = "https://github.com/Kagrenzel/Avalanche-Subnets"
+
+[[repo]]
+url = "https://github.com/Kagrenzel/Building-on-Avalanche---ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/KaleabQuinney/avalanchego"
+
+[[repo]]
+url = "https://github.com/KassandraFinance/kassandra-frontend"
+
+[[repo]]
+url = "https://github.com/Kayanski/valha-defi-connectors"
+
+[[repo]]
+url = "https://github.com/KazunguDev/alpha-wallet-android"
+
+[[repo]]
+url = "https://github.com/Keen-Sheen/AVAX"
+
+[[repo]]
+url = "https://github.com/KennethLim11/Building-on-Avalanche-final-project"
+
+[[repo]]
+url = "https://github.com/Kikis2021/chains"
+
+[[repo]]
+url = "https://github.com/Kiwi-Protocol/Backend"
+
+[[repo]]
+url = "https://github.com/Kiwi-Protocol/kiwi-contracts"
+
+[[repo]]
+url = "https://github.com/Kiwi-Protocol/kiwi-interface"
+
+[[repo]]
+url = "https://github.com/KotaMorikawa/My-Precompile-EVM"
+
+[[repo]]
+url = "https://github.com/KrisnaArynasta/API-smart-contract-caller-golang"
+
+[[repo]]
+url = "https://github.com/Kunkka0822/spot-price-aggregator"
+
+[[repo]]
+url = "https://github.com/Kushaalrajiv/hypersdk"
+
+[[repo]]
+url = "https://github.com/KyberNetwork/ks-elastic-sc"
+
+[[repo]]
+url = "https://github.com/KyleDV/Building-on-Avalanche"
+
+[[repo]]
+url = "https://github.com/Kyte-Research/kyte-core-contracts"
+
+[[repo]]
+url = "https://github.com/Laedrianus/hypersdkStart"
+
+[[repo]]
+url = "https://github.com/LaetynAjose1985/avalanchego"
+
+[[repo]]
+url = "https://github.com/LandslideNetwork/LandslideCore"
+
+[[repo]]
+url = "https://github.com/LayerZero-Labs/oft-transfer-script"
+
+[[repo]]
+url = "https://github.com/Le4kno3/DappProjects"
+
+[[repo]]
+url = "https://github.com/Le4kno3/Solidity-Contracts-Practice"
+
+[[repo]]
+url = "https://github.com/LedgerHQ/app-avalanche"
+
+[[repo]]
+url = "https://github.com/LeetSwap/leet-aggregator"
+
+[[repo]]
+url = "https://github.com/LimeChain/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/LimyuA/Avalanche-HyperSDK"
+
+[[repo]]
+url = "https://github.com/LimyuA/Building-on-Avalanche-ETHAVAX"
+
+[[repo]]
+url = "https://github.com/LimyuA/Smart-Contract-Management---ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/LimyuA/Types-of-Functions---ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/Lissless/AvalancheGoPlayground"
+
+[[repo]]
+url = "https://github.com/Lodestar-Finance/lodestar-aggregator"
+
+[[repo]]
+url = "https://github.com/Loque18/arenamon-oc"
+
+[[repo]]
+url = "https://github.com/Lucky4Angel/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/LukeSamkharadze/community-buidler"
+
+[[repo]]
+url = "https://github.com/LuozhuZhang/cryo"
+
+[[repo]]
+url = "https://github.com/LybraFinance/joe-tokenlists"
+
+[[repo]]
+url = "https://github.com/MXCzkEVM/aave-v3-interface"
+
+[[repo]]
+url = "https://github.com/MaNaMee/ETH-AVAX_1st_Proj"
+
+[[repo]]
+url = "https://github.com/MaNaMee/ETH_AVAX_MOD2PROJECT"
+
+[[repo]]
+url = "https://github.com/MaNaMee/ETH_AVAX_MOD3PROJECT"
+
+[[repo]]
+url = "https://github.com/MaNaMee/ETH_AVAX_MOD4PROJECT"
+
+[[repo]]
+url = "https://github.com/MarcoJSY/ETHAVAXPROOF_4"
+
+[[repo]]
+url = "https://github.com/MarsIfeanyi/DeFi-Empire-on-EVM-Subnet"
+
+[[repo]]
+url = "https://github.com/MarsIfeanyi/Degen-Game-Token"
+
+[[repo]]
+url = "https://github.com/MarsIfeanyi/Tokenvm-Subnet-Using-HyperSDK"
+
+[[repo]]
+url = "https://github.com/MasterZumbah/precompiles"
+
+[[repo]]
+url = "https://github.com/MattKraatz/vejoe-calc"
+
+[[repo]]
+url = "https://github.com/MattRHall/ava-labs-precompile"
+
+[[repo]]
+url = "https://github.com/Matthlib/ERC20_rewardToken"
+
+[[repo]]
+url = "https://github.com/MattyChoi/lendio"
+
+[[repo]]
+url = "https://github.com/MazoAlijah/eth-avax-metacrafters"
+
+[[repo]]
+url = "https://github.com/MazoAlijah/eth-avax4"
+
+[[repo]]
+url = "https://github.com/MazoAlijah/ethavax2"
+
+[[repo]]
+url = "https://github.com/Mclean7755/awesome-web3"
+
+[[repo]]
+url = "https://github.com/Mean-Finance/sdk"
+
+[[repo]]
+url = "https://github.com/Meharab/Generative-PFP"
+
+[[repo]]
+url = "https://github.com/MetalBlockchain/coreth"
+
+[[repo]]
+url = "https://github.com/MetalBlockchain/ledger-metal"
+
+[[repo]]
+url = "https://github.com/MetalBlockchain/metal-rosetta"
+
+[[repo]]
+url = "https://github.com/MetalBlockchain/spacesvm"
+
+[[repo]]
+url = "https://github.com/Metapolis21/metamints-app-v2"
+
+[[repo]]
+url = "https://github.com/Metapolis21/polisEcoSystem-v2"
+
+[[repo]]
+url = "https://github.com/MichaelMacaulay/awesome-web3"
+
+[[repo]]
+url = "https://github.com/MiltonsDAO/miltonsdao"
+
+[[repo]]
+url = "https://github.com/Mohd-Taqiuddin/Avalanche-simple-DApp"
+
+[[repo]]
+url = "https://github.com/MohithSuresh/Cross-chain_NFT_CCIP"
+
+[[repo]]
+url = "https://github.com/Moisto/De-Storage"
+
+[[repo]]
+url = "https://github.com/MoreMoney-Finance/liquidation-bot"
+
+[[repo]]
+url = "https://github.com/MoritzSchwerer/ERC-20-Gouvernance"
+
+[[repo]]
+url = "https://github.com/MoritzSchwerer/HardhatBase"
+
+[[repo]]
+url = "https://github.com/MoritzSchwerer/simpleNft"
+
+[[repo]]
+url = "https://github.com/MotusProtocol/core"
+
+[[repo]]
+url = "https://github.com/Mouradif/avalanche-cli"
+
+[[repo]]
+url = "https://github.com/Mtsurve/precompiles"
+
+[[repo]]
+url = "https://github.com/MuhammadAnas786/UpgradableContracts"
+
+[[repo]]
+url = "https://github.com/Musashi13/ccip-cross-chain-nft"
+
+[[repo]]
+url = "https://github.com/Mycelium-Lab/dWill_client"
+
+[[repo]]
+url = "https://github.com/NadavPeled1998/batcher"
+
+[[repo]]
+url = "https://github.com/Naim-Bijapure/multisig.lol"
+
+[[repo]]
+url = "https://github.com/Ncookiez/pooltogether-multidelegator-preview"
+
+[[repo]]
+url = "https://github.com/NestedFi/nested-core-lego"
+
+[[repo]]
+url = "https://github.com/Nickforall/awesome-web3"
+
+[[repo]]
+url = "https://github.com/NotPeopling2day/ape-avalanche"
+
+[[repo]]
+url = "https://github.com/NovaBloq/awesome-web3"
+
+[[repo]]
+url = "https://github.com/Nuttymoon/ansible-avalanche-collection"
+
+[[repo]]
+url = "https://github.com/Nuttymoon/ansible-avalanche-getting-started"
+
+[[repo]]
+url = "https://github.com/Nuttymoon/christmas-eth"
+
+[[repo]]
+url = "https://github.com/Olaaa30/StakeHolder"
+
+[[repo]]
+url = "https://github.com/Olanetsoft/multichain-crypto-wallet"
+
+[[repo]]
+url = "https://github.com/Omkar-Ghongade/Web3Verse"
+
+[[repo]]
+url = "https://github.com/OneByte-Technologies/p-chain-staking-code"
+
+[[repo]]
+url = "https://github.com/OneByte-Technologies/p-chain-staking-code-latest"
+
+[[repo]]
+url = "https://github.com/OpenDive/r-subnet-evm"
+
+[[repo]]
+url = "https://github.com/Palakkkkkkkkkk/METACRAFTERS-ETH-AVAX-MODULE-2"
+
+[[repo]]
+url = "https://github.com/PalmDAO/PalmDApp"
+
+[[repo]]
+url = "https://github.com/Patavix/awesome-web3"
+
+[[repo]]
+url = "https://github.com/Paul4912/crabadabots"
+
+[[repo]]
+url = "https://github.com/PearBlockchain/webwallet"
+
+[[repo]]
+url = "https://github.com/Pelumi527/Donate"
+
+[[repo]]
+url = "https://github.com/PercivalZhang/Web3SwissKnife"
+
+[[repo]]
+url = "https://github.com/Perelyn-sama/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/Permissionless-Software-Foundation/avax-bridge"
+
+[[repo]]
+url = "https://github.com/Permissionless-Software-Foundation/avax-cli-wallet"
+
+[[repo]]
+url = "https://github.com/Permissionless-Software-Foundation/avax-dex"
+
+[[repo]]
+url = "https://github.com/Permissionless-Software-Foundation/minimal-avax-wallet"
+
+[[repo]]
+url = "https://github.com/Permissionless-Software-Foundation/psf-avax-wallet"
+
+[[repo]]
+url = "https://github.com/Permissionless-Software-Foundation/slp-avax-bridge"
+
+[[repo]]
+url = "https://github.com/Phy-ve/layer_zero_v1.1"
+
+[[repo]]
+url = "https://github.com/PillarGame/TokenSales"
+
+[[repo]]
+url = "https://github.com/PinkDiamond1/token-geyser-v2"
+
+[[repo]]
+url = "https://github.com/PinkDiamond1/xsvm"
+
+[[repo]]
+url = "https://github.com/PiyushSuthar/hypersdk"
+
+[[repo]]
+url = "https://github.com/PiyushSuthar/oxygene"
+
+[[repo]]
+url = "https://github.com/Pokesi/AVAX-ERC20"
+
+[[repo]]
+url = "https://github.com/Pokesi/XOPRSTAKE"
+
+[[repo]]
+url = "https://github.com/Popcorn-Limited/contracts"
+
+[[repo]]
+url = "https://github.com/Populus-Finance/defi-contracts"
+
+[[repo]]
+url = "https://github.com/PortalFantasy/smart-contracts-interview-exercises"
+
+[[repo]]
+url = "https://github.com/PowVT/multisig.lol"
+
+[[repo]]
+url = "https://github.com/Pragma-Technologies/pragma-web-utils"
+
+[[repo]]
+url = "https://github.com/PragmaticDLT/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/PranayKumar02/my-precompile-evm"
+
+[[repo]]
+url = "https://github.com/ProjectSwaptor/swaptor-monorepo"
+
+[[repo]]
+url = "https://github.com/PtitLuca/aleph-ts"
+
+[[repo]]
+url = "https://github.com/PushinSt/TicTacToe-hardhat-ilink"
+
+[[repo]]
+url = "https://github.com/PushinSt/todoList-hardhat-ilink"
+
+[[repo]]
+url = "https://github.com/QingyangKong/Chainlink-bootcamp-day2"
+
+[[repo]]
+url = "https://github.com/QuantumXO/bigbang"
+
+[[repo]]
+url = "https://github.com/Quantumlyy/eth-nft-display"
+
+[[repo]]
+url = "https://github.com/RPSConstellation/contracts"
+
+[[repo]]
+url = "https://github.com/RabbyHub/Rabby"
+
+[[repo]]
+url = "https://github.com/Rainsurance/functions-hardhat-starter-kit"
+
+[[repo]]
+url = "https://github.com/ReFi-DeFi-hack-ethprague-2023/evm-cosmos-gmp-sample"
+
+[[repo]]
+url = "https://github.com/RealFevr/Lending-Borrowing-SC"
+
+[[repo]]
+url = "https://github.com/ReallyBasicGames/Aurora-Star-Corps"
+
+[[repo]]
+url = "https://github.com/ReallyBasicGames/Idle-Mining"
+
+[[repo]]
+url = "https://github.com/RequestNetwork/payments-subgraph"
+
+[[repo]]
+url = "https://github.com/Revest-Finance/Revest-SDK"
+
+[[repo]]
+url = "https://github.com/RidvanTahir/beefy-contracts"
+
+[[repo]]
+url = "https://github.com/Rishabhraghwendra18/cross-chain-harvest"
+
+[[repo]]
+url = "https://github.com/Roaring30s/salvo-backend"
+
+[[repo]]
+url = "https://github.com/RobbyUitbeijerse/avalanche-faucet"
+
+[[repo]]
+url = "https://github.com/RodrigoVillar/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/RodrigoVillar/hypersdk"
+
+[[repo]]
+url = "https://github.com/Rolemodel01291/dapp-polarnodes.finance"
+
+[[repo]]
+url = "https://github.com/Rome-Blockchain-Labs/terminal-library"
+
+[[repo]]
+url = "https://github.com/Ron15-web/tokenvm"
+
+[[repo]]
+url = "https://github.com/Ron15-web/tokenvm2"
+
+[[repo]]
+url = "https://github.com/RosettaStake/yak-aggregator"
+
+[[repo]]
+url = "https://github.com/RubyAquaMarine/yak-aggregator"
+
+[[repo]]
+url = "https://github.com/Sangza/Microblog"
+
+[[repo]]
+url = "https://github.com/SILC-IT/hypersdk"
+
+[[repo]]
+url = "https://github.com/SStech099/VeRelayTokens"
+
+[[repo]]
+url = "https://github.com/Sampad-Adhikary/awesome-web3"
+
+[[repo]]
+url = "https://github.com/SanatKulkarni/Unfold2023"
+
+[[repo]]
+url = "https://github.com/Sanghren/avalanche-hardhat-fork-tutorial"
+
+[[repo]]
+url = "https://github.com/Sanghren/avalanche-nft-creation"
+
+[[repo]]
+url = "https://github.com/Sanghren/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/Sanghren/awesome-avalanche"
+
+[[repo]]
+url = "https://github.com/Sanghren/snowboard"
+
+[[repo]]
+url = "https://github.com/Santhosh302002/Metacrafter-Avalanche-Subnets-MOD-1"
+
+[[repo]]
+url = "https://github.com/Satechmedia/my-precompile-example"
+
+[[repo]]
+url = "https://github.com/Saviour1001/StakeOverflow"
+
+[[repo]]
+url = "https://github.com/Schlagonia/Farmers-NFT"
+
+[[repo]]
+url = "https://github.com/Semka707/go-flare"
+
+[[repo]]
+url = "https://github.com/ShantanuK86/decentralized-crowdfunding-platform"
+
+[[repo]]
+url = "https://github.com/Shawn-ata/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/Shungy/ThisTartanDoesNotExist"
+
+[[repo]]
+url = "https://github.com/Shungy/cryptofrens-contracts"
+
+[[repo]]
+url = "https://github.com/SiddharthaBhattacharjee/unfold-2023-Project"
+
+[[repo]]
+url = "https://github.com/Simraki/crypto-todo-hardhat"
+
+[[repo]]
+url = "https://github.com/Smart-Earners-Team/Avaxtrees.Finance"
+
+[[repo]]
+url = "https://github.com/Smart-Earners-Team/golden-coin"
+
+[[repo]]
+url = "https://github.com/SmartDev1990/Rmarket"
+
+[[repo]]
+url = "https://github.com/SnowConeDao/snowconekit"
+
+[[repo]]
+url = "https://github.com/Snowball-Finance/axial-protocol"
+
+[[repo]]
+url = "https://github.com/SnowbankDAO/snowbank-frontend"
+
+[[repo]]
+url = "https://github.com/Snowdenstyll/KEK"
+
+[[repo]]
+url = "https://github.com/SonOfMosiah/ammonwerner.com"
+
+[[repo]]
+url = "https://github.com/Sotatek-ThuyetNguyen/strike-boots-frontend"
+
+[[repo]]
+url = "https://github.com/SoulSwapFinance/swap-orders-lib-old"
+
+[[repo]]
+url = "https://github.com/SpaceCadetOG/defi-bic"
+
+[[repo]]
+url = "https://github.com/Spinhot56/smart-contracts"
+
+[[repo]]
+url = "https://github.com/Sprynt-io/Sprynt-mint-contracts"
+
+[[repo]]
+url = "https://github.com/StephenMilone/avalanche-monitoring"
+
+[[repo]]
+url = "https://github.com/StropleCailen/avalanche-faucet"
+
+[[repo]]
+url = "https://github.com/Switcheo/evm-cosmos-relayer"
+
+[[repo]]
+url = "https://github.com/TABASCOatw/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/Tech11122/Degen-Token-ERC-20-Unlocking-the-Future-of-Gaming"
+
+[[repo]]
+url = "https://github.com/TechieeGeeeks/unfold2023"
+
+[[repo]]
+url = "https://github.com/Temitope3665/Decentraise"
+
+[[repo]]
+url = "https://github.com/TenKeyLabs/dappwright"
+
+[[repo]]
+url = "https://github.com/TheEhsanSarshar/hyphen-widget"
+
+[[repo]]
+url = "https://github.com/TheGrandNobody/eternal-contracts"
+
+[[repo]]
+url = "https://github.com/Think-and-Dev/canis-contracts"
+
+[[repo]]
+url = "https://github.com/Toast42x/ava-labs-precompile-evm"
+
+[[repo]]
+url = "https://github.com/Toast42x/precompile-evm"
+
+[[repo]]
+url = "https://github.com/TobyG/ava-explorer-ios"
+
+[[repo]]
+url = "https://github.com/Toinounet21/coreth-trafficked-v0.7.2-rc.0"
+
+[[repo]]
+url = "https://github.com/Toinounet21/coreth-trafficked-v0.8.3"
+
+[[repo]]
+url = "https://github.com/Toinounet21/coreth-traffiqued-v0.8.0"
+
+[[repo]]
+url = "https://github.com/Toinounet21/coreth-traffiqued-v0.8.0-rc.3"
+
+[[repo]]
+url = "https://github.com/Toinounet21/coreth-traffiqued-v0.8.0b"
+
+[[repo]]
+url = "https://github.com/Tointer/Tricast"
+
+[[repo]]
+url = "https://github.com/Topdev0104/Peppermint"
+
+[[repo]]
+url = "https://github.com/Tozex/Multisignature-Cross-Token-Bridge"
+
+[[repo]]
+url = "https://github.com/Tozex/Smart-Contract-Library"
+
+[[repo]]
+url = "https://github.com/TraccyAG/Traccy"
+
+[[repo]]
+url = "https://github.com/Trickster-cell/functions-hardhat-starter-kit"
+
+[[repo]]
+url = "https://github.com/TrioloItamar/avalanchego"
+
+[[repo]]
+url = "https://github.com/UBUNTUTOKEN-DEX/ubuntudex-interface"
+
+[[repo]]
+url = "https://github.com/UrsaMaritimus/orca"
+
+[[repo]]
+url = "https://github.com/Usamoto/awesome-web3"
+
+[[repo]]
+url = "https://github.com/Valha-xyz/valha-defi-connectors"
+
+[[repo]]
+url = "https://github.com/Validatoor/validatoor-backend"
+
+[[repo]]
+url = "https://github.com/ValorFuture/songbird"
+
+[[repo]]
+url = "https://github.com/Vefi-Ecosystem/nft-marketplace-watcher"
+
+[[repo]]
+url = "https://github.com/Verin1005/Nextjs-Web3react-Template"
+
+[[repo]]
+url = "https://github.com/Vineta-K/tj-liquidatooor"
+
+[[repo]]
+url = "https://github.com/Vis-Nova-Labs/DAppNodePackage-avalanche"
+
+[[repo]]
+url = "https://github.com/WIM3/protocol"
+
+[[repo]]
+url = "https://github.com/WarlingFady/avalanchego"
+
+[[repo]]
+url = "https://github.com/WaterfallDefi/frontend-reboot"
+
+[[repo]]
+url = "https://github.com/Webxspark/unfold-2023-dev"
+
+[[repo]]
+url = "https://github.com/Wickchad/joe-core"
+
+[[repo]]
+url = "https://github.com/XLabs/cctp-relayer"
+
+[[repo]]
+url = "https://github.com/XLabs/wallet-monitor"
+
+[[repo]]
+url = "https://github.com/XavierElon/bit-of-tech"
+
+[[repo]]
+url = "https://github.com/XjoDroid/avalanche-network-runner"
+
+[[repo]]
+url = "https://github.com/XjoDroid/my-new-precompile-evm"
+
+[[repo]]
+url = "https://github.com/YieldRise/TreasuryV1"
+
+[[repo]]
+url = "https://github.com/Yneas/joe-tokenlists"
+
+[[repo]]
+url = "https://github.com/Yuniro/vector-clone"
+
+[[repo]]
+url = "https://github.com/Yusasive/immutable-passport-game"
+
+[[repo]]
+url = "https://github.com/ZILECAO/web3-studocu"
+
+[[repo]]
+url = "https://github.com/Zecrey-Labs/coreth"
+
+[[repo]]
+url = "https://github.com/Zerneasx/AvalancheSubnet"
+
+[[repo]]
+url = "https://github.com/Zexuz/polycode-ccip-multichain-token-contracts"
+
+[[repo]]
+url = "https://github.com/ZhangZhuoSJTU/Web3Bugs"
+
+[[repo]]
+url = "https://github.com/Ziden/CryptoCharacters"
+
+[[repo]]
+url = "https://github.com/Zorro-Finance/zorro-protocol-v1"
+
+[[repo]]
+url = "https://github.com/aahmadai/awesome-web3"
+
+[[repo]]
+url = "https://github.com/aaronbuchwald/ACPs"
+
+[[repo]]
 url = "https://github.com/aaronbuchwald/avalanche-network-runner"
+
+[[repo]]
+url = "https://github.com/aaronbuchwald/precompile-evm"
 
 [[repo]]
 url = "https://github.com/abhijeet-eth/Project_Freelancer_Avalanche"
@@ -215,10 +1867,19 @@ url = "https://github.com/abhijeet-eth/Project_Freelancer_Avalanche"
 url = "https://github.com/ablockio/Auto-AVA-Denali-node-deployment"
 
 [[repo]]
-url = "https://github.com/Achthar/requiem-governance-frontend"
+url = "https://github.com/abuzerasr/my-precompile-evm"
+
+[[repo]]
+url = "https://github.com/acamill/beefy-contracts"
+
+[[repo]]
+url = "https://github.com/acuarica/vscode-ethers"
 
 [[repo]]
 url = "https://github.com/adder2000/DexalotBotAvalanche"
+
+[[repo]]
+url = "https://github.com/aditya-git16/new-precompile"
 
 [[repo]]
 url = "https://github.com/aditya-git16/potential-fishstick"
@@ -233,10 +1894,22 @@ url = "https://github.com/adrianfalsha/avalanche-wallet"
 url = "https://github.com/adrianhajdin/project_web3_battle_game"
 
 [[repo]]
+url = "https://github.com/adyel8beaudo/Avalanche-Drain"
+
+[[repo]]
 url = "https://github.com/afeeni/MediKey"
 
 [[repo]]
+url = "https://github.com/agaviria/g-precompile-evm"
+
+[[repo]]
 url = "https://github.com/agelessZeal/songbird-oracledex-interface"
+
+[[repo]]
+url = "https://github.com/ahmadyasersoulanji/Avalanche1"
+
+[[repo]]
+url = "https://github.com/ahmet/awesome-web3"
 
 [[repo]]
 url = "https://github.com/ahstn/ethers-example-scripts"
@@ -245,16 +1918,31 @@ url = "https://github.com/ahstn/ethers-example-scripts"
 url = "https://github.com/aifeelit/smartnodes-frontend-react-dex"
 
 [[repo]]
+url = "https://github.com/aikon001/avax-index-boilerplate"
+
+[[repo]]
+url = "https://github.com/aisland-dao/dex"
+
+[[repo]]
 url = "https://github.com/akamo778/avalanche-network-runner"
+
+[[repo]]
+url = "https://github.com/akashmeruva9/Web3Verse"
 
 [[repo]]
 url = "https://github.com/akinncar/frogchain"
 
 [[repo]]
-url = "https://github.com/Akira717/SushiSwap_Interface"
+url = "https://github.com/akioniace/awesome-web3"
 
 [[repo]]
-url = "https://github.com/AkylbekAD/todo-smart-contract"
+url = "https://github.com/akokubu/my-precompile-evm"
+
+[[repo]]
+url = "https://github.com/alamriku/awesome-web3"
+
+[[repo]]
+url = "https://github.com/alan-joshy/coinella-evm"
 
 [[repo]]
 url = "https://github.com/albertocevallos/brownie-bp"
@@ -266,43 +1954,70 @@ url = "https://github.com/aleph-im/aleph-swap-dapp"
 url = "https://github.com/alephium/wormhole-fork"
 
 [[repo]]
-url = "https://github.com/AlexCheema/eth-tokyo-23"
+url = "https://github.com/alexgonmad/DAppNodePackage-avalanche"
+
+[[repo]]
+url = "https://github.com/alexpeterson91/DAppNodePackage-Avalanche"
 
 [[repo]]
 url = "https://github.com/algorder/algorthic"
 
 [[repo]]
+url = "https://github.com/aliensbelieve/abracadabra-money-contracts"
+
+[[repo]]
+url = "https://github.com/alihandro777/avalanche-network-runner"
+
+[[repo]]
+url = "https://github.com/alihandro777/awm-relayer"
+
+[[repo]]
+url = "https://github.com/aljazs-flare/flare-p-chain-indexer"
+
+[[repo]]
 url = "https://github.com/aljazs-flare/flare-rosetta-upstream"
+
+[[repo]]
+url = "https://github.com/allanners/DegenTokenERC20"
 
 [[repo]]
 url = "https://github.com/alligator-defi/exchange-protocol"
 
 [[repo]]
-url = "https://github.com/AlpsFinance/alpsfinance-website"
+url = "https://github.com/alpeshdongre8/Avalanche-Advanced-Module-01"
 
 [[repo]]
 url = "https://github.com/altafinprotocol/i-support-ukraine-web"
 
 [[repo]]
-url = "https://github.com/AmineAfia/aaa"
+url = "https://github.com/alwaysbegrowing/gogopool-observer"
 
 [[repo]]
-url = "https://github.com/AndesBlockchain/CursoCopec"
+url = "https://github.com/amarilabs/joe-tokenlists"
 
 [[repo]]
-url = "https://github.com/AnEntrypoint/swagtag-avax"
+url = "https://github.com/amateurre/avax-3"
 
 [[repo]]
-url = "https://github.com/AngleProtocol/borrow-contracts"
+url = "https://github.com/ampleforth/token-geyser-v2"
 
 [[repo]]
-url = "https://github.com/AngleProtocol/merkl-contracts"
+url = "https://github.com/anandusingh/Assessment-Building-on-Avalanche---ETH-AVAX"
 
 [[repo]]
-url = "https://github.com/AnomalyFi/nodekit-sdk"
+url = "https://github.com/anandusingh/Avalanche-Subnets"
 
 [[repo]]
-url = "https://github.com/AnomalyFi/nodekit-seq"
+url = "https://github.com/anandusingh/ETH-AVAX-1"
+
+[[repo]]
+url = "https://github.com/angezanetti/awesome-web3"
+
+[[repo]]
+url = "https://github.com/anjanayraina/SteadyFiAudit"
+
+[[repo]]
+url = "https://github.com/ankurdaharwal/awesome-web3"
 
 [[repo]]
 url = "https://github.com/anproagile/givtoken_frontend"
@@ -314,40 +2029,43 @@ url = "https://github.com/anthdm/avalanche"
 url = "https://github.com/antoncoding/oh-my-greeks"
 
 [[repo]]
-url = "https://github.com/Anurag000-rgb/Rarestate-Marketplace"
-
-[[repo]]
 url = "https://github.com/ap0calyp/abracadabra-liquidations-ui"
 
 [[repo]]
 url = "https://github.com/apachecn/chainlink-blog-zh"
 
 [[repo]]
-url = "https://github.com/Applied-Blockchain-Lab/ets-js-library"
+url = "https://github.com/aphexmunky/hypersdk"
 
 [[repo]]
-url = "https://github.com/Arcaneless/flashswap-arbitrage"
+url = "https://github.com/arahman493/coreth"
 
 [[repo]]
 url = "https://github.com/archisgore/landslide"
 
 [[repo]]
-url = "https://github.com/ArrowDFMs/Summit-2022-Hardhat-Workshop"
+url = "https://github.com/arthmasand/decentralized-crowdfunding"
 
 [[repo]]
-url = "https://github.com/ArtashesMargaryan/emptyProject"
+url = "https://github.com/arunkethana/gmx-interface"
 
 [[repo]]
-url = "https://github.com/Aryamanraj/unfold_apis"
-
-[[repo]]
-url = "https://github.com/Aryamanraj/unfold_system"
+url = "https://github.com/aryarocx2004/AVAX-intermediate-Module-1"
 
 [[repo]]
 url = "https://github.com/asadahmedtech/kyc-tokenvm"
 
 [[repo]]
+url = "https://github.com/asasin000/smart-contracts"
+
+[[repo]]
 url = "https://github.com/ashfaqjani916/Unfold23"
+
+[[repo]]
+url = "https://github.com/ashucoder9/hypersdk"
+
+[[repo]]
+url = "https://github.com/asi90sp/joe-core"
 
 [[repo]]
 url = "https://github.com/asmar10/nft-market-initial"
@@ -362,16 +2080,31 @@ url = "https://github.com/asodariyaharsh/sushidwap"
 url = "https://github.com/asssagar/Envelopia"
 
 [[repo]]
+url = "https://github.com/astrolemonade/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/ataberkgpr/avax-mp-sdk"
+
+[[repo]]
 url = "https://github.com/atahanyorganci/dapp-with-react"
 
 [[repo]]
-url = "https://github.com/AthenaDAO/Athena-Contract"
+url = "https://github.com/atdavidpark/awesome-web3"
 
 [[repo]]
 url = "https://github.com/atomizexyz/xenfyi"
 
 [[repo]]
-url = "https://github.com/ATunaMelt/smart-picks"
+url = "https://github.com/ava-labs/MarketplaceVM"
+
+[[repo]]
+url = "https://github.com/ava-labs/ac-payment-service"
+
+[[repo]]
+url = "https://github.com/ava-labs/ac-relayer-service"
+
+[[repo]]
+url = "https://github.com/ava-labs/academy"
 
 [[repo]]
 url = "https://github.com/ava-labs/apm"
@@ -407,7 +2140,16 @@ url = "https://github.com/ava-labs/avalanche-cli"
 url = "https://github.com/ava-labs/avalanche-cli-teleporter"
 
 [[repo]]
+url = "https://github.com/ava-labs/avalanche-custody-airflow"
+
+[[repo]]
 url = "https://github.com/ava-labs/avalanche-dapp-sdks"
+
+[[repo]]
+url = "https://github.com/ava-labs/avalanche-data-airflow"
+
+[[repo]]
+url = "https://github.com/ava-labs/avalanche-data-spark"
 
 [[repo]]
 url = "https://github.com/ava-labs/avalanche-docs"
@@ -417,6 +2159,9 @@ url = "https://github.com/ava-labs/avalanche-docs-beta"
 
 [[repo]]
 url = "https://github.com/ava-labs/avalanche-docs-deprecated"
+
+[[repo]]
+url = "https://github.com/ava-labs/avalanche-ds-airflow"
 
 [[repo]]
 url = "https://github.com/ava-labs/avalanche-evm-gasless-transaction"
@@ -482,6 +2227,9 @@ url = "https://github.com/ava-labs/avalanche-smart-contract-quickstart"
 url = "https://github.com/ava-labs/avalanche-telemetry"
 
 [[repo]]
+url = "https://github.com/ava-labs/avalanche-test-automation"
+
+[[repo]]
 url = "https://github.com/ava-labs/avalanche-testing"
 
 [[repo]]
@@ -489,7 +2237,6 @@ url = "https://github.com/ava-labs/avalanche-types-rs"
 
 [[repo]]
 url = "https://github.com/ava-labs/avalanche-wallet"
-tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/ava-labs/avalanche-wallet-sdk"
@@ -499,6 +2246,9 @@ url = "https://github.com/ava-labs/avalanche-webflow-package"
 
 [[repo]]
 url = "https://github.com/ava-labs/avalanchego"
+
+[[repo]]
+url = "https://github.com/ava-labs/avalanchego-cannon"
 
 [[repo]]
 url = "https://github.com/ava-labs/avalanchego-kurtosis"
@@ -555,8 +2305,13 @@ url = "https://github.com/ava-labs/chains"
 url = "https://github.com/ava-labs/chainsafe-scripts"
 
 [[repo]]
+url = "https://github.com/ava-labs/consumer-sdks"
+
+[[repo]]
+url = "https://github.com/ava-labs/core-web-properties"
+
+[[repo]]
 url = "https://github.com/ava-labs/coreth"
-tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/ava-labs/crazy-blockchain-tutorial"
@@ -592,6 +2347,9 @@ url = "https://github.com/ava-labs/firewood"
 url = "https://github.com/ava-labs/firewood-mit"
 
 [[repo]]
+url = "https://github.com/ava-labs/git_scraper"
+
+[[repo]]
 url = "https://github.com/ava-labs/glitch-hackathon-test"
 
 [[repo]]
@@ -599,7 +2357,6 @@ url = "https://github.com/ava-labs/gnosis-subnet"
 
 [[repo]]
 url = "https://github.com/ava-labs/go-ethereum"
-tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/ava-labs/hello-world-official-precompile-tutorial"
@@ -636,9 +2393,6 @@ url = "https://github.com/ava-labs/linux-sgx"
 
 [[repo]]
 url = "https://github.com/ava-labs/lotus-docs"
-
-[[repo]]
-url = "https://github.com/ava-labs/MarketplaceVM"
 
 [[repo]]
 url = "https://github.com/ava-labs/mastering-avalanche"
@@ -716,6 +2470,9 @@ url = "https://github.com/ava-labs/spacesvm-rs"
 url = "https://github.com/ava-labs/spruce-tokens"
 
 [[repo]]
+url = "https://github.com/ava-labs/storm"
+
+[[repo]]
 url = "https://github.com/ava-labs/subnet-assets"
 
 [[repo]]
@@ -740,6 +2497,9 @@ url = "https://github.com/ava-labs/teleporter"
 url = "https://github.com/ava-labs/terraform-bot"
 
 [[repo]]
+url = "https://github.com/ava-labs/terraform-datadog"
+
+[[repo]]
 url = "https://github.com/ava-labs/test-subnet-configs"
 
 [[repo]]
@@ -747,6 +2507,9 @@ url = "https://github.com/ava-labs/timestampvm"
 
 [[repo]]
 url = "https://github.com/ava-labs/timestampvm-rs"
+
+[[repo]]
+url = "https://github.com/ava-labs/timestampvm-rs-template"
 
 [[repo]]
 url = "https://github.com/ava-labs/viem"
@@ -773,22 +2536,10 @@ url = "https://github.com/ava-labs/xsvm"
 url = "https://github.com/ava-loan/avaloan"
 
 [[repo]]
-url = "https://github.com/Avackathon/contracts"
+url = "https://github.com/avaframe/ISeeSnow"
 
 [[repo]]
-url = "https://github.com/Avackathon/frontend"
-
-[[repo]]
-url = "https://github.com/Avackathon/infra"
-
-[[repo]]
-url = "https://github.com/Avackathon/subnav"
-
-[[repo]]
-url = "https://github.com/AvadoDServer/AVADO-DNP-AvalancheGo"
-
-[[repo]]
-url = "https://github.com/AVATANetwork/avat-token-contract"
+url = "https://github.com/avalanche-foundation/ACPs"
 
 [[repo]]
 url = "https://github.com/avax-wolfi/wolfiland"
@@ -800,13 +2551,13 @@ url = "https://github.com/avaxcadabra/nft-mint"
 url = "https://github.com/avcdsld/figment-learn-tutorials"
 
 [[repo]]
-url = "https://github.com/AvianFinance/Backend"
-
-[[repo]]
-url = "https://github.com/AwesomeEcosystem/bend"
+url = "https://github.com/avvydomains/pangolin-interface"
 
 [[repo]]
 url = "https://github.com/axelarnetwork/axelar-signing-relayer"
+
+[[repo]]
+url = "https://github.com/axelarnetwork/devfest-lagos-interchain-dapp-workshop"
 
 [[repo]]
 url = "https://github.com/axelarnetwork/evm-cosmos-gmp-sample"
@@ -815,10 +2566,16 @@ url = "https://github.com/axelarnetwork/evm-cosmos-gmp-sample"
 url = "https://github.com/axelarnetwork/evm-cosmos-relayer"
 
 [[repo]]
+url = "https://github.com/axelarnetwork/foundry-axelar-gmp-example"
+
+[[repo]]
+url = "https://github.com/axelarnetwork/fullstack-interchain-dapp"
+
+[[repo]]
 url = "https://github.com/b4rtaz/psi-forms"
 
 [[repo]]
-url = "https://github.com/BaldwinCepeda/avaxankr"
+url = "https://github.com/babychvyacheslav/avalanche-faucet"
 
 [[repo]]
 url = "https://github.com/barroqt/catapult-dao"
@@ -845,16 +2602,31 @@ url = "https://github.com/bayroio/ahoj-token"
 url = "https://github.com/bayroio/ahoj-token-issuance"
 
 [[repo]]
+url = "https://github.com/beder/avalanche-c-chain-indexer"
+
+[[repo]]
 url = "https://github.com/bellinux/wb-cache-2"
 
 [[repo]]
 url = "https://github.com/bendaferi/customdagvm"
 
 [[repo]]
-url = "https://github.com/BGHProjects/Quadratic-Voting-dApp"
+url = "https://github.com/bferenc/avalanche-bridge-resources"
 
 [[repo]]
-url = "https://github.com/BilliDrop-Dev/chainlink-automation-test"
+url = "https://github.com/bgd-labs/aave-governance-v3"
+
+[[repo]]
+url = "https://github.com/bgd-labs/gov-v2-v3-migration"
+
+[[repo]]
+url = "https://github.com/bgd-labs/stable-rate-patch"
+
+[[repo]]
+url = "https://github.com/bgodlin/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/bhargav55/BlackListing"
 
 [[repo]]
 url = "https://github.com/bitbeckers/fux-dapp"
@@ -863,10 +2635,25 @@ url = "https://github.com/bitbeckers/fux-dapp"
 url = "https://github.com/bitbeckers/summon-raid-app"
 
 [[repo]]
+url = "https://github.com/bitcriptoinvest/yak"
+
+[[repo]]
 url = "https://github.com/bitpixelsio/bitpixelsio-contracts"
 
 [[repo]]
+url = "https://github.com/blackhan-software/xpower-hh"
+
+[[repo]]
 url = "https://github.com/blackphin/WaFL"
+
+[[repo]]
+url = "https://github.com/blahkheart/multisig.lol"
+
+[[repo]]
+url = "https://github.com/blkluv/Avalanche-NFT-Aggregator"
+
+[[repo]]
+url = "https://github.com/blkluv/VScout"
 
 [[repo]]
 url = "https://github.com/block42-blockchain-company/bro-strategies"
@@ -878,37 +2665,34 @@ url = "https://github.com/block42-blockchain-company/dao-core"
 url = "https://github.com/blockchain-family/broxie-landing"
 
 [[repo]]
-url = "https://github.com/Blockchain-for-Real-Estate/smart-contracts"
-
-[[repo]]
 url = "https://github.com/blockchain-gt/vejoe-calculator"
 
 [[repo]]
-url = "https://github.com/BlockchainMasters21/Wonderland-Frontend1"
+url = "https://github.com/blockchain1112/xpower-hh"
 
 [[repo]]
-url = "https://github.com/BlockJayn/DFKDuelBot-AVAX-DeFi-Kingdoms"
+url = "https://github.com/blockgum/blockgum"
+
+[[repo]]
+url = "https://github.com/bolat-aqa/awesome-web3"
 
 [[repo]]
 url = "https://github.com/boombb12138/degis"
 
 [[repo]]
+url = "https://github.com/borutmrak/go-flare"
+
+[[repo]]
 url = "https://github.com/bossbabycoin/bossbabycoin"
 
 [[repo]]
-url = "https://github.com/BossBSJ/steadyindex-contract"
+url = "https://github.com/boulix3/hypersdk"
 
 [[repo]]
 url = "https://github.com/boulix3/subdotnet"
 
 [[repo]]
-url = "https://github.com/BowTiedBaboon/baboonbots"
-
-[[repo]]
 url = "https://github.com/bracketloader/wormhole"
-
-[[repo]]
-url = "https://github.com/BradMcFall/MDNANFT"
 
 [[repo]]
 url = "https://github.com/briceduke/fullstack-web3"
@@ -920,28 +2704,46 @@ url = "https://github.com/bridxe/escrow-contract2"
 url = "https://github.com/buffet-dex/buffetswap-frontend"
 
 [[repo]]
-url = "https://github.com/BuidlGuidl/multisig.lol"
-
-[[repo]]
-url = "https://github.com/BuildBearLabs/scaffold-eth"
-
-[[repo]]
-url = "https://github.com/BunsDev/lava-staking-avaxmoon"
+url = "https://github.com/buidly/axelar-evm-cosmos-mvx-relayer"
 
 [[repo]]
 url = "https://github.com/burningzombies/contracts"
 
 [[repo]]
+url = "https://github.com/butterfree-cup/ETH-avax-M3-project"
+
+[[repo]]
+url = "https://github.com/buttonwood-protocol/token-geyser-v2"
+
+[[repo]]
 url = "https://github.com/bws9000/avalanchejs-demo-cms"
+
+[[repo]]
+url = "https://github.com/c1im4cu5/RecipeNFT"
+
+[[repo]]
+url = "https://github.com/cacosta88/multisig.lol"
+
+[[repo]]
+url = "https://github.com/cadian99/awesome-web3"
+
+[[repo]]
+url = "https://github.com/call3hudson/deltaprime-primeloans"
+
+[[repo]]
+url = "https://github.com/canarydeveloper/joe-tokenlists"
 
 [[repo]]
 url = "https://github.com/canatakan/fair-distribution-subnet"
 
 [[repo]]
-url = "https://github.com/CandlePlatforms/cndlgo"
+url = "https://github.com/candostyavuz/avalanche-arbitrage"
 
 [[repo]]
-url = "https://github.com/candostyavuz/avalanche-arbitrage"
+url = "https://github.com/canonical/avalanche-k8s-operator"
+
+[[repo]]
+url = "https://github.com/capitalist42/gsn"
 
 [[repo]]
 url = "https://github.com/captian210/NFTMagics-frontend"
@@ -950,52 +2752,106 @@ url = "https://github.com/captian210/NFTMagics-frontend"
 url = "https://github.com/capylabs-io/templates-front"
 
 [[repo]]
-url = "https://github.com/Casten-io/casten-frontend"
+url = "https://github.com/carmacs2023/dfktools"
+
+[[repo]]
+url = "https://github.com/casey-barr/curve-zaps"
+
+[[repo]]
+url = "https://github.com/castCrewLab/MarketplaceVM"
 
 [[repo]]
 url = "https://github.com/casuwu/trinity"
 
 [[repo]]
-url = "https://github.com/CatalystJesal/Hardhat-boilerplate"
+url = "https://github.com/catcatcat8/sfc"
 
 [[repo]]
-url = "https://github.com/CavernPerson/webapp"
+url = "https://github.com/cb-defi-notifs/wormhole-foundation-wormhole-circle-integration-f37d52ad"
 
 [[repo]]
 url = "https://github.com/ccoyotedev/encode-streetware"
 
 [[repo]]
+url = "https://github.com/cdump/awesome-web3"
+
+[[repo]]
 url = "https://github.com/cemleme/GRB-contracts"
 
 [[repo]]
-url = "https://github.com/Cestafinance/cesta-app"
+url = "https://github.com/ceyonur/ava-sim"
 
 [[repo]]
 url = "https://github.com/ceyonur/electanon"
 
 [[repo]]
-url = "https://github.com/cgcardona/avalanche-oh-my-zsh-plugin"
+url = "https://github.com/cfluke-cb/base-ccip-cross-chain-nft"
 
 [[repo]]
 url = "https://github.com/cgcardona/AVAX-hd-address-generator"
 
 [[repo]]
+url = "https://github.com/cgcardona/avalanche-oh-my-zsh-plugin"
+
+[[repo]]
+url = "https://github.com/cgcardona/my-precompile-evm"
+
+[[repo]]
 url = "https://github.com/cgcardona/r-subnet-evm"
+
+[[repo]]
+url = "https://github.com/cgn175/yak-aggregator"
+
+[[repo]]
+url = "https://github.com/chain4travel/camino-monitoring"
+
+[[repo]]
+url = "https://github.com/chain4travel/camino-postman-collection"
+
+[[repo]]
+url = "https://github.com/chain4travel/camino-rosetta"
+
+[[repo]]
+url = "https://github.com/chain4travel/camino-rust"
+
+[[repo]]
+url = "https://github.com/chain4travel/caminojs-docs"
+
+[[repo]]
+url = "https://github.com/chain4travel/magellan"
+
+[[repo]]
+url = "https://github.com/chain4travel/vue-components"
+
+[[repo]]
+url = "https://github.com/chandn0/awesome-web3"
 
 [[repo]]
 url = "https://github.com/chiknfarm/contract"
 
 [[repo]]
-url = "https://github.com/Chris-Suo/BabyDownStairs"
+url = "https://github.com/chintalwar08om/ETH-AVAX-MODULE-3"
 
 [[repo]]
-url = "https://github.com/ChrisKath/create-ethers-app"
+url = "https://github.com/chintalwar08om/ETH-AVAX-MODULE-4"
+
+[[repo]]
+url = "https://github.com/christiankakesa/coreth"
 
 [[repo]]
 url = "https://github.com/christopherkarger/native-wallet"
 
 [[repo]]
+url = "https://github.com/chuygarcia92/DAppNodePackage-avalanche"
+
+[[repo]]
+url = "https://github.com/cinquemb/axial-protocol"
+
+[[repo]]
 url = "https://github.com/cinquemb/dollar-avax"
+
+[[repo]]
+url = "https://github.com/circlefin/cctp-sample-app"
 
 [[repo]]
 url = "https://github.com/cit1s/cit1swap-interface"
@@ -1007,34 +2863,31 @@ url = "https://github.com/cjthoma1/flashswap-arbitrage-avalanche"
 url = "https://github.com/clarencepenz/sux"
 
 [[repo]]
+url = "https://github.com/claudiohermida/functions-hardhat-starter-kit"
+
+[[repo]]
 url = "https://github.com/code-423n4/2021-12-yetifinance"
 
 [[repo]]
-url = "https://github.com/Code0Breaker/wm-contract"
+url = "https://github.com/codebyharshit/awesome-web3"
 
 [[repo]]
 url = "https://github.com/codedreamer1/flokidao-frontend"
 
 [[repo]]
-url = "https://github.com/CodeLinkIO/MoveAndWhap"
+url = "https://github.com/codestates/BTC1stProject-10"
 
 [[repo]]
-url = "https://github.com/codestates/BTC1stProject-10"
+url = "https://github.com/codetowealth/yak-aggregator"
 
 [[repo]]
 url = "https://github.com/codingshot/genadrop"
 
 [[repo]]
-url = "https://github.com/Collectiverse/nftseedcontracts"
-
-[[repo]]
 url = "https://github.com/collincusce/makeutxos"
 
 [[repo]]
-url = "https://github.com/Colm3na/DAppNodePackage-avalanche"
-
-[[repo]]
-url = "https://github.com/ColonyLab/ColonyAppV1"
+url = "https://github.com/collincusce/mnemonic-shamir-secret-sharing-cli"
 
 [[repo]]
 url = "https://github.com/complusnetwork/complus-master-ava"
@@ -1052,21 +2905,6 @@ url = "https://github.com/connext/monorepo"
 url = "https://github.com/connorwstein/stat-evm"
 
 [[repo]]
-url = "https://github.com/ConsiderItDone/LandslideCore"
-
-[[repo]]
-url = "https://github.com/Contreux/strike-protocol"
-
-[[repo]]
-url = "https://github.com/CoopTRUE/SynthEQ"
-
-[[repo]]
-url = "https://github.com/CoreNodes/dapp.encore.nodes"
-
-[[repo]]
-url = "https://github.com/Credit-First/NFTMagics-frontend"
-
-[[repo]]
 url = "https://github.com/crypto-stats/site"
 
 [[repo]]
@@ -1076,37 +2914,49 @@ url = "https://github.com/cryptobi/avax-python"
 url = "https://github.com/cryptobi/cavax"
 
 [[repo]]
-url = "https://github.com/CryptoCoder50/interface"
+url = "https://github.com/cryptocypherghost/basedAI"
 
 [[repo]]
-url = "https://github.com/CryptoKG94/Gatherswap"
+url = "https://github.com/cryptoman50/deltaprime-primeloans"
 
 [[repo]]
-url = "https://github.com/Cryptorubic/multi-proxy-rubic"
+url = "https://github.com/cryptoriver/avalanche-rosetta"
 
 [[repo]]
 url = "https://github.com/cryptovash/honeypool-ui"
 
 [[repo]]
+url = "https://github.com/cubist-labs/CubeSigner-TypeScript-SDK"
+
+[[repo]]
 url = "https://github.com/cunoro/application"
 
 [[repo]]
-url = "https://github.com/CyberAakash/unfold2023"
+url = "https://github.com/d0ra-1h3-3xpl0ra/beefy-contracts"
 
 [[repo]]
-url = "https://github.com/CygnusDAO/price-oracle"
+url = "https://github.com/d4v1d03/some-more-web3-stuff"
+
+[[repo]]
+url = "https://github.com/dAbhishekreddy/AXAX_Challenge-4"
 
 [[repo]]
 url = "https://github.com/daccred/pollsmarket___"
 
 [[repo]]
+url = "https://github.com/daikugimiya/AVAX-Messenger_Fork"
+
+[[repo]]
 url = "https://github.com/dalveytech/blex-contract"
 
 [[repo]]
-url = "https://github.com/Dampilov/TodoList"
+url = "https://github.com/danMove/M1"
 
 [[repo]]
 url = "https://github.com/danaszova/DEX"
+
+[[repo]]
+url = "https://github.com/dancespiele/wrapped-assets"
 
 [[repo]]
 url = "https://github.com/dannpr/avax-moralis-hack"
@@ -1116,6 +2966,15 @@ url = "https://github.com/daocore/layerzero-tutorial"
 
 [[repo]]
 url = "https://github.com/daospace-one/nft-pass"
+
+[[repo]]
+url = "https://github.com/darioush/ACPs"
+
+[[repo]]
+url = "https://github.com/darkhorsedefi/avalanche-faucet"
+
+[[repo]]
+url = "https://github.com/darthmorlis/joe-tokenlists"
 
 [[repo]]
 url = "https://github.com/dasconnor/create2-deployer"
@@ -1130,6 +2989,9 @@ url = "https://github.com/datadef/ava-hd-wallet"
 url = "https://github.com/datadef/com.avamatic.client"
 
 [[repo]]
+url = "https://github.com/davekristianuyau/aumetacrafters-avax"
+
+[[repo]]
 url = "https://github.com/david30907d/lensLend"
 
 [[repo]]
@@ -1139,25 +3001,22 @@ url = "https://github.com/davidagustin/dev"
 url = "https://github.com/davidberiro/snowdog-sniper"
 
 [[repo]]
-url = "https://github.com/dawksh/nebula-contracts"
+url = "https://github.com/davidyu-circle/cctp-sample-app"
 
 [[repo]]
-url = "https://github.com/DCTDAO/WDCT-smartcontract"
+url = "https://github.com/daviesalex/mnemonic-shamir-secret-sharing-cli"
+
+[[repo]]
+url = "https://github.com/dawksh/nebula-contracts"
 
 [[repo]]
 url = "https://github.com/deb0x/dbXenBurnerProject"
 
 [[repo]]
-url = "https://github.com/DebuGGaJav/TOKEN"
+url = "https://github.com/dec3ntraliz3d/multisig.lol"
 
 [[repo]]
-url = "https://github.com/DeepDoge/dweb-forum"
-
-[[repo]]
-url = "https://github.com/DEEPML1818/flashloan"
-
-[[repo]]
-url = "https://github.com/DEEPML1818/flashloan-liq"
+url = "https://github.com/deepakdevcast/avalanche-monitoring"
 
 [[repo]]
 url = "https://github.com/deepsquare-io/nexus"
@@ -1166,19 +3025,16 @@ url = "https://github.com/deepsquare-io/nexus"
 url = "https://github.com/deepsquare-io/smart-contracts"
 
 [[repo]]
-url = "https://github.com/Defi-Coders/CryptoSniper"
-
-[[repo]]
-url = "https://github.com/Definerds/sushiswap"
+url = "https://github.com/deepsquare-io/testnet-subnet-vm"
 
 [[repo]]
 url = "https://github.com/defoundationxyz/defo-contract"
 
 [[repo]]
-url = "https://github.com/Degis-Insurance/Degis-SCProtection"
+url = "https://github.com/denis-orbs/web3-candies"
 
 [[repo]]
-url = "https://github.com/DeltaPrimeLabs/deltaprime-primeloans"
+url = "https://github.com/designheretic/awesome-web3"
 
 [[repo]]
 url = "https://github.com/deusfinance/app-ui"
@@ -1187,25 +3043,49 @@ url = "https://github.com/deusfinance/app-ui"
 url = "https://github.com/dev-tom-0108/avalanche-smart-contract"
 
 [[repo]]
-url = "https://github.com/Devilla/avalanche-truffle"
+url = "https://github.com/devangerine/ETH-AVAX-PROOF-Intermediate-Challenges"
+
+[[repo]]
+url = "https://github.com/devinjelliot/cctp-tool"
 
 [[repo]]
 url = "https://github.com/devrockstar928/swap-alpaca-front"
 
 [[repo]]
-url = "https://github.com/Dexalot/contracts"
+url = "https://github.com/dewrin/LandslideCore"
+
+[[repo]]
+url = "https://github.com/dewrin/M1"
 
 [[repo]]
 url = "https://github.com/dezzyboy/sushi-gw-interface"
 
 [[repo]]
-url = "https://github.com/didoshotev/benzswap-core"
+url = "https://github.com/dfkburnem/dfktools"
+
+[[repo]]
+url = "https://github.com/dhrubabasu/ACPs"
 
 [[repo]]
 url = "https://github.com/didoshotev/ThePeach-hardhat"
 
 [[repo]]
-url = "https://github.com/DinamikoApp/Dinamiko"
+url = "https://github.com/didoshotev/benzswap-core"
+
+[[repo]]
+url = "https://github.com/dikikarim2004/awesome-web3"
+
+[[repo]]
+url = "https://github.com/dikikarim2004/dexalotBountySmartContracts"
+
+[[repo]]
+url = "https://github.com/dimitrovmaksim/timestampvm-rs-template"
+
+[[repo]]
+url = "https://github.com/dinhduongha/awesome-web3"
+
+[[repo]]
+url = "https://github.com/diposs/vlod"
 
 [[repo]]
 url = "https://github.com/dirtycajunrice/web3-helper"
@@ -1220,25 +3100,43 @@ url = "https://github.com/dmcclung/liquidation-bot"
 url = "https://github.com/dobosmarton/automated-market-maker"
 
 [[repo]]
-url = "https://github.com/DoDAO-io/dodao-onboarding-ui"
+url = "https://github.com/donaldww/hypersdk"
+
+[[repo]]
+url = "https://github.com/dorucioclea/token-geyser-v2"
+
+[[repo]]
+url = "https://github.com/doutv/cctp-sample-app"
+
+[[repo]]
+url = "https://github.com/dpguoming/yak-aggregator"
+
+[[repo]]
+url = "https://github.com/dpradell-dev/lost-dungeon"
 
 [[repo]]
 url = "https://github.com/dragoonzx/yak-spirit"
 
 [[repo]]
-url = "https://github.com/DreamSky1996/strip-frontend"
+url = "https://github.com/drewr8888/EVM-Clonev1"
 
 [[repo]]
 url = "https://github.com/droidsb/droidsb.github.io"
 
 [[repo]]
-url = "https://github.com/DuanYuFi/GPT-Web"
+url = "https://github.com/dtdang/ape-avalanche"
 
 [[repo]]
 url = "https://github.com/duclos-u/LeFuture"
 
 [[repo]]
 url = "https://github.com/ductridev/crypto-payment"
+
+[[repo]]
+url = "https://github.com/dulumao/deltaprime-primeloans"
+
+[[repo]]
+url = "https://github.com/dulumao/yak-aggregator"
 
 [[repo]]
 url = "https://github.com/duocdang4195/coin98-wallet-sdk"
@@ -1250,43 +3148,91 @@ url = "https://github.com/dustproject/coreth"
 url = "https://github.com/dxl2/ava-repl"
 
 [[repo]]
-url = "https://github.com/DY-76/HAGO3"
+url = "https://github.com/dzimiks/awesome-web3"
 
 [[repo]]
-url = "https://github.com/EAMDAO/cropium-frontend"
+url = "https://github.com/eCash-stake/Avalanche"
 
 [[repo]]
-url = "https://github.com/EasyCarbon/FiatLux"
+url = "https://github.com/ecdsa2008/avalanche-yield-smart-contracts"
 
 [[repo]]
 url = "https://github.com/echoamireux/AVAX"
 
 [[repo]]
-url = "https://github.com/ElasticSwap/elasticswap"
+url = "https://github.com/eden-network/uniswap-v3-static-quoter"
+
+[[repo]]
+url = "https://github.com/edjroz/hypersdk"
+
+[[repo]]
+url = "https://github.com/efalken/asb"
 
 [[repo]]
 url = "https://github.com/eldorado-Coder/penguin-finance-frontend"
 
 [[repo]]
-url = "https://github.com/ElementalDao/unipos-web"
+url = "https://github.com/elgohr-update/ava-labs-ethereum-etl"
+
+[[repo]]
+url = "https://github.com/elkfinance/governance"
+
+[[repo]]
+url = "https://github.com/eltociear/contracts-3"
+
+[[repo]]
+url = "https://github.com/eltociear/coreth"
+
+[[repo]]
+url = "https://github.com/eltociear/go-flare"
+
+[[repo]]
+url = "https://github.com/eltociear/hypersdk"
+
+[[repo]]
+url = "https://github.com/emersonmacro/go-uniswap-subgraph-client"
 
 [[repo]]
 url = "https://github.com/encKrish/Medibase"
 
 [[repo]]
-url = "https://github.com/ENEDEX-DEX/SmartContracts"
+url = "https://github.com/enesalp19/avalanche-types-rs"
+
+[[repo]]
+url = "https://github.com/enkryptcom/enKrypt"
+
+[[repo]]
+url = "https://github.com/ephergent/avax.metamarbles.xyz"
+
+[[repo]]
+url = "https://github.com/ephergent/mm_nft_generator_avalanche"
+
+[[repo]]
+url = "https://github.com/erenjaegar77/beefy-contracts"
+
+[[repo]]
+url = "https://github.com/eriktoor/awesome-web3"
 
 [[repo]]
 url = "https://github.com/erjongjino324/swap-alpaca-front"
 
 [[repo]]
+url = "https://github.com/estherbreath/DegenToken_AVAX"
+
+[[repo]]
+url = "https://github.com/ethParth/module_4"
+
+[[repo]]
+url = "https://github.com/ethcanal/awesome-web3"
+
+[[repo]]
+url = "https://github.com/ethereum-blockchain-evm/wallet-Ambire-4337"
+
+[[repo]]
+url = "https://github.com/exdx/avalanche-rs"
+
+[[repo]]
 url = "https://github.com/exotics-protocol/exotics-protocol"
-
-[[repo]]
-url = "https://github.com/EZChain-core/ezchain-explorer"
-
-[[repo]]
-url = "https://github.com/EZChain-core/ezchain-wallet-sdk"
 
 [[repo]]
 url = "https://github.com/f-sky/wm-contract"
@@ -1298,13 +3244,13 @@ url = "https://github.com/factor-finance/xusd-contracts"
 url = "https://github.com/factor-finance/xusd-dapp"
 
 [[repo]]
+url = "https://github.com/faddat/LandslideCore"
+
+[[repo]]
 url = "https://github.com/fairhive-labs/timestampvm"
 
 [[repo]]
 url = "https://github.com/faktoro/2fa-backend"
-
-[[repo]]
-url = "https://github.com/FantasmFinance/fantasm-contracts"
 
 [[repo]]
 url = "https://github.com/farukterzioglu/HDWallet"
@@ -1316,10 +3262,28 @@ url = "https://github.com/farukterzioglu/NftMinter"
 url = "https://github.com/fayazkhan2020/stack-up-coding-practice"
 
 [[repo]]
+url = "https://github.com/felipemadero/my-precompile-evm"
+
+[[repo]]
+url = "https://github.com/fenggefeifei/awesome-web3"
+
+[[repo]]
+url = "https://github.com/fenggefeifei/sphinx"
+
+[[repo]]
+url = "https://github.com/fengyeduan/awesome-web3"
+
+[[repo]]
+url = "https://github.com/feuGeneA/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/fhielashley/ethavaxassessment4"
+
+[[repo]]
 url = "https://github.com/figment-networks/avalanche-indexer"
 
 [[repo]]
-url = "https://github.com/FinalScript/nft-game"
+url = "https://github.com/filipmartinsson/avalanche-docs"
 
 [[repo]]
 url = "https://github.com/flair-sdk/typescript"
@@ -1328,28 +3292,31 @@ url = "https://github.com/flair-sdk/typescript"
 url = "https://github.com/flare-foundation/coreth"
 
 [[repo]]
+url = "https://github.com/flare-foundation/flare-p-chain-indexer"
+
+[[repo]]
 url = "https://github.com/flare-foundation/go-flare"
 
 [[repo]]
-url = "https://github.com/Forart-ai/exchange-contract"
-
-[[repo]]
-url = "https://github.com/Foxlottery/foxlottery-interface"
-
-[[repo]]
-url = "https://github.com/Foxlottery/nextjs-web3-starterkit"
-
-[[repo]]
-url = "https://github.com/Friends-of-Groot-Society/groot-material"
-
-[[repo]]
-url = "https://github.com/Friktion-Labs/frontend"
+url = "https://github.com/foreman3890/awesome-web3"
 
 [[repo]]
 url = "https://github.com/frostyweb3/avalanche-docs"
 
 [[repo]]
 url = "https://github.com/fueledonbacon/nft-contracts"
+
+[[repo]]
+url = "https://github.com/fujipug/byquokkas"
+
+[[repo]]
+url = "https://github.com/fujipug/rabblerabblenextjs"
+
+[[repo]]
+url = "https://github.com/furkan-ux/hypersdk-testrust"
+
+[[repo]]
+url = "https://github.com/furkanenes19/avalanche-types-rs"
 
 [[repo]]
 url = "https://github.com/fury-js/beima_core_avalanche"
@@ -1361,10 +3328,10 @@ url = "https://github.com/fuzzylemma/avalanchego-cli"
 url = "https://github.com/gabrieltemtsen/rustydevs"
 
 [[repo]]
-url = "https://github.com/gandhikim1002/nextjs"
+url = "https://github.com/galenmarchetti/firewood-mit"
 
 [[repo]]
-url = "https://github.com/Garinmckayl/TheRedBladeDAOContracts"
+url = "https://github.com/gandhikim1002/nextjs"
 
 [[repo]]
 url = "https://github.com/garrettparris/dapp-base-template"
@@ -1382,6 +3349,18 @@ url = "https://github.com/gattaca-com/oracle-evm"
 url = "https://github.com/gauthiermyr/avalanche-eth-call-vault"
 
 [[repo]]
+url = "https://github.com/gbrllrpg/AVAX-HyperSDK"
+
+[[repo]]
+url = "https://github.com/gbrllrpg/Avalanche-HyperSDK"
+
+[[repo]]
+url = "https://github.com/gbrllrpg/DeFi-Kingdom-Clone"
+
+[[repo]]
+url = "https://github.com/gcperrin/hypersdk"
+
+[[repo]]
 url = "https://github.com/geektechniquestudios/ChessWager"
 
 [[repo]]
@@ -1391,16 +3370,19 @@ url = "https://github.com/gelatodigital/relay-contracts"
 url = "https://github.com/getsumer/Grafan4W3b3"
 
 [[repo]]
-url = "https://github.com/GHOSU1012/smartnodes-frontend-react-dex"
-
-[[repo]]
-url = "https://github.com/GigaHierz/matchme.nft"
-
-[[repo]]
-url = "https://github.com/GitMac32/ipfsdapp"
+url = "https://github.com/gitkonio/awesome-web3-1"
 
 [[repo]]
 url = "https://github.com/gmguild/gmJEWEL"
+
+[[repo]]
+url = "https://github.com/gmh5225/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/gmh5225/awesome-web3-1"
+
+[[repo]]
+url = "https://github.com/gmh5225/firewood"
 
 [[repo]]
 url = "https://github.com/gmx-io/gmx-interface"
@@ -1412,13 +3394,16 @@ url = "https://github.com/gmx-io/gmx-stats"
 url = "https://github.com/gmx-io/gmx-subgraph"
 
 [[repo]]
-url = "https://github.com/Gnosis-Auction/auction-graph"
-
-[[repo]]
-url = "https://github.com/Gnosis-Auction/launch-auction-ux"
+url = "https://github.com/gopalyadav05/AVAX-PROOF-Module-1"
 
 [[repo]]
 url = "https://github.com/gosu-gg/monorepo"
+
+[[repo]]
+url = "https://github.com/gqln/avalanche-rosetta"
+
+[[repo]]
+url = "https://github.com/grandsun1987/firewood"
 
 [[repo]]
 url = "https://github.com/grape-finance/Wine_Connoisseur_GameFE"
@@ -1430,40 +3415,28 @@ url = "https://github.com/grapebox/poolbox-contracts"
 url = "https://github.com/grapefi/front-end"
 
 [[repo]]
-url = "https://github.com/Gravita-Protocol/layer-zero"
-
-[[repo]]
-url = "https://github.com/Graviton-One/graviton-contracts"
+url = "https://github.com/grasshaussoftware/cryptographic-data-registration"
 
 [[repo]]
 url = "https://github.com/greenwood-labs/beaker-workshop"
 
 [[repo]]
-url = "https://github.com/GrowthDeFi/v2-farming"
+url = "https://github.com/gtlibrary-game/precompile-evm"
 
 [[repo]]
-url = "https://github.com/GtLibrary/gtlibrary-ico"
-
-[[repo]]
-url = "https://github.com/GuardianAudits/GMX-6"
+url = "https://github.com/gubatron/firewood"
 
 [[repo]]
 url = "https://github.com/gurkankaya05/web3-Park"
 
 [[repo]]
-url = "https://github.com/GuruDev0807/Polywrap-Demo-URI-Resolver-As-Wrapper"
-
-[[repo]]
 url = "https://github.com/gyuho/avax-tester"
-
-[[repo]]
-url = "https://github.com/HackArchive/hypersdk"
 
 [[repo]]
 url = "https://github.com/hacknovas/NFT_MarketPlace_U23"
 
 [[repo]]
-url = "https://github.com/Hackr-Sach/CPR-institutional-management"
+url = "https://github.com/haikukoten/genadrop"
 
 [[repo]]
 url = "https://github.com/han-see/snail_scraper"
@@ -1475,10 +3448,16 @@ url = "https://github.com/happy-bits/vinlotteri"
 url = "https://github.com/happydreamman/livedex"
 
 [[repo]]
-url = "https://github.com/HarmonyZKDAO/lossless-ui"
+url = "https://github.com/happyhackerbird/example-circle-relayer"
 
 [[repo]]
 url = "https://github.com/harpaljadeja15/daome"
+
+[[repo]]
+url = "https://github.com/harrybeha/avalanche-smart-contract-interaction"
+
+[[repo]]
+url = "https://github.com/hasherror/avalanche-bridge-resources"
 
 [[repo]]
 url = "https://github.com/hayatasuuu/dapp-on-avalanche"
@@ -1490,16 +3469,28 @@ url = "https://github.com/hcheng826/general-liquidator"
 url = "https://github.com/hcheng826/guppy"
 
 [[repo]]
-url = "https://github.com/Hector-Network/hector-contracts"
-
-[[repo]]
-url = "https://github.com/HedgeFarm/alpha1-contracts"
+url = "https://github.com/hedgey-finance/Locked_VestingTokenPlans"
 
 [[repo]]
 url = "https://github.com/helix-bridge/helix-ui"
 
 [[repo]]
+url = "https://github.com/hephzibah-cmd/yak-aggregator"
+
+[[repo]]
+url = "https://github.com/hexaonelabs/avalanchejs"
+
+[[repo]]
+url = "https://github.com/hexfusion/avalanche-installer"
+
+[[repo]]
 url = "https://github.com/hexfusion/avalanchego"
+
+[[repo]]
+url = "https://github.com/hexfusion/hypersdk"
+
+[[repo]]
+url = "https://github.com/heyhimansh/awesome-web3"
 
 [[repo]]
 url = "https://github.com/hiccupsoft/wardenswap"
@@ -1514,13 +3505,34 @@ url = "https://github.com/holographxyz/networks"
 url = "https://github.com/holygrailone/holygrail-dfk-amm-interface"
 
 [[repo]]
-url = "https://github.com/Hotpot-Swap/hotpot-swap-interface"
+url = "https://github.com/holyheld/hh-v1-sdk"
+
+[[repo]]
+url = "https://github.com/horizontalsystems/EvmKit.Swift"
+
+[[repo]]
+url = "https://github.com/howiewang17/awesome-web3"
 
 [[repo]]
 url = "https://github.com/hsk81/avalanche-cli"
 
 [[repo]]
-url = "https://github.com/HuyHoang307/phowswap-interface"
+url = "https://github.com/hsk81/avalanche-stakes"
+
+[[repo]]
+url = "https://github.com/hsk81/firewood-mit"
+
+[[repo]]
+url = "https://github.com/https-kintsugi/Metacrafters-Assessment---Advanced-AVAX-Module-2"
+
+[[repo]]
+url = "https://github.com/https-kintsugi/Metacrafters-Assessment---Types-of-Functions-ETH-AVAX-"
+
+[[repo]]
+url = "https://github.com/hvbnet/smart-contracts"
+
+[[repo]]
+url = "https://github.com/hvbnet/yak-aggregator"
 
 [[repo]]
 url = "https://github.com/hyp3r5pace/crowdfunding-platform-avalanche"
@@ -1529,25 +3541,58 @@ url = "https://github.com/hyp3r5pace/crowdfunding-platform-avalanche"
 url = "https://github.com/hyperbch/smart-contracts"
 
 [[repo]]
-url = "https://github.com/i-link-pro-team/hardhat-boilerplate"
+url = "https://github.com/hyperlane-xyz/joe-tokenlists"
 
 [[repo]]
-url = "https://github.com/iamnotstatic/multichain-crypto-wallet"
+url = "https://github.com/i-link-pro-team/hardhat-boilerplate"
 
 [[repo]]
 url = "https://github.com/iAmZubair00/sushi"
 
 [[repo]]
+url = "https://github.com/iKeenFi/ikeen-contracts"
+
+[[repo]]
+url = "https://github.com/iLVino/Avalanche-Token-Portfolio-Visualizer"
+
+[[repo]]
+url = "https://github.com/iLVino/Intercontinentenal-bridge"
+
+[[repo]]
+url = "https://github.com/iMPERIAL18/DeFi-Empire"
+
+[[repo]]
+url = "https://github.com/iMPERIAL18/avax-tokenvm"
+
+[[repo]]
+url = "https://github.com/iamiskender/avalanche-types-rs"
+
+[[repo]]
+url = "https://github.com/iamnathanwindsor/LandslideCore"
+
+[[repo]]
+url = "https://github.com/iamnotstatic/multichain-crypto-wallet"
+
+[[repo]]
+url = "https://github.com/ian0371/wormhole-circle-integration"
+
+[[repo]]
 url = "https://github.com/ibdotxyz/ib-token"
+
+[[repo]]
+url = "https://github.com/ibrahim1023/interchain-governance-executor"
 
 [[repo]]
 url = "https://github.com/icegriffinguru/reward"
 
 [[repo]]
+url = "https://github.com/ideasincrypto/Ambire-Wallet-A-full-featured-self-custodial"
+
+[[repo]]
 url = "https://github.com/igorlourenco/staking-game-contracts"
 
 [[repo]]
-url = "https://github.com/iKeenFi/ikeen-contracts"
+url = "https://github.com/imotai/awesome-web3-1"
 
 [[repo]]
 url = "https://github.com/inedibleX/inedible-frontend"
@@ -1559,7 +3604,10 @@ url = "https://github.com/inexplicableeth/empire-token"
 url = "https://github.com/innerfirexy/interactive-web-ai"
 
 [[repo]]
-url = "https://github.com/Interchain-Systems/avalanchego-prior-work"
+url = "https://github.com/intern-jimmy/dfktools"
+
+[[repo]]
+url = "https://github.com/internet-computer-protocol/ic-eth-rpc"
 
 [[repo]]
 url = "https://github.com/iouaydahbloom/Gozo-Web-App"
@@ -1568,29 +3616,58 @@ url = "https://github.com/iouaydahbloom/Gozo-Web-App"
 url = "https://github.com/ir4tech/webb-evm"
 
 [[repo]]
-url = "https://github.com/IskraNikolova/VScout"
+url = "https://github.com/iremozkal/avalanche-postman-collection"
 
 [[repo]]
-url = "https://github.com/ItsJackAnton/jacksa999.github.io"
+url = "https://github.com/irfanevrens/coreth"
+
+[[repo]]
+url = "https://github.com/isgasho/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/itinance/hypersdk"
+
+[[repo]]
+url = "https://github.com/itinance/mnemonic-shamir-secret-sharing-cli"
+
+[[repo]]
+url = "https://github.com/itinance/precompile-evm"
 
 [[repo]]
 url = "https://github.com/itublockchain/ethprague-contracts"
 
 [[repo]]
 url = "https://github.com/izzetemredemir/Avalanche-NFT-Aggregator"
-tags = ["Aggregator", "NFT"]
+
+[[repo]]
+url = "https://github.com/izzetemredemir/avalanche-network-runner"
+
+[[repo]]
+url = "https://github.com/izzetemredemir/avalanche-wallet-sdk"
 
 [[repo]]
 url = "https://github.com/izzetemredemir/barcelona-priv-launchpad"
 
 [[repo]]
+url = "https://github.com/izzetemredemir/subnet-cli"
+
+[[repo]]
+url = "https://github.com/jafrnq/AvaxM2proj"
+
+[[repo]]
 url = "https://github.com/jagnani73/LenDen"
+
+[[repo]]
+url = "https://github.com/jaidevvk/AVAX-Advance1"
 
 [[repo]]
 url = "https://github.com/jaimi-io/avaxcast"
 
 [[repo]]
-url = "https://github.com/Jamili88/yield-yak-avalanche-contracts"
+url = "https://github.com/jaimi-io/hypersdk"
+
+[[repo]]
+url = "https://github.com/jamilcse13/awesome-web3"
 
 [[repo]]
 url = "https://github.com/jasonjstewart/hardhat-quick-start"
@@ -1602,6 +3679,9 @@ url = "https://github.com/jasonjstewart/shared-wallet"
 url = "https://github.com/jasonjstewart/tradable-tokens"
 
 [[repo]]
+url = "https://github.com/jaymeh13/awesome-web3"
+
+[[repo]]
 url = "https://github.com/jdamiron/CorgiDAO"
 
 [[repo]]
@@ -1611,7 +3691,22 @@ url = "https://github.com/jeff0723/NFT-Template"
 url = "https://github.com/jeff0723/ZkAlpha"
 
 [[repo]]
-url = "https://github.com/JheyBerry/avalanche-pathway"
+url = "https://github.com/jen-sei/lester-ETHLondon"
+
+[[repo]]
+url = "https://github.com/jerrymusaga/avasocial"
+
+[[repo]]
+url = "https://github.com/jetorgy/MoveAndWhap"
+
+[[repo]]
+url = "https://github.com/jg8481/awesome-web3"
+
+[[repo]]
+url = "https://github.com/jiangchuan-he-cb/avalanche-rosetta"
+
+[[repo]]
+url = "https://github.com/jo4965/go-flare"
 
 [[repo]]
 url = "https://github.com/johni1228/ConvertCurrency-CoingeckoAPI"
@@ -1620,10 +3715,10 @@ url = "https://github.com/johni1228/ConvertCurrency-CoingeckoAPI"
 url = "https://github.com/johnkennII/Pixi"
 
 [[repo]]
-url = "https://github.com/johnthethird/rialto-oracle"
+url = "https://github.com/johnnyp77/hypersdk"
 
 [[repo]]
-url = "https://github.com/JokeDAO/JokeDaoV2Dev"
+url = "https://github.com/johnthethird/rialto-oracle"
 
 [[repo]]
 url = "https://github.com/jomarip/Zapper"
@@ -1632,34 +3727,55 @@ url = "https://github.com/jomarip/Zapper"
 url = "https://github.com/josealonso/MyWeb3Boilerplate"
 
 [[repo]]
-url = "https://github.com/JSH1995/HAGO"
+url = "https://github.com/josemariasosa/bondly-contracts"
 
 [[repo]]
-url = "https://github.com/JSH1995/HAGO2"
+url = "https://github.com/joshua-kim/ACPs"
+
+[[repo]]
+url = "https://github.com/joshuamdavisshrapnel/joe-tokenlists"
+
+[[repo]]
+url = "https://github.com/jpop32/avalanche-faucet"
+
+[[repo]]
+url = "https://github.com/jremmyy/avalanche-evm"
+
+[[repo]]
+url = "https://github.com/jremmyy/my-precompile-evm"
+
+[[repo]]
+url = "https://github.com/jscaltreto-noncircle/cctp-sample-app"
 
 [[repo]]
 url = "https://github.com/jtormey/avax-wallet"
 
 [[repo]]
-url = "https://github.com/Julian-dev28/BalanceERC721Script"
-
-[[repo]]
-url = "https://github.com/Julian-dev28/upgradeable-contract-quickstart"
-
-[[repo]]
 url = "https://github.com/junkim012/op-geth-eip-3074-demo"
+
+[[repo]]
+url = "https://github.com/justgnoh/functions-hardhat-starter-kit"
 
 [[repo]]
 url = "https://github.com/kaamil-ahamadh/smart_contracts"
 
 [[repo]]
+url = "https://github.com/kampanosg/smart-duck-farm"
+
+[[repo]]
+url = "https://github.com/kanasite/dfktools"
+
+[[repo]]
+url = "https://github.com/kanatliemre/avalanche-docs"
+
+[[repo]]
 url = "https://github.com/kapphire/staking_metag"
 
 [[repo]]
-url = "https://github.com/KassandraFinance/kassandra-frontend"
+url = "https://github.com/karanpargal/LenDen"
 
 [[repo]]
-url = "https://github.com/Keen-Sheen/AVAX"
+url = "https://github.com/kazunetakeda25/core"
 
 [[repo]]
 url = "https://github.com/kevinkuo0320/MetaBank"
@@ -1668,25 +3784,37 @@ url = "https://github.com/kevinkuo0320/MetaBank"
 url = "https://github.com/kevinlin-crypto/nft-contracts"
 
 [[repo]]
-url = "https://github.com/Kiwi-Protocol/Backend"
+url = "https://github.com/kien-ngo/avalanche-docs"
 
 [[repo]]
-url = "https://github.com/Kiwi-Protocol/kiwi-contracts"
+url = "https://github.com/kimchan122/homm"
 
 [[repo]]
-url = "https://github.com/Kiwi-Protocol/kiwi-interface"
+url = "https://github.com/kingbsby/circle-cctp-web"
 
 [[repo]]
 url = "https://github.com/kkayam/coinFlip-Avalanche-site"
 
 [[repo]]
+url = "https://github.com/klatos063/abracadabra-money-contracts"
+
+[[repo]]
 url = "https://github.com/klaytn/tx-latency-measurement"
 
 [[repo]]
-url = "https://github.com/kovrichard/shitcoin-factory-frontend"
+url = "https://github.com/klemenfn/flare-p-chain-indexer"
 
 [[repo]]
-url = "https://github.com/KrisnaArynasta/API-smart-contract-caller-golang"
+url = "https://github.com/kmchmk/evm-cosmos-gmp-sample"
+
+[[repo]]
+url = "https://github.com/kmlcgn/fairlanche"
+
+[[repo]]
+url = "https://github.com/koriesyddall/avalanchejs"
+
+[[repo]]
+url = "https://github.com/kovrichard/shitcoin-factory-frontend"
 
 [[repo]]
 url = "https://github.com/krishna-p060/decentralised_Voting_by_Avalanche"
@@ -1695,7 +3823,7 @@ url = "https://github.com/krishna-p060/decentralised_Voting_by_Avalanche"
 url = "https://github.com/kryptochaot/flare"
 
 [[repo]]
-url = "https://github.com/Kunkka0822/spot-price-aggregator"
+url = "https://github.com/kuririn1/optisign/"
 
 [[repo]]
 url = "https://github.com/kushdave1/NiftyTunes"
@@ -1704,10 +3832,19 @@ url = "https://github.com/kushdave1/NiftyTunes"
 url = "https://github.com/kvnlpz/blockchain-texting-app"
 
 [[repo]]
-url = "https://github.com/Kyte-Research/kyte-core-contracts"
+url = "https://github.com/kyotoeth/ng-questplay"
+
+[[repo]]
+url = "https://github.com/l-monninger/M1"
 
 [[repo]]
 url = "https://github.com/lacykaltgr/avaxape"
+
+[[repo]]
+url = "https://github.com/lalithrajrayappa/Avalanche-Advance1"
+
+[[repo]]
+url = "https://github.com/larrythecucumber321/reserve-faucet"
 
 [[repo]]
 url = "https://github.com/lasthyphen/archiveus"
@@ -1749,13 +3886,22 @@ url = "https://github.com/lasthyphen/dijigo-runner"
 url = "https://github.com/lasthyphen/ortelius"
 
 [[repo]]
+url = "https://github.com/latifahape/plebbit-js"
+
+[[repo]]
 url = "https://github.com/laurindo/pointbreak-dashboard"
 
 [[repo]]
-url = "https://github.com/Le4kno3/DappProjects"
+url = "https://github.com/laviniat1996/avalanche-postman-collection"
 
 [[repo]]
-url = "https://github.com/Le4kno3/Solidity-Contracts-Practice"
+url = "https://github.com/lazyfuhrer/hypersdk"
+
+[[repo]]
+url = "https://github.com/lazyweb3/multisig.lol"
+
+[[repo]]
+url = "https://github.com/learncardano/precompile-evm"
 
 [[repo]]
 url = "https://github.com/lechneal/solidity-hello-world-contract"
@@ -1767,6 +3913,12 @@ url = "https://github.com/lechneal/solidity-hello-world-dapp"
 url = "https://github.com/leirbag95/Token-presale"
 
 [[repo]]
+url = "https://github.com/letgotine/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/letgotine/smart-contracts"
+
+[[repo]]
 url = "https://github.com/lfsmoura/avalanche-contract"
 
 [[repo]]
@@ -1776,16 +3928,22 @@ url = "https://github.com/liam-ayathan/block_xplorers"
 url = "https://github.com/lidofinance/avalanche-contracts"
 
 [[repo]]
-url = "https://github.com/linxy97/vejoe-calculator"
+url = "https://github.com/lieferbrando/joe-tokenlists"
 
 [[repo]]
-url = "https://github.com/Lissless/AvalancheGoPlayground"
+url = "https://github.com/linuxforphp/flare-stake-tool"
+
+[[repo]]
+url = "https://github.com/linxy97/vejoe-calculator"
 
 [[repo]]
 url = "https://github.com/liu-peiyu/nextjs-web3"
 
 [[repo]]
-url = "https://github.com/Loque18/arenamon-oc"
+url = "https://github.com/liweill/WaFL"
+
+[[repo]]
+url = "https://github.com/loicdrbx/avalanche-rebalancer"
 
 [[repo]]
 url = "https://github.com/lovecodingdev/monetaria-interface"
@@ -1797,19 +3955,55 @@ url = "https://github.com/lubhub612/sushiswap-clone"
 url = "https://github.com/lukerhoads/traderjoe-api"
 
 [[repo]]
-url = "https://github.com/LukeSamkharadze/community-buidler"
+url = "https://github.com/lukestreckenbach/add-walletOS"
 
 [[repo]]
 url = "https://github.com/luxdefi/node"
 
 [[repo]]
+url = "https://github.com/mabesi/openzepellyn-upgradeable-proxy-erc1967"
+
+[[repo]]
+url = "https://github.com/mabesi/openzeppelin-multitoken-erc1155"
+
+[[repo]]
 url = "https://github.com/macrocan/coreth"
+
+[[repo]]
+url = "https://github.com/madjianguo/avax-python"
 
 [[repo]]
 url = "https://github.com/magiclabs/example-avalanche"
 
 [[repo]]
+url = "https://github.com/mahofmahof/LandslideCore"
+
+[[repo]]
+url = "https://github.com/mahofmahof/M1"
+
+[[repo]]
+url = "https://github.com/mahofmahof/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/mahofmahof/teleporter"
+
+[[repo]]
+url = "https://github.com/mahofmahof/testnet-subnet-vm"
+
+[[repo]]
+url = "https://github.com/mahofmahof/xpower-hh"
+
+[[repo]]
 url = "https://github.com/malden-feuerstein/contracts"
+
+[[repo]]
+url = "https://github.com/manipulation44/go-flare"
+
+[[repo]]
+url = "https://github.com/manojkgorle/hyper-wasm"
+
+[[repo]]
+url = "https://github.com/manojkgorle/hypersdk"
 
 [[repo]]
 url = "https://github.com/manojkgorle/improved-couscous"
@@ -1824,6 +4018,30 @@ url = "https://github.com/manosijfiu/growic-tasks"
 url = "https://github.com/manufarfaro/smart-lib"
 
 [[repo]]
+url = "https://github.com/mariaeva15/EthAvaxDegenTokenERC20"
+
+[[repo]]
+url = "https://github.com/mariaeva15/EthAvaxFunctionFrontend"
+
+[[repo]]
+url = "https://github.com/marlshane23/Avalanche-HyperSDK"
+
+[[repo]]
+url = "https://github.com/marlshane23/Avalanche-Subnets"
+
+[[repo]]
+url = "https://github.com/marlshane23/Building-on-Avalanche---ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/marmibv/crypto-sniper-bot"
+
+[[repo]]
+url = "https://github.com/martineckardt/test-precompile-evm"
+
+[[repo]]
+url = "https://github.com/maskoff7/wallet-checker"
+
+[[repo]]
 url = "https://github.com/mastercodercat/flexplex-wallet"
 
 [[repo]]
@@ -1836,16 +4054,10 @@ url = "https://github.com/mathieu-bour/neka"
 url = "https://github.com/matsuikin/spot-price-aggregator"
 
 [[repo]]
-url = "https://github.com/Matthlib/ERC20_rewardToken"
-
-[[repo]]
-url = "https://github.com/MattKraatz/vejoe-calc"
-
-[[repo]]
 url = "https://github.com/mattlinskys/dvotte-web"
 
 [[repo]]
-url = "https://github.com/MattyChoi/lendio"
+url = "https://github.com/maurerbot/awesome-web3"
 
 [[repo]]
 url = "https://github.com/mayan-finance/swap-sdk"
@@ -1854,13 +4066,34 @@ url = "https://github.com/mayan-finance/swap-sdk"
 url = "https://github.com/mayckonx/avax_dapp"
 
 [[repo]]
-url = "https://github.com/Mean-Finance/sdk"
+url = "https://github.com/meaghanfitzgerald/hypersdk"
+
+[[repo]]
+url = "https://github.com/meaghanfitzgerald/teleporter"
+
+[[repo]]
+url = "https://github.com/meaghanfitzgerald/translate-ai"
+
+[[repo]]
+url = "https://github.com/meanMonk/awesome-web3"
 
 [[repo]]
 url = "https://github.com/medipolchain/refi-avalanche-akbank-hackathon-2022"
 
 [[repo]]
+url = "https://github.com/meeh0w/ledger-avalanche"
+
+[[repo]]
+url = "https://github.com/mehtavishwa30/hypersdk"
+
+[[repo]]
 url = "https://github.com/membranefi/euroe-stablecoin"
+
+[[repo]]
+url = "https://github.com/memeticofficial/ledger-pepecoin"
+
+[[repo]]
+url = "https://github.com/memeticofficial/pepecoin-network-runner-sdk"
 
 [[repo]]
 url = "https://github.com/merlion-zone/mertester"
@@ -1869,22 +4102,19 @@ url = "https://github.com/merlion-zone/mertester"
 url = "https://github.com/metagamelabs/dexalot-mm"
 
 [[repo]]
-url = "https://github.com/MetalBlockchain/coreth"
-
-[[repo]]
-url = "https://github.com/Metapolis21/metamints-app-v2"
-
-[[repo]]
-url = "https://github.com/Metapolis21/polisEcoSystem-v2"
-
-[[repo]]
 url = "https://github.com/metlco4/usdr-smartcontract"
 
 [[repo]]
-url = "https://github.com/millicare/Swap-Sicle-Zapper"
+url = "https://github.com/mevakab/avalanche-types-rs"
 
 [[repo]]
-url = "https://github.com/MiltonsDAO/miltonsdao"
+url = "https://github.com/midnight-commit/smart-contracts"
+
+[[repo]]
+url = "https://github.com/midnight-commit/yak-aggregator"
+
+[[repo]]
+url = "https://github.com/millicare/Swap-Sicle-Zapper"
 
 [[repo]]
 url = "https://github.com/mimoo/avalanche-wallet"
@@ -1896,55 +4126,97 @@ url = "https://github.com/mineloop99/price-oracle"
 url = "https://github.com/mingji/avaTokenWrapper"
 
 [[repo]]
-url = "https://github.com/Mohd-Taqiuddin/Avalanche-simple-DApp"
+url = "https://github.com/minivipers/testnet-subnet-vm"
+
+[[repo]]
+url = "https://github.com/mizovsky2304/oft-transfer-script"
+
+[[repo]]
+url = "https://github.com/mohsennazar/smart-contracts"
 
 [[repo]]
 url = "https://github.com/mohsin-laeeque/dao-contracts-warrant"
 
 [[repo]]
-url = "https://github.com/MoreMoney-Finance/liquidation-bot"
+url = "https://github.com/moltam89/multisig.lol"
+
+[[repo]]
+url = "https://github.com/moonxmn/ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/moonxmn/ETH-AVAX-TypesOfFunctions"
 
 [[repo]]
 url = "https://github.com/moribus-single/dao"
 
 [[repo]]
-url = "https://github.com/MoritzSchwerer/ERC-20-Gouvernance"
+url = "https://github.com/motiwater/contracts"
 
 [[repo]]
-url = "https://github.com/MoritzSchwerer/HardhatBase"
+url = "https://github.com/mouzzarr/contracts"
 
 [[repo]]
-url = "https://github.com/MoritzSchwerer/simpleNft"
+url = "https://github.com/mouzzarr/protocol-subgraphs"
 
 [[repo]]
-url = "https://github.com/MotusProtocol/core"
+url = "https://github.com/movemntdev/M1"
 
 [[repo]]
 url = "https://github.com/mpereiraesaa/avax-aave-liquidator"
 
 [[repo]]
+url = "https://github.com/mravselj/precompile-hello-world"
+
+[[repo]]
+url = "https://github.com/mrshelby13/Building-on-Avalanche---ETH-AVAX"
+
+[[repo]]
+url = "https://github.com/mrsuttton/ape-avalanche"
+
+[[repo]]
+url = "https://github.com/mshankarrao/nftairdrop"
+
+[[repo]]
+url = "https://github.com/mtgnoah/hypersdk"
+
+[[repo]]
 url = "https://github.com/mtsandeep/tender-frontend"
 
 [[repo]]
-url = "https://github.com/MuhammadAnas786/UpgradableContracts"
+url = "https://github.com/mugrebot/multisig.canto"
+
+[[repo]]
+url = "https://github.com/muhammetselimfe/avalanche-wallet"
+
+[[repo]]
+url = "https://github.com/multisig-labs/avalanche-wallet"
+
+[[repo]]
+url = "https://github.com/multisig-labs/hypersdk"
 
 [[repo]]
 url = "https://github.com/muroko/gnoddsv2"
 
 [[repo]]
-url = "https://github.com/MXCzkEVM/aave-v3-interface"
+url = "https://github.com/mxber2022/EncodeUniversityHackathon"
 
 [[repo]]
 url = "https://github.com/mycelium-ethereum/swaps-client"
 
 [[repo]]
-url = "https://github.com/Mycelium-Lab/dWill_client"
-
-[[repo]]
 url = "https://github.com/n1az/n1az.github.io-old"
 
 [[repo]]
-url = "https://github.com/NadavPeled1998/batcher"
+url = "https://github.com/nahoc/avalanche-wallet"
+
+[[repo]]
+url = "https://github.com/najeal/hypersdk"
+
+[[repo]]
+url = "https://github.com/naoloetscher/avax-landing"
+
+[[repo]]
+url = "https://github.com/naort-dev/avalanche"
 
 [[repo]]
 url = "https://github.com/naruto0913/dao-protocol"
@@ -1953,16 +4225,22 @@ url = "https://github.com/naruto0913/dao-protocol"
 url = "https://github.com/naruto0913/nft-ipfs"
 
 [[repo]]
-url = "https://github.com/Ncookiez/pooltogether-multidelegator-preview"
+url = "https://github.com/nchlnnmrvnz/Building-on-Avalanche"
+
+[[repo]]
+url = "https://github.com/nchlnnmrvnz/Smart-Contract-Management-ETHAVAX"
 
 [[repo]]
 url = "https://github.com/nekoverse/neko-contracts"
 
 [[repo]]
+url = "https://github.com/nemani/cryo"
+
+[[repo]]
 url = "https://github.com/nereusfinance/nereus-stablecoin-core"
 
 [[repo]]
-url = "https://github.com/NestedFi/nested-core-lego"
+url = "https://github.com/neuhaus/avalanche-monitoring"
 
 [[repo]]
 url = "https://github.com/new-order-network/new-order-app-ui"
@@ -1971,10 +4249,22 @@ url = "https://github.com/new-order-network/new-order-app-ui"
 url = "https://github.com/newcometlab/sharktank-dev"
 
 [[repo]]
+url = "https://github.com/newt0/avalanche-wallet-sdk"
+
+[[repo]]
+url = "https://github.com/nguyenasdd3/precompile-evm"
+
+[[repo]]
+url = "https://github.com/nguyenbang900/hypersdk"
+
+[[repo]]
 url = "https://github.com/nguyentrungnghia98/mint-nft-auto"
 
 [[repo]]
 url = "https://github.com/nickbtts/crabada"
+
+[[repo]]
+url = "https://github.com/nicor90/coreth"
 
 [[repo]]
 url = "https://github.com/nigeltay/Avax_Quest_8"
@@ -1983,19 +4273,37 @@ url = "https://github.com/nigeltay/Avax_Quest_8"
 url = "https://github.com/nighostchris/unichain"
 
 [[repo]]
+url = "https://github.com/nikk15222/joe-tokenlists"
+
+[[repo]]
+url = "https://github.com/nikola43/yak-aggregator"
+
+[[repo]]
+url = "https://github.com/nila-max/avalanchego"
+
+[[repo]]
+url = "https://github.com/nili1tomo/avalanchego"
+
+[[repo]]
+url = "https://github.com/nimishdudhe01/unfold_apis"
+
+[[repo]]
 url = "https://github.com/ninja-1337/souvlaswap-interface"
+
+[[repo]]
+url = "https://github.com/nithin-06/unfold2023"
+
+[[repo]]
+url = "https://github.com/nodiesBlade/avalanche-docs"
 
 [[repo]]
 url = "https://github.com/nostrum-coin/nostrum-coin"
 
 [[repo]]
-url = "https://github.com/Nuttymoon/ansible-avalanche-collection"
+url = "https://github.com/notpritam/unfold-2023-dev"
 
 [[repo]]
-url = "https://github.com/Nuttymoon/ansible-avalanche-getting-started"
-
-[[repo]]
-url = "https://github.com/Nuttymoon/christmas-eth"
+url = "https://github.com/novam77/yak-aggregator"
 
 [[repo]]
 url = "https://github.com/o-az/evm-balances"
@@ -2010,31 +4318,52 @@ url = "https://github.com/obsidiansystems/avalanche-wallet-cli"
 url = "https://github.com/obsidiansystems/ledger-app-avalanche"
 
 [[repo]]
+url = "https://github.com/ocielbernes/avalanche-faucet"
+
+[[repo]]
 url = "https://github.com/ogdemster/avax-nft-creatorhome"
 
 [[repo]]
 url = "https://github.com/okeken/gamify"
 
 [[repo]]
-url = "https://github.com/Olaaa30/StakeHolder"
+url = "https://github.com/oliwave/cctp-sample-app-1"
 
 [[repo]]
-url = "https://github.com/Omkar-Ghongade/Web3Verse"
+url = "https://github.com/omahs/hypersdk"
+
+[[repo]]
+url = "https://github.com/omahs/multichain-auditor"
+
+[[repo]]
+url = "https://github.com/omar-saadoun/hypersdk"
+
+[[repo]]
+url = "https://github.com/onghwan/CubeSigner-TypeScript-SDK"
 
 [[repo]]
 url = "https://github.com/opendao-protocols/usdo-token"
 
 [[repo]]
-url = "https://github.com/OpenDive/r-subnet-evm"
+url = "https://github.com/openfort-xyz/lost-dungeon"
 
 [[repo]]
 url = "https://github.com/opengsn/gsn"
 
 [[repo]]
+url = "https://github.com/optisman/Zeus-sss-v2"
+
+[[repo]]
 url = "https://github.com/optisman/zeus-lottery"
 
 [[repo]]
-url = "https://github.com/optisman/Zeus-sss-v2"
+url = "https://github.com/oracl360/joe-core"
+
+[[repo]]
+url = "https://github.com/orbs-network/oip6-migration-contracts"
+
+[[repo]]
+url = "https://github.com/osslabz/evm-client"
 
 [[repo]]
 url = "https://github.com/otaiga/CryptoAdventure"
@@ -2052,19 +4381,37 @@ url = "https://github.com/owlprotocol/owlprotocol-oldpub"
 url = "https://github.com/ozcu/Hardhat-NFTMint"
 
 [[repo]]
-url = "https://github.com/PalmDAO/PalmDApp"
+url = "https://github.com/p1not/Smart_Contract_asking_to_ChatGPT"
 
 [[repo]]
 url = "https://github.com/pangolindex/exchange-contracts"
 
 [[repo]]
+url = "https://github.com/panoptisDev/batch-distributor"
+
+[[repo]]
 url = "https://github.com/pantherprotocol/panther-core"
+
+[[repo]]
+url = "https://github.com/paras-aghija/multisig.lol"
+
+[[repo]]
+url = "https://github.com/parhamsorkhi/monorepo"
+
+[[repo]]
+url = "https://github.com/parhamsorkhi/smart-order-router"
+
+[[repo]]
+url = "https://github.com/parniaarb/joe-core"
 
 [[repo]]
 url = "https://github.com/passengerdefi/ringfi"
 
 [[repo]]
-url = "https://github.com/Paul4912/crabadabots"
+url = "https://github.com/patrick-ogrady/ACPs"
+
+[[repo]]
+url = "https://github.com/paulopisani/functions-hardhat-starter-kit"
 
 [[repo]]
 url = "https://github.com/pcaversaccio/batch-distributor"
@@ -2076,34 +4423,13 @@ url = "https://github.com/pcaversaccio/create2deployer"
 url = "https://github.com/pcaversaccio/escrow-contract"
 
 [[repo]]
-url = "https://github.com/PearBlockchain/webwallet"
-
-[[repo]]
-url = "https://github.com/Pelumi527/Donate"
+url = "https://github.com/pedro-sys/precompile-evm"
 
 [[repo]]
 url = "https://github.com/peppersec/gas-price-oracle"
 
 [[repo]]
-url = "https://github.com/PercivalZhang/Web3SwissKnife"
-
-[[repo]]
-url = "https://github.com/Permissionless-Software-Foundation/avax-bridge"
-
-[[repo]]
-url = "https://github.com/Permissionless-Software-Foundation/avax-cli-wallet"
-
-[[repo]]
-url = "https://github.com/Permissionless-Software-Foundation/avax-dex"
-
-[[repo]]
-url = "https://github.com/Permissionless-Software-Foundation/minimal-avax-wallet"
-
-[[repo]]
-url = "https://github.com/Permissionless-Software-Foundation/psf-avax-wallet"
-
-[[repo]]
-url = "https://github.com/Permissionless-Software-Foundation/slp-avax-bridge"
+url = "https://github.com/peter-baek/avalanche-docs"
 
 [[repo]]
 url = "https://github.com/peterahnee/fictional-parakeet-"
@@ -2115,22 +4441,28 @@ url = "https://github.com/peterjah/MetaderbyBot"
 url = "https://github.com/phantom930/spot-price-aggregator"
 
 [[repo]]
+url = "https://github.com/pharth/Valak"
+
+[[repo]]
+url = "https://github.com/philipjonsen/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/philipjonsen/awm-relayer"
+
+[[repo]]
 url = "https://github.com/phoenixlabsresearch/spark-interface"
 
 [[repo]]
-url = "https://github.com/PillarGame/TokenSales"
+url = "https://github.com/piyushblox/Valak"
 
 [[repo]]
-url = "https://github.com/PiyushSuthar/oxygene"
+url = "https://github.com/plebbit/plebbit-js"
 
 [[repo]]
 url = "https://github.com/pnowosie/timestampvm"
 
 [[repo]]
-url = "https://github.com/Pokesi/AVAX-ERC20"
-
-[[repo]]
-url = "https://github.com/Pokesi/XOPRSTAKE"
+url = "https://github.com/poctek/coreth"
 
 [[repo]]
 url = "https://github.com/polywrap/ethereum-wallet"
@@ -2145,22 +4477,25 @@ url = "https://github.com/pooltogether/pooltogether-api-monorepo"
 url = "https://github.com/pooltogether/v4-ui"
 
 [[repo]]
-url = "https://github.com/Popcorn-Limited/contracts"
-
-[[repo]]
-url = "https://github.com/Populus-Finance/defi-contracts"
-
-[[repo]]
-url = "https://github.com/PortalFantasy/smart-contracts-interview-exercises"
-
-[[repo]]
 url = "https://github.com/portals-fi/portals-boilerplate"
 
 [[repo]]
-url = "https://github.com/Pragma-Technologies/pragma-web-utils"
+url = "https://github.com/pranathi-jayanthi/Web3Verse"
+
+[[repo]]
+url = "https://github.com/praveen345qe/metacrafters-avax-1"
+
+[[repo]]
+url = "https://github.com/prayasu-satapathy/unfold-2023-dev"
 
 [[repo]]
 url = "https://github.com/priyajoshipj/crowdFunding"
+
+[[repo]]
+url = "https://github.com/priyanshu5603/avax-adv-1"
+
+[[repo]]
+url = "https://github.com/prodesert22/legacy-interface"
 
 [[repo]]
 url = "https://github.com/progiron/app"
@@ -2169,7 +4504,10 @@ url = "https://github.com/progiron/app"
 url = "https://github.com/progiron/app2"
 
 [[repo]]
-url = "https://github.com/ProjectSwaptor/swaptor-monorepo"
+url = "https://github.com/proofofsleep/seadrop"
+
+[[repo]]
+url = "https://github.com/protonnz/metalnodes-explorer"
 
 [[repo]]
 url = "https://github.com/psicho/avalanche"
@@ -2178,16 +4516,13 @@ url = "https://github.com/psicho/avalanche"
 url = "https://github.com/psycoders-club/metro-wallet-extension"
 
 [[repo]]
-url = "https://github.com/PtitLuca/aleph-ts"
-
-[[repo]]
-url = "https://github.com/PushinSt/TicTacToe-hardhat-ilink"
-
-[[repo]]
-url = "https://github.com/PushinSt/todoList-hardhat-ilink"
+url = "https://github.com/pyropy/gmx-subgraph"
 
 [[repo]]
 url = "https://github.com/pzhao1799/defi-solidity"
+
+[[repo]]
+url = "https://github.com/qayyum22/awesome-web3"
 
 [[repo]]
 url = "https://github.com/qsvtr/avash"
@@ -2199,16 +4534,19 @@ url = "https://github.com/quality-cell/erc20tpu"
 url = "https://github.com/quality-cell/todo-list"
 
 [[repo]]
-url = "https://github.com/Quantumlyy/eth-nft-display"
-
-[[repo]]
-url = "https://github.com/QuantumXO/bigbang"
+url = "https://github.com/quanglam2807/cctp-sample-app"
 
 [[repo]]
 url = "https://github.com/quentinpuzenat/learn-solidity"
 
 [[repo]]
-url = "https://github.com/RabbyHub/Rabby"
+url = "https://github.com/r0gueph/ETHAvaxAssessment4"
+
+[[repo]]
+url = "https://github.com/r4VP4/yak-aggregator"
+
+[[repo]]
+url = "https://github.com/radiofreejohn/awesome-web3"
 
 [[repo]]
 url = "https://github.com/rainprotocol/rain-arb-bot"
@@ -2217,31 +4555,34 @@ url = "https://github.com/rainprotocol/rain-arb-bot"
 url = "https://github.com/rainprotocol/rain-arb-bot-docker"
 
 [[repo]]
+url = "https://github.com/rainprotocol/sushixswap-v2"
+
+[[repo]]
+url = "https://github.com/raiyan-fr/ETH-AVAX_Intermediate"
+
+[[repo]]
 url = "https://github.com/rarimo/js-sdk"
 
 [[repo]]
 url = "https://github.com/rasamaher/zapper"
 
 [[repo]]
+url = "https://github.com/ravenerzz/timestampvm-rs"
+
+[[repo]]
+url = "https://github.com/rayuga007/avax-mod-2"
+
+[[repo]]
 url = "https://github.com/re-nft/sdk"
-
-[[repo]]
-url = "https://github.com/RealFevr/Lending-Borrowing-SC"
-
-[[repo]]
-url = "https://github.com/ReallyBasicGames/Aurora-Star-Corps"
-
-[[repo]]
-url = "https://github.com/ReallyBasicGames/Idle-Mining"
 
 [[repo]]
 url = "https://github.com/redstone-finance/redstone-node"
 
 [[repo]]
-url = "https://github.com/restake/stake.js"
+url = "https://github.com/reservoir-labs/yak-aggregator"
 
 [[repo]]
-url = "https://github.com/Revest-Finance/Revest-SDK"
+url = "https://github.com/restake/stake.js"
 
 [[repo]]
 url = "https://github.com/rfzsal/blockchain-next"
@@ -2256,19 +4597,28 @@ url = "https://github.com/ridhisikaria/RedDart"
 url = "https://github.com/rijatalizada/EVM-tokens"
 
 [[repo]]
-url = "https://github.com/Roaring30s/salvo-backend"
+url = "https://github.com/roinevirta/avalanche-faucet"
 
 [[repo]]
-url = "https://github.com/Rolemodel01291/dapp-polarnodes.finance"
-
-[[repo]]
-url = "https://github.com/Rome-Blockchain-Labs/terminal-library"
+url = "https://github.com/rokasta12/fenerbahce-application-fork"
 
 [[repo]]
 url = "https://github.com/ronaldkohhh/avalanche"
 
 [[repo]]
+url = "https://github.com/router-resources/awesome-web3"
+
+[[repo]]
 url = "https://github.com/rromero89/dapp"
+
+[[repo]]
+url = "https://github.com/rushimanche/ACPs"
+
+[[repo]]
+url = "https://github.com/ryandgoulding/oft-transfer-script"
+
+[[repo]]
+url = "https://github.com/ryojiroakiyama/AVAX-Messenger"
 
 [[repo]]
 url = "https://github.com/ryojiroakiyama/Avalanche_messenger_dApp_archive"
@@ -2283,31 +4633,34 @@ url = "https://github.com/rytell/hero-staking"
 url = "https://github.com/sabanstev/ToDoList"
 
 [[repo]]
+url = "https://github.com/sabotagebeats/ape-avalanche"
+
+[[repo]]
+url = "https://github.com/sade-c/Angular-web3-starter"
+
+[[repo]]
+url = "https://github.com/sagaranand015/avalanche-doorway"
+
+[[repo]]
+url = "https://github.com/sakkurthi-sashank/Web3Verse"
+
+[[repo]]
+url = "https://github.com/samar19/AvaDefender-SuiteTool"
+
+[[repo]]
 url = "https://github.com/samhithatarra/Veritas_Web_Deploy"
 
 [[repo]]
 url = "https://github.com/samisbakedham/awst1"
 
 [[repo]]
-url = "https://github.com/SanatKulkarni/Unfold2023"
-
-[[repo]]
-url = "https://github.com/Sanghren/avalanche-hardhat-fork-tutorial"
-
-[[repo]]
-url = "https://github.com/Sanghren/avalanche-nft-creation"
-
-[[repo]]
-url = "https://github.com/Sanghren/avalanche-rs"
-
-[[repo]]
-url = "https://github.com/Sanghren/awesome-avalanche"
-
-[[repo]]
-url = "https://github.com/Sanghren/snowboard"
+url = "https://github.com/samuel-nfts/my-precompile-evm"
 
 [[repo]]
 url = "https://github.com/sarmadfaheem95/beaconswap"
+
+[[repo]]
+url = "https://github.com/sathwikcodes/Web3Verse"
 
 [[repo]]
 url = "https://github.com/saurabhburade/abi-connector"
@@ -2316,13 +4669,19 @@ url = "https://github.com/saurabhburade/abi-connector"
 url = "https://github.com/saurabhburade/web3-blog-app"
 
 [[repo]]
-url = "https://github.com/Saviour1001/StakeOverflow"
+url = "https://github.com/savagejayog/mev-toolkit"
 
 [[repo]]
 url = "https://github.com/savvy-finance/savvy-subgraphs"
 
 [[repo]]
+url = "https://github.com/say-malove/avalanche-docs"
+
+[[repo]]
 url = "https://github.com/sbravindran03/Fuji__locker"
+
+[[repo]]
+url = "https://github.com/sc108822/chains"
 
 [[repo]]
 url = "https://github.com/scdefontaine/avax-nft-iam-system"
@@ -2331,7 +4690,7 @@ url = "https://github.com/scdefontaine/avax-nft-iam-system"
 url = "https://github.com/scentfinance/smart"
 
 [[repo]]
-url = "https://github.com/Schlagonia/Farmers-NFT"
+url = "https://github.com/scnale/wormhole-circle-integration"
 
 [[repo]]
 url = "https://github.com/scom-repos/staking-module"
@@ -2349,10 +4708,16 @@ url = "https://github.com/semi-infiknight/NFT_MarketPlace_Crowdfunding_Chat"
 url = "https://github.com/sendgft/contracts"
 
 [[repo]]
+url = "https://github.com/serendipity89/joe-core"
+
+[[repo]]
 url = "https://github.com/serkanalgl/subnetlist-org"
 
 [[repo]]
 url = "https://github.com/setheum-js/setheum.js"
+
+[[repo]]
+url = "https://github.com/sg-tan/avalanchejs"
 
 [[repo]]
 url = "https://github.com/sha256yan/incorrect-fee"
@@ -2361,25 +4726,49 @@ url = "https://github.com/sha256yan/incorrect-fee"
 url = "https://github.com/shad-k/web3-hyphen-widget"
 
 [[repo]]
+url = "https://github.com/shadiayoub/create2deployer"
+
+[[repo]]
+url = "https://github.com/shahmeerchaudhry/joe-tokenlists"
+
+[[repo]]
+url = "https://github.com/shailesh-shenoy/evm-customization"
+
+[[repo]]
+url = "https://github.com/shaki150697/awesome-web3"
+
+[[repo]]
+url = "https://github.com/shaokun11/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/shaokun11/avalanche-rs-merge"
+
+[[repo]]
+url = "https://github.com/shaokun11/avalanche-teleporter"
+
+[[repo]]
+url = "https://github.com/shaokun11/awm-relayer"
+
+[[repo]]
+url = "https://github.com/shaokun11/subnet-evm-me"
+
+[[repo]]
 url = "https://github.com/sherlock-audit/2023-03-taurus"
 
 [[repo]]
 url = "https://github.com/sherlock-audit/2023-03-teller"
 
 [[repo]]
+url = "https://github.com/shiatcb/avalanche-rosetta"
+
+[[repo]]
 url = "https://github.com/shielddaodapp/ShieldDao"
-
-[[repo]]
-url = "https://github.com/Shungy/cryptofrens-contracts"
-
-[[repo]]
-url = "https://github.com/Shungy/ThisTartanDoesNotExist"
 
 [[repo]]
 url = "https://github.com/sign-net/avalanche-quest7"
 
 [[repo]]
-url = "https://github.com/Simraki/crypto-todo-hardhat"
+url = "https://github.com/sillhero/NTF_CARDGAME"
 
 [[repo]]
 url = "https://github.com/skyshare-systems/quick-raven"
@@ -2388,28 +4777,22 @@ url = "https://github.com/skyshare-systems/quick-raven"
 url = "https://github.com/sleepyqadir/Vending-Machine-Avalanche"
 
 [[repo]]
-url = "https://github.com/Smart-Earners-Team/Avaxtrees.Finance"
+url = "https://github.com/smartcontractkit/ccip-cross-chain-nft"
 
 [[repo]]
-url = "https://github.com/Smart-Earners-Team/golden-coin"
+url = "https://github.com/smartcontractkit/functions-hardhat-starter-kit"
 
 [[repo]]
-url = "https://github.com/SmartDev1990/Rmarket"
+url = "https://github.com/smartcontractkit/functions-twilio-spotify"
+
+[[repo]]
+url = "https://github.com/smartcontractkit/run-functions-dapp"
+
+[[repo]]
+url = "https://github.com/smarterwallet/circle-cctp-web"
 
 [[repo]]
 url = "https://github.com/smartpassnft/scribe-contracts"
-
-[[repo]]
-url = "https://github.com/Snowball-Finance/axial-protocol"
-
-[[repo]]
-url = "https://github.com/SnowbankDAO/snowbank-frontend"
-
-[[repo]]
-url = "https://github.com/SnowConeDao/snowconekit"
-
-[[repo]]
-url = "https://github.com/Snowdenstyll/KEK"
 
 [[repo]]
 url = "https://github.com/snowmxdev/BKWZ-frontend"
@@ -2418,43 +4801,64 @@ url = "https://github.com/snowmxdev/BKWZ-frontend"
 url = "https://github.com/soakmont/soakmont-defi-ui"
 
 [[repo]]
+url = "https://github.com/socopower/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/soffije/DOXiFY"
+
+[[repo]]
 url = "https://github.com/softprodev/CP_frontend"
 
 [[repo]]
 url = "https://github.com/solwpicard723/Greta_OHM_smartcontract"
 
 [[repo]]
-url = "https://github.com/SonOfMosiah/ammonwerner.com"
+url = "https://github.com/somayeh021/joe-core"
 
 [[repo]]
-url = "https://github.com/Sotatek-ThuyetNguyen/strike-boots-frontend"
+url = "https://github.com/songokupic/hypersdk"
 
 [[repo]]
-url = "https://github.com/SoulSwapFinance/swap-orders-lib-old"
+url = "https://github.com/sovni/sov-precompile-evm"
 
 [[repo]]
-url = "https://github.com/SpaceCadetOG/defi-bic"
+url = "https://github.com/sovni/test-precompile-evm"
+
+[[repo]]
+url = "https://github.com/spaceC00kie/ChessWager"
 
 [[repo]]
 url = "https://github.com/sphinx-labs/sphinx"
 
 [[repo]]
-url = "https://github.com/Sprynt-io/Sprynt-mint-contracts"
+url = "https://github.com/squdgy/VScout"
 
 [[repo]]
-url = "https://github.com/SStech099/VeRelayTokens"
+url = "https://github.com/squdgy/hypersdk"
 
 [[repo]]
 url = "https://github.com/stakekit/js-sdk"
 
 [[repo]]
+url = "https://github.com/steel-feel/Avax-precompile"
+
+[[repo]]
 url = "https://github.com/step-app-fi/step-node"
+
+[[repo]]
+url = "https://github.com/stepnalien/gmx-interface"
+
+[[repo]]
+url = "https://github.com/sternhenri/awesome-web3"
 
 [[repo]]
 url = "https://github.com/steven-p-walsh/CartProtocol"
 
 [[repo]]
 url = "https://github.com/stichting-dua-foundation/token"
+
+[[repo]]
+url = "https://github.com/stopazs/AVADO-DNP-AvalancheGo"
 
 [[repo]]
 url = "https://github.com/struct-defi/struct-contracts"
@@ -2484,13 +4888,40 @@ url = "https://github.com/sunnykandev/dao-frontend"
 url = "https://github.com/super1114/smart-contracts"
 
 [[repo]]
+url = "https://github.com/supercool-labs/awesome-web3-ahmet"
+
+[[repo]]
+url = "https://github.com/svgor-code/precompile-evm"
+
+[[repo]]
+url = "https://github.com/sweetpea22/partytricks"
+
+[[repo]]
 url = "https://github.com/swimmer-network/swimmer-subnet-evm"
+
+[[repo]]
+url = "https://github.com/swiz115/my-precompile-evm"
 
 [[repo]]
 url = "https://github.com/sychen303/Valak"
 
 [[repo]]
+url = "https://github.com/sycomix/SmartAgents"
+
+[[repo]]
 url = "https://github.com/syscoin/pali-mobile"
+
+[[repo]]
+url = "https://github.com/syuhei176/cctp-sample-app"
+
+[[repo]]
+url = "https://github.com/szmurlo/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/tamil-reddev/zcash-oracle"
+
+[[repo]]
+url = "https://github.com/tantodefi/decommas-sdk"
 
 [[repo]]
 url = "https://github.com/taofeek-ob/Speedrun-Ethereum-Dice-Challenge-Solution"
@@ -2499,16 +4930,13 @@ url = "https://github.com/taofeek-ob/Speedrun-Ethereum-Dice-Challenge-Solution"
 url = "https://github.com/tdtrung93/demo-sell-nft"
 
 [[repo]]
-url = "https://github.com/TechieeGeeeks/unfold2023"
-
-[[repo]]
 url = "https://github.com/tempest-sol/entity-framework"
 
 [[repo]]
-url = "https://github.com/TenKeyLabs/dappwright"
+url = "https://github.com/teryanarmen/last-resort-optimal-liquidator-ts"
 
 [[repo]]
-url = "https://github.com/teryanarmen/last-resort-optimal-liquidator-ts"
+url = "https://github.com/thanhtamv2t/avalanche-wallet-sdk"
 
 [[repo]]
 url = "https://github.com/theapexlab/apex-dex"
@@ -2517,55 +4945,37 @@ url = "https://github.com/theapexlab/apex-dex"
 url = "https://github.com/thecosmicuniverse/contracts"
 
 [[repo]]
-url = "https://github.com/TheEhsanSarshar/hyphen-widget"
+url = "https://github.com/thedudeontitan/hypersdk"
 
 [[repo]]
 url = "https://github.com/thegafo/benqi-leverage"
 
 [[repo]]
-url = "https://github.com/TheGrandNobody/eternal-contracts"
+url = "https://github.com/thejasonnjoe/joe-tokenlists"
 
 [[repo]]
 url = "https://github.com/themindstone/fenerbahce-application"
 
 [[repo]]
-url = "https://github.com/Think-and-Dev/canis-contracts"
-
-[[repo]]
 url = "https://github.com/thirdfi/dex-contracts"
 
 [[repo]]
-url = "https://github.com/TobyG/ava-explorer-ios"
+url = "https://github.com/tjbaker/cctp-sample-app"
 
 [[repo]]
-url = "https://github.com/Toinounet21/coreth-trafficked-v0.7.2-rc.0"
+url = "https://github.com/toEther/EvmKit.Swift"
 
 [[repo]]
-url = "https://github.com/Toinounet21/coreth-trafficked-v0.8.3"
-
-[[repo]]
-url = "https://github.com/Toinounet21/coreth-traffiqued-v0.8.0"
-
-[[repo]]
-url = "https://github.com/Toinounet21/coreth-traffiqued-v0.8.0-rc.3"
-
-[[repo]]
-url = "https://github.com/Toinounet21/coreth-traffiqued-v0.8.0b"
-
-[[repo]]
-url = "https://github.com/Tointer/Tricast"
+url = "https://github.com/tokenforge/avalanche-faucet"
 
 [[repo]]
 url = "https://github.com/tomholford/hodl"
 
 [[repo]]
-url = "https://github.com/Topdev0104/Peppermint"
-
-[[repo]]
 url = "https://github.com/toptal126/Sushswap-forked"
 
 [[repo]]
-url = "https://github.com/TraccyAG/Traccy"
+url = "https://github.com/tradejoe-xyz/joe-subgraph-v2"
 
 [[repo]]
 url = "https://github.com/traderjoe-xyz/joe-core"
@@ -2583,22 +4993,43 @@ url = "https://github.com/trendev/greeting"
 url = "https://github.com/trexx-games/nft-rent-marketplace"
 
 [[repo]]
+url = "https://github.com/triquetra0x/avalanche-rs"
+
+[[repo]]
+url = "https://github.com/triquetra0x/coreth"
+
+[[repo]]
+url = "https://github.com/triquetra0x/hypersdk"
+
+[[repo]]
+url = "https://github.com/triquetra0x/timestampvm-rs"
+
+[[repo]]
 url = "https://github.com/tuliba1996/nft-app-marketplace"
 
 [[repo]]
 url = "https://github.com/tunjayhuseynov/Remox-Functions"
 
 [[repo]]
+url = "https://github.com/turbahn/awesome-web3"
+
+[[repo]]
+url = "https://github.com/tvl-labs/faucet"
+
+[[repo]]
 url = "https://github.com/tvl-labs/khalani-core"
 
 [[repo]]
-url = "https://github.com/UBUNTUTOKEN-DEX/ubuntudex-interface"
+url = "https://github.com/ubuygold/dappwright"
 
 [[repo]]
 url = "https://github.com/udhaykumarbala/Aliaschain"
 
 [[repo]]
 url = "https://github.com/ukbababa/wallet-srv"
+
+[[repo]]
+url = "https://github.com/umbrella-network/phoenix"
 
 [[repo]]
 url = "https://github.com/unbanksytv/TreasuryV1-main"
@@ -2610,25 +5041,37 @@ url = "https://github.com/unchain-tech/AVAX-Messenger"
 url = "https://github.com/uniperp-io/uniperp-interface"
 
 [[repo]]
+url = "https://github.com/upbond/upbond-gas-oracle"
+
+[[repo]]
 url = "https://github.com/uphold-forks/flare"
 
 [[repo]]
-url = "https://github.com/UrsaMaritimus/orca"
+url = "https://github.com/usdv-dev/joe-tokenlists"
+
+[[repo]]
+url = "https://github.com/usmaneth/hypersdk"
+
+[[repo]]
+url = "https://github.com/usopp37a/precompile-evm"
 
 [[repo]]
 url = "https://github.com/valeriiRadko/worldofkoto"
 
 [[repo]]
-url = "https://github.com/Valha-xyz/valha-defi-connectors"
-
-[[repo]]
-url = "https://github.com/Validatoor/validatoor-backend"
-
-[[repo]]
-url = "https://github.com/ValorFuture/songbird"
-
-[[repo]]
 url = "https://github.com/valory-xyz/santa-nft"
+
+[[repo]]
+url = "https://github.com/vanshwassan/avalanche-docs"
+
+[[repo]]
+url = "https://github.com/vaspap1790/chainlink-vrf-and-automation"
+
+[[repo]]
+url = "https://github.com/vata500/tx-latency-measurement"
+
+[[repo]]
+url = "https://github.com/vbuck-project/interface"
 
 [[repo]]
 url = "https://github.com/vchernetskyi993/voting-poc"
@@ -2637,22 +5080,19 @@ url = "https://github.com/vchernetskyi993/voting-poc"
 url = "https://github.com/vectorman1/ava-tokens"
 
 [[repo]]
-url = "https://github.com/Vefi-Ecosystem/nft-marketplace-watcher"
-
-[[repo]]
-url = "https://github.com/Verin1005/Nextjs-Web3react-Template"
-
-[[repo]]
 url = "https://github.com/vicololo13/skadi_finance"
+
+[[repo]]
+url = "https://github.com/vidalpaul/functions-hardhat-starter-kit"
 
 [[repo]]
 url = "https://github.com/vijayengineer/V-Cred-Avalanche"
 
 [[repo]]
-url = "https://github.com/vinay-04/unfold-precompile-evm"
+url = "https://github.com/vikinatora/avalanche-docs"
 
 [[repo]]
-url = "https://github.com/Vineta-K/tj-liquidatooor"
+url = "https://github.com/vinay-04/unfold-precompile-evm"
 
 [[repo]]
 url = "https://github.com/vinzzzzz2000/kyriba"
@@ -2661,43 +5101,85 @@ url = "https://github.com/vinzzzzz2000/kyriba"
 url = "https://github.com/viral-sangani/joe-api-v2"
 
 [[repo]]
+url = "https://github.com/vitalikda/cctp-sample-app"
+
+[[repo]]
+url = "https://github.com/vladzr/avalanche-faucet"
+
+[[repo]]
 url = "https://github.com/vmmuthu31/_Ezpay"
 
 [[repo]]
 url = "https://github.com/volt62/fork"
 
 [[repo]]
-url = "https://github.com/WaterfallDefi/frontend-reboot"
+url = "https://github.com/vuittont60/nodekit-seq"
+
+[[repo]]
+url = "https://github.com/vwakesahu/HyperHack"
+
+[[repo]]
+url = "https://github.com/waldmatias/cctp-sample-app"
+
+[[repo]]
+url = "https://github.com/wanchain/message-bridge-contracts"
+
+[[repo]]
+url = "https://github.com/waterupto/LenDen"
 
 [[repo]]
 url = "https://github.com/web3s88/harvest-cross-dex-ui"
 
 [[repo]]
-url = "https://github.com/Webxspark/unfold-2023-dev"
+url = "https://github.com/web3secresearch/GuardianAudits-GMX-6"
 
 [[repo]]
 url = "https://github.com/webgurucan/avalanche-smart-contract"
 
 [[repo]]
-url = "https://github.com/widolabs/wido-contracts"
+url = "https://github.com/whatisevolving/gmx-interface"
 
 [[repo]]
-url = "https://github.com/WIM3/protocol"
+url = "https://github.com/widolabs/wido-contracts"
 
 [[repo]]
 url = "https://github.com/wimel/Delegar-fondos-en-Avalanche-AVAX"
 
 [[repo]]
+url = "https://github.com/woonetwork/woofi_subgraph"
+
+[[repo]]
+url = "https://github.com/workwithhim/pangolin-interface"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/example-circle-relayer"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/wormhole-circle-integration"
+
+[[repo]]
 url = "https://github.com/wyndblast/chro"
 
 [[repo]]
-url = "https://github.com/XavierElon/bit-of-tech"
+url = "https://github.com/xHolas-Pit/xHolas-app"
 
 [[repo]]
 url = "https://github.com/xchainjs/xchainjs-lib"
 
 [[repo]]
-url = "https://github.com/xHolas-Pit/xHolas-app"
+url = "https://github.com/xeroquark/hypersdk"
+
+[[repo]]
+url = "https://github.com/xiaolou86/M1"
+
+[[repo]]
+url = "https://github.com/xiaolou86/coreth"
+
+[[repo]]
+url = "https://github.com/xiaolou86/openfort-contracts"
+
+[[repo]]
+url = "https://github.com/xiaolou86/struct-contracts"
 
 [[repo]]
 url = "https://github.com/xp-network/xpjs"
@@ -2706,16 +5188,79 @@ url = "https://github.com/xp-network/xpjs"
 url = "https://github.com/xpowermine/xpower-ui"
 
 [[repo]]
+url = "https://github.com/xsending/EthAvaxAdv1"
+
+[[repo]]
+url = "https://github.com/xsending/EthAvaxAdv2"
+
+[[repo]]
+url = "https://github.com/xsending/MTC-project-C-chain"
+
+[[repo]]
+url = "https://github.com/xtools-at/avalanche-faucet"
+
+[[repo]]
+url = "https://github.com/xtools-at/mnemonic-shamir-secret-sharing-cli"
+
+[[repo]]
+url = "https://github.com/xxlongzaixx/dfktools"
+
+[[repo]]
+url = "https://github.com/yamaguti1111/automated-market-maker"
+
+[[repo]]
+url = "https://github.com/yashkochrekar/hypersdk"
+
+[[repo]]
+url = "https://github.com/yeidy2/my-precompile-evm"
+
+[[repo]]
+url = "https://github.com/yeidy2/my2"
+
+[[repo]]
+url = "https://github.com/yeidy2/myap"
+
+[[repo]]
+url = "https://github.com/yeidy2/test"
+
+[[repo]]
 url = "https://github.com/yesil/first-nft"
 
 [[repo]]
-url = "https://github.com/YieldRise/TreasuryV1"
+url = "https://github.com/yesil/hypersdk"
+
+[[repo]]
+url = "https://github.com/yieldyak/smart-contracts"
+
+[[repo]]
+url = "https://github.com/yieldyak/yak-aggregator"
+
+[[repo]]
+url = "https://github.com/yk-saito/AVAX-Messenger"
+
+[[repo]]
+url = "https://github.com/yk1028/layerzero-tester"
+
+[[repo]]
+url = "https://github.com/youben11/ava-labs-precompile-evm"
 
 [[repo]]
 url = "https://github.com/youricorocks/avalanchego"
 
 [[repo]]
-url = "https://github.com/Yuniro/vector-clone"
+url = "https://github.com/yuliang29/cctp-sample-app"
+
+[[repo]]
+url = "https://github.com/yungbubble/avalanche-postman-collection"
+
+[[repo]]
+url = "https://github.com/yupimint/my-precompile-evm"
+
+[[repo]]
+url = "https://github.com/ywzqhl/avalanchego"
+
+[[repo]]
+url = "https://github.com/z80dev/ape-avalanche"
 
 [[repo]]
 url = "https://github.com/zedatgithub/avax-arbitrage-bot"
@@ -2724,10 +5269,16 @@ url = "https://github.com/zedatgithub/avax-arbitrage-bot"
 url = "https://github.com/zelixfi/governance-contracts"
 
 [[repo]]
+url = "https://github.com/zelje/flare-p-chain-indexer"
+
+[[repo]]
 url = "https://github.com/zerodao-finance/zero-protocol"
 
 [[repo]]
 url = "https://github.com/zerodao-finance/zeroBridge"
+
+[[repo]]
+url = "https://github.com/zeuslawyer/functions-hardhat-starter-kit"
 
 [[repo]]
 url = "https://github.com/zh/bpm-contracts"
@@ -2736,19 +5287,19 @@ url = "https://github.com/zh/bpm-contracts"
 url = "https://github.com/zh/token-protected-content"
 
 [[repo]]
-url = "https://github.com/ZhangZhuoSJTU/Web3Bugs"
+url = "https://github.com/zhuber6/joe-liq-bot-js"
 
 [[repo]]
-url = "https://github.com/zhuber6/joe-liq-bot-js"
+url = "https://github.com/zhulimin1989/avalanche-ops"
 
 [[repo]]
 url = "https://github.com/zicoz18/local-subnet-development-tutorial"
 
 [[repo]]
-url = "https://github.com/Ziden/CryptoCharacters"
+url = "https://github.com/zilveer/gmx-interface"
 
 [[repo]]
-url = "https://github.com/ZILECAO/web3-studocu"
+url = "https://github.com/ziutop/gmx-subgraph"
 
 [[repo]]
-url = "https://github.com/movemntdev/M1"
+url = "https://github.com/zongfy/avalanche-ops"

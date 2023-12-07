@@ -1,11 +1,10 @@
-# Ecosystem Level Information
 title = "Octopus Network"
-
-sub_ecosystems = ["DeBio Network", "Myriad Social", "Unique One Official"]
-
+sub_ecosystems = [
+  "DeBio Network",
+  "Myriad Social",
+  "Unique One Official",
+]
 github_organizations = ["https://github.com/octopus-network"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/octopus-network/appchain-block-retriever"
 
@@ -413,3 +412,7 @@ url = "https://github.com/octopus-network/wrapped-appchain-token"
 
 [[repo]]
 url = "https://github.com/uinb/fusotao"
+
+[[repo]]
+url = "https://github.com/octopus-network/offchain-schedule"
+

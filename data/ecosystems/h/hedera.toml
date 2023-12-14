@@ -2,6 +2,7 @@
 title = "Hedera"
 
 sub_ecosystems = [
+  "KabilaApp",
   "Arkhia",
   "Blade Labs",
   "BubbleSwap",
@@ -24,6 +25,7 @@ sub_ecosystems = [
 ]
 
 github_organizations = [
+  "https://github.com/Kabila-Tech",
   "https://github.com/hashgraph",
   "https://github.com/hedera-dev",
   "https://github.com/Hashpack",
@@ -31,6 +33,12 @@ github_organizations = [
 ]
 
 # Repositories
+[[repo]]
+url = "https://github.com/Kabila-Tech/kabila-wallet-connect"
+
+[[repo]]
+url = "https://github.com/Kabila-Tech/hedera-walletconnect-utils"
+
 [[repo]]
 url = "https://github.com/0916dhkim/fair-team-builder"
 

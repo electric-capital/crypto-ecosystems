@@ -10,28 +10,28 @@ sub_ecosystems = [
   "Calaxy",
   "DOVU",
   "EnergyTrade",
-  "Hedera Name Service",
   "HashGuild",
   "Hashport",
+  "Hedera Name Service",
   "Heliswap",
   "HSuite",
   "Mintmaster Labs",
   "PieFi Platform",
   "SaucerSwap Labs",
-  "Tuum Tech",
   "Trust Enterprises",
+  "Tuum Tech",
   "TxMQ, Inc",
 ]
 
 github_organizations = [
+  "https://github.com/DaVinciGraph",
   "https://github.com/hashgraph",
-  "https://github.com/hedera-dev",
   "https://github.com/Hashpack",
+  "https://github.com/hedera-dev",
   "https://github.com/linkd-network",
+  "https://github.com/renderhive-project",
   "https://github.com/stader-labs",
   "https://github.com/the-creators-galaxy",
-  "https://github.com/DaVinciGraph",
-  "https://github.com/renderhive-project"
 ]
 
 # Repositories
@@ -61,9 +61,6 @@ url = "https://github.com/0xMimir/hedera_certification"
 
 [[repo]]
 url = "https://github.com/3PIKeys/api-key-manager-contract"
-
-[[repo]]
-url = "https://github.com/kamalbuilds/CelebratewithHedera"
 
 [[repo]]
 url = "https://github.com/3scava1i3r-Projects/Khazana"
@@ -624,7 +621,16 @@ url = "https://github.com/DarshanGhoghari/stackiiii"
 url = "https://github.com/DarthSalad/scholar-up"
 
 [[repo]]
-url = "https://github.com/DaVinciGraph/react-hashconnect"
+url = "https://github.com/DaVinciGraph/davinci-pic"
+
+[[repo]]
+url = "https://github.com/DaVinciGraph/DaVinciGraphBlackHole"
+
+[[repo]]
+url = "https://github.com/DaVinciGraph/DaVinciGraphTokenLocker"
+
+[[repo]]
+url = "https://github.com/DaVinciGraph/davinciPicsSignal"
 
 [[repo]]
 url = "https://github.com/DaVinciGraph/hashconnect-provider"
@@ -633,19 +639,10 @@ url = "https://github.com/DaVinciGraph/hashconnect-provider"
 url = "https://github.com/DaVinciGraph/HederaSmartContracts"
 
 [[repo]]
-url = "https://github.com/DaVinciGraph/DaVinciGraphTokenLocker"
-
-[[repo]]
 url = "https://github.com/DaVinciGraph/next-auth-hashpack"
 
 [[repo]]
-url = "https://github.com/DaVinciGraph/davinciPicsSignal"
-
-[[repo]]
-url = "https://github.com/DaVinciGraph/davinci-pic"
-
-[[repo]]
-url = "https://github.com/DaVinciGraph/DaVinciGraphBlackHole"
+url = "https://github.com/DaVinciGraph/react-hashconnect"
 
 [[repo]]
 url = "https://github.com/dcjwu/qualkey"
@@ -1342,28 +1339,43 @@ url = "https://github.com/HbarSuite/open-dapp"
 url = "https://github.com/hdn-labs/hdn-contracts"
 
 [[repo]]
+url = "https://github.com/hedera-dev/cra-hedera-dapp-template"
+
+[[repo]]
+url = "https://github.com/hedera-dev/cra-hedera-dapp-template-js"
+
+[[repo]]
 url = "https://github.com/hedera-dev/hedera-code-snippets"
+
+[[repo]]
+url = "https://github.com/hedera-dev/hedera-create-account-and-token-helper"
+
+[[repo]]
+url = "https://github.com/hedera-dev/hedera-dapp-days"
+
+[[repo]]
+url = "https://github.com/hedera-dev/hedera-example-metamask-counter-dapp"
 
 [[repo]]
 url = "https://github.com/hedera-dev/hedera-example-metamask-inventory-getter-setter"
 
 [[repo]]
-url = "https://github.com/hedera-dev/hedera-smart-contracts-workshop"
-
-[[repo]]
-url = "https://github.com/hedera-dev/voting-contract-workshop"
-
-[[repo]]
-url = "https://github.com/hedera-dev/hedera-smart-contract-testing-with-foundry-JS"
+url = "https://github.com/hedera-dev/hedera-example-metamask-token-associator"
 
 [[repo]]
 url = "https://github.com/hedera-dev/hedera-smart-contract-testing-with-foundry"
 
 [[repo]]
-url = "https://github.com/hedera-dev/js-testing"
+url = "https://github.com/hedera-dev/hedera-smart-contract-testing-with-foundry-JS"
 
 [[repo]]
-url = "https://github.com/hedera-dev/cra-hedera-dapp-template-js"
+url = "https://github.com/hedera-dev/hedera-smart-contracts-workshop"
+
+[[repo]]
+url = "https://github.com/hedera-dev/java-coin-workshop"
+
+[[repo]]
+url = "https://github.com/hedera-dev/js-testing"
 
 [[repo]]
 url = "https://github.com/hedera-dev/multi-wallet-hedera-transfer-dapp"
@@ -1372,22 +1384,7 @@ url = "https://github.com/hedera-dev/multi-wallet-hedera-transfer-dapp"
 url = "https://github.com/hedera-dev/multi-wallet-hedera-transfer-dapp-js"
 
 [[repo]]
-url = "https://github.com/hedera-dev/cra-hedera-dapp-template"
-
-[[repo]]
-url = "https://github.com/hedera-dev/hedera-example-metamask-token-associator"
-
-[[repo]]
-url = "https://github.com/hedera-dev/hedera-create-account-and-token-helper"
-
-[[repo]]
-url = "https://github.com/hedera-dev/hedera-example-metamask-counter-dapp"
-
-[[repo]]
-url = "https://github.com/hedera-dev/java-coin-workshop"
-
-[[repo]]
-url = "https://github.com/hedera-dev/hedera-dapp-days"
+url = "https://github.com/hedera-dev/voting-contract-workshop"
 
 [[repo]]
 url = "https://github.com/Hedera-examples/SmartContractService"
@@ -1676,6 +1673,9 @@ url = "https://github.com/justynspooner/hedera-nft-toolset"
 
 [[repo]]
 url = "https://github.com/kabuto-sh/ns"
+
+[[repo]]
+url = "https://github.com/kamalbuilds/CelebratewithHedera"
 
 [[repo]]
 url = "https://github.com/kanakmi/Photocode"
@@ -2470,12 +2470,6 @@ url = "https://github.com/Saurus9290/Hedera-Smart-Contract-Service---Hello-World
 url = "https://github.com/sbelgard19/Scott-dapp"
 
 [[repo]]
-url = "https://github.com/scalemaildev/hashgraph_chess"
-
-[[repo]]
-url = "https://github.com/scalemaildev/hashgraph_nuxt_chat"
-
-[[repo]]
 url = "https://github.com/scalemaildev/hash_and_slash_frontend"
 
 [[repo]]
@@ -2483,6 +2477,12 @@ url = "https://github.com/scalemaildev/hash_and_slash_game_source"
 
 [[repo]]
 url = "https://github.com/scalemaildev/hash_and_slash_server"
+
+[[repo]]
+url = "https://github.com/scalemaildev/hashgraph_chess"
+
+[[repo]]
+url = "https://github.com/scalemaildev/hashgraph_nuxt_chat"
 
 [[repo]]
 url = "https://github.com/SCastleman/hedera-certification"
@@ -2612,6 +2612,9 @@ url = "https://github.com/Sottik/Hedera-HelloWorld"
 
 [[repo]]
 url = "https://github.com/SouthbankSoftware/proofable"
+
+[[repo]]
+url = "https://github.com/SpheraWorldHQ/Spheraworld-SPM-112"
 
 [[repo]]
 url = "https://github.com/SprytechLtd/VaccinePassportAPI"
@@ -3086,6 +3089,3 @@ url = "https://github.com/Zodiac-Portfolio/hedera-hash-emblem"
 
 [[repo]]
 url = "https://github.com/zubayr1/hello-hedera-js-sdk"
-
-[[repo]]
-url = "https://github.com/SpheraWorldHQ/Spheraworld-SPM-112"

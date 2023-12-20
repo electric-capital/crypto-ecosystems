@@ -1,18 +1,22 @@
+# Ecosystem Level Information
 title = "junobuild"
+
 sub_ecosystems = []
+
 github_organizations = ["https://github.com/junobuild"]
-[[repo]]
-url = "https://github.com/junobuild/examples"
 
+# Repositories
 [[repo]]
-url = "https://github.com/junobuild/emulator"
-
-[[repo]]
-url = "https://github.com/junobuild/juno-js"
+url = "https://github.com/junobuild/cli"
 
 [[repo]]
 url = "https://github.com/junobuild/docs"
 
 [[repo]]
-url = "https://github.com/junobuild/cli"
+url = "https://github.com/junobuild/emulator"
 
+[[repo]]
+url = "https://github.com/junobuild/examples"
+
+[[repo]]
+url = "https://github.com/junobuild/juno-js"

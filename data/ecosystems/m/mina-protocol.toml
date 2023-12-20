@@ -1,7 +1,14 @@
 # Ecosystem Level Information
 title = "Mina Protocol"
 
-sub_ecosystems = ["AbstrLabs", "Kaupang DX", "Palladians", "Piconbello", "Protokit", "ZKValidator"]
+sub_ecosystems = [
+  "AbstrLabs",
+  "Kaupang DX",
+  "Palladians",
+  "Piconbello",
+  "Protokit",
+  "ZKValidator",
+]
 
 github_organizations = [
   "https://github.com/CodaProtocol",
@@ -12,6 +19,9 @@ github_organizations = [
 ]
 
 # Repositories
+[[repo]]
+url = "https://github.com/0x471/zkeeper"
+
 [[repo]]
 url = "https://github.com/0xAshcry/04-zkapp-browser-ui"
 
@@ -41,9 +51,6 @@ url = "https://github.com/0xSamuelSukarno/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/0xtito/hot-n-cold"
-
-[[repo]]
-url = "https://github.com/0x471/zkeeper"
 
 [[repo]]
 url = "https://github.com/45930/cachebox"
@@ -2266,12 +2273,6 @@ url = "https://github.com/mightynono88/04-zkapp-browser-ui"
 url = "https://github.com/mimoo/kimchi-visu"
 
 [[repo]]
-url = "https://github.com/MinaPoker/contract"
-
-[[repo]]
-url = "https://github.com/MinaPoker/PokerFrontend"
-
-[[repo]]
 url = "https://github.com/mina-arena/Contracts"
 
 [[repo]]
@@ -2318,6 +2319,12 @@ url = "https://github.com/MinaFoundation/uptime-service-backend"
 
 [[repo]]
 url = "https://github.com/MinaFoundation/uptime-service-validation"
+
+[[repo]]
+url = "https://github.com/MinaPoker/contract"
+
+[[repo]]
+url = "https://github.com/MinaPoker/PokerFrontend"
 
 [[repo]]
 url = "https://github.com/MinaProtocol/app-mina"
@@ -2909,10 +2916,10 @@ url = "https://github.com/onetxpunch/snarkyscan-frontend"
 url = "https://github.com/onurinanc/15-puzzle"
 
 [[repo]]
-url = "https://github.com/onuruci/04-zkapp-browser-ui"
+url = "https://github.com/onurinanc/o1js-groth16"
 
 [[repo]]
-url = "https://github.com/onurinanc/o1js-groth16"
+url = "https://github.com/onuruci/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/openmina/go-libp2p"
@@ -3686,10 +3693,10 @@ url = "https://github.com/txthanh1178793/04-zkapp-browser-ui"
 url = "https://github.com/Tzivaa/05-common-types-and-functions"
 
 [[repo]]
-url = "https://github.com/ubinix-warun/zkOracle-OCW"
+url = "https://github.com/ubinix-warun/zkOracle-OCO"
 
 [[repo]]
-url = "https://github.com/ubinix-warun/zkOracle-OCO"
+url = "https://github.com/ubinix-warun/zkOracle-OCW"
 
 [[repo]]
 url = "https://github.com/uhuyyy3366/UI-ZKAPP"
@@ -3935,6 +3942,12 @@ url = "https://github.com/zinkkrysty/04-zkapp-browser-ui"
 url = "https://github.com/zioprakoso/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/zk0ath/usdc-native-mint-test"
+
+[[repo]]
+url = "https://github.com/zk0ath/usdm"
+
+[[repo]]
 url = "https://github.com/zkapp/04-zkapp-browser-ui"
 
 [[repo]]
@@ -3969,12 +3982,6 @@ url = "https://github.com/zkvalidator/mina-graphql-rs"
 
 [[repo]]
 url = "https://github.com/zkvalidator/mina-payouts"
-
-[[repo]]
-url = "https://github.com/zk0ath/usdc-native-mint-test"
-
-[[repo]]
-url = "https://github.com/zk0ath/usdm"
 
 [[repo]]
 url = "https://github.com/zob360/minatuto"

@@ -1,5 +1,5 @@
 # Ecosystem Level Information
-title = "Polkadot"
+title = "Polkadot Network"
 
 sub_ecosystems = [
   "5ire",
@@ -21,7 +21,7 @@ sub_ecosystems = [
   "Armoniax",
   "Artzero",
   "Astar Network",
-  "Automata Network __dup__",
+  "Automata",
   "Aventus",
   "Aventus Network",
   "Bepro Network",
@@ -301,10 +301,12 @@ github_organizations = [
   "https://github.com/galacticcouncil",
   "https://github.com/helikon-labs",
   "https://github.com/InkSmartContract",
+  "https://github.com/Kalapaja",
   "https://github.com/ParityAsia",
   "https://github.com/patractlabs",
   "https://github.com/polkadot-js",
   "https://github.com/soramitsu",
+  "https://github.com/stake-plus",
   "https://github.com/subquery",
   "https://github.com/vue-polkadot",
   "https://github.com/w3f",
@@ -747,6 +749,9 @@ url = "https://github.com/automata-network/automata-common"
 url = "https://github.com/automata-network/automata-contracts"
 
 [[repo]]
+url = "https://github.com/automata-network/automata-dcap-v3-attestation"
+
+[[repo]]
 url = "https://github.com/automata-network/automata-typings"
 
 [[repo]]
@@ -899,6 +904,9 @@ url = "https://github.com/automata-network/sgx-dcap-ql-rs"
 url = "https://github.com/automata-network/sgx-dcap-rs"
 
 [[repo]]
+url = "https://github.com/automata-network/sgx-prover"
+
+[[repo]]
 url = "https://github.com/automata-network/SGXDataCenterAttestationPrimitives"
 
 [[repo]]
@@ -936,6 +944,9 @@ url = "https://github.com/automata-network/sushiswap-sdk"
 
 [[repo]]
 url = "https://github.com/automata-network/tee-builder"
+
+[[repo]]
+url = "https://github.com/automata-network/zktrie-rs"
 
 [[repo]]
 url = "https://github.com/AvadoDServer/AIP-AVADO-Improvement-Proposal"
@@ -1242,8 +1253,8 @@ url = "https://github.com/BlockDevsUnited/Devchain"
 
 [[repo]]
 url = "https://github.com/blockxlabs/enzyme"
-missing = true
 tags = ["Wallet"]
+missing = true
 
 [[repo]]
 url = "https://github.com/bmacer/rmrk-sales-twitter-bot"
@@ -3397,10 +3408,121 @@ url = "https://github.com/gear-dapps/tequila-train"
 url = "https://github.com/gear-foundation/tg-web-app"
 
 [[repo]]
+url = "https://github.com/gear-tech/.github"
+
+[[repo]]
+url = "https://github.com/gear-tech/apps"
+
+[[repo]]
+url = "https://github.com/gear-tech/bindings"
+
+[[repo]]
+url = "https://github.com/gear-tech/BLAKE3"
+
+[[repo]]
+url = "https://github.com/gear-tech/builds"
+
+[[repo]]
+url = "https://github.com/gear-tech/cargo-xwin"
+
+[[repo]]
+url = "https://github.com/gear-tech/create-gear-app"
+
+[[repo]]
+url = "https://github.com/gear-tech/dlmalloc-rust"
+
+[[repo]]
+url = "https://github.com/gear-tech/external-actor"
+
+[[repo]]
 url = "https://github.com/gear-tech/gear"
 
 [[repo]]
 url = "https://github.com/gear-tech/gear-js"
+
+[[repo]]
+url = "https://github.com/gear-tech/gear-news"
+
+[[repo]]
+url = "https://github.com/gear-tech/gear-program"
+
+[[repo]]
+url = "https://github.com/gear-tech/gear-tech.github.io"
+
+[[repo]]
+url = "https://github.com/gear-tech/gear-technical"
+
+[[repo]]
+url = "https://github.com/gear-tech/homebrew-gear"
+
+[[repo]]
+url = "https://github.com/gear-tech/parity-wasm"
+
+[[repo]]
+url = "https://github.com/gear-tech/performance-charts"
+
+[[repo]]
+url = "https://github.com/gear-tech/polkadot"
+
+[[repo]]
+url = "https://github.com/gear-tech/polkadot-sdk"
+
+[[repo]]
+url = "https://github.com/gear-tech/polkadot-ui"
+
+[[repo]]
+url = "https://github.com/gear-tech/ring"
+
+[[repo]]
+url = "https://github.com/gear-tech/rpc-tests"
+
+[[repo]]
+url = "https://github.com/gear-tech/rust-covfix"
+
+[[repo]]
+url = "https://github.com/gear-tech/sails"
+
+[[repo]]
+url = "https://github.com/gear-tech/ss58.org"
+
+[[repo]]
+url = "https://github.com/gear-tech/substrate"
+
+[[repo]]
+url = "https://github.com/gear-tech/substrate-validator-set"
+
+[[repo]]
+url = "https://github.com/gear-tech/subxt"
+
+[[repo]]
+url = "https://github.com/gear-tech/trust-dns"
+
+[[repo]]
+url = "https://github.com/gear-tech/VotingApp"
+
+[[repo]]
+url = "https://github.com/gear-tech/wabt-rs"
+
+[[repo]]
+url = "https://github.com/gear-tech/wasm-instrument"
+
+[[repo]]
+url = "https://github.com/gear-tech/wasm-tools"
+
+[[repo]]
+url = "https://github.com/gear-tech/wasm-utils"
+
+[[repo]]
+url = "https://github.com/gear-tech/wasmer"
+
+[[repo]]
+url = "https://github.com/gear-tech/wasmi"
+
+[[repo]]
+url = "https://github.com/gear-tech/wasmtime"
+
+[[repo]]
+url = "https://github.com/gear-tech/weekly-updates"
 
 [[repo]]
 url = "https://github.com/geneidy/cumulus"
@@ -4386,6 +4508,9 @@ url = "https://github.com/Maar-io/dappcon"
 url = "https://github.com/magpex13/geoblockchain"
 
 [[repo]]
+url = "https://github.com/Magport/Magnet"
+
+[[repo]]
 url = "https://github.com/mahmudsudo/sapa-chain"
 
 [[repo]]
@@ -4425,6 +4550,9 @@ url = "https://github.com/massbitprotocol/substrate-indexer"
 url = "https://github.com/master-davidlee/substrate-demo-projetcs"
 
 [[repo]]
+url = "https://github.com/MathCryptoDoc/insights-1kv"
+
+[[repo]]
 url = "https://github.com/mathwallet/parachain"
 
 [[repo]]
@@ -4447,6 +4575,9 @@ url = "https://github.com/maxsam4/fork-off-substrate"
 
 [[repo]]
 url = "https://github.com/mc-dean/substrate-base-node"
+
+[[repo]]
+url = "https://github.com/Me-Protocol/rusty-protocol-v0.1"
 
 [[repo]]
 url = "https://github.com/meng-zh/Substrate.SpotData"
@@ -4839,9 +4970,6 @@ url = "https://github.com/paraspell/ui-v1"
 url = "https://github.com/Paraxiom/Paraxiom"
 
 [[repo]]
-url = "https://github.com/parity-asia/hackathon-2023-summer"
-
-[[repo]]
 url = "https://github.com/parity-asia/ambassador-translation-2022-summer"
 
 [[repo]]
@@ -4861,6 +4989,9 @@ url = "https://github.com/parity-asia/hackathon-2022-summer"
 
 [[repo]]
 url = "https://github.com/parity-asia/hackathon-2022-winter"
+
+[[repo]]
+url = "https://github.com/parity-asia/hackathon-2023-summer"
 
 [[repo]]
 url = "https://github.com/parity-asia/libsm"
@@ -4999,6 +5130,9 @@ url = "https://github.com/paritytech/burn-in-tests"
 
 [[repo]]
 url = "https://github.com/paritytech/cachepot"
+
+[[repo]]
+url = "https://github.com/paritytech/calamar"
 
 [[repo]]
 url = "https://github.com/paritytech/canvas"
@@ -5257,6 +5391,9 @@ url = "https://github.com/paritytech/element-web"
 
 [[repo]]
 url = "https://github.com/paritytech/email-verification"
+
+[[repo]]
+url = "https://github.com/paritytech/eng-automation"
 
 [[repo]]
 url = "https://github.com/paritytech/environmental"
@@ -5835,6 +5972,9 @@ url = "https://github.com/paritytech/polkadot-spec"
 url = "https://github.com/paritytech/polkadot-staking-dashboard"
 
 [[repo]]
+url = "https://github.com/paritytech/polkadot-staking-miner"
+
+[[repo]]
 url = "https://github.com/paritytech/polkadot-stps"
 
 [[repo]]
@@ -5928,6 +6068,9 @@ url = "https://github.com/paritytech/review-bot"
 url = "https://github.com/paritytech/rfc-action"
 
 [[repo]]
+url = "https://github.com/paritytech/rfc-book"
+
+[[repo]]
 url = "https://github.com/paritytech/rfc-bot"
 
 [[repo]]
@@ -6013,6 +6156,9 @@ url = "https://github.com/paritytech/scale-info"
 
 [[repo]]
 url = "https://github.com/paritytech/scale-ts-benchmark"
+
+[[repo]]
+url = "https://github.com/paritytech/scale-typegen"
 
 [[repo]]
 url = "https://github.com/paritytech/scale-value"
@@ -6846,16 +6992,85 @@ url = "https://github.com/polkassembly/polkassembly"
 url = "https://github.com/polkastats/polkastats"
 
 [[repo]]
+url = "https://github.com/polkawallet-io/acala.js"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/aes_ecb_pkcs5_flutter"
+
+[[repo]]
 url = "https://github.com/polkawallet-io/app"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/bridge"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/docs"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/fix-keystore-null-passwd"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/flutter_aes_ecb_pkcs5"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/flutter_bugly"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/flutter_qr_reader"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/jpush-flutter-plugin"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/js_api"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/laminar-chain.js"
 
 [[repo]]
 url = "https://github.com/polkawallet-io/polkadot-api-RN-debugging"
 
 [[repo]]
+url = "https://github.com/polkawallet-io/polkadot-identicon-react-native"
+
+[[repo]]
 url = "https://github.com/polkawallet-io/polkawallet-flutter"
 
 [[repo]]
+url = "https://github.com/polkawallet-io/polkawallet-RN"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/polkawallet_plugin_acala"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/polkawallet_plugin_evm"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/polkawallet_plugin_kusama"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/polkawallet_plugin_laminar"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/polkawallet_plugin_statemine"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/qr-signer"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/qr.flutter"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/rpc-provider"
+
+[[repo]]
 url = "https://github.com/polkawallet-io/sdk"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/transformer_page_view"
+
+[[repo]]
+url = "https://github.com/polkawallet-io/ui"
 
 [[repo]]
 url = "https://github.com/polkaworld-org/hackthon-anytoken-protocol"
@@ -7116,6 +7331,9 @@ missing = true
 url = "https://github.com/RootChain-IstanHack/IstanHack-2022-IBW"
 
 [[repo]]
+url = "https://github.com/RostislavLitovkin/PlutonicationServer"
+
+[[repo]]
 url = "https://github.com/RottenKiwi/Panorama-Swap-INK-SC"
 tags = ["ink Smart Contracts, DeFi"]
 
@@ -7354,6 +7572,9 @@ url = "https://github.com/Snowfork/snowbridge"
 url = "https://github.com/Snowfork/snowbridge-web"
 
 [[repo]]
+url = "https://github.com/sodazone/xcm-monitoring"
+
+[[repo]]
 url = "https://github.com/sokunsamnang/polkadot-selendra"
 
 [[repo]]
@@ -7403,6 +7624,9 @@ url = "https://github.com/soramitsu/binaryen"
 
 [[repo]]
 url = "https://github.com/soramitsu/bitnami-docker-logstash"
+
+[[repo]]
+url = "https://github.com/soramitsu/bokolo-pg-help"
 
 [[repo]]
 url = "https://github.com/soramitsu/caliper"
@@ -7614,6 +7838,9 @@ url = "https://github.com/soramitsu/iroha2-wasm-prototype"
 
 [[repo]]
 url = "https://github.com/soramitsu/iroha2-wsv-test"
+
+[[repo]]
+url = "https://github.com/soramitsu/iroha_mailer"
 
 [[repo]]
 url = "https://github.com/soramitsu/IrohaCrypto"
@@ -8476,22 +8703,115 @@ url = "https://github.com/SubStake-App/substake-hackathon"
 url = "https://github.com/substrate-developer-hub/awesome-substrate"
 
 [[repo]]
+url = "https://github.com/substrate-developer-hub/crypto-ecosystems"
+
+[[repo]]
 url = "https://github.com/substrate-developer-hub/cumulus-workshop"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/docs-sandbox"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/frontier-node-template"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/frontier-workshop"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/hackathon-knowledge-map"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/hacktoberfest"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/haski"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/knowledgebase"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/migration-example"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/newsletter"
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/pallet-did"
 
 [[repo]]
+url = "https://github.com/substrate-developer-hub/rustdocs"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-beginner-workshop"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-cms"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-contracts-workshop"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-developer-hub.github.io"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-docs"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-enterprise-sample"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-erc20-multi"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-events-listener"
+
+[[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-front-end-template"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-front-end-tutorial"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-how-to-guides"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-module-template"
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-node-template"
 
 [[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-pallet-template"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-parachain-template"
+
+[[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-proof-of-existence"
 
 [[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-runtime-template"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-seminar"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-tools"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate-verifiable-credentials"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/substrate_archived"
+
+[[repo]]
 url = "https://github.com/substrate-developer-hub/tcr-substrate"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/tutorials"
+
+[[repo]]
+url = "https://github.com/substrate-developer-hub/utxo-workshop"
 
 [[repo]]
 url = "https://github.com/substrate-iot/bc-ac-node-experiments"
@@ -8973,7 +9293,1348 @@ url = "https://github.com/vue-polkadot/ui"
 url = "https://github.com/vue-polkadot/vue-polkadot.github.io"
 
 [[repo]]
+url = "https://github.com/w3f-grants-archive/.github"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Acala"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/acala-dapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/acurast-core"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/acurast-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/acurast-kotlin-sdk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/acurast-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/admeta"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/admeta-webapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/advanca"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/advanca-attestation-service"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/advanca-worker"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/airgap-coin-lib"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/airgap-vault"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/airgap-wallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/aisland-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Ajuna"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Ajuna.NetApi"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Ajuna.SDK"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/AlgoCash"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ambrosia"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/anagolay-chain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/anagolay-idiyanale-gitlab"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/anagolay-js-sdk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Anchor"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/android-tools-rs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/anon"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ansible-role-polkadot-truth"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/api_circuits"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/api_garble"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/apk-verifier"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/app-v0.0.1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/apps"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/apron-contracts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/apron-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/archipel"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ares-module"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/arkworks-gadgets"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/artzero-contracts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/as-scale-codec"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/as-substrate-runtime"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/astar-frame"
+
+[[repo]]
 url = "https://github.com/w3f-grants-archive/asylum-item-nft"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/asylum-standards"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/asylum-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/asylum-unity-sdk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/atom-plugin-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/aurras"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/aurras-deployment-docker-compose"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/aurras-deployment-kubernetes"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/aurras-documentation"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/aurras-event-feed-substrate-js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/aurras-event-manager"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/authentication_service"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/automata"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/AVADO-DNP-Polkadot-custom"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/AVADO-DNP-Polkadot-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/avail"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/awesome-polka"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Basilisk-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/bdk-services"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/bifrost"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/bifrost-eos-relay"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Bit-Country-Blockchain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Bit-Country-Dapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Blackprint"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/BlockchainFoodOrder"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/bodhi.js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/bpm-cli"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/bpm-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/bpm-sdk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/bridgestate-ocw"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/bright-tresury"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/BTC-Parachain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/BTC-Parachain-Spec"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Bubble-Plugin-Polkadot.js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/buidl"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/buildroot-zondax"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/bulletproof-gadgets"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/bytecursor"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/bytepay"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/calamar"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/candle-auction-ink"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/canvas-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/canyon"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/canyon-cli"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/canyon-network_substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cap9"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/carbon-assets"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/carbon-credits"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/carbon-dapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cChannel-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/centauri"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cere-enterprise-smart-contracts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cess"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cess-proving-system"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cess-ui-js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/chain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/chain-data-collector"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ChainBridge"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/chainbridge-solidity"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/chainbridge-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/chainhammer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/chainhammer-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/chainviz"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/chainviz-v1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/charger-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/charging-management-platform"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cila-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/client"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/client-example"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/clover"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/clover-explorer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/clover-rosetta-service"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/clover-store-core"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cobo-vault-cold"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cobo-vault-se-firmware"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/collaboration"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/common-good-storage-CLI"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/common-good-storage-pallets"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/common-good-storage-parachain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/common-good-storage-report"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/composable"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ComposableFi-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ComposableFi-whitepaper"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/compose-service"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/contract-demo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/contracts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/contracts-parachain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/coong-wallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cosmos-sdk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/creator-templates"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/crossbow"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/crowdloan-template"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/crunch"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/crust"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/crust-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/crust-apps"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/crust-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/crust-sworker"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/crust-wiki"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/crypto-coin-kit"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cryptolab-package"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cryptolab-web-server"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cScale"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cumulus"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/cyclops"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dao-entrance-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/daos"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dapp-example"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dappforce-subsocial"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dappforce-subsocial-pallets-v1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/DAppNodePackage-archipel"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dapps"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dart-scale-codec"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dashboard-static"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/data-processor"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/data-store-pallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/data-store-sidecar"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Datagen-Substrate-Grant"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/datdot-node-rust"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/datdot-service"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/deadlock-lsp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/deeper-chain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/definex"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/definex-wallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/deip-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/deip-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/demo-nft-marketplace"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dev-wallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/devchain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Developed-Materials-and-Raw-Data"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Developer-Portal"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dht-crawler-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dico-chain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dicolite"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/diffychat-dotrtc"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/diffychat-pallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dipole-oracle"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dksap-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/docsig"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Documentation"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/documents"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dorafactory-multisig"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dot-contract"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dot-marketplace-v2"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dot_marketplace_docker"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Doter"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dotflow-ink"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dotflow-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dotpulse-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dotpulse-scraper"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dotpulse-webapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dotscale"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dotsight"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/drand-substrate-client"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dRuntime-fat"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/druntime-rs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/dusk-plonk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ebics-java-client"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ebics-java-service"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/eco-flow-backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/eco-flow-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/eightfish"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/eightfish-example-todo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ELC"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/electron-components"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/enzyme"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/enzyme-sample-dapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/epirus-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/equilibrium-curve-amm"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/equilibrium-financial-pallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/EscrowPallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/etf-auction-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/etf-cli"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/etf-sdk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/etf.js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ethabi-decode"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/evercity-accounts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/evercity-chain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/evercity-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/evm-examples"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/evm-nft-tracker"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/experience-app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/extension"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Faceless_frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Faceless_milestone1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Faceless_milestone2_delivery"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/fair-squares"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/faterium-dapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/faterium-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/faterium-server"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/fennel-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/fennel-app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/fennel-cli"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/fennel-dist"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/fennel-lib"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Fennel-Protocol"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/fennel-server"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/filecoindot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/filesign"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/flow-exchange"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/flow-protocol-whitepaper"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/fractapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/fractapp-server"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/frontend-react"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/fs-dapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gafi"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/galaxy-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/game-dot4-unity"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/GameCenter"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gamepower-module-library"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gantree-backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gantree-cli"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gantree-cli-docker"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gantree-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gantree-lib-nodejs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/genesis-dao-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/genesis-dao-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/genesis-dao-service"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gluon-app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gluon-pallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gluon-website"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gmw-backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gmw-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/go-merkle-trees"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/go-substrate-rpc-client"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gosemble"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/gossamer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/governance-os"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/guardian"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/halva"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/halva-test-example"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hamster"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hamster-client"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hamster-provider"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hardware-ecdsa-polkadotjs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hashed-marketplaces-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hashed-network-portal-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hashed-private-client-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hashed-private-server"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hashed-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hashed-wallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hello-rustee"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hex-space-protocol-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hex-space-protocol-front-end"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hex-space-protocol-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hmt-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hookpoints-cli"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hopr-core"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hopr-core-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hopr-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hs-web3"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hubble"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hybrid-dapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/hybrid-indexer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ics11-beefy"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/idavoll"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ideal-lab5-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/identity-hub"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/imbue"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/indexing-engine"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/indifferentiable-hashing"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Indifferentiable-hashing-to-ordinary-elliptic-curves-of-j-0-with-the-cost-of-one-exponentiation"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-aa"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-analyzer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-boxes"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-boxes-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-compiler-be"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-playground"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-remix-plugin"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-sdk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-substrate-explorer-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-substrate-explorer-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-test-router"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-tutorial"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-upgrade-template"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-verifier-image"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-verifier-server"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ink-wizard"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/integration"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/integrations"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/interface"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/InvArch-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/InvArch-Pallet-Library"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Invoice"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/iridium-industries-iris"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/iris"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/iris-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/iroha"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ismp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ismp-rs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ISO8583-Blockchain-Integration-Plan"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/java-host-research"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/kagome"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/keysafe-app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/keysafe-contracts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/keysafe-front"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/keysafe-sgx"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/kilt-credentials"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Kogarashi"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/kryptikwebapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/kuma-wallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/kusama-overview"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/kusama-tips-widget"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/kylin-contracts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/kylin-market-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/kylin-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/kylin-ocw-module"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/laminar-chain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/laminar-chain.js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/larch"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/LasticUI"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/launchpad"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ledger-kusama"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ledger-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ledger-polkadot-js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ledger-statemine"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ledger-statemint"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ledger-substrate-js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ledger-substrate-rs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/lending-demo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/lending_protocol_contracts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/lib-garble-rs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/lib_circuits"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/lib_garble"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/liberland-middleware-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/liberland_substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/libra"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/libra-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/libra-js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/litentry-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/litentry-authenticator"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/litentry-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/litentry-ipfs-data-center"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/litentry-ipfs-graphql"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/litentry-web"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/lockbud"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/logion-backend-ts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/logion-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/logion-test"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/logion-wallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/lunie"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/madara"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/mailchain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/mailchain-web"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/maker-taker-module"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Mangoboxink"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/MangoSale"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/MangoSaleV2"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/manta-front-end"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/manta-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/mapbridge"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/massbitchain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/materials"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/mayon"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/mbelt-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/mbelt-polkadot-streamer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/melodot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/merkle-tree-db"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/message-ink"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/meta-zondax"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/meta-zondax-imx8"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/meta-zondax-qemu"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/meta-zondax-stm32mp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/metamask-snap-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/mir-semantics"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/MIRAI"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/module-money-pool"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/moonbeam"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/moonbeam-1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/move-tools"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/multi-chain-js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Multix"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/MVP_Backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/MVP_Frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/MVP_Lending_Pool"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/mydotwallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/myriad-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/native-bitcoin-vaults-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/nbv-ur-codec"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/near-rs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/newomega-polkadot-hybrid"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/newomega.polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/newomega.trinity"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/nft_parachain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/nftmart-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/NFTMart-Node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/node-indexer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/nodes-polkadot.js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/noiseexplorer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/nolik"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/nolik-cli"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/nulink-chain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/nutsfinance.github.io"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ocelloids"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ocex-activation"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ocex-cli"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ocex-smartcontract"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ocw-ebics"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ocw-suit"
 
 [[repo]]
 url = "https://github.com/w3f-grants-archive/offchain_ipfs"
@@ -8982,10 +10643,1498 @@ url = "https://github.com/w3f-grants-archive/offchain_ipfs"
 url = "https://github.com/w3f-grants-archive/omni-desktop-prototype"
 
 [[repo]]
+url = "https://github.com/w3f-grants-archive/Omniverse-DLT-Introduction"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/omniverse-ink"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/omniverse-swap"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/omniverse-swap-tools"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/on-ink-integration-tests"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/one-t"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/open-payroll-web"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/open-runtime-module-library"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/open-web3.js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/openbrush-contracts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/openbrush-contracts-legacy"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/openPayroll"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/opensquare"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/openwhisk-client-rust"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/oracle-server"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/orml-workshop"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/orochi-network.github.io"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/os-scan"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pacificstore-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/package-test"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/paid-qa"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallet-did"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallet-generic-token-dealer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallet-manta-pay"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallet-move"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallet-nolik"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallet-open-rollup"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallet-ssvm"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallet-subdex"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallet-zenlink"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallet_hookpoints"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallet_supersig"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallets"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pallets-sequester"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/panic"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/panic_polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/parachains.network"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/parallel"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/paras-ink-nft-launchpad-contract"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ParaSpell"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/patricia-merkle-trie"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/patron-backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/patron-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/payment-processor"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/perun-polkadot-appdemo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/perun-polkadot-backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/perun-polkadot-demo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/perun-polkadot-pallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/phala-blockchain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/phala-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/php-scale-codec"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/php-substrate-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/PKI"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Plasm"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/plasma-cash-tokens"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/plasma-cash-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/plasmdocs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/plibra-grant-docker"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/plonk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pocket-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polk-auction-core"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polk-auction-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkabot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkabot-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkabot-twitter"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkabtc-clients"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkabtc-stats"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkabtc-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkachat.rs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkacube-backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkacube-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkacube-job"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadart"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Polkadex"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-angular-identicon"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-balance-indexer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Polkadot-Clustered-Nodes"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-contract-wizard"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-cosmos-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Polkadot-Dart"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-ethereum"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-failover-mechanism"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-grant"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-grant-dags"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-grant-delivery"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-indexer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-Js-Plus-extension"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-k8s-operator"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-light-client"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-mempool-explorer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-native-storage"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-node-explorer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Polkadot-Node-Monitor"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-parachains-indexer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-profit-transformer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-prometheus-exporter"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-snapshot-generator"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-staking-dapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-staking-site"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-verification"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot-web-identicon"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot_api_cpp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot_api_dotnet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot_cosmos_integration"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot_monitoring_service"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadot_psql_indexer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/PolkadotAnalytics"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadothub-indexer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadothub-proxy"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkadotjs-ecdsa-hardware-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkaholic"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkahub-backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkahub-cli"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkahub-monorepo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkaj"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/PolkaKey"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkalert"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/PolkaMusic-Core"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkascan-explorer-gui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkascan-os"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkascan-pre-explorer-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkascan-pre-explorer-gui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkascan-pre-harvester"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkasign-backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkasign-contract"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkasign-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkassembly"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkastarter-crowdloan"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkastats-backend-v3"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkastats-v3"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkawallet-RN"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polkawatch"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polket-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/polpatrol"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/POnto"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/portablegabi"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/portablegabi-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/portablegabi-pallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/portal-service"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/portal-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/prism"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/privadex"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/privadex-swap-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/private-standalone-network-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/private_ml"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/procaptcha-react"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/profond-backend-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/profond-psp22-contract"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/protocol"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/protocol-stack-for-ink"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/protocol-substrate-fixtures"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/protofire-polkadot-contract-wizard"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/PSC"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/py-bip39-bindings"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/py-ed25519-bindings"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/py-scale-codec"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/py-sr25519-bindings"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/py-subkey-wrapper"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/py-substrate-interface"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/qa-spec"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/QFgrant"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/QRUCIAL-DAO"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/quadratic-funding-pallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/quadratic-funding-webapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/quantum-tunnel"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/RainbowDAO-Protocol-Ink-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/RainbowDAO-Protocol-Ink-milestone_1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/RainbowDAO-Protocol-Ink-milestone_2"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/RainbowDAO-Protocol-Ink-UI-milestone_1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/RainbowDAO-Protocol-Ink-UI-milestone_2"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/read-file-action"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/redspot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/redstone-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Relation-Graph"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/relayer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Rights-Management-Portal"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/RMRK-Indexer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/robonomics"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/roloi-polkadot-w3f-grant"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/rubeus-client"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/rubeus-smartcontract"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Ruby_milestone2"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/rust-ssvm"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/saas3-dao"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/saft"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/saito-crypto-api-modules"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Saito-Game-Engine"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/saito-lite"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sample-data-fetcher"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sandox"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sc-simnode"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/scale-codec-comparator"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/scale-codec-kotlin"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/scale-codec-swift"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/scale.go"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/scale.rb"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/scan-common"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/scanner"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/scout"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sdk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sequester-example-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/serp-market"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/serp-tes"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/shivarthu"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/shivarthu-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/signac"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/silentdata-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/silentdata-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/skyekiwi-network"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/skyekiwi-protocol"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/skyepass-ux"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/skyepass-vault"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/skynet-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/skynet-substrate-front-end-example"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/skynet-substrate-offchain-worker-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/slothunter"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Slushie"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/smart-bench"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/smart-contracts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/smoldot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/snarkjs-bellman-adapter"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/societal-client"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/societal-front-end"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/societal-grant-2-submission"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/societal-grant-submission"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/societal-grant-submission-2"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/societal-milestone1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/societal-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sol2ink"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/solang"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/solidity-merkle-trees"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/SOLL"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sora2-network"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sp-cid"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sp-im"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sp-ipld"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sp-move"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sp-move-vm"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/spacewalk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/spartan-farmer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/spartan-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/speckle-browser-extension"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/speckleos-extension-w3fgrant1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sr25519"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sr25519-bindings"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sr25519-donna"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sr25519_dotnet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/srtool"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/srtool-app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ssvm-evmc"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/stable-asset"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/stable-asset-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/stafi-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/staking-bot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/staking-rewards-viewer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/standard-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/starks-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Starlog"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/starry_node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Stars-Network"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/State-of-the-Stablecoin-Industry"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/stellar-experiments"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/stone-index-substrate-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/stone-index-swaps-integration-demo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/stoneindex-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/storage-hub-design-proposal"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/stp258-currencies"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sub-scaffold"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subalfred"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subalfred-check-features-action"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subalfred-check-runtime-action"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subDAO-contracts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subdao-extension"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subDAO-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subdao-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subdao-polkasign"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subgame-network"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/SubGameModule"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subidentity-backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subidentity-package"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subidentity-webapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subql"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subql-examples"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subrelay-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subscan-essentials"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subscan-multisig-backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subscan-multisig-react"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subscan-multisig-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subscan-plugin"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subscript"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/SubsCrypt-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/SubsCrypt-front"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/SubsCrypt-ink"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/SubsCrypt-npm-library"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subsembly"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subsembly-core"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subsocial-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subsocial-offchain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subsocial-starter"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subsocial-web-app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substats"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrapunks"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-api-client"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-api-rpc"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-c-tool"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-client-examples"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-client-java"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-client-kotlin"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-client-sample"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-components"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-connect"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-cosmos-bridge"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-ibc"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-interface"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-interface-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-interface-package"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-ipfs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-ipfs-example-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-ipfs-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-iroha-bridge-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-ismp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-light-client"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-meta"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Substrate-Moloch-V1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Substrate-Moloch-V2"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-move"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-names"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-nft-tracker"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-node-template-benchmarking"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-nolik-dev"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-offchain-worker-demo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-parachain-PoS-template"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-plasma-cash"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-poc-client"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-polywrap"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-raft"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-raft-setup"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-runtime-fuzzer"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-ssvm-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-starter"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-startkit-gui-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-startkit-gui-app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-status-page"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-supersig-template"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-tutorials"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-warmup"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-wasmedge"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Substrate-Web3-DNS-Tutorial"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate-zk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Substrate.swift"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substrate_client.rb"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substraTEE"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substraTEE-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/substraTEE-worker"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/SubstrateIDE"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/SubstrateNET"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/SubstrateNET.BasicUnityDemo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/SubstrateNET.UnityDemo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/SubstrateNetApi"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subvt-backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/subwallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sunshine"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sunshine-bounty"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sunshine-keybase"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sup"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/supersig-apps"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/supersig-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/supply-chain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/supply-chain-ink"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/supply-chain-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/swift-scale-codec"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sword"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/swordExample"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sybil-resistant-chat-bot-substrate-faucet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/sybil-resistant-substrate-faucet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/t3rn"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tank"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tank.ansible-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tank.bench-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tasking_backend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tasking_frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tc-Documentation"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tea-layer1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tee-images"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tee-substrate-service"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/telegram-webhook"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tellor-parachain-contracts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tendermint-light-client"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tendermint-rs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/TerraDeepDive"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/terraform-polkadot-aws-asg"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/terraform-polkadot-aws-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/terraform-substrate-archive-cloudfront"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/terragrunt-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Tesseract.android"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Tesseract.rs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Tesseract.swift"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/test-scripts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/threshold-BLS-randomness-beacon"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/toearnfun_flutter_app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/token-core"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tokenomics-survey-2022"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tpscore-etl-system"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/TrackingChain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/treasury-tracker"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/TREX"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/trex-doc-md"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/trex-keyholder"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/tribal_contract"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Tuxedo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Tuxedo-Order-Book-Dex-Tutorial"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/typechain-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ui-v1"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ui-v2"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/uke"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/uke-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/uke-pallet"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/uni-arts-chain-sr25519"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/unified-collator-node-deployment"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/uniscan"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Unity3DExample"
+
+[[repo]]
 url = "https://github.com/w3f-grants-archive/universal-dot-node"
 
 [[repo]]
+url = "https://github.com/w3f-grants-archive/universal.me-front-end"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/UniversalDot-pallets"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/universaldot.me-ipfs-design-document"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/universaldot.me-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/universaldot.me-tensorflow"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/universaldot.me-wiki"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/validate_pr"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/validated-streams"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/validators_selection"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/vedran"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/vedran-daemon"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/vedran-landing"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ventur"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/verification-solidity"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/virto-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/vscode-plugin-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/vue-ui"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/w3f-grant-support-repo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/w3f-m1-cli"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/w3f-m1-runtime"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/wallet-app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/walletconnect-monorepo"
+
+[[repo]]
 url = "https://github.com/w3f-grants-archive/walletconnect-v2-monorepo"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/waltid-idpkit"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/waltid-nftkit"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/wasm-opt-rs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/wasm-semantics"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/wasm_runtimes_fuzzing"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/WasmEdge"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/web3-decentarlized-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/web3-grant"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/web3-rabin-dkg"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Web3Box-apps"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/web3go-xyz-v2"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Web3MediaPilot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/webb-dapp"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/webb.js"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/websocket-logger"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/WhiteNoise.rs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/Whitepaper"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/wika_api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/wika_etl"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/willitscale-polkadot"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/wormhole"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/wormhole-bridge"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/xbi"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/xcm-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/xcm-domain-service"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/xcm-monitoring"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/xcm-sdk"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/xcm-tools"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/xcmsend-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/xcmsend-app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/yatima"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/yc-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/yc-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/yibanchen-app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/YibanChenAppSeleniumTests"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/YieldScan"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/yieldscan-backend-api"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/yieldscan-backend-crawler"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/yieldscan-backend-ts"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/yieldscan-frontend"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/zemu"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/zenlink-dex-contract"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/zero-chain"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/zerochain-book"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ZeroDAO-node"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/zeropool-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/zeropool_substrate_fork"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/zk-snarks-with-substrate"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/zkmega"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/ZKRollups"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/zksubstrate"
 
 [[repo]]
 url = "https://github.com/w3f-webops/disc2020-scalability-and-interoperability-workshop"
@@ -9581,6 +12730,9 @@ url = "https://github.com/w3f/ring-proof"
 url = "https://github.com/w3f/ring-vrf"
 
 [[repo]]
+url = "https://github.com/w3f/ring-vrf-papers"
+
+[[repo]]
 url = "https://github.com/w3f/ripp"
 
 [[repo]]
@@ -9758,6 +12910,9 @@ url = "https://github.com/w3f/web3-assets"
 url = "https://github.com/w3f/web3-assets-chart"
 
 [[repo]]
+url = "https://github.com/w3f/web3-educhain"
+
+[[repo]]
 url = "https://github.com/w3f/Web3-wiki"
 missing = true
 
@@ -9906,6 +13061,9 @@ url = "https://github.com/xavax-project/vulture-wallet-extension"
 
 [[repo]]
 url = "https://github.com/xaya/substrate-names"
+
+[[repo]]
+url = "https://github.com/XcmSend"
 
 [[repo]]
 url = "https://github.com/xingfly/rust_pro_2"

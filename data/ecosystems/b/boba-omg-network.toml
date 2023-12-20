@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Boba (OMG Network)"
 
-sub_ecosystems = ["OoolongSwap"]
+sub_ecosystems = ["Celer Network cBridge", "OoolongSwap"]
 
 github_organizations = ["https://github.com/bobanetwork", "https://github.com/omgnetwork"]
 
@@ -71,6 +71,9 @@ url = "https://github.com/bobanetwork/interface"
 url = "https://github.com/bobanetwork/l2beat"
 
 [[repo]]
+url = "https://github.com/bobanetwork/light-bridge"
+
+[[repo]]
 url = "https://github.com/bobanetwork/local-kms"
 
 [[repo]]
@@ -78,6 +81,9 @@ url = "https://github.com/bobanetwork/merkle_patricia_tree"
 
 [[repo]]
 url = "https://github.com/bobanetwork/multisig"
+
+[[repo]]
+url = "https://github.com/bobanetwork/op-erigon-diff"
 
 [[repo]]
 url = "https://github.com/bobanetwork/optimism"
@@ -462,6 +468,7 @@ url = "https://github.com/omgnetwork/ruby-sdk"
 
 [[repo]]
 url = "https://github.com/omgnetwork/safe-client-gateway"
+missing = true
 
 [[repo]]
 url = "https://github.com/omgnetwork/safe-config-service"
@@ -471,6 +478,7 @@ url = "https://github.com/omgnetwork/safe-contracts"
 
 [[repo]]
 url = "https://github.com/omgnetwork/safe-deployments"
+missing = true
 
 [[repo]]
 url = "https://github.com/omgnetwork/safe-gnosis"
@@ -480,6 +488,7 @@ url = "https://github.com/omgnetwork/safe-react"
 
 [[repo]]
 url = "https://github.com/omgnetwork/safe-transaction-service"
+missing = true
 
 [[repo]]
 url = "https://github.com/omgnetwork/salty"

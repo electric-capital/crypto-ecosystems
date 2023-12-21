@@ -1,12 +1,15 @@
 # Ecosystem Level Information
 title = "NodeKit"
 
-
 sub_ecosystems = []
 
 github_organizations = ["https://github.com/AnomalyFi"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/AnomalyFi/anchor"
+missing = true
+
 [[repo]]
 url = "https://github.com/AnomalyFi/ansible-avalanche-collection"
 
@@ -15,6 +18,13 @@ url = "https://github.com/AnomalyFi/ansible-avalanche-getting-started"
 
 [[repo]]
 url = "https://github.com/AnomalyFi/avalanchego"
+
+[[repo]]
+url = "https://github.com/AnomalyFi/blockscout"
+
+[[repo]]
+url = "https://github.com/AnomalyFi/builder"
+missing = true
 
 [[repo]]
 url = "https://github.com/AnomalyFi/celestia-app"
@@ -26,10 +36,19 @@ url = "https://github.com/AnomalyFi/celestia-node"
 url = "https://github.com/AnomalyFi/erigon"
 
 [[repo]]
+url = "https://github.com/AnomalyFi/eth-faucet"
+
+[[repo]]
+url = "https://github.com/AnomalyFi/eth-pos-devnet"
+
+[[repo]]
 url = "https://github.com/AnomalyFi/ethereum-etl"
 
 [[repo]]
 url = "https://github.com/AnomalyFi/ethereum-export-pipeline"
+
+[[repo]]
+url = "https://github.com/AnomalyFi/ethereum-package"
 
 [[repo]]
 url = "https://github.com/AnomalyFi/go-ethereum"
@@ -65,11 +84,14 @@ url = "https://github.com/AnomalyFi/polygon-etl"
 url = "https://github.com/AnomalyFi/roll-op"
 
 [[repo]]
+url = "https://github.com/AnomalyFi/rust-seq-rpc"
+
+[[repo]]
 url = "https://github.com/AnomalyFi/seq-rpc"
+missing = true
 
 [[repo]]
 url = "https://github.com/AnomalyFi/seq-sdk"
 
 [[repo]]
 url = "https://github.com/AnomalyFi/spark-clickhouse-connector"
-

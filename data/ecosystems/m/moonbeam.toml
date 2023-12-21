@@ -8,9 +8,11 @@ sub_ecosystems = [
   "AirGap",
   "Airlyft",
   "Amara Finance",
+  "API3",
   "Apillon",
   "Authtrail",
   "Auto",
+  "Axelar Network",
   "Banksea Finance",
   "BeamSwap",
   "Bepro Network",
@@ -18,31 +20,42 @@ sub_ecosystems = [
   "Bitquery",
   "Bware Labs",
   "Cask",
+  "Celer Network cBridge",
   "Certhum",
   "Chaotic Finance",
   "Chimoney",
   "Collectify",
   "Convergence Finance",
+  "Cora Protocol",
   "Cougar Swap",
   "COVA",
   "Cover Compared",
+  "Cruzo",
   "crystyl.finance",
+  "Curve Labs",
   "DAM Finance",
   "DefiYield",
   "Demodyfi",
   "Exiled Racers",
   "Fidi",
   "Firefly",
+  "Frax",
   "Galxe",
+  "Gamma Strategies",
   "Huckleberry",
+  "Human Protocol",
   "IBetYou",
   "Impossible Finance",
+  "Injective",
   "Karma HQ",
   "Klever",
   "Kodadot",
+  "LayerZero",
+  "Lido",
   "Lucky Friday",
   "Lunardex",
   "MidasProtocol",
+  "Minimax Finance",
   "Minterest Finance",
   "MixBytes",
   "Moonbeans",
@@ -53,9 +66,11 @@ sub_ecosystems = [
   "Mystiko",
   "MyTrade",
   "Narwhalswap",
+  "Nomad",
   "Novasama Technologies",
   "Omnisea",
   "OnFinality",
+  "OpenSea",
   "Orbiter One",
   "Polkadotters",
   "Polkamarkets",
@@ -64,6 +79,7 @@ sub_ecosystems = [
   "Qoda",
   "Raresama",
   "Razor Network",
+  "Redstone Finance",
   "RMRK Team",
   "Ryabina",
   "Scion",
@@ -77,8 +93,11 @@ sub_ecosystems = [
   "Transak",
   "TrueStaking",
   "Unifty",
+  "Uniswap",
   "Vulture Finance",
   "Web3Go",
+  "Witnet",
+  "Wormhole",
   "XDAO",
   "Yield Bay",
   "Zenlink",
@@ -97,13 +116,16 @@ github_organizations = [
 
 # Repositories
 [[repo]]
+url = "https://github.com/AsadAli-BB/moonbeam-solo-chain"
+
+[[repo]]
+url = "https://github.com/asadalisiyal/moonbeam-solo-chain"
+
+[[repo]]
 url = "https://github.com/AstarNetwork/Astar"
 
 [[repo]]
 url = "https://github.com/BiTicket/ticketing"
-
-[[repo]]
-url = "https://github.com/Block-Bird/moonbeam-solo-chain"
 
 [[repo]]
 url = "https://github.com/bwarelabs/moonbeam-launch"
@@ -131,6 +153,12 @@ url = "https://github.com/manuelhb14/moonbridge"
 
 [[repo]]
 url = "https://github.com/merc1er/moonsama-gain-calculator"
+
+[[repo]]
+url = "https://github.com/meterio/passport-service"
+
+[[repo]]
+url = "https://github.com/meterio/Passportv2Contracts"
 
 [[repo]]
 url = "https://github.com/moonbeam-foundation/cli-ts-signer"
@@ -244,6 +272,9 @@ url = "https://github.com/moonbeam-foundation/substrate"
 url = "https://github.com/moonbeam-foundation/treasury"
 
 [[repo]]
+url = "https://github.com/Moonsong-Labs/cairo-vm"
+
+[[repo]]
 url = "https://github.com/Moonsong-Labs/chopsticks"
 
 [[repo]]
@@ -292,6 +323,9 @@ url = "https://github.com/Moonsong-Labs/snapshot-strategies"
 url = "https://github.com/Moonsong-Labs/storage-hub-design-proposal"
 
 [[repo]]
+url = "https://github.com/Moonsong-Labs/storage-hub-runtime-poc"
+
+[[repo]]
 url = "https://github.com/Moonsong-Labs/substrate"
 
 [[repo]]
@@ -317,9 +351,6 @@ url = "https://github.com/papermoonio/expedition"
 
 [[repo]]
 url = "https://github.com/papermoonio/moonbase-mintableERC20"
-
-[[repo]]
-url = "https://github.com/papermoonio/moonbeam-docs-reports"
 
 [[repo]]
 url = "https://github.com/papermoonio/moonbeam-docs-test-suite"
@@ -371,6 +402,12 @@ url = "https://github.com/papermoonio/wormhole-example-relayer-engine"
 
 [[repo]]
 url = "https://github.com/parity-asia/hackathon-2022-summer"
+
+[[repo]]
+url = "https://github.com/ParityAsia/hackathon-2022-summer"
+
+[[repo]]
+url = "https://github.com/Polkadot-Blockchain-Academy/Academy-PoW"
 
 [[repo]]
 url = "https://github.com/PureStake/algosigner"

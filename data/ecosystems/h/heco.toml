@@ -1,7 +1,25 @@
 # Ecosystem Level Information
 title = "HECO"
 
-sub_ecosystems = ["DAI Option", "Deri Protocol", "Trust Domains"]
+sub_ecosystems = [
+  "Allbridge",
+  "Autofarm Network",
+  "Beefy.Finance",
+  "Celer Network cBridge",
+  "DAI Option",
+  "Deri Protocol",
+  "DODO",
+  "Elk Finance",
+  "Multichain (Anyswap)",
+  "MyWish",
+  "O3 Swap",
+  "Orion Protocol",
+  "RelayChain",
+  "Sushi Swap",
+  "Symbiosis Finance",
+  "Trust Domains",
+  "WePiggy",
+]
 
 github_organizations = ["https://github.com/stars-labs"]
 
@@ -14,6 +32,7 @@ url = "https://github.com/stars-labs/blog-site"
 
 [[repo]]
 url = "https://github.com/stars-labs/encryption"
+missing = true
 
 [[repo]]
 url = "https://github.com/stars-labs/go-pvss"

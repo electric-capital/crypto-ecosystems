@@ -3,7 +3,11 @@ title = "Morpho"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/morpho-dao", "https://github.com/morpho-labs"]
+github_organizations = [
+  "https://github.com/morpho-dao",
+  "https://github.com/morpho-labs",
+  "https://github.com/morpho-org",
+]
 
 # Repositories
 [[repo]]
@@ -14,6 +18,7 @@ url = "https://github.com/morpho-dao/morpho-data-structures"
 
 [[repo]]
 url = "https://github.com/morpho-dao/morpho-data-structures-private"
+missing = true
 
 [[repo]]
 url = "https://github.com/morpho-dao/morpho-ledger-plugin"
@@ -85,6 +90,9 @@ url = "https://github.com/morpho-labs/hack-smart-contracts"
 url = "https://github.com/morpho-labs/messari-subgraphs"
 
 [[repo]]
+url = "https://github.com/morpho-labs/mmi-defi-adapters"
+
+[[repo]]
 url = "https://github.com/morpho-labs/morpho-certora-tutorials"
 
 [[repo]]
@@ -133,4 +141,88 @@ url = "https://github.com/morpho-labs/styled-evm-address"
 url = "https://github.com/morpho-labs/zapper-studio"
 
 [[repo]]
+url = "https://github.com/morpho-org/curve-factory"
+
+[[repo]]
+url = "https://github.com/morpho-org/erc20-permissioned"
+
+[[repo]]
+url = "https://github.com/morpho-org/metamorpho"
+
+[[repo]]
 url = "https://github.com/morpho-org/morpho-aave-v3"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-aavev3-optimizer"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-aavev3-optimizer-sdk"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-blue"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-blue-bundlers"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-blue-deployment"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-blue-irm"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-blue-oracles"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-blue-snippets"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-blue-subgraph"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-data-structures"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-ledger-plugin"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-optimizers"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-optimizers-rewards"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-optimizers-snippets"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-optimizers-subgraph"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-seatbelt"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-security"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-token"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-transfervest"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-utils"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-v1-deprecated"
+
+[[repo]]
+url = "https://github.com/morpho-org/morpho-v1-optimizers-vaults"
+
+[[repo]]
+url = "https://github.com/morpho-org/semitransferable-token"
+
+[[repo]]
+url = "https://github.com/morpho-org/sparklend-conduits"
+
+[[repo]]
+url = "https://github.com/morpho-org/universal-rewards-distributor"

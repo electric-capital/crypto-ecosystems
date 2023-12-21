@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Dash"
 
-sub_ecosystems = []
+sub_ecosystems = ["Be Unstoppable", "Edge"]
 
 github_organizations = ["https://github.com/dashevo", "https://github.com/dashpay"]
 
@@ -43,27 +43,35 @@ url = "https://github.com/dashevo/dapi"
 
 [[repo]]
 url = "https://github.com/dashevo/dapi-db"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/dapi-db-cache"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/dapi-db-counterstore"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/dapi-db-docstore"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/dapi-db-eventstore"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/dapi-db-feedstore"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/dapi-db-kvstore"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/dapi-db-store"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/dapi-grpc"
@@ -88,6 +96,7 @@ url = "https://github.com/dashevo/dash-util"
 
 [[repo]]
 url = "https://github.com/dashevo/dashcore-channel"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/dashcore-message"
@@ -100,6 +109,7 @@ url = "https://github.com/dashevo/dashcore-payment-protocol"
 
 [[repo]]
 url = "https://github.com/dashevo/DashJSCopy"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/dashmate"
@@ -151,6 +161,7 @@ url = "https://github.com/dashevo/gh-action-start-local-network"
 
 [[repo]]
 url = "https://github.com/dashevo/go-rate-service"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/ios-dash-crypto"
@@ -184,6 +195,7 @@ url = "https://github.com/dashevo/js-machine"
 
 [[repo]]
 url = "https://github.com/dashevo/js-re2-wasm-async"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/js-tenderdash-abci"
@@ -196,6 +208,7 @@ url = "https://github.com/dashevo/merk"
 
 [[repo]]
 url = "https://github.com/dashevo/node-buffers"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashevo/node-merk"
@@ -437,6 +450,7 @@ url = "https://github.com/dashpay/go-engineer-code-challenge"
 
 [[repo]]
 url = "https://github.com/dashpay/godash"
+missing = true
 
 [[repo]]
 url = "https://github.com/dashpay/godashutil"
@@ -511,10 +525,16 @@ url = "https://github.com/dashpay/platform"
 url = "https://github.com/dashpay/platform-readme-tutorials"
 
 [[repo]]
+url = "https://github.com/dashpay/platform-tutorials"
+
+[[repo]]
 url = "https://github.com/dashpay/proposal-generator"
 
 [[repo]]
 url = "https://github.com/dashpay/relic"
+
+[[repo]]
+url = "https://github.com/dashpay/rs-bip37-bloom-filter"
 
 [[repo]]
 url = "https://github.com/dashpay/rs-drive-explorer"

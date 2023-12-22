@@ -1,13 +1,14 @@
 # Ecosystem Level Information
 title = "dYdX"
 
-sub_ecosystems = []
+sub_ecosystems = ["Cryptofeed", "Orbiter Finance"]
 
 github_organizations = ["https://github.com/dydxfoundation", "https://github.com/dydxprotocol"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/cryptassic/hummingbot"
+missing = true
 
 [[repo]]
 url = "https://github.com/DigitalRuby/ExchangeSharp"
@@ -35,12 +36,16 @@ url = "https://github.com/dydxfoundation/pnyx"
 
 [[repo]]
 url = "https://github.com/dydxprotocol/abi-decoder"
+missing = true
 
 [[repo]]
 url = "https://github.com/dydxprotocol/actions-public"
 
 [[repo]]
 url = "https://github.com/dydxprotocol/add-to-web3"
+
+[[repo]]
+url = "https://github.com/dydxprotocol/cartera-ios"
 
 [[repo]]
 url = "https://github.com/dydxprotocol/Charts"
@@ -59,6 +64,7 @@ url = "https://github.com/dydxprotocol/create-or-update-comment"
 
 [[repo]]
 url = "https://github.com/dydxprotocol/docs"
+missing = true
 
 [[repo]]
 url = "https://github.com/dydxprotocol/dydx-python"
@@ -74,9 +80,11 @@ url = "https://github.com/dydxprotocol/dydx.js"
 
 [[repo]]
 url = "https://github.com/dydxprotocol/dydxjs-public-snapshot"
+missing = true
 
 [[repo]]
 url = "https://github.com/dydxprotocol/dydxpy-public-snapshot"
+missing = true
 
 [[repo]]
 url = "https://github.com/dydxprotocol/exchange-wrappers"
@@ -110,6 +118,7 @@ url = "https://github.com/dydxprotocol/liquidator"
 
 [[repo]]
 url = "https://github.com/dydxprotocol/mexa-sdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/dydxprotocol/node-service-base-dev"
@@ -168,9 +177,11 @@ url = "https://github.com/dydxprotocol/v4-chain"
 
 [[repo]]
 url = "https://github.com/dydxprotocol/v4-client-public-snapshot"
+missing = true
 
 [[repo]]
 url = "https://github.com/dydxprotocol/v4-client-py-public-snapshot"
+missing = true
 
 [[repo]]
 url = "https://github.com/dydxprotocol/v4-clients"

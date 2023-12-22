@@ -1,11 +1,14 @@
 # Ecosystem Level Information
 title = "Zora"
 
-sub_ecosystems = []
+sub_ecosystems = ["LayerZero", "Reservoir Protocol"]
 
 github_organizations = ["https://github.com/ourzora"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/ourzora/actions-runner-controller"
+
 [[repo]]
 url = "https://github.com/ourzora/assets"
 
@@ -41,12 +44,20 @@ url = "https://github.com/ourzora/doge-nft"
 
 [[repo]]
 url = "https://github.com/ourzora/dropsite"
+missing = true
+
+[[repo]]
+url = "https://github.com/ourzora/energy-dashboard"
+missing = true
 
 [[repo]]
 url = "https://github.com/ourzora/erigon"
 
 [[repo]]
 url = "https://github.com/ourzora/erigon-metrics"
+
+[[repo]]
+url = "https://github.com/ourzora/ethers-rs"
 
 [[repo]]
 url = "https://github.com/ourzora/excluded-uni-airdrop-users"
@@ -74,6 +85,7 @@ url = "https://github.com/ourzora/hollyplus-minting-contract"
 
 [[repo]]
 url = "https://github.com/ourzora/indexer"
+missing = true
 
 [[repo]]
 url = "https://github.com/ourzora/jimmy-auction-house"
@@ -155,6 +167,7 @@ url = "https://github.com/ourzora/optimism"
 
 [[repo]]
 url = "https://github.com/ourzora/pipeline_test"
+missing = true
 
 [[repo]]
 url = "https://github.com/ourzora/protocol-rewards"
@@ -220,6 +233,9 @@ url = "https://github.com/ourzora/zora-1155-contracts"
 url = "https://github.com/ourzora/zora-721-contracts"
 
 [[repo]]
+url = "https://github.com/ourzora/zora-creator-subgraph"
+
+[[repo]]
 url = "https://github.com/ourzora/zora-crypto-list"
 
 [[repo]]
@@ -236,6 +252,7 @@ url = "https://github.com/ourzora/zora-drops-extensions"
 
 [[repo]]
 url = "https://github.com/ourzora/zora-frontend-challenge"
+missing = true
 
 [[repo]]
 url = "https://github.com/ourzora/zora-protocol"

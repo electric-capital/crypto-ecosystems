@@ -1,16 +1,20 @@
 # Ecosystem Level Information
 title = "Merit Circle"
 
-sub_ecosystems = []
+sub_ecosystems = ["LayerZero"]
 
 github_organizations = ["https://github.com/Merit-Circle"]
 
 # Repositories
 [[repo]]
+url = "https://github.com/Merit-Circle/beam-brand"
+
+[[repo]]
 url = "https://github.com/Merit-Circle/beam-csharp"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/beam-docs"
+missing = true
 
 [[repo]]
 url = "https://github.com/Merit-Circle/beam-faucet"
@@ -19,7 +23,14 @@ url = "https://github.com/Merit-Circle/beam-faucet"
 url = "https://github.com/Merit-Circle/beam-node"
 
 [[repo]]
+url = "https://github.com/Merit-Circle/beam-relayer"
+missing = true
+
+[[repo]]
 url = "https://github.com/Merit-Circle/beam-reservoir"
+
+[[repo]]
+url = "https://github.com/Merit-Circle/beam-sdk"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/beam-subgraphs"
@@ -34,7 +45,12 @@ url = "https://github.com/Merit-Circle/beam-swap-contracts"
 url = "https://github.com/Merit-Circle/beam-token"
 
 [[repo]]
+url = "https://github.com/Merit-Circle/beam-zendesk"
+missing = true
+
+[[repo]]
 url = "https://github.com/Merit-Circle/beamswap"
+missing = true
 
 [[repo]]
 url = "https://github.com/Merit-Circle/distributor-bot"
@@ -56,9 +72,13 @@ url = "https://github.com/Merit-Circle/merit-liquidity-mining"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/merit-merch"
+missing = true
 
 [[repo]]
 url = "https://github.com/Merit-Circle/merit-nft"
+
+[[repo]]
+url = "https://github.com/Merit-Circle/merit-zendesk"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/merkle-orchard"
@@ -70,13 +90,20 @@ url = "https://github.com/Merit-Circle/public-chain-assets"
 url = "https://github.com/Merit-Circle/reservoir-indexer"
 
 [[repo]]
+url = "https://github.com/Merit-Circle/reservoir-kit"
+
+[[repo]]
 url = "https://github.com/Merit-Circle/sablier"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/snakes-on-a-chain"
 
 [[repo]]
+url = "https://github.com/Merit-Circle/staking-v2-unlock"
+
+[[repo]]
 url = "https://github.com/Merit-Circle/studio"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/wagmi"
+missing = true

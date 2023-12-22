@@ -1,7 +1,16 @@
 # Ecosystem Level Information
 title = "Conflux Network"
 
-sub_ecosystems = ["Fluent", "Goledo", "Meson", "Nucleon", "Swappi", "Trust Domains"]
+sub_ecosystems = [
+  "Celer Network cBridge",
+  "Fluent",
+  "Goledo",
+  "Meson",
+  "Nucleon",
+  "Swappi",
+  "Trust Domains",
+  "Witnet",
+]
 
 github_organizations = [
   "https://github.com/Conflux-Chain",
@@ -21,6 +30,7 @@ url = "https://github.com/Conflux-Chain/API-Design-Guide"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/atom"
+missing = true
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/bls-signatures"
@@ -81,6 +91,7 @@ url = "https://github.com/Conflux-Chain/conflux-monitor"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/conflux-nft-contract"
+missing = true
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/conflux-parity-deps"
@@ -202,6 +213,7 @@ url = "https://github.com/Conflux-Chain/js-conflux-sdk"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/js-neurahive-sdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/jsonrpc-spec"
@@ -214,15 +226,19 @@ url = "https://github.com/Conflux-Chain/libcfxaddr"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/neurahive-client"
+missing = true
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/neurahive-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/neurahive-rust"
+missing = true
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/neurahive-scan"
+missing = true
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/nft-viewer"
@@ -244,6 +260,7 @@ url = "https://github.com/Conflux-Chain/react-ui"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/rigel"
+missing = true
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/rocksdb"
@@ -289,6 +306,9 @@ url = "https://github.com/Conflux-Chain/web3pay-sdk-js"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/web3pay-service"
+
+[[repo]]
+url = "https://github.com/Conflux-Chain/WrappedConflux"
 
 [[repo]]
 url = "https://github.com/Conflux-Chain/zh-hans.developer.confluxnetwork.org"

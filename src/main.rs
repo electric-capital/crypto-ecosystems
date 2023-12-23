@@ -7,6 +7,7 @@ use std::fs::{read_to_string, File};
 use std::path::{Path, PathBuf};
 use structopt::StructOpt;
 use thiserror::Error;
+
 #[derive(Debug, StructOpt)]
 #[structopt(about = "Taxonomy of crypto open source repositories")]
 #[structopt(name = "crypto-ecosystems", rename_all = "kebab-case")]
@@ -15,6 +16,7 @@ enum Cli {
     Validate {
         /// Path to top level directory containing ecosystem toml files
         data_path: String,
+
     },
     /// Export list of ecosystems and repos to a JSON file
     Export {
@@ -22,6 +24,7 @@ enum Cli {
         data_path: String,
         /// JSON File to export the list of repos
         output_path: String,
+
         /// Include only repository files
         #[structopt(short, long)]
         only_repos: bool,
@@ -30,6 +33,7 @@ enum Cli {
 #[derive(Debug)]
 enum ValidationError {
     MissingSubecosystem { parent: String, child: String },
+
      DuplicateRepoUrl(String),
 
      TitleError(String),
@@ -77,7 +81,9 @@ enum CEError {
         toml_error: toml::de::Error,
     },
 }
+
 type EcosystemMap = HashMap<String, Ecosystem>;
+
 fn get_toml_files(dir: &Path) -> Result<Vec<PathBuf>> {
     let glob_pattern = format!("{}/**/*.toml", dir.display());
     let mut paths = vec![];
@@ -91,6 +97,7 @@ fn get_toml_files(dir: &Path) -> Result<Vec<PathBuf>> {
     }
     Ok(paths)
 }
+
 fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationError>)> {
     let mut ecosystems: HashMap<String, Ecosystem> = HashMap::new();
     let mut errors = Vec::new();
@@ -114,6 +121,7 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationEr
     }
     Ok((ecosystems, errors))
 }
+
 fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
     let mut errors = vec![];
     let mut repo_set = HashSet::new();
@@ -185,8 +193,11 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
             println!("\t{}: {}", tag, count);
         }
     }
+
     errors
+
 }
+
 fn validate(data_path: String) -> Result<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
@@ -207,6 +218,7 @@ fn validate(data_path: String) -> Result<()> {
     };
     Ok(())
 }
+
 fn export(data_path: String, output_path: String, only_repos: bool) -> Result<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
@@ -243,6 +255,7 @@ fn export(data_path: String, output_path: String, only_repos: bool) -> Result<()
     };
     Ok(())
 }
+
 fn main() -> Result<()> {
     let args = Cli::from_args();
     match args {

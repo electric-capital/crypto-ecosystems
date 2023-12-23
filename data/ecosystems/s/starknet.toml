@@ -3,6 +3,7 @@ title = "Starknet"
 
 sub_ecosystems = [
   "10K Swap",
+  "Argent",
   "Anima Protocol",
   "Bibliotheca DAO",
   "Braavos",
@@ -18,6 +19,7 @@ sub_ecosystems = [
   "Orbiter Finance",
   "Paradex",
   "Playmint",
+  "StarkDeFi",
   "StarkWare",
   "ViewBlock",
 ]
@@ -32,9 +34,18 @@ github_organizations = [
   "https://github.com/starknet-edu",
   "https://github.com/starknet-io",
   "https://github.com/starkware-libs",
+  "https://github.com/StarknetAstro",
+  "https://github.com/Early-Starkers"
 ]
 
 # Repositories
+
+[[repo]]
+url = "https://github.com/codekaya/dojo_arena"
+
+[[repo]]
+url = "https://github.com/Early-Starkers/earlystarkers-contracts"
+
 [[repo]]
 url = "https://github.com/08351ty/CRISP-cairo"
 
@@ -363,6 +374,9 @@ url = "https://github.com/aave-starknet-project/aave-starknet-bridge"
 [[repo]]
 url = "https://github.com/aave-starknet-project/aave-starknet-core"
 missing = true
+
+[[repo]]
+url = "https://github.com/aave-starknet-project/starknet-aave-bridge-js"
 
 [[repo]]
 url = "https://github.com/aave-starknet-project/aave-starknet-periphery"
@@ -716,24 +730,6 @@ url = "https://github.com/architectTINS/Masters-of-the-Realms"
 
 [[repo]]
 url = "https://github.com/Arcticae/starknet-devnet"
-
-[[repo]]
-url = "https://github.com/argentlabs/argent-contracts-starknet"
-
-[[repo]]
-url = "https://github.com/argentlabs/argent-starknet-recover"
-
-[[repo]]
-url = "https://github.com/argentlabs/argent-x"
-
-[[repo]]
-url = "https://github.com/argentlabs/min-starknet"
-
-[[repo]]
-url = "https://github.com/argentlabs/starknet-build"
-
-[[repo]]
-url = "https://github.com/argentlabs/starknet-off-chain-signature"
 
 [[repo]]
 url = "https://github.com/ArkProjectNFTs/ark-lane"
@@ -1333,6 +1329,12 @@ url = "https://github.com/chainwayxyz/Paradigm-CTF-2022"
 url = "https://github.com/chatstarknet/ChatStarknet-Web"
 
 [[repo]]
+url = "https://github.com/checkpoint-labs/checkpoint"
+
+[[repo]]
+url = "https://github.com/checkpoint-labs/checkpoint-template"
+
+[[repo]]
 url = "https://github.com/checkpoint-labs/token-api-checkpoint"
 
 [[repo]]
@@ -1559,6 +1561,9 @@ url = "https://github.com/cryptoleek-team/starklings"
 
 [[repo]]
 url = "https://github.com/cryptoleek-team/starknet-worldmap-billboard"
+
+[[repo]]
+url = "https://github.com/cryptonerdcn/wasm-cairo"
 
 [[repo]]
 url = "https://github.com/CryptoTransformator/starknet_seed_to_private_key"
@@ -2653,6 +2658,15 @@ url = "https://github.com/gg-108/first"
 missing = true
 
 [[repo]]
+url = "https://github.com/gianalarcon/dojo-chess"
+
+[[repo]]
+url = "https://github.com/gianalarcon/Ownable-contract-snFoundry"
+
+[[repo]]
+url = "https://github.com/gianalarcon/ownable-components"
+
+[[repo]]
 url = "https://github.com/gianalarcon/Ownable-Starknet"
 
 [[repo]]
@@ -3073,6 +3087,9 @@ url = "https://github.com/hvbr1s/starknet_journey"
 url = "https://github.com/hxfjsw/starknet_web_demo"
 
 [[repo]]
+url = "https://github.com/Hyodar/unicairo-v2"
+
+[[repo]]
 url = "https://github.com/hypnoshock/starknet-skeleton"
 
 [[repo]]
@@ -3287,6 +3304,9 @@ url = "https://github.com/jejemerong/triality"
 
 [[repo]]
 url = "https://github.com/JejomStark/SymbOnStark"
+
+[[repo]]
+url = "https://github.com/JejomStark/ShellOnStark"
 
 [[repo]]
 url = "https://github.com/jeremyjams/ZeroKnowledge"
@@ -4653,34 +4673,100 @@ url = "https://github.com/nelsonlai-demo-poc/starknet-hardhat-erc721"
 url = "https://github.com/nestorbonilla/starknet-accounts-cairo-1"
 
 [[repo]]
+url = "https://github.com/NethermindEth/0to1CairoDemo"
+
+[[repo]]
 url = "https://github.com/NethermindEth/circomlibjs"
+
+[[repo]]
+url = "https://github.com/NethermindEth/cairo-vm-go"
+
+[[repo]]
+url = "https://github.com/NethermindEth/cairo-property-tester"
+
+[[repo]]
+url = "https://github.com/NethermindEth/cairo_zstd"
+
+[[repo]]
+url = "https://github.com/NethermindEth/Cairo-SafeMath"
+
+[[repo]]
+url = "https://github.com/NethermindEth/hardhat-warp"
 
 [[repo]]
 url = "https://github.com/NethermindEth/horus-compile"
 
 [[repo]]
+url = "https://github.com/NethermindEth/horus-checker"
+
+[[repo]]
 url = "https://github.com/NethermindEth/juno"
+
+[[repo]]
+url = "https://github.com/NethermindEth/research-uint384-cairo"
 
 [[repo]]
 url = "https://github.com/NethermindEth/sign-in-with-starknet"
 
 [[repo]]
+url = "https://github.com/NethermindEth/starknet-abi-form"
+
+[[repo]]
 url = "https://github.com/NethermindEth/starknet-remix-plugin"
+
+[[repo]]
+url = "https://github.com/NethermindEth/starknet-rpc-tests"
 
 [[repo]]
 url = "https://github.com/NethermindEth/starknet-state-verifier"
 
 [[repo]]
+url = "https://github.com/NethermindEth/starknet.go"
+
+[[repo]]
 url = "https://github.com/NethermindEth/starknet.unity"
+
+[[repo]]
+url = "https://github.com/NethermindEth/starknet-proposals-whisperer"
+
+[[repo]]
+url = "https://github.com/NethermindEth/starknet-p2p-specs"
 
 [[repo]]
 url = "https://github.com/NethermindEth/StarknetByExample"
 
 [[repo]]
+url = "https://github.com/NethermindEth/UniStark"
+
+[[repo]]
 url = "https://github.com/NethermindEth/unistark-v3-periphery"
 
 [[repo]]
+url = "https://github.com/NethermindEth/unistark-swap-router-contracts"
+
+[[repo]]
+url = "https://github.com/NethermindEth/voyager-translations"
+
+[[repo]]
+url = "https://github.com/NethermindEth/voyager-verify"
+
+[[repo]]
 url = "https://github.com/NethermindEth/warp"
+
+[[repo]]
+url = "https://github.com/NethermindEth/warp-benchmark"
+
+[[repo]]
+url = "https://github.com/NethermindEth/warp-test-box"
+
+[[repo]]
+url = "https://github.com/NethermindEth/warp-ts-benchmark"
+
+[[repo]]
+url = "https://github.com/NethermindEth/warp-plugin"
+
+[[repo]]
+url = "https://github.com/NethermindEth/warping-contracts"
 
 [[repo]]
 url = "https://github.com/neumoxx/aave-starknet-bridge"
@@ -5128,6 +5214,9 @@ url = "https://github.com/ProjectKepler1/imx-starknet"
 
 [[repo]]
 url = "https://github.com/ProNodes11/Starknet-checker"
+
+[[repo]]
+url = "https://github.com/Prop-House/prop-house-monorepo"
 
 [[repo]]
 url = "https://github.com/Prop-House/starknet-relayer"
@@ -5857,6 +5946,9 @@ url = "https://github.com/smartcontractkit/chainlink-starknet"
 url = "https://github.com/smchala/DecimalToBinary"
 
 [[repo]]
+url = "https://github.com/snapshot-labs/sx-starknet"
+
+[[repo]]
 url = "https://github.com/snapshot-labs/starknet-delegation"
 
 [[repo]]
@@ -6341,6 +6433,15 @@ url = "https://github.com/Starknet-Recovery-Service/recovery"
 
 [[repo]]
 url = "https://github.com/StarkNet-ZH/Awesome-StarkNet-Chinese"
+
+[[repo]]
+url = "https://github.com/StarknetAstro/AstroEditor"
+
+[[repo]]
+url = "https://github.com/StarknetAstro/BootCamp"
+
+[[repo]]
+url = "https://github.com/StarknetAstro/OpenBillboard"
 
 [[repo]]
 url = "https://github.com/starknetdev/shared_wallet"
@@ -7114,6 +7215,9 @@ url = "https://github.com/vivienbcr/blockhead"
 url = "https://github.com/vkubilays/Get-Starknet"
 
 [[repo]]
+url = "https://github.com/Kuurus/starkmint"
+
+[[repo]]
 url = "https://github.com/Vladislav1z/StarkNet_test_my_contract"
 
 [[repo]]
@@ -7466,6 +7570,9 @@ url = "https://github.com/zkxteam/zkxprotocol"
 url = "https://github.com/zoeAD/basic-solver"
 
 [[repo]]
+url = "https://github.com/HenriBrg/ODAx"
+
+[[repo]]
 url = "https://github.com/Zohal-Starknet/zohal-interface"
 
 [[repo]]
@@ -7476,3 +7583,6 @@ url = "https://github.com/zwilling/cairo-stark-experiments"
 
 [[repo]]
 url = "https://github.com/zzuziak/starklings"
+
+[[repo]]
+url = "https://github.com/mylastwanto/StarkExport"

@@ -1,15 +1,18 @@
 # Ecosystem Level Information
 title = "Ingonyama"
 
+sub_ecosystems = []
+
 github_organizations = ["https://github.com/ingonyama-zk"]
+
+# Repositories
+[[repo]]
+url = "https://github.com/ingonyama-zk/blaze"
+tags = ["Blaze", "Framework", "Infrastrcture", "Hardware accleration", "FPGA", "Hardware", "Library", "Zero Knowlage Proofs", "ZKP"]
 
 [[repo]]
 url = "https://github.com/ingonyama-zk/icicle"
 tags = ["ICICLE", "Framework", "Infrastrcture", "Hardware accleration", "GPU", "Hardware", "Library", "Zero Knowlage Proofs", "ZKP"]
-
-[[repo]]
-url = "https://github.com/ingonyama-zk/blaze"
-tags = ["Blaze", "Framework", "Infrastrcture", "Hardware accleration", "FPGA", "Hardware", "Library", "Zero Knowlage Proofs", "ZKP"]
 
 [[repo]]
 url = "https://github.com/ingonyama-zk/ingopedia"

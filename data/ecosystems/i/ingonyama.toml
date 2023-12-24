@@ -1,21 +1,19 @@
 # Ecosystem Level Information
 title = "Ingonyama"
 
-sub_ecosystems = [ "ICICLE", "Blaze", "ZK-Containers", "Ingopedia"]
-
 github_organizations = ["https://github.com/ingonyama-zk"]
 
 [[repo]]
 url = "https://github.com/ingonyama-zk/icicle"
-tags = ["Framework", "Infrastrcture", "Hardware accleration", "GPU", "Hardware", "Library", "Zero Knowlage Proofs", "ZKP"]
+tags = ["ICICLE", "Framework", "Infrastrcture", "Hardware accleration", "GPU", "Hardware", "Library", "Zero Knowlage Proofs", "ZKP"]
 
 [[repo]]
 url = "https://github.com/ingonyama-zk/blaze"
-tags = [ "Framework", "Infrastrcture", "Hardware accleration", "FPGA", "Hardware", "Library", "Zero Knowlage Proofs", "ZKP"]
+tags = ["Blaze", "Framework", "Infrastrcture", "Hardware accleration", "FPGA", "Hardware", "Library", "Zero Knowlage Proofs", "ZKP"]
 
 [[repo]]
 url = "https://github.com/ingonyama-zk/ingopedia"
-tags = ["Resources", "Zero Knowlage Proofs", "ZKP"]
+tags = ["Ingopedia", "Resources", "Zero Knowlage Proofs", "ZKP"]
 
 [[repo]]
 url = "https://github.com/ingonyama-zk/papers"
@@ -23,4 +21,4 @@ tags = ["Research", "Zero Knowlage Proofs", "ZKP"]
 
 [[repo]]
 url = "https://github.com/ingonyama-zk/zkdc"
-tags = ["Datacenter", "Infrastrcture", "Devops", "Developer tools", "ZK Datacenter", "Zero Knowlage Proofs", "ZKP"]
+tags = ["ZK Containers", "Datacenter", "Infrastrcture", "Devops", "Developer tools", "ZK Datacenter", "Zero Knowlage Proofs", "ZKP"]

@@ -1,0 +1,31 @@
+# Simple Meme Coin Smart Contract for StarkNet.
+
+# Define the main program.
+def main(inputs, outputs):
+    # Read input values.
+    action = inputs[0]
+    amount = inputs[1]
+    balance = inputs[2]
+    user_balance = inputs[3]
+
+    # Perform action based on input.
+    if action == 0:  # Mint
+        new_balance = balance + amount
+        new_user_balance = user_balance + amount
+    elif action == 1:  # Transfer
+        assert amount <= user_balance  # Ensure sufficient balance for transfer
+        new_balance = balance
+        new_user_balance = user_balance - amount
+    else:
+        # Invalid action
+        assert false
+
+    # Write the new balances to the outputs.
+    outputs[0] = new_balance
+    outputs[1] = new_user_balance
+
+# Define the entry point for the program.
+entry:
+    # Four inputs (action, amount, balance, user_balance)
+    # Two outputs (new_balance, new_user_balance).
+    4 -> main

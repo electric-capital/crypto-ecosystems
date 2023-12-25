@@ -250,6 +250,16 @@ fn export(data_path: String, output_path: String, only_repos: bool) -> Result<()
     Ok(())
 }
 
+fn count_repos(ecosystem_map: &HashMap<String, Ecosystem>) -> usize {
+    let mut count = 0;
+    for ecosystem in ecosystem_map.values() {
+        if let Some(ref repositories) = ecosystem.repo {
+            count += repositories.len();
+        }
+    }
+    count
+}
+
 fn main() -> Result<()> {
     let args = Cli::from_args();
     match args {

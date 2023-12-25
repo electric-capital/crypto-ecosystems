@@ -1,0 +1,38 @@
+# This is a more complex Cairo program that checks if a number is even or odd.
+
+# Define the main program.
+def main(inputs, outputs):
+    # Read input value.
+    num = inputs[0]
+
+    # Initialize a variable to store the result.
+    is_even = 0
+
+    # Check if the number is even.
+    if num % 2 == 0:
+        is_even = 1
+
+    # Write the result to the output.
+    outputs[0] = is_even
+
+# Define the entry point for the program.
+# This specifies the number of inputs and outputs.
+entry:
+    # One input (num) and one output (is_even).
+    1 -> main
+
+# Define the constraints for the main program.
+def main_constraints(inputs, outputs, constraints):
+    # Read input value.
+    num = inputs[0]
+
+    # Read the result from the output.
+    is_even = outputs[0]
+
+    # Enforce the correctness of the conditional statement.
+    enforce is_even = (num % 2 == 0) ? 1 : 0
+
+# Specify the constraints for the main program.
+entry:
+    1 -> main
+    2 -> main_constraints

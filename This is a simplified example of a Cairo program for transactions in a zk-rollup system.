@@ -1,0 +1,75 @@
+1. Input and Output Definition
+cairo
+Copy code
+# Define the main program.
+def main(inputs, outputs):
+    # Read input values.
+    old_balance = inputs[0]
+    transfer_amount = inputs[1]
+    recipient_account = inputs[2]
+
+    # Ensure the transfer amount is non-negative.
+    assert transfer_amount >= 0
+
+    # Compute the new balance for the sender.
+    new_balance_sender = old_balance - transfer_amount
+
+    # Compute the new balance for the recipient.
+    new_balance_recipient = outputs[0]
+
+    # Ensure the recipient's balance is updated correctly.
+    assert new_balance_recipient == old_balance + transfer_amount
+
+    # Update the balances in the outputs.
+    outputs[1] = new_balance_sender
+    outputs[2] = new_balance_recipient
+Input Parameters: The main function takes three inputs: old_balance, transfer_amount, and recipient_account. It also takes three outputs: new_balance_recipient, new_balance_sender, and an unused_output.
+
+Input Validation: It asserts that the transfer_amount is non-negative.
+
+Balance Computation: It computes the new balance for the sender (new_balance_sender) by subtracting the transfer amount from the old balance. It also retrieves the new_balance_recipient from the outputs.
+
+Balance Update Check: It asserts that the new_balance_recipient is equal to the sum of the old balance and the transfer amount.
+
+Output Update: It updates the balances in the outputs.
+
+2. Entry Point Definition
+cairo
+Copy code
+# Define the entry point for the program.
+entry:
+    # Three inputs (old_balance, transfer_amount, recipient_account)
+    # Three outputs (new_balance_recipient, new_balance_sender, unused_output)
+    3 -> main
+Entry Point: The entry section specifies that the entry point is the main function. It indicates that there are three inputs and three outputs for this program.
+3. Constraints Definition
+cairo
+Copy code
+# Define the constraints for the main program.
+def main_constraints(inputs, outputs, constraints):
+    # Read input values.
+    old_balance = inputs[0]
+    transfer_amount = inputs[1]
+    recipient_account = inputs[2]
+
+    # Read output values.
+    new_balance_recipient = outputs[0]
+    new_balance_sender = outputs[1]
+
+    # Enforce the correctness of the transaction.
+    enforce new_balance_recipient == old_balance + transfer_amount
+    enforce new_balance_sender == old_balance - transfer_amount
+Constraint Function: The main_constraints function specifies additional constraints on the inputs and outputs.
+
+Input and Output Retrieval: It retrieves the input and output values.
+
+Transaction Correctness Constraints: It enforces that the new_balance_recipient is equal to the sum of the old balance and the transfer amount, and new_balance_sender is equal to the old balance minus the transfer amount.
+
+4. Constraints Entry
+cairo
+Copy code
+# Specify the constraints for the main program.
+entry:
+    3 -> main
+    2 -> main_constraints
+Constraints Entry Point: It indicates that the entry points for the constraints are the main function and the main_constraints function.

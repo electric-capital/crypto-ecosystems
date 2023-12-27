@@ -1,0 +1,24 @@
+# Recursive Factorial Calculation in Cairo.
+
+# Define the main program.
+def main(inputs, outputs):
+    # Read input value.
+    n = inputs[0]
+
+    # Calculate factorial using the recursive function.
+    result = factorial(n)
+
+    # Write the result to the output.
+    outputs[0] = result
+
+# Define the recursive factorial function.
+def factorial(x):
+    if x == 0 or x == 1:
+        return 1
+    else:
+        return x * factorial(x - 1)
+
+# Define the entry point for the program.
+entry:
+    # One input (n) and one output (result).
+    1 -> main

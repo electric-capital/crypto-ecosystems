@@ -3,6 +3,7 @@ title = "Klaytn"
 
 sub_ecosystems = [
   "1inch",
+  "Belt",
   "Belt Finance",
   "BiFi",
   "Bluewhale Protocol",
@@ -35,11 +36,22 @@ sub_ecosystems = [
   "XY Finance",
 ]
 
-github_organizations = ["https://github.com/klaytn"]
+github_organizations = [
+  "https://github.com/0xSBT",
+  "https://github.com/Gemstudios",
+  "https://github.com/klaytn",
+  "https://github.com/XLetter",
+]
 
 # Repositories
 [[repo]]
-url = "https://github.com/0xSBT"
+url = "https://github.com/0xSBT/0xSBT-contracts"
+
+[[repo]]
+url = "https://github.com/0xSBT/0xSBT-web"
+
+[[repo]]
+url = "https://github.com/0xSBT/Extension"
 
 [[repo]]
 url = "https://github.com/aa-matthew/alphacado-2023"
@@ -60,9 +72,6 @@ url = "https://github.com/bwarelabs/klaytn-indexing"
 url = "https://github.com/CaviesLabs/hamsterpocket-evm-program"
 
 [[repo]]
-url = "https://github.com/chainztech/Kaudex/tree/main/contracts"
-
-[[repo]]
 url = "https://github.com/credorelabs/sc"
 
 [[repo]]
@@ -81,17 +90,33 @@ url = "https://github.com/Dodecane/klaykit"
 url = "https://github.com/Escrow-Board/klay"
 
 [[repo]]
-url = "https://github.com/Gemstudios"
+url = "https://github.com/Gemstudios/About-MITA"
+
+[[repo]]
+url = "https://github.com/Gemstudios/assets"
+
+[[repo]]
+url = "https://github.com/Gemstudios/avatar-api"
+
+[[repo]]
+url = "https://github.com/Gemstudios/foundation"
+
+[[repo]]
+url = "https://github.com/Gemstudios/LoM-website"
+missing = true
+
+[[repo]]
+url = "https://github.com/Gemstudios/passets"
+missing = true
 
 [[repo]]
 url = "https://github.com/han-um/Blot"
 
 [[repo]]
-url = "https://github.com/inevitable-dao/bento"
+url = "https://github.com/hgs-study/Klaytn-API"
 
 [[repo]]
-url = "https://github.com/jwcheon/KlayGift.com"
-missing = true
+url = "https://github.com/inevitable-dao/bento"
 
 [[repo]]
 url = "https://github.com/kamalbuilds/TradewithKlayNFTs"
@@ -419,31 +444,10 @@ url = "https://github.com/KlayWithMe/KlayWithMe"
 url = "https://github.com/linkrypto/klaymaker2023_FE"
 
 [[repo]]
-url = "https://github.com/llamas-laptrinh/Tokenize-real-estate-ratting"
-missing = true
-
-[[repo]]
 url = "https://github.com/nam2ee/HelixProtocol"
 
 [[repo]]
 url = "https://github.com/NFTime24/KlayMakers23"
-
-[[repo]]
-url = "https://github.com/nickmura/receive.me"
-missing = true
-
-[[repo]]
-url = "https://github.com/orgs/Ask-to-Learn-Earn-to-Give"
-missing = true
-
-[[repo]]
-url = "https://github.com/orgs/Ask-to-Learn-Earn-to-Give/repositories"
-
-[[repo]]
-url = "https://github.com/orgs/klaytn-RWA/repositories"
-
-[[repo]]
-url = "https://github.com/orgs/rwa-rise/repositories"
 
 [[repo]]
 url = "https://github.com/Pepe17031/TreasureIsland"
@@ -461,9 +465,6 @@ url = "https://github.com/taijusanagi/soumatou"
 url = "https://github.com/The-Alchemist-Project/TheAlchemist_Project_30_11_2023"
 
 [[repo]]
-url = "https://github.com/Theras-Labs/starex-monorepo-hackathon/tree/klaytn-hackathon"
-
-[[repo]]
 url = "https://github.com/walnutwaldo/D-DALLE"
 
 [[repo]]
@@ -476,7 +477,16 @@ url = "https://github.com/WuBruno/klaytn-hack"
 url = "https://github.com/xdao-app/xdao-contracts"
 
 [[repo]]
-url = "https://github.com/XLetter"
+url = "https://github.com/XLetter/.github"
+
+[[repo]]
+url = "https://github.com/XLetter/XL-Backend"
+
+[[repo]]
+url = "https://github.com/XLetter/XL-Frontend"
+
+[[repo]]
+url = "https://github.com/XLetter/XL-SmartContract"
 
 [[repo]]
 url = "https://github.com/YouJun-IWON/NFT-Card-Game"

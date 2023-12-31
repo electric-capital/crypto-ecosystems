@@ -8,7 +8,6 @@ sub_ecosystems = [
   "Anima Protocol",
   "Balancer",
   "Celer Network cBridge",
-  "ChainMixer",
   "Clave",
   "Connext Network",
   "Deth",
@@ -18,6 +17,7 @@ sub_ecosystems = [
   "ISSUAA",
   "iZUMi.finance",
   "LayerZero",
+  "Nomis Protocol",
   "OpenOcean",
   "Orbiter Finance",
   "PancakeSwap",
@@ -40,7 +40,11 @@ sub_ecosystems = [
 ]
 
 github_organizations = [
+  "https://github.com/beetogether-work",
+  "https://github.com/ethprague23pl",
+  "https://github.com/GuardianUI",
   "https://github.com/matter-labs",
+  "https://github.com/syncswap",
   "https://github.com/uniswap-zksync",
   "https://github.com/Zion-PTC",
   "https://github.com/zkLinkProtocol",
@@ -474,6 +478,9 @@ url = "https://github.com/beetogether-work/contracts"
 
 [[repo]]
 url = "https://github.com/beetogether-work/dapp"
+
+[[repo]]
+url = "https://github.com/beetogether-work/subgraph"
 
 [[repo]]
 url = "https://github.com/beingofexistence/hack"
@@ -1121,6 +1128,21 @@ url = "https://github.com/ernestognw/zksync-uups-vault"
 url = "https://github.com/ethantddavis/sharing-sheets"
 
 [[repo]]
+url = "https://github.com/ethprague23pl/backend"
+
+[[repo]]
+url = "https://github.com/ethprague23pl/contracts"
+
+[[repo]]
+url = "https://github.com/ethprague23pl/front"
+
+[[repo]]
+url = "https://github.com/ethprague23pl/graph_bot"
+
+[[repo]]
+url = "https://github.com/ethprague23pl/the_graph"
+
+[[repo]]
 url = "https://github.com/ethstorage/vitalik.blog"
 
 [[repo]]
@@ -1322,7 +1344,22 @@ url = "https://github.com/grandzero/zerostamp"
 url = "https://github.com/grmkris/peerlocal"
 
 [[repo]]
+url = "https://github.com/GuardianUI/.github"
+
+[[repo]]
+url = "https://github.com/GuardianUI/documentation"
+
+[[repo]]
 url = "https://github.com/GuardianUI/GuardianTest"
+
+[[repo]]
+url = "https://github.com/GuardianUI/guardiantest-tests"
+
+[[repo]]
+url = "https://github.com/GuardianUI/landing-page"
+
+[[repo]]
+url = "https://github.com/GuardianUI/storycheck"
 
 [[repo]]
 url = "https://github.com/guidocazzaniga/zksync-examples"
@@ -2678,6 +2715,9 @@ missing = true
 [[repo]]
 url = "https://github.com/matter-labs/local-setup"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/matter-labs/M1_algebra"
 
 [[repo]]
 url = "https://github.com/matter-labs/matterdb"
@@ -4100,7 +4140,22 @@ url = "https://github.com/SYBIL-MAFIA/zkSync-Paymaster-Deployer"
 url = "https://github.com/syncswap/bancor-converter-registry"
 
 [[repo]]
+url = "https://github.com/syncswap/core"
+
+[[repo]]
 url = "https://github.com/syncswap/core-contracts"
+
+[[repo]]
+url = "https://github.com/syncswap/reports"
+
+[[repo]]
+url = "https://github.com/syncswap/smart-order-router"
+
+[[repo]]
+url = "https://github.com/syncswap/solidity-lib"
+
+[[repo]]
+url = "https://github.com/syncswap/SyncSwap-Testnet-Issue-Tracker"
 
 [[repo]]
 url = "https://github.com/syncswap/test-token-contract"
@@ -4115,7 +4170,19 @@ url = "https://github.com/syncswap/testnet-faucet"
 url = "https://github.com/syncswap/testnet-faucet-kit"
 
 [[repo]]
+url = "https://github.com/syncswap/testnet-token-icons"
+
+[[repo]]
+url = "https://github.com/syncswap/token-icons"
+
+[[repo]]
+url = "https://github.com/syncswap/v2-subgraph"
+
+[[repo]]
 url = "https://github.com/syncswap/weth"
+
+[[repo]]
+url = "https://github.com/syncswap/zksolc-bin"
 
 [[repo]]
 url = "https://github.com/syncswap/zksync-weth9"
@@ -4318,6 +4385,33 @@ url = "https://github.com/UniDex-Finance/pool-page-v2"
 
 [[repo]]
 url = "https://github.com/unifralabs/solidity-now"
+
+[[repo]]
+url = "https://github.com/uniswap-zksync/era-openzeppelin-contracts"
+
+[[repo]]
+url = "https://github.com/uniswap-zksync/era-permit2"
+
+[[repo]]
+url = "https://github.com/uniswap-zksync/era-uniswap-deploy-v3"
+
+[[repo]]
+url = "https://github.com/uniswap-zksync/era-uniswap-swap-router-contracts"
+
+[[repo]]
+url = "https://github.com/uniswap-zksync/era-uniswap-v2-core"
+
+[[repo]]
+url = "https://github.com/uniswap-zksync/era-uniswap-v3-core"
+
+[[repo]]
+url = "https://github.com/uniswap-zksync/era-uniswap-v3-periphery"
+
+[[repo]]
+url = "https://github.com/uniswap-zksync/era-uniswap-v3-staker"
+
+[[repo]]
+url = "https://github.com/uniswap-zksync/era-universal-router"
 
 [[repo]]
 url = "https://github.com/UnitapApp/funds-manager"
@@ -4775,6 +4869,9 @@ missing = true
 url = "https://github.com/zkLinkProtocol/zklink-js-sdk"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-oracle"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-starknet-contract-test"
 
 [[repo]]
@@ -4791,6 +4888,7 @@ url = "https://github.com/zkLinkProtocol/zklink-static"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-whitepaper"
+missing = true
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-wihitepaper"

@@ -1,11 +1,17 @@
 # Ecosystem Level Information
 title = "Ultra"
 
-sub_ecosystems = []
+sub_ecosystems = ["pNetwork"]
 
 github_organizations = ["https://github.com/ultraio"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/edenia/ultra-dex"
+
+[[repo]]
+url = "https://github.com/edenia/ultra-faucet"
+
 [[repo]]
 url = "https://github.com/ultraio/action-gh-release"
 
@@ -49,7 +55,13 @@ url = "https://github.com/ultraio/eosjs"
 url = "https://github.com/ultraio/eosws-go"
 
 [[repo]]
+url = "https://github.com/ultraio/example-first-hand-purchase"
+
+[[repo]]
 url = "https://github.com/ultraio/firehose"
+
+[[repo]]
+url = "https://github.com/ultraio/firehose-antelope"
 
 [[repo]]
 url = "https://github.com/ultraio/gitlab-ci-validate"
@@ -77,6 +89,9 @@ url = "https://github.com/ultraio/OnlineSubsystemUltra"
 
 [[repo]]
 url = "https://github.com/ultraio/staking-smart-contract"
+
+[[repo]]
+url = "https://github.com/ultraio/streamingfast-pbgo"
 
 [[repo]]
 url = "https://github.com/ultraio/trigger-workflow-and-wait"

@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "CertiK"
 
-sub_ecosystems = []
+sub_ecosystems = ["MyWish"]
 
 github_organizations = ["https://github.com/certikfoundation", "https://github.com/CertiKProject"]
 
@@ -47,12 +47,16 @@ url = "https://github.com/CertiKProject/ocaml-solidity"
 
 [[repo]]
 url = "https://github.com/CertiKProject/QuoteTools"
+missing = true
 
 [[repo]]
 url = "https://github.com/CertiKProject/shentu"
 
 [[repo]]
 url = "https://github.com/CertiKProject/slither-certik"
+
+[[repo]]
+url = "https://github.com/CertiKProject/slither-internal"
 
 [[repo]]
 url = "https://github.com/CertiKProject/smartbugs-certik"
@@ -65,6 +69,7 @@ url = "https://github.com/CertiKProject/solc-select"
 
 [[repo]]
 url = "https://github.com/CertiKProject/SVS"
+missing = true
 
 [[repo]]
 url = "https://github.com/CertiKProject/SWC-registry"

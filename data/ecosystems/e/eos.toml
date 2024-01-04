@@ -9,8 +9,10 @@ sub_ecosystems = [
   "BOSCore",
   "CryptoMechanics",
   "DAO.Casino",
+  "DefiBox",
   "Defis Network",
   "dfuse.io",
+  "Edge",
   "EOS Knights",
   "EOS Nation",
   "EOS Titan",
@@ -20,14 +22,18 @@ sub_ecosystems = [
   "FeeSimple",
   "Iryo Network",
   "MEET.ONE",
+  "MyWish",
+  "pNetwork",
   "Scatter",
   "SuperONE",
   "Telos",
   "TokenPocket",
+  "Transit Finance",
   "UX Network",
   "WAX",
   "Worbli",
   "Worldwide Asset eXchange",
+  "Yield+ on EOS",
 ]
 
 github_organizations = [
@@ -243,9 +249,11 @@ url = "https://github.com/cypherglassdotcom/windshield"
 
 [[repo]]
 url = "https://github.com/DeBankDeFi/fairdicegame"
+missing = true
 
 [[repo]]
 url = "https://github.com/DeBankDeFi/signupeoseos"
+missing = true
 
 [[repo]]
 url = "https://github.com/DEXEOS/dexeos-api-public"
@@ -809,6 +817,7 @@ url = "https://github.com/eosgameboy/eosgameboy"
 
 [[repo]]
 url = "https://github.com/eoshackathon/eos_dapp_development_cn"
+missing = true
 
 [[repo]]
 url = "https://github.com/eosheadline/eosheadline"
@@ -830,12 +839,14 @@ url = "https://github.com/EOSIO/appbase"
 
 [[repo]]
 url = "https://github.com/EOSIO/auto-mike-test"
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/auto-request-generator"
 
 [[repo]]
 url = "https://github.com/EOSIO/auto-static-react-app"
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/berkeley-softfloat-3"
@@ -845,9 +856,11 @@ url = "https://github.com/EOSIO/binaryen"
 
 [[repo]]
 url = "https://github.com/EOSIO/bitbar-ssa-client"
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/boost_172_min"
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/buildpipe-buildkite-plugin"
@@ -872,6 +885,7 @@ url = "https://github.com/EOSIO/cpython"
 
 [[repo]]
 url = "https://github.com/EOSIO/csurf"
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/demux-cli"
@@ -917,6 +931,7 @@ url = "https://github.com/EOSIO/eos-vm-test-wasms"
 [[repo]]
 url = "https://github.com/EOSIO/eos-wallet-app"
 tags = ["Wallet"]
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/eosio-android-keystore-signature-provider"
@@ -1055,6 +1070,7 @@ url = "https://github.com/EOSIO/eosjs-signature-provider-interface"
 
 [[repo]]
 url = "https://github.com/EOSIO/eosjs-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/eosjs-window-message-signature-provider-interface"
@@ -1067,9 +1083,11 @@ url = "https://github.com/EOSIO/fc"
 
 [[repo]]
 url = "https://github.com/EOSIO/fill-postgresql"
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/genesis"
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/hackathon-howto-guide"
@@ -1182,6 +1200,7 @@ url = "https://github.com/EOSIO/terraform-buildkite"
 
 [[repo]]
 url = "https://github.com/EOSIO/terraform-buildkite-old"
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/test-state-history"
@@ -1228,12 +1247,15 @@ url = "https://github.com/EOSIO/universal-authenticator-library"
 
 [[repo]]
 url = "https://github.com/EOSIO/util-docs-cpp"
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/util-docs-theme"
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/util-docs-ts"
+missing = true
 
 [[repo]]
 url = "https://github.com/EOSIO/vt-blockchain-bootcamp-starter"
@@ -1266,7 +1288,20 @@ url = "https://github.com/EOSLaoMao/eos-local-voter"
 url = "https://github.com/eosmedi/EOS-Voter-Tracker"
 
 [[repo]]
+url = "https://github.com/eosnetworkfoundation/.github"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/aws-cloudwatch-alarm-handler"
+
+[[repo]]
 url = "https://github.com/eosnetworkfoundation/blockscout"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/blockscout-frontend"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/bn256"
+missing = true
 
 [[repo]]
 url = "https://github.com/eosnetworkfoundation/cdt-clang"
@@ -1284,7 +1319,25 @@ url = "https://github.com/eosnetworkfoundation/cdt-llvm"
 url = "https://github.com/eosnetworkfoundation/cdt-musl"
 
 [[repo]]
+url = "https://github.com/eosnetworkfoundation/ci-fleet-tooling"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/Coalition"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/Coalition-RFPs"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/components"
+
+[[repo]]
 url = "https://github.com/eosnetworkfoundation/devhub"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/devhub-preregistration"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/devrel"
 
 [[repo]]
 url = "https://github.com/eosnetworkfoundation/docs"
@@ -1293,19 +1346,71 @@ url = "https://github.com/eosnetworkfoundation/docs"
 url = "https://github.com/eosnetworkfoundation/docs-ui"
 
 [[repo]]
+url = "https://github.com/eosnetworkfoundation/docsgen"
+
+[[repo]]
 url = "https://github.com/eosnetworkfoundation/DUNE"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/ENF-Health-Reports"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/enf-poap-service"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/enf-poap-service-contracts"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/enf-project-ideas"
 
 [[repo]]
 url = "https://github.com/eosnetworkfoundation/enf-vue-wharf-render"
 
 [[repo]]
+url = "https://github.com/eosnetworkfoundation/engineering"
+
+[[repo]]
 url = "https://github.com/eosnetworkfoundation/eos-evm"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/eos-evm-callback"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/eos-evm-contract"
 
 [[repo]]
 url = "https://github.com/eosnetworkfoundation/eos-evm-miner"
 
 [[repo]]
 url = "https://github.com/eosnetworkfoundation/eos-evm-node"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/eos-evm-ws-proxy"
+missing = true
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/eos-system-contracts"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/eosio-plus"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/eosio.faucet"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/eosio.saving"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/eosio.time"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/eosio.yield-contracts"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/eosio.yield-docs"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/eosio.yield-substreams"
 
 [[repo]]
 url = "https://github.com/eosnetworkfoundation/ethash"
@@ -1317,7 +1422,36 @@ url = "https://github.com/eosnetworkfoundation/evm-bridge-contracts"
 url = "https://github.com/eosnetworkfoundation/evm-bridge-frontend"
 
 [[repo]]
+url = "https://github.com/eosnetworkfoundation/evm-public-docs"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/evm.faucet"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/evm.faucet-api"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/evm_runtime"
+missing = true
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/evmdocs"
+missing = true
+
+[[repo]]
 url = "https://github.com/eosnetworkfoundation/evmone"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/frontend-engineering"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/grant-framework"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/grant-milestones"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/internationalization"
 
 [[repo]]
 url = "https://github.com/eosnetworkfoundation/intx"
@@ -1330,9 +1464,34 @@ url = "https://github.com/eosnetworkfoundation/libff"
 
 [[repo]]
 url = "https://github.com/eosnetworkfoundation/libmdbx"
+missing = true
 
 [[repo]]
 url = "https://github.com/eosnetworkfoundation/libtommath"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/mandel"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/mandel-abieos"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/mandel-appbase"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/mandel-berkeley-softfloat-3"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/mandel-chainbase"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/mandel-eos-vm"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/mandel-eosjs"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/mandel-fc"
 
 [[repo]]
 url = "https://github.com/eosnetworkfoundation/mandel-java"
@@ -1341,10 +1500,34 @@ url = "https://github.com/eosnetworkfoundation/mandel-java"
 url = "https://github.com/eosnetworkfoundation/mandel-swift"
 
 [[repo]]
+url = "https://github.com/eosnetworkfoundation/mandel-swift-vault"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/mandel-wabt"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/mandel-wasm-spec-tests"
+
+[[repo]]
 url = "https://github.com/eosnetworkfoundation/mandel.cdt"
 
 [[repo]]
+url = "https://github.com/eosnetworkfoundation/product"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/replay-test"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/silkpre"
+
+[[repo]]
 url = "https://github.com/eosnetworkfoundation/silkworm"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/telegram-bot"
+
+[[repo]]
+url = "https://github.com/eosnetworkfoundation/TrustEVM"
 
 [[repo]]
 url = "https://github.com/eosnetworkfoundation/web-ide-api"
@@ -1438,6 +1621,7 @@ url = "https://github.com/eosnewyork/worbli-testnet"
 
 [[repo]]
 url = "https://github.com/EOSpace/eos-sync"
+missing = true
 
 [[repo]]
 url = "https://github.com/eosrio/API-Benchmark-Suite"
@@ -1513,6 +1697,7 @@ url = "https://github.com/eosrio/grant-framework"
 
 [[repo]]
 url = "https://github.com/eosrio/hyperion"
+missing = true
 
 [[repo]]
 url = "https://github.com/eosrio/hyperion-auto-setup"
@@ -1585,6 +1770,7 @@ url = "https://github.com/eosrio/simpleos-connect"
 
 [[repo]]
 url = "https://github.com/eosrio/telos-eosio.contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/eosrio/ultra-faucet"
@@ -1597,6 +1783,7 @@ url = "https://github.com/eosrio/waxguilds"
 
 [[repo]]
 url = "https://github.com/eosrio/worbli"
+missing = true
 
 [[repo]]
 url = "https://github.com/eosrio/zeus-microservices"
@@ -2000,6 +2187,9 @@ url = "https://github.com/hypha-dao/daoctl"
 url = "https://github.com/hypha-dao/dgraph-backup-script"
 
 [[repo]]
+url = "https://github.com/hypha-dao/dgraph-go-client"
+
+[[repo]]
 url = "https://github.com/hypha-dao/dho-public-testing"
 
 [[repo]]
@@ -2053,6 +2243,7 @@ url = "https://github.com/hypha-dao/hypha-document-cache-go"
 
 [[repo]]
 url = "https://github.com/hypha-dao/hypha-document-cache-gql-go"
+missing = true
 
 [[repo]]
 url = "https://github.com/hypha-dao/hypha-smart-contracts"
@@ -2278,6 +2469,12 @@ url = "https://github.com/unicoeos/eosio.nft"
 url = "https://github.com/vikxx/eos1bot"
 
 [[repo]]
+url = "https://github.com/Volentix/vdexnode"
+
+[[repo]]
+url = "https://github.com/wanchain/wanchain-crosschain-contracts"
+
+[[repo]]
 url = "https://github.com/wangweiX/eosram-trading-robot"
 
 [[repo]]
@@ -2288,6 +2485,21 @@ url = "https://github.com/wharfkit/abicache"
 
 [[repo]]
 url = "https://github.com/wharfkit/account"
+
+[[repo]]
+url = "https://github.com/wharfkit/account-creation-plugin"
+
+[[repo]]
+url = "https://github.com/wharfkit/account-creation-plugin-anchor"
+
+[[repo]]
+url = "https://github.com/wharfkit/account-creation-plugin-greymass"
+
+[[repo]]
+url = "https://github.com/wharfkit/account-creation-plugin-jungle4"
+
+[[repo]]
+url = "https://github.com/wharfkit/account-creation-plugin-template"
 
 [[repo]]
 url = "https://github.com/wharfkit/antelope"
@@ -2359,6 +2571,12 @@ url = "https://github.com/wharfkit/login-plugin-template"
 url = "https://github.com/wharfkit/mock-data"
 
 [[repo]]
+url = "https://github.com/wharfkit/protocol-esr"
+
+[[repo]]
+url = "https://github.com/wharfkit/protocol-scatter"
+
+[[repo]]
 url = "https://github.com/wharfkit/resources"
 
 [[repo]]
@@ -2366,6 +2584,12 @@ url = "https://github.com/wharfkit/roborovski"
 
 [[repo]]
 url = "https://github.com/wharfkit/session"
+
+[[repo]]
+url = "https://github.com/wharfkit/signing-request"
+
+[[repo]]
+url = "https://github.com/wharfkit/starter"
 
 [[repo]]
 url = "https://github.com/wharfkit/token"

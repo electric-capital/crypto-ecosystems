@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Sei Network"
 
-sub_ecosystems = []
+sub_ecosystems = ["Wormhole"]
 
 github_organizations = ["https://github.com/sei-protocol"]
 
@@ -13,7 +13,14 @@ url = "https://github.com/Desig-Labs/supported-chains"
 url = "https://github.com/sei-protocol/chain-registry"
 
 [[repo]]
+url = "https://github.com/sei-protocol/cosmos-multisig-ui"
+
+[[repo]]
 url = "https://github.com/sei-protocol/dex-indexer"
+missing = true
+
+[[repo]]
+url = "https://github.com/sei-protocol/fuzio-sei-multisig-ui"
 
 [[repo]]
 url = "https://github.com/sei-protocol/go-ethereum"

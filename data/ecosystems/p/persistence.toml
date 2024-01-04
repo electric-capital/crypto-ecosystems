@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Persistence"
 
-sub_ecosystems = []
+sub_ecosystems = ["Injective"]
 
 github_organizations = ["https://github.com/persistenceOne"]
 
@@ -11,9 +11,11 @@ url = "https://github.com/persistenceOne/assetlists"
 
 [[repo]]
 url = "https://github.com/persistenceOne/assetMantle"
+missing = true
 
 [[repo]]
 url = "https://github.com/persistenceOne/assetMantle-webApplication"
+missing = true
 
 [[repo]]
 url = "https://github.com/persistenceOne/assets"
@@ -38,6 +40,7 @@ url = "https://github.com/persistenceOne/cometbft"
 
 [[repo]]
 url = "https://github.com/persistenceOne/cosmjs"
+missing = true
 
 [[repo]]
 url = "https://github.com/persistenceOne/cosmos-sdk"
@@ -79,6 +82,9 @@ url = "https://github.com/persistenceOne/ibc-apps"
 url = "https://github.com/persistenceOne/ibc-go"
 
 [[repo]]
+url = "https://github.com/persistenceOne/ica-liquid-staking"
+
+[[repo]]
 url = "https://github.com/persistenceOne/incident-reports"
 
 [[repo]]
@@ -95,6 +101,7 @@ url = "https://github.com/persistenceOne/ledger-amino"
 
 [[repo]]
 url = "https://github.com/persistenceOne/ledger-cosmos"
+missing = true
 
 [[repo]]
 url = "https://github.com/persistenceOne/ledger-persistence"
@@ -122,6 +129,7 @@ url = "https://github.com/persistenceOne/oracle-feeder"
 
 [[repo]]
 url = "https://github.com/persistenceOne/packet-forward-middleware"
+missing = true
 
 [[repo]]
 url = "https://github.com/persistenceOne/persistence-docs"
@@ -167,9 +175,13 @@ url = "https://github.com/persistenceOne/pStake-bugBounty"
 
 [[repo]]
 url = "https://github.com/persistenceOne/pStake-component-library"
+missing = true
 
 [[repo]]
 url = "https://github.com/persistenceOne/pstake-native"
+
+[[repo]]
+url = "https://github.com/persistenceOne/pstake-rewards-swapper"
 
 [[repo]]
 url = "https://github.com/persistenceOne/pStake-smartContracts"
@@ -178,10 +190,17 @@ url = "https://github.com/persistenceOne/pStake-smartContracts"
 url = "https://github.com/persistenceOne/pStake-token-contract"
 
 [[repo]]
+url = "https://github.com/persistenceOne/pstake-ui-components"
+
+[[repo]]
+url = "https://github.com/persistenceOne/pstake-validator-selection"
+
+[[repo]]
 url = "https://github.com/persistenceOne/pStake-webapp-LandingPage"
 
 [[repo]]
 url = "https://github.com/persistenceOne/refundCoins"
+missing = true
 
 [[repo]]
 url = "https://github.com/persistenceOne/relayer"
@@ -194,6 +213,7 @@ url = "https://github.com/persistenceOne/starship"
 
 [[repo]]
 url = "https://github.com/persistenceOne/stkATOM_ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/persistenceOne/stkBNB-contracts"
@@ -209,6 +229,9 @@ url = "https://github.com/persistenceOne/tendermint"
 
 [[repo]]
 url = "https://github.com/persistenceOne/test-tube"
+
+[[repo]]
+url = "https://github.com/persistenceOne/v4-chain"
 
 [[repo]]
 url = "https://github.com/persistenceOne/wasmd"

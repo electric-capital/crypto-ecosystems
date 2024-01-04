@@ -1,11 +1,14 @@
 # Ecosystem Level Information
 title = "LayerZero"
 
-sub_ecosystems = ["OmniX"]
+sub_ecosystems = ["Nomis Protocol", "OmniX"]
 
 github_organizations = ["https://github.com/LayerZero-Labs"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/LayerZero-Labs/.github"
+
 [[repo]]
 url = "https://github.com/LayerZero-Labs/aptos-core"
 
@@ -22,10 +25,16 @@ url = "https://github.com/LayerZero-Labs/boilerplate"
 url = "https://github.com/LayerZero-Labs/btc-b"
 
 [[repo]]
+url = "https://github.com/LayerZero-Labs/changesets"
+
+[[repo]]
 url = "https://github.com/LayerZero-Labs/dapp-radar-library"
 
 [[repo]]
 url = "https://github.com/LayerZero-Labs/ethers.js"
+
+[[repo]]
+url = "https://github.com/LayerZero-Labs/hardhat-deploy"
 
 [[repo]]
 url = "https://github.com/LayerZero-Labs/hippospace-aptos-wallet-adapter"
@@ -37,7 +46,16 @@ url = "https://github.com/LayerZero-Labs/LayerZero"
 url = "https://github.com/LayerZero-Labs/LayerZero-Aptos-Contract"
 
 [[repo]]
+url = "https://github.com/LayerZero-Labs/LayerZero-v2"
+
+[[repo]]
+url = "https://github.com/LayerZero-Labs/license"
+
+[[repo]]
 url = "https://github.com/LayerZero-Labs/lil-pudgy-onft"
+
+[[repo]]
+url = "https://github.com/LayerZero-Labs/locking-cache"
 
 [[repo]]
 url = "https://github.com/LayerZero-Labs/logos"
@@ -77,9 +95,11 @@ url = "https://github.com/LayerZero-Labs/request-oft-demo"
 
 [[repo]]
 url = "https://github.com/LayerZero-Labs/safe-react"
+missing = true
 
 [[repo]]
 url = "https://github.com/LayerZero-Labs/safe-transaction-service"
+missing = true
 
 [[repo]]
 url = "https://github.com/LayerZero-Labs/sdk"
@@ -91,16 +111,23 @@ url = "https://github.com/LayerZero-Labs/set-trusted-remotes"
 url = "https://github.com/LayerZero-Labs/snapshot-strategies"
 
 [[repo]]
+url = "https://github.com/LayerZero-Labs/solidity-bytes-utils"
+
+[[repo]]
 url = "https://github.com/LayerZero-Labs/solidity-examples"
 
 [[repo]]
 url = "https://github.com/LayerZero-Labs/solidity-stringutils"
 
 [[repo]]
+url = "https://github.com/LayerZero-Labs/TypeChain"
+
+[[repo]]
 url = "https://github.com/LayerZero-Labs/ua-utils"
 
 [[repo]]
 url = "https://github.com/LayerZero-Labs/walletconnect-monorepo"
+missing = true
 
 [[repo]]
 url = "https://github.com/LayerZero-Labs/walletconnect-utils"

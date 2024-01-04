@@ -8,6 +8,7 @@ github_organizations = ["https://github.com/nansen-ai"]
 # Repositories
 [[repo]]
 url = "https://github.com/nansen-ai/abi-parser"
+missing = true
 
 [[repo]]
 url = "https://github.com/nansen-ai/action-pagerduty-alert"
@@ -28,10 +29,14 @@ url = "https://github.com/nansen-ai/dbt-clickhouse"
 url = "https://github.com/nansen-ai/evmchain-etl-table-definitions"
 
 [[repo]]
+url = "https://github.com/nansen-ai/gce-github-runner"
+
+[[repo]]
 url = "https://github.com/nansen-ai/metabase"
 
 [[repo]]
 url = "https://github.com/nansen-ai/nansen-endpoints-datasync"
+missing = true
 
 [[repo]]
 url = "https://github.com/nansen-ai/nansen-gh-actions-public"

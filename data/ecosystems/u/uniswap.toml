@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Uniswap"
 
-sub_ecosystems = ["Gamma Strategies"]
+sub_ecosystems = ["Gamma Strategies", "Materia Dex"]
 
 github_organizations = ["https://github.com/Uniswap"]
 
@@ -50,6 +50,7 @@ url = "https://github.com/daoleno/uniswapv3-sdk"
 
 [[repo]]
 url = "https://github.com/dapped/multiswap"
+missing = true
 
 [[repo]]
 url = "https://github.com/derekbar90/docker-uniswap"
@@ -65,12 +66,14 @@ url = "https://github.com/fengluo/uniswap-white-paper"
 
 [[repo]]
 url = "https://github.com/GammaStrategies/active-strategy-framework"
+missing = true
 
 [[repo]]
 url = "https://github.com/kanthgithub/UniSwapper"
 
 [[repo]]
 url = "https://github.com/kd9s0/sturgeon-rebalancer-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/keep-network/uniswap-tbtc-exchange-scripts"
@@ -131,6 +134,7 @@ url = "https://github.com/tradingstrategy-ai/trading-strategy"
 
 [[repo]]
 url = "https://github.com/truffle-box/defi-box"
+missing = true
 
 [[repo]]
 url = "https://github.com/uniswap-python/uniswap-python"
@@ -158,6 +162,7 @@ url = "https://github.com/Uniswap/awesome-uniswap"
 
 [[repo]]
 url = "https://github.com/Uniswap/blog"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/cloudflare-update-web3-gateway"
@@ -211,6 +216,9 @@ url = "https://github.com/Uniswap/fast-abi"
 url = "https://github.com/Uniswap/fx-comparison-study"
 
 [[repo]]
+url = "https://github.com/Uniswap/github-tag-action"
+
+[[repo]]
 url = "https://github.com/Uniswap/governance"
 
 [[repo]]
@@ -224,9 +232,11 @@ url = "https://github.com/Uniswap/info"
 
 [[repo]]
 url = "https://github.com/Uniswap/info-redirects"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/interface"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/Uniswap/interface-apr-2023-fork"
@@ -239,6 +249,7 @@ url = "https://github.com/Uniswap/interface-redirects"
 
 [[repo]]
 url = "https://github.com/Uniswap/ipfs-pinata-deploy-action"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/jest-environment-hardhat"
@@ -248,6 +259,9 @@ url = "https://github.com/Uniswap/liquidity-staker"
 
 [[repo]]
 url = "https://github.com/Uniswap/lp-action-contracts"
+
+[[repo]]
+url = "https://github.com/Uniswap/marketdepth-v3"
 
 [[repo]]
 url = "https://github.com/Uniswap/mask-app"
@@ -269,12 +283,14 @@ url = "https://github.com/Uniswap/old-solidity-contracts"
 
 [[repo]]
 url = "https://github.com/Uniswap/org"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/org-v1"
 
 [[repo]]
 url = "https://github.com/Uniswap/org-v2"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/permit2"
@@ -350,9 +366,11 @@ url = "https://github.com/Uniswap/tokenlists-org"
 
 [[repo]]
 url = "https://github.com/Uniswap/transfersharp"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/uni-registry"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/unified-routing-api"
@@ -374,15 +392,19 @@ url = "https://github.com/Uniswap/uniswap-first-contract-example"
 
 [[repo]]
 url = "https://github.com/Uniswap/uniswap-generalized"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/uniswap-io"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/uniswap-pink"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/uniswap-sdk-docs"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/UniswapX"
@@ -404,6 +426,7 @@ url = "https://github.com/Uniswap/universal-router-sdk"
 
 [[repo]]
 url = "https://github.com/Uniswap/universe"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/v1-contracts"
@@ -454,6 +477,9 @@ url = "https://github.com/Uniswap/v3-periphery"
 url = "https://github.com/Uniswap/v3-periphery-optimism"
 
 [[repo]]
+url = "https://github.com/Uniswap/v3-polars"
+
+[[repo]]
 url = "https://github.com/Uniswap/v3-sdk"
 
 [[repo]]
@@ -463,10 +489,16 @@ url = "https://github.com/Uniswap/v3-staker"
 url = "https://github.com/Uniswap/v3-subgraph"
 
 [[repo]]
+url = "https://github.com/Uniswap/v3-view-quoter"
+
+[[repo]]
 url = "https://github.com/Uniswap/v4-core"
 
 [[repo]]
 url = "https://github.com/Uniswap/v4-periphery"
+
+[[repo]]
+url = "https://github.com/Uniswap/view-quoter-v3"
 
 [[repo]]
 url = "https://github.com/Uniswap/wallet"
@@ -476,6 +508,7 @@ url = "https://github.com/Uniswap/web3-react"
 
 [[repo]]
 url = "https://github.com/Uniswap/widget"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uniswap/widgets"

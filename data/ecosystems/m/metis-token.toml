@@ -1,7 +1,20 @@
 # Ecosystem Level Information
 title = "Metis Token"
 
-sub_ecosystems = ["Furucombo", "Standard Protocol"]
+sub_ecosystems = [
+  "Aave",
+  "Celer Network cBridge",
+  "Furucombo",
+  "LayerZero",
+  "Orbiter Finance",
+  "Radom Network",
+  "Redstone Finance",
+  "Revoke.cash",
+  "Standard Protocol",
+  "Stargate",
+  "Sushi Swap",
+  "Witnet",
+]
 
 github_organizations = ["https://github.com/MetisProtocol"]
 
@@ -58,6 +71,9 @@ url = "https://github.com/MetisProtocol/metis-bridge-resources"
 url = "https://github.com/MetisProtocol/metis-contract-template"
 
 [[repo]]
+url = "https://github.com/MetisProtocol/metis-hardhat-template"
+
+[[repo]]
 url = "https://github.com/MetisProtocol/Metis-Mining"
 
 [[repo]]
@@ -65,6 +81,24 @@ url = "https://github.com/MetisProtocol/Metis-MVP"
 
 [[repo]]
 url = "https://github.com/MetisProtocol/metis-mvp-prologue"
+
+[[repo]]
+url = "https://github.com/MetisProtocol/metis-networks"
+
+[[repo]]
+url = "https://github.com/MetisProtocol/metis-replica-node"
+
+[[repo]]
+url = "https://github.com/MetisProtocol/metis-standard-bridge-token"
+
+[[repo]]
+url = "https://github.com/MetisProtocol/metis-subgraph-example"
+
+[[repo]]
+url = "https://github.com/MetisProtocol/metis-testnet-token"
+
+[[repo]]
+url = "https://github.com/MetisProtocol/metis-verifier-node"
 
 [[repo]]
 url = "https://github.com/MetisProtocol/minio-js"

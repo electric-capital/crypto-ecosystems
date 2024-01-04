@@ -1,11 +1,23 @@
 # Ecosystem Level Information
 title = "Celestia"
 
-sub_ecosystems = ["Astria", "Modular Cloud", "Rollkit"]
+sub_ecosystems = [
+  "Astria",
+  "dymensionxyz",
+  "Eclipse",
+  "Injective",
+  "Modular Cloud",
+  "Rollkit",
+  "Sovereign Labs",
+]
 
-github_organizations = ["https://github.com/celestiaorg"]
+github_organizations = ["https://github.com/celestiaorg", "https://github.com/modularcloud"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/CelestiaFork/celestia"
+missing = true
+
 [[repo]]
 url = "https://github.com/celestiaorg/.github"
 
@@ -16,7 +28,13 @@ url = "https://github.com/celestiaorg/arbitrum"
 url = "https://github.com/celestiaorg/Astria"
 
 [[repo]]
+url = "https://github.com/celestiaorg/autoscale-proxy"
+
+[[repo]]
 url = "https://github.com/celestiaorg/awesome-celestia"
+
+[[repo]]
+url = "https://github.com/celestiaorg/badger"
 
 [[repo]]
 url = "https://github.com/celestiaorg/bdjuno"
@@ -28,7 +46,13 @@ url = "https://github.com/celestiaorg/big-dipper-2.0-cosmos"
 url = "https://github.com/celestiaorg/big-dipper-assets"
 
 [[repo]]
+url = "https://github.com/celestiaorg/bittwister"
+
+[[repo]]
 url = "https://github.com/celestiaorg/blobstream-contracts"
+
+[[repo]]
+url = "https://github.com/celestiaorg/blobstream-demo"
 
 [[repo]]
 url = "https://github.com/celestiaorg/cdk-validium-contracts"
@@ -62,10 +86,14 @@ url = "https://github.com/celestiaorg/celestia-node"
 url = "https://github.com/celestiaorg/celestia-node-client-rs"
 
 [[repo]]
+url = "https://github.com/celestiaorg/celestia-openrpc"
+
+[[repo]]
 url = "https://github.com/celestiaorg/celestia-specs"
 
 [[repo]]
 url = "https://github.com/celestiaorg/celestia-sre"
+missing = true
 
 [[repo]]
 url = "https://github.com/celestiaorg/celestia.org"
@@ -101,10 +129,16 @@ url = "https://github.com/celestiaorg/cosmos-sdk-rollmint"
 url = "https://github.com/celestiaorg/da-client-rs"
 
 [[repo]]
+url = "https://github.com/celestiaorg/da-tracker"
+
+[[repo]]
 url = "https://github.com/celestiaorg/dagstore"
 
 [[repo]]
 url = "https://github.com/celestiaorg/dalc"
+
+[[repo]]
+url = "https://github.com/celestiaorg/data-availability-wg"
 
 [[repo]]
 url = "https://github.com/celestiaorg/devops"
@@ -126,6 +160,7 @@ url = "https://github.com/celestiaorg/docs-vitepress"
 
 [[repo]]
 url = "https://github.com/celestiaorg/docs.celestia.org"
+missing = true
 
 [[repo]]
 url = "https://github.com/celestiaorg/ephemeral-cluster"
@@ -153,6 +188,7 @@ url = "https://github.com/celestiaorg/explorer"
 
 [[repo]]
 url = "https://github.com/celestiaorg/gatsby-plugin-plausible"
+missing = true
 
 [[repo]]
 url = "https://github.com/celestiaorg/go-car"
@@ -186,12 +222,19 @@ url = "https://github.com/celestiaorg/go-libp2p-pubsub"
 
 [[repo]]
 url = "https://github.com/celestiaorg/go-multihash"
+missing = true
+
+[[repo]]
+url = "https://github.com/celestiaorg/go-square"
 
 [[repo]]
 url = "https://github.com/celestiaorg/go-verifcid"
 
 [[repo]]
 url = "https://github.com/celestiaorg/goodstore"
+
+[[repo]]
+url = "https://github.com/celestiaorg/goping"
 
 [[repo]]
 url = "https://github.com/celestiaorg/headebug"
@@ -213,6 +256,7 @@ url = "https://github.com/celestiaorg/insync"
 
 [[repo]]
 url = "https://github.com/celestiaorg/interchaintest"
+missing = true
 
 [[repo]]
 url = "https://github.com/celestiaorg/ipld-plugin-experiments"
@@ -260,7 +304,13 @@ url = "https://github.com/celestiaorg/multisig-test"
 url = "https://github.com/celestiaorg/networks"
 
 [[repo]]
+url = "https://github.com/celestiaorg/networks-temp"
+
+[[repo]]
 url = "https://github.com/celestiaorg/nitro"
+
+[[repo]]
+url = "https://github.com/celestiaorg/nitro-contracts"
 
 [[repo]]
 url = "https://github.com/celestiaorg/nitro-testnode"
@@ -308,6 +358,9 @@ url = "https://github.com/celestiaorg/smt"
 url = "https://github.com/celestiaorg/spec"
 
 [[repo]]
+url = "https://github.com/celestiaorg/supply"
+
+[[repo]]
 url = "https://github.com/celestiaorg/sync-service"
 
 [[repo]]
@@ -318,6 +371,7 @@ url = "https://github.com/celestiaorg/terraform-module-scw-k8s"
 
 [[repo]]
 url = "https://github.com/celestiaorg/test-docker-images"
+missing = true
 
 [[repo]]
 url = "https://github.com/celestiaorg/test-infra"
@@ -341,6 +395,9 @@ url = "https://github.com/celestiaorg/tools"
 url = "https://github.com/celestiaorg/torch"
 
 [[repo]]
+url = "https://github.com/celestiaorg/upgrade-monitor"
+
+[[repo]]
 url = "https://github.com/celestiaorg/utils"
 
 [[repo]]
@@ -350,16 +407,40 @@ url = "https://github.com/celestiaorg/valuter"
 url = "https://github.com/celestiaorg/wordle"
 
 [[repo]]
+url = "https://github.com/dennis-tra/nebula"
+
+[[repo]]
 url = "https://github.com/jcstein/gm-portal"
 
 [[repo]]
 url = "https://github.com/jpchap/mf_rollmint"
 
 [[repo]]
+url = "https://github.com/kaizokulabs/cosmos-linux"
+
+[[repo]]
+url = "https://github.com/milkyway-labs/milkyway-contracts"
+
+[[repo]]
+url = "https://github.com/modularcloud/celestiascan"
+
+[[repo]]
+url = "https://github.com/modularcloud/explorer"
+
+[[repo]]
+url = "https://github.com/modularcloud/sourcify"
+
+[[repo]]
 url = "https://github.com/rollkit/rollkit"
+
+[[repo]]
+url = "https://github.com/rushimanche/osiris"
 
 [[repo]]
 url = "https://github.com/samricotta/cel-dummy"
 
 [[repo]]
 url = "https://github.com/XF0707/celestia"
+
+[[repo]]
+url = "https://github.com/yu-org/yu"

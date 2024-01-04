@@ -4,12 +4,15 @@ title = "Astar Network"
 sub_ecosystems = [
   "ACryptoS",
   "adaotop",
+  "AirGap",
   "ArthSwap",
   "Artzero",
   "AstridDao",
   "Celer Network cBridge",
+  "DIA",
   "JPY Coin",
   "Kodadot",
+  "LayerZero",
   "Multichain (Anyswap)",
   "O3 Swap",
   "Octopus Network",
@@ -22,13 +25,26 @@ sub_ecosystems = [
   "Starfish Finance",
   "Starlay Finance",
   "StellaSwap",
+  "Subquery",
+  "Subsquid",
+  "SubWallet",
+  "Talisman",
   "Wanchain",
+  "White Matrix",
   "XDAO",
+  "XY Finance",
 ]
 
-github_organizations = ["https://github.com/AstarNetwork", "https://github.com/PlasmNetwork"]
+github_organizations = [
+  "https://github.com/AstarNetwork",
+  "https://github.com/ONTO-Data-Wallet",
+  "https://github.com/PlasmNetwork",
+]
 
 # Repositories
+[[repo]]
+url = "https://github.com/ahmetzturk/neurolauncher"
+
 [[repo]]
 url = "https://github.com/AlgemDeFi/algem-contracts"
 
@@ -64,10 +80,14 @@ url = "https://github.com/AstarNetwork/astar-apps"
 url = "https://github.com/AstarNetwork/astar-chainlink"
 
 [[repo]]
+url = "https://github.com/AstarNetwork/astar-community-tutorials"
+
+[[repo]]
 url = "https://github.com/AstarNetwork/astar-docs"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/astar-docs-staging"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/astar-evm-example"
@@ -113,6 +133,7 @@ url = "https://github.com/AstarNetwork/AstarUniversity"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/AstarWebPage_V2"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/astarwebsite_v2"
@@ -125,6 +146,9 @@ url = "https://github.com/AstarNetwork/astarwebsite_v2_unstoppable"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/astress"
+
+[[repo]]
+url = "https://github.com/AstarNetwork/Audits"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/aWASoMe"
@@ -182,6 +206,7 @@ url = "https://github.com/AstarNetwork/dapps-staking-indexer-v3"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/dapps-staking-v3-indexer"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/default-token-list"
@@ -200,6 +225,9 @@ url = "https://github.com/AstarNetwork/dsa-connectors"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/dusk-plonk"
+
+[[repo]]
+url = "https://github.com/AstarNetwork/e2e-tests"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/ethereum"
@@ -238,6 +266,9 @@ url = "https://github.com/AstarNetwork/grandpa-bridge-gadget"
 url = "https://github.com/AstarNetwork/Grant-Milestone-Delivery"
 
 [[repo]]
+url = "https://github.com/AstarNetwork/graph-endpoints"
+
+[[repo]]
 url = "https://github.com/AstarNetwork/graph-node"
 
 [[repo]]
@@ -266,6 +297,9 @@ url = "https://github.com/AstarNetwork/ink-xvm-sdk"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/jubjub"
+
+[[repo]]
+url = "https://github.com/AstarNetwork/layer-zero-bridge-contracts-testnet"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/ledger-app-ethereum"
@@ -379,7 +413,11 @@ url = "https://github.com/AstarNetwork/safe-config-service"
 url = "https://github.com/AstarNetwork/safe-eth-py"
 
 [[repo]]
+url = "https://github.com/AstarNetwork/safe-events-service"
+
+[[repo]]
 url = "https://github.com/AstarNetwork/safe-infrastructure-devops"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/safe-react"
@@ -437,6 +475,7 @@ url = "https://github.com/AstarNetwork/swanky-plugin-phala"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/swanky-template-ink"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/sygma-relayer-deployment"
@@ -452,15 +491,20 @@ url = "https://github.com/AstarNetwork/wasm-flipper"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/WASM-Governor-Workshop"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/wasm-lottery"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/wasm-showcase-dapps"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/wasm-tutorial-dex"
+
+[[repo]]
+url = "https://github.com/AstarNetwork/zk-journey-poc"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/zkbridge-code-examples"
@@ -481,10 +525,25 @@ url = "https://github.com/bluez-app/nft-drop-contracts"
 url = "https://github.com/BrainDexAggregator/BrainDex-Contracts"
 
 [[repo]]
+url = "https://github.com/CeresEcosystem/astar-smart-contracts"
+
+[[repo]]
 url = "https://github.com/colorfulnotion/polkaholic"
 
 [[repo]]
+url = "https://github.com/cryptedy/heroic-animals-nft"
+
+[[repo]]
 url = "https://github.com/DAM-Finance/dReservoir_EVM"
+
+[[repo]]
+url = "https://github.com/diadata-org/dia-wasm-oracle"
+
+[[repo]]
+url = "https://github.com/gelatodigital/astar-zkatana-w3f-pyth"
+
+[[repo]]
+url = "https://github.com/GEOMETRON/nft-pocket-astart-contract"
 
 [[repo]]
 url = "https://github.com/grabberofficial/polkapad-app"
@@ -508,7 +567,33 @@ url = "https://github.com/kagla-finance/kagla-contract"
 url = "https://github.com/mandalaverse/bakon-maker"
 
 [[repo]]
+url = "https://github.com/metaskylabs/metasky-wallet-astar"
+
+[[repo]]
+url = "https://github.com/MoonFitApp/contracts"
+
+[[repo]]
 url = "https://github.com/muuu-finance/protocol"
+
+[[repo]]
+url = "https://github.com/novasamatech/nova-wallet-astar-dapp"
+
+[[repo]]
+url = "https://github.com/ONTO-Data-Wallet/aptos-wallet-adapter"
+
+[[repo]]
+url = "https://github.com/ONTO-Data-Wallet/ONTO"
+missing = true
+
+[[repo]]
+url = "https://github.com/ONTO-Data-Wallet/ONTO-web3-provider"
+missing = true
+
+[[repo]]
+url = "https://github.com/ONTO-Data-Wallet/Solana-Web3-Provider"
+
+[[repo]]
+url = "https://github.com/ONTO-Data-Wallet/wallet-adapter"
 
 [[repo]]
 url = "https://github.com/OrcusFinance/Orcus-Finance"
@@ -521,15 +606,29 @@ url = "https://github.com/pentaworld/penta-swap"
 
 [[repo]]
 url = "https://github.com/perpdex/perpdex-lite"
+missing = true
 
 [[repo]]
 url = "https://github.com/Phala-Network/subbridge.js"
 
 [[repo]]
 url = "https://github.com/PlasmNetwork/defillama-app"
+missing = true
+
+[[repo]]
+url = "https://github.com/rairtech/solidity"
 
 [[repo]]
 url = "https://github.com/realGhostChain/ERC721Envious"
+
+[[repo]]
+url = "https://github.com/SfyLabs-HASC/Age-of-Chronos-Rebellion-s-Echo"
+
+[[repo]]
+url = "https://github.com/SkylabCorporation/SkylabCorp"
+
+[[repo]]
+url = "https://github.com/stated-tech/Counter.ink"
 
 [[repo]]
 url = "https://github.com/sygmaprotocol/sygma-solidity"
@@ -539,6 +638,9 @@ url = "https://github.com/TeamSTEP/witch-one-p2p-name"
 
 [[repo]]
 url = "https://github.com/versa-finance-dev/versa-contracts"
+
+[[repo]]
+url = "https://github.com/vking45/astar-naming-service"
 
 [[repo]]
 url = "https://github.com/web3alert/substrate-client"

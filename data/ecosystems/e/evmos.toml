@@ -1,16 +1,138 @@
 # Ecosystem Level Information
 title = "EVMOS"
 
-sub_ecosystems = ["Arable Protocol"]
+sub_ecosystems = [
+  "Arable Protocol",
+  "Celer Network cBridge",
+  "Inevitable (Bento)",
+  "Injective",
+  "Nomad",
+  "Pyth Network",
+  "Redstone Finance",
+]
 
 github_organizations = ["https://github.com/evmos", "https://github.com/tharsis"]
 
 # Repositories
 [[repo]]
+url = "https://github.com/0xdeenz/bq"
+
+[[repo]]
 url = "https://github.com/0xflair/evm-contracts"
+missing = true
+
+[[repo]]
+url = "https://github.com/0xPaladin/ShardNFT"
+missing = true
+
+[[repo]]
+url = "https://github.com/21cdawnhn/genesisd"
+
+[[repo]]
+url = "https://github.com/22388o/evmos"
+
+[[repo]]
+url = "https://github.com/2lambda123/telescope1"
+
+[[repo]]
+url = "https://github.com/3scava1i3r/seamless"
+
+[[repo]]
+url = "https://github.com/4undRaiser/Meta-Ads-Evmos"
+
+[[repo]]
+url = "https://github.com/abhipingle/evmos"
+
+[[repo]]
+url = "https://github.com/aekram43/Arkon"
+
+[[repo]]
+url = "https://github.com/akramhussein/evmos"
+
+[[repo]]
+url = "https://github.com/alexdphan/evmos"
+
+[[repo]]
+url = "https://github.com/AngelDao/evmos-liquid-stake"
 
 [[repo]]
 url = "https://github.com/antonRoyenko/cosmos-space-bot"
+
+[[repo]]
+url = "https://github.com/Archebald-now/evmos"
+
+[[repo]]
+url = "https://github.com/AstraProtocol/evmos"
+
+[[repo]]
+url = "https://github.com/asverty/evmos-validator-directory"
+
+[[repo]]
+url = "https://github.com/BakaOtaku/polygossip"
+
+[[repo]]
+url = "https://github.com/BakaOtaku/starklayer"
+
+[[repo]]
+url = "https://github.com/BBlockLabs/BonusBlock-Pool-SC-Evmos"
+missing = true
+
+[[repo]]
+url = "https://github.com/blok-hamster/EVMOS_SUBMISSION"
+missing = true
+
+[[repo]]
+url = "https://github.com/BolzenLabs/ERC-SBT"
+
+[[repo]]
+url = "https://github.com/brianunlam/evmos"
+
+[[repo]]
+url = "https://github.com/bulldogjack/evmos"
+
+[[repo]]
+url = "https://github.com/bwarelabs/blast-sdk-js"
+
+[[repo]]
+url = "https://github.com/calamuslabs/calamus.finance-on-EVMOS"
+missing = true
+
+[[repo]]
+url = "https://github.com/calamuslabs/calamus.finance-on-POLYGON"
+missing = true
+
+[[repo]]
+url = "https://github.com/celestiaorg/evmos"
+
+[[repo]]
+url = "https://github.com/chengwenxi/evmos"
+
+[[repo]]
+url = "https://github.com/citizen-cosmos/Staking"
+
+[[repo]]
+url = "https://github.com/citizenweb3/Staking"
+
+[[repo]]
+url = "https://github.com/citrusaquarium/evmos"
+
+[[repo]]
+url = "https://github.com/cocoyes/dechain"
+
+[[repo]]
+url = "https://github.com/Code-Decoders/spaceoz"
+
+[[repo]]
+url = "https://github.com/coffee-shop-six/evmos"
+
+[[repo]]
+url = "https://github.com/cronusdmd/evmos-node-starter"
+
+[[repo]]
+url = "https://github.com/CypherD-IO/telescope"
+
+[[repo]]
+url = "https://github.com/czarcas7ic/evmos"
 
 [[repo]]
 url = "https://github.com/DAOForce/parachute-drop"
@@ -22,7 +144,23 @@ url = "https://github.com/DAOForce/ParachuteDrop-contract"
 url = "https://github.com/deb0x/dbXenBurnerProject"
 
 [[repo]]
+url = "https://github.com/dekerd/evmos"
+
+[[repo]]
+url = "https://github.com/devarogundade/coftdao-contracts"
+missing = true
+
+[[repo]]
 url = "https://github.com/diffusion-fi/minichefv2"
+
+[[repo]]
+url = "https://github.com/diffusion-fi/v2-periphery"
+
+[[repo]]
+url = "https://github.com/disperze/evmos-address"
+
+[[repo]]
+url = "https://github.com/drohit-cb/evmos"
 
 [[repo]]
 url = "https://github.com/dspytdao/dspytai"
@@ -31,10 +169,34 @@ url = "https://github.com/dspytdao/dspytai"
 url = "https://github.com/dspytdao/PinSave-EVM"
 
 [[repo]]
+url = "https://github.com/dspytdao/WebBadminton"
+
+[[repo]]
 url = "https://github.com/dung5ire/evmos-offchain"
 
 [[repo]]
+url = "https://github.com/Electronic-Signatures-Industries/ancon-protocol-evmos-chain"
+
+[[repo]]
+url = "https://github.com/eliashezron/evmosHackathon"
+
+[[repo]]
+url = "https://github.com/elysium-station/blackfury-usbx"
+
+[[repo]]
+url = "https://github.com/ettherland/evmos"
+
+[[repo]]
 url = "https://github.com/evmos-stayking-house/evm-contract"
+missing = true
+
+[[repo]]
+url = "https://github.com/evmos-stayking-house/interchain-app"
+missing = true
+
+[[repo]]
+url = "https://github.com/evmos-stayking-house/interchain-worker"
+missing = true
 
 [[repo]]
 url = "https://github.com/evmos/.github"
@@ -64,10 +226,16 @@ url = "https://github.com/evmos/chainlist"
 url = "https://github.com/evmos/claims_fixer"
 
 [[repo]]
+url = "https://github.com/evmos/cometbft"
+
+[[repo]]
 url = "https://github.com/evmos/cometbft-db"
 
 [[repo]]
 url = "https://github.com/evmos/community"
+
+[[repo]]
+url = "https://github.com/evmos/contracts-testing"
 
 [[repo]]
 url = "https://github.com/evmos/cosmos-sdk"
@@ -92,6 +260,7 @@ url = "https://github.com/evmos/docs-ui"
 
 [[repo]]
 url = "https://github.com/evmos/erigon"
+missing = true
 
 [[repo]]
 url = "https://github.com/evmos/ethereum-ledger-go"
@@ -137,6 +306,10 @@ url = "https://github.com/evmos/gRPC-py"
 url = "https://github.com/evmos/helm"
 
 [[repo]]
+url = "https://github.com/evmos/helm-charts"
+missing = true
+
+[[repo]]
 url = "https://github.com/evmos/keplr-wallet"
 
 [[repo]]
@@ -168,6 +341,9 @@ url = "https://github.com/evmos/safe-client-gateway-rust"
 
 [[repo]]
 url = "https://github.com/evmos/safe-config-service"
+
+[[repo]]
+url = "https://github.com/evmos/safe-events-service"
 
 [[repo]]
 url = "https://github.com/evmos/safe-react"
@@ -209,40 +385,273 @@ url = "https://github.com/evmos/wallet-py"
 url = "https://github.com/evmos/wevmos"
 
 [[repo]]
+url = "https://github.com/EvmosGov/evmos-datahub"
+tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/evmosis/evmos-devnet"
+missing = true
+
+[[repo]]
 url = "https://github.com/evmychan/something-special"
+
+[[repo]]
+url = "https://github.com/ezzatisawesome/evmos-ibc"
+
+[[repo]]
+url = "https://github.com/facs95/evmos"
+
+[[repo]]
+url = "https://github.com/faddat/evmos"
+
+[[repo]]
+url = "https://github.com/FileSystemVideo/smartchain"
+missing = true
 
 [[repo]]
 url = "https://github.com/fluxprotocol/fpo-evm"
 
 [[repo]]
+url = "https://github.com/FocSon/OsmosisArbitrage"
+
+[[repo]]
 url = "https://github.com/FraxFinance/frax-solidity"
+
+[[repo]]
+url = "https://github.com/freemasonryc/blockchain"
+
+[[repo]]
+url = "https://github.com/fsvchina/smartchain"
+
+[[repo]]
+url = "https://github.com/FuryanRasta/warmage"
+
+[[repo]]
+url = "https://github.com/GAtom22/evmos-contracts-testing"
+
+[[repo]]
+url = "https://github.com/Gella2000/evmos"
+
+[[repo]]
+url = "https://github.com/giansalex/evmos"
+
+[[repo]]
+url = "https://github.com/gloryan0829/evmos"
+
+[[repo]]
+url = "https://github.com/GNaD13/evmos"
+
+[[repo]]
+url = "https://github.com/godshunter/evmos"
+
+[[repo]]
+url = "https://github.com/gonryu/evmos"
+
+[[repo]]
+url = "https://github.com/goswamig/blockchain-development-guide"
+
+[[repo]]
+url = "https://github.com/grGred/Audits-C4"
+
+[[repo]]
+url = "https://github.com/gurufin2021/mu"
 
 [[repo]]
 url = "https://github.com/Hackatom-2022-Shooting-Stars/parachute-drop-frontend"
 
 [[repo]]
+url = "https://github.com/HackerSamuraiDAO/2022-EVMOS-Momentum-Hackathon"
+
+[[repo]]
+url = "https://github.com/HackerSamuraiDAO/evmos"
+
+[[repo]]
+url = "https://github.com/HadronFi/hadron-contracts"
+
+[[repo]]
+url = "https://github.com/hanchon-live/evmos.me-backend"
+
+[[repo]]
+url = "https://github.com/hanchon-live/evmosproto-archive"
+
+[[repo]]
+url = "https://github.com/hanchon-live/evmosprotojs"
+
+[[repo]]
+url = "https://github.com/hanchon/evmos-tax-helper"
+
+[[repo]]
+url = "https://github.com/heimdall-safe/heimdall-contract"
+
+[[repo]]
 url = "https://github.com/heimdall-safe/heimdall-react"
+
+[[repo]]
+url = "https://github.com/HeritageLabs/Solid"
+missing = true
+
+[[repo]]
+url = "https://github.com/hieuvubk/telescope"
+
+[[repo]]
+url = "https://github.com/hoangdv2429/telescope"
+
+[[repo]]
+url = "https://github.com/hoanguyenkh/evmos"
+
+[[repo]]
+url = "https://github.com/hollow-leaf/easyeigen"
+
+[[repo]]
+url = "https://github.com/hoodrunio/evmos-contracts"
+
+[[repo]]
+url = "https://github.com/hupayx-com/evmos"
+
+[[repo]]
+url = "https://github.com/Ideevoog/Toolblox.Ada.App.Evmos.Functions"
+
+[[repo]]
+url = "https://github.com/iot-defcon/evmos"
+
+[[repo]]
+url = "https://github.com/iqlusioninc/evmos"
+
+[[repo]]
+url = "https://github.com/itsdevbear/evmos"
+
+[[repo]]
+url = "https://github.com/ivanmolto/evmos-nft-alpha"
+missing = true
+
+[[repo]]
+url = "https://github.com/jbowen93/evmos"
+
+[[repo]]
+url = "https://github.com/joe-bowman/evmos"
+
+[[repo]]
+url = "https://github.com/joeabbey/evmos"
+
+[[repo]]
+url = "https://github.com/junhoyeo/telescope"
+
+[[repo]]
+url = "https://github.com/Kava-Labs/telescope"
 
 [[repo]]
 url = "https://github.com/kidneyweakx/easyeigen"
 
 [[repo]]
+url = "https://github.com/kinesis-labs/evmos-contracts"
+
+[[repo]]
+url = "https://github.com/kioqq/evmos"
+
+[[repo]]
+url = "https://github.com/kirbyquerby/evmos"
+
+[[repo]]
+url = "https://github.com/lalalend-evmos/contracts"
+
+[[repo]]
 url = "https://github.com/lifinance/contracts"
+
+[[repo]]
+url = "https://github.com/lifinance/create3-factory"
+
+[[repo]]
+url = "https://github.com/LiYong828/evmos"
+
+[[repo]]
+url = "https://github.com/louisliu2048/evmos"
+
+[[repo]]
+url = "https://github.com/LPX55/evmos"
+
+[[repo]]
+url = "https://github.com/LPX55/evmos-rpc-benchmarking"
 
 [[repo]]
 url = "https://github.com/LPX55/IncentivizedDelegations"
 
 [[repo]]
+url = "https://github.com/Luis4Q/evmos"
+
+[[repo]]
+url = "https://github.com/m00ntek/gql-telescope"
+
+[[repo]]
 url = "https://github.com/MahaChain/scallop"
+missing = true
+
+[[repo]]
+url = "https://github.com/marcellinamichie291/hadron-contracts"
+
+[[repo]]
+url = "https://github.com/masterfung/evmos-react"
+
+[[repo]]
+url = "https://github.com/merlion-zone/evmos"
 
 [[repo]]
 url = "https://github.com/meta-web3-music/smart-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/Metapolis21/PolisChain"
+missing = true
+
+[[repo]]
+url = "https://github.com/mihailShumilov/evmos"
+
+[[repo]]
+url = "https://github.com/Mis311/STEMVERSE-Evmos-Momentum"
+
+[[repo]]
+url = "https://github.com/mnkhod/Evmos-Punks"
+
+[[repo]]
+url = "https://github.com/mojtaba-esk/evmos-smart-contract"
+
+[[repo]]
+url = "https://github.com/MonCatCat/evmos"
+
+[[repo]]
+url = "https://github.com/MonikaCat/evmos"
+
+[[repo]]
+url = "https://github.com/naelob/evmos"
+
+[[repo]]
+url = "https://github.com/nazt/evmos"
+
+[[repo]]
+url = "https://github.com/Neca-development/evmos-hackathon-sc"
 
 [[repo]]
 url = "https://github.com/NeokingdomDAO/contracts"
+
+[[repo]]
+url = "https://github.com/nolus-protocol/extract-transform-load"
+
+[[repo]]
+url = "https://github.com/notional-labs/telescope"
+
+[[repo]]
+url = "https://github.com/onsails/evmos"
+
+[[repo]]
+url = "https://github.com/oracleNetworkProtocol/evmos"
+
+[[repo]]
+url = "https://github.com/orijtech/evmos"
+
+[[repo]]
+url = "https://github.com/PaddyMc/evmos"
+
+[[repo]]
+url = "https://github.com/PageDAO/evmos-Minting-dAPP"
 
 [[repo]]
 url = "https://github.com/pangolindex/exchange-contracts"
@@ -257,13 +666,51 @@ url = "https://github.com/pcaversaccio/create2deployer"
 url = "https://github.com/pcaversaccio/hardhat-project-template-ts"
 
 [[repo]]
+url = "https://github.com/petri-labs/kaiju"
+
+[[repo]]
+url = "https://github.com/petri-labs/warmage"
+
+[[repo]]
+url = "https://github.com/PinkDiamond1/telescope"
+
+[[repo]]
+url = "https://github.com/plats-network/plats-solidity-smartcontract"
+missing = true
+
+[[repo]]
 url = "https://github.com/Plex-Engineer/canto-mono"
+
+[[repo]]
+url = "https://github.com/Plex-Engineer/manifest"
+
+[[repo]]
+url = "https://github.com/Plex-Engineer/manifest-v2"
 
 [[repo]]
 url = "https://github.com/Plex-Engineer/staking"
 
 [[repo]]
+url = "https://github.com/plural-labs/evmos-1"
+
+[[repo]]
+url = "https://github.com/prajjwol/evmos"
+
+[[repo]]
+url = "https://github.com/pro100programmer/Evmos-Vova"
+
+[[repo]]
 url = "https://github.com/QuadrataNetwork/passport-contracts"
+
+[[repo]]
+url = "https://github.com/QuintusTheFifth/evmos"
+
+[[repo]]
+url = "https://github.com/rajivpo/evmos"
+
+[[repo]]
+url = "https://github.com/readygo67/evmos"
+missing = true
 
 [[repo]]
 url = "https://github.com/rebuschain/rebus.app.web"
@@ -272,97 +719,206 @@ url = "https://github.com/rebuschain/rebus.app.web"
 url = "https://github.com/rebuschain/rebus.core"
 
 [[repo]]
+url = "https://github.com/rhizomplatform/evmos"
+
+[[repo]]
+url = "https://github.com/roberts-ivanovs/multiverse-x-hackbros"
+
+[[repo]]
 url = "https://github.com/saddle-finance/saddle-contract"
+
+[[repo]]
+url = "https://github.com/scapula07/vultrivius-evmos"
+
+[[repo]]
+url = "https://github.com/scio-labs/awesome-name-services"
+
+[[repo]]
+url = "https://github.com/seantking/evmos"
+
+[[repo]]
+url = "https://github.com/shadmoney/ztap-protocol"
+
+[[repo]]
+url = "https://github.com/shineyNickle/cheers2"
 
 [[repo]]
 url = "https://github.com/Some-body-in-the-ether/test"
 
 [[repo]]
+url = "https://github.com/srdevhub/evmos-node-starter"
+
+[[repo]]
+url = "https://github.com/srph/issue-evmos-ibc"
+
+[[repo]]
+url = "https://github.com/Sylvester-dev/seamless"
+
+[[repo]]
+url = "https://github.com/tac0turtle/evmos"
+
+[[repo]]
+url = "https://github.com/teamchong/evmos"
+
+[[repo]]
 url = "https://github.com/TelediskoDAO/contracts"
 
 [[repo]]
+url = "https://github.com/testnetrunn/evmos-contracts"
+
+[[repo]]
+url = "https://github.com/ThanhNhann/evmos"
+
+[[repo]]
 url = "https://github.com/tharsis/airdrop-dashboard"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/app-evmos"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/assetlists"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/bdjuno"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/big-dipper-2.0-cosmos"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/blockscout"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/chain-registry"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/chains"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/cosmos-sdk"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/DefiLlama-Adapters"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/evm-json-rpc-spec"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/evmos-airdrop-dashboard"
+tags = ["Protocol"]
+missing = true
 
 [[repo]]
 url = "https://github.com/tharsis/evmos-faucet-backend"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/evmos-landing-page"
+tags = ["Protocol"]
+missing = true
 
 [[repo]]
 url = "https://github.com/tharsis/gnosis-py"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/keplr-wallet"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/olympus"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/oss-fuzz"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/safe-client-gateway"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/safe-config-service"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/safe-react"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/safe-transaction-service"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/socket"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/sourcify"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/tharsis.github.io"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/tharsis/wevmos-contract"
+tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/toure5013/evmos"
 
 [[repo]]
 url = "https://github.com/Transfer-Safe/TransferSafe-Router-Contract"
 
 [[repo]]
+url = "https://github.com/tvl83/evmos"
+
+[[repo]]
+url = "https://github.com/VenimirPetkov/evmos"
+
+[[repo]]
+url = "https://github.com/VictorTrustyDev/EVMOS-sample-scripts"
+
+[[repo]]
+url = "https://github.com/Vitali-workspace/Crypto-Testnet-Faucet"
+
+[[repo]]
+url = "https://github.com/waylad/evmos-zombax"
+missing = true
+
+[[repo]]
+url = "https://github.com/westonnelson/evmos-ERC20-module"
+
+[[repo]]
+url = "https://github.com/yourbuddyconner/evmos"
+
+[[repo]]
+url = "https://github.com/yourbuddyconner/weth-typechain"
+
+[[repo]]
+url = "https://github.com/zakirhossen23/GreenDAO-Evmos"
+missing = true
+
+[[repo]]
 url = "https://github.com/zama-ai/evmos"
 
 [[repo]]
+url = "https://github.com/zanglang/evmos"
+
+[[repo]]
 url = "https://github.com/ziptalk/Invincible_Node"
+missing = true
+
+[[repo]]
+url = "https://github.com/zkzoomer/bq"

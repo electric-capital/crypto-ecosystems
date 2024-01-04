@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Kadena"
 
-sub_ecosystems = ["Docushield", "Kaddex"]
+sub_ecosystems = ["Docushield", "Flux (Run On Flux)", "Kaddex"]
 
 github_organizations = [
   "https://github.com/Docushield",
@@ -19,18 +19,23 @@ url = "https://github.com/Docushield/doc-bonding-staking-contracts"
 
 [[repo]]
 url = "https://github.com/Docushield/docushield-app-backend"
+missing = true
 
 [[repo]]
 url = "https://github.com/Docushield/mintit-backend"
+missing = true
 
 [[repo]]
 url = "https://github.com/Docushield/MintIt-Front"
+missing = true
 
 [[repo]]
 url = "https://github.com/Docushield/mintit-policy-pact"
+missing = true
 
 [[repo]]
 url = "https://github.com/Docushield/nft-generator-tool"
+missing = true
 
 [[repo]]
 url = "https://github.com/Docushield/pact"
@@ -78,13 +83,20 @@ url = "https://github.com/kadena-community/create-kadena-app"
 url = "https://github.com/kadena-community/crowdfund"
 
 [[repo]]
+url = "https://github.com/kadena-community/design-system"
+
+[[repo]]
 url = "https://github.com/kadena-community/docs"
+
+[[repo]]
+url = "https://github.com/kadena-community/enKrypt"
 
 [[repo]]
 url = "https://github.com/kadena-community/getting-started"
 
 [[repo]]
 url = "https://github.com/kadena-community/glacierprotocol.github.io"
+missing = true
 
 [[repo]]
 url = "https://github.com/kadena-community/hello-dapp"
@@ -127,6 +139,7 @@ url = "https://github.com/kadena-community/pact-vscode"
 
 [[repo]]
 url = "https://github.com/kadena-community/pykadena"
+missing = true
 
 [[repo]]
 url = "https://github.com/kadena-community/rock-paper-scissors"
@@ -136,6 +149,9 @@ url = "https://github.com/kadena-community/saved-by-kadena"
 
 [[repo]]
 url = "https://github.com/kadena-community/secure-keygen"
+
+[[repo]]
+url = "https://github.com/kadena-community/social-tools"
 
 [[repo]]
 url = "https://github.com/kadena-community/stake-for-steak"
@@ -157,6 +173,9 @@ url = "https://github.com/kadena-io/base64-bytestring-kadena"
 
 [[repo]]
 url = "https://github.com/kadena-io/beam"
+
+[[repo]]
+url = "https://github.com/kadena-io/beam-automigrate"
 
 [[repo]]
 url = "https://github.com/kadena-io/bencoding"
@@ -294,6 +313,9 @@ url = "https://github.com/kadena-io/empty"
 url = "https://github.com/kadena-io/equihash-bindings"
 
 [[repo]]
+url = "https://github.com/kadena-io/flake-compat"
+
+[[repo]]
 url = "https://github.com/kadena-io/flycheck-pact"
 
 [[repo]]
@@ -418,6 +440,7 @@ url = "https://github.com/kadena-io/pact-lang-api"
 
 [[repo]]
 url = "https://github.com/kadena-io/pact-lang.org"
+missing = true
 
 [[repo]]
 url = "https://github.com/kadena-io/pact-lang.org-code"
@@ -550,3 +573,6 @@ url = "https://github.com/kadena-io/x509-self-signed"
 
 [[repo]]
 url = "https://github.com/kadena-io/zoo-lotto"
+
+[[repo]]
+url = "https://github.com/ThinEdgeLabs/bento"

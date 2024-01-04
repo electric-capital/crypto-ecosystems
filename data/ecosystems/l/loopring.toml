@@ -1,13 +1,16 @@
 # Ecosystem Level Information
 title = "Loopring"
 
-sub_ecosystems = []
+sub_ecosystems = ["ICHI", "Orbiter Finance"]
 
-github_organizations = ["https://github.com/Loopring"]
+github_organizations = ["https://github.com/looperlands", "https://github.com/Loopring"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/balkshamster/looperlands"
+
+[[repo]]
+url = "https://github.com/looperlands/looperlands"
 
 [[repo]]
 url = "https://github.com/Loopring/aave-stake-v2"
@@ -23,6 +26,7 @@ url = "https://github.com/Loopring/connectkit-middleware"
 
 [[repo]]
 url = "https://github.com/Loopring/crawler"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/DeFi-Pulse-Adapters"
@@ -35,24 +39,29 @@ url = "https://github.com/Loopring/DEX-API-V3"
 
 [[repo]]
 url = "https://github.com/Loopring/dexbrowser"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/dexwebapp"
 
 [[repo]]
 url = "https://github.com/Loopring/documentation"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/documents"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/download_apks"
 
 [[repo]]
 url = "https://github.com/Loopring/downloads"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/dx-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/eddsa-metamask-plugin"
@@ -65,12 +74,20 @@ url = "https://github.com/Loopring/ethsnarks"
 
 [[repo]]
 url = "https://github.com/Loopring/extractor"
+missing = true
+
+[[repo]]
+url = "https://github.com/Loopring/Gitbook-Documentation"
 
 [[repo]]
 url = "https://github.com/Loopring/go-ethereum"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/go-iden3-crypto"
+
+[[repo]]
+url = "https://github.com/Loopring/go-loopring-sig"
 
 [[repo]]
 url = "https://github.com/Loopring/hello_loopring"
@@ -98,15 +115,19 @@ url = "https://github.com/Loopring/libsnark"
 
 [[repo]]
 url = "https://github.com/Loopring/lightcone"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/loopr-android-jade"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/loopr-docs"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/Loopring-Audit"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/loopring-explorer"
@@ -125,6 +146,7 @@ url = "https://github.com/Loopring/loopring-web-v2"
 
 [[repo]]
 url = "https://github.com/Loopring/loopring.github.io"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/loopring36_block_parser"
@@ -137,6 +159,7 @@ url = "https://github.com/Loopring/loopringv3-withdraw-tool"
 
 [[repo]]
 url = "https://github.com/Loopring/loopringv3.1_staking"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/loopringv3.6-subgraph"
@@ -146,6 +169,7 @@ url = "https://github.com/Loopring/lrc-staking-dapp"
 
 [[repo]]
 url = "https://github.com/Loopring/moody-brains"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/poseidon-java"
@@ -161,15 +185,19 @@ url = "https://github.com/Loopring/recharts"
 
 [[repo]]
 url = "https://github.com/Loopring/relay-eth"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/relay-neo"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/relay-qtum"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/relay_api"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/solidity-flattener"
@@ -185,6 +213,7 @@ url = "https://github.com/Loopring/trusted_setup"
 
 [[repo]]
 url = "https://github.com/Loopring/uniswap-frontend"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/vnpy"
@@ -199,10 +228,14 @@ url = "https://github.com/Loopring/walletconnect-v2-monorepo"
 url = "https://github.com/Loopring/WalletConnectKotlinV2"
 
 [[repo]]
+url = "https://github.com/Loopring/WalletConnectSwiftV2"
+
+[[repo]]
 url = "https://github.com/Loopring/wcdb"
 
 [[repo]]
 url = "https://github.com/Loopring/web-widget"
+missing = true
 
 [[repo]]
 url = "https://github.com/Loopring/web3-provider"

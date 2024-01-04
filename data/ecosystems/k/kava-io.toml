@@ -1,7 +1,19 @@
 # Ecosystem Level Information
 title = "Kava.io"
 
-sub_ecosystems = ["Elk Finance"]
+sub_ecosystems = [
+  "API3",
+  "Celer Network cBridge",
+  "Curve",
+  "Elk Finance",
+  "Injective",
+  "LayerZero",
+  "MoonFarm",
+  "Redstone Finance",
+  "Ren",
+  "Stargate",
+  "Witnet",
+]
 
 github_organizations = ["https://github.com/Kava-Labs"]
 
@@ -156,9 +168,13 @@ url = "https://github.com/Kava-Labs/kava-bridge"
 
 [[repo]]
 url = "https://github.com/Kava-Labs/kava-deputy"
+missing = true
 
 [[repo]]
 url = "https://github.com/Kava-Labs/kava-devnet"
+
+[[repo]]
+url = "https://github.com/Kava-Labs/kava-governance-public"
 
 [[repo]]
 url = "https://github.com/Kava-Labs/kava-patches"

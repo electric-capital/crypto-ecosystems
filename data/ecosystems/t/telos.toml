@@ -1,19 +1,34 @@
 # Ecosystem Level Information
 title = "Telos"
 
-sub_ecosystems = ["OmniDex", "Zappy Finance"]
+sub_ecosystems = [
+  "OmniDex",
+  "OpenOcean",
+  "Sushi Swap",
+  "Swapsicle",
+  "Symbiosis Finance",
+  "Zappy Finance",
+]
 
 github_organizations = ["https://github.com/Telos-Foundation", "https://github.com/telosnetwork"]
 
 # Repositories
 [[repo]]
+url = "https://github.com/edenia/antelope-tools"
+
+[[repo]]
+url = "https://github.com/edenia/telos-local"
+
+[[repo]]
 url = "https://github.com/Telos-Foundation/docs"
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/eosio.contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/fc"
+missing = true
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/grow"
@@ -26,9 +41,11 @@ url = "https://github.com/Telos-Foundation/images"
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/new-accounts"
+missing = true
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/rewards-server"
+missing = true
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/Sqrl"
@@ -38,36 +55,46 @@ url = "https://github.com/Telos-Foundation/Sqrl-JS-Example-Project"
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/telos"
+missing = true
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/telos-amend"
+missing = true
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/telos-monitor-Deprecated"
+missing = true
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/telos-styles"
+missing = true
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/telosfoundation-website"
+missing = true
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/telospy"
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/TelosWEB"
+missing = true
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/tipfs"
 
 [[repo]]
 url = "https://github.com/Telos-Foundation/trail-service"
+missing = true
 
 [[repo]]
 url = "https://github.com/telosnetwork/.github"
 
 [[repo]]
 url = "https://github.com/telosnetwork/amm-evm-example"
+
+[[repo]]
+url = "https://github.com/telosnetwork/antelope-rs"
 
 [[repo]]
 url = "https://github.com/telosnetwork/api-p2p-nodes"
@@ -122,6 +149,7 @@ url = "https://github.com/telosnetwork/docs"
 
 [[repo]]
 url = "https://github.com/telosnetwork/Documentation-Tasks-Organizer"
+missing = true
 
 [[repo]]
 url = "https://github.com/telosnetwork/erc20-bridgeable"
@@ -134,6 +162,10 @@ url = "https://github.com/telosnetwork/erc20-template"
 
 [[repo]]
 url = "https://github.com/telosnetwork/evm-airdrop"
+
+[[repo]]
+url = "https://github.com/telosnetwork/evm-diff-tests"
+missing = true
 
 [[repo]]
 url = "https://github.com/telosnetwork/evm-rpc-list"
@@ -230,6 +262,10 @@ url = "https://github.com/telosnetwork/references"
 
 [[repo]]
 url = "https://github.com/telosnetwork/revoke.cash"
+missing = true
+
+[[repo]]
+url = "https://github.com/telosnetwork/revoke.telos.net"
 
 [[repo]]
 url = "https://github.com/telosnetwork/rng-consumer"
@@ -239,6 +275,9 @@ url = "https://github.com/telosnetwork/rng-oracle-bridge"
 
 [[repo]]
 url = "https://github.com/telosnetwork/safe-client-gateway"
+
+[[repo]]
+url = "https://github.com/telosnetwork/safe-client-gateway-rust"
 
 [[repo]]
 url = "https://github.com/telosnetwork/safe-config-service"
@@ -308,6 +347,9 @@ url = "https://github.com/telosnetwork/telos-docs"
 
 [[repo]]
 url = "https://github.com/telosnetwork/telos-escrow"
+
+[[repo]]
+url = "https://github.com/telosnetwork/telos-evm-custom-ds"
 
 [[repo]]
 url = "https://github.com/telosnetwork/telos-evm-docker"

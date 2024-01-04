@@ -3,11 +3,20 @@ title = "DipDup"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/dipdup-net"]
+github_organizations = ["https://github.com/dipdup-io", "https://github.com/dipdup-net"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/dipdup-io/abi-indexer"
+
+[[repo]]
+url = "https://github.com/dipdup-io/aiosignalrcore"
+
+[[repo]]
+url = "https://github.com/dipdup-io/celestia-explorer"
+
+[[repo]]
+url = "https://github.com/dipdup-io/celestia-indexer"
 
 [[repo]]
 url = "https://github.com/dipdup-io/celestia-node-api"
@@ -28,13 +37,25 @@ url = "https://github.com/dipdup-io/fullstack-tutorial"
 url = "https://github.com/dipdup-io/go-lib"
 
 [[repo]]
+url = "https://github.com/dipdup-io/hicdex"
+
+[[repo]]
+url = "https://github.com/dipdup-io/ide-development"
+
+[[repo]]
 url = "https://github.com/dipdup-io/indexer-sdk"
+
+[[repo]]
+url = "https://github.com/dipdup-io/ipfs-tools"
 
 [[repo]]
 url = "https://github.com/dipdup-io/mempool"
 
 [[repo]]
 url = "https://github.com/dipdup-io/metadata"
+
+[[repo]]
+url = "https://github.com/dipdup-io/openapi-typescript-codegen"
 
 [[repo]]
 url = "https://github.com/dipdup-io/playground"
@@ -49,13 +70,28 @@ url = "https://github.com/dipdup-io/quartz-metadata"
 url = "https://github.com/dipdup-io/rarible-marketplace-indexer"
 
 [[repo]]
+url = "https://github.com/dipdup-io/reorg-tracker"
+
+[[repo]]
 url = "https://github.com/dipdup-io/sourcify-api"
+
+[[repo]]
+url = "https://github.com/dipdup-io/starknet-go-api"
+
+[[repo]]
+url = "https://github.com/dipdup-io/starknet-id"
+
+[[repo]]
+url = "https://github.com/dipdup-io/starknet-indexer"
 
 [[repo]]
 url = "https://github.com/dipdup-io/tabix-docker"
 
 [[repo]]
 url = "https://github.com/dipdup-io/tezos-domains"
+
+[[repo]]
+url = "https://github.com/dipdup-io/tzprofiles"
 
 [[repo]]
 url = "https://github.com/dipdup-io/workerpool"
@@ -74,9 +110,11 @@ url = "https://github.com/dipdup-net/reorg-tracker"
 
 [[repo]]
 url = "https://github.com/dipdup-net/tezos-profiles"
+missing = true
 
 [[repo]]
 url = "https://github.com/dipdup-net/tzprofiles"
 
 [[repo]]
 url = "https://github.com/dipdup-net/wiki.tezos.com"
+missing = true

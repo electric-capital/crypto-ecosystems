@@ -14,6 +14,7 @@ sub_ecosystems = [
   "Axelar Network",
   "Band Protocol",
   "Beefy.Finance",
+  "Bidali",
   "Blockcash Finance",
   "Blockless",
   "BX Smart Labs",
@@ -110,6 +111,7 @@ sub_ecosystems = [
   "Seam Money",
   "simplefi",
   "Spirals Protocol",
+  "Squid",
   "StakeDAO",
   "Superfluid",
   "Sushi Swap",
@@ -118,12 +120,15 @@ sub_ecosystems = [
   "Tatum",
   "Toucan Protocol",
   "Tradegen",
+  "TrueFeedBack",
   "Ubeswap",
   "Unifty",
   "Uniswap",
   "untangled.finance",
   "Valora",
+  "Wagmi",
   "Whales",
+  "wevm",
   "Witnet",
   "Wormhole",
   "Yanda",
@@ -133,6 +138,8 @@ sub_ecosystems = [
 github_organizations = [
   "https://github.com/00labs",
   "https://github.com/Atlendis",
+  "https://github.com/bisontrails",
+  "https://github.com/Brale-xyz",
   "https://github.com/celo-academy",
   "https://github.com/Celo-Baddies",
   "https://github.com/celo-examples",
@@ -144,10 +151,12 @@ github_organizations = [
   "https://github.com/clade-club",
   "https://github.com/credprotocol",
   "https://github.com/dapplooker",
+  "https://github.com/double2win",
   "https://github.com/empowa-io",
   "https://github.com/fiatconnect",
   "https://github.com/GainForest",
   "https://github.com/Glo-Foundation",
+  "https://github.com/hedgey-finance",
   "https://github.com/helpicelo",
   "https://github.com/kumo-earth",
   "https://github.com/mento-protocol",
@@ -160,6 +169,16 @@ github_organizations = [
 ]
 
 # Repositories
+
+[[repo]]
+url = "https://github.com/LlamaSwap/interface"
+
+[[repo]]
+url = "https://github.com/candidelabs/voltaire"
+
+[[repo]]
+url = "https://github.com/Joel-web3/Implementing-security-measures-on-celo"
+
 [[repo]]
 url = "https://code.bld.ai/doni/Doni"
 
@@ -420,6 +439,7 @@ url = "https://github.com/1qbits-com/learn-web3-dapp"
 
 [[repo]]
 url = "https://github.com/1saf/ethers-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/3plcoins/celo-monorepo"
@@ -433,6 +453,7 @@ url = "https://github.com/4everland/uniswap-interface"
 
 [[repo]]
 url = "https://github.com/4lsh4/deXodus"
+missing = true
 
 [[repo]]
 url = "https://github.com/4nickel/celo-multisig-tx-demo"
@@ -5695,6 +5716,9 @@ url = "https://github.com/clade-club/core-contracts"
 url = "https://github.com/clade-club/kryonet"
 
 [[repo]]
+url = "https://github.com/clade-club/PIPs"
+
+[[repo]]
 url = "https://github.com/clade-club/reth-indexer"
 
 [[repo]]
@@ -9472,6 +9496,7 @@ url = "https://github.com/ishitamaru/celoTests"
 
 [[repo]]
 url = "https://github.com/ismaelsadeeq/dush-api"
+missing = true
 
 [[repo]]
 url = "https://github.com/ismaelsousa/solana-figment"
@@ -16039,12 +16064,6 @@ url = "https://github.com/SoftCysec/Niokolee-Kash-DApp-Celo"
 
 [[repo]]
 url = "https://github.com/SoftCysec/Street-Food-Kigali-Celo-DApp"
-
-[[repo]]
-url = "https://github.com/software-celo/linux-fslc"
-
-[[repo]]
-url = "https://github.com/software-celo/meta-ces"
 
 [[repo]]
 url = "https://github.com/softwarearchaeologist/beefy-api"

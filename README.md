@@ -38,6 +38,7 @@ github_organizations = ["https://github.com/bitcoin", "https://github.com/bitcoi
 
 # Repositories
 # These are structs including a url and tags for a git repository. These URLs do not necessarily have to be on GitHub.
+
 [[repo]]
 url = "https://github.com/bitcoin/bitcoin"
 tags = [ "Protocol"]

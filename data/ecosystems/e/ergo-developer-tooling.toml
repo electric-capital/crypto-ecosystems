@@ -3,22 +3,18 @@ title = "Ergo Developer Tooling"
 
 sub_ecosystems = []
 
-github_organizations = [
-  "https://github.com/coinbarn",
-  "https://github.com/ergopool-io",
-  "https://github.com/Kalita-Platform",
-  "https://github.com/profit-sharing",
-  "https://github.com/sigmaspace-io",
-  "https://github.com/thedelphiproject",
-]
+github_organizations = [ 
+    "https://github.com/rust-ergo", 
+    "https://github.com/bitdomains",  
+    "https://github.com/sigmaspace-io", 
+    "https://github.com/thedelphiproject",
+    "https://github.com/nautls/",
+    "https://github.com/profit-sharing",
+    "https://github.com/ergopool-io",
+    ]
 
-# Repositories
 [[repo]]
 url = "https://github.com/abchrisxyz/ergo-setup"
-
-[[repo]]
-url = "https://github.com/abchrisxyz/ergowatch-ui"
-missing = true
 
 [[repo]]
 url = "https://github.com/abchrisxyz/OraclePoolHub"
@@ -36,14 +32,10 @@ missing = true
 [[repo]]
 url = "https://github.com/andyceo/ergopyng"
 
-[[repo]]
-url = "https://github.com/anon-br/ergo-paper-wallet"
 
 [[repo]]
 url = "https://github.com/anon-br/ErgoUtilsUploadService"
 
-[[repo]]
-url = "https://github.com/anon-br/ledger-ergo-js"
 
 [[repo]]
 url = "https://github.com/anon-br/sigmajs-crypto-facade"
@@ -143,9 +135,6 @@ url = "https://github.com/coinbarn/ergo-ts"
 url = "https://github.com/cornbelt-dev/sigma-subscriptions"
 
 [[repo]]
-url = "https://github.com/crystoll/export-erg-transactions"
-
-[[repo]]
 url = "https://github.com/darkdrag00nv2/ergo-indexer-rust"
 
 [[repo]]
@@ -187,11 +176,8 @@ url = "https://github.com/enft-so/enft-dapp"
 [[repo]]
 url = "https://github.com/ergo-auction-house/frontend"
 
-[[repo]]
-url = "https://github.com/ErgoGravity/gateway-proxy"
 
-[[repo]]
-url = "https://github.com/ergonames/ErgoNames.Api"
+
 
 [[repo]]
 url = "https://github.com/ErGonario/Ergo_learning_app_vERGinia"
@@ -211,8 +197,7 @@ url = "https://github.com/ergoplatform/ergo-tool"
 [[repo]]
 url = "https://github.com/ergoplatform/ergo-utilities-rust"
 
-[[repo]]
-url = "https://github.com/ergoplatform/ergo-wallet-app"
+
 
 [[repo]]
 url = "https://github.com/ergoplatform/ergodocs"
@@ -295,14 +280,10 @@ url = "https://github.com/johannesstrueber/ergo-nft-viewer"
 [[repo]]
 url = "https://github.com/K-9Nine/ergodao"
 
-[[repo]]
-url = "https://github.com/K-Singh/Sigma-Finance"
 
 [[repo]]
 url = "https://github.com/Kalita-Platform/kalita"
 
-[[repo]]
-url = "https://github.com/kii-dot/scala-play-next-ergo"
 
 [[repo]]
 url = "https://github.com/knizhnik/scorex_crypto_avltree"
@@ -314,17 +295,11 @@ missing = true
 [[repo]]
 url = "https://github.com/koukarin/ErgoneV2-front-end"
 
-[[repo]]
-url = "https://github.com/koukarin/Local-Economy-Wallet"
 
 [[repo]]
 url = "https://github.com/koukarin/Proof-of-Commitment-Protocol"
 
-[[repo]]
-url = "https://github.com/Koutelier/CometCommunity"
 
-[[repo]]
-url = "https://github.com/Koutelier/CometGag-Webiste"
 
 [[repo]]
 url = "https://github.com/kushti/ergo-simple-addresses"
@@ -344,8 +319,7 @@ url = "https://github.com/ladopixel/ErgoToolsBot"
 [[repo]]
 url = "https://github.com/ladopixel/ErgoTutorials.com"
 
-[[repo]]
-url = "https://github.com/ladopixel/ergowalletv2"
+
 
 [[repo]]
 url = "https://github.com/ladopixel/schedulERG"
@@ -356,8 +330,7 @@ url = "https://github.com/ladopixel/schedulERGweb"
 [[repo]]
 url = "https://github.com/lazypinkpatrick/cosigning-server"
 
-[[repo]]
-url = "https://github.com/lazypinkpatrick/minotaur-wallet"
+
 
 [[repo]]
 url = "https://github.com/LedgerHQ/app-ergo"
@@ -366,11 +339,15 @@ url = "https://github.com/LedgerHQ/app-ergo"
 url = "https://github.com/lorien/ergotools"
 missing = true
 
+
+[[repo]]
+url = "https://github.com/rustinmyeye/ErgoMixerAndroid"
+missing = true
+
+
 [[repo]]
 url = "https://github.com/lucagdangelo/flowcardLib"
 
-[[repo]]
-url = "https://github.com/lucagdangelo/trade-in"
 
 [[repo]]
 url = "https://github.com/Luivatra/airdropaddressrecorder"
@@ -420,8 +397,6 @@ missing = true
 [[repo]]
 url = "https://github.com/mgpai22/ergosapiens"
 
-[[repo]]
-url = "https://github.com/mgpai22/ergosapiens-payment-portal"
 
 [[repo]]
 url = "https://github.com/mgpai22/ergpy"
@@ -429,14 +404,11 @@ url = "https://github.com/mgpai22/ergpy"
 [[repo]]
 url = "https://github.com/mgpai22/ergpy-native"
 
-[[repo]]
-url = "https://github.com/mgpai22/nautilus-ergo-wallet-decrypter"
+
 
 [[repo]]
 url = "https://github.com/mgpai22/paiNet"
 
-[[repo]]
-url = "https://github.com/mhssamadani/Autolykos-GPU-miner"
 
 [[repo]]
 url = "https://github.com/mhssamadani/ErgoProfitSharingDapp"
@@ -444,14 +416,6 @@ url = "https://github.com/mhssamadani/ErgoProfitSharingDapp"
 [[repo]]
 url = "https://github.com/mhssamadani/ErgoWell"
 
-[[repo]]
-url = "https://github.com/mhssamadani/susy-v2"
-
-[[repo]]
-url = "https://github.com/mhssamadani/SusyErgoRPC"
-
-[[repo]]
-url = "https://github.com/mhssamadani/SusyErgoScanner"
 
 [[repo]]
 url = "https://github.com/MiauW13/offchain-bot"
@@ -462,14 +426,7 @@ url = "https://github.com/mowreez/ergo-asset-locker"
 [[repo]]
 url = "https://github.com/MrStahlfelge/ergo-offchain"
 
-[[repo]]
-url = "https://github.com/MrStahlfelge/ergopay-frontend-example"
 
-[[repo]]
-url = "https://github.com/MrStahlfelge/ergopay-payment-portal"
-
-[[repo]]
-url = "https://github.com/MrStahlfelge/ergopay-server-example"
 
 [[repo]]
 url = "https://github.com/MrStahlfelge/mosaik"
@@ -516,8 +473,6 @@ url = "https://github.com/nirvanush/ergoscript"
 [[repo]]
 url = "https://github.com/nirvanush/ergoscript-nodejs"
 
-[[repo]]
-url = "https://github.com/nirvanush/txbuilder-service"
 
 [[repo]]
 url = "https://github.com/nirvanush/whale-alerts-twitter-bot"
@@ -543,8 +498,7 @@ url = "https://github.com/omahs/ergodocs"
 [[repo]]
 url = "https://github.com/pepenger/ergo-golang"
 
-[[repo]]
-url = "https://github.com/platypus45/ergo-paper-wallet"
+
 
 [[repo]]
 url = "https://github.com/platypus45/sigma-usd"
@@ -606,27 +560,17 @@ url = "https://github.com/ross-weir/go-ergo-example"
 [[repo]]
 url = "https://github.com/ross-weir/just-ergo-things"
 
-[[repo]]
-url = "https://github.com/ross-weir/ogre"
 
 [[repo]]
 url = "https://github.com/ross-weir/rosetta-ergo"
 
-[[repo]]
-url = "https://github.com/ross-weir/wallet-ex"
+
 
 [[repo]]
 url = "https://github.com/rust-ergo/rustkit"
 
 [[repo]]
 url = "https://github.com/rustinmyeye/ergodocs"
-
-[[repo]]
-url = "https://github.com/rustinmyeye/ErgoMixerAndroid"
-missing = true
-
-[[repo]]
-url = "https://github.com/rustinmyeye/ErgoNodeAndroid"
 
 [[repo]]
 url = "https://github.com/SabaunT/ergo-handshake"
@@ -643,8 +587,6 @@ url = "https://github.com/scalahub/AppkitIssue"
 [[repo]]
 url = "https://github.com/scalahub/awesome-ergo"
 
-[[repo]]
-url = "https://github.com/scalahub/erg-urlwallet"
 
 [[repo]]
 url = "https://github.com/scalahub/ergo-appkit"
@@ -705,10 +647,7 @@ missing = true
 url = "https://github.com/TanBeige/ergodocs"
 
 [[repo]]
-url = "https://github.com/Telefragged/ergo-cyti-miner"
-
-[[repo]]
-url = "https://github.com/tesseract-one/ledger-app-ergo"
+url = "https://github.com/ThierryM1212/ergo-token-minter"
 
 [[repo]]
 url = "https://github.com/thedelphiproject/.github"
@@ -729,22 +668,66 @@ url = "https://github.com/thedelphiproject/website"
 url = "https://github.com/ThierryM1212/ergo-pay"
 
 [[repo]]
-url = "https://github.com/ThierryM1212/ergo-token-minter"
-
-[[repo]]
-url = "https://github.com/ThierryM1212/SigmaO"
-
-[[repo]]
-url = "https://github.com/ThierryM1212/transaction-builder"
-
-[[repo]]
-url = "https://github.com/vorujack/node-stratum-pool"
-
-[[repo]]
 url = "https://github.com/zargarzadehm/ergo-faucet"
 
 [[repo]]
 url = "https://github.com/zawy12/difficulty-algorithms"
 
+
+
 [[repo]]
-url = "https://github.com/zkastn/reduced-transactions"
+url = "https://github.com/lucagdangelo/trade-in"
+
+
+[[repo]]
+url = "https://github.com/kii-dot/scala-play-next-ergo"
+
+
+[[repo]]
+url = "https://github.com/Luivatra/ergotipper-tokens/"
+
+[[repo]]
+url = "https://github.com/ladopixel/mobilERG"
+
+[[repo]]
+url = "https://github.com/bitdomains/plasma"
+
+[[repo]]
+url = "https://github.com/abchrisxyz/ergowatch-ui"
+missing = true
+
+[[repo]]
+url = "https://github.com/aslesarenko/rust-benchmarks"
+
+[[repo]]
+url = "https://github.com/rustinmyeye/phonenodescriptsnshit"
+
+[[repo]]
+url = "https://github.com/Telefragged/off-the-grid"
+
+[[repo]]
+url = "https://github.com/AcoSmrkas/ErgExplorer"
+
+[[repo]]
+url = "https://github.com/lucagdangelo/offchain-bot"
+
+[[repo]]
+url = "https://github.com/K-Singh/Plasma-Toolkit"
+
+[[repo]]
+url = "https://github.com/satsen/yoroi-ergo-wallet-recover"
+
+[[repo]]
+url = "https://github.com/reqlez/ergo-easy-oracle"
+
+[[repo]]
+url = "https://github.com/ross-weir/ergo_client"
+
+[[repo]]
+url = "https://github.com/FlyingPig69/YAAT/"
+
+[[repo]]
+url = "https://github.com/Telefragged/off-the-grid/"
+
+[[repo]]
+url = "https://github.com/mgpai22/sigmanet/"

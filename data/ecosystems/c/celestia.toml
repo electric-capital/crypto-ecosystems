@@ -5,19 +5,15 @@ sub_ecosystems = [
   "Astria",
   "dymensionxyz",
   "Eclipse",
-  "Injective",
   "Modular Cloud",
   "Rollkit",
   "Sovereign Labs",
+  "ZKFair",
 ]
 
 github_organizations = ["https://github.com/celestiaorg", "https://github.com/modularcloud"]
 
 # Repositories
-[[repo]]
-url = "https://github.com/CelestiaFork/celestia"
-missing = true
-
 [[repo]]
 url = "https://github.com/celestiaorg/.github"
 
@@ -151,6 +147,9 @@ url = "https://github.com/celestiaorg/devrel-tools"
 
 [[repo]]
 url = "https://github.com/celestiaorg/dht-bootstrap-experiment"
+
+[[repo]]
+url = "https://github.com/celestiaorg/dockwiz"
 
 [[repo]]
 url = "https://github.com/celestiaorg/docs"
@@ -407,13 +406,22 @@ url = "https://github.com/celestiaorg/valuter"
 url = "https://github.com/celestiaorg/wordle"
 
 [[repo]]
+url = "https://github.com/dennis-tra/nebula"
+
+[[repo]]
 url = "https://github.com/jcstein/gm-portal"
 
 [[repo]]
 url = "https://github.com/jpchap/mf_rollmint"
 
 [[repo]]
+url = "https://github.com/kaizokulabs/cosmos-linux"
+
+[[repo]]
 url = "https://github.com/milkyway-labs/milkyway-contracts"
+
+[[repo]]
+url = "https://github.com/modularcloud/celestiascan"
 
 [[repo]]
 url = "https://github.com/modularcloud/explorer"
@@ -425,7 +433,13 @@ url = "https://github.com/modularcloud/sourcify"
 url = "https://github.com/rollkit/rollkit"
 
 [[repo]]
+url = "https://github.com/rushimanche/osiris"
+
+[[repo]]
 url = "https://github.com/samricotta/cel-dummy"
 
 [[repo]]
 url = "https://github.com/XF0707/celestia"
+
+[[repo]]
+url = "https://github.com/yu-org/yu"

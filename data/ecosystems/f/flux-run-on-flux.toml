@@ -1,11 +1,14 @@
 # Ecosystem Level Information
-title = "Run On Flux"
+title = "Flux (Run On Flux)"
 
 sub_ecosystems = []
 
 github_organizations = ["https://github.com/RunOnFlux"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/RunOnFlux/account-abstraction"
+
 [[repo]]
 url = "https://github.com/RunOnFlux/appsmonitor"
 
@@ -110,6 +113,7 @@ url = "https://github.com/RunOnFlux/flutter_base"
 
 [[repo]]
 url = "https://github.com/RunOnFlux/flux"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/RunOnFlux/flux-aave-interface"
@@ -313,6 +317,9 @@ url = "https://github.com/RunOnFlux/ssp-relay"
 
 [[repo]]
 url = "https://github.com/RunOnFlux/ssp-wallet"
+
+[[repo]]
+url = "https://github.com/RunOnFlux/ssp-website"
 
 [[repo]]
 url = "https://github.com/RunOnFlux/streamr-network"

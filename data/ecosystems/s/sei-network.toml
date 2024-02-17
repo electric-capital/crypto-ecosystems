@@ -1,14 +1,11 @@
 # Ecosystem Level Information
 title = "Sei Network"
 
-sub_ecosystems = []
+sub_ecosystems = ["Wormhole"]
 
 github_organizations = ["https://github.com/sei-protocol"]
 
 # Repositories
-[[repo]]
-url = "https://github.com/Desig-Labs/supported-chains"
-
 [[repo]]
 url = "https://github.com/sei-protocol/chain-registry"
 
@@ -60,6 +57,7 @@ url = "https://github.com/sei-protocol/js-react"
 
 [[repo]]
 url = "https://github.com/sei-protocol/mmap-iavl"
+missing = true
 
 [[repo]]
 url = "https://github.com/sei-protocol/nitro-replayer"

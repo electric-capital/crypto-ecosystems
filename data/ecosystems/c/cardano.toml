@@ -13,6 +13,7 @@ sub_ecosystems = [
   "Genius Yield",
   "Indigo Protocol",
   "Littlefish Foundation",
+  "Maestro",
   "Meld",
   "MeshJS",
   "Minswap",
@@ -21,6 +22,7 @@ sub_ecosystems = [
   "Ouroboros",
   "PixFi",
   "Plutonomicon",
+  "PoolTool",
   "Ray Network",
   "Seal Finance",
   "Shift Crypto",
@@ -29,9 +31,11 @@ sub_ecosystems = [
   "Spectrum Finance",
   "Spectrum Labs",
   "SundaeSwap",
+  "Tanglius",
   "Teddy Swap",
   "TxPipe",
   "WingRiders",
+  "Balance Analytics"
 ]
 
 github_organizations = [
@@ -44,6 +48,7 @@ github_organizations = [
   "https://github.com/cardano-community",
   "https://github.com/cardano-foundation",
   "https://github.com/CardanoSolutions",
+  "https://github.com/DripDropz",
   "https://github.com/fivebinaries",
   "https://github.com/geniusyield",
   "https://github.com/gimbalabs",
@@ -53,15 +58,22 @@ github_organizations = [
   "https://github.com/MartifyLabs",
   "https://github.com/OpShin",
   "https://github.com/Plutonomicon",
+  "https://github.com/projectNEWM",
+  "https://github.com/PoolTool-io",
   "https://github.com/spacebudz",
   "https://github.com/stakhanovite-io",
   "https://github.com/StricaHQ",
   "https://github.com/SundaeSwap-finance",
+  "https://github.com/tasdao",
   "https://github.com/txpipe",
   "https://github.com/vacuumlabs",
+  "https://github.com/wowica"
 ]
 
 # Repositories
+[[repo]]
+url = "https://bitbucket.org/muamw10/jormanager"
+
 [[repo]]
 url = "https://github.com/2nd-Layer/cardano-core-integration-testing"
 
@@ -1306,6 +1318,18 @@ url = "https://github.com/dQuadrant/kuber"
 [[repo]]
 url = "https://github.com/drahrealm/ada-tx-flight"
 missing = true
+
+[[repo]]
+url = "https://github.com/DripDropz/onchain-voting"
+
+[[repo]]
+url = "https://github.com/DripDropz/remote-signer"
+
+[[repo]]
+url = "https://github.com/DripDropz/support-scripts"
+
+[[repo]]
+url = "https://github.com/DripDropz/perma-lock"
 
 [[repo]]
 url = "https://github.com/Drunken-Dragon-Games/ddu"
@@ -4394,10 +4418,19 @@ url = "https://github.com/Liqwid-Labs/plutarch-unit"
 url = "https://github.com/Liqwid-Labs/plutus-extra"
 
 [[repo]]
+url = "https://github.com/lley154/atomic-swap-open-protocol"
+
+[[repo]]
 url = "https://github.com/lley154/cardano-lottery"
 
 [[repo]]
+url = "https://github.com/lley154/helios-examples"
+
+[[repo]]
 url = "https://github.com/lley154/littercoin"
+
+[[repo]]
+url = "https://github.com/lley154/payment-poc"
 
 [[repo]]
 url = "https://github.com/lley154/traceability-smart-contract"
@@ -4847,6 +4880,24 @@ url = "https://github.com/ProgressiveSweiry/Plutus-Contracts"
 
 [[repo]]
 url = "https://github.com/projectNEWM/contracts"
+
+[[repo]]
+url = "https://github.com/projectNEWM/newm-mobile"
+
+[[repo]]
+url = "https://github.com/projectNEWM/newm-server"
+
+[[repo]]
+url = "https://github.com/projectNEWM/kogmios"
+
+[[repo]]
+url = "https://github.com/projectNEWM/newm-web"
+
+[[repo]]
+url = "https://github.com/projectNEWM/newm-aipoph"
+
+[[repo]]
+url = "https://github.com/projectNEWM/cardano-dapp-wallet-connector"
 
 [[repo]]
 url = "https://github.com/psychomb/Cardano-fr-translations"
@@ -5973,6 +6024,9 @@ url = "https://github.com/woofpool/cardano-private-testnet-setup"
 url = "https://github.com/woofpool/PAB-starter-app-setup"
 
 [[repo]]
+url = "https://github.com/wowica/xogmios"
+
+[[repo]]
 url = "https://github.com/wutzebaer/cardano-tools"
 
 [[repo]]
@@ -6009,3 +6063,29 @@ url = "https://github.com/zodimo/TicTacToeWithBettingOnChain"
 
 [[repo]]
 url = "https://github.com/zopa/madao"
+
+[[repo]]
+url = "https://github.com/DevStakePool/thoth-bot"
+
+[[repo]]
+url = "https://github.com/qunosteve/AmphitheatreArmoury"
+tags = [ "Gaming"]
+
+[[repo]]
+url = "https://github.com/tasdao/digest"
+tags = [ "Documentation"]
+
+[[repo]]
+url = "https://github.com/PoolTool-io/PoolToolWebsite"
+
+[[repo]]
+url = "https://github.com/PoolTool-io/PoolToolMobileApp"
+
+[[repo]]
+url = "https://github.com/PoolTool-io/PoolToolBackend-DB"
+
+[[repo]]
+url = "https://github.com/PoolTool-io/PoolToolBackend-CNODE"
+
+[[repo]]
+url = "https://github.com/PoolTool-io/CardanoStakeholderAuthenticator"

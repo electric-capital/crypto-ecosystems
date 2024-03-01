@@ -1,11 +1,37 @@
 # Ecosystem Level Information
 title = "Zora"
 
-sub_ecosystems = ["LayerZero", "Reservoir Protocol", "Wagmi"]
+sub_ecosystems = [
+    "DipDup"
+    "LayerZero",
+    "Reservoir Protocol",
+    "Wagmi"
+    ]
 
 github_organizations = ["https://github.com/ourzora"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/dipdup-io/dipdup"
+
+[[repo]]
+url = "https://github.com/dipdup-io/ipfs-tools"
+
+[[repo]]
+url = "https://github.com/dipdup-io/workerpool"
+
+[[repo]]
+url = "https://github.com/dipdup-io/abi-indexer"
+
+[[repo]]
+url = "https://github.com/dipdup-io/playground"
+
+[[repo]]
+url = "https://github.com/dipdup-io/aiosignalrcore"
+
+[[repo]]
+url = "https://github.com/dipdup-io/postgres-s3-backup"
+
 [[repo]]
 url = "https://github.com/ourzora/actions-runner-controller"
 

@@ -112,7 +112,7 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationEr
                 ecosystems.insert(title, ecosystem);
             }
             Err(err) => {
-                return Err(CEError::TomlParseError {
+                Err(CEError::TomlParseError {
                     path: toml_path.display().to_string(),
                     toml_error: err,
                 })?;
@@ -204,7 +204,7 @@ fn validate(data_path: String) -> Result<()> {
         Ok((ecosystem_map, title_errors)) => {
             let mut errors = validate_ecosystems(&ecosystem_map);
             errors.extend(title_errors);
-            if errors.len() > 0 {
+            if !errors.is_empty() {
                 for err in errors {
                     println!("{}", err);
                 }
@@ -225,7 +225,7 @@ fn export(data_path: String, output_path: String, only_repos: bool) -> Result<()
         Ok((ecosystem_map, title_errors)) => {
             let mut errors = validate_ecosystems(&ecosystem_map);
             errors.extend(title_errors);
-            if errors.len() > 0 {
+            if !errors.is_empty() {
                 for err in errors {
                     println!("{}", err);
                 }
@@ -238,7 +238,7 @@ fn export(data_path: String, output_path: String, only_repos: bool) -> Result<()
                         for repo in repositories {
                             repo_set
                                 .entry(&ecosystem.title)
-                                .or_insert(Vec::new())
+                                .or_default()
                                 .push(repo.url.clone());
                         }
                     }

@@ -9,6 +9,7 @@ use structopt::StructOpt;
 use thiserror::Error;
 
 #[derive(Debug, StructOpt)]
+
 #[structopt(about = "Taxonomy of crypto open source repositories")]
 #[structopt(name = "crypto-ecosystems", rename_all = "kebab-case")]
 enum Cli {

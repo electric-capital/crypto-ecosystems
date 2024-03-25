@@ -6,6 +6,7 @@ sub_ecosystems = [
   "anetaBTC",
   "Atomic Swap",
   "B58",
+  "Balance Analytics",
   "Berry",
   "Blockfrost",
   "Celer Network cBridge",
@@ -35,8 +36,7 @@ sub_ecosystems = [
   "Teddy Swap",
   "TxPipe",
   "WingRiders",
-  "Balance Analytics",
-  "zenGate Global"
+  "zenGate Global",
 ]
 
 github_organizations = [
@@ -59,8 +59,8 @@ github_organizations = [
   "https://github.com/MartifyLabs",
   "https://github.com/OpShin",
   "https://github.com/Plutonomicon",
-  "https://github.com/projectNEWM",
   "https://github.com/PoolTool-io",
+  "https://github.com/projectNEWM",
   "https://github.com/spacebudz",
   "https://github.com/stakhanovite-io",
   "https://github.com/StricaHQ",
@@ -69,7 +69,7 @@ github_organizations = [
   "https://github.com/txpipe",
   "https://github.com/vacuumlabs",
   "https://github.com/wowica",
-  "https://github.com/zkFold"
+  "https://github.com/zkFold",
 ]
 
 # Repositories
@@ -1294,6 +1294,9 @@ url = "https://github.com/devfull/plutology"
 url = "https://github.com/devhulk/cardano-scripts"
 
 [[repo]]
+url = "https://github.com/DevStakePool/thoth-bot"
+
+[[repo]]
 url = "https://github.com/DimSoftware/dotnet-cardano-rest-api-blockchain-explorer"
 
 [[repo]]
@@ -1325,13 +1328,13 @@ missing = true
 url = "https://github.com/DripDropz/onchain-voting"
 
 [[repo]]
+url = "https://github.com/DripDropz/perma-lock"
+
+[[repo]]
 url = "https://github.com/DripDropz/remote-signer"
 
 [[repo]]
 url = "https://github.com/DripDropz/support-scripts"
-
-[[repo]]
-url = "https://github.com/DripDropz/perma-lock"
 
 [[repo]]
 url = "https://github.com/Drunken-Dragon-Games/ddu"
@@ -4866,6 +4869,21 @@ url = "https://github.com/Plutonomicon/plutonomicon"
 url = "https://github.com/Plutonomicon/Shrinker"
 
 [[repo]]
+url = "https://github.com/PoolTool-io/CardanoStakeholderAuthenticator"
+
+[[repo]]
+url = "https://github.com/PoolTool-io/PoolToolBackend-CNODE"
+
+[[repo]]
+url = "https://github.com/PoolTool-io/PoolToolBackend-DB"
+
+[[repo]]
+url = "https://github.com/PoolTool-io/PoolToolMobileApp"
+
+[[repo]]
+url = "https://github.com/PoolTool-io/PoolToolWebsite"
+
+[[repo]]
 url = "https://github.com/PortalNetwork/cns"
 
 [[repo]]
@@ -4881,7 +4899,16 @@ url = "https://github.com/prodderman/cardano-test"
 url = "https://github.com/ProgressiveSweiry/Plutus-Contracts"
 
 [[repo]]
+url = "https://github.com/projectNEWM/cardano-dapp-wallet-connector"
+
+[[repo]]
 url = "https://github.com/projectNEWM/contracts"
+
+[[repo]]
+url = "https://github.com/projectNEWM/kogmios"
+
+[[repo]]
+url = "https://github.com/projectNEWM/newm-aipoph"
 
 [[repo]]
 url = "https://github.com/projectNEWM/newm-mobile"
@@ -4890,16 +4917,7 @@ url = "https://github.com/projectNEWM/newm-mobile"
 url = "https://github.com/projectNEWM/newm-server"
 
 [[repo]]
-url = "https://github.com/projectNEWM/kogmios"
-
-[[repo]]
 url = "https://github.com/projectNEWM/newm-web"
-
-[[repo]]
-url = "https://github.com/projectNEWM/newm-aipoph"
-
-[[repo]]
-url = "https://github.com/projectNEWM/cardano-dapp-wallet-connector"
 
 [[repo]]
 url = "https://github.com/psychomb/Cardano-fr-translations"
@@ -4921,6 +4939,10 @@ url = "https://github.com/QuertyCube/PlutusRouletteBettingSystem"
 
 [[repo]]
 url = "https://github.com/QuertyCube/reposteting"
+
+[[repo]]
+url = "https://github.com/qunosteve/AmphitheatreArmoury"
+tags = ["Gaming"]
 
 [[repo]]
 url = "https://github.com/Quviq/quickcheck-contractmodel"
@@ -5328,6 +5350,10 @@ url = "https://github.com/tas2017/cardano-plutus-starter"
 
 [[repo]]
 url = "https://github.com/tas2017/plutus-mint-lock-unlock-dapp"
+
+[[repo]]
+url = "https://github.com/tasdao/digest"
+tags = ["Documentation"]
 
 [[repo]]
 url = "https://github.com/tdiesler/nessus-cardano"
@@ -6057,6 +6083,12 @@ url = "https://github.com/zakaio/proofspace-token-registry-contract"
 url = "https://github.com/zakhard90/plutus-upgradeable-nfts"
 
 [[repo]]
+url = "https://github.com/zkFold/zkfold-base"
+
+[[repo]]
+url = "https://github.com/zkFold/zkfold-symbolic-demo"
+
+[[repo]]
 url = "https://github.com/zmrocze/mlabs-tooling-simple-example"
 missing = true
 
@@ -6065,36 +6097,3 @@ url = "https://github.com/zodimo/TicTacToeWithBettingOnChain"
 
 [[repo]]
 url = "https://github.com/zopa/madao"
-
-[[repo]]
-url = "https://github.com/DevStakePool/thoth-bot"
-
-[[repo]]
-url = "https://github.com/qunosteve/AmphitheatreArmoury"
-tags = [ "Gaming"]
-
-[[repo]]
-url = "https://github.com/tasdao/digest"
-tags = [ "Documentation"]
-
-[[repo]]
-url = "https://github.com/PoolTool-io/PoolToolWebsite"
-
-[[repo]]
-url = "https://github.com/PoolTool-io/PoolToolMobileApp"
-
-[[repo]]
-url = "https://github.com/PoolTool-io/PoolToolBackend-DB"
-
-[[repo]]
-url = "https://github.com/PoolTool-io/PoolToolBackend-CNODE"
-
-[[repo]]
-url = "https://github.com/PoolTool-io/CardanoStakeholderAuthenticator"
-
-[[repo]]
-url = "https://github.com/zkFold/zkfold-base"
-
-[[repo]]
-url = "https://github.com/zkFold/zkfold-symbolic-demo"
-

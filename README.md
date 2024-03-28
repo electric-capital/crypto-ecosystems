@@ -1,4 +1,3 @@
-
 **V1.1 UPDATE [12/20/23]:** Read about the Crypto Ecosystems taxonomy's update to Version 1.1 [here](https://github.com/electric-capital/crypto-ecosystems/releases/tag/1.1).
 
 # Crypto Ecosystems
@@ -88,12 +87,12 @@ If you’re working in open source crypto, submit your repository [here](https:/
 There are three types of contributions you can make to this data set:
 
 1. Adding a new ecosystem (e.g. a new layer 1 blockchain)
-2. Adding a new sub-ecosystem (e.g. a big organisation that has multiple repos within the above ecosystem)
+2. Adding a new sub-ecosystem (e.g. a big organization that has multiple repos within the above ecosystem)
 3. Adding a new repo (e.g. an individual project within the ecosystem/sub-ecosystem) or organization
 
 This may sound confusing. It is perhaps even more confusing because whilst there are these different data sources/structures, all of them sit within one directory (data/ecosystems) as `.toml` files.
 
-To make things easier, we've made the following roadmap for you to follow depending on which of the above 3 types of contributions you're trying to make. 
+To make things easier, we've made the following roadmap for you to follow depending on which of the above 3 types of contributions you're trying to make.
 
 ### Option 1: Adding a new ecosystem (e.g. blockchain)
 
@@ -112,9 +111,10 @@ title = "EasyA Chain"
 # Required field number 2: List of associated GitHub organizations
 github_organizations = ["https://github.com/EasyA-Tech"]
 ```
+
 6. Make your PR! ✅
 
-Remember that this is a hierarchy. If you're adding a Cosmos appchain, therefore, you should be following Option 2 below (since it will be a sub-ecosystem of Cosmos).
+Remember that this is a hierarchy. If you're adding a Cosmos AppChain, therefore, you should be following Option 2 below (since it will be a sub-ecosystem of Cosmos).
 
 It's important to note also that you **do not** need to add all the repos within your GitHub organizations to the `.toml` file as individual repos, because the system automatically fetches all repos within the organization.
 
@@ -147,20 +147,22 @@ title = "EasyA Chain"
 
 github_organizations = ["https://github.com/EasyA-Tech"]
 ```
-6. You will then need to do one of two things.
 
-    1. If there are no sub-ecosystems yet, add your sub-ecosystem by adding the following line:
+6.  You will then need to do one of two things.
 
-    ```toml
-    sub_ecosystems = ["EasyA Community Wallet"]
-    ```
+        1. If there are no sub-ecosystems yet, add your sub-ecosystem by adding the following line:
 
-    2. If you see a line starting with `sub_ecosystems` already, then simple add your sub-ecosystem to the list:
+        ```toml
+        sub_ecosystems = ["EasyA Community Wallet"]
+        ```
 
-    ```toml
-    sub_ecosystems = ["Pre-existing Sub-Ecosystem", "EasyA Community Wallet"]
-    ```
-Overall, your file should then look something like this:
+        2. If you see a line starting with `sub_ecosystems` already, then simple add your sub-ecosystem to the list:
+
+        ```toml
+        sub_ecosystems = ["Pre-existing Sub-Ecosystem", "EasyA Community Wallet"]
+        ```
+
+    Overall, your file should then look something like this:
 
 ```toml
 title = "EasyA Chain"
@@ -183,14 +185,14 @@ title = "EasyA Community Wallet"
 # Required field number 2: List of associated GitHub organizations
 github_organizations = ["https://github.com/EasyA-Community-Wallet"]
 ```
+
 12. Make your PR! ✅
 
 Please remember here too that the same note as in Option 1 applies: the system automatically pulls in the repos from your sub-ecosystem GitHub organization, so you don't need to list them all out individually.
 
 If you prefer videos, you can also see the above steps done live [here](https://www.loom.com/share/f23aab8c675940a9998b228ea1e179b7).
 
-If you've been following along closely, you'll have noticed that the steps after adding the sub-ecosystem to the parent ecosystem are exactly the same a Option 1 (adding a totally new ecosystem that has no parents). That's because this taxonomy is based on ancestry. Any sub-ecosystem is basically just an ecosystem in its own right (it's not like a sub-ecosystem is any less valuable). The ecosystem and sub-ecosystem dichotomy is merely there so we can see the relationship between different ecosystems. You can keep adding sub-ecoystems to sub-ecosystems ad infinitum (forever).
-
+If you've been following along closely, you'll have noticed that the steps after adding the sub-ecosystem to the parent ecosystem are exactly the same a Option 1 (adding a totally new ecosystem that has no parents). That's because this taxonomy is based on ancestry. Any sub-ecosystem is basically just an ecosystem in its own right (it's not like a sub-ecosystem is any less valuable). The ecosystem and sub-ecosystem dichotomy is merely there so we can see the relationship between different ecosystems. You can keep adding sub-ecosystems to sub-ecosystems ad infinitum (forever).
 
 ### Option 3: Adding a new repo or organization
 
@@ -201,9 +203,10 @@ title = "EasyA Chain"
 
 github_organizations = ["https://github.com/EasyA-Tech"]
 ```
+
 So don't worry! You don't need to add every single repo if it's already part of an organization that's in the data set.
 
-To add a new organization, simply append its full GitHub URL to the list of organizations in the associated ecosystem. Let's take the example of adding an organization with the URL `https://github.com/EasyA-Community` as part of the `EasyA Chain` ecosystem. 
+To add a new organization, simply append its full GitHub URL to the list of organizations in the associated ecosystem. Let's take the example of adding an organization with the URL `https://github.com/EasyA-Community` as part of the `EasyA Chain` ecosystem.
 
 You would follow these steps:
 
@@ -218,21 +221,24 @@ title = "EasyA Chain"
 
 github_organizations = ["https://github.com/EasyA-Tech"]
 ```
-6. Simply add your GitHub organization URL to the list. Here, ours is `https://github.com/EasyA-Community` so we'll add that: 
+
+6. Simply add your GitHub organization URL to the list. Here, ours is `https://github.com/EasyA-Community` so we'll add that:
 
 ```toml
 title = "EasyA Chain"
 
 github_organizations = ["https://github.com/EasyA-Tech", "https://github.com/EasyA-Community"]
 ```
+
 7. Make your PR! ✅
 
 When, then, should you add repos? You only need to add a repo directly to an ecosystem if:
 
-1. ✅ It is not owned by a GitHub organization already listed in an ecosystem file (those `.toml` files) 
+1. ✅ It is not owned by a GitHub organization already listed in an ecosystem file (those `.toml` files)
 2. ✅ It is not itself an ecosystem/sub-ecosystem (in which case you'd be adding it as an ecosystem)
 
-The types of projects that will commonly get added as individual repos are: 
+The types of projects that will commonly get added as individual repos are:
+
 - Documentation
 - Wallets
 - Utility Libraries
@@ -240,7 +246,7 @@ The types of projects that will commonly get added as individual repos are:
 
 Usually these will be repos created by the community (so not already accounted for under the ecosystem/sub-ecosystem GitHub organization). Use that as a rough heuristic here. If the repo you're adding is actually one of many repos all in the same ecosystem, and in fact the organization only contributes to that one ecosystem, then you should almost certainly be adding your organization instead.
 
-If you're happy that you should be adding this repo, then here's how to do it. Let's take the example of a community contributor with the GitHub handle `Platonicsocrates` who's created a helper library for the `EasyA Chain` but also contributes to other projects (so we shouldn't add their whole organization/profile). Their repo URL `https://github.com/platonicsocrates/easya-helpers`. 
+If you're happy that you should be adding this repo, then here's how to do it. Let's take the example of a community contributor with the GitHub handle `Platonicsocrates` who's created a helper library for the `EasyA Chain` but also contributes to other projects (so we shouldn't add their whole organization/profile). Their repo URL `https://github.com/platonicsocrates/easya-helpers`.
 
 You would follow these steps to add it:
 
@@ -255,6 +261,7 @@ title = "EasyA Chain"
 
 github_organizations = ["https://github.com/EasyA-Tech"]
 ```
+
 6. Simply add the following three lines at the end of the `.toml` file:
 
 ```toml
@@ -270,14 +277,14 @@ If there are already other repos in the ecosystem, just add the above as new lin
 # Repo that's already been added
 [[repo]]
 url = "https://github.com/platonicsocrates/easya-js"
-tags = [ "Library"] 
+tags = [ "Library"]
 
 # Our new repo
 [[repo]]
 url = "https://github.com/platonicsocrates/easya-helpers" # Replace this URL with your repo url
 tags = [ "Library"] # This line is optional
 ```
-7. Make your PR! ✅
 
+7. Make your PR! ✅
 
 Thank you for contributing and for reading the contribution guide! ❤️

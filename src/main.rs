@@ -34,11 +34,11 @@ enum Cli {
 enum ValidationError {
     MissingSubecosystem { parent: String, child: String },
 
-     DuplicateRepoUrl(String),
+    DuplicateRepoUrl(String),
 
-     TitleError(String),
+    TitleError(String),
 
-     EmptyEcosystem(String),
+    EmptyEcosystem(String),
  }
 
  impl Display for ValidationError {
@@ -50,12 +50,12 @@ enum ValidationError {
             ValidationError::DuplicateRepoUrl(url) => {
                 write!(f, "Duplicate repo URL: {}", url)
             }
-             ValidationError::TitleError(file) => {
-                 write!(f, "Title with leading/trailing space found in file: {}. Please remove the space(s) from your title.", file)
-             }
-             ValidationError::EmptyEcosystem(file) => {
-                  write!(f, "Ecosystem in file {} has neither organizations nor sub-ecosystems. Please remove this. You can add it back later when/if you find its orgs / repos.", file)
-              }
+            ValidationError::TitleError(file) => {
+                write!(f, "Title with leading/trailing space found in file: {}. Please remove the space(s) from your title.", file)
+            }
+            ValidationError::EmptyEcosystem(file) => {
+                write!(f, "Ecosystem in file {} has neither organizations nor sub-ecosystems. Please remove this. You can add it back later when/if you find its orgs / repos.", file)
+            }
          }
      }
  }
@@ -126,9 +126,9 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
     let mut errors = vec![];
     let mut repo_set = HashSet::new();
     let mut tagmap: HashMap<String, u32> = HashMap::new();
-     let mut missing_count = 0;
+    let mut missing_count = 0;
 
-     for ecosystem in ecosystem_map.values() {
+    for ecosystem in ecosystem_map.values() {
 
          let has_sub_ecosystems = ecosystem.sub_ecosystems
              .as_ref()
@@ -179,9 +179,9 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
          if !(has_sub_ecosystems || has_orgs || has_repos) {
              errors.push(ValidationError::EmptyEcosystem(ecosystem.title.clone()));
          }
-     }
+    }
 
-     if errors.is_empty() {
+    if errors.is_empty() {
          println!(
              "Validated {} ecosystems and {} repos ({} missing)",
              ecosystem_map.len(),

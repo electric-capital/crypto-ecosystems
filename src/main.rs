@@ -16,7 +16,6 @@ enum Cli {
     Validate {
         /// Path to top level directory containing ecosystem toml files
         data_path: String,
-
     },
     /// Export list of ecosystems and repos to a JSON file
     Export {
@@ -39,9 +38,20 @@ enum ValidationError {
     TitleError(String),
 
     EmptyEcosystem(String),
- }
 
- impl Display for ValidationError {
+    UnsortedEcosystem(UnsortedEcosystem),
+}
+
+#[derive(Debug)]
+struct UnsortedEcosystem {
+    ecosystem: String,
+    path: String,
+    repos: Vec<String>,
+    sub_ecos: Vec<String>,
+    github_orgs: Vec<String>,
+}
+
+impl Display for ValidationError {
     fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
         match self {
             ValidationError::MissingSubecosystem { parent, child } => {
@@ -56,9 +66,35 @@ enum ValidationError {
             ValidationError::EmptyEcosystem(file) => {
                 write!(f, "Ecosystem in file {} has neither organizations nor sub-ecosystems. Please remove this. You can add it back later when/if you find its orgs / repos.", file)
             }
-         }
-     }
- }
+            ValidationError::UnsortedEcosystem(unsorted_eco) => {
+                writeln!(
+                    f,
+                    "Ecosystem {} in path: {} has the following unsorted data",
+                    unsorted_eco.ecosystem, unsorted_eco.path
+                )?;
+                if unsorted_eco.sub_ecos.len() > 0 {
+                    writeln!(f, "{} unsorted sub ecosystems", unsorted_eco.sub_ecos.len())?;
+                }
+                for sub_eco in &unsorted_eco.sub_ecos {
+                    writeln!(f, "\t- {}", sub_eco)?;
+                }
+                if unsorted_eco.github_orgs.len() > 0 {
+                    writeln!(f, "{} unsorted github orgs", unsorted_eco.github_orgs.len())?;
+                }
+                for org in &unsorted_eco.github_orgs {
+                    writeln!(f, "\t- {}", org)?;
+                }
+                if unsorted_eco.repos.len() > 0 {
+                    writeln!(f, "{} unsorted repos", unsorted_eco.repos.len())?;
+                }
+                for org in &unsorted_eco.repos {
+                    writeln!(f, "\t- {}", org)?;
+                }
+                Ok(())
+            }
+        }
+    }
+}
 #[derive(Debug, Deserialize, Serialize)]
 struct Ecosystem {
     pub title: String,
@@ -122,6 +158,21 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationEr
     Ok((ecosystems, errors))
 }
 
+fn find_misordered_elements(strings: &[String]) -> Vec<String> {
+    let mut misordered_elements = Vec::new();
+    if strings.len() == 0 {
+        return misordered_elements;
+    }
+    for i in 0..strings.len() - 1 {
+        if strings[i].to_lowercase() > strings[i + 1].to_lowercase() {
+            // Add the current element if it is greater than the next element
+            misordered_elements.push(strings[i].to_string());
+        }
+    }
+
+    misordered_elements
+}
+
 fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
     let mut errors = vec![];
     let mut repo_set = HashSet::new();
@@ -129,36 +180,57 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
     let mut missing_count = 0;
 
     for ecosystem in ecosystem_map.values() {
+        let has_sub_ecosystems = ecosystem
+            .sub_ecosystems
+            .as_ref()
+            .map_or(false, |sub_ecosystems| !sub_ecosystems.is_empty());
 
-         let has_sub_ecosystems = ecosystem.sub_ecosystems
-             .as_ref()
-             .map_or(false, |sub_ecosystems| !sub_ecosystems.is_empty());
+        let has_orgs = ecosystem
+            .github_organizations
+            .as_ref()
+            .map_or(false, |orgs| !orgs.is_empty());
 
-         let has_orgs = ecosystem.github_organizations
-             .as_ref()
-             .map_or(false, |orgs| !orgs.is_empty());
+        let has_repos = ecosystem
+            .repo
+            .as_ref()
+            .map_or(false, |repos| !repos.is_empty());
 
-         let has_repos = ecosystem.repo
-             .as_ref()
-             .map_or(false, |repos| !repos.is_empty());
+        let mut seen_repos = HashSet::new();
 
-         let mut seen_repos = HashSet::new();
-
-         if let Some(sub_ecosystems) = &ecosystem.sub_ecosystems {
-             for sub in sub_ecosystems {
-                 if !ecosystem_map.contains_key(sub) {
-                     errors.push(ValidationError::MissingSubecosystem {
+        //let mut sorted_subs = vec![];
+        let mut sort_error = UnsortedEcosystem {
+            ecosystem: ecosystem.title.clone(),
+            path: String::from(""),
+            repos: vec![],
+            sub_ecos: vec![],
+            github_orgs: vec![],
+        };
+        if let Some(sub_ecosystems) = &ecosystem.sub_ecosystems {
+            for sub in sub_ecosystems {
+                if !ecosystem_map.contains_key(sub) {
+                    errors.push(ValidationError::MissingSubecosystem {
                         parent: ecosystem.title.clone(),
                         child: sub.clone(),
                     });
                 }
-             }
-         }
+            }
+            let unsorted_subs = find_misordered_elements(&sub_ecosystems);
+            if unsorted_subs.len() > 0 {
+                sort_error.sub_ecos = unsorted_subs;
+            }
+        }
 
-         if let Some(repos) = &ecosystem.repo {
-             for repo in repos {
-                 let lowercase_url = repo.url.to_lowercase();
-                 if seen_repos.contains(&lowercase_url) {
+        if let Some(github_orgs) = &ecosystem.github_organizations {
+            let unsorted_orgs = find_misordered_elements(&github_orgs);
+            if unsorted_orgs.len() > 0 {
+                sort_error.github_orgs = unsorted_orgs;
+            }
+        }
+
+        if let Some(repos) = &ecosystem.repo {
+            for repo in repos {
+                let lowercase_url = repo.url.to_lowercase();
+                if seen_repos.contains(&lowercase_url) {
                     errors.push(ValidationError::DuplicateRepoUrl(repo.url.clone()));
                 } else {
                     seen_repos.insert(lowercase_url);
@@ -172,30 +244,41 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
                         let counter = tagmap.entry(tag.to_string()).or_insert(0);
                         *counter += 1;
                     }
-                 }
-             }
-         }
+                }
+            }
+            let repo_urls: Vec<String> = repos.iter().map(|x| x.url.clone()).collect();
+            let unsorted_repos = find_misordered_elements(&repo_urls);
+            if unsorted_repos.len() > 0 {
+                sort_error.repos = unsorted_repos.to_vec();
+            }
+        }
 
-         if !(has_sub_ecosystems || has_orgs || has_repos) {
-             errors.push(ValidationError::EmptyEcosystem(ecosystem.title.clone()));
-         }
-    }
+        if !(has_sub_ecosystems || has_orgs || has_repos) {
+            errors.push(ValidationError::EmptyEcosystem(ecosystem.title.clone()));
+        }
 
-    if errors.is_empty() {
-         println!(
-             "Validated {} ecosystems and {} repos ({} missing)",
-             ecosystem_map.len(),
-            repo_set.len(),
-            missing_count,
-        );
-        println!("\nTags");
-        for (tag, count) in tagmap {
-            println!("\t{}: {}", tag, count);
+        if sort_error.sub_ecos.len() > 0
+            || sort_error.github_orgs.len() > 0
+            || sort_error.repos.len() > 0
+        {
+            errors.push(ValidationError::UnsortedEcosystem(sort_error));
         }
     }
 
-    errors
+    if errors.is_empty() {
+        println!(
+            "Validated {} ecosystems and {} repos ({} missing)",
+            ecosystem_map.len(),
+            repo_set.len(),
+            missing_count,
+        );
+        //println!("\nTags");
+        // for (tag, count) in tagmap {
+        //     println!("\t{}: {}", tag, count);
+        // }
+    }
 
+    errors
 }
 
 fn validate(data_path: String) -> Result<()> {

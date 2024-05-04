@@ -1,9 +1,17 @@
+# Ecosystem Level Information
 title = "Rakeoff"
+
 sub_ecosystems = []
+
 github_organizations = ["https://github.com/rakeoff-labs"]
+
+# Repositories
 [[repo]]
 url = "https://github.com/rakeoff-labs/analytics"
 missing = true
+
+[[repo]]
+url = "https://github.com/rakeoff-labs/rakeoff"
 
 [[repo]]
 url = "https://github.com/rakeoff-labs/rakeoff_achievements"
@@ -16,7 +24,3 @@ url = "https://github.com/rakeoff-labs/rakeoff_landing"
 
 [[repo]]
 url = "https://github.com/rakeoff-labs/rakeoff_statistics"
-
-[[repo]]
-url = "https://github.com/rakeoff-labs/rakeoff"
-

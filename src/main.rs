@@ -45,7 +45,6 @@ enum ValidationError {
 #[derive(Debug)]
 struct UnsortedEcosystem {
     ecosystem: String,
-    path: String,
     repos: Vec<String>,
     sub_ecos: Vec<String>,
     github_orgs: Vec<String>,
@@ -69,8 +68,8 @@ impl Display for ValidationError {
             ValidationError::UnsortedEcosystem(unsorted_eco) => {
                 writeln!(
                     f,
-                    "Ecosystem {} in path: {} has the following unsorted data",
-                    unsorted_eco.ecosystem, unsorted_eco.path
+                    "{} has the following unsorted data",
+                    unsorted_eco.ecosystem,
                 )?;
                 if unsorted_eco.sub_ecos.len() > 0 {
                     writeln!(f, "{} unsorted sub ecosystems", unsorted_eco.sub_ecos.len())?;
@@ -200,7 +199,6 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
         //let mut sorted_subs = vec![];
         let mut sort_error = UnsortedEcosystem {
             ecosystem: ecosystem.title.clone(),
-            path: String::from(""),
             repos: vec![],
             sub_ecos: vec![],
             github_orgs: vec![],

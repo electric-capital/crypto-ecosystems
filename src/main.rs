@@ -1,5 +1,7 @@
 use anyhow::Result;
 use glob::glob;
+use imara_diff::intern::InternedInput;
+use imara_diff::{diff, Algorithm, UnifiedDiffBuilder};
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
 use std::fmt::{Display, Formatter};
@@ -45,9 +47,9 @@ enum ValidationError {
 #[derive(Debug)]
 struct UnsortedEcosystem {
     ecosystem: String,
-    repos: Vec<String>,
-    sub_ecos: Vec<String>,
-    github_orgs: Vec<String>,
+    repo_diff: Option<String>,
+    sub_eco_diff: Option<String>,
+    github_org_diff: Option<String>,
 }
 
 impl Display for ValidationError {
@@ -71,23 +73,14 @@ impl Display for ValidationError {
                     "{} has the following unsorted data",
                     unsorted_eco.ecosystem,
                 )?;
-                if unsorted_eco.sub_ecos.len() > 0 {
-                    writeln!(f, "{} unsorted sub ecosystems", unsorted_eco.sub_ecos.len())?;
+                if let Some(ref eco_diff) = unsorted_eco.sub_eco_diff {
+                    writeln!(f, "Sub ecosystems\n{}\n", eco_diff)?;
                 }
-                for sub_eco in &unsorted_eco.sub_ecos {
-                    writeln!(f, "\t- {}", sub_eco)?;
+                if let Some(ref org_diff) = unsorted_eco.github_org_diff {
+                    writeln!(f, "Github Orgs\n{}\n", org_diff)?;
                 }
-                if unsorted_eco.github_orgs.len() > 0 {
-                    writeln!(f, "{} unsorted github orgs", unsorted_eco.github_orgs.len())?;
-                }
-                for org in &unsorted_eco.github_orgs {
-                    writeln!(f, "\t- {}", org)?;
-                }
-                if unsorted_eco.repos.len() > 0 {
-                    writeln!(f, "{} unsorted repos", unsorted_eco.repos.len())?;
-                }
-                for org in &unsorted_eco.repos {
-                    writeln!(f, "\t- {}", org)?;
+                if let Some(ref repos) = unsorted_eco.repo_diff {
+                    writeln!(f, "Repos\n{}\n", repos)?;
                 }
                 Ok(())
             }
@@ -157,19 +150,25 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationEr
     Ok((ecosystems, errors))
 }
 
-fn find_misordered_elements(strings: &[String]) -> Vec<String> {
-    let mut misordered_elements = Vec::new();
+fn find_misordered_elements_diff(strings: &[String]) -> Option<String> {
     if strings.len() == 0 {
-        return misordered_elements;
-    }
-    for i in 0..strings.len() - 1 {
-        if strings[i].to_lowercase() > strings[i + 1].to_lowercase() {
-            // Add the current element if it is greater than the next element
-            misordered_elements.push(strings[i].to_string());
-        }
+        return None;
     }
 
-    misordered_elements
+    let before = strings.join("\n").to_string();
+    let mut sorted = strings.to_vec();
+    sorted.sort_by_key(|x| x.to_lowercase());
+    if strings == sorted {
+        return None;
+    }
+    let after = sorted.join("\n").to_string();
+    let input = InternedInput::new(before.as_str(), after.as_str());
+    let diff = diff(
+        Algorithm::Histogram,
+        &input,
+        UnifiedDiffBuilder::new(&input),
+    );
+    return Some(diff);
 }
 
 fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
@@ -199,9 +198,9 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
         //let mut sorted_subs = vec![];
         let mut sort_error = UnsortedEcosystem {
             ecosystem: ecosystem.title.clone(),
-            repos: vec![],
-            sub_ecos: vec![],
-            github_orgs: vec![],
+            repo_diff: None,
+            sub_eco_diff: None,
+            github_org_diff: None,
         };
         if let Some(sub_ecosystems) = &ecosystem.sub_ecosystems {
             for sub in sub_ecosystems {
@@ -212,17 +211,11 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
                     });
                 }
             }
-            let unsorted_subs = find_misordered_elements(&sub_ecosystems);
-            if unsorted_subs.len() > 0 {
-                sort_error.sub_ecos = unsorted_subs;
-            }
+            sort_error.sub_eco_diff = find_misordered_elements_diff(&sub_ecosystems);
         }
 
         if let Some(github_orgs) = &ecosystem.github_organizations {
-            let unsorted_orgs = find_misordered_elements(&github_orgs);
-            if unsorted_orgs.len() > 0 {
-                sort_error.github_orgs = unsorted_orgs;
-            }
+            sort_error.github_org_diff = find_misordered_elements_diff(&github_orgs);
         }
 
         if let Some(repos) = &ecosystem.repo {
@@ -245,19 +238,16 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
                 }
             }
             let repo_urls: Vec<String> = repos.iter().map(|x| x.url.clone()).collect();
-            let unsorted_repos = find_misordered_elements(&repo_urls);
-            if unsorted_repos.len() > 0 {
-                sort_error.repos = unsorted_repos.to_vec();
-            }
+            sort_error.repo_diff = find_misordered_elements_diff(&repo_urls);
         }
 
         if !(has_sub_ecosystems || has_orgs || has_repos) {
             errors.push(ValidationError::EmptyEcosystem(ecosystem.title.clone()));
         }
 
-        if sort_error.sub_ecos.len() > 0
-            || sort_error.github_orgs.len() > 0
-            || sort_error.repos.len() > 0
+        if sort_error.sub_eco_diff.is_some()
+            || sort_error.github_org_diff.is_some()
+            || sort_error.repo_diff.is_some()
         {
             errors.push(ValidationError::UnsortedEcosystem(sort_error));
         }
@@ -287,7 +277,7 @@ fn validate(data_path: String) -> Result<()> {
             errors.extend(title_errors);
             if !errors.is_empty() {
                 for err in errors {
-                    println!("{}", err);
+                    print!("{}", err);
                 }
                 std::process::exit(-1);
             }

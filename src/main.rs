@@ -151,7 +151,7 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationEr
 }
 
 fn find_misordered_elements_diff(strings: &[String]) -> Option<String> {
-    if strings.len() == 0 {
+    if strings.is_empty() {
         return None;
     }
 
@@ -168,7 +168,7 @@ fn find_misordered_elements_diff(strings: &[String]) -> Option<String> {
         &input,
         UnifiedDiffBuilder::new(&input),
     );
-    return Some(diff);
+    Some(diff)
 }
 
 fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
@@ -211,11 +211,11 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
                     });
                 }
             }
-            sort_error.sub_eco_diff = find_misordered_elements_diff(&sub_ecosystems);
+            sort_error.sub_eco_diff = find_misordered_elements_diff(sub_ecosystems);
         }
 
         if let Some(github_orgs) = &ecosystem.github_organizations {
-            sort_error.github_org_diff = find_misordered_elements_diff(&github_orgs);
+            sort_error.github_org_diff = find_misordered_elements_diff(github_orgs);
         }
 
         if let Some(repos) = &ecosystem.repo {

@@ -56,21 +56,21 @@ impl Display for ValidationError {
     fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
         match self {
             ValidationError::MissingSubecosystem { parent, child } => {
-                write!(f, "Invalid subecosystem for {} -> {}", parent, child)
+                writeln!(f, "Invalid subecosystem for {} -> {}", parent, child)
             }
             ValidationError::DuplicateRepoUrl(url) => {
-                write!(f, "Duplicate repo URL: {}", url)
+                writeln!(f, "Duplicate repo URL: {}", url)
             }
             ValidationError::TitleError(file) => {
-                write!(f, "Title with leading/trailing space found in file: {}. Please remove the space(s) from your title.", file)
+                writeln!(f, "Title with leading/trailing space found in file: {}. Please remove the space(s) from your title.", file)
             }
             ValidationError::EmptyEcosystem(file) => {
-                write!(f, "Ecosystem in file {} has neither organizations nor sub-ecosystems. Please remove this. You can add it back later when/if you find its orgs / repos.", file)
+                writeln!(f, "Ecosystem in file {} has neither organizations nor sub-ecosystems. Please remove this. You can add it back later when/if you find its orgs / repos.", file)
             }
             ValidationError::UnsortedEcosystem(unsorted_eco) => {
                 writeln!(
                     f,
-                    "{} has the following unsorted data",
+                    "{} has the following unsorted data.  You can fix it by moving the entries to the specified locations below",
                     unsorted_eco.ecosystem,
                 )?;
                 if let Some(ref eco_diff) = unsorted_eco.sub_eco_diff {
@@ -151,7 +151,7 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationEr
 }
 
 fn find_misordered_elements_diff(strings: &[String]) -> Option<String> {
-    if strings.len() == 0 {
+    if strings.is_empty() {
         return None;
     }
 
@@ -168,7 +168,7 @@ fn find_misordered_elements_diff(strings: &[String]) -> Option<String> {
         &input,
         UnifiedDiffBuilder::new(&input),
     );
-    return Some(diff);
+    Some(diff)
 }
 
 fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
@@ -211,11 +211,11 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
                     });
                 }
             }
-            sort_error.sub_eco_diff = find_misordered_elements_diff(&sub_ecosystems);
+            sort_error.sub_eco_diff = find_misordered_elements_diff(sub_ecosystems);
         }
 
         if let Some(github_orgs) = &ecosystem.github_organizations {
-            sort_error.github_org_diff = find_misordered_elements_diff(&github_orgs);
+            sort_error.github_org_diff = find_misordered_elements_diff(github_orgs);
         }
 
         if let Some(repos) = &ecosystem.repo {

@@ -1,11 +1,6 @@
-# Ecosystem Level Information
 title = "DFINITY Lab"
-
 sub_ecosystems = []
-
 github_organizations = ["https://github.com/dfinity-lab"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/dfinity-lab/agent-rs"
 
@@ -29,6 +24,10 @@ url = "https://github.com/dfinity-lab/clear_on_drop"
 
 [[repo]]
 url = "https://github.com/dfinity-lab/codeowners"
+
+[[repo]]
+url = "https://github.com/dfinity-lab/cycles-faucet"
+missing = true
 
 [[repo]]
 url = "https://github.com/dfinity-lab/dejafu"
@@ -58,7 +57,15 @@ url = "https://github.com/dfinity-lab/hyper"
 url = "https://github.com/dfinity-lab/ic-py"
 
 [[repo]]
+url = "https://github.com/dfinity-lab/ic0online"
+missing = true
+
+[[repo]]
 url = "https://github.com/dfinity-lab/im-rs"
+
+[[repo]]
+url = "https://github.com/dfinity-lab/infrasec_canister_asset"
+missing = true
 
 [[repo]]
 url = "https://github.com/dfinity-lab/jiralert"
@@ -130,6 +137,9 @@ url = "https://github.com/dfinity-lab/rust-rocksdb"
 url = "https://github.com/dfinity-lab/sccache"
 
 [[repo]]
+url = "https://github.com/dfinity-lab/security-tests-poc-template"
+
+[[repo]]
 url = "https://github.com/dfinity-lab/ssh2-rs"
 
 [[repo]]
@@ -152,3 +162,4 @@ url = "https://github.com/dfinity-lab/wasmtime"
 
 [[repo]]
 url = "https://github.com/dfinity-lab/webpki"
+

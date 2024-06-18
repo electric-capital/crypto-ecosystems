@@ -1,7 +1,21 @@
 # Ecosystem Level Information
 title = "Zero Knowledge Cryptography"
 
-sub_ecosystems = []
+sub_ecosystems = [
+  "Cellframe",
+  "Eigen Network",
+  "Findora",
+  "Jolt",
+  "Kogarashi Network",
+  "Light Protocol",
+  "Moving Castles",
+  "OutDID",
+  "Pirate Chain",
+  "Playmint",
+  "ZClassic",
+  "zkCream",
+  "ZKValidator",
+]
 
 github_organizations = [
   "https://github.com/arkworks-rs",
@@ -15,6 +29,7 @@ url = "https://github.com/0kPN1/zkpnl"
 
 [[repo]]
 url = "https://github.com/adjoint-io/fcl"
+missing = true
 
 [[repo]]
 url = "https://github.com/akosba/jsnark"
@@ -23,13 +38,34 @@ url = "https://github.com/akosba/jsnark"
 url = "https://github.com/akosba/xjsnark"
 
 [[repo]]
+url = "https://github.com/alexander-camuto/rs-gkr"
+
+[[repo]]
+url = "https://github.com/andrewmilson/ministark"
+
+[[repo]]
 url = "https://github.com/AntoineRondelet/snark-mixer"
 
 [[repo]]
 url = "https://github.com/apache/incubator-teaclave-sgx-sdk"
 
 [[repo]]
+url = "https://github.com/arkworks-rs/.github"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/accumulation"
+
+[[repo]]
 url = "https://github.com/arkworks-rs/algebra"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/arkworks-rs.github.io"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/bcs"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/circom-compat"
 
 [[repo]]
 url = "https://github.com/arkworks-rs/crypto-primitives"
@@ -41,6 +77,9 @@ url = "https://github.com/arkworks-rs/curves"
 url = "https://github.com/arkworks-rs/dpc"
 
 [[repo]]
+url = "https://github.com/arkworks-rs/gemini"
+
+[[repo]]
 url = "https://github.com/arkworks-rs/gm17"
 
 [[repo]]
@@ -50,7 +89,13 @@ url = "https://github.com/arkworks-rs/groth16"
 url = "https://github.com/arkworks-rs/ivls"
 
 [[repo]]
+url = "https://github.com/arkworks-rs/ldt"
+
+[[repo]]
 url = "https://github.com/arkworks-rs/marlin"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/nimue"
 
 [[repo]]
 url = "https://github.com/arkworks-rs/nonnative"
@@ -65,16 +110,25 @@ url = "https://github.com/arkworks-rs/poly-commit"
 url = "https://github.com/arkworks-rs/r1cs-std"
 
 [[repo]]
+url = "https://github.com/arkworks-rs/r1cs-tutorial"
+
+[[repo]]
 url = "https://github.com/arkworks-rs/ripp"
 
 [[repo]]
 url = "https://github.com/arkworks-rs/snark"
 
 [[repo]]
+url = "https://github.com/arkworks-rs/spartan"
+
+[[repo]]
 url = "https://github.com/arkworks-rs/sponge"
 
 [[repo]]
 url = "https://github.com/arkworks-rs/std"
+
+[[repo]]
+url = "https://github.com/arkworks-rs/sumcheck"
 
 [[repo]]
 url = "https://github.com/arkworks-rs/template"
@@ -90,6 +144,10 @@ url = "https://github.com/AztecProtocol/specification"
 
 [[repo]]
 url = "https://github.com/AztecProtocol/zkether"
+missing = true
+
+[[repo]]
+url = "https://github.com/bankisan/zkShield"
 
 [[repo]]
 url = "https://github.com/barryWhiteHat/roll_up"
@@ -162,6 +220,10 @@ url = "https://github.com/elibensasson/libSTARK"
 
 [[repo]]
 url = "https://github.com/EYBlockchain/nightfall"
+missing = true
+
+[[repo]]
+url = "https://github.com/facebook/winterfell"
 
 [[repo]]
 url = "https://github.com/FiloSottile/powersoftau"
@@ -174,6 +236,7 @@ url = "https://github.com/gstew5/snarkl"
 
 [[repo]]
 url = "https://github.com/GuildOfWeavers/AirScript"
+missing = true
 
 [[repo]]
 url = "https://github.com/GuildOfWeavers/genSTARK"
@@ -212,7 +275,13 @@ url = "https://github.com/iden3/wasmsnark"
 url = "https://github.com/ivansarno/FiatShamirProtocol"
 
 [[repo]]
+url = "https://github.com/Janmajayamall/ObliviousMessageRetrieval"
+
+[[repo]]
 url = "https://github.com/jopasserat/zk_playground"
+
+[[repo]]
+url = "https://github.com/jules/supernova"
 
 [[repo]]
 url = "https://github.com/kantuni/ZKP"
@@ -283,6 +352,9 @@ url = "https://github.com/miguelmota/zksnarks-example"
 url = "https://github.com/MoonfishApp/ZKPlayground"
 
 [[repo]]
+url = "https://github.com/nalinbhardwaj/zordle"
+
+[[repo]]
 url = "https://github.com/nucypher/nufhe"
 
 [[repo]]
@@ -349,7 +421,13 @@ url = "https://github.com/therealyingtong/roll_up_circom_tutorial"
 url = "https://github.com/usrbom/network-security"
 
 [[repo]]
+url = "https://github.com/ventali/awesome-zk"
+
+[[repo]]
 url = "https://github.com/verificatum/verificatum-vjsc"
+
+[[repo]]
+url = "https://github.com/VictorColomb/stark-snark-recursive-proofs"
 
 [[repo]]
 url = "https://github.com/Vinc0682/IHRSZKP"
@@ -361,10 +439,16 @@ url = "https://github.com/Voxelot/zk-dex"
 url = "https://github.com/xlab-si/emmy"
 
 [[repo]]
+url = "https://github.com/yi-sun/circom-pairing"
+
+[[repo]]
 url = "https://github.com/zcash-hackworks/sapling-crypto"
 
 [[repo]]
 url = "https://github.com/zcash-hackworks/sapling-mpc"
+
+[[repo]]
+url = "https://github.com/zCloak-Network/zkid-sdk"
 
 [[repo]]
 url = "https://github.com/ZenGo-X/bulletproofs"
@@ -385,16 +469,40 @@ url = "https://github.com/zeropoolnetwork/challenger-bot"
 url = "https://github.com/zeropoolnetwork/circomlib"
 
 [[repo]]
+url = "https://github.com/zeropoolnetwork/docs"
+
+[[repo]]
 url = "https://github.com/zeropoolnetwork/eth-boston"
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/fawkes-crypto"
 
 [[repo]]
+url = "https://github.com/zeropoolnetwork/fawkes-crypto-examples"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/ff"
+
+[[repo]]
 url = "https://github.com/zeropoolnetwork/ff-uint"
 
 [[repo]]
+url = "https://github.com/zeropoolnetwork/Grant-Milestone-Delivery"
+
+[[repo]]
 url = "https://github.com/zeropoolnetwork/groth16-wasm-benchmark"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/halo2"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/halo2-kzg-srs"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/halo2curves"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/integration-tests"
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/joinsplit_experiment"
@@ -403,10 +511,19 @@ url = "https://github.com/zeropoolnetwork/joinsplit_experiment"
 url = "https://github.com/zeropoolnetwork/libzeropool"
 
 [[repo]]
+url = "https://github.com/zeropoolnetwork/libzeropool-rs"
+
+[[repo]]
 url = "https://github.com/zeropoolnetwork/MiMCTree"
 
 [[repo]]
+url = "https://github.com/zeropoolnetwork/near-api-js"
+
+[[repo]]
 url = "https://github.com/zeropoolnetwork/near-groth16-verifier"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/near-halo2-verifier"
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/NEAR-pool"
@@ -421,7 +538,20 @@ url = "https://github.com/zeropoolnetwork/nearcore"
 url = "https://github.com/zeropoolnetwork/nep21-playground"
 
 [[repo]]
+url = "https://github.com/zeropoolnetwork/onepager"
+missing = true
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/Open-Grants-Program"
+
+[[repo]]
 url = "https://github.com/zeropoolnetwork/phase2-bn254"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/Plonky3"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/pool-evm-single-l1"
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/poseidon-params-safety-checker"
@@ -430,7 +560,19 @@ url = "https://github.com/zeropoolnetwork/poseidon-params-safety-checker"
 url = "https://github.com/zeropoolnetwork/poseidon-solidity-benchmark"
 
 [[repo]]
+url = "https://github.com/zeropoolnetwork/sharded-storage"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/snark-verifier"
+
+[[repo]]
 url = "https://github.com/zeropoolnetwork/updatablemerkletree"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/wasm-bindgen-rayon"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/wasm-mt-pool-helpers"
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/website"
@@ -439,22 +581,61 @@ url = "https://github.com/zeropoolnetwork/website"
 url = "https://github.com/zeropoolnetwork/zcoinselect"
 
 [[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-audits"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-client-js"
+
+[[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-console"
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-core"
 
 [[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-faucet"
+
+[[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-frontend"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-frontend-static"
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-indexeddb"
 
 [[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-near"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-relayer"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-relayer-rs"
+
+[[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-substrate"
 
 [[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-substrate-faucet"
+
+[[repo]]
 url = "https://github.com/zeropoolnetwork/zeropool-substrate-groth16-example"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-support-js"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-test-params"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-tx"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-utils"
+
+[[repo]]
+url = "https://github.com/zeropoolnetwork/zeropool-waves"
 
 [[repo]]
 url = "https://github.com/zeropoolnetwork/zp-chrome-extension"
@@ -475,6 +656,12 @@ url = "https://github.com/zkcrypto/bellman"
 url = "https://github.com/zkcrypto/bls12_381"
 
 [[repo]]
+url = "https://github.com/zkcrypto/bulletproofs"
+
+[[repo]]
+url = "https://github.com/zkcrypto/curve25519-dalek-ng"
+
+[[repo]]
 url = "https://github.com/zkcrypto/ff"
 
 [[repo]]
@@ -487,7 +674,22 @@ url = "https://github.com/zkcrypto/group"
 url = "https://github.com/zkcrypto/jubjub"
 
 [[repo]]
+url = "https://github.com/zkcrypto/merlin"
+
+[[repo]]
 url = "https://github.com/zkcrypto/pairing"
+
+[[repo]]
+url = "https://github.com/zkcrypto/rfcs"
+
+[[repo]]
+url = "https://github.com/zkcrypto/subtle-ng"
+
+[[repo]]
+url = "https://github.com/zkcrypto/zkp"
+
+[[repo]]
+url = "https://github.com/zkonduit/ezkl"
 
 [[repo]]
 url = "https://github.com/ZKProofs/ZKProofs.github.io"

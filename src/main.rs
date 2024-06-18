@@ -1,5 +1,7 @@
 use anyhow::Result;
 use glob::glob;
+use imara_diff::intern::InternedInput;
+use imara_diff::{diff, Algorithm, UnifiedDiffBuilder};
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
 use std::fmt::{Display, Formatter};
@@ -16,7 +18,6 @@ enum Cli {
     Validate {
         /// Path to top level directory containing ecosystem toml files
         data_path: String,
-
     },
     /// Export list of ecosystems and repos to a JSON file
     Export {
@@ -34,31 +35,58 @@ enum Cli {
 enum ValidationError {
     MissingSubecosystem { parent: String, child: String },
 
-     DuplicateRepoUrl(String),
+    DuplicateRepoUrl(String),
 
-     TitleError(String),
+    TitleError(String),
 
-     EmptyEcosystem(String),
- }
+    EmptyEcosystem(String),
 
- impl Display for ValidationError {
+    UnsortedEcosystem(UnsortedEcosystem),
+}
+
+#[derive(Debug)]
+struct UnsortedEcosystem {
+    ecosystem: String,
+    repo_diff: Option<String>,
+    sub_eco_diff: Option<String>,
+    github_org_diff: Option<String>,
+}
+
+impl Display for ValidationError {
     fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
         match self {
             ValidationError::MissingSubecosystem { parent, child } => {
-                write!(f, "Invalid subecosystem for {} -> {}", parent, child)
+                writeln!(f, "Invalid subecosystem for {} -> {}", parent, child)
             }
             ValidationError::DuplicateRepoUrl(url) => {
-                write!(f, "Duplicate repo URL: {}", url)
+                writeln!(f, "Duplicate repo URL: {}", url)
             }
-             ValidationError::TitleError(file) => {
-                 write!(f, "Title with leading/trailing space found in file: {}. Please remove the space(s) from your title.", file)
-             }
-             ValidationError::EmptyEcosystem(file) => {
-                  write!(f, "Ecosystem in file {} has neither organizations nor sub-ecosystems. Please remove this. You can add it back later when/if you find its orgs / repos.", file)
-              }
-         }
-     }
- }
+            ValidationError::TitleError(file) => {
+                writeln!(f, "Title with leading/trailing space found in file: {}. Please remove the space(s) from your title.", file)
+            }
+            ValidationError::EmptyEcosystem(file) => {
+                writeln!(f, "Ecosystem in file {} has neither organizations nor sub-ecosystems. Please remove this. You can add it back later when/if you find its orgs / repos.", file)
+            }
+            ValidationError::UnsortedEcosystem(unsorted_eco) => {
+                writeln!(
+                    f,
+                    "{} has the following unsorted data.  You can fix it by moving the entries to the specified locations below",
+                    unsorted_eco.ecosystem,
+                )?;
+                if let Some(ref eco_diff) = unsorted_eco.sub_eco_diff {
+                    writeln!(f, "Sub ecosystems\n{}\n", eco_diff)?;
+                }
+                if let Some(ref org_diff) = unsorted_eco.github_org_diff {
+                    writeln!(f, "Github Orgs\n{}\n", org_diff)?;
+                }
+                if let Some(ref repos) = unsorted_eco.repo_diff {
+                    writeln!(f, "Repos\n{}\n", repos)?;
+                }
+                Ok(())
+            }
+        }
+    }
+}
 #[derive(Debug, Deserialize, Serialize)]
 struct Ecosystem {
     pub title: String,
@@ -122,43 +150,78 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationEr
     Ok((ecosystems, errors))
 }
 
+fn find_misordered_elements_diff(strings: &[String]) -> Option<String> {
+    if strings.is_empty() {
+        return None;
+    }
+
+    let before = strings.join("\n").to_string();
+    let mut sorted = strings.to_vec();
+    sorted.sort_by_key(|x| x.to_lowercase());
+    if strings == sorted {
+        return None;
+    }
+    let after = sorted.join("\n").to_string();
+    let input = InternedInput::new(before.as_str(), after.as_str());
+    let diff = diff(
+        Algorithm::Histogram,
+        &input,
+        UnifiedDiffBuilder::new(&input),
+    );
+    Some(diff)
+}
+
 fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
     let mut errors = vec![];
     let mut repo_set = HashSet::new();
     let mut tagmap: HashMap<String, u32> = HashMap::new();
-     let mut missing_count = 0;
+    let mut missing_count = 0;
 
-     for ecosystem in ecosystem_map.values() {
+    for ecosystem in ecosystem_map.values() {
+        let has_sub_ecosystems = ecosystem
+            .sub_ecosystems
+            .as_ref()
+            .map_or(false, |sub_ecosystems| !sub_ecosystems.is_empty());
 
-         let has_sub_ecosystems = ecosystem.sub_ecosystems
-             .as_ref()
-             .map_or(false, |sub_ecosystems| !sub_ecosystems.is_empty());
+        let has_orgs = ecosystem
+            .github_organizations
+            .as_ref()
+            .map_or(false, |orgs| !orgs.is_empty());
 
-         let has_orgs = ecosystem.github_organizations
-             .as_ref()
-             .map_or(false, |orgs| !orgs.is_empty());
+        let has_repos = ecosystem
+            .repo
+            .as_ref()
+            .map_or(false, |repos| !repos.is_empty());
 
-         let has_repos = ecosystem.repo
-             .as_ref()
-             .map_or(false, |repos| !repos.is_empty());
+        let mut seen_repos = HashSet::new();
 
-         let mut seen_repos = HashSet::new();
-
-         if let Some(sub_ecosystems) = &ecosystem.sub_ecosystems {
-             for sub in sub_ecosystems {
-                 if !ecosystem_map.contains_key(sub) {
-                     errors.push(ValidationError::MissingSubecosystem {
+        //let mut sorted_subs = vec![];
+        let mut sort_error = UnsortedEcosystem {
+            ecosystem: ecosystem.title.clone(),
+            repo_diff: None,
+            sub_eco_diff: None,
+            github_org_diff: None,
+        };
+        if let Some(sub_ecosystems) = &ecosystem.sub_ecosystems {
+            for sub in sub_ecosystems {
+                if !ecosystem_map.contains_key(sub) {
+                    errors.push(ValidationError::MissingSubecosystem {
                         parent: ecosystem.title.clone(),
                         child: sub.clone(),
                     });
                 }
-             }
-         }
+            }
+            sort_error.sub_eco_diff = find_misordered_elements_diff(sub_ecosystems);
+        }
 
-         if let Some(repos) = &ecosystem.repo {
-             for repo in repos {
-                 let lowercase_url = repo.url.to_lowercase();
-                 if seen_repos.contains(&lowercase_url) {
+        if let Some(github_orgs) = &ecosystem.github_organizations {
+            sort_error.github_org_diff = find_misordered_elements_diff(github_orgs);
+        }
+
+        if let Some(repos) = &ecosystem.repo {
+            for repo in repos {
+                let lowercase_url = repo.url.to_lowercase();
+                if seen_repos.contains(&lowercase_url) {
                     errors.push(ValidationError::DuplicateRepoUrl(repo.url.clone()));
                 } else {
                     seen_repos.insert(lowercase_url);
@@ -172,30 +235,38 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
                         let counter = tagmap.entry(tag.to_string()).or_insert(0);
                         *counter += 1;
                     }
-                 }
-             }
-         }
+                }
+            }
+            let repo_urls: Vec<String> = repos.iter().map(|x| x.url.clone()).collect();
+            sort_error.repo_diff = find_misordered_elements_diff(&repo_urls);
+        }
 
-         if !(has_sub_ecosystems || has_orgs || has_repos) {
-             errors.push(ValidationError::EmptyEcosystem(ecosystem.title.clone()));
-         }
-     }
+        if !(has_sub_ecosystems || has_orgs || has_repos) {
+            errors.push(ValidationError::EmptyEcosystem(ecosystem.title.clone()));
+        }
 
-     if errors.is_empty() {
-         println!(
-             "Validated {} ecosystems and {} repos ({} missing)",
-             ecosystem_map.len(),
-            repo_set.len(),
-            missing_count,
-        );
-        println!("\nTags");
-        for (tag, count) in tagmap {
-            println!("\t{}: {}", tag, count);
+        if sort_error.sub_eco_diff.is_some()
+            || sort_error.github_org_diff.is_some()
+            || sort_error.repo_diff.is_some()
+        {
+            errors.push(ValidationError::UnsortedEcosystem(sort_error));
         }
     }
 
-    errors
+    if errors.is_empty() {
+        println!(
+            "Validated {} ecosystems and {} repos ({} missing)",
+            ecosystem_map.len(),
+            repo_set.len(),
+            missing_count,
+        );
+        //println!("\nTags");
+        // for (tag, count) in tagmap {
+        //     println!("\t{}: {}", tag, count);
+        // }
+    }
 
+    errors
 }
 
 fn validate(data_path: String) -> Result<()> {
@@ -206,7 +277,7 @@ fn validate(data_path: String) -> Result<()> {
             errors.extend(title_errors);
             if !errors.is_empty() {
                 for err in errors {
-                    println!("{}", err);
+                    print!("{}", err);
                 }
                 std::process::exit(-1);
             }

@@ -10,6 +10,7 @@ sub_ecosystems = [
   "Dark Forest",
   "Gnosis",
   "Helena",
+  "M3tering Protocol",
   "Succinct Labs",
   "TruSet Real Estate Data",
 ]
@@ -39,6 +40,12 @@ missing = true
 url = "https://github.com/connext/monorepo"
 
 [[repo]]
+url = "https://github.com/Deepcryptodive/spark-data-service"
+
+[[repo]]
+url = "https://github.com/Deepcryptodive/spark-nexus"
+
+[[repo]]
 url = "https://github.com/dexlab-io/dexpay-pos"
 tags = ["Dapp"]
 
@@ -65,9 +72,3 @@ url = "https://github.com/seeinplays/gather-app"
 
 [[repo]]
 url = "https://github.com/stealthdrop/stealthdrop"
-
-[[repo]]
-url = "https://github.com/Deepcryptodive/spark-nexus"
-
-[[repo]]
-url = "https://github.com/Deepcryptodive/spark-data-service"

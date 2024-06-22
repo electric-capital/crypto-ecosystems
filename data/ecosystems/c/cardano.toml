@@ -6,6 +6,7 @@ sub_ecosystems = [
   "anetaBTC",
   "Atomic Swap",
   "B58",
+  "Balance Analytics",
   "Berry",
   "Blockfrost",
   "Celer Network cBridge",
@@ -13,13 +14,16 @@ sub_ecosystems = [
   "Genius Yield",
   "Indigo Protocol",
   "Littlefish Foundation",
+  "Maestro",
   "Meld",
   "MeshJS",
   "Minswap",
   "MLabs",
   "Orion Protocol",
   "Ouroboros",
+  "PixFi",
   "Plutonomicon",
+  "PoolTool",
   "Ray Network",
   "Seal Finance",
   "Shift Crypto",
@@ -28,9 +32,11 @@ sub_ecosystems = [
   "Spectrum Finance",
   "Spectrum Labs",
   "SundaeSwap",
+  "Tanglius",
   "Teddy Swap",
   "TxPipe",
   "WingRiders",
+  "zenGate Global",
 ]
 
 github_organizations = [
@@ -43,6 +49,7 @@ github_organizations = [
   "https://github.com/cardano-community",
   "https://github.com/cardano-foundation",
   "https://github.com/CardanoSolutions",
+  "https://github.com/DripDropz",
   "https://github.com/fivebinaries",
   "https://github.com/geniusyield",
   "https://github.com/gimbalabs",
@@ -52,15 +59,23 @@ github_organizations = [
   "https://github.com/MartifyLabs",
   "https://github.com/OpShin",
   "https://github.com/Plutonomicon",
+  "https://github.com/PoolTool-io",
+  "https://github.com/projectNEWM",
   "https://github.com/spacebudz",
   "https://github.com/stakhanovite-io",
   "https://github.com/StricaHQ",
   "https://github.com/SundaeSwap-finance",
+  "https://github.com/tasdao",
   "https://github.com/txpipe",
   "https://github.com/vacuumlabs",
+  "https://github.com/wowica",
+  "https://github.com/zkFold",
 ]
 
 # Repositories
+[[repo]]
+url = "https://bitbucket.org/muamw10/jormanager"
+
 [[repo]]
 url = "https://github.com/2nd-Layer/cardano-core-integration-testing"
 
@@ -969,6 +984,9 @@ url = "https://github.com/cardano-foundation/cf-explorer"
 url = "https://github.com/cardano-foundation/cf-explorer-status"
 
 [[repo]]
+url = "https://github.com/cardano-foundation/cf-flat-decoder-ts"
+
+[[repo]]
 url = "https://github.com/cardano-foundation/cf-georgian-wine-resolver"
 
 [[repo]]
@@ -1276,6 +1294,9 @@ url = "https://github.com/devfull/plutology"
 url = "https://github.com/devhulk/cardano-scripts"
 
 [[repo]]
+url = "https://github.com/DevStakePool/thoth-bot"
+
+[[repo]]
 url = "https://github.com/DimSoftware/dotnet-cardano-rest-api-blockchain-explorer"
 
 [[repo]]
@@ -1302,6 +1323,18 @@ url = "https://github.com/dQuadrant/kuber"
 [[repo]]
 url = "https://github.com/drahrealm/ada-tx-flight"
 missing = true
+
+[[repo]]
+url = "https://github.com/DripDropz/onchain-voting"
+
+[[repo]]
+url = "https://github.com/DripDropz/perma-lock"
+
+[[repo]]
+url = "https://github.com/DripDropz/remote-signer"
+
+[[repo]]
+url = "https://github.com/DripDropz/support-scripts"
 
 [[repo]]
 url = "https://github.com/Drunken-Dragon-Games/ddu"
@@ -1774,6 +1807,9 @@ url = "https://github.com/HarmonicLabs/cip68-pluts"
 
 [[repo]]
 url = "https://github.com/HarmonicLabs/CIPs"
+
+[[repo]]
+url = "https://github.com/HarmonicLabs/cnode-ts-poc"
 
 [[repo]]
 url = "https://github.com/HarmonicLabs/Concordia"
@@ -2779,6 +2815,9 @@ url = "https://github.com/input-output-hk/flake-compat"
 
 [[repo]]
 url = "https://github.com/input-output-hk/flake-registry"
+
+[[repo]]
+url = "https://github.com/input-output-hk/flake-release-tool"
 
 [[repo]]
 url = "https://github.com/input-output-hk/flake-updater-action"
@@ -3893,6 +3932,9 @@ url = "https://github.com/input-output-hk/SDLCTools"
 url = "https://github.com/input-output-hk/secp256k1-haskell"
 
 [[repo]]
+url = "https://github.com/input-output-hk/serdoc"
+
+[[repo]]
 url = "https://github.com/input-output-hk/serokell-util"
 
 [[repo]]
@@ -4381,10 +4423,19 @@ url = "https://github.com/Liqwid-Labs/plutarch-unit"
 url = "https://github.com/Liqwid-Labs/plutus-extra"
 
 [[repo]]
+url = "https://github.com/lley154/atomic-swap-open-protocol"
+
+[[repo]]
 url = "https://github.com/lley154/cardano-lottery"
 
 [[repo]]
+url = "https://github.com/lley154/helios-examples"
+
+[[repo]]
 url = "https://github.com/lley154/littercoin"
+
+[[repo]]
+url = "https://github.com/lley154/payment-poc"
 
 [[repo]]
 url = "https://github.com/lley154/traceability-smart-contract"
@@ -4818,6 +4869,21 @@ url = "https://github.com/Plutonomicon/plutonomicon"
 url = "https://github.com/Plutonomicon/Shrinker"
 
 [[repo]]
+url = "https://github.com/PoolTool-io/CardanoStakeholderAuthenticator"
+
+[[repo]]
+url = "https://github.com/PoolTool-io/PoolToolBackend-CNODE"
+
+[[repo]]
+url = "https://github.com/PoolTool-io/PoolToolBackend-DB"
+
+[[repo]]
+url = "https://github.com/PoolTool-io/PoolToolMobileApp"
+
+[[repo]]
+url = "https://github.com/PoolTool-io/PoolToolWebsite"
+
+[[repo]]
 url = "https://github.com/PortalNetwork/cns"
 
 [[repo]]
@@ -4833,7 +4899,25 @@ url = "https://github.com/prodderman/cardano-test"
 url = "https://github.com/ProgressiveSweiry/Plutus-Contracts"
 
 [[repo]]
+url = "https://github.com/projectNEWM/cardano-dapp-wallet-connector"
+
+[[repo]]
 url = "https://github.com/projectNEWM/contracts"
+
+[[repo]]
+url = "https://github.com/projectNEWM/kogmios"
+
+[[repo]]
+url = "https://github.com/projectNEWM/newm-aipoph"
+
+[[repo]]
+url = "https://github.com/projectNEWM/newm-mobile"
+
+[[repo]]
+url = "https://github.com/projectNEWM/newm-server"
+
+[[repo]]
+url = "https://github.com/projectNEWM/newm-web"
 
 [[repo]]
 url = "https://github.com/psychomb/Cardano-fr-translations"
@@ -4855,6 +4939,10 @@ url = "https://github.com/QuertyCube/PlutusRouletteBettingSystem"
 
 [[repo]]
 url = "https://github.com/QuertyCube/reposteting"
+
+[[repo]]
+url = "https://github.com/qunosteve/AmphitheatreArmoury"
+tags = ["Gaming"]
 
 [[repo]]
 url = "https://github.com/Quviq/quickcheck-contractmodel"
@@ -5264,6 +5352,10 @@ url = "https://github.com/tas2017/cardano-plutus-starter"
 url = "https://github.com/tas2017/plutus-mint-lock-unlock-dapp"
 
 [[repo]]
+url = "https://github.com/tasdao/digest"
+tags = ["Documentation"]
+
+[[repo]]
 url = "https://github.com/tdiesler/nessus-cardano"
 
 [[repo]]
@@ -5321,6 +5413,7 @@ url = "https://github.com/tonymullen/plutus_pioneer_program"
 
 [[repo]]
 url = "https://github.com/topcoder1208/cardano-simple-nft-buy-sell"
+missing = true
 
 [[repo]]
 url = "https://github.com/TosiDrop/vm-frontend"
@@ -5400,6 +5493,9 @@ url = "https://github.com/txpipe/kelley"
 
 [[repo]]
 url = "https://github.com/txpipe/kuber-starter-kit"
+
+[[repo]]
+url = "https://github.com/txpipe/laceanatomy"
 
 [[repo]]
 url = "https://github.com/txpipe/mithril"
@@ -5956,6 +6052,9 @@ url = "https://github.com/woofpool/cardano-private-testnet-setup"
 url = "https://github.com/woofpool/PAB-starter-app-setup"
 
 [[repo]]
+url = "https://github.com/wowica/xogmios"
+
+[[repo]]
 url = "https://github.com/wutzebaer/cardano-tools"
 
 [[repo]]
@@ -5982,6 +6081,12 @@ url = "https://github.com/zakaio/proofspace-token-registry-contract"
 
 [[repo]]
 url = "https://github.com/zakhard90/plutus-upgradeable-nfts"
+
+[[repo]]
+url = "https://github.com/zkFold/zkfold-base"
+
+[[repo]]
+url = "https://github.com/zkFold/zkfold-symbolic-demo"
 
 [[repo]]
 url = "https://github.com/zmrocze/mlabs-tooling-simple-example"

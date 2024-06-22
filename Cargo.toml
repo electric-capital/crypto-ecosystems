@@ -7,8 +7,17 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0"
 glob = "0.3.1"
+imara-diff = "0.1.5"
 serde = { version = "1.0.158", features = ["derive"] }
 serde_json = "1.0.94"
 structopt = "0.3.26"
 thiserror = "1.0.40"
-toml = "0.7.3"
+toml = "0.8.12"
+url = "2.5.2"
+
+[profile.dev]
+opt-level = 3
+debug = 1
+
+[profile.release]
+lto = true

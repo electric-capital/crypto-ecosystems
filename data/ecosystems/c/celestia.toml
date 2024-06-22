@@ -3,21 +3,18 @@ title = "Celestia"
 
 sub_ecosystems = [
   "Astria",
+  "Celenium",
   "dymensionxyz",
   "Eclipse",
-  "Injective",
   "Modular Cloud",
   "Rollkit",
   "Sovereign Labs",
+  "ZKFair",
 ]
 
 github_organizations = ["https://github.com/celestiaorg", "https://github.com/modularcloud"]
 
 # Repositories
-[[repo]]
-url = "https://github.com/CelestiaFork/celestia"
-missing = true
-
 [[repo]]
 url = "https://github.com/celestiaorg/.github"
 
@@ -151,6 +148,9 @@ url = "https://github.com/celestiaorg/devrel-tools"
 
 [[repo]]
 url = "https://github.com/celestiaorg/dht-bootstrap-experiment"
+
+[[repo]]
+url = "https://github.com/celestiaorg/dockwiz"
 
 [[repo]]
 url = "https://github.com/celestiaorg/docs"

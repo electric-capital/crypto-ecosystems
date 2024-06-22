@@ -14,8 +14,10 @@ sub_ecosystems = [
   "Axelar Network",
   "Band Protocol",
   "Beefy.Finance",
+  "Bidali",
   "Blockcash Finance",
   "Blockless",
+  "Brale",
   "BX Smart Labs",
   "Byte Rocket",
   "CarbonPath",
@@ -26,7 +28,6 @@ sub_ecosystems = [
   "Cent Finance",
   "Centrifuge",
   "Chainlink",
-  "ChainSafe",
   "Chee Finance",
   "chocomintapp",
   "Chronicle Protocol",
@@ -47,11 +48,11 @@ sub_ecosystems = [
   "Figment",
   "Gamma Strategies",
   "Genadrop",
-  "Gitcoin",
   "Glo Foundation (Glo Dollar)",
   "Good Dollar",
   "GoodGhosting",
   "Grassroots Economics",
+  "Hedgey Finance",
   "Helpi Finance",
   "Huma Finance",
   "Humanity Cash",
@@ -71,7 +72,6 @@ sub_ecosystems = [
   "KUMO",
   "KYVE",
   "LayerZero",
-  "LearnWeb3 DAO",
   "Maker Dojo",
   "Masa Finance",
   "Mento Protocol",
@@ -97,7 +97,6 @@ sub_ecosystems = [
   "Poof-cash",
   "PoolTogether",
   "PrimeDAO",
-  "Protofire",
   "Pyth Network",
   "QuestBook",
   "Rahat",
@@ -110,6 +109,7 @@ sub_ecosystems = [
   "Seam Money",
   "simplefi",
   "Spirals Protocol",
+  "Squid",
   "StakeDAO",
   "Superfluid",
   "Sushi Swap",
@@ -118,11 +118,14 @@ sub_ecosystems = [
   "Tatum",
   "Toucan Protocol",
   "Tradegen",
+  "TrueFeedBack",
   "Ubeswap",
   "Unifty",
   "Uniswap",
   "untangled.finance",
   "Valora",
+  "Wagmi",
+  "wevm",
   "Whales",
   "Witnet",
   "Wormhole",
@@ -144,6 +147,7 @@ github_organizations = [
   "https://github.com/clade-club",
   "https://github.com/credprotocol",
   "https://github.com/dapplooker",
+  "https://github.com/double2win",
   "https://github.com/empowa-io",
   "https://github.com/fiatconnect",
   "https://github.com/GainForest",
@@ -420,6 +424,7 @@ url = "https://github.com/1qbits-com/learn-web3-dapp"
 
 [[repo]]
 url = "https://github.com/1saf/ethers-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/3plcoins/celo-monorepo"
@@ -433,6 +438,7 @@ url = "https://github.com/4everland/uniswap-interface"
 
 [[repo]]
 url = "https://github.com/4lsh4/deXodus"
+missing = true
 
 [[repo]]
 url = "https://github.com/4nickel/celo-multisig-tx-demo"
@@ -1404,6 +1410,7 @@ url = "https://github.com/aofmoba/chainbridge-core-example"
 
 [[repo]]
 url = "https://github.com/Apetree100122/Etoro-error"
+missing = true
 
 [[repo]]
 url = "https://github.com/apexplatform/tatum-php"
@@ -1603,6 +1610,7 @@ url = "https://github.com/AtsKotzen/Rooted-Club"
 
 [[repo]]
 url = "https://github.com/Atsur/registry"
+missing = true
 
 [[repo]]
 url = "https://github.com/Atul1223/chaze"
@@ -1715,6 +1723,7 @@ url = "https://github.com/azizyano/celo-spin"
 
 [[repo]]
 url = "https://github.com/B1-Custody/BitGoJS"
+missing = true
 
 [[repo]]
 url = "https://github.com/b3hr4d/react-web3-redux"
@@ -1987,6 +1996,7 @@ url = "https://github.com/bi23com/vueThecelo"
 
 [[repo]]
 url = "https://github.com/bibitto/Arachne-Contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/bidalihq/celo-monorepo"
@@ -2424,6 +2434,9 @@ url = "https://github.com/CampbellD84/nft-celo"
 
 [[repo]]
 url = "https://github.com/canary-swap/interface"
+
+[[repo]]
+url = "https://github.com/candidelabs/voltaire"
 
 [[repo]]
 url = "https://github.com/cangshu888/celo-monorepo"
@@ -4200,6 +4213,9 @@ url = "https://github.com/celo-org/faucet"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/celo-org/fee-currency-example"
+
+[[repo]]
 url = "https://github.com/celo-org/fly_postgres_elixir"
 tags = ["Protocol"]
 
@@ -4360,6 +4376,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/celo-org/minimal-docker"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/celo-org/minipay"
 
 [[repo]]
 url = "https://github.com/celo-org/minipay-minidapps"
@@ -4684,6 +4703,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/celo-org/SocialConnect-Twitter-Server-Side"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/celo-org/socket-exporter"
 
 [[repo]]
 url = "https://github.com/celo-org/solhint"
@@ -5042,6 +5064,9 @@ url = "https://github.com/centrifuge/chainbridge-ui"
 
 [[repo]]
 url = "https://github.com/centrifuge/chainbridge-utils"
+
+[[repo]]
+url = "https://github.com/centrifuge/chains"
 
 [[repo]]
 url = "https://github.com/centrifuge/clp-wasm"
@@ -5545,6 +5570,9 @@ url = "https://github.com/christuchez/CeloGraph"
 url = "https://github.com/chronicleprotocol/.github"
 
 [[repo]]
+url = "https://github.com/chronicleprotocol/actions-runner-images"
+
+[[repo]]
 url = "https://github.com/chronicleprotocol/archiver"
 missing = true
 
@@ -5693,6 +5721,9 @@ url = "https://github.com/clade-club/core-contracts"
 
 [[repo]]
 url = "https://github.com/clade-club/kryonet"
+
+[[repo]]
+url = "https://github.com/clade-club/PIPs"
 
 [[repo]]
 url = "https://github.com/clade-club/reth-indexer"
@@ -6042,6 +6073,9 @@ url = "https://github.com/credprotocol/Aave-V2-Health-Factor-Dataset"
 
 [[repo]]
 url = "https://github.com/credprotocol/chainlink-request"
+
+[[repo]]
+url = "https://github.com/credprotocol/cred-app-public"
 
 [[repo]]
 url = "https://github.com/credprotocol/cred-snap"
@@ -7176,6 +7210,12 @@ url = "https://github.com/Dote-x-e/Celo_store_project"
 url = "https://github.com/dotoracle/pegged-swap-ui"
 
 [[repo]]
+url = "https://github.com/double2win/docs"
+
+[[repo]]
+url = "https://github.com/double2win/double2win.github.io"
+
+[[repo]]
 url = "https://github.com/doubleoroos/celo-monorepo"
 
 [[repo]]
@@ -8004,10 +8044,6 @@ missing = true
 url = "https://github.com/figment-networks/celo-proxy"
 
 [[repo]]
-url = "https://github.com/figment-networks/learn-tutorials"
-missing = true
-
-[[repo]]
 url = "https://github.com/figurestudios/sidehustles"
 
 [[repo]]
@@ -8542,6 +8578,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Good-Ghosting/goodghosting-protocol-v1"
+
+[[repo]]
+url = "https://github.com/Good-Ghosting/goodghosting-protocol-v2"
 
 [[repo]]
 url = "https://github.com/Good-Ghosting/goodghosting-subgraph-v1"
@@ -9158,9 +9197,6 @@ url = "https://github.com/hyperlane-xyz/hyperlane-app-template"
 url = "https://github.com/hyperlane-xyz/hyperlane-controller"
 
 [[repo]]
-url = "https://github.com/hyperlane-xyz/hyperlane-monorepo"
-
-[[repo]]
 url = "https://github.com/hyperlane-xyz/hyperlane-token"
 
 [[repo]]
@@ -9472,6 +9508,7 @@ url = "https://github.com/ishitamaru/celoTests"
 
 [[repo]]
 url = "https://github.com/ismaelsadeeq/dush-api"
+missing = true
 
 [[repo]]
 url = "https://github.com/ismaelsousa/solana-figment"
@@ -9878,6 +9915,9 @@ url = "https://github.com/jlh1186/jlh1186.github.io"
 url = "https://github.com/jmrossy/celo-monorepo"
 
 [[repo]]
+url = "https://github.com/jmrossy/celo-station"
+
+[[repo]]
 url = "https://github.com/Jmunapo/celo-marketplace-dapp"
 
 [[repo]]
@@ -9948,6 +9988,9 @@ url = "https://github.com/JoeHowarth/gr-workshop"
 
 [[repo]]
 url = "https://github.com/Joel-web3/Celo-Remix"
+
+[[repo]]
+url = "https://github.com/Joel-web3/Implementing-security-measures-on-celo"
 
 [[repo]]
 url = "https://github.com/joelaghina/Multi-Signature-Wallet"
@@ -10430,6 +10473,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/kethcode/delegate-multichain"
+missing = true
 
 [[repo]]
 url = "https://github.com/kevincliffo/dapp-sample"
@@ -11762,7 +11806,13 @@ url = "https://github.com/mento-protocol/mento-sdk"
 url = "https://github.com/mento-protocol/mento-sdk-examples"
 
 [[repo]]
+url = "https://github.com/mento-protocol/mento-subgraph"
+
+[[repo]]
 url = "https://github.com/mento-protocol/mento-web"
+
+[[repo]]
+url = "https://github.com/mento-protocol/openzeppelin-subgraphs"
 
 [[repo]]
 url = "https://github.com/mento-protocol/reserve-site"
@@ -12659,6 +12709,9 @@ missing = true
 url = "https://github.com/Nomis-cc/substreams-playground"
 
 [[repo]]
+url = "https://github.com/Nomis-cc/zkfair-contract"
+
+[[repo]]
 url = "https://github.com/nomishdr/hello_contract-truffle"
 
 [[repo]]
@@ -12832,16 +12885,13 @@ url = "https://github.com/onbjerg/ethers-rs"
 
 [[repo]]
 url = "https://github.com/oneitguy/hummingbot"
+missing = true
 
 [[repo]]
 url = "https://github.com/onepercentio/instant-burn-dapp"
 
 [[repo]]
 url = "https://github.com/onepercentio/instant-burn-sdk-js"
-
-[[repo]]
-url = "https://github.com/oneramp/oneramp"
-missing = true
 
 [[repo]]
 url = "https://github.com/oneski/DefiLlama-Adapters"
@@ -14018,6 +14068,7 @@ url = "https://github.com/ReflectiveChimp/beefy-api"
 
 [[repo]]
 url = "https://github.com/RefoundLabs/refound"
+missing = true
 
 [[repo]]
 url = "https://github.com/regkgb1/node_tooling"
@@ -16041,12 +16092,6 @@ url = "https://github.com/SoftCysec/Niokolee-Kash-DApp-Celo"
 url = "https://github.com/SoftCysec/Street-Food-Kigali-Celo-DApp"
 
 [[repo]]
-url = "https://github.com/software-celo/linux-fslc"
-
-[[repo]]
-url = "https://github.com/software-celo/meta-ces"
-
-[[repo]]
 url = "https://github.com/softwarearchaeologist/beefy-api"
 
 [[repo]]
@@ -16384,6 +16429,7 @@ url = "https://github.com/superclassiceth/web"
 
 [[repo]]
 url = "https://github.com/superGru625/OracleSwap"
+missing = true
 
 [[repo]]
 url = "https://github.com/superjc2017/celo-web-wallet"
@@ -16571,9 +16617,6 @@ missing = true
 
 [[repo]]
 url = "https://github.com/tatumio/tatum-cli"
-
-[[repo]]
-url = "https://github.com/tatumio/tatum-kms"
 
 [[repo]]
 url = "https://github.com/tatumio/tatum-middleware"
@@ -17336,6 +17379,7 @@ url = "https://github.com/UnityXnity/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/UnityXnity/vfat-tools"
+missing = true
 
 [[repo]]
 url = "https://github.com/Uno-Re/vfat-tools"
@@ -17568,6 +17612,7 @@ url = "https://github.com/varunbhalerao56/mobile-defi-hackathon"
 
 [[repo]]
 url = "https://github.com/VaterOtter/helloContractTruffle"
+missing = true
 
 [[repo]]
 url = "https://github.com/VaultChef/crovault-frontend"
@@ -18055,6 +18100,7 @@ url = "https://github.com/xJonathanLEI/ethers-rs"
 
 [[repo]]
 url = "https://github.com/xkazm04/sdkbypass"
+missing = true
 
 [[repo]]
 url = "https://github.com/Xnern/Celo-NFT-Marketplace"
@@ -18118,6 +18164,7 @@ url = "https://github.com/yasmeen/build-with-celo-hackathon"
 
 [[repo]]
 url = "https://github.com/yasp-fi/models"
+missing = true
 
 [[repo]]
 url = "https://github.com/yaxis-project/DefiLlama-Adapters"

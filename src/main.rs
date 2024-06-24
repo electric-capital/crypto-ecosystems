@@ -140,12 +140,12 @@ enum RepoUrlType {
     InvalidUrl,
 }
 
-fn parse_repo_url_type(link: &str) -> RepoUrlType {
-    match url::Url::parse(&link) {
+fn parse_repo_url_type(url: &str) -> RepoUrlType {
+    match url::Url::parse(url) {
         Ok(parsed) => match parsed.host_str() {
             Some(host) => match host {
                 "github.com" | "www.github.com" => {
-                    if link.ends_with("/") {
+                    if url.ends_with('/') {
                         RepoUrlType::GithubUnnormalized
                     } else {
                         let parts: Vec<&str> = parsed.path().split('/').collect();

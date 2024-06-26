@@ -1,9 +1,22 @@
 # Ecosystem Level Information
 title = "Wormhole"
 
-sub_ecosystems = ["Portal (bridge)"]
+sub_ecosystems = [
+  "Allbridge",
+  "C3 Exchange",
+  "Hashflow",
+  "Jupiter Exchange",
+  "Magpie",
+  "Mayan Finance",
+  "Portal (bridge)",
+  "Pyth Network",
+]
 
-github_organizations = ["https://github.com/wormhole-foundation", "https://github.com/XLabs"]
+github_organizations = [
+  "https://github.com/wormhole-foundation",
+  "https://github.com/wormholelabs-xyz",
+  "https://github.com/XLabs",
+]
 
 # Repositories
 [[repo]]
@@ -209,6 +222,66 @@ url = "https://github.com/wormhole-foundation/wormhole-widget"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/xdapp-book"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/connect-in-style.wormhole.com"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/docs.wormhole.com"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-native-token-transfers"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-non-fungible-ntt"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-queries-demo"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-queries-solana-pda"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-queries-solana-stake-pool"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-queries-solana-verify"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-wormhole-sdk-ts"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/foundry"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/relayer-engine"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/required-review-test"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/ruleset-test"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/swap-layer"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-circle-integration"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-connect"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-query-sdk-rust"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-sdk-rs"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormholelabs.xyz"
 
 [[repo]]
 url = "https://github.com/XLabs/app-status"

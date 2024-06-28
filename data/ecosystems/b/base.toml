@@ -1,6 +1,4 @@
-# Ecosystem Level Information
 title = "Base"
-
 sub_ecosystems = [
   "Aave",
   "Aerodrome",
@@ -14,8 +12,10 @@ sub_ecosystems = [
   "DIA",
   "DipDup",
   "EziSwap",
+  "HorizonX",
   "ISSUAA",
   "Moonwell",
+  "Octopus Network",
   "OpenSea",
   "PancakeSwap",
   "Pimlico",
@@ -35,10 +35,10 @@ sub_ecosystems = [
   "XY Finance",
   "yearn.finance",
 ]
-
-github_organizations = ["https://github.com/base-org", "https://github.com/coinbase"]
-
-# Repositories
+github_organizations = [
+  "https://github.com/base-org",
+  "https://github.com/coinbase",
+]
 [[repo]]
 url = "https://github.com/0x0zAgency/infinitymint"
 
@@ -668,3 +668,4 @@ url = "https://github.com/Woodpile37/interface"
 
 [[repo]]
 url = "https://github.com/yield-v1/strategies-v1-base"
+

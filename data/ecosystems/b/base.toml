@@ -1,71 +1,614 @@
-# Ecosystem Level Information
 title = "Base"
 
 sub_ecosystems = [
-  "Aave",
-  "Aerodrome",
-  "API3",
-  "Aura Finance",
-  "Balancer",
-  "Battledogs",
-  "Chainlink",
-  "Compound",
-  "Curve",
-  "DIA",
-  "DipDup",
-  "EziSwap",
-  "ISSUAA",
-  "Moonwell",
-  "OpenSea",
-  "PancakeSwap",
-  "Pimlico",
-  "Pyth Network",
-  "Range Protocol",
-  "Sablier Finance",
-  "Safe Ecosystem",
-  "Sonne Finance",
-  "Stargate",
-  "Sushi Swap",
-  "Timeswap",
-  "Uniswap",
-  "Velocimeter",
-  "Voodoo Trade",
-  "WBTC",
-  "Wormhole",
-  "XY Finance",
-  "yearn.finance",
+    "0x",
+    "1inch",
+    "Across Protocol",
+    "Aerodrome",
+    "Alchemy",
+    "Ampleforth",
+    "Art Blocks",
+    "Balancer",
+    "Beam",
+    "Biconomy",
+    "Bitfinex",
+    "Blocknative",
+    "Blockscout",
+    "Brave",
+    "Centrifuge",
+    "Compound",
+    "Conduit",
+    "Covalent",
+    "Cryptex",
+    "Curve",
+    "Daimo",
+    "DeBank",
+    "DefiLlama",
+    "Dynamic",
+    "Espresso Systems",
+    "Ethena",
+    "Farcaster",
+    "Fireblocks",
+    "Foundation",
+    "Friends With Benefits",
+    "Gallery",
+    "Galxe",
+    "Guild.xyz",
+    "Halborn",
+    "Harvest Finance",
+    "Hashflow",
+    "Hop Protocol",
+    "IPOR",
+    "Kleo Network",
+    "Kwenta",
+    "LayerZero",
+    "Ledger",
+    "Lido",
+    "Magic Eden",
+    "Manifold",
+    "Maple",
+    "MoonPay",
+    "Moonwell",
+    "Moralis",
+    "Nethermind",
+    "Onramper",
+    "OpenOcean",
+    "OpenSea",
+    "Optimism",
+    "PleasrDAO",
+    "PoolTogether",
+    "Privy",
+    "Puffer",
+    "Pyth Network",
+    "Rabbithole",
+    "Radiant",
+    "Rarible",
+    "Renzo",
+    "Sequence",
+    "Snapshot",
+    "Spruce",
+    "Starbase",
+    "Subquery",
+    "Syndicate",
+    "SynFutures",
+    "Synthetix",
+    "Talent Protocol",
+    "Tenderly",
+    "The Graph",
+    "Trust Wallet",
+    "UMA",
+    "Uniswap",
+    "Volmex",
+    "WBTC",
+    "Wormhole",
+    "XMTP",
+    "Zapper",
+    "Zora",
 ]
 
-github_organizations = ["https://github.com/base-org", "https://github.com/coinbase"]
+github_organizations = [ "https://github.com/base-org", "https://github.com/coinbase",]
 
-# Repositories
+[[repo]]
+url = "https://github.com/0x-shanks/farme"
+
 [[repo]]
 url = "https://github.com/0x0zAgency/infinitymint"
+
+[[repo]]
+url = "https://github.com/0xAlphaDevs/traceX"
+
+[[repo]]
+url = "https://github.com/0xbaratie/GMonster"
+
+[[repo]]
+url = "https://github.com/0xCatalina/Catalina"
+
+[[repo]]
+url = "https://github.com/0xChijioke/generate-svg-contract-structure"
+
+[[repo]]
+url = "https://github.com/0xdeployer/the-lp-sol"
+
+[[repo]]
+url = "https://github.com/0xdontblink/mellow-contracts"
+
+[[repo]]
+url = "https://github.com/0xEinherjar/SographBase"
+
+[[repo]]
+url = "https://github.com/0xElectrifier/FusionPay-Backend"
 
 [[repo]]
 url = "https://github.com/0xFlicker/onchaingas"
 
 [[repo]]
+url = "https://github.com/0xHarrix/blockvocates-web"
+
+[[repo]]
+url = "https://github.com/0xiliyan/multichain-minting-dapp"
+
+[[repo]]
 url = "https://github.com/0xjjpa/onchecked"
+
+[[repo]]
+url = "https://github.com/0xkawz/circletech"
+
+[[repo]]
+url = "https://github.com/0xl10n/0xl10n.org"
+
+[[repo]]
+url = "https://github.com/0xl10n/ethereum-l10n-service-base"
+
+[[repo]]
+url = "https://github.com/0xMaxyz/HeyPay"
+
+[[repo]]
+url = "https://github.com/0xsend/sendapp"
+
+[[repo]]
+url = "https://github.com/0xsequence/contracts-library"
+
+[[repo]]
+url = "https://github.com/0xsequence/live-contracts"
+
+[[repo]]
+url = "https://github.com/0xsequence/marketplace-contracts"
+
+[[repo]]
+url = "https://github.com/0xsequence/wallet-contracts"
+
+[[repo]]
+url = "https://github.com/0xshubh4am/no-code-frames"
+
+[[repo]]
+url = "https://github.com/0xsksingh/Trading-withAI-on-aerodome"
+
+[[repo]]
+url = "https://github.com/0xsplits/splits-contracts"
+
+[[repo]]
+url = "https://github.com/0xsplits/splits-contracts-monorepo"
+
+[[repo]]
+url = "https://github.com/0xsplits/splits-diversifier"
+
+[[repo]]
+url = "https://github.com/0xsplits/splits-liquid"
+
+[[repo]]
+url = "https://github.com/0xsplits/splits-oracle"
+
+[[repo]]
+url = "https://github.com/0xsplits/splits-sdk"
+
+[[repo]]
+url = "https://github.com/0xsplits/splits-swapper"
+
+[[repo]]
+url = "https://github.com/0xsplits/splits-utils"
+
+[[repo]]
+url = "https://github.com/0xsplits/splits-vesting"
+
+[[repo]]
+url = "https://github.com/0xsplits/splits-waterfall"
+
+[[repo]]
+url = "https://github.com/0xUpe/upe-impact-site"
+
+[[repo]]
+url = "https://github.com/0xVaibhav/BASEpac"
+
+[[repo]]
+url = "https://github.com/0xyittle/airdeployergit"
+
+[[repo]]
+url = "https://github.com/0xzoo/qbase"
+
+[[repo]]
+url = "https://github.com/2fai/erc2faidapp"
+
+[[repo]]
+url = "https://github.com/3mpower/dn404-factory"
+
+[[repo]]
+url = "https://github.com/3mpower/stix-webapp"
+
+[[repo]]
+url = "https://github.com/5ably/catonthemoon"
+
+[[repo]]
+url = "https://github.com/925gg/chibi-kingdoms-contracts"
+
+[[repo]]
+url = "https://github.com/aa1skillz/create-wallet-metamask"
+
+[[repo]]
+url = "https://github.com/aakash-taneja/onchain-summer"
+
+[[repo]]
+url = "https://github.com/aaronvick/superchainsynergyhub"
+
+[[repo]]
+url = "https://github.com/aayushadoni/Wallet-Abstraction"
+
+[[repo]]
+url = "https://github.com/abbey188/basedapp"
+
+[[repo]]
+url = "https://github.com/Abhay-2811/AdBase"
+
+[[repo]]
+url = "https://github.com/AbhineetBaghel/MISTV2"
+
+[[repo]]
+url = "https://github.com/abhishek-01k/discover-loyalty-onchain"
+
+[[repo]]
+url = "https://github.com/abhishek-01k/Loyalty-onchain"
+
+[[repo]]
+url = "https://github.com/abhishekb740/farmix"
+
+[[repo]]
+url = "https://github.com/abhishekb740/farmix-frame"
+
+[[repo]]
+url = "https://github.com/across-protocol/contracts"
+
+[[repo]]
+url = "https://github.com/across-protocol/relayer"
+
+[[repo]]
+url = "https://github.com/across-protocol/sdk"
+
+[[repo]]
+url = "https://github.com/Adaobi-Chuks/Brandts"
+
+[[repo]]
+url = "https://github.com/adevil7009/mahitoken"
 
 [[repo]]
 url = "https://github.com/Adewagold/dao-base"
 
 [[repo]]
+url = "https://github.com/adilastudio/buymeadrink"
+
+[[repo]]
+url = "https://github.com/adilastudio/buymeadrink-backend"
+
+[[repo]]
+url = "https://github.com/admiraldao/clipper-fmm-contracts"
+
+[[repo]]
+url = "https://github.com/aerodrome-finance/contracts"
+
+[[repo]]
+url = "https://github.com/aerodrome-finance/relay"
+
+[[repo]]
+url = "https://github.com/aerodrome-finance/slipstream"
+
+[[repo]]
+url = "https://github.com/aerodrome-finance/sugar"
+
+[[repo]]
+url = "https://github.com/aetherWorks-dev/aetherWorks"
+
+[[repo]]
+url = "https://github.com/aexomainnet/cult-main-ui"
+
+[[repo]]
+url = "https://github.com/Afoxcute/base-spag"
+
+[[repo]]
+url = "https://github.com/agbanusi/frodo-estate"
+
+[[repo]]
+url = "https://github.com/ahmadam3/basetoken"
+
+[[repo]]
+url = "https://github.com/ahmetaverse/apex3"
+
+[[repo]]
+url = "https://github.com/aipick-io/aipick-game-be"
+
+[[repo]]
+url = "https://github.com/aipick-io/aipick-game-fe"
+
+[[repo]]
+url = "https://github.com/aipick-io/aipick-game-frames"
+
+[[repo]]
+url = "https://github.com/air3app/buildair3"
+
+[[repo]]
+url = "https://github.com/Ajemark/Charity-On-Blockchain"
+
+[[repo]]
+url = "https://github.com/Akhil-2310/Onchain-Summer"
+
+[[repo]]
+url = "https://github.com/Akramovic1/tickifi"
+
+[[repo]]
+url = "https://github.com/albchamo/NFT-Dashboard"
+
+[[repo]]
 url = "https://github.com/albyzyx/swapbase-contracts"
-missing = true
+
+[[repo]]
+url = "https://github.com/alehgonzalez11/ghost-warrior"
+
+[[repo]]
+url = "https://github.com/alejandro99so/front-liquidator"
+
+[[repo]]
+url = "https://github.com/alejandro99so/liquidator-back"
+
+[[repo]]
+url = "https://github.com/AlejoReyna/Birdlypay"
+
+[[repo]]
+url = "https://github.com/alexchenzl/metacast"
+
+[[repo]]
+url = "https://github.com/alexchenzl/metacast-pipeline"
+
+[[repo]]
+url = "https://github.com/alexx855/paybase"
+
+[[repo]]
+url = "https://github.com/AlibudaLab/nouns-habit-builder"
+
+[[repo]]
+url = "https://github.com/alienbase-xyz/alienbase-contracts"
+
+[[repo]]
+url = "https://github.com/AliKaya-erc7660/erc7660"
+
+[[repo]]
+url = "https://github.com/aloelabs/aloe-frontend"
+
+[[repo]]
+url = "https://github.com/aloelabs/aloe-ii"
+
+[[repo]]
+url = "https://github.com/alperaym/2048"
+
+[[repo]]
+url = "https://github.com/AmaanSayyad/FI.protocol"
+
+[[repo]]
+url = "https://github.com/amazingang/batchmoney"
+
+[[repo]]
+url = "https://github.com/ambiretech/ambire-common"
+
+[[repo]]
+url = "https://github.com/ambiretech/wallet"
+
+[[repo]]
+url = "https://github.com/amet-finance/contracts"
+
+[[repo]]
+url = "https://github.com/anastasiarods/frames-analytics-demo"
+
+[[repo]]
+url = "https://github.com/andrewjiang/frameme"
+
+[[repo]]
+url = "https://github.com/andreykobal/telegram-mini-app-aa"
+
+[[repo]]
+url = "https://github.com/andthattoo/ZoraAgent"
+
+[[repo]]
+url = "https://github.com/anguloambiental/nfts-4-nature"
+
+[[repo]]
+url = "https://github.com/AngVat/BaseEstate"
+
+[[repo]]
+url = "https://github.com/AnkurKumarShukla/GenAI-NFT"
 
 [[repo]]
 url = "https://github.com/annabnn812/member_club"
 
 [[repo]]
+url = "https://github.com/anonployed/based-summer"
+
+[[repo]]
+url = "https://github.com/anonymusk7/cryptobets-eth.github.io"
+
+[[repo]]
+url = "https://github.com/Another-DevX/XXD-Base-Hackaton"
+
+[[repo]]
+url = "https://github.com/Anunnak80/Mentaverse-Music-Studio"
+
+[[repo]]
+url = "https://github.com/Anunnak80/UnityProjectStudio"
+
+[[repo]]
+url = "https://github.com/apexethdev/basepunks"
+
+[[repo]]
+url = "https://github.com/apexethdev/blobs-live"
+
+[[repo]]
+url = "https://github.com/apexethdev/dino_contracts"
+
+[[repo]]
+url = "https://github.com/Apexloaded/dexa-pay"
+
+[[repo]]
+url = "https://github.com/Apexloaded/dexa-pay-api"
+
+[[repo]]
+url = "https://github.com/Apexloaded/dexa-pay-contract"
+
+[[repo]]
+url = "https://github.com/api3dao/airnode"
+
+[[repo]]
+url = "https://github.com/api3dao/airseeker-v2"
+
+[[repo]]
+url = "https://github.com/api3dao/contracts"
+
+[[repo]]
+url = "https://github.com/api3dao/signed-api"
+
+[[repo]]
+url = "https://github.com/apikritch/covid-app"
+
+[[repo]]
+url = "https://github.com/apikritch/my-portfolio-v2"
+
+[[repo]]
+url = "https://github.com/apikritch/react-graphql-apollo-mongodb"
+
+[[repo]]
+url = "https://github.com/apikritch/sd-perfumery"
+
+[[repo]]
+url = "https://github.com/apikritch/travel-agent"
+
+[[repo]]
+url = "https://github.com/Apriloracle/BasedToe"
+
+[[repo]]
+url = "https://github.com/aragon/app"
+
+[[repo]]
+url = "https://github.com/aragon/osx"
+
+[[repo]]
+url = "https://github.com/arcadia-finance/accounts-v2"
+
+[[repo]]
+url = "https://github.com/arcadia-finance/asset-managers"
+
+[[repo]]
+url = "https://github.com/arcadia-finance/lending-v2"
+
+[[repo]]
+url = "https://github.com/arcadia-finance/whitepapers"
+
+[[repo]]
+url = "https://github.com/archlyfi/op-rf-dex-contracts"
+
+[[repo]]
+url = "https://github.com/archlyfi/op-rf-rainbow-road-contracts"
+
+[[repo]]
+url = "https://github.com/arks-labs/cygnus-contracts-public"
+
+[[repo]]
+url = "https://github.com/ArtemchikTrenbolon/RemindAll2"
+
+[[repo]]
+url = "https://github.com/artemon1441/krash_world"
+
+[[repo]]
+url = "https://github.com/artgenexyz/nft-contracts"
+
+[[repo]]
+url = "https://github.com/artgenexyz/stream"
+
+[[repo]]
+url = "https://github.com/artgenexyz/web3-login"
+
+[[repo]]
+url = "https://github.com/artgenexyz/webflow-nft-components"
+
+[[repo]]
+url = "https://github.com/ArturVargas/stripe-sessions"
+
+[[repo]]
+url = "https://github.com/ashwwwin/liquidifyv3"
+
+[[repo]]
+url = "https://github.com/astariaxyz/starport"
+
+[[repo]]
+url = "https://github.com/astariaxyz/v1-core"
+
+[[repo]]
+url = "https://github.com/AtmegaBuzz/OwnYourWifus"
+
+[[repo]]
+url = "https://github.com/auditfortress/evm-contracts"
+
+[[repo]]
+url = "https://github.com/aurafinance/aura-contracts"
+
+[[repo]]
+url = "https://github.com/avantis-labs/avantis-smart-contracts"
+
+[[repo]]
+url = "https://github.com/Ayushjain2205/base-onchain-summer"
+
+[[repo]]
+url = "https://github.com/ayushsingh82/Cross-Chain-Invoice"
+
+[[repo]]
+url = "https://github.com/Azleal/password3"
+
+[[repo]]
+url = "https://github.com/Azleal/password3-contract"
+
+[[repo]]
+url = "https://github.com/b0ggs/tenninetynine"
+
+[[repo]]
+url = "https://github.com/b1ometric/BaseCamp"
+
+[[repo]]
+url = "https://github.com/b1oo/eccho"
+
+[[repo]]
+url = "https://github.com/b1oo/eccho-nano"
+
+[[repo]]
+url = "https://github.com/BalanaguYashwanth/ADCampaign"
+
+[[repo]]
+url = "https://github.com/BalanaguYashwanth/adCampaign-dapp"
+
+[[repo]]
+url = "https://github.com/balancer/b-sdk"
+
+[[repo]]
+url = "https://github.com/balancer/backend"
+
+[[repo]]
+url = "https://github.com/balancer/balancer-sdk"
+
+[[repo]]
+url = "https://github.com/balancer/balancer-subgraph-v2"
+
+[[repo]]
+url = "https://github.com/balancer/balancer-v2-monorepo"
+
+[[repo]]
+url = "https://github.com/balancer/frontend-v2"
+
+[[repo]]
 url = "https://github.com/baldfinance/frontend"
 
 [[repo]]
-url = "https://github.com/base-org/brand-kit"
+url = "https://github.com/bankless-academy/bankless-academy"
 
 [[repo]]
-url = "https://github.com/base-org/build-onchain-apps"
+url = "https://github.com/base-lending-protocol/peerlend-frontend"
+
+[[repo]]
+url = "https://github.com/base-org/blob-archiver"
+
+[[repo]]
+url = "https://github.com/base-org/brand-kit"
 
 [[repo]]
 url = "https://github.com/base-org/chains"
@@ -80,7 +623,22 @@ url = "https://github.com/base-org/contracts"
 url = "https://github.com/base-org/eip712sign"
 
 [[repo]]
+url = "https://github.com/base-org/FCL-ecdsa-verify-audit"
+
+[[repo]]
+url = "https://github.com/base-org/foundry"
+
+[[repo]]
 url = "https://github.com/base-org/guides"
+
+[[repo]]
+url = "https://github.com/base-org/keyspace-client"
+
+[[repo]]
+url = "https://github.com/base-org/keyspace-recovery-service"
+
+[[repo]]
+url = "https://github.com/base-org/land-sea-and-sky"
 
 [[repo]]
 url = "https://github.com/base-org/node"
@@ -90,13 +648,15 @@ url = "https://github.com/base-org/onchainsummer.xyz"
 
 [[repo]]
 url = "https://github.com/base-org/op-geth"
-missing = true
 
 [[repo]]
 url = "https://github.com/base-org/op-viem"
 
 [[repo]]
 url = "https://github.com/base-org/op-wagmi"
+
+[[repo]]
+url = "https://github.com/base-org/optimism"
 
 [[repo]]
 url = "https://github.com/base-org/paymaster"
@@ -108,25 +668,277 @@ url = "https://github.com/base-org/pessimism"
 url = "https://github.com/base-org/web"
 
 [[repo]]
+url = "https://github.com/base-org/webauthn-sol"
+
+[[repo]]
 url = "https://github.com/base-org/withdrawer"
+
+[[repo]]
+url = "https://github.com/base-surfers-crew/tamaverse-farcaster"
+
+[[repo]]
+url = "https://github.com/basechad/bc"
+
+[[repo]]
+url = "https://github.com/based-bodega/contracts"
+
+[[repo]]
+url = "https://github.com/BasedJack-game/basedjack-app"
+
+[[repo]]
+url = "https://github.com/basepaint/basepaint-contracts"
+
+[[repo]]
+url = "https://github.com/basepaint/basepaint-ponder"
+
+[[repo]]
+url = "https://github.com/baseswapfi/contracts"
+
+[[repo]]
+url = "https://github.com/baseswapfi/gmx-contracts"
+
+[[repo]]
+url = "https://github.com/baseswapfi/nft-view-descriptor"
+
+[[repo]]
+url = "https://github.com/baseswapfi/v3-core"
+
+[[repo]]
+url = "https://github.com/baseswapfi/v3-periphery"
+
+[[repo]]
+url = "https://github.com/basex-fi/v3-core"
+
+[[repo]]
+url = "https://github.com/bastacy01/Duomo"
 
 [[repo]]
 url = "https://github.com/batiknetwork/frontend"
 
 [[repo]]
+url = "https://github.com/BBubbyy/tictactoe"
+
+[[repo]]
+url = "https://github.com/bebop-dex/bebop-jam-contracts"
+
+[[repo]]
+url = "https://github.com/beefyfinance/beefy-contracts"
+
+[[repo]]
 url = "https://github.com/BeyondClub/bingo"
+
+[[repo]]
+url = "https://github.com/bguan2020/unlonely-alpha"
+
+[[repo]]
+url = "https://github.com/bhadresh-lamprostech/MetaTlds"
+
+[[repo]]
+url = "https://github.com/bianc8/shopycast"
+
+[[repo]]
+url = "https://github.com/BilalBAI/SmartSwapX"
+
+[[repo]]
+url = "https://github.com/bizarrebeast/BizarreBeastsContracts"
+
+[[repo]]
+url = "https://github.com/Bleyle823/Solstice"
+
+[[repo]]
+url = "https://github.com/blmalone/cafebabe"
 
 [[repo]]
 url = "https://github.com/blockfiles-io/frontend"
 
 [[repo]]
+url = "https://github.com/blockimperiumdao/godotblockchain"
+
+[[repo]]
 url = "https://github.com/blocklet/inscription"
+
+[[repo]]
+url = "https://github.com/blocklive/live-protocol"
+
+[[repo]]
+url = "https://github.com/Blocverse01/whatsapp-social-fi-bot"
+
+[[repo]]
+url = "https://github.com/bluehat8/Cuchulink"
+
+[[repo]]
+url = "https://github.com/BlueSocial/Blue_Social_Web3"
+
+[[repo]]
+url = "https://github.com/bonbon0966/NFT-Social-Hub"
+
+[[repo]]
+url = "https://github.com/bonuz-market/bonuz-monorepoo"
+
+[[repo]]
+url = "https://github.com/BookStak/book-tinder-client"
+
+[[repo]]
+url = "https://github.com/bored-town/blobz-bt"
+
+[[repo]]
+url = "https://github.com/bored-town/cdn"
+
+[[repo]]
+url = "https://github.com/boyanivanov004/EcoTracker"
+
+[[repo]]
+url = "https://github.com/brepositorium/chain-of-events"
+
+[[repo]]
+url = "https://github.com/brettlayer3/brettswap"
+
+[[repo]]
+url = "https://github.com/brettlayer3/brettVM-faucet"
+
+[[repo]]
+url = "https://github.com/bright-moments/retropgf-contracts"
+
+[[repo]]
+url = "https://github.com/bright-moments/smart-contracts-public"
+
+[[repo]]
+url = "https://github.com/BryanGFelix/gomuraffles"
+
+[[repo]]
+url = "https://github.com/BryanGFelix/gomuRafflesAPI"
+
+[[repo]]
+url = "https://github.com/bswags/web3keystore"
+
+[[repo]]
+url = "https://github.com/bsx-exchange/contracts-core"
+
+[[repo]]
+url = "https://github.com/buidlguidl/sandgarden.buidlguidl.com"
+
+[[repo]]
+url = "https://github.com/buidlguidl/scaffold-base"
+
+[[repo]]
+url = "https://github.com/builders-garden/beearly"
+
+[[repo]]
+url = "https://github.com/builders-garden/fair-launch-frontend"
+
+[[repo]]
+url = "https://github.com/builders-garden/fair-launch-smart-contracts"
+
+[[repo]]
+url = "https://github.com/BUKTOKEN/buk-bash"
+
+[[repo]]
+url = "https://github.com/bumpcast/bumpcast-contracts"
+
+[[repo]]
+url = "https://github.com/c1scott/webskey-eth-scaffold-base"
+
+[[repo]]
+url = "https://github.com/capGoblin/skillVouchDAO"
+
+[[repo]]
+url = "https://github.com/CaptainMasala/OnChainArt"
+
+[[repo]]
+url = "https://github.com/Carla1nf/DebitaBuildathon"
+
+[[repo]]
+url = "https://github.com/Carla1nf/DebitaDev"
+
+[[repo]]
+url = "https://github.com/catalogworks/catalog-cosign-contracts-public"
+
+[[repo]]
+url = "https://github.com/CatKevin/OnchainVampireSurvivors"
+
+[[repo]]
+url = "https://github.com/cbachmeier/CoinPay"
+
+[[repo]]
+url = "https://github.com/cctv688/musicalzombie"
+
+[[repo]]
+url = "https://github.com/cctv688/tribalelegance"
+
+[[repo]]
+url = "https://github.com/ceasar28/ugwo"
+
+[[repo]]
+url = "https://github.com/cgallic/MyMoonbagsPublic"
+
+[[repo]]
+url = "https://github.com/cgallic/MyMoonbagsPublic_Backend"
+
+[[repo]]
+url = "https://github.com/chaalpritam/dotball.bet"
+
+[[repo]]
+url = "https://github.com/chaalpritam/Tribe"
+
+[[repo]]
+url = "https://github.com/chandrabosep/monalizard-summer-buildthon"
+
+[[repo]]
+url = "https://github.com/CharityConn/CharityConnect"
+
+[[repo]]
+url = "https://github.com/cheazycheaz/Sparkl"
+
+[[repo]]
+url = "https://github.com/chompcoinxyz/chompLegacy"
+
+[[repo]]
+url = "https://github.com/Chrisegbaaaibon/onchain-buildhathon"
+
+[[repo]]
+url = "https://github.com/chriship/superbadge"
+
+[[repo]]
+url = "https://github.com/chriship/superbadge-contracts"
+
+[[repo]]
+url = "https://github.com/ChristosHadjigeorghiou1996/ReactJS_Snake"
+
+[[repo]]
+url = "https://github.com/cinematiceth/onchain-ninja"
+
+[[repo]]
+url = "https://github.com/citizenwallet/kiosk"
+
+[[repo]]
+url = "https://github.com/citizenwallet/nfcwallet"
 
 [[repo]]
 url = "https://github.com/CJskii/Multi-Chain-ONFT-Platform"
 
 [[repo]]
 url = "https://github.com/CJskii/omnichain-minter"
+
+[[repo]]
+url = "https://github.com/ckev5247/Buddy-Toss---Base-Thirdweb"
+
+[[repo]]
+url = "https://github.com/clayanNEU/RunNFT"
+
+[[repo]]
+url = "https://github.com/cleanerzkp/feedback-forge"
+
+[[repo]]
+url = "https://github.com/cleanerzkp/mint-my-nft"
+
+[[repo]]
+url = "https://github.com/codebuster22/greencoin-contracts"
+
+[[repo]]
+url = "https://github.com/codechefsong/BlockMageMinions"
+
+[[repo]]
+url = "https://github.com/coffiasd/buyMeACoffee"
 
 [[repo]]
 url = "https://github.com/coinbase/.github"
@@ -183,10 +995,16 @@ url = "https://github.com/coinbase/cbpay-js"
 url = "https://github.com/coinbase/CBTabViewExample"
 
 [[repo]]
+url = "https://github.com/coinbase/cdpcurl"
+
+[[repo]]
 url = "https://github.com/coinbase/chainnode"
 
 [[repo]]
 url = "https://github.com/coinbase/chainsformer"
+
+[[repo]]
+url = "https://github.com/coinbase/chainsformer-spark-source"
 
 [[repo]]
 url = "https://github.com/coinbase/chainstorage"
@@ -300,6 +1118,12 @@ url = "https://github.com/coinbase/coinbase-python"
 url = "https://github.com/coinbase/coinbase-ruby"
 
 [[repo]]
+url = "https://github.com/coinbase/coinbase-sdk-nodejs"
+
+[[repo]]
+url = "https://github.com/coinbase/coinbase-sdk-ruby"
+
+[[repo]]
 url = "https://github.com/coinbase/coinbase-spree"
 
 [[repo]]
@@ -351,6 +1175,9 @@ url = "https://github.com/coinbase/DrawerKit"
 url = "https://github.com/coinbase/eip-token-upgrade"
 
 [[repo]]
+url = "https://github.com/coinbase/extended-optimism-mintable-token"
+
+[[repo]]
 url = "https://github.com/coinbase/fenrir"
 
 [[repo]]
@@ -366,10 +1193,16 @@ url = "https://github.com/coinbase/gtt-ui"
 url = "https://github.com/coinbase/homebrew-assume-role"
 
 [[repo]]
+url = "https://github.com/coinbase/homebrew-cdpcurl"
+
+[[repo]]
 url = "https://github.com/coinbase/kibana_url"
 
 [[repo]]
 url = "https://github.com/coinbase/kryptology"
+
+[[repo]]
+url = "https://github.com/coinbase/magic-spend"
 
 [[repo]]
 url = "https://github.com/coinbase/master_lock"
@@ -379,6 +1212,24 @@ url = "https://github.com/coinbase/maxfuzz"
 
 [[repo]]
 url = "https://github.com/coinbase/memcachedbetween"
+
+[[repo]]
+url = "https://github.com/coinbase/mesh-cli"
+
+[[repo]]
+url = "https://github.com/coinbase/mesh-ecosystem"
+
+[[repo]]
+url = "https://github.com/coinbase/mesh-ethereum"
+
+[[repo]]
+url = "https://github.com/coinbase/mesh-geth-sdk"
+
+[[repo]]
+url = "https://github.com/coinbase/mesh-sdk-go"
+
+[[repo]]
+url = "https://github.com/coinbase/mesh-specifications"
 
 [[repo]]
 url = "https://github.com/coinbase/mkr-vote-proxy"
@@ -402,7 +1253,13 @@ url = "https://github.com/coinbase/odin"
 url = "https://github.com/coinbase/omniauth-coinbase"
 
 [[repo]]
-url = "https://github.com/coinbase/open-analytics"
+url = "https://github.com/coinbase/onchainkit"
+
+[[repo]]
+url = "https://github.com/coinbase/onramp-demo-app"
+
+[[repo]]
+url = "https://github.com/coinbase/paymaster-bundler-examples"
 
 [[repo]]
 url = "https://github.com/coinbase/protoc-gen-rbi"
@@ -417,35 +1274,10 @@ url = "https://github.com/coinbase/react-coinbase-commerce"
 url = "https://github.com/coinbase/redisbetween"
 
 [[repo]]
-url = "https://github.com/coinbase/rest-hooks"
-
-[[repo]]
-url = "https://github.com/coinbase/rosetta-bitcoin"
-
-[[repo]]
-url = "https://github.com/coinbase/rosetta-cli"
-
-[[repo]]
-url = "https://github.com/coinbase/rosetta-ecosystem"
-
-[[repo]]
-url = "https://github.com/coinbase/rosetta-ethereum"
-
-[[repo]]
-url = "https://github.com/coinbase/rosetta-geth-sdk"
-
-[[repo]]
-url = "https://github.com/coinbase/rosetta-sdk-go"
-
-[[repo]]
-url = "https://github.com/coinbase/rosetta-specifications"
-
-[[repo]]
 url = "https://github.com/coinbase/rules_ruby"
 
 [[repo]]
 url = "https://github.com/coinbase/salus"
-missing = true
 
 [[repo]]
 url = "https://github.com/coinbase/scrolls"
@@ -455,6 +1287,12 @@ url = "https://github.com/coinbase/self-service-iam"
 
 [[repo]]
 url = "https://github.com/coinbase/service_variables"
+
+[[repo]]
+url = "https://github.com/coinbase/smart-wallet"
+
+[[repo]]
+url = "https://github.com/coinbase/solidity-style-guide"
 
 [[repo]]
 url = "https://github.com/coinbase/solidity-workshop"
@@ -502,13 +1340,28 @@ url = "https://github.com/coinbase/waas-sample-app"
 url = "https://github.com/coinbase/waas-sdk-react-native"
 
 [[repo]]
-url = "https://github.com/coinbase/wallet-mobile-sdk"
-
-[[repo]]
 url = "https://github.com/coinbase/watchdog"
 
 [[repo]]
 url = "https://github.com/coinbase/wrapped-tokens-os"
+
+[[repo]]
+url = "https://github.com/coinswag/backend"
+
+[[repo]]
+url = "https://github.com/coinswag/coinswag-frontend"
+
+[[repo]]
+url = "https://github.com/coinswag/contracts-v1"
+
+[[repo]]
+url = "https://github.com/coinvise/contracts"
+
+[[repo]]
+url = "https://github.com/colinmcdonnell22/creator-core-extensions-solidity"
+
+[[repo]]
+url = "https://github.com/collectivexyz/revolution-protocol"
 
 [[repo]]
 url = "https://github.com/communities-id/Dapp-FE"
@@ -517,14 +1370,217 @@ url = "https://github.com/communities-id/Dapp-FE"
 url = "https://github.com/compound-finance/comet"
 
 [[repo]]
+url = "https://github.com/connect3world/connect3-radar-score"
+
+[[repo]]
+url = "https://github.com/Content-Creater-Platform/CCP-Contract"
+
+[[repo]]
+url = "https://github.com/Content-Creater-Platform/CCP-Frontend"
+
+[[repo]]
+url = "https://github.com/Content-Creater-Platform/CCP-subgraph-react"
+
+[[repo]]
+url = "https://github.com/coop-records/boombox"
+
+[[repo]]
+url = "https://github.com/coop-records/farconcert"
+
+[[repo]]
+url = "https://github.com/coop-records/frames"
+
+[[repo]]
+url = "https://github.com/coop-records/sonata"
+
+[[repo]]
+url = "https://github.com/coordinape/coordinape"
+
+[[repo]]
+url = "https://github.com/corbinpage/kotd-contracts-publi"
+
+[[repo]]
+url = "https://github.com/corbinpage/kotd-contracts-public"
+
+[[repo]]
+url = "https://github.com/covariancedev/frames-nextjs"
+
+[[repo]]
+url = "https://github.com/covfefe-strm/OmniTrade-OnChainSummer"
+
+[[repo]]
 url = "https://github.com/cpa-protocol/cpa"
 
 [[repo]]
-url = "https://github.com/DackieSwap/dackieswap-contracts-v3"
+url = "https://github.com/Crosstons/doptions"
+
+[[repo]]
+url = "https://github.com/crowdmuse/contracts"
+
+[[repo]]
+url = "https://github.com/Crypto-Grizzly/Onchain-Summer-Buildathon"
+
+[[repo]]
+url = "https://github.com/Custos-Diretriz/custos-contracts"
+
+[[repo]]
+url = "https://github.com/Custos-Diretriz/Custos-Dapp"
+
+[[repo]]
+url = "https://github.com/cwdevteam/mesa"
+
+[[repo]]
+url = "https://github.com/cwdevteam/mesa-app"
+
+[[repo]]
+url = "https://github.com/cyberconnecthq/cybergraph"
+
+[[repo]]
+url = "https://github.com/cyberconnecthq/cyberid"
+
+[[repo]]
+url = "https://github.com/Cybourgeoisie/decentralized-poker"
+
+[[repo]]
+url = "https://github.com/d0mainsale/basemigos"
+
+[[repo]]
+url = "https://github.com/DaCirkus/KrashWorld"
+
+[[repo]]
+url = "https://github.com/dackieswap/dackienft-contracts"
+
+[[repo]]
+url = "https://github.com/dackieswap/dackieswap-contracts"
+
+[[repo]]
+url = "https://github.com/dackieswap/dackieswap-contracts-v3"
+
+[[repo]]
+url = "https://github.com/dailofrog/guacbase"
+
+[[repo]]
+url = "https://github.com/dailofrog/onchain-cubes"
+
+[[repo]]
+url = "https://github.com/dailofrog/tinybasedfrog"
+
+[[repo]]
+url = "https://github.com/daimo-eth/bulk"
+
+[[repo]]
+url = "https://github.com/daimo-eth/daimo"
+
+[[repo]]
+url = "https://github.com/daimo-eth/ethreceipts"
+
+[[repo]]
+url = "https://github.com/daimo-eth/p256-verifier"
+
+[[repo]]
+url = "https://github.com/daniamorris/spokecards"
+
+[[repo]]
+url = "https://github.com/DanielYuki/Artventure"
+
+[[repo]]
+url = "https://github.com/danimesq/OnchainIPFS"
+
+[[repo]]
+url = "https://github.com/danyyyaaa/cp-algorithms"
+
+[[repo]]
+url = "https://github.com/DAOBase-AI/DAOBadgeX"
+
+[[repo]]
+url = "https://github.com/dappadapp/dappgate-contracts"
+
+[[repo]]
+url = "https://github.com/dappadapp/dappgate-frontend"
+
+[[repo]]
+url = "https://github.com/datalatte-ai/onchain_summer_buildathon"
+
+[[repo]]
+url = "https://github.com/datalatte-ai/onchainsummer"
+
+[[repo]]
+url = "https://github.com/dauquest/assets"
+
+[[repo]]
+url = "https://github.com/davidfurlong/devcon-pics"
+
+[[repo]]
+url = "https://github.com/dawnkelly09/irys-canvas-saver-demo"
+
+[[repo]]
+url = "https://github.com/dcast-media/dsponsor-subgraph"
+
+[[repo]]
+url = "https://github.com/debridge-finance/debridge-contracts-v1"
+
+[[repo]]
+url = "https://github.com/debridge-finance/debridge-node"
+
+[[repo]]
+url = "https://github.com/debridge-finance/dln-contracts"
+
+[[repo]]
+url = "https://github.com/debridge-finance/dln-taker"
+
+[[repo]]
+url = "https://github.com/debridge-finance/hardhat-debridge"
+
+[[repo]]
+url = "https://github.com/decentralizedlabs/uniswap-v3-price-feed"
+
+[[repo]]
+url = "https://github.com/Decentraplace/AccessPassArtGridz"
+
+[[repo]]
+url = "https://github.com/decentxyz/decentv2-contracts"
+
+[[repo]]
+url = "https://github.com/decentxyz/launch-nfts"
 
 [[repo]]
 url = "https://github.com/deco-protocol/deco-base"
-missing = true
+
+[[repo]]
+url = "https://github.com/defieye/mini-bridge"
+
+[[repo]]
+url = "https://github.com/defilens/defilens-contracts"
+
+[[repo]]
+url = "https://github.com/defilens/defilens-landing"
+
+[[repo]]
+url = "https://github.com/defilens/interface"
+
+[[repo]]
+url = "https://github.com/DefiLens/Tip-Dapp"
+
+[[repo]]
+url = "https://github.com/degenbuilder7/send-gifts-onchain-with-f"
+
+[[repo]]
+url = "https://github.com/degencodebeast/Whisper-Finance"
+
+[[repo]]
+url = "https://github.com/degenengine/gearslots-contract"
+
+[[repo]]
+url = "https://github.com/degenengine/zitherin-contract"
+
+[[repo]]
+url = "https://github.com/delegatexyz/delegate-registry"
+
+[[repo]]
+url = "https://github.com/demosp98/axa"
+
+[[repo]]
+url = "https://github.com/deniseflan/Based-minesweeper"
 
 [[repo]]
 url = "https://github.com/DePayFi/web3-blockchains"
@@ -533,68 +1589,1621 @@ url = "https://github.com/DePayFi/web3-blockchains"
 url = "https://github.com/devacadian/BasePay"
 
 [[repo]]
+url = "https://github.com/Deveshb15/tokemail"
+
+[[repo]]
+url = "https://github.com/devmichall/votex"
+
+[[repo]]
+url = "https://github.com/devtrou/integer-contracts"
+
+[[repo]]
+url = "https://github.com/dhedge/v2-public"
+
+[[repo]]
+url = "https://github.com/dhrupad-sah/farmix-frame-server"
+
+[[repo]]
+url = "https://github.com/DhruvSathavara/SuperCool"
+
+[[repo]]
+url = "https://github.com/diegoalerg/Payshot"
+
+[[repo]]
+url = "https://github.com/DigitSave/frontend"
+
+[[repo]]
+url = "https://github.com/DigitSave/v1-digitsave-contract"
+
+[[repo]]
+url = "https://github.com/Dimitrolito/CryptoSafe"
+
+[[repo]]
+url = "https://github.com/distractionboy/optichads"
+
+[[repo]]
+url = "https://github.com/dmailofficial/dmail"
+
+[[repo]]
+url = "https://github.com/doginme/doginmeerc20"
+
+[[repo]]
+url = "https://github.com/Donatuz-Labs/Onchain-Summer-Buildathon-Backend"
+
+[[repo]]
+url = "https://github.com/Donatuz-Labs/Onchain-Summer-Buildathon-Frontend"
+
+[[repo]]
+url = "https://github.com/donpdang/Meety"
+
+[[repo]]
+url = "https://github.com/dossinstitute/sidequest"
+
+[[repo]]
+url = "https://github.com/dossinstitute/sidequestfe"
+
+[[repo]]
+url = "https://github.com/DragVerse/marsha-v2"
+
+[[repo]]
+url = "https://github.com/dropframe-xyz/v1-contracts"
+
+[[repo]]
+url = "https://github.com/droplinked/tokenpay"
+
+[[repo]]
+url = "https://github.com/dry-tortuga/songbirdz-collection-backend"
+
+[[repo]]
+url = "https://github.com/dry-tortuga/songbirdz-collection-frontend"
+
+[[repo]]
+url = "https://github.com/DTeam-Top/ff"
+
+[[repo]]
+url = "https://github.com/DucCodeBlockchain/Cryptoicons"
+
+[[repo]]
+url = "https://github.com/duonghb53/piraswap"
+
+[[repo]]
+url = "https://github.com/Edartruwu/public-clanni"
+
+[[repo]]
 url = "https://github.com/EdsonAlcala/build-on-base-cli"
-missing = true
+
+[[repo]]
+url = "https://github.com/efihubdotio/efihub-blockchain"
+
+[[repo]]
+url = "https://github.com/egg-wars/egg-wars-contracts"
+
+[[repo]]
+url = "https://github.com/egorguscha/basemass"
+
+[[repo]]
+url = "https://github.com/eistoys/EIS"
+
+[[repo]]
+url = "https://github.com/ElderPtero/SubscriptionsNFTs_Digipod"
+
+[[repo]]
+url = "https://github.com/elevenyellow/botto-base-access-pass"
+
+[[repo]]
+url = "https://github.com/elimu-ai/web3-sponsors"
+
+[[repo]]
+url = "https://github.com/elonsdev/blobfarmcontracts"
+
+[[repo]]
+url = "https://github.com/elsaicequeen/crypto-news-generator"
 
 [[repo]]
 url = "https://github.com/Emmet-Finance/Emmet.SDK"
 
 [[repo]]
+url = "https://github.com/Entity54/OCS-Hardhat-SmartContracts"
+
+[[repo]]
+url = "https://github.com/Entity54/OCS-Keepers-Server"
+
+[[repo]]
+url = "https://github.com/Entity54/OCS-SPARK-FE"
+
+[[repo]]
+url = "https://github.com/Entity54/OCS-Webhooks-Server"
+
+[[repo]]
+url = "https://github.com/eth-infinitism/account-abstraction"
+
+[[repo]]
+url = "https://github.com/etherplay/conquest-eth"
+
+[[repo]]
+url = "https://github.com/etherplay/ethernal"
+
+[[repo]]
+url = "https://github.com/etherplay/secp256k1-db"
+
+[[repo]]
+url = "https://github.com/eudaform/vibescout-base"
+
+[[repo]]
+url = "https://github.com/evgenyzamatevsky/conft-contracts"
+
+[[repo]]
 url = "https://github.com/evmts/evmts-monorepo"
+
+[[repo]]
+url = "https://github.com/ewurch/rebalancer"
+
+[[repo]]
+url = "https://github.com/extrafi/extra-contracts"
+
+[[repo]]
+url = "https://github.com/ExtropyIO/How-to-Audit"
+
+[[repo]]
+url = "https://github.com/eyeviewnft/getbricked"
+
+[[repo]]
+url = "https://github.com/EZIC-IO/dequiz-app"
+
+[[repo]]
+url = "https://github.com/EZIC-IO/dequiz-smart-contracts"
+
+[[repo]]
+url = "https://github.com/EZIC-IO/dequiz-srv"
+
+[[repo]]
+url = "https://github.com/fahimahmedx/tag-game"
+
+[[repo]]
+url = "https://github.com/fatherabraham-hms/respect-game"
+
+[[repo]]
+url = "https://github.com/fibonaccinewton/candymachine"
+
+[[repo]]
+url = "https://github.com/figs999/basicdogmeme"
+
+[[repo]]
+url = "https://github.com/financegeek-org/scaffold-eth-2"
+
+[[repo]]
+url = "https://github.com/FLICKRecords/Spector"
+
+[[repo]]
+url = "https://github.com/fluidkey/fluidkey-hydrator"
+
+[[repo]]
+url = "https://github.com/fluidkey/fluidkey-stealth-account-kit"
+
+[[repo]]
+url = "https://github.com/FootballOnChain/trope-cast"
+
+[[repo]]
+url = "https://github.com/ForkingAwesome/basewave"
+
+[[repo]]
+url = "https://github.com/fractal-visions/dynamic-contracts"
+
+[[repo]]
+url = "https://github.com/fractal-visions/marketplace-v3-op"
+
+[[repo]]
+url = "https://github.com/fractalvisionsnft/database-summary"
+
+[[repo]]
+url = "https://github.com/fractalvisionsnft/fractalvisionsv2"
+
+[[repo]]
+url = "https://github.com/fractalvisionsnft/fractalvisionsv3"
+
+[[repo]]
+url = "https://github.com/frantrick/chibigo-contract"
+
+[[repo]]
+url = "https://github.com/freshdots/contracts"
+
+[[repo]]
+url = "https://github.com/FTCHD/frametrain"
+
+[[repo]]
+url = "https://github.com/ftm1337/equalizer-exchange-core"
+
+[[repo]]
+url = "https://github.com/fxhash/fxhash-evm-core"
+
+[[repo]]
+url = "https://github.com/gabrieltemtsen/x-frame"
+
+[[repo]]
+url = "https://github.com/Gabxxx13/gab"
+
+[[repo]]
+url = "https://github.com/galxe/galxe-contracts"
+
+[[repo]]
+url = "https://github.com/GamerBoomBuild/BaseBuildathon"
+
+[[repo]]
+url = "https://github.com/gammastrategies/hypervisor"
+
+[[repo]]
+url = "https://github.com/gatefold-music/affinity"
+
+[[repo]]
+url = "https://github.com/gatefold-music/crate-contracts"
+
+[[repo]]
+url = "https://github.com/gatefold-music/uploader"
+
+[[repo]]
+url = "https://github.com/GavinPacini/api.view.art"
+
+[[repo]]
+url = "https://github.com/gayatrigt/cryptocoffee"
+
+[[repo]]
+url = "https://github.com/gconnect/Tipping-Dapp"
+
+[[repo]]
+url = "https://github.com/geleodor/midasnft"
+
+[[repo]]
+url = "https://github.com/getmint-io/contracts"
+
+[[repo]]
+url = "https://github.com/getmint-io/getmint_io"
+
+[[repo]]
+url = "https://github.com/gfx-labs/uniswap-v3-limit-orders"
+
+[[repo]]
+url = "https://github.com/ghgoodreau/ritual-haiku-contract"
+
+[[repo]]
+url = "https://github.com/Gift-Stack/thirdmart"
+
+[[repo]]
+url = "https://github.com/GitFLOC/BRND"
+
+[[repo]]
+url = "https://github.com/GitFLOC/BRND-API"
+
+[[repo]]
+url = "https://github.com/giveth/analytics-dashboard"
+
+[[repo]]
+url = "https://github.com/giveth/apigive"
+
+[[repo]]
+url = "https://github.com/giveth/bridge-contract"
+
+[[repo]]
+url = "https://github.com/giveth/buddy-bot"
+
+[[repo]]
+url = "https://github.com/giveth/common-contract-deps"
+
+[[repo]]
+url = "https://github.com/giveth/dapp-mailer"
+
+[[repo]]
+url = "https://github.com/giveth/devouch-be"
+
+[[repo]]
+url = "https://github.com/giveth/devouch-fe"
+
+[[repo]]
+url = "https://github.com/giveth/donation-doubler"
+
+[[repo]]
+url = "https://github.com/giveth/donation-leaderboard"
+
+[[repo]]
+url = "https://github.com/giveth/ethereum-signal-aggregator"
+
+[[repo]]
+url = "https://github.com/giveth/fund-forwarder"
+
+[[repo]]
+url = "https://github.com/giveth/giv-token-contracts"
+
+[[repo]]
+url = "https://github.com/giveth/givback-calculation"
+
+[[repo]]
+url = "https://github.com/giveth/givbacks-scripts"
+
+[[repo]]
+url = "https://github.com/giveth/giveconomy"
+
+[[repo]]
+url = "https://github.com/giveth/giveconomy-balance-aggregator"
+
+[[repo]]
+url = "https://github.com/giveth/giveconomy-foundry"
+
+[[repo]]
+url = "https://github.com/giveth/giveconomy-subgraph"
+
+[[repo]]
+url = "https://github.com/giveth/giveth-1-simulation"
+
+[[repo]]
+url = "https://github.com/giveth/giveth-bridge"
+
+[[repo]]
+url = "https://github.com/giveth/giveth-cowswap"
+
+[[repo]]
+url = "https://github.com/giveth/giveth-dapp"
+
+[[repo]]
+url = "https://github.com/giveth/giveth-dapps-v2"
+
+[[repo]]
+url = "https://github.com/giveth/giveth-docs"
+
+[[repo]]
+url = "https://github.com/giveth/giveth-next"
+
+[[repo]]
+url = "https://github.com/giveth/giveth-planning"
+
+[[repo]]
+url = "https://github.com/giveth/giveth-rewards"
+
+[[repo]]
+url = "https://github.com/giveth/giveth-wiki"
+
+[[repo]]
+url = "https://github.com/giveth/givethdirectory"
+
+[[repo]]
+url = "https://github.com/giveth/givfi"
+
+[[repo]]
+url = "https://github.com/giveth/givfi-subgraph"
+
+[[repo]]
+url = "https://github.com/giveth/givpower-bot"
+
+[[repo]]
+url = "https://github.com/giveth/impact-graph"
+
+[[repo]]
+url = "https://github.com/giveth/liquidity-mining-dapp"
+
+[[repo]]
+url = "https://github.com/giveth/lpp-campaign"
+
+[[repo]]
+url = "https://github.com/giveth/milestonetracker"
+
+[[repo]]
+url = "https://github.com/giveth/milestonetracker-ui"
+
+[[repo]]
+url = "https://github.com/giveth/minime"
+
+[[repo]]
+url = "https://github.com/giveth/monoswap"
+
+[[repo]]
+url = "https://github.com/giveth/mvp"
+
+[[repo]]
+url = "https://github.com/giveth/notification-center"
+
+[[repo]]
+url = "https://github.com/giveth/pollmanager"
+
+[[repo]]
+url = "https://github.com/giveth/siweauthmicroservice"
+
+[[repo]]
+url = "https://github.com/giveth/sourcecred-instance"
+
+[[repo]]
+url = "https://github.com/giveth/ui-design-system"
+
+[[repo]]
+url = "https://github.com/giveth/vaultcontract"
+
+[[repo]]
+url = "https://github.com/giveth/vaultcontroller"
+
+[[repo]]
+url = "https://github.com/giveth/website"
+
+[[repo]]
+url = "https://github.com/giveth/withdrawcontract"
+
+[[repo]]
+url = "https://github.com/giveth/yogatoken"
+
+[[repo]]
+url = "https://github.com/gloom-labs/contracts"
+
+[[repo]]
+url = "https://github.com/gnomadic/tavern-protocol"
+
+[[repo]]
+url = "https://github.com/go-outside-labs/metaverse-py"
 
 [[repo]]
 url = "https://github.com/goblockchain/t-drex-frontend"
 
 [[repo]]
+url = "https://github.com/goftok/hackathon3"
+
+[[repo]]
+url = "https://github.com/goftok/hackathon4"
+
+[[repo]]
+url = "https://github.com/gonzalomelov/devcon-frame"
+
+[[repo]]
+url = "https://github.com/gonzalomelov/onchain-hyper-personalization"
+
+[[repo]]
+url = "https://github.com/good-ghosting/goodghosting-protocol-v2"
+
+[[repo]]
+url = "https://github.com/gopalagopala1/higher-leaderboard"
+
+[[repo]]
+url = "https://github.com/greattoppyg/FoodSaver"
+
+[[repo]]
+url = "https://github.com/greekchief/zk-nano-syndicates"
+
+[[repo]]
+url = "https://github.com/GritnotGit/school-fundraiser-frame"
+
+[[repo]]
+url = "https://github.com/GSTAR44/Certacablock"
+
+[[repo]]
+url = "https://github.com/guildxyz/guild.xyz"
+
+[[repo]]
+url = "https://github.com/guy-do-or-die/ahand"
+
+[[repo]]
+url = "https://github.com/gyrostable/gyro-pools"
+
+[[repo]]
 url = "https://github.com/h5gq3/commons-land-attributes-data-base"
+
+[[repo]]
+url = "https://github.com/hackathemy/bet-frame"
+
+[[repo]]
+url = "https://github.com/hackathemy/bet-meme-monitor"
+
+[[repo]]
+url = "https://github.com/hackathemy/betMeme-base"
+
+[[repo]]
+url = "https://github.com/hackathemy/betMeme-base-contract"
+
+[[repo]]
+url = "https://github.com/haluo-ai/haluo-core"
+
+[[repo]]
+url = "https://github.com/handelmanjosh/redvsblue-all"
+
+[[repo]]
+url = "https://github.com/happy-puppy-club/hpc-token"
+
+[[repo]]
+url = "https://github.com/HAPPYS1NGH/Base-Faucet-Suite"
+
+[[repo]]
+url = "https://github.com/hardhitserve/contracts"
+
+[[repo]]
+url = "https://github.com/hardhitserve/hardhit"
+
+[[repo]]
+url = "https://github.com/Harsh2220/PrimeBase"
+
+[[repo]]
+url = "https://github.com/harshitsiwach/evm_working"
+
+[[repo]]
+url = "https://github.com/harvestfi/harvest-front-v3"
+
+[[repo]]
+url = "https://github.com/harvestfi/harvest-strategy-base"
 
 [[repo]]
 url = "https://github.com/HashbrownKazang/interface"
 
 [[repo]]
+url = "https://github.com/hashspacexyz/karma-frames"
+
+[[repo]]
+url = "https://github.com/hats-protocol/agreement-eligibility"
+
+[[repo]]
+url = "https://github.com/hats-protocol/allowlist-eligibility"
+
+[[repo]]
+url = "https://github.com/hats-protocol/chain-modules"
+
+[[repo]]
+url = "https://github.com/hats-protocol/colinks-eligibility"
+
+[[repo]]
+url = "https://github.com/hats-protocol/farcaster-delegator"
+
+[[repo]]
+url = "https://github.com/hats-protocol/hat-wearing-eligibility"
+
+[[repo]]
+url = "https://github.com/hats-protocol/hats-account"
+
+[[repo]]
+url = "https://github.com/hats-protocol/hats-account-sdk"
+
+[[repo]]
+url = "https://github.com/hats-protocol/hats-auth"
+
+[[repo]]
+url = "https://github.com/hats-protocol/hats-elections-eligibility"
+
+[[repo]]
+url = "https://github.com/hats-protocol/hats-module"
+
+[[repo]]
+url = "https://github.com/hats-protocol/hats-module-template"
+
+[[repo]]
+url = "https://github.com/hats-protocol/hats-protocol"
+
+[[repo]]
+url = "https://github.com/hats-protocol/hats-zodiac"
+
+[[repo]]
+url = "https://github.com/hats-protocol/hsg-sdk"
+
+[[repo]]
+url = "https://github.com/hats-protocol/jokerace-eligibility"
+
+[[repo]]
+url = "https://github.com/hats-protocol/modules-sdk"
+
+[[repo]]
+url = "https://github.com/hats-protocol/multi-claims-hatter"
+
+[[repo]]
+url = "https://github.com/hats-protocol/passthrough-modules"
+
+[[repo]]
+url = "https://github.com/hats-protocol/sdk-v1-core"
+
+[[repo]]
+url = "https://github.com/hats-protocol/season-toggle"
+
+[[repo]]
+url = "https://github.com/hats-protocol/staking-eligibility"
+
+[[repo]]
+url = "https://github.com/hats-protocol/subgraph"
+
+[[repo]]
+url = "https://github.com/hats-protocol/subgraph-ancillary"
+
+[[repo]]
+url = "https://github.com/haycarlitos/chipi-payroll"
+
+[[repo]]
+url = "https://github.com/hedgey-finance/locked_vestingtokenplans"
+
+[[repo]]
+url = "https://github.com/hedye000/heditoken"
+
+[[repo]]
 url = "https://github.com/Heesho/lil-token"
+
+[[repo]]
+url = "https://github.com/hero-org/herocast"
+
+[[repo]]
+url = "https://github.com/hfarazul/Base_developer_copilot"
+
+[[repo]]
+url = "https://github.com/highlightxyz/generative-art"
+
+[[repo]]
+url = "https://github.com/highlightxyz/generative-onchain-tools"
+
+[[repo]]
+url = "https://github.com/highlightxyz/hl-evm-contracts"
+
+[[repo]]
+url = "https://github.com/hilmanraz/Onchain-Summer-Buildathon"
+
+[[repo]]
+url = "https://github.com/HiroyukiNaito/OchainSummerDiscoveries"
+
+[[repo]]
+url = "https://github.com/hoanhan101/yourbrians"
+
+[[repo]]
+url = "https://github.com/hoepeyemi/basearps"
+
+[[repo]]
+url = "https://github.com/holic/ethfs"
+
+[[repo]]
+url = "https://github.com/holographxyz/holograph-protocol"
+
+[[repo]]
+url = "https://github.com/holova/Framemaker"
+
+[[repo]]
+url = "https://github.com/HoneycombFi/honeycomb-contracts"
+
+[[repo]]
+url = "https://github.com/HoneycombFi/honeycomb-mobile-app"
+
+[[repo]]
+url = "https://github.com/hsongra11/Coven-Classics-OCS"
+
+[[repo]]
+url = "https://github.com/Humanos-App/Hackaton"
+
+[[repo]]
+url = "https://github.com/hurley87/wild-road"
+
+[[repo]]
+url = "https://github.com/hybridx-dev/HybridX"
 
 [[repo]]
 url = "https://github.com/HydrogenDeFi/hydrogen-core"
 
 [[repo]]
+url = "https://github.com/hypergood/woosh-contracts"
+
+[[repo]]
+url = "https://github.com/hypergood/woosh-wallet"
+
+[[repo]]
+url = "https://github.com/hyperlane-xyz/hyperlane-monorepo"
+
+[[repo]]
+url = "https://github.com/hyphenwave/keren"
+
+[[repo]]
 url = "https://github.com/HyslandFinance/hydrogen-core"
+
+[[repo]]
+url = "https://github.com/ialmanzaj/zeneca-pay"
+
+[[repo]]
+url = "https://github.com/IamHenryOkeke/Base-frontend"
+
+[[repo]]
+url = "https://github.com/iantimothy/ValueVault"
+
+[[repo]]
+url = "https://github.com/ibnuatahillahkamil/Carbon-Creadit"
+
+[[repo]]
+url = "https://github.com/ICP-hub/RentSpace-ICP"
+
+[[repo]]
+url = "https://github.com/ICP-hub/Rentspace-Solana"
+
+[[repo]]
+url = "https://github.com/ifeLight/BaseWiki"
+
+[[repo]]
+url = "https://github.com/ifeLight/basewiki-backend"
+
+[[repo]]
+url = "https://github.com/iimehdii/mytoken"
+
+[[repo]]
+url = "https://github.com/iinaki/DVote-API-2.0"
+
+[[repo]]
+url = "https://github.com/iinaki/hackathon-decentralized-voting"
+
+[[repo]]
+url = "https://github.com/IlyaSinyugin/powerfeed"
+
+[[repo]]
+url = "https://github.com/ImanTanumihardja/Bookies-Frames"
+
+[[repo]]
+url = "https://github.com/imdevsyn/backaid-project"
+
+[[repo]]
+url = "https://github.com/imetiu/mytoken"
+
+[[repo]]
+url = "https://github.com/ImpactScribe/hypercert-ledger"
+
+[[repo]]
+url = "https://github.com/ImpactScribe/Impact-Explorer"
+
+[[repo]]
+url = "https://github.com/ImpactScribe/ProImpactFundingNFT"
+
+[[repo]]
+url = "https://github.com/ImpactScribe/warp-impact-scribe-contract"
+
+[[repo]]
+url = "https://github.com/inflowpay/frame-worker"
+
+[[repo]]
+url = "https://github.com/infusion-finance/infusion-v1"
+
+[[repo]]
+url = "https://github.com/ionicprotocol/contracts"
+
+[[repo]]
+url = "https://github.com/ionicprotocol/monorepo"
+
+[[repo]]
+url = "https://github.com/issa-me-sush/onchain-summer-2024"
+
+[[repo]]
+url = "https://github.com/ivanvolov/base-social-graph"
+
+[[repo]]
+url = "https://github.com/ivanvolov/nft-guru-base"
+
+[[repo]]
+url = "https://github.com/ivanvolov/nouns-social-graph"
+
+[[repo]]
+url = "https://github.com/ivanvolov/v4-synthetix-options"
+
+[[repo]]
+url = "https://github.com/izumifinance/iziswap-core"
+
+[[repo]]
+url = "https://github.com/izumifinance/iziswap-farm"
+
+[[repo]]
+url = "https://github.com/izumifinance/iziswap-periphery"
+
+[[repo]]
+url = "https://github.com/izumifinance/iziswap-sdk"
+
+[[repo]]
+url = "https://github.com/JackSengKing/eth"
+
+[[repo]]
+url = "https://github.com/jakim929/ocs-safaricaster"
+
+[[repo]]
+url = "https://github.com/jamesgiloo/onchain_buildathon24"
+
+[[repo]]
+url = "https://github.com/jamithq/jamit-contracts"
+
+[[repo]]
+url = "https://github.com/Jaydip-lamprostech/metatld"
+
+[[repo]]
+url = "https://github.com/jebitok-dev/shopifyapp"
+
+[[repo]]
+url = "https://github.com/jefedcreator/synergy"
+
+[[repo]]
+url = "https://github.com/jelilat/social-block"
+
+[[repo]]
+url = "https://github.com/jereldlimjy/sweep"
+
+[[repo]]
+url = "https://github.com/jhekub/building-blocks"
+
+[[repo]]
+url = "https://github.com/jhinnbay/MentalWealthAcademy"
+
+[[repo]]
+url = "https://github.com/jk-labs-inc/jokerace"
+
+[[repo]]
+url = "https://github.com/JohnFemiSamAaron/Base-Project"
+
+[[repo]]
+url = "https://github.com/johnyrulan/thirdpersona"
+
+[[repo]]
+url = "https://github.com/jojoexchange/smart-contract-evm"
 
 [[repo]]
 url = "https://github.com/JOK3RFI/JOKER_UI"
 
 [[repo]]
+url = "https://github.com/jolly-roger-eth/eip-1193"
+
+[[repo]]
+url = "https://github.com/jolly-roger-eth/ethereum-indexer"
+
+[[repo]]
+url = "https://github.com/jolly-roger-eth/web3-connection"
+
+[[repo]]
+url = "https://github.com/jordanpunzalann/cherry"
+
+[[repo]]
+url = "https://github.com/jordanpunzalann/worker-d1"
+
+[[repo]]
+url = "https://github.com/Josh589/stakingwebsite"
+
+[[repo]]
+url = "https://github.com/Joshaw-k/GameT"
+
+[[repo]]
 url = "https://github.com/jovanovic1/base-summer-rewind"
+
+[[repo]]
+url = "https://github.com/jsshdsn/FREEBASE"
+
+[[repo]]
+url = "https://github.com/justcode740/meow"
+
+[[repo]]
+url = "https://github.com/justflyz/catTest"
+
+[[repo]]
+url = "https://github.com/jvaleskadevs/magic-machine"
+
+[[repo]]
+url = "https://github.com/kamalbuilds/ForgeStoryOnchain"
+
+[[repo]]
+url = "https://github.com/kamalbuilds/Shopify-OnChain"
+
+[[repo]]
+url = "https://github.com/kamalbuilds/synthetix-copy-trading-bot"
+
+[[repo]]
+url = "https://github.com/kamranbash/Decentralised-voting-system"
+
+[[repo]]
+url = "https://github.com/karim123-324/not-based-punk"
+
+[[repo]]
+url = "https://github.com/karimelazzaou/lady-based-ape-yacht-club"
+
+[[repo]]
+url = "https://github.com/Kasa9131/GAME-SF"
+
+[[repo]]
+url = "https://github.com/kaustubh76/Game_on_base"
+
+[[repo]]
+url = "https://github.com/kavinm/GuessIt-Contracts"
+
+[[repo]]
+url = "https://github.com/KcPele/onchain-account-abstraction"
+
+[[repo]]
+url = "https://github.com/kelvinpraises/senti-dripz"
+
+[[repo]]
+url = "https://github.com/KelvinTrinhSG/Chicken-War-on-Base"
+
+[[repo]]
+url = "https://github.com/Kenn-eth/Health_Wallet"
+
+[[repo]]
+url = "https://github.com/Khris5/Based-Devs"
+
+[[repo]]
+url = "https://github.com/killstory/FarcasterDAO"
+
+[[repo]]
+url = "https://github.com/KingSimpa69/50-50.IO"
+
+[[repo]]
+url = "https://github.com/kingsimpa69/homes"
+
+[[repo]]
+url = "https://github.com/kirtirajsinh/suprsell"
+
+[[repo]]
+url = "https://github.com/kirtirajsinh/suprstore-discord"
+
+[[repo]]
+url = "https://github.com/KISSFinance/Kiss-Finance"
+
+[[repo]]
+url = "https://github.com/kitai-hazure/rewards-wallet"
+
+[[repo]]
+url = "https://github.com/koenig11/Ovelixk"
+
+[[repo]]
+url = "https://github.com/koisose/farcaster-cast"
+
+[[repo]]
+url = "https://github.com/koshikraj/smart-drop"
+
+[[repo]]
+url = "https://github.com/kredeum/kredeum"
+
+[[repo]]
+url = "https://github.com/Kryptofly/ChainTrust"
+
+[[repo]]
+url = "https://github.com/KryptoNights/adgraph"
+
+[[repo]]
+url = "https://github.com/kumosoukai/RaffleBase"
+
+[[repo]]
+url = "https://github.com/kvdenden/sendies"
+
+[[repo]]
+url = "https://github.com/kwenta/scw-contracts"
+
+[[repo]]
+url = "https://github.com/kwenta/smart-margin"
+
+[[repo]]
+url = "https://github.com/kwenta/smart-margin-v3"
+
+[[repo]]
+url = "https://github.com/kwenta/synthswap"
+
+[[repo]]
+url = "https://github.com/kwenta/token"
+
+[[repo]]
+url = "https://github.com/kylekaplan/composable-commerce"
+
+[[repo]]
+url = "https://github.com/L1MEBERG/LIMEBERG_P"
+
+[[repo]]
+url = "https://github.com/l2pass/contracts"
+
+[[repo]]
+url = "https://github.com/LamsyA/Enigma"
+
+[[repo]]
+url = "https://github.com/langsky302/Zombie-Run-Run-Game-For-Base-Hackathon-With-Thirdweb"
+
+[[repo]]
+url = "https://github.com/larvalabs/cryptopunks"
+
+[[repo]]
+url = "https://github.com/lawyerd999/frame"
+
+[[repo]]
+url = "https://github.com/layer3xyz/cubes"
+
+[[repo]]
+url = "https://github.com/layerzero-labs/layerzero"
+
+[[repo]]
+url = "https://github.com/layerzero-labs/layerzero-v2"
+
+[[repo]]
+url = "https://github.com/layinka/storefront"
+
+[[repo]]
+url = "https://github.com/leetship/brians"
+
+[[repo]]
+url = "https://github.com/leif-runescribe/base-agora"
+
+[[repo]]
+url = "https://github.com/lemonadesocial/lemonade-flutter"
+
+[[repo]]
+url = "https://github.com/lemonadesocial/lemonade-hardhat-environment"
+
+[[repo]]
+url = "https://github.com/lennarlehestik/followcaster"
+
+[[repo]]
+url = "https://github.com/Lenspost-Labs/ai-frame-cast-action"
+
+[[repo]]
+url = "https://github.com/Lenspost-Labs/frontend"
+
+[[repo]]
+url = "https://github.com/leovido/toth-be"
+
+[[repo]]
+url = "https://github.com/leovido/toth-frame"
+
+[[repo]]
+url = "https://github.com/LI-YONG-QI/devnet"
+
+[[repo]]
+url = "https://github.com/LI-YONG-QI/devnet-contract"
+
+[[repo]]
+url = "https://github.com/lifinance/contracts"
+
+[[repo]]
+url = "https://github.com/lightdotso/lightdotso"
+
+[[repo]]
+url = "https://github.com/lil-org/how-to-sync-nft-folders"
+
+[[repo]]
+url = "https://github.com/lil-org/nft-folder"
+
+[[repo]]
+url = "https://github.com/LilFatFrank/tike"
+
+[[repo]]
+url = "https://github.com/lilpolymath/planet-lukukul"
+
+[[repo]]
+url = "https://github.com/lindsgil/morning-routine"
+
+[[repo]]
+url = "https://github.com/lingzhong/onchain-personality"
+
+[[repo]]
+url = "https://github.com/linHDev0106/The-Great-Fall-On-Base-Using-Thirdweb-SDK"
+
+[[repo]]
+url = "https://github.com/linkdrophq/linkdrop-p2p-contracts"
+
+[[repo]]
+url = "https://github.com/linkdrophq/linkdrop-p2p-sdk"
+
+[[repo]]
+url = "https://github.com/lnrz-xyz/streamz-frontend"
+
+[[repo]]
+url = "https://github.com/lomonoshka/blue"
+
+[[repo]]
+url = "https://github.com/LookHookInfo/hashcoin"
+
+[[repo]]
+url = "https://github.com/looperlands/looperlands"
+
+[[repo]]
+url = "https://github.com/lottopgf/lootery-v1-contracts"
+
+[[repo]]
+url = "https://github.com/lpanez26/instantcash_defi"
+
+[[repo]]
+url = "https://github.com/lucasespinosa28/airdrop"
+
+[[repo]]
+url = "https://github.com/lucasnzd/hellmets.xyz"
+
+[[repo]]
+url = "https://github.com/LucidJoy/Bliss"
+
+[[repo]]
+url = "https://github.com/Lucky-victory/greenspace-dao"
+
+[[repo]]
+url = "https://github.com/lunanga486/Hungry-Frog-Eat-Coins"
+
+[[repo]]
+url = "https://github.com/lutralabs/ees"
+
+[[repo]]
+url = "https://github.com/lyledavids/ducky"
+
+[[repo]]
+url = "https://github.com/maggo/fandom-fight"
+
+[[repo]]
+url = "https://github.com/Magicking/g-base"
+
+[[repo]]
+url = "https://github.com/mainstreetlab/findout-trivia"
+
+[[repo]]
+url = "https://github.com/manbaunuur/BaseTicket"
+
+[[repo]]
+url = "https://github.com/manhiem/Binary-OnChainBuildathon"
+
+[[repo]]
+url = "https://github.com/manifoldxyz/creator-core-extensions-solidity"
+
+[[repo]]
+url = "https://github.com/manishvvv/base_app"
+
+[[repo]]
+url = "https://github.com/mansijoshi17/SuperFunSocial-Devfolio"
+
+[[repo]]
+url = "https://github.com/margajm/foodchain"
+
+[[repo]]
+url = "https://github.com/markcarey/degenfers"
+
+[[repo]]
+url = "https://github.com/markcarey/dragnpuff"
 
 [[repo]]
 url = "https://github.com/markcarey/streamstaker"
 
 [[repo]]
+url = "https://github.com/marklasagne/BasedProject"
+
+[[repo]]
+url = "https://github.com/marlonedwards/million-pixels"
+
+[[repo]]
+url = "https://github.com/MarronLab/backend"
+
+[[repo]]
+url = "https://github.com/MarronLab/exchange-app"
+
+[[repo]]
+url = "https://github.com/martincalder/totemheads"
+
+[[repo]]
+url = "https://github.com/marvinmarnold/locker-hodl"
+
+[[repo]]
 url = "https://github.com/masa-finance/masa-contracts-identity"
+
+[[repo]]
+url = "https://github.com/maswwyn/InspiroBot"
+
+[[repo]]
+url = "https://github.com/matthew-ritch/oints"
+
+[[repo]]
+url = "https://github.com/maverickprotocol/maverick-v1-interfaces"
+
+[[repo]]
+url = "https://github.com/maverickprotocol/router-v1"
+
+[[repo]]
+url = "https://github.com/Maxservais/onchain-reviews"
+
+[[repo]]
+url = "https://github.com/MayowaObisesan/gamet"
+
+[[repo]]
+url = "https://github.com/mayur-samrutwar/arcai"
+
+[[repo]]
+url = "https://github.com/mazisaeidi/mazisaeidi"
+
+[[repo]]
+url = "https://github.com/mbcse/TokenTreat"
+
+[[repo]]
+url = "https://github.com/mds1/multicall"
+
+[[repo]]
+url = "https://github.com/meme-base/pool-contract"
 
 [[repo]]
 url = "https://github.com/mergd/qr-pmnts-ethonline"
 
 [[repo]]
+url = "https://github.com/META-DREAMER/onchain-checkout-frame"
+
+[[repo]]
+url = "https://github.com/Metavate/onchainsummer-rafflecast"
+
+[[repo]]
+url = "https://github.com/mezger75/RetypemeSC"
+
+[[repo]]
+url = "https://github.com/mhmtalitas/energytrading"
+
+[[repo]]
+url = "https://github.com/michaelcohen716/crypto_composite"
+
+[[repo]]
+url = "https://github.com/Mide001/Swiftpay-Base"
+
+[[repo]]
 url = "https://github.com/mikeghen/goalz"
+
+[[repo]]
+url = "https://github.com/mikeghen/run-money"
+
+[[repo]]
+url = "https://github.com/mikeghen/run-money-app"
+
+[[repo]]
+url = "https://github.com/mini-match/minimatch-contract"
+
+[[repo]]
+url = "https://github.com/mint-rex-fun/mint-rex-contracts"
+
+[[repo]]
+url = "https://github.com/mintify-inc/contract-keys-base"
+
+[[repo]]
+url = "https://github.com/MirakoolDev/Indoor-Nav"
 
 [[repo]]
 url = "https://github.com/mmsaki/attest-your-savings"
 
 [[repo]]
+url = "https://github.com/mochimonsdev/mochimons"
+
+[[repo]]
+url = "https://github.com/moneymandoug/basedoge-contract"
+
+[[repo]]
+url = "https://github.com/monsele/OnRealRamp"
+
+[[repo]]
+url = "https://github.com/MonsterXLabs/P2_IPvault_Admin"
+
+[[repo]]
+url = "https://github.com/MonsterXLabs/P2_IPvault_Frontend"
+
+[[repo]]
+url = "https://github.com/moonstream-to/degen-trail"
+
+[[repo]]
+url = "https://github.com/moonwell-fi/moonwell-contracts-v2"
+
+[[repo]]
 url = "https://github.com/moonwell-fi/temporal-governance"
+
+[[repo]]
+url = "https://github.com/morkiexyz/contracts"
+
+[[repo]]
+url = "https://github.com/morkiexyz/morkie"
+
+[[repo]]
+url = "https://github.com/morphex-labs/morphex-contracts"
+
+[[repo]]
+url = "https://github.com/morphex-labs/morphex-subgraph"
+
+[[repo]]
+url = "https://github.com/mr-shreyansh/sportsFusion"
+
+[[repo]]
+url = "https://github.com/Mr94t3z/storage-farcaster-gift"
+
+[[repo]]
+url = "https://github.com/mrkc2303/trackU-dashboard"
+
+[[repo]]
+url = "https://github.com/mrkc2303/trackU-fleek"
+
+[[repo]]
+url = "https://github.com/mrkc2303/trackU-SDK"
+
+[[repo]]
+url = "https://github.com/mrsugam/ChainWave"
+
+[[repo]]
+url = "https://github.com/mubarakone/projectonchainwikipedia"
+
+[[repo]]
+url = "https://github.com/mujahid002/nounshard-frontend"
+
+[[repo]]
+url = "https://github.com/mujahid002/onchain-summer-hack-project"
+
+[[repo]]
+url = "https://github.com/MukulKolpe/Onchain-Summer-Buildathon"
+
+[[repo]]
+url = "https://github.com/munris-vlad/airdrop-checker"
 
 [[repo]]
 url = "https://github.com/munris-vlad/base"
 
 [[repo]]
+url = "https://github.com/Muradko555/cryptobridge"
+
+[[repo]]
+url = "https://github.com/mwfilho/decentralized-portfolio-manager"
+
+[[repo]]
+url = "https://github.com/mykcryptodev/base-token-store"
+
+[[repo]]
+url = "https://github.com/mykcryptodev/farcaster-frame"
+
+[[repo]]
+url = "https://github.com/mykcryptodev/paws-vote"
+
+[[repo]]
+url = "https://github.com/myounatan/payfluence"
+
+[[repo]]
+url = "https://github.com/MyriadFlow/discover"
+
+[[repo]]
+url = "https://github.com/MyriadFlow/studio"
+
+[[repo]]
+url = "https://github.com/MyriadFlow/webxr"
+
+[[repo]]
+url = "https://github.com/mystcl/myst-public"
+
+[[repo]]
+url = "https://github.com/n0umen0n/basecryptofund"
+
+[[repo]]
+url = "https://github.com/narteysarso/cryptomomo-base"
+
+[[repo]]
+url = "https://github.com/nasko25/far-reach"
+
+[[repo]]
+url = "https://github.com/native-org/native-widget-demo"
+
+[[repo]]
+url = "https://github.com/nda0255/neda"
+
+[[repo]]
+url = "https://github.com/neartana/agsol-token-vault"
+
+[[repo]]
+url = "https://github.com/necrophat/Last-Will-Ledger"
+
+[[repo]]
+url = "https://github.com/neel-ds/degenask"
+
+[[repo]]
+url = "https://github.com/nel349/monkey-trivia-frame-client"
+
+[[repo]]
+url = "https://github.com/nel349/onChainSummer2024-frames"
+
+[[repo]]
+url = "https://github.com/nestorbonilla/members-only"
+
+[[repo]]
+url = "https://github.com/netnose/landing-pay"
+
+[[repo]]
+url = "https://github.com/new-players/cosmic-engine"
+
+[[repo]]
+url = "https://github.com/nftfeed2023/nftfeed-contracts"
+
+[[repo]]
+url = "https://github.com/nfthook/nft-hook"
+
+[[repo]]
+url = "https://github.com/nfthook/nft-hook-contract"
+
+[[repo]]
+url = "https://github.com/nfthook/nft-hook-dapp"
+
+[[repo]]
 url = "https://github.com/nftpoolparty/monorepo"
+
+[[repo]]
+url = "https://github.com/nfts2me/contracts"
+
+[[repo]]
+url = "https://github.com/nhansunshine4/Spaceship-Racing-for-Base-Using-Thirdweb"
 
 [[repo]]
 url = "https://github.com/nicolaslima321/base-smart-contract"
 
 [[repo]]
+url = "https://github.com/niftykit-inc/niftykit-contracts"
+
+[[repo]]
+url = "https://github.com/niftykit-inc/niftykit-contracts-v3"
+
+[[repo]]
+url = "https://github.com/niksonna/EtherMarket"
+
+[[repo]]
+url = "https://github.com/nishim3/affiliate"
+
+[[repo]]
+url = "https://github.com/Nith567/ShopifyBased"
+
+[[repo]]
+url = "https://github.com/nnsprotocol/nogs-contracts"
+
+[[repo]]
+url = "https://github.com/nogem-app/layerzero-filler-v2"
+
+[[repo]]
+url = "https://github.com/nogem-app/nogem"
+
+[[repo]]
+url = "https://github.com/nokcha75/lemonwallet"
+
+[[repo]]
+url = "https://github.com/nolanjannotta/experiments-v1-contracts"
+
+[[repo]]
+url = "https://github.com/nolanjannotta/experiments-v1-frontend"
+
+[[repo]]
+url = "https://github.com/Nonnyjoe/nebulaDuel"
+
+[[repo]]
+url = "https://github.com/normandello/Basenimals"
+
+[[repo]]
+url = "https://github.com/NotBoringCompany/wonderchamps-api"
+
+[[repo]]
+url = "https://github.com/NotBoringCompany/wonderverse-contracts"
+
+[[repo]]
+url = "https://github.com/notnotrachit/quiz3"
+
+[[repo]]
+url = "https://github.com/nouns-esports/monorepo"
+
+[[repo]]
+url = "https://github.com/nthing2say/GenTree"
+
+[[repo]]
+url = "https://github.com/nutsfinance/pike-protocol"
+
+[[repo]]
+url = "https://github.com/nuxapo/NOTHINGMATTERS"
+
+[[repo]]
+url = "https://github.com/nymtech/sphinx"
+
+[[repo]]
+url = "https://github.com/oasisdex/defi-position-manager-smartcontracts"
+
+[[repo]]
+url = "https://github.com/oasisdex/oasis-earn-sc"
+
+[[repo]]
+url = "https://github.com/odos-xyz/odos-router-v2"
+
+[[repo]]
+url = "https://github.com/odyssy-automaton/peaches-s2-contracts"
+
+[[repo]]
+url = "https://github.com/odyssy-automaton/peaches-s2-dapp"
+
+[[repo]]
+url = "https://github.com/ogs-base/henlo-kart"
+
+[[repo]]
+url = "https://github.com/oguimbal/HyVM?ref=blog.mass.money"
+
+[[repo]]
+url = "https://github.com/oguzutku1745/SummerLuck"
+
+[[repo]]
+url = "https://github.com/ojimcy/ploutoslabs"
+
+[[repo]]
+url = "https://github.com/Okhayeeli/TrustScript"
+
+[[repo]]
+url = "https://github.com/olafnub/base-pnl"
+
+[[repo]]
+url = "https://github.com/olaoyesalem/BondX"
+
+[[repo]]
+url = "https://github.com/Omega12Pirme/Monetizedo"
+
+[[repo]]
+url = "https://github.com/omgbbqhaxx/vrnouns"
+
+[[repo]]
+url = "https://github.com/omni-x-nft/omni-x"
+
+[[repo]]
+url = "https://github.com/omniart-app/omniart-frontend"
+
+[[repo]]
+url = "https://github.com/omnihub-xyz/blockchain"
+
+[[repo]]
+url = "https://github.com/omnisea/omnisea-solidity"
+
+[[repo]]
 url = "https://github.com/OnayHQ/onay"
+
+[[repo]]
+url = "https://github.com/Onchain-Base-Hackathon/BasePay-Checkout"
+
+[[repo]]
+url = "https://github.com/Onchain-Base-Hackathon/BasePay-Dashboard"
+
+[[repo]]
+url = "https://github.com/Onchain-Base-Hackathon/BasePay-Engine"
+
+[[repo]]
+url = "https://github.com/Onchain-Summer-Buildathon/frames-made-easy"
+
+[[repo]]
+url = "https://github.com/Onurakdeniz/pooq"
+
+[[repo]]
+url = "https://github.com/Open-Sorcerer/WiseBets"
+
+[[repo]]
+url = "https://github.com/Open-Sorcerer/wisebets-frame"
+
+[[repo]]
+url = "https://github.com/open-web-academy/Burrito-Pets-Base"
+
+[[repo]]
+url = "https://github.com/opencoverdefi/opencover-contracts-v1"
+
+[[repo]]
+url = "https://github.com/openocean-finance/openoceanexchangev2"
+
+[[repo]]
+url = "https://github.com/Opti-domains/coinbase-smart-passport"
+
+[[repo]]
+url = "https://github.com/opti-domains/ens-diamond-resolver-v1"
+
+[[repo]]
+url = "https://github.com/opti-domains/modular-ens-contracts"
+
+[[repo]]
+url = "https://github.com/opti-domains/optidomains-ens-contracts"
+
+[[repo]]
+url = "https://github.com/ora-io/OAO"
+
+[[repo]]
+url = "https://github.com/orderlynetwork/contract-evm"
+
+[[repo]]
+url = "https://github.com/ordex-io/ERC404Meme"
+
+[[repo]]
+url = "https://github.com/oscargarza356/gibi"
+
+[[repo]]
+url = "https://github.com/ourzora/nouns-builder"
+
+[[repo]]
+url = "https://github.com/ourzora/nouns-protocol"
+
+[[repo]]
+url = "https://github.com/ourzora/zora-protocol"
+
+[[repo]]
+url = "https://github.com/ovnstable/ovnstable-core"
+
+[[repo]]
+url = "https://github.com/ovnstable/ovnstable-dex-pools"
+
+[[repo]]
+url = "https://github.com/ovnstable/ovnstable-landing-page"
+
+[[repo]]
+url = "https://github.com/owlto-finance/owlto"
+
+[[repo]]
+url = "https://github.com/oxkaiba/SummerKit-Dynamic"
+
+[[repo]]
+url = "https://github.com/OxMarco/Inskribbl"
 
 [[repo]]
 url = "https://github.com/OZNSN/coin-fountain"
@@ -603,17 +3212,676 @@ url = "https://github.com/OZNSN/coin-fountain"
 url = "https://github.com/p00temkin/forestfish"
 
 [[repo]]
+url = "https://github.com/P12-0504/ourkive-web3"
+
+[[repo]]
+url = "https://github.com/paditech-jsc/metafe_sc"
+
+[[repo]]
+url = "https://github.com/palet-global/palma.py"
+
+[[repo]]
+url = "https://github.com/palet-global/upptimed"
+
+[[repo]]
 url = "https://github.com/Paradox1188/lil-token-Contracts"
+
+[[repo]]
+url = "https://github.com/paragraph-xyz/docs"
+
+[[repo]]
+url = "https://github.com/paragraph-xyz/wnfts"
+
+[[repo]]
+url = "https://github.com/paraswap/augustus-v5"
+
+[[repo]]
+url = "https://github.com/paraswap/paraswap-dex-lib"
+
+[[repo]]
+url = "https://github.com/paraswap/paraswap-sdk"
+
+[[repo]]
+url = "https://github.com/pareekshit28/0xhome"
+
+[[repo]]
+url = "https://github.com/parseb/willwe"
+
+[[repo]]
+url = "https://github.com/parth-soni07/Cresento-Wallet"
+
+[[repo]]
+url = "https://github.com/partydao/party-protocol"
+
+[[repo]]
+url = "https://github.com/pathiosgr13/Exodia-Is-BASED"
+
+[[repo]]
+url = "https://github.com/paweljanicki/greencoins"
+
+[[repo]]
+url = "https://github.com/paycrest/zap"
+
+[[repo]]
+url = "https://github.com/paygoo/paygo"
+
+[[repo]]
+url = "https://github.com/pcbo/oracles-fit"
+
+[[repo]]
+url = "https://github.com/Pe4enable/hack-base"
+
+[[repo]]
+url = "https://github.com/peer-safe/peer-safe"
+
+[[repo]]
+url = "https://github.com/PeerLend-P2P-Lending-Protocol/PeerLend_Protocol_Contract"
+
+[[repo]]
+url = "https://github.com/Perfect-Pool/ace-the-brackets"
+
+[[repo]]
+url = "https://github.com/Perfect-Pool/bracket-game"
+
+[[repo]]
+url = "https://github.com/Perfect-Pool/onchain-madness"
+
+[[repo]]
+url = "https://github.com/pheasant-network/contracts"
+
+[[repo]]
+url = "https://github.com/pheobeayo/studentchain-builder"
+
+[[repo]]
+url = "https://github.com/phi-labs-inc/phi-teaser"
+
+[[repo]]
+url = "https://github.com/phovious-14/framefeet"
+
+[[repo]]
+url = "https://github.com/picsoritdidnthappen/poidh-app"
+
+[[repo]]
+url = "https://github.com/pixotchi/pixotchi-contract_passport_public"
+
+[[repo]]
+url = "https://github.com/pixotchi/pixotchi-contracts-misc_1_public"
+
+[[repo]]
+url = "https://github.com/pixotchi/pixotchi-contracts-misc_2_public"
+
+[[repo]]
+url = "https://github.com/pixotchi/pixotchi-contracts_v1_public"
+
+[[repo]]
+url = "https://github.com/pixotchi/pixotchi-contracts_v2_public"
+
+[[repo]]
+url = "https://github.com/pixotchi/pixotchi_indexer_v1_public"
+
+[[repo]]
+url = "https://github.com/pixotchi/pixotchi_indexer_v2_public"
+
+[[repo]]
+url = "https://github.com/piyushk2001/Blockchain-Payment-System"
+
+[[repo]]
+url = "https://github.com/PizzaDAO/mealticket-pizzafaucet"
+
+[[repo]]
+url = "https://github.com/playgotchi/playground"
+
+[[repo]]
+url = "https://github.com/playoriginstory/refusesbot"
+
+[[repo]]
+url = "https://github.com/plvannemanja/thirdweb-monsterx"
+
+[[repo]]
+url = "https://github.com/pmohun/baseColors"
+
+[[repo]]
+url = "https://github.com/pods-media/pods-1155"
+
+[[repo]]
+url = "https://github.com/PokPokProtocol/Minigame_BE"
+
+[[repo]]
+url = "https://github.com/polynomial-protocol/fx-connectors"
+
+[[repo]]
+url = "https://github.com/polynomial-protocol/fx-wallet"
+
+[[repo]]
+url = "https://github.com/ponchobase/onchain-contract"
+
+[[repo]]
+url = "https://github.com/ponder-surveys/farcaster-survey-bot"
+
+[[repo]]
+url = "https://github.com/popfendi/dropwhere"
+
+[[repo]]
+url = "https://github.com/poppunkllc/gaslitedrop"
+
+[[repo]]
+url = "https://github.com/portals-fi/portals-sc"
+
+[[repo]]
+url = "https://github.com/PoulavBhowmick03/onchain"
+
+[[repo]]
+url = "https://github.com/pounfy/Real-Time-Blockchain-Transaction-Time-Checker"
+
+[[repo]]
+url = "https://github.com/prakashith/oasisx-basecontracts"
+
+[[repo]]
+url = "https://github.com/Pranav543/fluid-collab"
+
+[[repo]]
+url = "https://github.com/Pratham-19/meme-arcade"
+
+[[repo]]
+url = "https://github.com/pratikawasare/pepe-the-news-guy"
+
+[[repo]]
+url = "https://github.com/Prava-Payments/prava-backend"
+
+[[repo]]
+url = "https://github.com/Prava-Payments/prava-relay-app"
+
+[[repo]]
+url = "https://github.com/Prava-Payments/prava-wallet-app"
+
+[[repo]]
+url = "https://github.com/preonmoney/preon-contracts-public"
+
+[[repo]]
+url = "https://github.com/print3rxyz/v1-contracts"
+
+[[repo]]
+url = "https://github.com/priyanshur66/referware"
+
+[[repo]]
+url = "https://github.com/product-findr/productfindr-backend"
+
+[[repo]]
+url = "https://github.com/product-findr/productfindr-frontend"
+
+[[repo]]
+url = "https://github.com/prop-house/round-contracts"
+
+[[repo]]
+url = "https://github.com/publu/pegstabilitymodule"
+
+[[repo]]
+url = "https://github.com/pyth-network/pyth-crosschain"
+
+[[repo]]
+url = "https://github.com/qedric/farconic"
+
+[[repo]]
+url = "https://github.com/rabbitholegg/quest-protocol"
+
+[[repo]]
+url = "https://github.com/rahmanxd/kaiclyde"
+
+[[repo]]
+url = "https://github.com/rahul8work/care-protocol"
+
+[[repo]]
+url = "https://github.com/raimp001/billingdog"
+
+[[repo]]
+url = "https://github.com/rainbow-me/swaps"
+
+[[repo]]
+url = "https://github.com/RajasreePonnada/base-ket"
+
+[[repo]]
+url = "https://github.com/rajgupta2505/Dcodeblock-Onchain-Hackathon"
+
+[[repo]]
+url = "https://github.com/RankJay/chainstore"
+
+[[repo]]
+url = "https://github.com/raptor042/Trybe"
+
+[[repo]]
+url = "https://github.com/raptor042/Trybe-CA"
+
+[[repo]]
+url = "https://github.com/raptor0929/Andes-Finance"
+
+[[repo]]
+url = "https://github.com/rarible/sdk"
+
+[[repo]]
+url = "https://github.com/ravstechnology/Bounty_Market"
+
+[[repo]]
+url = "https://github.com/reetbatra/based-funding"
+
+[[repo]]
+url = "https://github.com/Reksa97/onchainsummer-nft-surprise"
+
+[[repo]]
+url = "https://github.com/reserve-protocol/protocol"
+
+[[repo]]
+url = "https://github.com/reservoirprotocol/relay-contracts"
+
+[[repo]]
+url = "https://github.com/reservoirprotocol/reservoir-contracts"
+
+[[repo]]
+url = "https://github.com/Retrolist/retrolist-farcaster"
+
+[[repo]]
+url = "https://github.com/revert-finance/compoundor"
+
+[[repo]]
+url = "https://github.com/revert-finance/v3utils"
+
+[[repo]]
+url = "https://github.com/richardrauser/anglez"
+
+[[repo]]
+url = "https://github.com/richardrauser/anglez-contract"
 
 [[repo]]
 url = "https://github.com/RigoBlock/interface"
 
 [[repo]]
+url = "https://github.com/ripe0x/mint-frames"
+
+[[repo]]
+url = "https://github.com/RitualsHQ/rituals-contracts"
+
+[[repo]]
+url = "https://github.com/RitualsHQ/rituals-mobile"
+
+[[repo]]
+url = "https://github.com/RitualsHQ/rituals-sdk"
+
+[[repo]]
+url = "https://github.com/rmrk-team/evm"
+
+[[repo]]
+url = "https://github.com/rmrk-team/me-pfp-example"
+
+[[repo]]
+url = "https://github.com/rmrk-team/rmrk-composable-nft-creator"
+
+[[repo]]
+url = "https://github.com/rmrk-team/rmrk-examples"
+
+[[repo]]
+url = "https://github.com/rmrk-team/rmrk-js"
+
+[[repo]]
+url = "https://github.com/robotsfarm/contracts"
+
+[[repo]]
+url = "https://github.com/rohit-710/headless-checkout"
+
+[[repo]]
+url = "https://github.com/romanmedrano/beware-of-shadows"
+
+[[repo]]
+url = "https://github.com/roskobb/BaseHealth"
+
+[[repo]]
+url = "https://github.com/router-protocol/router-contracts"
+
+[[repo]]
+url = "https://github.com/rubyscoreio/main_contracts"
+
+[[repo]]
+url = "https://github.com/runic-inc/patchwork"
+
+[[repo]]
+url = "https://github.com/runic-inc/pdk"
+
+[[repo]]
+url = "https://github.com/runners-dev/runners-erc404"
+
+[[repo]]
+url = "https://github.com/rusairdrop/yieldtop-frontend"
+
+[[repo]]
+url = "https://github.com/ryankagygamestop2/basedforthechildren"
+
+[[repo]]
+url = "https://github.com/saadiq/wandermarks"
+
+[[repo]]
+url = "https://github.com/sablier-labs/v2-core"
+
+[[repo]]
+url = "https://github.com/sahar0123/sahartoken"
+
+[[repo]]
+url = "https://github.com/Sai-Prasad567/AirBase"
+
+[[repo]]
+url = "https://github.com/saintswagbaby/swag"
+
+[[repo]]
+url = "https://github.com/Salmandabbakuti/super-threetube"
+
+[[repo]]
+url = "https://github.com/Salvadorpuerto/romco"
+
+[[repo]]
+url = "https://github.com/sambitsargam/greenlink"
+
+[[repo]]
+url = "https://github.com/sanchomarc/HealthCoin"
+
+[[repo]]
+url = "https://github.com/sanket-kogekar/fighter-cash"
+
+[[repo]]
+url = "https://github.com/sanket-kogekar/fighter-cash-ui"
+
+[[repo]]
+url = "https://github.com/sasha-korzh/nfterio"
+
+[[repo]]
+url = "https://github.com/sbauch/speedtracer-contracts"
+
+[[repo]]
+url = "https://github.com/scaffold-eth/scaffold-eth"
+
+[[repo]]
+url = "https://github.com/scaffold-eth/scaffold-eth-2"
+
+[[repo]]
+url = "https://github.com/scaffold-eth/se-2-challenges"
+
+[[repo]]
+url = "https://github.com/scaffold-eth/se2-docs"
+
+[[repo]]
+url = "https://github.com/Scooper-Labs/asset-scooper-2"
+
+[[repo]]
+url = "https://github.com/Scooper-Labs/asset-scooper-interface"
+
+[[repo]]
+url = "https://github.com/scopelift/umbra-protocol"
+
+[[repo]]
+url = "https://github.com/scryprotocol/contracts"
+
+[[repo]]
+url = "https://github.com/seaml3/coinbase-smartwallet"
+
+[[repo]]
+url = "https://github.com/seamless-protocol/governance"
+
+[[repo]]
+url = "https://github.com/sebastianlujan/daadaV1-Core-Contracts"
+
+[[repo]]
+url = "https://github.com/senspace-studio/card"
+
+[[repo]]
+url = "https://github.com/senspace-studio/gasha"
+
+[[repo]]
+url = "https://github.com/sergical/ossummer"
+
+[[repo]]
+url = "https://github.com/shanni/cyb3rliving"
+
+[[repo]]
+url = "https://github.com/Shanni/Cyb3rliving-Contract"
+
+[[repo]]
 url = "https://github.com/ShivaliLN/DisasterDefender"
-missing = true
+
+[[repo]]
+url = "https://github.com/Shoukozumi/RDP-on-base"
+
+[[repo]]
+url = "https://github.com/shovelers/network-monorepo"
+
+[[repo]]
+url = "https://github.com/showtime-xyz/creator-tokens"
+
+[[repo]]
+url = "https://github.com/shrutipanjwani/coinbasics-edtech"
+
+[[repo]]
+url = "https://github.com/shubhiscoding/BrowserExtension-Pay-On-Tweet"
+
+[[repo]]
+url = "https://github.com/shubhiscoding/Pay-On-Tweets"
+
+[[repo]]
+url = "https://github.com/sidrisov/payflow"
+
+[[repo]]
+url = "https://github.com/simondevz/fusionPay-patchwork"
+
+[[repo]]
+url = "https://github.com/sirgawain0x/moods.js"
+
+[[repo]]
+url = "https://github.com/skorolevskiy/zora-mint-frame"
+
+[[repo]]
+url = "https://github.com/slice-so/contracts-hooks"
+
+[[repo]]
+url = "https://github.com/slice-so/contracts-pricing"
+
+[[repo]]
+url = "https://github.com/slice-so/subgraph"
+
+[[repo]]
+url = "https://github.com/smallbraingames/frameception"
+
+[[repo]]
+url = "https://github.com/smallbraingames/yonk-contracts"
+
+[[repo]]
+url = "https://github.com/smoldapp/corecontracts"
+
+[[repo]]
+url = "https://github.com/smoldapp/dumpservices"
+
+[[repo]]
+url = "https://github.com/smoldapp/gibto"
+
+[[repo]]
+url = "https://github.com/smoldapp/smoldapp"
+
+[[repo]]
+url = "https://github.com/smoldapp/smolv2"
+
+[[repo]]
+url = "https://github.com/smoldapp/tokenassets"
+
+[[repo]]
+url = "https://github.com/smolstudios/drawthechart-contract"
+
+[[repo]]
+url = "https://github.com/smolstudios/tokepad-contract"
+
+[[repo]]
+url = "https://github.com/sofFrom1994/ethlatlong"
+
+[[repo]]
+url = "https://github.com/soke-dev/ticket-mint"
+
+[[repo]]
+url = "https://github.com/soloking1412/P2E"
+
+[[repo]]
+url = "https://github.com/SONGS-TOOLS/Global-Music-Distribution-Protocol"
+
+[[repo]]
+url = "https://github.com/sonhavietnamese/stickers"
+
+[[repo]]
+url = "https://github.com/sonicsmith/based-buds"
+
+[[repo]]
+url = "https://github.com/Soumyadyuti99/farcaster-commerce"
+
+[[repo]]
+url = "https://github.com/Soumyadyuti99/farcaster-commerce-frontend"
+
+[[repo]]
+url = "https://github.com/soundxyz/sound-protocol"
+
+[[repo]]
+url = "https://github.com/sovaSniper/strase"
+
+[[repo]]
+url = "https://github.com/SovaSniper/strase-contracts"
+
+[[repo]]
+url = "https://github.com/sovaSniper/strase-sdk"
+
+[[repo]]
+url = "https://github.com/spenciefy/step-fun"
+
+[[repo]]
+url = "https://github.com/SquaredLab-io/GenieV1"
+
+[[repo]]
+url = "https://github.com/ss-deshmukh/Crypto-Transaction-Analyser"
+
+[[repo]]
+url = "https://github.com/ss2d22/MinNFT"
+
+[[repo]]
+url = "https://github.com/ssd39/EaseNow"
+
+[[repo]]
+url = "https://github.com/stabilitydao/stability"
+
+[[repo]]
+url = "https://github.com/stabilitydao/stability-contracts"
+
+[[repo]]
+url = "https://github.com/stabilitydao/stability-subgraph"
+
+[[repo]]
+url = "https://github.com/stabilitydao/stability-ui"
+
+[[repo]]
+url = "https://github.com/Stakikos/Voice-Chat-Gtp"
+
+[[repo]]
+url = "https://github.com/standardweb3/standard3.0-contracts"
+
+[[repo]]
+url = "https://github.com/standardweb3/standard3.0-ponder"
+
+[[repo]]
+url = "https://github.com/stargate-protocol/stargate"
+
+[[repo]]
+url = "https://github.com/starit/farcaster-marketsense-contracts"
+
+[[repo]]
+url = "https://github.com/starit/fc-prediction-frames"
+
+[[repo]]
+url = "https://github.com/StarryDevStar01/Little-John"
+
+[[repo]]
+url = "https://github.com/stationx-network/dropx-contracts"
+
+[[repo]]
+url = "https://github.com/stephharris/receipts-contract"
+
+[[repo]]
+url = "https://github.com/stevenwu/onchain-affiliate"
+
+[[repo]]
+url = "https://github.com/stipinp/stipinpixel"
+
+[[repo]]
+url = "https://github.com/stonesha/wallet-address-mapper"
 
 [[repo]]
 url = "https://github.com/stratusagency/nft-minter"
+
+[[repo]]
+url = "https://github.com/streamethorg/streameth-platform"
+
+[[repo]]
+url = "https://github.com/stuckinaboot/based-nfts-op"
+
+[[repo]]
+url = "https://github.com/sudoswap/lssvm2"
+
+[[repo]]
+url = "https://github.com/sumitchoudharySEM/social_job_platform_base"
+
+[[repo]]
+url = "https://github.com/sumithprabhu/Raisecoin"
+
+[[repo]]
+url = "https://github.com/sunsetlover36/based-basketball-association"
+
+[[repo]]
+url = "https://github.com/sunshinevendetta/storebase"
+
+[[repo]]
+url = "https://github.com/superfluid-finance/protocol-monorepo"
+
+[[repo]]
+url = "https://github.com/surbhit14/frog-transaction-frame"
+
+[[repo]]
+url = "https://github.com/SvetGit23/createst"
+
+[[repo]]
+url = "https://github.com/swapbased/swapbased-main-contracts"
+
+[[repo]]
+url = "https://github.com/swapbased/swapbased-perps-contracts"
+
+[[repo]]
+url = "https://github.com/swapbased/swapbased-v2-core-contracts"
+
+[[repo]]
+url = "https://github.com/swapbased/swapbased-v3-core-and-farming-contracts"
+
+[[repo]]
+url = "https://github.com/SwapUp-dApp/Backend-v2"
+
+[[repo]]
+url = "https://github.com/SwapUp-dApp/Front-End-v2"
+
+[[repo]]
+url = "https://github.com/SwapUp-dApp/Smart-Contract-v2"
+
+[[repo]]
+url = "https://github.com/SweetmanTech/aura-haus"
+
+[[repo]]
+url = "https://github.com/SweetmanTech/DACIRKUS_PERFORMERS"
+
+[[repo]]
+url = "https://github.com/SweetmanTech/Heno-Relief-Game"
+
+[[repo]]
+url = "https://github.com/sweetmantech/heno._custom_website"
+
+[[repo]]
+url = "https://github.com/SweetmanTech/sound-capsules"
+
+[[repo]]
+url = "https://github.com/sweetmantech/xcelencia"
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/evm-coin-flip"
@@ -622,7 +3890,304 @@ url = "https://github.com/switchboard-xyz/evm-coin-flip"
 url = "https://github.com/switchboard-xyz/evm-functions-template"
 
 [[repo]]
+url = "https://github.com/symm-io/protocol-core"
+
+[[repo]]
+url = "https://github.com/synapsecns/sanguine"
+
+[[repo]]
+url = "https://github.com/synonymfinance/smart-contracts-public"
+
+[[repo]]
+url = "https://github.com/synthetixio/synthetix"
+
+[[repo]]
+url = "https://github.com/synthetixio/synthetix-v3"
+
+[[repo]]
+url = "https://github.com/t0lia/RetypeMe"
+
+[[repo]]
+url = "https://github.com/Taher2512/CarbonDEX"
+
+[[repo]]
+url = "https://github.com/Taher2512/CarbonDEX-Contracts"
+
+[[repo]]
+url = "https://github.com/talentprotocol/buidlerfi"
+
+[[repo]]
+url = "https://github.com/talentprotocol/contracts"
+
+[[repo]]
+url = "https://github.com/TanmayNewatia/Runic-Realm"
+
+[[repo]]
+url = "https://github.com/tannaz000/tannaztoken"
+
+[[repo]]
+url = "https://github.com/tarot-finance/tarot-contract-reference"
+
+[[repo]]
+url = "https://github.com/TechDetech/ticketsaver-frontend"
+
+[[repo]]
+url = "https://github.com/tejitopia/ethergoals"
+
+[[repo]]
+url = "https://github.com/temi0x/waas"
+
+[[repo]]
+url = "https://github.com/TerexitariusStomp/Futureproof"
+
+[[repo]]
+url = "https://github.com/TerratekMusic/Warpify"
+
+[[repo]]
+url = "https://github.com/Tgemayel/cast-markets"
+
+[[repo]]
+url = "https://github.com/thales-markets/contracts"
+
+[[repo]]
+url = "https://github.com/theapesociety/onboardfun"
+
+[[repo]]
+url = "https://github.com/theapesociety/onboardfunapp"
+
+[[repo]]
+url = "https://github.com/thebreadcat/halp-frame"
+
+[[repo]]
+url = "https://github.com/thebreadcat/halp-site"
+
+[[repo]]
+url = "https://github.com/thebreadcat/recolex"
+
+[[repo]]
+url = "https://github.com/TheGodOfAwesome/54_Base"
+
+[[repo]]
+url = "https://github.com/theopenxproject/openxswap-optimism-contracts"
+
+[[repo]]
+url = "https://github.com/theopenxproject/openxvaults"
+
+[[repo]]
+url = "https://github.com/Theras-Labs/starex-evm-contract-v2"
+
+[[repo]]
+url = "https://github.com/therealharpaljadeja/channelx"
+
+[[repo]]
+url = "https://github.com/therealharpaljadeja/zora-cart-extension"
+
+[[repo]]
+url = "https://github.com/theSchein/bets-with-friends"
+
+[[repo]]
+url = "https://github.com/thseeding/Hype-"
+
+[[repo]]
+url = "https://github.com/Tickether/pooltogether-africa-aa-ens"
+
+[[repo]]
+url = "https://github.com/Tickether/pooltogether-africa-aa-ens-incentives"
+
+[[repo]]
+url = "https://github.com/Tickether/pooltogether-africa-aa-ens-prize-depositor"
+
+[[repo]]
+url = "https://github.com/Tickether/pooltogether-africa-aa-ens-reward-notice"
+
+[[repo]]
+url = "https://github.com/Timeless-Org/Fuzzle"
+
+[[repo]]
+url = "https://github.com/timelessux/timeless-browser-extension"
+
+[[repo]]
+url = "https://github.com/timeswap-labs/timeswap-v2-contracts"
+
+[[repo]]
+url = "https://github.com/titlesnyc/wallflower-contract-v1"
+
+[[repo]]
+url = "https://github.com/tjcages/ctg-player-nft"
+
+[[repo]]
+url = "https://github.com/tnkshuuhei/gg-frame"
+
+[[repo]]
+url = "https://github.com/Token-Resurrection/Token-Resurrection"
+
+[[repo]]
+url = "https://github.com/tomathyg/sof-cms-contentful-app"
+
+[[repo]]
+url = "https://github.com/Tonchu-Furyan/042"
+
+[[repo]]
+url = "https://github.com/tony1908/memecoinindex"
+
+[[repo]]
+url = "https://github.com/tonynacumoto/payment-portal"
+
+[[repo]]
+url = "https://github.com/tracychen/popshop"
+
+[[repo]]
+url = "https://github.com/trandrewsg91/Tank-Defender-Game"
+
+[[repo]]
+url = "https://github.com/trashnfts/dumpster-divers"
+
+[[repo]]
+url = "https://github.com/travenesia/travenesia"
+
+[[repo]]
+url = "https://github.com/tribesxapp/march-madness"
+
+[[repo]]
+url = "https://github.com/tribesxapp/tribex-smart-contracts"
+
+[[repo]]
+url = "https://github.com/tripledoublev/onchain-html"
+
+[[repo]]
+url = "https://github.com/trugly-labs/contracts-v1"
+
+[[repo]]
+url = "https://github.com/trumen-world/react-native-smart-wallet-connector"
+
+[[repo]]
+url = "https://github.com/ttedz/bgn"
+
+[[repo]]
+url = "https://github.com/Tukyo/deSypher"
+
+[[repo]]
+url = "https://github.com/tuum-tech/app.intori.co"
+
+[[repo]]
+url = "https://github.com/tuum-tech/intori-contracts"
+
+[[repo]]
+url = "https://github.com/u3Devhouse/onchain-summer"
+
+[[repo]]
+url = "https://github.com/ubinix-warun/boat-cartoongan-portal"
+
+[[repo]]
+url = "https://github.com/uncx-network/liquidity-locker-univ2-contracts"
+
+[[repo]]
+url = "https://github.com/uncx-network/liquidity-locker-univ3-contracts"
+
+[[repo]]
+url = "https://github.com/uncx-network/token-vesting-contracts"
+
+[[repo]]
+url = "https://github.com/unenunciate/e-gold-vul"
+
+[[repo]]
 url = "https://github.com/uri1001/the-evm-networks-project"
+
+[[repo]]
+url = "https://github.com/urielArchangel/denonymous"
+
+[[repo]]
+url = "https://github.com/urmaliyadivyanshu31/Kutumb"
+
+[[repo]]
+url = "https://github.com/us3r-network/degencast"
+
+[[repo]]
+url = "https://github.com/utkarshdagoat/Franthetix-Contracts"
+
+[[repo]]
+url = "https://github.com/V-Blaze/Fllow-backend"
+
+[[repo]]
+url = "https://github.com/V-Blaze/Fllow-frontend"
+
+[[repo]]
+url = "https://github.com/vacuumlabs/settlebeef"
+
+[[repo]]
+url = "https://github.com/vadafaka/base-t-rkiye"
+
+[[repo]]
+url = "https://github.com/vanna-finance/core-ui"
+
+[[repo]]
+url = "https://github.com/vectorized/multicaller"
+
+[[repo]]
+url = "https://github.com/velocimeter/carbon-contracts"
+
+[[repo]]
+url = "https://github.com/velocimeter/v3-contracts"
+
+[[repo]]
+url = "https://github.com/victorbrevig/sub2-sdk"
+
+[[repo]]
+url = "https://github.com/victxx/Caminos"
+
+[[repo]]
+url = "https://github.com/Vikash-8090-Yadav/Finder"
+
+[[repo]]
+url = "https://github.com/viktorandonov36/EchoChain"
+
+[[repo]]
+url = "https://github.com/virtual-protocol/protocol-contracts"
+
+[[repo]]
+url = "https://github.com/virtual-protocol/react-virtual-ai"
+
+[[repo]]
+url = "https://github.com/vitorjaguat/anarchive"
+
+[[repo]]
+url = "https://github.com/Vivekreddyv/StyleSyncfrontend"
+
+[[repo]]
+url = "https://github.com/vmmuthu31/ChainsHunter"
+
+[[repo]]
+url = "https://github.com/vrajdesai78/farview.id"
+
+[[repo]]
+url = "https://github.com/W3bbieLabs/Onchain-Summer-Buildathon"
+
+[[repo]]
+url = "https://github.com/wagmi1337/onchain-monorepo"
+
+[[repo]]
+url = "https://github.com/waitingcheung/blockpad"
+
+[[repo]]
+url = "https://github.com/WarpieTheWombat/WarpieCastBot"
+
+[[repo]]
+url = "https://github.com/wasd3rplay/aadex-contract"
+
+[[repo]]
+url = "https://github.com/wasd3rplay/nectar-sdk-examples"
+
+[[repo]]
+url = "https://github.com/WaSSupMeme/fomofactory"
+
+[[repo]]
+url = "https://github.com/WaSSupMeme/fomofactory-frame"
+
+[[repo]]
+url = "https://github.com/wattatrickk/Traffic-Sign-Factory"
+
+[[repo]]
+url = "https://github.com/wavpoint/wavpoint-monorepo"
 
 [[repo]]
 url = "https://github.com/wbnns/awesome-base"
@@ -649,7 +4214,28 @@ url = "https://github.com/wbnns/meliora"
 url = "https://github.com/wbnns/proof-of-developer"
 
 [[repo]]
+url = "https://github.com/wearedayone/casino-tycoon"
+
+[[repo]]
+url = "https://github.com/weareflexable/marketplace"
+
+[[repo]]
 url = "https://github.com/weavechain-web3/inheritable"
+
+[[repo]]
+url = "https://github.com/Web3-NaUKMA/venture-launch-deployment"
+
+[[repo]]
+url = "https://github.com/Web3DC/EtherPress"
+
+[[repo]]
+url = "https://github.com/web3Gurung/breaking-base"
+
+[[repo]]
+url = "https://github.com/webhash-eth/websitessmartcontract"
+
+[[repo]]
+url = "https://github.com/wenakita/frenmint"
 
 [[repo]]
 url = "https://github.com/westonnelson/interface"
@@ -658,7 +4244,109 @@ url = "https://github.com/westonnelson/interface"
 url = "https://github.com/whoislewys/moneymatch-interface"
 
 [[repo]]
+url = "https://github.com/whrrl/BruFinance"
+
+[[repo]]
+url = "https://github.com/wighawag/as-soon"
+
+[[repo]]
+url = "https://github.com/wighawag/autonomous-dungeon"
+
+[[repo]]
+url = "https://github.com/wighawag/bleeps"
+
+[[repo]]
+url = "https://github.com/wighawag/blockies-nft"
+
+[[repo]]
+url = "https://github.com/wighawag/bomber-woman"
+
+[[repo]]
+url = "https://github.com/wighawag/catacombs"
+
+[[repo]]
+url = "https://github.com/wighawag/clones-with-immutable-args"
+
+[[repo]]
+url = "https://github.com/wighawag/eip721-subgraph"
+
+[[repo]]
+url = "https://github.com/wighawag/erc721-lease"
+
+[[repo]]
+url = "https://github.com/wighawag/ethereum-contracts-test-suite"
+
+[[repo]]
+url = "https://github.com/wighawag/ethereum-tx-observer"
+
+[[repo]]
+url = "https://github.com/wighawag/forge-deploy"
+
+[[repo]]
+url = "https://github.com/wighawag/forge-exec"
+
+[[repo]]
+url = "https://github.com/wighawag/fuzd"
+
+[[repo]]
+url = "https://github.com/wighawag/hardhat-deploy"
+
+[[repo]]
+url = "https://github.com/wighawag/hardhat-preprocessor"
+
+[[repo]]
+url = "https://github.com/wighawag/ldenv"
+
+[[repo]]
+url = "https://github.com/wighawag/mandalas"
+
+[[repo]]
+url = "https://github.com/wighawag/missiv"
+
+[[repo]]
+url = "https://github.com/wighawag/named-logs"
+
+[[repo]]
+url = "https://github.com/wighawag/pwag"
+
+[[repo]]
+url = "https://github.com/wighawag/rocketh"
+
+[[repo]]
+url = "https://github.com/wighawag/solidity-kit"
+
+[[repo]]
+url = "https://github.com/wighawag/solidity-proxy"
+
+[[repo]]
+url = "https://github.com/wighawag/stratagems"
+
+[[repo]]
+url = "https://github.com/wighawag/the-bleep-machine"
+
+[[repo]]
+url = "https://github.com/wighawag/transfer-gateway"
+
+[[repo]]
+url = "https://github.com/wighawag/universal-forwarder"
+
+[[repo]]
+url = "https://github.com/wighawag/vitest-solidity-coverage"
+
+[[repo]]
+url = "https://github.com/wighawag/yooloot"
+
+[[repo]]
 url = "https://github.com/winniewngg/inheritable-chainlink"
+
+[[repo]]
+url = "https://github.com/winstonchua/base_app_backend"
+
+[[repo]]
+url = "https://github.com/winstonchua/base_summer_project"
+
+[[repo]]
+url = "https://github.com/withfabricxyz/contracts"
 
 [[repo]]
 url = "https://github.com/withfabricxyz/protocol-sdks"
@@ -667,4 +4355,106 @@ url = "https://github.com/withfabricxyz/protocol-sdks"
 url = "https://github.com/Woodpile37/interface"
 
 [[repo]]
+url = "https://github.com/woonetwork/woopoolv2"
+
+[[repo]]
+url = "https://github.com/woonetwork/woostakingv2"
+
+[[repo]]
+url = "https://github.com/worldassociation/world-association"
+
+[[repo]]
+url = "https://github.com/wormgate-io/contracts"
+
+[[repo]]
+url = "https://github.com/wormgate-io/womex.io"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/example-uniswap-liquidity-layer"
+
+[[repo]]
+url = "https://github.com/xdimension/shop-group-buy"
+
+[[repo]]
+url = "https://github.com/xgamefi/Game_of_memes"
+
+[[repo]]
+url = "https://github.com/xstationxyz/xStation-pub"
+
+[[repo]]
+url = "https://github.com/xswaplink/xswaprouter"
+
+[[repo]]
+url = "https://github.com/YadlaMani/Opto"
+
+[[repo]]
+url = "https://github.com/yasp-fi/defi-router"
+
+[[repo]]
+url = "https://github.com/yavuzkocca/drawproof"
+
+[[repo]]
+url = "https://github.com/yayashuxue/centralized-poker"
+
+[[repo]]
+url = "https://github.com/yeet-haus/mvp"
+
+[[repo]]
+url = "https://github.com/yellowk-lab/buildathon-backend"
+
+[[repo]]
+url = "https://github.com/yellowk-lab/buildathon-contracts"
+
+[[repo]]
+url = "https://github.com/yellowk-lab/buildathon-frontend"
+
+[[repo]]
 url = "https://github.com/yield-v1/strategies-v1-base"
+
+[[repo]]
+url = "https://github.com/yourusername/coinflippernotreadyyet"
+
+[[repo]]
+url = "https://github.com/yourusername/MoneyBee"
+
+[[repo]]
+url = "https://github.com/Yuki2580/casino_wars"
+
+[[repo]]
+url = "https://github.com/yungwkndllc/highercontract"
+
+[[repo]]
+url = "https://github.com/yungwkndllc/higherframes"
+
+[[repo]]
+url = "https://github.com/yurakas97/f-frames"
+
+[[repo]]
+url = "https://github.com/z80dev/ethxy_poker"
+
+[[repo]]
+url = "https://github.com/zeriontech/defi-sdk"
+
+[[repo]]
+url = "https://github.com/zerius-io/contracts"
+
+[[repo]]
+url = "https://github.com/zeroxandrese/PetClubAPP"
+
+[[repo]]
+url = "https://github.com/zhangzhongnan928/Chloe-s-Crafty-Pom-Poms"
+
+[[repo]]
+url = "https://github.com/zkemail/zk-email-verify"
+
+[[repo]]
+url = "https://github.com/zkp2p/zk-p2p"
+
+[[repo]]
+url = "https://github.com/zkp2p/zk-p2p-periphery"
+
+[[repo]]
+url = "https://github.com/zuni-lab/zuni-smart-vault"
+
+[[repo]]
+url = "https://github.com/zwergdev/whale-bridge"

@@ -3,9 +3,12 @@ title = "Mofa Labs"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/MofaLabs"]
+github_organizations = ["https://github.com/mofalabs"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/mofalabs/aptos"
+
 [[repo]]
 url = "https://github.com/mofalabs/bcs"
 
@@ -13,8 +16,10 @@ url = "https://github.com/mofalabs/bcs"
 url = "https://github.com/mofalabs/deepbook"
 
 [[repo]]
-url = "https://github.com/mofalabs/mofa"
-missing = true
+url = "https://github.com/mofalabs/images"
+
+[[repo]]
+url = "https://github.com/mofalabs/packages"
 
 [[repo]]
 url = "https://github.com/mofalabs/poseidon"

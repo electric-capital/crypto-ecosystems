@@ -2,21 +2,29 @@
 title = "IoTeX"
 
 sub_ecosystems = [
+  "Ator",
+  "Bedrock Technology",
   "BoringDAO",
   "Cyclone",
   "Drop Wireless",
   "Elk Finance",
   "Filda",
   "ForTube",
+  "Inferix",
   "iopay",
   "iotubeproject",
+  "Loxodrome",
   "M3tering Protocol",
   "machinefi",
   "Magma Finance",
   "Metroswap",
   "Mimo Defi",
+  "Quenta",
+  "RockX SG",
   "StarCrazy",
   "Unifi Protocol",
+  "WatchX Network",
+  "Wayru",
   "WOWswap",
   "xDollar",
   "ZoomSwap",
@@ -125,6 +133,9 @@ url = "https://github.com/iotexproject/generate-pebble-data"
 
 [[repo]]
 url = "https://github.com/iotexproject/ghost"
+
+[[repo]]
+url = "https://github.com/iotexproject/ghost_latest"
 
 [[repo]]
 url = "https://github.com/iotexproject/gmsm"
@@ -258,6 +269,12 @@ url = "https://github.com/iotexproject/iotex-bootstrap"
 url = "https://github.com/iotexproject/iotex-chainlink-adapter"
 
 [[repo]]
+url = "https://github.com/iotexproject/iotex-client-gateway"
+
+[[repo]]
+url = "https://github.com/iotexproject/iotex-config-service"
+
+[[repo]]
 url = "https://github.com/iotexproject/iotex-core"
 tags = ["Protocol"]
 
@@ -292,6 +309,7 @@ url = "https://github.com/iotexproject/iotex-election"
 
 [[repo]]
 url = "https://github.com/iotexproject/iotex-erc20"
+missing = true
 
 [[repo]]
 url = "https://github.com/iotexproject/iotex-governance"
@@ -333,8 +351,14 @@ url = "https://github.com/iotexproject/iotex-tools"
 url = "https://github.com/iotexproject/iotex-tools-feature-request"
 
 [[repo]]
+url = "https://github.com/iotexproject/iotex-transaction-service"
+
+[[repo]]
 url = "https://github.com/iotexproject/iotex-wallet"
 missing = true
+
+[[repo]]
+url = "https://github.com/iotexproject/iotex-web-core"
 
 [[repo]]
 url = "https://github.com/iotexproject/iotex-website"
@@ -377,6 +401,9 @@ url = "https://github.com/iotexproject/machinefi-dapps"
 [[repo]]
 url = "https://github.com/iotexproject/machinefi-getstarted-preview"
 missing = true
+
+[[repo]]
+url = "https://github.com/iotexproject/marshall-dao"
 
 [[repo]]
 url = "https://github.com/iotexproject/merkle-distributor"
@@ -471,7 +498,11 @@ url = "https://github.com/iotexproject/snapshot-strategies"
 url = "https://github.com/iotexproject/solidity-dkim"
 
 [[repo]]
+url = "https://github.com/iotexproject/stablecoin-evm"
+
+[[repo]]
 url = "https://github.com/iotexproject/tokenomics-research"
+missing = true
 
 [[repo]]
 url = "https://github.com/iotexproject/trpc-cloudflare-worker"
@@ -550,7 +581,13 @@ url = "https://github.com/iotubeproject/docs"
 url = "https://github.com/iotubeproject/ioTube"
 
 [[repo]]
+url = "https://github.com/iotubeproject/iotube-configs"
+
+[[repo]]
 url = "https://github.com/iotubeproject/iotube-contracts"
+
+[[repo]]
+url = "https://github.com/iotubeproject/iotube-prod-configs"
 
 [[repo]]
 url = "https://github.com/iotubeproject/iotube-validator-service"
@@ -559,10 +596,16 @@ url = "https://github.com/iotubeproject/iotube-validator-service"
 url = "https://github.com/iotubeproject/media-kits"
 
 [[repo]]
+url = "https://github.com/iotubeproject/stablecoin-evm"
+
+[[repo]]
 url = "https://github.com/iotubeproject/tips"
 
 [[repo]]
 url = "https://github.com/machinefi/.github"
+
+[[repo]]
+url = "https://github.com/machinefi/batch-verify-ciruit"
 
 [[repo]]
 url = "https://github.com/machinefi/Bike-Sharing-DePIN-Webinar"
@@ -593,7 +636,28 @@ url = "https://github.com/machinefi/get-started"
 url = "https://github.com/machinefi/go-iden3-crypto"
 
 [[repo]]
+url = "https://github.com/machinefi/go-ioid"
+
+[[repo]]
 url = "https://github.com/machinefi/google-fit-demo"
+
+[[repo]]
+url = "https://github.com/machinefi/halo2wrong"
+
+[[repo]]
+url = "https://github.com/machinefi/ido-contracts"
+
+[[repo]]
+url = "https://github.com/machinefi/ioConnect"
+
+[[repo]]
+url = "https://github.com/machinefi/ioconnect-go"
+
+[[repo]]
+url = "https://github.com/machinefi/ioconnet-go"
+
+[[repo]]
+url = "https://github.com/machinefi/ioID-contracts"
 
 [[repo]]
 url = "https://github.com/machinefi/iot-sdk-mbedtls"
@@ -603,6 +667,12 @@ url = "https://github.com/machinefi/iot-sdk-tinycrypt"
 
 [[repo]]
 url = "https://github.com/machinefi/iot-sdk-trusted-firmware"
+
+[[repo]]
+url = "https://github.com/machinefi/iotex-dewi-demo"
+
+[[repo]]
+url = "https://github.com/machinefi/jwx"
 
 [[repo]]
 url = "https://github.com/machinefi/Location-nft-web-example"
@@ -632,10 +702,19 @@ url = "https://github.com/machinefi/psa-crypto-esp32"
 url = "https://github.com/machinefi/rust-poseidon"
 
 [[repo]]
+url = "https://github.com/machinefi/sandbox-subgraph"
+
+[[repo]]
 url = "https://github.com/machinefi/smartpoint-demo"
 
 [[repo]]
+url = "https://github.com/machinefi/snark-verifier"
+
+[[repo]]
 url = "https://github.com/machinefi/sprout"
+
+[[repo]]
+url = "https://github.com/machinefi/sprout-pebble-sequencer"
 
 [[repo]]
 url = "https://github.com/machinefi/test-required-workflow"
@@ -728,6 +807,12 @@ url = "https://github.com/machinefi/w3bstream_compilets_demo"
 
 [[repo]]
 url = "https://github.com/machinefi/waas-flow-sdk-doc"
+
+[[repo]]
+url = "https://github.com/machinefi/WeatherXM-IoTeX-Textile-POC"
+
+[[repo]]
+url = "https://github.com/machinefi/weatherxm-qod"
 
 [[repo]]
 url = "https://github.com/machinefi/web3-iot-sdk"

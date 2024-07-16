@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Fuel"
 
-sub_ecosystems = []
+sub_ecosystems = ["composability labs", "infinitybase"]
 
 github_organizations = ["https://github.com/FuelLabs", "https://github.com/sway-libs"]
 
@@ -218,7 +218,13 @@ url = "https://github.com/FuelLabs/action-fuel-toolchain"
 url = "https://github.com/FuelLabs/applications-on-fuel"
 
 [[repo]]
+url = "https://github.com/FuelLabs/audits"
+
+[[repo]]
 url = "https://github.com/FuelLabs/authn-sign"
+
+[[repo]]
+url = "https://github.com/FuelLabs/autocomplete"
 
 [[repo]]
 url = "https://github.com/FuelLabs/awesome-fuel"
@@ -252,6 +258,12 @@ url = "https://github.com/FuelLabs/bridge-message-predicates"
 url = "https://github.com/FuelLabs/cargo-toml-lint"
 
 [[repo]]
+url = "https://github.com/FuelLabs/chain"
+
+[[repo]]
+url = "https://github.com/FuelLabs/chain-configuration"
+
+[[repo]]
 url = "https://github.com/FuelLabs/changesets-action"
 
 [[repo]]
@@ -263,6 +275,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/FuelLabs/create-fuels-templates"
+
+[[repo]]
+url = "https://github.com/FuelLabs/data-systems"
 
 [[repo]]
 url = "https://github.com/FuelLabs/demo-block-explorer"
@@ -305,6 +320,9 @@ url = "https://github.com/FuelLabs/etk"
 url = "https://github.com/FuelLabs/EVM-Wallet-Connector"
 
 [[repo]]
+url = "https://github.com/FuelLabs/example-forc-plugins"
+
+[[repo]]
 url = "https://github.com/FuelLabs/faucet"
 
 [[repo]]
@@ -315,6 +333,12 @@ url = "https://github.com/FuelLabs/forc-explorer"
 
 [[repo]]
 url = "https://github.com/FuelLabs/forc-wallet"
+
+[[repo]]
+url = "https://github.com/FuelLabs/forc.pub"
+
+[[repo]]
+url = "https://github.com/FuelLabs/forc.pub-index"
 
 [[repo]]
 url = "https://github.com/FuelLabs/forum-notifier"
@@ -345,12 +369,19 @@ url = "https://github.com/FuelLabs/fuel-burner-wallet"
 
 [[repo]]
 url = "https://github.com/FuelLabs/fuel-canary-watchtower"
+missing = true
+
+[[repo]]
+url = "https://github.com/FuelLabs/fuel-connectors"
 
 [[repo]]
 url = "https://github.com/FuelLabs/fuel-contributors"
 
 [[repo]]
 url = "https://github.com/FuelLabs/fuel-core"
+
+[[repo]]
+url = "https://github.com/FuelLabs/fuel-core-client-ext"
 
 [[repo]]
 url = "https://github.com/FuelLabs/fuel-crypto"
@@ -408,6 +439,9 @@ url = "https://github.com/FuelLabs/fuel-specs"
 url = "https://github.com/FuelLabs/fuel-storage"
 
 [[repo]]
+url = "https://github.com/FuelLabs/fuel-subgraph"
+
+[[repo]]
 url = "https://github.com/FuelLabs/fuel-tx"
 
 [[repo]]
@@ -415,6 +449,9 @@ url = "https://github.com/FuelLabs/fuel-types"
 
 [[repo]]
 url = "https://github.com/FuelLabs/fuel-ui"
+
+[[repo]]
+url = "https://github.com/FuelLabs/fuel-utils"
 
 [[repo]]
 url = "https://github.com/FuelLabs/fuel-v1-contracts"
@@ -435,6 +472,9 @@ url = "https://github.com/FuelLabs/fuel-wasm-examples"
 url = "https://github.com/FuelLabs/fuel.nix"
 
 [[repo]]
+url = "https://github.com/FuelLabs/fuels-indexer"
+
+[[repo]]
 url = "https://github.com/FuelLabs/fuels-npm-packs"
 
 [[repo]]
@@ -453,6 +493,9 @@ url = "https://github.com/FuelLabs/fuels-wallet"
 url = "https://github.com/FuelLabs/fuelup"
 
 [[repo]]
+url = "https://github.com/FuelLabs/ghaction-container-scan"
+
+[[repo]]
 url = "https://github.com/FuelLabs/github-actions"
 
 [[repo]]
@@ -465,7 +508,16 @@ url = "https://github.com/FuelLabs/hackathon-1-issues"
 url = "https://github.com/FuelLabs/hacker-starter-kit"
 
 [[repo]]
+url = "https://github.com/FuelLabs/indexer"
+
+[[repo]]
 url = "https://github.com/FuelLabs/infrastructure"
+
+[[repo]]
+url = "https://github.com/FuelLabs/integrations"
+
+[[repo]]
+url = "https://github.com/FuelLabs/intro-to-predicates"
 
 [[repo]]
 url = "https://github.com/FuelLabs/intro-to-sway"
@@ -475,6 +527,12 @@ url = "https://github.com/FuelLabs/learnsway-marketplace"
 
 [[repo]]
 url = "https://github.com/FuelLabs/learnsway-web3rsvp"
+
+[[repo]]
+url = "https://github.com/FuelLabs/migrations-and-disclosures"
+
+[[repo]]
+url = "https://github.com/FuelLabs/publish-crates"
 
 [[repo]]
 url = "https://github.com/FuelLabs/Pyth-integration"
@@ -493,6 +551,9 @@ url = "https://github.com/FuelLabs/rfcs"
 
 [[repo]]
 url = "https://github.com/FuelLabs/smt-test-generation"
+
+[[repo]]
+url = "https://github.com/FuelLabs/Solana-Wallet-Connector"
 
 [[repo]]
 url = "https://github.com/FuelLabs/sway"
@@ -693,6 +754,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/segfault-magnet/spent_coins_question"
+missing = true
 
 [[repo]]
 url = "https://github.com/segfault-magnet/string_bug"
@@ -740,6 +802,7 @@ url = "https://github.com/sway-gang/price-oracle"
 
 [[repo]]
 url = "https://github.com/sway-gang/sway-lend"
+missing = true
 
 [[repo]]
 url = "https://github.com/sway-libs/concentrated-liquidity"
@@ -776,6 +839,7 @@ url = "https://github.com/theekrystallee/fuel-project"
 
 [[repo]]
 url = "https://github.com/tusharLV/sway-quickstart"
+missing = true
 
 [[repo]]
 url = "https://github.com/Walter-Phillips/Sail_v0"

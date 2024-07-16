@@ -1,28 +1,38 @@
 # Ecosystem Level Information
 title = "Movement"
 
-sub_ecosystems = []
+sub_ecosystems = ["Interest Protocol", "Nightly Labs", "Podium", "Razor Labs", "Zion Bets"]
 
 github_organizations = ["https://github.com/movemntdev"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/movemntdev/animeswap-interface"
+missing = true
 
 [[repo]]
 url = "https://github.com/movemntdev/animeswap-v1-core"
+missing = true
 
 [[repo]]
 url = "https://github.com/movemntdev/animeswap-v1-sdk"
+missing = true
+
+[[repo]]
+url = "https://github.com/movemntdev/app.gogopool.com"
 
 [[repo]]
 url = "https://github.com/movemntdev/aptos-core"
 
 [[repo]]
 url = "https://github.com/movemntdev/aptos-indexer-processors"
+missing = true
 
 [[repo]]
 url = "https://github.com/movemntdev/blst"
+
+[[repo]]
+url = "https://github.com/movemntdev/create-sui-dapp-starter-template"
 
 [[repo]]
 url = "https://github.com/movemntdev/ed25519-dalek"
@@ -34,6 +44,9 @@ url = "https://github.com/movemntdev/faucet"
 url = "https://github.com/movemntdev/hyperlane-monorepo"
 
 [[repo]]
+url = "https://github.com/movemntdev/log-status"
+
+[[repo]]
 url = "https://github.com/movemntdev/M1"
 
 [[repo]]
@@ -41,6 +54,7 @@ url = "https://github.com/movemntdev/m1-explorer"
 
 [[repo]]
 url = "https://github.com/movemntdev/M2"
+missing = true
 
 [[repo]]
 url = "https://github.com/movemntdev/m2-sui-explorer"
@@ -58,7 +72,14 @@ url = "https://github.com/movemntdev/move-evm-swap-interface"
 url = "https://github.com/movemntdev/movement-dex-coins"
 
 [[repo]]
+url = "https://github.com/movemntdev/movement-ecosystem"
+
+[[repo]]
 url = "https://github.com/movemntdev/movement-hack"
+missing = true
+
+[[repo]]
+url = "https://github.com/movemntdev/movement-hack-old"
 
 [[repo]]
 url = "https://github.com/movemntdev/movement-subnet-proxy-v2"
@@ -74,6 +95,9 @@ url = "https://github.com/movemntdev/movemnt-dex-client"
 url = "https://github.com/movemntdev/movemnt-dex-contracts"
 
 [[repo]]
+url = "https://github.com/movemntdev/my_movement_dapp"
+
+[[repo]]
 url = "https://github.com/movemntdev/nft-launchpad"
 
 [[repo]]
@@ -81,7 +105,13 @@ url = "https://github.com/movemntdev/nft-launchpad-aptos"
 missing = true
 
 [[repo]]
+url = "https://github.com/movemntdev/onchain-bio-dapp"
+
+[[repo]]
 url = "https://github.com/movemntdev/parity-grants-program"
+
+[[repo]]
+url = "https://github.com/movemntdev/reentrancy-attack-example"
 
 [[repo]]
 url = "https://github.com/movemntdev/resources"
@@ -101,3 +131,6 @@ url = "https://github.com/movemntdev/TraderMoe"
 
 [[repo]]
 url = "https://github.com/movemntdev/x25519-dalek"
+
+[[repo]]
+url = "https://github.com/SeamMoney/zionbets"

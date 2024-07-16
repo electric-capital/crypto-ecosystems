@@ -7,11 +7,13 @@ sub_ecosystems = [
   "Palladians",
   "Piconbello",
   "Protokit",
+  "zkcloudworker",
   "ZKValidator",
 ]
 
 github_organizations = [
   "https://github.com/CodaProtocol",
+  "https://github.com/DRM-Mina",
   "https://github.com/MinaFoundation",
   "https://github.com/MinaProtocol",
   "https://github.com/o1-labs",
@@ -20,10 +22,19 @@ github_organizations = [
 
 # Repositories
 [[repo]]
+url = "https://github.com/0x471/rln-o1js"
+
+[[repo]]
 url = "https://github.com/0x471/zkeeper"
 
 [[repo]]
+url = "https://github.com/0x471/zkeeper-o1js"
+
+[[repo]]
 url = "https://github.com/0xAli0/mina-aptos-oracle"
+
+[[repo]]
+url = "https://github.com/0xAli0/mina-coin-flip"
 
 [[repo]]
 url = "https://github.com/0xAshcry/01-hello-world"
@@ -57,6 +68,9 @@ missing = true
 url = "https://github.com/0xdineshkumarsm/ZK-Bootcamp-EncodeClub"
 
 [[repo]]
+url = "https://github.com/0xferit/hello"
+
+[[repo]]
 url = "https://github.com/0xGaronx/04-zkapp-browser-ui"
 
 [[repo]]
@@ -78,7 +92,31 @@ url = "https://github.com/0xkeivin/zk-proof-of-solvency"
 url = "https://github.com/0xkeivin/zkIgnite-cohort0"
 
 [[repo]]
+url = "https://github.com/0xKryptonian/learn-to-earn-3-4"
+
+[[repo]]
+url = "https://github.com/0xKryptonian/mina-learn-earn-1"
+
+[[repo]]
+url = "https://github.com/0xKryptonian/mina-learn-earn-2"
+
+[[repo]]
+url = "https://github.com/0xktee/zkapp-demo"
+
+[[repo]]
+url = "https://github.com/0xkzam/zk-bootcamp"
+
+[[repo]]
+url = "https://github.com/0xlws/mina-protocol-challenge1"
+
+[[repo]]
+url = "https://github.com/0xlws/zkapp-nextjs"
+
+[[repo]]
 url = "https://github.com/0xlws/ZKU-Uploads"
+
+[[repo]]
+url = "https://github.com/0xoc/ExperimentingWithZk"
 
 [[repo]]
 url = "https://github.com/0xpetaninode/04-zkapp-browser-ui"
@@ -98,6 +136,18 @@ url = "https://github.com/0xSamuelSukarno/04-zkapp-browser-ui"
 missing = true
 
 [[repo]]
+url = "https://github.com/0xshikhar/zkDoctor"
+
+[[repo]]
+url = "https://github.com/0xStruct/ghobi"
+
+[[repo]]
+url = "https://github.com/0xStruct/mina-anons"
+
+[[repo]]
+url = "https://github.com/0xStruct/moolah"
+
+[[repo]]
 url = "https://github.com/0xstzzy/04-zkapp-browser-ui"
 
 [[repo]]
@@ -106,6 +156,9 @@ url = "https://github.com/0xtito/hot-n-cold"
 [[repo]]
 url = "https://github.com/1010adigupta/1010adigupta.github.io"
 missing = true
+
+[[repo]]
+url = "https://github.com/101Fame/mina101"
 
 [[repo]]
 url = "https://github.com/10ur5en/04-zkapp-browser-ui"
@@ -118,6 +171,18 @@ url = "https://github.com/1160007652/mina-wallet-extensions"
 url = "https://github.com/2gatherproject/decentralized-social-apps-guide"
 
 [[repo]]
+url = "https://github.com/3tomcha/mina_gettingstarted"
+
+[[repo]]
+url = "https://github.com/3tomcha/mirai_nikki"
+
+[[repo]]
+url = "https://github.com/3tomcha/zk_mirai_nikki"
+
+[[repo]]
+url = "https://github.com/3tomcha/zk_mirai_nikki_old"
+
+[[repo]]
 url = "https://github.com/45930/cachebox"
 
 [[repo]]
@@ -127,10 +192,16 @@ url = "https://github.com/45930/canvas-zk-app"
 url = "https://github.com/45930/canvas-zk-contracts"
 
 [[repo]]
+url = "https://github.com/45930/mina-navi-voting-demo"
+
+[[repo]]
 url = "https://github.com/45930/mina-rng"
 
 [[repo]]
 url = "https://github.com/45930/o1js-pack"
+
+[[repo]]
+url = "https://github.com/45930/o1js-utils"
 
 [[repo]]
 url = "https://github.com/45930/snapps-bootcamp-dec-2021"
@@ -142,10 +213,16 @@ url = "https://github.com/45930/snarkyjs-pack-examples"
 url = "https://github.com/45930/Voting-Playground-o1js"
 
 [[repo]]
+url = "https://github.com/45930/Voting-Playground-protokit"
+
+[[repo]]
 url = "https://github.com/45930/zk-todo"
 
 [[repo]]
 url = "https://github.com/45930/zkapp-perf-testing"
+
+[[repo]]
+url = "https://github.com/4rgon4ut/zk-bluff"
 
 [[repo]]
 url = "https://github.com/5l1v3r1/interview-2"
@@ -260,6 +337,12 @@ url = "https://github.com/Acsill/mina"
 url = "https://github.com/Acurast/mina-zkoracles"
 
 [[repo]]
+url = "https://github.com/adamczykm/mina-navigator-challenges"
+
+[[repo]]
+url = "https://github.com/adamczykm/minauth-plugin-starter-pack"
+
+[[repo]]
 url = "https://github.com/adekgemes/04-zkapp-browser-ui"
 
 [[repo]]
@@ -305,10 +388,16 @@ url = "https://github.com/aedunk22/04-zkapp-browser-ui"
 url = "https://github.com/aeither/mina-hello-world"
 
 [[repo]]
+url = "https://github.com/aerius-labs/indexed-merkle-tree-o1js"
+
+[[repo]]
 url = "https://github.com/aerius-labs/rlp-snarkyjs"
 
 [[repo]]
 url = "https://github.com/aerius-labs/zk-snap"
+
+[[repo]]
+url = "https://github.com/aerius-labs/zk-snap-frontend"
 
 [[repo]]
 url = "https://github.com/aerius-labs/zk-voting-poc-fe"
@@ -354,6 +443,21 @@ url = "https://github.com/Ahmadwardian/04-zkapp-browser-ui"
 url = "https://github.com/ahmatdahlan/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/aii23/mina-generic"
+
+[[repo]]
+url = "https://github.com/aii23/mina-learn2earn-1"
+
+[[repo]]
+url = "https://github.com/aii23/mina-learn2earn-2"
+
+[[repo]]
+url = "https://github.com/aii23/mina-learn2earn-3"
+
+[[repo]]
+url = "https://github.com/aii23/mina-learn2earn-4"
+
+[[repo]]
 url = "https://github.com/aii23/MinaZKanoid"
 
 [[repo]]
@@ -397,6 +501,9 @@ url = "https://github.com/akemiZ/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/akemiZ/oracle"
+
+[[repo]]
+url = "https://github.com/aki-0517/zk-prediction"
 
 [[repo]]
 url = "https://github.com/AkiAfroo/minacheckpeers"
@@ -469,6 +576,9 @@ url = "https://github.com/Alexafjiola/04-zkapp-browser-ui"
 url = "https://github.com/alexbakers/zkapp"
 
 [[repo]]
+url = "https://github.com/AlexCheema/veritas"
+
+[[repo]]
 url = "https://github.com/AlexFedotovqq/TradeCoin"
 
 [[repo]]
@@ -496,6 +606,12 @@ url = "https://github.com/alhadid2/04-zkapp-browser-ui"
 url = "https://github.com/Alicomm/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/alieraay/Mina-Tutorial-01-hello-world"
+
+[[repo]]
+url = "https://github.com/alieraay/Mina-Tutorial-02-Private-Inputs-and-Hash-Functions"
+
+[[repo]]
 url = "https://github.com/AliErenMetin/04-zkapp-browser-ui"
 
 [[repo]]
@@ -512,13 +628,34 @@ missing = true
 url = "https://github.com/aljanatha/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/AllanMangeni/lenderp2p"
+
+[[repo]]
+url = "https://github.com/AllanMangeni/plender"
+
+[[repo]]
 url = "https://github.com/alpaslanuludag/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/AlreadyM/blog"
 
 [[repo]]
+url = "https://github.com/Alsond5/Examina"
+
+[[repo]]
 url = "https://github.com/Alsond5/examina_api"
+
+[[repo]]
+url = "https://github.com/Alsond5/zkChallenge1"
+
+[[repo]]
+url = "https://github.com/Alsond5/zkChallenge2"
+
+[[repo]]
+url = "https://github.com/Alsond5/zkode"
+
+[[repo]]
+url = "https://github.com/Alsond5/Znake"
 
 [[repo]]
 url = "https://github.com/alysiahuggins/04-zkapp-browser-ui"
@@ -569,7 +706,13 @@ url = "https://github.com/anandcsingh/04-zkapp-browser-ui"
 url = "https://github.com/anandcsingh/keito"
 
 [[repo]]
+url = "https://github.com/anandcsingh/mina-navigators-l2e"
+
+[[repo]]
 url = "https://github.com/anandcsingh/rankproof"
+
+[[repo]]
+url = "https://github.com/anandcsingh/smr"
 
 [[repo]]
 url = "https://github.com/anandcsingh/testing-ranked-cross"
@@ -716,6 +859,7 @@ url = "https://github.com/aodhgan/mina-zk-app"
 
 [[repo]]
 url = "https://github.com/aorakun/04-zkapp-browser-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/apporc/anyex"
@@ -730,6 +874,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/aquariusluo/message-board"
+
+[[repo]]
+url = "https://github.com/aquental/ZKBootcamp2024Q1"
 
 [[repo]]
 url = "https://github.com/Aragar199/sudoku"
@@ -892,10 +1039,28 @@ url = "https://github.com/ashev33/oracle"
 url = "https://github.com/asikinlagiaja/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/asimaranov/mina-tx-batch"
+
+[[repo]]
+url = "https://github.com/asimaranov/MinaMessaging"
+
+[[repo]]
+url = "https://github.com/asimaranov/protokit_messaging"
+
+[[repo]]
+url = "https://github.com/asimaranov/protokit_multiple_types_bug_reproduction"
+
+[[repo]]
+url = "https://github.com/asimaranov/protokit_private_messaging"
+
+[[repo]]
 url = "https://github.com/Asruli/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/asu1493/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/atixlabs/mina-testing-utils"
 
 [[repo]]
 url = "https://github.com/AudioPill/04-zkapp-browser-ui"
@@ -917,6 +1082,24 @@ url = "https://github.com/aurowallet/bip39-checker"
 
 [[repo]]
 url = "https://github.com/aurowallet/mina-provider"
+
+[[repo]]
+url = "https://github.com/aurowallet/test-zkapp"
+
+[[repo]]
+url = "https://github.com/auxo-zk/auxo-libs"
+
+[[repo]]
+url = "https://github.com/auxo-zk/front-investor-auxo"
+
+[[repo]]
+url = "https://github.com/auxo-zk/front-organizer-auxo"
+
+[[repo]]
+url = "https://github.com/auxo-zk/frontend-builder-auxo"
+
+[[repo]]
+url = "https://github.com/auxo-zk/frontend-committee-auxo"
 
 [[repo]]
 url = "https://github.com/avatara01/04-zkapp-browser-ui"
@@ -962,6 +1145,9 @@ url = "https://github.com/Axisgand/oracle"
 
 [[repo]]
 url = "https://github.com/AyuCahyaRomadhon/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/ayush4345/zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/Azril909/04-zkapp-browser-ui"
@@ -1096,7 +1282,16 @@ url = "https://github.com/bedmuthaapoorv/MINA-POC"
 url = "https://github.com/bejolugu69/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/berkay1532/mina-rock-paper-scissorsrs"
+
+[[repo]]
 url = "https://github.com/berkingurcan/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/berkingurcan/mina-signer-example"
+
+[[repo]]
+url = "https://github.com/berkingurcan/mina-spy-chain"
 
 [[repo]]
 url = "https://github.com/berkingurcan/online-zkapp-tester"
@@ -1109,6 +1304,27 @@ url = "https://github.com/berseru/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/berseru/project-oracle"
+
+[[repo]]
+url = "https://github.com/bertankofon/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/bertankofon/mina-deploy"
+
+[[repo]]
+url = "https://github.com/berzanorg/mina-o1js-tutorial"
+
+[[repo]]
+url = "https://github.com/berzanorg/mina-stuff"
+
+[[repo]]
+url = "https://github.com/berzanorg/nacho"
+
+[[repo]]
+url = "https://github.com/berzanorg/protokit-spy-master"
+
+[[repo]]
+url = "https://github.com/berzanorg/protokit-spy-master-v2"
 
 [[repo]]
 url = "https://github.com/BerzanOrg/xane"
@@ -1124,6 +1340,15 @@ url = "https://github.com/bewokasep12/Oracle"
 
 [[repo]]
 url = "https://github.com/bgfergusoo/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/bilgin-kocak/mina-navigators-challanges"
+
+[[repo]]
+url = "https://github.com/bilgin-kocak/sia-offchain-storage-mina"
+
+[[repo]]
+url = "https://github.com/bilgin-kocak/zk-computer-vision"
 
 [[repo]]
 url = "https://github.com/bilgin-kocak/zk-voting"
@@ -1186,7 +1411,11 @@ url = "https://github.com/blacktokyo96/oraqle"
 url = "https://github.com/BlackWingedKing/DeComp"
 
 [[repo]]
+url = "https://github.com/BlocksOnChain/mina-playground"
+
+[[repo]]
 url = "https://github.com/blustackk/04-zkapp-browser-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/Bogegsom/01-hello-world"
@@ -1216,6 +1445,12 @@ url = "https://github.com/bohims/04-zkapp-browser-ui"
 url = "https://github.com/boidushya/ZeroID"
 
 [[repo]]
+url = "https://github.com/boray/fuel-nomen"
+
+[[repo]]
+url = "https://github.com/boray/mina-resolver"
+
+[[repo]]
 url = "https://github.com/boray/privote"
 
 [[repo]]
@@ -1235,6 +1470,9 @@ url = "https://github.com/br0wnD3v/Doot"
 missing = true
 
 [[repo]]
+url = "https://github.com/br0wnD3v/mina-LTE-navigators"
+
+[[repo]]
 url = "https://github.com/br0wnD3v/Mina_FundMe"
 missing = true
 
@@ -1252,6 +1490,9 @@ url = "https://github.com/BrianBathory98/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/BrianBathory98/oracle"
+
+[[repo]]
+url = "https://github.com/bridge-23/minamap"
 
 [[repo]]
 url = "https://github.com/Brilliantkid25/04-zkapp-browser-ui"
@@ -1373,6 +1614,12 @@ url = "https://github.com/c29r3/website"
 url = "https://github.com/Cahusil65/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/Caneryy/mina-challenge1"
+
+[[repo]]
+url = "https://github.com/Caneryy/zkex"
+
+[[repo]]
 url = "https://github.com/cangkirhost/04-zkapp-browser-ui"
 
 [[repo]]
@@ -1436,6 +1683,10 @@ url = "https://github.com/cepsur/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/CGC-98/trybe-exercise-javascript-async"
+missing = true
+
+[[repo]]
+url = "https://github.com/chainaimlabs/TradeInsOra"
 
 [[repo]]
 url = "https://github.com/ChainSafe/mina-rs"
@@ -1445,12 +1696,19 @@ url = "https://github.com/ChainSafe/mina-snap"
 
 [[repo]]
 url = "https://github.com/chainwayxyz/mCash"
+missing = true
 
 [[repo]]
 url = "https://github.com/chandraadep/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/chandraadep/oracle"
+
+[[repo]]
+url = "https://github.com/chariskms/zk-voting"
+
+[[repo]]
+url = "https://github.com/chris-chris/zk-zero-pulse-example"
 
 [[repo]]
 url = "https://github.com/christyw/04-zkapp-browser-ui"
@@ -1503,6 +1761,7 @@ url = "https://github.com/cindillicius/oracle"
 
 [[repo]]
 url = "https://github.com/CipherDogs/balance"
+missing = true
 
 [[repo]]
 url = "https://github.com/Citraloka/04-zkapp-browser-ui"
@@ -1524,6 +1783,15 @@ url = "https://github.com/ckartik/zk-app-basic-square"
 
 [[repo]]
 url = "https://github.com/clara986-vector/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/claudiovb/zk-encode-bootcamp"
+
+[[repo]]
+url = "https://github.com/Cloakworks-collective/dark_armada"
+
+[[repo]]
+url = "https://github.com/Cloakworks-collective/dark_armada_v2"
 
 [[repo]]
 url = "https://github.com/CodaProtocol/homebrew-coda-qa"
@@ -1585,6 +1853,18 @@ url = "https://github.com/Comdex/zkpass"
 
 [[repo]]
 url = "https://github.com/comrat32/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/ConfiLend/eralp-l2e-challenge-2"
+
+[[repo]]
+url = "https://github.com/ConfiLend/stefan-l2e-challenge-2"
+
+[[repo]]
+url = "https://github.com/ConfiLend/team1-l2e-challenge-1"
+
+[[repo]]
+url = "https://github.com/ConfiLend/team2-l2e-challenge-1"
 
 [[repo]]
 url = "https://github.com/Conixia/04-zkapp-browser-ui"
@@ -1726,6 +2006,9 @@ url = "https://github.com/dante4rt/04-zkapp-browser-ui"
 url = "https://github.com/dantenetwork/snarky"
 
 [[repo]]
+url = "https://github.com/DanubioBlu/minaPoc"
+
+[[repo]]
 url = "https://github.com/dapahaidar/04-zkapp-browser-ui"
 
 [[repo]]
@@ -1733,6 +2016,12 @@ url = "https://github.com/Dapsky/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/Dapsky/oracle"
+
+[[repo]]
+url = "https://github.com/dar7an/sportmonksoracle"
+
+[[repo]]
+url = "https://github.com/dar7an/zkiplbets"
 
 [[repo]]
 url = "https://github.com/Darkley07/04-zkapp-browser-ui"
@@ -1824,6 +2113,9 @@ url = "https://github.com/devarend/mina-playground"
 url = "https://github.com/devarend/mina-playground-backend"
 
 [[repo]]
+url = "https://github.com/devarend/secret-messages-smart-contract"
+
+[[repo]]
 url = "https://github.com/devarend/webcontainer-files"
 
 [[repo]]
@@ -1848,6 +2140,9 @@ url = "https://github.com/DevQAPPs/Mina_Tool_Box"
 url = "https://github.com/DevQAPPs/MinaGate"
 
 [[repo]]
+url = "https://github.com/devstackweb3/mina-protocol"
+
+[[repo]]
 url = "https://github.com/Devtonite/01-hello-world"
 
 [[repo]]
@@ -1869,6 +2164,9 @@ url = "https://github.com/Devtonite/mina01"
 url = "https://github.com/Devtonite/myContractUI"
 
 [[repo]]
+url = "https://github.com/Devtonite/onchain-zkbuidl"
+
+[[repo]]
 url = "https://github.com/Devtonite/recsRpsMUD"
 
 [[repo]]
@@ -1879,6 +2177,9 @@ url = "https://github.com/Devtonite/rewardTesting"
 
 [[repo]]
 url = "https://github.com/Devtonite/simpleUI"
+
+[[repo]]
+url = "https://github.com/Devtonite/testing"
 
 [[repo]]
 url = "https://github.com/Devtonite/tut01withUI"
@@ -1900,6 +2201,12 @@ url = "https://github.com/dfstio/04-zkapp-browser-ui"
 missing = true
 
 [[repo]]
+url = "https://github.com/dfstio/he-contract-demo"
+
+[[repo]]
+url = "https://github.com/dfstio/merkle-map-demo"
+
+[[repo]]
 url = "https://github.com/dfstio/minanft"
 
 [[repo]]
@@ -1919,6 +2226,18 @@ url = "https://github.com/dfstio/minanft-lib-example"
 
 [[repo]]
 url = "https://github.com/dfstio/minanftio"
+
+[[repo]]
+url = "https://github.com/dfstio/nc1"
+
+[[repo]]
+url = "https://github.com/dfstio/nc2"
+
+[[repo]]
+url = "https://github.com/dfstio/rollup-nft-example"
+
+[[repo]]
+url = "https://github.com/dfstio/zkcloudworker"
 
 [[repo]]
 url = "https://github.com/dguess/awesome-mina"
@@ -2037,6 +2356,9 @@ url = "https://github.com/ding-zhiyu/04-zkapp-browser-ui"
 url = "https://github.com/Dippoh123/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/directcuteo/angular-wasm"
+
+[[repo]]
 url = "https://github.com/directcuteo/my-webpack-app"
 
 [[repo]]
@@ -2092,6 +2414,9 @@ url = "https://github.com/dmaretskyi/minsweeper"
 url = "https://github.com/dmikey/zk-booking"
 
 [[repo]]
+url = "https://github.com/DmitriyKolesov/o1js-judgement"
+
+[[repo]]
 url = "https://github.com/doctoramri1/04-zkapp-browser-ui"
 
 [[repo]]
@@ -2124,6 +2449,18 @@ url = "https://github.com/donnysuhe/04-zkapp-browser-ui"
 url = "https://github.com/dooqoo/mina-zk-sudoku-example"
 
 [[repo]]
+url = "https://github.com/Doot-Foundation/doot_example"
+
+[[repo]]
+url = "https://github.com/Doot-Foundation/Doot_L1Contracts"
+
+[[repo]]
+url = "https://github.com/Doot-Foundation/Doot_Package"
+
+[[repo]]
+url = "https://github.com/Doot-Foundation/Doot_WebApplication"
+
+[[repo]]
 url = "https://github.com/dopamine567/04-zkapp-browser-ui"
 
 [[repo]]
@@ -2153,6 +2490,54 @@ url = "https://github.com/Drazkl/oracle"
 
 [[repo]]
 url = "https://github.com/drfurkann/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/DRM-Mina/.github"
+
+[[repo]]
+url = "https://github.com/DRM-Mina/DevicePoseidonCSharp"
+
+[[repo]]
+url = "https://github.com/DRM-Mina/drm-mina-appchain-server"
+
+[[repo]]
+url = "https://github.com/DRM-Mina/drm-mina-desktop-client"
+
+[[repo]]
+url = "https://github.com/DRM-Mina/drm-mina-prover"
+
+[[repo]]
+url = "https://github.com/DRM-Mina/drm-mina-web-client"
+
+[[repo]]
+url = "https://github.com/DRM-Mina/DRMina-unity-package"
+
+[[repo]]
+url = "https://github.com/DRM-Mina/game-demo"
+
+[[repo]]
+url = "https://github.com/DRM-Mina/mock-game-verifier"
+
+[[repo]]
+url = "https://github.com/dsilberschmidt/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/dsilberschmidt/Random-Oracle"
+
+[[repo]]
+url = "https://github.com/dsilberschmidt/zk-Bootcamp-homework"
+
+[[repo]]
+url = "https://github.com/dsilberschmidt/zk-tutorial-01-hello-world"
+
+[[repo]]
+url = "https://github.com/dsilberschmidt/zk-tutorial-02-private-inputs-and-hash-functions"
+
+[[repo]]
+url = "https://github.com/dsilberschmidt/zk-tutorial03-deploying-to-a-live-network"
+
+[[repo]]
+url = "https://github.com/dsilberschmidt/zkapp_sudoku"
 
 [[repo]]
 url = "https://github.com/dsrvlabs/mina"
@@ -2230,6 +2615,9 @@ url = "https://github.com/EasyMina/minaData"
 url = "https://github.com/EasyMina/minaDataAPI"
 
 [[repo]]
+url = "https://github.com/EasyMina/workbench"
+
+[[repo]]
 url = "https://github.com/ebk13579/snarky"
 
 [[repo]]
@@ -2270,6 +2658,18 @@ url = "https://github.com/eleanor659/04-zkapp-browser-ui"
 url = "https://github.com/Elezyrus/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/elton-cs/MinaFlow"
+
+[[repo]]
+url = "https://github.com/elton-cs/tacticalFighter"
+
+[[repo]]
+url = "https://github.com/elton-cs/tog-smartcontracts"
+
+[[repo]]
+url = "https://github.com/elton-cs/tog-webui"
+
+[[repo]]
 url = "https://github.com/Emergent-Reputation/docs"
 
 [[repo]]
@@ -2282,7 +2682,28 @@ url = "https://github.com/Emergent-Reputation/medical-zk-example"
 url = "https://github.com/Emergent-Reputation/zkrecrypt"
 
 [[repo]]
+url = "https://github.com/emlautarom1/zk-twitter-verifier"
+
+[[repo]]
 url = "https://github.com/emrifki08/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/EncodeZKGroup6/wizard_battle"
+
+[[repo]]
+url = "https://github.com/enderNakamoto/mina_challenge_1"
+
+[[repo]]
+url = "https://github.com/enderNakamoto/mina_challenge_2"
+
+[[repo]]
+url = "https://github.com/enderNakamoto/mina_challenge_3"
+
+[[repo]]
+url = "https://github.com/enderNakamoto/mina_challenge_4"
+
+[[repo]]
+url = "https://github.com/enderNakamoto/o1js-2"
 
 [[repo]]
 url = "https://github.com/enderNakamoto/zkMile"
@@ -2319,6 +2740,9 @@ url = "https://github.com/erhant/mina-playground"
 
 [[repo]]
 url = "https://github.com/erhant/mina-sample-zkapp-ui"
+
+[[repo]]
+url = "https://github.com/erhant/zkAargon"
 
 [[repo]]
 url = "https://github.com/ErikaMin/04-zkapp-browser-ui"
@@ -2365,6 +2789,12 @@ url = "https://github.com/esaage/zkapp-latihan"
 
 [[repo]]
 url = "https://github.com/Esayf/Examina"
+
+[[repo]]
+url = "https://github.com/Esayf/examina-mono"
+
+[[repo]]
+url = "https://github.com/Esayf/Examina-Protokit"
 
 [[repo]]
 url = "https://github.com/esterikasetya/04-zkapp-browser-ui"
@@ -2438,12 +2868,16 @@ missing = true
 
 [[repo]]
 url = "https://github.com/EyeRunnMan/mina-protocol-tutorial"
+missing = true
 
 [[repo]]
 url = "https://github.com/ezcladoz/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/ezcladoz/oracle"
+
+[[repo]]
+url = "https://github.com/fabri2605/socialcapFront"
 
 [[repo]]
 url = "https://github.com/Fadeli16/04-zkapp-browser-ui"
@@ -2459,6 +2893,7 @@ url = "https://github.com/fajrmdn/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/fajrrmdhn/04-zkapp-browser-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/fakecoinbase/CodaProtocolslashcoda"
@@ -2572,10 +3007,26 @@ url = "https://github.com/Ferret-san/zkredit"
 url = "https://github.com/Ferry207/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/feyyum/mina-challange-2"
+
+[[repo]]
+url = "https://github.com/feyyum/mina-challenge-3"
+
+[[repo]]
+url = "https://github.com/feyyum/MinaChallenge4"
+
+[[repo]]
+url = "https://github.com/feyyum/navigator-homework-1"
+
+[[repo]]
+url = "https://github.com/feyyum/zk-tictactoe"
+
+[[repo]]
 url = "https://github.com/FFF17/zkapp-mina"
 
 [[repo]]
 url = "https://github.com/fguney42/04-zkapp-browser-u"
+missing = true
 
 [[repo]]
 url = "https://github.com/FilipHarald/mina-sandbox"
@@ -2698,6 +3149,9 @@ url = "https://github.com/g1ts/04-zkapp-browser-ui"
 url = "https://github.com/g4rrzx/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/GaetanoMondelli/zk-course"
+
+[[repo]]
 url = "https://github.com/gaitanlorictr/04-zkapp-browser-ui"
 
 [[repo]]
@@ -2771,15 +3225,32 @@ url = "https://github.com/garethtdavies/zkAppPool"
 
 [[repo]]
 url = "https://github.com/garyrob/mina-01-hello-world"
+missing = true
 
 [[repo]]
 url = "https://github.com/garyrob/timesource"
+missing = true
 
 [[repo]]
 url = "https://github.com/Garz026/04-oracle-browser-ui"
 
 [[repo]]
 url = "https://github.com/Garz026/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/Gathin23/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/Gathin23/07-oracles"
+
+[[repo]]
+url = "https://github.com/Gathin23/mina-hello-world"
+
+[[repo]]
+url = "https://github.com/Gathin23/test-zkpatcha"
+
+[[repo]]
+url = "https://github.com/Gathin23/zkaptcha"
 
 [[repo]]
 url = "https://github.com/gayusdjatmiko/04-zkapp-browser-ui"
@@ -2800,6 +3271,9 @@ url = "https://github.com/genjutsuuu/04-zkapp-browser-ui"
 url = "https://github.com/genjutsuuu/oracle"
 
 [[repo]]
+url = "https://github.com/ghkdxofla/midna"
+
+[[repo]]
 url = "https://github.com/ghofuragus/04-zkapp-browser-ui"
 
 [[repo]]
@@ -2807,6 +3281,9 @@ url = "https://github.com/GhostArista/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/ghou8s/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/gichingageorge/zk-Oracle"
 
 [[repo]]
 url = "https://github.com/Giewijaya3/04-zkapp-browser-ui"
@@ -2819,6 +3296,12 @@ url = "https://github.com/Gitleyla/Leyla"
 
 [[repo]]
 url = "https://github.com/gkoin76/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/gleim/zk-merkle"
+
+[[repo]]
+url = "https://github.com/gleim/zk-validate-long-strings"
 
 [[repo]]
 url = "https://github.com/gleim/zkapp-browser-ui"
@@ -2926,12 +3409,16 @@ url = "https://github.com/Granola-Team/mina-on-chain-voting"
 
 [[repo]]
 url = "https://github.com/Granola-Team/mina-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/Granola-Team/mina-utils"
 
 [[repo]]
 url = "https://github.com/Granular-Lending/snarky-baras"
+
+[[repo]]
+url = "https://github.com/gratestas/mina-hello"
 
 [[repo]]
 url = "https://github.com/gretzke/zkApp-data-types"
@@ -2941,6 +3428,9 @@ url = "https://github.com/Griezwann/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/Griezwann/oracle"
+
+[[repo]]
+url = "https://github.com/grkmyvz/zkAppMinaDemo"
 
 [[repo]]
 url = "https://github.com/GROOOT77/04-zkapp-browser-ui"
@@ -3000,7 +3490,16 @@ url = "https://github.com/GyaFirdan33/oracle"
 url = "https://github.com/gyan0890/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/hackathonprojs/mina-challenge01"
+
+[[repo]]
+url = "https://github.com/hackathonprojs/mina-challenge02"
+
+[[repo]]
 url = "https://github.com/hackathonprojs/mina-easy-multisig"
+
+[[repo]]
+url = "https://github.com/hackathonprojs/mina-learning"
 
 [[repo]]
 url = "https://github.com/HadiiID/-04-zkapp-browser-ui"
@@ -3026,6 +3525,9 @@ url = "https://github.com/hakkisabah/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/hakkisabah/07-oracle-zkApp"
+
+[[repo]]
+url = "https://github.com/hakkisabah/simplezk"
 
 [[repo]]
 url = "https://github.com/hakymulla/ZKU_assignment4"
@@ -3073,6 +3575,9 @@ url = "https://github.com/haris012/05-zkapp"
 url = "https://github.com/haris012/07-zk-oracle1"
 
 [[repo]]
+url = "https://github.com/HarishPrasannaV/zkApp-01-square-checker"
+
+[[repo]]
 url = "https://github.com/harismanciripto111/04-zkapp-browser-ui"
 
 [[repo]]
@@ -3083,6 +3588,7 @@ url = "https://github.com/harismanciripto111/oracle"
 
 [[repo]]
 url = "https://github.com/harshilmobmaxime/zkApp"
+missing = true
 
 [[repo]]
 url = "https://github.com/HarukiKondo/Mina-Sample"
@@ -3123,6 +3629,7 @@ url = "https://github.com/heivenn/ZKU-March2022"
 
 [[repo]]
 url = "https://github.com/Hendrik6/snapps"
+missing = true
 
 [[repo]]
 url = "https://github.com/hepraz/04-zkapp-browser-ui"
@@ -3180,6 +3687,7 @@ url = "https://github.com/Hipappoy/oracle"
 
 [[repo]]
 url = "https://github.com/HJNH65/04-zkapp-browser-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/hoa88/04-zkapp-browser-ui"
@@ -3192,6 +3700,15 @@ url = "https://github.com/hojin-kr/coinPush"
 
 [[repo]]
 url = "https://github.com/hollerProof/contracts"
+
+[[repo]]
+url = "https://github.com/hollow-leaf/doro-mobile"
+
+[[repo]]
+url = "https://github.com/hollow-leaf/hiraijin"
+
+[[repo]]
+url = "https://github.com/hollow-leaf/learn-o1js"
 
 [[repo]]
 url = "https://github.com/hollowheart22/04-zkapp-browser-ui"
@@ -3220,6 +3737,9 @@ url = "https://github.com/hujanbbi/04-zkapp-browser-ui"
 url = "https://github.com/hurgir/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/huyminh1115/Navigator-Challenges"
+
+[[repo]]
 url = "https://github.com/hydiracrypto/04-zkapp-browser-ui"
 
 [[repo]]
@@ -3240,6 +3760,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/iam-robi/ozkar"
+missing = true
 
 [[repo]]
 url = "https://github.com/iam-robi/ozkar-chain"
@@ -3249,6 +3770,12 @@ url = "https://github.com/iam-robi/ozkar-docs"
 
 [[repo]]
 url = "https://github.com/iam-robi/ozkar-playground"
+
+[[repo]]
+url = "https://github.com/iam-robi/ozkar-server"
+
+[[repo]]
+url = "https://github.com/iam-robi/ozkar-temporal"
 
 [[repo]]
 url = "https://github.com/iam-robi/zkapp-guesser-race"
@@ -3288,6 +3815,12 @@ missing = true
 url = "https://github.com/Identicon-Dao/socialcap"
 
 [[repo]]
+url = "https://github.com/Identicon-Dao/socialcap-contracts"
+
+[[repo]]
+url = "https://github.com/Identicon-Dao/socialcap-services"
+
+[[repo]]
 url = "https://github.com/IDxtc/04-zkapp-browser-ui"
 
 [[repo]]
@@ -3312,7 +3845,13 @@ url = "https://github.com/ikiganteng/zk-project-oracle"
 url = "https://github.com/ikmalhasbi/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/Ilevk/o1js-tutorial-04-zkapp-browser-ui"
+
+[[repo]]
 url = "https://github.com/IlhamAgungPamungkas/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/iluxonchik/randomina"
 
 [[repo]]
 url = "https://github.com/iluxonchik/recursive-zkSNARKs-calculator"
@@ -3322,6 +3861,9 @@ url = "https://github.com/iluxonchik/snarkyjs-zk-playgound"
 
 [[repo]]
 url = "https://github.com/iluxonchik/zkLocus"
+
+[[repo]]
+url = "https://github.com/ilyxabatko/zk_bootcamp"
 
 [[repo]]
 url = "https://github.com/imhunterand/mina"
@@ -3366,13 +3908,23 @@ url = "https://github.com/inihamz/04-zkapp-browser-ui"
 url = "https://github.com/Insomnia34/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/inspector44/mina-challanges"
+
+[[repo]]
+url = "https://github.com/inspector44/testZkApp"
+
+[[repo]]
 url = "https://github.com/inspector44/usdm"
+
+[[repo]]
+url = "https://github.com/InvisEA/zk-sudoku"
 
 [[repo]]
 url = "https://github.com/io99/snarkyjs-workshop"
 
 [[repo]]
 url = "https://github.com/iot-defcon/mina"
+missing = true
 
 [[repo]]
 url = "https://github.com/iotaaxel/zk-credit-score"
@@ -3409,6 +3961,9 @@ url = "https://github.com/iregina/01-hello-world"
 url = "https://github.com/iregina/03-deploying-to-a-live-network"
 
 [[repo]]
+url = "https://github.com/iregina/basics"
+
+[[repo]]
 url = "https://github.com/iregina/oracle-demo"
 
 [[repo]]
@@ -3416,6 +3971,7 @@ url = "https://github.com/Irenexyy/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/ireng69/oracle"
+missing = true
 
 [[repo]]
 url = "https://github.com/Irgirival/04-zkapp-browser-ui"
@@ -3452,6 +4008,9 @@ url = "https://github.com/ishitarastogi/zkBootcampJuly"
 
 [[repo]]
 url = "https://github.com/ishtarqbz/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/IsobelRosenbaum/quisuscipit"
 
 [[repo]]
 url = "https://github.com/isvale/04-zkapp-browser-ui"
@@ -3531,6 +4090,7 @@ url = "https://github.com/jdsteinhauser/pyth_oracle"
 
 [[repo]]
 url = "https://github.com/jdsteinhauser/pyth_zkapp"
+missing = true
 
 [[repo]]
 url = "https://github.com/jebule/04-zkapp-browser-ui"
@@ -3592,6 +4152,9 @@ url = "https://github.com/jobez/04-jhnn-browser-ui"
 
 [[repo]]
 url = "https://github.com/JoE11-y/mina-doc-registry"
+
+[[repo]]
+url = "https://github.com/JoE11-y/Mina-Navigator-Challenges"
 
 [[repo]]
 url = "https://github.com/JoE11-y/MVS"
@@ -3684,6 +4247,9 @@ missing = true
 url = "https://github.com/Juliansol1/oracle"
 
 [[repo]]
+url = "https://github.com/julienbrs/Mina-zkApps"
+
+[[repo]]
 url = "https://github.com/julienbrs/snarky-js-tutorials"
 missing = true
 
@@ -3694,6 +4260,9 @@ url = "https://github.com/julienbrs/Zk-ProofsMixer"
 url = "https://github.com/julio4/zap"
 
 [[repo]]
+url = "https://github.com/julio4/zk-apps"
+
+[[repo]]
 url = "https://github.com/jun-aldi/04-zkapp-browser-ui"
 
 [[repo]]
@@ -3701,6 +4270,18 @@ url = "https://github.com/juniaraldi/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/k/mina-helm"
+
+[[repo]]
+url = "https://github.com/kadirchan/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/kadirchan/drm-mina-browser"
+
+[[repo]]
+url = "https://github.com/kadirchan/drm-mina-server"
+
+[[repo]]
+url = "https://github.com/kadirchan/o1js-tutorials"
 
 [[repo]]
 url = "https://github.com/KaelVNode/04-zkapp-browser-ui"
@@ -3767,6 +4348,12 @@ url = "https://github.com/karbandt6/04-zkapp-browser-ui-"
 url = "https://github.com/karney833/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/KarolDevLtd/sliced-contracts"
+
+[[repo]]
+url = "https://github.com/KarolDevLtd/Sliced.club"
+
+[[repo]]
 url = "https://github.com/karyoyori/04-zkapp-browser-ui"
 
 [[repo]]
@@ -3774,6 +4361,9 @@ url = "https://github.com/katrinamorris/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/kaupangdx/dex-ui"
+
+[[repo]]
+url = "https://github.com/kaupangdx/kaupangdx"
 
 [[repo]]
 url = "https://github.com/kaushik-himself/first-snapp"
@@ -3813,6 +4403,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/KENILSHAHH/ETHParis"
+missing = true
 
 [[repo]]
 url = "https://github.com/KeqingWangy2701/01-hello-world"
@@ -3833,7 +4424,13 @@ url = "https://github.com/KeqingWangy2701/05-common-types-and-functions"
 url = "https://github.com/KeqingWangy2701/oracle"
 
 [[repo]]
+url = "https://github.com/kerisha/mina-nav-lte"
+
+[[repo]]
 url = "https://github.com/Kewoy11/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/keyboord01/hackathon_game"
 
 [[repo]]
 url = "https://github.com/khairulkrhacx/04-zkapp-browser-ui"
@@ -3846,6 +4443,7 @@ url = "https://github.com/khoirulamri/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/Khusyasy/04-zkapp-browser-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/kiaerwnd/04-zkapp-browser-ui"
@@ -3930,6 +4528,9 @@ url = "https://github.com/kriss1897/mina-google-oracle"
 url = "https://github.com/kriss1897/mina-test"
 
 [[repo]]
+url = "https://github.com/kriss1897/zk-invoices"
+
+[[repo]]
 url = "https://github.com/kriss1897/zk-social-recovery"
 
 [[repo]]
@@ -3988,10 +4589,26 @@ url = "https://github.com/Lancer9428/04-zkapp-browser-ui"
 url = "https://github.com/Langit19/oracle"
 
 [[repo]]
+url = "https://github.com/LastCeri/MinaProtocolChallenges"
+missing = true
+
+[[repo]]
+url = "https://github.com/Le-Caignec/UNICEF"
+
+[[repo]]
 url = "https://github.com/lean-apple/ZeroKnowledgeBootcamp"
 
 [[repo]]
 url = "https://github.com/LeastAuthority/clorio-client"
+
+[[repo]]
+url = "https://github.com/ledevthang/nft-advertiseX-be"
+
+[[repo]]
+url = "https://github.com/ledevthang/nft-advertiseX-fe"
+
+[[repo]]
+url = "https://github.com/ledevthang/nft-advertiseX-sc"
 
 [[repo]]
 url = "https://github.com/LedgerHQ/app-mina"
@@ -4036,6 +4653,9 @@ url = "https://github.com/letterj/01-hello-world"
 
 [[repo]]
 url = "https://github.com/letterj/snapp-sudoku"
+
+[[repo]]
+url = "https://github.com/lfdao/TagTalk"
 
 [[repo]]
 url = "https://github.com/Lgog1/04-zkapp-browser-ui"
@@ -4094,13 +4714,37 @@ missing = true
 url = "https://github.com/loser-txt/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/Lruquaf/Examina"
+
+[[repo]]
+url = "https://github.com/Lruquaf/Mina-Challenge-3"
+
+[[repo]]
+url = "https://github.com/Lruquaf/MinaChallenge1"
+
+[[repo]]
+url = "https://github.com/Lruquaf/MinaChallenge2"
+
+[[repo]]
 url = "https://github.com/lucas-op/awesome-optimism"
 
 [[repo]]
 url = "https://github.com/LucasBitt7/zkrollup-bootcamp"
 
 [[repo]]
+url = "https://github.com/LucidSamuel/event-logger"
+
+[[repo]]
 url = "https://github.com/lucky967/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/LuffySama-Dev/DemoDay"
+
+[[repo]]
+url = "https://github.com/LuffySama-Dev/Mina-Implementations"
+
+[[repo]]
+url = "https://github.com/LuffySama-Dev/Mina-Tutorials"
 
 [[repo]]
 url = "https://github.com/Luiscmogrovejo/NF2U"
@@ -4147,10 +4791,25 @@ url = "https://github.com/madnadyka/mina-payout-process"
 url = "https://github.com/madukelulut/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/madztheo/zk-voting-web-app"
+
+[[repo]]
 url = "https://github.com/magestrio/bet-app-zk-contracts"
 
 [[repo]]
 url = "https://github.com/magestrio/bet-oracle"
+
+[[repo]]
+url = "https://github.com/magestrio/DynamicMerkleTree"
+
+[[repo]]
+url = "https://github.com/magestrio/mina_challenges"
+
+[[repo]]
+url = "https://github.com/magestrio/zk-rate-limiter"
+
+[[repo]]
+url = "https://github.com/magestrio/ZKP-DataGuard"
 
 [[repo]]
 url = "https://github.com/MagicGordon/04-zkapp-browser-ui"
@@ -4168,7 +4827,13 @@ url = "https://github.com/maht0rz/snarkyjs"
 url = "https://github.com/maht0rz/snarkyjs-sha256"
 
 [[repo]]
+url = "https://github.com/maht0rz/socialcap-protokit"
+
+[[repo]]
 url = "https://github.com/Maidyo3030/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/maikonweber/mina-protocol-ui"
 
 [[repo]]
 url = "https://github.com/majumapan5758-cell/04-zkapp-browser-ui"
@@ -4291,8 +4956,14 @@ missing = true
 url = "https://github.com/marmaris1978/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/MartinMinkov/collab-land-example"
+
+[[repo]]
 url = "https://github.com/MartinMinkov/graphql-archive-test"
 missing = true
+
+[[repo]]
+url = "https://github.com/MartinMinkov/o1js-iframe-example"
 
 [[repo]]
 url = "https://github.com/MartinMinkov/snarkyjs"
@@ -4302,18 +4973,26 @@ url = "https://github.com/MartinMinkov/SnarkyJS-Trading-History"
 
 [[repo]]
 url = "https://github.com/MartinMinkov/SnarkyJSFibExamples"
+missing = true
 
 [[repo]]
 url = "https://github.com/MartinMinkov/zkapp-cli"
 
 [[repo]]
 url = "https://github.com/MartinMinkov/ZkAppTokenContractStateExample"
+missing = true
+
+[[repo]]
+url = "https://github.com/MartinOndejka/mina-concurrent-nullifier"
 
 [[repo]]
 url = "https://github.com/MartinOndejka/mina-multisig"
 
 [[repo]]
 url = "https://github.com/MartinOndejka/mina-testing"
+
+[[repo]]
+url = "https://github.com/MartinOndejka/snarkyml_vs_o1js"
 
 [[repo]]
 url = "https://github.com/marto46/04-zkapp-browser-ui"
@@ -4326,6 +5005,7 @@ url = "https://github.com/masterblack14/Zkapp_04"
 
 [[repo]]
 url = "https://github.com/maszh/04-zkapp-browser-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/maszhferi/zk-project-oracle"
@@ -4347,6 +5027,9 @@ url = "https://github.com/Mazefire12/yyy"
 
 [[repo]]
 url = "https://github.com/mazhud/oracle"
+
+[[repo]]
+url = "https://github.com/mazito/encode-club-zk-bootcamp-2024-project"
 
 [[repo]]
 url = "https://github.com/mazito/zkLearn"
@@ -4445,11 +5128,23 @@ url = "https://github.com/metlco4/zkMPC-MVP-Construct"
 missing = true
 
 [[repo]]
+url = "https://github.com/MFenerichM/mina-tutorial"
+
+[[repo]]
 url = "https://github.com/miawsonya/04-zkapp-browser-ui"
 missing = true
 
 [[repo]]
 url = "https://github.com/michellewong793/verifyidentity"
+
+[[repo]]
+url = "https://github.com/microbecode/mina-learn"
+
+[[repo]]
+url = "https://github.com/microbecode/zk-identity-onramp"
+
+[[repo]]
+url = "https://github.com/microbecode/zk-languages"
 
 [[repo]]
 url = "https://github.com/mightynono88/04-zkapp-browser-ui"
@@ -4470,6 +5165,15 @@ url = "https://github.com/mina-arena/mina-arena"
 url = "https://github.com/mina-arena/mina-arena-server"
 
 [[repo]]
+url = "https://github.com/Mina-Verification-Service/Demo-Website"
+
+[[repo]]
+url = "https://github.com/Mina-Verification-Service/MVS-Contracts"
+
+[[repo]]
+url = "https://github.com/Mina-Verification-Service/MVS-Server"
+
+[[repo]]
 url = "https://github.com/mina-zkdid/datapod"
 
 [[repo]]
@@ -4479,28 +5183,55 @@ url = "https://github.com/mina-zkdid/did"
 url = "https://github.com/mina-zkdid/repo"
 
 [[repo]]
+url = "https://github.com/MinaAuth/zkOTP-app"
+
+[[repo]]
+url = "https://github.com/MinaDeck/MinaDeck-Frontend"
+
+[[repo]]
 url = "https://github.com/MinaExplorer/graphiql-explorer-example"
 
 [[repo]]
 url = "https://github.com/MinaFoundation/Core-Grants"
 
 [[repo]]
+url = "https://github.com/MinaFoundation/delegation-program-leaderboard"
+
+[[repo]]
 url = "https://github.com/MinaFoundation/dhall-haskell"
+
+[[repo]]
+url = "https://github.com/MinaFoundation/docs"
 
 [[repo]]
 url = "https://github.com/MinaFoundation/go-libp2p-kad-dht-patcher"
 
 [[repo]]
+url = "https://github.com/MinaFoundation/govbot"
+
+[[repo]]
+url = "https://github.com/MinaFoundation/gptSurveySummarizer"
+
+[[repo]]
 url = "https://github.com/MinaFoundation/grafana-dashboards"
+missing = true
 
 [[repo]]
 url = "https://github.com/MinaFoundation/Hazook-Fast-Zk-Rollup"
+missing = true
 
 [[repo]]
 url = "https://github.com/MinaFoundation/helm-charts"
 
 [[repo]]
 url = "https://github.com/MinaFoundation/install-minimina-action"
+
+[[repo]]
+url = "https://github.com/MinaFoundation/it-ops"
+
+[[repo]]
+url = "https://github.com/MinaFoundation/Liminal"
+missing = true
 
 [[repo]]
 url = "https://github.com/MinaFoundation/list-of-projects"
@@ -4512,11 +5243,26 @@ url = "https://github.com/MinaFoundation/lucy-keypairs"
 url = "https://github.com/MinaFoundation/mina"
 
 [[repo]]
+url = "https://github.com/MinaFoundation/mina-archive-nonces-diff"
+
+[[repo]]
+url = "https://github.com/MinaFoundation/mina-delegation-program-tech"
+
+[[repo]]
+url = "https://github.com/MinaFoundation/mina-fungible-token"
+
+[[repo]]
 url = "https://github.com/MinaFoundation/mina-on-chain-voting"
 
 [[repo]]
 url = "https://github.com/MinaFoundation/mina-pool-payout"
 missing = true
+
+[[repo]]
+url = "https://github.com/MinaFoundation/mina-transaction-generator"
+
+[[repo]]
+url = "https://github.com/MinaFoundation/mina-transactions-generator"
 
 [[repo]]
 url = "https://github.com/MinaFoundation/MinaMetrix"
@@ -4534,19 +5280,48 @@ url = "https://github.com/MinaFoundation/mock-network"
 url = "https://github.com/MinaFoundation/rfcs"
 
 [[repo]]
+url = "https://github.com/MinaFoundation/seeds"
+
+[[repo]]
+url = "https://github.com/MinaFoundation/soulbound-tokens"
+
+[[repo]]
 url = "https://github.com/MinaFoundation/spikes"
+missing = true
+
+[[repo]]
+url = "https://github.com/MinaFoundation/submission-report"
+
+[[repo]]
+url = "https://github.com/MinaFoundation/submission-updater"
 
 [[repo]]
 url = "https://github.com/MinaFoundation/test"
+missing = true
 
 [[repo]]
 url = "https://github.com/MinaFoundation/uptime-service-backend"
 
 [[repo]]
+url = "https://github.com/MinaFoundation/uptime-service-payloads-scrapper"
+
+[[repo]]
 url = "https://github.com/MinaFoundation/uptime-service-validation"
 
 [[repo]]
+url = "https://github.com/MinaNavigator/challenge-3"
+
+[[repo]]
+url = "https://github.com/MinaNavigator/cryptomon-deposit"
+
+[[repo]]
 url = "https://github.com/MinaPoker/contract"
+
+[[repo]]
+url = "https://github.com/MinaPoker/MPCfaucet"
+
+[[repo]]
+url = "https://github.com/MinaPoker/tokenContract"
 
 [[repo]]
 url = "https://github.com/MinaProtocol/app-mina"
@@ -4632,6 +5407,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/MinaProtocol/kademlia"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/MinaProtocol/kimchi-stubs-vendors"
 
 [[repo]]
 url = "https://github.com/MinaProtocol/ledger-coda-app"
@@ -4763,6 +5541,9 @@ missing = true
 url = "https://github.com/minatools/snarky"
 
 [[repo]]
+url = "https://github.com/Minaverse-ETHVN24/Minaverse"
+
+[[repo]]
 url = "https://github.com/minazone/mina-zkapp-template"
 
 [[repo]]
@@ -4827,10 +5608,19 @@ url = "https://github.com/mnur9868/08-custom-tokens"
 url = "https://github.com/mnur9868/oracle"
 
 [[repo]]
+url = "https://github.com/MoBaioumy/MinaGPT"
+
+[[repo]]
 url = "https://github.com/mocenkk/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/modalreceh32/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/mohammed7s/groth16-o1js"
+
+[[repo]]
+url = "https://github.com/mohammed7s/zk-email-o1js"
 
 [[repo]]
 url = "https://github.com/mohojir/04-zkapp-browser-ui"
@@ -4849,6 +5639,9 @@ url = "https://github.com/moskalyk/unib8nk"
 
 [[repo]]
 url = "https://github.com/moskalyk/zkreed"
+
+[[repo]]
+url = "https://github.com/moven0831/Photo-Sensei"
 
 [[repo]]
 url = "https://github.com/MP-0705/04-zkapp-browser-ui"
@@ -4983,6 +5776,13 @@ url = "https://github.com/Muzkilk/04-zkapp-browser-ui"
 url = "https://github.com/Muzkilk/oracle"
 
 [[repo]]
+url = "https://github.com/mvkvc/mina_btc_oracle"
+missing = true
+
+[[repo]]
+url = "https://github.com/mxber2022/ZkP"
+
+[[repo]]
 url = "https://github.com/mxnkarou/zkapp"
 missing = true
 
@@ -5041,10 +5841,14 @@ url = "https://github.com/nagleshubhakm/04-zkapp-browser-ui"
 url = "https://github.com/nanang472/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/narendra-sajwani/mina-01-hello-world"
+
+[[repo]]
 url = "https://github.com/narendra-sajwani/zkApp-01"
 
 [[repo]]
 url = "https://github.com/narendra-sajwani/zkApp-01-hello-world"
+missing = true
 
 [[repo]]
 url = "https://github.com/nasrulhardianto/04-zkapp-browser-ui"
@@ -5057,6 +5861,12 @@ url = "https://github.com/naufalprtm/oracle"
 
 [[repo]]
 url = "https://github.com/naufalprtm/zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/Neo-Gar/l2e-challenge-3"
+
+[[repo]]
+url = "https://github.com/Neo-Gar/l2e-challenge-4"
 
 [[repo]]
 url = "https://github.com/nerdvibe/awesome-mina"
@@ -5077,7 +5887,16 @@ url = "https://github.com/nerdvibe/MuchFlipGame"
 url = "https://github.com/nevruzkarasu/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/ngmisl/zk-age"
+
+[[repo]]
+url = "https://github.com/nguyenkhoa0721/very-first-contract-mina-zk"
+
+[[repo]]
 url = "https://github.com/nicarq/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/nicc/zkAppHack-semaphore"
 
 [[repo]]
 url = "https://github.com/nicholas-mwaura/04-zkapp-browser-ui"
@@ -5102,6 +5921,9 @@ missing = true
 url = "https://github.com/nicolasmanea/ZK-FLEX"
 
 [[repo]]
+url = "https://github.com/nikhilverma360/zkTambola"
+
+[[repo]]
 url = "https://github.com/NilFoundation/mina-add-zkapp"
 
 [[repo]]
@@ -5122,6 +5944,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/nitrobuts/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/nlipartiia-hacken/zkapp-example-sudoku"
 
 [[repo]]
 url = "https://github.com/nodeasik/04-zkapp-browser-ui"
@@ -5211,6 +6036,9 @@ url = "https://github.com/o1-labs/Archive-Node-API"
 url = "https://github.com/o1-labs/ate-pairing"
 
 [[repo]]
+url = "https://github.com/o1-labs/benchmark-infra"
+
+[[repo]]
 url = "https://github.com/o1-labs/capnp-ocaml"
 
 [[repo]]
@@ -5226,6 +6054,9 @@ url = "https://github.com/o1-labs/code-review-question"
 url = "https://github.com/o1-labs/crypto"
 
 [[repo]]
+url = "https://github.com/o1-labs/describe-dune"
+
+[[repo]]
 url = "https://github.com/o1-labs/docs2"
 
 [[repo]]
@@ -5236,6 +6067,7 @@ url = "https://github.com/o1-labs/eslint-plugin-snarkyjs"
 
 [[repo]]
 url = "https://github.com/o1-labs/gitops-infrastructure"
+missing = true
 
 [[repo]]
 url = "https://github.com/o1-labs/go-bs-lmdb"
@@ -5271,11 +6103,17 @@ url = "https://github.com/o1-labs/libfqfft"
 url = "https://github.com/o1-labs/libsnark-ocaml"
 
 [[repo]]
+url = "https://github.com/o1-labs/mdbook-linkcheck"
+
+[[repo]]
 url = "https://github.com/o1-labs/mina-book"
 missing = true
 
 [[repo]]
 url = "https://github.com/o1-labs/mina-chrome-extension"
+
+[[repo]]
+url = "https://github.com/o1-labs/mina-lightnet-docker"
 
 [[repo]]
 url = "https://github.com/o1-labs/mina-lightweight-explorer"
@@ -5296,10 +6134,16 @@ url = "https://github.com/o1-labs/ocaml-gen"
 url = "https://github.com/o1-labs/ocaml-rs"
 
 [[repo]]
+url = "https://github.com/o1-labs/ocaml-sodium"
+
+[[repo]]
 url = "https://github.com/o1-labs/ocamlbyexample"
 
 [[repo]]
 url = "https://github.com/o1-labs/opam-repository"
+
+[[repo]]
+url = "https://github.com/o1-labs/orocksdb"
 
 [[repo]]
 url = "https://github.com/o1-labs/ppx_bin_prot"
@@ -5312,6 +6156,9 @@ url = "https://github.com/o1-labs/proj-management"
 
 [[repo]]
 url = "https://github.com/o1-labs/proof-systems"
+
+[[repo]]
+url = "https://github.com/o1-labs/proof-systems-vendors"
 
 [[repo]]
 url = "https://github.com/o1-labs/rfcs"
@@ -5390,6 +6237,24 @@ url = "https://github.com/octaborg/octa-types"
 url = "https://github.com/octaborg/prototype"
 
 [[repo]]
+url = "https://github.com/octopus-layer/zk-proof"
+
+[[repo]]
+url = "https://github.com/oemerfurkan/01-hello-world"
+
+[[repo]]
+url = "https://github.com/oemerfurkan/02-private-inputs-and-hash-functions"
+
+[[repo]]
+url = "https://github.com/oemerfurkan/03-deploying-to-a-live-network"
+
+[[repo]]
+url = "https://github.com/oemerfurkan/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/oicred/blockspectra"
+
+[[repo]]
 url = "https://github.com/okannako/mina"
 
 [[repo]]
@@ -5423,6 +6288,9 @@ url = "https://github.com/olympusnode/04-zkapp-browser-ui"
 url = "https://github.com/Olyno/docs-1"
 
 [[repo]]
+url = "https://github.com/omer-bronix/mina_study"
+
+[[repo]]
 url = "https://github.com/omerfarukfaruk/04-zkapp-browser-ui"
 
 [[repo]]
@@ -5438,6 +6306,15 @@ url = "https://github.com/OneNov0209/04-zkapp-browser-ui"
 url = "https://github.com/OneNov0209/oracle"
 
 [[repo]]
+url = "https://github.com/onetxpunch/astro-mina-starter-kit"
+
+[[repo]]
+url = "https://github.com/onetxpunch/mina-snarketplace-frontend"
+
+[[repo]]
+url = "https://github.com/onetxpunch/mina-zkapp-verification"
+
+[[repo]]
 url = "https://github.com/onetxpunch/snarkyscan-docs"
 
 [[repo]]
@@ -5447,10 +6324,23 @@ url = "https://github.com/onetxpunch/snarkyscan-frontend"
 url = "https://github.com/onlogi/oracle"
 
 [[repo]]
+url = "https://github.com/only4sim/lib-test"
+
+[[repo]]
+url = "https://github.com/only4sim/recursive-forest"
+missing = true
+
+[[repo]]
 url = "https://github.com/only4sim/Snarky-ML"
 
 [[repo]]
+url = "https://github.com/only4sim/sudoku"
+
+[[repo]]
 url = "https://github.com/onurinanc/15-puzzle"
+
+[[repo]]
+url = "https://github.com/onurinanc/mina-challenge-work"
 
 [[repo]]
 url = "https://github.com/onurinanc/o1js-groth16"
@@ -5486,7 +6376,13 @@ url = "https://github.com/openmina/openmina"
 url = "https://github.com/openmina/openmina-web"
 
 [[repo]]
+url = "https://github.com/openmina/zk-web"
+
+[[repo]]
 url = "https://github.com/OrderOfTheOverflow/mina"
+
+[[repo]]
+url = "https://github.com/organik-inc/mina-reverse-bidding"
 
 [[repo]]
 url = "https://github.com/orinocu/mina"
@@ -5532,6 +6428,9 @@ url = "https://github.com/oyoxpangestu/04-zkapp-browser-ui"
 url = "https://github.com/ozkanyozgat66/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/OZNSN/MiNFT"
+
+[[repo]]
 url = "https://github.com/PabloLION/snarky-hold-em"
 
 [[repo]]
@@ -5545,6 +6444,9 @@ url = "https://github.com/paimon33/Oracle"
 
 [[repo]]
 url = "https://github.com/palladians/herald"
+
+[[repo]]
+url = "https://github.com/palladians/mina-connector"
 
 [[repo]]
 url = "https://github.com/palladians/minaverse"
@@ -5578,6 +6480,9 @@ url = "https://github.com/pas1ko/minorio"
 url = "https://github.com/Paul13x/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/pavelgoodpal/zkc-passport-demo"
+
+[[repo]]
 url = "https://github.com/pcw109550/wordle"
 
 [[repo]]
@@ -5597,12 +6502,19 @@ url = "https://github.com/perkasarico/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/petemccarthy/bullscows"
+missing = true
 
 [[repo]]
 url = "https://github.com/peterleetech/ETH-SF"
 
 [[repo]]
 url = "https://github.com/Pfed-prog/Dspyt-NFTs-EVM"
+
+[[repo]]
+url = "https://github.com/phamnam1805/mina-learn-2-earn"
+
+[[repo]]
+url = "https://github.com/phamnam1805/mina-nft-backend"
 
 [[repo]]
 url = "https://github.com/Philosakha/mina-cli"
@@ -5737,6 +6649,9 @@ url = "https://github.com/PopGore/mina-protocol-testnet"
 url = "https://github.com/powelllru/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/pppest/mina-protocol-tests"
+
+[[repo]]
 url = "https://github.com/PrastianHD/04-zkapp-browser-ui"
 
 [[repo]]
@@ -5760,6 +6675,9 @@ url = "https://github.com/professorkench/04-zkapp-browser-ui"
 url = "https://github.com/proto-kit/framework"
 
 [[repo]]
+url = "https://github.com/proto-kit/private-airdrop-workshop"
+
+[[repo]]
 url = "https://github.com/proto-kit/starter-kit"
 
 [[repo]]
@@ -5779,6 +6697,9 @@ url = "https://github.com/psycopa/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/psycopa/zk-project-oracle"
+
+[[repo]]
+url = "https://github.com/pteelucksingh/zk-learn-to-earn"
 
 [[repo]]
 url = "https://github.com/punkpoll/dev"
@@ -5823,10 +6744,22 @@ url = "https://github.com/qt228186471/04-zkapp-browser-ui"
 url = "https://github.com/qublaidev/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/QuezarHQ/mina-ecosystem-101"
+
+[[repo]]
 url = "https://github.com/Quillhash/Zero-Knowledge-Mastery"
 
 [[repo]]
+url = "https://github.com/Quyenld9699/mina-l2e-challenge"
+
+[[repo]]
+url = "https://github.com/Quyenld9699/zkapp-next-pages-route"
+
+[[repo]]
 url = "https://github.com/Quyenld9699/zkApp-template-next13"
+
+[[repo]]
+url = "https://github.com/qwadratic/mina-samples"
 
 [[repo]]
 url = "https://github.com/racampos/cpone"
@@ -5836,6 +6769,15 @@ url = "https://github.com/racampos/cpone-oracle"
 
 [[repo]]
 url = "https://github.com/racampos/cpone-web"
+
+[[repo]]
+url = "https://github.com/racampos/l2e-challenge-1"
+
+[[repo]]
+url = "https://github.com/racampos/l2e-challenge-2"
+
+[[repo]]
+url = "https://github.com/racampos/l2e-challenge-3-4"
 
 [[repo]]
 url = "https://github.com/racampos/zkNotary"
@@ -5860,6 +6802,9 @@ url = "https://github.com/rahmatdonny05/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/rahmatwijayadongii2607/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/rahulsingh3526/mina"
 
 [[repo]]
 url = "https://github.com/RaidasGrisk/04-zkapp-browser-ui"
@@ -5887,10 +6832,16 @@ url = "https://github.com/RaidasGrisk/zk-github-ui"
 url = "https://github.com/RaidasGrisk/zkapp-nn"
 
 [[repo]]
+url = "https://github.com/RaidasGrisk/zkapp-o1js"
+
+[[repo]]
 url = "https://github.com/RaidasGrisk/zkapp-snarkyjs"
 
 [[repo]]
 url = "https://github.com/RaidasGrisk/zkapp-ui"
+
+[[repo]]
+url = "https://github.com/RaidasGrisk/zkExample"
 
 [[repo]]
 url = "https://github.com/raigal-r/ZKBootcamp"
@@ -5923,18 +6874,22 @@ url = "https://github.com/rajatbeladiya/zk-app"
 
 [[repo]]
 url = "https://github.com/RajeshPolarati/heroku-2"
+missing = true
 
 [[repo]]
 url = "https://github.com/RajeshPolarati/sparkyjsapp"
+missing = true
 
 [[repo]]
 url = "https://github.com/RajeshPolarati/zk-mina"
+missing = true
 
 [[repo]]
 url = "https://github.com/rakasu28/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/RamaaAditya/04-zkapp-browser-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/Ramanagetwise/sudoku-zkapp"
@@ -5967,13 +6922,31 @@ url = "https://github.com/ratihfdr/oracle"
 missing = true
 
 [[repo]]
+url = "https://github.com/Raunaque97/mina-april-challenge-34"
+
+[[repo]]
+url = "https://github.com/Raunaque97/mina-feb-challenge"
+
+[[repo]]
+url = "https://github.com/Raunaque97/mina-jan-challenge"
+
+[[repo]]
 url = "https://github.com/Raunaque97/minaTutorial"
 
 [[repo]]
 url = "https://github.com/Raunaque97/privateVRF"
 
 [[repo]]
+url = "https://github.com/Raunaque97/protokit-auction-runtimes"
+
+[[repo]]
 url = "https://github.com/Raunaque97/RepeatingLifeZK"
+
+[[repo]]
+url = "https://github.com/RaviGuptaa/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/RaviGuptaa/deploying-to-a-live-network"
 
 [[repo]]
 url = "https://github.com/razkapranaya/oracle."
@@ -5995,6 +6968,9 @@ url = "https://github.com/rdsy12/cd-04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/rdsy12/oracle"
+
+[[repo]]
+url = "https://github.com/reclaimprotocol/smart-contracts-poc"
 
 [[repo]]
 url = "https://github.com/reco2121/4-zkapp-browser-ui"
@@ -6114,9 +7090,11 @@ url = "https://github.com/rickykuk/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/ridjalfathoni/04-zkapp-browser-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/ridjalfathoni/05-common-types-and-functions"
+missing = true
 
 [[repo]]
 url = "https://github.com/riduan98/04-zkapp-browser-ui"
@@ -6154,6 +7132,7 @@ url = "https://github.com/rizalk12/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/rizaltrade/04-zkapp-browser-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/rizkim2/04-zkapp-browser-ui"
@@ -6199,6 +7178,9 @@ url = "https://github.com/robertbrada/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/robertbrada/mina-twitter-voter"
+
+[[repo]]
+url = "https://github.com/rodrigombsoares/zkp-bootcamp"
 
 [[repo]]
 url = "https://github.com/roelback666/mina-protocol-guide"
@@ -6272,10 +7254,16 @@ url = "https://github.com/rpanic/vale-ui"
 url = "https://github.com/rpanic/zkapp-multisig-wallet"
 
 [[repo]]
+url = "https://github.com/rrkvmm/zkpDapp"
+
+[[repo]]
 url = "https://github.com/ruangnode/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/ruangnode/oracle"
+
+[[repo]]
+url = "https://github.com/rudrakpatra/navigator_challenges"
 
 [[repo]]
 url = "https://github.com/rudrakpatra/zkchess"
@@ -6297,6 +7285,9 @@ url = "https://github.com/rutefig/mina-01-hello-world"
 
 [[repo]]
 url = "https://github.com/ryancwalsh/docs2"
+
+[[repo]]
+url = "https://github.com/rymnc/reinforced-concrete-impls"
 
 [[repo]]
 url = "https://github.com/rynnn29/04-zkapp-browser-ui"
@@ -6345,10 +7336,22 @@ url = "https://github.com/safeyz93/04-zkapp-browser-ui"
 url = "https://github.com/said017/ZeroKnowledgeBootcamp"
 
 [[repo]]
+url = "https://github.com/saitunc/MinagerLeague"
+
+[[repo]]
 url = "https://github.com/Saksham010/ZKBootcamp-Encode-"
 
 [[repo]]
+url = "https://github.com/Salmonellabrain/usernamecheck"
+
+[[repo]]
 url = "https://github.com/salva-imm/mina"
+
+[[repo]]
+url = "https://github.com/sam-goodwin/private-wallet"
+
+[[repo]]
+url = "https://github.com/sambitsargam/eth-vn"
 
 [[repo]]
 url = "https://github.com/sampahkota/04-zkapp-browser-ui"
@@ -6370,6 +7373,24 @@ url = "https://github.com/satoshishan/04-zkapp-browser-ui"
 url = "https://github.com/satoshishan/oracle"
 
 [[repo]]
+url = "https://github.com/satyambnsal/mansfield"
+
+[[repo]]
+url = "https://github.com/satyambnsal/minapolis"
+
+[[repo]]
+url = "https://github.com/satyambnsal/o1-app"
+
+[[repo]]
+url = "https://github.com/satyambnsal/o1js-contracts"
+
+[[repo]]
+url = "https://github.com/satyambnsal/protokit-chain"
+
+[[repo]]
+url = "https://github.com/satyambnsal/ready_player"
+
+[[repo]]
 url = "https://github.com/SaujanaOK/04-zkapp-browser-ui"
 missing = true
 
@@ -6383,10 +7404,22 @@ url = "https://github.com/Savio-Sou/zku.ONE"
 url = "https://github.com/sbalioglu/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/scammi/aligned_layer"
+
+[[repo]]
 url = "https://github.com/scaramanga57/Mina_T1"
 
 [[repo]]
+url = "https://github.com/scaramanga57/Mina_T2"
+
+[[repo]]
 url = "https://github.com/schimmeltrever/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/scifi-holic/Xora"
+
+[[repo]]
+url = "https://github.com/scifi-holic/xora-example"
 
 [[repo]]
 url = "https://github.com/sCrypt-Inc/awesome-zero-knowledge-proofs"
@@ -6428,6 +7461,9 @@ url = "https://github.com/seijin88/zk-project-05-common-types-and-functions"
 url = "https://github.com/seijin88/zk-project-oracle"
 
 [[repo]]
+url = "https://github.com/SeiyaKobayashi/proof-of-social-media-activities"
+
+[[repo]]
 url = "https://github.com/sekaiamber/mina-helper"
 
 [[repo]]
@@ -6445,24 +7481,31 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Semutireng22/01-hello-world"
+missing = true
 
 [[repo]]
 url = "https://github.com/Semutireng22/03-deploying-to-a-live-network"
 
 [[repo]]
 url = "https://github.com/Semutireng22/04-zkapp-browser-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/Semutireng22/mina-credit-score-signer"
+missing = true
 
 [[repo]]
 url = "https://github.com/Semutireng22/oracle"
+missing = true
 
 [[repo]]
 url = "https://github.com/senasgr-eth/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/senimamsistem/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/seongmoolee/my-chain"
 
 [[repo]]
 url = "https://github.com/sercankarsli/04-zkapp-browser-ui"
@@ -6478,6 +7521,15 @@ url = "https://github.com/sezaras85/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/sf31/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/sgnovo8/myZKApp"
+
+[[repo]]
+url = "https://github.com/sgnovo8/runthru"
+
+[[repo]]
+url = "https://github.com/sgnovo8/zkNew"
 
 [[repo]]
 url = "https://github.com/shailesh-shenoy/zkredit"
@@ -6514,6 +7566,27 @@ url = "https://github.com/Shhb0420/05-common-types-and-functions"
 
 [[repo]]
 url = "https://github.com/Shhb0420/oracle"
+
+[[repo]]
+url = "https://github.com/Shigoto-dev19/message-batch-validator"
+
+[[repo]]
+url = "https://github.com/Shigoto-dev19/message-vault-o1js"
+
+[[repo]]
+url = "https://github.com/Shigoto-dev19/mina-mastermind"
+
+[[repo]]
+url = "https://github.com/Shigoto-dev19/o1js-base64"
+
+[[repo]]
+url = "https://github.com/Shigoto-dev19/o1js-rsa"
+
+[[repo]]
+url = "https://github.com/Shigoto-dev19/protokit-spyMaster"
+
+[[repo]]
+url = "https://github.com/Shigoto-dev19/zk-regex-o1js"
 
 [[repo]]
 url = "https://github.com/shinlilly/04-zkapp-browser-ui"
@@ -6620,6 +7693,12 @@ url = "https://github.com/sleepyqadir/trusty-mina"
 url = "https://github.com/sm1ck/MinaCheck"
 
 [[repo]]
+url = "https://github.com/SnickerdoodleLabs/protocol"
+
+[[repo]]
+url = "https://github.com/Socialcap-app/socialcap-ui"
+
+[[repo]]
 url = "https://github.com/softwarelandofficial/04-zkapp-browser-ui"
 missing = true
 
@@ -6639,6 +7718,21 @@ url = "https://github.com/sonyferianto87/oracle"
 url = "https://github.com/sotatek-dev/mina-snap"
 
 [[repo]]
+url = "https://github.com/Sotatek-KhanhLe/zk-error-demo"
+
+[[repo]]
+url = "https://github.com/Sotatek-KhanhLe/zk-next-error"
+
+[[repo]]
+url = "https://github.com/Sotatek-TuanHoang/bridge"
+
+[[repo]]
+url = "https://github.com/Sotatek-TuanHoang/mina"
+
+[[repo]]
+url = "https://github.com/SotaTek-TungNguyen2/mina-bridge-test-sc"
+
+[[repo]]
 url = "https://github.com/spawn55/04-zkapp-browser-ui"
 
 [[repo]]
@@ -6652,6 +7746,12 @@ url = "https://github.com/sqrt-xx/grin-oracle-ui"
 
 [[repo]]
 url = "https://github.com/sqrt-xx/mina-ui-deployment"
+
+[[repo]]
+url = "https://github.com/sqrt-xx/o1js-constraint-unreduced-problem"
+
+[[repo]]
+url = "https://github.com/sqrt-xx/o1js-escrow-problem"
 
 [[repo]]
 url = "https://github.com/Sr-santi/CLI-for-Private-Solutions-using-ZK-proofs"
@@ -6696,10 +7796,22 @@ url = "https://github.com/Staketab/mina-archive-mainnet"
 url = "https://github.com/Staketab/mina-bp-setup"
 
 [[repo]]
+url = "https://github.com/Staketab/mina-names"
+
+[[repo]]
 url = "https://github.com/Staketab/mina-tools"
 
 [[repo]]
 url = "https://github.com/stakingcare/mina"
+
+[[repo]]
+url = "https://github.com/steel-feel/mina-learn-earn"
+
+[[repo]]
+url = "https://github.com/steel-feel/PoT"
+
+[[repo]]
+url = "https://github.com/steel-feel/protokit-mina-l2e"
 
 [[repo]]
 url = "https://github.com/StephanieAgatha/04-zkapp-browser-ui"
@@ -6745,10 +7857,17 @@ url = "https://github.com/stove-labs/zk-p2p-guess"
 url = "https://github.com/stove-labs/zk-p2p-guess-ui"
 
 [[repo]]
+url = "https://github.com/subvisual/glassdao"
+
+[[repo]]
+url = "https://github.com/suenchunhui/mina-privacy-browser-walllet"
+
+[[repo]]
 url = "https://github.com/suenchunhui/mina-privacy-coin"
 
 [[repo]]
 url = "https://github.com/suhabe/hello"
+missing = true
 
 [[repo]]
 url = "https://github.com/sultnarifp/04-zkapp-browser-ui"
@@ -6778,19 +7897,37 @@ url = "https://github.com/SutuLabs/MinaCTF"
 url = "https://github.com/suuf24/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/sway-wallet/social-recovery-service"
+
+[[repo]]
+url = "https://github.com/SwineCoder101/privacy-pledge"
+
+[[repo]]
 url = "https://github.com/sxtxxx/04-zkapp-browser-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/sxtxxx/05-common-types-and-functions"
+missing = true
 
 [[repo]]
 url = "https://github.com/sxtxxx/oracle"
+missing = true
 
 [[repo]]
 url = "https://github.com/Syabach/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/sybil-center/sybil-center"
+
+[[repo]]
+url = "https://github.com/sybil-center/zkc-mina-demo"
+
+[[repo]]
 url = "https://github.com/sybil-center/zkc-noir-demo"
+
+[[repo]]
+url = "https://github.com/sybil-center/zkcred-in-action"
 
 [[repo]]
 url = "https://github.com/Syd-ai/Mina-FR-Staking-Community"
@@ -6814,7 +7951,13 @@ url = "https://github.com/t4top/mina-offline-util"
 url = "https://github.com/t4top/mina-wordle-game"
 
 [[repo]]
+url = "https://github.com/tadashim/mina-zkapp-starter"
+
+[[repo]]
 url = "https://github.com/tahanair/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/taigalabs/o1js-1"
 
 [[repo]]
 url = "https://github.com/Tajuddin78653/ccxt"
@@ -6841,6 +7984,9 @@ url = "https://github.com/Tanju7878/04-zkapp-browser-ui"
 url = "https://github.com/Tanju7878/oracle"
 
 [[repo]]
+url = "https://github.com/tashunc/VeriGoods"
+
+[[repo]]
 url = "https://github.com/taufiqrusdhi/04-zkapp-browser-ui"
 
 [[repo]]
@@ -6865,13 +8011,31 @@ url = "https://github.com/techiejd/posi-mina"
 url = "https://github.com/techiejd/zkAppPoolTesting"
 
 [[repo]]
+url = "https://github.com/teddyjfpender/anon-ballots"
+
+[[repo]]
 url = "https://github.com/teddyjfpender/awesome-snarkyjs-learnings"
+
+[[repo]]
+url = "https://github.com/teddyjfpender/custom-token"
+
+[[repo]]
+url = "https://github.com/teddyjfpender/dark-matter"
 
 [[repo]]
 url = "https://github.com/teddyjfpender/mina-add-contract"
 
 [[repo]]
+url = "https://github.com/teddyjfpender/mina-token"
+
+[[repo]]
+url = "https://github.com/teddyjfpender/minalings"
+
+[[repo]]
 url = "https://github.com/teddyjfpender/motomon"
+
+[[repo]]
+url = "https://github.com/teddyjfpender/neutralino"
 
 [[repo]]
 url = "https://github.com/teddyjfpender/proto-kit-bun-project"
@@ -6882,6 +8046,18 @@ url = "https://github.com/teddyjfpender/proto-kit-npm-project"
 
 [[repo]]
 url = "https://github.com/teddyjfpender/protokit-starter-bun"
+
+[[repo]]
+url = "https://github.com/teddyjfpender/SBT"
+
+[[repo]]
+url = "https://github.com/teddyjfpender/starter-kit-aidrop-commitment"
+
+[[repo]]
+url = "https://github.com/teddyjfpender/tjfpender"
+
+[[repo]]
+url = "https://github.com/teddyjfpender/zkapp-world"
 
 [[repo]]
 url = "https://github.com/Tedi101/04-zkapp-browser-ui"
@@ -6972,6 +8148,9 @@ url = "https://github.com/thetrung/05-counter"
 url = "https://github.com/thetrung/06-zkLedger"
 
 [[repo]]
+url = "https://github.com/Thirumurugan7/Mina-Protocol-Cohort"
+
+[[repo]]
 url = "https://github.com/ThisFake139/04-zkapp-browser-ui"
 
 [[repo]]
@@ -6982,6 +8161,9 @@ url = "https://github.com/thoriqhdd/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/thoriqhdd/zkApp-browser-ui"
+
+[[repo]]
+url = "https://github.com/tibi77/CBN-project-eth"
 
 [[repo]]
 url = "https://github.com/tkeith/concealed-care"
@@ -7034,6 +8216,12 @@ url = "https://github.com/trancemind/mina-docker-compose"
 url = "https://github.com/treattaylorczv/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/tredfern0/mina-navigator-challenges"
+
+[[repo]]
+url = "https://github.com/tredfern0/poZKer"
+
+[[repo]]
 url = "https://github.com/trevorbernard/graphql-mina-explorer"
 
 [[repo]]
@@ -7047,6 +8235,9 @@ url = "https://github.com/Trivo25/mina-zk-rollup"
 
 [[repo]]
 url = "https://github.com/Trivo25/minaview"
+
+[[repo]]
+url = "https://github.com/Trivo25/o1js-elgamal"
 
 [[repo]]
 url = "https://github.com/Trivo25/offchain-voting-poc"
@@ -7070,10 +8261,16 @@ url = "https://github.com/Trivo25/zk-credentials"
 url = "https://github.com/troyistroyenzo/VeriFi-zkApp"
 
 [[repo]]
+url = "https://github.com/troyistroyenzo/ZK-App-Mina-Protocol"
+
+[[repo]]
 url = "https://github.com/trumpet-zk-ignite-1/skirmish-poc"
 
 [[repo]]
 url = "https://github.com/trustchain-dev/zkapp-nfc"
+
+[[repo]]
+url = "https://github.com/trustchain-network/trustchain-monorepo"
 
 [[repo]]
 url = "https://github.com/TtheBC01/Mina-Protocol-Playground"
@@ -7115,6 +8312,9 @@ url = "https://github.com/ubinix-warun/zkOracle-OCO"
 url = "https://github.com/ubinix-warun/zkOracle-OCW"
 
 [[repo]]
+url = "https://github.com/udochify/zk-app-one"
+
+[[repo]]
 url = "https://github.com/uhuyyy3366/UI-ZKAPP"
 
 [[repo]]
@@ -7124,7 +8324,25 @@ url = "https://github.com/uhuyyy3366/ZKAPP-PROJECT"
 url = "https://github.com/Ujjwal-N/ETHSF"
 
 [[repo]]
+url = "https://github.com/ukstv/o1js-nodenext-repro"
+
+[[repo]]
+url = "https://github.com/ukstv/skyward"
+
+[[repo]]
 url = "https://github.com/umidoo21/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/untangled-enigma/sruta-chain"
+
+[[repo]]
+url = "https://github.com/untangled-enigma/sruta-node"
+
+[[repo]]
+url = "https://github.com/untangled-enigma/zKshatriya-UI"
+
+[[repo]]
+url = "https://github.com/untangled-enigma/zkshatriya-verify"
 
 [[repo]]
 url = "https://github.com/unyilusok/04-zkapp-browser-ui"
@@ -7191,6 +8409,9 @@ url = "https://github.com/VengeanceX69/oracle"
 url = "https://github.com/veric-io/mina"
 
 [[repo]]
+url = "https://github.com/Veridise/proof-of-liability"
+
+[[repo]]
 url = "https://github.com/VerssX/01-hello-world"
 
 [[repo]]
@@ -7224,10 +8445,25 @@ url = "https://github.com/vimukthi-git/mui-snapp-template"
 url = "https://github.com/vimukthi-git/snarkyjs-sudoku"
 
 [[repo]]
+url = "https://github.com/VishalPachpor/L2E_Challange_3_4"
+
+[[repo]]
+url = "https://github.com/VishalPachpor/Learn_To_Earn_2"
+
+[[repo]]
 url = "https://github.com/visortelle/mina"
 
 [[repo]]
 url = "https://github.com/vitabread/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/vixuslabs/signature_poc"
+
+[[repo]]
+url = "https://github.com/vixuslabs/tlsn-signature-verifier"
+
+[[repo]]
+url = "https://github.com/vixuslabs/zkNotary"
 
 [[repo]]
 url = "https://github.com/voboda/ephemerant"
@@ -7272,6 +8508,12 @@ url = "https://github.com/wahyuda110/zk-project-05-common-types-and-functions"
 url = "https://github.com/wahyuku124/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/WalletZkApp/mina-zkApp-snap"
+
+[[repo]]
+url = "https://github.com/WalletZkApp/nextjs-template"
+
+[[repo]]
 url = "https://github.com/WalletZkApp/website"
 
 [[repo]]
@@ -7279,6 +8521,9 @@ url = "https://github.com/WalletZkApp/zk-keyless-wallet-contracts"
 
 [[repo]]
 url = "https://github.com/WalletZkApp/zkapp-keyless-wallet"
+
+[[repo]]
+url = "https://github.com/WalletZkApp/zkwallet-api"
 
 [[repo]]
 url = "https://github.com/WalletZkApp/zkwallet-user-service-fastify"
@@ -7315,9 +8560,25 @@ url = "https://github.com/webkonglong/mina_cms"
 
 [[repo]]
 url = "https://github.com/webmaster0407/cctx"
+missing = true
+
+[[repo]]
+url = "https://github.com/WebWizrd8/zk-voting-snarky"
 
 [[repo]]
 url = "https://github.com/weck25/04-zkapp-browser-ui2"
+
+[[repo]]
+url = "https://github.com/Whisper-Key/credentials-api"
+
+[[repo]]
+url = "https://github.com/Whisper-Key/credentials-hub"
+
+[[repo]]
+url = "https://github.com/Whisper-Key/credentials-oracle"
+
+[[repo]]
+url = "https://github.com/Whisper-Key/web-wallet"
 
 [[repo]]
 url = "https://github.com/WiiAhmad/04-zkapp-browser-ui"
@@ -7347,6 +8608,9 @@ url = "https://github.com/willihore/oracle"
 url = "https://github.com/wilzeelbub/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/windhorn/skoof"
+
+[[repo]]
 url = "https://github.com/wistaulah/04-zkapp-browser-ui"
 
 [[repo]]
@@ -7361,6 +8625,9 @@ url = "https://github.com/wiyangdev/appbuild"
 [[repo]]
 url = "https://github.com/wongww/04-zkapp-browser-ui"
 missing = true
+
+[[repo]]
+url = "https://github.com/workingdoge/NullifierTree"
 
 [[repo]]
 url = "https://github.com/wotomas/BlindMansBluff"
@@ -7453,6 +8720,9 @@ url = "https://github.com/yaelahtom/04-zkapp-browser-ui"
 url = "https://github.com/yanjoxx/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/YasuYasuonFire/zk-matching"
+
+[[repo]]
 url = "https://github.com/Yayanghasan/04-zkapp-browser-ui"
 
 [[repo]]
@@ -7507,6 +8777,15 @@ url = "https://github.com/yonadaaa/snarky-baras"
 url = "https://github.com/yourbeagle/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/youtpout/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/youtpout/mina-challenge-01"
+
+[[repo]]
+url = "https://github.com/youtpout/mina-challenge-02"
+
+[[repo]]
 url = "https://github.com/youtpout/MinaSignerNet"
 
 [[repo]]
@@ -7539,6 +8818,9 @@ url = "https://github.com/yuleisywalnevv/04-zkapp-browser-ui"
 url = "https://github.com/Yunomi999/oracle"
 
 [[repo]]
+url = "https://github.com/yunus433/o1js-math"
+
+[[repo]]
 url = "https://github.com/yunus433/snarkyjs-bitset"
 
 [[repo]]
@@ -7549,6 +8831,9 @@ url = "https://github.com/yunus433/snarkyjs-tracker"
 
 [[repo]]
 url = "https://github.com/yunus433/zkchat"
+
+[[repo]]
+url = "https://github.com/yunus433/zkfibonacci"
 
 [[repo]]
 url = "https://github.com/yunus433/zkvote"
@@ -7576,6 +8861,9 @@ url = "https://github.com/yuxelaxu/04-zkapp-browser-ui"
 url = "https://github.com/Zack64-sudo/04-zkapp-browser-ui"
 
 [[repo]]
+url = "https://github.com/ZackTzeng/minakyu"
+
+[[repo]]
 url = "https://github.com/ZacYinz/ccxt"
 
 [[repo]]
@@ -7583,6 +8871,30 @@ url = "https://github.com/zadahmed/Hello-Mina-ZK"
 
 [[repo]]
 url = "https://github.com/zaikofufu/04-zkapp-browser-ui"
+
+[[repo]]
+url = "https://github.com/zcred-org/o1js-jal"
+
+[[repo]]
+url = "https://github.com/zcred-org/o1js-trgraph"
+
+[[repo]]
+url = "https://github.com/zcred-org/zcred-demo"
+
+[[repo]]
+url = "https://github.com/zcred-org/zcredjs"
+
+[[repo]]
+url = "https://github.com/zcred-org/zerkle"
+
+[[repo]]
+url = "https://github.com/zeko-labs/zeko"
+
+[[repo]]
+url = "https://github.com/zemse/zk-collector"
+
+[[repo]]
+url = "https://github.com/ZeroAccountHQ/ZeroAccountBeta"
 
 [[repo]]
 url = "https://github.com/zeroknomics/sfeth2022"
@@ -7613,16 +8925,55 @@ url = "https://github.com/zioprakoso/04-zkapp-browser-ui"
 url = "https://github.com/zk-auth-com/mina-google-keys"
 
 [[repo]]
+url = "https://github.com/zk-invoices/invoices-app"
+
+[[repo]]
+url = "https://github.com/zk-invoices/invoices-contracts"
+
+[[repo]]
+url = "https://github.com/zk-invoices/invoices-service"
+
+[[repo]]
 url = "https://github.com/zk0ath/usdc-native-mint-test"
 
 [[repo]]
 url = "https://github.com/zk0ath/usdm"
 
 [[repo]]
+url = "https://github.com/zk0ath/usdm-backend"
+
+[[repo]]
 url = "https://github.com/zkapp/04-zkapp-browser-ui"
 
 [[repo]]
 url = "https://github.com/zKatcha/zKatcha"
+
+[[repo]]
+url = "https://github.com/ZkBuilders/zkaptcha"
+
+[[repo]]
+url = "https://github.com/zkcloudworker/domain-name-contract"
+
+[[repo]]
+url = "https://github.com/zkcloudworker/encryption-example"
+
+[[repo]]
+url = "https://github.com/zkcloudworker/nats-example-experimental"
+
+[[repo]]
+url = "https://github.com/zkcloudworker/simple-example"
+
+[[repo]]
+url = "https://github.com/zkcloudworker/socialcap-deposits"
+
+[[repo]]
+url = "https://github.com/zkcloudworker/zkcloudworker-aws"
+
+[[repo]]
+url = "https://github.com/zkcloudworker/zkcloudworker-lib"
+
+[[repo]]
+url = "https://github.com/zkcloudworker/zkcloudworker-local"
 
 [[repo]]
 url = "https://github.com/zkdevmenHULK/04-zkapp-browser-ui"
@@ -7644,6 +8995,12 @@ missing = true
 url = "https://github.com/ZKGeorge1/ConcealedCareO1JSbug"
 
 [[repo]]
+url = "https://github.com/ZKGeorge1/InSURE"
+
+[[repo]]
+url = "https://github.com/ZKGeorge1/zkPharmas-Market"
+
+[[repo]]
 url = "https://github.com/zkHumans/.github"
 
 [[repo]]
@@ -7656,6 +9013,18 @@ url = "https://github.com/zkHumans/zk-kv"
 url = "https://github.com/zkHumans/zkHumans"
 
 [[repo]]
+url = "https://github.com/ZkNoid/token"
+
+[[repo]]
+url = "https://github.com/zkoracle/basicrequest-examples"
+
+[[repo]]
+url = "https://github.com/zkPerps/front"
+
+[[repo]]
+url = "https://github.com/zkPerps/zkPerp"
+
+[[repo]]
 url = "https://github.com/zkvalidator/mina-fdv-rs"
 
 [[repo]]
@@ -7663,6 +9032,9 @@ url = "https://github.com/zkvalidator/mina-graphql-rs"
 
 [[repo]]
 url = "https://github.com/zkvalidator/mina-payouts"
+
+[[repo]]
+url = "https://github.com/zkzoomer/recursive-gaming"
 
 [[repo]]
 url = "https://github.com/Zlkcyber/zkapp"

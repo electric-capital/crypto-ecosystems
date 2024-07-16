@@ -42,6 +42,8 @@ enum ValidationError {
     EmptyEcosystem(String),
 
     UnsortedEcosystem(UnsortedEcosystem),
+
+    InvalidRepoUrl { url: String, url_type: RepoUrlType },
 }
 
 #[derive(Debug)]
@@ -84,6 +86,21 @@ impl Display for ValidationError {
                 }
                 Ok(())
             }
+            ValidationError::InvalidRepoUrl { url, url_type } => match url_type {
+                RepoUrlType::GithubUnnormalized => {
+                    writeln!(f, "Invalid repo URL: {} in repo section. Please remove the trailing slash for '{}'.", url, url)
+                }
+                RepoUrlType::GithubUserOrOrganization => {
+                    writeln!(f, "Invalid repo URL: {} in repo section. Please specify a github repository instead of a user or organization.", url)
+                }
+                RepoUrlType::GithubTreeish => {
+                    writeln!(f, "Invalid repo URL: {} in repo section. Please remove excess parts of the path like tree or master and use the canonical github repo name.", url)
+                }
+                RepoUrlType::InvalidUrl => {
+                    writeln!(f, "Invalid repo URL: {} in repo section.", url)
+                }
+                _ => Ok(()),
+            },
         }
     }
 }
@@ -111,6 +128,43 @@ enum CEError {
 }
 
 type EcosystemMap = HashMap<String, Ecosystem>;
+
+/// This enum handles a variety of url types that are put into repo url values.
+#[derive(Debug)]
+enum RepoUrlType {
+    GithubUnnormalized,
+    GithubUserOrOrganization,
+    GithubRepository,
+    GithubTreeish,
+    OtherServiceRepository,
+    InvalidUrl,
+}
+
+fn parse_repo_url_type(url: &str) -> RepoUrlType {
+    match url::Url::parse(url) {
+        Ok(parsed) => match parsed.host_str() {
+            Some(host) => match host {
+                "github.com" | "www.github.com" => {
+                    if url.ends_with('/') {
+                        RepoUrlType::GithubUnnormalized
+                    } else {
+                        let parts: Vec<&str> = parsed.path().split('/').collect();
+                        if parts.len() == 3 {
+                            RepoUrlType::GithubRepository
+                        } else if parts.len() == 2 {
+                            RepoUrlType::GithubUserOrOrganization
+                        } else {
+                            RepoUrlType::GithubTreeish
+                        }
+                    }
+                }
+                _ => RepoUrlType::OtherServiceRepository,
+            },
+            None => RepoUrlType::InvalidUrl,
+        },
+        Err(_) => RepoUrlType::InvalidUrl,
+    }
+}
 
 fn get_toml_files(dir: &Path) -> Result<Vec<PathBuf>> {
     let glob_pattern = format!("{}/**/*.toml", dir.display());
@@ -151,7 +205,7 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationEr
 }
 
 fn find_misordered_elements_diff(strings: &[String]) -> Option<String> {
-    if strings.len() == 0 {
+    if strings.is_empty() {
         return None;
     }
 
@@ -168,7 +222,7 @@ fn find_misordered_elements_diff(strings: &[String]) -> Option<String> {
         &input,
         UnifiedDiffBuilder::new(&input),
     );
-    return Some(diff);
+    Some(diff)
 }
 
 fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
@@ -211,11 +265,11 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
                     });
                 }
             }
-            sort_error.sub_eco_diff = find_misordered_elements_diff(&sub_ecosystems);
+            sort_error.sub_eco_diff = find_misordered_elements_diff(sub_ecosystems);
         }
 
         if let Some(github_orgs) = &ecosystem.github_organizations {
-            sort_error.github_org_diff = find_misordered_elements_diff(&github_orgs);
+            sort_error.github_org_diff = find_misordered_elements_diff(github_orgs);
         }
 
         if let Some(repos) = &ecosystem.repo {
@@ -235,6 +289,17 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
                         let counter = tagmap.entry(tag.to_string()).or_insert(0);
                         *counter += 1;
                     }
+                }
+                let url_type = parse_repo_url_type(&repo.url);
+                match url_type {
+                    RepoUrlType::GithubUnnormalized
+                    | RepoUrlType::GithubTreeish
+                    | RepoUrlType::GithubUserOrOrganization
+                    | RepoUrlType::InvalidUrl => errors.push(ValidationError::InvalidRepoUrl {
+                        url: repo.url.clone(),
+                        url_type,
+                    }),
+                    _ => {}
                 }
             }
             let repo_urls: Vec<String> = repos.iter().map(|x| x.url.clone()).collect();

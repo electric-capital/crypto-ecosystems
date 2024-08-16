@@ -1,14 +1,15 @@
-# Ecosystem Level Information
 title = "DFINITY Operations"
-
 sub_ecosystems = []
-
 github_organizations = ["https://github.com/dfinity-ops"]
-
-# Repositories
 [[repo]]
 url = "https://github.com/dfinity-ops/dashboard-api"
 missing = true
+
+[[repo]]
+url = "https://github.com/dfinity-ops/dashboard-ui"
+
+[[repo]]
+url = "https://github.com/dfinity-ops/denylist"
 
 [[repo]]
 url = "https://github.com/dfinity-ops/dvoy-dapp"
@@ -43,5 +44,9 @@ url = "https://github.com/dfinity-ops/nnsext-lib"
 missing = true
 
 [[repo]]
+url = "https://github.com/dfinity-ops/release"
+
+[[repo]]
 url = "https://github.com/dfinity-ops/tas-cli"
 missing = true
+

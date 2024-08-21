@@ -228,7 +228,6 @@ fn find_misordered_elements_diff(strings: &[String]) -> Option<String> {
 fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
     let mut errors = vec![];
     let mut repo_set = HashSet::new();
-    let mut tagmap: HashMap<String, u32> = HashMap::new();
     let mut missing_count = 0;
 
     for ecosystem in ecosystem_map.values() {
@@ -248,31 +247,39 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
             .map_or(false, |repos| !repos.is_empty());
 
         let mut seen_repos = HashSet::new();
+        let mut sorted_repos = ecosystem.repo.clone().unwrap_or_default();
 
-        //let mut sorted_subs = vec![];
-        let mut sort_error = UnsortedEcosystem {
-            ecosystem: ecosystem.title.clone(),
-            repo_diff: None,
-            sub_eco_diff: None,
-            github_org_diff: None,
-        };
-        if let Some(sub_ecosystems) = &ecosystem.sub_ecosystems {
-            for sub in sub_ecosystems {
-                if !ecosystem_map.contains_key(sub) {
-                    errors.push(ValidationError::MissingSubecosystem {
-                        parent: ecosystem.title.clone(),
-                        child: sub.clone(),
-                    });
-                }
-            }
-            sort_error.sub_eco_diff = find_misordered_elements_diff(sub_ecosystems);
-        }
+        // Sort the repositories by URL if they exist
+        sorted_repos.sort_by(|a, b| a.url.to_lowercase().cmp(&b.url.to_lowercase()));
 
-        if let Some(github_orgs) = &ecosystem.github_organizations {
-            sort_error.github_org_diff = find_misordered_elements_diff(github_orgs);
-        }
-
+        // Check if the repos are already sorted, if not, provide the sorted list as an error
         if let Some(repos) = &ecosystem.repo {
+            if repos != &sorted_repos {
+                // If not sorted, return an error with the full sorted list for the user to copy
+                let sorted_list = sorted_repos
+                    .iter()
+                    .map(|repo| {
+                        let mut entry = format!("[[repo]]\nurl = \"{}\"", repo.url);
+                        if let Some(true) = repo.missing {
+                            entry.push_str("\nmissing = true");
+                        }
+                        entry
+                    })
+                    .collect::<Vec<String>>()
+                    .join("\n\n");
+
+                errors.push(ValidationError::UnsortedEcosystem(UnsortedEcosystem {
+                    ecosystem: ecosystem.title.clone(),
+                    repo_diff: Some(format!(
+                        "{} is not sorted. Here is the correct sorted order:\n\n{}",
+                        ecosystem.title, sorted_list
+                    )),
+                    sub_eco_diff: None,
+                    github_org_diff: None,
+                }));
+            }
+
+            // Check for duplicate URLs and missing repos
             for repo in repos {
                 let lowercase_url = repo.url.to_lowercase();
                 if seen_repos.contains(&lowercase_url) {
@@ -284,37 +291,11 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
                     missing_count += 1;
                 }
                 repo_set.insert(repo.url.clone());
-                if let Some(tags) = &repo.tags {
-                    for tag in tags {
-                        let counter = tagmap.entry(tag.to_string()).or_insert(0);
-                        *counter += 1;
-                    }
-                }
-                let url_type = parse_repo_url_type(&repo.url);
-                match url_type {
-                    RepoUrlType::GithubUnnormalized
-                    | RepoUrlType::GithubTreeish
-                    | RepoUrlType::GithubUserOrOrganization
-                    | RepoUrlType::InvalidUrl => errors.push(ValidationError::InvalidRepoUrl {
-                        url: repo.url.clone(),
-                        url_type,
-                    }),
-                    _ => {}
-                }
             }
-            let repo_urls: Vec<String> = repos.iter().map(|x| x.url.clone()).collect();
-            sort_error.repo_diff = find_misordered_elements_diff(&repo_urls);
         }
 
         if !(has_sub_ecosystems || has_orgs || has_repos) {
             errors.push(ValidationError::EmptyEcosystem(ecosystem.title.clone()));
-        }
-
-        if sort_error.sub_eco_diff.is_some()
-            || sort_error.github_org_diff.is_some()
-            || sort_error.repo_diff.is_some()
-        {
-            errors.push(ValidationError::UnsortedEcosystem(sort_error));
         }
     }
 
@@ -325,14 +306,11 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
             repo_set.len(),
             missing_count,
         );
-        //println!("\nTags");
-        // for (tag, count) in tagmap {
-        //     println!("\t{}: {}", tag, count);
-        // }
     }
 
     errors
 }
+
 
 fn validate(data_path: String) -> Result<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;

@@ -116,21 +116,9 @@ github_organizations = ["https://github.com/EasyA-Tech"]
 
 Remember that this is a hierarchy. If you're adding a Cosmos appchain, therefore, you should be following Option 2 below (since it will be a sub-ecosystem of Cosmos).
 
-It's important to note also that you **do not** need to add all the repos within your GitHub organizations to the `.toml` file as individual repos, because the system automatically fetches all repos within the organization.
+Please note: As a time saving measure, you **do not** need to add all the repos within your GitHub organizations to the `.toml` file as individual repos, because our system automatically fetches all repos within the organization.  These will be reflected in our periodic exports of our internal database of repos.
 
-You may see other ecosystems that have done this:
-
-```toml
-title = "EasyA Chain"
-
-github_organizations = ["https://github.com/EasyA-Tech"]
-
-[[repo]]
-url = "https://github.com/EasyA-Tech/Chain" # ❌ Don't do this ❌
-tags = [ "Protocol"]
-```
-
-This is unnecessary. It adds clutter and makes it harder for reviewers to approve your PR. We will explain below when and why you should add repos to an ecosystem.
+We will explain below when and why you should add repos to an ecosystem.
 
 ### Option 2: Adding a new sub-ecosystem
 
@@ -184,8 +172,6 @@ title = "EasyA Community Wallet"
 github_organizations = ["https://github.com/EasyA-Community-Wallet"]
 ```
 12. Make your PR! ✅
-
-Please remember here too that the same note as in Option 1 applies: the system automatically pulls in the repos from your sub-ecosystem GitHub organization, so you don't need to list them all out individually.
 
 If you prefer videos, you can also see the above steps done live [here](https://www.loom.com/share/f23aab8c675940a9998b228ea1e179b7).
 

@@ -348,7 +348,7 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> ValidationStats {
 
 fn canonical_path(repo_root: &Path, eco_title: &str) -> PathBuf {
     let slug = slugify(eco_title);
-    if slug.len() == 0 {
+    if slug.is_empty() {
         panic!("Empty Slug for {}", eco_title);
     }
     repo_root
@@ -416,7 +416,7 @@ fn write_ecosystem_to_toml(repo_root: &Path, eco: &Ecosystem) -> Result<()> {
         included.insert(repo.url.to_lowercase());
         output.push_str(&format!("[[repo]]\nurl = \"{}\"\n", repo.url));
         if let Some(ref tags) = repo.tags {
-            if tags.len() > 0 {
+            if !tags.is_empty() {
                 let mut tag_toml = String::new();
                 serde::Serialize::serialize(&tags, toml::ser::ValueSerializer::new(&mut tag_toml))
                     .expect("Valid tags");
@@ -428,11 +428,11 @@ fn write_ecosystem_to_toml(repo_root: &Path, eco: &Ecosystem) -> Result<()> {
         }
         i += 1;
         if i < sorted_repos.len() {
-            output.push_str("\n");
+            output.push('\n');
         }
     }
 
-    if let Err(_) = std::fs::create_dir_all(toml_file_path.parent().unwrap()) {
+    if std::fs::create_dir_all(toml_file_path.parent().unwrap()).is_err() {
         println!("Error Making dir: {:?}", toml_file_path);
     }
     let mut file = OpenOptions::new()
@@ -514,7 +514,7 @@ fn sort(data_path_str: &str) -> Result<()> {
     match parse_toml_files(&toml_files) {
         Ok((ecosystem_map, title_errors)) => {
             let mut unsorted_count = 0;
-            if title_errors.len() > 0 {
+            if !title_errors.is_empty() {
                 println!("Please fix the following errors before sorting");
                 for err in title_errors {
                     print!("\t{}", err);
@@ -526,7 +526,7 @@ fn sort(data_path_str: &str) -> Result<()> {
                 if let ValidationError::UnsortedEcosystem(unsorted_eco) = error {
                     println!("Sorting Ecosystem: {}", unsorted_eco.ecosystem);
                     if let Some(eco) = ecosystem_map.get(&unsorted_eco.ecosystem) {
-                        write_ecosystem_to_toml(&data_path, eco)?;
+                        write_ecosystem_to_toml(data_path, eco)?;
                     }
                     unsorted_count += 1;
                 }

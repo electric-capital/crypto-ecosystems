@@ -26,6 +26,10 @@ help:
 build:  ## Build the ecosystems validation code with cargo 
 	cargo build
 
-.PHONY: validate 
+.PHONY: validate
 validate:  ## Validate the ecosystems toml files 
-	cargo run --release -- validate data/ecosystems 
+	cargo run --release -- validate data/ecosystems
+
+.PHONY: sort
+sort:  ## Sort and clean up unsorted toml files
+	cargo run --release -- sort data/

@@ -3,22 +3,34 @@ use glob::glob;
 use imara_diff::intern::InternedInput;
 use imara_diff::{diff, Algorithm, UnifiedDiffBuilder};
 use serde::{Deserialize, Serialize};
+use slug::slugify;
 use std::collections::{HashMap, HashSet};
 use std::fmt::{Display, Formatter};
+use std::fs::OpenOptions;
 use std::fs::{read_to_string, File};
+use std::io::prelude::*;
 use std::path::{Path, PathBuf};
 use structopt::StructOpt;
 use thiserror::Error;
+
+const MAX_LINE_LENGTH: usize = 80;
 
 #[derive(Debug, StructOpt)]
 #[structopt(about = "Taxonomy of crypto open source repositories")]
 #[structopt(name = "crypto-ecosystems", rename_all = "kebab-case")]
 enum Cli {
+    /// Sort all of the toml files
+    Sort {
+        /// Path to top level directory containing ecosystem toml files
+        data_path: String,
+    },
+
     /// Validate all of the toml configuration files
     Validate {
         /// Path to top level directory containing ecosystem toml files
         data_path: String,
     },
+
     /// Export list of ecosystems and repos to a JSON file
     Export {
         /// Path to top level directory containing ecosystem toml files
@@ -334,6 +346,105 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
     errors
 }
 
+fn canonical_path(repo_root: &Path, eco_title: &str) -> PathBuf {
+    let slug = slugify(eco_title);
+    if slug.len() == 0 {
+        panic!("Empty Slug for {}", eco_title);
+    }
+    repo_root
+        .join("ecosystems")
+        .join(&slug[..1])
+        .join(format!("{}.toml", &slug))
+}
+
+fn write_ecosystem_to_toml(repo_root: &Path, eco: &Ecosystem) -> Result<()> {
+    let toml_file_path = canonical_path(repo_root, &eco.title);
+    let mut output = String::new();
+    output.push_str(&format!(
+        "# Ecosystem Level Information\ntitle = \"{}\"\n\n",
+        eco.title
+    ));
+
+    let mut sub_eco_vec: Vec<String> = eco.sub_ecosystems.iter().flatten().cloned().collect();
+    sub_eco_vec.sort_by_key(|k| k.to_lowercase());
+    let mut sub_ecosystems = String::new();
+    serde::Serialize::serialize(
+        &sub_eco_vec,
+        toml::ser::ValueSerializer::new(&mut sub_ecosystems),
+    )
+    .expect("Valid sub ecosystems");
+    if sub_ecosystems.len() > MAX_LINE_LENGTH {
+        let mut sub_eco_string = String::from("sub_ecosystems = [\n");
+        for sub in sub_eco_vec {
+            sub_eco_string.push_str(&format!("  \"{}\",\n", sub));
+        }
+        sub_eco_string.push_str("]\n\n");
+        output.push_str(&sub_eco_string);
+    } else {
+        output.push_str(&format!("sub_ecosystems = {}\n\n", sub_ecosystems));
+    }
+
+    let mut github_org_vec: Vec<String> =
+        eco.github_organizations.iter().flatten().cloned().collect();
+    github_org_vec.sort_by_key(|k| k.to_lowercase());
+    let mut github_orgs = String::new();
+    serde::Serialize::serialize(
+        &github_org_vec,
+        toml::ser::ValueSerializer::new(&mut github_orgs),
+    )
+    .expect("Valid github organizations");
+    if github_orgs.len() > MAX_LINE_LENGTH {
+        let mut github_org_string = String::from("github_organizations = [\n");
+        for org in github_org_vec {
+            github_org_string.push_str(&format!("  \"{}\",\n", org));
+        }
+        github_org_string.push_str("]\n\n");
+        output.push_str(&github_org_string);
+    } else {
+        output.push_str(&format!("github_organizations = {}\n\n", github_orgs));
+    }
+
+    output.push_str("# Repositories\n");
+    let mut sorted_repos: Vec<&Repo> = eco.repo.iter().flatten().collect();
+    sorted_repos.sort_by_key(|k| k.url.to_lowercase());
+    let mut i = 0;
+    let mut included = HashSet::new();
+    for repo in &sorted_repos {
+        if included.contains(&repo.url.to_lowercase()) {
+            continue;
+        }
+        included.insert(repo.url.to_lowercase());
+        output.push_str(&format!("[[repo]]\nurl = \"{}\"\n", repo.url));
+        if let Some(ref tags) = repo.tags {
+            if tags.len() > 0 {
+                let mut tag_toml = String::new();
+                serde::Serialize::serialize(&tags, toml::ser::ValueSerializer::new(&mut tag_toml))
+                    .expect("Valid tags");
+                output.push_str(&format!("tags = {}\n", tag_toml));
+            }
+        }
+        if let Some(true) = repo.missing {
+            output.push_str("missing = true\n");
+        }
+        i += 1;
+        if i < sorted_repos.len() {
+            output.push_str("\n");
+        }
+    }
+
+    if let Err(_) = std::fs::create_dir_all(toml_file_path.parent().unwrap()) {
+        println!("Error Making dir: {:?}", toml_file_path);
+    }
+    let mut file = OpenOptions::new()
+        .read(true)
+        .write(true)
+        .create(true)
+        .truncate(true)
+        .open(toml_file_path)?;
+    file.write_all(output.as_bytes())?;
+    Ok(())
+}
+
 fn validate(data_path: String) -> Result<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
@@ -392,9 +503,42 @@ fn export(data_path: String, output_path: String, only_repos: bool) -> Result<()
     Ok(())
 }
 
+fn sort(data_path_str: &str) -> Result<()> {
+    let data_path = Path::new(data_path_str);
+    let toml_files = get_toml_files(data_path)?;
+    match parse_toml_files(&toml_files) {
+        Ok((ecosystem_map, title_errors)) => {
+            if title_errors.len() > 0 {
+                println!("Please fix the following errors before sorting");
+                for err in title_errors {
+                    print!("\t{}", err);
+                }
+                std::process::exit(-1);
+            }
+            let errors = validate_ecosystems(&ecosystem_map);
+            for error in errors {
+                if let ValidationError::UnsortedEcosystem(unsorted_eco) = error {
+                    println!("Sorting Ecosystem: {}", unsorted_eco.ecosystem);
+                    if let Some(eco) = ecosystem_map.get(&unsorted_eco.ecosystem) {
+                        write_ecosystem_to_toml(&data_path, eco)?;
+                    }
+                }
+            }
+        }
+        Err(err) => {
+            println!("\t{}", err);
+            std::process::exit(-1);
+        }
+    };
+    Ok(())
+}
+
 fn main() -> Result<()> {
     let args = Cli::from_args();
     match args {
+        Cli::Sort { data_path } => {
+            sort(&data_path)?;
+        }
         Cli::Validate { data_path } => {
             validate(data_path)?;
         }

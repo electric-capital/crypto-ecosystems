@@ -43,6 +43,14 @@ enum Cli {
         only_repos: bool,
     },
 }
+
+struct ValidationStats {
+    ecosystem_count: usize,
+    repo_count: usize,
+    missing_count: usize,
+    errors: Vec<ValidationError>,
+}
+
 #[derive(Debug)]
 enum ValidationError {
     MissingSubecosystem { parent: String, child: String },
@@ -237,7 +245,7 @@ fn find_misordered_elements_diff(strings: &[String]) -> Option<String> {
     Some(diff)
 }
 
-fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
+fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> ValidationStats {
     let mut errors = vec![];
     let mut repo_set = HashSet::new();
     let mut tagmap: HashMap<String, u32> = HashMap::new();
@@ -330,20 +338,12 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> Vec<ValidationError> {
         }
     }
 
-    if errors.is_empty() {
-        println!(
-            "Validated {} ecosystems and {} repos ({} missing)",
-            ecosystem_map.len(),
-            repo_set.len(),
-            missing_count,
-        );
-        //println!("\nTags");
-        // for (tag, count) in tagmap {
-        //     println!("\t{}: {}", tag, count);
-        // }
+    ValidationStats {
+        ecosystem_count: ecosystem_map.len(),
+        repo_count: repo_set.len(),
+        missing_count,
+        errors,
     }
-
-    errors
 }
 
 fn canonical_path(repo_root: &Path, eco_title: &str) -> PathBuf {
@@ -449,10 +449,15 @@ fn validate(data_path: String) -> Result<()> {
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
         Ok((ecosystem_map, title_errors)) => {
-            let mut errors = validate_ecosystems(&ecosystem_map);
-            errors.extend(title_errors);
-            if !errors.is_empty() {
-                for err in errors {
+            let mut stats = validate_ecosystems(&ecosystem_map);
+            stats.errors.extend(title_errors);
+            if stats.errors.is_empty() {
+                println!(
+                    "Validated {} ecosystems and {} repos ({} missing)",
+                    stats.ecosystem_count, stats.repo_count, stats.missing_count,
+                );
+            } else {
+                for err in stats.errors {
                     print!("{}", err);
                 }
                 std::process::exit(-1);
@@ -470,10 +475,10 @@ fn export(data_path: String, output_path: String, only_repos: bool) -> Result<()
     let toml_files = get_toml_files(Path::new(&data_path))?;
     match parse_toml_files(&toml_files) {
         Ok((ecosystem_map, title_errors)) => {
-            let mut errors = validate_ecosystems(&ecosystem_map);
-            errors.extend(title_errors);
-            if !errors.is_empty() {
-                for err in errors {
+            let mut stats = validate_ecosystems(&ecosystem_map);
+            stats.errors.extend(title_errors);
+            if !stats.errors.is_empty() {
+                for err in stats.errors {
                     println!("{}", err);
                 }
                 std::process::exit(-1);
@@ -508,6 +513,7 @@ fn sort(data_path_str: &str) -> Result<()> {
     let toml_files = get_toml_files(data_path)?;
     match parse_toml_files(&toml_files) {
         Ok((ecosystem_map, title_errors)) => {
+            let mut unsorted_count = 0;
             if title_errors.len() > 0 {
                 println!("Please fix the following errors before sorting");
                 for err in title_errors {
@@ -515,14 +521,18 @@ fn sort(data_path_str: &str) -> Result<()> {
                 }
                 std::process::exit(-1);
             }
-            let errors = validate_ecosystems(&ecosystem_map);
-            for error in errors {
+            let stats = validate_ecosystems(&ecosystem_map);
+            for error in stats.errors {
                 if let ValidationError::UnsortedEcosystem(unsorted_eco) = error {
                     println!("Sorting Ecosystem: {}", unsorted_eco.ecosystem);
                     if let Some(eco) = ecosystem_map.get(&unsorted_eco.ecosystem) {
                         write_ecosystem_to_toml(&data_path, eco)?;
                     }
+                    unsorted_count += 1;
                 }
+            }
+            if unsorted_count == 0 {
+                println!("All ecosystems sorted");
             }
         }
         Err(err) => {

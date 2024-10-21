@@ -1,6 +1,6 @@
 title = "Rootstock"
 
-sub_ecosystems = ["API3", "Money on Chain", "RIF Token", "RskSwap"]
+sub_ecosystems = ["AirGap", "API3", "Babelfish Protocol", "DistributedCollective", "Etherspot", "Gelato (G-UNI)", "Money on Chain", "NFTs2Me", "RIF Token", "RskSwap", "Umbrella Network"]
 
 github_organizations = [
   "https://github.com/riflabs",
@@ -10,13 +10,6 @@ github_organizations = [
 ]
 
 # Repositories
-[[repo]]
-url = "https://github.com/BabelFishProtocol/babelfish-dapp"
-
-[[repo]]
-url = "https://github.com/BabelFishProtocol/babelfish-phase-1"
-missing = true
-
 [[repo]]
 url = "https://github.com/blindpaylabs/consensus"
 
@@ -239,6 +232,12 @@ url = "https://github.com/rsksmart/2wp-api"
 url = "https://github.com/rsksmart/2wp-app"
 
 [[repo]]
+url = "https://github.com/rsksmart/airdrop-template"
+
+[[repo]]
+url = "https://github.com/rsksmart/airdrop-ui"
+
+[[repo]]
 url = "https://github.com/rsksmart/airgap-iso-rootstock"
 
 [[repo]]
@@ -357,6 +356,9 @@ url = "https://github.com/rsksmart/demo-code-snippets"
 
 [[repo]]
 url = "https://github.com/rsksmart/demo-deploy-contract"
+
+[[repo]]
+url = "https://github.com/rsksmart/Demo-FrontendInteractionSmartContract"
 
 [[repo]]
 url = "https://github.com/rsksmart/devportal"
@@ -841,6 +843,9 @@ url = "https://github.com/rsksmart/rosetta-rsk"
 url = "https://github.com/rsksmart/rsk-academy"
 
 [[repo]]
+url = "https://github.com/rsksmart/rsk-cli"
+
+[[repo]]
 url = "https://github.com/rsksmart/rsk-contract-metadata"
 
 [[repo]]
@@ -974,6 +979,9 @@ url = "https://github.com/rsksmart/rskswap-ui"
 [[repo]]
 url = "https://github.com/rsksmart/RSKWalletConnect"
 missing = true
+
+[[repo]]
+url = "https://github.com/rsksmart/runes-marketplace"
 
 [[repo]]
 url = "https://github.com/rsksmart/rust-captcha"

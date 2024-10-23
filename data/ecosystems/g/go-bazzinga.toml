@@ -1,11 +1,19 @@
+# Ecosystem Level Information
 title = "go-bazzinga"
+
 sub_ecosystems = []
+
 github_organizations = ["https://github.com/go-bazzinga"]
+
+# Repositories
 [[repo]]
 url = "https://github.com/go-bazzinga/contracts"
 
 [[repo]]
 url = "https://github.com/go-bazzinga/ds-dags"
+
+[[repo]]
+url = "https://github.com/go-bazzinga/ds-recsys"
 
 [[repo]]
 url = "https://github.com/go-bazzinga/ed25519-consensus"
@@ -45,6 +53,9 @@ url = "https://github.com/go-bazzinga/ic"
 url = "https://github.com/go-bazzinga/ic-verify-example"
 
 [[repo]]
+url = "https://github.com/go-bazzinga/mih-rs"
+
+[[repo]]
 url = "https://github.com/go-bazzinga/off-chain-agent"
 
 [[repo]]
@@ -79,6 +90,9 @@ url = "https://github.com/go-bazzinga/vite-dfx"
 url = "https://github.com/go-bazzinga/yral-auth"
 
 [[repo]]
+url = "https://github.com/go-bazzinga/yral-common"
+
+[[repo]]
 url = "https://github.com/go-bazzinga/yral-gpu-compute-tasks"
 
 [[repo]]
@@ -98,5 +112,10 @@ url = "https://github.com/go-bazzinga/yral-ml-video-embed"
 missing = true
 
 [[repo]]
+url = "https://github.com/go-bazzinga/yral-mobile"
+
+[[repo]]
 url = "https://github.com/go-bazzinga/yral-stream-processor"
 
+[[repo]]
+url = "https://github.com/go-bazzinga/yral-testcontainers"

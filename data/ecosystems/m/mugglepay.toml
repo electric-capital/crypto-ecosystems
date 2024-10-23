@@ -1,6 +1,11 @@
+# Ecosystem Level Information
 title = "MugglePay"
+
 sub_ecosystems = []
+
 github_organizations = ["https://github.com/MugglePay"]
+
+# Repositories
 [[repo]]
 url = "https://github.com/MugglePay/0x-monorepo"
 
@@ -30,6 +35,7 @@ url = "https://github.com/MugglePay/icp-pay"
 
 [[repo]]
 url = "https://github.com/mugglepay/icp-payment-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/MugglePay/muggle-secure-docs"
@@ -112,4 +118,3 @@ url = "https://github.com/MugglePay/REST-Node.js-demo"
 
 [[repo]]
 url = "https://github.com/MugglePay/v2board"
-

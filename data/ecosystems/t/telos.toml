@@ -1,3 +1,4 @@
+# Ecosystem Level Information
 title = "Telos"
 
 sub_ecosystems = [
@@ -9,8 +10,13 @@ sub_ecosystems = [
   "Zappy Finance",
 ]
 
-github_organizations = ["https://github.com/Telos-Foundation", "https://github.com/telosnetwork", "https://github.com/VeriFund"]
+github_organizations = [
+  "https://github.com/Telos-Foundation",
+  "https://github.com/telosnetwork",
+  "https://github.com/VeriFund",
+]
 
+# Repositories
 [[repo]]
 url = "https://github.com/chulahn/ShareTree"
 
@@ -28,12 +34,16 @@ url = "https://github.com/eswarsaladi/crypto-insurance"
 
 [[repo]]
 url = "https://github.com/golfcm6/sso-crypto-management"
+missing = true
 
 [[repo]]
 url = "https://github.com/hautcacoa/lEarn"
 
 [[repo]]
-url = "https://github.com/mk314k/hackBoston"
+url = "https://github.com/hw03hw03/OneWorld"
+
+[[repo]]
+url = "https://github.com/mk314k/medicQueue"
 
 [[repo]]
 url = "https://github.com/omkarubale/hack_boston_frens_team"
@@ -552,6 +562,3 @@ url = "https://github.com/telosnetwork/WTLOS"
 
 [[repo]]
 url = "https://github.com/telosnetwork/yield-server"
-
-[[repo]]
-url = "https://www.github.com/hw03hw03/OneWorld"

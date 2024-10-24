@@ -155,6 +155,7 @@ sub_ecosystems = [
   "Landslide Network",
   "LayerZero",
   "ldclabs",
+  "LFJ",
   "Liminal Market",
   "Liquality",
   "Ludex Labs",
@@ -274,7 +275,6 @@ sub_ecosystems = [
   "Tokensfarm",
   "TokenSoft",
   "Tornado Cash",
-  "Trader Joe",
   "Transit Finance",
   "True Reflect Token",
   "TrueUSD",
@@ -513,6 +513,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/0xStrobe/ante-community-tests"
+
+[[repo]]
+url = "https://github.com/0xSunman/yield-framing-avalanche"
 
 [[repo]]
 url = "https://github.com/0xTaiga/DefiLlama-Adapters"
@@ -1120,6 +1123,9 @@ url = "https://github.com/ampleforth/token-geyser-v2"
 url = "https://github.com/amun/set-v2-strategies-deployments"
 
 [[repo]]
+url = "https://github.com/Analog-Labs/avalanche-cli-analog"
+
+[[repo]]
 url = "https://github.com/AnandK-2024/AVA-precompile"
 
 [[repo]]
@@ -1239,10 +1245,19 @@ url = "https://github.com/AnomalyFi/builder"
 missing = true
 
 [[repo]]
+url = "https://github.com/AnomalyFi/cdk-erigon"
+
+[[repo]]
 url = "https://github.com/AnomalyFi/celestia-app"
 
 [[repo]]
+url = "https://github.com/AnomalyFi/celestia-da"
+
+[[repo]]
 url = "https://github.com/AnomalyFi/celestia-node"
+
+[[repo]]
+url = "https://github.com/AnomalyFi/centralized-sequencer"
 
 [[repo]]
 url = "https://github.com/AnomalyFi/coreth"
@@ -1266,16 +1281,25 @@ url = "https://github.com/AnomalyFi/ethereum-export-pipeline"
 url = "https://github.com/AnomalyFi/ethereum-package"
 
 [[repo]]
+url = "https://github.com/AnomalyFi/ethers-provider-flashbots-bundle"
+
+[[repo]]
 url = "https://github.com/AnomalyFi/flashbotsrpc"
 
 [[repo]]
 url = "https://github.com/AnomalyFi/go-ethereum"
 
 [[repo]]
+url = "https://github.com/AnomalyFi/go-sequencing"
+
+[[repo]]
 url = "https://github.com/AnomalyFi/hyperlane-warp-ui-template"
 
 [[repo]]
 url = "https://github.com/AnomalyFi/hypersdk"
+
+[[repo]]
+url = "https://github.com/AnomalyFi/kurtosis-cdk"
 
 [[repo]]
 url = "https://github.com/AnomalyFi/metro"
@@ -1339,6 +1363,9 @@ url = "https://github.com/AnomalyFi/sp1-blobstream"
 url = "https://github.com/AnomalyFi/sp1-recursion-gnark"
 
 [[repo]]
+url = "https://github.com/AnomalyFi/sp1-vector"
+
+[[repo]]
 url = "https://github.com/AnomalyFi/spark-clickhouse-connector"
 
 [[repo]]
@@ -1346,6 +1373,12 @@ url = "https://github.com/AnomalyFi/succinctx"
 
 [[repo]]
 url = "https://github.com/AnomalyFi/tendermintx"
+
+[[repo]]
+url = "https://github.com/AnomalyFi/tools"
+
+[[repo]]
+url = "https://github.com/AnomalyFi/Tutorials"
 
 [[repo]]
 url = "https://github.com/AnomalyFi/vectorx"
@@ -1705,6 +1738,9 @@ url = "https://github.com/ava-labs/ava-sim"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/ava-labs/avacloud-sdk-typescript"
+
+[[repo]]
 url = "https://github.com/ava-labs/avalanche-academy"
 
 [[repo]]
@@ -1914,6 +1950,9 @@ url = "https://github.com/ava-labs/btcb-por-workshop"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/ava-labs/builderkit"
+
+[[repo]]
 url = "https://github.com/ava-labs/cargo-workspace-version"
 tags = ["Protocol"]
 
@@ -1932,6 +1971,12 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/ava-labs/chainsafe-scripts"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/ava-labs/core-extension"
+
+[[repo]]
+url = "https://github.com/ava-labs/core-mobile"
 
 [[repo]]
 url = "https://github.com/ava-labs/coreth"
@@ -1969,6 +2014,9 @@ tags = ["Protocol"]
 missing = true
 
 [[repo]]
+url = "https://github.com/ava-labs/etna-devnet-resources"
+
+[[repo]]
 url = "https://github.com/ava-labs/event-importer-poc"
 
 [[repo]]
@@ -1991,6 +2039,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/ava-labs/foundry"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/ava-labs/glacier-starter-kit"
 
 [[repo]]
 url = "https://github.com/ava-labs/glitch-hackathon-test"
@@ -2027,6 +2078,15 @@ url = "https://github.com/ava-labs/hypersdk"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/ava-labs/hypersdk-explorer"
+
+[[repo]]
+url = "https://github.com/ava-labs/hypersdk-starter"
+
+[[repo]]
+url = "https://github.com/ava-labs/hypersdk-starter-kit"
+
+[[repo]]
 url = "https://github.com/ava-labs/indexvm"
 tags = ["Protocol"]
 
@@ -2049,6 +2109,15 @@ missing = true
 [[repo]]
 url = "https://github.com/ava-labs/ledger-avalanche"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/ava-labs/ledger-avalanche-go"
+
+[[repo]]
+url = "https://github.com/ava-labs/ledger-avalanche-js"
+
+[[repo]]
+url = "https://github.com/ava-labs/libevm"
 
 [[repo]]
 url = "https://github.com/ava-labs/linux-sgx"
@@ -2129,6 +2198,9 @@ url = "https://github.com/ava-labs/react-native-flipper-performance-monitor"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/ava-labs/react-native-webview"
+
+[[repo]]
 url = "https://github.com/ava-labs/salticidae"
 tags = ["Protocol"]
 missing = true
@@ -2193,6 +2265,9 @@ tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/ava-labs/subnet-vrf-contracts"
+
+[[repo]]
+url = "https://github.com/ava-labs/telegram-webapp-avalanche"
 
 [[repo]]
 url = "https://github.com/ava-labs/teleporter"
@@ -2607,6 +2682,9 @@ url = "https://github.com/BhargavvarmaP/Solidity-Exercises"
 url = "https://github.com/BhargavvarmaP/Solidity-Projects"
 
 [[repo]]
+url = "https://github.com/BhartiyaYeti/FrostiYeti-V2"
+
+[[repo]]
 url = "https://github.com/bianyuanop/oraclevm"
 
 [[repo]]
@@ -2662,6 +2740,9 @@ url = "https://github.com/bk376/Avalanche-basic"
 
 [[repo]]
 url = "https://github.com/bk376/numis-core"
+
+[[repo]]
+url = "https://github.com/blackhan-software/avalanche-cli"
 
 [[repo]]
 url = "https://github.com/blackhan-software/xpower-hh"
@@ -3214,6 +3295,9 @@ url = "https://github.com/chan-thoeun/plus_skill_api"
 
 [[repo]]
 url = "https://github.com/chandn0/awesome-web3"
+
+[[repo]]
+url = "https://github.com/CharityConn/CharityConnect"
 
 [[repo]]
 url = "https://github.com/charlie-ava/avalanchego"
@@ -3827,6 +3911,9 @@ url = "https://github.com/dannpr/avax-moralis-hack"
 missing = true
 
 [[repo]]
+url = "https://github.com/Danny944/metacrafters-avalanche-hyperSDK"
+
+[[repo]]
 url = "https://github.com/daocore/layerzero-tutorial"
 missing = true
 
@@ -4085,6 +4172,9 @@ url = "https://github.com/deusfinance/deus-zapper"
 missing = true
 
 [[repo]]
+url = "https://github.com/dev-ayomide/metacrafters-avalanche-hypersdk"
+
+[[repo]]
 url = "https://github.com/Dev-Hoax/NFT-CARD-GAME"
 
 [[repo]]
@@ -4333,6 +4423,9 @@ url = "https://github.com/DOSLabs/joe-tokenlists"
 url = "https://github.com/DOSLabs/Smart-Contracts"
 
 [[repo]]
+url = "https://github.com/DOSLabs/viem"
+
+[[repo]]
 url = "https://github.com/Dote-x-e/avalanche-project"
 
 [[repo]]
@@ -4437,6 +4530,9 @@ url = "https://github.com/dzimiks/awesome-web3"
 
 [[repo]]
 url = "https://github.com/EAMDAO/cropium-frontend"
+
+[[repo]]
+url = "https://github.com/EasyA-Tech/avalanche-handbook"
 
 [[repo]]
 url = "https://github.com/EasyCarbon/FiatLux"
@@ -4797,6 +4893,9 @@ url = "https://github.com/factor-finance/xusd-dapp"
 url = "https://github.com/faddat/LandslideCore"
 
 [[repo]]
+url = "https://github.com/fadexadex/metacrafters-avalanche-hyperSDK"
+
+[[repo]]
 url = "https://github.com/fairhive-labs/timestampvm"
 
 [[repo]]
@@ -4950,6 +5049,9 @@ url = "https://github.com/flare-foundation/fasset-closed-beta"
 url = "https://github.com/flare-foundation/fast-updates"
 
 [[repo]]
+url = "https://github.com/flare-foundation/fdc-client"
+
+[[repo]]
 url = "https://github.com/flare-foundation/flare-demo-examples"
 
 [[repo]]
@@ -4995,6 +5097,9 @@ url = "https://github.com/flare-foundation/flare-tx-verifier-lib"
 url = "https://github.com/flare-foundation/flarejs"
 
 [[repo]]
+url = "https://github.com/flare-foundation/fsp-rewards"
+
+[[repo]]
 url = "https://github.com/flare-foundation/FTSO-price-provider"
 
 [[repo]]
@@ -5008,6 +5113,9 @@ url = "https://github.com/flare-foundation/ftso-v2-provider-deployment"
 
 [[repo]]
 url = "https://github.com/flare-foundation/go-flare"
+
+[[repo]]
+url = "https://github.com/flare-foundation/go-flare-common"
 
 [[repo]]
 url = "https://github.com/flare-foundation/go-songbird"
@@ -5030,6 +5138,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/flare-foundation/rnat-distribution-tool"
+
+[[repo]]
+url = "https://github.com/flare-foundation/signing-tool"
 
 [[repo]]
 url = "https://github.com/flare-foundation/songbird-state-connector-protocol"
@@ -6274,6 +6385,9 @@ url = "https://github.com/jaimi-io/clobvm"
 url = "https://github.com/jaimi-io/hypersdk"
 
 [[repo]]
+url = "https://github.com/james-cordova-ray/yield-framing-avalanche"
+
+[[repo]]
 url = "https://github.com/jamesbroo/tsyy-sdk-avax"
 
 [[repo]]
@@ -7080,6 +7194,9 @@ url = "https://github.com/layerswap/examples"
 missing = true
 
 [[repo]]
+url = "https://github.com/layerswap/layerswap-atomic-bridge"
+
+[[repo]]
 url = "https://github.com/layerswap/layerswap-example-v1"
 
 [[repo]]
@@ -7396,6 +7513,9 @@ url = "https://github.com/luxdefi/netrunner"
 
 [[repo]]
 url = "https://github.com/luxdefi/node"
+
+[[repo]]
+url = "https://github.com/luxfi/standard"
 
 [[repo]]
 url = "https://github.com/lxex/godfinance"
@@ -10218,6 +10338,9 @@ missing = true
 url = "https://github.com/smashcash/AVAX"
 
 [[repo]]
+url = "https://github.com/SnickerdoodleLabs/protocol"
+
+[[repo]]
 url = "https://github.com/SnickerdoodleLabs/Test-Rewards"
 
 [[repo]]
@@ -11694,7 +11817,19 @@ url = "https://github.com/XY-Finance/DefiLlama-Adapters"
 url = "https://github.com/XY-Finance/defillama-app"
 
 [[repo]]
+url = "https://github.com/XY-Finance/defillama-server"
+
+[[repo]]
+url = "https://github.com/XY-Finance/dimension-adapters"
+
+[[repo]]
 url = "https://github.com/XY-Finance/examples"
+
+[[repo]]
+url = "https://github.com/XY-Finance/go-ethereum"
+
+[[repo]]
+url = "https://github.com/XY-Finance/go-ethereum-hdwallet"
 
 [[repo]]
 url = "https://github.com/XY-Finance/l2-lxp-liquidity-reward"

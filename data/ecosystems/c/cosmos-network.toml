@@ -2,6 +2,7 @@
 title = "Cosmos Network"
 
 sub_ecosystems = [
+  "Abstract Money",
   "Affondra",
   "Agoric",
   "Akash Network",
@@ -48,9 +49,10 @@ sub_ecosystems = [
   "Dfinance",
   "Diamond DEX",
   "ditherchat",
+  "Dora Factory",
   "Dropil",
   "dYdX",
-  "dymensionxyz",
+  "Dymension",
   "E-Money",
   "Elesto",
   "Emeris",
@@ -58,7 +60,7 @@ sub_ecosystems = [
   "Entangle Protocol",
   "EVMOS",
   "Fairblock Network",
-  "Fetch",
+  "Fetch.ai",
   "FOAM",
   "Forbole",
   "Forward Protocol",
@@ -140,6 +142,8 @@ sub_ecosystems = [
   "Stargaze",
   "Starname",
   "Stride Labs",
+  "Structs",
+  "Surge",
   "Teritori",
   "Terra",
   "Terra Classic",
@@ -155,6 +159,8 @@ sub_ecosystems = [
   "White Whale",
   "Xar Network",
   "xfund",
+  "Xian Network",
+  "Xion",
   "zenchain",
   "Zigbee",
   "ZKValidator",
@@ -177,6 +183,7 @@ github_organizations = [
   "https://github.com/CypherD-IO",
   "https://github.com/DA0-DA0",
   "https://github.com/datachainlab",
+  "https://github.com/DoraFactory",
   "https://github.com/Fairblock",
   "https://github.com/hjcore",
   "https://github.com/imversed",
@@ -908,6 +915,9 @@ url = "https://github.com/ahmetson/rng"
 url = "https://github.com/Aidantaylorlynch/cosmwasm-playground"
 
 [[repo]]
+url = "https://github.com/airchains-network/cosmos-sdk"
+
+[[repo]]
 url = "https://github.com/Airstack-xyz/messari-subgraphs"
 
 [[repo]]
@@ -979,6 +989,9 @@ url = "https://github.com/albttx/dao-contracts"
 
 [[repo]]
 url = "https://github.com/albttx/ignite-cli"
+
+[[repo]]
+url = "https://github.com/Aldebaranode/cosmos-explorer"
 
 [[repo]]
 url = "https://github.com/alebaffa/cosm-wasm-academy"
@@ -1300,6 +1313,9 @@ url = "https://github.com/allinbits/govgen-governance-dapp"
 url = "https://github.com/allinbits/goz-tips"
 
 [[repo]]
+url = "https://github.com/allinbits/grants"
+
+[[repo]]
 url = "https://github.com/allinbits/gravity-dex-stats"
 
 [[repo]]
@@ -1324,6 +1340,9 @@ url = "https://github.com/allinbits/iovns"
 url = "https://github.com/allinbits/modules"
 
 [[repo]]
+url = "https://github.com/allinbits/ping-pub-explorer"
+
+[[repo]]
 url = "https://github.com/allinbits/runsim-operator"
 
 [[repo]]
@@ -1335,6 +1354,9 @@ url = "https://github.com/allinbits/testnets"
 [[repo]]
 url = "https://github.com/allinbits/Tether"
 missing = true
+
+[[repo]]
+url = "https://github.com/allinbits/wallet-security-lists"
 
 [[repo]]
 url = "https://github.com/allinbits/wallet-utils"
@@ -3244,6 +3266,9 @@ url = "https://github.com/celestiaorg/.github"
 url = "https://github.com/celestiaorg/academy"
 
 [[repo]]
+url = "https://github.com/celestiaorg/apollo"
+
+[[repo]]
 url = "https://github.com/celestiaorg/arbitrum"
 
 [[repo]]
@@ -3357,6 +3382,9 @@ url = "https://github.com/celestiaorg/CIPs"
 
 [[repo]]
 url = "https://github.com/celestiaorg/community-calls"
+
+[[repo]]
+url = "https://github.com/celestiaorg/congest"
 
 [[repo]]
 url = "https://github.com/celestiaorg/cosmfaucet"
@@ -3796,6 +3824,9 @@ url = "https://github.com/chainapsis/gaia-indexer"
 url = "https://github.com/chainapsis/GameOfZones"
 
 [[repo]]
+url = "https://github.com/chainapsis/get-starknet"
+
+[[repo]]
 url = "https://github.com/chainapsis/ics"
 
 [[repo]]
@@ -3837,6 +3868,9 @@ url = "https://github.com/chainapsis/live-coding"
 
 [[repo]]
 url = "https://github.com/chainapsis/live-coding-backend"
+
+[[repo]]
+url = "https://github.com/chainapsis/live-coding-frontend"
 
 [[repo]]
 url = "https://github.com/chainapsis/live-coding2"
@@ -4063,6 +4097,9 @@ url = "https://github.com/cheqd/cosmjs"
 url = "https://github.com/cheqd/cosmjs-cli-converter"
 
 [[repo]]
+url = "https://github.com/cheqd/cosmos-extension"
+
+[[repo]]
 url = "https://github.com/cheqd/cosmos-sdk"
 
 [[repo]]
@@ -4079,6 +4116,12 @@ missing = true
 [[repo]]
 url = "https://github.com/cheqd/credential-service-portal"
 missing = true
+
+[[repo]]
+url = "https://github.com/cheqd/credo-ts"
+
+[[repo]]
+url = "https://github.com/cheqd/credo-ts-docs"
 
 [[repo]]
 url = "https://github.com/cheqd/data-api"
@@ -4107,6 +4150,12 @@ missing = true
 
 [[repo]]
 url = "https://github.com/cheqd/faucet-ui"
+
+[[repo]]
+url = "https://github.com/cheqd/fee-abstraction"
+
+[[repo]]
+url = "https://github.com/cheqd/feemarket"
 
 [[repo]]
 url = "https://github.com/cheqd/gaia"
@@ -5282,6 +5331,12 @@ url = "https://github.com/cosmos/ibc-go"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/cosmos/ibc-lightclient-avalanche"
+
+[[repo]]
+url = "https://github.com/cosmos/ibc-lightclients"
+
+[[repo]]
 url = "https://github.com/cosmos/ibc-proto-rs"
 tags = ["Protocol"]
 
@@ -5305,6 +5360,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/cosmos/interchain-accounts-demo"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/cosmos/interchain-attestation"
 
 [[repo]]
 url = "https://github.com/cosmos/interchain-security"
@@ -5425,6 +5483,12 @@ url = "https://github.com/cosmos/snap"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/cosmos/solidity-ibc-eureka"
+
+[[repo]]
+url = "https://github.com/cosmos/sp1-ics07-tendermint"
+
+[[repo]]
 url = "https://github.com/cosmos/stargate"
 tags = ["Protocol"]
 
@@ -5507,7 +5571,13 @@ url = "https://github.com/cosmostation/archway-networks"
 url = "https://github.com/cosmostation/assets"
 
 [[repo]]
+url = "https://github.com/cosmostation/atomone-validator-community"
+
+[[repo]]
 url = "https://github.com/cosmostation/atomone-validator-directory"
+
+[[repo]]
+url = "https://github.com/cosmostation/babylon-networks"
 
 [[repo]]
 url = "https://github.com/cosmostation/BEPs"
@@ -5713,6 +5783,9 @@ url = "https://github.com/cosmostation/mintstation-playground"
 
 [[repo]]
 url = "https://github.com/cosmostation/namada"
+
+[[repo]]
+url = "https://github.com/cosmostation/namada-mainnet-genesis"
 
 [[repo]]
 url = "https://github.com/cosmostation/namada-testnets"
@@ -6427,6 +6500,9 @@ url = "https://github.com/cyclops-ui/cyclops"
 url = "https://github.com/CypherD-IO/Contract-Solid-Cyd"
 
 [[repo]]
+url = "https://github.com/CypherD-IO/injective-ts"
+
+[[repo]]
 url = "https://github.com/CypherD-IO/mobile-app"
 
 [[repo]]
@@ -6529,6 +6605,9 @@ url = "https://github.com/DA0-DA0/dao-contracts-experimental"
 missing = true
 
 [[repo]]
+url = "https://github.com/DA0-DA0/dao-dao-indexer"
+
+[[repo]]
 url = "https://github.com/DA0-DA0/dao-dao-ui"
 missing = true
 
@@ -6600,6 +6679,9 @@ url = "https://github.com/DA0-DA0/secret-dao-dao-ui"
 
 [[repo]]
 url = "https://github.com/DA0-DA0/subquery-indexers"
+
+[[repo]]
+url = "https://github.com/DA0-DA0/telegram-notifier-cf-worker"
 
 [[repo]]
 url = "https://github.com/DA0-DA0/websockets-cf-worker"
@@ -6710,6 +6792,9 @@ url = "https://github.com/darkodi/interchange-ibc-tutorial"
 url = "https://github.com/darkodi/nameservice"
 
 [[repo]]
+url = "https://github.com/Darsuu/blog-chain-cosmos"
+
+[[repo]]
 url = "https://github.com/darthlukan/starport-tutorial-blog"
 
 [[repo]]
@@ -6737,10 +6822,16 @@ url = "https://github.com/datachainlab/besu-qbft-elc"
 url = "https://github.com/datachainlab/burrow"
 
 [[repo]]
+url = "https://github.com/datachainlab/cannon-rs"
+
+[[repo]]
 url = "https://github.com/datachainlab/celo-blockchain"
 
 [[repo]]
 url = "https://github.com/datachainlab/celo-light-client"
+
+[[repo]]
+url = "https://github.com/datachainlab/cosmos-bsc-ibc-lcp"
 
 [[repo]]
 url = "https://github.com/datachainlab/cosmos-ethereum-ibc-lcp"
@@ -6821,6 +6912,9 @@ url = "https://github.com/datachainlab/GameOfZones"
 url = "https://github.com/datachainlab/getrandom-sgx"
 
 [[repo]]
+url = "https://github.com/datachainlab/getrandom-sgx-lite"
+
+[[repo]]
 url = "https://github.com/datachainlab/go-ethereum"
 
 [[repo]]
@@ -6857,10 +6951,16 @@ url = "https://github.com/datachainlab/ibc-harmony-client"
 url = "https://github.com/datachainlab/ibc-hd-signer"
 
 [[repo]]
+url = "https://github.com/datachainlab/ibc-mock-app"
+
+[[repo]]
 url = "https://github.com/datachainlab/ibc-mock-client"
 
 [[repo]]
 url = "https://github.com/datachainlab/ibc-multisig-client"
+
+[[repo]]
+url = "https://github.com/datachainlab/ibc-parlia-relay"
 
 [[repo]]
 url = "https://github.com/datachainlab/ibc-proxy"
@@ -6873,6 +6973,9 @@ url = "https://github.com/datachainlab/ibc-proxy-solidity"
 
 [[repo]]
 url = "https://github.com/datachainlab/ibc-quorum-relay"
+
+[[repo]]
+url = "https://github.com/datachainlab/ibc-rs"
 
 [[repo]]
 url = "https://github.com/datachainlab/ibc-trusted-ethereum-client"
@@ -6906,6 +7009,9 @@ url = "https://github.com/datachainlab/lodestar-quickstart"
 
 [[repo]]
 url = "https://github.com/datachainlab/milagro_bls"
+
+[[repo]]
+url = "https://github.com/datachainlab/optimism"
 
 [[repo]]
 url = "https://github.com/datachainlab/parlia-elc"
@@ -7590,6 +7696,9 @@ url = "https://github.com/dream-academy/cosmwasm-simulate"
 url = "https://github.com/dreamer-zq/election"
 
 [[repo]]
+url = "https://github.com/dreamjet31/movie-cosmos-test"
+
+[[repo]]
 url = "https://github.com/dreamrs-io/dreamrs-entity"
 missing = true
 
@@ -8003,6 +8112,9 @@ url = "https://github.com/eqoty-labs/snip721-reference-impl"
 url = "https://github.com/EquilibriumEtf/AbstractOsIbcEtfBalancer"
 
 [[repo]]
+url = "https://github.com/EquilibriumEtf/balancer-module"
+
+[[repo]]
 url = "https://github.com/EquilibriumEtf/cw-ibc-osmo-client"
 
 [[repo]]
@@ -8371,16 +8483,31 @@ url = "https://github.com/fadi12321/test-for-deep-10"
 url = "https://github.com/fadi12321/test-for-deep-7"
 
 [[repo]]
+url = "https://github.com/Fairblock/ArbitrumContracts"
+
+[[repo]]
 url = "https://github.com/Fairblock/assets"
 
 [[repo]]
 url = "https://github.com/Fairblock/bdjuno"
 
 [[repo]]
+url = "https://github.com/Fairblock/beacon-kit"
+
+[[repo]]
+url = "https://github.com/Fairblock/cdk-erigon"
+
+[[repo]]
+url = "https://github.com/Fairblock/cometbft"
+
+[[repo]]
 url = "https://github.com/Fairblock/cosmos-rust"
 
 [[repo]]
 url = "https://github.com/Fairblock/cosmos-sdk"
+
+[[repo]]
+url = "https://github.com/Fairblock/cosmossdk-api"
 
 [[repo]]
 url = "https://github.com/Fairblock/DistributedIBE"
@@ -8395,7 +8522,16 @@ url = "https://github.com/Fairblock/dkg-core"
 url = "https://github.com/Fairblock/dkg-protocol-testing"
 
 [[repo]]
+url = "https://github.com/Fairblock/eigenda-nitro-precompile-contracts"
+
+[[repo]]
+url = "https://github.com/Fairblock/eigenda-orbit-precompile-setup-script"
+
+[[repo]]
 url = "https://github.com/Fairblock/encrypter"
+
+[[repo]]
+url = "https://github.com/Fairblock/fairblock-rust"
 
 [[repo]]
 url = "https://github.com/Fairblock/Fairblock.github.io"
@@ -8425,7 +8561,22 @@ url = "https://github.com/Fairblock/keplr-chain-registry"
 url = "https://github.com/Fairblock/lazychain"
 
 [[repo]]
+url = "https://github.com/Fairblock/local_stylus"
+
+[[repo]]
+url = "https://github.com/Fairblock/nitro-eigenda-precompile"
+
+[[repo]]
+url = "https://github.com/Fairblock/omni"
+
+[[repo]]
 url = "https://github.com/Fairblock/pob"
+
+[[repo]]
+url = "https://github.com/Fairblock/reth-exex-examples"
+
+[[repo]]
+url = "https://github.com/Fairblock/scepEncrypter"
 
 [[repo]]
 url = "https://github.com/Fairblock/sealed-bid-auction"
@@ -8437,10 +8588,16 @@ url = "https://github.com/Fairblock/ShareGenerationClient"
 url = "https://github.com/Fairblock/ShareGenerator"
 
 [[repo]]
+url = "https://github.com/Fairblock/stylus"
+
+[[repo]]
 url = "https://github.com/Fairblock/tofn"
 
 [[repo]]
 url = "https://github.com/Fairblock/tofnd"
+
+[[repo]]
+url = "https://github.com/Fairblock/tower-abci"
 
 [[repo]]
 url = "https://github.com/Fairblock/uniswap-interface"
@@ -9258,6 +9415,9 @@ url = "https://github.com/GNaD13/pylons"
 url = "https://github.com/gnolang/gno"
 
 [[repo]]
+url = "https://github.com/goasys/cosmos-auction"
+
+[[repo]]
 url = "https://github.com/goatlabstr/barn"
 
 [[repo]]
@@ -9305,6 +9465,9 @@ url = "https://github.com/GopherJ/cosmos-ibc-example"
 
 [[repo]]
 url = "https://github.com/GopherSecurity/nym"
+
+[[repo]]
+url = "https://github.com/GoPlugin/plugin-cosmos"
 
 [[repo]]
 url = "https://github.com/GoPlugin/pluginV2Lib"
@@ -9495,6 +9658,9 @@ url = "https://github.com/HANZONJAY/crypto.org"
 
 [[repo]]
 url = "https://github.com/hap-advisors/ethermint"
+
+[[repo]]
+url = "https://github.com/hapetherw/cosmos-checker"
 
 [[repo]]
 url = "https://github.com/happie-chappie/terra-test"
@@ -10225,6 +10391,9 @@ missing = true
 url = "https://github.com/IHIHIKI/assets"
 
 [[repo]]
+url = "https://github.com/IIIyJIeP/cosmos-farms"
+
+[[repo]]
 url = "https://github.com/ildarmgt/lowtechbrowserscriptsfortests"
 missing = true
 
@@ -10659,6 +10828,9 @@ url = "https://github.com/itastakers/quickstake"
 
 [[repo]]
 url = "https://github.com/ithunter0428/solidity2terrachian_rust"
+
+[[repo]]
+url = "https://github.com/itsdevbear/cosmos-sdk-benchmark-fork"
 
 [[repo]]
 url = "https://github.com/ivanovpetr/hello"
@@ -13934,6 +14106,9 @@ url = "https://github.com/newdaojones/storefront"
 url = "https://github.com/Newhorizon1989/test4"
 
 [[repo]]
+url = "https://github.com/nexqloud/cosmos-sdk"
+
+[[repo]]
 url = "https://github.com/next-web-technology/cosmos-node-monitor"
 
 [[repo]]
@@ -14318,6 +14493,9 @@ url = "https://github.com/nodejumper-org/side-testnet"
 
 [[repo]]
 url = "https://github.com/nodejumper-org/slips"
+
+[[repo]]
+url = "https://github.com/nodejumper-org/soarchain-mainnet-rehearsal"
 
 [[repo]]
 url = "https://github.com/nodejumper-org/sputnik-school-testnet"
@@ -15087,6 +15265,9 @@ url = "https://github.com/pegasuszone/trade"
 url = "https://github.com/PeggyJV/aave-v2-cellar"
 
 [[repo]]
+url = "https://github.com/PeggyJV/axelar-gmp"
+
+[[repo]]
 url = "https://github.com/PeggyJV/balancer-frontend-v2"
 
 [[repo]]
@@ -15504,6 +15685,9 @@ url = "https://github.com/platocrypto/cosmwasm101"
 [[repo]]
 url = "https://github.com/playerfury/fury"
 missing = true
+
+[[repo]]
+url = "https://github.com/playstructs/structsd"
 
 [[repo]]
 url = "https://github.com/Plex-Engineer/ethermint"
@@ -16490,6 +16674,9 @@ url = "https://github.com/RohanKapurDEV/defillama-server"
 url = "https://github.com/rohitroyrr8/cosmos-ibc-relayer"
 
 [[repo]]
+url = "https://github.com/rollchains/cosmos-evm"
+
+[[repo]]
 url = "https://github.com/rollkit/rollkit"
 
 [[repo]]
@@ -16534,6 +16721,9 @@ url = "https://github.com/Rotemy/vfat-tools"
 
 [[repo]]
 url = "https://github.com/rotte0/solid-telegram"
+
+[[repo]]
+url = "https://github.com/RoturaProtocol/cosmos-sdk"
 
 [[repo]]
 url = "https://github.com/router-protocol/router-chain-ts-sdk"
@@ -17808,6 +17998,9 @@ url = "https://github.com/steak-enjoyers/steak"
 [[repo]]
 url = "https://github.com/steak-enjoyers/steak-webapp"
 missing = true
+
+[[repo]]
+url = "https://github.com/steel-feel/cosmos-sdk"
 
 [[repo]]
 url = "https://github.com/stellantilet/stablecoin-cosmasm"
@@ -19839,6 +20032,9 @@ url = "https://github.com/unification-com/mainchain"
 url = "https://github.com/unification-com/wrkoracle"
 
 [[repo]]
+url = "https://github.com/unionlabs/union"
+
+[[repo]]
 url = "https://github.com/UnityXnity/DefiLlama-Adapters"
 missing = true
 
@@ -20726,6 +20922,9 @@ url = "https://github.com/xtbl/cosmwasm-tx-counter"
 
 [[repo]]
 url = "https://github.com/xtelabs/xtechain"
+
+[[repo]]
+url = "https://github.com/XuNeal/cosmos-authz-dapp"
 
 [[repo]]
 url = "https://github.com/xx-labs/scripts"

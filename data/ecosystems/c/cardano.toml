@@ -10,7 +10,7 @@ sub_ecosystems = [
   "Balance Analytics",
   "Berry",
   "Blockfrost",
-  "Celer Network cBridge",
+  "Coinsquare",
   "Ergo Labs",
   "Genius Yield",
   "Indigo Protocol",
@@ -20,9 +20,7 @@ sub_ecosystems = [
   "MeshJS",
   "Minswap",
   "MLabs",
-  "Orion Protocol",
   "Ouroboros",
-  "PixFi",
   "Plutonomicon",
   "PoolTool",
   "Ray Network",
@@ -32,7 +30,9 @@ sub_ecosystems = [
   "SpaceBudz",
   "Spectrum Finance",
   "Spectrum Labs",
+  "Splash Protocol",
   "SundaeSwap",
+  "Tanglius",
   "Teddy Swap",
   "TxPipe",
   "WingRiders",
@@ -44,7 +44,6 @@ github_organizations = [
   "https://github.com/aadafinance",
   "https://github.com/aiken-lang",
   "https://github.com/armada-alliance",
-  "https://github.com/Berry-Pool",
   "https://github.com/berry-pool",
   "https://github.com/blinklabs-io",
   "https://github.com/bloxbean",
@@ -351,6 +350,7 @@ url = "https://github.com/aiken-lang/zed-aiken"
 
 [[repo]]
 url = "https://github.com/aiken-lang/zed-extensions"
+missing = true
 
 [[repo]]
 url = "https://github.com/aimachieve/eric-cardano-minting-smartcontract"
@@ -673,6 +673,7 @@ url = "https://github.com/bereketgodebo/surehive-assessment"
 
 [[repo]]
 url = "https://github.com/berlinpool/cnft-utxo"
+missing = true
 
 [[repo]]
 url = "https://github.com/bernielxy/cardano-sl-alpine"
@@ -2204,9 +2205,11 @@ url = "https://github.com/Emurgo/yoroi-graphql-migration-backend"
 
 [[repo]]
 url = "https://github.com/EmurgoFaculty/CardanoSolutionsArchitech"
+missing = true
 
 [[repo]]
 url = "https://github.com/EmurgoFaculty/Dapp360"
+missing = true
 
 [[repo]]
 url = "https://github.com/encryptedcoins/cardano-server"
@@ -5566,6 +5569,7 @@ url = "https://github.com/IntersectMBO/govtool-delegation-pillar"
 
 [[repo]]
 url = "https://github.com/IntersectMBO/govtool-documentation"
+missing = true
 
 [[repo]]
 url = "https://github.com/IntersectMBO/govtool-proposal-discussion"
@@ -6488,6 +6492,7 @@ url = "https://github.com/nemanjamil/blokaria-transactions"
 
 [[repo]]
 url = "https://github.com/nemsekularac/cardano-node"
+missing = true
 
 [[repo]]
 url = "https://github.com/neuodev/cardano-js-sdk"
@@ -6856,6 +6861,7 @@ url = "https://github.com/Plutonomicon/Shrinker"
 
 [[repo]]
 url = "https://github.com/pondev1031/cardano-staking"
+missing = true
 
 [[repo]]
 url = "https://github.com/PoolTool-io/CardanoStakeholderAuthenticator"
@@ -7668,6 +7674,7 @@ url = "https://github.com/SundaeSwap-finance/sundae-specs"
 
 [[repo]]
 url = "https://github.com/SundaeSwap-finance/sundae-yield-v2"
+missing = true
 
 [[repo]]
 url = "https://github.com/SundaeSwap-finance/toolkit-for-cardano"
@@ -7687,6 +7694,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/SuperStar91031/cardano-staking"
+missing = true
 
 [[repo]]
 url = "https://github.com/Synthetica9/cardano-transaction-lib"
@@ -8497,6 +8505,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Vortecsmaster/Batch56"
+missing = true
 
 [[repo]]
 url = "https://github.com/Vortecsmaster/Batch60"
@@ -8508,6 +8517,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Vortecsmaster/Batch65"
+missing = true
 
 [[repo]]
 url = "https://github.com/Vortecsmaster/Batch80"

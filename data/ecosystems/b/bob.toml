@@ -1,7 +1,15 @@
 # Ecosystem Level Information
 title = "BOB"
 
-sub_ecosystems = []
+sub_ecosystems = [
+  "Bedrock Technology",
+  "Ionic Protocol",
+  "LayerBank",
+  "Pell Network",
+  "SovrynBTC",
+  "Tellor",
+  "Velodrome",
+]
 
 github_organizations = ["https://github.com/bob-collective"]
 
@@ -102,6 +110,7 @@ url = "https://github.com/bob-collective/StarterKit"
 
 [[repo]]
 url = "https://github.com/bob-collective/ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/ionicprotocol/monorepo"

@@ -1,16 +1,7 @@
 # Ecosystem Level Information
 title = "Wormhole"
 
-sub_ecosystems = [
-  "Allbridge",
-  "C3 Exchange",
-  "Hashflow",
-  "Jupiter Exchange",
-  "Magpie",
-  "Mayan Finance",
-  "Portal (bridge)",
-  "Pyth Network",
-]
+sub_ecosystems = ["C3 Exchange", "Hashflow", "Jupiter Exchange", "Magpie", "Mayan Finance"]
 
 github_organizations = [
   "https://github.com/wormhole-foundation",
@@ -53,6 +44,9 @@ url = "https://github.com/wormhole-foundation/curve25519-dalek"
 url = "https://github.com/wormhole-foundation/cw20-legacy"
 
 [[repo]]
+url = "https://github.com/wormhole-foundation/demo-cctp-transfer"
+
+[[repo]]
 url = "https://github.com/wormhole-foundation/demo-cross-chain-token-transfer"
 
 [[repo]]
@@ -90,6 +84,9 @@ url = "https://github.com/wormhole-foundation/example-cross-chain-borrow-lend"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/example-cross-chain-deposits"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/example-grant-program"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/example-liquidity-layer"
@@ -159,6 +156,9 @@ url = "https://github.com/wormhole-foundation/metaplex-program-library"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/plonky2-near"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/pyth-merkle-maker"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/relayer-engine"
@@ -339,24 +339,29 @@ url = "https://github.com/wormholelabs-xyz/wormholelabs.xyz"
 
 [[repo]]
 url = "https://github.com/XLabs/app-status"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/arbitrary-token-transfers"
 
 [[repo]]
 url = "https://github.com/XLabs/cctp-relayer"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/connect-esm-example"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/example-token-bridge-relayer"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/example-wormhole-axelar-wsteth"
 
 [[repo]]
 url = "https://github.com/XLabs/fiber-redis-storage"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/kamaji"
@@ -375,15 +380,18 @@ url = "https://github.com/XLabs/relayer-engine"
 
 [[repo]]
 url = "https://github.com/XLabs/relayer-price-feed"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/relayer-smart-contract-challenge"
 
 [[repo]]
 url = "https://github.com/XLabs/relayer-status-api"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/sei-relayer"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/snaxchain-config"
@@ -399,12 +407,15 @@ url = "https://github.com/XLabs/TypeChain"
 
 [[repo]]
 url = "https://github.com/XLabs/usdc-bridge"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/usdc-bridge-prod"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/vaa-backfiller"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/wallet-aggregator-sdk"
@@ -414,6 +425,7 @@ url = "https://github.com/XLabs/wallet-monitor"
 
 [[repo]]
 url = "https://github.com/XLabs/wallet-monitor-d"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/wormhole"
@@ -430,6 +442,7 @@ url = "https://github.com/XLabs/wormhole-solidity-sdk"
 
 [[repo]]
 url = "https://github.com/XLabs/wormhole-token-list"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/wormholescan-bff"
@@ -437,6 +450,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/wormscan-sdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/wormscan-ui"

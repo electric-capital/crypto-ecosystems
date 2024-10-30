@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Taiko"
 
-sub_ecosystems = ["DipDup"]
+sub_ecosystems = ["Deri Protocol", "DipDup", "KiloExPerp", "Loopring"]
 
 github_organizations = ["https://github.com/taikochain", "https://github.com/taikoxyz"]
 
@@ -292,12 +292,17 @@ url = "https://github.com/taikoxyz/taiko-geth"
 
 [[repo]]
 url = "https://github.com/taikoxyz/taiko-helm-charts"
+missing = true
 
 [[repo]]
 url = "https://github.com/taikoxyz/taiko-mono"
 
 [[repo]]
 url = "https://github.com/taikoxyz/Taiko-Preconf-AVS"
+missing = true
+
+[[repo]]
+url = "https://github.com/taikoxyz/Taiko-Preconf-AVS-copy"
 
 [[repo]]
 url = "https://github.com/taikoxyz/taiko-reth"

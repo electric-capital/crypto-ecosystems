@@ -5,7 +5,6 @@ sub_ecosystems = [
   "Anchor Protocol",
   "Glow Yield",
   "Levana Protocol",
-  "Lido",
   "LoTerra",
   "Mars Protocol",
   "Miaw",
@@ -35,12 +34,14 @@ github_organizations = [
 # Repositories
 [[repo]]
 url = "https://github.com/alecande11/station-qr-generator"
+missing = true
 
 [[repo]]
 url = "https://github.com/ALPAC-4/nft-market-contract"
 
 [[repo]]
 url = "https://github.com/ALPAC-4/terra-nft.js"
+missing = true
 
 [[repo]]
 url = "https://github.com/am-work/terra-homework"

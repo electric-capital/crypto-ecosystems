@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "ZetaChain"
 
-sub_ecosystems = []
+sub_ecosystems = ["Bedrock Technology", "iZUMi.finance"]
 
 github_organizations = ["https://github.com/zeta-chain"]
 
@@ -94,9 +94,11 @@ url = "https://github.com/zeta-chain/ibc-chain"
 
 [[repo]]
 url = "https://github.com/zeta-chain/jk-semgrep-clean"
+missing = true
 
 [[repo]]
 url = "https://github.com/zeta-chain/jk-semgrep-node-private"
+missing = true
 
 [[repo]]
 url = "https://github.com/zeta-chain/keystone"
@@ -112,6 +114,7 @@ url = "https://github.com/zeta-chain/network-config"
 
 [[repo]]
 url = "https://github.com/zeta-chain/network-console"
+missing = true
 
 [[repo]]
 url = "https://github.com/zeta-chain/network-devnet"

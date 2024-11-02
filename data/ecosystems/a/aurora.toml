@@ -2,7 +2,6 @@
 title = "Aurora"
 
 sub_ecosystems = [
-  "1inch",
   "Amaterasu Finance",
   "Anima Protocol",
   "AnyToNFT",
@@ -17,17 +16,10 @@ sub_ecosystems = [
   "BoringDAO",
   "Bounce Token",
   "Cask",
-  "Celer Network cBridge",
-  "Chainge Finance",
   "Coin98",
   "CryptoBlades",
-  "Curve",
   "decent.land",
   "DeFiHelper",
-  "DIA",
-  "DODO",
-  "Enso Finance",
-  "Etherspot",
   "EYWA Protocol",
   "Fileverse",
   "Flair",
@@ -43,39 +35,30 @@ sub_ecosystems = [
   "IndexZoo",
   "InsurAce",
   "InsurAce Protocol",
-  "iZUMi.finance",
   "Kenshi",
   "Kresko",
-  "Kyber Network",
-  "Li.Fi",
   "Mecha Tracker",
   "Meta Pool",
   "Mutant Labs",
   "Necc",
   "NEX Market",
-  "OpenOcean",
   "Orally",
   "OutDID",
   "Pickle Finance",
   "Polaris Finance",
   "PureFi Protocol",
-  "Pyth Network",
   "Radom Network",
   "Rango Exchange",
-  "Redstone Finance",
   "Renaissance Lab DAO",
   "Reveel",
   "Rift Protocol",
   "Rose On Aurora",
-  "Router Protocol",
-  "Safe Ecosystem",
+  "Stargate",
   "Swing",
   "SynFutures",
   "TokenPocket",
   "Trisolaris",
   "wannaswap",
-  "WePiggy",
-  "Wormhole",
   "XDAO",
 ]
 
@@ -302,6 +285,7 @@ url = "https://github.com/aurora-is-near/btc-light-client-contract"
 
 [[repo]]
 url = "https://github.com/aurora-is-near/btc-relayer"
+missing = true
 
 [[repo]]
 url = "https://github.com/aurora-is-near/caching-proxies-cache"
@@ -669,6 +653,7 @@ url = "https://github.com/near/near-discovery"
 
 [[repo]]
 url = "https://github.com/nevermined-io/contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/Nomis-cc/nomis-aurora"

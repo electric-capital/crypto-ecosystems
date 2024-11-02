@@ -1,19 +1,7 @@
 # Ecosystem Level Information
 title = "Rootstock"
 
-sub_ecosystems = [
-  "AirGap",
-  "API3",
-  "Babelfish Protocol",
-  "DistributedCollective",
-  "Etherspot",
-  "Gelato (G-UNI)",
-  "Money on Chain",
-  "NFTs2Me",
-  "RIF Token",
-  "RskSwap",
-  "Umbrella Network",
-]
+sub_ecosystems = ["Money on Chain", "RIF Token", "RskSwap", "SovrynBTC"]
 
 github_organizations = [
   "https://github.com/riflabs",
@@ -28,9 +16,11 @@ url = "https://github.com/BabelFishProtocol/babelfish-dapp"
 
 [[repo]]
 url = "https://github.com/BabelFishProtocol/babelfish-phase-1"
+missing = true
 
 [[repo]]
 url = "https://github.com/blindpaylabs/consensus"
+missing = true
 
 [[repo]]
 url = "https://github.com/bobaphoever/thechainlogin"
@@ -46,10 +36,6 @@ url = "https://github.com/EasyA-Tech/rootstock-handbook"
 
 [[repo]]
 url = "https://github.com/Enjoyweaver/SafeMemeLabs"
-
-[[repo]]
-url = "https://github.com/GianlucaMinoprio/tap2pay-consensus.git"
-missing = true
 
 [[repo]]
 url = "https://github.com/Gloom-Labs/rootstock-caster"
@@ -86,9 +72,6 @@ url = "https://github.com/r0hin/lens"
 
 [[repo]]
 url = "https://github.com/rashadalh/HeatMarket"
-
-[[repo]]
-url = "https://github.com/richardryangarcia/consensus"
 missing = true
 
 [[repo]]
@@ -298,6 +281,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/rsksmart/bitcoin-scaling-hackathon"
+missing = true
 
 [[repo]]
 url = "https://github.com/rsksmart/bitcoin_pegfix"
@@ -1187,10 +1171,6 @@ url = "https://github.com/shadowfaz16/consensus2k24"
 
 [[repo]]
 url = "https://github.com/Swagathon/.github"
-
-[[repo]]
-url = "https://github.com/Thekthekthek/my_health_data_front"
-missing = true
 
 [[repo]]
 url = "https://github.com/yungalgo/rootvania"

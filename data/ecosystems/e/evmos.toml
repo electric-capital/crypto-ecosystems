@@ -1,14 +1,7 @@
 # Ecosystem Level Information
 title = "EVMOS"
 
-sub_ecosystems = [
-  "Arable Protocol",
-  "Celer Network cBridge",
-  "Inevitable (Bento)",
-  "Nomad",
-  "Pyth Network",
-  "Redstone Finance",
-]
+sub_ecosystems = ["Arable Protocol", "Inevitable (Bento)", "Nomad", "Stride Labs"]
 
 github_organizations = ["https://github.com/evmos", "https://github.com/tharsis"]
 
@@ -152,9 +145,11 @@ missing = true
 
 [[repo]]
 url = "https://github.com/diffusion-fi/minichefv2"
+missing = true
 
 [[repo]]
 url = "https://github.com/diffusion-fi/v2-periphery"
+missing = true
 
 [[repo]]
 url = "https://github.com/disperze/evmos-address"
@@ -209,6 +204,7 @@ url = "https://github.com/evmos/altiplansible"
 
 [[repo]]
 url = "https://github.com/evmos/apps"
+missing = true
 
 [[repo]]
 url = "https://github.com/evmos/awesome"

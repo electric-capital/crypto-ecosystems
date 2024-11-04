@@ -13,6 +13,7 @@ sub_ecosystems = [
   "Defis Network",
   "dfuse.io",
   "Edge",
+  "EOS Authority",
   "EOS Knights",
   "EOS Nation",
   "EOS Titan",
@@ -22,13 +23,11 @@ sub_ecosystems = [
   "FeeSimple",
   "Iryo Network",
   "MEET.ONE",
-  "MyWish",
   "pNetwork",
   "Scatter",
   "SuperONE",
   "Telos",
   "TokenPocket",
-  "Transit Finance",
   "UX Network",
   "WAX",
   "Worbli",
@@ -2788,6 +2787,7 @@ url = "https://github.com/wharfkit/wallet-plugin-cloudwallet"
 
 [[repo]]
 url = "https://github.com/wharfkit/wallet-plugin-etheraccount"
+missing = true
 
 [[repo]]
 url = "https://github.com/wharfkit/wallet-plugin-metamask"

@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Neutron"
 
-sub_ecosystems = []
+sub_ecosystems = ["Astroport", "Eclipse Fi", "Mars Protocol"]
 
 github_organizations = ["https://github.com/neutron-org"]
 
@@ -54,6 +54,9 @@ url = "https://github.com/neutron-org/cw-plus_balances-snapshots"
 [[repo]]
 url = "https://github.com/neutron-org/cw-tokens"
 missing = true
+
+[[repo]]
+url = "https://github.com/neutron-org/dca-demo"
 
 [[repo]]
 url = "https://github.com/neutron-org/dex-trading-bot"

@@ -2,7 +2,6 @@
 title = "Kaia"
 
 sub_ecosystems = [
-  "1inch",
   "Belt",
   "Belt Finance",
   "BiFi",
@@ -17,12 +16,14 @@ sub_ecosystems = [
   "DigiOracle",
   "DragonSwap",
   "ELYSIA",
+  "Inevitable (Bento)",
   "KAI Protocol",
   "KLAYBank",
   "KlaySwap",
   "Kokoa Finance",
   "Lair Finance",
   "LayerZero",
+  "Kronos",
   "Neopin",
   "NFTBank",
   "OpenSea",
@@ -32,12 +33,9 @@ sub_ecosystems = [
   "Ozys",
   "Pangea Swap Protocol",
   "Stakely Protocol",
-  "Stargate",
   "SwapScanner",
-  "Witnet",
+  "Wemix",
   "Wombat Exchange",
-  "Wormhole",
-  "XY Finance",
 ]
 
 github_organizations = [
@@ -137,6 +135,18 @@ url = "https://github.com/blockcmd/blockcmd-app"
 url = "https://github.com/blockcmd/dexcmd"
 
 [[repo]]
+url = "https://github.com/blockcmd/drop"
+
+[[repo]]
+url = "https://github.com/blockcmd/inspect"
+
+[[repo]]
+url = "https://github.com/blockcmd/kaia-foundry-template"
+
+[[repo]]
+url = "https://github.com/blockcmd/oklink-ts"
+
+[[repo]]
 url = "https://github.com/buildstationorg/hq-dashboard"
 
 [[repo]]
@@ -144,9 +154,18 @@ url = "https://github.com/bwarelabs/klaytn-indexing"
 
 [[repo]]
 url = "https://github.com/CaviesLabs/hamsterpocket-evm-program"
+missing = true
+
+[[repo]]
+url = "https://github.com/chauanhtuan185/Kaia-Defi-Trading-Bot"
+
+[[repo]]
+url = "https://github.com/chauanhtuan185/Sblinks"
+missing = true
 
 [[repo]]
 url = "https://github.com/credorelabs/sc"
+missing = true
 
 [[repo]]
 url = "https://github.com/Cristo-Dev/EvoLedger"
@@ -161,7 +180,25 @@ url = "https://github.com/doclt/landtorn-on-klaytn"
 url = "https://github.com/Dodecane/klaykit"
 
 [[repo]]
+url = "https://github.com/Emmanueleclipse/Kaia-Scholar"
+
+[[repo]]
 url = "https://github.com/Escrow-Board/klay"
+
+[[repo]]
+url = "https://github.com/ExtraCaterpiller/Petiverse-backend"
+
+[[repo]]
+url = "https://github.com/ExtraCaterpiller/Petiverse-foundry"
+
+[[repo]]
+url = "https://github.com/ExtraCaterpiller/Petiverse-frontend"
+
+[[repo]]
+url = "https://github.com/gammarix/uni-v2-core"
+
+[[repo]]
+url = "https://github.com/gammarix/uni-v2-periphery"
 
 [[repo]]
 url = "https://github.com/Gemstudios/About-MITA"
@@ -177,9 +214,14 @@ url = "https://github.com/Gemstudios/foundation"
 
 [[repo]]
 url = "https://github.com/Gemstudios/LoM-website"
+missing = true
 
 [[repo]]
 url = "https://github.com/Gemstudios/passets"
+missing = true
+
+[[repo]]
+url = "https://github.com/gmgn-app/gmgn"
 
 [[repo]]
 url = "https://github.com/han-um/Blot"
@@ -224,10 +266,6 @@ url = "https://github.com/kaiachain/indexer-example"
 [[repo]]
 url = "https://github.com/kaiachain/kaia"
 tags = ["Protocol"]
-
-[[repo]]
-url = "https://github.com/kaiachain/kaia-contract-wizard"
-missing = true
 
 [[repo]]
 url = "https://github.com/kaiachain/kaia-contracts"
@@ -296,10 +334,6 @@ url = "https://github.com/kaiachain/metaverse-knowledge-kit"
 url = "https://github.com/kaiachain/open-dex-contracts"
 
 [[repo]]
-url = "https://github.com/kaiachain/open-dex-dashboard"
-missing = true
-
-[[repo]]
 url = "https://github.com/kaiachain/open-dex-frontend"
 
 [[repo]]
@@ -318,11 +352,10 @@ url = "https://github.com/kaiachain/tx-latency-measurement"
 url = "https://github.com/kaiachain/zkauth-sdk"
 
 [[repo]]
-url = "https://github.com/kaiachian/kaia-safe-infrastructure"
-missing = true
+url = "https://github.com/kamalbuilds/TradewithKlayNFTs"
 
 [[repo]]
-url = "https://github.com/kamalbuilds/TradewithKlayNFTs"
+url = "https://github.com/KelvinTrinhSG/Impostor-Puzzle-Game-On-Kaia-Chain"
 
 [[repo]]
 url = "https://github.com/KlayOracle/go-ecvrf"
@@ -341,6 +374,7 @@ url = "https://github.com/klaytn/aa-bundler"
 
 [[repo]]
 url = "https://github.com/klaytn/awesome-klaytn"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/klaytn/bridgeregistry"
@@ -377,6 +411,7 @@ url = "https://github.com/klaytn/contract-template"
 
 [[repo]]
 url = "https://github.com/klaytn/count-bapp-android"
+missing = true
 
 [[repo]]
 url = "https://github.com/klaytn/countbapp"
@@ -428,9 +463,11 @@ url = "https://github.com/klaytn/hardhat-utils"
 
 [[repo]]
 url = "https://github.com/klaytn/hardhat-utils-examples"
+missing = true
 
 [[repo]]
 url = "https://github.com/klaytn/helm-charts"
+missing = true
 
 [[repo]]
 url = "https://github.com/klaytn/homebrew-klaytn"
@@ -452,6 +489,7 @@ url = "https://github.com/klaytn/klaystagram"
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn"
+tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-ansible"
@@ -473,6 +511,7 @@ url = "https://github.com/klaytn/klaytn-dapp-bootcamp"
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-dapp-kit"
+missing = true
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-dapp-toolkit"
@@ -554,9 +593,11 @@ url = "https://github.com/klaytn/klaytn-safe-client-gateway"
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-safe-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-safe-infra"
+missing = true
 
 [[repo]]
 url = "https://github.com/klaytn/klaytn-safe-infrastructure"
@@ -590,6 +631,7 @@ url = "https://github.com/klaytn/klaytn-web3modal"
 
 [[repo]]
 url = "https://github.com/klaytn/klaytnjs-devp2p"
+missing = true
 
 [[repo]]
 url = "https://github.com/klaytn/klaytnjs-monorepo"
@@ -611,6 +653,7 @@ url = "https://github.com/klaytn/OpenSDK"
 
 [[repo]]
 url = "https://github.com/klaytn/payer-express"
+missing = true
 
 [[repo]]
 url = "https://github.com/klaytn/project-management"
@@ -623,6 +666,7 @@ url = "https://github.com/klaytn/rosetta-sdk-go-klaytn"
 
 [[repo]]
 url = "https://github.com/klaytn/safe-react"
+missing = true
 
 [[repo]]
 url = "https://github.com/klaytn/servicechain-contracts"
@@ -638,6 +682,7 @@ url = "https://github.com/klaytn/servicechain-value-transfer-examples"
 
 [[repo]]
 url = "https://github.com/klaytn/smart-contract-best-practices-kr"
+missing = true
 
 [[repo]]
 url = "https://github.com/klaytn/treasury-rebalance"
@@ -670,7 +715,19 @@ url = "https://github.com/KlayWithMe/KlayWithMe"
 url = "https://github.com/linkrypto/klaymaker2023_FE"
 
 [[repo]]
+url = "https://github.com/lunanga486/Kaia-Burger-Rush-Game"
+
+[[repo]]
+url = "https://github.com/lyledavids/duckykaia"
+
+[[repo]]
+url = "https://github.com/lyledavids/jobjam"
+
+[[repo]]
 url = "https://github.com/Masxon-Studios/Discord_CBB_Contracts"
+
+[[repo]]
+url = "https://github.com/Masxon-Studios/Discord_CBB_NFT_Minter"
 
 [[repo]]
 url = "https://github.com/Masxon-Studios/simple-klaytn-nft"
@@ -679,10 +736,22 @@ url = "https://github.com/Masxon-Studios/simple-klaytn-nft"
 url = "https://github.com/Masxon-Studios/THEKILN"
 
 [[repo]]
+url = "https://github.com/minminkikiki/safe-lite-wallet-web"
+
+[[repo]]
+url = "https://github.com/minminkikiki/safe-smart-contract-lite"
+
+[[repo]]
 url = "https://github.com/nam2ee/HelixProtocol"
 
 [[repo]]
 url = "https://github.com/NFTime24/KlayMakers23"
+
+[[repo]]
+url = "https://github.com/nhansunshine4/KaiaCert"
+
+[[repo]]
+url = "https://github.com/PaulElisha/CreateJsonStructure"
 
 [[repo]]
 url = "https://github.com/PaulElisha/Kaia-Airdrop-Distribution"
@@ -695,6 +764,9 @@ url = "https://github.com/PaulElisha/Kaia-Oracle-Toolkit"
 
 [[repo]]
 url = "https://github.com/PaulElisha/Kaia-Precompile-Toolkit"
+
+[[repo]]
+url = "https://github.com/PaulElisha/kaiachain-foundry-kit"
 
 [[repo]]
 url = "https://github.com/PaulElisha/oklink-sdk-kaiachain-go"
@@ -721,6 +793,21 @@ url = "https://github.com/preetsinghmakkar/TokenMaker"
 url = "https://github.com/RickYoon/klaylabs_"
 
 [[repo]]
+url = "https://github.com/SaitamaCoderVN/dragon-frontend"
+
+[[repo]]
+url = "https://github.com/SaitamaCoderVN/ShitFire"
+
+[[repo]]
+url = "https://github.com/SaitamaCoderVN/ShitFire-Contract-Foundary"
+
+[[repo]]
+url = "https://github.com/SaitamaCoderVN/tele-news-crypto"
+
+[[repo]]
+url = "https://github.com/SaitamaCoderVN/TestintAlloy"
+
+[[repo]]
 url = "https://github.com/SeogyuGim/Klaymakers2022-Lillybox"
 
 [[repo]]
@@ -730,6 +817,12 @@ url = "https://github.com/taijusanagi/soumatou"
 url = "https://github.com/The-Alchemist-Project/TheAlchemist_Project_30_11_2023"
 
 [[repo]]
+url = "https://github.com/tomosaigon/klaypal"
+
+[[repo]]
+url = "https://github.com/vadrthanh/private_key_change"
+
+[[repo]]
 url = "https://github.com/walnutwaldo/D-DALLE"
 
 [[repo]]
@@ -737,6 +830,7 @@ url = "https://github.com/WASD3Rplay/aadex-contract"
 
 [[repo]]
 url = "https://github.com/WuBruno/klaytn-hack"
+missing = true
 
 [[repo]]
 url = "https://github.com/xdao-app/xdao-contracts"
@@ -758,6 +852,7 @@ url = "https://github.com/YouJun-IWON/NFT-Card-Game"
 
 [[repo]]
 url = "https://github.com/ziptalk/Invincible_Node_Contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/zxstim/klaytn-fee-delegation-js"

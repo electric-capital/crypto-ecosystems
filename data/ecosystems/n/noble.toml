@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Noble"
 
-sub_ecosystems = []
+sub_ecosystems = ["Ondo Finance"]
 
 github_organizations = ["https://github.com/noble-assets"]
 
@@ -38,6 +38,7 @@ url = "https://github.com/noble-assets/cctp-private-builds"
 
 [[repo]]
 url = "https://github.com/noble-assets/cctp-relayer"
+missing = true
 
 [[repo]]
 url = "https://github.com/noble-assets/chain-registry"
@@ -72,6 +73,9 @@ url = "https://github.com/noble-assets/florin-fork"
 
 [[repo]]
 url = "https://github.com/noble-assets/forwarding"
+
+[[repo]]
+url = "https://github.com/noble-assets/globalfee"
 
 [[repo]]
 url = "https://github.com/noble-assets/halo"

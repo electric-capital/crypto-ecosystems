@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Neutron"
 
-sub_ecosystems = []
+sub_ecosystems = ["Astroport", "Eclipse Fi", "Mars Protocol"]
 
 github_organizations = ["https://github.com/neutron-org"]
 
@@ -54,6 +54,9 @@ url = "https://github.com/neutron-org/cw-plus_balances-snapshots"
 [[repo]]
 url = "https://github.com/neutron-org/cw-tokens"
 missing = true
+
+[[repo]]
+url = "https://github.com/neutron-org/dca-demo"
 
 [[repo]]
 url = "https://github.com/neutron-org/dex-trading-bot"
@@ -124,6 +127,12 @@ url = "https://github.com/neutron-org/neutron-sdk"
 url = "https://github.com/neutron-org/neutron-smart-clients"
 
 [[repo]]
+url = "https://github.com/neutron-org/neutron-std"
+
+[[repo]]
+url = "https://github.com/neutron-org/neutron-test-tube"
+
+[[repo]]
 url = "https://github.com/neutron-org/neutron-tge-contracts"
 
 [[repo]]
@@ -140,7 +149,16 @@ missing = true
 url = "https://github.com/neutron-org/neutronjsplus"
 
 [[repo]]
+url = "https://github.com/neutron-org/onboarding"
+
+[[repo]]
 url = "https://github.com/neutron-org/osmosis"
+
+[[repo]]
+url = "https://github.com/neutron-org/rate-limiter-contract"
+
+[[repo]]
+url = "https://github.com/neutron-org/relayers-report"
 
 [[repo]]
 url = "https://github.com/neutron-org/slips"

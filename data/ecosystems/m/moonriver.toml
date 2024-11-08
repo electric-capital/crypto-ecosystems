@@ -3,23 +3,16 @@ title = "Moonriver"
 
 sub_ecosystems = [
   "1Swap",
-  "ACryptoS",
   "AirCoin",
   "Alium Finance",
   "Amara Finance",
-  "API3",
   "Autofarm Network",
   "Balance Capital",
-  "Beefy.Finance",
-  "Biconomy",
   "Blocsport",
   "Bware Labs",
-  "Celer Network cBridge",
   "Certhum",
   "Chaotic Finance",
-  "Connext Network",
   "DeFiHelper",
-  "DODO",
   "Huckleberry",
   "IBetYou",
   "Impermax Finance",
@@ -33,12 +26,10 @@ sub_ecosystems = [
   "Moonsama",
   "Moonshot",
   "Moonwell",
-  "Multichain (Anyswap)",
   "MyWish",
   "Narwhalswap",
   "Novasama Technologies",
   "OnFinality",
-  "Orbit Chain",
   "Owl Protocol",
   "Peri Finance",
   "Polkadotters",
@@ -55,25 +46,18 @@ sub_ecosystems = [
   "Solarbeam",
   "Stakefish",
   "Subscan",
-  "Subsquid",
-  "Sushi Swap",
   "Swing",
   "Swing.xyz",
-  "Synapse Protocol",
   "Talisman",
   "TemplarDAO",
   "The Gas Station",
   "Toad Network",
   "TrueStaking",
   "Vulture Finance",
-  "Wanchain",
   "Web3Go",
-  "WePiggy",
   "XDAO",
-  "XY Finance",
   "Yield Bay",
   "Yuser",
-  "Zenlink",
   "Zircon",
 ]
 
@@ -140,12 +124,14 @@ url = "https://github.com/kodadot/packages"
 
 [[repo]]
 url = "https://github.com/manfromexistence/dx-beta"
+missing = true
 
 [[repo]]
 url = "https://github.com/manuelhb14/moonbridge"
 
 [[repo]]
 url = "https://github.com/marketxyz/market-dApp"
+missing = true
 
 [[repo]]
 url = "https://github.com/marscolony-io/contracts"
@@ -337,7 +323,22 @@ url = "https://github.com/Moonsong-Labs/toml_sort"
 url = "https://github.com/Moonsong-Labs/xcm-tools"
 
 [[repo]]
+url = "https://github.com/opensquare-network/dotreasury"
+
+[[repo]]
 url = "https://github.com/orbiterone/orbiter-api"
+
+[[repo]]
+url = "https://github.com/p2p-org/polkadot_monitoring_service"
+
+[[repo]]
+url = "https://github.com/papermoonio/polkadot-ecosystem-docs-draft"
+
+[[repo]]
+url = "https://github.com/paritytech/asset-transfer-api"
+
+[[repo]]
+url = "https://github.com/polkassembly/polkassembly"
 
 [[repo]]
 url = "https://github.com/PureStake/algosigner"

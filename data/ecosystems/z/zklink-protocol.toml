@@ -1,11 +1,14 @@
 # Ecosystem Level Information
 title = "zkLink Protocol"
 
-sub_ecosystems = []
+sub_ecosystems = ["DeSyn Protocol", "iZUMi.finance", "LayerBank"]
 
 github_organizations = ["https://github.com/zkLinkProtocol"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/RockX-SG/stake"
+
 [[repo]]
 url = "https://github.com/zkLinkProtocol/advanced-circuit-component"
 
@@ -110,10 +113,22 @@ url = "https://github.com/zkLinkProtocol/public-api-docs"
 url = "https://github.com/zkLinkProtocol/recover_state_server"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/relayer"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/relayer_contracts"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/relayer_sdk"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/rescue-poseidon"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/routing-api"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/scw-contracts"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/stark_util"
@@ -159,6 +174,9 @@ missing = true
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-homepage"
 missing = true
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-intent-url"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-js-sdk"

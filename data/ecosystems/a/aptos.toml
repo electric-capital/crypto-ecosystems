@@ -1,4 +1,6 @@
+# Ecosystem Level Information
 title = "Aptos"
+
 sub_ecosystems = [
   "Apscan",
   "APT ID",
@@ -67,14 +69,16 @@ sub_ecosystems = [
   "Umi",
   "ZettaBlock",
   "Zion Bets",
-  "zktx.io"
-]
-github_organizations = [
-    "https://github.com/aptos-foundation",
-    "https://github.com/aptos-labs",
-    "https://github.com/open-rails",
+  "zktx.io",
 ]
 
+github_organizations = [
+  "https://github.com/aptos-foundation",
+  "https://github.com/aptos-labs",
+  "https://github.com/open-rails",
+]
+
+# Repositories
 [[repo]]
 url = "https://github.com/04Akaps/Aptos_Move"
 
@@ -18441,13 +18445,12 @@ url = "https://github.com/zjicmyw/aptos-core"
 [[repo]]
 url = "https://github.com/zkHubHQ/zscan"
 
-# Repositories
-[[repo]]
-url = "https://github.com/zktx-io/aptos-extension"
-tags = [ "Tooling", "Smart Contract", "IDE", "VS Code", "Move"]
-
 [[repo]]
 url = "https://github.com/zkMeLabs/zkme-contract-aptos"
+
+[[repo]]
+url = "https://github.com/zktx-io/aptos-extension"
+tags = ["Tooling", "Smart Contract", "IDE", "VS Code", "Move"]
 
 [[repo]]
 url = "https://github.com/zktx-io/aptos-move-examples"

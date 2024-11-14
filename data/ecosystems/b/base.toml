@@ -1,6 +1,4 @@
-# Ecosystem Level Information
 title = "Base"
-
 sub_ecosystems = [
   "Aera Finance",
   "Aerodrome",
@@ -50,6 +48,7 @@ sub_ecosystems = [
   "Hashflow",
   "Hop Protocol",
   "Hypercerts",
+  "ic-alloy",
   "InstaDApp",
   "Ionic Protocol",
   "IPOR",
@@ -119,11 +118,10 @@ sub_ecosystems = [
   "Zoo Labs Foundatin",
   "Zora",
 ]
-
-github_organizations = ["https://github.com/base-org", "https://github.com/coinbase"]
-
-# Repositories
-
+github_organizations = [
+  "https://github.com/base-org",
+  "https://github.com/coinbase",
+]
 [[repo]]
 url = "https://github.com/0x-shanks/farme"
 
@@ -5477,3 +5475,4 @@ url = "https://github.com/zuni-lab/zuni-smart-vault"
 
 [[repo]]
 url = "https://github.com/zwergdev/whale-bridge"
+

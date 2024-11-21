@@ -59,6 +59,8 @@ enum ValidationError {
 
     TitleError(String),
 
+    EcosystemSpecifiedInMultipleFiles(String, HashSet<String>),
+
     EmptyEcosystem(String),
 
     UnsortedEcosystem(UnsortedEcosystem),
@@ -85,6 +87,15 @@ impl Display for ValidationError {
             }
             ValidationError::TitleError(file) => {
                 writeln!(f, "Title with leading/trailing space found in file: {}. Please remove the space(s) from your title.", file)
+            }
+            ValidationError::EcosystemSpecifiedInMultipleFiles(title, files) => {
+                let path_names: Vec<String> = files.iter().cloned().collect();
+                let path_names = path_names.join(", ");
+                writeln!(
+                    f,
+                    "Ecosystem {} is defined in multiple files: {}",
+                    title, path_names
+                )
             }
             ValidationError::EmptyEcosystem(file) => {
                 writeln!(f, "Ecosystem in file {} has neither organizations nor sub-ecosystems. Please remove this. You can add it back later when/if you find its orgs / repos.", file)
@@ -201,6 +212,7 @@ fn get_toml_files(dir: &Path) -> Result<Vec<PathBuf>> {
 }
 
 fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationError>)> {
+    let mut ecosystem_to_paths = HashMap::new();
     let mut ecosystems: HashMap<String, Ecosystem> = HashMap::new();
     let mut errors = Vec::new();
     for toml_path in paths {
@@ -211,6 +223,10 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationEr
                 if title.trim() != title {
                     errors.push(ValidationError::TitleError(toml_path.display().to_string()));
                 }
+                let paths_for_eco = ecosystem_to_paths
+                    .entry(title.clone())
+                    .or_insert(HashSet::new());
+                paths_for_eco.insert(toml_path.display().to_string());
                 ecosystems.insert(title, ecosystem);
             }
             Err(err) => {
@@ -219,6 +235,13 @@ fn parse_toml_files(paths: &[PathBuf]) -> Result<(EcosystemMap, Vec<ValidationEr
                     toml_error: err,
                 })?;
             }
+        }
+    }
+    for (title, paths) in ecosystem_to_paths {
+        if paths.len() > 1 {
+            errors.push(ValidationError::EcosystemSpecifiedInMultipleFiles(
+                title, paths,
+            ));
         }
     }
     Ok((ecosystems, errors))

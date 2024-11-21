@@ -1,11 +1,13 @@
-# Ecosystem Level Information
+
 title = "Bucket Protocol"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Bucket-Protocol"]
+github_organizations = [
+  "https://github.com/Bucket-Protocol",
+]
 
-# Repositories
+
 [[repo]]
 url = "https://github.com/Bucket-Protocol/Audit"
 
@@ -94,3 +96,9 @@ url = "https://github.com/Bucket-Protocol/v1-periphery"
 [[repo]]
 url = "https://github.com/Bucket-Protocol/whitepaper"
 missing = true
+
+[[repo]]
+url = "https://github.com/do0x0ob/sui-dapp-scaffold-v1"
+
+[[repo]]
+url = "https://github.com/WayneAl/sui-mover-2024"

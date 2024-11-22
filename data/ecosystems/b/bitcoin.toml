@@ -7,10 +7,12 @@ sub_ecosystems = [
   "Alpen",
   "Anduro",
   "Arch Network",
+  "Area Layer",
   "Ark Network",
   "Babylon Chain",
   "Barbershop Finance",
   "Be Unstoppable",
+  "Bedrock Technology",
   "BEVM",
   "BiFi",
   "Bima Labs",
@@ -21,6 +23,7 @@ sub_ecosystems = [
   "Bitauth",
   "BitcartCC",
   "Bitccess",
+  "Bitcoin JS",
   "Bitcoin Pro",
   "bitcoinos",
   "BitEscrow",
@@ -32,6 +35,7 @@ sub_ecosystems = [
   "Blockcerts",
   "Blockchain Commons",
   "Blockonomics",
+  "Blockstream",
   "BloFin Exchange",
   "BOB",
   "Bolt Card",
@@ -44,8 +48,11 @@ sub_ecosystems = [
   "BVOX",
   "Cake Labs",
   "Cashu",
+  "Catalog (Interop Protocol)",
+  "Chainflip Labs",
   "ChainX",
   "Citrea",
+  "Coinsquare",
   "COLDCARD",
   "CommerceBlock",
   "Core Blockchain",
@@ -59,7 +66,9 @@ sub_ecosystems = [
   "diybitcoinhardware",
   "Drivechains",
   "eBTC",
+  "Electrum Bitcoin Wallet",
   "Emerald",
+  "exSat Network",
   "Fabric.fm",
   "FBTC",
   "Fedimint",
@@ -68,12 +77,12 @@ sub_ecosystems = [
   "Fuji Money",
   "harbor wallet",
   "hedgehog btc",
-  "Incognito Chain",
   "Interlay",
   "JAM",
   "Keep Network",
   "Lava XYZ",
   "leather io",
+  "LFG Labs",
   "Libre",
   "Libre Bitcoin L2",
   "Lightec",
@@ -130,12 +139,12 @@ sub_ecosystems = [
   "Tabconf",
   "Taproot Wizards",
   "TeleportDAO",
-  "THORChain",
   "Threshold Network",
   "Token Ocean",
   "Tuna chain",
   "WBTC",
   "Wizardsardine",
+  "WOO Network",
   "XLink",
   "Yona",
   "ZeroNet",
@@ -148,12 +157,15 @@ github_organizations = [
   "https://github.com/bitaccess",
   "https://github.com/bitcoin",
   "https://github.com/bitcoin-core",
+  "https://github.com/bitcoin-dot-org",
+  "https://github.com/bitcoin-s",
   "https://github.com/bitcoin-teleport",
   "https://github.com/Bitcoin-Wildlife-Sanctuary",
   "https://github.com/BitcoinDesign",
   "https://github.com/bitcoindevkit",
   "https://github.com/bitcoinj",
   "https://github.com/bitcoinjs",
+  "https://github.com/bitcoinknots",
   "https://github.com/bitcoinops",
   "https://github.com/Blockstream",
   "https://github.com/btcsuite",
@@ -2013,6 +2025,9 @@ url = "https://github.com/bitaccess/ts-common"
 url = "https://github.com/bitaccess/ts-config"
 
 [[repo]]
+url = "https://github.com/bitaccess/xlibinput_calibrator"
+
+[[repo]]
 url = "https://github.com/bitaccess/zbar"
 
 [[repo]]
@@ -2177,7 +2192,16 @@ url = "https://github.com/bitcoin-core/univalue-subtree"
 url = "https://github.com/bitcoin-dev-project/bitcoiner-intro-to-rust"
 
 [[repo]]
+url = "https://github.com/bitcoin-dot-org/Bitcoin-Wallet"
+
+[[repo]]
 url = "https://github.com/bitcoin-dot-org/bitcoin.org"
+
+[[repo]]
+url = "https://github.com/bitcoin-dot-org/BitcoinWalletMobile"
+
+[[repo]]
+url = "https://github.com/bitcoin-dot-org/developer.bitcoin.org"
 
 [[repo]]
 url = "https://github.com/bitcoin-global/explorer"
@@ -2208,7 +2232,37 @@ url = "https://github.com/bitcoin-s/bitcoin-s"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/bitcoin-s/bitcoin-s-rpc-client"
+
+[[repo]]
+url = "https://github.com/bitcoin-s/bitcoin-s-spv-node"
+
+[[repo]]
+url = "https://github.com/bitcoin-s/bitcoin-s-ts"
+
+[[repo]]
+url = "https://github.com/bitcoin-s/dlcspecs"
+
+[[repo]]
+url = "https://github.com/bitcoin-s/eclair"
+
+[[repo]]
+url = "https://github.com/bitcoin-s/elements"
+
+[[repo]]
 url = "https://github.com/bitcoin-s/krystal-bull"
+
+[[repo]]
+url = "https://github.com/bitcoin-s/scaladocs"
+
+[[repo]]
+url = "https://github.com/bitcoin-s/secp256k1"
+
+[[repo]]
+url = "https://github.com/bitcoin-s/secp256k1-zkp"
+
+[[repo]]
+url = "https://github.com/bitcoin-s/umbrel"
 
 [[repo]]
 url = "https://github.com/bitcoin-studio/Bitcoin-Programming-with-BitcoinJS"
@@ -2650,8 +2704,26 @@ url = "https://github.com/bitcoinjs/varuint-bitcoin"
 url = "https://github.com/bitcoinjs/wif"
 
 [[repo]]
+url = "https://github.com/bitcoinknots/assemble-deriv"
+
+[[repo]]
 url = "https://github.com/bitcoinknots/bitcoin"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/bitcoinknots/bitcoin-detached-sigs"
+
+[[repo]]
+url = "https://github.com/bitcoinknots/gitian.sigs"
+
+[[repo]]
+url = "https://github.com/bitcoinknots/guix.sigs"
+
+[[repo]]
+url = "https://github.com/bitcoinknots/knots-www"
+
+[[repo]]
+url = "https://github.com/bitcoinknots/packaging"
 
 [[repo]]
 url = "https://github.com/bitcoinnano/btcnano-lib"
@@ -2776,6 +2848,7 @@ url = "https://github.com/bitlearner2021/cryptoinvoice"
 
 [[repo]]
 url = "https://github.com/Bitlits/Bitcoin-Games"
+missing = true
 
 [[repo]]
 url = "https://github.com/bitnet-io/bitcoinj"
@@ -3849,6 +3922,9 @@ url = "https://github.com/chaincodelabs/bmon"
 
 [[repo]]
 url = "https://github.com/chaincodelabs/brd-website"
+
+[[repo]]
+url = "https://github.com/chaincodelabs/chaincodelabs.github.io"
 
 [[repo]]
 url = "https://github.com/chaincodelabs/codespeed"
@@ -7455,6 +7531,7 @@ url = "https://github.com/gomberg5264/herkou5264"
 
 [[repo]]
 url = "https://github.com/goncalopp/mexbtcapi"
+missing = true
 
 [[repo]]
 url = "https://github.com/GoodDollar/DefiLlama-Adapters"
@@ -10741,6 +10818,7 @@ url = "https://github.com/mimo-capital/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/MineMe0812/bch-batch-transaction-generator"
+missing = true
 
 [[repo]]
 url = "https://github.com/mineplexio/Plexus-Pool"
@@ -13519,6 +13597,9 @@ url = "https://github.com/Rock-n-Block/cosplayer-nft"
 missing = true
 
 [[repo]]
+url = "https://github.com/Rock-n-Block/crat-dex-tokenlist"
+
+[[repo]]
 url = "https://github.com/Rock-n-Block/cratd2claunch--frontend"
 missing = true
 
@@ -14017,6 +14098,9 @@ url = "https://github.com/rust-bitcoin/bitcoind"
 
 [[repo]]
 url = "https://github.com/rust-bitcoin/constants"
+
+[[repo]]
+url = "https://github.com/rust-bitcoin/corepc"
 
 [[repo]]
 url = "https://github.com/rust-bitcoin/hammersbald"
@@ -14620,6 +14704,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/SegwitB2X/b2x-core-lib"
+
+[[repo]]
+url = "https://github.com/selfcustody/krux"
 
 [[repo]]
 url = "https://github.com/SellWitness/ZKFactorization"
@@ -16435,6 +16522,9 @@ url = "https://github.com/unisat-wallet/wallet-sdk"
 url = "https://github.com/unisat-wallet/wallet-utils"
 
 [[repo]]
+url = "https://github.com/unisat-wallet/wallet-utils-legacy"
+
+[[repo]]
 url = "https://github.com/UnityOrdinals/UnityOrdinals"
 
 [[repo]]
@@ -16530,6 +16620,7 @@ url = "https://github.com/vanilladefi/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/VanLam2611/pancake_source"
+missing = true
 
 [[repo]]
 url = "https://github.com/vapor-camp/ether-atm"
@@ -17437,6 +17528,7 @@ url = "https://github.com/ZeusLN/zeus-docs"
 
 [[repo]]
 url = "https://github.com/ZeusLN/zeus-website"
+missing = true
 
 [[repo]]
 url = "https://github.com/ZeusLN/zeus-website-classic"

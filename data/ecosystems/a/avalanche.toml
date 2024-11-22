@@ -5,14 +5,12 @@ sub_ecosystems = [
   "0.exchange",
   "88mph",
   "Abracadabra",
-  "Allbridge",
   "AllianceBlock",
   "Alpha Finance Lab",
   "Alpha Homora",
   "Ampleforth",
   "Andina Defi",
   "Anima Protocol",
-  "Ankr",
   "Aori",
   "Apa NFT",
   "Aperture Finance",
@@ -21,6 +19,7 @@ sub_ecosystems = [
   "Argon",
   "Arken Finance",
   "Ash Avalanche",
+  "Atlas Dex",
   "Aura Finance",
   "Autofarm Network",
   "Avacash",
@@ -52,13 +51,13 @@ sub_ecosystems = [
   "BoringDAO",
   "Bridge Network",
   "BrokkrFinance",
+  "Bubble Protocol",
   "Canary",
   "Canopus",
   "CapxFi",
   "Cask",
   "Cerby Finance",
   "Chain4Travel",
-  "Chainbase Labs",
   "Complus Network",
   "Contango",
   "Cook Finance",
@@ -111,7 +110,6 @@ sub_ecosystems = [
   "HedgeFarm",
   "Heroes of NFT",
   "Hubble Exchange",
-  "Human Protocol",
   "Humanode",
   "HunnySwap",
   "Hurricane Swap",
@@ -121,9 +119,7 @@ sub_ecosystems = [
   "Idexo",
   "iHelp Finance",
   "Immunefi",
-  "Impermax Finance",
   "Impossible Finance",
-  "Incognito Chain",
   "InstaDApp",
   "InsurAce",
   "Iron Finance",
@@ -133,7 +129,6 @@ sub_ecosystems = [
   "Kenshi",
   "Kine Finance",
   "Kredeum",
-  "KYVE",
   "Landslide Network",
   "ldclabs",
   "LFJ",
@@ -142,7 +137,6 @@ sub_ecosystems = [
   "Ludex Labs",
   "LUX Defi",
   "Lydia",
-  "Mai Finance (QiDao)",
   "Marginswap",
   "Marketplace of the Multiverse",
   "Maximizer",
@@ -167,7 +161,6 @@ sub_ecosystems = [
   "Niftyx",
   "NodeKit",
   "Nuklai",
-  "O3 Swap",
   "Oddz",
   "Oh Finance",
   "Oin",
@@ -180,7 +173,6 @@ sub_ecosystems = [
   "Pandora NFT",
   "Pangolin",
   "Panther Protocol",
-  "Paraswap",
   "PartySwap",
   "Pendle",
   "Penguin Finance",
@@ -195,19 +187,15 @@ sub_ecosystems = [
   "Radom Network",
   "Rango Exchange",
   "RelayChain",
-  "Ren",
   "Ribbon Finance",
   "RocketX",
   "Roco Finance",
   "RUGenerous",
-  "Sablier Finance",
   "Salvor",
   "Scion",
-  "Shapeshift",
   "Sherpa Cash",
   "simplefi",
   "Singular Farm",
-  "SmartCoin",
   "Snowball",
   "Snowball Finance",
   "Snowball.money",
@@ -219,7 +207,6 @@ sub_ecosystems = [
   "Sputnik DeFi",
   "Stabilize",
   "StakeDAO",
-  "Stargate",
   "Steadefi",
   "Steady State Defi",
   "Step App",
@@ -237,9 +224,7 @@ sub_ecosystems = [
   "Tender Finance",
   "Term Finance",
   "The Gas Station",
-  "THORChain",
   "Tokensfarm",
-  "TokenSoft",
   "Tornado Cash",
   "True Reflect Token",
   "TrueUSD",
@@ -4988,6 +4973,9 @@ url = "https://github.com/flare-foundation/attestation-client"
 url = "https://github.com/flare-foundation/attestation-suite-deployment"
 
 [[repo]]
+url = "https://github.com/flare-foundation/bmi-terraform-examples"
+
+[[repo]]
 url = "https://github.com/flare-foundation/bug-bounty"
 
 [[repo]]
@@ -5022,6 +5010,9 @@ url = "https://github.com/flare-foundation/fast-updates"
 
 [[repo]]
 url = "https://github.com/flare-foundation/fdc-client"
+
+[[repo]]
+url = "https://github.com/flare-foundation/fdc-suite-deployment"
 
 [[repo]]
 url = "https://github.com/flare-foundation/flare-demo-examples"
@@ -5129,7 +5120,13 @@ url = "https://github.com/flare-foundation/STP"
 missing = true
 
 [[repo]]
+url = "https://github.com/flare-foundation/verifier-indexer-api"
+
+[[repo]]
 url = "https://github.com/flare-foundation/verifier-indexer-framework"
+
+[[repo]]
+url = "https://github.com/flare-foundation/verifier-utxo-indexer"
 
 [[repo]]
 url = "https://github.com/flare-foundation/verifier-xrp-indexer"
@@ -7216,6 +7213,9 @@ url = "https://github.com/layerswap/layerswap-sdk"
 url = "https://github.com/layerswap/layerswap-sdk-starter-kit"
 
 [[repo]]
+url = "https://github.com/layerswap/layerswap-v8-docs"
+
+[[repo]]
 url = "https://github.com/layerswap/layerswapapp"
 
 [[repo]]
@@ -8841,6 +8841,7 @@ url = "https://github.com/ovieokeh/avalanche-dapp-tutorial"
 
 [[repo]]
 url = "https://github.com/owlprotocol/owlprotocol"
+missing = true
 
 [[repo]]
 url = "https://github.com/owlprotocol/owlprotocol-oldpub"
@@ -11850,6 +11851,9 @@ url = "https://github.com/XY-Finance/defillama-server"
 
 [[repo]]
 url = "https://github.com/XY-Finance/dimension-adapters"
+
+[[repo]]
+url = "https://github.com/XY-Finance/eth-balance-checker"
 
 [[repo]]
 url = "https://github.com/XY-Finance/examples"

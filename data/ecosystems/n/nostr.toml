@@ -1,9 +1,14 @@
 # Ecosystem Level Information
 title = "Nostr"
 
-sub_ecosystems = []
+sub_ecosystems = ["Soapbox"]
 
-github_organizations = ["https://github.com/nostr-protocol"]
+github_organizations = [
+  "https://github.com/nostr-dev-kit",
+  "https://github.com/nostr-jp",
+  "https://github.com/nostr-protocol",
+  "https://github.com/NostrGit",
+]
 
 # Repositories
 [[repo]]
@@ -65,6 +70,9 @@ url = "https://github.com/damus-io/api"
 
 [[repo]]
 url = "https://github.com/damus-io/damus"
+
+[[repo]]
+url = "https://github.com/damus-io/notedeck"
 
 [[repo]]
 url = "https://github.com/damus-io/website"
@@ -205,10 +213,73 @@ url = "https://github.com/nodetec/hackrnews"
 url = "https://github.com/nodetec/notebin"
 
 [[repo]]
+url = "https://github.com/nostr-dev-kit/microapps"
+
+[[repo]]
 url = "https://github.com/nostr-dev-kit/ndk"
 
 [[repo]]
+url = "https://github.com/nostr-dev-kit/ndk-cache-dexie"
+
+[[repo]]
+url = "https://github.com/nostr-dev-kit/ndk-cache-redis"
+
+[[repo]]
+url = "https://github.com/nostr-dev-kit/ndk-cli"
+
+[[repo]]
+url = "https://github.com/nostr-dev-kit/ndk-react"
+
+[[repo]]
+url = "https://github.com/nostr-dev-kit/ndk-svelte"
+
+[[repo]]
+url = "https://github.com/nostr-dev-kit/ndk-svelte-components"
+
+[[repo]]
+url = "https://github.com/nostr-jp/.github"
+
+[[repo]]
+url = "https://github.com/nostr-jp/amethyst-with-localserver"
+
+[[repo]]
+url = "https://github.com/nostr-jp/awesome-nostr-japan"
+
+[[repo]]
+url = "https://github.com/nostr-jp/botlist"
+
+[[repo]]
+url = "https://github.com/nostr-jp/common-jp-information"
+
+[[repo]]
+url = "https://github.com/nostr-jp/learn-nostr-by-crafting"
+
+[[repo]]
+url = "https://github.com/nostr-jp/learn-nostr-by-crafting-2"
+
+[[repo]]
+url = "https://github.com/nostr-jp/learn-nostr-by-crafting-2024"
+
+[[repo]]
+url = "https://github.com/nostr-jp/learn-nostr-by-crafting-deno"
+
+[[repo]]
 url = "https://github.com/nostr-jp/nips-ja"
+
+[[repo]]
+url = "https://github.com/nostr-jp/nostr-idol-project-website"
+
+[[repo]]
+url = "https://github.com/nostr-jp/nostr-key-value-sample"
+
+[[repo]]
+url = "https://github.com/nostr-jp/nostrasia-translates"
+
+[[repo]]
+url = "https://github.com/nostr-jp/off_meeting"
+
+[[repo]]
+url = "https://github.com/nostr-jp/welcome-nostr"
 
 [[repo]]
 url = "https://github.com/nostr-protocol/data-vending-machines"

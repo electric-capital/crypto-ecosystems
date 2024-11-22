@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Spruce"
 
-sub_ecosystems = ["Wagmi"]
+sub_ecosystems = []
 
 github_organizations = ["https://github.com/spruceid"]
 
@@ -24,6 +24,9 @@ url = "https://github.com/spruceid/CAIPs"
 
 [[repo]]
 url = "https://github.com/spruceid/canvaskit.js-vendor"
+
+[[repo]]
+url = "https://github.com/spruceid/cbor-ld"
 
 [[repo]]
 url = "https://github.com/spruceid/celo-monorepo"
@@ -111,6 +114,9 @@ url = "https://github.com/spruceid/didkit"
 url = "https://github.com/spruceid/didkit-go"
 
 [[repo]]
+url = "https://github.com/spruceid/didkit-http"
+
+[[repo]]
 url = "https://github.com/spruceid/didkit-python"
 
 [[repo]]
@@ -178,6 +184,7 @@ url = "https://github.com/spruceid/isomdl-18013-7"
 
 [[repo]]
 url = "https://github.com/spruceid/JOSE"
+missing = true
 
 [[repo]]
 url = "https://github.com/spruceid/joyce"
@@ -246,6 +253,21 @@ missing = true
 url = "https://github.com/spruceid/mi-cho-coq"
 
 [[repo]]
+url = "https://github.com/spruceid/mobile-sdk-ios-app"
+
+[[repo]]
+url = "https://github.com/spruceid/mobile-sdk-kt"
+
+[[repo]]
+url = "https://github.com/spruceid/mobile-sdk-react"
+
+[[repo]]
+url = "https://github.com/spruceid/mobile-sdk-rs"
+
+[[repo]]
+url = "https://github.com/spruceid/mobile-sdk-swift"
+
+[[repo]]
 url = "https://github.com/spruceid/neon-serde"
 
 [[repo]]
@@ -277,6 +299,9 @@ url = "https://github.com/spruceid/oidc4vp-rs"
 url = "https://github.com/spruceid/omniauth-siwe"
 
 [[repo]]
+url = "https://github.com/spruceid/openid4vp"
+
+[[repo]]
 url = "https://github.com/spruceid/orbit-manifest"
 
 [[repo]]
@@ -284,6 +309,7 @@ url = "https://github.com/spruceid/PersonhoodPassport"
 
 [[repo]]
 url = "https://github.com/spruceid/process"
+missing = true
 
 [[repo]]
 url = "https://github.com/spruceid/r2d2-cryptoki"
@@ -475,6 +501,9 @@ url = "https://github.com/spruceid/verite"
 url = "https://github.com/spruceid/vp_interop"
 
 [[repo]]
+url = "https://github.com/spruceid/w3c-vc-barcodes"
+
+[[repo]]
 url = "https://github.com/spruceid/w3id.org"
 missing = true
 
@@ -501,3 +530,4 @@ url = "https://github.com/spruceid/wallet-sdk-swift"
 
 [[repo]]
 url = "https://github.com/spruceid/wallet-sdk-wallet-ios"
+missing = true

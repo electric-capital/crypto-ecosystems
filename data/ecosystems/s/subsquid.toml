@@ -3,7 +3,11 @@ title = "Subsquid"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/subsquid", "https://github.com/subsquid-labs"]
+github_organizations = [
+  "https://github.com/subsquid",
+  "https://github.com/subsquid-labs",
+  "https://github.com/subsquid-quests",
+]
 
 # Repositories
 [[repo]]
@@ -28,6 +32,7 @@ url = "https://github.com/subsquid-labs/bayc-squid-1"
 
 [[repo]]
 url = "https://github.com/subsquid-labs/beamswap-squid"
+missing = true
 
 [[repo]]
 url = "https://github.com/subsquid-labs/belopash-typeorm-store-example"
@@ -140,6 +145,9 @@ url = "https://github.com/subsquid-labs/lens-analytics-squid"
 url = "https://github.com/subsquid-labs/lens-squid-sepana"
 
 [[repo]]
+url = "https://github.com/subsquid-labs/libp2p-lookup"
+
+[[repo]]
 url = "https://github.com/subsquid-labs/local-csv-indexing"
 
 [[repo]]
@@ -152,10 +160,16 @@ url = "https://github.com/subsquid-labs/mainnet-workers-raffle"
 url = "https://github.com/subsquid-labs/multichain-tutorial"
 
 [[repo]]
+url = "https://github.com/subsquid-labs/my-base-squid"
+
+[[repo]]
 url = "https://github.com/subsquid-labs/orderbook-squid"
 
 [[repo]]
 url = "https://github.com/subsquid-labs/phat_squid_demo"
+
+[[repo]]
+url = "https://github.com/subsquid-labs/points-data"
 
 [[repo]]
 url = "https://github.com/subsquid-labs/proposals-squid"
@@ -239,6 +253,9 @@ missing = true
 url = "https://github.com/subsquid-labs/squid-frontier-evm-template"
 
 [[repo]]
+url = "https://github.com/subsquid-labs/squid-hasura-example"
+
+[[repo]]
 url = "https://github.com/subsquid-labs/squid-ink-abi-template"
 
 [[repo]]
@@ -271,6 +288,9 @@ url = "https://github.com/subsquid-labs/squid-substrate-template"
 url = "https://github.com/subsquid-labs/squid-substrate-templates"
 
 [[repo]]
+url = "https://github.com/subsquid-labs/squid-tron-evm-example"
+
+[[repo]]
 url = "https://github.com/subsquid-labs/stellaswap-squid"
 
 [[repo]]
@@ -301,6 +321,9 @@ url = "https://github.com/subsquid-labs/talisman-multichain"
 url = "https://github.com/subsquid-labs/thena-squid"
 
 [[repo]]
+url = "https://github.com/subsquid-labs/tron-example"
+
+[[repo]]
 url = "https://github.com/subsquid-labs/uniswap-squid"
 missing = true
 
@@ -315,6 +338,81 @@ url = "https://github.com/subsquid-labs/uniswapv3-squid"
 
 [[repo]]
 url = "https://github.com/subsquid-labs/uniswapv3-swaps-example"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/algebra-farming-subgraph-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/algebra-subgraph-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/cryptopunks-squid"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/cryptopunks-subgraph-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/double-chain-squid"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/ens-squid"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/ens-subgraph-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/farcaster-subgraph-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/foundation-subgraph-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/friendtech-subgraph-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/lens-subgraph-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/lido-subgraph-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/network-test-one-uniform-load-squid"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/network-test-two-high-traffic-logs-squid"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/pepe-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/pooltogether-v3-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/quad-chain-squid"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/quest-template"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/results"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/simple-busd-subgraph"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/single-chain-squid"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/snapshot-squid"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/snapshot-subgraph-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/tornado-cash-migration"
+
+[[repo]]
+url = "https://github.com/subsquid-quests/triple-chain-squid"
 
 [[repo]]
 url = "https://github.com/subsquid/ape-subsquid"
@@ -341,6 +439,7 @@ url = "https://github.com/subsquid/balances-squid"
 
 [[repo]]
 url = "https://github.com/subsquid/beamswap-squid"
+missing = true
 
 [[repo]]
 url = "https://github.com/subsquid/bounties"
@@ -364,6 +463,9 @@ missing = true
 [[repo]]
 url = "https://github.com/subsquid/crowdloans-tracker"
 missing = true
+
+[[repo]]
+url = "https://github.com/subsquid/data"
 
 [[repo]]
 url = "https://github.com/subsquid/docs"
@@ -404,6 +506,9 @@ url = "https://github.com/subsquid/gravatar-squid"
 url = "https://github.com/subsquid/gsheets-store"
 
 [[repo]]
+url = "https://github.com/subsquid/hasura-configuration"
+
+[[repo]]
 url = "https://github.com/subsquid/homebrew-cli"
 missing = true
 
@@ -437,6 +542,9 @@ missing = true
 [[repo]]
 url = "https://github.com/subsquid/moonriver-erc-tokens"
 missing = true
+
+[[repo]]
+url = "https://github.com/subsquid/network-components"
 
 [[repo]]
 url = "https://github.com/subsquid/openreader"
@@ -484,6 +592,12 @@ missing = true
 
 [[repo]]
 url = "https://github.com/subsquid/specs"
+
+[[repo]]
+url = "https://github.com/subsquid/sqd-network"
+
+[[repo]]
+url = "https://github.com/subsquid/sqd-portal"
 
 [[repo]]
 url = "https://github.com/subsquid/squid-abi-template"

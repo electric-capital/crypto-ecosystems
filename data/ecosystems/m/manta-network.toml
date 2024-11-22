@@ -1,7 +1,20 @@
 # Ecosystem Level Information
 title = "Manta Network"
 
-sub_ecosystems = ["Battledogs", "Celenium", "LayerZero", "Orally"]
+sub_ecosystems = [
+  "Anzen",
+  "ApolloX",
+  "Battledogs",
+  "Bifrost",
+  "Celenium",
+  "KiloExPerp",
+  "LayerBank",
+  "Mitosis",
+  "Orally",
+  "Quickswap",
+  "ZeroLend",
+  "Zypher Games",
+]
 
 github_organizations = ["https://github.com/Manta-Network"]
 
@@ -182,6 +195,12 @@ url = "https://github.com/Manta-Network/manta-client"
 missing = true
 
 [[repo]]
+url = "https://github.com/Manta-Network/manta-client-gateway"
+
+[[repo]]
+url = "https://github.com/Manta-Network/manta-config-service"
+
+[[repo]]
 url = "https://github.com/Manta-Network/manta-crypto"
 missing = true
 
@@ -197,6 +216,9 @@ url = "https://github.com/Manta-Network/manta-erc721-subgraph"
 [[repo]]
 url = "https://github.com/Manta-Network/manta-error"
 missing = true
+
+[[repo]]
+url = "https://github.com/Manta-Network/manta-events-service"
 
 [[repo]]
 url = "https://github.com/Manta-Network/manta-explorer"
@@ -258,6 +280,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Manta-Network/Manta-Tech-Doc"
+
+[[repo]]
+url = "https://github.com/Manta-Network/manta-transaction-service"
 
 [[repo]]
 url = "https://github.com/Manta-Network/manta-types"
@@ -337,6 +362,12 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Manta-Network/pulse"
+
+[[repo]]
+url = "https://github.com/Manta-Network/react-dapp-starter"
+
+[[repo]]
+url = "https://github.com/Manta-Network/realperp-token-snapshot"
 
 [[repo]]
 url = "https://github.com/Manta-Network/rpm.manta.systems"
@@ -465,3 +496,6 @@ url = "https://github.com/Manta-Network/zombienet"
 
 [[repo]]
 url = "https://github.com/Manta-Network/zprize-wasm-msm"
+
+[[repo]]
+url = "https://github.com/RockX-SG/stake"

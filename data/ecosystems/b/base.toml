@@ -2,10 +2,13 @@
 title = "Base"
 
 sub_ecosystems = [
+  "A3S Protocol",
   "Aera Finance",
   "Aerodrome",
   "Aevo",
-  "Allbridge",
+  "Algebra",
+  "Alien Base",
+  "Ambire Wallet",
   "Ampleforth",
   "Anzen",
   "Aperture Finance",
@@ -15,11 +18,11 @@ sub_ecosystems = [
   "Aura Finance",
   "BAKLAVA SPACE",
   "bandada",
+  "BasePaint",
   "Battledogs",
   "Beam",
-  "Blocknative",
-  "Blockscout",
   "BloFin Exchange",
+  "BrahmaFi",
   "Centrifuge",
   "Clober",
   "Compound",
@@ -29,8 +32,8 @@ sub_ecosystems = [
   "Curvance",
   "Cygnus",
   "Daimo",
-  "DeBank",
   "Decent DAO",
+  "defi.money",
   "Derive",
   "Dexalot",
   "dHEDGE",
@@ -44,6 +47,7 @@ sub_ecosystems = [
   "Gains Network",
   "Gallery",
   "Galxe",
+  "Gnars Dao",
   "Guild.xyz",
   "Halborn",
   "Harvest Finance",
@@ -54,10 +58,12 @@ sub_ecosystems = [
   "Ionic Protocol",
   "IPOR",
   "ISSUAA",
+  "KiloExPerp",
   "Kleo Network",
   "Kodadot",
   "Kwenta",
   "Locus.finance",
+  "Maci",
   "Magic Eden",
   "Manifold",
   "Maple",
@@ -71,51 +77,51 @@ sub_ecosystems = [
   "Orderly Network",
   "Origin Protocol",
   "Overnight",
-  "PancakeSwap",
-  "Pell Network",
   "Phantom",
   "PintSwap",
   "PleasrDAO",
   "PoolTogether",
-  "Privy",
   "Puffer",
+  "Pump BTC",
   "Radiant",
   "Range Protocol",
   "Rarible",
-  "Renzo",
   "Reserve",
-  "Sablier Finance",
+  "River Protocol",
+  "Seamless Protocol",
+  "Send (0xsend)",
   "Sequence",
   "Silo Finance",
   "Sonne Finance",
   "Spruce",
+  "Stack",
   "Starbase",
-  "Stargate",
   "Stryke.xyz",
+  "Summer.fi",
   "Superform",
   "SweeprFi",
   "Syndicate",
   "SynFutures",
   "Synthetix",
+  "Tableland",
   "Talent Protocol",
   "Team Finance",
   "Tenderly",
   "Timeswap",
+  "Tokemak",
   "Tokenbound",
   "UNCX",
   "Unlock Protocol",
   "Velocimeter",
   "Vertex Protocol",
-  "vfat.tools",
   "VMEX Finance",
   "Volmex",
   "Voodoo Trade",
   "WBTC",
   "Wenwin",
   "yearn.finance",
-  "Zapper",
   "ZeroLend",
-  "zkLink Protocol",
+  "ZK Email",
   "Zoo Labs Foundatin",
   "Zora",
 ]
@@ -123,7 +129,6 @@ sub_ecosystems = [
 github_organizations = ["https://github.com/base-org", "https://github.com/coinbase"]
 
 # Repositories
-
 [[repo]]
 url = "https://github.com/0x-shanks/farme"
 
@@ -184,9 +189,6 @@ url = "https://github.com/0xOucan/MiPlata"
 
 [[repo]]
 url = "https://github.com/0xpepperhq/v1-prediction-protocol"
-
-[[repo]]
-url = "https://github.com/0xsend/sendapp"
 
 [[repo]]
 url = "https://github.com/0xsequence/contracts-library"
@@ -321,9 +323,6 @@ url = "https://github.com/acgodson/chowlive-africa"
 url = "https://github.com/across-protocol/contracts"
 
 [[repo]]
-url = "https://github.com/across-protocol/relayer"
-
-[[repo]]
 url = "https://github.com/across-protocol/sdk"
 
 [[repo]]
@@ -451,6 +450,7 @@ url = "https://github.com/AlexanderMartinezz/La-Madriguera"
 
 [[repo]]
 url = "https://github.com/alexchenzl/metacast"
+missing = true
 
 [[repo]]
 url = "https://github.com/alexchenzl/metacast-pipeline"
@@ -497,9 +497,6 @@ url = "https://github.com/aman-tiwari001/KrishiCoin"
 
 [[repo]]
 url = "https://github.com/AmazingAng/BatchMoney"
-
-[[repo]]
-url = "https://github.com/AmbireTech/wallet"
 
 [[repo]]
 url = "https://github.com/Amet-Finance/contracts"
@@ -562,6 +559,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/apexethdev/blobs-live"
+missing = true
 
 [[repo]]
 url = "https://github.com/apexethdev/dino_contracts"
@@ -574,9 +572,6 @@ url = "https://github.com/Apexloaded/dexa-pay-api"
 
 [[repo]]
 url = "https://github.com/Apexloaded/dexa-pay-contract"
-
-[[repo]]
-url = "https://github.com/api3dao/airnode"
 
 [[repo]]
 url = "https://github.com/api3dao/airseeker-v2"
@@ -606,16 +601,6 @@ url = "https://github.com/apikritch/travel-agent"
 url = "https://github.com/Apriloracle/BasedToe"
 
 [[repo]]
-url = "https://github.com/apsin8/HealthTrove"
-missing = true
-
-[[repo]]
-url = "https://github.com/aragon/app"
-
-[[repo]]
-url = "https://github.com/aragon/osx"
-
-[[repo]]
 url = "https://github.com/arcadia-finance/accounts-v2"
 
 [[repo]]
@@ -637,6 +622,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/argenestel/hashpredict-base-ai"
+missing = true
 
 [[repo]]
 url = "https://github.com/arka-kxqi/Eco-Crypto-Synergy"
@@ -696,7 +682,7 @@ url = "https://github.com/Avantis-Labs/avantis-smart-contracts"
 url = "https://github.com/Ayushjain2205/base-onchain-summer"
 
 [[repo]]
-url = "https://github.com/ayushjain2205/based-india"
+url = "https://github.com/Ayushjain2205/based-india"
 
 [[repo]]
 url = "https://github.com/ayushsingh82/Cross-Chain-Invoice"
@@ -728,6 +714,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/BalanaguYashwanth/crazyforms"
+missing = true
 
 [[repo]]
 url = "https://github.com/balancer/b-sdk"
@@ -737,15 +724,6 @@ url = "https://github.com/balancer/backend"
 
 [[repo]]
 url = "https://github.com/balancer/balancer-sdk"
-
-[[repo]]
-url = "https://github.com/balancer/balancer-subgraph-v2"
-
-[[repo]]
-url = "https://github.com/balancer/balancer-v2-monorepo"
-
-[[repo]]
-url = "https://github.com/balancer/frontend-v2"
 
 [[repo]]
 url = "https://github.com/baldfinance/frontend"
@@ -782,6 +760,9 @@ url = "https://github.com/base-org/contracts"
 
 [[repo]]
 url = "https://github.com/base-org/eip712sign"
+
+[[repo]]
+url = "https://github.com/base-org/fault-proof-monitors"
 
 [[repo]]
 url = "https://github.com/base-org/FCL-ecdsa-verify-audit"
@@ -1057,10 +1038,6 @@ url = "https://github.com/c1scott/webskey-eth-scaffold-base"
 url = "https://github.com/capGoblin/skillVouchDAO"
 
 [[repo]]
-url = "https://github.com/Captain-awesome619/stablefl"
-missing = true
-
-[[repo]]
 url = "https://github.com/CaptainMasala/onchainart"
 
 [[repo]]
@@ -1096,6 +1073,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/chaalpritam/Tribe"
+missing = true
 
 [[repo]]
 url = "https://github.com/chandrabosep/monalizard-summer-buildthon"
@@ -1114,7 +1092,7 @@ url = "https://github.com/cheazycheaz/Sparkl"
 missing = true
 
 [[repo]]
-url = "https://github.com/Chinaskidev/website-sivarsmile"
+url = "https://github.com/Chinaskidev/Dapp-SivarETH"
 
 [[repo]]
 url = "https://github.com/Chrisegbaaaibon/onchain-buildhathon"
@@ -1232,6 +1210,9 @@ url = "https://github.com/coinbase/cbpay-js"
 
 [[repo]]
 url = "https://github.com/coinbase/CBTabViewExample"
+
+[[repo]]
+url = "https://github.com/coinbase/cdp-agentkit"
 
 [[repo]]
 url = "https://github.com/coinbase/cdp-sdk-python"
@@ -1450,10 +1431,6 @@ url = "https://github.com/coinbase/homebrew-assume-role"
 url = "https://github.com/coinbase/homebrew-cdpcurl"
 
 [[repo]]
-url = "https://github.com/coinbase/infra-heimdall-testing"
-missing = true
-
-[[repo]]
 url = "https://github.com/coinbase/kibana_url"
 
 [[repo]]
@@ -1518,6 +1495,12 @@ url = "https://github.com/coinbase/odin"
 
 [[repo]]
 url = "https://github.com/coinbase/omniauth-coinbase"
+
+[[repo]]
+url = "https://github.com/coinbase/onchain-agent-demo"
+
+[[repo]]
+url = "https://github.com/coinbase/onchain-agent-demo-backend"
 
 [[repo]]
 url = "https://github.com/coinbase/onchain-app-template"
@@ -1746,14 +1729,6 @@ url = "https://github.com/Crowdmuse/contracts"
 url = "https://github.com/Crypto-Grizzly/Onchain-Summer-Buildathon"
 
 [[repo]]
-url = "https://github.com/cryptosharpei/TrustLoan"
-missing = true
-
-[[repo]]
-url = "https://github.com/CryptoSmartNow/bs_base"
-missing = true
-
-[[repo]]
 url = "https://github.com/Custos-Diretriz/custos-contracts"
 
 [[repo]]
@@ -1838,7 +1813,7 @@ url = "https://github.com/dappadapp/dappgate-contracts"
 url = "https://github.com/dappadapp/dappgate-frontend"
 
 [[repo]]
-url = "https://github.com/darthbenro008/splitsure"
+url = "https://github.com/DarthBenro008/splitsure"
 
 [[repo]]
 url = "https://github.com/datalatte-ai/onchainsummer"
@@ -1860,6 +1835,7 @@ url = "https://github.com/dcast-media/dsponsor-subgraph"
 
 [[repo]]
 url = "https://github.com/debianchef/agriloom"
+missing = true
 
 [[repo]]
 url = "https://github.com/debridge-finance/debridge-contracts-v1"
@@ -2113,9 +2089,6 @@ url = "https://github.com/Entity54/OCS-Webhooks-Server"
 url = "https://github.com/enviodev/velodrome-indexer"
 
 [[repo]]
-url = "https://github.com/eth-infinitism/account-abstraction"
-
-[[repo]]
 url = "https://github.com/ethereumfollowprotocol/app"
 
 [[repo]]
@@ -2239,6 +2212,9 @@ url = "https://github.com/FTCHD/frametrain"
 url = "https://github.com/ftm1337/equalizer-exchange-core"
 
 [[repo]]
+url = "https://github.com/futreall/crypto-address-generator"
+
+[[repo]]
 url = "https://github.com/fxhash/fxhash-evm-core"
 missing = true
 
@@ -2295,6 +2271,7 @@ url = "https://github.com/gfx-labs/uniswap-v3-limit-orders"
 
 [[repo]]
 url = "https://github.com/ggeese/GG-repo"
+missing = true
 
 [[repo]]
 url = "https://github.com/ghgoodreau/ritual-haiku-contract"
@@ -2376,9 +2353,6 @@ url = "https://github.com/Giveth/giveth-cowswap"
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-dapp"
-
-[[repo]]
-url = "https://github.com/Giveth/giveth-dapps-v2"
 
 [[repo]]
 url = "https://github.com/Giveth/giveth-docs"
@@ -2463,9 +2437,6 @@ url = "https://github.com/Giveth/yogatoken"
 
 [[repo]]
 url = "https://github.com/Gloom-Labs/contracts"
-
-[[repo]]
-url = "https://github.com/gnars-dao/gnars-docs"
 
 [[repo]]
 url = "https://github.com/gnars-dao/gnars-frontend"
@@ -2704,12 +2675,10 @@ url = "https://github.com/hoanhan101/yourbrians"
 
 [[repo]]
 url = "https://github.com/hoepeyemi/basearps"
+missing = true
 
 [[repo]]
 url = "https://github.com/holic/ethfs"
-
-[[repo]]
-url = "https://github.com/holographxyz/holograph-protocol"
 
 [[repo]]
 url = "https://github.com/holova/Framemaker"
@@ -2736,10 +2705,6 @@ url = "https://github.com/Humanos-App/Hackaton"
 url = "https://github.com/hung-ngm/zk-energy-crowdfund"
 
 [[repo]]
-url = "https://github.com/HuoHuanjia/Podit-stacks"
-missing = true
-
-[[repo]]
 url = "https://github.com/hurley87/wild-road"
 
 [[repo]]
@@ -2753,9 +2718,6 @@ url = "https://github.com/HyperGood/woosh-contracts"
 
 [[repo]]
 url = "https://github.com/HyperGood/woosh-wallet"
-
-[[repo]]
-url = "https://github.com/hyperlane-xyz/hyperlane-monorepo"
 
 [[repo]]
 url = "https://github.com/hyphenwave/keren"
@@ -2852,10 +2814,6 @@ url = "https://github.com/ionicprotocol/points-tracker"
 url = "https://github.com/Iqbalfachry19/SertifyMe"
 
 [[repo]]
-url = "https://github.com/irfan-files/uploadNFT"
-missing = true
-
-[[repo]]
 url = "https://github.com/issa-me-sush/onchain-summer-2024"
 
 [[repo]]
@@ -2936,10 +2894,8 @@ url = "https://github.com/Jhekub/Building-Blocks"
 url = "https://github.com/jhinnbay/MentalWealthAcademy"
 
 [[repo]]
-url = "https://github.com/jiffy-labs/jiffyscan-frontend"
-
-[[repo]]
 url = "https://github.com/jjesusaf/sherry-base"
+missing = true
 
 [[repo]]
 url = "https://github.com/jk-labs-inc/jokerace"
@@ -2992,6 +2948,7 @@ url = "https://github.com/jvaleskadevs/magic-machine"
 
 [[repo]]
 url = "https://github.com/Kali-Decoder/BuzziFy"
+missing = true
 
 [[repo]]
 url = "https://github.com/kamalbuilds/base-copy-trading-bot"
@@ -3083,6 +3040,7 @@ url = "https://github.com/Kryptofly/ChainTrust"
 
 [[repo]]
 url = "https://github.com/KryptoNights/adgraph"
+missing = true
 
 [[repo]]
 url = "https://github.com/kumosoukai/RaffleBase"
@@ -3142,9 +3100,6 @@ url = "https://github.com/layerswap/layerswapapp"
 
 [[repo]]
 url = "https://github.com/LayerZero-Labs/LayerZero"
-
-[[repo]]
-url = "https://github.com/LayerZero-Labs/LayerZero-v2"
 
 [[repo]]
 url = "https://github.com/layinka/storefront"
@@ -3493,10 +3448,6 @@ url = "https://github.com/MonsterXLabs/VaultX_Frontend"
 url = "https://github.com/moonstream-to/degen-trail"
 
 [[repo]]
-url = "https://github.com/moonwalkerdadik/Arbitr"
-missing = true
-
-[[repo]]
 url = "https://github.com/moonwell-fi/moonwell-contracts-v2"
 
 [[repo]]
@@ -3510,9 +3461,6 @@ url = "https://github.com/Morkiexyz/contracts"
 
 [[repo]]
 url = "https://github.com/Morkiexyz/Morkie"
-
-[[repo]]
-url = "https://github.com/MorpheusAIs/Docs"
 
 [[repo]]
 url = "https://github.com/MorpheusAIs/SmartContracts"
@@ -3599,9 +3547,6 @@ url = "https://github.com/MYSTCL/myst-public"
 
 [[repo]]
 url = "https://github.com/n0umen0n/basecryptofund"
-
-[[repo]]
-url = "https://github.com/Namanedogawa/crypto-address-generator"
 
 [[repo]]
 url = "https://github.com/narteysarso/cryptomomo-base"
@@ -3741,6 +3686,7 @@ url = "https://github.com/nthing2say/GenTree"
 
 [[repo]]
 url = "https://github.com/nullishstudio/onentry.io"
+missing = true
 
 [[repo]]
 url = "https://github.com/nutsfinance/pike-protocol"
@@ -3753,9 +3699,6 @@ url = "https://github.com/nymtech/sphinx"
 
 [[repo]]
 url = "https://github.com/OasisDEX/defi-position-manager-smartcontracts"
-
-[[repo]]
-url = "https://github.com/OasisDEX/oasis-earn-sc"
 
 [[repo]]
 url = "https://github.com/odos-xyz/odos-router-v2"
@@ -3892,10 +3835,6 @@ url = "https://github.com/ourzora/nouns-protocol"
 url = "https://github.com/ourzora/zora-protocol"
 
 [[repo]]
-url = "https://github.com/ovnstable/ovnstable-core"
-missing = true
-
-[[repo]]
 url = "https://github.com/ovnstable/ovnstable-dapp-new"
 missing = true
 
@@ -3937,10 +3876,6 @@ url = "https://github.com/paditech-jsc/metafe_sc"
 url = "https://github.com/palet-global/palma.py"
 
 [[repo]]
-url = "https://github.com/panterabeast/DocumentVerifier"
-missing = true
-
-[[repo]]
 url = "https://github.com/Paradox1188/lil-token-Contracts"
 
 [[repo]]
@@ -3954,9 +3889,6 @@ url = "https://github.com/ParallaxNetwork/charit3"
 
 [[repo]]
 url = "https://github.com/paraswap/augustus-v5"
-
-[[repo]]
-url = "https://github.com/paraswap/paraswap-dex-lib"
 
 [[repo]]
 url = "https://github.com/paraswap/paraswap-sdk"
@@ -4089,6 +4021,7 @@ url = "https://github.com/PopPunkLLC/GasliteDrop"
 
 [[repo]]
 url = "https://github.com/portals-fi/portals-sc"
+missing = true
 
 [[repo]]
 url = "https://github.com/PoulavBhowmick03/onchain"
@@ -4125,9 +4058,6 @@ url = "https://github.com/Pricstas/Durak"
 
 [[repo]]
 url = "https://github.com/PRINT3Rxyz/V1-Contracts"
-
-[[repo]]
-url = "https://github.com/privacy-scaling-explorations/maci"
 
 [[repo]]
 url = "https://github.com/priyanshur66/referware"
@@ -4199,9 +4129,6 @@ url = "https://github.com/raptor042/Trybe-CA"
 url = "https://github.com/raptor0929/Andes-Finance"
 
 [[repo]]
-url = "https://github.com/rarible/sdk"
-
-[[repo]]
 url = "https://github.com/ravstechnology/Bounty_Market"
 
 [[repo]]
@@ -4263,9 +4190,6 @@ missing = true
 [[repo]]
 url = "https://github.com/RitualsHQ/rituals-sdk"
 missing = true
-
-[[repo]]
-url = "https://github.com/river-build/river"
 
 [[repo]]
 url = "https://github.com/rmrk-team/evm"
@@ -4332,9 +4256,6 @@ url = "https://github.com/saadiq/wandermarks"
 missing = true
 
 [[repo]]
-url = "https://github.com/sablier-labs/v2-core"
-
-[[repo]]
 url = "https://github.com/sahar0123/sahartoken"
 
 [[repo]]
@@ -4377,18 +4298,13 @@ url = "https://github.com/sasha-korzh/nfterio"
 
 [[repo]]
 url = "https://github.com/satyasandeep007/devfund"
+missing = true
 
 [[repo]]
 url = "https://github.com/saudkhanbpk/youblockchainer-webapp"
 
 [[repo]]
 url = "https://github.com/sbauch/speedtracer-contracts"
-
-[[repo]]
-url = "https://github.com/scaffold-eth/scaffold-eth"
-
-[[repo]]
-url = "https://github.com/scaffold-eth/scaffold-eth-2"
 
 [[repo]]
 url = "https://github.com/scaffold-eth/se-2-challenges"
@@ -4401,13 +4317,6 @@ url = "https://github.com/Scooper-Labs/asset-scooper-2"
 
 [[repo]]
 url = "https://github.com/Scooper-Labs/asset-scooper-interface"
-
-[[repo]]
-url = "https://github.com/ScopeLift/umbra-protocol"
-
-[[repo]]
-url = "https://github.com/ScriptPythonic/Promoat"
-missing = true
 
 [[repo]]
 url = "https://github.com/ScryProtocol/Contracts"
@@ -4584,6 +4493,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/speedily/easyb"
+missing = true
 
 [[repo]]
 url = "https://github.com/spenciefy/step-fun"
@@ -4688,9 +4598,6 @@ url = "https://github.com/sunsetlover36/based-basketball-association"
 url = "https://github.com/sunshinevendetta/storebase"
 
 [[repo]]
-url = "https://github.com/superfluid-finance/protocol-monorepo"
-
-[[repo]]
 url = "https://github.com/supermigrate/base-migrate"
 
 [[repo]]
@@ -4756,16 +4663,10 @@ url = "https://github.com/synapsecns/sanguine"
 url = "https://github.com/SynonymFinance/smart-contracts-public"
 
 [[repo]]
-url = "https://github.com/Synthetixio/synthetix"
-
-[[repo]]
 url = "https://github.com/Synthetixio/synthetix-v3"
 
 [[repo]]
 url = "https://github.com/t0lia/RetypeMe"
-
-[[repo]]
-url = "https://github.com/tablelandnetwork/docs"
 
 [[repo]]
 url = "https://github.com/Taher2512/CarbonDEX"
@@ -4827,10 +4728,6 @@ url = "https://github.com/thales-markets/thales-dapp"
 url = "https://github.com/thales-markets/thales-io-dapp"
 
 [[repo]]
-url = "https://github.com/ThaneZone/base-hackathon"
-missing = true
-
-[[repo]]
 url = "https://github.com/theapesociety/onboardfun"
 
 [[repo]]
@@ -4865,10 +4762,6 @@ url = "https://github.com/therealharpaljadeja/zora-cart-extension"
 
 [[repo]]
 url = "https://github.com/theSchein/bets-with-friends"
-
-[[repo]]
-url = "https://github.com/Tickether/3-wheeler-bike-club"
-missing = true
 
 [[repo]]
 url = "https://github.com/Tickether/pooltogether-africa-aa-ens"
@@ -4916,7 +4809,8 @@ url = "https://github.com/tomasandroil/BaseCryptoQuest"
 url = "https://github.com/tomathyg/sof-cms-contentful-app"
 
 [[repo]]
-url = "https://github.com/tomi204/lander"
+url = "https://github.com/tomi204/Lander"
+missing = true
 
 [[repo]]
 url = "https://github.com/Tonchu-Furyan/042"
@@ -4956,14 +4850,6 @@ url = "https://github.com/trugly-labs/contracts-v1"
 
 [[repo]]
 url = "https://github.com/trumen-world/react-native-smart-wallet-connector"
-missing = true
-
-[[repo]]
-url = "https://github.com/Trust-Fund-App/Mobile-App"
-missing = true
-
-[[repo]]
-url = "https://github.com/Trust-Fund-App/smart-contrct"
 missing = true
 
 [[repo]]
@@ -5013,9 +4899,11 @@ url = "https://github.com/us3r-network/frames.degencast"
 
 [[repo]]
 url = "https://github.com/V-Blaze/Fllow-backend"
+missing = true
 
 [[repo]]
 url = "https://github.com/V-Blaze/Fllow-frontend"
+missing = true
 
 [[repo]]
 url = "https://github.com/vacuumlabs/settlebeef"
@@ -5066,6 +4954,7 @@ url = "https://github.com/victxx/Caminos"
 
 [[repo]]
 url = "https://github.com/Vikash-8090-Yadav/Base-Club"
+missing = true
 
 [[repo]]
 url = "https://github.com/Vikash-8090-Yadav/Finder"
@@ -5116,9 +5005,6 @@ url = "https://github.com/waitingcheung/blockpad"
 
 [[repo]]
 url = "https://github.com/wanshade/agrofund"
-
-[[repo]]
-url = "https://github.com/warden-protocol/wardenprotocol"
 
 [[repo]]
 url = "https://github.com/warrenshiv/base-init"
@@ -5435,10 +5321,6 @@ url = "https://github.com/zCryptoGod/SimpleToken"
 url = "https://github.com/Zeegaths/Strimz"
 
 [[repo]]
-url = "https://github.com/zeneca-app/zeneca-based"
-missing = true
-
-[[repo]]
 url = "https://github.com/zeriontech/defi-sdk"
 
 [[repo]]
@@ -5458,9 +5340,6 @@ url = "https://github.com/Zhixuan0318/AutoBase"
 url = "https://github.com/ZK-solidity-army/farcaster_lottery"
 
 [[repo]]
-url = "https://github.com/zkemail/zk-email-verify"
-
-[[repo]]
 url = "https://github.com/zkp2p/zk-p2p"
 
 [[repo]]
@@ -5477,3 +5356,4 @@ url = "https://github.com/zuni-lab/zuni-smart-vault"
 
 [[repo]]
 url = "https://github.com/zwergdev/whale-bridge"
+missing = true

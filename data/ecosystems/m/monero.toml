@@ -1,19 +1,11 @@
 # Ecosystem Level Information
 title = "Monero"
 
-sub_ecosystems = [
-  "Cake Labs",
-  "darkfi",
-  "Edge",
-  "Equilibria",
-  "Incognito Chain",
-  "Serai DEX",
-  "Tari",
-]
+sub_ecosystems = ["Cake Labs", "darkfi", "Edge", "Equilibria", "Haveno DEX", "Serai DEX", "Tari"]
 
 github_organizations = [
-  "https://github.com/farcaster-project",
   "https://github.com/monero-ecosystem",
+  "https://github.com/monero-project",
   "https://github.com/monero-rs",
   "https://github.com/monerobook",
   "https://github.com/mymonero",
@@ -589,6 +581,15 @@ url = "https://github.com/monero-integrations/monerowhmcs"
 url = "https://github.com/monero-integrations/monerowp"
 
 [[repo]]
+url = "https://github.com/monero-project/gitian.sigs"
+
+[[repo]]
+url = "https://github.com/monero-project/guix"
+
+[[repo]]
+url = "https://github.com/monero-project/guix.sigs"
+
+[[repo]]
 url = "https://github.com/monero-project/kastelo"
 tags = ["Wallet"]
 
@@ -597,6 +598,9 @@ url = "https://github.com/monero-project/kovri"
 
 [[repo]]
 url = "https://github.com/monero-project/kovri-docs"
+
+[[repo]]
+url = "https://github.com/monero-project/kovri-site"
 
 [[repo]]
 url = "https://github.com/monero-project/meta"
@@ -612,10 +616,19 @@ url = "https://github.com/monero-project/monero"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/monero-project/monero-docs"
+
+[[repo]]
+url = "https://github.com/monero-project/monero-downloads"
+
+[[repo]]
 url = "https://github.com/monero-project/monero-forum"
 
 [[repo]]
 url = "https://github.com/monero-project/monero-gui"
+
+[[repo]]
+url = "https://github.com/monero-project/monero-site"
 
 [[repo]]
 url = "https://github.com/monero-project/research-lab"

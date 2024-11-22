@@ -3,30 +3,31 @@ title = "Scroll"
 
 sub_ecosystems = [
   "10K Swap",
-  "4EVERLAND",
+  "3cities",
   "Aboard Exchange",
   "Ambient",
-  "Ankr",
   "Aperture Finance",
   "Atlas",
   "Automata",
   "BlockPi Network",
   "BlockWallet",
-  "Bware Labs",
+  "BrahmaFi",
+  "Bubble Protocol",
   "Carrot",
   "CARV Protocol",
-  "Chainbase",
   "Chainstack",
   "Charm Finance",
-  "Chronicle Protocol",
   "Coin98",
   "Compound",
   "Contango",
   "Crust Network",
   "Cyberconnect",
+  "DB3",
   "Dego Finance",
   "dForce",
+  "DZap",
   "Eigen Network",
+  "ether.fi",
   "Ethereum Attestation Service",
   "Fileverse",
   "FoxWallet",
@@ -34,12 +35,12 @@ sub_ecosystems = [
   "HAPI",
   "Hats Finance",
   "HippoSpace (HippoSwap)",
-  "Hop Protocol",
   "imToken",
   "InstaDApp",
   "Irys (prev Bundlr)",
   "ISSUAA",
   "LayerBank",
+  "Maci",
   "Masa Finance",
   "Mask Network",
   "Maverick Protocol",
@@ -54,40 +55,37 @@ sub_ecosystems = [
   "OmniBTC",
   "Omnisea",
   "OpenLeverage",
-  "Pell Network",
-  "Pendle",
+  "Passport XYZ",
+  "Pencils Protocol",
   "Poolshark Protocol",
-  "Privy",
+  "Primus Labs (Pado)",
   "QuestBook",
   "QuestN",
   "Rango Exchange",
   "Rho Markets",
   "Rubic",
-  "Sablier Finance",
+  "RubyScore",
   "Safeheron",
   "SaluS",
   "Satori",
   "Second Live",
   "Seedify.fund",
-  "sentio.xyz",
   "Sign",
   "Sommelier",
   "Soul Wallet",
-  "Stargate",
   "Symmetry",
   "SyncSwap",
   "SynFutures",
-  "TokenPocket",
   "Tranchess",
   "Transit Finance",
   "Unlock Protocol",
   "Witnet",
   "Wombat Exchange",
   "WOWswap",
-  "XDEFI Technologies",
   "zCloak Network",
   "Zerion",
   "zkRollups.xyz",
+  "Zypher Games",
 ]
 
 github_organizations = ["https://github.com/scroll-tech"]
@@ -130,6 +128,9 @@ url = "https://github.com/0xdegencapital/zksync-example"
 
 [[repo]]
 url = "https://github.com/0xDononymous/dononymous"
+
+[[repo]]
+url = "https://github.com/0xEigenLabs/eigen-secret"
 
 [[repo]]
 url = "https://github.com/0xFabioM/ethlisbon"
@@ -329,6 +330,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/alade-dev/Blockpass"
+missing = true
 
 [[repo]]
 url = "https://github.com/AlbertSu123/dynamicstableswap-contracts"
@@ -1593,6 +1595,7 @@ url = "https://github.com/Jaydip-lamprostech/yieldify"
 
 [[repo]]
 url = "https://github.com/jbgoldman1104/pancakeswap-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/jbgoldman1104/Pancakeswap-v3-frontend"
@@ -2554,9 +2557,6 @@ url = "https://github.com/prettyirrelevant/contractwatch"
 url = "https://github.com/Principatel/Smart-Portal"
 
 [[repo]]
-url = "https://github.com/privacy-scaling-explorations/maci"
-
-[[repo]]
 url = "https://github.com/PrivateGuardian-protocol/PrivateGuardian"
 
 [[repo]]
@@ -2902,7 +2902,13 @@ url = "https://github.com/scroll-tech/canvas-contracts"
 url = "https://github.com/scroll-tech/Casper"
 
 [[repo]]
+url = "https://github.com/scroll-tech/ceno"
+
+[[repo]]
 url = "https://github.com/scroll-tech/ceno-Goldilocks"
+
+[[repo]]
+url = "https://github.com/scroll-tech/ceno-recursion"
 
 [[repo]]
 url = "https://github.com/scroll-tech/centre-tokens"
@@ -2926,6 +2932,9 @@ url = "https://github.com/scroll-tech/da-codec"
 url = "https://github.com/scroll-tech/dev-portal"
 tags = ["Protocol"]
 missing = true
+
+[[repo]]
+url = "https://github.com/scroll-tech/devcon-l1sload-workshop"
 
 [[repo]]
 url = "https://github.com/scroll-tech/developer-documentation"
@@ -3153,6 +3162,12 @@ url = "https://github.com/scroll-tech/scroll-proving-sdk"
 url = "https://github.com/scroll-tech/scroll-revm"
 
 [[repo]]
+url = "https://github.com/scroll-tech/scroll-sdk"
+
+[[repo]]
+url = "https://github.com/scroll-tech/scroll-sdk-cli"
+
+[[repo]]
 url = "https://github.com/scroll-tech/scroll-zkevm"
 tags = ["Protocol"]
 
@@ -3215,6 +3230,9 @@ tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/scroll-tech/web3signer"
+
+[[repo]]
+url = "https://github.com/scroll-tech/whir"
 
 [[repo]]
 url = "https://github.com/scroll-tech/zk-mooc-halo2"
@@ -3347,6 +3365,7 @@ url = "https://github.com/Shout-Protocol/shout-protocol-repos"
 
 [[repo]]
 url = "https://github.com/shreyan001/crossfolio"
+missing = true
 
 [[repo]]
 url = "https://github.com/shreyan001/glok-dapp"
@@ -3702,9 +3721,6 @@ url = "https://github.com/Trojanhorse7/scrollgenesis"
 
 [[repo]]
 url = "https://github.com/TrustDrei/frontend-trustdrei"
-
-[[repo]]
-url = "https://github.com/TrustWallet/wallet-core"
 
 [[repo]]
 url = "https://github.com/tulikah22/Survey-Donkey"

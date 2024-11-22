@@ -3,14 +3,33 @@ title = "Curve"
 
 sub_ecosystems = ["Votium"]
 
-github_organizations = ["https://github.com/curvefi"]
+github_organizations = [
+  "https://github.com/CurveDocs",
+  "https://github.com/curvefi",
+  "https://github.com/curveresearch",
+]
 
 # Repositories
+[[repo]]
+url = "https://github.com/CurveDocs/curve-docs"
+
+[[repo]]
+url = "https://github.com/CurveDocs/curve-docs-landing"
+
+[[repo]]
+url = "https://github.com/CurveDocs/curve-notebook"
+
+[[repo]]
+url = "https://github.com/CurveDocs/curve-resources"
+
 [[repo]]
 url = "https://github.com/curvefi/airdrop_escrow"
 
 [[repo]]
 url = "https://github.com/curvefi/announcements"
+
+[[repo]]
+url = "https://github.com/curvefi/autobribe"
 
 [[repo]]
 url = "https://github.com/curvefi/boa-tutorial"
@@ -54,6 +73,9 @@ url = "https://github.com/curvefi/cryptopool-simulator"
 url = "https://github.com/curvefi/curve-api"
 
 [[repo]]
+url = "https://github.com/curvefi/curve-api-core"
+
+[[repo]]
 url = "https://github.com/curvefi/curve-api-metadata"
 
 [[repo]]
@@ -77,6 +99,9 @@ tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/curvefi/curve-contract-polygon"
+
+[[repo]]
+url = "https://github.com/curvefi/curve-core"
 
 [[repo]]
 url = "https://github.com/curvefi/curve-cross-asset-swaps"
@@ -127,6 +152,9 @@ url = "https://github.com/curvefi/curve-lending-js"
 
 [[repo]]
 url = "https://github.com/curvefi/curve-letters"
+
+[[repo]]
+url = "https://github.com/curvefi/curve-lite"
 
 [[repo]]
 url = "https://github.com/curvefi/curve-measure-profit"
@@ -212,10 +240,16 @@ url = "https://github.com/curvefi/early-user-distribution"
 url = "https://github.com/curvefi/ethcall"
 
 [[repo]]
+url = "https://github.com/curvefi/fee-splitter"
+
+[[repo]]
 url = "https://github.com/curvefi/lending-amm-model"
 
 [[repo]]
 url = "https://github.com/curvefi/liquidation-demo"
+
+[[repo]]
+url = "https://github.com/curvefi/llamalend-telegram-bot"
 
 [[repo]]
 url = "https://github.com/curvefi/llamma-simulator"
@@ -233,6 +267,9 @@ url = "https://github.com/curvefi/mint-test-tokens"
 url = "https://github.com/curvefi/multi-rewards"
 
 [[repo]]
+url = "https://github.com/curvefi/scrvusd"
+
+[[repo]]
 url = "https://github.com/curvefi/security-incident-reports"
 
 [[repo]]
@@ -242,7 +279,13 @@ url = "https://github.com/curvefi/snapshot"
 url = "https://github.com/curvefi/stableswap-ng"
 
 [[repo]]
+url = "https://github.com/curvefi/stcrvusd"
+
+[[repo]]
 url = "https://github.com/curvefi/third-party-vault-oracles"
+
+[[repo]]
+url = "https://github.com/curvefi/titanoboa"
 
 [[repo]]
 url = "https://github.com/curvefi/tricrypto-ng"
@@ -268,3 +311,24 @@ url = "https://github.com/curvefi/vyper-tutorial"
 
 [[repo]]
 url = "https://github.com/curvefi/waves-curve-js"
+
+[[repo]]
+url = "https://github.com/curveresearch/curveresearch.github.io"
+
+[[repo]]
+url = "https://github.com/curveresearch/curvesim"
+
+[[repo]]
+url = "https://github.com/curveresearch/notes"
+
+[[repo]]
+url = "https://github.com/curveresearch/oracle_manipulation"
+
+[[repo]]
+url = "https://github.com/curveresearch/plots"
+
+[[repo]]
+url = "https://github.com/curveresearch/stableswap-param-upkeep"
+
+[[repo]]
+url = "https://github.com/curveresearch/usdc_depeg_plots"

@@ -2,36 +2,43 @@
 title = "Boba (OMG Network)"
 
 sub_ecosystems = [
-  "Across Protocol",
   "Autofarm Network",
   "Beamer",
   "Bridge Network",
-  "Celer Network cBridge",
-  "Connext Network",
   "Cruzo",
-  "DIA",
-  "DODO",
   "Guild.xyz",
   "Impossible Finance",
   "Olympus DAO",
   "OoolongSwap",
   "Orbiter Finance",
   "Owl Protocol",
-  "Redstone Finance",
   "Ricochet Exchange",
-  "Sushi Swap",
-  "Symbiosis Finance",
-  "Synapse Protocol",
   "Trustified Network",
-  "UMA",
-  "Witnet",
 ]
 
 github_organizations = ["https://github.com/bobanetwork", "https://github.com/omgnetwork"]
 
 # Repositories
 [[repo]]
+url = "https://github.com/bobanetwork/aa-hc-CallCaster"
+
+[[repo]]
+url = "https://github.com/bobanetwork/aa-hc-CodeCaster"
+
+[[repo]]
 url = "https://github.com/bobanetwork/aa-hc-example"
+
+[[repo]]
+url = "https://github.com/bobanetwork/aa-hc-examples-py"
+
+[[repo]]
+url = "https://github.com/bobanetwork/aa-hc-PresiBot"
+
+[[repo]]
+url = "https://github.com/bobanetwork/aa-hc-sdk"
+
+[[repo]]
+url = "https://github.com/bobanetwork/aa-hc-text2call"
 
 [[repo]]
 url = "https://github.com/bobanetwork/account-abstraction"
@@ -44,6 +51,9 @@ missing = true
 url = "https://github.com/bobanetwork/aws-kms"
 
 [[repo]]
+url = "https://github.com/bobanetwork/aws-otel-collector"
+
+[[repo]]
 url = "https://github.com/bobanetwork/blocks-subgraph"
 
 [[repo]]
@@ -52,6 +62,9 @@ url = "https://github.com/bobanetwork/blockscout"
 [[repo]]
 url = "https://github.com/bobanetwork/boba"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/bobanetwork/boba-blockchain-busters"
 
 [[repo]]
 url = "https://github.com/bobanetwork/boba-cross-chain-bridges"
@@ -72,6 +85,9 @@ url = "https://github.com/bobanetwork/boba_legacy"
 url = "https://github.com/bobanetwork/bundler"
 
 [[repo]]
+url = "https://github.com/bobanetwork/bundler-test-executor"
+
+[[repo]]
 url = "https://github.com/bobanetwork/chainlist"
 
 [[repo]]
@@ -85,6 +101,9 @@ url = "https://github.com/bobanetwork/ethereum-optimism.github.io"
 
 [[repo]]
 url = "https://github.com/bobanetwork/ethereum-subql-starter"
+
+[[repo]]
+url = "https://github.com/bobanetwork/ethers-rs"
 
 [[repo]]
 url = "https://github.com/bobanetwork/Faucet"
@@ -111,6 +130,12 @@ url = "https://github.com/bobanetwork/graphql-utils"
 url = "https://github.com/bobanetwork/hackathons"
 
 [[repo]]
+url = "https://github.com/bobanetwork/halo2_gadget"
+
+[[repo]]
+url = "https://github.com/bobanetwork/halo2wrong"
+
+[[repo]]
 url = "https://github.com/bobanetwork/hardhat"
 
 [[repo]]
@@ -118,6 +143,9 @@ url = "https://github.com/bobanetwork/hc101-bobabase"
 
 [[repo]]
 url = "https://github.com/bobanetwork/HybridCompute_Tutorial"
+
+[[repo]]
+url = "https://github.com/bobanetwork/hyperlane-registry"
 
 [[repo]]
 url = "https://github.com/bobanetwork/interface"
@@ -150,19 +178,40 @@ url = "https://github.com/bobanetwork/op-erigon"
 url = "https://github.com/bobanetwork/op-erigon-diff"
 
 [[repo]]
+url = "https://github.com/bobanetwork/op-erigon-interfaces"
+
+[[repo]]
 url = "https://github.com/bobanetwork/op-geth"
+
+[[repo]]
+url = "https://github.com/bobanetwork/op-succinct"
 
 [[repo]]
 url = "https://github.com/bobanetwork/optimism"
 
 [[repo]]
+url = "https://github.com/bobanetwork/privacy-pools"
+
+[[repo]]
 url = "https://github.com/bobanetwork/reference-optimistic-geth"
+
+[[repo]]
+url = "https://github.com/bobanetwork/rundler-hc"
+
+[[repo]]
+url = "https://github.com/bobanetwork/safe-client-gateway"
+
+[[repo]]
+url = "https://github.com/bobanetwork/safe-config-service"
 
 [[repo]]
 url = "https://github.com/bobanetwork/safe-deployments"
 
 [[repo]]
 url = "https://github.com/bobanetwork/safe-eth-py"
+
+[[repo]]
+url = "https://github.com/bobanetwork/safe-events-service"
 
 [[repo]]
 url = "https://github.com/bobanetwork/safe-react"
@@ -178,6 +227,9 @@ url = "https://github.com/bobanetwork/safe-wallet-web"
 
 [[repo]]
 url = "https://github.com/bobanetwork/snap-account-abstraction-keyring"
+
+[[repo]]
+url = "https://github.com/bobanetwork/snap-account-abstraction-keyring-hc"
 
 [[repo]]
 url = "https://github.com/bobanetwork/starlight"

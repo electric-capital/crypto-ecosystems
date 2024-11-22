@@ -5,7 +5,6 @@ sub_ecosystems = [
   "Anchor Protocol",
   "Glow Yield",
   "Levana Protocol",
-  "Lido",
   "LoTerra",
   "Mars Protocol",
   "Miaw",
@@ -20,6 +19,7 @@ sub_ecosystems = [
   "Spar Protocol",
   "StarTerra",
   "Subsidium Digital",
+  "Synapse Protocol",
   "Terra World Token",
   "TerraLand Token",
   "Valkyrie Protocol",
@@ -35,12 +35,14 @@ github_organizations = [
 # Repositories
 [[repo]]
 url = "https://github.com/alecande11/station-qr-generator"
+missing = true
 
 [[repo]]
 url = "https://github.com/ALPAC-4/nft-market-contract"
 
 [[repo]]
 url = "https://github.com/ALPAC-4/terra-nft.js"
+missing = true
 
 [[repo]]
 url = "https://github.com/am-work/terra-homework"
@@ -288,6 +290,9 @@ url = "https://github.com/PFC-Validator/horcrux-container"
 
 [[repo]]
 url = "https://github.com/PFC-Validator/ibc-fees"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/inj-rebate"
 
 [[repo]]
 url = "https://github.com/PFC-Validator/injective-auction-pool"
@@ -832,6 +837,7 @@ url = "https://github.com/terra-money/terra-tutorials"
 
 [[repo]]
 url = "https://github.com/terra-money/terra-utils"
+missing = true
 
 [[repo]]
 url = "https://github.com/terra-money/terra-wallet-ios"

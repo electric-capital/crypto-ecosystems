@@ -1,11 +1,14 @@
 # Ecosystem Level Information
 title = "zkLink Protocol"
 
-sub_ecosystems = []
+sub_ecosystems = ["DeSyn Protocol", "iZUMi.finance", "LayerBank"]
 
 github_organizations = ["https://github.com/zkLinkProtocol"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/RockX-SG/stake"
+
 [[repo]]
 url = "https://github.com/zkLinkProtocol/advanced-circuit-component"
 
@@ -89,6 +92,9 @@ url = "https://github.com/zkLinkProtocol/link_aggregation_circuit"
 url = "https://github.com/zkLinkProtocol/lrt-points-distribute"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/magiclink-agent"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/nova-point-redistribute"
 
 [[repo]]
@@ -110,16 +116,31 @@ url = "https://github.com/zkLinkProtocol/public-api-docs"
 url = "https://github.com/zkLinkProtocol/recover_state_server"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/relayer"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/relayer_contracts"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/relayer_sdk"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/rescue-poseidon"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/routing-api"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/scw-contracts"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/stark_util"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/starknet-rs"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/test-mini-app-login"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zkjump-contract"
@@ -161,6 +182,9 @@ url = "https://github.com/zkLinkProtocol/zklink-homepage"
 missing = true
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-intent-url"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-js-sdk"
 
 [[repo]]
@@ -189,6 +213,9 @@ url = "https://github.com/zkLinkProtocol/zklink-nova-token-list"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-oracle"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-stake-contracts"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-starknet-contract-test"

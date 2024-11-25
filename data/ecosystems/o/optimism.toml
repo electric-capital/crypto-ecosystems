@@ -4,7 +4,6 @@ sub_ecosystems = [
   "123swap",
   "Aevo",
   "Alchemix",
-  "Allbridge",
   "Allo Protocol",
   "Alpha Homora",
   "Alps Finance",
@@ -18,15 +17,12 @@ sub_ecosystems = [
   "Balmy (formerly Mean Finance)",
   "bandada",
   "Beamer",
-  "Bedrock Technology",
   "Beethoven X",
   "BloFin Exchange",
   "BrahmaFi",
   "Bridge Network",
   "Cartesi",
-  "Chronicle Protocol",
   "Compound",
-  "Console Labs",
   "Contango",
   "Cora Protocol",
   "Crypto.com Chain",
@@ -34,10 +30,12 @@ sub_ecosystems = [
   "Curvance",
   "Decent DAO",
   "DeFi Saver",
+  "defi.money",
   "DeFiHelper",
   "Derive",
   "dHEDGE",
   "Distributed Lab",
+  "DZap",
   "Eigen Network",
   "Equilibria Finance",
   "Eyeseek",
@@ -46,6 +44,7 @@ sub_ecosystems = [
   "Furucombo",
   "Gearbox Protocol",
   "Giveth",
+  "Gnars Dao",
   "GoPlus",
   "Gravita Protocol",
   "Gyroscope",
@@ -60,12 +59,11 @@ sub_ecosystems = [
   "Ionic Protocol",
   "Kresko",
   "Kwenta",
-  "Lattice",
   "Lemma Finance",
   "Liquality",
   "Locus.finance",
+  "Maci",
   "Magpie",
-  "Mai Finance (QiDao)",
   "Mimicry",
   "Mint Tea",
   "Mitosis",
@@ -82,6 +80,7 @@ sub_ecosystems = [
   "Orderly Network",
   "Overnight",
   "Owl Protocol",
+  "Passport XYZ",
   "Pendle",
   "Peri Finance",
   "Perpetual Protocol",
@@ -94,35 +93,31 @@ sub_ecosystems = [
   "RadioShack Swap",
   "Rarible",
   "Reaper.Farm",
-  "Reclaim Protocol",
-  "Ren",
   "Reveel",
   "Reya Labs",
-  "Sablier Finance",
   "Showtime",
   "Silo Finance",
   "Sirius Finance",
   "SoftDAO",
   "Sommelier",
   "Sonne Finance",
-  "Stargate",
+  "Summer.fi",
   "Superform",
   "Swapsicle",
   "SweeprFi",
   "Swing",
   "Synthetix",
+  "Tableland",
   "Tokenbound",
   "Tornado Cash",
   "Union Finance",
   "Velodrome",
-  "vfat.tools",
   "VMEX Finance",
   "WeFund",
   "WeiBridged",
   "yearn.finance",
   "Zesty Market",
   "zkBob",
-  "zkLink Protocol",
   "Zora",
 ]
 github_organizations = [
@@ -1618,9 +1613,6 @@ url = "https://github.com/awrsh/MainNet"
 url = "https://github.com/aws-ia/cfn-ps-chainlinklabs-chainlink-node"
 
 [[repo]]
-url = "https://github.com/axelarnetwork/axelar-contract-deployments"
-
-[[repo]]
 url = "https://github.com/axelarnetwork/axelarscan-api"
 
 [[repo]]
@@ -1767,6 +1759,7 @@ url = "https://github.com/bbayazit16/l2savings"
 
 [[repo]]
 url = "https://github.com/bbayazit16/project-supplement"
+missing = true
 
 [[repo]]
 url = "https://github.com/bbenzikry/contracts"
@@ -3757,6 +3750,7 @@ url = "https://github.com/disruptcapital/disruptvaults-contracts"
 
 [[repo]]
 url = "https://github.com/district-labs/decentralized-identity-system"
+missing = true
 
 [[repo]]
 url = "https://github.com/district-labs/delegatable-enforcers"
@@ -4308,6 +4302,10 @@ url = "https://github.com/ethereum-optimism/12-12-migration-rehearsal"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/ethereum-optimism/actions"
+missing = true
+
+[[repo]]
 url = "https://github.com/ethereum-optimism/asterisc"
 
 [[repo]]
@@ -4363,6 +4361,9 @@ tags = ["Protocol"]
 url = "https://github.com/ethereum-optimism/chug-splash"
 tags = ["Protocol"]
 missing = true
+
+[[repo]]
+url = "https://github.com/ethereum-optimism/circleci-utils"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/common-ui"
@@ -8172,6 +8173,7 @@ url = "https://github.com/Markeljan/wagmi"
 
 [[repo]]
 url = "https://github.com/marketxyz/subgraphs"
+missing = true
 
 [[repo]]
 url = "https://github.com/MarkuSchick/hardhat-deploy"
@@ -9232,9 +9234,6 @@ url = "https://github.com/o-az/evm-balances"
 url = "https://github.com/o-az/evm-balances-api"
 
 [[repo]]
-url = "https://github.com/OasisDEX/oasis-earn-sc"
-
-[[repo]]
 url = "https://github.com/oaswap/presale-frontend"
 
 [[repo]]
@@ -10159,9 +10158,6 @@ url = "https://github.com/prince1456/contracts"
 url = "https://github.com/princekaushik/sus"
 
 [[repo]]
-url = "https://github.com/privacy-scaling-explorations/maci"
-
-[[repo]]
 url = "https://github.com/privacy-scaling-explorations/maci-platform"
 
 [[repo]]
@@ -10786,9 +10782,6 @@ url = "https://github.com/sa8/learning_solidity"
 url = "https://github.com/SabeloMkhwanzi/instax.finance"
 
 [[repo]]
-url = "https://github.com/sablier-labs/v2-core"
-
-[[repo]]
 url = "https://github.com/Sabnock01/optimism"
 
 [[repo]]
@@ -10908,6 +10901,7 @@ url = "https://github.com/samlaf/optimism"
 
 [[repo]]
 url = "https://github.com/Samogonshikua/My_script"
+missing = true
 
 [[repo]]
 url = "https://github.com/SaMoSe12/modal-chakra-next"
@@ -11027,9 +11021,6 @@ url = "https://github.com/ScopeLift/optimizoors-1inch-protocol"
 
 [[repo]]
 url = "https://github.com/ScopeLift/optimizoors-perpetual-protocol"
-
-[[repo]]
-url = "https://github.com/ScopeLift/umbra-protocol"
 
 [[repo]]
 url = "https://github.com/ScryProtocol/dApp"
@@ -12025,9 +12016,6 @@ url = "https://github.com/t0rbik/wagmi"
 
 [[repo]]
 url = "https://github.com/t1nyTi/GrrifinFarm"
-
-[[repo]]
-url = "https://github.com/tablelandnetwork/docs"
 
 [[repo]]
 url = "https://github.com/tablelandnetwork/evm-tableland"
@@ -13088,6 +13076,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Verin1005/olympus-frontend"
+missing = true
 
 [[repo]]
 url = "https://github.com/veronicaz41/metamask-extension"

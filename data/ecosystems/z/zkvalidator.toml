@@ -1,11 +1,14 @@
 # Ecosystem Level Information
 title = "ZKValidator"
-
 sub_ecosystems = []
-
-github_organizations = ["https://github.com/zkvalidator"]
+github_organizations = [
+  "https://github.com/zkvalidator",
+]
 
 # Repositories
+[[repo]]
+url = "https://github.com/zkvalidator/aztec-packages"
+
 [[repo]]
 url = "https://github.com/zkvalidator/bdjuno"
 

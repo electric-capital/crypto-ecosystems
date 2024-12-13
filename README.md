@@ -53,7 +53,7 @@ tags = [ "Wallet"]
 
 ```
 
-By specifying the data as evolving config files in git, we benefit from a long term, auditable database that is both human and machine readable.
+By specifying the data as evolving config files in git, we benefit from a long term, auditable database that is both human and machine-readable.
 
 ### Option 2: Complete the Ecosystem Submission form
 
@@ -175,7 +175,7 @@ github_organizations = ["https://github.com/EasyA-Community-Wallet"]
 
 If you prefer videos, you can also see the above steps done live [here](https://www.loom.com/share/f23aab8c675940a9998b228ea1e179b7).
 
-If you've been following along closely, you'll have noticed that the steps after adding the sub-ecosystem to the parent ecosystem are exactly the same a Option 1 (adding a totally new ecosystem that has no parents). That's because this taxonomy is based on ancestry. Any sub-ecosystem is basically just an ecosystem in its own right (it's not like a sub-ecosystem is any less valuable). The ecosystem and sub-ecosystem dichotomy is merely there so we can see the relationship between different ecosystems. You can keep adding sub-ecoystems to sub-ecosystems ad infinitum (forever).
+If you've been following along closely, you'll have noticed that the steps after adding the sub-ecosystem to the parent ecosystem are exactly the same an Option 1 (adding a totally new ecosystem that has no parents). That's because this taxonomy is based on ancestry. Any sub-ecosystem is basically just an ecosystem in its own right (it's not like a sub-ecosystem is any less valuable). The ecosystem and sub-ecosystem dichotomy is merely there so we can see the relationship between different ecosystems. You can keep adding sub-ecoystems to sub-ecosystems ad infinitum (forever).
 
 
 ### Option 3: Adding a new repo or organization

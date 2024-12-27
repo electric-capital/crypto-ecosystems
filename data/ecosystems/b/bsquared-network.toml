@@ -1,7 +1,16 @@
 # Ecosystem Level Information
 title = "Bsquared Network"
 
-sub_ecosystems = []
+sub_ecosystems = [
+  "Bedrock Technology",
+  "Cygnus",
+  "Echo Protocol",
+  "KiloExPerp",
+  "LayerBank",
+  "Pell Network",
+  "UniRouter",
+  "XLink",
+]
 
 github_organizations = ["https://github.com/b2network"]
 
@@ -71,6 +80,9 @@ url = "https://github.com/b2network/ds-prover"
 
 [[repo]]
 url = "https://github.com/b2network/fd-stablecoin"
+
+[[repo]]
+url = "https://github.com/b2network/finality-provider"
 
 [[repo]]
 url = "https://github.com/b2network/finality-sdk"

@@ -1,15 +1,7 @@
 # Ecosystem Level Information
 title = "Litecoin"
 
-sub_ecosystems = [
-  "BitcartCC",
-  "Cake Labs",
-  "Edge",
-  "Shapeshift",
-  "Shift Crypto",
-  "THORChain",
-  "Venly",
-]
+sub_ecosystems = ["BitcartCC", "Cake Labs", "Cryptopower", "Edge", "Shift Crypto", "Venly"]
 
 github_organizations = [
   "https://github.com/litecoin-foundation",
@@ -121,6 +113,9 @@ url = "https://github.com/litecoin-foundation/litecoin-toolkit"
 [[repo]]
 url = "https://github.com/litecoin-foundation/litecoin-wallet"
 missing = true
+
+[[repo]]
+url = "https://github.com/litecoin-foundation/litecoin.info"
 
 [[repo]]
 url = "https://github.com/litecoin-foundation/litecoin_analytics"

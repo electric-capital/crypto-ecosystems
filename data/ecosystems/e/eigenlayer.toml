@@ -1,7 +1,15 @@
 # Ecosystem Level Information
 title = "EigenLayer"
 
-sub_ecosystems = ["Eigenlayer AVS", "ether.fi", "Kelp", "Puffer", "Renzo", "Rio Network"]
+sub_ecosystems = [
+  "Eigenlayer AVS",
+  "ether.fi",
+  "EtherScale",
+  "Kelp",
+  "Puffer",
+  "Renzo",
+  "Rio Network",
+]
 
 github_organizations = ["https://github.com/Layr-Labs"]
 
@@ -47,6 +55,7 @@ url = "https://github.com/Layr-Labs/arbitrum-actions"
 
 [[repo]]
 url = "https://github.com/Layr-Labs/arbitrum-orbit-sdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/Layr-Labs/avs-ideas"
@@ -190,6 +199,9 @@ url = "https://github.com/Layr-Labs/incredible-squaring-avs"
 url = "https://github.com/Layr-Labs/incredible-squaring-avs-rs"
 
 [[repo]]
+url = "https://github.com/Layr-Labs/kona"
+
+[[repo]]
 url = "https://github.com/Layr-Labs/kzgpad-rs"
 
 [[repo]]
@@ -269,6 +281,9 @@ url = "https://github.com/Layr-Labs/tendermint"
 
 [[repo]]
 url = "https://github.com/Layr-Labs/whitepaper"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/zeus-templates"
 
 [[repo]]
 url = "https://github.com/Layr-Labs/zkevm-contracts"

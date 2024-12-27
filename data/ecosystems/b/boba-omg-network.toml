@@ -2,39 +2,37 @@
 title = "Boba (OMG Network)"
 
 sub_ecosystems = [
-  "Across Protocol",
   "Autofarm Network",
   "Beamer",
   "Bridge Network",
-  "Celer Network cBridge",
-  "Connext Network",
   "Cruzo",
-  "DIA",
-  "DODO",
   "Guild.xyz",
   "Impossible Finance",
   "Olympus DAO",
   "OoolongSwap",
   "Orbiter Finance",
   "Owl Protocol",
-  "Redstone Finance",
   "Ricochet Exchange",
-  "Sushi Swap",
-  "Symbiosis Finance",
-  "Synapse Protocol",
   "Trustified Network",
-  "UMA",
-  "Witnet",
 ]
 
 github_organizations = ["https://github.com/bobanetwork", "https://github.com/omgnetwork"]
 
 # Repositories
 [[repo]]
+url = "https://github.com/bobanetwork/aa-hc-CallCaster"
+
+[[repo]]
+url = "https://github.com/bobanetwork/aa-hc-CodeCaster"
+
+[[repo]]
 url = "https://github.com/bobanetwork/aa-hc-example"
 
 [[repo]]
 url = "https://github.com/bobanetwork/aa-hc-examples-py"
+
+[[repo]]
+url = "https://github.com/bobanetwork/aa-hc-PresiBot"
 
 [[repo]]
 url = "https://github.com/bobanetwork/aa-hc-sdk"
@@ -64,6 +62,9 @@ url = "https://github.com/bobanetwork/blockscout"
 [[repo]]
 url = "https://github.com/bobanetwork/boba"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/bobanetwork/boba-blockchain-busters"
 
 [[repo]]
 url = "https://github.com/bobanetwork/boba-cross-chain-bridges"
@@ -226,6 +227,9 @@ url = "https://github.com/bobanetwork/safe-wallet-web"
 
 [[repo]]
 url = "https://github.com/bobanetwork/snap-account-abstraction-keyring"
+
+[[repo]]
+url = "https://github.com/bobanetwork/snap-account-abstraction-keyring-hc"
 
 [[repo]]
 url = "https://github.com/bobanetwork/starlight"

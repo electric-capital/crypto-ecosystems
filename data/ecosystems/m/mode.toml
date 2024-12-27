@@ -1,7 +1,14 @@
 # Ecosystem Level Information
 title = "Mode"
 
-sub_ecosystems = ["Lido"]
+sub_ecosystems = [
+  "BrahmaFi",
+  "DeSyn Protocol",
+  "Ionic Protocol",
+  "LayerBank",
+  "Mitosis",
+  "Velodrome",
+]
 
 github_organizations = ["https://github.com/mode-network"]
 
@@ -56,6 +63,9 @@ url = "https://github.com/mode-network/mode-cooperators"
 
 [[repo]]
 url = "https://github.com/mode-network/mode-developers"
+
+[[repo]]
+url = "https://github.com/mode-network/mode-subnet"
 
 [[repo]]
 url = "https://github.com/mode-network/mode-swap"

@@ -13,11 +13,11 @@ sub_ecosystems = [
   "Better",
   "BlockSec",
   "BlueBit Finance",
+  "Burrow Finance",
   "Butter Network",
   "Calimero Network",
   "Capsule Social",
   "Carbonite Club",
-  "Ceramic Network",
   "clubeeo",
   "Composable Finance",
   "Cora Protocol",
@@ -29,7 +29,6 @@ sub_ecosystems = [
   "DecentralBank",
   "DEER Market",
   "DeltaSwap",
-  "DIA",
   "DODO",
   "Dojima Network",
   "Electron Labs",
@@ -52,15 +51,14 @@ sub_ecosystems = [
   "HAPI",
   "Hockey club manager",
   "Hurricane Protocol",
-  "Incognito Chain",
   "Kikimora Labs",
   "Kuutamo",
   "kycDAO",
-  "KYVE",
   "Learn NEAR Club",
   "LiNEAR Protocol",
   "Liquality",
   "Locify",
+  "Masa Finance",
   "Meson",
   "Meta Pool",
   "Metapool",
@@ -71,7 +69,6 @@ sub_ecosystems = [
   "MjolNear",
   "Mutant Labs",
   "MyNearWallet",
-  "MyWish",
   "NameSky",
   "Navara Wallet",
   "NEAR Chain Signatures",
@@ -90,7 +87,6 @@ sub_ecosystems = [
   "OIN Finance",
   "Omomo Finance",
   "OnboardDAO",
-  "OpenOcean",
   "Orderly Network",
   "Pangolin",
   "Panther Protocol",
@@ -101,6 +97,7 @@ sub_ecosystems = [
   "Polaris Finance",
   "Polywrap",
   "Popula",
+  "Potlock",
   "Project: Themistoklis",
   "Pulse",
   "PureBlock",
@@ -108,7 +105,6 @@ sub_ecosystems = [
   "Quic Swap",
   "Realis Network",
   "ReCheck",
-  "Redstone Finance",
   "Ref Finance",
   "Request",
   "Roketo",
@@ -135,6 +131,7 @@ sub_ecosystems = [
   "Tonic",
   "Treadle Lifestyle App",
   "Trisolaris",
+  "TruFin",
   "UniFat",
   "UPFI",
   "verida",
@@ -144,8 +141,6 @@ sub_ecosystems = [
   "wannaswap",
   "Web3Games",
   "welldonestudio",
-  "Wormhole",
-  "XP Network",
   "ZKValidator",
 ]
 
@@ -161,15 +156,18 @@ github_organizations = [
   "https://github.com/chikai-io",
   "https://github.com/cloudmex",
   "https://github.com/CrossChainLabs",
+  "https://github.com/CrossDrop",
   "https://github.com/curaOS",
   "https://github.com/dapdaps",
   "https://github.com/DeltaBotDev",
   "https://github.com/denbite-is-near",
   "https://github.com/fastnear",
   "https://github.com/Graate-Org",
+  "https://github.com/Hackathon-NearandDear",
   "https://github.com/HawkHackQwerty",
   "https://github.com/here-wallet",
   "https://github.com/hyperfiles-org",
+  "https://github.com/Job-Chain",
   "https://github.com/jutsuai",
   "https://github.com/keypom",
   "https://github.com/kuutamolabs",
@@ -208,18 +206,22 @@ github_organizations = [
   "https://github.com/NearDate-PastAndFuture",
   "https://github.com/NearDeFi",
   "https://github.com/NEARFoundation",
+  "https://github.com/neargami",
+  "https://github.com/nearlend-dao",
   "https://github.com/nearlog",
   "https://github.com/NearPass",
   "https://github.com/nearprotocol",
   "https://github.com/nearvndev",
   "https://github.com/NEARWEEK",
   "https://github.com/nticket",
+  "https://github.com/OCD-Labs",
   "https://github.com/octopus-layer",
   "https://github.com/open-web-academy",
   "https://github.com/openwebbuild",
   "https://github.com/Peersyst",
   "https://github.com/PotLock",
   "https://github.com/PrimeLabCore",
+  "https://github.com/procept-partners",
   "https://github.com/Quest-Protocol",
   "https://github.com/raendev",
   "https://github.com/RealityNear",
@@ -288,6 +290,9 @@ url = "https://github.com/0x3bfc/aurora-workspace"
 
 [[repo]]
 url = "https://github.com/0x3bfc/rainbow-token-connector"
+
+[[repo]]
+url = "https://github.com/0X4227/Arina"
 
 [[repo]]
 url = "https://github.com/0X4227/near-api-js"
@@ -402,10 +407,17 @@ missing = true
 url = "https://github.com/0xOmarA/scrypto-vs-the-world"
 
 [[repo]]
+url = "https://github.com/0xpepperhq/router-contracts"
+missing = true
+
+[[repo]]
 url = "https://github.com/0xsergen/pangolin-exchange-contracts"
 
 [[repo]]
 url = "https://github.com/0xSimeon/ecosystem"
+
+[[repo]]
+url = "https://github.com/0xsksingh/nillion-blind-app"
 
 [[repo]]
 url = "https://github.com/0xsmart-dev/nft-market-rust"
@@ -415,6 +427,9 @@ url = "https://github.com/0xsmart-dev/nft-rust"
 
 [[repo]]
 url = "https://github.com/0xSmartCrypto/near-nft-tutorial"
+
+[[repo]]
+url = "https://github.com/0xStruct/nearly-loans"
 
 [[repo]]
 url = "https://github.com/0xSulpiride/web3-fellowships-grants-jobs"
@@ -499,6 +514,9 @@ url = "https://github.com/22388o/lightning-knd"
 url = "https://github.com/22388o/rust-in-blockchain"
 
 [[repo]]
+url = "https://github.com/255BITS/SmartPool.near"
+
+[[repo]]
 url = "https://github.com/2BeBuilt/near-explorer-contract"
 
 [[repo]]
@@ -538,7 +556,13 @@ url = "https://github.com/3DevBusiness812/Near-protocol"
 url = "https://github.com/3DevBusiness812/Rainbow-Token-Bridge"
 
 [[repo]]
+url = "https://github.com/3Labs/traverse"
+
+[[repo]]
 url = "https://github.com/3rickfs/SavingAnimalsCrowdfundingDAO"
+
+[[repo]]
+url = "https://github.com/3ricLu/HawkHacks"
 
 [[repo]]
 url = "https://github.com/3ugen/3ugen.github.io"
@@ -834,6 +858,9 @@ url = "https://github.com/abdulhakim-altunkaya/SOLIDITY-truffle"
 url = "https://github.com/abdulhaseeb13mar/Learn-PolkaDot"
 
 [[repo]]
+url = "https://github.com/abdulkader-alrezej/ipv6spot"
+
+[[repo]]
 url = "https://github.com/abdullahcalisir12/patika.dev-starter-near-sdk-as"
 
 [[repo]]
@@ -990,6 +1017,7 @@ url = "https://github.com/addyevdox/daobot-template"
 
 [[repo]]
 url = "https://github.com/Adedejiosvaldo/near-login"
+missing = true
 
 [[repo]]
 url = "https://github.com/Adedoyin-Emmanuel/kegha-bot"
@@ -1015,6 +1043,9 @@ url = "https://github.com/adiprinzio/rust-in-blockchain"
 [[repo]]
 url = "https://github.com/adityachoubeyy/octopus-appchain-anchor"
 missing = true
+
+[[repo]]
+url = "https://github.com/AdityaKumar41/marketplace-aurora"
 
 [[repo]]
 url = "https://github.com/Adityaweb3/NearNFt"
@@ -1121,6 +1152,9 @@ url = "https://github.com/aeither/mini-posts"
 url = "https://github.com/aeither/near-journey"
 
 [[repo]]
+url = "https://github.com/aeither/near-multichain-hub"
+
+[[repo]]
 url = "https://github.com/AeneasHe/near-voting"
 
 [[repo]]
@@ -1189,6 +1223,7 @@ url = "https://github.com/agar3s/spacewars13k-server"
 
 [[repo]]
 url = "https://github.com/agaskrobot/collect-nft"
+missing = true
 
 [[repo]]
 url = "https://github.com/agaskrobot/social-media-react"
@@ -1392,6 +1427,9 @@ url = "https://github.com/ahnafalfariza/decentralized-component"
 url = "https://github.com/ahnafalfariza/giveaway"
 
 [[repo]]
+url = "https://github.com/ahnafalfariza/scavene"
+
+[[repo]]
 url = "https://github.com/ahnbizcad/learn-web3-dapp"
 
 [[repo]]
@@ -1589,6 +1627,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/akaia-near/workspaces-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/akashic-py/near-demo"
@@ -1630,9 +1669,11 @@ url = "https://github.com/akolybelnikov/workshop--exploring-assemblyscript-contr
 
 [[repo]]
 url = "https://github.com/akorchyn/near-api"
+missing = true
 
 [[repo]]
 url = "https://github.com/akorchyn/near-zk-reputation-poc"
+missing = true
 
 [[repo]]
 url = "https://github.com/akshajb/stats.gallery"
@@ -1648,6 +1689,7 @@ url = "https://github.com/alaasouabni/light"
 
 [[repo]]
 url = "https://github.com/alanesmizi/cgapiforge"
+missing = true
 
 [[repo]]
 url = "https://github.com/alanesmizi/cgforge"
@@ -1663,6 +1705,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/alanesmizi/tutorial-nearkeys-vitalpointai"
+missing = true
 
 [[repo]]
 url = "https://github.com/AlanFletes/AssetStore"
@@ -1675,6 +1718,9 @@ url = "https://github.com/alannetwork/workshop-mp-aurora"
 
 [[repo]]
 url = "https://github.com/AlbertoElias/near-multichain-demo"
+
+[[repo]]
+url = "https://github.com/albertoZurini/redacted2024"
 
 [[repo]]
 url = "https://github.com/alby1976/secure-messaging"
@@ -1690,6 +1736,9 @@ missing = true
 [[repo]]
 url = "https://github.com/alchemist0404/near-staking-contract-v2"
 missing = true
+
+[[repo]]
+url = "https://github.com/Alec-Hallman/RustyTomatoes-the-car-finder"
 
 [[repo]]
 url = "https://github.com/AleCecc/freefreelancer"
@@ -2085,9 +2134,11 @@ url = "https://github.com/alpha-fi/token-list"
 
 [[repo]]
 url = "https://github.com/alsakhaev/guest-book"
+missing = true
 
 [[repo]]
 url = "https://github.com/alsakhaev/near-wallet"
+missing = true
 
 [[repo]]
 url = "https://github.com/alsterlabs-ug/matny-search"
@@ -2150,6 +2201,7 @@ url = "https://github.com/alvatar/exosphere"
 
 [[repo]]
 url = "https://github.com/alveraboquet/near-price-oracle-bot"
+missing = true
 
 [[repo]]
 url = "https://github.com/AlvinSolomon201/PollingBlockchain"
@@ -2217,13 +2269,18 @@ url = "https://github.com/amandayu255/finance"
 url = "https://github.com/AmanehEsk/create-near-app"
 
 [[repo]]
+url = "https://github.com/amarachi321/Nebula-mint"
+
+[[repo]]
 url = "https://github.com/Amarannaya/donation-js"
 
 [[repo]]
 url = "https://github.com/Amarnath-Rao/Polling-Management"
+missing = true
 
 [[repo]]
 url = "https://github.com/Amarnath-Rao/Voting-System"
+missing = true
 
 [[repo]]
 url = "https://github.com/amaru0601/voting_blockchain"
@@ -2447,9 +2504,11 @@ missing = true
 
 [[repo]]
 url = "https://github.com/andreykobal/amber-frontend-release"
+missing = true
 
 [[repo]]
 url = "https://github.com/andreykobal/amber-frontend-release-2"
+missing = true
 
 [[repo]]
 url = "https://github.com/andreykobal/amber-git"
@@ -2464,6 +2523,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/andreykobal/amber-nft-web"
+missing = true
 
 [[repo]]
 url = "https://github.com/andreykobal/amber-react-release-1"
@@ -2471,6 +2531,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/andreykobal/amber-web-game-1"
+missing = true
 
 [[repo]]
 url = "https://github.com/andreykobal/git-recover"
@@ -2489,6 +2550,7 @@ url = "https://github.com/andreykobal/react-near-app"
 
 [[repo]]
 url = "https://github.com/andreykobal/react-near-app-2"
+missing = true
 
 [[repo]]
 url = "https://github.com/andreykobal/tailwind-near"
@@ -2496,6 +2558,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/andreykobal/tenk"
+missing = true
 
 [[repo]]
 url = "https://github.com/andreykobal/tenk-dao-starter-2"
@@ -2820,6 +2883,9 @@ url = "https://github.com/apachecn/figment-tut-zh"
 missing = true
 
 [[repo]]
+url = "https://github.com/APerson101/nearyoubot"
+
+[[repo]]
 url = "https://github.com/aphexmunky/01-near"
 
 [[repo]]
@@ -2900,6 +2966,12 @@ url = "https://github.com/ariesgun/near-marketplace"
 url = "https://github.com/ariesgun/near-tip-me"
 
 [[repo]]
+url = "https://github.com/Arihan10/Decentraveller"
+
+[[repo]]
+url = "https://github.com/arindewangan/repute-net"
+
+[[repo]]
 url = "https://github.com/Arintia/starter--near-sdk-as"
 
 [[repo]]
@@ -2911,6 +2983,18 @@ url = "https://github.com/arizas/near-account-report"
 [[repo]]
 url = "https://github.com/arjun-kadam/Near-Banking"
 missing = true
+
+[[repo]]
+url = "https://github.com/arka-kxqi/CRTIMK"
+
+[[repo]]
+url = "https://github.com/arka-kxqi/Kitai-Near"
+
+[[repo]]
+url = "https://github.com/arka-kxqi/medmodx"
+
+[[repo]]
+url = "https://github.com/arka-kxqi/nearft"
 
 [[repo]]
 url = "https://github.com/arkadiyt/bounty-targets-data"
@@ -3090,12 +3174,14 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Arthur-Kamau/bread-distrubution"
+missing = true
 
 [[repo]]
 url = "https://github.com/Arthur-Kamau/near-certification-project"
 
 [[repo]]
 url = "https://github.com/Arthur-Kamau/near-voting"
+missing = true
 
 [[repo]]
 url = "https://github.com/Arthur-Kamau/project-samples"
@@ -3137,6 +3223,9 @@ url = "https://github.com/ArturVargas/near-bootcamp"
 url = "https://github.com/arvin-lau/near-api-go"
 
 [[repo]]
+url = "https://github.com/arvindbr95/ethglobal-singapore"
+
+[[repo]]
 url = "https://github.com/arvindkhoisnam/blogchain"
 
 [[repo]]
@@ -3146,8 +3235,14 @@ url = "https://github.com/AryamanAg/near"
 url = "https://github.com/AryanK1511/PixelVerse"
 
 [[repo]]
+url = "https://github.com/AryanMistry/chainevents"
+
+[[repo]]
 url = "https://github.com/aryaxtech/artcoin-landing"
 missing = true
+
+[[repo]]
+url = "https://github.com/ARYPROGRAMMER/Video-Generator-AI"
 
 [[repo]]
 url = "https://github.com/asadkovich/web3-devcontainers"
@@ -3232,6 +3327,9 @@ url = "https://github.com/Ashlysss/near-enough"
 
 [[repo]]
 url = "https://github.com/ashnkumar/nearfactor"
+
+[[repo]]
+url = "https://github.com/ashnkumar/nexus-ai"
 
 [[repo]]
 url = "https://github.com/Ashoat/rust-in-blockchain"
@@ -3358,6 +3456,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/atulshrma/near-token-baskets"
+
+[[repo]]
+url = "https://github.com/audgeviolin07/marketbasemint"
 
 [[repo]]
 url = "https://github.com/audreyweigel/BlockchainTree"
@@ -3647,9 +3748,11 @@ url = "https://github.com/Axot017/husy"
 
 [[repo]]
 url = "https://github.com/axveez/near-sdk-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/axveez/tenk"
+missing = true
 
 [[repo]]
 url = "https://github.com/ayfererdogan/Near-Starter-SDK"
@@ -3681,6 +3784,12 @@ url = "https://github.com/aysuays/NearMusic"
 
 [[repo]]
 url = "https://github.com/ayushganvir/Crypto-Alert"
+
+[[repo]]
+url = "https://github.com/Ayushjain2205/Agent-swarm"
+
+[[repo]]
+url = "https://github.com/Ayushjain2205/circadia"
 
 [[repo]]
 url = "https://github.com/ayushribhuyan/Decentralised-Polling-System"
@@ -3728,6 +3837,9 @@ url = "https://github.com/Azizhamdani7/NFT_CROSS"
 [[repo]]
 url = "https://github.com/Azizhamdani7/practice_rust_code"
 missing = true
+
+[[repo]]
+url = "https://github.com/Aziztaamalli/nearHackathon"
 
 [[repo]]
 url = "https://github.com/azmasamy/auto-transfer"
@@ -4101,6 +4213,9 @@ url = "https://github.com/BenKurrek/nft-tutorial-allow-list"
 url = "https://github.com/BenKurrek/pluminite-ui"
 
 [[repo]]
+url = "https://github.com/BenOkojie/battletanks"
+
+[[repo]]
 url = "https://github.com/benxiao/near-lands"
 
 [[repo]]
@@ -4156,6 +4271,7 @@ url = "https://github.com/BeskydAbc/test-get-promise-result"
 
 [[repo]]
 url = "https://github.com/BestCryptoKnight/Nativo-NFT-UI"
+missing = true
 
 [[repo]]
 url = "https://github.com/BestEffort6/near-template"
@@ -4441,6 +4557,7 @@ url = "https://github.com/bladepool/near-wallet"
 
 [[repo]]
 url = "https://github.com/Blagabo/Parallel"
+missing = true
 
 [[repo]]
 url = "https://github.com/blaize-tech/fakeless-protocol"
@@ -4482,6 +4599,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/blesshanselgretel/ethNearMarketplace"
+missing = true
 
 [[repo]]
 url = "https://github.com/blessingmwale/mintbase"
@@ -4858,6 +4976,9 @@ url = "https://github.com/brkyydnmz/near_first_transaction"
 url = "https://github.com/BrMisha/near-lake-test"
 
 [[repo]]
+url = "https://github.com/broAir/chaintrip"
+
+[[repo]]
 url = "https://github.com/BrokenPanda/learn-web3-dapp"
 
 [[repo]]
@@ -4868,6 +4989,9 @@ url = "https://github.com/brolab-io/scity-app"
 
 [[repo]]
 url = "https://github.com/brolab-io/scity-near-contract"
+
+[[repo]]
+url = "https://github.com/BrownFi/webswap"
 
 [[repo]]
 url = "https://github.com/brson/brson.github.com"
@@ -4938,10 +5062,19 @@ missing = true
 url = "https://github.com/Buckram123/workspaces-rs"
 
 [[repo]]
+url = "https://github.com/BuckyFinance/aurita"
+
+[[repo]]
 url = "https://github.com/bufo24/neardevhub-widgets"
 
 [[repo]]
 url = "https://github.com/bugragocumlu34/stox-reward"
+
+[[repo]]
+url = "https://github.com/BuidlerHouse/dAIp"
+
+[[repo]]
+url = "https://github.com/BuidlerHouse/Nostra"
 
 [[repo]]
 url = "https://github.com/buidles/Simple-Vehicle-Register"
@@ -4951,6 +5084,12 @@ url = "https://github.com/buidly/axelar-local-dev-multiversx"
 
 [[repo]]
 url = "https://github.com/buiduckyanh/learning-near-nft-rust"
+
+[[repo]]
+url = "https://github.com/buildcity/Brainwave_marketplace"
+
+[[repo]]
+url = "https://github.com/buildcity/Energy-Marketplace"
 
 [[repo]]
 url = "https://github.com/builders-garden/agent-smith"
@@ -5379,6 +5518,9 @@ url = "https://github.com/Caruso33/near"
 url = "https://github.com/Caruso33/near_avatar_nft_marketplace"
 
 [[repo]]
+url = "https://github.com/Catalyze-Software/cat-near-contract"
+
+[[repo]]
 url = "https://github.com/catAngent/project-movera-contracts"
 missing = true
 
@@ -5464,6 +5606,9 @@ url = "https://github.com/cemfahli/near-svelte-dapp-template"
 
 [[repo]]
 url = "https://github.com/cemfahli/your-word"
+
+[[repo]]
+url = "https://github.com/CenekSanzak/eth-global-singapore"
 
 [[repo]]
 url = "https://github.com/CeNiEi/NearValut"
@@ -5814,6 +5959,9 @@ url = "https://github.com/chiunhau/near-chiun"
 url = "https://github.com/chluff/contracts"
 
 [[repo]]
+url = "https://github.com/choguun/vv-monorepo-public"
+
+[[repo]]
 url = "https://github.com/chrisalex-w/near-loncalery-js"
 missing = true
 
@@ -6012,6 +6160,7 @@ url = "https://github.com/clint911/near-marketplace-contract-dapp"
 
 [[repo]]
 url = "https://github.com/clintonruairi/near-nfts"
+missing = true
 
 [[repo]]
 url = "https://github.com/clippefuentes/learn-near"
@@ -6154,6 +6303,7 @@ url = "https://github.com/cloudmex/web3-ebook"
 
 [[repo]]
 url = "https://github.com/cls00/EvoMaze"
+missing = true
 
 [[repo]]
 url = "https://github.com/cmgoes/near-skyward"
@@ -6204,7 +6354,13 @@ url = "https://github.com/CocoonProtocol/dapp"
 url = "https://github.com/Code-Decoders/specter-defi-near"
 
 [[repo]]
+url = "https://github.com/code-forcer/EduMorph"
+
+[[repo]]
 url = "https://github.com/codefunhouse/ram-runs"
+
+[[repo]]
+url = "https://github.com/codepert/near-nft-staking"
 
 [[repo]]
 url = "https://github.com/coder12git/Near_Integartion"
@@ -6404,6 +6560,9 @@ url = "https://github.com/come-senusi-wale/near_nonfungible_react_first"
 url = "https://github.com/come-senusi-wale/nonfungble_first"
 
 [[repo]]
+url = "https://github.com/ComexiasLabs/generativeop-extensions"
+
+[[repo]]
 url = "https://github.com/Common-Fund/contract-near"
 
 [[repo]]
@@ -6497,6 +6656,7 @@ url = "https://github.com/cosmosnock/nearcore"
 
 [[repo]]
 url = "https://github.com/CoulterCana1997/nearcore"
+missing = true
 
 [[repo]]
 url = "https://github.com/cowry-capital/near-web3-provider"
@@ -6572,6 +6732,9 @@ url = "https://github.com/CreatorOS/NEAR-Voting-Rust"
 
 [[repo]]
 url = "https://github.com/CreatorOS/Testing-and-understanding-NEAR-function-calls"
+
+[[repo]]
+url = "https://github.com/CreedsCode/metasdk"
 
 [[repo]]
 url = "https://github.com/CRG-Magnus/magic-link"
@@ -6776,6 +6939,7 @@ url = "https://github.com/Cryptoracle-io/Contract"
 
 [[repo]]
 url = "https://github.com/cryptorafland/backend-app"
+missing = true
 
 [[repo]]
 url = "https://github.com/CryptoSnowPrince/NFT-Staking-on-NEAR"
@@ -6866,6 +7030,10 @@ url = "https://github.com/cuongdcdev/bos-wp"
 
 [[repo]]
 url = "https://github.com/cuongdcdev/BOSFeedback"
+
+[[repo]]
+url = "https://github.com/cuongdcdev/goal-abstraction"
+missing = true
 
 [[repo]]
 url = "https://github.com/cuongdcdev/NEAR-apps"
@@ -7031,6 +7199,9 @@ url = "https://github.com/cypherplatxs/NCD_BootCamp_Es_22-11-21"
 url = "https://github.com/cyt1999/crypto-keep"
 
 [[repo]]
+url = "https://github.com/d-huliu/Klean"
+
+[[repo]]
 url = "https://github.com/d-wang98/fractr-ownership"
 
 [[repo]]
@@ -7084,6 +7255,9 @@ url = "https://github.com/dakk/dqpu"
 
 [[repo]]
 url = "https://github.com/Daksh-404/MLH-Web3-BUILD-NEAR"
+
+[[repo]]
+url = "https://github.com/daksha-aeer/stratum-contracts"
 
 [[repo]]
 url = "https://github.com/dalmasonto/Near-Bitke"
@@ -7177,6 +7351,9 @@ url = "https://github.com/Danail-Irinkov/new-developer-test"
 
 [[repo]]
 url = "https://github.com/dang1412/near-grid-square-nft"
+
+[[repo]]
+url = "https://github.com/DanG2020/Pear-Exchange"
 
 [[repo]]
 url = "https://github.com/dang309/near-app-todo"
@@ -7337,6 +7514,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/dannysoh/near_101"
+missing = true
 
 [[repo]]
 url = "https://github.com/dantenetwork/canister_contracts"
@@ -7380,6 +7558,9 @@ url = "https://github.com/DAOrecords/Troaco-template"
 url = "https://github.com/dapdaps/berachain-interface"
 
 [[repo]]
+url = "https://github.com/dapdaps/berachain-tg-app"
+
+[[repo]]
 url = "https://github.com/dapdaps/cab-api"
 
 [[repo]]
@@ -7411,6 +7592,12 @@ url = "https://github.com/dapdaps/uniswap-subgraph-linea"
 
 [[repo]]
 url = "https://github.com/Dapp-rosetta/dapp-rosetta-contract"
+
+[[repo]]
+url = "https://github.com/dapplets/ai-crawler"
+
+[[repo]]
+url = "https://github.com/dapplets/bos-components"
 
 [[repo]]
 url = "https://github.com/dapplets/bos-overrides-registry"
@@ -7637,6 +7824,7 @@ url = "https://github.com/DebbiebScrogginsq83/near-api-js"
 
 [[repo]]
 url = "https://github.com/Debu976116/BitGoJS"
+missing = true
 
 [[repo]]
 url = "https://github.com/decentldotland/ark-network"
@@ -7765,6 +7953,7 @@ url = "https://github.com/DEIPworld/deip-near-bsc-bridge"
 
 [[repo]]
 url = "https://github.com/dejahco/hello-near-rust"
+missing = true
 
 [[repo]]
 url = "https://github.com/delnortenear/Pools"
@@ -7777,6 +7966,9 @@ url = "https://github.com/DeltaBotDev/gocryptotrader"
 
 [[repo]]
 url = "https://github.com/DeltaBotDev/gpt4free"
+
+[[repo]]
+url = "https://github.com/DeltaBotDev/sdk-ts"
 
 [[repo]]
 url = "https://github.com/deltaswapio/deltaswap"
@@ -7795,6 +7987,9 @@ url = "https://github.com/DemianKost/near-products-app"
 
 [[repo]]
 url = "https://github.com/demining/BitGoJS-Google-Colab"
+
+[[repo]]
+url = "https://github.com/DemonHulk/GoGreenChain"
 
 [[repo]]
 url = "https://github.com/denbite-is-near/ft_template"
@@ -7964,6 +8159,12 @@ url = "https://github.com/deprecated-near-examples/transaction-examples"
 
 [[repo]]
 url = "https://github.com/dereckn/near_word"
+
+[[repo]]
+url = "https://github.com/derek2403/eth"
+
+[[repo]]
+url = "https://github.com/derek2403/NEARer"
 
 [[repo]]
 url = "https://github.com/derekchiang/learn-web3-dapp"
@@ -8240,6 +8441,9 @@ url = "https://github.com/devlorz/near-zoo-nft"
 url = "https://github.com/DevMilk/starter--near-sdk-as"
 
 [[repo]]
+url = "https://github.com/devp19/NEAR-Fantasy"
+
+[[repo]]
 url = "https://github.com/DevpostPolyform/client"
 
 [[repo]]
@@ -8277,6 +8481,10 @@ url = "https://github.com/dformteam/MetaBUILD"
 
 [[repo]]
 url = "https://github.com/dgamboa/learn-web3-dapp"
+
+[[repo]]
+url = "https://github.com/dhananjaypai08/ZK-Resolution"
+missing = true
 
 [[repo]]
 url = "https://github.com/dhaq/near-nft-marketplace"
@@ -8398,6 +8606,9 @@ url = "https://github.com/dimnestercity/nestercity_smartcontract"
 url = "https://github.com/dimosmera/near-test"
 
 [[repo]]
+url = "https://github.com/Dimple-Kanwar/w3w"
+
+[[repo]]
 url = "https://github.com/dingyi2021/my-test-near-examples-ntf-market"
 
 [[repo]]
@@ -8478,6 +8689,7 @@ url = "https://github.com/dixith417/collegeProj"
 
 [[repo]]
 url = "https://github.com/diyar2004/new-thrive"
+missing = true
 
 [[repo]]
 url = "https://github.com/dj8yfo/app-near"
@@ -8487,6 +8699,9 @@ url = "https://github.com/dj8yfo/borsh-rs"
 
 [[repo]]
 url = "https://github.com/dj8yfo/cargo-near"
+
+[[repo]]
+url = "https://github.com/dj8yfo/near-abi-rs"
 
 [[repo]]
 url = "https://github.com/dj8yfo/near-cli-rs"
@@ -8699,6 +8914,9 @@ url = "https://github.com/dokxo96/Status_Message"
 url = "https://github.com/dokxo96/status_message_upgradeable"
 
 [[repo]]
+url = "https://github.com/Dolev497/ChainEvents"
+
+[[repo]]
 url = "https://github.com/Doliacats-Ecosystem/near-smart-wallet"
 
 [[repo]]
@@ -8772,6 +8990,9 @@ url = "https://github.com/Donizzy/NEAR-WEB3-CONTRACT"
 
 [[repo]]
 url = "https://github.com/Donizzy/NEARDEPLOY"
+
+[[repo]]
+url = "https://github.com/doppelgangersai/dpback"
 
 [[repo]]
 url = "https://github.com/dOrgJelli/near-demo-app"
@@ -9052,6 +9273,9 @@ url = "https://github.com/dsrvlabs/BondFront"
 url = "https://github.com/dsrvlabs/BondToken"
 
 [[repo]]
+url = "https://github.com/dsrvlabs/wds-code-remix"
+
+[[repo]]
 url = "https://github.com/dsrvlabs/wds-near-contract-parser"
 
 [[repo]]
@@ -9144,6 +9368,7 @@ url = "https://github.com/duythien0912/windpay"
 
 [[repo]]
 url = "https://github.com/DV-Lab/Donapp"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvasilen/near-mobile-wallet"
@@ -9156,15 +9381,19 @@ url = "https://github.com/dvconsultores/arrow_ticket"
 
 [[repo]]
 url = "https://github.com/dvconsultores/artemis_back"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/artemis_front"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/cero_trade_front"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/econear_front"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/evie_backend"
@@ -9174,15 +9403,19 @@ url = "https://github.com/dvconsultores/evie_node"
 
 [[repo]]
 url = "https://github.com/dvconsultores/free-horses-backend"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/free_horses_front"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/homedelivery_backend"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/homedelivery_front"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/honeypot-landing"
@@ -9193,9 +9426,11 @@ missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/initial_nuxt"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/marketplace_nft"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/metademocracia_dao"
@@ -9215,9 +9450,11 @@ url = "https://github.com/dvconsultores/mintickt_backend"
 
 [[repo]]
 url = "https://github.com/dvconsultores/monkeonnear_backend"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/near-front-example"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/owling_front"
@@ -9227,15 +9464,19 @@ url = "https://github.com/dvconsultores/owlling_NFT"
 
 [[repo]]
 url = "https://github.com/dvconsultores/p2p-dex"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/rust-changeback"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/subcrontract-p2p"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/template_vue3"
+missing = true
 
 [[repo]]
 url = "https://github.com/dvconsultores/token_wgpt"
@@ -9367,6 +9608,9 @@ url = "https://github.com/ebdurrehm/starter--near-sdk-as"
 
 [[repo]]
 url = "https://github.com/ebrugulec/Near"
+
+[[repo]]
+url = "https://github.com/ebusbe1/Near-dapp-review"
 
 [[repo]]
 url = "https://github.com/eccentricdz/motivator-near-smart-contract"
@@ -9643,6 +9887,9 @@ url = "https://github.com/electrone901/transfer-kittens-tokens-"
 url = "https://github.com/elegant651/near-wazy"
 
 [[repo]]
+url = "https://github.com/elegant651/wallet-analyzer-bitte"
+
+[[repo]]
 url = "https://github.com/EleMinaTor/near-marketplace-dapp"
 
 [[repo]]
@@ -9733,7 +9980,11 @@ url = "https://github.com/elision-labs/webapp"
 url = "https://github.com/elliotBraem/event.app.create"
 
 [[repo]]
+url = "https://github.com/elliotBraem/everything"
+
+[[repo]]
 url = "https://github.com/elliotBraem/Jump-Vault-fork"
+missing = true
 
 [[repo]]
 url = "https://github.com/elliotBraem/libertydao"
@@ -9957,6 +10208,9 @@ url = "https://github.com/enddynayn/near-eth-gateway"
 url = "https://github.com/enddynayn/near-sdk-rs"
 
 [[repo]]
+url = "https://github.com/enderNakamoto/omnibets"
+
+[[repo]]
 url = "https://github.com/enesbatiny/starter--near-api-js"
 
 [[repo]]
@@ -9982,6 +10236,9 @@ url = "https://github.com/enespolat25/near-tutorial"
 
 [[repo]]
 url = "https://github.com/EnesZhr/Near_Practice-1"
+
+[[repo]]
+url = "https://github.com/Engmhabib/AI-Powered-Data-Analysis-Platform-with-AnalytIQ"
 
 [[repo]]
 url = "https://github.com/enisHatipoglu23/sample-IdeaPool"
@@ -10682,6 +10939,9 @@ url = "https://github.com/ETH-SEOUL-2024/gajami"
 url = "https://github.com/Ethan-ahnlabio/near-ts-template"
 
 [[repo]]
+url = "https://github.com/Ethan778899/Neton"
+
+[[repo]]
 url = "https://github.com/ethcanal/create-near-app"
 
 [[repo]]
@@ -10704,9 +10964,11 @@ url = "https://github.com/etscript/near-idle-game"
 
 [[repo]]
 url = "https://github.com/etulutas/near-protocol"
+missing = true
 
 [[repo]]
 url = "https://github.com/etulutas/task4"
+missing = true
 
 [[repo]]
 url = "https://github.com/eugene-sew/nearsight"
@@ -10917,6 +11179,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/evilgon/near-wallet"
+missing = true
 
 [[repo]]
 url = "https://github.com/evilgon/solana-nft-marketplace"
@@ -10986,7 +11249,13 @@ missing = true
 url = "https://github.com/ezesundayeze/near-shipment"
 
 [[repo]]
+url = "https://github.com/ezhao13/HawkHacks"
+
+[[repo]]
 url = "https://github.com/fabianferno/perma-books"
+
+[[repo]]
+url = "https://github.com/fabianferno/theseus"
 
 [[repo]]
 url = "https://github.com/fabioktldaf/near-rankingdapp-frontend"
@@ -11139,10 +11408,16 @@ url = "https://github.com/FarzeenKist/near-tell-secrets"
 url = "https://github.com/FarzeenKist/NEARflix"
 
 [[repo]]
+url = "https://github.com/fastnear/.github"
+
+[[repo]]
 url = "https://github.com/fastnear/block-reader"
 
 [[repo]]
 url = "https://github.com/fastnear/clickhouse-provider"
+
+[[repo]]
+url = "https://github.com/fastnear/docs"
 
 [[repo]]
 url = "https://github.com/fastnear/explorer-api"
@@ -11193,7 +11468,13 @@ url = "https://github.com/fastnear/rpc-latency"
 url = "https://github.com/fastnear/small-proxy-contract"
 
 [[repo]]
+url = "https://github.com/fastnear/state-proof-contract"
+
+[[repo]]
 url = "https://github.com/fastnear/static"
+
+[[repo]]
+url = "https://github.com/fastnear/subscriptions-site"
 
 [[repo]]
 url = "https://github.com/fastnear/website"
@@ -11240,6 +11521,7 @@ url = "https://github.com/feddot2517/near-sc-template"
 
 [[repo]]
 url = "https://github.com/fedeloterstein/ethglobal-london"
+missing = true
 
 [[repo]]
 url = "https://github.com/Fedorov100/near-stake-app"
@@ -11283,6 +11565,7 @@ url = "https://github.com/fgfm999/TIL"
 
 [[repo]]
 url = "https://github.com/figment-networks/figment-apis-demo-app"
+missing = true
 
 [[repo]]
 url = "https://github.com/figment-networks/NFT"
@@ -11290,6 +11573,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/figment-networks/visualize-staking-api-flows"
+missing = true
 
 [[repo]]
 url = "https://github.com/FilArtsG/wiki"
@@ -11317,6 +11601,9 @@ url = "https://github.com/fintechla/esccroww_rentyn"
 
 [[repo]]
 url = "https://github.com/fintechlab-la/minga_avalcomunitario_nearProtocol"
+
+[[repo]]
+url = "https://github.com/Finthechat21/BlockHire"
 
 [[repo]]
 url = "https://github.com/fioritonicolas/voting-contract"
@@ -11471,6 +11758,7 @@ url = "https://github.com/flowscience/nft-farm"
 
 [[repo]]
 url = "https://github.com/fluencelabs/deal"
+missing = true
 
 [[repo]]
 url = "https://github.com/fluencelabs/near-metaBUILD-hackathon"
@@ -11497,6 +11785,7 @@ url = "https://github.com/followdarko/near-cli"
 
 [[repo]]
 url = "https://github.com/FontanezAngee/nearcore"
+missing = true
 
 [[repo]]
 url = "https://github.com/forbesus/near-amm-smart-contract"
@@ -11555,6 +11844,9 @@ url = "https://github.com/frangiskos/metabuild"
 
 [[repo]]
 url = "https://github.com/frank-mosigisi/Drive-Inco"
+
+[[repo]]
+url = "https://github.com/frank-skyblue/blockchain-marketplace"
 
 [[repo]]
 url = "https://github.com/frankfervela/FT"
@@ -11769,15 +12061,21 @@ url = "https://github.com/furkancetinalp/NCD_Appointment"
 
 [[repo]]
 url = "https://github.com/FurkanHaydari/NEAR_WEB3_FIRST_PROJECT"
+missing = true
 
 [[repo]]
 url = "https://github.com/FurkanHaydari/pratik"
+missing = true
 
 [[repo]]
 url = "https://github.com/FurkanHaydari/task4"
+missing = true
 
 [[repo]]
 url = "https://github.com/fury-js/near-protocol-demo"
+
+[[repo]]
+url = "https://github.com/FusionFund/fusion"
 
 [[repo]]
 url = "https://github.com/futurewitness/demon"
@@ -11811,6 +12109,10 @@ url = "https://github.com/gabidj/near-blockchain-app"
 
 [[repo]]
 url = "https://github.com/Gabriel9009/Hello_In_near"
+
+[[repo]]
+url = "https://github.com/gabrielantonyxaviour/gojo"
+missing = true
 
 [[repo]]
 url = "https://github.com/gabrielgtzf/BENKYO.TECH"
@@ -11964,6 +12266,7 @@ url = "https://github.com/Garfield550/qstn-dct2"
 
 [[repo]]
 url = "https://github.com/Garrybrayn/bos-workspace"
+missing = true
 
 [[repo]]
 url = "https://github.com/garythung/aurora-relayer"
@@ -12303,6 +12606,9 @@ url = "https://github.com/GoalPanda/rust-contract-example"
 url = "https://github.com/goard/near-marketplace-NFT"
 
 [[repo]]
+url = "https://github.com/Godblessmylife/xfiSwap"
+
+[[repo]]
 url = "https://github.com/godelbrot/rust-in-blockchain"
 
 [[repo]]
@@ -12489,6 +12795,9 @@ url = "https://github.com/gre4ixin/near-api-swift"
 missing = true
 
 [[repo]]
+url = "https://github.com/GreedyWorld/game"
+
+[[repo]]
 url = "https://github.com/greenealexander/learn-web3-dapp"
 missing = true
 
@@ -12556,6 +12865,10 @@ url = "https://github.com/gtamer2/factory_take_home"
 missing = true
 
 [[repo]]
+url = "https://github.com/gtsonevv/near-js-tutorial"
+missing = true
+
+[[repo]]
 url = "https://github.com/gucoi/near_factory_example"
 
 [[repo]]
@@ -12605,6 +12918,9 @@ url = "https://github.com/gummi-vp/near-smart-contract-practice"
 
 [[repo]]
 url = "https://github.com/Gungz/flux-bot"
+
+[[repo]]
+url = "https://github.com/gunsmith-group/hackathon"
 
 [[repo]]
 url = "https://github.com/gupnik/metabuild"
@@ -12659,6 +12975,9 @@ url = "https://github.com/h-4vok/ubiquity-mint-live-monitor"
 
 [[repo]]
 url = "https://github.com/h2plalbert/icon-bridge"
+
+[[repo]]
+url = "https://github.com/h4shk4t/validAI"
 
 [[repo]]
 url = "https://github.com/HAAH10/indexers-docs"
@@ -12722,6 +13041,9 @@ url = "https://github.com/hackathon412/NEAR-Exchange-Blockchain"
 
 [[repo]]
 url = "https://github.com/hackathonprojs/near-rust-helloworld"
+
+[[repo]]
+url = "https://github.com/Hackeronline123/OOOOO"
 
 [[repo]]
 url = "https://github.com/HackerZorro96/near-academy-contracts"
@@ -12915,6 +13237,9 @@ url = "https://github.com/Harshdeep-k/Vitrum"
 url = "https://github.com/harshit3199/web3"
 
 [[repo]]
+url = "https://github.com/Harshith-05/AI-VTON"
+
+[[repo]]
 url = "https://github.com/harshnambiar/hello_near"
 
 [[repo]]
@@ -12948,10 +13273,16 @@ url = "https://github.com/hashi7412/nft-staking"
 url = "https://github.com/Hashimdev-spec/We3-NEAR-Blockchain-Dapp"
 
 [[repo]]
+url = "https://github.com/Hasnain01-hub/ai_chat_assistant"
+
+[[repo]]
 url = "https://github.com/HassanHarby2000/friendbook-as"
 
 [[repo]]
 url = "https://github.com/HassanKhan123/near-swap"
+
+[[repo]]
+url = "https://github.com/hasselalcala/earthmind-rs"
 
 [[repo]]
 url = "https://github.com/hatskier/docs"
@@ -13112,6 +13443,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/here-wallet/here-website"
+missing = true
 
 [[repo]]
 url = "https://github.com/here-wallet/herewallet-connect"
@@ -13223,6 +13555,9 @@ url = "https://github.com/hew/near-generative-website"
 url = "https://github.com/Hex181/BonaFide"
 
 [[repo]]
+url = "https://github.com/Hexdee/ExpressWage"
+
+[[repo]]
 url = "https://github.com/Hexdee/Near-X-Encode"
 
 [[repo]]
@@ -13312,6 +13647,9 @@ url = "https://github.com/hknio/wasmcov"
 url = "https://github.com/hkuspace-pu/COMP-3000-Ngan-Tsz-Chung-FYP"
 
 [[repo]]
+url = "https://github.com/HL42/HealthPage"
+
+[[repo]]
 url = "https://github.com/hlongn2469/near-cli"
 
 [[repo]]
@@ -13325,9 +13663,11 @@ url = "https://github.com/hoanghungbk93/blockchain"
 
 [[repo]]
 url = "https://github.com/Hoanglam1134/near-linkdrop-mod"
+missing = true
 
 [[repo]]
 url = "https://github.com/Hoanglam1134/uit-ecommerce-contract"
+missing = true
 
 [[repo]]
 url = "https://github.com/hoanglongne/Trusify"
@@ -13432,10 +13772,17 @@ url = "https://github.com/holyaustin/nft-api-commandline"
 url = "https://github.com/holydragon2009/green-fruit-contract"
 
 [[repo]]
+url = "https://github.com/holyhli/nearzkml-frontend"
+
+[[repo]]
+url = "https://github.com/HomeBo6-13/DonaChain1"
+
+[[repo]]
 url = "https://github.com/homefitin/near-project"
 
 [[repo]]
 url = "https://github.com/honganji/NEAR-Election-dApp"
+missing = true
 
 [[repo]]
 url = "https://github.com/honganji/near-election-dapp-contract"
@@ -13450,6 +13797,9 @@ url = "https://github.com/HongThaiPham/near-todos-crud-app"
 
 [[repo]]
 url = "https://github.com/hop-chain/hopchain-near-contracts"
+
+[[repo]]
+url = "https://github.com/Horlarmmy/Blockpass"
 
 [[repo]]
 url = "https://github.com/HorseXInsectCoder/near_rs_contract"
@@ -13921,6 +14271,7 @@ url = "https://github.com/idea404/xcc-view-test"
 
 [[repo]]
 url = "https://github.com/Ideevoog/Toolblox.Ada.App"
+missing = true
 
 [[repo]]
 url = "https://github.com/Ideevoog/Toolblox.Blockservers.Near"
@@ -14026,6 +14377,9 @@ url = "https://github.com/ihorbond/learn-web3-dapp"
 
 [[repo]]
 url = "https://github.com/iignaciio/Proyecto-NearList-para-Near-Hispano"
+
+[[repo]]
+url = "https://github.com/iJ03l/xwiftrx-ai"
 
 [[repo]]
 url = "https://github.com/ijerkovic/near-sdk-rs"
@@ -14229,9 +14583,11 @@ url = "https://github.com/IMEF-FEMI/NEAR-NFT-bridge-contract"
 
 [[repo]]
 url = "https://github.com/imhunterand/core-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/imhunterand/near-linkdrop"
+missing = true
 
 [[repo]]
 url = "https://github.com/Immanuel-john/near-nft-utility"
@@ -14352,6 +14708,15 @@ url = "https://github.com/Innovation-Labs-Technical-Hub/near-up"
 url = "https://github.com/Inon123/near-jsonrpc-client-rs"
 
 [[repo]]
+url = "https://github.com/insight-chain/inb-go"
+
+[[repo]]
+url = "https://github.com/INTEARnear/explorer"
+
+[[repo]]
+url = "https://github.com/INTEARnear/oracle"
+
+[[repo]]
 url = "https://github.com/Integritas/near-smart-contract"
 
 [[repo]]
@@ -14359,6 +14724,9 @@ url = "https://github.com/inteldev2080/NFT-Staking"
 
 [[repo]]
 url = "https://github.com/intellichain555/Varda_nft_Staking"
+
+[[repo]]
+url = "https://github.com/Intellihackz/redactedv0.001"
 
 [[repo]]
 url = "https://github.com/inti25/near-tic-tac-toe"
@@ -14434,6 +14802,7 @@ url = "https://github.com/iovayurt/dm"
 
 [[repo]]
 url = "https://github.com/iovitatudor/artcoin-landing"
+missing = true
 
 [[repo]]
 url = "https://github.com/iovitatudor/near-minting-vue"
@@ -14468,9 +14837,11 @@ missing = true
 
 [[repo]]
 url = "https://github.com/IQ-SCM/near-api-py"
+missing = true
 
 [[repo]]
 url = "https://github.com/IQ-SCM/near-sdk-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/iqbalbaharum/bootcamp"
@@ -14812,6 +15183,9 @@ url = "https://github.com/jadbox/near-getting-started"
 url = "https://github.com/jagriti295/The-Dino-Run"
 
 [[repo]]
+url = "https://github.com/jaibhedia/ChainzCommerce-Redacted"
+
+[[repo]]
 url = "https://github.com/JaiGhanekar/near-compile-service"
 
 [[repo]]
@@ -14957,6 +15331,9 @@ url = "https://github.com/jaswinder6991/neardevhub-contract"
 url = "https://github.com/jaswinder6991/neardevhub-widgets"
 
 [[repo]]
+url = "https://github.com/jaswinder6991/simple-usdc-bridge"
+
+[[repo]]
 url = "https://github.com/jaswinder6991/viewer"
 
 [[repo]]
@@ -15024,6 +15401,9 @@ missing = true
 url = "https://github.com/jayendramadaram/Near-Protocol-Projects"
 
 [[repo]]
+url = "https://github.com/jayendramadaram/ozone-contracts"
+
+[[repo]]
 url = "https://github.com/jbajic/nearcore"
 missing = true
 
@@ -15035,6 +15415,9 @@ url = "https://github.com/jboetticher/NEARFiefdom-smart-contracts"
 
 [[repo]]
 url = "https://github.com/jbrit/nearfusion-gateway"
+
+[[repo]]
+url = "https://github.com/jbrit/yeet.fi"
 
 [[repo]]
 url = "https://github.com/jcantillo94/guest-book-clone"
@@ -15079,6 +15462,9 @@ url = "https://github.com/JeenaKhurram/near-starter--near-sdk-as"
 
 [[repo]]
 url = "https://github.com/Jeetramoliya/BlockVote"
+
+[[repo]]
+url = "https://github.com/jefedeoro/ai_crypto_dca_bot"
 
 [[repo]]
 url = "https://github.com/jefedeoro/dragonear"
@@ -15135,7 +15521,11 @@ url = "https://github.com/jelilat/swift-pay"
 url = "https://github.com/jellydn/hello-near-app"
 
 [[repo]]
+url = "https://github.com/jen-sei/dewdrop-ETHBrussels"
+
+[[repo]]
 url = "https://github.com/JennaXiao3/Chat-Play"
+missing = true
 
 [[repo]]
 url = "https://github.com/jennifertrin/VRAccessToken"
@@ -15237,6 +15627,9 @@ url = "https://github.com/JIC1816/Near-Marketplace"
 url = "https://github.com/JIC1816/Near-rent-a-car"
 
 [[repo]]
+url = "https://github.com/Jikugodwill/project-creator-agent"
+
+[[repo]]
 url = "https://github.com/Jilanixxx/Pokeplace-dapp"
 
 [[repo]]
@@ -15307,6 +15700,12 @@ url = "https://github.com/Jirina2181/hummingbot"
 
 [[repo]]
 url = "https://github.com/JithinKS97/recruiter.party"
+
+[[repo]]
+url = "https://github.com/JittoJoseph/PreStake-Paper-Staking-App"
+
+[[repo]]
+url = "https://github.com/JiyaGupta-cs/Flare0x"
 
 [[repo]]
 url = "https://github.com/jjambazov-bc/near-cli-rs"
@@ -15420,6 +15819,7 @@ url = "https://github.com/Job-Unicorn/sodium"
 
 [[repo]]
 url = "https://github.com/JobDAO/joba-MVP"
+missing = true
 
 [[repo]]
 url = "https://github.com/jobyid/near-api-rest-server"
@@ -15453,6 +15853,7 @@ url = "https://github.com/joe-rlo/ShardDogBot_NEAR_Social_Notifications"
 
 [[repo]]
 url = "https://github.com/joe-rlo/ShardNFTs"
+missing = true
 
 [[repo]]
 url = "https://github.com/joe-trellick/guest-book"
@@ -15713,6 +16114,9 @@ url = "https://github.com/Jorgemacias-12/The-Cookie-Trail"
 url = "https://github.com/Jorgewlf88/sharingshard"
 
 [[repo]]
+url = "https://github.com/Jose-Luis-JL/BlueSense_V3.github.io"
+
+[[repo]]
 url = "https://github.com/josealfredo79/ArtesaniasWeb3.0"
 
 [[repo]]
@@ -15816,8 +16220,14 @@ url = "https://github.com/jovocom/NFT-Staking"
 url = "https://github.com/jovoel/NFT-Staking"
 
 [[repo]]
+url = "https://github.com/Joyboyx12/Raigotchi"
+
+[[repo]]
 url = "https://github.com/joycelozano/imsygner"
 missing = true
+
+[[repo]]
+url = "https://github.com/joygotchi/joygotchi-near-client-bot"
 
 [[repo]]
 url = "https://github.com/joygotchi/joygotchi-near-contract"
@@ -15986,6 +16396,9 @@ url = "https://github.com/JulioMCruz/SputnikDao-AS-Contract"
 url = "https://github.com/JulioMCruz/WinnerApp-Near"
 
 [[repo]]
+url = "https://github.com/Julius-Ky/reCeption"
+
+[[repo]]
 url = "https://github.com/juliusalmighty/disaster-girl"
 
 [[repo]]
@@ -16026,6 +16439,9 @@ url = "https://github.com/juno-labs/mars-minter-contract"
 
 [[repo]]
 url = "https://github.com/junsoo37/near"
+
+[[repo]]
+url = "https://github.com/JupiterXiaoxiaoYu/Night-s-Watcher"
 
 [[repo]]
 url = "https://github.com/just-do-halee/near-contract"
@@ -16069,6 +16485,9 @@ url = "https://github.com/Jwhiles/rust-cryptic-comment"
 
 [[repo]]
 url = "https://github.com/jwoh1014/web3mon-mint-private"
+
+[[repo]]
+url = "https://github.com/jxcobie/El_Bey"
 
 [[repo]]
 url = "https://github.com/jzhang19/near-guestbook"
@@ -16130,6 +16549,10 @@ url = "https://github.com/kaanarslan1990/patika-near"
 url = "https://github.com/kaanarslan1990/ptk-starter-near-sdk-as"
 
 [[repo]]
+url = "https://github.com/kachdekan/jazika"
+missing = true
+
+[[repo]]
 url = "https://github.com/kadirgocebe/GambleGame"
 
 [[repo]]
@@ -16143,6 +16566,9 @@ url = "https://github.com/Kagwep/Card-Game-Trash"
 
 [[repo]]
 url = "https://github.com/kaifeur/app-near"
+
+[[repo]]
+url = "https://github.com/Kailash-Ray/icebreak-calimero"
 
 [[repo]]
 url = "https://github.com/kairoski03/wds-near-contract-parser"
@@ -16187,7 +16613,16 @@ url = "https://github.com/kalloc/web4"
 url = "https://github.com/kalloc/witme"
 
 [[repo]]
+url = "https://github.com/kamalbuilds/ai-trading-on-near"
+
+[[repo]]
+url = "https://github.com/kamalbuilds/multichain-near-ai-agent"
+
+[[repo]]
 url = "https://github.com/kamalbuilds/Near-StoreHub"
+
+[[repo]]
+url = "https://github.com/kamalbuilds/nillion-pvt-medical-research-app"
 
 [[repo]]
 url = "https://github.com/kamescg/near-ignition"
@@ -16216,6 +16651,9 @@ url = "https://github.com/Kane10009/blockchain"
 url = "https://github.com/kangforksc/web3-dapp"
 
 [[repo]]
+url = "https://github.com/Kanki-Studio/gecko_frens_landing_page"
+
+[[repo]]
 url = "https://github.com/kapasainitishreddy/Blockchain-Projects"
 missing = true
 
@@ -16228,6 +16666,9 @@ url = "https://github.com/Kapil-Mulay-1421/Whisper"
 
 [[repo]]
 url = "https://github.com/KapokProgramming/Youchain"
+
+[[repo]]
+url = "https://github.com/karanupd12/BlockTalkContracts"
 
 [[repo]]
 url = "https://github.com/Kariimayman/PharmacyBlockchain"
@@ -16480,6 +16921,9 @@ url = "https://github.com/kenobijon/registry-near"
 url = "https://github.com/KenrouIt/cheddar-ecosystem"
 
 [[repo]]
+url = "https://github.com/Kenxpx/Microfinance-Platform"
+
+[[repo]]
 url = "https://github.com/keremOzerdem/Near-developer-course-practice-II-First-three-tasks"
 
 [[repo]]
@@ -16493,6 +16937,7 @@ url = "https://github.com/Kerite/Amm-Demo"
 
 [[repo]]
 url = "https://github.com/KerwinWardian1993/near-sdk-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/ketyung/tm_collections_contract"
@@ -16521,6 +16966,9 @@ url = "https://github.com/kevinee007/create-near-app"
 
 [[repo]]
 url = "https://github.com/kevinheavey/pyonear"
+
+[[repo]]
+url = "https://github.com/kevinjaypatel/core"
 
 [[repo]]
 url = "https://github.com/kevinmugiira/Mugiira_smart_contract_test"
@@ -16560,6 +17008,9 @@ url = "https://github.com/keypom/events-account-factory"
 
 [[repo]]
 url = "https://github.com/keypom/examples"
+
+[[repo]]
+url = "https://github.com/keypom/fastauth-worker"
 
 [[repo]]
 url = "https://github.com/keypom/ft-contract"
@@ -16613,6 +17064,9 @@ url = "https://github.com/keypom/keypom-js"
 url = "https://github.com/keypom/keypom-nft-storage"
 
 [[repo]]
+url = "https://github.com/keypom/multichain-fastauth"
+
+[[repo]]
 url = "https://github.com/keypom/multichain-trial-accounts"
 
 [[repo]]
@@ -16627,6 +17081,9 @@ url = "https://github.com/keypom/nft-tutorial-series"
 
 [[repo]]
 url = "https://github.com/keypom/sputnik-dao-contract"
+
+[[repo]]
+url = "https://github.com/keypom/trial-account-app"
 
 [[repo]]
 url = "https://github.com/keypom/trial-accounts"
@@ -16656,6 +17113,9 @@ url = "https://github.com/khado95/art_auction"
 url = "https://github.com/KhairyKio/blockheadvote"
 
 [[repo]]
+url = "https://github.com/khaleedcodes/HawkHacks-Mavericks"
+
+[[repo]]
 url = "https://github.com/khaliduddin/near-dapp"
 
 [[repo]]
@@ -16670,6 +17130,9 @@ url = "https://github.com/khalifayakub/near-icecream"
 
 [[repo]]
 url = "https://github.com/khanetor/blockipedia-near"
+
+[[repo]]
+url = "https://github.com/khang-874/smart-contract"
 
 [[repo]]
 url = "https://github.com/khanhhuy-bkdn/even-odd-rust"
@@ -17095,6 +17558,9 @@ url = "https://github.com/KOH-Development/tenk"
 url = "https://github.com/kohlivarun5/near-api-swift"
 
 [[repo]]
+url = "https://github.com/KokYenZein/LinguaStream"
+
+[[repo]]
 url = "https://github.com/koladebashir/logbook_dApp"
 
 [[repo]]
@@ -17121,6 +17587,9 @@ url = "https://github.com/kon172verma/NEAR-Protocol"
 
 [[repo]]
 url = "https://github.com/Kondwani7/test_near_app"
+
+[[repo]]
+url = "https://github.com/KonferCA/Seahorse"
 
 [[repo]]
 url = "https://github.com/konn0x/rarelim-unity-sdk"
@@ -17316,6 +17785,9 @@ url = "https://github.com/kurodenjiro/mintbase-loader-langchain"
 url = "https://github.com/kurodenjiro/NEAR--sample-lottery-frontend"
 
 [[repo]]
+url = "https://github.com/kurodenjiro/prompt-near"
+
+[[repo]]
 url = "https://github.com/kursaderduhan/Project_Book"
 
 [[repo]]
@@ -17478,6 +17950,10 @@ url = "https://github.com/kyunghyunHan/near_counter_dapp"
 url = "https://github.com/kyve-org/near"
 
 [[repo]]
+url = "https://github.com/KYVENetwork/DataPipeline"
+missing = true
+
+[[repo]]
 url = "https://github.com/kzncvaa/nearAPI"
 missing = true
 
@@ -17507,6 +17983,7 @@ url = "https://github.com/L0MAkin/db-swap"
 
 [[repo]]
 url = "https://github.com/laboon-org/near-318"
+missing = true
 
 [[repo]]
 url = "https://github.com/LafMonGen/ChessNEAR"
@@ -17579,6 +18056,9 @@ url = "https://github.com/langorn/missing-person-board"
 url = "https://github.com/langorn/Missing-Person-Boards"
 
 [[repo]]
+url = "https://github.com/langsky302/AURORA-Chicken-Merge-War-Game"
+
+[[repo]]
 url = "https://github.com/LanNhi1997/Challenge-3-social-good-bounty"
 
 [[repo]]
@@ -17610,6 +18090,9 @@ url = "https://github.com/laponte243/near-certificates-nuxt"
 
 [[repo]]
 url = "https://github.com/laponte243/NEAvataR"
+
+[[repo]]
+url = "https://github.com/Lappsnet/near-xfy-contract"
 
 [[repo]]
 url = "https://github.com/LaPrelle10/pow-faucet"
@@ -17694,6 +18177,9 @@ url = "https://github.com/LawrenceLiu121/near-gif-gallery"
 [[repo]]
 url = "https://github.com/layinka/loanbook"
 missing = true
+
+[[repo]]
+url = "https://github.com/layinka/ticket-block"
 
 [[repo]]
 url = "https://github.com/lazerbeam-dev/rps-rust"
@@ -18253,6 +18739,7 @@ url = "https://github.com/Learn-NEAR/workshop--exploring-assemblyscript-contract
 
 [[repo]]
 url = "https://github.com/learn2nNEAR/LNG"
+missing = true
 
 [[repo]]
 url = "https://github.com/LearningGame2/MVCSD-Learning-Game-2"
@@ -18385,6 +18872,9 @@ url = "https://github.com/leomanza/mp-gov"
 url = "https://github.com/leomanza/near-injected-wallet-poc"
 
 [[repo]]
+url = "https://github.com/leomanza/poolarize"
+
+[[repo]]
 url = "https://github.com/leomanza/refound-nearcon23"
 
 [[repo]]
@@ -18430,6 +18920,9 @@ url = "https://github.com/lequangphuong/dapp"
 
 [[repo]]
 url = "https://github.com/lequangphuong/nearnames"
+
+[[repo]]
+url = "https://github.com/lessismore22/NFT-Based_Ticketing_System"
 
 [[repo]]
 url = "https://github.com/lesterli/rust-practice"
@@ -18563,6 +19056,7 @@ url = "https://github.com/LiboShen/recur"
 
 [[repo]]
 url = "https://github.com/libraiger/ethNearMarketplace"
+missing = true
 
 [[repo]]
 url = "https://github.com/ligebit/BURROW"
@@ -18638,6 +19132,9 @@ url = "https://github.com/lilvi8xalda/near-cli"
 url = "https://github.com/LimeChain/near-api-js"
 
 [[repo]]
+url = "https://github.com/LimeChain/nearjs-angular-app"
+
+[[repo]]
 url = "https://github.com/LimeChain/nearjs-nuxt-app"
 
 [[repo]]
@@ -18672,6 +19169,9 @@ url = "https://github.com/linguists/near-price-oracle-bot"
 
 [[repo]]
 url = "https://github.com/linhai0212/test-near-wallet-example"
+
+[[repo]]
+url = "https://github.com/linHDev0106/Zombie-Hunter-Game-On-Aurora"
 
 [[repo]]
 url = "https://github.com/linhleba/ecommerce-platform"
@@ -18940,9 +19440,11 @@ url = "https://github.com/lostpebble/near-lake-framework-js"
 
 [[repo]]
 url = "https://github.com/LouisDonDaza/ielec"
+missing = true
 
 [[repo]]
 url = "https://github.com/LouisDonDaza/thesisapp"
+missing = true
 
 [[repo]]
 url = "https://github.com/loupdemon/near-generative-nft-landing-page-website-nice"
@@ -19076,6 +19578,7 @@ url = "https://github.com/lucas7788/near-runtime-ts"
 
 [[repo]]
 url = "https://github.com/lucasa94/near-generative-nft-landing-page"
+missing = true
 
 [[repo]]
 url = "https://github.com/LucasCodr/near-marketplace"
@@ -19088,6 +19591,7 @@ url = "https://github.com/LucasLeandro1204/tonic-indexer-example"
 
 [[repo]]
 url = "https://github.com/lucasmombello/nearCounter"
+missing = true
 
 [[repo]]
 url = "https://github.com/LucasWongC/near-nft-tutorial"
@@ -19158,7 +19662,13 @@ url = "https://github.com/luckypanda777/Simple_Token_NEAR"
 missing = true
 
 [[repo]]
+url = "https://github.com/Ludium-Official/dead-project-snipper"
+
+[[repo]]
 url = "https://github.com/Ludium-Official/ludium-world"
+
+[[repo]]
+url = "https://github.com/Ludium-Official/redacted-hackathon"
 
 [[repo]]
 url = "https://github.com/luisanton-io/near-sdk-as"
@@ -19273,6 +19783,9 @@ url = "https://github.com/lytves/near-multisender-test"
 url = "https://github.com/LyubomyrBurday/near-api-swift"
 
 [[repo]]
+url = "https://github.com/Lyvena/Integrety"
+
+[[repo]]
 url = "https://github.com/M-Rb3/linktree-bos"
 
 [[repo]]
@@ -19301,6 +19814,10 @@ url = "https://github.com/Mabhegza/create-near-app"
 
 [[repo]]
 url = "https://github.com/Macharia-Charles/bus-booking"
+missing = true
+
+[[repo]]
+url = "https://github.com/Machinalabs/earthmind-near-client"
 missing = true
 
 [[repo]]
@@ -19405,6 +19922,9 @@ url = "https://github.com/Maix31/near-devtest"
 
 [[repo]]
 url = "https://github.com/majd-elhasan/starter--near-sdk-as"
+
+[[repo]]
+url = "https://github.com/majin-land/c10n"
 
 [[repo]]
 url = "https://github.com/makarovas/near-cra"
@@ -19713,6 +20233,7 @@ url = "https://github.com/Markeljan/swapguard"
 
 [[repo]]
 url = "https://github.com/marketxyz/subgraphs"
+missing = true
 
 [[repo]]
 url = "https://github.com/markeymark32/degenLizardCoinFlip"
@@ -19842,6 +20363,9 @@ url = "https://github.com/Marumbo/NearContractSpeedData"
 url = "https://github.com/marvelouson/starter--near-sdk-as"
 
 [[repo]]
+url = "https://github.com/marvincd/near_bug_bounty"
+
+[[repo]]
 url = "https://github.com/marvinmednick/Exploring-Near-Contracts"
 
 [[repo]]
@@ -19892,6 +20416,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/MateoEmilio1/near-marketplace-contract"
+missing = true
 
 [[repo]]
 url = "https://github.com/mathwallet/math-nearjs"
@@ -20016,6 +20541,7 @@ url = "https://github.com/mattzcarey/onNearBus"
 
 [[repo]]
 url = "https://github.com/matzayonc/near-template"
+missing = true
 
 [[repo]]
 url = "https://github.com/max-block/near-examples"
@@ -20104,6 +20630,9 @@ url = "https://github.com/mayank-1224/e-ballot"
 
 [[repo]]
 url = "https://github.com/mayconvm/near-learn"
+
+[[repo]]
+url = "https://github.com/mayur-samrutwar/whoistheboss"
 
 [[repo]]
 url = "https://github.com/Mazout-Electric/Locus-QR-Payment"
@@ -20203,6 +20732,9 @@ url = "https://github.com/Megha-Dev-19/near-discovery-components"
 
 [[repo]]
 url = "https://github.com/Megha-Dev-19/neardevhub-widgets"
+
+[[repo]]
+url = "https://github.com/Megha-Dev-19/project-proposal-bitte-agent"
 
 [[repo]]
 url = "https://github.com/meghaa105/near-indexer-for-explorer"
@@ -20401,6 +20933,9 @@ url = "https://github.com/Meowomen/NearYou"
 url = "https://github.com/Meowomen/NEARYou_contract"
 
 [[repo]]
+url = "https://github.com/mercurygrade/tcg_near_marketplacev2"
+
+[[repo]]
 url = "https://github.com/MercuryTechnologies/linear-autolink"
 
 [[repo]]
@@ -20426,6 +20961,7 @@ url = "https://github.com/MetaAdsTeam/meta_add_nft_smartcontact"
 
 [[repo]]
 url = "https://github.com/metabasenet/panda"
+missing = true
 
 [[repo]]
 url = "https://github.com/MetaBUILD-III/MetaBUILD_III_contracts"
@@ -20609,6 +21145,9 @@ url = "https://github.com/mgmoreira/Equipo5"
 
 [[repo]]
 url = "https://github.com/mh-anwar/decentraveller"
+
+[[repo]]
+url = "https://github.com/mh-anwar/UNiDLoan"
 
 [[repo]]
 url = "https://github.com/mhassanist/certchain"
@@ -20895,6 +21434,9 @@ url = "https://github.com/mikenevermindng/Token-factory-ui"
 url = "https://github.com/mikenevermindng/Ukraine-NFT-Zoo"
 
 [[repo]]
+url = "https://github.com/MikePawel/ethglobal-singapore-24"
+
+[[repo]]
 url = "https://github.com/MikeSZ97/NFT-fetch"
 
 [[repo]]
@@ -21177,6 +21719,9 @@ url = "https://github.com/mmcguire91/near-smart-contract-practice"
 url = "https://github.com/mmortelliti/rust-template-near"
 
 [[repo]]
+url = "https://github.com/mmtspteam1/healthone"
+
+[[repo]]
 url = "https://github.com/mmurat/MyTry"
 
 [[repo]]
@@ -21251,6 +21796,9 @@ missing = true
 url = "https://github.com/mohamedalichelbi/chluff-assistant"
 
 [[repo]]
+url = "https://github.com/mohamedalichelbi/ethbrussels24"
+
+[[repo]]
 url = "https://github.com/mohamedalichelbi/near-chess"
 
 [[repo]]
@@ -21270,6 +21818,7 @@ url = "https://github.com/mohammed-arham/BlockchainVotingSystem"
 
 [[repo]]
 url = "https://github.com/mohammeddr1/blockvotee"
+missing = true
 
 [[repo]]
 url = "https://github.com/mohitchandel/bos-chat"
@@ -21303,6 +21852,9 @@ url = "https://github.com/monadsocial/Near-Tipping"
 
 [[repo]]
 url = "https://github.com/monarch619/near-generative-nft-landing-page"
+
+[[repo]]
+url = "https://github.com/Monetizado/Contracts"
 
 [[repo]]
 url = "https://github.com/MoniaBellil/Questionner"
@@ -21366,6 +21918,9 @@ url = "https://github.com/moonshotcollective/recruiter.party"
 
 [[repo]]
 url = "https://github.com/mooori/acl-example"
+
+[[repo]]
+url = "https://github.com/mooori/near-benchmarking"
 
 [[repo]]
 url = "https://github.com/mooori/near-plugins"
@@ -21441,6 +21996,9 @@ url = "https://github.com/mothblue1111/Net-145-and-nep-148-contract"
 
 [[repo]]
 url = "https://github.com/motiv8tor/gameitem-marketplace"
+
+[[repo]]
+url = "https://github.com/MotuNear/MotuArora"
 
 [[repo]]
 url = "https://github.com/Motzart/i-am-human-dapp"
@@ -21738,12 +22296,15 @@ url = "https://github.com/Murat-Selim/NCD_Travel-Guide-APP"
 
 [[repo]]
 url = "https://github.com/Murat-Selim/Practice-Part"
+missing = true
 
 [[repo]]
 url = "https://github.com/muratcaner/ncd-practice-1"
+missing = true
 
 [[repo]]
 url = "https://github.com/muratcaner/ncd-practice-2"
+missing = true
 
 [[repo]]
 url = "https://github.com/murathanje/practice1"
@@ -21829,6 +22390,7 @@ url = "https://github.com/musuysal/NearDeveloperCourse"
 
 [[repo]]
 url = "https://github.com/mutalex/near_vcard"
+missing = true
 
 [[repo]]
 url = "https://github.com/MuteDAO/Near-Smart-Contract-NEP-141"
@@ -21870,6 +22432,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/mxber2022/AbstractionHack"
+
+[[repo]]
+url = "https://github.com/mxber2022/IconicInk"
 
 [[repo]]
 url = "https://github.com/mxjxn/tenk"
@@ -21974,6 +22539,9 @@ url = "https://github.com/myzyryzm/runner-ratchet"
 
 [[repo]]
 url = "https://github.com/mzaryabrafique/near-nft"
+
+[[repo]]
+url = "https://github.com/mzayem/music-streaming-app"
 
 [[repo]]
 url = "https://github.com/mzhangmzz/event_org"
@@ -22540,16 +23108,29 @@ url = "https://github.com/NEAR-DevHub/.github"
 url = "https://github.com/NEAR-DevHub/badges-contract"
 
 [[repo]]
+url = "https://github.com/NEAR-DevHub/content"
+
+[[repo]]
 url = "https://github.com/NEAR-DevHub/devbot"
 
 [[repo]]
 url = "https://github.com/NEAR-DevHub/devhubnewsletter"
 
 [[repo]]
+url = "https://github.com/NEAR-DevHub/Infrastructure-Committee"
+
+[[repo]]
 url = "https://github.com/NEAR-DevHub/NEAR-DevHub"
 
 [[repo]]
 url = "https://github.com/NEAR-DevHub/near-prpsls-bos"
+missing = true
+
+[[repo]]
+url = "https://github.com/NEAR-DevHub/near.dev-website"
+
+[[repo]]
+url = "https://github.com/NEAR-DevHub/neardevhub-api-rs"
 
 [[repo]]
 url = "https://github.com/NEAR-DevHub/neardevhub-bos"
@@ -23049,6 +23630,12 @@ url = "https://github.com/near-examples/near-dashboard"
 url = "https://github.com/near-examples/near-drop"
 
 [[repo]]
+url = "https://github.com/near-examples/near-js"
+
+[[repo]]
+url = "https://github.com/near-examples/near-js-examples"
+
+[[repo]]
 url = "https://github.com/near-examples/near-lake-accounts-watcher"
 
 [[repo]]
@@ -23518,10 +24105,16 @@ missing = true
 url = "https://github.com/Near-One/aurora-eth-connector"
 
 [[repo]]
+url = "https://github.com/Near-One/bitcoin-connector"
+
+[[repo]]
 url = "https://github.com/Near-One/bridge-cli"
 
 [[repo]]
 url = "https://github.com/Near-One/btc-light-client-contract"
+
+[[repo]]
+url = "https://github.com/Near-One/cait-sith"
 
 [[repo]]
 url = "https://github.com/Near-One/clusterfuzz"
@@ -24044,6 +24637,7 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/near/docs-generator"
 tags = ["Protocol"]
+missing = true
 
 [[repo]]
 url = "https://github.com/near/DX"
@@ -24623,6 +25217,9 @@ url = "https://github.com/near/octopus"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/near/omni-transaction-rs"
+
+[[repo]]
 url = "https://github.com/near/openethereum"
 tags = ["Protocol"]
 
@@ -24720,6 +25317,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/near/read-rpc"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/near/redacted-2024"
 
 [[repo]]
 url = "https://github.com/near/repro-near-funcall"
@@ -24899,6 +25499,12 @@ url = "https://github.com/near/zkevm-rom"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/nearai/competition-0.5b-template"
+
+[[repo]]
+url = "https://github.com/nearai/llm.c"
+
+[[repo]]
 url = "https://github.com/nearai/Megatron-LM"
 
 [[repo]]
@@ -24908,7 +25514,13 @@ url = "https://github.com/nearai/Megatron-LM-for-MegaBlocks"
 url = "https://github.com/nearai/near.ai"
 
 [[repo]]
+url = "https://github.com/nearai/nearai"
+
+[[repo]]
 url = "https://github.com/nearai/NeMo"
+
+[[repo]]
+url = "https://github.com/nearai/official-agents"
 
 [[repo]]
 url = "https://github.com/nearai/program_synthesis"
@@ -24983,6 +25595,9 @@ url = "https://github.com/Nearblocks/translations"
 
 [[repo]]
 url = "https://github.com/nearbos/vibes-bos"
+
+[[repo]]
+url = "https://github.com/NearBtcForge/neatbtcforge"
 
 [[repo]]
 url = "https://github.com/nearbuild/hideyour-cash"
@@ -25135,6 +25750,9 @@ url = "https://github.com/NEARBuilders/github-profile-readme-maker"
 url = "https://github.com/NEARBuilders/gov"
 
 [[repo]]
+url = "https://github.com/NEARBuilders/graph-db"
+
+[[repo]]
 url = "https://github.com/NEARBuilders/hack.near"
 
 [[repo]]
@@ -25187,6 +25805,9 @@ url = "https://github.com/NEARBuilders/near-discovery-components"
 
 [[repo]]
 url = "https://github.com/NEARBuilders/near-obsidian-plugin"
+
+[[repo]]
+url = "https://github.com/NEARBuilders/near-roast-agent"
 
 [[repo]]
 url = "https://github.com/NEARBuilders/near-social-example"
@@ -25243,6 +25864,9 @@ url = "https://github.com/NEARBuilders/quickstart"
 url = "https://github.com/NEARBuilders/quickstart.near"
 
 [[repo]]
+url = "https://github.com/NEARBuilders/redacted-projects"
+
+[[repo]]
 url = "https://github.com/NEARBuilders/Resources"
 
 [[repo]]
@@ -25269,6 +25893,7 @@ url = "https://github.com/NEARBuilders/tldraw.near"
 
 [[repo]]
 url = "https://github.com/NEARBuilders/tourney"
+missing = true
 
 [[repo]]
 url = "https://github.com/NEARBuilders/trylivepeer.near"
@@ -25293,6 +25918,9 @@ url = "https://github.com/NEARBuilders/Wallets"
 
 [[repo]]
 url = "https://github.com/NEARBuilders/wasm-git-app"
+
+[[repo]]
+url = "https://github.com/NEARBuilders/web4-sandbox"
 
 [[repo]]
 url = "https://github.com/NEARBuilders/weighted-voting"
@@ -25587,6 +26215,15 @@ url = "https://github.com/NEARFT/API"
 url = "https://github.com/NearFundsProject/smart-contracts"
 
 [[repo]]
+url = "https://github.com/neargami/gamified-near-elearnring-frontend"
+
+[[repo]]
+url = "https://github.com/Neargigs/Neargigs"
+
+[[repo]]
+url = "https://github.com/neargpt-ai-tools/near-ai-dev-tools"
+
+[[repo]]
 url = "https://github.com/NEARHub-online/AI-token"
 
 [[repo]]
@@ -25603,6 +26240,12 @@ url = "https://github.com/neariotfoundation/neariot_contract"
 
 [[repo]]
 url = "https://github.com/neariotfoundation/neariot_web"
+
+[[repo]]
+url = "https://github.com/nearlend-dao/chainsig-scripts"
+
+[[repo]]
+url = "https://github.com/nearlend-dao/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/nearlend-dao/nearlend-protocol"
@@ -26009,6 +26652,9 @@ url = "https://github.com/NearTiger/mint"
 url = "https://github.com/NearTiger/near-tiger-nft"
 
 [[repo]]
+url = "https://github.com/nearuaguild/mystery-box"
+
+[[repo]]
 url = "https://github.com/nearuaguild/near-rust-contract-types-generator"
 
 [[repo]]
@@ -26176,6 +26822,7 @@ url = "https://github.com/NEARWEEK/marketing-activation-form"
 
 [[repo]]
 url = "https://github.com/NEARWEEK/NEARWEEK-COMMUNITY-CONTENT"
+missing = true
 
 [[repo]]
 url = "https://github.com/NEARWEEK/sputnik-dao-2-ui-mainnet"
@@ -26186,6 +26833,9 @@ url = "https://github.com/NEARWEEK/sputnik-dao-2-ui-reference-mainnet"
 
 [[repo]]
 url = "https://github.com/NEARWEEK/sputnik-dao-2-ui-reference-testnet"
+
+[[repo]]
+url = "https://github.com/NEARWEEK/twitter-bot"
 
 [[repo]]
 url = "https://github.com/NEARWEEK/ui.news"
@@ -26214,6 +26864,9 @@ url = "https://github.com/necmigunduz/web3-necm"
 
 [[repo]]
 url = "https://github.com/Necmttn/dont-panic"
+
+[[repo]]
+url = "https://github.com/NEDA-LABS/Chatafisha_nft_marketplace_frontend"
 
 [[repo]]
 url = "https://github.com/nedemon/amm-test-task"
@@ -26456,6 +27109,9 @@ url = "https://github.com/nguyenlethaihoang/near_linkdrop"
 missing = true
 
 [[repo]]
+url = "https://github.com/NguyenLoi851/ai-market-app"
+
+[[repo]]
 url = "https://github.com/nguyentien91/NEARStudio"
 
 [[repo]]
@@ -26503,6 +27159,9 @@ url = "https://github.com/nhamkthd/near-guest-book"
 
 [[repo]]
 url = "https://github.com/nhamthanh/near-answer-rewad"
+
+[[repo]]
+url = "https://github.com/nhansunshine4/AI-MIX-Game-On-Aurora"
 
 [[repo]]
 url = "https://github.com/nhaplycafedang/sweat-near"
@@ -26666,6 +27325,9 @@ url = "https://github.com/nikoturin/etc-stack"
 
 [[repo]]
 url = "https://github.com/nikoturin/near-roadNetworks"
+
+[[repo]]
+url = "https://github.com/NIKU-SINGH/NearSocialBoost"
 
 [[repo]]
 url = "https://github.com/nikurt/guest-book"
@@ -26966,6 +27628,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/norrec99/near-help-a-paw"
+missing = true
 
 [[repo]]
 url = "https://github.com/NotBoringCompany/webapp-api-v2"
@@ -27244,6 +27907,9 @@ url = "https://github.com/octopus-layer/zk-proof"
 url = "https://github.com/octopus-network/appchain-fiat-ramp"
 
 [[repo]]
+url = "https://github.com/octopus-network/DRN-sol"
+
+[[repo]]
 url = "https://github.com/octopus-network/ics12-near"
 
 [[repo]]
@@ -27362,9 +28028,11 @@ url = "https://github.com/Okar1nn/near-lending"
 
 [[repo]]
 url = "https://github.com/OKEAMAH/animated-guide"
+missing = true
 
 [[repo]]
 url = "https://github.com/OKEAMAH/solid-eureka"
+missing = true
 
 [[repo]]
 url = "https://github.com/okinzeryavyy/near-test"
@@ -27594,15 +28262,19 @@ url = "https://github.com/On0n0k1/Tutorial_NEAR_Rust"
 
 [[repo]]
 url = "https://github.com/onchainengineer/ath"
+missing = true
 
 [[repo]]
 url = "https://github.com/onchainengineer/tested"
+missing = true
 
 [[repo]]
 url = "https://github.com/onchainengineer/tested2"
+missing = true
 
 [[repo]]
 url = "https://github.com/onchainengineer/tested3"
+missing = true
 
 [[repo]]
 url = "https://github.com/onchezz/counterdapp"
@@ -27678,6 +28350,7 @@ url = "https://github.com/onmachina/demo"
 
 [[repo]]
 url = "https://github.com/onmachina/nearauth-backend"
+missing = true
 
 [[repo]]
 url = "https://github.com/onmachina/onmachina-ui-demo"
@@ -27754,6 +28427,9 @@ url = "https://github.com/open-web-academy/Burrito-Pets-CoreDao"
 
 [[repo]]
 url = "https://github.com/open-web-academy/Burrito-Virtual-Pets-Base"
+
+[[repo]]
+url = "https://github.com/open-web-academy/caETH"
 
 [[repo]]
 url = "https://github.com/open-web-academy/CoinFlip-JS"
@@ -27866,6 +28542,9 @@ url = "https://github.com/OpenXeggo/near_money_stream"
 [[repo]]
 url = "https://github.com/OpenXeggo/NewRepo_near"
 missing = true
+
+[[repo]]
+url = "https://github.com/Operaconga14/Zarpay"
 
 [[repo]]
 url = "https://github.com/OpticalMatthew/OpticalMatthew.github.io"
@@ -28108,6 +28787,9 @@ url = "https://github.com/PacktPublishing/Rust-for-Blockchain-Application-Develo
 [[repo]]
 url = "https://github.com/pacle002/Amber-NFT-mint-website"
 missing = true
+
+[[repo]]
+url = "https://github.com/pacolahd/votacle"
 
 [[repo]]
 url = "https://github.com/paddyc1/near-account-activator-ui"
@@ -28409,6 +29091,9 @@ url = "https://github.com/parkdao/parkdao"
 url = "https://github.com/PartageProtocol/partage-lock"
 
 [[repo]]
+url = "https://github.com/partagexyz/car-sharing"
+
+[[repo]]
 url = "https://github.com/partagexyz/partage-lock"
 
 [[repo]]
@@ -28458,6 +29143,9 @@ url = "https://github.com/Patrick1904/pluminite"
 
 [[repo]]
 url = "https://github.com/PatrickAlphaC/unstoppable-ui"
+
+[[repo]]
+url = "https://github.com/patrickdugan/tradelayer.js"
 
 [[repo]]
 url = "https://github.com/patronus5/FT-reserve-near"
@@ -28775,9 +29463,14 @@ url = "https://github.com/PenelopetZhang/ugceditor-web"
 
 [[repo]]
 url = "https://github.com/pentest-dev/core-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/pentest-dev/near-linkdrop"
+missing = true
+
+[[repo]]
+url = "https://github.com/PEPALabs/cura_contract_client"
 
 [[repo]]
 url = "https://github.com/peppapighs/near-vault"
@@ -28933,6 +29626,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/PGG-X/near-api-flutter"
+
+[[repo]]
+url = "https://github.com/phamdat721101/LeoFi_N"
 
 [[repo]]
 url = "https://github.com/phamminh0811/Charity-Contract"
@@ -29304,6 +30000,7 @@ url = "https://github.com/PiparHQ/merchant"
 
 [[repo]]
 url = "https://github.com/Pips-Isalnd-Metropolis/NEAR_NFT_CONTRACT"
+missing = true
 
 [[repo]]
 url = "https://github.com/pitkunait/cycloclan-near"
@@ -29375,6 +30072,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/plats-network/Sui-Overflow"
+missing = true
 
 [[repo]]
 url = "https://github.com/platzi/curso-near-blockchain"
@@ -29403,15 +30101,19 @@ url = "https://github.com/pmai45/Challenge-3-Social-good-bounty"
 
 [[repo]]
 url = "https://github.com/pmarangone/near-debugging"
+missing = true
 
 [[repo]]
 url = "https://github.com/pmarangone/near-enhanced-api-server"
+missing = true
 
 [[repo]]
 url = "https://github.com/pmarangone/near-examples-extended"
+missing = true
 
 [[repo]]
 url = "https://github.com/pmarangone/rust-api"
+missing = true
 
 [[repo]]
 url = "https://github.com/pmespresso/direct-revelation-dao"
@@ -29448,6 +30150,7 @@ url = "https://github.com/polyWorkspace/client"
 
 [[repo]]
 url = "https://github.com/pondev1031/near-discovery"
+missing = true
 
 [[repo]]
 url = "https://github.com/Pony-Nguyen/nearname"
@@ -29461,6 +30164,9 @@ url = "https://github.com/poolpartynear/pool_party"
 
 [[repo]]
 url = "https://github.com/poolpartynear/token"
+
+[[repo]]
+url = "https://github.com/PopCoin-Fun/popcoin"
 
 [[repo]]
 url = "https://github.com/Popcorn412/nft-staking"
@@ -29509,6 +30215,7 @@ url = "https://github.com/PotLock/agentoor-landing"
 
 [[repo]]
 url = "https://github.com/PotLock/ai-pgf-playground"
+missing = true
 
 [[repo]]
 url = "https://github.com/PotLock/ai-pgf-rfps"
@@ -29521,6 +30228,9 @@ url = "https://github.com/PotLock/aipgf"
 
 [[repo]]
 url = "https://github.com/PotLock/aipgf-bos"
+
+[[repo]]
+url = "https://github.com/PotLock/aipgf-contract-metadata-api"
 
 [[repo]]
 url = "https://github.com/PotLock/aipgf-landing"
@@ -29673,6 +30383,10 @@ url = "https://github.com/Prachi143/Polling-system-using-solidity"
 url = "https://github.com/pradyumna0/Voting-application-using-blockchain"
 
 [[repo]]
+url = "https://github.com/prakhar728/DeReal"
+missing = true
+
+[[repo]]
 url = "https://github.com/prakhar728/Medibridge"
 
 [[repo]]
@@ -29684,6 +30398,7 @@ url = "https://github.com/PrakharSharma888/near"
 
 [[repo]]
 url = "https://github.com/Pranav-guptaa/Orthrus-update"
+missing = true
 
 [[repo]]
 url = "https://github.com/Pranav543/metabuild-hackathon-project"
@@ -29907,6 +30622,9 @@ url = "https://github.com/programmiana/nextjs"
 url = "https://github.com/projectnoa/neardevhub-widgets"
 
 [[repo]]
+url = "https://github.com/Projects-by-Harsh-and-Sid/NeuraNFT_Near"
+
+[[repo]]
 url = "https://github.com/Prometheo/near-discovery"
 
 [[repo]]
@@ -29945,6 +30663,7 @@ url = "https://github.com/Proyectos-NCD/RUvaxxed"
 
 [[repo]]
 url = "https://github.com/proyetei/fit-folio"
+missing = true
 
 [[repo]]
 url = "https://github.com/pscott/app-near"
@@ -29972,6 +30691,9 @@ url = "https://github.com/pugachAG/docs"
 
 [[repo]]
 url = "https://github.com/pujithagreddy/MiniProject_BCTVote"
+
+[[repo]]
+url = "https://github.com/pulkitgarg784/HawkHacks"
 
 [[repo]]
 url = "https://github.com/purecube/new-frontend"
@@ -30005,6 +30727,9 @@ url = "https://github.com/pvolnov/near-primitives"
 
 [[repo]]
 url = "https://github.com/pvolnov/py-near"
+
+[[repo]]
+url = "https://github.com/pvolnov/sgx-ai-dao"
 
 [[repo]]
 url = "https://github.com/pvolnov/true-p2p"
@@ -30052,6 +30777,9 @@ url = "https://github.com/QKWQFC/web223"
 url = "https://github.com/qpwedev/spot-identity"
 
 [[repo]]
+url = "https://github.com/QSTN-US/NEAR-QSTN-v1"
+
+[[repo]]
 url = "https://github.com/qstnus/NEARCON2022"
 
 [[repo]]
@@ -30095,12 +30823,15 @@ url = "https://github.com/Quest-Protocol/questverse-monorepo"
 
 [[repo]]
 url = "https://github.com/quex-tech/near_hack_backend"
+missing = true
 
 [[repo]]
 url = "https://github.com/quex-tech/near_hack_contract"
+missing = true
 
 [[repo]]
 url = "https://github.com/quex-trusted/near_hack_contract"
+missing = true
 
 [[repo]]
 url = "https://github.com/QuicSwap/near-multicall"
@@ -30164,6 +30895,9 @@ url = "https://github.com/r-strawser/near-simple-nft"
 
 [[repo]]
 url = "https://github.com/r-strawser/subgraph-refinery"
+
+[[repo]]
+url = "https://github.com/r7projects-shayan/colabcube-official"
 
 [[repo]]
 url = "https://github.com/Rabbit-Onchain/nft-contract"
@@ -30292,6 +31026,9 @@ url = "https://github.com/rakis-sol/solana-101"
 url = "https://github.com/ralatsdc/hello-near"
 
 [[repo]]
+url = "https://github.com/ramachandrareddy352/trade-run"
+
+[[repo]]
 url = "https://github.com/ramandeepbhagat/rust_nft_zero_hero"
 
 [[repo]]
@@ -30322,6 +31059,9 @@ url = "https://github.com/randomcomposition/workshop--exploring-assemblyscript-c
 
 [[repo]]
 url = "https://github.com/Randp/PSA_Token"
+
+[[repo]]
+url = "https://github.com/RankJay/Cleopatra"
 
 [[repo]]
 url = "https://github.com/ranko746/near-nft-mint"
@@ -30415,6 +31155,9 @@ url = "https://github.com/Rasta669/near-mobile-wallet"
 
 [[repo]]
 url = "https://github.com/Rasta669/Near_wallet_swahili"
+
+[[repo]]
+url = "https://github.com/ratalie/TransparentNFTs"
 
 [[repo]]
 url = "https://github.com/Raulcudris/Aplicacion_Near"
@@ -30605,6 +31348,9 @@ url = "https://github.com/Recepyolcu/near-dev-practice-II"
 url = "https://github.com/ReCheck-io/recheck-clientjs-library"
 
 [[repo]]
+url = "https://github.com/reclaimprotocol/reclaim-near-sdk"
+
+[[repo]]
 url = "https://github.com/ReClicker/near-explorer"
 
 [[repo]]
@@ -30612,6 +31358,9 @@ url = "https://github.com/Red-Pirates/near-plugin-ue"
 
 [[repo]]
 url = "https://github.com/redace85/block-integrate-playgroud"
+
+[[repo]]
+url = "https://github.com/redacted-explorer/website"
 
 [[repo]]
 url = "https://github.com/redditech/first-near-dapp"
@@ -30640,6 +31389,7 @@ url = "https://github.com/redstone-finance/redstone-oracles-monorepo"
 
 [[repo]]
 url = "https://github.com/redstone-finance/synths-on-near"
+missing = true
 
 [[repo]]
 url = "https://github.com/reemaadeniyi/near-sdk-rs"
@@ -30652,6 +31402,9 @@ missing = true
 [[repo]]
 url = "https://github.com/reemaadeniyi/sputnik-dao-contract"
 missing = true
+
+[[repo]]
+url = "https://github.com/reevusreeve/TokenBlocks"
 
 [[repo]]
 url = "https://github.com/ref-finance/boost-farm"
@@ -30736,6 +31489,7 @@ url = "https://github.com/remrcll/Block-o-Lantern"
 
 [[repo]]
 url = "https://github.com/remzibulutlu/Near-Pathway-Web3-Fundamentals"
+missing = true
 
 [[repo]]
 url = "https://github.com/renatomartindc/movitdemo"
@@ -30771,12 +31525,16 @@ url = "https://github.com/restake/stake.js"
 
 [[repo]]
 url = "https://github.com/RetentionChain/smart-contract"
+missing = true
 
 [[repo]]
 url = "https://github.com/reticenceji/near-workspaces-rs"
 
 [[repo]]
 url = "https://github.com/Reticu1um/near-sdk-rs"
+
+[[repo]]
+url = "https://github.com/Revelin-rmz/TeamCurlyFries"
 
 [[repo]]
 url = "https://github.com/RevoltPW/cross-contract-js"
@@ -30792,6 +31550,9 @@ url = "https://github.com/reynard93/dognear"
 
 [[repo]]
 url = "https://github.com/reza-hackathons/minority_bet"
+
+[[repo]]
+url = "https://github.com/RezaRahemtola/near-ai-assistant"
 
 [[repo]]
 url = "https://github.com/rforekj/near-api-js"
@@ -30861,6 +31622,9 @@ url = "https://github.com/RichardBelson/near-amm"
 
 [[repo]]
 url = "https://github.com/RichardZhu123/crofi"
+
+[[repo]]
+url = "https://github.com/richduodu/metaschool"
 
 [[repo]]
 url = "https://github.com/richiemikke/near-bookstore"
@@ -30944,6 +31708,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/rishitashaw/The-Voting-Game-dapp"
+
+[[repo]]
+url = "https://github.com/riush03/nearmed-frontend"
 
 [[repo]]
 url = "https://github.com/riversyang/learning-near-contract"
@@ -31123,6 +31890,9 @@ url = "https://github.com/ronaldgreen1108/near-nft-marketplace-smart-contract"
 
 [[repo]]
 url = "https://github.com/ronaldgreen1108/near-nft-smart-contract"
+
+[[repo]]
+url = "https://github.com/ronnakamoto/bunsan"
 
 [[repo]]
 url = "https://github.com/ronplayschess/NEARStudio"
@@ -31423,7 +32193,13 @@ url = "https://github.com/s-n-park/smart-contracts"
 url = "https://github.com/S0nVard/create-near-app"
 
 [[repo]]
+url = "https://github.com/s2imonovic/bxlETH"
+
+[[repo]]
 url = "https://github.com/s60yucca/demo_near_ncdl1"
+
+[[repo]]
+url = "https://github.com/SA-Msweli/payup"
 
 [[repo]]
 url = "https://github.com/sa-wcg/near-seed-phrase"
@@ -31525,6 +32301,9 @@ url = "https://github.com/sahilsaini110/poll-creator"
 
 [[repo]]
 url = "https://github.com/sahilsaini1107/poll-creator"
+
+[[repo]]
+url = "https://github.com/saikot-paul/sports-betting-agent"
 
 [[repo]]
 url = "https://github.com/SaikrishnaReddy1919/near-learnings"
@@ -31634,6 +32413,9 @@ url = "https://github.com/salihhugurr/Near-Saying-DApp"
 url = "https://github.com/salmonw/salmon-provider-near"
 
 [[repo]]
+url = "https://github.com/Sam3peoplelife/Cross-AI-Yield-Maximizer"
+
+[[repo]]
 url = "https://github.com/samAricha/HosBlock"
 
 [[repo]]
@@ -31726,6 +32508,9 @@ url = "https://github.com/Sanmonsua/applicants-near-sm"
 
 [[repo]]
 url = "https://github.com/Saodate/learnnear"
+
+[[repo]]
+url = "https://github.com/SaqAsh/Interviewly.ai"
 
 [[repo]]
 url = "https://github.com/SaraGabriela/near-darshana"
@@ -32037,6 +32822,9 @@ url = "https://github.com/sekaiking/project"
 url = "https://github.com/sekaiking/source"
 
 [[repo]]
+url = "https://github.com/sekaiking/supernear"
+
+[[repo]]
 url = "https://github.com/sekaiking/viewer"
 
 [[repo]]
@@ -32238,6 +33026,9 @@ url = "https://github.com/servedbyskull/near-api-js-error"
 url = "https://github.com/Serverr1/near-marketplace"
 
 [[repo]]
+url = "https://github.com/SESHASHAYANAN/WEB3"
+
+[[repo]]
 url = "https://github.com/seshdao/near-blunt-gateway"
 
 [[repo]]
@@ -32276,6 +33067,7 @@ url = "https://github.com/sevketasurgan/Car-rental-smartcontract"
 
 [[repo]]
 url = "https://github.com/sevketasurgan/near-practices-predecessor"
+missing = true
 
 [[repo]]
 url = "https://github.com/seyyarevliya/near"
@@ -32285,6 +33077,9 @@ url = "https://github.com/sgarcia22/litmus"
 
 [[repo]]
 url = "https://github.com/sgarcia22/nft-tutorial-js"
+
+[[repo]]
+url = "https://github.com/sgraphics/ClubberAI"
 
 [[repo]]
 url = "https://github.com/sgraphics/near-compiler-api"
@@ -32381,27 +33176,35 @@ url = "https://github.com/Shard-Labs/staking-farm"
 
 [[repo]]
 url = "https://github.com/shariffdev/cargo-near"
+missing = true
 
 [[repo]]
 url = "https://github.com/shariffdev/near-abi-client-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/shariffdev/near-account-id-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/shariffdev/near-cli-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/shariffdev/near-jsonrpc-client-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/shariffdev/near-sdk-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/shariffdev/near-workspaces-js"
+missing = true
 
 [[repo]]
 url = "https://github.com/shariffdev/workspaces-rs"
+missing = true
 
 [[repo]]
 url = "https://github.com/sharkme/for_nep141"
@@ -32622,6 +33425,9 @@ url = "https://github.com/ShowCode-Challenge/Challenge-1-Hello-world-smart-contr
 url = "https://github.com/shreyan-gupta/nearcore"
 
 [[repo]]
+url = "https://github.com/Shreyas529/NexusNGO"
+
+[[repo]]
 url = "https://github.com/shreyash76076/AssembleyScript"
 
 [[repo]]
@@ -32704,6 +33510,9 @@ url = "https://github.com/siddharthteli12/near-indexer-for-explorer"
 url = "https://github.com/sidharthWeb3auth/near-code"
 
 [[repo]]
+url = "https://github.com/SIGHTED-HEALTHCARE/NEAR-SIGHTED"
+
+[[repo]]
 url = "https://github.com/sigilnet/near-enrich-nft-events"
 
 [[repo]]
@@ -32780,6 +33589,9 @@ url = "https://github.com/Simon-Busch/rust-nft-contract"
 
 [[repo]]
 url = "https://github.com/simon0820s/Rust"
+
+[[repo]]
+url = "https://github.com/simonbeirouti/red-near-fin"
 
 [[repo]]
 url = "https://github.com/simondpalmer/BILT-2022-Session2.4"
@@ -33121,6 +33933,7 @@ url = "https://github.com/smiley717/transfer-near-token"
 
 [[repo]]
 url = "https://github.com/smjleo/oxloo"
+missing = true
 
 [[repo]]
 url = "https://github.com/smurf-Azrael/hello-near-js"
@@ -33137,6 +33950,9 @@ url = "https://github.com/sn99/near-sdk-rs"
 
 [[repo]]
 url = "https://github.com/snailsfinance/snails-contracts"
+
+[[repo]]
+url = "https://github.com/snair2001/MusicOnNEAR"
 
 [[repo]]
 url = "https://github.com/snair2001/NFTSalesPlatform"
@@ -33187,6 +34003,9 @@ url = "https://github.com/sodamnfoolish/airdrop-merkle-tree-near-rs"
 url = "https://github.com/sodamnfoolish/near-airdrop-contract-with-merkle-tree"
 
 [[repo]]
+url = "https://github.com/Sofia-dridi/Handala-Project"
+
+[[repo]]
 url = "https://github.com/sofitek0910/Near-pool-Backend"
 
 [[repo]]
@@ -33220,6 +34039,9 @@ url = "https://github.com/SoftwareTalent/RUST-API"
 
 [[repo]]
 url = "https://github.com/soheljapanwala/starter--near-api-js"
+
+[[repo]]
+url = "https://github.com/sohelshekhIn/hawkhacks-app"
 
 [[repo]]
 url = "https://github.com/sohelshekhIn/hawkhacks-contract"
@@ -33519,6 +34341,9 @@ url = "https://github.com/Spoil-Me-Dapp/SpoilMeDapp"
 url = "https://github.com/SpokieKid/near-carv-subgraph"
 
 [[repo]]
+url = "https://github.com/Spoyte/matrix-cartel"
+
+[[repo]]
 url = "https://github.com/spreadmycode/learn-blockchain-smartcontracts"
 
 [[repo]]
@@ -33535,6 +34360,7 @@ url = "https://github.com/spreadzp/Near-sample-1"
 
 [[repo]]
 url = "https://github.com/Squishy47/Flexi-time-Tracker"
+missing = true
 
 [[repo]]
 url = "https://github.com/srdevhub/nearswap-ui"
@@ -33641,6 +34467,9 @@ missing = true
 url = "https://github.com/StarArkDAO/near-json-rpc-viewer"
 
 [[repo]]
+url = "https://github.com/starci-lab/ciwallet"
+
+[[repo]]
 url = "https://github.com/Stardust-Staking/near-lockups"
 
 [[repo]]
@@ -33725,6 +34554,9 @@ url = "https://github.com/stephenwilliams1990/solana-web3-dapp"
 
 [[repo]]
 url = "https://github.com/SterlingFullerton/BitToByte"
+
+[[repo]]
+url = "https://github.com/steveajani2/Dialexa"
 
 [[repo]]
 url = "https://github.com/stevedon1/VOTING-SYSTEM"
@@ -33934,6 +34766,9 @@ url = "https://github.com/Sunayyasar/nearvotingapp"
 url = "https://github.com/Sunayyasar/starter--near-sdk-as-patika-practiceII"
 
 [[repo]]
+url = "https://github.com/SUNIDHI-JAIN125/Redacted-Hackathon"
+
+[[repo]]
 url = "https://github.com/sunnypdater/near-token"
 
 [[repo]]
@@ -34065,10 +34900,16 @@ missing = true
 url = "https://github.com/surbhit14/de-land"
 
 [[repo]]
+url = "https://github.com/sureshora/taskgenius"
+
+[[repo]]
 url = "https://github.com/surfiniaburger/blueBird"
 
 [[repo]]
 url = "https://github.com/SurgeCode/near-relay"
+
+[[repo]]
+url = "https://github.com/SurgeCode/near-relay-example"
 
 [[repo]]
 url = "https://github.com/SurgeCode/near2ts"
@@ -34084,6 +34925,10 @@ url = "https://github.com/sushmitsarmah/encode_open_data_hack"
 
 [[repo]]
 url = "https://github.com/sushmitsarmah/near_metabuild_3"
+
+[[repo]]
+url = "https://github.com/sushmitsarmah/near_redacted_contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/sushmitsarmah/nearcon23_contracts"
@@ -34209,6 +35054,9 @@ url = "https://github.com/swfsql/near-contract-interface"
 
 [[repo]]
 url = "https://github.com/swfsql/near-sdk-rs"
+
+[[repo]]
+url = "https://github.com/SwineCoder101/baldr"
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/core-sdk"
@@ -34422,6 +35270,9 @@ url = "https://github.com/TeamX-x/nft-contract"
 
 [[repo]]
 url = "https://github.com/TeamX-x/p2p-lending-dapp"
+
+[[repo]]
+url = "https://github.com/TeamZombieLand/ZombielandAurora"
 
 [[repo]]
 url = "https://github.com/tech-blockbelly/blockbelly-near"
@@ -34699,6 +35550,9 @@ url = "https://github.com/tevrat-aksoy/NDC-Practice2"
 url = "https://github.com/tevrat-aksoy/near-starter-project"
 
 [[repo]]
+url = "https://github.com/textileio/react-native-permissions"
+
+[[repo]]
 url = "https://github.com/tgoerke/alasnear"
 
 [[repo]]
@@ -34706,6 +35560,9 @@ url = "https://github.com/Tguntenaar/neardevhub-contract"
 
 [[repo]]
 url = "https://github.com/Tguntenaar/neardevhub-widgets"
+
+[[repo]]
+url = "https://github.com/Tguntenaar/rfp-agent-next"
 
 [[repo]]
 url = "https://github.com/ThaiNguyen54/Blockchain-homework-2"
@@ -34938,6 +35795,10 @@ url = "https://github.com/thebrumby/HotWalletClaimer"
 url = "https://github.com/theCydonian/AudioEyes"
 
 [[repo]]
+url = "https://github.com/thedefibuilder/hackathon-near-redacted"
+missing = true
+
+[[repo]]
 url = "https://github.com/TheDelist/NearContractPractice"
 
 [[repo]]
@@ -35006,6 +35867,9 @@ url = "https://github.com/themailman05/isrc-t"
 [[repo]]
 url = "https://github.com/themanwithcode/neargotchi"
 missing = true
+
+[[repo]]
+url = "https://github.com/themanwithcode/satstation-contract"
 
 [[repo]]
 url = "https://github.com/TheMekKasem/KasemPlingkrathok-"
@@ -35211,6 +36075,9 @@ url = "https://github.com/thomas-codes/todo-list"
 [[repo]]
 url = "https://github.com/thomas0114/T_rust_smart_contract"
 missing = true
+
+[[repo]]
+url = "https://github.com/Thoobi/grip"
 
 [[repo]]
 url = "https://github.com/thor314/borsh-error"
@@ -35524,6 +36391,9 @@ url = "https://github.com/TOCEP-team/contract"
 url = "https://github.com/toine08/nearApp"
 
 [[repo]]
+url = "https://github.com/Token-Factory-dApp/aurora-token-factory"
+
+[[repo]]
 url = "https://github.com/token-fien777/near-erc20-connector"
 
 [[repo]]
@@ -35696,6 +36566,7 @@ url = "https://github.com/TosinShada/near-linkdrop"
 
 [[repo]]
 url = "https://github.com/toTheMoon0322/token_lockup"
+missing = true
 
 [[repo]]
 url = "https://github.com/Tousama/starter-near-sdk"
@@ -35756,6 +36627,7 @@ url = "https://github.com/Tranchinh30032001/vue-near-wallet-js"
 
 [[repo]]
 url = "https://github.com/tranhuyducseven/Donapp"
+missing = true
 
 [[repo]]
 url = "https://github.com/tranhuyducseven/Near-Simple-Contract"
@@ -35904,6 +36776,9 @@ url = "https://github.com/trieucse/NearCare_v1"
 url = "https://github.com/Trigensoft-Blockchain/staking"
 
 [[repo]]
+url = "https://github.com/tristanlok/cryptorougue"
+
+[[repo]]
 url = "https://github.com/tristanmbugua/hawkHacks-EagleEye"
 
 [[repo]]
@@ -35946,6 +36821,9 @@ url = "https://github.com/TropicalDog17/project-2"
 missing = true
 
 [[repo]]
+url = "https://github.com/Trove-team/chain-sleuth"
+
+[[repo]]
 url = "https://github.com/TRUBDUBZ/learn-web3-dapp"
 
 [[repo]]
@@ -35971,6 +36849,9 @@ url = "https://github.com/truongnguyenptit/stater-near-as"
 
 [[repo]]
 url = "https://github.com/trustfractal/idos-access-grants"
+
+[[repo]]
+url = "https://github.com/TrustyBite/trustybite"
 
 [[repo]]
 url = "https://github.com/TSUHumberto/AssetStore"
@@ -36286,6 +37167,9 @@ url = "https://github.com/uint/near-sdk-rs"
 url = "https://github.com/UIT-Blockchain/Donapp"
 
 [[repo]]
+url = "https://github.com/ukangaekom/near_bot"
+
+[[repo]]
 url = "https://github.com/ukaszzz/near-protocol-practice"
 
 [[repo]]
@@ -36325,6 +37209,9 @@ url = "https://github.com/umutcanceyhan7/near-web3-fundamentals"
 [[repo]]
 url = "https://github.com/umuthopeyildirim/decentralized-todo"
 missing = true
+
+[[repo]]
+url = "https://github.com/Unathimtwa/Social-Accenture"
 
 [[repo]]
 url = "https://github.com/unbanksytv/unstoppable-ui-main"
@@ -36380,9 +37267,11 @@ url = "https://github.com/uncle-T0ny/workspaces-rs-plus"
 
 [[repo]]
 url = "https://github.com/unicorndev99/EqiunoxProject"
+missing = true
 
 [[repo]]
 url = "https://github.com/unicorndev99/Solana-NFT-Market"
+missing = true
 
 [[repo]]
 url = "https://github.com/UnicornJames/Glory_Game"
@@ -36487,6 +37376,7 @@ url = "https://github.com/usoftvn/challenge-05-ui"
 
 [[repo]]
 url = "https://github.com/ustunmelih/starter--near-sdk-as"
+missing = true
 
 [[repo]]
 url = "https://github.com/utarit/starter--near-sdk-as"
@@ -36496,6 +37386,12 @@ url = "https://github.com/utinifty/near-api-py"
 
 [[repo]]
 url = "https://github.com/utinifty/niftiqet_testnet"
+
+[[repo]]
+url = "https://github.com/utkarshdagoat/StealthTradeDAO"
+
+[[repo]]
+url = "https://github.com/Utkarshpandey0001/TokenLaunchpad"
 
 [[repo]]
 url = "https://github.com/utnet-org/contract-new-project-template"
@@ -36780,6 +37676,13 @@ url = "https://github.com/verida/did-helper"
 url = "https://github.com/verida/did-server"
 
 [[repo]]
+url = "https://github.com/VeriDID/near-hackathon"
+
+[[repo]]
+url = "https://github.com/verisoul/verisoul-registration"
+missing = true
+
+[[repo]]
 url = "https://github.com/verkhohliad/crowdfundingDapp"
 
 [[repo]]
@@ -36813,6 +37716,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/verynifty/sudoswap.js"
+
+[[repo]]
+url = "https://github.com/vex-labs/redacted-submission"
 
 [[repo]]
 url = "https://github.com/vexedapesclub/nearmint"
@@ -36862,6 +37768,9 @@ url = "https://github.com/vgrichina/near-lake-torrents"
 
 [[repo]]
 url = "https://github.com/vgrichina/near-ledger-keygen"
+
+[[repo]]
+url = "https://github.com/vgrichina/near-nft-owners-list"
 
 [[repo]]
 url = "https://github.com/vgrichina/near-state-indexer"
@@ -37079,6 +37988,9 @@ url = "https://github.com/vinuch/this-or-that"
 
 [[repo]]
 url = "https://github.com/violinio/violin-strategies"
+
+[[repo]]
+url = "https://github.com/vipulraj01/VulnScan"
 
 [[repo]]
 url = "https://github.com/viraja1/near-registry"
@@ -37325,6 +38237,9 @@ url = "https://github.com/vladopaets/near-marketplace"
 url = "https://github.com/vlbos/dapp-rosetta"
 
 [[repo]]
+url = "https://github.com/vlmoon99/dream-ai-coder"
+
+[[repo]]
 url = "https://github.com/vlmoon99/flutterchain"
 
 [[repo]]
@@ -37378,6 +38293,9 @@ missing = true
 [[repo]]
 url = "https://github.com/VlodkoMr/near-president-galaxy"
 missing = true
+
+[[repo]]
+url = "https://github.com/VlodkoMr/near-river"
 
 [[repo]]
 url = "https://github.com/VlodkoMr/near-vouchers"
@@ -37686,6 +38604,9 @@ url = "https://github.com/vutting4221/-"
 url = "https://github.com/vuxuanphuong160198/berryclub"
 
 [[repo]]
+url = "https://github.com/VuyyuruSrujan/CipherCare"
+
+[[repo]]
 url = "https://github.com/vvarl0cks/LW3-Ceramic-Network"
 
 [[repo]]
@@ -37872,6 +38793,9 @@ url = "https://github.com/wanxiang-blockchain/2022-WX-Blockchain-Fall-Hackathon-
 url = "https://github.com/wapchangex/Near-cli"
 
 [[repo]]
+url = "https://github.com/warp-contracts/warp-isomorphic"
+
+[[repo]]
 url = "https://github.com/WarpedMind/patika-near"
 
 [[repo]]
@@ -38025,6 +38949,12 @@ url = "https://github.com/welldonestudio/near-discovery"
 
 [[repo]]
 url = "https://github.com/welldonestudio/near-wallet"
+
+[[repo]]
+url = "https://github.com/Weminal-labs/buildlink"
+
+[[repo]]
+url = "https://github.com/Weminal-labs/nearstack"
 
 [[repo]]
 url = "https://github.com/Wences81/counter-as"
@@ -38257,6 +39187,9 @@ url = "https://github.com/WilliamPerezBeltran/near-sdk-as"
 url = "https://github.com/WilliamUW/Hawkhacks"
 
 [[repo]]
+url = "https://github.com/WilliamUW/RedactedHackathon"
+
+[[repo]]
 url = "https://github.com/willser/YesOrNo"
 
 [[repo]]
@@ -38405,6 +39338,7 @@ url = "https://github.com/WuDi329/minimal-near"
 
 [[repo]]
 url = "https://github.com/wulianapp/multi_sig_contract"
+missing = true
 
 [[repo]]
 url = "https://github.com/WuTao18/near-indexer-for-explorer"
@@ -38569,6 +39503,9 @@ url = "https://github.com/Xyzjesus/near-market"
 url = "https://github.com/Xzirez/near-protocol-contracts"
 
 [[repo]]
+url = "https://github.com/y-pakorn/blockelf"
+
+[[repo]]
 url = "https://github.com/y19818/docs_zh"
 
 [[repo]]
@@ -38652,6 +39589,9 @@ url = "https://github.com/yashirooooo/crust-files"
 
 [[repo]]
 url = "https://github.com/yashmurty/near-inbox"
+
+[[repo]]
+url = "https://github.com/yashwanth-3000/web3-hub"
 
 [[repo]]
 url = "https://github.com/yasuntimure/NEAR-Developer-Course-Practice"
@@ -38889,10 +39829,16 @@ url = "https://github.com/Yoon-Suji/near-marketplace-contract"
 url = "https://github.com/yoonthecoder/near-oracle-client"
 
 [[repo]]
+url = "https://github.com/yosun/ai3dagentonchain"
+
+[[repo]]
 url = "https://github.com/youjjef/restaurant_blockchain"
 
 [[repo]]
 url = "https://github.com/YouJun-IWON/my-bos-gateway"
+
+[[repo]]
+url = "https://github.com/YouJun-IWON/RED-Flight"
 
 [[repo]]
 url = "https://github.com/yourFbiAgentBob/BlockChainVote-NEAR"
@@ -38926,6 +39872,9 @@ url = "https://github.com/ysfkel/simple-dex-near"
 
 [[repo]]
 url = "https://github.com/ysongh/Air-Near-Table"
+
+[[repo]]
+url = "https://github.com/ysongh/Wordle-BlindApp"
 
 [[repo]]
 url = "https://github.com/ysun062/assemblyScript"
@@ -39332,6 +40281,9 @@ url = "https://github.com/ZelionD/tech_assessment_swap_contract"
 missing = true
 
 [[repo]]
+url = "https://github.com/zengzengzenghuy/eth-brussels"
+
+[[repo]]
 url = "https://github.com/Zenleaf/NEARStudio"
 
 [[repo]]
@@ -39515,6 +40467,7 @@ url = "https://github.com/zoek1/tiki"
 
 [[repo]]
 url = "https://github.com/zogmwa/Core-contracts-Nearchain"
+missing = true
 
 [[repo]]
 url = "https://github.com/Zombieliu/market-places"

@@ -11,7 +11,6 @@ sub_ecosystems = [
   "Ajuna Network",
   "Akropolis",
   "Aleph Zero",
-  "Aleph.im",
   "Amara Finance",
   "Amplica Labs",
   "Anagolay",
@@ -35,10 +34,8 @@ sub_ecosystems = [
   "Black History DAO Archives",
   "Borlaug Web Services",
   "Bounce Token",
-  "Bware Labs",
   "Caelum Labs",
   "canontech",
-  "Celer Network cBridge",
   "CENNZnet",
   "Centrifuge",
   "Cere",
@@ -77,9 +74,9 @@ sub_ecosystems = [
   "Deeper Chain",
   "Deeper Network",
   "DEIP - Creator Economy Protocol",
+  "Delegit",
   "DFC Cash",
   "Dhiway",
-  "DIA",
   "Diora Network",
   "Dipole Tech",
   "Dock network",
@@ -122,7 +119,6 @@ sub_ecosystems = [
   "Hashed Network",
   "HashKeyHub",
   "Helikon",
-  "Human Protocol",
   "Hybrid Explorer",
   "HydraDX",
   "ICON",
@@ -143,7 +139,7 @@ sub_ecosystems = [
   "Kulupu",
   "Kusama",
   "Kylin Network",
-  "KYVE",
+  "Kylix Finance",
   "LABS Group",
   "Laguna Chain",
   "Laminar",
@@ -163,6 +159,7 @@ sub_ecosystems = [
   "Moonsama",
   "MXC Foundation",
   "myMessageIO",
+  "Mythical Games",
   "NFTMart",
   "Nightly Wallet",
   "Node Factory",
@@ -177,12 +174,11 @@ sub_ecosystems = [
   "Obsidian Labs",
   "Ocelloids",
   "Odyssey",
-  "OnFinality",
   "Ontology",
   "opensquare-network",
+  "OptionRoom",
   "ORAO Network",
   "OriginTrail",
-  "Orion Protocol",
   "PAID Network",
   "Paima Studios",
   "Palomachain",
@@ -268,7 +264,6 @@ sub_ecosystems = [
   "Subscan",
   "Subsocial",
   "Subspace Network",
-  "Subsquid",
   "Substrate Developer Hub",
   "Substrate IBC",
   "SubWallet",
@@ -277,15 +272,11 @@ sub_ecosystems = [
   "Supercolony",
   "Sygma",
   "t3rn",
-  "Talisman",
   "Tea Project",
   "Ternoa",
   "Tidal Finance",
-  "TokenPocket",
-  "TokenSoft",
   "Totem",
   "Totem Live Accounting",
-  "Transit Finance",
   "TurboFlakes",
   "Unique Network",
   "UniversalDot",
@@ -300,11 +291,11 @@ sub_ecosystems = [
   "WeTEE",
   "Wow Labz",
   "Wunderbar Network",
-  "XP Network",
   "Yieldscan",
   "zCloak Network",
   "Zeitgeist",
   "zeitgeistpm",
+  "Zenlink",
   "zero network",
   "ZeroPool Network",
   "ZKValidator",
@@ -318,6 +309,7 @@ github_organizations = [
   "https://github.com/Cardinal-Cryptography",
   "https://github.com/Colm3na",
   "https://github.com/creator-rs",
+  "https://github.com/dedotdev",
   "https://github.com/deeper-chain",
   "https://github.com/docknetwork",
   "https://github.com/faterium",
@@ -326,11 +318,16 @@ github_organizations = [
   "https://github.com/inkscopexyz",
   "https://github.com/InkSmartContract",
   "https://github.com/Kalapaja",
+  "https://github.com/OneBlockPlus",
   "https://github.com/ParityAsia",
   "https://github.com/paritytech",
   "https://github.com/patractlabs",
+  "https://github.com/polkadot-cloud",
+  "https://github.com/polkadot-fellows",
   "https://github.com/Polkadot-Heroes",
   "https://github.com/polkadot-js",
+  "https://github.com/polkassembly",
+  "https://github.com/r0gue-io",
   "https://github.com/RELAI-Network",
   "https://github.com/soramitsu",
   "https://github.com/stake-plus",
@@ -900,6 +897,7 @@ url = "https://github.com/adityakm24/polkadot"
 
 [[repo]]
 url = "https://github.com/AdlusMjRb/Paxmata-web3"
+missing = true
 
 [[repo]]
 url = "https://github.com/AdMetaNetwork/admeta"
@@ -2237,6 +2235,7 @@ url = "https://github.com/audgeviolin07/uniqueracing"
 
 [[repo]]
 url = "https://github.com/aufpumpenk1k/tutorials-account-balances"
+missing = true
 
 [[repo]]
 url = "https://github.com/augmented-finance/DefiLlama-Adapters"
@@ -2253,6 +2252,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/AurevoirXavier/substrate"
+missing = true
 
 [[repo]]
 url = "https://github.com/Aurora-Kamal/subquery-tutorials-account-transfers"
@@ -2449,6 +2449,9 @@ url = "https://github.com/automata-network/dcap-rs"
 url = "https://github.com/automata-network/debug-js"
 
 [[repo]]
+url = "https://github.com/automata-network/derive_more-ass"
+
+[[repo]]
 url = "https://github.com/automata-network/docs"
 
 [[repo]]
@@ -2527,6 +2530,9 @@ url = "https://github.com/automata-network/jsonrpc-rs"
 url = "https://github.com/automata-network/jsonrpsee"
 
 [[repo]]
+url = "https://github.com/automata-network/kona-ass"
+
+[[repo]]
 url = "https://github.com/automata-network/libsecp256k1"
 
 [[repo]]
@@ -2598,6 +2604,9 @@ url = "https://github.com/automata-network/proof-of-machinehood-verax"
 
 [[repo]]
 url = "https://github.com/automata-network/revm"
+
+[[repo]]
+url = "https://github.com/automata-network/revm-ass"
 
 [[repo]]
 url = "https://github.com/automata-network/revm-sgx"
@@ -2698,6 +2707,9 @@ url = "https://github.com/automata-network/sushiswap-sdk"
 
 [[repo]]
 url = "https://github.com/automata-network/talisman"
+
+[[repo]]
+url = "https://github.com/automata-network/tdx-attestation-sdk"
 
 [[repo]]
 url = "https://github.com/automata-network/tee-builder"
@@ -2939,6 +2951,9 @@ url = "https://github.com/AvadoDServer/webapp-demo"
 
 [[repo]]
 url = "https://github.com/AvadoDServer/workflow-test"
+
+[[repo]]
+url = "https://github.com/AvadoDServer/yield-server"
 
 [[repo]]
 url = "https://github.com/availproject/avail-js"
@@ -3225,6 +3240,7 @@ url = "https://github.com/beingofexistence/hack"
 
 [[repo]]
 url = "https://github.com/beints55w/subql-helloworld"
+missing = true
 
 [[repo]]
 url = "https://github.com/bejarano-tech/dmuse-tech"
@@ -3719,6 +3735,7 @@ url = "https://github.com/boundless-forest/polkadot-cli"
 
 [[repo]]
 url = "https://github.com/boundless-forest/substrate"
+missing = true
 
 [[repo]]
 url = "https://github.com/boykas/subql-account-transfer-reverse-lookups-example"
@@ -3764,6 +3781,7 @@ url = "https://github.com/brano-hozza/assets-pallet-ui"
 
 [[repo]]
 url = "https://github.com/brech1/substrate-rsvp"
+missing = true
 
 [[repo]]
 url = "https://github.com/bredamatt/decks-v2"
@@ -4224,6 +4242,7 @@ url = "https://github.com/Cardinal-Cryptography/halo2-browser"
 
 [[repo]]
 url = "https://github.com/Cardinal-Cryptography/halo2-gadgets"
+missing = true
 
 [[repo]]
 url = "https://github.com/Cardinal-Cryptography/halo2-lib"
@@ -4503,6 +4522,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/ccris02/PolkaStats"
+missing = true
 
 [[repo]]
 url = "https://github.com/ccris02/PolkaVIEW"
@@ -4510,6 +4530,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/ccris02/UpTime"
+missing = true
 
 [[repo]]
 url = "https://github.com/ccris02/validator-stats"
@@ -4595,6 +4616,7 @@ url = "https://github.com/Cerebellum-Network/blockchain-node"
 
 [[repo]]
 url = "https://github.com/CeresEcosystem/DefiLlama-Adapters-Demeter"
+missing = true
 
 [[repo]]
 url = "https://github.com/CeresEcosystem/tools-backend"
@@ -4765,6 +4787,7 @@ url = "https://github.com/chemonoworld/substrate-node-practice"
 
 [[repo]]
 url = "https://github.com/Chen-Jing-Bo/ts-test"
+missing = true
 
 [[repo]]
 url = "https://github.com/ChenYunShu-01/polkadot.js"
@@ -4933,6 +4956,7 @@ url = "https://github.com/cleanunicorn/polka-dot-mnemonic-brute"
 
 [[repo]]
 url = "https://github.com/clearloop/cydonia"
+missing = true
 
 [[repo]]
 url = "https://github.com/clearloop/inkpad"
@@ -5310,6 +5334,7 @@ url = "https://github.com/Colm3na/workshop-de-Aragon"
 
 [[repo]]
 url = "https://github.com/coloredfield/3"
+missing = true
 
 [[repo]]
 url = "https://github.com/colorfulnotion/apps"
@@ -5800,6 +5825,9 @@ url = "https://github.com/cyberlytics/ChainFresh"
 url = "https://github.com/cyberomanov/tutorials-account-transfers"
 
 [[repo]]
+url = "https://github.com/Cyborg-Network/cyborg-parachain"
+
+[[repo]]
 url = "https://github.com/cybros-network/cybros-network"
 
 [[repo]]
@@ -6212,12 +6240,15 @@ url = "https://github.com/debris/sapling-chain"
 
 [[repo]]
 url = "https://github.com/Debu976116/awesome-list-rpc-nodes-providers"
+missing = true
 
 [[repo]]
 url = "https://github.com/Debu976116/BitGoJS"
+missing = true
 
 [[repo]]
 url = "https://github.com/Debu976116/Tokenary"
+missing = true
 
 [[repo]]
 url = "https://github.com/debuggor/schnorrkel-java"
@@ -6274,6 +6305,33 @@ url = "https://github.com/dectf/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/Decubate-com/DefiLlama-Adapters"
+
+[[repo]]
+url = "https://github.com/dedotdev/chaintypes"
+
+[[repo]]
+url = "https://github.com/dedotdev/dedot"
+
+[[repo]]
+url = "https://github.com/dedotdev/deshape"
+
+[[repo]]
+url = "https://github.com/dedotdev/docs"
+
+[[repo]]
+url = "https://github.com/dedotdev/link"
+
+[[repo]]
+url = "https://github.com/dedotdev/trydedot"
+
+[[repo]]
+url = "https://github.com/dedotdev/typink"
+
+[[repo]]
+url = "https://github.com/dedotdev/typink-app"
+
+[[repo]]
+url = "https://github.com/dedotdev/typink-dapp-template"
 
 [[repo]]
 url = "https://github.com/deep-ink-ventures/genesis-dao-frontend"
@@ -6334,6 +6392,7 @@ url = "https://github.com/deeper-chain/deeperchain-docs"
 
 [[repo]]
 url = "https://github.com/deeper-chain/deepergpt-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/deeper-chain/deeperscan"
@@ -6364,6 +6423,7 @@ url = "https://github.com/deeper-chain/Grants-Program"
 
 [[repo]]
 url = "https://github.com/deeper-chain/hd-wallet"
+missing = true
 
 [[repo]]
 url = "https://github.com/deeper-chain/integration-tests"
@@ -6899,6 +6959,7 @@ url = "https://github.com/dmahmouali/Metaverse-Network"
 
 [[repo]]
 url = "https://github.com/dmailofficial/dmail"
+missing = true
 
 [[repo]]
 url = "https://github.com/dmitriyakrohin/tutorials-simple-aggregationsq"
@@ -7160,6 +7221,12 @@ url = "https://github.com/docknetwork/ssi-wallets"
 
 [[repo]]
 url = "https://github.com/docknetwork/subkey-wrapper"
+
+[[repo]]
+url = "https://github.com/docknetwork/subql-dock"
+
+[[repo]]
+url = "https://github.com/docknetwork/subscan-fetch"
 
 [[repo]]
 url = "https://github.com/docknetwork/substrate"
@@ -7913,6 +7980,7 @@ url = "https://github.com/eshaben/squid-mr-staking-inflation"
 
 [[repo]]
 url = "https://github.com/espoem/MetExt"
+missing = true
 
 [[repo]]
 url = "https://github.com/Estereum/estereum"
@@ -8291,6 +8359,9 @@ url = "https://github.com/ff13dfly/EasyPolka"
 url = "https://github.com/ff13dfly/plinth"
 
 [[repo]]
+url = "https://github.com/fidi-tech/dotsight"
+
+[[repo]]
 url = "https://github.com/fifteen42/polkadot_js_usage"
 
 [[repo]]
@@ -8299,9 +8370,11 @@ missing = true
 
 [[repo]]
 url = "https://github.com/figment-networks/visualize-staking-api-flows"
+missing = true
 
 [[repo]]
 url = "https://github.com/filippo-mancinelli/dotsamastake.io"
+missing = true
 
 [[repo]]
 url = "https://github.com/filippoweb3/polkanalyzer"
@@ -8428,6 +8501,7 @@ url = "https://github.com/foresta-network/EasyA-Foresta"
 
 [[repo]]
 url = "https://github.com/forotafz3/tutorials-account-balances"
+missing = true
 
 [[repo]]
 url = "https://github.com/fotinijabaganova/account-transfer-reverse-lookups-subquery"
@@ -8551,6 +8625,7 @@ url = "https://github.com/futurebankxyz/substrate-enterprise-sample"
 
 [[repo]]
 url = "https://github.com/FuzzFinance/DefiLlama-Adapters"
+missing = true
 
 [[repo]]
 url = "https://github.com/gabreal/polkadot"
@@ -8572,12 +8647,16 @@ url = "https://github.com/gabrieljaegerde/tipAlert_telegram"
 
 [[repo]]
 url = "https://github.com/GabrielMartinezRodriguez/frontier-template-with-validator-controller"
+missing = true
 
 [[repo]]
 url = "https://github.com/GaiaEcotrack/Gaia"
 
 [[repo]]
 url = "https://github.com/Gajesh2007/DefiLlama-Adapters"
+
+[[repo]]
+url = "https://github.com/galacticcouncil/aave-v3-deploy"
 
 [[repo]]
 url = "https://github.com/galacticcouncil/Acala"
@@ -8799,6 +8878,9 @@ url = "https://github.com/galacticcouncil/HydraDX-web"
 
 [[repo]]
 url = "https://github.com/galacticcouncil/HydraDX-web-old"
+
+[[repo]]
+url = "https://github.com/galacticcouncil/hydration-data-lake"
 
 [[repo]]
 url = "https://github.com/galacticcouncil/Hydration-docs"
@@ -9357,6 +9439,7 @@ url = "https://github.com/gianfra-t/polkadot-sdk"
 
 [[repo]]
 url = "https://github.com/GianlucaMinoprio/tap2pay-consensus"
+missing = true
 
 [[repo]]
 url = "https://github.com/gifitsp/PolkaExchange"
@@ -9558,6 +9641,7 @@ url = "https://github.com/gpalrepo/banksea-finance-exchange"
 
 [[repo]]
 url = "https://github.com/gperezvillar1975/stakeNFTDemo"
+missing = true
 
 [[repo]]
 url = "https://github.com/gpoliko/polkadot"
@@ -9730,6 +9814,7 @@ url = "https://github.com/hailiting/polkadotjs_util"
 
 [[repo]]
 url = "https://github.com/HaimMyasnikoff/tutorials-account-balances"
+missing = true
 
 [[repo]]
 url = "https://github.com/Haiper1/Subquery_test"
@@ -9842,10 +9927,6 @@ url = "https://github.com/harrifik/subqlHelloWorld"
 
 [[repo]]
 url = "https://github.com/HarryD05/EasyAxPolkadotHackathon-CBetXFrontEndDemo"
-
-[[repo]]
-url = "https://github.com/HarryD05/EasyAxPolkadotHackathon-CBetXSmartContractAttemp,"
-missing = true
 
 [[repo]]
 url = "https://github.com/HarryR/panautomata"
@@ -10122,9 +10203,11 @@ url = "https://github.com/helikon-labs/sceneview-android"
 
 [[repo]]
 url = "https://github.com/helikon-labs/spawn"
+missing = true
 
 [[repo]]
 url = "https://github.com/helikon-labs/spawn-web"
+missing = true
 
 [[repo]]
 url = "https://github.com/helikon-labs/sqlx"
@@ -10174,6 +10257,7 @@ url = "https://github.com/helikon-labs/wiki"
 
 [[repo]]
 url = "https://github.com/helixstreet/helixstreet-paranode"
+missing = true
 
 [[repo]]
 url = "https://github.com/helixstreet/helixstreet.io-frontend"
@@ -10600,6 +10684,7 @@ url = "https://github.com/Icybeverage/Raceandstake"
 
 [[repo]]
 url = "https://github.com/Icybeverage/racefrontend"
+missing = true
 
 [[repo]]
 url = "https://github.com/idavollnetwork/idavoll"
@@ -10663,6 +10748,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/ilovehackathons/azero-curations"
+missing = true
 
 [[repo]]
 url = "https://github.com/ilovehackathons/polkadot-js-fiddle"
@@ -10701,6 +10787,7 @@ url = "https://github.com/imailsenrs/Ornekgericekme"
 
 [[repo]]
 url = "https://github.com/imhunterand/ternoa-js"
+missing = true
 
 [[repo]]
 url = "https://github.com/iMIME4ss/subql-helloworld"
@@ -11384,6 +11471,7 @@ url = "https://github.com/jb-pala/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/JBA-Khalifa/polkadot"
+missing = true
 
 [[repo]]
 url = "https://github.com/JBA-Khalifa/settpay.js"
@@ -11464,12 +11552,15 @@ url = "https://github.com/jfrank-summit/domain-transactions"
 
 [[repo]]
 url = "https://github.com/jhonalino/parachains.network"
+missing = true
 
 [[repo]]
 url = "https://github.com/jhonalino/polka-docker-template"
+missing = true
 
 [[repo]]
 url = "https://github.com/jhonalino/polkaview.network"
+missing = true
 
 [[repo]]
 url = "https://github.com/jhonalino/validator-stats"
@@ -11505,6 +11596,7 @@ url = "https://github.com/jimmy-tudeski/set-identity-on-polkadot-dev"
 
 [[repo]]
 url = "https://github.com/jimmychu0807/orml-exchange"
+missing = true
 
 [[repo]]
 url = "https://github.com/jimmychu0807/poe-tutorial"
@@ -11512,6 +11604,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/jimmychu0807/substrate-offchain-worker-demo"
+missing = true
 
 [[repo]]
 url = "https://github.com/jimmychu0807/tutorial-offchain-worker"
@@ -11519,6 +11612,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/jimmychu0807/tx-submitter"
+missing = true
 
 [[repo]]
 url = "https://github.com/JimYam/listen-tmp"
@@ -11546,6 +11640,7 @@ url = "https://github.com/jiqiang90/subql-polkadot-map"
 
 [[repo]]
 url = "https://github.com/jjjutla/Melodot"
+missing = true
 
 [[repo]]
 url = "https://github.com/jjromeo/Polkadex"
@@ -11673,9 +11768,11 @@ url = "https://github.com/joshr61/SubqlHelloWorldMod2"
 
 [[repo]]
 url = "https://github.com/JoshuaDevCo/-og-afwerken"
+missing = true
 
 [[repo]]
 url = "https://github.com/Joshuashen022/substrate-kitties"
+missing = true
 
 [[repo]]
 url = "https://github.com/josuetorresf2/NFT-Collection"
@@ -11721,6 +11818,7 @@ url = "https://github.com/jpopesculian/solang"
 
 [[repo]]
 url = "https://github.com/jpw993/easya_polkadot_polkafund"
+missing = true
 
 [[repo]]
 url = "https://github.com/jpzk/helloedgeware"
@@ -12144,9 +12242,11 @@ url = "https://github.com/kevinee007/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/kevinh05/polka"
+missing = true
 
 [[repo]]
 url = "https://github.com/kevinjanada/belajar-polkadot-js"
+missing = true
 
 [[repo]]
 url = "https://github.com/Keysians/keysians"
@@ -12349,9 +12449,6 @@ url = "https://github.com/kodadot/kodadot.github.io"
 
 [[repo]]
 url = "https://github.com/kodadot/magick"
-
-[[repo]]
-url = "https://github.com/kodadot/nft-gallery"
 
 [[repo]]
 url = "https://github.com/kodadot/subwork"
@@ -12674,6 +12771,7 @@ url = "https://github.com/LaurentTrk/sublink-defichain"
 
 [[repo]]
 url = "https://github.com/laurogripa/plasma-contract"
+missing = true
 
 [[repo]]
 url = "https://github.com/lautaro-osacar/wconnect-dapp-test"
@@ -12858,6 +12956,7 @@ url = "https://github.com/liberland/liberland_frontend"
 
 [[repo]]
 url = "https://github.com/liberland/liberland_node"
+missing = true
 
 [[repo]]
 url = "https://github.com/LibertyDSNP/frequency"
@@ -13219,6 +13318,7 @@ url = "https://github.com/lsaether/substratefighters"
 
 [[repo]]
 url = "https://github.com/ltfschoen/flappytips"
+missing = true
 
 [[repo]]
 url = "https://github.com/ltfschoen/play"
@@ -14019,6 +14119,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/merklescience/polkadot-etl"
+missing = true
 
 [[repo]]
 url = "https://github.com/mertksk/PolkadotSimpleWallet"
@@ -14260,6 +14361,7 @@ url = "https://github.com/minhphong306/learn-web3-dapp"
 
 [[repo]]
 url = "https://github.com/minikas/Frontend-Template"
+missing = true
 
 [[repo]]
 url = "https://github.com/minimalsm/web"
@@ -14564,6 +14666,7 @@ url = "https://github.com/mswezey23/polkadot-hackathon"
 
 [[repo]]
 url = "https://github.com/mtdamir/Voting_Dapp"
+missing = true
 
 [[repo]]
 url = "https://github.com/mttrung/polkadot-hackathon"
@@ -14677,6 +14780,7 @@ url = "https://github.com/myoThiha-ryan/Mspace-VMZ"
 
 [[repo]]
 url = "https://github.com/myrainbow334/module-3.1"
+missing = true
 
 [[repo]]
 url = "https://github.com/myriadsocial/myriad-node"
@@ -14758,9 +14862,11 @@ url = "https://github.com/naqunmiemie/substrate-front-end-template"
 
 [[repo]]
 url = "https://github.com/naruto0913/evm-block"
+missing = true
 
 [[repo]]
 url = "https://github.com/naruto0913/substrate-dev"
+missing = true
 
 [[repo]]
 url = "https://github.com/naruto0913/substrate-kryptokitties"
@@ -14934,6 +15040,7 @@ url = "https://github.com/net3f/validator-stats"
 
 [[repo]]
 url = "https://github.com/NetGodFather/hello-world-by-polkadot"
+missing = true
 
 [[repo]]
 url = "https://github.com/NetGodFather/SubstrateFrontend"
@@ -14943,6 +15050,7 @@ url = "https://github.com/Nethny/remov"
 
 [[repo]]
 url = "https://github.com/neve3mind/m3-Exercise-3"
+missing = true
 
 [[repo]]
 url = "https://github.com/newstable/polkadot-sdk"
@@ -15214,6 +15322,7 @@ url = "https://github.com/noraliucode/patronage-backend"
 
 [[repo]]
 url = "https://github.com/normalfinance/rust-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/nors1981/modul3_3"
@@ -15703,6 +15812,9 @@ url = "https://github.com/onchaininvest/stakingpetch49"
 url = "https://github.com/OneBlockPlus/polkadot-hackathon-2024"
 
 [[repo]]
+url = "https://github.com/OneBlockPlus/Technical-docs"
+
+[[repo]]
 url = "https://github.com/oneblocktest/substrate2"
 
 [[repo]]
@@ -15874,6 +15986,7 @@ url = "https://github.com/Orliha/subq4"
 
 [[repo]]
 url = "https://github.com/orlowskilp/kusama-validator-aws"
+missing = true
 
 [[repo]]
 url = "https://github.com/osarukun/web"
@@ -16157,6 +16270,7 @@ url = "https://github.com/paritytech/.github"
 
 [[repo]]
 url = "https://github.com/paritytech/0x863df6bfa4"
+missing = true
 
 [[repo]]
 url = "https://github.com/paritytech/actions"
@@ -16404,6 +16518,12 @@ url = "https://github.com/paritytech/console"
 url = "https://github.com/paritytech/content"
 
 [[repo]]
+url = "https://github.com/paritytech/contract-docs"
+
+[[repo]]
+url = "https://github.com/paritytech/contract-issues"
+
+[[repo]]
 url = "https://github.com/paritytech/contract-sizes"
 
 [[repo]]
@@ -16551,6 +16671,9 @@ url = "https://github.com/paritytech/docker-machine"
 missing = true
 
 [[repo]]
+url = "https://github.com/paritytech/dockerfiles"
+
+[[repo]]
 url = "https://github.com/paritytech/docs.capi.dev"
 
 [[repo]]
@@ -16562,6 +16685,12 @@ url = "https://github.com/paritytech/dotdrop"
 [[repo]]
 url = "https://github.com/paritytech/dotexporter"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/paritytech/dotlake-community"
+
+[[repo]]
+url = "https://github.com/paritytech/dotlake-sidecar"
 
 [[repo]]
 url = "https://github.com/paritytech/downloads-proxy"
@@ -16798,6 +16927,9 @@ url = "https://github.com/paritytech/js-mobx"
 
 [[repo]]
 url = "https://github.com/paritytech/js-precompiled"
+
+[[repo]]
+url = "https://github.com/paritytech/js-revive"
 
 [[repo]]
 url = "https://github.com/paritytech/js-shapeshift"
@@ -17161,6 +17293,9 @@ url = "https://github.com/paritytech/parity.js"
 url = "https://github.com/paritytech/patricia-trie"
 
 [[repo]]
+url = "https://github.com/paritytech/pdp-templates"
+
+[[repo]]
 url = "https://github.com/paritytech/pipeline-scripts"
 
 [[repo]]
@@ -17297,6 +17432,9 @@ url = "https://github.com/paritytech/polkassembly"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/paritytech/polkavm"
+
+[[repo]]
 url = "https://github.com/paritytech/ppa"
 
 [[repo]]
@@ -17313,6 +17451,9 @@ url = "https://github.com/paritytech/prism"
 
 [[repo]]
 url = "https://github.com/paritytech/prism.dapp"
+
+[[repo]]
+url = "https://github.com/paritytech/project-mythical"
 
 [[repo]]
 url = "https://github.com/paritytech/psvm"
@@ -17380,6 +17521,7 @@ url = "https://github.com/paritytech/revive"
 
 [[repo]]
 url = "https://github.com/paritytech/revive-ethereum-rpc"
+missing = true
 
 [[repo]]
 url = "https://github.com/paritytech/revive-remix"
@@ -17444,6 +17586,9 @@ url = "https://github.com/paritytech/rust-ci"
 
 [[repo]]
 url = "https://github.com/paritytech/rust-cid"
+
+[[repo]]
+url = "https://github.com/paritytech/rust-contract-template"
 
 [[repo]]
 url = "https://github.com/paritytech/rust-ctrlc"
@@ -17534,9 +17679,11 @@ url = "https://github.com/paritytech/secret-store"
 
 [[repo]]
 url = "https://github.com/paritytech/secretstore-key-server-set"
+missing = true
 
 [[repo]]
 url = "https://github.com/paritytech/secretstore-service"
+missing = true
 
 [[repo]]
 url = "https://github.com/paritytech/send_wrapper"
@@ -17791,6 +17938,9 @@ url = "https://github.com/paritytech/subxt-team-milestones"
 
 [[repo]]
 url = "https://github.com/paritytech/table-renderer"
+
+[[repo]]
+url = "https://github.com/paritytech/test-dapp"
 
 [[repo]]
 url = "https://github.com/paritytech/testdapp"
@@ -18271,10 +18421,6 @@ url = "https://github.com/pawanbisht62/substrate-tutorial-permissioned-network"
 url = "https://github.com/pawanbisht62/substrate-tutorial-POE"
 
 [[repo]]
-url = "https://github.com/Pawel-608/EchoWallet"
-missing = true
-
-[[repo]]
 url = "https://github.com/pawelnguyen/polkadot"
 
 [[repo]]
@@ -18337,6 +18483,7 @@ url = "https://github.com/pepoviola/zombienet-presentation-examples"
 
 [[repo]]
 url = "https://github.com/peppacat/ts-test"
+missing = true
 
 [[repo]]
 url = "https://github.com/pepyakin/remarkable-pwner"
@@ -18804,6 +18951,15 @@ url = "https://github.com/Polkadot-Blockchain-Academy/xcm-activities"
 url = "https://github.com/polkadot-bountifi/frontend"
 
 [[repo]]
+url = "https://github.com/polkadot-cloud/docs"
+
+[[repo]]
+url = "https://github.com/polkadot-cloud/polkadot-cloud-landing"
+
+[[repo]]
+url = "https://github.com/polkadot-cloud/polkadot-developer-console"
+
+[[repo]]
 url = "https://github.com/polkadot-cloud/polkadot-staking-dashboard"
 
 [[repo]]
@@ -18826,6 +18982,36 @@ url = "https://github.com/Polkadot-European-hackaton-2023/cumolon-comparison"
 
 [[repo]]
 url = "https://github.com/polkadot-evm/frontier"
+
+[[repo]]
+url = "https://github.com/polkadot-fellows/dashboard"
+
+[[repo]]
+url = "https://github.com/polkadot-fellows/Evaluations"
+
+[[repo]]
+url = "https://github.com/polkadot-fellows/fellowship-rfcs-process-bot"
+
+[[repo]]
+url = "https://github.com/polkadot-fellows/help-center"
+
+[[repo]]
+url = "https://github.com/polkadot-fellows/manifesto"
+
+[[repo]]
+url = "https://github.com/polkadot-fellows/RFCs"
+
+[[repo]]
+url = "https://github.com/polkadot-fellows/RFPs"
+
+[[repo]]
+url = "https://github.com/polkadot-fellows/runtimes"
+
+[[repo]]
+url = "https://github.com/polkadot-fellows/seeding"
+
+[[repo]]
+url = "https://github.com/polkadot-fellows/xcm-format"
 
 [[repo]]
 url = "https://github.com/polkadot-francophonie/kleroterion-doc"
@@ -19074,13 +19260,40 @@ url = "https://github.com/polkascan/py-substrate-interface"
 url = "https://github.com/polkascan/subkey"
 
 [[repo]]
+url = "https://github.com/polkassembly/apps"
+
+[[repo]]
+url = "https://github.com/polkassembly/discourse-polkassembly-auth"
+
+[[repo]]
 url = "https://github.com/polkassembly/fellowship"
+
+[[repo]]
+url = "https://github.com/polkassembly/governance-ui"
+
+[[repo]]
+url = "https://github.com/polkassembly/opengov-delegate-registry"
 
 [[repo]]
 url = "https://github.com/polkassembly/parachains"
 
 [[repo]]
 url = "https://github.com/polkassembly/polkassembly"
+
+[[repo]]
+url = "https://github.com/polkassembly/polkassembly-next"
+
+[[repo]]
+url = "https://github.com/polkassembly/polkassembly.github.io"
+
+[[repo]]
+url = "https://github.com/polkassembly/proof-of-contribution"
+
+[[repo]]
+url = "https://github.com/polkassembly/squid-substrate-template"
+
+[[repo]]
+url = "https://github.com/polkassembly/substrate-node"
 
 [[repo]]
 url = "https://github.com/polkastats/polkastats"
@@ -19406,6 +19619,7 @@ url = "https://github.com/Prydea/enhanced-substrate-node-template"
 
 [[repo]]
 url = "https://github.com/psycoders-club/vulture-wallet-browser"
+missing = true
 
 [[repo]]
 url = "https://github.com/puaaibot/polkadot-hackathon"
@@ -19532,10 +19746,85 @@ url = "https://github.com/qwer951123/apps"
 url = "https://github.com/qwertys318/polkadot-ipfs-demo"
 
 [[repo]]
+url = "https://github.com/r0gue-io/assets-parachain"
+
+[[repo]]
 url = "https://github.com/r0gue-io/base-parachain"
 
 [[repo]]
+url = "https://github.com/r0gue-io/contracts-parachain"
+
+[[repo]]
+url = "https://github.com/r0gue-io/contracts-ui"
+
+[[repo]]
+url = "https://github.com/r0gue-io/evm-parachain"
+
+[[repo]]
+url = "https://github.com/r0gue-io/faucet-contract"
+
+[[repo]]
+url = "https://github.com/r0gue-io/ink"
+
+[[repo]]
+url = "https://github.com/r0gue-io/ink-xcm-demo-encode-club"
+
+[[repo]]
+url = "https://github.com/r0gue-io/ismp"
+
+[[repo]]
+url = "https://github.com/r0gue-io/multichain-superdao"
+
+[[repo]]
+url = "https://github.com/r0gue-io/paseo-network-runtimes"
+
+[[repo]]
+url = "https://github.com/r0gue-io/paseo-runtimes"
+
+[[repo]]
+url = "https://github.com/r0gue-io/polkadot"
+
+[[repo]]
+url = "https://github.com/r0gue-io/polkadot-js-apps"
+
+[[repo]]
+url = "https://github.com/r0gue-io/polkadot-runtimes"
+
+[[repo]]
+url = "https://github.com/r0gue-io/polkadot-sdk"
+
+[[repo]]
+url = "https://github.com/r0gue-io/polkadot-testnet-faucet"
+
+[[repo]]
+url = "https://github.com/r0gue-io/pop-api-examples"
+
+[[repo]]
+url = "https://github.com/r0gue-io/pop-cli"
+
+[[repo]]
+url = "https://github.com/r0gue-io/pop-docs"
+
+[[repo]]
+url = "https://github.com/r0gue-io/pop-drink"
+
+[[repo]]
 url = "https://github.com/r0gue-io/pop-node"
+
+[[repo]]
+url = "https://github.com/r0gue-io/pop-pallets"
+
+[[repo]]
+url = "https://github.com/r0gue-io/PSP34"
+
+[[repo]]
+url = "https://github.com/r0gue-io/sub0-ink-challenges"
+
+[[repo]]
+url = "https://github.com/r0gue-io/tanssi"
+
+[[repo]]
+url = "https://github.com/r0gue-io/zombienet-sdk"
 
 [[repo]]
 url = "https://github.com/r1oga/hello-world-by-polkadot"
@@ -19700,6 +19989,7 @@ url = "https://github.com/raoulmillais/polkadot"
 
 [[repo]]
 url = "https://github.com/rashadalh/HeatMarket"
+missing = true
 
 [[repo]]
 url = "https://github.com/Ratchasit/Project"
@@ -19889,15 +20179,18 @@ url = "https://github.com/RELAI-Network/fusion-console"
 
 [[repo]]
 url = "https://github.com/RELAI-Network/fusion-marketplace"
+missing = true
 
 [[repo]]
 url = "https://github.com/RELAI-Network/fusion-protocol"
+missing = true
 
 [[repo]]
 url = "https://github.com/RELAI-Network/futur-console-react"
 
 [[repo]]
 url = "https://github.com/RELAI-Network/futur-protocol"
+missing = true
 
 [[repo]]
 url = "https://github.com/RELAI-Network/futurstore-app"
@@ -19913,6 +20206,7 @@ url = "https://github.com/RELAI-Network/Grants-Program"
 
 [[repo]]
 url = "https://github.com/RELAI-Network/ink-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/RELAI-Network/kaggu"
@@ -19922,6 +20216,7 @@ url = "https://github.com/RELAI-Network/kumulus"
 
 [[repo]]
 url = "https://github.com/RELAI-Network/massaEVM"
+missing = true
 
 [[repo]]
 url = "https://github.com/RELAI-Network/Mobile-Security-Framework-MobSF"
@@ -19937,6 +20232,7 @@ url = "https://github.com/RELAI-Network/osv.dev"
 
 [[repo]]
 url = "https://github.com/RELAI-Network/provider"
+missing = true
 
 [[repo]]
 url = "https://github.com/RELAI-Network/provider-proto"
@@ -20088,6 +20384,7 @@ url = "https://github.com/rmartinus/substrate-front-end-template"
 
 [[repo]]
 url = "https://github.com/rmnprkrl/dev-w3fca"
+missing = true
 
 [[repo]]
 url = "https://github.com/rmnprkrl/w3f-claim"
@@ -20173,10 +20470,6 @@ url = "https://github.com/rogerrogeryau/Tweet-Ingester-backed-by-Kafka-for-Defi-
 url = "https://github.com/rohan-patra/tg-multisig"
 
 [[repo]]
-url = "https://github.com/rohan-patra/tg-multisig.git"
-missing = true
-
-[[repo]]
 url = "https://github.com/rohitas-git/substrate-node-template"
 
 [[repo]]
@@ -20238,6 +20531,7 @@ tags = ["ink Smart Contracts, DeFi"]
 
 [[repo]]
 url = "https://github.com/rowone889/m3-1"
+missing = true
 
 [[repo]]
 url = "https://github.com/roxaneletourneau/wc2-test"
@@ -20703,6 +20997,7 @@ url = "https://github.com/SealSC/multi-chain-js"
 
 [[repo]]
 url = "https://github.com/seandotau/multichain-indexing-example"
+missing = true
 
 [[repo]]
 url = "https://github.com/seankwon123/BlocketLeague"
@@ -21274,6 +21569,9 @@ url = "https://github.com/simsonraj/frontier-node-template"
 url = "https://github.com/simsonraj/frontier-update"
 
 [[repo]]
+url = "https://github.com/singkeo/dot-login"
+
+[[repo]]
 url = "https://github.com/singlashashwat/web3"
 
 [[repo]]
@@ -21378,6 +21676,7 @@ url = "https://github.com/Slava66702/SubQ1"
 
 [[repo]]
 url = "https://github.com/SlavaDemchuk/Crypto-AML-Check-Bot"
+missing = true
 
 [[repo]]
 url = "https://github.com/slavaTTT/SubqlHelloWorldMod2"
@@ -21411,6 +21710,7 @@ url = "https://github.com/SmartCP04/SmartCP_account-transfers"
 
 [[repo]]
 url = "https://github.com/smartdevcom/blockchain"
+missing = true
 
 [[repo]]
 url = "https://github.com/smartrib3/Frontend"
@@ -21649,6 +21949,7 @@ url = "https://github.com/soramitsu/fearless-Android"
 
 [[repo]]
 url = "https://github.com/soramitsu/fearless-Android-priv"
+missing = true
 
 [[repo]]
 url = "https://github.com/soramitsu/fearless-giant-squid"
@@ -22090,6 +22391,9 @@ url = "https://github.com/soramitsu/vue-kakuyaku"
 url = "https://github.com/soramitsu/WAVM"
 
 [[repo]]
+url = "https://github.com/soramitsu/wbps-web"
+
+[[repo]]
 url = "https://github.com/soramitsu/web3-swift"
 
 [[repo]]
@@ -22199,6 +22503,7 @@ url = "https://github.com/spreadzp/polkadot-websocket-state"
 
 [[repo]]
 url = "https://github.com/springshine0925/Polkadot-sdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/SpyCheese/ton"
@@ -22478,6 +22783,7 @@ url = "https://github.com/StreetYo/hydra-template"
 [[repo]]
 url = "https://github.com/StringNick/sybil-resistant-chat-bot-substrate-faucet"
 tags = ["Wallets, Burner Wallets/Faucet/Gifts"]
+missing = true
 
 [[repo]]
 url = "https://github.com/stronghandsblockchain/iSHND-NewSource"
@@ -22509,6 +22815,9 @@ url = "https://github.com/stze/Polkadex"
 [[repo]]
 url = "https://github.com/sub-box/SubBox"
 missing = true
+
+[[repo]]
+url = "https://github.com/subcoin-project/subcoin"
 
 [[repo]]
 url = "https://github.com/SubDAO-Network/subDAO-frontend"
@@ -22874,6 +23183,9 @@ url = "https://github.com/subquery/network-gateway-service"
 url = "https://github.com/subquery/network-indexer-services"
 
 [[repo]]
+url = "https://github.com/subquery/network-relay"
+
+[[repo]]
 url = "https://github.com/subquery/network-root-chain-backend"
 
 [[repo]]
@@ -22919,6 +23231,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/subquery/pgn-docs"
+
+[[repo]]
+url = "https://github.com/subquery/polkadot-apps"
 
 [[repo]]
 url = "https://github.com/subquery/polkadot-cached-provider"
@@ -22975,6 +23290,12 @@ url = "https://github.com/subquery/stellar-subql-starter"
 
 [[repo]]
 url = "https://github.com/subquery/subql"
+
+[[repo]]
+url = "https://github.com/subquery/subql-ai-app-example"
+
+[[repo]]
+url = "https://github.com/subquery/subql-ai-app-framework"
 
 [[repo]]
 url = "https://github.com/subquery/subql-algorand"
@@ -23359,6 +23680,7 @@ url = "https://github.com/substrate-developer-hub/awesome-substrate"
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/crypto-ecosystems"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/cumulus-workshop"
@@ -23368,18 +23690,23 @@ url = "https://github.com/substrate-developer-hub/docs-sandbox"
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/frontier-node-template"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/frontier-workshop"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/hackathon-knowledge-map"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/hacktoberfest"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/haski"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/knowledgebase"
@@ -23389,15 +23716,18 @@ url = "https://github.com/substrate-developer-hub/migration-example"
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/newsletter"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/pallet-did"
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/rustdocs"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-beginner-workshop"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-cms"
@@ -23416,51 +23746,65 @@ url = "https://github.com/substrate-developer-hub/substrate-enterprise-sample"
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-erc20-multi"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-events-listener"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-front-end-template"
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-front-end-tutorial"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-how-to-guides"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-module-template"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-node-template"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-pallet-template"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-parachain-template"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-proof-of-existence"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-runtime-template"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-seminar"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-tools"
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate-verifiable-credentials"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/substrate_archived"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/tcr-substrate"
+missing = true
 
 [[repo]]
 url = "https://github.com/substrate-developer-hub/tutorials"
@@ -23779,6 +24123,7 @@ url = "https://github.com/sweatpotato13/substrate-parachain-boilerplate"
 
 [[repo]]
 url = "https://github.com/swisscom-blockchain/polkadot-k8s-operator"
+missing = true
 
 [[repo]]
 url = "https://github.com/sygmaprotocol/sygma-substrate-pallets"
@@ -23814,6 +24159,7 @@ url = "https://github.com/syntifi/ori"
 
 [[repo]]
 url = "https://github.com/SyntropyNet/substrate-nft-pallet"
+missing = true
 
 [[repo]]
 url = "https://github.com/synycboom/subql-exercises"
@@ -23944,6 +24290,7 @@ url = "https://github.com/TalismanSociety/talisman-connect-test-dapp"
 
 [[repo]]
 url = "https://github.com/TalismanSociety/talisman-landing"
+missing = true
 
 [[repo]]
 url = "https://github.com/TalismanSociety/talisman-web"
@@ -24122,6 +24469,7 @@ url = "https://github.com/tesseract-one/Tesseract.rs"
 
 [[repo]]
 url = "https://github.com/testcoinpedia/testmarkets"
+missing = true
 
 [[repo]]
 url = "https://github.com/tetched/cobra"
@@ -24331,6 +24679,7 @@ url = "https://github.com/ThaiBinh-13/demo-polkadot-network"
 
 [[repo]]
 url = "https://github.com/thaiveng/demo_pol"
+missing = true
 
 [[repo]]
 url = "https://github.com/thakurprakash/thakurp_nickspallet"
@@ -24496,6 +24845,9 @@ url = "https://github.com/tidelabs/tidechain"
 url = "https://github.com/tidelabs/tidext"
 
 [[repo]]
+url = "https://github.com/tien/dot-console"
+
+[[repo]]
 url = "https://github.com/TiENBlockchain/tien-sub"
 
 [[repo]]
@@ -24570,6 +24922,7 @@ url = "https://github.com/tobichls/easyaxpolkadot-24"
 
 [[repo]]
 url = "https://github.com/toenegizer/mod3.3"
+missing = true
 
 [[repo]]
 url = "https://github.com/toferd/kyve"
@@ -24891,6 +25244,7 @@ url = "https://github.com/trustprotocol/trust.js"
 
 [[repo]]
 url = "https://github.com/truth999/polkabtc-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/truxxu/substrate_front_template"
@@ -25000,6 +25354,7 @@ url = "https://github.com/u-hubar/substrate-front-end-playground"
 
 [[repo]]
 url = "https://github.com/u011/solid-spork"
+missing = true
 
 [[repo]]
 url = "https://github.com/Ubeswap/DefiLlama-Adapters"
@@ -25218,6 +25573,7 @@ url = "https://github.com/Vagif85/tutorials-account-transfer-reverse-lookups"
 
 [[repo]]
 url = "https://github.com/vaixgroup/pos-system"
+missing = true
 
 [[repo]]
 url = "https://github.com/Valdins/polkadot-hackathon-2024"
@@ -26982,6 +27338,9 @@ url = "https://github.com/w3f-grants-archive/logion-api"
 url = "https://github.com/w3f-grants-archive/logion-backend-ts"
 
 [[repo]]
+url = "https://github.com/w3f-grants-archive/logion-gateway"
+
+[[repo]]
 url = "https://github.com/w3f-grants-archive/logion-node"
 
 [[repo]]
@@ -27330,6 +27689,9 @@ url = "https://github.com/w3f-grants-archive/payment-processor"
 url = "https://github.com/w3f-grants-archive/Pendzl"
 
 [[repo]]
+url = "https://github.com/w3f-grants-archive/pendzl-pendzl"
+
+[[repo]]
 url = "https://github.com/w3f-grants-archive/personhood-democracy-1-submission"
 
 [[repo]]
@@ -27634,6 +27996,9 @@ url = "https://github.com/w3f-grants-archive/polpatrol"
 
 [[repo]]
 url = "https://github.com/w3f-grants-archive/POnto"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/pop-cli"
 
 [[repo]]
 url = "https://github.com/w3f-grants-archive/portablegabi"
@@ -28057,6 +28422,9 @@ url = "https://github.com/w3f-grants-archive/starry_node"
 
 [[repo]]
 url = "https://github.com/w3f-grants-archive/Stars-Network"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/state-channels-plus"
 
 [[repo]]
 url = "https://github.com/w3f-grants-archive/State-of-the-Stablecoin-Industry"
@@ -28536,6 +28904,9 @@ url = "https://github.com/w3f-grants-archive/trex-keyholder"
 url = "https://github.com/w3f-grants-archive/tribal_contract"
 
 [[repo]]
+url = "https://github.com/w3f-grants-archive/True"
+
+[[repo]]
 url = "https://github.com/w3f-grants-archive/Tuxedo"
 
 [[repo]]
@@ -28750,6 +29121,12 @@ url = "https://github.com/w3f-grants-archive/xcmsend-api"
 
 [[repo]]
 url = "https://github.com/w3f-grants-archive/xcmsend-app"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/xcnft-docs"
+
+[[repo]]
+url = "https://github.com/w3f-grants-archive/xcnft-pallet"
 
 [[repo]]
 url = "https://github.com/w3f-grants-archive/xnft"
@@ -29310,9 +29687,11 @@ url = "https://github.com/w3f/polkadot-deployer-ci"
 
 [[repo]]
 url = "https://github.com/w3f/polkadot-developer-docs"
+missing = true
 
 [[repo]]
 url = "https://github.com/w3f/polkadot-docs"
+missing = true
 
 [[repo]]
 url = "https://github.com/w3f/polkadot-era-scanner-tableau"
@@ -29404,6 +29783,9 @@ url = "https://github.com/w3f/polkadot-validator-setup"
 [[repo]]
 url = "https://github.com/w3f/polkadot-validator-watcher"
 missing = true
+
+[[repo]]
+url = "https://github.com/w3f/polkadot-wasm-utils"
 
 [[repo]]
 url = "https://github.com/w3f/polkadot-watcher-auctions"
@@ -29762,9 +30144,6 @@ url = "https://github.com/wasim162010/Polkadot-scanner"
 url = "https://github.com/wasmark/ui"
 
 [[repo]]
-url = "https://github.com/WasmEdge/WasmEdge"
-
-[[repo]]
 url = "https://github.com/wassimans/substrate-collectibles-frontend"
 missing = true
 
@@ -29960,6 +30339,7 @@ url = "https://github.com/wheath/synthnft"
 
 [[repo]]
 url = "https://github.com/whereistejas/dot-marketplace"
+missing = true
 
 [[repo]]
 url = "https://github.com/Whisker17/polkawallet_plugin_zeitgeist"
@@ -30206,6 +30586,7 @@ url = "https://github.com/xata-fi/xata-sdk"
 
 [[repo]]
 url = "https://github.com/xavax-project/vulture-wallet-extension"
+missing = true
 
 [[repo]]
 url = "https://github.com/xaviergoby/bstdethintg"
@@ -30243,6 +30624,12 @@ url = "https://github.com/XcmSend/documentation"
 
 [[repo]]
 url = "https://github.com/XcmSend/docusaurus"
+
+[[repo]]
+url = "https://github.com/XcmSend/js-sdk"
+
+[[repo]]
+url = "https://github.com/XcmSend/nova-utils"
 
 [[repo]]
 url = "https://github.com/XcmSend/polkadot-extension"

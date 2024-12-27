@@ -3,14 +3,458 @@ title = "Brave"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/brave"]
+github_organizations = ["https://github.com/brave", "https://github.com/brave-experiments"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/brave-experiments/abi-decoder"
+
 [[repo]]
 url = "https://github.com/brave-experiments/ad-block"
 
 [[repo]]
+url = "https://github.com/brave-experiments/adblock-rust-check"
+
+[[repo]]
+url = "https://github.com/brave-experiments/adblock-rust-dashboard"
+
+[[repo]]
+url = "https://github.com/brave-experiments/amazon-ecr-repository-compliance-webhook"
+
+[[repo]]
+url = "https://github.com/brave-experiments/anonymous-credentials-rs"
+
+[[repo]]
+url = "https://github.com/brave-experiments/aws-sdk-xray-core-cls"
+
+[[repo]]
+url = "https://github.com/brave-experiments/baseline"
+
+[[repo]]
+url = "https://github.com/brave-experiments/bat-elph"
+
+[[repo]]
+url = "https://github.com/brave-experiments/bb-accumulators"
+
+[[repo]]
+url = "https://github.com/brave-experiments/bellman"
+
+[[repo]]
+url = "https://github.com/brave-experiments/BitGoJS"
+
+[[repo]]
+url = "https://github.com/brave-experiments/Boomerang"
+
+[[repo]]
 url = "https://github.com/brave-experiments/brave-abp-measurer"
+
+[[repo]]
+url = "https://github.com/brave-experiments/brave-block-explainer"
+
+[[repo]]
+url = "https://github.com/brave-experiments/brave-briefs"
+
+[[repo]]
+url = "https://github.com/brave-experiments/brave-browser-poc-1repo"
+
+[[repo]]
+url = "https://github.com/brave-experiments/brave-extension-store"
+
+[[repo]]
+url = "https://github.com/brave-experiments/brave-ml-lab"
+
+[[repo]]
+url = "https://github.com/brave-experiments/brave-performance-predictor"
+
+[[repo]]
+url = "https://github.com/brave-experiments/brave-script-gatherer"
+
+[[repo]]
+url = "https://github.com/brave-experiments/brave-script-gatherer-driver"
+
+[[repo]]
+url = "https://github.com/brave-experiments/brave-search-api-demo"
+
+[[repo]]
+url = "https://github.com/brave-experiments/braveback-machine"
+
+[[repo]]
+url = "https://github.com/brave-experiments/browser-comparison-toolkit"
+
+[[repo]]
+url = "https://github.com/brave-experiments/bulletproofs"
+
+[[repo]]
+url = "https://github.com/brave-experiments/calculatency-misc"
+
+[[repo]]
+url = "https://github.com/brave-experiments/catapult"
+
+[[repo]]
+url = "https://github.com/brave-experiments/CDLS"
+
+[[repo]]
+url = "https://github.com/brave-experiments/cf2tf"
+
+[[repo]]
+url = "https://github.com/brave-experiments/chainhammer"
+
+[[repo]]
+url = "https://github.com/brave-experiments/challenge-bypass-ristretto-cxx"
+
+[[repo]]
+url = "https://github.com/brave-experiments/compound-protocol"
+
+[[repo]]
+url = "https://github.com/brave-experiments/container-ssh"
+
+[[repo]]
+url = "https://github.com/brave-experiments/controllers"
+
+[[repo]]
+url = "https://github.com/brave-experiments/ctc-hackathon-challenge-2020-01"
+
+[[repo]]
+url = "https://github.com/brave-experiments/ctc-hackathon-challenge-2020-01-server"
+
+[[repo]]
+url = "https://github.com/brave-experiments/curve-trees"
+
+[[repo]]
+url = "https://github.com/brave-experiments/defi"
+
+[[repo]]
+url = "https://github.com/brave-experiments/defi-privacy-measurements"
+
+[[repo]]
+url = "https://github.com/brave-experiments/DiStefano"
+
+[[repo]]
+url = "https://github.com/brave-experiments/ed25519-solidity"
+
+[[repo]]
+url = "https://github.com/brave-experiments/elgamal_bn"
+
+[[repo]]
+url = "https://github.com/brave-experiments/enclave-sync-test"
+
+[[repo]]
+url = "https://github.com/brave-experiments/etag-scraper"
+
+[[repo]]
+url = "https://github.com/brave-experiments/eth-block-tracker"
+
+[[repo]]
+url = "https://github.com/brave-experiments/ethberlinzwei-maglev"
+
+[[repo]]
+url = "https://github.com/brave-experiments/ethSTARK"
+
+[[repo]]
+url = "https://github.com/brave-experiments/eventeum"
+
+[[repo]]
+url = "https://github.com/brave-experiments/experimental-apks"
+
+[[repo]]
+url = "https://github.com/brave-experiments/fast-abi"
+
+[[repo]]
+url = "https://github.com/brave-experiments/fastText"
+
+[[repo]]
+url = "https://github.com/brave-experiments/firefox-translations"
+
+[[repo]]
+url = "https://github.com/brave-experiments/franklin-crypto"
+
+[[repo]]
+url = "https://github.com/brave-experiments/frodo-pir"
+
+[[repo]]
+url = "https://github.com/brave-experiments/fuel-core"
+
+[[repo]]
+url = "https://github.com/brave-experiments/gh-actions-usage"
+
+[[repo]]
+url = "https://github.com/brave-experiments/go-stt"
+
+[[repo]]
+url = "https://github.com/brave-experiments/hardware-backed-webcrypto"
+
+[[repo]]
+url = "https://github.com/brave-experiments/hashed-timelock-contract-ethereum"
+
+[[repo]]
+url = "https://github.com/brave-experiments/human-standard-token-abi"
+
+[[repo]]
+url = "https://github.com/brave-experiments/iOS-DeviceCheck-API"
+
+[[repo]]
+url = "https://github.com/brave-experiments/jetson-monitor"
+
+[[repo]]
+url = "https://github.com/brave-experiments/jetsonlab-public"
+
+[[repo]]
+url = "https://github.com/brave-experiments/js-membranes"
+
+[[repo]]
+url = "https://github.com/brave-experiments/karpenter"
+
+[[repo]]
+url = "https://github.com/brave-experiments/keysync-test"
+
+[[repo]]
+url = "https://github.com/brave-experiments/lighthouse-adblock-audits"
+
+[[repo]]
+url = "https://github.com/brave-experiments/llama.cpp-public"
+
+[[repo]]
+url = "https://github.com/brave-experiments/llmfarm_core.swift-public"
+
+[[repo]]
+url = "https://github.com/brave-experiments/LLMFarmEval-public"
+
+[[repo]]
+url = "https://github.com/brave-experiments/MELT-public"
+
+[[repo]]
+url = "https://github.com/brave-experiments/metamask-extension"
+
+[[repo]]
+url = "https://github.com/brave-experiments/meteor-dapp-wallet"
+
+[[repo]]
+url = "https://github.com/brave-experiments/meteor-dapp-wallet-prebuilt"
+
+[[repo]]
+url = "https://github.com/brave-experiments/miracl-rs"
+
+[[repo]]
+url = "https://github.com/brave-experiments/Mjolnir"
+
+[[repo]]
+url = "https://github.com/brave-experiments/mlc-llm-public"
+
+[[repo]]
+url = "https://github.com/brave-experiments/nested-star-simulator"
+
+[[repo]]
+url = "https://github.com/brave-experiments/networked-enclave-framework"
+
+[[repo]]
+url = "https://github.com/brave-experiments/new-new-tab"
+
+[[repo]]
+url = "https://github.com/brave-experiments/newtab-prototype"
+
+[[repo]]
+url = "https://github.com/brave-experiments/nitro-enclave-kubelet"
+
+[[repo]]
+url = "https://github.com/brave-experiments/node-sha3"
+
+[[repo]]
+url = "https://github.com/brave-experiments/nonce-tracker"
+
+[[repo]]
+url = "https://github.com/brave-experiments/off-the-record-ietf-spec"
+
+[[repo]]
+url = "https://github.com/brave-experiments/opaque"
+
+[[repo]]
+url = "https://github.com/brave-experiments/otpauth-recovery"
+
+[[repo]]
+url = "https://github.com/brave-experiments/p3a-shuffler"
+
+[[repo]]
+url = "https://github.com/brave-experiments/page-graph-paywall-crawler"
+
+[[repo]]
+url = "https://github.com/brave-experiments/page-graph-tests"
+
+[[repo]]
+url = "https://github.com/brave-experiments/pagegraph-query"
+
+[[repo]]
+url = "https://github.com/brave-experiments/pagegraph-tranco-crawl"
+
+[[repo]]
+url = "https://github.com/brave-experiments/pantheon-ethers"
+
+[[repo]]
+url = "https://github.com/brave-experiments/parity-ethereum"
+
+[[repo]]
+url = "https://github.com/brave-experiments/permissioning-smart-contracts"
+
+[[repo]]
+url = "https://github.com/brave-experiments/playlist-kotlin"
+
+[[repo]]
+url = "https://github.com/brave-experiments/playlist-videostreams-extension"
+
+[[repo]]
+url = "https://github.com/brave-experiments/poc-extension-intercept-twitter"
+
+[[repo]]
+url = "https://github.com/brave-experiments/pool-party-artifact"
+
+[[repo]]
+url = "https://github.com/brave-experiments/poolparty-resources"
+
+[[repo]]
+url = "https://github.com/brave-experiments/posdao-contracts"
+
+[[repo]]
+url = "https://github.com/brave-experiments/poseidon_hash"
+
+[[repo]]
+url = "https://github.com/brave-experiments/privacy-kpis-measurement"
+
+[[repo]]
+url = "https://github.com/brave-experiments/privacy-tests"
+
+[[repo]]
+url = "https://github.com/brave-experiments/procedural-filters-js"
+
+[[repo]]
+url = "https://github.com/brave-experiments/psst-component"
+
+[[repo]]
+url = "https://github.com/brave-experiments/purpose-mode"
+
+[[repo]]
+url = "https://github.com/brave-experiments/purpose-mode-list"
+
+[[repo]]
+url = "https://github.com/brave-experiments/purpose-mode-misc"
+
+[[repo]]
+url = "https://github.com/brave-experiments/qa-test-pages"
+
+[[repo]]
+url = "https://github.com/brave-experiments/QR-Nominal"
+
+[[repo]]
+url = "https://github.com/brave-experiments/reclient"
+
+[[repo]]
+url = "https://github.com/brave-experiments/recursive_aggregation_circuit"
+
+[[repo]]
+url = "https://github.com/brave-experiments/regional-filterlist-gen"
+
+[[repo]]
+url = "https://github.com/brave-experiments/remote-desktop-in-enclave"
+
+[[repo]]
+url = "https://github.com/brave-experiments/renovate-config"
+
+[[repo]]
+url = "https://github.com/brave-experiments/request-otr-hackathon"
+
+[[repo]]
+url = "https://github.com/brave-experiments/shields-script-concept"
+
+[[repo]]
+url = "https://github.com/brave-experiments/simba-evaluation-harness"
+
+[[repo]]
+url = "https://github.com/brave-experiments/sku-js-php"
+
+[[repo]]
+url = "https://github.com/brave-experiments/sku-php"
+
+[[repo]]
+url = "https://github.com/brave-experiments/snark-benchmarks"
+
+[[repo]]
+url = "https://github.com/brave-experiments/SpeedReader"
+
+[[repo]]
+url = "https://github.com/brave-experiments/speedreader-paper-materials"
+
+[[repo]]
+url = "https://github.com/brave-experiments/speedreader-rust-ffi"
+
+[[repo]]
+url = "https://github.com/brave-experiments/speedreader-test-data"
+
+[[repo]]
+url = "https://github.com/brave-experiments/sps-eq"
+
+[[repo]]
+url = "https://github.com/brave-experiments/standards-positions"
+
+[[repo]]
+url = "https://github.com/brave-experiments/synchronicity"
+
+[[repo]]
+url = "https://github.com/brave-experiments/synthetix"
+
+[[repo]]
+url = "https://github.com/brave-experiments/test-org-workflows"
+
+[[repo]]
+url = "https://github.com/brave-experiments/themis"
+
+[[repo]]
+url = "https://github.com/brave-experiments/third-party-variations-tracker"
+
+[[repo]]
+url = "https://github.com/brave-experiments/tvm-public"
+
+[[repo]]
+url = "https://github.com/brave-experiments/vct"
+
+[[repo]]
+url = "https://github.com/brave-experiments/verify-enclave"
+
+[[repo]]
+url = "https://github.com/brave-experiments/vsock-experiments"
+
+[[repo]]
+url = "https://github.com/brave-experiments/vsock-pool-proxy"
+
+[[repo]]
+url = "https://github.com/brave-experiments/webcompat-measurement-pipeline"
+
+[[repo]]
+url = "https://github.com/brave-experiments/webui-boilerplate"
+
+[[repo]]
+url = "https://github.com/brave-experiments/whisper.cpp"
+
+[[repo]]
+url = "https://github.com/brave-experiments/wkwebview-content-blocker-tools"
+
+[[repo]]
+url = "https://github.com/brave-experiments/wordnet"
+
+[[repo]]
+url = "https://github.com/brave-experiments/workflows"
+
+[[repo]]
+url = "https://github.com/brave-experiments/zerotrace-experiments"
+
+[[repo]]
+url = "https://github.com/brave-experiments/zkopru"
+
+[[repo]]
+url = "https://github.com/brave-experiments/zkSENSE"
+
+[[repo]]
+url = "https://github.com/brave-experiments/zksync"
+
+[[repo]]
+url = "https://github.com/brave-experiments/ZoKrates"
 
 [[repo]]
 url = "https://github.com/brave/ab2cb"
@@ -212,6 +656,9 @@ url = "https://github.com/brave/constellation"
 url = "https://github.com/brave/constellation-processors"
 
 [[repo]]
+url = "https://github.com/brave/cookiemonster"
+
+[[repo]]
 url = "https://github.com/brave/country-reverse-geocoding"
 
 [[repo]]
@@ -377,6 +824,9 @@ url = "https://github.com/brave/inpage-provider"
 url = "https://github.com/brave/install-cmake"
 
 [[repo]]
+url = "https://github.com/brave/install.sh"
+
+[[repo]]
 url = "https://github.com/brave/ios-open-thirdparty-browser"
 
 [[repo]]
@@ -481,6 +931,7 @@ url = "https://github.com/brave/muon-winstaller"
 
 [[repo]]
 url = "https://github.com/brave/news-aggregator"
+missing = true
 
 [[repo]]
 url = "https://github.com/brave/nitriding"

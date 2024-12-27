@@ -1,13 +1,16 @@
 # Ecosystem Level Information
 title = "composability labs"
 
-sub_ecosystems = []
+sub_ecosystems = ["Swaylend"]
 
 github_organizations = ["https://github.com/compolabs"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/compolabs/bonding-contract"
+
+[[repo]]
+url = "https://github.com/compolabs/cl_sway_libs"
 
 [[repo]]
 url = "https://github.com/compolabs/fuel-indexer-tutorial"
@@ -17,6 +20,9 @@ url = "https://github.com/compolabs/fuel-token-standard"
 
 [[repo]]
 url = "https://github.com/compolabs/fuels-testing"
+
+[[repo]]
+url = "https://github.com/compolabs/fund_distributor"
 
 [[repo]]
 url = "https://github.com/compolabs/i64"
@@ -61,6 +67,9 @@ url = "https://github.com/compolabs/spark-apollo"
 url = "https://github.com/compolabs/spark-data-service"
 
 [[repo]]
+url = "https://github.com/compolabs/spark-defillama"
+
+[[repo]]
 url = "https://github.com/compolabs/spark-envio-indexer"
 
 [[repo]]
@@ -85,6 +94,9 @@ url = "https://github.com/compolabs/spark-matcher-rs"
 url = "https://github.com/compolabs/spark-matcher-simple"
 
 [[repo]]
+url = "https://github.com/compolabs/spark-matcher-worker"
+
+[[repo]]
 url = "https://github.com/compolabs/spark-middleware"
 
 [[repo]]
@@ -92,6 +104,9 @@ url = "https://github.com/compolabs/spark-miden-v1"
 
 [[repo]]
 url = "https://github.com/compolabs/spark-orderbook-ts-sdk"
+
+[[repo]]
+url = "https://github.com/compolabs/spark-pangea-adapter"
 
 [[repo]]
 url = "https://github.com/compolabs/spark-perpetual-ts-sdk"

@@ -1,13 +1,14 @@
 # Ecosystem Level Information
 title = "Zora"
 
-sub_ecosystems = ["DipDup", "LayerZero", "Reservoir Protocol", "Wagmi"]
+sub_ecosystems = ["Gnars Dao"]
 
 github_organizations = ["https://github.com/ourzora"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/kurokeme87/bridge-zora"
+missing = true
 
 [[repo]]
 url = "https://github.com/mutedSpectre/zora-soft"
@@ -194,6 +195,7 @@ url = "https://github.com/ourzora/pankegallery-show"
 
 [[repo]]
 url = "https://github.com/ourzora/permissionless.js"
+missing = true
 
 [[repo]]
 url = "https://github.com/ourzora/pipeline_test"
@@ -316,6 +318,9 @@ url = "https://github.com/ourzora/zora-network-subgraph"
 
 [[repo]]
 url = "https://github.com/ourzora/zora-protocol"
+
+[[repo]]
+url = "https://github.com/ourzora/zora-starter-app"
 
 [[repo]]
 url = "https://github.com/ourzora/zora-token-factory-deprecated-"

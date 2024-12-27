@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "BOB"
 
-sub_ecosystems = []
+sub_ecosystems = ["Ionic Protocol", "LayerBank", "SovrynBTC", "Tellor", "Velodrome"]
 
 github_organizations = ["https://github.com/bob-collective"]
 
@@ -17,6 +17,12 @@ url = "https://github.com/bob-collective/app-ethereum"
 
 [[repo]]
 url = "https://github.com/bob-collective/bitcoin-spv"
+
+[[repo]]
+url = "https://github.com/bob-collective/BitVM-playground"
+
+[[repo]]
+url = "https://github.com/bob-collective/BitVM-public"
 
 [[repo]]
 url = "https://github.com/bob-collective/bob"
@@ -57,6 +63,7 @@ url = "https://github.com/bob-collective/demo-meta-transactions-transfer"
 
 [[repo]]
 url = "https://github.com/bob-collective/demo-p2p-swap"
+missing = true
 
 [[repo]]
 url = "https://github.com/bob-collective/demo-unified-assets-tracker"
@@ -92,6 +99,9 @@ url = "https://github.com/bob-collective/optimism"
 url = "https://github.com/bob-collective/ord"
 
 [[repo]]
+url = "https://github.com/bob-collective/risc0"
+
+[[repo]]
 url = "https://github.com/bob-collective/sats-wagmi"
 
 [[repo]]
@@ -99,6 +109,10 @@ url = "https://github.com/bob-collective/StarterKit"
 
 [[repo]]
 url = "https://github.com/bob-collective/ui"
+missing = true
+
+[[repo]]
+url = "https://github.com/bob-collective/verifier-test"
 
 [[repo]]
 url = "https://github.com/ionicprotocol/monorepo"

@@ -2,9 +2,14 @@
 title = "Lightning"
 
 sub_ecosystems = [
+  "Ark Network",
+  "Cryptopower",
+  "Fedimint",
   "Lightspark",
+  "MostroP2P",
   "OmniLab",
   "P2P Derivatives",
+  "RGB Tools",
   "RGB Working Group",
   "Sparkswap",
   "Stakwork & Sphinx",
@@ -23,6 +28,8 @@ github_organizations = [
   "https://github.com/getumbrel",
   "https://github.com/Lightning-Family",
   "https://github.com/lightningdevkit",
+  "https://github.com/lightninglabs",
+  "https://github.com/lightningminers",
   "https://github.com/lightningnetwork",
   "https://github.com/LightningPeach",
   "https://github.com/lnbits",
@@ -416,6 +423,7 @@ url = "https://github.com/BoltzExchange/boltz-web-app"
 
 [[repo]]
 url = "https://github.com/BoltzExchange/btcpayserver-boltz"
+missing = true
 
 [[repo]]
 url = "https://github.com/BoltzExchange/canary"
@@ -431,6 +439,9 @@ url = "https://github.com/BoltzExchange/covclaim"
 
 [[repo]]
 url = "https://github.com/BoltzExchange/docs"
+
+[[repo]]
+url = "https://github.com/BoltzExchange/go-electrum"
 
 [[repo]]
 url = "https://github.com/BoltzExchange/hedgy"
@@ -976,6 +987,9 @@ url = "https://github.com/clams-tech/app-releases"
 missing = true
 
 [[repo]]
+url = "https://github.com/clams-tech/bolt12-decoder-app"
+
+[[repo]]
 url = "https://github.com/clams-tech/browser-app"
 
 [[repo]]
@@ -1253,6 +1267,9 @@ url = "https://github.com/GaloyMoney/Earn"
 url = "https://github.com/GaloyMoney/galoy"
 
 [[repo]]
+url = "https://github.com/GaloyMoney/galoy-charts"
+
+[[repo]]
 url = "https://github.com/GaloyMoney/galoy-cli"
 
 [[repo]]
@@ -1470,6 +1487,9 @@ url = "https://github.com/getAlby/eclair-with-plugins"
 url = "https://github.com/getAlby/electrs"
 
 [[repo]]
+url = "https://github.com/getAlby/exponent-server-sdk-golang"
+
+[[repo]]
 url = "https://github.com/getAlby/gcc-arm-linux-gnueabihf"
 
 [[repo]]
@@ -1504,6 +1524,9 @@ url = "https://github.com/getAlby/hub"
 
 [[repo]]
 url = "https://github.com/getAlby/hub-phoneixd-render-blueprint"
+
+[[repo]]
+url = "https://github.com/getAlby/hub-recovery"
 
 [[repo]]
 url = "https://github.com/getAlby/jim"
@@ -1618,6 +1641,7 @@ url = "https://github.com/getAlby/nostr-wallet-connect-next"
 
 [[repo]]
 url = "https://github.com/getAlby/nostr-wallet-connect-startos"
+missing = true
 
 [[repo]]
 url = "https://github.com/getAlby/npm-fund-ln"
@@ -1689,6 +1713,9 @@ url = "https://github.com/getAlby/user-research-repository"
 url = "https://github.com/getAlby/Vortex"
 
 [[repo]]
+url = "https://github.com/getAlby/vss-server"
+
+[[repo]]
 url = "https://github.com/getAlby/webln"
 
 [[repo]]
@@ -1717,6 +1744,7 @@ url = "https://github.com/getlipa/lipa-lightning-lib"
 
 [[repo]]
 url = "https://github.com/getmash/mash-js"
+missing = true
 
 [[repo]]
 url = "https://github.com/getmash/wordpress-mash-plugin"
@@ -1796,6 +1824,9 @@ url = "https://github.com/getumbrel/umbrel-dev"
 
 [[repo]]
 url = "https://github.com/getumbrel/umbrel-electrs"
+
+[[repo]]
+url = "https://github.com/getumbrel/umbrel-electrumx"
 
 [[repo]]
 url = "https://github.com/getumbrel/umbrel-frontail"
@@ -2096,7 +2127,37 @@ url = "https://github.com/lightningdevkit/vss-server"
 url = "https://github.com/lightningequipment/circuitbreaker"
 
 [[repo]]
+url = "https://github.com/lightninglabs/aezeedcheck"
+
+[[repo]]
 url = "https://github.com/lightninglabs/aperture"
+
+[[repo]]
+url = "https://github.com/lightninglabs/btclog"
+
+[[repo]]
+url = "https://github.com/lightninglabs/btcwallet"
+
+[[repo]]
+url = "https://github.com/lightninglabs/builders-guide-sample-app"
+
+[[repo]]
+url = "https://github.com/lightninglabs/chanleakcheck"
+
+[[repo]]
+url = "https://github.com/lightninglabs/chantools"
+
+[[repo]]
+url = "https://github.com/lightninglabs/docker-bitcoin-core"
+
+[[repo]]
+url = "https://github.com/lightninglabs/docs.lightning.engineering"
+
+[[repo]]
+url = "https://github.com/lightninglabs/dust-tool"
+
+[[repo]]
+url = "https://github.com/lightninglabs/etcd"
 
 [[repo]]
 url = "https://github.com/lightninglabs/falafel"
@@ -2105,11 +2166,32 @@ url = "https://github.com/lightninglabs/falafel"
 url = "https://github.com/lightninglabs/faraday"
 
 [[repo]]
+url = "https://github.com/lightninglabs/gh-actions"
+
+[[repo]]
+url = "https://github.com/lightninglabs/gozmq"
+
+[[repo]]
+url = "https://github.com/lightninglabs/L402"
+
+[[repo]]
+url = "https://github.com/lightninglabs/LangChainBitcoin"
+
+[[repo]]
+url = "https://github.com/lightninglabs/lightning-api"
+
+[[repo]]
+url = "https://github.com/lightninglabs/lightning-api-ng"
+
+[[repo]]
 url = "https://github.com/lightninglabs/lightning-app"
 tags = ["Wallet"]
 
 [[repo]]
 url = "https://github.com/lightninglabs/lightning-coindesk"
+
+[[repo]]
+url = "https://github.com/lightninglabs/lightning-dev-site"
 
 [[repo]]
 url = "https://github.com/lightninglabs/lightning-faucet"
@@ -2121,7 +2203,25 @@ url = "https://github.com/lightninglabs/lightning-node-connect"
 url = "https://github.com/lightninglabs/lightning-terminal"
 
 [[repo]]
+url = "https://github.com/lightninglabs/lightninglabs.github.io"
+
+[[repo]]
+url = "https://github.com/lightninglabs/lnc-core"
+
+[[repo]]
+url = "https://github.com/lightninglabs/lnc-rn"
+
+[[repo]]
+url = "https://github.com/lightninglabs/lnc-web"
+
+[[repo]]
+url = "https://github.com/lightninglabs/lnd-fuzz"
+
+[[repo]]
 url = "https://github.com/lightninglabs/lndclient"
+
+[[repo]]
+url = "https://github.com/lightninglabs/lndinit"
 
 [[repo]]
 url = "https://github.com/lightninglabs/lndmon"
@@ -2133,10 +2233,268 @@ url = "https://github.com/lightninglabs/loop"
 url = "https://github.com/lightninglabs/LSAT"
 
 [[repo]]
+url = "https://github.com/lightninglabs/lseed"
+
+[[repo]]
 url = "https://github.com/lightninglabs/neutrino"
 
 [[repo]]
 url = "https://github.com/lightninglabs/pool"
+
+[[repo]]
+url = "https://github.com/lightninglabs/pool-paper"
+
+[[repo]]
+url = "https://github.com/lightninglabs/protobuf-go-hex-display"
+
+[[repo]]
+url = "https://github.com/lightninglabs/protobuf-hex-display"
+
+[[repo]]
+url = "https://github.com/lightninglabs/taproot-assets"
+
+[[repo]]
+url = "https://github.com/lightningminers/2021Q2-hackathon"
+
+[[repo]]
+url = "https://github.com/lightningminers/ALIP"
+
+[[repo]]
+url = "https://github.com/lightningminers/arlocal"
+
+[[repo]]
+url = "https://github.com/lightningminers/article"
+
+[[repo]]
+url = "https://github.com/lightningminers/articles"
+
+[[repo]]
+url = "https://github.com/lightningminers/arweave-js"
+
+[[repo]]
+url = "https://github.com/lightningminers/atomic-arbitrage-bot"
+
+[[repo]]
+url = "https://github.com/lightningminers/awesome-indie"
+
+[[repo]]
+url = "https://github.com/lightningminers/Blockchain-dark-forest-selfguard-handbook"
+
+[[repo]]
+url = "https://github.com/lightningminers/brand-resources"
+
+[[repo]]
+url = "https://github.com/lightningminers/buildspace-cool-domains"
+
+[[repo]]
+url = "https://github.com/lightningminers/buildspace-dao-starter"
+
+[[repo]]
+url = "https://github.com/lightningminers/buildspace-nftcollection"
+
+[[repo]]
+url = "https://github.com/lightningminers/buildspace-nftgame"
+
+[[repo]]
+url = "https://github.com/lightningminers/buildspace-solana-gif-portal-starter"
+
+[[repo]]
+url = "https://github.com/lightningminers/buildspace-web3app"
+
+[[repo]]
+url = "https://github.com/lightningminers/chat-0-1-dingtalk"
+
+[[repo]]
+url = "https://github.com/lightningminers/chat-0-3-flutter"
+
+[[repo]]
+url = "https://github.com/lightningminers/chat-0-4-npm"
+
+[[repo]]
+url = "https://github.com/lightningminers/cheerful"
+
+[[repo]]
+url = "https://github.com/lightningminers/chrome-extension-book"
+
+[[repo]]
+url = "https://github.com/lightningminers/cm.logger"
+
+[[repo]]
+url = "https://github.com/lightningminers/CNCompanyReviews"
+
+[[repo]]
+url = "https://github.com/lightningminers/coinhive-mining"
+
+[[repo]]
+url = "https://github.com/lightningminers/credo"
+
+[[repo]]
+url = "https://github.com/lightningminers/defender-autotask-examples"
+
+[[repo]]
+url = "https://github.com/lightningminers/defi-minimal"
+
+[[repo]]
+url = "https://github.com/lightningminers/douban-shell-app"
+
+[[repo]]
+url = "https://github.com/lightningminers/downloadZIP"
+
+[[repo]]
+url = "https://github.com/lightningminers/EIPs"
+
+[[repo]]
+url = "https://github.com/lightningminers/electron-easy-ipc"
+
+[[repo]]
+url = "https://github.com/lightningminers/ens-claim-flashbot-example"
+
+[[repo]]
+url = "https://github.com/lightningminers/evmosjs"
+
+[[repo]]
+url = "https://github.com/lightningminers/farm-platfrom"
+
+[[repo]]
+url = "https://github.com/lightningminers/flutter-book"
+
+[[repo]]
+url = "https://github.com/lightningminers/flutter-book-demo"
+
+[[repo]]
+url = "https://github.com/lightningminers/flutter-dress"
+
+[[repo]]
+url = "https://github.com/lightningminers/flutter_daydart"
+
+[[repo]]
+url = "https://github.com/lightningminers/foundry"
+
+[[repo]]
+url = "https://github.com/lightningminers/glob-proxy"
+
+[[repo]]
+url = "https://github.com/lightningminers/go-dingtalk"
+
+[[repo]]
+url = "https://github.com/lightningminers/google-diff-match-patch"
+
+[[repo]]
+url = "https://github.com/lightningminers/hallelujahIM"
+
+[[repo]]
+url = "https://github.com/lightningminers/helios"
+
+[[repo]]
+url = "https://github.com/lightningminers/hybrid-app-unzip"
+
+[[repo]]
+url = "https://github.com/lightningminers/index-oa-template"
+
+[[repo]]
+url = "https://github.com/lightningminers/json-parser"
+
+[[repo]]
+url = "https://github.com/lightningminers/kodo"
+
+[[repo]]
+url = "https://github.com/lightningminers/learning-v8"
+
+[[repo]]
+url = "https://github.com/lightningminers/loseYourself"
+
+[[repo]]
+url = "https://github.com/lightningminers/market-maker"
+
+[[repo]]
+url = "https://github.com/lightningminers/mirror"
+
+[[repo]]
+url = "https://github.com/lightningminers/MissIMUI"
+
+[[repo]]
+url = "https://github.com/lightningminers/Mockingbird"
+
+[[repo]]
+url = "https://github.com/lightningminers/NFT-Tutorial"
+
+[[repo]]
+url = "https://github.com/lightningminers/openapi-nodejs-index-oa-template"
+
+[[repo]]
+url = "https://github.com/lightningminers/openzeppelin-contracts"
+
+[[repo]]
+url = "https://github.com/lightningminers/Planet"
+
+[[repo]]
+url = "https://github.com/lightningminers/plugins"
+
+[[repo]]
+url = "https://github.com/lightningminers/preact"
+
+[[repo]]
+url = "https://github.com/lightningminers/public-datasets"
+
+[[repo]]
+url = "https://github.com/lightningminers/react-clipboard-components"
+
+[[repo]]
+url = "https://github.com/lightningminers/react-easy-toast"
+
+[[repo]]
+url = "https://github.com/lightningminers/react-source-code-debug"
+
+[[repo]]
+url = "https://github.com/lightningminers/RSSAggregatorforWeb3"
+
+[[repo]]
+url = "https://github.com/lightningminers/scaffold-eth"
+
+[[repo]]
+url = "https://github.com/lightningminers/simple"
+
+[[repo]]
+url = "https://github.com/lightningminers/STNetWork"
+
+[[repo]]
+url = "https://github.com/lightningminers/sub-web"
+
+[[repo]]
+url = "https://github.com/lightningminers/treasure-rarity-extension"
+
+[[repo]]
+url = "https://github.com/lightningminers/TypeChain"
+
+[[repo]]
+url = "https://github.com/lightningminers/typescript-react-starter"
+
+[[repo]]
+url = "https://github.com/lightningminers/used"
+
+[[repo]]
+url = "https://github.com/lightningminers/v8"
+
+[[repo]]
+url = "https://github.com/lightningminers/virtual-dom"
+
+[[repo]]
+url = "https://github.com/lightningminers/vvoid-optimism"
+
+[[repo]]
+url = "https://github.com/lightningminers/wagmi"
+
+[[repo]]
+url = "https://github.com/lightningminers/website"
+
+[[repo]]
+url = "https://github.com/lightningminers/weekly"
+
+[[repo]]
+url = "https://github.com/lightningminers/weex-dingtalk"
+
+[[repo]]
+url = "https://github.com/lightningminers/zkp-merkle-airdrop-contracts"
 
 [[repo]]
 url = "https://github.com/lightningnetwork/lightning-onion"
@@ -2229,6 +2587,7 @@ url = "https://github.com/LightningPeach/watchtower"
 
 [[repo]]
 url = "https://github.com/LightningTipBot/LightningTipBot"
+missing = true
 
 [[repo]]
 url = "https://github.com/LN-Juggernaut/juggernaut-desktop"
@@ -2266,6 +2625,9 @@ tags = ["Wallet"]
 url = "https://github.com/LN-Zap/zap-iOS"
 
 [[repo]]
+url = "https://github.com/lnbits/ai-proxy"
+
+[[repo]]
 url = "https://github.com/lnbits/arduino-nostr"
 
 [[repo]]
@@ -2276,6 +2638,12 @@ url = "https://github.com/lnbits/bech32"
 
 [[repo]]
 url = "https://github.com/lnbits/bitcoinswitch"
+
+[[repo]]
+url = "https://github.com/lnbits/bitcoinswitch-extension"
+
+[[repo]]
+url = "https://github.com/lnbits/bitcoinswitch_extension"
 
 [[repo]]
 url = "https://github.com/lnbits/bleskomat"
@@ -2304,6 +2672,9 @@ url = "https://github.com/lnbits/cashu"
 [[repo]]
 url = "https://github.com/lnbits/cashu-extension"
 missing = true
+
+[[repo]]
+url = "https://github.com/lnbits/coinflip"
 
 [[repo]]
 url = "https://github.com/lnbits/Compiance"
@@ -2343,6 +2714,9 @@ url = "https://github.com/lnbits/faucet"
 
 [[repo]]
 url = "https://github.com/lnbits/fossa"
+
+[[repo]]
+url = "https://github.com/lnbits/fossa_extension"
 
 [[repo]]
 url = "https://github.com/lnbits/free-lnaddress-extension"
@@ -2438,6 +2812,9 @@ url = "https://github.com/lnbits/lndhub"
 
 [[repo]]
 url = "https://github.com/lnbits/lnpos"
+
+[[repo]]
+url = "https://github.com/lnbits/lnpos_extension"
 
 [[repo]]
 url = "https://github.com/lnbits/lnticket"
@@ -2560,6 +2937,9 @@ url = "https://github.com/lnbits/satsdice"
 
 [[repo]]
 url = "https://github.com/lnbits/satspay"
+
+[[repo]]
+url = "https://github.com/lnbits/satspot"
 
 [[repo]]
 url = "https://github.com/lnbits/scrub"
@@ -2982,6 +3362,9 @@ url = "https://github.com/nbd-wtf/nbd"
 url = "https://github.com/nbd-wtf/negentropy"
 
 [[repo]]
+url = "https://github.com/nbd-wtf/nostr-gadgets"
+
+[[repo]]
 url = "https://github.com/nbd-wtf/nostr-sdk"
 
 [[repo]]
@@ -3207,6 +3590,7 @@ url = "https://github.com/shocknet/Lightning.Pub"
 
 [[repo]]
 url = "https://github.com/shocknet/shock-common"
+missing = true
 
 [[repo]]
 url = "https://github.com/shocknet/wallet"
@@ -3709,6 +4093,9 @@ url = "https://github.com/Start9Labs/rust-musl-cross"
 url = "https://github.com/Start9Labs/rust-musl-cross-x86"
 
 [[repo]]
+url = "https://github.com/Start9Labs/rust-uci"
+
+[[repo]]
 url = "https://github.com/Start9Labs/sdk"
 
 [[repo]]
@@ -3773,6 +4160,9 @@ url = "https://github.com/Start9Labs/start9.com"
 
 [[repo]]
 url = "https://github.com/Start9Labs/startos-image-recipes"
+
+[[repo]]
+url = "https://github.com/Start9Labs/startwrt"
 
 [[repo]]
 url = "https://github.com/Start9Labs/synapse"

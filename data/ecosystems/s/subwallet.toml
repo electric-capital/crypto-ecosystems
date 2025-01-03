@@ -1,9 +1,9 @@
 # Ecosystem Level Information
 title = "SubWallet"
-
 sub_ecosystems = []
-
-github_organizations = ["https://github.com/Koniverse"]
+github_organizations = [
+  "https://github.com/Koniverse",
+]
 
 # Repositories
 [[repo]]
@@ -25,6 +25,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Koniverse/BookaStaticContent"
+
+[[repo]]
+url = "https://github.com/Koniverse/Chain-Abstraction-Hub-Map"
 
 [[repo]]
 url = "https://github.com/Koniverse/Content-Management"
@@ -129,6 +132,7 @@ url = "https://github.com/Koniverse/Playnation-Demos"
 
 [[repo]]
 url = "https://github.com/Koniverse/PlaynationAPI"
+missing = true
 
 [[repo]]
 url = "https://github.com/Koniverse/PlayNationBot"
@@ -267,3 +271,4 @@ url = "https://github.com/Koniverse/web3-onboard"
 [[repo]]
 url = "https://github.com/Koniverse/zeitgeist-foundation-landing"
 missing = true
+

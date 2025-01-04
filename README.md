@@ -169,7 +169,7 @@ github_organizations = ["https://github.com/EasyA-Tech"]
 title = "EasyA Community Wallet"
 
 # Required field number 2: List of associated GitHub organizations
-github_organizations = ["https://github.com/EasyA-Community-Wallet"]
+github_organizations = !!!["https://github.com/EasyA-Community-Wallet"]!!!
 ```
 12. Make your PR! ✅
 
@@ -189,7 +189,7 @@ github_organizations = ["https://github.com/EasyA-Tech"]
 ```
 So don't worry! You don't need to add every single repo if it's already part of an organization that's in the data set.
 
-To add a new organization, simply append its full GitHub URL to the list of organizations in the associated ecosystem. Let's take the example of adding an organization with the URL `https://github.com/EasyA-Community` as part of the `EasyA Chain` ecosystem. 
+To add a new organization, simply append its full GitHub URL to the list of organizations in the associated ecosystem. Let's take the example of adding an organization with the URL !!!`https://github.com/EasyA-Community`!!! as part of the `EasyA Chain` ecosystem. 
 
 You would follow these steps:
 
@@ -204,12 +204,12 @@ title = "EasyA Chain"
 
 github_organizations = ["https://github.com/EasyA-Tech"]
 ```
-6. Simply add your GitHub organization URL to the list. Here, ours is `https://github.com/EasyA-Community` so we'll add that: 
+6. Simply add your GitHub organization URL to the list. Here, ours is !!!`https://github.com/EasyA-Community`!!! so we'll add that: 
 
 ```toml
 title = "EasyA Chain"
 
-github_organizations = ["https://github.com/EasyA-Tech", "https://github.com/EasyA-Community"]
+github_organizations = ["https://github.com/EasyA-Tech", !!!"https://github.com/EasyA-Community"!!!]
 ```
 7. Make your PR! ✅
 
@@ -226,7 +226,7 @@ The types of projects that will commonly get added as individual repos are:
 
 Usually these will be repos created by the community (so not already accounted for under the ecosystem/sub-ecosystem GitHub organization). Use that as a rough heuristic here. If the repo you're adding is actually one of many repos all in the same ecosystem, and in fact the organization only contributes to that one ecosystem, then you should almost certainly be adding your organization instead.
 
-If you're happy that you should be adding this repo, then here's how to do it. Let's take the example of a community contributor with the GitHub handle `Platonicsocrates` who's created a helper library for the `EasyA Chain` but also contributes to other projects (so we shouldn't add their whole organization/profile). Their repo URL `https://github.com/platonicsocrates/easya-helpers`. 
+If you're happy that you should be adding this repo, then here's how to do it. Let's take the example of a community contributor with the GitHub handle `Platonicsocrates` who's created a helper library for the `EasyA Chain` but also contributes to other projects (so we shouldn't add their whole organization/profile). Their repo URL !!!`https://github.com/platonicsocrates/easya-helpers`!!!. 
 
 You would follow these steps to add it:
 
@@ -245,7 +245,7 @@ github_organizations = ["https://github.com/EasyA-Tech"]
 
 ```toml
 [[repo]]
-url = "https://github.com/platonicsocrates/easya-helpers" # Replace this URL with your repo url
+url = !!!"https://github.com/platonicsocrates/easya-helpers"!!! # Replace this URL with your repo url
 tags = [ "Library"] # This line is optional
 ```
 
@@ -255,12 +255,12 @@ If there are already other repos in the ecosystem, just add the above as new lin
 
 # Repo that's already been added
 [[repo]]
-url = "https://github.com/platonicsocrates/easya-js"
+url = !!!"https://github.com/platonicsocrates/easya-js"!!!
 tags = [ "Library"] 
 
 # Our new repo
 [[repo]]
-url = "https://github.com/platonicsocrates/easya-helpers" # Replace this URL with your repo url
+url = !!!"https://github.com/platonicsocrates/easya-helpers"!!! # Replace this URL with your repo url
 tags = [ "Library"] # This line is optional
 ```
 7. Make your PR! ✅

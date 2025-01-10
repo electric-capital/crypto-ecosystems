@@ -1,0 +1,31 @@
+name: Create 600 commits
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Git
+      run: |
+        git config --global user.name Jerem671
+        git config --global user.email w.jeremie@proton.me
+
+    - name: Make 600 commits
+      run: |
+        for i in {1..600}
+        do
+          echo "Modification $i" >> file-ach.txt
+          git add file-ach.txt
+          git commit -m "Commit numéro $i"
+        done
+
+    - name: Push changes
+      run: |
+        git push origin HEAD:main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

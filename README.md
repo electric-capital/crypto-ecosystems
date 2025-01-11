@@ -1,4 +1,3 @@
-
 **V1.2 UPDATE [2024]:** Read about the Crypto Ecosystems taxonomy's update to Version 1.2 [here](https://github.com/electric-capital/crypto-ecosystems/releases/tag/1.2).
 
 # Crypto Ecosystems
@@ -6,6 +5,18 @@
 [MIT license with attribution](https://github.com/electric-capital/crypto-ecosystems/blob/master/LICENSE)
 
 🌲 Crypto Ecosystems is a taxonomy for sharing data around open source blockchain, Web3, cryptocurrency, and decentralized ecosystems and tying them to GitHub organizations and code repositories. All of the ecosystems are specified in [TOML](https://github.com/toml-lang/toml) configuration files.
+
+## Table of Contents
+- [Overview](#crypto-ecosystems)
+- [How to Contribute](#how-to-contribute)
+  - [Via Pull Request](#option-1-opening-a-pull-request)
+  - [Via Form Submission](#option-2-complete-the-ecosystem-submission-form)
+- [Attribution Guidelines](#how-to-give-attribution-for-usage-of-the-electric-capital-crypto-ecosystems)
+- [Detailed Contribution Guide](#how-to-contribute-step-by-step-guide)
+  - [Adding New Ecosystem](#option-1-adding-a-new-ecosystem-eg-blockchain)
+  - [Adding Sub-ecosystem](#option-2-adding-a-new-sub-ecosystem)
+  - [Adding Repository](#option-3-adding-a-new-repo-or-organization)
+- [FAQ](#frequently-asked-questions)
 
 This repository is not complete, and hopefully it never is as there are new ecosystems and repositories created every day.
 
@@ -266,3 +277,17 @@ tags = [ "Library"] # This line is optional
 
 
 Thank you for contributing and for reading the contribution guide! ❤️
+
+## Frequently Asked Questions
+
+### Q: What is considered a valid ecosystem?
+A: An ecosystem can be any blockchain, protocol, platform or significant project in the crypto space that has multiple repositories or sub-projects associated with it.
+
+### Q: How are sub-ecosystems different from regular ecosystems?
+A: Sub-ecosystems are projects that are built on top of or are closely related to a parent ecosystem. For example, Lightning Network is a sub-ecosystem of Bitcoin.
+
+### Q: Can I add multiple organizations to one ecosystem?
+A: Yes, you can add as many relevant GitHub organizations as needed to an ecosystem. Just append them to the `github_organizations` list.
+
+### Q: What tags should I use for repositories?
+A: Common tags include: "Protocol", "Documentation", "Wallet", "Library", "Tools", "DeFi", "NFT", "Gaming". Choose tags that best describe the repository's purpose.

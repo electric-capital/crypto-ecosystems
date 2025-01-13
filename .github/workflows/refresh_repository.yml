@@ -1,0 +1,92 @@
+name: Refresh Upstream and Notify API
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day
+  push:
+    branches:
+      - master
+
+jobs:
+  monitor_changes:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out your forked repository
+      - name: Checkout Fork
+        uses: actions/checkout@v3
+        with:
+          # Ensures we can push back to the fork
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 2: Set Git identity
+      - name: Set Git Identity
+        run: |
+          git config --global user.email ""github-actions[bot]@users.noreply.github.com""
+          git config --global user.name "github-actions"
+
+      # Step 2: Add the upstream repository and fetch changes
+      - name: Set Upstream Repository
+        run: |
+          git remote add upstream https://github.com/electric-capital/crypto-ecosystems.git
+          git fetch upstream master
+
+      # Step 3: Find Changed TOML Files
+      - name: Find Changed TOML Files
+        id: changed_files
+        run: |
+          # Compare your fork with the upstream repository
+          CHANGED_FILES=$(git diff --name-only HEAD upstream/master | grep '\.toml$' || true)
+          FILES_JSON="[]"
+          echo "Changed TOML Files:"
+          echo "$CHANGED_FILES"
+
+          # Save the file list as a JSON array
+          if [[ -n "$CHANGED_FILES" ]]; then
+             FILES_JSON=$(echo "$CHANGED_FILES" | sed 's/^ *//; s/ *$//' | jq -R -s 'split("\n") | map(select(length > 0)) | @json' | tr -d '\n')
+          fi
+
+          echo "$FILES_JSON"
+          echo "files=$FILES_JSON" >> $GITHUB_OUTPUT
+
+      # Step 4: Call API with List of Changed Files
+      - name: Notify API
+        id: api_call
+        env:
+          API_URL: 	https://webhook.site/72dfba35-b3d1-4571-9dbc-21ab7c9413aa
+          API_KEY: "123"  # Securely store the API key in GitHub Secrets
+        run: |
+          echo '${{ steps.changed_files.outputs.files }}'
+          curl -X POST $API_URL \
+          -H "Content-Type: application/json" \
+          -H "Authorization: Bearer $API_KEY" \
+          -d '{
+            "repository": "${{ github.repository }}",
+            "pushed_by": "${{ github.actor }}",
+            "changed_files": '${{ steps.changed_files.outputs.files }}'
+          }' \
+          -o response.json \
+          -w "%{http_code}" > status_code
+
+          HTTP_CODE=$(cat status_code)
+          echo "HTTP_CODE: $HTTP_CODE"
+          
+          if [[ "$HTTP_CODE" -ge 200 && "$HTTP_CODE" -lt 300 ]]; then
+            echo "success=true" >> $GITHUB_OUTPUT
+          else
+            echo "API call failed with status $HTTP_CODE"
+            echo "success=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+          # Step 5: Sync Fork's Master Branch with Upstream (conditionally)
+
+      - name: Sync Fork with Upstream
+        if: steps.api_call.outputs.success == 'true' # Only run if the API call was successful
+        run: |
+          # Merge upstream/master into the current branch
+          git checkout master
+          git merge upstream/master --allow-unrelated-histories --no-edit
+
+
+          # Push the updated branch back to the fork
+          git push origin master

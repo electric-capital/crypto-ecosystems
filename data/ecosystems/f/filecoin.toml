@@ -3,12 +3,16 @@ title = "Filecoin"
 
 sub_ecosystems = [
   "Application Research Group",
+  "Bacalhau",
+  "Banyan Network",
   "Bifrost",
   "Collectif DAO",
   "Filmine",
   "Glif",
   "InterPlanetary Consensus",
   "NFT Storage",
+  "Protocol Labs",
+  "Secured Finance",
   "Slate Engineering Services",
   "STFIL",
   "Tableland",
@@ -26,13 +30,10 @@ github_organizations = [
   "https://github.com/Aletheia-Data",
   "https://github.com/anwen",
   "https://github.com/arockpool",
-  "https://github.com/banyancomputer",
   "https://github.com/Barmanjoke",
   "https://github.com/bifrost-finance",
   "https://github.com/blockrockettech",
   "https://github.com/Breakthrough-Labs",
-  "https://github.com/ceramicnetwork",
-  "https://github.com/chainstack",
   "https://github.com/collective-dao",
   "https://github.com/CrossChainLabs",
   "https://github.com/cruzocards",
@@ -80,8 +81,6 @@ github_organizations = [
   "https://github.com/kotalco",
   "https://github.com/l2labs",
   "https://github.com/labdao",
-  "https://github.com/lurk-lab",
-  "https://github.com/LYNC-WORLD",
   "https://github.com/LYNX-Technologies",
   "https://github.com/merklebot",
   "https://github.com/MetaDexa",
@@ -93,7 +92,6 @@ github_organizations = [
   "https://github.com/Monas-project",
   "https://github.com/monaverse",
   "https://github.com/Nature-to-Earn",
-  "https://github.com/nbltrust",
   "https://github.com/nebulaai",
   "https://github.com/NomadHouse",
   "https://github.com/open-rpc",
@@ -110,9 +108,7 @@ github_organizations = [
   "https://github.com/SamaNetwork",
   "https://github.com/samepage-network",
   "https://github.com/SAONetwork",
-  "https://github.com/Secured-Finance",
   "https://github.com/SHA256-SharpShark",
-  "https://github.com/SolarFi",
   "https://github.com/Solarzu-BNPL",
   "https://github.com/Splash-Org",
   "https://github.com/St3mz-dApp",
@@ -122,8 +118,6 @@ github_organizations = [
   "https://github.com/Volaverse",
   "https://github.com/w3b3d3v",
   "https://github.com/xfinite-io",
-  "https://github.com/Zeeve-App",
-  "https://github.com/Zondax",
 ]
 
 # Repositories
@@ -184,9 +178,6 @@ missing = true
 [[repo]]
 url = "https://github.com/0xLe0x/deCert"
 missing = true
-
-[[repo]]
-url = "https://github.com/0xpolarzero/chainlink-fall-2022-hackathon"
 
 [[repo]]
 url = "https://github.com/0xPr0f/NFT-lounge-web"
@@ -2705,9 +2696,6 @@ url = "https://github.com/ceramicnetwork/research"
 missing = true
 
 [[repo]]
-url = "https://github.com/ceramicnetwork/rust-ceramic"
-
-[[repo]]
 url = "https://github.com/ceramicnetwork/rust-dag-jose"
 
 [[repo]]
@@ -2733,366 +2721,6 @@ url = "https://github.com/ChainSafe/forest"
 
 [[repo]]
 url = "https://github.com/ChainSafe/ui-monorepo"
-
-[[repo]]
-url = "https://github.com/chainstack/apeworx-ape-chainstack-tutorial"
-missing = true
-
-[[repo]]
-url = "https://github.com/chainstack/apeworx-chainstack-plugin"
-
-[[repo]]
-url = "https://github.com/chainstack/api_monitoring_stats"
-
-[[repo]]
-url = "https://github.com/chainstack/arweave-ds-app"
-
-[[repo]]
-url = "https://github.com/chainstack/avalanche-subnets-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/awesome-corda"
-
-[[repo]]
-url = "https://github.com/chainstack/base-node"
-
-[[repo]]
-url = "https://github.com/chainstack/bdn-benchmarking"
-
-[[repo]]
-url = "https://github.com/chainstack/bitcoincli"
-
-[[repo]]
-url = "https://github.com/chainstack/blockchain-bridge-simplified"
-
-[[repo]]
-url = "https://github.com/chainstack/bor"
-
-[[repo]]
-url = "https://github.com/chainstack/bsc-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/bsc-erigon"
-
-[[repo]]
-url = "https://github.com/chainstack/bsc-erigon-cs"
-
-[[repo]]
-url = "https://github.com/chainstack/bsc-erigon-node-real"
-missing = true
-
-[[repo]]
-url = "https://github.com/chainstack/chainlink-feeds-with-foundry"
-
-[[repo]]
-url = "https://github.com/chainstack/chainstack-full-vs-archive-query-js"
-
-[[repo]]
-url = "https://github.com/chainstack/corda-bootcamp-auction-cordapp"
-
-[[repo]]
-url = "https://github.com/chainstack/corda-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/corda-shell-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/cronos-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/cronos-docker-v2"
-missing = true
-
-[[repo]]
-url = "https://github.com/chainstack/debug-trace-transactions-Erigon-webapp"
-
-[[repo]]
-url = "https://github.com/chainstack/deploy-cairo-contract-on-starknet"
-
-[[repo]]
-url = "https://github.com/chainstack/deterministic-contract-deployment"
-
-[[repo]]
-url = "https://github.com/chainstack/developer-hub-content"
-
-[[repo]]
-url = "https://github.com/chainstack/dj-stripe"
-
-[[repo]]
-url = "https://github.com/chainstack/docs"
-
-[[repo]]
-url = "https://github.com/chainstack/eks-nvme-ssd-provisioner"
-
-[[repo]]
-url = "https://github.com/chainstack/electrs-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/erigon"
-
-[[repo]]
-url = "https://github.com/chainstack/erigon-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/Erigon-eth_getBlockReceipts-guide"
-
-[[repo]]
-url = "https://github.com/chainstack/erigon-lib"
-
-[[repo]]
-url = "https://github.com/chainstack/erigon-polygon"
-missing = true
-
-[[repo]]
-url = "https://github.com/chainstack/erigon-polygon-cs"
-missing = true
-
-[[repo]]
-url = "https://github.com/chainstack/erigon-polygon-docker"
-missing = true
-
-[[repo]]
-url = "https://github.com/chainstack/erigon-snapshot"
-
-[[repo]]
-url = "https://github.com/chainstack/eth-proxy"
-
-[[repo]]
-url = "https://github.com/chainstack/ethereum-certificates-tutorial"
-
-[[repo]]
-url = "https://github.com/chainstack/ethereum-token-balances"
-
-[[repo]]
-url = "https://github.com/chainstack/evm-dashboard"
-
-[[repo]]
-url = "https://github.com/chainstack/evm-mempool-python-guide"
-
-[[repo]]
-url = "https://github.com/chainstack/fabric-bootcamp-chaincode"
-
-[[repo]]
-url = "https://github.com/chainstack/fabric-sdk-py"
-missing = true
-
-[[repo]]
-url = "https://github.com/chainstack/fantom-opera-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/fantom-sonic-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/foundry-vs-hardhat"
-
-[[repo]]
-url = "https://github.com/chainstack/freedom-dividend-chaincode"
-
-[[repo]]
-url = "https://github.com/chainstack/fvm-calibration-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/fvm-hyperspace-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/fvm-mainnet-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/gcp-quota-exporter"
-
-[[repo]]
-url = "https://github.com/chainstack/graph-cli"
-
-[[repo]]
-url = "https://github.com/chainstack/graph-deployment"
-
-[[repo]]
-url = "https://github.com/chainstack/graph-node"
-
-[[repo]]
-url = "https://github.com/chainstack/harmony-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/hello-block-corda"
-
-[[repo]]
-url = "https://github.com/chainstack/hello-block-hyperledger-fabric"
-
-[[repo]]
-url = "https://github.com/chainstack/hello-block-quorum"
-
-[[repo]]
-url = "https://github.com/chainstack/hlf-config-inspector"
-
-[[repo]]
-url = "https://github.com/chainstack/hlf-explorer"
-
-[[repo]]
-url = "https://github.com/chainstack/infra-runbooks"
-
-[[repo]]
-url = "https://github.com/chainstack/interfaces"
-
-[[repo]]
-url = "https://github.com/chainstack/ipfs-go-ds-storj"
-
-[[repo]]
-url = "https://github.com/chainstack/k8s-ingress-nginx"
-
-[[repo]]
-url = "https://github.com/chainstack/keycloak-event-listener-pubsub"
-
-[[repo]]
-url = "https://github.com/chainstack/learn-an-enterprise-blockchain-protocol"
-
-[[repo]]
-url = "https://github.com/chainstack/learnweb3dao-foundry-workshop"
-
-[[repo]]
-url = "https://github.com/chainstack/log"
-
-[[repo]]
-url = "https://github.com/chainstack/mev-geth"
-
-[[repo]]
-url = "https://github.com/chainstack/mev-geth-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/multichain-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/multichain-explorer"
-
-[[repo]]
-url = "https://github.com/chainstack/multichain-explorer-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/multichaincli"
-
-[[repo]]
-url = "https://github.com/chainstack/near-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/nethermind-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/ngx_http_websocket_stat_module"
-
-[[repo]]
-url = "https://github.com/chainstack/no-ticket-scalping-cordapp"
-
-[[repo]]
-url = "https://github.com/chainstack/node-lympic"
-
-[[repo]]
-url = "https://github.com/chainstack/op-erigon"
-
-[[repo]]
-url = "https://github.com/chainstack/op-erigon-docker"
-missing = true
-
-[[repo]]
-url = "https://github.com/chainstack/postgres-exporter-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/procedural-nft-generator"
-
-[[repo]]
-url = "https://github.com/chainstack/programmatic-nft-minter"
-
-[[repo]]
-url = "https://github.com/chainstack/quorum-docker"
-missing = true
-
-[[repo]]
-url = "https://github.com/chainstack/quorum-explorer"
-missing = true
-
-[[repo]]
-url = "https://github.com/chainstack/quorum-in-minutes-showcase"
-
-[[repo]]
-url = "https://github.com/chainstack/quorum-iot-tutorial"
-
-[[repo]]
-url = "https://github.com/chainstack/quorum-loyalty-program-tutorial"
-
-[[repo]]
-url = "https://github.com/chainstack/quorum-proxy"
-
-[[repo]]
-url = "https://github.com/chainstack/quorum-toolbox"
-
-[[repo]]
-url = "https://github.com/chainstack/secp256k1"
-
-[[repo]]
-url = "https://github.com/chainstack/sf-ethereum"
-
-[[repo]]
-url = "https://github.com/chainstack/solana-candy-machine-observer"
-
-[[repo]]
-url = "https://github.com/chainstack/solana-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/solana-exporter"
-
-[[repo]]
-url = "https://github.com/chainstack/solana-metaplex-nft-metadata-decoder"
-
-[[repo]]
-url = "https://github.com/chainstack/solana-rpc-ruby"
-
-[[repo]]
-url = "https://github.com/chainstack/solana-snapshot-finder"
-
-[[repo]]
-url = "https://github.com/chainstack/solana-stepn-analysis"
-
-[[repo]]
-url = "https://github.com/chainstack/starknet-cairo-odyssey"
-
-[[repo]]
-url = "https://github.com/chainstack/starknet-graph-node"
-
-[[repo]]
-url = "https://github.com/chainstack/strimzi-kafka-connect"
-
-[[repo]]
-url = "https://github.com/chainstack/tezos-chart"
-
-[[repo]]
-url = "https://github.com/chainstack/tezos-grafana"
-
-[[repo]]
-url = "https://github.com/chainstack/token-balance-ultimate"
-
-[[repo]]
-url = "https://github.com/chainstack/trackerslist"
-
-[[repo]]
-url = "https://github.com/chainstack/tx-propagation-benchmarking"
-missing = true
-
-[[repo]]
-url = "https://github.com/chainstack/wazuh-agent-docker"
-
-[[repo]]
-url = "https://github.com/chainstack/web3j-getLatestBlock"
-
-[[repo]]
-url = "https://github.com/chainstack/web3quorum"
-
-[[repo]]
-url = "https://github.com/chainstack/web3quorumUpd"
-missing = true
-
-[[repo]]
-url = "https://github.com/chainstack/x509-certificate-exporter"
-
-[[repo]]
-url = "https://github.com/chainstack/zfs-auto-snapshot"
 
 [[repo]]
 url = "https://github.com/chaitanyasjoshi/spaceswap"
@@ -3840,6 +3468,7 @@ url = "https://github.com/diegotorreslopez81/nftschool"
 
 [[repo]]
 url = "https://github.com/Digible/contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/Digital-Artifacts/demo.vault"
@@ -4238,6 +3867,9 @@ url = "https://github.com/endowl/opolis-api"
 url = "https://github.com/enso-collective/dashboard"
 
 [[repo]]
+url = "https://github.com/enso-collective/eas-hats-superfluid-contracts"
+
+[[repo]]
 url = "https://github.com/enso-collective/eas-platform"
 
 [[repo]]
@@ -4252,6 +3884,9 @@ url = "https://github.com/enso-collective/lens-server"
 
 [[repo]]
 url = "https://github.com/enso-collective/mint-proofof"
+
+[[repo]]
+url = "https://github.com/enso-collective/proofof-backend"
 
 [[repo]]
 url = "https://github.com/enso-collective/proofof-bot-twitter"
@@ -7322,6 +6957,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/huangyingting/go-filecoin"
+missing = true
 
 [[repo]]
 url = "https://github.com/hueyl77/moralis-legitimize"
@@ -7596,8 +7232,17 @@ url = "https://github.com/ipfs-force-community/filecoin-ffi"
 url = "https://github.com/ipfs-force-community/FilecoinDesign-Implementations"
 
 [[repo]]
+url = "https://github.com/ipfs-force-community/filscan"
+
+[[repo]]
 url = "https://github.com/ipfs-force-community/filscan-backend"
 missing = true
+
+[[repo]]
+url = "https://github.com/ipfs-force-community/filscan-frontend"
+
+[[repo]]
+url = "https://github.com/ipfs-force-community/filscan_backend"
 
 [[repo]]
 url = "https://github.com/ipfs-force-community/fjrpc"
@@ -7960,6 +7605,9 @@ url = "https://github.com/Itheum/devgrants"
 
 [[repo]]
 url = "https://github.com/Itheum/docs.itheum"
+
+[[repo]]
+url = "https://github.com/Itheum/eliza"
 
 [[repo]]
 url = "https://github.com/Itheum/elrond-converters"
@@ -8458,9 +8106,11 @@ url = "https://github.com/kaifoundry/ethereum-kaios-wallet"
 
 [[repo]]
 url = "https://github.com/kaifoundry/mini-app-frontend"
+missing = true
 
 [[repo]]
 url = "https://github.com/kaifoundry/mini-app-node"
+missing = true
 
 [[repo]]
 url = "https://github.com/kaifoundry/secp256k1"
@@ -8545,6 +8195,9 @@ url = "https://github.com/kamu-data/kamu-cli"
 
 [[repo]]
 url = "https://github.com/kamu-data/kamu-cli-rust"
+
+[[repo]]
+url = "https://github.com/kamu-data/kamu-client-python"
 
 [[repo]]
 url = "https://github.com/kamu-data/kamu-contracts"
@@ -9510,361 +9163,6 @@ url = "https://github.com/luogang7/filecoin-lotus-1.11.2"
 url = "https://github.com/Lurgia9072/to-share"
 
 [[repo]]
-url = "https://github.com/lurk-lab/.github"
-
-[[repo]]
-url = "https://github.com/lurk-lab/abomonation"
-missing = true
-
-[[repo]]
-url = "https://github.com/lurk-lab/abomonation_derive"
-
-[[repo]]
-url = "https://github.com/lurk-lab/aptos-core"
-
-[[repo]]
-url = "https://github.com/lurk-lab/arecibo"
-
-[[repo]]
-url = "https://github.com/lurk-lab/awesome-blockchain-rust"
-
-[[repo]]
-url = "https://github.com/lurk-lab/awesome-folding"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Bellanova.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/bellpepper"
-
-[[repo]]
-url = "https://github.com/lurk-lab/bellpepper-gadgets"
-
-[[repo]]
-url = "https://github.com/lurk-lab/bellperson"
-
-[[repo]]
-url = "https://github.com/lurk-lab/bellperson-nonnative"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Blake3.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/bls12_381"
-
-[[repo]]
-url = "https://github.com/lurk-lab/blst"
-
-[[repo]]
-url = "https://github.com/lurk-lab/blstrs"
-
-[[repo]]
-url = "https://github.com/lurk-lab/bytecursor"
-
-[[repo]]
-url = "https://github.com/lurk-lab/cedille-core-rs"
-
-[[repo]]
-url = "https://github.com/lurk-lab/ci-lab"
-
-[[repo]]
-url = "https://github.com/lurk-lab/ci-workflows"
-
-[[repo]]
-url = "https://github.com/lurk-lab/cid"
-
-[[repo]]
-url = "https://github.com/lurk-lab/circom-scotia"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Cli.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/collaborations"
-
-[[repo]]
-url = "https://github.com/lurk-lab/ec-gpu"
-
-[[repo]]
-url = "https://github.com/lurk-lab/electrolysis"
-
-[[repo]]
-url = "https://github.com/lurk-lab/elsa"
-
-[[repo]]
-url = "https://github.com/lurk-lab/ff"
-
-[[repo]]
-url = "https://github.com/lurk-lab/FFaCiL.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/fut-ff"
-
-[[repo]]
-url = "https://github.com/lurk-lab/gh-actions-runner"
-
-[[repo]]
-url = "https://github.com/lurk-lab/github-actions-runner-cuda"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Grant-Milestone-Delivery"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Graph.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/grin"
-
-[[repo]]
-url = "https://github.com/lurk-lab/grumpkin-msm"
-
-[[repo]]
-url = "https://github.com/lurk-lab/halo2curves"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Http.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/ingonyama-grumpkin-msm"
-
-[[repo]]
-url = "https://github.com/lurk-lab/introit"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Ipld.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/keccak-circom-gadget"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lake"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lean2risc"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lean2zkvm"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lean4"
-
-[[repo]]
-url = "https://github.com/lurk-lab/libipld"
-
-[[repo]]
-url = "https://github.com/lurk-lab/LightData"
-
-[[repo]]
-url = "https://github.com/lurk-lab/LSpec"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lunatic"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lurk-emacs"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lurk-hs"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lurk-lab.com"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lurk-lib"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lurk-lisp"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lurk-parse"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lurk-rs"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lurk-vscode"
-
-[[repo]]
-url = "https://github.com/lurk-lab/lurk-web-utils"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Lurk.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/LurkFF.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/mathlib4"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Megaparsec.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/melpa"
-
-[[repo]]
-url = "https://github.com/lurk-lab/naersk"
-
-[[repo]]
-url = "https://github.com/lurk-lab/neptune"
-
-[[repo]]
-url = "https://github.com/lurk-lab/neptune-triton"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Neptune.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/nix-utils"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Nova"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Nova.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Open-Grants-Program"
-
-[[repo]]
-url = "https://github.com/lurk-lab/OpenGL.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/OpenSSL.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Parsec.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/pasta-msm"
-
-[[repo]]
-url = "https://github.com/lurk-lab/pasta_curves"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Plonky3"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Poseidon.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/printiest"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Radiya.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/radiya.rs"
-
-[[repo]]
-url = "https://github.com/lurk-lab/ribbot"
-
-[[repo]]
-url = "https://github.com/lurk-lab/rust-cache"
-
-[[repo]]
-url = "https://github.com/lurk-lab/rust-cid"
-
-[[repo]]
-url = "https://github.com/lurk-lab/rust-gpu-tools"
-
-[[repo]]
-url = "https://github.com/lurk-lab/rust-in-blockchain"
-
-[[repo]]
-url = "https://github.com/lurk-lab/RustFFI.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/rustyline"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Serde.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Socket.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/solidity-verifier"
-
-[[repo]]
-url = "https://github.com/lurk-lab/sp-cid"
-
-[[repo]]
-url = "https://github.com/lurk-lab/sp-im"
-
-[[repo]]
-url = "https://github.com/lurk-lab/sp-ipld"
-
-[[repo]]
-url = "https://github.com/lurk-lab/sp-multihash"
-
-[[repo]]
-url = "https://github.com/lurk-lab/sp-ropey"
-
-[[repo]]
-url = "https://github.com/lurk-lab/sp-sized-chunks"
-
-[[repo]]
-url = "https://github.com/lurk-lab/sp1"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Spark.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/specs"
-
-[[repo]]
-url = "https://github.com/lurk-lab/sppark"
-
-[[repo]]
-url = "https://github.com/lurk-lab/straume"
-
-[[repo]]
-url = "https://github.com/lurk-lab/substrate-front-end-template"
-
-[[repo]]
-url = "https://github.com/lurk-lab/substrate-node-template"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Sudoku.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/template-circom-gadget"
-
-[[repo]]
-url = "https://github.com/lurk-lab/template-rust-lib"
-
-[[repo]]
-url = "https://github.com/lurk-lab/test-pallet"
-
-[[repo]]
-url = "https://github.com/lurk-lab/user-manual"
-
-[[repo]]
-url = "https://github.com/lurk-lab/valus"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Vero"
-
-[[repo]]
-url = "https://github.com/lurk-lab/Wasm.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/yatima"
-
-[[repo]]
-url = "https://github.com/lurk-lab/yatima-lang-alpha"
-
-[[repo]]
-url = "https://github.com/lurk-lab/yatima-lang-proto"
-
-[[repo]]
-url = "https://github.com/lurk-lab/YatimaStdLib.lean"
-
-[[repo]]
-url = "https://github.com/lurk-lab/ZKSnark.lean"
-
-[[repo]]
 url = "https://github.com/Luzhenyan/filecoin-project"
 missing = true
 
@@ -9885,48 +9183,6 @@ url = "https://github.com/LyiZri/sd-cloud"
 [[repo]]
 url = "https://github.com/LyleRowe/web4"
 missing = true
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/EIPs"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/Fuel-Unity-SDK"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/LYNC-NFT-Fetcher"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/LYNC-Unity-AA"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/LYNC-Unity-AA-WebGL"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/LYNC-Unity-Aptos-SDK"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/LYNC-Unity-Movement-SDK"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/Metamask-SDK-NPM"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/Metamask-Unity-PC-SDK"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/Metamask-Unity-Wallet-SDK"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/Metamask-Unity-WebGL-SDK"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/NFT-Collection-dApp-Template"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/OKX-Unity-Wallet-SDK"
-
-[[repo]]
-url = "https://github.com/LYNC-WORLD/spheron-sdk"
 
 [[repo]]
 url = "https://github.com/LYNX-Technologies/market"
@@ -10423,6 +9679,9 @@ url = "https://github.com/metagov/govbase"
 url = "https://github.com/metagov/govbase-website"
 
 [[repo]]
+url = "https://github.com/metagov/governance"
+
+[[repo]]
 url = "https://github.com/metagov/governance-archaeology"
 
 [[repo]]
@@ -10436,6 +9695,9 @@ url = "https://github.com/metagov/interop"
 
 [[repo]]
 url = "https://github.com/metagov/kms-tools"
+
+[[repo]]
+url = "https://github.com/metagov/koi-obsidian-plugin"
 
 [[repo]]
 url = "https://github.com/metagov/lodestarFi-Members-URI"
@@ -10912,180 +10174,6 @@ url = "https://github.com/Navya32/Court.FIL"
 
 [[repo]]
 url = "https://github.com/Navya32/e-nyay-temp"
-
-[[repo]]
-url = "https://github.com/nbltrust/dart-btc-transaction-codec"
-
-[[repo]]
-url = "https://github.com/nbltrust/dart-cfx-transaction-codec"
-
-[[repo]]
-url = "https://github.com/nbltrust/dart-cosmos-transaction-codec"
-
-[[repo]]
-url = "https://github.com/nbltrust/dart-eth-abi-codec"
-
-[[repo]]
-url = "https://github.com/nbltrust/dart-eth-transaction-codec"
-
-[[repo]]
-url = "https://github.com/nbltrust/dart-fil-transaction-codec"
-
-[[repo]]
-url = "https://github.com/nbltrust/dart-platon-transaction-codec"
-
-[[repo]]
-url = "https://github.com/nbltrust/dart-ristretto255"
-
-[[repo]]
-url = "https://github.com/nbltrust/dart-scale-codec"
-
-[[repo]]
-url = "https://github.com/nbltrust/dart-substrate-transaction-codec"
-
-[[repo]]
-url = "https://github.com/nbltrust/dart-tron-transaction-codec"
-
-[[repo]]
-url = "https://github.com/nbltrust/dart-wallet-connect"
-
-[[repo]]
-url = "https://github.com/nbltrust/devgrants"
-missing = true
-
-[[repo]]
-url = "https://github.com/nbltrust/dio_certificate_verify"
-
-[[repo]]
-url = "https://github.com/nbltrust/element"
-
-[[repo]]
-url = "https://github.com/nbltrust/eos-ios-core-cpp"
-missing = true
-
-[[repo]]
-url = "https://github.com/nbltrust/filecoin-signing-tools"
-
-[[repo]]
-url = "https://github.com/nbltrust/flutter-web3-provider"
-
-[[repo]]
-url = "https://github.com/nbltrust/flutter_dong_scan"
-
-[[repo]]
-url = "https://github.com/nbltrust/gemma-android"
-missing = true
-
-[[repo]]
-url = "https://github.com/nbltrust/gemma-ios"
-missing = true
-
-[[repo]]
-url = "https://github.com/nbltrust/Gemma-iOS-Common"
-
-[[repo]]
-url = "https://github.com/nbltrust/Gemma-iOS-EOS"
-
-[[repo]]
-url = "https://github.com/nbltrust/Gemma-iOS-ETH"
-
-[[repo]]
-url = "https://github.com/nbltrust/gemma-ios-lib-spec"
-missing = true
-
-[[repo]]
-url = "https://github.com/nbltrust/Gemma-iOS-Main"
-missing = true
-
-[[repo]]
-url = "https://github.com/nbltrust/gocryptotrader"
-
-[[repo]]
-url = "https://github.com/nbltrust/Grant-Milestone-Delivery"
-
-[[repo]]
-url = "https://github.com/nbltrust/hashkey-custody-api-docs"
-
-[[repo]]
-url = "https://github.com/nbltrust/hashkey-custody-sdk-go"
-
-[[repo]]
-url = "https://github.com/nbltrust/hashkey-custody-sdk-nodejs"
-
-[[repo]]
-url = "https://github.com/nbltrust/hashkey_xpert_resources"
-
-[[repo]]
-url = "https://github.com/nbltrust/intro-of-jadewallet"
-
-[[repo]]
-url = "https://github.com/nbltrust/jade-wallet-eth2.0-staking-singer-agent"
-
-[[repo]]
-url = "https://github.com/nbltrust/jadepool-docker"
-
-[[repo]]
-url = "https://github.com/nbltrust/jadepool-docker-fundamental"
-
-[[repo]]
-url = "https://github.com/nbltrust/jadepool-hub-api-docs"
-
-[[repo]]
-url = "https://github.com/nbltrust/jadepool-hub-ecc-java"
-
-[[repo]]
-url = "https://github.com/nbltrust/jadepool-hub-sdk-java"
-
-[[repo]]
-url = "https://github.com/nbltrust/jadepool-hub-sdk-nodejs"
-
-[[repo]]
-url = "https://github.com/nbltrust/jadepool-hub-tech-docs"
-
-[[repo]]
-url = "https://github.com/nbltrust/jadepool-saas-sdk-java"
-
-[[repo]]
-url = "https://github.com/nbltrust/jadepool-sdk-go"
-
-[[repo]]
-url = "https://github.com/nbltrust/jadewallet-config"
-
-[[repo]]
-url = "https://github.com/nbltrust/multicall"
-missing = true
-
-[[repo]]
-url = "https://github.com/nbltrust/nodejs-mobile"
-
-[[repo]]
-url = "https://github.com/nbltrust/Open-Grants-Program"
-
-[[repo]]
-url = "https://github.com/nbltrust/passport-local-mongoose"
-
-[[repo]]
-url = "https://github.com/nbltrust/rust-crypto"
-
-[[repo]]
-url = "https://github.com/nbltrust/saas-doc"
-
-[[repo]]
-url = "https://github.com/nbltrust/seed39-ios-golang"
-missing = true
-
-[[repo]]
-url = "https://github.com/nbltrust/staking-deposit-cli"
-
-[[repo]]
-url = "https://github.com/nbltrust/threshold-signature-lib"
-missing = true
-
-[[repo]]
-url = "https://github.com/nbltrust/tokenprice-rate"
-
-[[repo]]
-url = "https://github.com/nbltrust/walletconnect-website"
 
 [[repo]]
 url = "https://github.com/ndkirillov/filecoin_hackfs"
@@ -12032,6 +11120,9 @@ url = "https://github.com/p2p-org/cosmos-evm-exporter"
 url = "https://github.com/p2p-org/cosmos-heighliner"
 
 [[repo]]
+url = "https://github.com/p2p-org/cosmos-helm-charts"
+
+[[repo]]
 url = "https://github.com/p2p-org/cosmos-sdk"
 
 [[repo]]
@@ -12304,6 +11395,9 @@ url = "https://github.com/p2p-org/mbelt-polkadot-streamer"
 url = "https://github.com/p2p-org/meter-wallet"
 
 [[repo]]
+url = "https://github.com/p2p-org/namada-indexer"
+
+[[repo]]
 url = "https://github.com/p2p-org/namada-testnets"
 
 [[repo]]
@@ -12362,6 +11456,9 @@ url = "https://github.com/p2p-org/p2p-devops-test"
 
 [[repo]]
 url = "https://github.com/p2p-org/p2p-eth2-depositor"
+
+[[repo]]
+url = "https://github.com/p2p-org/p2p-lending-proxy"
 
 [[repo]]
 url = "https://github.com/p2p-org/p2p-simple-dapp"
@@ -12598,6 +11695,9 @@ url = "https://github.com/p2p-org/tkey"
 
 [[repo]]
 url = "https://github.com/p2p-org/ton-nominators"
+
+[[repo]]
+url = "https://github.com/p2p-org/ton-nominators-fork"
 
 [[repo]]
 url = "https://github.com/p2p-org/TransakSwift"
@@ -13033,15 +12133,13 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Pranav9931/NFT_Ticketing_System"
+missing = true
 
 [[repo]]
 url = "https://github.com/Prathamesh111-netizen/Proxima"
 
 [[repo]]
 url = "https://github.com/Pratik-11/SaL--dApp"
-
-[[repo]]
-url = "https://github.com/praveenbhandari/trackify"
 
 [[repo]]
 url = "https://github.com/predyprotocol/defillama-server"
@@ -14914,6 +14012,7 @@ url = "https://github.com/vasco-santos/store-my-text"
 
 [[repo]]
 url = "https://github.com/vercel-support/poopy-graphy"
+missing = true
 
 [[repo]]
 url = "https://github.com/vgrichina/web4"
@@ -15453,9 +14552,6 @@ url = "https://github.com/Wondertan/lotus"
 url = "https://github.com/Woodpile37/lily"
 
 [[repo]]
-url = "https://github.com/woonetwork/yield-server"
-
-[[repo]]
 url = "https://github.com/wootzapp/wootz-browser"
 
 [[repo]]
@@ -15715,63 +14811,6 @@ url = "https://github.com/zapaz/fevm-foundry-kit"
 
 [[repo]]
 url = "https://github.com/zc476639390/dicom-network"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/avalanche-ecosystem-projects"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/Blockscout"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/Blockscout-ZKasino"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/chains"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/developer-portal"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/ink"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/ink-playground"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/larch"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/marlin-init"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/rollups-faucet"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/sample-dapps"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/supernets2-contracts"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/supernets2-data-availability"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/zeeve-grafana"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/Zeeve-read-the-docs"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/zkevm-bridge-ui"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/zksync-block-explorer"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/zksync-bridge"
-
-[[repo]]
-url = "https://github.com/Zeeve-App/zombienet"
 
 [[repo]]
 url = "https://github.com/zelin44913/lotus-tool"
@@ -16535,9 +15574,6 @@ url = "https://github.com/Zondax/ledger-kusama"
 url = "https://github.com/Zondax/ledger-lisk"
 
 [[repo]]
-url = "https://github.com/Zondax/ledger-live"
-
-[[repo]]
 url = "https://github.com/Zondax/ledger-live-common"
 
 [[repo]]
@@ -16733,6 +15769,9 @@ url = "https://github.com/Zondax/ledger-zcash"
 url = "https://github.com/Zondax/ledger-zcash-rs"
 
 [[repo]]
+url = "https://github.com/Zondax/ledger-zcash-tools"
+
+[[repo]]
 url = "https://github.com/Zondax/ledger-zeitgeist"
 
 [[repo]]
@@ -16747,6 +15786,9 @@ url = "https://github.com/Zondax/legacy-app-tezos"
 [[repo]]
 url = "https://github.com/Zondax/lepis-gitops-test"
 missing = true
+
+[[repo]]
+url = "https://github.com/Zondax/librustzcash"
 
 [[repo]]
 url = "https://github.com/Zondax/librustzcash_f4jumble"

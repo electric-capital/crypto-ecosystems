@@ -1,7 +1,17 @@
 # Ecosystem Level Information
 title = "Aleo"
 
-sub_ecosystems = ["AleoLend", "AlphaSwap", "Shadow Finance"]
+sub_ecosystems = [
+  "AleoLend",
+  "AlphaSwap",
+  "Arcane Finance",
+  "IZAR Bridge",
+  "Kryha",
+  "Pondo",
+  "Puzzle",
+  "Shadow Finance",
+  "zSociety",
+]
 
 github_organizations = [
   "https://github.com/AleoNet",
@@ -229,9 +239,6 @@ missing = true
 [[repo]]
 url = "https://github.com/AleoHQ/aleo_vm_lambda"
 missing = true
-
-[[repo]]
-url = "https://github.com/AleoHQ/ant-design"
 
 [[repo]]
 url = "https://github.com/AleoHQ/ARCs"
@@ -572,6 +579,7 @@ url = "https://github.com/Armin-FalDiS/MyToken"
 
 [[repo]]
 url = "https://github.com/Armin-FalDiS/shadow-finance"
+missing = true
 
 [[repo]]
 url = "https://github.com/armsves/AleoDevconnet23Hackaton"
@@ -640,10 +648,67 @@ url = "https://github.com/attairener/lotteryaleo"
 url = "https://github.com/atul2501/aleoa"
 
 [[repo]]
+url = "https://github.com/AvailX/.github"
+
+[[repo]]
+url = "https://github.com/AvailX/aleo-name-service"
+
+[[repo]]
+url = "https://github.com/AvailX/aleo-tools"
+
+[[repo]]
+url = "https://github.com/AvailX/aleo-wallet-adapter"
+
+[[repo]]
+url = "https://github.com/AvailX/aleo-wallet-adapters"
+
+[[repo]]
+url = "https://github.com/AvailX/ARCs"
+
+[[repo]]
+url = "https://github.com/AvailX/avail-art-factory"
+
+[[repo]]
+url = "https://github.com/AvailX/avail-lib"
+
+[[repo]]
 url = "https://github.com/AvailX/avail-wallet"
 
 [[repo]]
+url = "https://github.com/AvailX/Avail_server"
+
+[[repo]]
+url = "https://github.com/AvailX/awesome-aleo"
+
+[[repo]]
+url = "https://github.com/AvailX/crypto.rs"
+
+[[repo]]
+url = "https://github.com/AvailX/keystore_module"
+
+[[repo]]
+url = "https://github.com/AvailX/learn-aleo"
+
+[[repo]]
+url = "https://github.com/AvailX/puzzle-sdk"
+
+[[repo]]
+url = "https://github.com/AvailX/rust-security-framework"
+
+[[repo]]
+url = "https://github.com/AvailX/snarkVM"
+
+[[repo]]
+url = "https://github.com/AvailX/stronghold.rs"
+
+[[repo]]
 url = "https://github.com/AvailX/tauri-plugin-aleo-stronghold"
+
+[[repo]]
+url = "https://github.com/AvailX/turkey_workshop"
+
+[[repo]]
+url = "https://github.com/AvailX/zpass-tools-demo"
 
 [[repo]]
 url = "https://github.com/avdheshcharjan/aleo-frontend"
@@ -726,6 +791,9 @@ url = "https://github.com/berkingurcan/gnl-ETHGlobal-Istanbul2023"
 
 [[repo]]
 url = "https://github.com/berwingan/Fog-Of-War-Checker"
+
+[[repo]]
+url = "https://github.com/betastaking-labs/betastaking-audits"
 
 [[repo]]
 url = "https://github.com/beydanuruzuneser/ankaraleo"
@@ -1801,6 +1869,7 @@ url = "https://github.com/jasonkwm/leo-zakkarat"
 
 [[repo]]
 url = "https://github.com/jasontaylor90/aleo_lottery"
+missing = true
 
 [[repo]]
 url = "https://github.com/jaydhales/hello"
@@ -2325,6 +2394,7 @@ url = "https://github.com/Mide010/lottery"
 
 [[repo]]
 url = "https://github.com/mihalchukdenis/Tictactoe"
+missing = true
 
 [[repo]]
 url = "https://github.com/minitq/leoapp"
@@ -2334,6 +2404,7 @@ url = "https://github.com/MiZiet/aleo_token"
 
 [[repo]]
 url = "https://github.com/mizovsky2304/aleo_hamza"
+missing = true
 
 [[repo]]
 url = "https://github.com/mlsmith/aleo-numbers"
@@ -2735,13 +2806,106 @@ url = "https://github.com/priscillabeth/Leo_Vote_Example"
 url = "https://github.com/privx-exchange/privx-exchange-contract"
 
 [[repo]]
+url = "https://github.com/ProvableHQ/aleo-instructions-syntax-sublime"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/aleo-instructions-syntax-vscode"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/aleo-js"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/aleo-linguist"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/aleo-rust"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/aleo-setup-integration-test"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/aleo-snap-chainsafe"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/aleo-std"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/ant-design"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/ARCs"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/bounty-2022-ethdenver"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/collector"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/community"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/dizk"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/grammars"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/highlight.js"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/HTTPClient"
+
+[[repo]]
 url = "https://github.com/ProvableHQ/leo"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/leo-acl2-bin"
 
 [[repo]]
 url = "https://github.com/ProvableHQ/leo-examples"
 
 [[repo]]
+url = "https://github.com/ProvableHQ/leo-linguist"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/leo-plugins"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/leo-syntax-vscode"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/linguist"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/linguist-grammars"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/lsp4intellij"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/marlin"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/nemean"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/neptune"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/package_control_channel"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/poly-commit"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/pontoon"
+
+[[repo]]
 url = "https://github.com/ProvableHQ/python-sdk"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/rust-rocksdb"
 
 [[repo]]
 url = "https://github.com/ProvableHQ/sdk"
@@ -2750,7 +2914,43 @@ url = "https://github.com/ProvableHQ/sdk"
 url = "https://github.com/ProvableHQ/service"
 
 [[repo]]
+url = "https://github.com/ProvableHQ/snarkOS"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/snarkOS-fork"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/snarkOS-indexer"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/snarkVM"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/snarkVM-fork"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/sublimelsp-repository"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/varuna-sage-impl"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/web-view"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/welcome"
+
+[[repo]]
 url = "https://github.com/ProvableHQ/workshop"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/yew_webview_bridge"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/zexe"
+
+[[repo]]
+url = "https://github.com/ProvableHQ/zxcvbn-rs"
 
 [[repo]]
 url = "https://github.com/Pseud0n1nja/Aleo-StableCoin"
@@ -2909,7 +3109,16 @@ url = "https://github.com/S-T-Soft/aleo-name-service"
 url = "https://github.com/S-T-Soft/aleo-name-service-api"
 
 [[repo]]
+url = "https://github.com/S-T-Soft/aleo-name-service-contract"
+
+[[repo]]
+url = "https://github.com/S-T-Soft/aleo-wallet-adapters"
+
+[[repo]]
 url = "https://github.com/S-T-Soft/ans-programs"
+
+[[repo]]
+url = "https://github.com/S-T-Soft/ARCs"
 
 [[repo]]
 url = "https://github.com/saeidha/Aleo-starter"
@@ -3007,6 +3216,7 @@ url = "https://github.com/Shade888/lottery"
 
 [[repo]]
 url = "https://github.com/Shadow-Finance/bastion"
+missing = true
 
 [[repo]]
 url = "https://github.com/Shanni/Aleo_workshop"
@@ -3071,6 +3281,9 @@ url = "https://github.com/snarkworld/zpass-tools-demo"
 [[repo]]
 url = "https://github.com/Snowraka/repgit"
 missing = true
+
+[[repo]]
+url = "https://github.com/snowtigersoft/aleo-name-service-contract"
 
 [[repo]]
 url = "https://github.com/snowtigersoft/leo_lottery"
@@ -3268,6 +3481,7 @@ url = "https://github.com/TvorimirTi/improved-octo-garbanzo"
 
 [[repo]]
 url = "https://github.com/twinco/leo_lottery"
+missing = true
 
 [[repo]]
 url = "https://github.com/UgohDiegoKC/workshop2-aleo-app"
@@ -3286,6 +3500,7 @@ url = "https://github.com/Umarb97/tictactoe"
 
 [[repo]]
 url = "https://github.com/Umbra-Lab/bastion"
+missing = true
 
 [[repo]]
 url = "https://github.com/umeiminhao/occupancy"
@@ -3517,6 +3732,7 @@ url = "https://github.com/yarco/aleo-playground"
 
 [[repo]]
 url = "https://github.com/YaroslavStadnyk/tictactoe_aleo"
+missing = true
 
 [[repo]]
 url = "https://github.com/YauhenAleo/sert"

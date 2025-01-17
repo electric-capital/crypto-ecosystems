@@ -458,18 +458,19 @@ fn write_ecosystem_to_toml(repo_root: &Path, eco: &Ecosystem) -> Result<()> {
     }
 
     if let Some(parent) = toml_file_path.parent() {
-        std::fs::create_dir_all(parent).map_err(|_| CEError::DirectoryCreationError {
-            path: parent.display().to_string(),
-        })?;
+        std::fs::create_dir_all(parent)
+            .map_err(|_| CEError::DirectoryCreationError {
+                path: parent.display().to_string(),
+            })?;
     }
-    
-    let mut file = OpenOptions::new()
+
+    OpenOptions::new()
         .read(true)
         .write(true)
         .create(true)
         .truncate(true)
-        .open(toml_file_path)?;
-    file.write_all(output.as_bytes())?;
+        .open(toml_file_path)?
+        .write_all(output.as_bytes())?;
     Ok(())
 }
 

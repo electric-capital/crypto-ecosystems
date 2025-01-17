@@ -157,9 +157,7 @@ enum CEError {
         toml_error: toml::de::Error,
     },
     #[error("Failed to create directory for ecosystem file: {path:?}")]
-    DirectoryCreationError {
-        path: String,
-    },
+    DirectoryCreationError { path: String },
 }
 
 type EcosystemMap = HashMap<String, Ecosystem>;

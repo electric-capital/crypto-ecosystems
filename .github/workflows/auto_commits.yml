@@ -1,0 +1,27 @@
+name: Auto Commit Files
+
+# Ce workflow s'exécute lorsque des changements sont envoyés sur la branche main
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  add_commits:
+    runs-on: ubuntu-latest  # Spécifie l'environnement d'exécution (Ubuntu ici)
+
+    steps:
+      # Étape 1 : Cloner le dépôt
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      # Étape 2 : Créer 700 fichiers et les ajouter avec des commits
+      - name: Create 700 files and commit them
+        run: |
+          for i in {1..700}
+          do
+            echo "Commit number $i" > "commit$i.txt"  # Crée le fichier commit{i}.txt
+            git add "commit$i.txt"  # Ajoute le fichier à Git
+            git commit -m "Add commit$i.txt"  # Effectue le commit
+          done
+          git push  # Envoie les commits sur GitHub

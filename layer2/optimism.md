@@ -1,0 +1,3 @@
+# Optimism
+- Rollup
+- Low fees

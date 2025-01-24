@@ -280,17 +280,17 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> ValidationStats {
         let has_sub_ecosystems = ecosystem
             .sub_ecosystems
             .as_ref()
-            .map_or(false, |sub_ecosystems| !sub_ecosystems.is_empty());
+            .is_some_and(false, |sub_ecosystems| !sub_ecosystems.is_empty());
 
         let has_orgs = ecosystem
             .github_organizations
             .as_ref()
-            .map_or(false, |orgs| !orgs.is_empty());
+            .is_some_and(false, |orgs| !orgs.is_empty());
 
         let has_repos = ecosystem
             .repo
             .as_ref()
-            .map_or(false, |repos| !repos.is_empty());
+            .is_some_and(false, |repos| !repos.is_empty());
 
         let mut seen_repos = HashSet::new();
 

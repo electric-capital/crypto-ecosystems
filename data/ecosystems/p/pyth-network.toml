@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Pyth Network"
 
-sub_ecosystems = []
+sub_ecosystems = ["Thales"]
 
 github_organizations = ["https://github.com/pyth-network"]
 
@@ -83,6 +83,10 @@ url = "https://github.com/pyth-network/pyth-client-rs"
 url = "https://github.com/pyth-network/pyth-crosschain"
 
 [[repo]]
+url = "https://github.com/pyth-network/pyth-crosschain-internal"
+missing = true
+
+[[repo]]
 url = "https://github.com/pyth-network/pyth-examples"
 missing = true
 
@@ -116,6 +120,9 @@ url = "https://github.com/pyth-network/pyth-serum"
 
 [[repo]]
 url = "https://github.com/pyth-network/pythnet"
+
+[[repo]]
+url = "https://github.com/pyth-network/solana-program-library"
 
 [[repo]]
 url = "https://github.com/pyth-network/solmeet-workshop-june-22"

@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Wormhole"
 
-sub_ecosystems = []
+sub_ecosystems = ["XLabs"]
 
 github_organizations = [
   "https://github.com/wormhole-foundation",
@@ -11,7 +11,17 @@ github_organizations = [
 
 # Repositories
 [[repo]]
+url = "https://github.com/0xNilesh/wormhole-specialized-relayer"
+
+[[repo]]
+url = "https://github.com/ahsankhan201010/custom-wormhole-connect-sdk"
+
+[[repo]]
 url = "https://github.com/alephium/wormhole-fork"
+
+[[repo]]
+url = "https://github.com/BonusGned/wormhole-setup"
+missing = true
 
 [[repo]]
 url = "https://github.com/bracketloader/wormhole"
@@ -164,6 +174,9 @@ url = "https://github.com/wormhole-foundation/helper-contracts"
 url = "https://github.com/wormhole-foundation/metaplex-program-library"
 
 [[repo]]
+url = "https://github.com/wormhole-foundation/native-token-transfers"
+
+[[repo]]
 url = "https://github.com/wormhole-foundation/plonky2-near"
 
 [[repo]]
@@ -273,7 +286,13 @@ url = "https://github.com/wormholelabs-xyz/example-gmp-router"
 url = "https://github.com/wormholelabs-xyz/example-liquidity-layer"
 
 [[repo]]
+url = "https://github.com/wormholelabs-xyz/example-messaging-adapter-wormhole-guardians"
+
+[[repo]]
 url = "https://github.com/wormholelabs-xyz/example-messaging-endpoint"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-messaging-executor"
 
 [[repo]]
 url = "https://github.com/wormholelabs-xyz/example-native-token-transfers"
@@ -315,6 +334,12 @@ url = "https://github.com/wormholelabs-xyz/required-review-test"
 url = "https://github.com/wormholelabs-xyz/ruleset-test"
 
 [[repo]]
+url = "https://github.com/wormholelabs-xyz/solana-test-validator"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/solana-test-validator-m1"
+
+[[repo]]
 url = "https://github.com/wormholelabs-xyz/solana-world-id-onchain-template"
 
 [[repo]]
@@ -331,6 +356,7 @@ url = "https://github.com/wormholelabs-xyz/wormhole-circle-integration"
 
 [[repo]]
 url = "https://github.com/wormholelabs-xyz/wormhole-circle-integration-sui"
+missing = true
 
 [[repo]]
 url = "https://github.com/wormholelabs-xyz/wormhole-connect"
@@ -372,6 +398,9 @@ url = "https://github.com/XLabs/connect-esm-example"
 missing = true
 
 [[repo]]
+url = "https://github.com/XLabs/example-liquidity-layer"
+
+[[repo]]
 url = "https://github.com/XLabs/example-token-bridge-relayer"
 missing = true
 
@@ -381,6 +410,9 @@ url = "https://github.com/XLabs/example-wormhole-axelar-wsteth"
 [[repo]]
 url = "https://github.com/XLabs/fiber-redis-storage"
 missing = true
+
+[[repo]]
+url = "https://github.com/XLabs/homebrew-hashicorp-tap"
 
 [[repo]]
 url = "https://github.com/XLabs/influxdb-proxy-exporter"
@@ -419,10 +451,16 @@ missing = true
 url = "https://github.com/XLabs/snaxchain-config"
 
 [[repo]]
+url = "https://github.com/XLabs/solana-exporter"
+
+[[repo]]
 url = "https://github.com/XLabs/swap-layer"
 
 [[repo]]
 url = "https://github.com/XLabs/terraform-kubernetes-ebs-csi-driver"
+
+[[repo]]
+url = "https://github.com/XLabs/tss-lib"
 
 [[repo]]
 url = "https://github.com/XLabs/TypeChain"

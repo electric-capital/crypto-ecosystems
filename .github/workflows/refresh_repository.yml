@@ -85,8 +85,6 @@ jobs:
         run: |
           # Merge upstream/master into the current branch
           git checkout master
-          git merge upstream/master --allow-unrelated-histories --no-edit
-
-
+          git reset --hard upstream/master
           # Push the updated branch back to the fork
-          git push origin master
+          git push origin master --force

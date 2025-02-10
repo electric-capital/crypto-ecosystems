@@ -140,7 +140,7 @@ struct Ecosystem {
     pub title: String,
     pub github_organizations: Option<Vec<String>>,
     pub sub_ecosystems: Option<Vec<String>>,
-    pub repo: Option<Vec<Repo>>,
+    pub repos: Option<Vec<Repo>>,
 }
 #[derive(Debug, Deserialize, Serialize)]
 struct Repo {
@@ -165,11 +165,17 @@ type EcosystemMap = HashMap<String, Ecosystem>;
 /// This enum handles a variety of url types that are put into repo url values.
 #[derive(Debug)]
 enum RepoUrlType {
+    /// GitHub URL with trailing slash that needs to be normalized
     GithubUnnormalized,
+    /// GitHub URL pointing to a user or organization profile instead of a repository
     GithubUserOrOrganization,
+    /// Valid GitHub repository URL
     GithubRepository,
+    /// GitHub URL with additional path components (e.g., tree/master)
     GithubTreeish,
+    /// Repository URL from other Git hosting services
     OtherServiceRepository,
+    /// Invalid or malformed URL
     InvalidUrl,
 }
 
@@ -288,7 +294,7 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> ValidationStats {
             .is_some_and(|orgs| !orgs.is_empty());
 
         let has_repos = ecosystem
-            .repo
+            .repos
             .as_ref()
             .is_some_and(|repos| !repos.is_empty());
 
@@ -317,7 +323,7 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> ValidationStats {
             sort_error.github_org_diff = find_misordered_elements_diff(github_orgs);
         }
 
-        if let Some(repos) = &ecosystem.repo {
+        if let Some(repos) = &ecosystem.repos {
             for repo in repos {
                 let lowercase_url = repo.url.to_lowercase();
                 if seen_repos.contains(&lowercase_url) {
@@ -430,7 +436,7 @@ fn write_ecosystem_to_toml(repo_root: &Path, eco: &Ecosystem) -> Result<()> {
     }
 
     output.push_str("# Repositories\n");
-    let mut sorted_repos: Vec<&Repo> = eco.repo.iter().flatten().collect();
+    let mut sorted_repos: Vec<&Repo> = eco.repos.iter().flatten().collect();
     sorted_repos.sort_by_key(|k| k.url.to_lowercase());
     let mut i = 0;
     let mut included = HashSet::new();
@@ -514,7 +520,7 @@ fn export(data_path: String, output_path: String, only_repos: bool) -> Result<()
             if only_repos {
                 let mut repo_set: HashMap<&String, Vec<String>> = HashMap::new();
                 for ecosystem in ecosystem_map.values() {
-                    if let Some(ref repositories) = ecosystem.repo {
+                    if let Some(ref repositories) = ecosystem.repos {
                         for repo in repositories {
                             repo_set
                                 .entry(&ecosystem.title)

@@ -3,11 +3,15 @@ title = "Predicate"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/PredicateLabs"]
+github_organizations = ["https://github.com/predicatelabs"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/PredicateLabs/avs-metadata"
+
+[[repo]]
+url = "https://github.com/PredicateLabs/compliant-uniswap"
+missing = true
 
 [[repo]]
 url = "https://github.com/PredicateLabs/eigenlayer-ecosystem-network"
@@ -25,4 +29,15 @@ url = "https://github.com/PredicateLabs/operator-metadata"
 url = "https://github.com/PredicateLabs/predicate-contracts"
 
 [[repo]]
+url = "https://github.com/predicatelabs/predicate-examples"
+
+[[repo]]
+url = "https://github.com/PredicateLabs/predicate-hooks"
+missing = true
+
+[[repo]]
 url = "https://github.com/PredicateLabs/predicate-operator"
+
+[[repo]]
+url = "https://github.com/PredicateLabs/predicate-v4"
+missing = true

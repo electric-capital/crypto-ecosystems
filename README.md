@@ -1,3 +1,4 @@
+![Build Status](https://github.com/electric-capital/crypto-ecosystems/actions/workflows/ci.yml/badge.svg)
 
 **V1.2 UPDATE [2024]:** Read about the Crypto Ecosystems taxonomy's update to Version 1.2 [here](https://github.com/electric-capital/crypto-ecosystems/releases/tag/1.2).
 

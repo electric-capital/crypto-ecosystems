@@ -1,0 +1,30 @@
+# Ecosystem Level Information
+title = "Ethereum"
+
+# Sub Ecosystems
+# These are the titles of other ecosystems in different .toml files in the /data/ecosystems directory
+sub_ecosystems = [ "Arbitrum", "Optimism", "Polygon"]
+
+# GitHub Organizations
+# This is a list of links to associated GitHub organizations.
+github_organizations = [
+    "https://github.com/ethereum",
+    "https://github.com/ethereum-lists",
+    "https://github.com/ethers-io",
+    "https://github.com/NomicFoundation"
+]
+
+# Repositories
+# These are structs including a url and tags for a git repository. These URLs do not necessarily have to be on GitHub.
+
+[[repo]]
+url = "https://github.com/ethereum/go-ethereum"
+tags = [ "Protocol"]
+
+[[repo]]
+url = "https://github.com/ethereum/solidity"
+tags = [ "Smart Contracts"]
+
+[[repo]]
+url = "https://github.com/ethereum/remix-project"
+tags = [ "Development"]

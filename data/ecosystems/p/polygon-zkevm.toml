@@ -9,7 +9,6 @@ sub_ecosystems = [
   "Curvance",
   "Dolomite Exchange",
   "Dyson Finance",
-  "Fluidity Money",
   "Gravita Protocol",
   "Gyroscope",
   "Mantissa Finance",
@@ -18,6 +17,7 @@ sub_ecosystems = [
   "Push Protocol (previously EPNS)",
   "Quickswap",
   "Rango Exchange",
+  "Secured Finance",
 ]
 
 github_organizations = [
@@ -110,6 +110,16 @@ url = "https://github.com/0xPolygonHermez/tiny-keccak"
 
 [[repo]]
 url = "https://github.com/0xPolygonHermez/zisk"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zisk-eth-client"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zisk-patch-tiny-keccak"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zisk-rsp-patch"
+missing = true
 
 [[repo]]
 url = "https://github.com/0xPolygonHermez/zisk-testvectors"
@@ -224,6 +234,9 @@ url = "https://github.com/0xPolygonMiden/contract-examples"
 url = "https://github.com/0xPolygonMiden/crypto"
 
 [[repo]]
+url = "https://github.com/0xPolygonMiden/developer-playground"
+
+[[repo]]
 url = "https://github.com/0xPolygonMiden/examples"
 
 [[repo]]
@@ -254,6 +267,9 @@ url = "https://github.com/0xPolygonMiden/miden-node"
 url = "https://github.com/0xPolygonMiden/miden-parsing"
 
 [[repo]]
+url = "https://github.com/0xPolygonMiden/miden-tutorials"
+
+[[repo]]
 url = "https://github.com/0xPolygonMiden/miden-vm"
 
 [[repo]]
@@ -270,6 +286,9 @@ url = "https://github.com/0xPolygonMiden/zkhack-scaffold"
 
 [[repo]]
 url = "https://github.com/0xPolygonZero/0xPolygonZero.github.io"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/agglayer"
 
 [[repo]]
 url = "https://github.com/0xPolygonZero/alloy-compat"
@@ -359,7 +378,13 @@ url = "https://github.com/0xPolygonZero/r1cs-workshop"
 url = "https://github.com/0xPolygonZero/r1cs-zkinterface"
 
 [[repo]]
+url = "https://github.com/0xPolygonZero/rsp"
+
+[[repo]]
 url = "https://github.com/0xPolygonZero/smt_utils"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/sp1"
 
 [[repo]]
 url = "https://github.com/0xPolygonZero/system-zero"
@@ -653,10 +678,6 @@ url = "https://github.com/QuarkChain/ethfs-uploader"
 
 [[repo]]
 url = "https://github.com/QuickSwap/perps"
-
-[[repo]]
-url = "https://github.com/QuickSwap/perps-frontend"
-missing = true
 
 [[repo]]
 url = "https://github.com/QuickSwap/zkevm-subgraph"

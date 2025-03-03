@@ -1,0 +1,27 @@
+# Ecosystem Level Information
+title = "Dero"
+
+# Sub Ecosystems
+# These are the titles of other ecosystems in different .toml files in the /data/ecosystems directory
+sub_ecosystems = [ "DAG Blockchain", "Privacy Smart Contracts"]
+
+# GitHub Organizations
+# This is a list of links to associated GitHub organizations.
+github_organizations = [
+    "https://github.com/deroproject"
+]
+
+# Repositories
+# These are structs including a url and tags for a git repository. These URLs do not necessarily have to be on GitHub.
+
+[[repo]]
+url = "https://github.com/deroproject/dero"
+tags = [ "Blockchain", "Privacy"]
+
+[[repo]]
+url = "https://github.com/deroproject/dero-smart-contracts"
+tags = [ "Smart Contracts", "WASM"]
+
+[[repo]]
+url = "https://github.com/deroproject/dero-wallet"
+tags = [ "Wallet"]

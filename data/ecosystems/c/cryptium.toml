@@ -1,0 +1,27 @@
+# Ecosystem Level Information
+title = "Cryptium"
+
+# Sub Ecosystems
+# These are the titles of other ecosystems in different .toml files in the /data/ecosystems directory
+sub_ecosystems = [ "Quantum Secure", "Zero-Knowledge Proofs"]
+
+# GitHub Organizations
+# This is a list of links to associated GitHub organizations.
+github_organizations = [
+    "https://github.com/cryptium-network"
+]
+
+# Repositories
+# These are structs including a url and tags for a git repository. These URLs do not necessarily have to be on GitHub.
+
+[[repo]]
+url = "https://github.com/cryptium-network/cryptium-core"
+tags = [ "Blockchain", "Quantum Resistant"]
+
+[[repo]]
+url = "https://github.com/cryptium-network/zk-storage"
+tags = [ "Zero-Knowledge", "Decentralized Storage"]
+
+[[repo]]
+url = "https://github.com/cryptium-network/cryptium-wallet"
+tags = [ "Wallet"]

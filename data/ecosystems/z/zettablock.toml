@@ -3,12 +3,18 @@ title = "ZettaBlock"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/Zettablock"]
+github_organizations = ["https://github.com/ZettaBlock"]
 
 # Repositories
 [[repo]]
 url = "https://github.com/Zettablock/admin-tools"
 missing = true
+
+[[repo]]
+url = "https://github.com/Zettablock/avalanche-faucet"
+
+[[repo]]
+url = "https://github.com/Zettablock/avalanchego"
 
 [[repo]]
 url = "https://github.com/Zettablock/beacon-zrunner"
@@ -35,6 +41,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Zettablock/ethereum-token-metadata-bot"
+missing = true
 
 [[repo]]
 url = "https://github.com/Zettablock/finetune_example"
@@ -47,10 +54,14 @@ missing = true
 url = "https://github.com/Zettablock/github-project-scraper"
 
 [[repo]]
+url = "https://github.com/Zettablock/gokite-chain"
+
+[[repo]]
 url = "https://github.com/Zettablock/Grants-Program"
 
 [[repo]]
 url = "https://github.com/Zettablock/gtools"
+missing = true
 
 [[repo]]
 url = "https://github.com/Zettablock/hello"
@@ -80,12 +91,18 @@ url = "https://github.com/Zettablock/spark"
 
 [[repo]]
 url = "https://github.com/Zettablock/stellar-temp"
+missing = true
 
 [[repo]]
 url = "https://github.com/Zettablock/stellar-zrunner"
+missing = true
 
 [[repo]]
 url = "https://github.com/Zettablock/story-zrunner"
+missing = true
+
+[[repo]]
+url = "https://github.com/Zettablock/subnet-evm"
 
 [[repo]]
 url = "https://github.com/Zettablock/trino-public"

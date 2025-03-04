@@ -3,12 +3,12 @@ title = "Celo"
 
 sub_ecosystems = [
   "Air Protocol",
-  "Allo Protocol",
   "Ammer Tech",
   "Angle Protocol",
   "Astral Protocol",
   "Atlendis",
   "Autofarm Network",
+  "Bancor",
   "Bidali",
   "Blockcash Finance",
   "Blockless",
@@ -36,7 +36,6 @@ sub_ecosystems = [
   "Empowa",
   "Esolidar",
   "Ethic Hub",
-  "Figment",
   "Genadrop",
   "Glo Foundation (Glo Dollar)",
   "Good Dollar",
@@ -54,13 +53,13 @@ sub_ecosystems = [
   "Into The Verse",
   "ipctmarket",
   "Keep Network",
+  "KlimaDAO",
   "Kolektivo",
   "Kotani Pay",
   "Kresko",
   "Kukuza",
   "KUMO",
   "Maker Dojo",
-  "Masa Finance",
   "Mento Protocol",
   "Mento-Fi",
   "Mintdropz",
@@ -78,7 +77,6 @@ sub_ecosystems = [
   "Plastiks",
   "Plock Fi",
   "Poof-cash",
-  "PoolTogether",
   "PrimeDAO",
   "QuestBook",
   "Rarible",
@@ -127,7 +125,7 @@ github_organizations = [
   "https://github.com/kumo-earth",
   "https://github.com/mento-protocol",
   "https://github.com/Nomis-cc",
-  "https://github.com/Pinnata",
+  "https://github.com/pinnata",
   "https://github.com/pyth-network",
   "https://github.com/smartcontractkit",
   "https://github.com/thallo-io",
@@ -188,6 +186,9 @@ url = "https://github.com/00labs/requestNetwork"
 
 [[repo]]
 url = "https://github.com/00labs/rn-payments-subgraph"
+
+[[repo]]
+url = "https://github.com/00labs/stellar-commonjs-testing"
 
 [[repo]]
 url = "https://github.com/0Vix/defillama-dimension-adapters"
@@ -2608,6 +2609,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/CaioUFMS/CaioUFMS.github.io"
+missing = true
 
 [[repo]]
 url = "https://github.com/cairoeth/arbx"
@@ -4009,6 +4011,12 @@ tags = ["Protocol"]
 missing = true
 
 [[repo]]
+url = "https://github.com/celo-org/ai-agent-ideas"
+
+[[repo]]
+url = "https://github.com/celo-org/ai-agent-quickstart"
+
+[[repo]]
 url = "https://github.com/celo-org/akeyless-actions"
 tags = ["Protocol"]
 missing = true
@@ -4212,6 +4220,9 @@ url = "https://github.com/celo-org/celo-harfork-monitor"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/celo-org/celo-l2-node-docker-compose"
+
+[[repo]]
 url = "https://github.com/celo-org/celo-ledger-spender-app"
 tags = ["Protocol"]
 
@@ -4340,6 +4351,9 @@ url = "https://github.com/celo-org/compliance"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/celo-org/composer-kit"
+
+[[repo]]
 url = "https://github.com/celo-org/contract-compatibility-check"
 tags = ["Protocol"]
 
@@ -4386,6 +4400,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/celo-org/discussions"
+
+[[repo]]
+url = "https://github.com/celo-org/docker-build-composite-action"
 
 [[repo]]
 url = "https://github.com/celo-org/docs"
@@ -4501,6 +4518,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/celo-org/gcloud-kubectl-docker"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/celo-org/gcp-auth-composite-actions"
 
 [[repo]]
 url = "https://github.com/celo-org/geth_exporter"
@@ -4691,8 +4711,14 @@ url = "https://github.com/celo-org/nonnative"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/celo-org/olas-mech-integration"
+
+[[repo]]
 url = "https://github.com/celo-org/op-geth"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/celo-org/op-geth-private"
 
 [[repo]]
 url = "https://github.com/celo-org/openpgpkey"
@@ -4739,6 +4765,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/celo-org/poly-commit"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/celo-org/Proof-of-Ship"
 
 [[repo]]
 url = "https://github.com/celo-org/q422-governance-notifications"
@@ -5027,6 +5056,9 @@ tags = ["Protocol"]
 missing = true
 
 [[repo]]
+url = "https://github.com/celo-org/svelte-template"
+
+[[repo]]
 url = "https://github.com/celo-org/sys"
 tags = ["Protocol"]
 
@@ -5047,6 +5079,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/celo-org/tracer-testing"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/celo-org/trivy-composite-action"
 
 [[repo]]
 url = "https://github.com/celo-org/truffle-plugin-blockscout-verify"
@@ -5321,6 +5356,9 @@ url = "https://github.com/centrifuge/account-scraper"
 
 [[repo]]
 url = "https://github.com/centrifuge/andromeda-payment-conduit"
+
+[[repo]]
+url = "https://github.com/centrifuge/api"
 
 [[repo]]
 url = "https://github.com/centrifuge/app-substrate-common"
@@ -5632,6 +5670,12 @@ url = "https://github.com/centrifuge/remarker-contract"
 url = "https://github.com/centrifuge/runtimes"
 
 [[repo]]
+url = "https://github.com/centrifuge/sdk"
+
+[[repo]]
+url = "https://github.com/centrifuge/sdk-docs"
+
+[[repo]]
 url = "https://github.com/centrifuge/security"
 
 [[repo]]
@@ -5771,6 +5815,7 @@ url = "https://github.com/centrifuge/wcfg-erc20-addresses"
 
 [[repo]]
 url = "https://github.com/centrifuge/website"
+missing = true
 
 [[repo]]
 url = "https://github.com/centrifuge/zk-nft-demo-contract"
@@ -5833,6 +5878,7 @@ url = "https://github.com/challenge-alex/chl-token"
 
 [[repo]]
 url = "https://github.com/Challenge-day/ChallengeAPI"
+missing = true
 
 [[repo]]
 url = "https://github.com/chan-thoeun/plus_skill_api"
@@ -5950,6 +5996,9 @@ url = "https://github.com/chronicleprotocol/actions-runner-images"
 url = "https://github.com/chronicleprotocol/aggor"
 
 [[repo]]
+url = "https://github.com/chronicleprotocol/api-auth-npm"
+
+[[repo]]
 url = "https://github.com/chronicleprotocol/archiver"
 missing = true
 
@@ -5962,6 +6011,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/chronicleprotocol/charts"
+
+[[repo]]
+url = "https://github.com/chronicleprotocol/chronicle-foundry-template"
 
 [[repo]]
 url = "https://github.com/chronicleprotocol/chronicle-std"
@@ -6013,6 +6065,9 @@ url = "https://github.com/chronicleprotocol/omnia-feed"
 
 [[repo]]
 url = "https://github.com/chronicleprotocol/omnia-relay"
+
+[[repo]]
+url = "https://github.com/chronicleprotocol/oracle-aggregator"
 
 [[repo]]
 url = "https://github.com/chronicleprotocol/oracle-suite"
@@ -6273,9 +6328,6 @@ url = "https://github.com/codabl/celo-datasets"
 url = "https://github.com/codabl/celo-etl"
 
 [[repo]]
-url = "https://github.com/code-423n4/2024-05-olas"
-
-[[repo]]
 url = "https://github.com/Code-Decoders/gofund.web3"
 
 [[repo]]
@@ -6508,6 +6560,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/cosmicblend/taste-flavor"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmosinnovate/celo-blockchain"
@@ -7759,9 +7812,6 @@ url = "https://github.com/DODOEX/LlamaSwap-interface"
 url = "https://github.com/DogeCompounder/dogecompounder-api"
 
 [[repo]]
-url = "https://github.com/dolomite-exchange/defillama-server"
-
-[[repo]]
 url = "https://github.com/domsteil/ethers-rs"
 
 [[repo]]
@@ -8242,6 +8292,9 @@ url = "https://github.com/empowa-io/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/empowa-io/ecosystem-marketplace"
+
+[[repo]]
+url = "https://github.com/empowa-io/ecosystem-marketplace-app"
 
 [[repo]]
 url = "https://github.com/empowa-io/metadata-registry-testnet"
@@ -8989,7 +9042,16 @@ url = "https://github.com/GainForest/counterfactually"
 url = "https://github.com/GainForest/counterfactually-ui"
 
 [[repo]]
+url = "https://github.com/GainForest/eas-attestation"
+
+[[repo]]
+url = "https://github.com/GainForest/ecocertain"
+
+[[repo]]
 url = "https://github.com/GainForest/estuary-bridge"
+
+[[repo]]
+url = "https://github.com/GainForest/green-globe"
 
 [[repo]]
 url = "https://github.com/GainForest/hypercerts-platform"
@@ -9624,9 +9686,11 @@ url = "https://github.com/harbor-xyz/harbor-hardhat-deploy"
 
 [[repo]]
 url = "https://github.com/harij9/Final_MCCW"
+missing = true
 
 [[repo]]
 url = "https://github.com/harij9/MCCW_Cosmos"
+missing = true
 
 [[repo]]
 url = "https://github.com/harjas27/multichain"
@@ -11597,9 +11661,6 @@ url = "https://github.com/Kleo-p/fashionista"
 url = "https://github.com/kleros-crime-syndicate/harbs"
 
 [[repo]]
-url = "https://github.com/KlimaDAO/klima-subgraph"
-
-[[repo]]
 url = "https://github.com/klyed/celo-monorepo"
 
 [[repo]]
@@ -11796,9 +11857,6 @@ url = "https://github.com/kxngyxri/Bodada"
 
 [[repo]]
 url = "https://github.com/kycdao/kycdao-ios-sdk"
-
-[[repo]]
-url = "https://github.com/kycdao/sdk-example"
 
 [[repo]]
 url = "https://github.com/kycdao/smart-contracts"
@@ -12803,6 +12861,15 @@ url = "https://github.com/mento-protocol/airdrop-snapshot"
 url = "https://github.com/mento-protocol/airgrab-interface"
 
 [[repo]]
+url = "https://github.com/mento-protocol/alerts"
+
+[[repo]]
+url = "https://github.com/mento-protocol/analytics-ui"
+
+[[repo]]
+url = "https://github.com/mento-protocol/bold"
+
+[[repo]]
 url = "https://github.com/mento-protocol/cadcad-workshop"
 
 [[repo]]
@@ -12812,7 +12879,13 @@ url = "https://github.com/mento-protocol/celo-monorepo"
 url = "https://github.com/mento-protocol/connect-kit"
 
 [[repo]]
+url = "https://github.com/mento-protocol/discord-on-call-announcer"
+
+[[repo]]
 url = "https://github.com/mento-protocol/docs"
+
+[[repo]]
+url = "https://github.com/mento-protocol/experiment-mento-deployment"
 
 [[repo]]
 url = "https://github.com/mento-protocol/governance"
@@ -12835,6 +12908,9 @@ url = "https://github.com/mento-protocol/ledgerhq-connect-kit-loader-retrofit"
 
 [[repo]]
 url = "https://github.com/mento-protocol/mate"
+
+[[repo]]
+url = "https://github.com/mento-protocol/mento-analytics-api"
 
 [[repo]]
 url = "https://github.com/mento-protocol/mento-automation-tests"
@@ -12902,6 +12978,9 @@ url = "https://github.com/mento-protocol/sourcify-to-etherscan"
 
 [[repo]]
 url = "https://github.com/mento-protocol/terraform-gcp-seed-project"
+
+[[repo]]
+url = "https://github.com/mento-protocol/ui-toolkit"
 
 [[repo]]
 url = "https://github.com/mento-protocol/whitepaper"
@@ -13232,6 +13311,7 @@ url = "https://github.com/moritzfelipe/react-marketplace-dapp"
 
 [[repo]]
 url = "https://github.com/moryno/build-with-celo-hackathon"
+missing = true
 
 [[repo]]
 url = "https://github.com/Moshiach770/celo-monorepo"
@@ -13895,6 +13975,7 @@ url = "https://github.com/Nomis-cc/nomis-etherlink"
 
 [[repo]]
 url = "https://github.com/Nomis-cc/nomis-fraxtal"
+missing = true
 
 [[repo]]
 url = "https://github.com/Nomis-cc/nomis-iden3"
@@ -14572,6 +14653,7 @@ url = "https://github.com/Philix27/SupaSave"
 
 [[repo]]
 url = "https://github.com/Philix27/turbo-ex"
+missing = true
 
 [[repo]]
 url = "https://github.com/Philix27/Xpensa"
@@ -15124,6 +15206,10 @@ url = "https://github.com/pyth-network/pyth-client-rs"
 url = "https://github.com/pyth-network/pyth-crosschain"
 
 [[repo]]
+url = "https://github.com/pyth-network/pyth-crosschain-internal"
+missing = true
+
+[[repo]]
 url = "https://github.com/pyth-network/pyth-examples"
 missing = true
 
@@ -15157,6 +15243,12 @@ url = "https://github.com/pyth-network/pyth-serum"
 
 [[repo]]
 url = "https://github.com/pyth-network/pythnet"
+
+[[repo]]
+url = "https://github.com/pyth-network/solana-exporter"
+
+[[repo]]
+url = "https://github.com/pyth-network/solana-program-library"
 
 [[repo]]
 url = "https://github.com/pyth-network/solmeet-workshop-june-22"
@@ -16778,6 +16870,9 @@ url = "https://github.com/smartcontractkit/ccip-defi-lending"
 url = "https://github.com/smartcontractkit/ccip-icm"
 
 [[repo]]
+url = "https://github.com/smartcontractkit/ccip-javascript-sdk"
+
+[[repo]]
 url = "https://github.com/smartcontractkit/ccip-liquidation-protector"
 
 [[repo]]
@@ -16829,10 +16924,16 @@ url = "https://github.com/smartcontractkit/chainlink-ccip"
 url = "https://github.com/smartcontractkit/chainlink-common"
 
 [[repo]]
+url = "https://github.com/smartcontractkit/chainlink-contracts"
+
+[[repo]]
 url = "https://github.com/smartcontractkit/chainlink-cosmos"
 
 [[repo]]
 url = "https://github.com/smartcontractkit/chainlink-data-streams"
+
+[[repo]]
+url = "https://github.com/smartcontractkit/chainlink-data-streams-solana"
 
 [[repo]]
 url = "https://github.com/smartcontractkit/chainlink-env"
@@ -16842,6 +16943,9 @@ url = "https://github.com/smartcontractkit/chainlink-evm"
 
 [[repo]]
 url = "https://github.com/smartcontractkit/chainlink-feeds"
+
+[[repo]]
+url = "https://github.com/smartcontractkit/chainlink-framework"
 
 [[repo]]
 url = "https://github.com/smartcontractkit/chainlink-fullstack"
@@ -16860,6 +16964,9 @@ url = "https://github.com/smartcontractkit/chainlink-in-web2-fh22"
 
 [[repo]]
 url = "https://github.com/smartcontractkit/chainlink-integration-tests-template"
+
+[[repo]]
+url = "https://github.com/smartcontractkit/chainlink-integrations"
 
 [[repo]]
 url = "https://github.com/smartcontractkit/chainlink-ios"
@@ -17292,6 +17399,9 @@ url = "https://github.com/smartcontractkit/logger"
 
 [[repo]]
 url = "https://github.com/smartcontractkit/matic-blockheaders"
+
+[[repo]]
+url = "https://github.com/smartcontractkit/mcms"
 
 [[repo]]
 url = "https://github.com/smartcontractkit/meet"
@@ -17792,6 +17902,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/spector-in-london/celo-forkmon"
+missing = true
 
 [[repo]]
 url = "https://github.com/spector-in-london/celo-monitoring"
@@ -17799,12 +17910,15 @@ missing = true
 
 [[repo]]
 url = "https://github.com/spector-in-london/celo-proposals"
+missing = true
 
 [[repo]]
 url = "https://github.com/spector-in-london/docs-1"
+missing = true
 
 [[repo]]
 url = "https://github.com/spector-in-london/eksportisto"
+missing = true
 
 [[repo]]
 url = "https://github.com/spector-in-london/governance"
@@ -17812,18 +17926,23 @@ missing = true
 
 [[repo]]
 url = "https://github.com/spector-in-london/hello-celo-contractkit"
+missing = true
 
 [[repo]]
 url = "https://github.com/spector-in-london/kliento"
+missing = true
 
 [[repo]]
 url = "https://github.com/spector-in-london/rosetta"
+missing = true
 
 [[repo]]
 url = "https://github.com/spector-in-london/simple-address-statistics"
+missing = true
 
 [[repo]]
 url = "https://github.com/spector-in-london/stokado"
+missing = true
 
 [[repo]]
 url = "https://github.com/Spenhouet/chains"
@@ -17990,15 +18109,13 @@ url = "https://github.com/Stride-Labs/yield-server"
 
 [[repo]]
 url = "https://github.com/StrobeLabs/reclaim-solidity-sdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/sturdyfi/defillama-yield-server"
 
 [[repo]]
 url = "https://github.com/subhamgcon/Celo-Composer-Dapp"
-
-[[repo]]
-url = "https://github.com/subquery/ethereum-subql-starter"
 
 [[repo]]
 url = "https://github.com/subscan-explorer/sourcify"
@@ -18581,6 +18698,7 @@ url = "https://github.com/thelazyceo1/duniaxcelo"
 
 [[repo]]
 url = "https://github.com/themarcosf/ibyPlatform"
+missing = true
 
 [[repo]]
 url = "https://github.com/themfuck/swapie-kontol"
@@ -19379,6 +19497,7 @@ url = "https://github.com/venkat-clone/amaDAO-build-with-celo-hackathon"
 
 [[repo]]
 url = "https://github.com/vercel-support/poopy-graphy"
+missing = true
 
 [[repo]]
 url = "https://github.com/Verinice/tezern"
@@ -19787,12 +19906,6 @@ url = "https://github.com/Woodpile37/interface"
 
 [[repo]]
 url = "https://github.com/woody-72/celo-blockchain"
-
-[[repo]]
-url = "https://github.com/woonetwork/defillama-server"
-
-[[repo]]
-url = "https://github.com/woonetwork/yield-server"
 
 [[repo]]
 url = "https://github.com/worldlyjohn/metamask-extension"

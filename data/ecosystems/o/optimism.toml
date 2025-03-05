@@ -6,7 +6,6 @@ sub_ecosystems = [
   "123swap",
   "Aevo",
   "Alchemix",
-  "Allo Protocol",
   "Alpha Homora",
   "Alps Finance",
   "Angle Protocol",
@@ -17,7 +16,6 @@ sub_ecosystems = [
   "Arrakis Finance",
   "Aura Finance",
   "Balmy (formerly Mean Finance)",
-  "bandada",
   "Beamer",
   "Beethoven X",
   "BloFin Exchange",
@@ -35,13 +33,14 @@ sub_ecosystems = [
   "defi.money",
   "DeFiHelper",
   "Derive",
+  "Dfyn Network",
   "dHEDGE",
   "Distributed Lab",
   "DZap",
   "Eigen Network",
   "Equilibria Finance",
+  "Ethereum Follow Protocol",
   "Eyeseek",
-  "Forta Network",
   "Fuji DAO",
   "Furucombo",
   "Gearbox Protocol",
@@ -58,6 +57,7 @@ sub_ecosystems = [
   "Inevitable (Bento)",
   "InstaDApp",
   "Ionic Protocol",
+  "Kiwi",
   "Kresko",
   "Kwenta",
   "Lemma Finance",
@@ -75,9 +75,7 @@ sub_ecosystems = [
   "Nexo",
   "Olympus DAO",
   "Open Attestation",
-  "OpenSea",
   "Opx Finance",
-  "Opyn",
   "Orderly Network",
   "Overnight",
   "Owl Protocol",
@@ -96,6 +94,8 @@ sub_ecosystems = [
   "Reaper.Farm",
   "Reveel",
   "Reya Labs",
+  "Saddle",
+  "Sarcophagus",
   "Showtime",
   "Silo Finance",
   "Sirius Finance",
@@ -107,11 +107,14 @@ sub_ecosystems = [
   "Swapsicle",
   "SweeprFi",
   "Swing",
+  "Switchboard",
   "Synthetix",
   "Tableland",
+  "Thales",
   "Tokenbound",
   "Tornado Cash",
   "Union Finance",
+  "Valora",
   "Velodrome",
   "VMEX Finance",
   "WeFund",
@@ -978,6 +981,7 @@ url = "https://github.com/alexpro401/thetanks"
 
 [[repo]]
 url = "https://github.com/alexxxkny/Voting"
+missing = true
 
 [[repo]]
 url = "https://github.com/alfirus/ourpower-ui"
@@ -2260,6 +2264,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/butternetwork/smart-router"
+missing = true
 
 [[repo]]
 url = "https://github.com/bvluke/optimism-for-shibc"
@@ -2635,9 +2640,6 @@ url = "https://github.com/code-423n4/2022-05-velodrome"
 
 [[repo]]
 url = "https://github.com/code-423n4/2023-07-moonwell"
-
-[[repo]]
-url = "https://github.com/code-423n4/2024-05-olas"
 
 [[repo]]
 url = "https://github.com/code-423n4/2024-07-optimism"
@@ -3438,9 +3440,11 @@ url = "https://github.com/Defi-Group7-Swap/Implementation-of-a-coin-swap-on-an-E
 
 [[repo]]
 url = "https://github.com/defi-oracle-blockchain-tools/monorepo"
+missing = true
 
 [[repo]]
 url = "https://github.com/defi-oracle-blockchain-tools/xapp-starter"
+missing = true
 
 [[repo]]
 url = "https://github.com/defi-wonderland/connext-snapshot-poc"
@@ -3761,6 +3765,7 @@ url = "https://github.com/district-labs/delegatable-enforcers"
 
 [[repo]]
 url = "https://github.com/district-labs/web3-sets"
+missing = true
 
 [[repo]]
 url = "https://github.com/divaprotocol/diva-protocol-v1"
@@ -3773,6 +3778,7 @@ url = "https://github.com/djcasper905/DeFiHackLabs"
 
 [[repo]]
 url = "https://github.com/djm07073/social-valley-contract"
+missing = true
 
 [[repo]]
 url = "https://github.com/djobbo/metamask-extension"
@@ -3836,9 +3842,6 @@ url = "https://github.com/DogeCompounder/dogecompounder-api"
 
 [[repo]]
 url = "https://github.com/dohaki/across-frontend-v2"
-
-[[repo]]
-url = "https://github.com/dolomite-exchange/defillama-server"
 
 [[repo]]
 url = "https://github.com/domadomdom/hardhat-frontend-fund-me-fcc"
@@ -4012,6 +4015,7 @@ url = "https://github.com/duncan4123/SolidlyV2"
 
 [[repo]]
 url = "https://github.com/dungnt97/testing"
+missing = true
 
 [[repo]]
 url = "https://github.com/Duong-NVH/bridge50"
@@ -4310,10 +4314,14 @@ url = "https://github.com/ethereum-optimism/actions"
 missing = true
 
 [[repo]]
+url = "https://github.com/ethereum-optimism/asdf-kurtosis"
+
+[[repo]]
 url = "https://github.com/ethereum-optimism/asterisc"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/axos"
+missing = true
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/bailiff"
@@ -4362,9 +4370,15 @@ url = "https://github.com/ethereum-optimism/changelog"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/ethereum-optimism/changesets-circle-utils"
+
+[[repo]]
 url = "https://github.com/ethereum-optimism/chug-splash"
 tags = ["Protocol"]
 missing = true
+
+[[repo]]
+url = "https://github.com/ethereum-optimism/circleci-github-utils"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/circleci-utils"
@@ -4404,8 +4418,14 @@ url = "https://github.com/ethereum-optimism/dev"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/ethereum-optimism/devdocs"
+
+[[repo]]
 url = "https://github.com/ethereum-optimism/developers"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/ethereum-optimism/devnets"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/dispute-viz"
@@ -4464,6 +4484,7 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/ethereum-optimism/foundry"
 tags = ["Protocol"]
+missing = true
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/fp-tests"
@@ -4493,6 +4514,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/ethereum-optimism/go-optimistic-ethereum-utils"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/ethereum-optimism/grafana-dashboards-public"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/graph-node"
@@ -4533,6 +4557,9 @@ url = "https://github.com/ethereum-optimism/integration-tests"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/ethereum-optimism/interop-lib"
+
+[[repo]]
 url = "https://github.com/ethereum-optimism/keygeneration"
 tags = ["Protocol"]
 
@@ -4541,6 +4568,9 @@ url = "https://github.com/ethereum-optimism/kona"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/kona-repro-pat"
+
+[[repo]]
+url = "https://github.com/ethereum-optimism/kurtestosis"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/l1-l2-deposit-withdrawal"
@@ -4593,11 +4623,18 @@ url = "https://github.com/ethereum-optimism/op-geth"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/ethereum-optimism/op-plasma-celestia"
+
+[[repo]]
+url = "https://github.com/ethereum-optimism/op-reth"
+
+[[repo]]
 url = "https://github.com/ethereum-optimism/op-test-vectors"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/op-viem"
 tags = ["Protocol"]
+missing = true
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/openethereum"
@@ -4711,6 +4748,9 @@ url = "https://github.com/ethereum-optimism/plugins"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/ethereum-optimism/pm"
+
+[[repo]]
 url = "https://github.com/ethereum-optimism/presigner"
 
 [[repo]]
@@ -4725,6 +4765,7 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/ethereum-optimism/rainbowkit"
 tags = ["Protocol"]
+missing = true
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/reference-optimistic-geth"
@@ -4736,6 +4777,7 @@ tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/reth"
+missing = true
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/roadmap"
@@ -4796,6 +4838,9 @@ tags = ["Protocol"]
 missing = true
 
 [[repo]]
+url = "https://github.com/ethereum-optimism/super-cli"
+
+[[repo]]
 url = "https://github.com/ethereum-optimism/superchain-ops"
 tags = ["Protocol"]
 
@@ -4808,10 +4853,19 @@ url = "https://github.com/ethereum-optimism/superchain-relayer"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/ethereum-optimism/superchain-starter"
+
+[[repo]]
+url = "https://github.com/ethereum-optimism/superchainerc20-compatibility"
+
+[[repo]]
 url = "https://github.com/ethereum-optimism/superchainerc20-starter"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/supersim"
+
+[[repo]]
+url = "https://github.com/ethereum-optimism/SUPs"
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/sync-tests"
@@ -4865,6 +4919,7 @@ tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/viem"
+missing = true
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/Waffle-ERC20-Example"
@@ -4873,6 +4928,7 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/ethereum-optimism/wagmi"
 tags = ["Protocol"]
+missing = true
 
 [[repo]]
 url = "https://github.com/ethereum-optimism/walletconnect-monorepo"
@@ -5792,6 +5848,7 @@ url = "https://github.com/GopherJ/DeFiHackLabs"
 
 [[repo]]
 url = "https://github.com/GopherJ/solidity-template"
+missing = true
 
 [[repo]]
 url = "https://github.com/GoPlugin/pliblockathon_22"
@@ -6262,6 +6319,7 @@ url = "https://github.com/horizonx-tech/demo-hhi-oracle"
 
 [[repo]]
 url = "https://github.com/Horlarmmy/MinHub"
+missing = true
 
 [[repo]]
 url = "https://github.com/Hridayesh13/dex-hh"
@@ -6479,6 +6537,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/ILESKOV/pancakeswap-fork"
+missing = true
 
 [[repo]]
 url = "https://github.com/ilijapet/ilijapet.github.io"
@@ -6515,6 +6574,7 @@ url = "https://github.com/immortal16/solidity-practice"
 
 [[repo]]
 url = "https://github.com/inblockio/metamask-extension"
+missing = true
 
 [[repo]]
 url = "https://github.com/indexooor/core"
@@ -6597,9 +6657,6 @@ url = "https://github.com/InverseFinance/inverse-web"
 
 [[repo]]
 url = "https://github.com/IoanSolovastru/hardhat-fund-me-fullstack"
-
-[[repo]]
-url = "https://github.com/ionicprotocol/monorepo"
 
 [[repo]]
 url = "https://github.com/ipadudida/TugasBlockchain"
@@ -6835,6 +6892,7 @@ url = "https://github.com/jbettenc/c3"
 
 [[repo]]
 url = "https://github.com/jbgoldman1104/Pancakeswap-v3-frontend"
+missing = true
 
 [[repo]]
 url = "https://github.com/jbowa/metamask-extension"
@@ -6917,6 +6975,7 @@ url = "https://github.com/jianmm/week8"
 
 [[repo]]
 url = "https://github.com/jichang0619/TokenRelease"
+missing = true
 
 [[repo]]
 url = "https://github.com/jinfwhuang/jinfwhuang.github.io"
@@ -8597,6 +8656,7 @@ url = "https://github.com/mmsaki/attest-your-savings"
 
 [[repo]]
 url = "https://github.com/mmsaki/huff-challenge-2"
+missing = true
 
 [[repo]]
 url = "https://github.com/mmsaki/rush"
@@ -9319,6 +9379,7 @@ url = "https://github.com/omgnetwork/optimism-v2"
 
 [[repo]]
 url = "https://github.com/omgoods/omgoods-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/Omni-X-NFT/gasless-onft"
@@ -9462,10 +9523,6 @@ url = "https://github.com/orb-labs/earlybird-examples"
 
 [[repo]]
 url = "https://github.com/orbdao/Dornado-cash"
-
-[[repo]]
-url = "https://github.com/Orbiter-Finance/client-monorepo"
-missing = true
 
 [[repo]]
 url = "https://github.com/Orbiter-Finance/OB_Explorer"
@@ -10377,9 +10434,6 @@ url = "https://github.com/quixotic-dev/frontend"
 
 [[repo]]
 url = "https://github.com/ra-phael/solidity-template"
-
-[[repo]]
-url = "https://github.com/rabbitholegg/quest-protocol"
 
 [[repo]]
 url = "https://github.com/rabbitprincess/optimism_builder"
@@ -11424,16 +11478,7 @@ url = "https://github.com/smart-ex/metamask-extension"
 url = "https://github.com/smartcontractkit/ccip-cross-chain-name-service"
 
 [[repo]]
-url = "https://github.com/smartcontractkit/ccip-cross-chain-nft"
-
-[[repo]]
 url = "https://github.com/smartcontractkit/ccip-liquidation-protector"
-
-[[repo]]
-url = "https://github.com/smartcontractkit/ccip-starter-kit-foundry"
-
-[[repo]]
-url = "https://github.com/smartcontractkit/ccip-starter-kit-hardhat"
 
 [[repo]]
 url = "https://github.com/smartcontractkit/ccip-tic-tac-toe"
@@ -12282,6 +12327,7 @@ url = "https://github.com/thales-markets/contracts"
 
 [[repo]]
 url = "https://github.com/thales-markets/thales-api"
+missing = true
 
 [[repo]]
 url = "https://github.com/thales-markets/thales-dapp"
@@ -12291,9 +12337,6 @@ url = "https://github.com/thales-markets/thales-data"
 
 [[repo]]
 url = "https://github.com/thales-markets/thales-sport-markets"
-
-[[repo]]
-url = "https://github.com/thales-markets/thales-subgraph"
 
 [[repo]]
 url = "https://github.com/ThanksSkeleton/zkwitches"
@@ -12754,6 +12797,7 @@ url = "https://github.com/tse-lao/data-library"
 
 [[repo]]
 url = "https://github.com/Tsunami-Blockchain-Tools/dodoex-contractV2"
+missing = true
 
 [[repo]]
 url = "https://github.com/Tsunami-Developed-Blockchains/chainlist"
@@ -12927,6 +12971,7 @@ url = "https://github.com/UniDex-Finance/optimism"
 
 [[repo]]
 url = "https://github.com/UniDex-Finance/pool-page-v2"
+missing = true
 
 [[repo]]
 url = "https://github.com/unifiprotocol/DefiLlama-Adapters"
@@ -13131,6 +13176,7 @@ url = "https://github.com/vimwitch/event-repro"
 
 [[repo]]
 url = "https://github.com/vinceferro/hardhat-project-template-ts"
+missing = true
 
 [[repo]]
 url = "https://github.com/vintrocode/elmo-brownie"
@@ -13442,6 +13488,7 @@ url = "https://github.com/weijun-sh/multichainMonitor"
 
 [[repo]]
 url = "https://github.com/WeStaySafe/situation-room"
+missing = true
 
 [[repo]]
 url = "https://github.com/westonnelson/bal-ui"
@@ -13566,12 +13613,6 @@ url = "https://github.com/Woodpile37/optimism"
 url = "https://github.com/Woodpile37/protocol"
 
 [[repo]]
-url = "https://github.com/woonetwork/defillama-server"
-
-[[repo]]
-url = "https://github.com/woonetwork/yield-server"
-
-[[repo]]
 url = "https://github.com/World-Parallel/v3-periphery"
 missing = true
 
@@ -13581,9 +13622,6 @@ missing = true
 
 [[repo]]
 url = "https://github.com/worldlyjohn/metamask-extension"
-
-[[repo]]
-url = "https://github.com/wormhole-foundation/example-composable-verification"
 
 [[repo]]
 url = "https://github.com/wosigor/eth_pool_rewards"
@@ -13940,6 +13978,7 @@ url = "https://github.com/zaivanzaa/all-in-one-v2"
 
 [[repo]]
 url = "https://github.com/Zalkota/vibers-mono-repo"
+missing = true
 
 [[repo]]
 url = "https://github.com/zapaz/cast"

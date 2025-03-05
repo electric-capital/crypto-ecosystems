@@ -156,6 +156,8 @@ enum CEError {
         path: String,
         toml_error: toml::de::Error,
     },
+    #[error("Failed to create directory for ecosystem file: {path:?}")]
+    DirectoryCreationError { path: String },
 }
 
 type EcosystemMap = HashMap<String, Ecosystem>;
@@ -278,17 +280,17 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> ValidationStats {
         let has_sub_ecosystems = ecosystem
             .sub_ecosystems
             .as_ref()
-            .map_or(false, |sub_ecosystems| !sub_ecosystems.is_empty());
+            .is_some_and(|sub_ecosystems| !sub_ecosystems.is_empty());
 
         let has_orgs = ecosystem
             .github_organizations
             .as_ref()
-            .map_or(false, |orgs| !orgs.is_empty());
+            .is_some_and(|orgs| !orgs.is_empty());
 
         let has_repos = ecosystem
             .repo
             .as_ref()
-            .map_or(false, |repos| !repos.is_empty());
+            .is_some_and(|repos| !repos.is_empty());
 
         let mut seen_repos = HashSet::new();
 
@@ -455,9 +457,12 @@ fn write_ecosystem_to_toml(repo_root: &Path, eco: &Ecosystem) -> Result<()> {
         }
     }
 
-    if std::fs::create_dir_all(toml_file_path.parent().unwrap()).is_err() {
-        println!("Error Making dir: {:?}", toml_file_path);
+    if let Some(parent) = toml_file_path.parent() {
+        std::fs::create_dir_all(parent).map_err(|_| CEError::DirectoryCreationError {
+            path: parent.display().to_string(),
+        })?;
     }
+
     let mut file = OpenOptions::new()
         .read(true)
         .write(true)

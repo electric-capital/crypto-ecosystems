@@ -3,6 +3,7 @@ title = "Osmosis"
 
 sub_ecosystems = [
   "Apollo DAO",
+  "Astroport",
   "Citadel.one",
   "Cosmology",
   "CronCat",
@@ -16,11 +17,12 @@ sub_ecosystems = [
   "Margined",
   "Mars Protocol",
   "Membrane",
+  "MilkyWay Labs",
   "Notional Labs",
   "Quasar Finance",
+  "Quicksilver",
   "Skip",
   "WBTC",
-  "Wormhole",
 ]
 
 github_organizations = [
@@ -223,6 +225,7 @@ url = "https://github.com/ahmedali8/cosmwasm-academy-dapp"
 
 [[repo]]
 url = "https://github.com/aidanaden/solid-cosmostation-example"
+missing = true
 
 [[repo]]
 url = "https://github.com/Airstack-xyz/airstack-subgraph"
@@ -500,16 +503,22 @@ url = "https://github.com/AstarNetwork/DefiLlama-Adapters"
 url = "https://github.com/AstraProtocol/evmos"
 
 [[repo]]
+url = "https://github.com/astroport-fi/astroport-on-osmosis"
+
+[[repo]]
 url = "https://github.com/AstroquirksHQ/my-cosmos-tools"
 
 [[repo]]
 url = "https://github.com/AstroTech-Labs/cosmos.py"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstroTech-Labs/cosmos_JS"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstroTech-Labs/cosmos_proto"
+missing = true
 
 [[repo]]
 url = "https://github.com/asverty/ignite-cli"
@@ -786,6 +795,7 @@ url = "https://github.com/bryanhpchiang/protocol-reading-list"
 
 [[repo]]
 url = "https://github.com/bsiadmin/tecrepo"
+missing = true
 
 [[repo]]
 url = "https://github.com/btn-group/btn.group"
@@ -857,6 +867,7 @@ url = "https://github.com/ceponatia/osmosis-price-list"
 
 [[repo]]
 url = "https://github.com/CeresEcosystem/DefiLlama-Adapters-Demeter"
+missing = true
 
 [[repo]]
 url = "https://github.com/chachean/cosmosis"
@@ -921,6 +932,9 @@ url = "https://github.com/chainapsis/gaia-indexer"
 url = "https://github.com/chainapsis/GameOfZones"
 
 [[repo]]
+url = "https://github.com/chainapsis/get-starknet"
+
+[[repo]]
 url = "https://github.com/chainapsis/ics"
 
 [[repo]]
@@ -964,7 +978,15 @@ url = "https://github.com/chainapsis/live-coding"
 url = "https://github.com/chainapsis/live-coding-backend"
 
 [[repo]]
+url = "https://github.com/chainapsis/live-coding-frontend"
+missing = true
+
+[[repo]]
 url = "https://github.com/chainapsis/live-coding2"
+missing = true
+
+[[repo]]
+url = "https://github.com/chainapsis/namada-interface"
 
 [[repo]]
 url = "https://github.com/chainapsis/node-walletconnect-bridge"
@@ -1044,10 +1066,14 @@ url = "https://github.com/Chilis-Labs/mesh-security"
 missing = true
 
 [[repo]]
+url = "https://github.com/chimmykk/Namada-Osmosis-IBC-Relayer"
+
+[[repo]]
 url = "https://github.com/chirag127/The-Complete-Web-Development-Bootcamp"
 
 [[repo]]
 url = "https://github.com/christiankesslers/cosmovisor"
+missing = true
 
 [[repo]]
 url = "https://github.com/ChristopherTrimboli/point-chain"
@@ -1057,9 +1083,11 @@ url = "https://github.com/chuddster/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/chunza2542/uniswap.fish"
+missing = true
 
 [[repo]]
 url = "https://github.com/citadeldao/citadel-app-osmosis"
+missing = true
 
 [[repo]]
 url = "https://github.com/Ckaarraa/sei-chain-TR"
@@ -1172,6 +1200,12 @@ url = "https://github.com/confio/cosmonaut"
 url = "https://github.com/confio/cosmos-hd-key-derivation-spec"
 
 [[repo]]
+url = "https://github.com/confio/cosmwasm-tracing-api"
+
+[[repo]]
+url = "https://github.com/confio/cosmwasm-tracing-ui"
+
+[[repo]]
 url = "https://github.com/confio/credible-chain"
 
 [[repo]]
@@ -1206,6 +1240,7 @@ url = "https://github.com/confio/go-wasm"
 
 [[repo]]
 url = "https://github.com/confio/iavl"
+missing = true
 
 [[repo]]
 url = "https://github.com/confio/ibc"
@@ -1287,6 +1322,9 @@ url = "https://github.com/confio/tgrade"
 url = "https://github.com/confio/tgrade-app"
 
 [[repo]]
+url = "https://github.com/confio/tgrade-contracts"
+
+[[repo]]
 url = "https://github.com/confio/tgrade-docs"
 
 [[repo]]
@@ -1309,6 +1347,7 @@ url = "https://github.com/confio/wasm-opt"
 
 [[repo]]
 url = "https://github.com/confio/wasmer"
+missing = true
 
 [[repo]]
 url = "https://github.com/confio/weave-js"
@@ -1347,7 +1386,11 @@ url = "https://github.com/Corey-Code/chain-registry"
 url = "https://github.com/cosmic-horizon/QWOYN"
 
 [[repo]]
+url = "https://github.com/cosmology-tech/.github"
+
+[[repo]]
 url = "https://github.com/cosmology-tech/antlr-tutorial"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/ast-challenge"
@@ -1359,10 +1402,35 @@ url = "https://github.com/cosmology-tech/babel-plugin-transform-bigint"
 url = "https://github.com/cosmology-tech/chain-registry"
 
 [[repo]]
+url = "https://github.com/cosmology-tech/chain-registry-fixtures"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/chain-registry-tree-shaking"
+missing = true
+
+[[repo]]
+url = "https://github.com/cosmology-tech/chain-registry-v2"
+missing = true
+
+[[repo]]
+url = "https://github.com/cosmology-tech/chain-registry-workflows"
+missing = true
+
+[[repo]]
 url = "https://github.com/cosmology-tech/chainlist"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/code-challenge-v2"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/code-challenge-v3"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/code-challenge-v4"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/code-challenge-v6"
 
 [[repo]]
 url = "https://github.com/cosmology-tech/coding-challenge"
@@ -1378,6 +1446,7 @@ url = "https://github.com/cosmology-tech/cosmodal"
 
 [[repo]]
 url = "https://github.com/cosmology-tech/cosmology"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/cosmology-ui"
@@ -1390,6 +1459,7 @@ url = "https://github.com/cosmology-tech/cosmos-websocket"
 
 [[repo]]
 url = "https://github.com/cosmology-tech/cosmostation_token_resource"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/cosmwasm-as"
@@ -1404,7 +1474,11 @@ url = "https://github.com/cosmology-tech/cpbf"
 url = "https://github.com/cosmology-tech/create-cosmos-app"
 
 [[repo]]
+url = "https://github.com/cosmology-tech/create-interchain-app"
+
+[[repo]]
 url = "https://github.com/cosmology-tech/cw-awesome"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/cw-check"
@@ -1422,13 +1496,35 @@ url = "https://github.com/cosmology-tech/cw-simulate-ui"
 url = "https://github.com/cosmology-tech/cwsc"
 
 [[repo]]
+url = "https://github.com/cosmology-tech/design-challenge"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/docs"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/git-stats"
+
+[[repo]]
 url = "https://github.com/cosmology-tech/injectivejs"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/interchain"
 
 [[repo]]
+url = "https://github.com/cosmology-tech/interchain-cctp"
+
+[[repo]]
 url = "https://github.com/cosmology-tech/interchain-js"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/interchain-js-query"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/interchain-kit"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/interchain-kit-demo"
 
 [[repo]]
 url = "https://github.com/cosmology-tech/interchain-lcd"
@@ -1440,19 +1536,53 @@ url = "https://github.com/cosmology-tech/interchain-query"
 url = "https://github.com/cosmology-tech/interchain-rpc"
 
 [[repo]]
+url = "https://github.com/cosmology-tech/interchain-ui"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/interchainjs"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/interweb-build"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/interweb-utils"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/json-schema-patch"
+
+[[repo]]
 url = "https://github.com/cosmology-tech/juno-interchain-rpc"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/kavajs"
 
 [[repo]]
+url = "https://github.com/cosmology-tech/launchpad"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/lib-count"
+
+[[repo]]
 url = "https://github.com/cosmology-tech/mesh-security"
 
 [[repo]]
+url = "https://github.com/cosmology-tech/mitosis"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/nested-obj"
+
+[[repo]]
 url = "https://github.com/cosmology-tech/networks"
+missing = true
+
+[[repo]]
+url = "https://github.com/cosmology-tech/npm-tools"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/orig-stridejs"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/osmojs"
@@ -1471,6 +1601,10 @@ url = "https://github.com/cosmology-tech/publish-scripts"
 
 [[repo]]
 url = "https://github.com/cosmology-tech/quicksilverjs"
+missing = true
+
+[[repo]]
+url = "https://github.com/cosmology-tech/schema-typescript"
 
 [[repo]]
 url = "https://github.com/cosmology-tech/stargazejs"
@@ -1482,7 +1616,17 @@ url = "https://github.com/cosmology-tech/starship"
 url = "https://github.com/cosmology-tech/starship-action"
 
 [[repo]]
+url = "https://github.com/cosmology-tech/StarshipJS"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/strfy-js"
+
+[[repo]]
 url = "https://github.com/cosmology-tech/stridejs"
+missing = true
+
+[[repo]]
+url = "https://github.com/cosmology-tech/symlink-workspace"
 
 [[repo]]
 url = "https://github.com/cosmology-tech/telescope"
@@ -1492,18 +1636,33 @@ url = "https://github.com/cosmology-tech/telescope-module-boilerplate"
 
 [[repo]]
 url = "https://github.com/cosmology-tech/telescope-react-query-test"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/telescope-tscodegen-demo"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/teritori"
 
 [[repo]]
 url = "https://github.com/cosmology-tech/terrascope"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/ts-codegen-module-boilerplate"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/uni-sign"
+missing = true
+
+[[repo]]
+url = "https://github.com/cosmology-tech/uni-sign-example"
+missing = true
+
+[[repo]]
+url = "https://github.com/cosmology-tech/unisign"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmology-tech/use-cw-simulate"
@@ -1513,6 +1672,9 @@ url = "https://github.com/cosmology-tech/vscode-cwscript"
 
 [[repo]]
 url = "https://github.com/cosmology-tech/wasmd"
+
+[[repo]]
+url = "https://github.com/cosmology-tech/yamlize"
 
 [[repo]]
 url = "https://github.com/cosmos-client/osmosis-ts"
@@ -1543,12 +1705,14 @@ url = "https://github.com/CosmosContracts/junoswap-asset-list"
 
 [[repo]]
 url = "https://github.com/cosmosscanner/stakingdata.io"
+missing = true
 
 [[repo]]
 url = "https://github.com/cosmostake/validator"
 
 [[repo]]
 url = "https://github.com/CosmosTokenFactory/token-factory"
+missing = true
 
 [[repo]]
 url = "https://github.com/CosmWasm/awesome-cosmwasm"
@@ -1697,6 +1861,9 @@ url = "https://github.com/czar-dao/forecast-juno-oracle-server-opensourced"
 missing = true
 
 [[repo]]
+url = "https://github.com/czarcas7ic/osmosis-go-tss"
+
+[[repo]]
 url = "https://github.com/D3Cngo/ibc-autostake"
 
 [[repo]]
@@ -1758,6 +1925,9 @@ url = "https://github.com/daubit/tracy"
 url = "https://github.com/davidbrowns/NFT_MarketPlace_Cosmos"
 
 [[repo]]
+url = "https://github.com/DavidCasalod/osmosis-bridge"
+
+[[repo]]
 url = "https://github.com/dbhurley/bbb"
 
 [[repo]]
@@ -1765,12 +1935,15 @@ url = "https://github.com/de-husk/chain-registry"
 
 [[repo]]
 url = "https://github.com/Debu976116/hummingbot"
+missing = true
 
 [[repo]]
 url = "https://github.com/Debu976116/Tokenary"
+missing = true
 
 [[repo]]
 url = "https://github.com/Debu976116/trust-web3-provider"
+missing = true
 
 [[repo]]
 url = "https://github.com/dectf/DefiLlama-Adapters"
@@ -1799,18 +1972,22 @@ url = "https://github.com/DefiantLabs/assetlists"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/AssetMantle-node"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/chain-registry"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/chainlist"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/chdbg"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/consensus"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/cosmos-exporter"
@@ -1819,7 +1996,15 @@ url = "https://github.com/DefiantLabs/cosmos-exporter"
 url = "https://github.com/DefiantLabs/cosmos-indexer"
 
 [[repo]]
+url = "https://github.com/DefiantLabs/cosmos-indexer-modules"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/cosmos-proposals"
+missing = true
+
+[[repo]]
 url = "https://github.com/DefiantLabs/cosmos-sdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/cosmos-tax-cli"
@@ -1839,15 +2024,18 @@ url = "https://github.com/DefiantLabs/cosmos-upgrades"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/cosmosnodes"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/crescent"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/defiant-docs"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/defiant-swap"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/defiant-tools"
@@ -1863,12 +2051,18 @@ url = "https://github.com/DefiantLabs/externalPackages"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/gaia"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/gon-evidence"
+missing = true
+
+[[repo]]
+url = "https://github.com/DefiantLabs/gov-prop-elections-indexer"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/half-life"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/halflife"
@@ -1882,30 +2076,40 @@ url = "https://github.com/DefiantLabs/ibc-watch"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/ics-testnets"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/juno"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/kujira.js"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/KujiraClient"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/lens"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/odin-core"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/odin-protocol-networks"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/oracle-price-feeder"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/osmosis"
+missing = true
+
+[[repo]]
+url = "https://github.com/DefiantLabs/postgres-operator-examples"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/pre-commit-golang"
@@ -1915,18 +2119,27 @@ url = "https://github.com/DefiantLabs/probe"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/redpointjs"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/RedpointSwap"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/relayer"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/sei-chain-registry"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/slash_refunds_tendermint"
+missing = true
+
+[[repo]]
+url = "https://github.com/DefiantLabs/SmartStake-relayers"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/staking-rewards"
@@ -1939,18 +2152,33 @@ url = "https://github.com/DefiantLabs/svc-odin"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/Team-Kujira-core"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/Team-Kujira-networks"
+missing = true
+
+[[repo]]
+url = "https://github.com/DefiantLabs/terrad"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/terraform-aws-cosmos-node-skel"
+missing = true
 
 [[repo]]
 url = "https://github.com/DefiantLabs/validator-registry"
+missing = true
+
+[[repo]]
+url = "https://github.com/DefiantLabs/volunteer"
 
 [[repo]]
 url = "https://github.com/DefiantLabs/wallet-balance"
+
+[[repo]]
+url = "https://github.com/DefiantLabs/wiki"
+missing = true
 
 [[repo]]
 url = "https://github.com/definevalue/DefiLlama-Adapters"
@@ -1966,6 +2194,7 @@ url = "https://github.com/deliangyang/magento2"
 
 [[repo]]
 url = "https://github.com/delvtech/DefiLlama-Adapters"
+missing = true
 
 [[repo]]
 url = "https://github.com/denismaxim0v/cw-workshop-hack-academy"
@@ -2059,9 +2288,6 @@ url = "https://github.com/DODOEX/LlamaSwap-interface"
 [[repo]]
 url = "https://github.com/doggystylez/osmograph"
 missing = true
-
-[[repo]]
-url = "https://github.com/dolomite-exchange/defillama-server"
 
 [[repo]]
 url = "https://github.com/donovansolms/thegraph-candle-test"
@@ -2176,6 +2402,7 @@ url = "https://github.com/erisprotocol/contracts-tokenfactory"
 
 [[repo]]
 url = "https://github.com/erisprotocol/liquid-staking-scripts"
+missing = true
 
 [[repo]]
 url = "https://github.com/Errorist79/oraibridge-explorer"
@@ -2276,6 +2503,9 @@ url = "https://github.com/Fizzerbert107/CosmosSDK"
 url = "https://github.com/flamingo-finance/DefiLlama-Adapters"
 
 [[repo]]
+url = "https://github.com/FlipsideCrypto/osmosis-models"
+
+[[repo]]
 url = "https://github.com/floss50/mantaray"
 
 [[repo]]
@@ -2310,6 +2540,7 @@ url = "https://github.com/fredericomozzato/crypto_tracker"
 
 [[repo]]
 url = "https://github.com/frozenflux2/marketplace_on_juno"
+missing = true
 
 [[repo]]
 url = "https://github.com/fsvchina/smartchain"
@@ -2364,6 +2595,7 @@ url = "https://github.com/genomesio/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/gh0st-work/insomnia_keeper"
+missing = true
 
 [[repo]]
 url = "https://github.com/giansalex/cw-osmo-price"
@@ -2481,6 +2713,7 @@ url = "https://github.com/gsk967/geminga-gnome-extension"
 
 [[repo]]
 url = "https://github.com/gurufin2021/mu"
+missing = true
 
 [[repo]]
 url = "https://github.com/gurujustin/DefiLlama-Adapters"
@@ -2593,6 +2826,9 @@ url = "https://github.com/hoanguyenkh/astra"
 
 [[repo]]
 url = "https://github.com/hoanguyenkh/evmos"
+
+[[repo]]
+url = "https://github.com/hodgerpodger/staketaxcsv"
 
 [[repo]]
 url = "https://github.com/hoodrunio/protos"
@@ -2735,6 +2971,7 @@ url = "https://github.com/Interport-Finance/defillama-server"
 
 [[repo]]
 url = "https://github.com/iot-defcon/cli"
+missing = true
 
 [[repo]]
 url = "https://github.com/irontiga/random-sentence-generator"
@@ -2852,6 +3089,9 @@ url = "https://github.com/jellebuth/Jelle-V2.4.4"
 
 [[repo]]
 url = "https://github.com/jellebuth/Jelle_collect_v4"
+
+[[repo]]
+url = "https://github.com/jer117/ansible-osmosis"
 
 [[repo]]
 url = "https://github.com/JeremyParish69/docs"
@@ -3040,6 +3280,7 @@ url = "https://github.com/kombos/telescopeExample"
 
 [[repo]]
 url = "https://github.com/koorosh-rezaee/coins-devico"
+missing = true
 
 [[repo]]
 url = "https://github.com/kromsten/CrossFund"
@@ -3231,6 +3472,7 @@ url = "https://github.com/lum-network/ibc-testbed"
 
 [[repo]]
 url = "https://github.com/lumi518/marketplace_on_juno"
+missing = true
 
 [[repo]]
 url = "https://github.com/lunardex/DefiLlama-Adapters"
@@ -3329,6 +3571,7 @@ url = "https://github.com/margined-protocol/power"
 
 [[repo]]
 url = "https://github.com/marketxyz/subgraphs"
+missing = true
 
 [[repo]]
 url = "https://github.com/mars-protocol/hub"
@@ -3694,6 +3937,9 @@ url = "https://github.com/notional-labs/address-converter"
 url = "https://github.com/notional-labs/agoric-sdk"
 
 [[repo]]
+url = "https://github.com/notional-labs/airdrop"
+
+[[repo]]
 url = "https://github.com/notional-labs/akash"
 
 [[repo]]
@@ -3722,6 +3968,9 @@ url = "https://github.com/notional-labs/app.digchain.org"
 
 [[repo]]
 url = "https://github.com/notional-labs/arm-profiles"
+
+[[repo]]
+url = "https://github.com/notional-labs/asahi-alarm-builder"
 
 [[repo]]
 url = "https://github.com/notional-labs/assetlists"
@@ -3781,6 +4030,12 @@ url = "https://github.com/notional-labs/cblurt"
 url = "https://github.com/notional-labs/ccs"
 
 [[repo]]
+url = "https://github.com/notional-labs/celestia-app"
+
+[[repo]]
+url = "https://github.com/notional-labs/celestia-core"
+
+[[repo]]
 url = "https://github.com/notional-labs/celestia-docs"
 
 [[repo]]
@@ -3823,6 +4078,9 @@ url = "https://github.com/notional-labs/classic"
 url = "https://github.com/notional-labs/classic-core"
 
 [[repo]]
+url = "https://github.com/notional-labs/cli"
+
+[[repo]]
 url = "https://github.com/notional-labs/comdex"
 
 [[repo]]
@@ -3832,7 +4090,16 @@ url = "https://github.com/notional-labs/cometbft"
 url = "https://github.com/notional-labs/cometbft-db"
 
 [[repo]]
+url = "https://github.com/notional-labs/composable"
+
+[[repo]]
 url = "https://github.com/notional-labs/composable-centauri"
+
+[[repo]]
+url = "https://github.com/notional-labs/composable-cosmos"
+
+[[repo]]
+url = "https://github.com/notional-labs/composable-ibc"
 
 [[repo]]
 url = "https://github.com/notional-labs/Composable-ICS-tesnet"
@@ -3851,6 +4118,9 @@ url = "https://github.com/notional-labs/cookiemonster"
 
 [[repo]]
 url = "https://github.com/notional-labs/corgi"
+
+[[repo]]
+url = "https://github.com/notional-labs/cosmos-axelar-etherum"
 
 [[repo]]
 url = "https://github.com/notional-labs/cosmos-db"
@@ -3989,6 +4259,9 @@ url = "https://github.com/notional-labs/dig-nft-marketplace-backend"
 url = "https://github.com/notional-labs/dig-web-wallet"
 
 [[repo]]
+url = "https://github.com/notional-labs/documents"
+
+[[repo]]
 url = "https://github.com/notional-labs/DOT-agoric-collateral-proposal"
 
 [[repo]]
@@ -3996,6 +4269,9 @@ url = "https://github.com/notional-labs/dst"
 
 [[repo]]
 url = "https://github.com/notional-labs/dym-testnet"
+
+[[repo]]
+url = "https://github.com/notional-labs/dymension"
 
 [[repo]]
 url = "https://github.com/notional-labs/em-ledger"
@@ -4098,6 +4374,18 @@ url = "https://github.com/notional-labs/hermes"
 url = "https://github.com/notional-labs/hub"
 
 [[repo]]
+url = "https://github.com/notional-labs/hyperlane-evm-setup"
+
+[[repo]]
+url = "https://github.com/notional-labs/hyperlane-monorepo"
+
+[[repo]]
+url = "https://github.com/notional-labs/hyperlane-registry"
+
+[[repo]]
+url = "https://github.com/notional-labs/hyperlane-warp-ui-template"
+
+[[repo]]
 url = "https://github.com/notional-labs/hyprspace"
 
 [[repo]]
@@ -4120,6 +4408,9 @@ url = "https://github.com/notional-labs/ibc-go-strangelove"
 
 [[repo]]
 url = "https://github.com/notional-labs/ibc-proto-rs"
+
+[[repo]]
+url = "https://github.com/notional-labs/ibc-rs"
 
 [[repo]]
 url = "https://github.com/notional-labs/ibc-test"
@@ -4357,6 +4648,9 @@ url = "https://github.com/notional-labs/noble-networks"
 url = "https://github.com/notional-labs/node"
 
 [[repo]]
+url = "https://github.com/notional-labs/nolus-core"
+
+[[repo]]
 url = "https://github.com/notional-labs/nolus-networks"
 
 [[repo]]
@@ -4368,6 +4662,9 @@ url = "https://github.com/notional-labs/notional.ventures"
 [[repo]]
 url = "https://github.com/notional-labs/notionalapi"
 missing = true
+
+[[repo]]
+url = "https://github.com/notional-labs/nucleic-chain"
 
 [[repo]]
 url = "https://github.com/notional-labs/nursery"
@@ -4530,6 +4827,9 @@ url = "https://github.com/notional-labs/shentu"
 url = "https://github.com/notional-labs/sifnode"
 
 [[repo]]
+url = "https://github.com/notional-labs/slinky"
+
+[[repo]]
 url = "https://github.com/notional-labs/something-special"
 
 [[repo]]
@@ -4540,6 +4840,7 @@ url = "https://github.com/notional-labs/sovereign"
 
 [[repo]]
 url = "https://github.com/notional-labs/spammy"
+missing = true
 
 [[repo]]
 url = "https://github.com/notional-labs/spm"
@@ -4555,6 +4856,9 @@ url = "https://github.com/notional-labs/stargaze"
 
 [[repo]]
 url = "https://github.com/notional-labs/starnamed"
+
+[[repo]]
+url = "https://github.com/notional-labs/starship"
 
 [[repo]]
 url = "https://github.com/notional-labs/stride"
@@ -4590,6 +4894,9 @@ url = "https://github.com/notional-labs/Tendermint_issues"
 url = "https://github.com/notional-labs/teritori-chain"
 
 [[repo]]
+url = "https://github.com/notional-labs/terra-core"
+
+[[repo]]
 url = "https://github.com/notional-labs/Test"
 
 [[repo]]
@@ -4603,6 +4910,12 @@ url = "https://github.com/notional-labs/testnets"
 
 [[repo]]
 url = "https://github.com/notional-labs/testnets-2"
+
+[[repo]]
+url = "https://github.com/notional-labs/the-box"
+
+[[repo]]
+url = "https://github.com/notional-labs/theft"
 
 [[repo]]
 url = "https://github.com/notional-labs/tinyport"
@@ -4639,6 +4952,12 @@ url = "https://github.com/notional-labs/UltraStableJuno"
 
 [[repo]]
 url = "https://github.com/notional-labs/umee"
+
+[[repo]]
+url = "https://github.com/notional-labs/upgrade-watcher"
+
+[[repo]]
+url = "https://github.com/notional-labs/v3-docs"
 
 [[repo]]
 url = "https://github.com/notional-labs/validator-bond-tool"
@@ -4725,6 +5044,7 @@ url = "https://github.com/okp4/tendermint"
 
 [[repo]]
 url = "https://github.com/okx/wasm-test"
+missing = true
 
 [[repo]]
 url = "https://github.com/olafsnow45/DefiLlama-Adapters"
@@ -4778,9 +5098,6 @@ url = "https://github.com/Onyx-Protocol/DefiLlama-Adapters"
 url = "https://github.com/Opdex/DefiLlama-Adapters"
 
 [[repo]]
-url = "https://github.com/openocean-finance/OpenOcean-swap-sdk"
-
-[[repo]]
 url = "https://github.com/openocean-finance/Widget"
 
 [[repo]]
@@ -4826,12 +5143,18 @@ url = "https://github.com/osmosis-labs/apps-list"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/osmosis-labs/arb-bot"
+
+[[repo]]
 url = "https://github.com/osmosis-labs/assetlists"
 tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/osmosis-labs/awesome"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/osmosis-labs/axelar-cgp-solidity"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/axelarjs-sdk"
@@ -4854,6 +5177,9 @@ url = "https://github.com/osmosis-labs/bindings"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/osmosis-labs/block-sdk"
+
+[[repo]]
 url = "https://github.com/osmosis-labs/btree"
 tags = ["Protocol"]
 
@@ -4874,12 +5200,18 @@ url = "https://github.com/osmosis-labs/cometbft"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/osmosis-labs/cometbft-db"
+
+[[repo]]
 url = "https://github.com/osmosis-labs/contract-list"
 tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cosmjs"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/osmosis-labs/cosmos-db"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/cosmos-gravity-bridge"
@@ -4914,6 +5246,12 @@ url = "https://github.com/osmosis-labs/cosmwasm-verify"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/osmosis-labs/cw-authenticator"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/cw-ibc-proxy"
+
+[[repo]]
 url = "https://github.com/osmosis-labs/cw-minimal-template"
 tags = ["Protocol"]
 
@@ -4936,6 +5274,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/osmosis-labs/cw-wbtc"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/osmosis-labs/defe"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/DefiLlama-Adapters"
@@ -5025,6 +5366,7 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/osmosis-labs/icns"
 tags = ["Protocol"]
+missing = true
 
 [[repo]]
 url = "https://github.com/osmosis-labs/icns-leaderboard"
@@ -5056,6 +5398,9 @@ url = "https://github.com/osmosis-labs/localosmosis-archive"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/osmosis-labs/mantlemint"
+
+[[repo]]
 url = "https://github.com/osmosis-labs/mesh-security"
 tags = ["Protocol"]
 
@@ -5072,12 +5417,18 @@ url = "https://github.com/osmosis-labs/networks"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/osmosis-labs/orderbook"
+
+[[repo]]
 url = "https://github.com/osmosis-labs/osmojs"
 tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/osmosis-labs/osmosis-alloy-asset-dashboard"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-bindings"
@@ -5091,6 +5442,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-frontend"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/osmosis-labs/osmosis-frontend-mobile"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-frontier"
@@ -5146,6 +5500,16 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/osmosis-labs/osmosis-web-cli"
 tags = ["Protocol"]
+missing = true
+
+[[repo]]
+url = "https://github.com/osmosis-labs/osmosis-website"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/osmoutil-go"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/passkey-authenticator"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/peggedassets-server"
@@ -5158,6 +5522,7 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/osmosis-labs/pyth-agent"
 tags = ["Protocol"]
+missing = true
 
 [[repo]]
 url = "https://github.com/osmosis-labs/questnet"
@@ -5184,7 +5549,19 @@ url = "https://github.com/osmosis-labs/slips"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/osmosis-labs/spend-limit-authenticator"
+
+[[repo]]
 url = "https://github.com/osmosis-labs/sqs"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/sqs-go-client"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/staketaxcsv"
+
+[[repo]]
+url = "https://github.com/osmosis-labs/swap-merkle-drop-take-home-starter"
 
 [[repo]]
 url = "https://github.com/osmosis-labs/swaprouter"
@@ -5321,6 +5698,7 @@ url = "https://github.com/pedrom34/ZoteroPortable-dev-repo"
 
 [[repo]]
 url = "https://github.com/peerapat40595/ZeroToHero.E22TWTh.Peerapat"
+missing = true
 
 [[repo]]
 url = "https://github.com/PeggyJV/aave-v2-cellar"
@@ -5339,6 +5717,7 @@ url = "https://github.com/pelith/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/pentest-dev/cli"
+missing = true
 
 [[repo]]
 url = "https://github.com/perifinance/DefiLlama-Adapters"
@@ -5482,6 +5861,7 @@ url = "https://github.com/Pistato/Code-Challenge-Submission-Switcheo"
 
 [[repo]]
 url = "https://github.com/pitalco/calypso"
+missing = true
 
 [[repo]]
 url = "https://github.com/piter53/IoTSim-Blockchain"
@@ -5543,12 +5923,14 @@ url = "https://github.com/poomthiti/wasm-deploy-example"
 
 [[repo]]
 url = "https://github.com/Portalverse-Network/cli"
+missing = true
 
 [[repo]]
 url = "https://github.com/ppclunghe/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/Practical-Technology/cli"
+missing = true
 
 [[repo]]
 url = "https://github.com/prasad-kumkar/messari-subgraphs"
@@ -5704,15 +6086,20 @@ missing = true
 
 [[repo]]
 url = "https://github.com/rafleberry/marble-ui"
+missing = true
 
 [[repo]]
 url = "https://github.com/rafleberry/osmosis-fork"
+missing = true
 
 [[repo]]
 url = "https://github.com/rajivpo/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/randyn/DefiLlama-Adapters"
+
+[[repo]]
+url = "https://github.com/rangesecurity/osmosis-ibc-rate-limits"
 
 [[repo]]
 url = "https://github.com/RanGojo/rango-sdk"
@@ -5734,6 +6121,7 @@ url = "https://github.com/rebuschain/rebus.app.web"
 
 [[repo]]
 url = "https://github.com/Reecepbcups/Canto"
+missing = true
 
 [[repo]]
 url = "https://github.com/Reecepbcups/cosmos-cache"
@@ -5758,9 +6146,11 @@ url = "https://github.com/Reecepbcups/craft"
 
 [[repo]]
 url = "https://github.com/Reecepbcups/cw-template"
+missing = true
 
 [[repo]]
 url = "https://github.com/Reecepbcups/eve-wasmbindings"
+missing = true
 
 [[repo]]
 url = "https://github.com/Reecepbcups/ibc-anywhere-webapp"
@@ -5770,12 +6160,15 @@ url = "https://github.com/Reecepbcups/infrastructure"
 
 [[repo]]
 url = "https://github.com/Reecepbcups/juno-pay-to-vote-contract"
+missing = true
 
 [[repo]]
 url = "https://github.com/Reecepbcups/juno-rust"
+missing = true
 
 [[repo]]
 url = "https://github.com/Reecepbcups/umee"
+missing = true
 
 [[repo]]
 url = "https://github.com/Reecepbcups/wba-cwz2h"
@@ -5831,6 +6224,9 @@ url = "https://github.com/richpoteto/Multichain"
 missing = true
 
 [[repo]]
+url = "https://github.com/ricofritzsche/osmosis-azure-blob-example"
+
+[[repo]]
 url = "https://github.com/rift-finance/DefiLlama-Adapters"
 
 [[repo]]
@@ -5838,6 +6234,9 @@ url = "https://github.com/rigelrozanski/tendermint"
 
 [[repo]]
 url = "https://github.com/riley-stride/osmosis"
+
+[[repo]]
+url = "https://github.com/Rinzler78/osmosis-launcher"
 
 [[repo]]
 url = "https://github.com/Ritisha997/Boli"
@@ -6009,6 +6408,7 @@ url = "https://github.com/ShibuiDAO/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/shibxrp/swapshibx"
+missing = true
 
 [[repo]]
 url = "https://github.com/shkfnly/berkeley61B"
@@ -6116,6 +6516,7 @@ url = "https://github.com/sonne-finance/yield-server"
 
 [[repo]]
 url = "https://github.com/sonr-graveyard/core"
+missing = true
 
 [[repo]]
 url = "https://github.com/sonrhq/core"
@@ -6235,24 +6636,30 @@ url = "https://github.com/Stefan4D/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/strangelove-ventures/juno"
+missing = true
 
 [[repo]]
 url = "https://github.com/strangelove-ventures/los-alamos"
 
 [[repo]]
 url = "https://github.com/strangelove-ventures/osmosis"
+missing = true
 
 [[repo]]
 url = "https://github.com/strangelove-ventures/relayer"
+missing = true
 
 [[repo]]
 url = "https://github.com/strangelove-ventures/sei-chain"
+missing = true
 
 [[repo]]
 url = "https://github.com/strangelove-ventures/sei-tendermint"
+missing = true
 
 [[repo]]
 url = "https://github.com/StreamSwapProtocol/cw-streamswap"
+missing = true
 
 [[repo]]
 url = "https://github.com/Stride-Labs/dimension-adapters"
@@ -6322,9 +6729,11 @@ missing = true
 
 [[repo]]
 url = "https://github.com/sychonix/explorer"
+missing = true
 
 [[repo]]
 url = "https://github.com/sychonix/explorer-"
+missing = true
 
 [[repo]]
 url = "https://github.com/SylvestreG/taurus-api"
@@ -6337,6 +6746,12 @@ url = "https://github.com/synapseweb3/relayer"
 
 [[repo]]
 url = "https://github.com/SynergyNodes/osmosis"
+
+[[repo]]
+url = "https://github.com/Synternet/osmosis-publisher"
+
+[[repo]]
+url = "https://github.com/SyntropyNet/osmosis-publisher"
 
 [[repo]]
 url = "https://github.com/Tabll/gemnasium-db"
@@ -6531,6 +6946,7 @@ url = "https://github.com/therne/cosmwasm-rbac"
 
 [[repo]]
 url = "https://github.com/theshoaibshafique/smartnodes-dashboard"
+missing = true
 
 [[repo]]
 url = "https://github.com/TiesNetwork/ties-client"
@@ -6557,6 +6973,7 @@ url = "https://github.com/Tocard/hopers-frontend"
 
 [[repo]]
 url = "https://github.com/Tokemak/defillama-yield-server"
+missing = true
 
 [[repo]]
 url = "https://github.com/TomAFrench/DefiLlama-Adapters"
@@ -6640,6 +7057,7 @@ url = "https://github.com/unifiprotocol/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/UnityXnity/DefiLlama-Adapters"
+missing = true
 
 [[repo]]
 url = "https://github.com/UniverseBI/LuckyAddress"
@@ -6664,6 +7082,7 @@ url = "https://github.com/vaiainnovations/scripta"
 
 [[repo]]
 url = "https://github.com/ValtokIsHere/waifu-rng"
+missing = true
 
 [[repo]]
 url = "https://github.com/vanilladefi/DefiLlama-Adapters"
@@ -6732,6 +7151,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/weavebuild/weave"
+missing = true
 
 [[repo]]
 url = "https://github.com/Web3-Builders-Alliance/Capstone.W22.MWT.mwackowski"
@@ -6799,12 +7219,6 @@ url = "https://github.com/winter520/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/Woodpile37/DefiLlama-Adapters"
-
-[[repo]]
-url = "https://github.com/woonetwork/defillama-server"
-
-[[repo]]
-url = "https://github.com/woonetwork/yield-server"
 
 [[repo]]
 url = "https://github.com/wrappedfi/DefiLlama-Adapters"
@@ -6925,6 +7339,7 @@ url = "https://github.com/zavodil/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/zbraniecki/investigator2"
+missing = true
 
 [[repo]]
 url = "https://github.com/zdeadex/teritori-chain"
@@ -6947,6 +7362,7 @@ url = "https://github.com/zieglerher/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/ziptalk/Evridge"
+missing = true
 
 [[repo]]
 url = "https://github.com/zmanian/cw-usdc"

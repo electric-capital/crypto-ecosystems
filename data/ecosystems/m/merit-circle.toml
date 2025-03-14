@@ -1,16 +1,23 @@
 # Ecosystem Level Information
 title = "Merit Circle"
 
-sub_ecosystems = ["LayerZero"]
+sub_ecosystems = []
 
 github_organizations = ["https://github.com/Merit-Circle"]
 
 # Repositories
 [[repo]]
+url = "https://github.com/Merit-Circle/beam-api-clients"
+
+[[repo]]
 url = "https://github.com/Merit-Circle/beam-brand"
 
 [[repo]]
+url = "https://github.com/Merit-Circle/beam-client-unity"
+
+[[repo]]
 url = "https://github.com/Merit-Circle/beam-csharp"
+missing = true
 
 [[repo]]
 url = "https://github.com/Merit-Circle/beam-docs"
@@ -18,9 +25,14 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Merit-Circle/beam-faucet"
+missing = true
+
+[[repo]]
+url = "https://github.com/Merit-Circle/beam-faucet-deprecated"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/beam-node"
+missing = true
 
 [[repo]]
 url = "https://github.com/Merit-Circle/beam-relayer"
@@ -28,9 +40,26 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Merit-Circle/beam-reservoir"
+missing = true
 
 [[repo]]
 url = "https://github.com/Merit-Circle/beam-sdk"
+
+[[repo]]
+url = "https://github.com/Merit-Circle/beam-sdk-unity"
+
+[[repo]]
+url = "https://github.com/Merit-Circle/beam-sdk-unity-example"
+
+[[repo]]
+url = "https://github.com/Merit-Circle/beam-sdk-unreal"
+missing = true
+
+[[repo]]
+url = "https://github.com/Merit-Circle/beam-sdk-unreal-example"
+
+[[repo]]
+url = "https://github.com/Merit-Circle/beam-sdk-web"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/beam-subgraphs"
@@ -53,10 +82,19 @@ url = "https://github.com/Merit-Circle/beamswap"
 missing = true
 
 [[repo]]
+url = "https://github.com/Merit-Circle/constitution-ERC1155"
+
+[[repo]]
 url = "https://github.com/Merit-Circle/distributor-bot"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/ens-contracts"
+
+[[repo]]
+url = "https://github.com/Merit-Circle/flayer"
+
+[[repo]]
+url = "https://github.com/Merit-Circle/governance"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/layerzero-contracts"
@@ -66,9 +104,11 @@ url = "https://github.com/Merit-Circle/layerzero-solidity-examples"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/merit-dao"
+missing = true
 
 [[repo]]
 url = "https://github.com/Merit-Circle/merit-liquidity-mining"
+missing = true
 
 [[repo]]
 url = "https://github.com/Merit-Circle/merit-merch"
@@ -88,6 +128,7 @@ url = "https://github.com/Merit-Circle/public-chain-assets"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/reservoir-indexer"
+missing = true
 
 [[repo]]
 url = "https://github.com/Merit-Circle/reservoir-kit"
@@ -103,6 +144,9 @@ url = "https://github.com/Merit-Circle/staking-v2-unlock"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/studio"
+
+[[repo]]
+url = "https://github.com/Merit-Circle/tokenbeamer"
 
 [[repo]]
 url = "https://github.com/Merit-Circle/wagmi"

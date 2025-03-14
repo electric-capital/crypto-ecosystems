@@ -3,7 +3,11 @@ title = "Hyperledger"
 
 sub_ecosystems = []
 
-github_organizations = ["https://github.com/hyperledger"]
+github_organizations = [
+  "https://github.com/hyperledger",
+  "https://github.com/hyperledger-cacti",
+  "https://github.com/hyperledger-iroha",
+]
 
 # Repositories
 [[repo]]
@@ -91,6 +95,108 @@ url = "https://github.com/hyperledger-archives/sawtooth-next-directory"
 url = "https://github.com/hyperledger-archives/sawtooth-supply-chain"
 
 [[repo]]
+url = "https://github.com/hyperledger-cacti/cacti"
+
+[[repo]]
+url = "https://github.com/hyperledger-cacti/governance"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/const-str"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/const-vec"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/governance"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-2-docs"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-2-examples"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-ametsuchi"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-android"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-api"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-config-base"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-crypto"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-dco"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-deploy"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-docker"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-docs-l10n"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-dotnet"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-ed25519"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-ffi"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-ios"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-java"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-javascript"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-network-tools"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-news"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-python"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-rfcs"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-scala"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-state-migration-tool"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-tui-client"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-wasm-codec"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha-wasm-test-runner"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/iroha2-isi-interface"
+
+[[repo]]
+url = "https://github.com/hyperledger-iroha/libiroha"
+
+[[repo]]
 url = "https://github.com/hyperledger-labs/aries-fabric-wrapper"
 
 [[repo]]
@@ -98,6 +204,9 @@ url = "https://github.com/hyperledger-labs/blockchain-explorer"
 
 [[repo]]
 url = "https://github.com/hyperledger/.github"
+
+[[repo]]
+url = "https://github.com/hyperledger/anoncreds"
 
 [[repo]]
 url = "https://github.com/hyperledger/anoncreds-clsignatures-rs"
@@ -122,6 +231,9 @@ url = "https://github.com/hyperledger/anoncreds-tex"
 
 [[repo]]
 url = "https://github.com/hyperledger/anoncreds-v2-rs"
+
+[[repo]]
+url = "https://github.com/hyperledger/anoncreds-wrapper-javascript"
 
 [[repo]]
 url = "https://github.com/hyperledger/aries"
@@ -168,6 +280,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/hyperledger/aries-askar"
+
+[[repo]]
+url = "https://github.com/hyperledger/aries-bbs-go"
 
 [[repo]]
 url = "https://github.com/hyperledger/aries-bbs-rs"
@@ -314,6 +429,9 @@ url = "https://github.com/hyperledger/besu"
 url = "https://github.com/hyperledger/besu-docs"
 
 [[repo]]
+url = "https://github.com/hyperledger/besu-errorprone-checks"
+
+[[repo]]
 url = "https://github.com/hyperledger/besu-native"
 
 [[repo]]
@@ -451,6 +569,9 @@ missing = true
 url = "https://github.com/hyperledger/firefly"
 
 [[repo]]
+url = "https://github.com/hyperledger/firefly-cardano"
+
+[[repo]]
 url = "https://github.com/hyperledger/firefly-cli"
 
 [[repo]]
@@ -544,7 +665,43 @@ url = "https://github.com/hyperledger/hyperledger.dev"
 url = "https://github.com/hyperledger/hyperledger.github.io"
 
 [[repo]]
+url = "https://github.com/hyperledger/identus"
+
+[[repo]]
+url = "https://github.com/hyperledger/identus-apollo"
+
+[[repo]]
+url = "https://github.com/hyperledger/identus-cloud-agent"
+
+[[repo]]
+url = "https://github.com/hyperledger/identus-docs"
+
+[[repo]]
+url = "https://github.com/hyperledger/identus-edge-agent-sdk-kmp"
+
+[[repo]]
+url = "https://github.com/hyperledger/identus-edge-agent-sdk-swift"
+
+[[repo]]
+url = "https://github.com/hyperledger/identus-edge-agent-sdk-ts"
+
+[[repo]]
+url = "https://github.com/hyperledger/identus-keycloak-plugins"
+
+[[repo]]
+url = "https://github.com/hyperledger/identus-mediator"
+
+[[repo]]
+url = "https://github.com/hyperledger/identus-vdr"
+
+[[repo]]
 url = "https://github.com/hyperledger/IDWG"
+
+[[repo]]
+url = "https://github.com/hyperledger/indy"
+
+[[repo]]
+url = "https://github.com/hyperledger/indy-besu"
 
 [[repo]]
 url = "https://github.com/hyperledger/indy-bls-wrapper-python"
@@ -582,6 +739,9 @@ url = "https://github.com/hyperledger/indy-node-monitor"
 
 [[repo]]
 url = "https://github.com/hyperledger/indy-plenum"
+
+[[repo]]
+url = "https://github.com/hyperledger/indy-read-replica"
 
 [[repo]]
 url = "https://github.com/hyperledger/indy-sdk"
@@ -779,6 +939,45 @@ url = "https://github.com/hyperledger/ursa-rfcs"
 
 [[repo]]
 url = "https://github.com/hyperledger/ursa-wrapper-go"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j-build-tools"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j-cli"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j-docs"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j-evm"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j-gradle-plugin"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j-installer"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j-maven-plugin"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j-openapi"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j-openapi-gradle-plugin"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j-sokt"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j-solidity-gradle-plugin"
+
+[[repo]]
+url = "https://github.com/hyperledger/web3j-unit"
 
 [[repo]]
 url = "https://github.com/rpi-scales/biomedical-image-transfer"

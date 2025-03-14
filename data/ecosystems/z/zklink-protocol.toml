@@ -1,16 +1,35 @@
 # Ecosystem Level Information
 title = "zkLink Protocol"
 
-sub_ecosystems = []
+sub_ecosystems = ["DeSyn Protocol", "iZUMi.finance", "LayerBank"]
 
 github_organizations = ["https://github.com/zkLinkProtocol"]
 
 # Repositories
 [[repo]]
+url = "https://github.com/RockX-SG/stake"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/advanced-circuit-component"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/aggregator-circuit"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/bellman"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/block-explorer"
+missing = true
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/blockscout"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/bolt-pumpspace-interface"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/bridges-server"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/cairo"
@@ -20,13 +39,52 @@ url = "https://github.com/zkLinkProtocol/cairo1-bytes"
 missing = true
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/chains"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/circuit_testing"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/dapp-portal"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/DefiLlama-Adapters"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/dex-simple-demo"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/ec-gpu"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/era-contracts"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/era-test-node"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/era-uniswap-v3-periphery"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/era-zk_evm"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/era-zkevm_circuits"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/era-zkevm_opcode_defs"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/era-zkevm_test_harness"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/franklin-crypto"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/fusion-dance-parade"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/graph-node"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/groth16-sol-verifier"
@@ -35,16 +93,52 @@ url = "https://github.com/zkLinkProtocol/groth16-sol-verifier"
 url = "https://github.com/zkLinkProtocol/link_aggregation_circuit"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/lrt-points-distribute"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/magiclink-agent"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/nova-point-redistribute"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/nova-point-v2"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/nova-subgraph-collaboration"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/pairing"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/parallel-signer"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/public-api-docs"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/recover_state_server"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/relayer"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/relayer_contracts"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/relayer_sdk"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/rescue-poseidon"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/rig"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/routing-api"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/scw-contracts"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/stark_util"
@@ -53,7 +147,13 @@ url = "https://github.com/zkLinkProtocol/stark_util"
 url = "https://github.com/zkLinkProtocol/starknet-rs"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/test-mini-app-login"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/zkjump-contract"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-active-address"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-audit-report"
@@ -61,6 +161,9 @@ url = "https://github.com/zkLinkProtocol/zklink-audit-report"
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-broker"
 missing = true
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-circuit-aggregator"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-contracts"
@@ -75,6 +178,9 @@ url = "https://github.com/zkLinkProtocol/zklink-docs"
 url = "https://github.com/zkLinkProtocol/zklink-docs-gitbook"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-evm-contracts"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-exchange"
 missing = true
 
@@ -83,10 +189,46 @@ url = "https://github.com/zkLinkProtocol/zklink-homepage"
 missing = true
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-intent-url"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-js-sdk"
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-l3-contracts"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-l3summit-web"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-merge-token-graph"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-nova-app"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-nova-ecosystem"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-nova-links-sbt-trademarks"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-nova-oracle"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-nova-token-list"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-oracle"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-proof-market-graph"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-solver"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-stake-contracts"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zklink-starknet-contract-test"
@@ -112,7 +254,16 @@ url = "https://github.com/zkLinkProtocol/zklink-wihitepaper"
 missing = true
 
 [[repo]]
+url = "https://github.com/zkLinkProtocol/zklink-x-local-node"
+
+[[repo]]
 url = "https://github.com/zkLinkProtocol/zklink_sdk"
 
 [[repo]]
 url = "https://github.com/zkLinkProtocol/zkp-curve-circuit"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zksync-era"
+
+[[repo]]
+url = "https://github.com/zkLinkProtocol/zksync-withdrawal-finalizer"

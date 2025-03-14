@@ -1,15 +1,7 @@
 # Ecosystem Level Information
 title = "Litecoin"
 
-sub_ecosystems = [
-  "BitcartCC",
-  "Cake Labs",
-  "Edge",
-  "Shapeshift",
-  "Shift Crypto",
-  "THORChain",
-  "Venly",
-]
+sub_ecosystems = ["BitcartCC", "Cake Labs", "Cryptopower", "Edge", "Shift Crypto", "Venly"]
 
 github_organizations = [
   "https://github.com/litecoin-foundation",
@@ -123,6 +115,15 @@ url = "https://github.com/litecoin-foundation/litecoin-wallet"
 missing = true
 
 [[repo]]
+url = "https://github.com/litecoin-foundation/litecoin.info"
+
+[[repo]]
+url = "https://github.com/litecoin-foundation/litecoin_analytics"
+
+[[repo]]
+url = "https://github.com/litecoin-foundation/litecoin_forecasting"
+
+[[repo]]
 url = "https://github.com/litecoin-foundation/litecoinbook"
 
 [[repo]]
@@ -192,6 +193,9 @@ missing = true
 url = "https://github.com/litecoin-foundation/mining-pools-ltc"
 
 [[repo]]
+url = "https://github.com/litecoin-foundation/neutrinocache"
+
+[[repo]]
 url = "https://github.com/litecoin-foundation/old_litewallet-android"
 missing = true
 
@@ -214,11 +218,20 @@ missing = true
 url = "https://github.com/litecoin-foundation/react-native-lndltc"
 
 [[repo]]
+url = "https://github.com/litecoin-foundation/react-native-turbo-scrypt"
+
+[[repo]]
 url = "https://github.com/litecoin-foundation/redux-persist-sensitive-storage"
 
 [[repo]]
 url = "https://github.com/litecoin-foundation/spvwallet"
 missing = true
+
+[[repo]]
+url = "https://github.com/litecoin-foundation/umbrel-community-app-store"
+
+[[repo]]
+url = "https://github.com/litecoin-foundation/umbrel-docker-scripts"
 
 [[repo]]
 url = "https://github.com/litecoin-foundation/wallet-interface"
@@ -308,6 +321,9 @@ url = "https://github.com/litecoin-project/p2pool-scanner"
 
 [[repo]]
 url = "https://github.com/litecoin-project/p2sh-convert"
+
+[[repo]]
+url = "https://github.com/litecoin-project/secp256k1"
 
 [[repo]]
 url = "https://github.com/litecore-archive/insight-lite-api"

@@ -1,11 +1,14 @@
 # Ecosystem Level Information
 title = "Phala Network"
 
-sub_ecosystems = []
+sub_ecosystems = ["Apillon", "SubWallet", "Sygma"]
 
 github_organizations = ["https://github.com/Phala-Network"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/hack-a-chain-software/bazk"
+
 [[repo]]
 url = "https://github.com/Phala-Network/aead-io"
 
@@ -14,6 +17,51 @@ url = "https://github.com/Phala-Network/AEADs"
 
 [[repo]]
 url = "https://github.com/Phala-Network/aho-corasick-sgx"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-contract-tools"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-contract-viem"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-template-allora"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-template-anthropic"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-template-apillon"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-template-brian"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-template-chainbase"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-template-func-calling"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-template-hono-html"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-template-langchain"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-template-mbd"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-template-openai"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-template-pond"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai-agent-template-redpill"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ai16zTEE"
 
 [[repo]]
 url = "https://github.com/Phala-Network/airstack-phat-contract"
@@ -29,6 +77,7 @@ url = "https://github.com/Phala-Network/app-backend"
 
 [[repo]]
 url = "https://github.com/Phala-Network/apps"
+missing = true
 
 [[repo]]
 url = "https://github.com/Phala-Network/apps-ng"
@@ -46,6 +95,9 @@ url = "https://github.com/Phala-Network/async-io-sgx"
 url = "https://github.com/Phala-Network/awesome-phat-contracts"
 
 [[repo]]
+url = "https://github.com/Phala-Network/base-circulation-squid"
+
+[[repo]]
 url = "https://github.com/Phala-Network/bitcoin_hashes"
 
 [[repo]]
@@ -60,6 +112,9 @@ missing = true
 
 [[repo]]
 url = "https://github.com/Phala-Network/bounty-program"
+
+[[repo]]
+url = "https://github.com/Phala-Network/budget-balancer"
 
 [[repo]]
 url = "https://github.com/Phala-Network/builders-program-milestone-delivery"
@@ -104,6 +159,9 @@ url = "https://github.com/Phala-Network/chainbridge-utils"
 url = "https://github.com/Phala-Network/chainextension-registry"
 
 [[repo]]
+url = "https://github.com/Phala-Network/circulation-squid"
+
+[[repo]]
 url = "https://github.com/Phala-Network/claim-token"
 
 [[repo]]
@@ -138,6 +196,9 @@ url = "https://github.com/Phala-Network/cryptocorrosion-sgx"
 url = "https://github.com/Phala-Network/cumulus"
 
 [[repo]]
+url = "https://github.com/Phala-Network/dcap-qvl"
+
+[[repo]]
 url = "https://github.com/Phala-Network/dcap-test"
 
 [[repo]]
@@ -147,13 +208,25 @@ url = "https://github.com/Phala-Network/DefiLlama-Adapters"
 url = "https://github.com/Phala-Network/delete-older-releases"
 
 [[repo]]
+url = "https://github.com/Phala-Network/deploy-miner-solidity"
+
+[[repo]]
 url = "https://github.com/Phala-Network/discord-motion-bot"
 
 [[repo]]
 url = "https://github.com/Phala-Network/drink-pink-runtime"
 
 [[repo]]
+url = "https://github.com/Phala-Network/dstack"
+
+[[repo]]
 url = "https://github.com/Phala-Network/dylint-rules"
+
+[[repo]]
+url = "https://github.com/Phala-Network/eliza-starter"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ElizaTutorial"
 
 [[repo]]
 url = "https://github.com/Phala-Network/Encode-Hackathon-2021"
@@ -171,10 +244,20 @@ url = "https://github.com/Phala-Network/erc20-exchange"
 url = "https://github.com/Phala-Network/erc20-relayer"
 
 [[repo]]
+url = "https://github.com/Phala-Network/err_err_ttyl"
+missing = true
+
+[[repo]]
 url = "https://github.com/Phala-Network/ethabi"
 
 [[repo]]
 url = "https://github.com/Phala-Network/ETHDenver-2022"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ethereum-circulation-squid"
+
+[[repo]]
+url = "https://github.com/Phala-Network/ethereum-lists-chains"
 
 [[repo]]
 url = "https://github.com/Phala-Network/ethglobal-paris-smart-cookies"
@@ -204,6 +287,9 @@ url = "https://github.com/Phala-Network/finality-grandpa"
 url = "https://github.com/Phala-Network/fork-off-relaychain"
 
 [[repo]]
+url = "https://github.com/Phala-Network/framehub-template"
+
+[[repo]]
 url = "https://github.com/Phala-Network/futures-rs-sgx"
 
 [[repo]]
@@ -219,7 +305,13 @@ url = "https://github.com/Phala-Network/growth-program"
 url = "https://github.com/Phala-Network/gsc"
 
 [[repo]]
+url = "https://github.com/Phala-Network/h100-llm-benchmark"
+
+[[repo]]
 url = "https://github.com/Phala-Network/hello-world-by-polkadot"
+
+[[repo]]
+url = "https://github.com/Phala-Network/hopper-llm-benchmark"
 
 [[repo]]
 url = "https://github.com/Phala-Network/http_req-sgx"
@@ -238,6 +330,9 @@ url = "https://github.com/Phala-Network/incubator-teaclave-sgx-sdk"
 
 [[repo]]
 url = "https://github.com/Phala-Network/index-contract"
+
+[[repo]]
+url = "https://github.com/Phala-Network/index-registry"
 
 [[repo]]
 url = "https://github.com/Phala-Network/index-sdk"
@@ -301,6 +396,12 @@ url = "https://github.com/Phala-Network/LIPs"
 url = "https://github.com/Phala-Network/memchr-sgx"
 
 [[repo]]
+url = "https://github.com/Phala-Network/meta-confidential-compute"
+
+[[repo]]
+url = "https://github.com/Phala-Network/meta-dstack"
+
+[[repo]]
 url = "https://github.com/Phala-Network/mining-data-server"
 
 [[repo]]
@@ -310,7 +411,16 @@ url = "https://github.com/Phala-Network/mining-subsquid"
 url = "https://github.com/Phala-Network/miningctld"
 
 [[repo]]
+url = "https://github.com/Phala-Network/mirrored-price-feed"
+
+[[repo]]
 url = "https://github.com/Phala-Network/near-bridge"
+
+[[repo]]
+url = "https://github.com/Phala-Network/nextjs-viem-dstack-template"
+
+[[repo]]
+url = "https://github.com/Phala-Network/nextjs-viem-tee-sim-template"
 
 [[repo]]
 url = "https://github.com/Phala-Network/once_cell-sgx"
@@ -347,6 +457,9 @@ missing = true
 url = "https://github.com/Phala-Network/pdiem-relayer"
 
 [[repo]]
+url = "https://github.com/Phala-Network/pha-circulation-server"
+
+[[repo]]
 url = "https://github.com/Phala-Network/phala-blockchain"
 
 [[repo]]
@@ -354,6 +467,9 @@ url = "https://github.com/Phala-Network/phala-blueprint-proposals"
 
 [[repo]]
 url = "https://github.com/Phala-Network/phala-bounty-tracker"
+
+[[repo]]
+url = "https://github.com/Phala-Network/phala-cloud-community"
 
 [[repo]]
 url = "https://github.com/Phala-Network/phala-docker"
@@ -366,6 +482,9 @@ url = "https://github.com/Phala-Network/phala-docs-old"
 
 [[repo]]
 url = "https://github.com/Phala-Network/phala-gitbook-docs"
+
+[[repo]]
+url = "https://github.com/Phala-Network/phala-nts"
 
 [[repo]]
 url = "https://github.com/Phala-Network/phala-parachain.old"
@@ -432,6 +551,9 @@ url = "https://github.com/Phala-Network/phat-contract-ui"
 url = "https://github.com/Phala-Network/phat-dashboard"
 
 [[repo]]
+url = "https://github.com/Phala-Network/phat-frame-gateway"
+
+[[repo]]
 url = "https://github.com/Phala-Network/phat-function-cli"
 
 [[repo]]
@@ -445,6 +567,9 @@ url = "https://github.com/Phala-Network/phat-pod-tools"
 
 [[repo]]
 url = "https://github.com/Phala-Network/phat-quickjs"
+
+[[repo]]
+url = "https://github.com/Phala-Network/pink-drink"
 
 [[repo]]
 url = "https://github.com/Phala-Network/pink-json"
@@ -486,6 +611,9 @@ url = "https://github.com/Phala-Network/polkadot-launch"
 url = "https://github.com/Phala-Network/polkadot-scripts"
 
 [[repo]]
+url = "https://github.com/Phala-Network/polkadot-sdk"
+
+[[repo]]
 url = "https://github.com/Phala-Network/polkadot-utils"
 missing = true
 
@@ -504,16 +632,31 @@ missing = true
 url = "https://github.com/Phala-Network/prelaunch-token"
 
 [[repo]]
+url = "https://github.com/Phala-Network/prpc"
+
+[[repo]]
 url = "https://github.com/Phala-Network/prpc-protos"
 
 [[repo]]
 url = "https://github.com/Phala-Network/pruntime-node-list"
 
 [[repo]]
+url = "https://github.com/Phala-Network/python-dstack-template"
+
+[[repo]]
+url = "https://github.com/Phala-Network/python-tee-sim-template"
+
+[[repo]]
 url = "https://github.com/Phala-Network/qjs-sys"
 
 [[repo]]
+url = "https://github.com/Phala-Network/quickjs-ng"
+
+[[repo]]
 url = "https://github.com/Phala-Network/ra-test"
+
+[[repo]]
+url = "https://github.com/Phala-Network/redpill-tee-sim-template"
 
 [[repo]]
 url = "https://github.com/Phala-Network/rfcs"
@@ -552,6 +695,10 @@ url = "https://github.com/Phala-Network/rust-secp256k1"
 url = "https://github.com/Phala-Network/safe-vest-module"
 
 [[repo]]
+url = "https://github.com/Phala-Network/scripts-toolbox"
+missing = true
+
+[[repo]]
 url = "https://github.com/Phala-Network/service-network"
 
 [[repo]]
@@ -565,13 +712,25 @@ url = "https://github.com/Phala-Network/sidevm-emscripten"
 url = "https://github.com/Phala-Network/sidevm-quickjs"
 
 [[repo]]
+url = "https://github.com/Phala-Network/slot-machine"
+
+[[repo]]
 url = "https://github.com/Phala-Network/slot_crowdfunding"
 
 [[repo]]
 url = "https://github.com/Phala-Network/smol-ask"
 
 [[repo]]
+url = "https://github.com/Phala-Network/soketto"
+
+[[repo]]
+url = "https://github.com/Phala-Network/solidity-contracts"
+
+[[repo]]
 url = "https://github.com/Phala-Network/solo-mining-scripts"
+
+[[repo]]
+url = "https://github.com/Phala-Network/spore-fun-docs"
 
 [[repo]]
 url = "https://github.com/Phala-Network/stakedrop"
@@ -584,6 +743,9 @@ url = "https://github.com/Phala-Network/stakepad"
 
 [[repo]]
 url = "https://github.com/Phala-Network/stakepool-subquery"
+
+[[repo]]
+url = "https://github.com/Phala-Network/streamr-agent"
 
 [[repo]]
 url = "https://github.com/Phala-Network/styleguide"
@@ -636,6 +798,9 @@ url = "https://github.com/Phala-Network/sygma-relayer-deployment-old"
 url = "https://github.com/Phala-Network/sygma-substrate-pallets"
 
 [[repo]]
+url = "https://github.com/Phala-Network/tee-cloud-cli"
+
+[[repo]]
 url = "https://github.com/Phala-Network/template-vrf"
 
 [[repo]]
@@ -663,10 +828,22 @@ url = "https://github.com/Phala-Network/typedefs"
 url = "https://github.com/Phala-Network/Unblock-Hackathon-2022"
 
 [[repo]]
+url = "https://github.com/Phala-Network/vllm"
+
+[[repo]]
 url = "https://github.com/Phala-Network/w3a-backend"
 
 [[repo]]
 url = "https://github.com/Phala-Network/w3a-gateway"
+
+[[repo]]
+url = "https://github.com/Phala-Network/wapo"
+
+[[repo]]
+url = "https://github.com/Phala-Network/wapo-gateway"
+
+[[repo]]
+url = "https://github.com/Phala-Network/wapo-prometheus"
 
 [[repo]]
 url = "https://github.com/Phala-Network/wasm"
@@ -697,3 +874,6 @@ url = "https://github.com/Phala-Network/wpcap"
 
 [[repo]]
 url = "https://github.com/Phala-Network/yasna.rs"
+
+[[repo]]
+url = "https://github.com/Phala-Network/zk-sgx-attester"

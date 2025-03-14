@@ -3,11 +3,18 @@ title = "Aragon"
 
 sub_ecosystems = ["Vocdoni"]
 
-github_organizations = ["https://github.com/aragon", "https://github.com/aragonzkresearch"]
+github_organizations = [
+  "https://github.com/aragon",
+  "https://github.com/aragonone",
+  "https://github.com/aragonzkresearch",
+]
 
 # Repositories
 [[repo]]
 url = "https://github.com/aragon/admin-plugin"
+
+[[repo]]
+url = "https://github.com/aragon/admin-plugin-old"
 
 [[repo]]
 url = "https://github.com/aragon/agp-sign"
@@ -49,6 +56,10 @@ url = "https://github.com/aragon/apollo"
 [[repo]]
 url = "https://github.com/aragon/app"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/aragon/app-backend"
+missing = true
 
 [[repo]]
 url = "https://github.com/aragon/apps"
@@ -127,6 +138,9 @@ url = "https://github.com/aragon/aragon-network-deploy"
 url = "https://github.com/aragon/aragon-network-token"
 
 [[repo]]
+url = "https://github.com/aragon/aragon-r0-voting-protocol"
+
+[[repo]]
 url = "https://github.com/aragon/aragon-react-boilerplate"
 
 [[repo]]
@@ -148,6 +162,9 @@ url = "https://github.com/aragon/aragon-web"
 
 [[repo]]
 url = "https://github.com/aragon/aragon-wiki"
+
+[[repo]]
+url = "https://github.com/aragon/aragon-zkGovernance"
 
 [[repo]]
 url = "https://github.com/aragon/aragon.js"
@@ -185,6 +202,9 @@ url = "https://github.com/aragon/buidler-aragon"
 
 [[repo]]
 url = "https://github.com/aragon/builders-portal"
+
+[[repo]]
+url = "https://github.com/aragon/circuit-breaker-plugin"
 
 [[repo]]
 url = "https://github.com/aragon/cli"
@@ -265,6 +285,9 @@ url = "https://github.com/aragon/dao-website"
 url = "https://github.com/aragon/Data-and-Insights"
 
 [[repo]]
+url = "https://github.com/aragon/delegation-wall"
+
+[[repo]]
 url = "https://github.com/aragon/deployments"
 
 [[repo]]
@@ -328,6 +351,10 @@ url = "https://github.com/aragon/forum.aragon.org"
 url = "https://github.com/aragon/fundraising"
 
 [[repo]]
+url = "https://github.com/aragon/GaaC"
+missing = true
+
+[[repo]]
 url = "https://github.com/aragon/gelato-automatic-plugin-execution"
 
 [[repo]]
@@ -340,10 +367,19 @@ url = "https://github.com/aragon/geth-devnet"
 url = "https://github.com/aragon/github"
 
 [[repo]]
+url = "https://github.com/aragon/gov-app-template"
+
+[[repo]]
+url = "https://github.com/aragon/gov-ui-kit"
+
+[[repo]]
 url = "https://github.com/aragon/govern"
 
 [[repo]]
 url = "https://github.com/aragon/governance"
+
+[[repo]]
+url = "https://github.com/aragon/governance-app-template"
 
 [[repo]]
 url = "https://github.com/aragon/governance-plugin-boilerplate"
@@ -397,6 +433,12 @@ url = "https://github.com/aragon/labs"
 url = "https://github.com/aragon/liquidity.aragon.org"
 
 [[repo]]
+url = "https://github.com/aragon/lock-to-veto-plugin"
+
+[[repo]]
+url = "https://github.com/aragon/lock-to-vote-plugin"
+
+[[repo]]
 url = "https://github.com/aragon/metamask-plugin"
 
 [[repo]]
@@ -406,7 +448,13 @@ url = "https://github.com/aragon/meteor-build-client"
 url = "https://github.com/aragon/minime"
 
 [[repo]]
+url = "https://github.com/aragon/mongodb-atlas-backup"
+
+[[repo]]
 url = "https://github.com/aragon/multichain-voting"
+
+[[repo]]
+url = "https://github.com/aragon/multisig-plugin"
 
 [[repo]]
 url = "https://github.com/aragon/multisig-transparency"
@@ -464,6 +512,12 @@ url = "https://github.com/aragon/ovote-node"
 url = "https://github.com/aragon/plumbery"
 
 [[repo]]
+url = "https://github.com/aragon/polygon-deployment"
+
+[[repo]]
+url = "https://github.com/aragon/polygon-snapshot-strategy"
+
+[[repo]]
 url = "https://github.com/aragon/post-message-stream"
 
 [[repo]]
@@ -471,6 +525,9 @@ url = "https://github.com/aragon/ppf"
 
 [[repo]]
 url = "https://github.com/aragon/proposal-manager"
+
+[[repo]]
+url = "https://github.com/aragon/proposal-testing"
 
 [[repo]]
 url = "https://github.com/aragon/protocol"
@@ -495,6 +552,9 @@ url = "https://github.com/aragon/research-blog"
 
 [[repo]]
 url = "https://github.com/aragon/sdk"
+
+[[repo]]
+url = "https://github.com/aragon/security-backstop-plugin"
 
 [[repo]]
 url = "https://github.com/aragon/security-review"
@@ -527,6 +587,9 @@ url = "https://github.com/aragon/solidity-inspector"
 url = "https://github.com/aragon/specs"
 
 [[repo]]
+url = "https://github.com/aragon/staged-proposal-processor-plugin"
+
+[[repo]]
 url = "https://github.com/aragon/staking"
 
 [[repo]]
@@ -542,7 +605,16 @@ url = "https://github.com/aragon/superfluid-voting-nft"
 url = "https://github.com/aragon/svrp"
 
 [[repo]]
+url = "https://github.com/aragon/taiko-contracts"
+
+[[repo]]
+url = "https://github.com/aragon/taiko-ui"
+
+[[repo]]
 url = "https://github.com/aragon/tao-voting-aragon-app"
+
+[[repo]]
+url = "https://github.com/aragon/tenderize-ui"
 
 [[repo]]
 url = "https://github.com/aragon/testrpc"
@@ -554,10 +626,16 @@ url = "https://github.com/aragon/token-amount"
 url = "https://github.com/aragon/token-distribution-plugins"
 
 [[repo]]
+url = "https://github.com/aragon/token-voting-plugin"
+
+[[repo]]
 url = "https://github.com/aragon/token-wrapper-aragon-app"
 
 [[repo]]
 url = "https://github.com/aragon/Tokens"
+
+[[repo]]
+url = "https://github.com/aragon/toucan-voting-plugin"
 
 [[repo]]
 url = "https://github.com/aragon/ui"
@@ -603,6 +681,9 @@ url = "https://github.com/aragon/v2-migrator"
 url = "https://github.com/aragon/valid-hash-condition-plugin"
 
 [[repo]]
+url = "https://github.com/aragon/ve-governance"
+
+[[repo]]
 url = "https://github.com/aragon/whitepaper"
 
 [[repo]]
@@ -615,7 +696,109 @@ url = "https://github.com/aragon/zeppelin-solidity"
 url = "https://github.com/aragon/zk-circuits-artifacts"
 
 [[repo]]
+url = "https://github.com/aragonone/agreements-subgraph"
+
+[[repo]]
+url = "https://github.com/aragonone/ant-balancer-rewards"
+
+[[repo]]
+url = "https://github.com/aragonone/ant-balancer-rewards-results"
+
+[[repo]]
+url = "https://github.com/aragonone/approvals"
+
+[[repo]]
+url = "https://github.com/aragonone/aragon.one"
+
+[[repo]]
+url = "https://github.com/aragonone/araswap-workshop"
+
+[[repo]]
+url = "https://github.com/aragonone/conviction-pilot-template"
+
+[[repo]]
+url = "https://github.com/aragonone/conviction-voting-app"
+
+[[repo]]
+url = "https://github.com/aragonone/court-backend"
+
+[[repo]]
+url = "https://github.com/aragonone/court-presale"
+
+[[repo]]
+url = "https://github.com/aragonone/court-presale-activate"
+
+[[repo]]
+url = "https://github.com/aragonone/court-registry-migrator"
+
+[[repo]]
+url = "https://github.com/aragonone/court-stats"
+
+[[repo]]
+url = "https://github.com/aragonone/decentraland-dao-template"
+
+[[repo]]
+url = "https://github.com/aragonone/erc20-faucet"
+
+[[repo]]
+url = "https://github.com/aragonone/fbc"
+
+[[repo]]
+url = "https://github.com/aragonone/goals"
+
+[[repo]]
+url = "https://github.com/aragonone/hack-for-freedom"
+
+[[repo]]
+url = "https://github.com/aragonone/ipfs-pinner"
+
+[[repo]]
+url = "https://github.com/aragonone/issuance-app"
+
+[[repo]]
+url = "https://github.com/aragonone/liquidity-rewards"
+
+[[repo]]
+url = "https://github.com/aragonone/metadata-dao"
+
+[[repo]]
+url = "https://github.com/aragonone/nest-dao-template"
+
+[[repo]]
+url = "https://github.com/aragonone/notification-service"
+
+[[repo]]
+url = "https://github.com/aragonone/payroll-app"
+
+[[repo]]
+url = "https://github.com/aragonone/precedence-campaign-arbitrable"
+
+[[repo]]
+url = "https://github.com/aragonone/product"
+
+[[repo]]
+url = "https://github.com/aragonone/pull-requests"
+
+[[repo]]
 url = "https://github.com/aragonone/simple-bonding-curve"
+
+[[repo]]
+url = "https://github.com/aragonone/surgery-app"
+
+[[repo]]
+url = "https://github.com/aragonone/survey-app"
+
+[[repo]]
+url = "https://github.com/aragonone/templates-workshop-compound"
+
+[[repo]]
+url = "https://github.com/aragonone/tollgate"
+
+[[repo]]
+url = "https://github.com/aragonone/vesting-open-zeppelin"
+
+[[repo]]
+url = "https://github.com/aragonone/voting-connectors"
 
 [[repo]]
 url = "https://github.com/aragonzkresearch/anon-voting-demo"
@@ -630,6 +813,9 @@ url = "https://github.com/aragonzkresearch/ark-ec-blind-signatures"
 url = "https://github.com/aragonzkresearch/arkworks-gadgets"
 
 [[repo]]
+url = "https://github.com/aragonzkresearch/azkc"
+
+[[repo]]
 url = "https://github.com/aragonzkresearch/batravot"
 
 [[repo]]
@@ -637,6 +823,9 @@ url = "https://github.com/aragonzkresearch/blind-ovote"
 
 [[repo]]
 url = "https://github.com/aragonzkresearch/blog"
+
+[[repo]]
+url = "https://github.com/aragonzkresearch/explorer"
 
 [[repo]]
 url = "https://github.com/aragonzkresearch/leagueofidentity"
@@ -658,6 +847,9 @@ url = "https://github.com/aragonzkresearch/ovote"
 
 [[repo]]
 url = "https://github.com/aragonzkresearch/ovote-node"
+
+[[repo]]
+url = "https://github.com/aragonzkresearch/password-authentication"
 
 [[repo]]
 url = "https://github.com/aragonzkresearch/popvote-nr"
@@ -694,3 +886,6 @@ url = "https://github.com/aragonzkresearch/zk-circuits-artifacts"
 
 [[repo]]
 url = "https://github.com/aragonzkresearch/zk-registry-ui-demo"
+
+[[repo]]
+url = "https://github.com/aragonzkresearch/zkRegistry"

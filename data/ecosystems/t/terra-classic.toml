@@ -5,7 +5,6 @@ sub_ecosystems = [
   "Anchor Protocol",
   "Glow Yield",
   "Levana Protocol",
-  "Lido",
   "LoTerra",
   "Mars Protocol",
   "Miaw",
@@ -20,6 +19,7 @@ sub_ecosystems = [
   "Spar Protocol",
   "StarTerra",
   "Subsidium Digital",
+  "Synapse Protocol",
   "Terra World Token",
   "TerraLand Token",
   "Valkyrie Protocol",
@@ -35,12 +35,14 @@ github_organizations = [
 # Repositories
 [[repo]]
 url = "https://github.com/alecande11/station-qr-generator"
+missing = true
 
 [[repo]]
 url = "https://github.com/ALPAC-4/nft-market-contract"
 
 [[repo]]
 url = "https://github.com/ALPAC-4/terra-nft.js"
+missing = true
 
 [[repo]]
 url = "https://github.com/am-work/terra-homework"
@@ -235,6 +237,7 @@ url = "https://github.com/PFC-Validator/connect"
 
 [[repo]]
 url = "https://github.com/PFC-Validator/constellation"
+missing = true
 
 [[repo]]
 url = "https://github.com/PFC-Validator/constellation-observer"
@@ -266,10 +269,16 @@ url = "https://github.com/PFC-Validator/cw-nfts"
 url = "https://github.com/PFC-Validator/cw-plus"
 
 [[repo]]
+url = "https://github.com/PFC-Validator/cw-plus-plus"
+
+[[repo]]
 url = "https://github.com/PFC-Validator/cw900-lv"
 
 [[repo]]
 url = "https://github.com/PFC-Validator/explorer"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/fire"
 
 [[repo]]
 url = "https://github.com/PFC-Validator/GoFund-UST-contracts"
@@ -286,10 +295,19 @@ url = "https://github.com/PFC-Validator/horcrux-container"
 url = "https://github.com/PFC-Validator/ibc-fees"
 
 [[repo]]
+url = "https://github.com/PFC-Validator/inj-rebate"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/injective-auction-pool"
+
+[[repo]]
 url = "https://github.com/PFC-Validator/kujira-core"
 
 [[repo]]
 url = "https://github.com/PFC-Validator/luna-rewards"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/meta"
 
 [[repo]]
 url = "https://github.com/PFC-Validator/oe4"
@@ -321,6 +339,9 @@ missing = true
 url = "https://github.com/PFC-Validator/PFC-Validator.github.io"
 
 [[repo]]
+url = "https://github.com/PFC-Validator/PFC-whitelist"
+
+[[repo]]
 url = "https://github.com/PFC-Validator/playalongs"
 
 [[repo]]
@@ -344,6 +365,9 @@ url = "https://github.com/PFC-Validator/SecretStablePools"
 
 [[repo]]
 url = "https://github.com/PFC-Validator/SecretSwapAnonEdition"
+
+[[repo]]
+url = "https://github.com/PFC-Validator/sei-chain"
 
 [[repo]]
 url = "https://github.com/PFC-Validator/snip20-reference-impl"
@@ -421,6 +445,7 @@ url = "https://github.com/snazi/cosmFI"
 
 [[repo]]
 url = "https://github.com/SpaceCamp-Leverage-Tokens/leveraged_pools"
+missing = true
 
 [[repo]]
 url = "https://github.com/stader-labs/stader-terra-kyv"
@@ -463,6 +488,9 @@ url = "https://github.com/terra-money/alliance-estimator"
 
 [[repo]]
 url = "https://github.com/terra-money/alliance-landing"
+
+[[repo]]
+url = "https://github.com/terra-money/alliance-nft-collection"
 
 [[repo]]
 url = "https://github.com/terra-money/alliance-protocol"
@@ -757,6 +785,9 @@ url = "https://github.com/terra-money/shuttle"
 url = "https://github.com/terra-money/smart-contract-webapp-template"
 
 [[repo]]
+url = "https://github.com/terra-money/solana-go-sdk"
+
+[[repo]]
 url = "https://github.com/terra-money/station"
 
 [[repo]]
@@ -767,6 +798,9 @@ url = "https://github.com/terra-money/station-classic"
 
 [[repo]]
 url = "https://github.com/terra-money/station-desktop"
+
+[[repo]]
+url = "https://github.com/terra-money/station-docs"
 
 [[repo]]
 url = "https://github.com/terra-money/station-extension"
@@ -809,6 +843,7 @@ url = "https://github.com/terra-money/terra-tutorials"
 
 [[repo]]
 url = "https://github.com/terra-money/terra-utils"
+missing = true
 
 [[repo]]
 url = "https://github.com/terra-money/terra-wallet-ios"

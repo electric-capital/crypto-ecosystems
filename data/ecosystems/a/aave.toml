@@ -1,17 +1,36 @@
 # Ecosystem Level Information
 title = "Aave"
 
-sub_ecosystems = ["Aavegotchi", "Bored Ghosts", "MetricsDAO", "Newt (WeAreNewt)"]
+sub_ecosystems = ["Aavegotchi", "Bored Ghosts", "Newt (WeAreNewt)"]
 
 github_organizations = [
   "https://github.com/aave",
+  "https://github.com/aave-dao",
   "https://github.com/bgd-labs",
   "https://github.com/ExtraCredit-Team",
 ]
 
 # Repositories
 [[repo]]
+url = "https://github.com/aave-dao/aave-brand-kit"
+
+[[repo]]
+url = "https://github.com/aave-dao/aave-proposals-reports"
+
+[[repo]]
+url = "https://github.com/aave-dao/aave-risk-stewards"
+
+[[repo]]
+url = "https://github.com/aave-dao/aave-v3-origin"
+
+[[repo]]
+url = "https://github.com/aave-dao/aave-v3-risk-stewards"
+
+[[repo]]
 url = "https://github.com/aave/aave-address-book"
+
+[[repo]]
+url = "https://github.com/aave/aave-address-book-3.2"
 
 [[repo]]
 url = "https://github.com/aave/aave-addresses"
@@ -21,6 +40,9 @@ url = "https://github.com/aave/aave-api"
 
 [[repo]]
 url = "https://github.com/aave/aave-asset-listing"
+
+[[repo]]
+url = "https://github.com/aave/aave-capo"
 
 [[repo]]
 url = "https://github.com/aave/aave-debt-swap"
@@ -76,10 +98,16 @@ url = "https://github.com/aave/aave-ui-kit"
 url = "https://github.com/aave/aave-utilities"
 
 [[repo]]
+url = "https://github.com/aave/aave-v3-aptos-ts-sdk"
+
+[[repo]]
 url = "https://github.com/aave/aave-v3-core"
 
 [[repo]]
 url = "https://github.com/aave/aave-v3-deploy"
+
+[[repo]]
+url = "https://github.com/aave/aave-v3-origin"
 
 [[repo]]
 url = "https://github.com/aave/aave-v3-periphery"
@@ -100,6 +128,15 @@ url = "https://github.com/aave/aip-uploader"
 url = "https://github.com/aave/app-plugin-paraswap"
 
 [[repo]]
+url = "https://github.com/aave/aptos-aave-v3"
+
+[[repo]]
+url = "https://github.com/aave/aptos-core-aave"
+
+[[repo]]
+url = "https://github.com/aave/aptos-indexer-processors"
+
+[[repo]]
 url = "https://github.com/aave/arc-timelock"
 
 [[repo]]
@@ -110,6 +147,9 @@ url = "https://github.com/aave/branding-assets"
 
 [[repo]]
 url = "https://github.com/aave/bug-bounty"
+
+[[repo]]
+url = "https://github.com/aave/ccip"
 
 [[repo]]
 url = "https://github.com/aave/cloudflare-update-action"
@@ -139,6 +179,9 @@ url = "https://github.com/aave/docs-v2"
 
 [[repo]]
 url = "https://github.com/aave/docs-v3"
+
+[[repo]]
+url = "https://github.com/aave/ethereum-multicall"
 
 [[repo]]
 url = "https://github.com/aave/ethereum-optimism.github.io"
@@ -172,6 +215,9 @@ missing = true
 url = "https://github.com/aave/gho-public"
 
 [[repo]]
+url = "https://github.com/aave/gho-wrapper"
+
+[[repo]]
 url = "https://github.com/aave/governance-crosschain-bridges"
 
 [[repo]]
@@ -194,6 +240,7 @@ url = "https://github.com/aave/interface-data"
 
 [[repo]]
 url = "https://github.com/aave/interface-governance-v3"
+missing = true
 
 [[repo]]
 url = "https://github.com/aave/liquidation-ui"
@@ -203,6 +250,9 @@ url = "https://github.com/aave/loanlord-bot"
 
 [[repo]]
 url = "https://github.com/aave/markets-adapters"
+
+[[repo]]
+url = "https://github.com/aave/paraswap-dex-lib-gho-integration"
 
 [[repo]]
 url = "https://github.com/aave/pinata-action"
@@ -252,9 +302,13 @@ url = "https://github.com/aave/upgradeable-configurable-rights-pool"
 
 [[repo]]
 url = "https://github.com/aave/v3-retroactive-funding"
+missing = true
 
 [[repo]]
 url = "https://github.com/aave/walletconnect-connector"
+
+[[repo]]
+url = "https://github.com/bgd-labs/.github"
 
 [[repo]]
 url = "https://github.com/bgd-labs/aave-a-token-with-delegation"
@@ -264,6 +318,9 @@ url = "https://github.com/bgd-labs/aave-address-book"
 
 [[repo]]
 url = "https://github.com/bgd-labs/aave-autonomous-proposal"
+
+[[repo]]
+url = "https://github.com/bgd-labs/aave-capo"
 
 [[repo]]
 url = "https://github.com/bgd-labs/aave-cli"
@@ -311,6 +368,9 @@ url = "https://github.com/bgd-labs/aave-interface"
 url = "https://github.com/bgd-labs/aave-paraswap-claimer"
 
 [[repo]]
+url = "https://github.com/bgd-labs/aave-permissions-book"
+
+[[repo]]
 url = "https://github.com/bgd-labs/aave-permissions-list"
 
 [[repo]]
@@ -342,6 +402,9 @@ url = "https://github.com/bgd-labs/aave-risk-stewards"
 
 [[repo]]
 url = "https://github.com/bgd-labs/aave-stake-v2"
+
+[[repo]]
+url = "https://github.com/bgd-labs/aave-stewards"
 
 [[repo]]
 url = "https://github.com/bgd-labs/aave-stk-gov-v3"
@@ -389,10 +452,40 @@ url = "https://github.com/bgd-labs/aave-v3-listing-stewards"
 url = "https://github.com/bgd-labs/aave-v3-metis-proposal"
 
 [[repo]]
+url = "https://github.com/bgd-labs/aave-v3-origin"
+
+[[repo]]
 url = "https://github.com/bgd-labs/aave-v3-periphery"
 
 [[repo]]
+url = "https://github.com/bgd-labs/aave-v3-risk-stewards"
+
+[[repo]]
+url = "https://github.com/bgd-labs/aave-v3-zksync-proposal-simulation"
+
+[[repo]]
 url = "https://github.com/bgd-labs/abpt-migration"
+
+[[repo]]
+url = "https://github.com/bgd-labs/action-forge-sizes"
+
+[[repo]]
+url = "https://github.com/bgd-labs/action-foundry-gas-diff"
+
+[[repo]]
+url = "https://github.com/bgd-labs/action-foundry-lcov"
+
+[[repo]]
+url = "https://github.com/bgd-labs/action-rpc-env"
+
+[[repo]]
+url = "https://github.com/bgd-labs/adi-dashboard"
+
+[[repo]]
+url = "https://github.com/bgd-labs/adi-deploy"
+
+[[repo]]
+url = "https://github.com/bgd-labs/aDI-diffs"
 
 [[repo]]
 url = "https://github.com/bgd-labs/aip"
@@ -413,10 +506,22 @@ url = "https://github.com/bgd-labs/brandbook"
 url = "https://github.com/bgd-labs/catapulta-verify"
 
 [[repo]]
+url = "https://github.com/bgd-labs/chains"
+
+[[repo]]
 url = "https://github.com/bgd-labs/cl-synchronicity-price-adapter"
 
 [[repo]]
+url = "https://github.com/bgd-labs/collector-upgrade-rev6"
+
+[[repo]]
+url = "https://github.com/bgd-labs/defillama-server"
+
+[[repo]]
 url = "https://github.com/bgd-labs/ethers-rs"
+
+[[repo]]
+url = "https://github.com/bgd-labs/evm-diff"
 
 [[repo]]
 url = "https://github.com/bgd-labs/example-aave-v2-listing"
@@ -434,6 +539,21 @@ url = "https://github.com/bgd-labs/fe-shared-examples"
 url = "https://github.com/bgd-labs/foundry"
 
 [[repo]]
+url = "https://github.com/bgd-labs/foundry-zksync-toolchain"
+
+[[repo]]
+url = "https://github.com/bgd-labs/frontend-web3-utils"
+
+[[repo]]
+url = "https://github.com/bgd-labs/frontend-web3-utils-examples"
+
+[[repo]]
+url = "https://github.com/bgd-labs/gho-core"
+
+[[repo]]
+url = "https://github.com/bgd-labs/GHODirectMinter"
+
+[[repo]]
 url = "https://github.com/bgd-labs/github-workflows"
 
 [[repo]]
@@ -443,13 +563,38 @@ url = "https://github.com/bgd-labs/gov-v2-v3-migration"
 url = "https://github.com/bgd-labs/governance-v2"
 
 [[repo]]
+url = "https://github.com/bgd-labs/governance-v3-ethers-utils"
+missing = true
+
+[[repo]]
 url = "https://github.com/bgd-labs/how-to-delegate-aave"
+
+[[repo]]
+url = "https://github.com/bgd-labs/icons"
 
 [[repo]]
 url = "https://github.com/bgd-labs/Inquirer.js"
 
 [[repo]]
 url = "https://github.com/bgd-labs/js-utils"
+
+[[repo]]
+url = "https://github.com/bgd-labs/llamaswap-interface"
+
+[[repo]]
+url = "https://github.com/bgd-labs/merkle-distributor-v2"
+
+[[repo]]
+url = "https://github.com/bgd-labs/openzeppelin-contracts"
+
+[[repo]]
+url = "https://github.com/bgd-labs/openzeppelin-contracts-upgradeable"
+
+[[repo]]
+url = "https://github.com/bgd-labs/paraswap-dex-lib"
+
+[[repo]]
+url = "https://github.com/bgd-labs/permissioned_underlying"
 
 [[repo]]
 url = "https://github.com/bgd-labs/proposal-3.0.1-upgrade"
@@ -459,6 +604,18 @@ url = "https://github.com/bgd-labs/proposal-3.0.2-upgrade"
 
 [[repo]]
 url = "https://github.com/bgd-labs/protocol-v2"
+
+[[repo]]
+url = "https://github.com/bgd-labs/protocol-v3.1-upgrade"
+
+[[repo]]
+url = "https://github.com/bgd-labs/protocol-v3.2-pdp-patch"
+
+[[repo]]
+url = "https://github.com/bgd-labs/protocol-v3.2-upgrade"
+
+[[repo]]
+url = "https://github.com/bgd-labs/protocol-v3.3-upgrade"
 
 [[repo]]
 url = "https://github.com/bgd-labs/renewal-aave-sm-allowance"
@@ -494,19 +651,43 @@ url = "https://github.com/bgd-labs/stake-token"
 url = "https://github.com/bgd-labs/static-a-token-v3"
 
 [[repo]]
+url = "https://github.com/bgd-labs/upgrade-ampl"
+
+[[repo]]
+url = "https://github.com/bgd-labs/v1-offboarding"
+
+[[repo]]
+url = "https://github.com/bgd-labs/v1-offboarding-phase2"
+
+[[repo]]
 url = "https://github.com/bgd-labs/v2-mainnet-interest-rates-upgrade"
+
+[[repo]]
+url = "https://github.com/bgd-labs/v2-stable-debt-offboarding"
 
 [[repo]]
 url = "https://github.com/bgd-labs/V2-V3-migration-helpers"
 
 [[repo]]
+url = "https://github.com/bgd-labs/v3-governance-cache"
+
+[[repo]]
 url = "https://github.com/bgd-labs/viem"
+
+[[repo]]
+url = "https://github.com/bgd-labs/web3-icons"
 
 [[repo]]
 url = "https://github.com/bgd-labs/web3-react"
 
 [[repo]]
+url = "https://github.com/bgd-labs/zksync-foundry-toolchain"
+
+[[repo]]
 url = "https://github.com/Certora/static-a-token-v3"
+
+[[repo]]
+url = "https://github.com/edakturk14/lfgho-hackathon"
 
 [[repo]]
 url = "https://github.com/ExtraCredit-Team/ExtraCredit"
@@ -515,10 +696,8 @@ url = "https://github.com/ExtraCredit-Team/ExtraCredit"
 url = "https://github.com/ExtraCredit-Team/extracredit-landing"
 
 [[repo]]
-url = "https://github.com/lens-protocol/api-examples"
-
-[[repo]]
 url = "https://github.com/lens-protocol/brand-kit"
+missing = true
 
 [[repo]]
 url = "https://github.com/lens-protocol/core"

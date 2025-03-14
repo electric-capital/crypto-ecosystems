@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "IOTA"
 
-sub_ecosystems = ["Hornet"]
+sub_ecosystems = ["Gamma Strategies", "Hornet"]
 
 github_organizations = ["https://github.com/iota-pico", "https://github.com/iotaledger"]
 
@@ -114,9 +114,11 @@ url = "https://github.com/anthony-mills/iota-seed-generator"
 
 [[repo]]
 url = "https://github.com/antonionardella/goshimmer"
+missing = true
 
 [[repo]]
 url = "https://github.com/antonionardella/iota-nelson-node"
+missing = true
 
 [[repo]]
 url = "https://github.com/antonionardella/iota.rs"
@@ -337,6 +339,7 @@ url = "https://github.com/DLTcollab/dcurl"
 
 [[repo]]
 url = "https://github.com/DLTcollab/general"
+missing = true
 
 [[repo]]
 url = "https://github.com/DLTcollab/raam.client.js"
@@ -876,6 +879,10 @@ missing = true
 [[repo]]
 url = "https://github.com/iotaledger/devx"
 tags = ["Protocol"]
+missing = true
+
+[[repo]]
+url = "https://github.com/iotaledger/did_url"
 
 [[repo]]
 url = "https://github.com/iotaledger/discord-invite-captcha"
@@ -951,6 +958,9 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/iotaledger/explorer"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/iotaledger/fastcrypto"
 
 [[repo]]
 url = "https://github.com/iotaledger/faucet"
@@ -1142,6 +1152,9 @@ url = "https://github.com/iotaledger/inx-validator"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/iotaledger/iota"
+
+[[repo]]
 url = "https://github.com/iotaledger/IOTA-2.0-DevNet-wallet"
 tags = ["Protocol"]
 
@@ -1195,12 +1208,18 @@ tags = ["Protocol"]
 missing = true
 
 [[repo]]
+url = "https://github.com/iotaledger/iota-node-docker"
+
+[[repo]]
 url = "https://github.com/iotaledger/iota-poex-tool"
 tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/iotaledger/iota-react-components"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/iotaledger/iota-rust-sdk"
 
 [[repo]]
 url = "https://github.com/iotaledger/iota-sandbox"
@@ -1219,8 +1238,14 @@ url = "https://github.com/iotaledger/iota-sdk-native-bindings"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/iotaledger/iota-sim"
+
+[[repo]]
 url = "https://github.com/iotaledger/iota-spec-template"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/iotaledger/iota-ui-kit"
 
 [[repo]]
 url = "https://github.com/iotaledger/iota-url-parser"
@@ -1345,6 +1370,9 @@ url = "https://github.com/iotaledger/is-ui-components"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/iotaledger/isc-cross-chain"
+
+[[repo]]
 url = "https://github.com/iotaledger/ixi"
 tags = ["Protocol"]
 
@@ -1356,6 +1384,9 @@ missing = true
 [[repo]]
 url = "https://github.com/iotaledger/kerl"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/iotaledger/ledger-app-iota"
 
 [[repo]]
 url = "https://github.com/iotaledger/ledger-iota-app"
@@ -1555,6 +1586,9 @@ url = "https://github.com/iotaledger/rust-rocksdb"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/iotaledger/rust-secp256k1"
+
+[[repo]]
 url = "https://github.com/iotaledger/sandbox"
 tags = ["Protocol"]
 
@@ -1569,8 +1603,14 @@ url = "https://github.com/iotaledger/sd-jwt"
 url = "https://github.com/iotaledger/sd-jwt-payload"
 
 [[repo]]
+url = "https://github.com/iotaledger/secret-storage"
+
+[[repo]]
 url = "https://github.com/iotaledger/seed-migration-tool"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/iotaledger/selv"
 
 [[repo]]
 url = "https://github.com/iotaledger/selv-mobile"
@@ -1638,6 +1678,9 @@ url = "https://github.com/iotaledger/stronghold.rs"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/iotaledger/susee-streams-poc"
+
+[[repo]]
 url = "https://github.com/iotaledger/tangle-recorder"
 tags = ["Protocol"]
 
@@ -1686,6 +1729,9 @@ url = "https://github.com/iotaledger/TokenAnalysis"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/iotaledger/tokio-madsim-fork"
+
+[[repo]]
 url = "https://github.com/iotaledger/toolchains"
 tags = ["Protocol"]
 missing = true
@@ -1711,12 +1757,21 @@ url = "https://github.com/iotaledger/tryte-compress-rs"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/iotaledger/typegroupingcheck"
+
+[[repo]]
+url = "https://github.com/iotaledger/uni-resolver-driver-iota"
+
+[[repo]]
 url = "https://github.com/iotaledger/validator-key-generator"
 tags = ["Protocol"]
 
 [[repo]]
 url = "https://github.com/iotaledger/vdf"
 tags = ["Protocol"]
+
+[[repo]]
+url = "https://github.com/iotaledger/wait-for"
 
 [[repo]]
 url = "https://github.com/iotaledger/wallet-ios-internal"
@@ -1749,6 +1804,7 @@ tags = ["Protocol"]
 [[repo]]
 url = "https://github.com/iotaledger/wasplib"
 tags = ["Protocol"]
+missing = true
 
 [[repo]]
 url = "https://github.com/iotaledger/webhookd"
@@ -2081,6 +2137,7 @@ url = "https://github.com/marktwtn/wasp"
 
 [[repo]]
 url = "https://github.com/martingravel/goshimmer"
+missing = true
 
 [[repo]]
 url = "https://github.com/massyu/hive.go"

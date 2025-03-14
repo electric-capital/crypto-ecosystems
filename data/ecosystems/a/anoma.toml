@@ -7,6 +7,12 @@ github_organizations = ["https://github.com/anoma"]
 
 # Repositories
 [[repo]]
+url = "https://github.com/anoma/aarm-cairo"
+
+[[repo]]
+url = "https://github.com/anoma/aarm-risc0"
+
+[[repo]]
 url = "https://github.com/anoma/abstract-resource-machine-simulator"
 
 [[repo]]
@@ -21,13 +27,37 @@ url = "https://github.com/anoma/anoma-alpha"
 missing = true
 
 [[repo]]
+url = "https://github.com/anoma/anoma-app-lib"
+
+[[repo]]
+url = "https://github.com/anoma/anoma-app-patterns"
+
+[[repo]]
+url = "https://github.com/anoma/anoma-applib"
+
+[[repo]]
+url = "https://github.com/anoma/anoma-apps"
+
+[[repo]]
 url = "https://github.com/anoma/anoma-archive"
+
+[[repo]]
+url = "https://github.com/anoma/anoma-blog"
+
+[[repo]]
+url = "https://github.com/anoma/anoma-blog-writing-guide"
+
+[[repo]]
+url = "https://github.com/anoma/anoma-typescript-client"
 
 [[repo]]
 url = "https://github.com/anoma/anoma-wasm-multitoken"
 
 [[repo]]
 url = "https://github.com/anoma/anoma-wire-formats"
+
+[[repo]]
+url = "https://github.com/anoma/applications-workshop"
 
 [[repo]]
 url = "https://github.com/anoma/ART-2023-Anoma-Whitepaper-Copy"
@@ -58,18 +88,39 @@ url = "https://github.com/anoma/ART-2023-Khalniyazova-Crypto-Approaches-to-Enhan
 
 [[repo]]
 url = "https://github.com/anoma/ART-2024-Centelles-ZKVM-Survey"
+missing = true
 
 [[repo]]
 url = "https://github.com/anoma/ART-2024-Hart-Reusche-Intent-Machines"
+missing = true
+
+[[repo]]
+url = "https://github.com/anoma/ART-2024-Heuer-Reusche-Cubides-Resource-Machine-Applications"
+missing = true
 
 [[repo]]
 url = "https://github.com/anoma/ART-2024-Khalniyazova-et-al-Anoma-Abstract-Resource-Machine"
+missing = true
+
+[[repo]]
+url = "https://github.com/anoma/ART-2024-Khalniyazova-Goes-Resource-Machine-Specification"
+missing = true
 
 [[repo]]
 url = "https://github.com/anoma/ART-2024-Zarin-P2P-systems"
+missing = true
+
+[[repo]]
+url = "https://github.com/anoma/ART-2024-Zarin-TG-Anoma-Network-Architecture"
 
 [[repo]]
 url = "https://github.com/anoma/art-template"
+
+[[repo]]
+url = "https://github.com/anoma/bls12_381"
+
+[[repo]]
+url = "https://github.com/anoma/borsh-ext"
 
 [[repo]]
 url = "https://github.com/anoma/building-namada-sdk-to-wasm"
@@ -81,6 +132,9 @@ url = "https://github.com/anoma/dev-utils"
 url = "https://github.com/anoma/devchain-container"
 
 [[repo]]
+url = "https://github.com/anoma/developer-docs"
+
+[[repo]]
 url = "https://github.com/anoma/devtool"
 
 [[repo]]
@@ -88,13 +142,28 @@ url = "https://github.com/anoma/docs"
 missing = true
 
 [[repo]]
+url = "https://github.com/anoma/docs-examples"
+
+[[repo]]
+url = "https://github.com/anoma/dominion"
+
+[[repo]]
 url = "https://github.com/anoma/e2e-test-helpers"
+
+[[repo]]
+url = "https://github.com/anoma/enacl"
+
+[[repo]]
+url = "https://github.com/anoma/ethbridge-rs"
 
 [[repo]]
 url = "https://github.com/anoma/ethereum-bridge"
 
 [[repo]]
 url = "https://github.com/anoma/ethereum-bridge-e2e-tests"
+
+[[repo]]
+url = "https://github.com/anoma/ex_example"
 
 [[repo]]
 url = "https://github.com/anoma/exhibit_plonkup"
@@ -109,6 +178,9 @@ url = "https://github.com/anoma/geb"
 url = "https://github.com/anoma/geb-bool"
 
 [[repo]]
+url = "https://github.com/anoma/green"
+
+[[repo]]
 url = "https://github.com/anoma/group-threshold-crypto"
 
 [[repo]]
@@ -118,14 +190,47 @@ url = "https://github.com/anoma/highlightjs-juvix"
 url = "https://github.com/anoma/homebrew-juvix"
 
 [[repo]]
+url = "https://github.com/anoma/ibc-middleware"
+
+[[repo]]
+url = "https://github.com/anoma/index-set"
+
+[[repo]]
+url = "https://github.com/anoma/indexmap"
+
+[[repo]]
 url = "https://github.com/anoma/intents-snippets"
+
+[[repo]]
+url = "https://github.com/anoma/Isabelle-HPaxos"
+
+[[repo]]
+url = "https://github.com/anoma/jubjub"
 
 [[repo]]
 url = "https://github.com/anoma/juvix"
 
 [[repo]]
+url = "https://github.com/anoma/juvix-anoma"
+
+[[repo]]
+url = "https://github.com/anoma/juvix-anoma-stdlib"
+
+[[repo]]
+url = "https://github.com/anoma/juvix-anoma-test"
+
+[[repo]]
 url = "https://github.com/anoma/juvix-archived"
 missing = true
+
+[[repo]]
+url = "https://github.com/anoma/juvix-arm-specs"
+
+[[repo]]
+url = "https://github.com/anoma/juvix-arm-transparent"
+
+[[repo]]
+url = "https://github.com/anoma/juvix-cairo-vm"
 
 [[repo]]
 url = "https://github.com/anoma/juvix-circuits"
@@ -146,16 +251,25 @@ url = "https://github.com/anoma/juvix-eth-workshop"
 url = "https://github.com/anoma/juvix-installer"
 
 [[repo]]
+url = "https://github.com/anoma/juvix-lean"
+
+[[repo]]
 url = "https://github.com/anoma/juvix-mkdocs"
 
 [[repo]]
 url = "https://github.com/anoma/juvix-mode"
 
 [[repo]]
+url = "https://github.com/anoma/juvix-mtl"
+
+[[repo]]
 url = "https://github.com/anoma/juvix-nightly-builds"
 
 [[repo]]
 url = "https://github.com/anoma/juvix-quickcheck"
+
+[[repo]]
+url = "https://github.com/anoma/juvix-rm-specs"
 
 [[repo]]
 url = "https://github.com/anoma/juvix-stdlib"
@@ -173,10 +287,19 @@ url = "https://github.com/anoma/juvix-to-geb-to-vampIR"
 url = "https://github.com/anoma/juvix-workshop"
 
 [[repo]]
+url = "https://github.com/anoma/kassandra-service"
+
+[[repo]]
 url = "https://github.com/anoma/kudos-snipets"
 
 [[repo]]
 url = "https://github.com/anoma/kudos-snippets"
+
+[[repo]]
+url = "https://github.com/anoma/ledger-namada"
+
+[[repo]]
+url = "https://github.com/anoma/lisp-resource-machine"
 
 [[repo]]
 url = "https://github.com/anoma/masp"
@@ -198,14 +321,38 @@ url = "https://github.com/anoma/mpc-solver-approx"
 url = "https://github.com/anoma/namada"
 
 [[repo]]
+url = "https://github.com/anoma/namada-archive"
+
+[[repo]]
 url = "https://github.com/anoma/namada-audit"
 missing = true
+
+[[repo]]
+url = "https://github.com/anoma/namada-chain-registry"
 
 [[repo]]
 url = "https://github.com/anoma/namada-docs"
 
 [[repo]]
+url = "https://github.com/anoma/namada-genesis"
+
+[[repo]]
+url = "https://github.com/anoma/namada-governance-upgrades"
+
+[[repo]]
+url = "https://github.com/anoma/namada-indexer"
+
+[[repo]]
 url = "https://github.com/anoma/namada-interface"
+
+[[repo]]
+url = "https://github.com/anoma/namada-light-sdk-starter"
+
+[[repo]]
+url = "https://github.com/anoma/namada-mainnet-genesis"
+
+[[repo]]
+url = "https://github.com/anoma/namada-masp-indexer"
 
 [[repo]]
 url = "https://github.com/anoma/namada-masp-params"
@@ -215,6 +362,15 @@ url = "https://github.com/anoma/namada-masp-verification"
 
 [[repo]]
 url = "https://github.com/anoma/namada-sdk-starter"
+
+[[repo]]
+url = "https://github.com/anoma/namada-sdkjs-examples"
+
+[[repo]]
+url = "https://github.com/anoma/namada-sdkjs-node-examples"
+
+[[repo]]
+url = "https://github.com/anoma/namada-shielded-airdrop"
 
 [[repo]]
 url = "https://github.com/anoma/namada-shielded-expedition"
@@ -238,6 +394,9 @@ url = "https://github.com/anoma/namada-trusted-setup-claimer"
 url = "https://github.com/anoma/namada-whitepaper"
 
 [[repo]]
+url = "https://github.com/anoma/num-traits"
+
+[[repo]]
 url = "https://github.com/anoma/p2p-network"
 
 [[repo]]
@@ -247,7 +406,40 @@ url = "https://github.com/anoma/plonkup"
 url = "https://github.com/anoma/plonkup-hash"
 
 [[repo]]
+url = "https://github.com/anoma/Private-ART-2023-Gureev-Lurk-Survey"
+
+[[repo]]
+url = "https://github.com/anoma/quarto-template-art"
+
+[[repo]]
+url = "https://github.com/anoma/reddsa"
+
+[[repo]]
+url = "https://github.com/anoma/redjubjub"
+
+[[repo]]
 url = "https://github.com/anoma/research"
+
+[[repo]]
+url = "https://github.com/anoma/rust-bech32"
+
+[[repo]]
+url = "https://github.com/anoma/rust-ledger"
+
+[[repo]]
+url = "https://github.com/anoma/rust-rocksdb"
+
+[[repo]]
+url = "https://github.com/anoma/shielded-state-sync"
+
+[[repo]]
+url = "https://github.com/anoma/slow-game-research"
+
+[[repo]]
+url = "https://github.com/anoma/smooth-operator"
+
+[[repo]]
+url = "https://github.com/anoma/sparse-merkle-tree"
 
 [[repo]]
 url = "https://github.com/anoma/specs"
@@ -263,6 +455,12 @@ url = "https://github.com/anoma/taiga-simulator"
 url = "https://github.com/anoma/tiny-bip39"
 
 [[repo]]
+url = "https://github.com/anoma/tiny-hderive"
+
+[[repo]]
+url = "https://github.com/anoma/typed_struct"
+
+[[repo]]
 url = "https://github.com/anoma/typhon"
 
 [[repo]]
@@ -273,6 +471,9 @@ url = "https://github.com/anoma/using-namada-sdk-poc"
 
 [[repo]]
 url = "https://github.com/anoma/using-namada-sdk-poc-2"
+
+[[repo]]
+url = "https://github.com/anoma/usize-set"
 
 [[repo]]
 url = "https://github.com/anoma/vamp-ir"

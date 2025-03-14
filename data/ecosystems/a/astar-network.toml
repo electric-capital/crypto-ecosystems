@@ -7,28 +7,19 @@ sub_ecosystems = [
   "ArthSwap",
   "Artzero",
   "AstridDao",
-  "Celer Network cBridge",
-  "DIA",
+  "Bifrost",
   "JPY Coin",
-  "LayerZero",
-  "Multichain (Anyswap)",
-  "O3 Swap",
-  "Octopus Network",
   "Paras",
   "PolkaEx",
-  "Poly Network",
+  "Quickswap",
   "Rubic",
   "SiO2",
   "Sirius Finance",
   "Starfish Finance",
   "Starlay Finance",
   "StellaSwap",
-  "Subsquid",
   "SubWallet",
-  "Talisman",
-  "Wanchain",
   "XDAO",
-  "XY Finance",
 ]
 
 github_organizations = [
@@ -86,6 +77,9 @@ url = "https://github.com/AstarNetwork/astar-docs-staging"
 missing = true
 
 [[repo]]
+url = "https://github.com/AstarNetwork/astar-docs-v3"
+
+[[repo]]
 url = "https://github.com/AstarNetwork/astar-evm-example"
 
 [[repo]]
@@ -133,12 +127,15 @@ missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/astarwebsite_v2"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/astarwebsite_v2_korean"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/astarwebsite_v2_unstoppable"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/astress"
@@ -160,6 +157,7 @@ url = "https://github.com/AstarNetwork/bls12_381"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/brand-assets"
+missing = true
 
 [[repo]]
 url = "https://github.com/AstarNetwork/brand-assets-1"
@@ -192,6 +190,15 @@ url = "https://github.com/AstarNetwork/crowdstaking"
 url = "https://github.com/AstarNetwork/cumulus"
 
 [[repo]]
+url = "https://github.com/AstarNetwork/dapp-staking"
+
+[[repo]]
+url = "https://github.com/AstarNetwork/dapp-staking-oracle"
+
+[[repo]]
+url = "https://github.com/AstarNetwork/dapp-staking-reimbursement-script"
+
+[[repo]]
 url = "https://github.com/AstarNetwork/dApp-Staking-Workshop"
 
 [[repo]]
@@ -203,6 +210,9 @@ url = "https://github.com/AstarNetwork/dapps-staking-indexer-v3"
 [[repo]]
 url = "https://github.com/AstarNetwork/dapps-staking-v3-indexer"
 missing = true
+
+[[repo]]
+url = "https://github.com/AstarNetwork/dapps-staking-v3-indexer-and-api-demo-ui"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/default-token-list"
@@ -250,6 +260,9 @@ url = "https://github.com/AstarNetwork/frontend-interview-task"
 url = "https://github.com/AstarNetwork/frontier"
 
 [[repo]]
+url = "https://github.com/AstarNetwork/frontier-tests"
+
+[[repo]]
 url = "https://github.com/AstarNetwork/gas-station"
 
 [[repo]]
@@ -274,6 +287,9 @@ url = "https://github.com/AstarNetwork/growth-program"
 url = "https://github.com/AstarNetwork/hardhat-astar-plugin"
 
 [[repo]]
+url = "https://github.com/AstarNetwork/helm-charts"
+
+[[repo]]
 url = "https://github.com/AstarNetwork/icons"
 
 [[repo]]
@@ -292,10 +308,16 @@ url = "https://github.com/AstarNetwork/ink-test-contracts"
 url = "https://github.com/AstarNetwork/ink-xvm-sdk"
 
 [[repo]]
+url = "https://github.com/AstarNetwork/inubot"
+
+[[repo]]
 url = "https://github.com/AstarNetwork/jubjub"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/layer-zero-bridge-contracts-testnet"
+
+[[repo]]
+url = "https://github.com/AstarNetwork/layer-zero-bridge-mainnet"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/ledger-app-ethereum"
@@ -308,6 +330,9 @@ url = "https://github.com/AstarNetwork/lockdrop-api-server"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/lockdrop-ui"
+
+[[repo]]
+url = "https://github.com/AstarNetwork/meta-mazda-ticket-nft"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/metamask-extension"
@@ -374,6 +399,9 @@ url = "https://github.com/AstarNetwork/polkadot"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/polkadot-scripts"
+
+[[repo]]
+url = "https://github.com/AstarNetwork/polkadot-sdk"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/polkadotjs-ecdsa-hardware"
@@ -500,7 +528,17 @@ missing = true
 url = "https://github.com/AstarNetwork/wasm-tutorial-dex"
 
 [[repo]]
+url = "https://github.com/AstarNetwork/yoki-static"
+
+[[repo]]
+url = "https://github.com/AstarNetwork/yoki-template-test"
+missing = true
+
+[[repo]]
 url = "https://github.com/AstarNetwork/zk-journey-poc"
+
+[[repo]]
+url = "https://github.com/AstarNetwork/zkASTR-OFT-subgraph"
 
 [[repo]]
 url = "https://github.com/AstarNetwork/zkbridge-code-examples"
@@ -522,6 +560,7 @@ url = "https://github.com/BrainDexAggregator/BrainDex-Contracts"
 
 [[repo]]
 url = "https://github.com/CeresEcosystem/astar-smart-contracts"
+missing = true
 
 [[repo]]
 url = "https://github.com/colorfulnotion/polkaholic"
@@ -537,6 +576,7 @@ url = "https://github.com/diadata-org/dia-wasm-oracle"
 
 [[repo]]
 url = "https://github.com/gelatodigital/astar-zkatana-w3f-pyth"
+missing = true
 
 [[repo]]
 url = "https://github.com/GEOMETRON/nft-pocket-astart-contract"
@@ -564,6 +604,7 @@ url = "https://github.com/mandalaverse/bakon-maker"
 
 [[repo]]
 url = "https://github.com/metaskylabs/metasky-wallet-astar"
+missing = true
 
 [[repo]]
 url = "https://github.com/MoonFitApp/contracts"

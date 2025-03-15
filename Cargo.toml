@@ -1,14 +1,24 @@
 [package]
 name = "crypto-ecosystems"
-version = "0.2.0"
+version = "1.2.1"
 authors = ["Curtis Spencer"]
 edition = "2021"
 
 [dependencies]
 anyhow = "1.0"
 glob = "0.3.1"
-serde = { version = "1.0.158", features = ["derive"] }
-serde_json = "1.0.94"
+imara-diff = "0.1.5"
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.128"
+slug = "0.1.6"
 structopt = "0.3.26"
 thiserror = "1.0.40"
-toml = "0.7.3"
+toml = "0.8.19"
+url = "2.5.2"
+
+[profile.dev]
+opt-level = 3
+debug = 1
+
+[profile.release]
+lto = true

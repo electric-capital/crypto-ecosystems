@@ -1,11 +1,14 @@
 # Ecosystem Level Information
 title = "Function X"
 
-sub_ecosystems = []
+sub_ecosystems = ["BAKLAVA SPACE"]
 
 github_organizations = ["https://github.com/FunctionX"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/FunctionX/.github"
+
 [[repo]]
 url = "https://github.com/FunctionX/amino-js"
 
@@ -26,6 +29,9 @@ missing = true
 url = "https://github.com/FunctionX/chain-registry"
 
 [[repo]]
+url = "https://github.com/FunctionX/contract-monitor"
+
+[[repo]]
 url = "https://github.com/FunctionX/cosmos-firewall"
 
 [[repo]]
@@ -43,6 +49,7 @@ url = "https://github.com/FunctionX/ethermint"
 
 [[repo]]
 url = "https://github.com/FunctionX/explorer"
+missing = true
 
 [[repo]]
 url = "https://github.com/FunctionX/function-x"
@@ -85,9 +92,11 @@ url = "https://github.com/FunctionX/fx-subgraph"
 
 [[repo]]
 url = "https://github.com/FunctionX/fx-tron-bridge"
+missing = true
 
 [[repo]]
 url = "https://github.com/FunctionX/fx-upgrade"
+missing = true
 
 [[repo]]
 url = "https://github.com/FunctionX/fx-util"
@@ -106,12 +115,17 @@ url = "https://github.com/FunctionX/fxdex-docs"
 
 [[repo]]
 url = "https://github.com/FunctionX/go-cloud-tool"
+missing = true
 
 [[repo]]
 url = "https://github.com/FunctionX/go-duktape"
 
 [[repo]]
+url = "https://github.com/FunctionX/go-ethereum"
+
+[[repo]]
 url = "https://github.com/FunctionX/go-sdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/FunctionX/graph-node"

@@ -1,7 +1,20 @@
 # Ecosystem Level Information
 title = "Manta Network"
 
-sub_ecosystems = ["Battledogs", "LayerZero"]
+sub_ecosystems = [
+  "Anzen",
+  "ApolloX",
+  "Battledogs",
+  "Bifrost",
+  "Celenium",
+  "KiloExPerp",
+  "LayerBank",
+  "Mitosis",
+  "Orally",
+  "Puffer",
+  "Quickswap",
+  "ZeroLend",
+]
 
 github_organizations = ["https://github.com/Manta-Network"]
 
@@ -82,11 +95,17 @@ url = "https://github.com/Manta-Network/crypto-benchmark"
 missing = true
 
 [[repo]]
+url = "https://github.com/Manta-Network/cumulus"
+
+[[repo]]
 url = "https://github.com/Manta-Network/cumulus-collator"
 missing = true
 
 [[repo]]
 url = "https://github.com/Manta-Network/deb.manta.systems"
+
+[[repo]]
+url = "https://github.com/Manta-Network/DefiLlama-Adapters"
 
 [[repo]]
 url = "https://github.com/Manta-Network/dev-stats"
@@ -120,6 +139,9 @@ missing = true
 url = "https://github.com/Manta-Network/General-Grants-Program"
 
 [[repo]]
+url = "https://github.com/Manta-Network/governance-crosschain-bridges"
+
+[[repo]]
 url = "https://github.com/Manta-Network/Grant-Milestone-Delivery"
 
 [[repo]]
@@ -133,10 +155,16 @@ missing = true
 url = "https://github.com/Manta-Network/homebrew-manta"
 
 [[repo]]
+url = "https://github.com/Manta-Network/indonesia_hacker_house"
+
+[[repo]]
 url = "https://github.com/Manta-Network/jsonrpsee"
 
 [[repo]]
 url = "https://github.com/Manta-Network/l2beat"
+
+[[repo]]
+url = "https://github.com/Manta-Network/lido-l2"
 
 [[repo]]
 url = "https://github.com/Manta-Network/Logos"
@@ -170,6 +198,12 @@ url = "https://github.com/Manta-Network/manta-client"
 missing = true
 
 [[repo]]
+url = "https://github.com/Manta-Network/manta-client-gateway"
+
+[[repo]]
+url = "https://github.com/Manta-Network/manta-config-service"
+
+[[repo]]
 url = "https://github.com/Manta-Network/manta-crypto"
 missing = true
 
@@ -187,7 +221,19 @@ url = "https://github.com/Manta-Network/manta-error"
 missing = true
 
 [[repo]]
+url = "https://github.com/Manta-Network/manta-events-service"
+
+[[repo]]
 url = "https://github.com/Manta-Network/manta-explorer"
+
+[[repo]]
+url = "https://github.com/Manta-Network/manta-fp"
+
+[[repo]]
+url = "https://github.com/Manta-Network/manta-fp-aggregator"
+
+[[repo]]
+url = "https://github.com/Manta-Network/manta-fp-contracts"
 
 [[repo]]
 url = "https://github.com/Manta-Network/manta-front-end"
@@ -238,11 +284,17 @@ missing = true
 url = "https://github.com/Manta-Network/manta-squid"
 
 [[repo]]
+url = "https://github.com/Manta-Network/manta-staker-snapshot"
+
+[[repo]]
 url = "https://github.com/Manta-Network/manta-subxt-integrated"
 missing = true
 
 [[repo]]
 url = "https://github.com/Manta-Network/Manta-Tech-Doc"
+
+[[repo]]
+url = "https://github.com/Manta-Network/manta-transaction-service"
 
 [[repo]]
 url = "https://github.com/Manta-Network/manta-types"
@@ -260,6 +312,9 @@ url = "https://github.com/Manta-Network/memory-lru"
 
 [[repo]]
 url = "https://github.com/Manta-Network/MIPS"
+
+[[repo]]
+url = "https://github.com/Manta-Network/moonkit"
 
 [[repo]]
 url = "https://github.com/Manta-Network/msig-util"
@@ -314,7 +369,17 @@ missing = true
 url = "https://github.com/Manta-Network/ppot-verifier"
 
 [[repo]]
+url = "https://github.com/Manta-Network/profitBot"
+missing = true
+
+[[repo]]
 url = "https://github.com/Manta-Network/pulse"
+
+[[repo]]
+url = "https://github.com/Manta-Network/react-dapp-starter"
+
+[[repo]]
+url = "https://github.com/Manta-Network/realperp-token-snapshot"
 
 [[repo]]
 url = "https://github.com/Manta-Network/rpm.manta.systems"
@@ -334,6 +399,9 @@ url = "https://github.com/Manta-Network/sdk"
 
 [[repo]]
 url = "https://github.com/Manta-Network/security"
+
+[[repo]]
+url = "https://github.com/Manta-Network/solana-pool-info-demo"
 
 [[repo]]
 url = "https://github.com/Manta-Network/solarbeam-tokenlist"
@@ -440,3 +508,6 @@ url = "https://github.com/Manta-Network/zombienet"
 
 [[repo]]
 url = "https://github.com/Manta-Network/zprize-wasm-msm"
+
+[[repo]]
+url = "https://github.com/RockX-SG/stake"

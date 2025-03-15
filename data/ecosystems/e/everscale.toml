@@ -1,12 +1,13 @@
 # Ecosystem Level Information
 title = "Everscale"
 
-sub_ecosystems = ["Flatqube", "Gosh", "Octusbridge", "Venom"]
+sub_ecosystems = ["Flatqube", "Gosh", "Venom"]
 
 github_organizations = [
   "https://github.com/broxus",
   "https://github.com/everscale-contest",
   "https://github.com/everscale-org",
+  "https://github.com/everx-labs",
   "https://github.com/INTONNATION",
   "https://github.com/radianceteam",
   "https://github.com/RSquad",
@@ -43,6 +44,12 @@ url = "https://github.com/broxus/bridge-assets"
 
 [[repo]]
 url = "https://github.com/broxus/bridge-vaults-exporter"
+
+[[repo]]
+url = "https://github.com/broxus/bridge-widget"
+
+[[repo]]
+url = "https://github.com/broxus/broxus-flutter-app-link"
 
 [[repo]]
 url = "https://github.com/broxus/broxus-util"
@@ -168,6 +175,9 @@ url = "https://github.com/broxus/everscale-standalone-client"
 url = "https://github.com/broxus/everscale-types"
 
 [[repo]]
+url = "https://github.com/broxus/everscale-vm"
+
+[[repo]]
 url = "https://github.com/broxus/everscale-web-tools"
 
 [[repo]]
@@ -225,10 +235,19 @@ url = "https://github.com/broxus/fs-dkr"
 url = "https://github.com/broxus/ftabi"
 
 [[repo]]
+url = "https://github.com/broxus/grafana-builder"
+
+[[repo]]
 url = "https://github.com/broxus/gravix-contracts"
 
 [[repo]]
+url = "https://github.com/broxus/heatwave"
+
+[[repo]]
 url = "https://github.com/broxus/intellij-t-sol"
+
+[[repo]]
+url = "https://github.com/broxus/jetton"
 
 [[repo]]
 url = "https://github.com/broxus/ledger-app-everscale"
@@ -325,6 +344,9 @@ missing = true
 url = "https://github.com/broxus/nft-lists"
 
 [[repo]]
+url = "https://github.com/broxus/nft-subscription"
+
+[[repo]]
 url = "https://github.com/broxus/nodekeeper"
 
 [[repo]]
@@ -364,6 +386,9 @@ url = "https://github.com/broxus/profl"
 url = "https://github.com/broxus/pyton"
 
 [[repo]]
+url = "https://github.com/broxus/q-server"
+
+[[repo]]
 url = "https://github.com/broxus/r2d2-redis"
 
 [[repo]]
@@ -371,6 +396,9 @@ url = "https://github.com/broxus/referral-system-contracts"
 
 [[repo]]
 url = "https://github.com/broxus/rocksdb-builder"
+
+[[repo]]
+url = "https://github.com/broxus/rust-public-ip"
 
 [[repo]]
 url = "https://github.com/broxus/rust-rocksdb"
@@ -389,6 +417,15 @@ url = "https://github.com/broxus/solana-cli"
 
 [[repo]]
 url = "https://github.com/broxus/solana-multisig"
+
+[[repo]]
+url = "https://github.com/broxus/sparx-networks"
+
+[[repo]]
+url = "https://github.com/broxus/sparx-wallet-browser-extension"
+
+[[repo]]
+url = "https://github.com/broxus/sparx_wallet_flutter"
 
 [[repo]]
 url = "https://github.com/broxus/stEver-contracts"
@@ -566,6 +603,24 @@ url = "https://github.com/broxus/transaction-consumer"
 
 [[repo]]
 url = "https://github.com/broxus/trustwallet-assets"
+
+[[repo]]
+url = "https://github.com/broxus/tvm-connect-ui"
+
+[[repo]]
+url = "https://github.com/broxus/tycho"
+
+[[repo]]
+url = "https://github.com/broxus/tycho-indexers"
+
+[[repo]]
+url = "https://github.com/broxus/tycho-testnet"
+
+[[repo]]
+url = "https://github.com/broxus/tycho-vm"
+
+[[repo]]
+url = "https://github.com/broxus/tychonet-bot"
 
 [[repo]]
 url = "https://github.com/broxus/wallet-android"
@@ -1013,6 +1068,9 @@ url = "https://github.com/everscale-contest/tonswap-frontend"
 url = "https://github.com/everscale-contest/tsc-5-2-Skydev0h"
 
 [[repo]]
+url = "https://github.com/everscale-contest/tsc-5-40-AndyRusso"
+
+[[repo]]
 url = "https://github.com/everscale-contest/tsc-5-behrang"
 
 [[repo]]
@@ -1022,7 +1080,16 @@ url = "https://github.com/everscale-contest/TSC-5-crazyministr"
 url = "https://github.com/everscale-contest/tsc-5-justdmitry"
 
 [[repo]]
+url = "https://github.com/everscale-contest/tvm-bftg"
+
+[[repo]]
 url = "https://github.com/everscale-contest/tvm-load-testing"
+
+[[repo]]
+url = "https://github.com/everscale-contest/tvm-smv"
+
+[[repo]]
+url = "https://github.com/everscale-contest/tvm.codes"
 
 [[repo]]
 url = "https://github.com/everscale-contest/vendee"
@@ -1284,6 +1351,369 @@ url = "https://github.com/everscale-org/tonswap-frontend"
 missing = true
 
 [[repo]]
+url = "https://github.com/everx-labs/admin-tool"
+
+[[repo]]
+url = "https://github.com/everx-labs/arangochair"
+
+[[repo]]
+url = "https://github.com/everx-labs/betterscale-tools"
+
+[[repo]]
+url = "https://github.com/everx-labs/bip39-rs"
+
+[[repo]]
+url = "https://github.com/everx-labs/broxus-nekoton"
+
+[[repo]]
+url = "https://github.com/everx-labs/broxus-nekoton-wasm"
+
+[[repo]]
+url = "https://github.com/everx-labs/Burrow"
+
+[[repo]]
+url = "https://github.com/everx-labs/che"
+
+[[repo]]
+url = "https://github.com/everx-labs/chess-match-making"
+
+[[repo]]
+url = "https://github.com/everx-labs/cmake_modules"
+
+[[repo]]
+url = "https://github.com/everx-labs/common"
+
+[[repo]]
+url = "https://github.com/everx-labs/contests-v2"
+
+[[repo]]
+url = "https://github.com/everx-labs/crypto3-algebra"
+
+[[repo]]
+url = "https://github.com/everx-labs/crypto3-algebra-marshalling"
+
+[[repo]]
+url = "https://github.com/everx-labs/crypto3-block"
+
+[[repo]]
+url = "https://github.com/everx-labs/crypto3-hash"
+
+[[repo]]
+url = "https://github.com/everx-labs/crypto3-math"
+
+[[repo]]
+url = "https://github.com/everx-labs/crypto3-multiprecision"
+
+[[repo]]
+url = "https://github.com/everx-labs/crypto3-multiprecision-marshalling"
+
+[[repo]]
+url = "https://github.com/everx-labs/crypto3-zk"
+
+[[repo]]
+url = "https://github.com/everx-labs/crypto3-zk-marshalling"
+
+[[repo]]
+url = "https://github.com/everx-labs/dapp-remp-subscriptions"
+
+[[repo]]
+url = "https://github.com/everx-labs/dapp-services-ranger"
+
+[[repo]]
+url = "https://github.com/everx-labs/debot-engine"
+
+[[repo]]
+url = "https://github.com/everx-labs/DeBot-IS-consortium"
+
+[[repo]]
+url = "https://github.com/everx-labs/debots"
+
+[[repo]]
+url = "https://github.com/everx-labs/electron-forge-maker-appimage"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-abi"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-adnl"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-appkit-js"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-assembler"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-block"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-block-json"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-bls-lib"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-cli"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-crypto"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-dht"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-executor"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-node"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-node-tools"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-overlay"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-platform-docs"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-playground"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-q-server"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-rldp"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-sdk"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-sdk-js"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-struct"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-tl"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-types"
+
+[[repo]]
+url = "https://github.com/everx-labs/ever-vm"
+
+[[repo]]
+url = "https://github.com/everx-labs/everdev"
+
+[[repo]]
+url = "https://github.com/everx-labs/everdev-vscode"
+
+[[repo]]
+url = "https://github.com/everx-labs/evernode-ds"
+
+[[repo]]
+url = "https://github.com/everx-labs/Evernode-NQ"
+
+[[repo]]
+url = "https://github.com/everx-labs/evernode-se"
+
+[[repo]]
+url = "https://github.com/everx-labs/eversdk-ton"
+
+[[repo]]
+url = "https://github.com/everx-labs/firebase-ios-sdk"
+
+[[repo]]
+url = "https://github.com/everx-labs/flex"
+
+[[repo]]
+url = "https://github.com/everx-labs/flex-sdk-js"
+
+[[repo]]
+url = "https://github.com/everx-labs/Foundation-site"
+
+[[repo]]
+url = "https://github.com/everx-labs/github-tag-action"
+
+[[repo]]
+url = "https://github.com/everx-labs/gosh-gitbook"
+
+[[repo]]
+url = "https://github.com/everx-labs/graphql-playground"
+
+[[repo]]
+url = "https://github.com/everx-labs/highlights"
+
+[[repo]]
+url = "https://github.com/everx-labs/ipcnv"
+
+[[repo]]
+url = "https://github.com/everx-labs/kafka-connect-arangodb"
+
+[[repo]]
+url = "https://github.com/everx-labs/lockfree"
+
+[[repo]]
+url = "https://github.com/everx-labs/main.ton.dev"
+
+[[repo]]
+url = "https://github.com/everx-labs/marshalling"
+
+[[repo]]
+url = "https://github.com/everx-labs/net.ton.dev"
+
+[[repo]]
+url = "https://github.com/everx-labs/react-native-awesome-alerts"
+
+[[repo]]
+url = "https://github.com/everx-labs/react-native-blur"
+
+[[repo]]
+url = "https://github.com/everx-labs/react-native-country-picker-modal"
+
+[[repo]]
+url = "https://github.com/everx-labs/react-native-indicators"
+
+[[repo]]
+url = "https://github.com/everx-labs/react-native-keychain"
+
+[[repo]]
+url = "https://github.com/everx-labs/react-native-modern-datepicker"
+
+[[repo]]
+url = "https://github.com/everx-labs/react-native-qrcode-scanner"
+
+[[repo]]
+url = "https://github.com/everx-labs/react-native-scrollable-navigation-bar"
+
+[[repo]]
+url = "https://github.com/everx-labs/react-native-simple-popover"
+
+[[repo]]
+url = "https://github.com/everx-labs/react-native-ui-lib"
+
+[[repo]]
+url = "https://github.com/everx-labs/react-native-video"
+
+[[repo]]
+url = "https://github.com/everx-labs/react-navigation-surf"
+
+[[repo]]
+url = "https://github.com/everx-labs/rust-crypto"
+
+[[repo]]
+url = "https://github.com/everx-labs/rust-statsd"
+
+[[repo]]
+url = "https://github.com/everx-labs/rustnet.ton.dev"
+
+[[repo]]
+url = "https://github.com/everx-labs/samples"
+
+[[repo]]
+url = "https://github.com/everx-labs/sdk-samples"
+
+[[repo]]
+url = "https://github.com/everx-labs/sodalite"
+
+[[repo]]
+url = "https://github.com/everx-labs/stdlib.sol"
+
+[[repo]]
+url = "https://github.com/everx-labs/stTONs"
+
+[[repo]]
+url = "https://github.com/everx-labs/subscriptions-transport-ws"
+
+[[repo]]
+url = "https://github.com/everx-labs/surf-external"
+
+[[repo]]
+url = "https://github.com/everx-labs/Surf-Releases"
+
+[[repo]]
+url = "https://github.com/everx-labs/TestSuite4"
+
+[[repo]]
+url = "https://github.com/everx-labs/TIP"
+
+[[repo]]
+url = "https://github.com/everx-labs/tl-parser"
+
+[[repo]]
+url = "https://github.com/everx-labs/ton-1"
+
+[[repo]]
+url = "https://github.com/everx-labs/ton-client-node-js"
+
+[[repo]]
+url = "https://github.com/everx-labs/ton-client-react-native-js"
+
+[[repo]]
+url = "https://github.com/everx-labs/ton-client-rs"
+
+[[repo]]
+url = "https://github.com/everx-labs/ton-client-web-js"
+
+[[repo]]
+url = "https://github.com/everx-labs/ton-dev-cli"
+
+[[repo]]
+url = "https://github.com/everx-labs/ton-labs-contracts"
+
+[[repo]]
+url = "https://github.com/everx-labs/ton-labs-node-storage"
+
+[[repo]]
+url = "https://github.com/everx-labs/ton-monorepo"
+
+[[repo]]
+url = "https://github.com/everx-labs/ton-nfc-client"
+
+[[repo]]
+url = "https://github.com/everx-labs/TON-Surf-Localization"
+
+[[repo]]
+url = "https://github.com/everx-labs/tondev"
+
+[[repo]]
+url = "https://github.com/everx-labs/tonix"
+
+[[repo]]
+url = "https://github.com/everx-labs/TonNfcClientAndroid"
+
+[[repo]]
+url = "https://github.com/everx-labs/TonNfcClientSwift"
+
+[[repo]]
+url = "https://github.com/everx-labs/tor-service"
+
+[[repo]]
+url = "https://github.com/everx-labs/True-NFT"
+
+[[repo]]
+url = "https://github.com/everx-labs/TVM-Compiler"
+
+[[repo]]
+url = "https://github.com/everx-labs/TVM-linker"
+
+[[repo]]
+url = "https://github.com/everx-labs/TVM-Solidity-Compiler"
+
+[[repo]]
+url = "https://github.com/everx-labs/UIKit"
+
+[[repo]]
+url = "https://github.com/everx-labs/wallet-sdk-js"
+
+[[repo]]
+url = "https://github.com/everx-labs/x25519-dalek"
+
+[[repo]]
+url = "https://github.com/everx-labs/zstd-rs"
+
+[[repo]]
 url = "https://github.com/extcrystalix/crystalix-extention"
 
 [[repo]]
@@ -1309,6 +1739,7 @@ url = "https://github.com/INTONNATION/freeton-rtdb-research"
 
 [[repo]]
 url = "https://github.com/INTONNATION/FreeTON-Rust-Node"
+missing = true
 
 [[repo]]
 url = "https://github.com/INTONNATION/freeton-smc-scripts"
@@ -1389,6 +1820,7 @@ url = "https://github.com/mytonwallet/mytonwallet.github.io"
 
 [[repo]]
 url = "https://github.com/mytonwallet/ton-http-notification-provider"
+missing = true
 
 [[repo]]
 url = "https://github.com/mytonwallet/vscode-tonsolidity-extension"
@@ -1517,13 +1949,22 @@ url = "https://github.com/RSquad/everscale-client-ts"
 url = "https://github.com/RSquad/gagarin-contracts"
 
 [[repo]]
+url = "https://github.com/RSquad/hyperlane-monorepo"
+
+[[repo]]
 url = "https://github.com/RSquad/marketplace"
+
+[[repo]]
+url = "https://github.com/RSquad/mempool.js"
 
 [[repo]]
 url = "https://github.com/RSquad/notification-provider"
 
 [[repo]]
 url = "https://github.com/RSquad/ShardEx"
+
+[[repo]]
+url = "https://github.com/RSquad/teleport-tg-preview"
 
 [[repo]]
 url = "https://github.com/RSquad/ton-aloof-timer"
@@ -1535,6 +1976,9 @@ url = "https://github.com/RSquad/ton-core"
 url = "https://github.com/RSquad/ton-swap"
 
 [[repo]]
+url = "https://github.com/RSquad/ton-teleport-btc-oracle"
+
+[[repo]]
 url = "https://github.com/RSquad/ton-trustless-bridge-evm-contracts"
 
 [[repo]]
@@ -1544,10 +1988,19 @@ url = "https://github.com/RSquad/ton-trustless-bridge-frontend"
 url = "https://github.com/RSquad/ton-trustless-bridge-relayer"
 
 [[repo]]
+url = "https://github.com/RSquad/ton-trustless-bridge-tvm-contracts"
+
+[[repo]]
 url = "https://github.com/RSquad/ton-utils"
 
 [[repo]]
 url = "https://github.com/RSquad/tonseer-litepaper"
+
+[[repo]]
+url = "https://github.com/RSquad/trustless-bridge-cli"
+
+[[repo]]
+url = "https://github.com/RSquad/trustless-bridge-contracts"
 
 [[repo]]
 url = "https://github.com/RSquad/xchainjs-lib"

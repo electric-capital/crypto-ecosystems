@@ -1,13 +1,27 @@
 # Ecosystem Level Information
 title = "Wormhole"
 
-sub_ecosystems = ["Portal (bridge)"]
+sub_ecosystems = ["XLabs"]
 
-github_organizations = ["https://github.com/wormhole-foundation", "https://github.com/XLabs"]
+github_organizations = [
+  "https://github.com/wormhole-foundation",
+  "https://github.com/wormholelabs-xyz",
+  "https://github.com/XLabs",
+]
 
 # Repositories
 [[repo]]
+url = "https://github.com/0xNilesh/wormhole-specialized-relayer"
+
+[[repo]]
+url = "https://github.com/ahsankhan201010/custom-wormhole-connect-sdk"
+
+[[repo]]
 url = "https://github.com/alephium/wormhole-fork"
+
+[[repo]]
+url = "https://github.com/BonusGned/wormhole-setup"
+missing = true
 
 [[repo]]
 url = "https://github.com/bracketloader/wormhole"
@@ -19,6 +33,12 @@ url = "https://github.com/codora-io/wormhole-icco"
 url = "https://github.com/wormhole-foundation/aptos-coin-list"
 
 [[repo]]
+url = "https://github.com/wormhole-foundation/ci-workflows"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/connect-in-style.wormhole.com"
+
+[[repo]]
 url = "https://github.com/wormhole-foundation/connect-sdk"
 
 [[repo]]
@@ -28,7 +48,43 @@ url = "https://github.com/wormhole-foundation/cosmos-sdk"
 url = "https://github.com/wormhole-foundation/cross-chain-borrow-lend"
 
 [[repo]]
+url = "https://github.com/wormhole-foundation/curve25519-dalek"
+
+[[repo]]
 url = "https://github.com/wormhole-foundation/cw20-legacy"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/demo-basic-connect"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/demo-basic-ts-sdk"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/demo-cctp-transfer"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/demo-cross-chain-token-transfer"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/demo-metaplex-metadata"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/demo-ntt-connect"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/demo-ntt-solana-multisig-tools"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/demo-ntt-ts-sdk"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/demo-queries-ts"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/demo-tutorials"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/demo-wormhole-messaging"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/docs.wormhole.com"
@@ -52,6 +108,9 @@ url = "https://github.com/wormhole-foundation/example-cross-chain-borrow-lend"
 url = "https://github.com/wormhole-foundation/example-cross-chain-deposits"
 
 [[repo]]
+url = "https://github.com/wormhole-foundation/example-grant-program"
+
+[[repo]]
 url = "https://github.com/wormhole-foundation/example-liquidity-layer"
 
 [[repo]]
@@ -59,6 +118,9 @@ url = "https://github.com/wormhole-foundation/example-native-token-transfers"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/example-nativeswap-usdc"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/example-ntt-token"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/example-portal-fast-withdrawal"
@@ -70,16 +132,28 @@ url = "https://github.com/wormhole-foundation/example-sei-relayer"
 url = "https://github.com/wormhole-foundation/example-sei-token-translator"
 
 [[repo]]
+url = "https://github.com/wormhole-foundation/example-swap-layer"
+
+[[repo]]
 url = "https://github.com/wormhole-foundation/example-token-bridge-relayer"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/example-token-bridge-ui"
 
 [[repo]]
+url = "https://github.com/wormhole-foundation/example-uniswap-liquidity-layer"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/example-wormhole-axelar-wsteth"
+
+[[repo]]
 url = "https://github.com/wormhole-foundation/example-wormhole-lending"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/example-wormhole-nativeswap"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/example-zk-light-clients"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/grants"
@@ -101,6 +175,15 @@ url = "https://github.com/wormhole-foundation/helper-contracts"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/metaplex-program-library"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/native-token-transfers"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/plonky2-near"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/pyth-merkle-maker"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/relayer-engine"
@@ -139,13 +222,20 @@ url = "https://github.com/wormhole-foundation/wormhole-circle-integration"
 url = "https://github.com/wormhole-foundation/wormhole-connect"
 
 [[repo]]
+url = "https://github.com/wormhole-foundation/wormhole-connect-automation-tests"
+
+[[repo]]
 url = "https://github.com/wormhole-foundation/wormhole-dashboard"
+
+[[repo]]
+url = "https://github.com/wormhole-foundation/wormhole-docs"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/wormhole-examples"
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/wormhole-explorer"
+missing = true
 
 [[repo]]
 url = "https://github.com/wormhole-foundation/wormhole-icco"
@@ -169,6 +259,9 @@ url = "https://github.com/wormhole-foundation/wormhole-scaffolding"
 url = "https://github.com/wormhole-foundation/wormhole-sdk-rs"
 
 [[repo]]
+url = "https://github.com/wormhole-foundation/wormhole-sdk-ts"
+
+[[repo]]
 url = "https://github.com/wormhole-foundation/wormhole-solidity-sdk"
 
 [[repo]]
@@ -181,19 +274,172 @@ url = "https://github.com/wormhole-foundation/wormhole-widget"
 url = "https://github.com/wormhole-foundation/xdapp-book"
 
 [[repo]]
+url = "https://github.com/wormholelabs-xyz/connect-in-style.wormhole.com"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/docs.wormhole.com"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/evm-ws-http-proxy"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-gmp-router"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-liquidity-layer"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-messaging-adapter-wormhole-guardians"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-messaging-endpoint"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-messaging-executor"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-native-token-transfers"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-non-fungible-ntt"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-queries-cosmwasm-verify"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-queries-demo"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-queries-solana-pda"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-queries-solana-stake-pool"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-queries-solana-verify"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-swap-layer"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/example-wormhole-sdk-ts"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/foundry"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/native-token-transfers"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/relayer-engine"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/required-review-test"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/ruleset-test"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/solana-test-validator"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/solana-test-validator-m1"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/solana-world-id-onchain-template"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/solana-world-id-program"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/swap-layer"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-circle-integration"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-circle-integration-sui"
+missing = true
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-connect"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-dashboard"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-query-sdk-rust"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-scaffolding"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-sdk-route"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-sdk-rs"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormhole-sdk-ts"
+
+[[repo]]
+url = "https://github.com/wormholelabs-xyz/wormholelabs.xyz"
+
+[[repo]]
+url = "https://github.com/XLabs/address-screening-reporter"
+
+[[repo]]
 url = "https://github.com/XLabs/app-status"
+missing = true
+
+[[repo]]
+url = "https://github.com/XLabs/arbitrary-token-transfers"
 
 [[repo]]
 url = "https://github.com/XLabs/cctp-relayer"
+missing = true
+
+[[repo]]
+url = "https://github.com/XLabs/connect-esm-example"
+missing = true
+
+[[repo]]
+url = "https://github.com/XLabs/core-bridge"
+
+[[repo]]
+url = "https://github.com/XLabs/example-liquidity-layer"
 
 [[repo]]
 url = "https://github.com/XLabs/example-token-bridge-relayer"
+missing = true
+
+[[repo]]
+url = "https://github.com/XLabs/example-wormhole-axelar-wsteth"
 
 [[repo]]
 url = "https://github.com/XLabs/fiber-redis-storage"
+missing = true
+
+[[repo]]
+url = "https://github.com/XLabs/go-ethereum"
+
+[[repo]]
+url = "https://github.com/XLabs/homebrew-hashicorp-tap"
+
+[[repo]]
+url = "https://github.com/XLabs/influxdb-proxy-exporter"
+
+[[repo]]
+url = "https://github.com/XLabs/kamaji"
 
 [[repo]]
 url = "https://github.com/XLabs/ledger-ethers-signer"
+
+[[repo]]
+url = "https://github.com/XLabs/ntt-lido-wsteth"
 
 [[repo]]
 url = "https://github.com/XLabs/portal-bridge-ui"
@@ -203,12 +449,24 @@ url = "https://github.com/XLabs/relayer-engine"
 
 [[repo]]
 url = "https://github.com/XLabs/relayer-price-feed"
+missing = true
+
+[[repo]]
+url = "https://github.com/XLabs/relayer-smart-contract-challenge"
 
 [[repo]]
 url = "https://github.com/XLabs/relayer-status-api"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/sei-relayer"
+missing = true
+
+[[repo]]
+url = "https://github.com/XLabs/snaxchain-config"
+
+[[repo]]
+url = "https://github.com/XLabs/solana-exporter"
 
 [[repo]]
 url = "https://github.com/XLabs/swap-layer"
@@ -217,16 +475,22 @@ url = "https://github.com/XLabs/swap-layer"
 url = "https://github.com/XLabs/terraform-kubernetes-ebs-csi-driver"
 
 [[repo]]
+url = "https://github.com/XLabs/tss-lib"
+
+[[repo]]
 url = "https://github.com/XLabs/TypeChain"
 
 [[repo]]
 url = "https://github.com/XLabs/usdc-bridge"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/usdc-bridge-prod"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/vaa-backfiller"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/wallet-aggregator-sdk"
@@ -236,21 +500,38 @@ url = "https://github.com/XLabs/wallet-monitor"
 
 [[repo]]
 url = "https://github.com/XLabs/wallet-monitor-d"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/wormhole"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/wormhole-connect"
 
 [[repo]]
+url = "https://github.com/XLabs/wormhole-sc-team"
+
+[[repo]]
+url = "https://github.com/XLabs/wormhole-sdk-route"
+
+[[repo]]
+url = "https://github.com/XLabs/wormhole-sdk-ts"
+
+[[repo]]
+url = "https://github.com/XLabs/wormhole-solidity-sdk"
+
+[[repo]]
 url = "https://github.com/XLabs/wormhole-token-list"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/wormholescan-bff"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/wormscan-sdk"
+missing = true
 
 [[repo]]
 url = "https://github.com/XLabs/wormscan-ui"

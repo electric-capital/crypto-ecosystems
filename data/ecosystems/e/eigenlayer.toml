@@ -1,7 +1,16 @@
 # Ecosystem Level Information
 title = "EigenLayer"
 
-sub_ecosystems = []
+sub_ecosystems = [
+  "Eigenlayer AVS",
+  "ether.fi",
+  "EtherScale",
+  "Kelp",
+  "Puffer",
+  "Renzo",
+  "Rio Network",
+  "Ritual (ritual net)",
+]
 
 github_organizations = ["https://github.com/Layr-Labs"]
 
@@ -10,19 +19,143 @@ github_organizations = ["https://github.com/Layr-Labs"]
 url = "https://github.com/alt-research/eigenlayer-contracts"
 
 [[repo]]
+url = "https://github.com/AvaProtocol/avs-mvp"
+
+[[repo]]
+url = "https://github.com/blocklessnetwork/blockless-avs-tools"
+
+[[repo]]
+url = "https://github.com/brevis-network/brevis-avs"
+
+[[repo]]
+url = "https://github.com/chimera-defi/AVS4RPC-ethglobal-london-24"
+
+[[repo]]
+url = "https://github.com/distributedstatemachine/eigenlayer-rs"
+
+[[repo]]
+url = "https://github.com/Eoracle/Eoracle-operator-cli"
+
+[[repo]]
+url = "https://github.com/h4shk4t/validAI"
+
+[[repo]]
+url = "https://github.com/junchenxia37/Ecosystem-Data-Retrival"
+
+[[repo]]
+url = "https://github.com/krisoshea-eth/MEV-Auction-Hook"
+
+[[repo]]
 url = "https://github.com/Layr-Labs/alpha-playground-avs-using-nethermind-spec"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/apis"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/arbitrum-actions"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/arbitrum-orbit-sdk"
+missing = true
+
+[[repo]]
+url = "https://github.com/Layr-Labs/avs-devnet"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/avs-ideas"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/avs-sync"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/awesome-avs"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/bn254-bls-keystore-rs"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/bn254-keystore-go"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/bold"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/cdk-data-availability"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/cdk-validium-node"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/cerberus"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/cerberus-api"
 
 [[repo]]
 url = "https://github.com/Layr-Labs/chaind"
 
 [[repo]]
+url = "https://github.com/Layr-Labs/da-stunt"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/devQuickstart"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/dirk"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/docusaurus"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigen-agentkit"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenauts"
+
+[[repo]]
 url = "https://github.com/Layr-Labs/eigenda"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenda-client-rs"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenda-docs"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenda-examples"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenda-operator-metadata"
 
 [[repo]]
 url = "https://github.com/Layr-Labs/eigenda-operator-setup"
 
 [[repo]]
+url = "https://github.com/Layr-Labs/eigenda-orbit-sdk"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenda-orbit-setup-script"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenda-proxy"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenda-registration-cli"
+
+[[repo]]
 url = "https://github.com/Layr-Labs/eigenda-rollups"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenda-sdk"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenda-utils"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigendata"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/EigenHopper"
 
 [[repo]]
 url = "https://github.com/Layr-Labs/eigenlayer-avs-playgrounds"
@@ -34,10 +167,22 @@ url = "https://github.com/Layr-Labs/eigenlayer-cli"
 url = "https://github.com/Layr-Labs/eigenlayer-contracts"
 
 [[repo]]
+url = "https://github.com/Layr-Labs/eigenlayer-contracts-zeus-metadata"
+
+[[repo]]
 url = "https://github.com/Layr-Labs/eigenlayer-docs"
 
 [[repo]]
 url = "https://github.com/Layr-Labs/eigenlayer-middleware"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenlayer-payment-proofs"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenlayer-rewards-proofs"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/eigenlayer-rewards-updater"
 
 [[repo]]
 url = "https://github.com/Layr-Labs/eigenpod-proofs-generation"
@@ -46,27 +191,169 @@ url = "https://github.com/Layr-Labs/eigenpod-proofs-generation"
 url = "https://github.com/Layr-Labs/eigensdk-go"
 
 [[repo]]
+url = "https://github.com/Layr-Labs/eigensdk-rs"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/ethdo"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/event-guidelines"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/evm-tx-load-gen"
+
+[[repo]]
 url = "https://github.com/Layr-Labs/foundry"
 
 [[repo]]
+url = "https://github.com/Layr-Labs/go-eth2-types"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/go-eth2-util"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/go-eth2-wallet-hd"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/go-sidecar"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/hello-world-avs"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/hokulea"
+
+[[repo]]
 url = "https://github.com/Layr-Labs/incredible-squaring-avs"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/incredible-squaring-avs-rs"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/kailua"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/kona"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/kzgpad-rs"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/layr-devnet"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/media-kit"
 
 [[repo]]
 url = "https://github.com/Layr-Labs/nitro"
 missing = true
 
 [[repo]]
+url = "https://github.com/Layr-Labs/nitro-archived"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/nitro-contracts"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/nitro-contracts-archive"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/nitro-go-ethereum"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/nitro-go-ethereum-private"
+
+[[repo]]
 url = "https://github.com/Layr-Labs/nitro-testnode"
 missing = true
+
+[[repo]]
+url = "https://github.com/Layr-Labs/nitro-testnode-archive"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/op-plasma-eigenda"
 
 [[repo]]
 url = "https://github.com/Layr-Labs/optimism"
 
 [[repo]]
+url = "https://github.com/Layr-Labs/optimism-archived"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/optimism-exp"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/optimism-package"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/orbit-actions"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/orbit-setup-script"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/ponder"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/protocol-apis"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/rust-bls-bn254"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/rust-kzg-bn254"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/sidecar"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/sidecar-apis"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/sidecar-calculations"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/teal"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/temp-test-action"
+missing = true
+
+[[repo]]
 url = "https://github.com/Layr-Labs/tendermint"
 
 [[repo]]
+url = "https://github.com/Layr-Labs/test-security"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/troubleshooting-examples"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/whitepaper"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/zeus"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/zeus-templates"
+
+[[repo]]
+url = "https://github.com/Layr-Labs/zkevm-contracts"
+
+[[repo]]
+url = "https://github.com/mangata-finance/eigen-layer-monorepo"
+
+[[repo]]
+url = "https://github.com/medalex/mfssia-eigenlayer"
+
+[[repo]]
 url = "https://github.com/NethermindEth/eigenlayer"
+
+[[repo]]
+url = "https://github.com/oplabs/primestaked-eth"
+
+[[repo]]
+url = "https://github.com/Range-Protocol/skate-services"
 
 [[repo]]
 url = "https://github.com/RLO5/eigenlayer-contracts-Apr23"

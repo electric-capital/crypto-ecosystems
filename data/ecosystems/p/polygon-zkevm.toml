@@ -3,30 +3,33 @@ title = "Polygon zkEVM"
 
 sub_ecosystems = [
   "Amet Finance",
-  "Balancer",
+  "Anon Aadhaar",
+  "Aura Finance",
   "Bleu Fi",
-  "Celer Network cBridge",
-  "Chronicle Protocol",
+  "Curvance",
+  "Dolomite Exchange",
   "Dyson Finance",
-  "Fluidity Money",
-  "LayerZero",
+  "Gravita Protocol",
+  "Gyroscope",
   "Mantissa Finance",
   "Mellow Finance",
   "Nomis Protocol",
-  "OpenOcean",
-  "PancakeSwap",
+  "Push Protocol (previously EPNS)",
+  "Quickswap",
   "Rango Exchange",
-  "Reservoir Protocol",
-  "Safe Ecosystem",
-  "Sushi Swap",
-  "Symbiosis Finance",
-  "WOO Network",
-  "XY Finance",
+  "Secured Finance",
 ]
 
-github_organizations = ["https://github.com/0xPolygonHermez"]
+github_organizations = [
+  "https://github.com/0xPolygonHermez",
+  "https://github.com/0xPolygonMiden",
+  "https://github.com/0xPolygonZero",
+]
 
 # Repositories
+[[repo]]
+url = "https://github.com/0xjimmy/risk-onchain"
+
 [[repo]]
 url = "https://github.com/0xPolygonHermez/.github"
 
@@ -41,6 +44,9 @@ url = "https://github.com/0xPolygonHermez/clabot-config"
 
 [[repo]]
 url = "https://github.com/0xPolygonHermez/code-examples"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/crypto-bigint"
 
 [[repo]]
 url = "https://github.com/0xPolygonHermez/erigon"
@@ -67,7 +73,13 @@ url = "https://github.com/0xPolygonHermez/pil-stark"
 url = "https://github.com/0xPolygonHermez/pil2-compiler"
 
 [[repo]]
+url = "https://github.com/0xPolygonHermez/pil2-proofman"
+
+[[repo]]
 url = "https://github.com/0xPolygonHermez/pil2-proofman-js"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/pil2-stark"
 
 [[repo]]
 url = "https://github.com/0xPolygonHermez/pil2-stark-js"
@@ -82,16 +94,56 @@ url = "https://github.com/0xPolygonHermez/pilcom-vscode"
 url = "https://github.com/0xPolygonHermez/piltools"
 
 [[repo]]
+url = "https://github.com/0xPolygonHermez/rust"
+
+[[repo]]
 url = "https://github.com/0xPolygonHermez/shplonkjs"
 
 [[repo]]
 url = "https://github.com/0xPolygonHermez/spearbit-ethereum-state-tests"
 
 [[repo]]
+url = "https://github.com/0xPolygonHermez/stark-recurser"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/tiny-keccak"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zisk"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zisk-eth-client"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zisk-patch-tiny-keccak"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zisk-rsp-patch"
+missing = true
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zisk-testvectors"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zisk_eth_block"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zisk_template"
+
+[[repo]]
 url = "https://github.com/0xPolygonHermez/zkasmcom"
 
 [[repo]]
 url = "https://github.com/0xPolygonHermez/zkasmcom-vscode"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zkevm-aggregator"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zkevm-bench"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zkevm-blob-rom"
 
 [[repo]]
 url = "https://github.com/0xPolygonHermez/zkevm-bridge-service"
@@ -125,6 +177,9 @@ url = "https://github.com/0xPolygonHermez/zkevm-ethtx-manager"
 url = "https://github.com/0xPolygonHermez/zkevm-node"
 
 [[repo]]
+url = "https://github.com/0xPolygonHermez/zkevm-pool-manager"
+
+[[repo]]
 url = "https://github.com/0xPolygonHermez/zkevm-prover"
 
 [[repo]]
@@ -135,6 +190,9 @@ url = "https://github.com/0xPolygonHermez/zkevm-rom"
 
 [[repo]]
 url = "https://github.com/0xPolygonHermez/zkevm-rpc-server"
+
+[[repo]]
+url = "https://github.com/0xPolygonHermez/zkevm-sequence-sender"
 
 [[repo]]
 url = "https://github.com/0xPolygonHermez/zkevm-sequencer"
@@ -149,16 +207,208 @@ url = "https://github.com/0xPolygonHermez/zkevm-statedb-legacy"
 url = "https://github.com/0xPolygonHermez/zkevm-storage-rom"
 
 [[repo]]
+url = "https://github.com/0xPolygonHermez/zkevm-synchronizer-l1"
+
+[[repo]]
 url = "https://github.com/0xPolygonHermez/zkevm-techdocs"
 
 [[repo]]
 url = "https://github.com/0xPolygonHermez/zkevm-testvectors"
 
 [[repo]]
+url = "https://github.com/0xPolygonMiden/.github"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/air-script"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/clob-example"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/compiler"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/contract-examples"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/crypto"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/developer-playground"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/examples"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/experiments"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/miden-base"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/miden-client"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/miden-diagnostics"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/miden-docs"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/miden-formatting"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/miden-homepage"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/miden-node"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/miden-parsing"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/miden-tutorials"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/miden-vm"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/miette"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/rust-templates"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/thiserror"
+
+[[repo]]
+url = "https://github.com/0xPolygonMiden/zkhack-scaffold"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/0xPolygonZero.github.io"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/agglayer"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/alloy-compat"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/bft-simulation"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/commitment-set-poc"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/erigon"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/eth-pos-devnet-provable"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/eth-trie-tools"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/eth-tx-proof"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/eth_trie_utils"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/evm-tests"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/hash-constants"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/hyperstark"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/jerigon-test-network"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/mir-core-old.github.io"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/nums"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/paladin"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/plonky"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/plonky-block-proof-gen"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/plonky-edge-block-trace-parser"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/plonky2"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/plonky2-ecdsa"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/plonky2-insertion"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/plonky2-semaphore"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/plonky2-u32"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/plonky2-waksman"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/proof-protocol-decoder"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/r1cs"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/r1cs-bellman"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/r1cs-workshop"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/r1cs-zkinterface"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/rsp"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/smt_utils"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/sp1"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/system-zero"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/yultsur"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/zero-bin"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/zeth"
+
+[[repo]]
+url = "https://github.com/0xPolygonZero/zk_evm"
+
+[[repo]]
 url = "https://github.com/0xStrobe/defillama-server"
 
 [[repo]]
 url = "https://github.com/1delta-DAO/contracts-isolation"
+
+[[repo]]
+url = "https://github.com/7flash/hanoi-wallet-ai"
 
 [[repo]]
 url = "https://github.com/aniruddhafb/RarX_Marketplace"
@@ -187,10 +437,18 @@ missing = true
 url = "https://github.com/cairoeth/restaking"
 
 [[repo]]
+url = "https://github.com/Chi-AnTai/higher-swap-contract"
+
+[[repo]]
 url = "https://github.com/CJskii/Multi-Chain-ONFT-Platform"
+missing = true
 
 [[repo]]
 url = "https://github.com/CJskii/omnichain-minter"
+missing = true
+
+[[repo]]
+url = "https://github.com/ClearflySystems/encodeclub"
 
 [[repo]]
 url = "https://github.com/clober-dex/mango-farmers-club"
@@ -217,19 +475,31 @@ url = "https://github.com/CygnusDAO/periphery"
 url = "https://github.com/D9J9V/eth-online-2023"
 
 [[repo]]
+url = "https://github.com/Dapp-Learning-DAO/Official-website-smart-contract"
+
+[[repo]]
 url = "https://github.com/dappsar/blockchains-based-on-execution-types"
 
 [[repo]]
 url = "https://github.com/deadspyexx/airdrop-hunt-bot"
 
 [[repo]]
+url = "https://github.com/deepshah9696/zkVerify"
+
+[[repo]]
 url = "https://github.com/definme/scaley-valley"
+
+[[repo]]
+url = "https://github.com/Desig-Labs/supported-chains"
 
 [[repo]]
 url = "https://github.com/Dev43/hackfs"
 
 [[repo]]
 url = "https://github.com/dhernz/caravela-protocol"
+
+[[repo]]
+url = "https://github.com/E5F6/ainrzy"
 
 [[repo]]
 url = "https://github.com/EthGlobal2023BountyHack/datacache-contracts"
@@ -244,10 +514,16 @@ url = "https://github.com/ethstorage/web3url-gateway"
 url = "https://github.com/exohood/token-launchpad-goerli-testnet"
 
 [[repo]]
+url = "https://github.com/GeneralMagicio/q-acc"
+
+[[repo]]
 url = "https://github.com/glifio/defillama-server"
 
 [[repo]]
 url = "https://github.com/grimoiredotxyz/grimoire"
+
+[[repo]]
+url = "https://github.com/hung-ngm/zk-energy-crowdfund"
 
 [[repo]]
 url = "https://github.com/iden3/eslint-config-react-ts"
@@ -257,6 +533,12 @@ url = "https://github.com/integrations-Polygon/zkEVM_automated_testing"
 
 [[repo]]
 url = "https://github.com/Interport-Finance/defillama-server"
+
+[[repo]]
+url = "https://github.com/itsswappyb/decorp"
+
+[[repo]]
+url = "https://github.com/ivolavacek/lumx-hack-last-chance"
 
 [[repo]]
 url = "https://github.com/jackson-harris-iii/scaling-ethereum-2023"
@@ -269,6 +551,9 @@ url = "https://github.com/KaizenDeveloperA/zkevm-call-forwarder"
 
 [[repo]]
 url = "https://github.com/keomprotocol/keom-contracts"
+
+[[repo]]
+url = "https://github.com/kidneyweakx/gohan-layer"
 
 [[repo]]
 url = "https://github.com/kitai-hazure/DTender"
@@ -290,6 +575,9 @@ url = "https://github.com/libaice/sherlock-2023-07-kyber-swap"
 
 [[repo]]
 url = "https://github.com/lsdxfinance/lsdx-contracts"
+
+[[repo]]
+url = "https://github.com/maciel2022/Latina_Blockchaim_Hackathon_SafePets_Dapp"
 
 [[repo]]
 url = "https://github.com/madiha-right/ethcon-y"
@@ -326,7 +614,13 @@ url = "https://github.com/miguelmota/polygon-zkevm-messenger-l1-to-l2-example"
 url = "https://github.com/miguelmota/polygon-zkevm-messenger-l2-to-l1-example"
 
 [[repo]]
+url = "https://github.com/Mingzhe-W/privacy_avengers"
+
+[[repo]]
 url = "https://github.com/mrgoswami20/POLY-MOD-3"
+
+[[repo]]
+url = "https://github.com/mxber2022/ETHVietnam"
 
 [[repo]]
 url = "https://github.com/Nadai2010/Nadai-L2-ESP-Comparativa-ZkEVM"
@@ -353,7 +647,13 @@ url = "https://github.com/oceans404/zkevm-hardhat-demo"
 url = "https://github.com/odos-xyz/odos-router-v2"
 
 [[repo]]
+url = "https://github.com/OpenTechne/Smartrental-hackaton-eth-prague-2024"
+
+[[repo]]
 url = "https://github.com/OZNSN/coin-fountain"
+
+[[repo]]
+url = "https://github.com/paybox-org/smartcontract"
 
 [[repo]]
 url = "https://github.com/pcaversaccio/create2deployer"
@@ -365,6 +665,9 @@ url = "https://github.com/Phala-Network/ethglobal-smolask"
 url = "https://github.com/Polygon-Advocates/zkevm-dapp"
 
 [[repo]]
+url = "https://github.com/Pranjal-231003/HackOn-Titanz"
+
+[[repo]]
 url = "https://github.com/predyprotocol/defillama-server"
 
 [[repo]]
@@ -374,7 +677,10 @@ url = "https://github.com/pugson/abi-data"
 url = "https://github.com/QuarkChain/ethfs-uploader"
 
 [[repo]]
-url = "https://github.com/QuickSwap/perps-frontend"
+url = "https://github.com/QuickSwap/perps"
+
+[[repo]]
+url = "https://github.com/QuickSwap/zkevm-subgraph"
 
 [[repo]]
 url = "https://github.com/realaskaer/Scroll"
@@ -383,16 +689,23 @@ url = "https://github.com/realaskaer/Scroll"
 url = "https://github.com/rhinofi/defillama-server"
 
 [[repo]]
+url = "https://github.com/sambitsargam/eth-vn"
+
+[[repo]]
 url = "https://github.com/shawnharmsen/chainlist"
 
 [[repo]]
 url = "https://github.com/sherlock-audit/2023-07-kyber-swap"
 
 [[repo]]
+url = "https://github.com/sjlee80/eth2024"
+
+[[repo]]
 url = "https://github.com/SKYBITDev3/SKYBIT-Keyless-Deployment"
 
 [[repo]]
 url = "https://github.com/switchboard-xyz/evm-functions-template"
+missing = true
 
 [[repo]]
 url = "https://github.com/taylorjdawson/eth-chains"
@@ -405,6 +718,9 @@ url = "https://github.com/uri1001/the-evm-networks-project"
 
 [[repo]]
 url = "https://github.com/vrajdesai78/tokenverse"
+
+[[repo]]
+url = "https://github.com/WilliamUW/ETHBoston2024"
 
 [[repo]]
 url = "https://github.com/yungxinkawaii/Block3"

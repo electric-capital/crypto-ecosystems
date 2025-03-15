@@ -1,7 +1,7 @@
 # Ecosystem Level Information
 title = "Injective"
 
-sub_ecosystems = ["Wormhole"]
+sub_ecosystems = ["Astroport", "Ethena", "Hydro"]
 
 github_organizations = ["https://github.com/InjectiveLabs"]
 
@@ -16,6 +16,12 @@ url = "https://github.com/InjectiveLabs/0x-mesh"
 url = "https://github.com/InjectiveLabs/0x-monorepo"
 
 [[repo]]
+url = "https://github.com/InjectiveLabs/account-abstraction"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/awesome-injective"
+
+[[repo]]
 url = "https://github.com/InjectiveLabs/b"
 
 [[repo]]
@@ -25,19 +31,35 @@ url = "https://github.com/InjectiveLabs/bandchain"
 url = "https://github.com/InjectiveLabs/bandchain-packet"
 
 [[repo]]
+url = "https://github.com/InjectiveLabs/block-sdk"
+
+[[repo]]
 url = "https://github.com/InjectiveLabs/blockscout"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/branding"
 
 [[repo]]
+url = "https://github.com/InjectiveLabs/btree"
+missing = true
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/bundler-spec-tests"
+
+[[repo]]
 url = "https://github.com/InjectiveLabs/chainlink-injective"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/chainstreamer_latency_test"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/closer"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/cometbft"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/cometbft-load-test"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/cosmos-gravity-bridge"
@@ -50,6 +72,9 @@ url = "https://github.com/InjectiveLabs/CosmWasm101"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/cw-counter"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/cw-hyperlane"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/cw-injective"
@@ -83,6 +108,9 @@ url = "https://github.com/InjectiveLabs/esbuild-plugins"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/etherman"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/ethermint"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/evmos"
@@ -122,13 +150,28 @@ url = "https://github.com/InjectiveLabs/graph-node"
 url = "https://github.com/InjectiveLabs/grpc-web"
 
 [[repo]]
+url = "https://github.com/InjectiveLabs/heighliner"
+
+[[repo]]
 url = "https://github.com/InjectiveLabs/hummingbot"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/hummingbot_hackathon"
 
 [[repo]]
+url = "https://github.com/InjectiveLabs/hyperlane-registry"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/iAgent"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/iagent-ts"
+
+[[repo]]
 url = "https://github.com/InjectiveLabs/iavl"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/ibc-apps"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/ibc-go"
@@ -183,6 +226,9 @@ url = "https://github.com/InjectiveLabs/injective-dex"
 tags = ["Protocol"]
 
 [[repo]]
+url = "https://github.com/InjectiveLabs/injective-docs"
+
+[[repo]]
 url = "https://github.com/InjectiveLabs/injective-equinox-rewards"
 
 [[repo]]
@@ -200,6 +246,10 @@ url = "https://github.com/InjectiveLabs/injective-explorer-mintscan-backend"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/injective-faucet"
+missing = true
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/injective-faucet-old"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/injective-futures-protocol"
@@ -214,10 +264,23 @@ url = "https://github.com/InjectiveLabs/injective-guilds-ui"
 url = "https://github.com/InjectiveLabs/injective-hedgefund"
 
 [[repo]]
+url = "https://github.com/InjectiveLabs/injective-helix-demo"
+
+[[repo]]
 url = "https://github.com/InjectiveLabs/injective-ledger-go"
+missing = true
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/injective-liquidator-bot"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/injective-lists"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/injective-lite-bridge-widget"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/injective-lite-bridge-widget-react"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/injective-oracle-scaffold"
@@ -233,6 +296,9 @@ url = "https://github.com/InjectiveLabs/injective-protocol-specification"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/injective-pubsub"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/injective-rust"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/injective-sdk-ts-example"
@@ -260,11 +326,20 @@ url = "https://github.com/InjectiveLabs/injective-ts-example"
 url = "https://github.com/InjectiveLabs/injective-ts-examples"
 
 [[repo]]
+url = "https://github.com/InjectiveLabs/injective-ts-webpack-example"
+
+[[repo]]
 url = "https://github.com/InjectiveLabs/injective-ui"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/injective-ui-components"
 missing = true
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/interchaintest"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/jira-cli"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/jsonc"
@@ -283,6 +358,9 @@ url = "https://github.com/InjectiveLabs/mainnet-genesis"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/mainnet-genesis-dryrun"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/market_monitor"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/matic-cli"
@@ -319,6 +397,9 @@ missing = true
 url = "https://github.com/InjectiveLabs/relayer"
 
 [[repo]]
+url = "https://github.com/InjectiveLabs/rundler"
+
+[[repo]]
 url = "https://github.com/InjectiveLabs/sdk-cpp"
 
 [[repo]]
@@ -329,6 +410,15 @@ url = "https://github.com/InjectiveLabs/sdk-python"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/serverless-geoip"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/shared-packages"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/skip-go-cosmwasm-contracts"
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/solidity-contracts"
 
 [[repo]]
 url = "https://github.com/InjectiveLabs/statsd-http-proxy"
@@ -381,3 +471,6 @@ url = "https://github.com/InjectiveLabs/wasmvm"
 [[repo]]
 url = "https://github.com/InjectiveLabs/website"
 missing = true
+
+[[repo]]
+url = "https://github.com/InjectiveLabs/wynddao"

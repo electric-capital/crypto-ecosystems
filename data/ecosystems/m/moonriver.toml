@@ -3,42 +3,30 @@ title = "Moonriver"
 
 sub_ecosystems = [
   "1Swap",
-  "ACryptoS",
   "AirCoin",
   "Alium Finance",
   "Amara Finance",
-  "API3",
   "Autofarm Network",
   "Balance Capital",
-  "Beefy.Finance",
-  "Biconomy",
+  "Bifrost",
   "Blocsport",
-  "Bware Labs",
-  "Celer Network cBridge",
   "Certhum",
   "Chaotic Finance",
-  "Connext Network",
   "DeFiHelper",
-  "DODO",
   "Huckleberry",
   "IBetYou",
-  "Impermax Finance",
   "Impossible Finance",
   "imToken",
   "KogeCoin",
-  "Lido",
   "Meson",
   "MixBytes",
   "Moonbeans",
   "Moonsama",
   "Moonshot",
   "Moonwell",
-  "Multichain (Anyswap)",
   "MyWish",
   "Narwhalswap",
   "Novasama Technologies",
-  "OnFinality",
-  "Orbit Chain",
   "Owl Protocol",
   "Peri Finance",
   "Polkadotters",
@@ -55,31 +43,28 @@ sub_ecosystems = [
   "Solarbeam",
   "Stakefish",
   "Subscan",
-  "Subsquid",
-  "Sushi Swap",
   "Swing",
-  "Swing.xyz",
-  "Synapse Protocol",
-  "Talisman",
   "TemplarDAO",
   "The Gas Station",
   "Toad Network",
   "TrueStaking",
   "Vulture Finance",
-  "Wanchain",
   "Web3Go",
-  "WePiggy",
   "XDAO",
-  "XY Finance",
   "Yield Bay",
   "Yuser",
-  "Zenlink",
   "Zircon",
 ]
 
 github_organizations = ["https://github.com/PureStake"]
 
 # Repositories
+[[repo]]
+url = "https://github.com/bizzyvinci/moonriver-explorer"
+
+[[repo]]
+url = "https://github.com/bizzyvinci/moonriver-unified-subquery"
+
 [[repo]]
 url = "https://github.com/Cardinal-Entertainment/nft-market"
 
@@ -102,19 +87,46 @@ url = "https://github.com/crustio/shadow-apps"
 url = "https://github.com/david30907d/lensLend"
 
 [[repo]]
+url = "https://github.com/Entity54/SubQuery_XCM_Moonriver"
+missing = true
+
+[[repo]]
+url = "https://github.com/eshaben/moonriver-subql-starter"
+
+[[repo]]
+url = "https://github.com/eshaben/moonriver-treasury-deposits-squid"
+
+[[repo]]
 url = "https://github.com/ExtremelySunnyYK/IdeNFTity"
 
 [[repo]]
 url = "https://github.com/HackaDOT-East-Asia/Summer-HackaDOT-2023"
 
 [[repo]]
+url = "https://github.com/Hayden0323/moonriver-test-subql"
+
+[[repo]]
+url = "https://github.com/ioannist/moonriver-collator-failover"
+
+[[repo]]
+url = "https://github.com/ioannist/moonriver-collator-failover-micro"
+
+[[repo]]
+url = "https://github.com/ioannist/moonriver-delegator-cover-contract"
+
+[[repo]]
 url = "https://github.com/kodadot/packages"
+
+[[repo]]
+url = "https://github.com/manfromexistence/dx-beta"
+missing = true
 
 [[repo]]
 url = "https://github.com/manuelhb14/moonbridge"
 
 [[repo]]
 url = "https://github.com/marketxyz/market-dApp"
+missing = true
 
 [[repo]]
 url = "https://github.com/marscolony-io/contracts"
@@ -133,6 +145,9 @@ url = "https://github.com/meterio/Passportv2Contracts"
 
 [[repo]]
 url = "https://github.com/mk314k/polkadot-moonbeam-greenify-2023"
+
+[[repo]]
+url = "https://github.com/Moehringen/moonriverindexer"
 
 [[repo]]
 url = "https://github.com/moonbeam-foundation/cli-ts-signer"
@@ -303,7 +318,22 @@ url = "https://github.com/Moonsong-Labs/toml_sort"
 url = "https://github.com/Moonsong-Labs/xcm-tools"
 
 [[repo]]
+url = "https://github.com/opensquare-network/dotreasury"
+
+[[repo]]
 url = "https://github.com/orbiterone/orbiter-api"
+
+[[repo]]
+url = "https://github.com/p2p-org/polkadot_monitoring_service"
+
+[[repo]]
+url = "https://github.com/papermoonio/polkadot-ecosystem-docs-draft"
+
+[[repo]]
+url = "https://github.com/paritytech/asset-transfer-api"
+
+[[repo]]
+url = "https://github.com/polkassembly/polkassembly"
 
 [[repo]]
 url = "https://github.com/PureStake/algosigner"
@@ -358,6 +388,7 @@ url = "https://github.com/PureStake/cli-ts-signer"
 
 [[repo]]
 url = "https://github.com/PureStake/collator-tools"
+missing = true
 
 [[repo]]
 url = "https://github.com/PureStake/common"
@@ -380,6 +411,7 @@ url = "https://github.com/PureStake/cumulus"
 
 [[repo]]
 url = "https://github.com/PureStake/data-retention-discord-bot"
+missing = true
 
 [[repo]]
 url = "https://github.com/PureStake/DefiLlama-Adapters"
@@ -453,6 +485,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/PureStake/metamask-extension"
+missing = true
 
 [[repo]]
 url = "https://github.com/PureStake/mitmproxy"
@@ -602,6 +635,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/PureStake/puppeteer"
+missing = true
 
 [[repo]]
 url = "https://github.com/PureStake/py-algorand-sdk"
@@ -613,6 +647,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/PureStake/references"
+missing = true
 
 [[repo]]
 url = "https://github.com/PureStake/sccache"
@@ -634,6 +669,7 @@ url = "https://github.com/PureStake/substrate"
 
 [[repo]]
 url = "https://github.com/PureStake/substrate-api-sidecar"
+missing = true
 
 [[repo]]
 url = "https://github.com/PureStake/substrate-js-utilities"
@@ -668,6 +704,7 @@ missing = true
 
 [[repo]]
 url = "https://github.com/PureStake/wagmi"
+missing = true
 
 [[repo]]
 url = "https://github.com/PureStake/walletconnect-example-dapp"
@@ -703,5 +740,21 @@ url = "https://github.com/SoulSwapFinance/soul-interface"
 url = "https://github.com/synapsecns/synapse-contracts"
 
 [[repo]]
+url = "https://github.com/TABASCOatw/particle-moonriver-demo"
+
+[[repo]]
 url = "https://github.com/townhall-gov/townhall"
+missing = true
+
+[[repo]]
+url = "https://github.com/unchase-subgraphs/huckleberry-finance-moonriver-subgraph"
+
+[[repo]]
+url = "https://github.com/unchase-subgraphs/sushiswap-moonriver-subgraph"
+
+[[repo]]
+url = "https://github.com/zaivanza/all-in-one-v2"
+
+[[repo]]
+url = "https://github.com/zaivanza/nogem.app-aio"
 missing = true

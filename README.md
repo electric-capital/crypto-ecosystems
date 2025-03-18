@@ -266,3 +266,52 @@ tags = [ "Library"] # This line is optional
 
 
 Thank you for contributing and for reading the contribution guide! ❤️
+
+## Contributing Guidelines
+
+### Testing Your Contributions Locally
+
+Before submitting a pull request, it's recommended to validate your TOML files to ensure they are correctly formatted:
+
+1. You can use online TOML validators like [TOML Lint](https://www.tomlint.com/) to check your file syntax.
+2. Make sure all required fields are present (title, github_organizations or repos).
+3. Verify that any ecosystem you reference in `sub_ecosystems` actually exists in the repository.
+
+### Style Conventions
+
+To maintain consistency across all ecosystem files, please follow these conventions:
+
+1. Use kebab-case for file names (e.g., `my-ecosystem.toml`).
+2. Use proper capitalization in the `title` field.
+3. Place files in the correct alphabetical folder.
+4. When adding tags to repositories, use consistent terminology. Common tags include:
+   - "Protocol"
+   - "Wallet"
+   - "Documentation"
+   - "Library"
+   - "API"
+   - "SDK"
+   - "DeFi"
+   - "NFT"
+   - "DAO"
+
+### Review Process
+
+After submitting your pull request:
+
+1. Maintainers will review your submission for accuracy and completeness.
+2. They may request changes if needed.
+3. Once approved, your changes will be merged into the main repository.
+4. The data will be periodically processed into our internal database.
+
+### Troubleshooting
+
+Common issues and solutions:
+
+- **Duplicate Entries**: Before adding a new ecosystem or repository, search to make sure it doesn't already exist.
+- **Invalid Links**: Ensure all GitHub organization and repository URLs are correct and accessible.
+- **File Structure**: Make sure you're editing or creating files in the correct location within the repository.
+- **Sub-Ecosystem References**: If you're referencing a sub-ecosystem, make sure the name matches exactly with its title in its own TOML file.
+
+If you encounter any other issues, please open an issue in the repository, and the maintainers will help you resolve it.
+

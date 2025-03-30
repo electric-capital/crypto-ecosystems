@@ -272,6 +272,7 @@ fn find_misordered_elements_diff(strings: &[String]) -> Option<String> {
 fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> ValidationStats {
     let mut errors = vec![];
     let mut repo_set = HashSet::new();
+    let mut tagmap: HashMap<String, u32> = HashMap::new();
     let mut missing_count = 0;
 
     for ecosystem in ecosystem_map.values() {
@@ -292,6 +293,7 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> ValidationStats {
 
         let mut seen_repos = HashSet::new();
 
+        //let mut sorted_subs = vec![];
         let mut sort_error = UnsortedEcosystem {
             ecosystem: ecosystem.title.clone(),
             repo_diff: None,
@@ -326,6 +328,12 @@ fn validate_ecosystems(ecosystem_map: &EcosystemMap) -> ValidationStats {
                     missing_count += 1;
                 }
                 repo_set.insert(repo.url.clone());
+                if let Some(tags) = &repo.tags {
+                    for tag in tags {
+                        let counter = tagmap.entry(tag.to_string()).or_insert(0);
+                        *counter += 1;
+                    }
+                }
                 let url_type = parse_repo_url_type(&repo.url);
                 match url_type {
                     RepoUrlType::GithubUnnormalized
@@ -423,8 +431,9 @@ fn write_ecosystem_to_toml(repo_root: &Path, eco: &Ecosystem) -> Result<()> {
     output.push_str("# Repositories\n");
     let mut sorted_repos: Vec<&Repo> = eco.repo.iter().flatten().collect();
     sorted_repos.sort_by_key(|k| k.url.to_lowercase());
+    let mut i = 0;
     let mut included = HashSet::new();
-    for (index, repo) in sorted_repos.iter().enumerate() {
+    for repo in &sorted_repos {
         if included.contains(&repo.url.to_lowercase()) {
             continue;
         }
@@ -441,7 +450,8 @@ fn write_ecosystem_to_toml(repo_root: &Path, eco: &Ecosystem) -> Result<()> {
         if let Some(true) = repo.missing {
             output.push_str("missing = true\n");
         }
-        if index < sorted_repos.len() - 1 {
+        i += 1;
+        if i < sorted_repos.len() {
             output.push('\n');
         }
     }

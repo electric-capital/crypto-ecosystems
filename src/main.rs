@@ -167,7 +167,6 @@ type EcosystemMap = HashMap<String, Ecosystem>;
 enum RepoUrlType {
     GithubUnnormalized,
     GithubUserOrOrganization,
-    GithubRepository,
     GithubTreeish,
     OtherServiceRepository,
     InvalidUrl,
@@ -183,7 +182,7 @@ fn parse_repo_url_type(url: &str) -> RepoUrlType {
                     } else {
                         let parts: Vec<&str> = parsed.path().split('/').collect();
                         if parts.len() == 3 {
-                            RepoUrlType::GithubRepository
+                            RepoUrlType::OtherServiceRepository
                         } else if parts.len() == 2 {
                             RepoUrlType::GithubUserOrOrganization
                         } else {

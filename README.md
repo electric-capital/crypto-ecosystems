@@ -11,6 +11,18 @@ You can export the taxonomy to a json format by using the following command:
 ./run.sh export exports.jsonl
 ```
 
+If you want to export a single ecosystem, its sub ecosystems, and its repositories, you can use the `-e` parameter to specify a particular ecosystem.
+```bash
+./run.sh export -e Bitcoin bitcoin.jsonl
+```
+
+The export format is one json entry per line like the following:
+```json
+{"eco_name":"Bitcoin","branch":["Lightning"],"repo_url":"https://github.com/alexbosworth/balanceofsatoshis","tags":["#developer-tool"]}
+{"eco_name":"Bitcoin","branch":["Lightning"],"repo_url":"https://github.com/bottlepay/lnd","tags":[]}
+```
+By using the branch attribute, you can see how particular repos are attributed to the parent ecosystem.
+
 ## How to update the taxonomy
 There is a domain specific language (DSL) containing the keywords that can make changes to the taxonomy.  You specify migrations by using files of the format
 ```bash

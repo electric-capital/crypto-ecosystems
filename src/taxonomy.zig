@@ -454,6 +454,10 @@ pub const Taxonomy = struct {
 
         var child_set = self.parent_to_child_map.getPtr(parent_id) orelse return error.ParentEcosystemHasNoChildren;
         _ = child_set.remove(child_id);
+
+        if (self.child_to_parent_map.getPtr(child_id)) |parent_set| {
+            _ = parent_set.remove(parent_id);
+        }
     }
 
     fn removeEcoById(self: *Taxonomy, eco_id: u32) void {

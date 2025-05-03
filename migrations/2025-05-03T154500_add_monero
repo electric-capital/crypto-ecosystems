@@ -1,0 +1,8 @@
+# Add main monero ecosystem
+ecoadd Monero
+repadd Monero https://github.com/monero-project/monero #privacy
+
+# add official website
+ecoadd Monero-Site
+repadd Monero-Site https://github.com/monero-project/monero-site #website
+ecocon Monero Monero-Site

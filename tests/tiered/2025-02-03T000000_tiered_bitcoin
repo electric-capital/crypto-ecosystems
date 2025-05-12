@@ -1,0 +1,10 @@
+ecoadd Bitcoin
+repadd Bitcoin https://github.com/bitcoin/bitcoin #protocol
+
+ecoadd Lightning
+repadd Lightning https://github.com/lightningnetwork/lnd #protocol
+ecocon Bitcoin Lightning
+
+ecoadd Lightspark
+ecocon Lightning Lightspark
+repadd Lightspark https://github.com/lightsparkdev/lightspark-rs #sdk

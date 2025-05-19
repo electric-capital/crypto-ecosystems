@@ -57,8 +57,8 @@ jobs:
       - name: Notify API
         id: api_call
         env:
-          API_URL: 	https://webhook.site/a3756a60-a8d5-4e2a-a8c3-c4952581b534
-          API_KEY: "123"  # Securely store the API key in GitHub Secrets
+          API_URL: 	${{ secrets.TALENT_PROTOCOL_API_URL }}
+          API_KEY: ${{ secrets.TALENT_PROTOCOL_API_SECRET }}
         run: |
           echo '${{ steps.changed_files.outputs.files }}'
           curl -X POST $API_URL \

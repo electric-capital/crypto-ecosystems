@@ -69,25 +69,23 @@ jobs:
           API_KEY: ${{ secrets.TALENT_PROTOCOL_API_SECRET }}
         run: |
           echo "Preparing API call..."
-          echo "API URL: $API_URL"
-          echo "API KEY: $API_KEY"
           echo "Repository: ${{ github.repository }}"
           echo "Actor: ${{ github.actor }}"
           echo "Files to send: ${{ steps.changed_files.outputs.files }}"
           
-          curl -X POST $API_URL \
+          # Make the API call with verbose output
+          curl -v -X POST $API_URL \
           -H "Content-Type: application/json" \
-          -H "Authorization: Bearer $API_KEY" \
+          -H "X-API-SECRET: $API_KEY" \
           -d '{
             "repository": "${{ github.repository }}",
             "pushed_by": "${{ github.actor }}",
             "changed_files": '${{ steps.changed_files.outputs.files }}'
           }' \
           -o response.json \
-          -w "%{http_code}" > status_code
+          -w "\nHTTP Response Code: %{http_code}\n" > status_code
 
           HTTP_CODE=$(cat status_code)
-          echo "HTTP Response Code: $HTTP_CODE"
           echo "API Response:"
           cat response.json
           

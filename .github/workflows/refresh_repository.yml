@@ -74,7 +74,7 @@ jobs:
           echo "Files to send: ${{ steps.changed_files.outputs.files }}"
           
           # Make the API call with verbose output
-          curl -v -X POST $API_URL \
+          curl -v -X PUT $API_URL \
           -H "Content-Type: application/json" \
           -H "X-API-SECRET: $API_KEY" \
           -d '{

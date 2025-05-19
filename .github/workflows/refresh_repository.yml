@@ -33,6 +33,8 @@ jobs:
       # Step 2: Add the upstream repository and fetch changes
       - name: Set Upstream Repository
         run: |
+          # Configure Git to use the token for all HTTPS operations
+          git config --global url."https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/".insteadOf "https://github.com/"
           git remote add upstream https://github.com/electric-capital/crypto-ecosystems.git
           git fetch upstream master
 

@@ -28,17 +28,25 @@ jobs:
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions"
+          echo "Git identity set"
 
       # Step 2: Add the upstream repository and fetch changes
       - name: Set Upstream Repository
         run: |
+          echo "Adding upstream repository..."
           git remote add upstream https://github.com/electric-capital/crypto-ecosystems.git
+          echo "Fetching from upstream..."
           git fetch upstream master
+          echo "Current remotes:"
+          git remote -v
+          echo "Current branch:"
+          git branch -v
 
       # Step 3: Find Changed TOML Files
       - name: Find Changed TOML Files
         id: changed_files
         run: |
+          echo "Checking for changed files..."
           # Compare your fork with the upstream repository
           CHANGED_FILES=$(git diff --name-only HEAD upstream/master | grep '\.toml$' || true)
           FILES_JSON="[]"
@@ -50,17 +58,32 @@ jobs:
              FILES_JSON=$(echo "$CHANGED_FILES" | sed 's/^ *//; s/ *$//' | jq -R -s 'split("\n") | map(select(length > 0)) | @json' | tr -d '\n')
           fi
 
-          echo "$FILES_JSON"
+          echo "Files JSON: $FILES_JSON"
           echo "files=$FILES_JSON" >> $GITHUB_OUTPUT
 
       # Step 4: Call API with List of Changed Files
       - name: Notify API
         id: api_call
         env:
-          API_URL: 	${{ secrets.TALENT_PROTOCOL_API_URL }}
+          API_URL: ${{ secrets.TALENT_PROTOCOL_API_URL }}
           API_KEY: ${{ secrets.TALENT_PROTOCOL_API_SECRET }}
         run: |
-          echo '${{ steps.changed_files.outputs.files }}'
+          echo "Preparing API call..."
+          echo "API URL exists: $([ ! -z \"$API_URL\" ] && echo 'yes' || echo 'no')"
+          echo "API KEY exists: $([ ! -z \"$API_KEY\" ] && echo 'yes' || echo 'no')"
+          echo "Repository: ${{ github.repository }}"
+          echo "Actor: ${{ github.actor }}"
+          echo "Files to send: ${{ steps.changed_files.outputs.files }}"
+          
+          # Log the curl command (without the actual API key)
+          echo "Making API call to: $API_URL"
+          echo "Request body:"
+          echo '{
+            "repository": "'${{ github.repository }}'",
+            "pushed_by": "'${{ github.actor }}'",
+            "changed_files": '${{ steps.changed_files.outputs.files }}'
+          }'
+          
           curl -X POST $API_URL \
           -H "Content-Type: application/json" \
           -H "Authorization: Bearer $API_KEY" \
@@ -73,9 +96,12 @@ jobs:
           -w "%{http_code}" > status_code
 
           HTTP_CODE=$(cat status_code)
-          echo "HTTP_CODE: $HTTP_CODE"
+          echo "HTTP Response Code: $HTTP_CODE"
+          echo "API Response:"
+          cat response.json
           
           if [[ "$HTTP_CODE" -ge 200 && "$HTTP_CODE" -lt 300 ]]; then
+            echo "API call successful"
             echo "success=true" >> $GITHUB_OUTPUT
           else
             echo "API call failed with status $HTTP_CODE"
@@ -86,8 +112,13 @@ jobs:
       - name: Sync Fork with Upstream
         if: steps.api_call.outputs.success == 'true' # Only run if the API call was successful
         run: |
+          echo "Starting sync with upstream..."
           # Merge upstream/master into the current branch
           git checkout master
+          echo "Current branch after checkout:"
+          git branch -v
           git reset --hard upstream/master
+          echo "Pushing changes to origin..."
           # Push the updated branch back to the fork
           git push origin master --force
+          echo "Sync completed"

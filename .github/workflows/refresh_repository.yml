@@ -69,20 +69,11 @@ jobs:
           API_KEY: ${{ secrets.TALENT_PROTOCOL_API_SECRET }}
         run: |
           echo "Preparing API call..."
-          echo "API URL exists: $([ ! -z \"$API_URL\" ] && echo 'yes' || echo 'no')"
-          echo "API KEY exists: $([ ! -z \"$API_KEY\" ] && echo 'yes' || echo 'no')"
+          echo "API URL: $API_URL"
+          echo "API KEY: $API_KEY"
           echo "Repository: ${{ github.repository }}"
           echo "Actor: ${{ github.actor }}"
           echo "Files to send: ${{ steps.changed_files.outputs.files }}"
-          
-          # Log the curl command (without the actual API key)
-          echo "Making API call to: $API_URL"
-          echo "Request body:"
-          echo '{
-            "repository": "'${{ github.repository }}'",
-            "pushed_by": "'${{ github.actor }}'",
-            "changed_files": '${{ steps.changed_files.outputs.files }}'
-          }'
           
           curl -X POST $API_URL \
           -H "Content-Type: application/json" \

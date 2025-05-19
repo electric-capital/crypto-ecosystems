@@ -20,9 +20,8 @@ jobs:
       - name: Checkout Fork
         uses: actions/checkout@v3
         with:
-          # Ensures we can push back to the fork
-          token: ${{ secrets.PAT_TOKEN }}
-          fetch-depth: 0  # Fetch all history for all branches and tags
+          ref: master
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # Step 2: Set Git identity
       - name: Set Git Identity
@@ -33,8 +32,6 @@ jobs:
       # Step 2: Add the upstream repository and fetch changes
       - name: Set Upstream Repository
         run: |
-          # Configure Git to use the token for all HTTPS operations
-          git config --global url."https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/".insteadOf "https://github.com/"
           git remote add upstream https://github.com/electric-capital/crypto-ecosystems.git
           git fetch upstream master
 
@@ -60,7 +57,7 @@ jobs:
       - name: Notify API
         id: api_call
         env:
-          API_URL: 	https://webhook.site/72dfba35-b3d1-4571-9dbc-21ab7c9413aa
+          API_URL: 	https://webhook.site/a3756a60-a8d5-4e2a-a8c3-c4952581b534
           API_KEY: "123"  # Securely store the API key in GitHub Secrets
         run: |
           echo '${{ steps.changed_files.outputs.files }}'
@@ -85,7 +82,6 @@ jobs:
             echo "success=false" >> $GITHUB_OUTPUT
             exit 1
           fi
-          # Step 5: Sync Fork's Master Branch with Upstream (conditionally)
 
       - name: Sync Fork with Upstream
         if: steps.api_call.outputs.success == 'true' # Only run if the API call was successful

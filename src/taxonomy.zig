@@ -510,7 +510,9 @@ pub const Taxonomy = struct {
             repos_for_eco_entry.value_ptr.* = RepoSet.init(self.allocator);
         }
         var repo_set = repos_for_eco_entry.value_ptr;
-        try repo_set.putNoClobber(repo_id, {});
+        // TODO let's potentially add error handling if duplicate repos are in the mutations,
+        // but it doesn't hurt to add the same repo twice.
+        try repo_set.put(repo_id, {});
         if (tags_) |tags| {
             for (tags) |tag| {
                 const tag_entry = try self.tag_ids.getOrPut(tag.?);

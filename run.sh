@@ -130,23 +130,23 @@ if [ ! -f "$ZIG_EXEC" ] || [ ! -x "$ZIG_EXEC" ]; then
 fi
 
 build() {
-    $ZIG_EXEC build -Doptimize=ReleaseFast
+    $ZIG_EXEC build -Doptimize=ReleaseSafe
 }
 
 validate() {
-    $ZIG_EXEC build -Doptimize=ReleaseFast run -- validate
+    $ZIG_EXEC build -Doptimize=ReleaseSafe run -- validate
 }
 
 export_taxonomy() {
-    $ZIG_EXEC build -Doptimize=ReleaseFast run -- export "${@}"
+    $ZIG_EXEC build -Doptimize=ReleaseSafe run -- export "${@}"
 }
 
 test() {
-    $ZIG_EXEC build -Doptimize=ReleaseFast test --summary all
+    $ZIG_EXEC build -Doptimize=ReleaseSafe test --summary all
 }
 
 help() {
-    $ZIG_EXEC build -Doptimize=ReleaseFast run -- help
+    $ZIG_EXEC build -Doptimize=ReleaseSafe run -- help
 }
 
 # Main script logic

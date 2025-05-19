@@ -22,11 +22,12 @@ jobs:
         with:
           # Ensures we can push back to the fork
           token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0  # Fetch all history for all branches and tags
 
       # Step 2: Set Git identity
       - name: Set Git Identity
         run: |
-          git config --global user.email ""github-actions[bot]@users.noreply.github.com""
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions"
 
       # Step 2: Add the upstream repository and fetch changes

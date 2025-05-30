@@ -1,24 +1,29 @@
 [package]
 name = "crypto-ecosystems"
-version = "1.2.1"
+version = "1.3.0"
 authors = ["Curtis Spencer"]
 edition = "2021"
+description = "A Rust-based tool for managing and analyzing cryptocurrency ecosystems."
 
 [dependencies]
 anyhow = "1.0"
 glob = "0.3.1"
 imara-diff = "0.1.5"
-serde = { version = "1.0.210", features = ["derive"] }
-serde_json = "1.0.128"
-slug = "0.1.6"
+serde = { version = "1.0.212", features = ["derive"] }
+serde_json = "1.0.130"
+slug = "0.1.7"
 structopt = "0.3.26"
 thiserror = "1.0.40"
-toml = "0.8.19"
+toml = "0.8.20"
 url = "2.5.2"
+rayon = "1.7.0"
+chrono = "0.4.31"
 
 [profile.dev]
 opt-level = 3
-debug = 1
+debug = true
 
 [profile.release]
+opt-level = 3
 lto = true
+codegen-units = 1

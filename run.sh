@@ -11,10 +11,11 @@ print_usage() {
     echo "Taxonomy of crypto open source repositories${NEWLINE}"
     echo "USAGE:${NEWLINE}    $0 <command> [arguments...]${NEWLINE}"
     echo "SUBCOMMANDS:"
-    echo "    build                      build the ce executable"
-    echo "    validate                   build and validate the taxonomy using the migrations data"
-    echo "    export <output_file>       export the taxonomy to a json file"
-    echo "    test                       run unit tests"
+    echo "    build                      Build the executable"
+    echo "    validate                   Validate the taxonomy using migrations data"
+    echo "    export <output_file>       Export taxonomy to a JSON file"
+    echo "    test                       Run unit tests"
+    echo "    debug                      Run in debug mode"
     exit 1
 }
 
@@ -28,87 +29,42 @@ detect_local_zig() {
        exit 1
     fi
 
-    SYSTEM_ZIG_VERSION=$(zig version | cut -d' ' -f2)
-    if [[ "$SYSTEM_ZIG_VERSION
-" < "0.14.0" ]]; then
-       echo "zig version $version is too old, need 0.14.0+"
+    SYSTEM_ZIG_VERSION=$(zig version)
+    if [ "$(echo -e "$SYSTEM_ZIG_VERSION\n$ZIG_VERSION" | sort -V | head -n 1)" != "$ZIG_VERSION" ]; then
+       echo "zig version $SYSTEM_ZIG_VERSION is too old, need 0.14.0+"
        exit 1
     fi
     echo "zig $SYSTEM_ZIG_VERSION found on system"
     SYSTEM_ZIG_EXEC=$(command -v zig)
 }
 
-# Detect OS and architecture
 detect_platform() {
     local os=$(uname -s | tr '[:upper:]' '[:lower:]')
     local arch=$(uname -m)
     local full_platform=""
-    local supported=true
 
     case "$os" in
-        "windows"* | "mingw"* | "msys"*)
-            case "$arch" in
-                "x86_64")
-                    full_platform="windows-x86_64"
-                    ;;
-                *)
-                    supported=false
-                    ;;
-            esac
+        "windows"*)
+            [[ "$arch" == "x86_64" ]] && full_platform="windows-x86_64" || echo "Unsupported platform: $os-$arch" && exit 1
             ;;
         "darwin"*)
-            case "$arch" in
-                "arm64")
-                    full_platform="macos-aarch64"
-                    ;;
-                *)
-                    supported=false
-                    ;;
-            esac
+            [[ "$arch" == "arm64" ]] && full_platform="macos-aarch64" || echo "Unsupported platform: $os-$arch" && exit 1
             ;;
         "linux"*)
-            case "$arch" in
-                "x86_64")
-                    full_platform="linux-x86_64"
-                    ;;
-                *)
-                    supported=false
-                    ;;
-            esac
+            [[ "$arch" == "x86_64" ]] && full_platform="linux-x86_64" || echo "Unsupported platform: $os-$arch" && exit 1
             ;;
         *)
-            supported=false
+            echo "Unsupported platform: $os-$arch"
+            exit 1
             ;;
     esac
-
-    
-
-    if [ "$supported" = false ]; then
-        # If you are on an unsupported architecture, check to see if a
-        # sufficient zig compiler is available.
-        detect_local_zig
-        if [ -z "${SYSTEM_ZIG_EXEC}" ]; then
-            echo "$os-$arch is unsupported with the embedded build system."
-            echo ""
-            echo "Please use an architecture of the following:"
-            echo "    - linux-x86_64"
-            echo "    - macos-aarch64"
-            echo ""
-            echo "Or if you can run your own compiler do the following:"
-            echo "1/ Download a zig compiler with a version > 0.14.0 here: https://ziglang.org/download/"
-            echo "2/ Install zig into your path"
-            echo "3/ Run ./run.sh again"
-            exit 1
-        fi
-    fi
     PLATFORM="$full_platform"
 }
 
 detect_platform
 
-# Build function
 setup() {
-    if [ -z "${SYSTEM_ZIG_EXEC:x}" ]; then
+    if [ -z "$SYSTEM_ZIG_EXEC" ]; then
         ZIG_FILE_ROOT="zig-${PLATFORM}-${ZIG_VERSION}"
         ZIG_PACKAGE="toolchains/${ZIG_FILE_ROOT}.tar.xz"
         mkdir -p .tcache
@@ -145,29 +101,19 @@ test() {
     $ZIG_EXEC build -Doptimize=ReleaseSafe test --summary all
 }
 
-help() {
-    $ZIG_EXEC build -Doptimize=ReleaseSafe run -- help
+debug() {
+    echo "Running in Debug mode..."
+    set -x
+    build
+    validate
+    set +x
 }
 
-# Main script logic
 case "$1" in
-    "build")
-        build
-        ;;
-    "validate")
-        validate "$@"
-        ;;
-    "export")
-        shift
-        export_taxonomy "$@"
-        ;;
-    "test")
-        test
-        ;;
-    "help")
-        help
-        ;;
-    *)
-        echo "Unknown command: $1"
-        exit 1
+    "build") build ;;
+    "validate") validate ;;
+    "export") shift; export_taxonomy "$@" ;;
+    "test") test ;;
+    "debug") debug ;;
+    *) echo "Unknown command: $1"; exit 1 ;;
 esac

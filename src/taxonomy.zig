@@ -82,6 +82,7 @@ pub const Taxonomy = struct {
     parent_to_child_map: ParentToChildMap,
     child_to_parent_map: ChildToParentMap,
     eco_repo_to_tag_map: EcoRepoToTagMap,
+    errors: ArrayList(TaxonomyError),
 
     pub fn init(allocator: std.mem.Allocator) Taxonomy {
         return .{
@@ -102,6 +103,7 @@ pub const Taxonomy = struct {
             .repo_id_to_url_map = IdSliceMap.init(allocator),
             .eco_id_to_name_map = IdSliceMap.init(allocator),
             .eco_repo_to_tag_map = EcoRepoToTagMap.init(allocator),
+            .errors = ArrayList(TaxonomyError).init(allocator),
         };
     }
 
@@ -136,6 +138,8 @@ pub const Taxonomy = struct {
         self.repo_to_eco_map.deinit();
         self.eco_id_to_name_map.deinit();
         self.eco_repo_to_tag_map.deinit();
+
+        self.errors.deinit();
 
         for (self.buffers.items) |buf| {
             self.allocator.free(buf);
@@ -195,6 +199,11 @@ pub const Taxonomy = struct {
             try self.loadFile(full_path);
             self.migration_count += 1;
         }
+
+        if (self.hasErrors()) {
+            self.printErrors();
+            return error.ValidationFailed;
+        }
     }
 
     fn loadFile(self: *Taxonomy, path: []const u8) !void {
@@ -209,7 +218,11 @@ pub const Taxonomy = struct {
         try self.buffers.append(buffer);
 
         var iter = std.mem.splitScalar(u8, buffer, '\n');
+        var line_num: u32 = 0;
+
         while (iter.next()) |line| {
+            line_num += 1;
+
             if (isComment(line)) {
                 continue;
             }
@@ -222,23 +235,40 @@ pub const Taxonomy = struct {
             const keyword = line[0..6];
             const remainder = line[6..];
 
-            if (keyword[0] == 'r' and std.mem.eql(u8, keyword, "repadd")) {
-                try repAdd(remainder, self);
-            } else if (std.mem.eql(u8, keyword, "ecocon")) {
-                try ecoCon(remainder, self);
-            } else if (std.mem.eql(u8, keyword, "ecoadd")) {
-                try ecoAdd(remainder, self);
-            } else if (std.mem.eql(u8, keyword, "ecodis")) {
-                try ecoDis(remainder, self);
-            } else if (std.mem.eql(u8, keyword, "ecorem")) {
-                try ecoRem(remainder, self);
-            } else if (std.mem.eql(u8, keyword, "repmov")) {
-                try repMov(remainder, self);
-            } else if (std.mem.eql(u8, keyword, "ecomov")) {
-                try ecoMov(remainder, self);
-            } else if (std.mem.eql(u8, keyword, "reprem")) {
-                try repRem(remainder, self);
-            }
+            const result = if (keyword[0] == 'r' and std.mem.eql(u8, keyword, "repadd"))
+                repAdd(remainder, self)
+            else if (std.mem.eql(u8, keyword, "ecocon"))
+                ecoCon(remainder, self)
+            else if (std.mem.eql(u8, keyword, "ecoadd"))
+                ecoAdd(remainder, self)
+            else if (std.mem.eql(u8, keyword, "ecodis"))
+                ecoDis(remainder, self)
+            else if (std.mem.eql(u8, keyword, "ecorem"))
+                ecoRem(remainder, self)
+            else if (std.mem.eql(u8, keyword, "repmov"))
+                repMov(remainder, self)
+            else if (std.mem.eql(u8, keyword, "ecomov"))
+                ecoMov(remainder, self)
+            else if (std.mem.eql(u8, keyword, "reprem"))
+                repRem(remainder, self);
+            
+            result catch |err| {
+                try self.errors.append(.{
+                    .message = @errorName(err),
+                    .line_num = line_num,
+                    .path = path,
+                });
+            };
+        }
+    }
+
+    pub fn hasErrors(self: *Taxonomy) bool {
+        return self.errors.items.len > 0;
+    }
+
+    pub fn printErrors(self: *Taxonomy) void {
+        for (self.errors.items) |err| {
+            std.debug.print("{s}:{}: error.{s}\n", .{ err.path, err.line_num, err.message  });
         }
     }
 

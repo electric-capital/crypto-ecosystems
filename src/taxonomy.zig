@@ -565,9 +565,22 @@ pub const Taxonomy = struct {
 
     fn moveRepo(self: *Taxonomy, src: []const u8, dst: []const u8) !void {
         const src_id = self.repo_ids.get(src) orelse return error.InvalidSourceRepo;
-        if (self.repo_ids.contains(dst)) {
-            return error.DestinationRepoAlreadyExists;
+        if (self.repo_ids.get(dst)) |dst_id| {
+            var eco_iter = self.eco_to_repo_map.iterator();
+            while (eco_iter.next()) |entry| {
+                const repo_set = entry.value_ptr;
+                if (repo_set.contains(src_id)) {
+                    _ = repo_set.remove(src_id);
+                    try repo_set.put(dst_id, {});
+                }
+            }
+            
+            _ = self.repo_ids.remove(src);
+            _ = self.repo_id_to_url_map.remove(src_id);
+            
+            return;
         }
+
         _ = self.repo_ids.remove(src);
         try self.repo_id_to_url_map.put(src_id, dst);
         try self.repo_ids.put(dst, src_id);

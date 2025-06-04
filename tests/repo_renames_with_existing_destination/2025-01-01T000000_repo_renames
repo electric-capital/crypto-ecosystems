@@ -1,0 +1,13 @@
+ecoadd Monero
+repadd Monero https://github.com/monero-project/bitmonero
+repadd Monero https://github.com/monero-project/monero-core
+
+ecoadd Aeon
+repadd Aeon https://github.com/monero-project/bitmonero
+
+-- same repo but with different URL is added
+repadd Monero https://github.com/monero-project/monero
+
+repmov https://github.com/monero-project/monero-core https://github.com/monero-project/monero-gui
+-- this should remove bitmonero from both ecosystems while add monero to Aeon
+repmov https://github.com/monero-project/bitmonero https://github.com/monero-project/monero

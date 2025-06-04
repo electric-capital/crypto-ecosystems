@@ -565,12 +565,23 @@ pub const Taxonomy = struct {
 
     fn moveRepo(self: *Taxonomy, src: []const u8, dst: []const u8) !void {
         const src_id = self.repo_ids.get(src) orelse return error.InvalidSourceRepo;
-        if (self.repo_ids.contains(dst)) {
-            return error.DestinationRepoAlreadyExists;
+        if (self.repo_ids.get(dst)) |dst_id| {
+            var eco_iter = self.eco_to_repo_map.iterator();
+            while (eco_iter.next()) |entry| {
+                const repo_set = entry.value_ptr;
+                if (repo_set.contains(src_id)) {
+                    _ = repo_set.remove(src_id);
+                    try repo_set.put(dst_id, {});
+                }
+            }
+            
+            _ = self.repo_ids.remove(src);
+            _ = self.repo_id_to_url_map.remove(src_id);
+        } else {
+            _ = self.repo_ids.remove(src);
+            try self.repo_id_to_url_map.put(src_id, dst);
+            try self.repo_ids.put(dst, src_id);
         }
-        _ = self.repo_ids.remove(src);
-        try self.repo_id_to_url_map.put(src_id, dst);
-        try self.repo_ids.put(dst, src_id);
     }
 
     fn moveEco(self: *Taxonomy, src: []const u8, dst: []const u8) !void {
@@ -883,6 +894,34 @@ test "repo removals" {
     var eth = (try db.eco("Ethereum")).?;
     defer eth.deinit(a);
     try testing.expectEqual(1, eth.repos.len);
+}
+
+test "repo rename with existing destination" {
+    const testing = std.testing;
+    const a = testing.allocator;
+    
+    var db = try setupTestFixtures("repo_renames_with_existing_destination");
+    defer db.deinit();
+    const stats = db.stats();
+    
+    try testing.expectEqual(1, stats.migration_count);
+    try testing.expectEqual(2, stats.eco_count);
+    try testing.expectEqual(2, stats.repo_count);
+    
+    // Check Monero ecosystem
+    var monero = (try db.eco("Monero")).?;
+    defer monero.deinit(a);
+    try testing.expectEqual(2, monero.repos.len);
+    try testing.expectEqualStrings("https://github.com/monero-project/monero", monero.repos[0]);
+    
+    // Check Aeon ecosystem  
+    var aeon = (try db.eco("Aeon")).?;
+    defer aeon.deinit(a);
+    try testing.expectEqual(1, aeon.repos.len);
+    try testing.expectEqualStrings("https://github.com/monero-project/monero", aeon.repos[0]);
+    
+    // Verify bitmonero is completely removed
+    try testing.expect(db.repo_ids.get("https://github.com/monero-project/bitmonero") == null);
 }
 
 test "ecosystem removal" {

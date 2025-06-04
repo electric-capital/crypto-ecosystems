@@ -577,13 +577,11 @@ pub const Taxonomy = struct {
             
             _ = self.repo_ids.remove(src);
             _ = self.repo_id_to_url_map.remove(src_id);
-            
-            return;
+        } else {
+            _ = self.repo_ids.remove(src);
+            try self.repo_id_to_url_map.put(src_id, dst);
+            try self.repo_ids.put(dst, src_id);
         }
-
-        _ = self.repo_ids.remove(src);
-        try self.repo_id_to_url_map.put(src_id, dst);
-        try self.repo_ids.put(dst, src_id);
     }
 
     fn moveEco(self: *Taxonomy, src: []const u8, dst: []const u8) !void {

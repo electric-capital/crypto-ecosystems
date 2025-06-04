@@ -898,6 +898,34 @@ test "repo removals" {
     try testing.expectEqual(1, eth.repos.len);
 }
 
+test "repo rename with existing destination" {
+    const testing = std.testing;
+    const a = testing.allocator;
+    
+    var db = try setupTestFixtures("repo_renames_with_existing_destination");
+    defer db.deinit();
+    const stats = db.stats();
+    
+    try testing.expectEqual(1, stats.migration_count);
+    try testing.expectEqual(2, stats.eco_count);
+    try testing.expectEqual(2, stats.repo_count);
+    
+    // Check Monero ecosystem
+    var monero = (try db.eco("Monero")).?;
+    defer monero.deinit(a);
+    try testing.expectEqual(2, monero.repos.len);
+    try testing.expectEqualStrings("https://github.com/monero-project/monero", monero.repos[0]);
+    
+    // Check Aeon ecosystem  
+    var aeon = (try db.eco("Aeon")).?;
+    defer aeon.deinit(a);
+    try testing.expectEqual(1, aeon.repos.len);
+    try testing.expectEqualStrings("https://github.com/monero-project/monero", aeon.repos[0]);
+    
+    // Verify bitmonero is completely removed
+    try testing.expect(db.repo_ids.get("https://github.com/monero-project/bitmonero") == null);
+}
+
 test "ecosystem removal" {
     const testing = std.testing;
     const a = testing.allocator;

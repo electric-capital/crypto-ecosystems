@@ -313,14 +313,14 @@ ecoadd "DOD Blockchain"
 repadd "DOD Blockchain" https://github.com/dod-blockchain/dod
 repadd "DOD Blockchain" https://github.com/dod-blockchain/dod-miner
 repadd "DOD Blockchain" https://github.com/dod-blockchain/miner-js
-ecocon ""Internet Computer"" "DOD Blockchain"
+ecocon "Internet Computer" "DOD Blockchain"
 ecoadd ic-alloy
 repadd ic-alloy https://github.com/ic-alloy/ic-alloy-dca
 repadd ic-alloy https://github.com/ic-alloy/ic-alloy-basic-wallet
 repadd ic-alloy https://github.com/ic-alloy/ic-alloy-toolkit
 repadd ic-alloy https://github.com/ic-alloy/ic-alloy
 repadd ic-alloy https://github.com/ic-alloy/ic-alloy-evm-rpc-proxy
-ecocon ""Internet Computer"" ic-alloy
+ecocon "Internet Computer" ic-alloy
 ecoadd Multi
 repadd Multi https://github.com/multi-system/multi-ic
-ecocon ""Internet Computer"" Multi
+ecocon "Internet Computer" Multi

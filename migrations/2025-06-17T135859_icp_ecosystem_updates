@@ -297,3 +297,35 @@ repadd Multi https://github.com/multi-system/multi-ic
 ecocon "Internet Computer" Multi
 ecocon "Ethereum Virtual Machine Stack" ic-alloy
 ecocon "Ethereum Virtual Machine Stack" Multi
+ecoadd "Appic DAO"
+repadd "Appic DAO" https://github.com/Appic-Solutions/appic-dex
+repadd "Appic DAO" https://github.com/Appic-Solutions/platform-v2
+repadd "Appic DAO" https://github.com/Appic-Solutions/evm-minter
+repadd "Appic DAO" https://github.com/Appic-Solutions/landing-v2
+repadd "Appic DAO" https://github.com/Appic-Solutions/chain-fusion-helper
+repadd "Appic DAO" https://github.com/Appic-Solutions/ledger-suite-manager
+repadd "Appic DAO" https://github.com/Appic-Solutions/evm-rpc-canister
+ecocon "Internet Computer" "Appic DAO"
+ecocon "Ethereum Virtual Machine Stack" "Appic DAO"
+ecocon Bitcoin "DOD Blockchain"
+ecocon "Ethereum Virtual Machine Stack" Helix-ex
+ecocon "Ethereum Virtual Machine Stack" "zkCross Network"
+ecocon "Ethereum Virtual Machine Stack" "ICPSwap Labs"
+ecocon "Ethereum Virtual Machine Stack" "ICLighthouse"
+ecocon "Ethereum Virtual Machine Stack" kongswap
+ecocon "Ethereum Virtual Machine Stack" "open-chat-labs"
+ecocon "Cosmos Network" "Ordinox Labs"
+ecocon Solana kongswap
+ecoadd "Loka Mining" 
+repadd "Loka Mining" https://github.com/lokaverse/defi_canister
+repadd "Loka Mining" https://github.com/lokaverse/defi
+repadd "Loka Mining" https://github.com/lokaverse/icdragon
+repadd "Loka Mining" https://github.com/lokaverse/loka_canister
+repadd "Loka Mining" https://github.com/lokaverse/loka_dashboard
+repadd "Loka Mining" https://github.com/lokaverse/loka_landing
+ecocon "Internet Computer" "Loka Mining"
+ecocon Bitcoin "Loka Mining"
+ecoadd "mFactory"
+repadd "mFactory" https://github.com/mfactory-lab
+ecocon "Internet Computer" "mFactory"
+ecocon Solana "mFactory"

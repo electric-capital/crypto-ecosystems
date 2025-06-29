@@ -1,0 +1,50 @@
+-- Add new ecosystem Ragnarok Landverse
+ecoadd "Ragnarok Landverse"
+
+-- Add repo to Ragnarok Landverse
+repadd "Ragnarok Landverse" https://github.com/maxion-tech/firebase-oauth-demo
+repadd "Ragnarok Landverse" https://github.com/maxion-tech/devops-helm
+repadd "Ragnarok Landverse" https://github.com/maxion-tech/maxion-nft-marketplace-contracts
+repadd "Ragnarok Landverse" https://github.com/maxion-tech/rop2e-topup-contracts
+repadd "Ragnarok Landverse" https://github.com/maxion-tech/erc20-role-contracts
+repadd "Ragnarok Landverse" https://github.com/maxion-tech/nft-sale-contracts
+repadd "Ragnarok Landverse" https://github.com/maxion-tech/token-swap-contracts
+repadd "Ragnarok Landverse" https://github.com/maxion-tech/maxion-ion-stablecoin-contracts
+
+-- Connect Ragnarok Landverse to Ronin
+ecocon Ronin "Ragnarok Landverse"
+
+-- Add Moku to Ronin
+repadd Ronin https://github.com/QU3STio/tama-tools
+repadd Ronin https://github.com/QU3STio/moki-agents
+
+-- Add Liquid RON and RON related tools to Ronin
+repadd Ronin https://github.com/OwlOfMoistness/uniswap-v4-wrapper-hook-lron
+repadd Ronin https://github.com/OwlOfMoistness/liquid_ron
+repadd Ronin https://github.com/OwlOfMoistness/ronin-staking-module
+repadd Ronin https://github.com/OwlOfMoistness/ronin-hard-fork-proposal
+repadd Ronin https://github.com/OwlOfMoistness/ronin_tipbot
+repadd Ronin https://github.com/OwlOfMoistness/guardian-2fa-contract
+repadd Ronin https://github.com/OwlOfMoistness/ERC721x
+
+-- Add new ecosystem Apeiron
+ecoadd Apeiron
+
+-- Add repo to Apeiron
+repadd Apeiron https://github.com/FoonieMagus/ApeironBattleDemo_IssueList
+
+-- Connect Apeiron to Ronin
+ecocon Ronin Apeiron
+
+-- Add new ecosystem Puffverse
+ecoadd Puffverse
+
+-- Add repo to Puffverse
+repadd Puffverse https://github.com/puffverse/puffverse
+repadd Puffverse https://github.com/puffverse/puffverse-smart-contracts
+
+-- Connect Puffverse to Ronin
+ecocon Ronin Puffverse
+
+-- Add Sunflower Land to Ronin
+repadd Ronin https://github.com/sunflower-land/sunflower-land

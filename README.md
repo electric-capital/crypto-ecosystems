@@ -9,7 +9,7 @@ The taxonomy can be used to generate the set of crypto ecosystems, their corresp
 ### 🖼️ GUI Mode
 You can use the taxonomy viewer at [crypto-ecosystems.xyz](https://crypto-ecosystems.xyz).  Here you can query for ecosystems and repos as well as export all of the repos for specific ecosystems.
 <div align="center">
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/9984fa92-6471-413a-a2ca-65b8e66fefe1" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/8003fa92-6874-42d8-a398-7b1741964498" />
 </div>
 
 ### 💻 CLI Mode

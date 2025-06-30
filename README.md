@@ -2,13 +2,18 @@
 <img width="300" alt="crypto_ecosystems" src="https://github.com/user-attachments/assets/3e0c7ee0-67c3-44a3-a575-6a1cb1824788" />
 </h3>
 
-<p>&nbsp;</p>
 Crypto Ecosystems is a taxonomy of open source blockchain, web3, cryptocurrency, and decentralized ecosystems and their code repositories.  This dataset is not complete, and hopefully it never will be as there are new ecosystems and repositories created every day.
 
 ## How to use this taxonomy
 The taxonomy can be used to generate the set of crypto ecosystems, their corresponding sub ecosystems, and repositories at a particular time.
+### 🖼️ GUI Mode
+You can use the taxonomy viewer at [crypto-ecosystems.xyz](https://crypto-ecosystems.xyz).  Here you can query for ecosystems and repos as well as export all of the repos for specific ecosystems.
+<div align="center">
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/9984fa92-6471-413a-a2ca-65b8e66fefe1" />
+</div>
 
-You can export the taxonomy to a json format by using the following command:
+### 💻 CLI Mode
+For more data science uses, one can export the taxonomy to a json format by using the following command:
 ```bash
 ./run.sh export exports.jsonl
 ```

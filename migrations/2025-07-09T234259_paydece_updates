@@ -1,0 +1,5 @@
+-- PayDece multi-chain expansion updates
+-- Adding PayDece P2P escrow smart contracts to new chains: Polygon and Base
+-- PayDece already exists in Ethereum, BNB Chain, and Hardhat from previous migrations
+repadd Polygon https://github.com/PayDece/paydece-contracts #escrow
+repadd Base https://github.com/PayDece/paydece-contracts #escrow 

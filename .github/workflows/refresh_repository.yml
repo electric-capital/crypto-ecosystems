@@ -49,7 +49,7 @@ jobs:
           echo "Checking for changed files in migrations folder..."
           # Compare your fork with the upstream repository, focusing on migrations folder
           CHANGED_FILES=$(git diff --name-only HEAD upstream/master | grep '^migrations/' || true)
-          HAS_CHANGES="false"
+          HAS_CHANGES="true"
           echo "Changed Files in Migrations:"
           echo "$CHANGED_FILES"
 
@@ -114,13 +114,11 @@ jobs:
           echo "Notifying API that new export is available on S3"
           
           # Make the API call with verbose output
-          curl -v -X PUT $API_URL \
+          HTTP_CODE=$(curl -s -o response.json -w "%{http_code}" -X PUT $API_URL \
           -H "Content-Type: application/json" \
-          -H "X-API-SECRET: $API_KEY" \
-          -o response.json \
-          -w "\nHTTP Response Code: %{http_code}\n" > status_code
+          -H "X-API-SECRET: $API_KEY")
 
-          HTTP_CODE=$(cat status_code)
+          echo "HTTP Response Code: $HTTP_CODE"
           echo "API Response:"
           cat response.json
           

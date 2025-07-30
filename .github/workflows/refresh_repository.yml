@@ -42,27 +42,67 @@ jobs:
           echo "Current branch:"
           git branch -v
 
-      # Step 3: Find Changed TOML Files
-      - name: Find Changed TOML Files
+      # Step 3: Check for Changes in Migrations Folder
+      - name: Check for Changes in Migrations Folder
         id: changed_files
         run: |
-          echo "Checking for changed files..."
-          # Compare your fork with the upstream repository
-          CHANGED_FILES=$(git diff --name-only HEAD upstream/master | grep '\.toml$' || true)
-          FILES_JSON="[]"
-          echo "Changed TOML Files:"
+          echo "Checking for changed files in migrations folder..."
+          # Compare your fork with the upstream repository, focusing on migrations folder
+          CHANGED_FILES=$(git diff --name-only HEAD upstream/master | grep '^migrations/' || true)
+          HAS_CHANGES="false"
+          echo "Changed Files in Migrations:"
           echo "$CHANGED_FILES"
 
-          # Save the file list as a JSON array
           if [[ -n "$CHANGED_FILES" ]]; then
-             FILES_JSON=$(echo "$CHANGED_FILES" | sed 's/^ *//; s/ *$//' | jq -R -s 'split("\n") | map(select(length > 0)) | @json' | tr -d '\n')
+             HAS_CHANGES="true"
           fi
 
-          echo "Files JSON: $FILES_JSON"
-          echo "files=$FILES_JSON" >> $GITHUB_OUTPUT
+          echo "Has changes: $HAS_CHANGES"
+          echo "has_changes=$HAS_CHANGES" >> $GITHUB_OUTPUT
 
-      # Step 4: Call API with List of Changed Files
+      - name: Sync Fork with Upstream
+        if: steps.changed_files.outputs.has_changes == 'true' # Only run if there are changes
+        run: |
+          echo "Starting sync with upstream..."
+          # Merge upstream/master into the current branch
+          git checkout master
+          echo "Current branch after checkout:"
+          git branch -v
+          git reset --hard upstream/master
+          echo "Pushing changes to origin..."
+          # Push the updated branch back to the fork
+          git push origin master --force
+          echo "Sync completed"
+
+      - name: Run Export Command
+        if: steps.changed_files.outputs.has_changes == 'true'
+        run: |
+          echo "Running export command..."
+          chmod +x ./run.sh
+          ./run.sh export exports.jsonl
+          echo "Export completed"
+          ls -la exports.jsonl
+
+      - name: Configure AWS Credentials
+        if: steps.changed_files.outputs.has_changes == 'true'
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Upload to S3
+        if: steps.changed_files.outputs.has_changes == 'true'
+        run: |
+          echo "Uploading exports.jsonl to S3..."
+          
+          aws s3 cp exports.jsonl s3://${{ secrets.S3_BUCKET_NAME }}/exports.jsonl
+          
+          echo "File uploaded to s3://${{ secrets.S3_BUCKET_NAME }}/exports.jsonl"
+
+      # Final Step: Call API to notify about completed changes
       - name: Notify API
+        if: steps.changed_files.outputs.has_changes == 'true'
         id: api_call
         env:
           API_URL: ${{ secrets.TALENT_PROTOCOL_API_URL }}
@@ -71,17 +111,12 @@ jobs:
           echo "Preparing API call..."
           echo "Repository: ${{ github.repository }}"
           echo "Actor: ${{ github.actor }}"
-          echo "Files to send: ${{ steps.changed_files.outputs.files }}"
+          echo "Notifying API that new export is available on S3"
           
           # Make the API call with verbose output
           curl -v -X PUT $API_URL \
           -H "Content-Type: application/json" \
           -H "X-API-SECRET: $API_KEY" \
-          -d '{
-            "repository": "${{ github.repository }}",
-            "pushed_by": "${{ github.actor }}",
-            "changed_files": '${{ steps.changed_files.outputs.files }}'
-          }' \
           -o response.json \
           -w "\nHTTP Response Code: %{http_code}\n" > status_code
 
@@ -97,17 +132,3 @@ jobs:
             echo "success=false" >> $GITHUB_OUTPUT
             exit 1
           fi
-
-      - name: Sync Fork with Upstream
-        if: steps.api_call.outputs.success == 'true' # Only run if the API call was successful
-        run: |
-          echo "Starting sync with upstream..."
-          # Merge upstream/master into the current branch
-          git checkout master
-          echo "Current branch after checkout:"
-          git branch -v
-          git reset --hard upstream/master
-          echo "Pushing changes to origin..."
-          # Push the updated branch back to the fork
-          git push origin master --force
-          echo "Sync completed"

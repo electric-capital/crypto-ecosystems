@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Exit on error
-set -e
-
 ZIG_VERSION="0.14.0"
 NEWLINE=$'\n'
 

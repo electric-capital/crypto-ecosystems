@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch: # Allows manual triggering
 
 permissions:
   contents: write
@@ -49,7 +50,7 @@ jobs:
           echo "Checking for changed files in migrations folder..."
           # Compare your fork with the upstream repository, focusing on migrations folder
           CHANGED_FILES=$(git diff --name-only HEAD upstream/master | grep '^migrations/' || true)
-          HAS_CHANGES="true"
+          HAS_CHANGES="false"
           echo "Changed Files in Migrations:"
           echo "$CHANGED_FILES"
 

@@ -23,6 +23,7 @@ jobs:
         with:
           ref: master
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0 # full history to allow merges
 
       # Step 2: Set Git identity
       - name: Set Git Identity
@@ -69,10 +70,11 @@ jobs:
           git checkout master
           echo "Current branch after checkout:"
           git branch -v
-          git reset --hard upstream/master
-          echo "Pushing changes to origin..."
-          # Push the updated branch back to the fork
-          git push origin master --force
+          # Merge instead of hard-reset to keep local-only files like workflows
+          git merge --no-edit upstream/master || true
+          echo "Pushing merge to origin..."
+          # Push the updated branch back to the fork without rewriting history
+          git push origin master
           echo "Sync completed"
 
       - name: Run Export Command

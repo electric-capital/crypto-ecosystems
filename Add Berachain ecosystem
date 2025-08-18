@@ -1,0 +1,30 @@
+Title: feat: Add Berachain ecosystem
+
+Description:
+
+markdown
+## Description  
+This PR adds [Berachain](https://berachain.com) to the crypto ecosystems dataset as a new L1 ecosystem.  
+
+## Changes  
+- Added `data/ecosystems/b/berachain.json` with core metadata:  
+  - Official GitHub repos (including Beratrail testnet)  
+  - Twitter handle  
+  - Website  
+
+## Validation  
+- JSON validated via [JSONLint](https://jsonlint.com)  
+- Confirmed no duplicates in existing datasets  
+- All links are live (HTTP 200)  
+
+## Context  
+Berachain is an EVM-compatible L1 using Proof-of-Liquidity consensus, gaining traction in Q3 2024. This addition helps tools like [Electric Capital's Developer Report](https://github.com/electric-capital/developer-reports) track its ecosystem growth.  
+
+## Future Work  
+- Could later add sub-ecosystems (e.g., Berachain-native DApps) as they emerge  
+Key Elements:
+Structured – Uses clear sections (Description/Changes/Validation).
+
+Data-Driven – Explicitly states validation steps.
+
+Forward-Looking – Suggests future improvements without blocking the PR.

@@ -22,23 +22,14 @@ ecocon "Skale Network" Tenamint
 
 -- Sub-Ecosystem developed on SKALE Network: GoArt
 ecoadd GoArt
-repadd GoArt https://github.com/GoArtMetaverse/smart-contracts #contracts
+repadd GoArt https://github.com/GoArtMetaverse/smart-contracts/tree/GoArtMysteryBox #contracts
+repadd GoArt https://github.com/GoArtMetaverse/smart-contracts/tree/GoArtGoPack #contracts
 ecocon "Skale Network" GoArt
 
 -- Sub-Ecosystem developed on SKALE Network: Reneverse
 ecoadd Reneverse
 repadd Reneverse https://github.com/ReneVerse/prebid-server-java 
 ecocon "Skale Network" Reneverse
-
--- Sub-Ecosystem developed on SKALE Network: Gunnies
-ecoadd Gunnies
-repadd Gunnies https://github.com/syedMohib44/pentagon-games-contracts #contracts
-ecocon "Skale Network" Gunnies
-
--- Sub-Ecosystem developed on SKALE Network: Ghost Merc
-ecoadd "Ghost Merc"
-repadd "Ghost Merc" https://github.com/NHSoftAdmin/skale-leaderboard #contracts
-ecocon "Skale Network" "Ghost Merc"
 
 -- Sub-Ecosystem developed on SKALE Network: Wizverse
 ecoadd Wizverse
@@ -47,23 +38,13 @@ ecocon "Skale Network" Wizverse
 
 -- Sub-Ecosystem developed on SKALE Network: Avatar Pose
 ecoadd "Avatar Pose"
-repadd "Avatar Pose" https://github.com/Mberic/token-distribute #contracts
+repadd "Avatar Pose" https://github.com/Mberic/avatarpose #contracts
 ecocon "Skale Network" "Avatar Pose"
-
--- Sub-Ecosystem developed on SKALE Network: One Ticket
-ecoadd "One Ticket"
-repadd "One Ticket" https://github.com/kusaup/one_tickets_contracts #contracts
-ecocon "Skale Network" "One Ticket"
 
 -- Sub-Ecosystem developed on SKALE Network: Lightning Works
 ecoadd "Lightning Works"
 repadd "Lightning Works" https://github.com/Lightning-Works/skale-interchain #brigding
 ecocon "Skale Network" "Lightning Works"
-
--- Sub-Ecosystem developed on SKALE Network: Xioverse
-ecoadd Xioverse
-repadd Xioverse https://github.com/TheDude12/xioverse-contracts #contracts
-ecocon "Skale Network" Xioverse
 
 -- Sub-Ecosystem developed on SKALE Network: CheB
 ecoadd CheB
@@ -80,13 +61,3 @@ ecoadd NapFT
 repadd NapFT https://github.com/Napftcom/napft-backend #marketplace-frontend
 repadd NapFT https://github.com/Napftcom/napft-frontend #marketplace-backend
 ecocon "Skale Network" NapFT
-
--- Sub-Ecosystem developed on SKALE Network: Roro Birds
-ecoadd "Roro Birds"
-repadd "Roro Birds" https://github.com/moeenali01/RORO-Birds #contracts
-ecocon "Skale Network" "Roro Birds"
-
--- Sub-Ecosystem developed on SKALE Network: It Remains
-ecoadd "It Remains"
-repadd "It Remains" https://github.com/BrutalPowerBG/GameScores-skale-contract  #contracts
-ecocon "Skale Network" "It Remains"

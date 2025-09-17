@@ -740,15 +740,7 @@ fn repRem(remainder: []const u8, db: *Taxonomy) !void {
 }
 
 fn lessThanLowercase(_: void, a: []const u8, b: []const u8) bool {
-    var i: usize = 0;
-    while (i < @min(a.len, b.len)) : (i += 1) {
-        const a_lower = std.ascii.toLower(a[i]);
-        const b_lower = std.ascii.toLower(b[i]);
-        if (a_lower != b_lower) {
-            return a_lower < b_lower;
-        }
-    }
-    return a.len < b.len;
+    return std.ascii.lessThanIgnoreCase(a, b);
 }
 
 /// Tests Below

@@ -1,0 +1,13 @@
+# Add a new ecosystem
+ecoadd BridgesInteroperability
+
+# Add repositories
+repadd BridgesInteroperability https://github.com/wormhole-foundation/wormhole #bridge #cross-chain
+repadd BridgesInteroperability https://github.com/LayerZero-Labs #bridge #messaging
+repadd BridgesInteroperability https://github.com/across-protocol #bridge #l2
+repadd BridgesInteroperability https://github.com/connext #bridge #router
+
+# Connect to ecosystems
+ecocon Ethereum BridgesInteroperability
+ecocon Solana BridgesInteroperability
+ecocon Polygon BridgesInteroperability

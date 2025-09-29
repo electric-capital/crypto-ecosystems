@@ -1,0 +1,13 @@
+# Add a new ecosystem
+ecoadd DeveloperTooling
+
+# Add repositories
+repadd DeveloperTooling https://github.com/NomicFoundation/hardhat #devtool #ethereum
+repadd DeveloperTooling https://github.com/foundry-rs/foundry #devtool #rust
+repadd DeveloperTooling https://github.com/OpenZeppelin/openzeppelin-contracts #security #standards
+repadd DeveloperTooling https://github.com/scaffold-eth/scaffold-eth-2 #boilerplate #frontend
+repadd DeveloperTooling https://github.com/wagmi-dev/wagmi #react #wallet
+repadd DeveloperTooling https://github.com/ethers-io/ethers.js #library #javascript
+
+# Connect to ecosystems
+ecocon Ethereum DeveloperTooling

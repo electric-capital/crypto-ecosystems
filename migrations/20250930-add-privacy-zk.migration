@@ -1,0 +1,11 @@
+# Add a new ecosystem
+ecoadd PrivacyZK
+
+# Add repositories
+repadd PrivacyZK https://github.com/matter-labs/zksync-era #zk #rollup
+repadd PrivacyZK https://github.com/AztecProtocol/aztec-packages #zk #privacy
+repadd PrivacyZK https://github.com/MinaProtocol/mina #zk #lightweight
+repadd PrivacyZK https://github.com/semaphore-protocol/semaphore #zk #identity
+
+# Connect to ecosystems
+ecocon Ethereum PrivacyZK

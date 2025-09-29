@@ -1,0 +1,11 @@
+# Add a new ecosystem
+ecoadd NFTInfraMarketplaces
+
+# Add repositories
+repadd NFTInfraMarketplaces https://github.com/ProjectOpenSea/seaport #nft #marketplace
+repadd NFTInfraMarketplaces https://github.com/LooksRare/contracts-exchange-v1 #nft #marketplace
+repadd NFTInfraMarketplaces https://github.com/ourzora/zora-protocol #nft #protocol
+repadd NFTInfraMarketplaces https://github.com/manifoldxyz/creator-core-solidity #nft #creator
+
+# Connect to ecosystems
+ecocon Ethereum NFTInfraMarketplaces

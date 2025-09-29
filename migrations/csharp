@@ -1,0 +1,11 @@
+20250930-add-base-nft-tools.migration
+
+# Add a new ecosystem
+ecoadd BaseNFTTools
+
+# Add repositories to the ecosystem
+repadd BaseNFTTools https://github.com/base-org/nft-sdk #sdk
+repadd BaseNFTTools https://github.com/base-org/nft-gallery #nft
+
+# Connect ecosystem to Base
+ecocon Base BaseNFTTools

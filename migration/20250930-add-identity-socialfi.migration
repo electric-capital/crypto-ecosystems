@@ -1,0 +1,10 @@
+# Add a new ecosystem
+ecoadd IdentitySocialFi
+
+# Add repositories to the ecosystem
+repadd IdentitySocialFi https://github.com/farcasterxyz/protocol #social #identity
+repadd IdentitySocialFi https://github.com/lens-protocol/lens-protocol #social #nft
+repadd IdentitySocialFi https://github.com/ensdomains/ens-contracts #identity #naming
+
+# Connect ecosystem to Ethereum (can extend to others later)
+ecocon Ethereum IdentitySocialFi

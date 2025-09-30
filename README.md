@@ -58,6 +58,24 @@ repadd Lightning https://github.com/lightningnetwork/lnd #protocol
 -- The following connects Lighting as a sub ecosystem of Bitcoin.
 ecocon Bitcoin Lighting
 ```
+
+```mermaid
+graph TD
+  A[Crypto Ecosystems]
+  A --> B[Bitcoin Ecosystem]
+  A --> C[Ethereum Ecosystem]
+  A --> D[Cosmos Ecosystem]
+
+  B --> B1[Wallets]
+  B --> B2[Exchanges]
+
+  C --> C1[DeFi]
+  C --> C2[NFTs]
+  C --> C3[Tooling]
+
+  D --> D1[IBC Protocol]
+  D --> D2[Cosmos Hub]
+
   
 ## How to Give Attribution For Usage of the Electric Capital Crypto Ecosystems
 

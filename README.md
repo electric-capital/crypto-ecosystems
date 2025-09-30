@@ -45,6 +45,7 @@ migrations/2015-07-30T152613_add_ethereum
 ```
 
 Simply create your new migration and add changes to the taxonomy using the keywords discussed below.
+Added small clarification about usage
 
 ## Data Format
 

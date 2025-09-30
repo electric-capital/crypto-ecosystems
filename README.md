@@ -3,6 +3,8 @@
 </h3>
 
 Crypto Ecosystems is a taxonomy of open source blockchain, web3, cryptocurrency, and decentralized ecosystems and their code repositories.  This dataset is not complete, and hopefully it never will be as there are new ecosystems and repositories created every day.
+This repository organizes open source projects in the crypto ecosystem.
+
 
 ## How to use this taxonomy
 The taxonomy can be used to generate the set of crypto ecosystems, their corresponding sub ecosystems, and repositories at a particular time.

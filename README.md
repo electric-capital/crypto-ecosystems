@@ -61,6 +61,8 @@ ecocon Bitcoin Lighting
   
 ## How to Give Attribution For Usage of the Electric Capital Crypto Ecosystems
 
+Added small clarification about usage
+
 The repository is licensed under [MIT license with attribution](https://github.com/electric-capital/crypto-ecosystems/blob/master/LICENSE).
 
 To use the Electric Capital Crypto Ecosystems Map in your project, you will need an attribution.

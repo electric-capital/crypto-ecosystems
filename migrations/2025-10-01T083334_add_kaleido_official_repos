@@ -1,0 +1,18 @@
+-- Add missing official kaleido-io repositories to Kaleido ecosystem
+-- These repositories are currently scattered across other ecosystems
+-- but should also be listed under the Kaleido ecosystem
+
+-- Core Kaleido platform repositories
+repadd Kaleido https://github.com/kaleido-io/subnet-evm #protocol
+repadd Kaleido https://github.com/kaleido-io/kaleido-iden3-samples #examples
+repadd Kaleido https://github.com/kaleido-io/truffle-kaleido-box #tool
+repadd Kaleido https://github.com/kaleido-io/token-sample-erc20 #examples
+repadd Kaleido https://github.com/kaleido-io/token-sample-erc721 #examples
+
+-- Additional kaleido-io repositories that should be verified
+-- Note: These should be checked to exist on GitHub before including
+-- repadd Kaleido https://github.com/kaleido-io/kaleido-go #sdk
+-- repadd Kaleido https://github.com/kaleido-io/kaleido-js #sdk
+-- repadd Kaleido https://github.com/kaleido-io/ethconnect #tool
+-- repadd Kaleido https://github.com/kaleido-io/firefly #protocol
+-- repadd Kaleido https://github.com/kaleido-io/blockchain-samples #examples

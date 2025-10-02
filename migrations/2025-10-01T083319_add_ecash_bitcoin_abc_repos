@@ -1,0 +1,18 @@
+-- Add missing Bitcoin-ABC repositories to eCash ecosystem
+-- eCash (XEC) is the current name for Bitcoin Cash ABC
+-- These are official repositories that should be included in eCash ecosystem
+
+-- Core protocol and infrastructure
+repadd eCash https://github.com/Bitcoin-ABC/bitcoin-abc #protocol
+repadd eCash https://github.com/Bitcoin-ABC/ElectrumABC #wallet
+repadd eCash https://github.com/Bitcoin-ABC/ecash-trezor-firmware #hardware
+repadd eCash https://github.com/Bitcoin-ABC/ecash-ckpool-solo #mining
+repadd eCash https://github.com/Bitcoin-ABC/qa-assets #testing
+repadd eCash https://github.com/Bitcoin-ABC/secp256k1 #cryptography
+repadd eCash https://github.com/Bitcoin-ABC/bitcoinabc.org #website
+
+-- Additional Bitcoin-ABC repositories that may exist
+-- Note: These should be verified to exist on GitHub before including
+-- repadd eCash https://github.com/Bitcoin-ABC/cashtab #wallet
+-- repadd eCash https://github.com/Bitcoin-ABC/ecash-lib #library
+-- repadd eCash https://github.com/Bitcoin-ABC/bitcoin-abc-cashaddr #library

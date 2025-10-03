@@ -56,8 +56,7 @@ ecoadd Lightning
 repadd Lightning https://github.com/lightningnetwork/lnd #protocol
 -- Connect ecosystems using the ecocon keyword.
 -- The following connects Lighting as a sub ecosystem of Bitcoin.
-ecocon Bitcoin Lighting
-```
+ecocon Bitcoin Lightning```
   
 ## How to Give Attribution For Usage of the Electric Capital Crypto Ecosystems
 

@@ -1,0 +1,181 @@
+name: Export Ecosystem Data
+
+on:
+  # Run weekly on Sundays at midnight
+  schedule:
+    - cron: '0 0 * * 0'
+  # Allow manual trigger
+  workflow_dispatch:
+  # Run on pushes to master
+  push:
+    branches: [ master, main ]
+    paths:
+      - 'migrations/**'
+
+jobs:
+  export-all:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Zig
+      uses: goto-bus-stop/setup-zig@v2
+      with:
+        version: 0.11.0
+
+    - name: Build project
+      run: zig build
+
+    - name: Get current date
+      id: date
+      run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+    - name: Export all ecosystems
+      run: |
+        ./run.sh export exports/crypto-ecosystems-full-${{ steps.date.outputs.date }}.jsonl
+        echo "✅ Full export completed"
+
+    - name: Generate ecosystem list
+      run: |
+        jq -r '.eco_name' exports/crypto-ecosystems-full-${{ steps.date.outputs.date }}.jsonl | \
+          sort -u > exports/ecosystem-list-${{ steps.date.outputs.date }}.txt
+        echo "✅ Ecosystem list generated"
+
+    - name: Export popular ecosystems individually
+      run: |
+        mkdir -p exports/individual
+        
+        # List of major ecosystems to export separately
+        ecosystems=("Bitcoin" "Ethereum" "Solana" "Polkadot" "Cardano" "Avalanche" "Polygon")
+        
+        for eco in "${ecosystems[@]}"; do
+          if [ -d "data/ecosystems/$eco" ] || grep -q "^ecoadd $eco$" migrations/*; then
+            echo "Exporting $eco..."
+            ./run.sh export -e "$eco" "exports/individual/${eco,,}-${{ steps.date.outputs.date }}.jsonl"
+          fi
+        done
+        
+        echo "✅ Individual exports completed"
+
+    - name: Generate statistics JSON
+      run: |
+        cat > exports/statistics-${{ steps.date.outputs.date }}.json <<EOF
+        {
+          "generated_at": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+          "total_repositories": $(jq -s 'length' exports/crypto-ecosystems-full-${{ steps.date.outputs.date }}.jsonl),
+          "total_ecosystems": $(jq -r '.eco_name' exports/crypto-ecosystems-full-${{ steps.date.outputs.date }}.jsonl | sort -u | wc -l),
+          "top_ecosystems": $(jq -r '.eco_name' exports/crypto-ecosystems-full-${{ steps.date.outputs.date }}.jsonl | sort | uniq -c | sort -rn | head -20 | jq -R 'split(" ") | {count: .[1] | tonumber, name: .[2]}' | jq -s .),
+          "repository_tags": $(jq -r '.tags[]' exports/crypto-ecosystems-full-${{ steps.date.outputs.date }}.jsonl | sort | uniq -c | sort -rn | jq -R 'split(" ") | {count: .[1] | tonumber, tag: .[2]}' | jq -s .)
+        }
+        EOF
+        
+        echo "✅ Statistics generated"
+        cat exports/statistics-${{ steps.date.outputs.date }}.json
+
+    - name: Generate README for exports
+      run: |
+        cat > exports/README.md <<EOF
+        # Crypto Ecosystems Data Export
+        
+        Generated on: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+        
+        ## Files
+        
+        - \`crypto-ecosystems-full-${{ steps.date.outputs.date }}.jsonl\` - Complete dataset of all ecosystems
+        - \`ecosystem-list-${{ steps.date.outputs.date }}.txt\` - List of all ecosystem names
+        - \`statistics-${{ steps.date.outputs.date }}.json\` - Dataset statistics
+        - \`individual/\` - Individual exports for major ecosystems
+        
+        ## Statistics
+        
+        \`\`\`json
+        $(cat exports/statistics-${{ steps.date.outputs.date }}.json)
+        \`\`\`
+        
+        ## Usage
+        
+        ### Load in Python
+        \`\`\`python
+        import json
+        
+        with open('crypto-ecosystems-full-${{ steps.date.outputs.date }}.jsonl', 'r') as f:
+            data = [json.loads(line) for line in f]
+        \`\`\`
+        
+        ### Load in JavaScript
+        \`\`\`javascript
+        const fs = require('fs');
+        
+        const data = fs.readFileSync('crypto-ecosystems-full-${{ steps.date.outputs.date }}.jsonl', 'utf-8')
+          .split('\n')
+          .filter(line => line.trim())
+          .map(line => JSON.parse(line));
+        \`\`\`
+        
+        ## Format
+        
+        Each line is a JSON object with the following structure:
+        \`\`\`json
+        {
+          "eco_name": "Bitcoin",
+          "branch": ["Lightning"],
+          "repo_url": "https://github.com/lightningnetwork/lnd",
+          "tags": ["#protocol"]
+        }
+        \`\`\`
+        
+        ## License
+        
+        This data is licensed under MIT License. See LICENSE file for details.
+        EOF
+        
+        echo "✅ Export README generated"
+
+    - name: Create release archive
+      run: |
+        cd exports
+        tar -czf crypto-ecosystems-${{ steps.date.outputs.date }}.tar.gz *.jsonl *.txt *.json *.md individual/
+        cd ..
+        echo "✅ Archive created"
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: crypto-ecosystems-export-${{ steps.date.outputs.date }}
+        path: |
+          exports/*.jsonl
+          exports/*.txt
+          exports/*.json
+          exports/*.md
+          exports/individual/
+        retention-days: 90
+
+    - name: Upload release archive
+      uses: actions/upload-artifact@v4
+      with:
+        name: crypto-ecosystems-archive-${{ steps.date.outputs.date }}
+        path: exports/*.tar.gz
+        retention-days: 365
+
+    - name: Create release (on schedule or manual trigger)
+      if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: data-export-${{ steps.date.outputs.date }}
+        name: Data Export ${{ steps.date.outputs.date }}
+        body: |
+          Automated weekly export of crypto ecosystem data.
+          
+          **Statistics:**
+          - Total Repositories: $(jq -s 'length' exports/crypto-ecosystems-full-${{ steps.date.outputs.date }}.jsonl)
+          - Total Ecosystems: $(jq -r '.eco_name' exports/crypto-ecosystems-full-${{ steps.date.outputs.date }}.jsonl | sort -u | wc -l)
+          
+          Download the complete archive or individual files below.
+        files: |
+          exports/crypto-ecosystems-${{ steps.date.outputs.date }}.tar.gz
+          exports/crypto-ecosystems-full-${{ steps.date.outputs.date }}.jsonl
+          exports/statistics-${{ steps.date.outputs.date }}.json
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

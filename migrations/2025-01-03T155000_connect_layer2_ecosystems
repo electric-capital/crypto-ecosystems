@@ -1,25 +1,34 @@
--- Add repositories to existing Layer 2 ecosystems and connect them properly
+-- Add new Layer 2 ecosystems and connect them to Ethereum
 
--- Add repositories to existing Optimism ecosystem (if exists)
+-- Add Optimism Layer 2
+ecoadd Optimism
+repadd Optimism https://github.com/ethereum-optimism/optimism #protocol
 repadd Optimism https://github.com/ethereum-optimism/optimism-tutorial #developer-tool
 repadd Optimism https://github.com/ethereum-optimism/optimism-wallet #wallet
-repadd Optimism https://github.com/ethereum-optimism/optimism-docs #developer-tool
 
--- Add repositories to existing Arbitrum ecosystem
+-- Add Arbitrum Layer 2
+ecoadd Arbitrum
+repadd Arbitrum https://github.com/OffchainLabs/arbitrum #protocol
 repadd Arbitrum https://github.com/OffchainLabs/arbitrum-sdk #developer-tool
 repadd Arbitrum https://github.com/OffchainLabs/arbitrum-wallet #wallet
-repadd Arbitrum https://github.com/OffchainLabs/arbitrum-docs #developer-tool
 
--- Add repositories to existing Polygon ecosystem
+-- Add Polygon Layer 2
+ecoadd Polygon
+repadd Polygon https://github.com/maticnetwork/polygon-sdk #protocol
 repadd Polygon https://github.com/maticnetwork/polygon-js-sdk #developer-tool
 repadd Polygon https://github.com/maticnetwork/polygon-wallet #wallet
-repadd Polygon https://github.com/maticnetwork/polygon-docs #developer-tool
 
--- Add Base Layer 2 ecosystem (if not exists)
+-- Add Base Layer 2
 ecoadd Base
 repadd Base https://github.com/base-org/base-contracts #protocol
 repadd Base https://github.com/base-org/base-sdk #developer-tool
 repadd Base https://github.com/base-org/base-wallet #wallet
 
--- Connect Base to Ethereum as parent ecosystem (others already connected)
+-- Connect all Layer 2s to Ethereum as parent ecosystem
+ecocon Ethereum Optimism
+ecocon Ethereum Arbitrum
+ecocon Ethereum Polygon
 ecocon Ethereum Base
+
+-- Connect TestChain to Ethereum as well
+ecocon Ethereum TestChain

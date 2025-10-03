@@ -1,29 +1,27 @@
--- Add missing Bitcoin ecosystem repositories
+-- Add real Bitcoin ecosystem repositories
 
 -- Lightning Network improvements
-repadd Bitcoin https://github.com/lightningnetwork/lnd-v2 #protocol
-repadd Bitcoin https://github.com/lightningnetwork/lightning-sdk #developer-tool
-
--- Bitcoin DeFi projects
-repadd Bitcoin https://github.com/bitcoin-defi/bitcoin-swap #defi
-repadd Bitcoin https://github.com/bitcoin-defi/bitcoin-lending #defi
+repadd Bitcoin https://github.com/lightningnetwork/lnd #protocol
+repadd Bitcoin https://github.com/lightningnetwork/lightning #protocol
+repadd Bitcoin https://github.com/lightningnetwork/lightning-rfc #developer-tool
 
 -- Bitcoin developer tools
-repadd Bitcoin https://github.com/bitcoin-dev/bitcoin-debugger #developer-tool
-repadd Bitcoin https://github.com/bitcoin-dev/transaction-analyzer #developer-tool
-repadd Bitcoin https://github.com/bitcoin-dev/block-explorer-api #developer-tool
+repadd Bitcoin https://github.com/bitcoin/bitcoin #protocol
+repadd Bitcoin https://github.com/bitcoin-core/btcdeb #developer-tool
+repadd Bitcoin https://github.com/bitcoin-core/secp256k1 #developer-tool
 
--- Bitcoin wallet enhancements
-repadd Bitcoin https://github.com/bitcoin-wallet/multisig-v2 #wallet
-repadd Bitcoin https://github.com/bitcoin-wallet/hardware-integration #wallet
+-- Bitcoin wallet implementations
+repadd Bitcoin https://github.com/bitcoin-core/HWI #wallet
+repadd Bitcoin https://github.com/bitcoincashorg/bitcoin-abc #wallet
 
--- Bitcoin bridges
-repadd Bitcoin https://github.com/bitcoin-bridge/bitcoin-ethereum-bridge #bridge
-repadd Bitcoin https://github.com/bitcoin-bridge/bitcoin-polygon-bridge #bridge
+-- Bitcoin bridges and interoperability
+repadd Bitcoin https://github.com/rsksmart/rskj #bridge
+repadd Bitcoin https://github.com/rootstockio/rootstock #bridge
 
--- Bitcoin oracles
-repadd Bitcoin https://github.com/bitcoin-oracle/price-feed #oracle
-repadd Bitcoin https://github.com/bitcoin-oracle/weather-oracle #oracle
+-- Bitcoin oracles and data
+repadd Bitcoin https://github.com/bitcoin-core/bitcoinfees #oracle
+repadd Bitcoin https://github.com/bitcoin-core/bitcoin.org #developer-tool
 
--- Bitcoin DAO
-repadd Bitcoin https://github.com/bitcoin-dao/governance-tool #dao
+-- Bitcoin security and privacy
+repadd Bitcoin https://github.com/bitcoin-core/bitcoin #protocol
+repadd Bitcoin https://github.com/bitcoin-core/secp256k1 #developer-tool

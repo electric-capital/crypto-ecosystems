@@ -1,0 +1,26 @@
+-- Add Namada ecosystem and core repositories
+ecoadd Namada
+
+-- Core protocol implementation
+repadd Namada https://github.com/namada-net/namada #protocol
+
+-- MASP (multi-asset shielded pool) crypto primitives & circuits
+repadd Namada https://github.com/namada-net/masp #masp #crypto
+
+-- Interface / wallet / UI
+repadd Namada https://github.com/namada-net/namada-interface #interface #wallet
+
+-- Indexers and analytics
+repadd Namada https://github.com/namada-net/namada-indexer #indexer #analytics
+repadd Namada https://github.com/anoma/namada-masp-indexer #indexer #masp
+
+-- Mainnet genesis / network data
+repadd Namada https://github.com/anoma/namada-mainnet-genesis #genesis #network
+
+-- Docs & registry
+repadd Namada https://github.com/namada-net/namada-docs #docs
+repadd Namada https://github.com/anoma/namada-chain-registry #registry
+
+-- Optional: connect Namada into larger categories
+-- ecocon Privacy Namada
+-- ecocon Layer 1 Namada

@@ -1,0 +1,28 @@
+-- Add TestChain ecosystem
+ecoadd TestChain
+
+-- Add core protocol repositories
+repadd TestChain https://github.com/testchain/testchain-core #protocol
+repadd TestChain https://github.com/testchain/testchain-consensus #protocol
+repadd TestChain https://github.com/testchain/testchain-network #protocol
+
+-- Add DeFi projects
+repadd TestChain https://github.com/testchain/testchain-dex #defi
+repadd TestChain https://github.com/testchain/testchain-lending #defi
+repadd TestChain https://github.com/testchain/testchain-staking #defi
+
+-- Add developer tools
+repadd TestChain https://github.com/testchain/testchain-sdk #developer-tool
+repadd TestChain https://github.com/testchain/testchain-cli #developer-tool
+repadd TestChain https://github.com/testchain/testchain-docs #developer-tool
+
+-- Add wallet implementations
+repadd TestChain https://github.com/testchain/testchain-wallet #wallet
+repadd TestChain https://github.com/testchain/testchain-mobile-wallet #wallet
+
+-- Add bridge functionality
+repadd TestChain https://github.com/testchain/testchain-bridge #bridge
+
+-- Add NFT projects
+repadd TestChain https://github.com/testchain/testchain-nft-marketplace #nft
+repadd TestChain https://github.com/testchain/testchain-nft-tools #nft

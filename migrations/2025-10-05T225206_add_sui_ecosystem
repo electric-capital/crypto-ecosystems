@@ -1,0 +1,41 @@
+-- Add SUI Blockchain Ecosystem
+-- SUI is a Layer 1 blockchain built with Move programming language
+-- Created by Mysten Labs
+
+ecoadd SUI
+
+-- Core Protocol
+repadd SUI https://github.com/MystenLabs/sui #protocol
+
+-- Move Framework and Tools
+repadd SUI https://github.com/MystenLabs/sui-move #protocol
+
+-- Developer Tools
+repadd SUI https://github.com/MystenLabs/sui-rust-sdk #developer-tool
+repadd SUI https://github.com/MystenLabs/sui-typescript-sdk #developer-tool
+
+-- Wallet Infrastructure
+repadd SUI https://github.com/MystenLabs/sui-wallet #wallet
+repadd SUI https://github.com/suiet/suiet #wallet
+
+-- DeFi Projects
+repadd SUI https://github.com/turbos-finance/turbos-clmm #defi
+repadd SUI https://github.com/Cetus-protocol/cetus-clmm-sui #defi
+repadd SUI https://github.com/FlowX-Finance/flowx-contracts #defi
+
+-- NFT and Gaming
+repadd SUI https://github.com/Origin-Byte/nft-protocol #nft
+repadd SUI https://github.com/Mysten-Labs/panzerdogs #nft
+
+-- Infrastructure
+repadd SUI https://github.com/MystenLabs/walrus #infrastructure
+repadd SUI https://github.com/kunalabs-io/sui-client-gen #developer-tool
+
+-- Name Service
+repadd SUI https://github.com/SuiNS/suins-contracts #protocol
+
+-- Oracle
+repadd SUI https://github.com/pentagonxyz/movemate #infrastructure
+
+-- Bridge
+repadd SUI https://github.com/wormhole-foundation/wormhole #bridge

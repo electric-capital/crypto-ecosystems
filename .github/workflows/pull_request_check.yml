@@ -1,0 +1,36 @@
+name: Pull Request Check
+
+on:
+  pull_request:
+    branches: ["master"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate hash of core files
+        id: hash
+        run: |
+          echo "files_hash=$(find . -maxdepth 2 -name "run.sh" -o -path "./src/*" \( -name "*.zig" -o -name "*.sh" \) | sort | xargs sha1sum | sha1sum | cut -d ' ' -f1)" >> $GITHUB_OUTPUT
+
+      - name: Cache build artifacts
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: zig-out/bin/ce
+          key: ${{ runner.os }}-build-${{ steps.hash.outputs.files_hash }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+
+      - name: Build if cache miss
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          ./run.sh build
+          ./run.sh test
+
+      - name: Validate Migrations from Genesis
+        run: |
+          ./zig-out/bin/ce validate

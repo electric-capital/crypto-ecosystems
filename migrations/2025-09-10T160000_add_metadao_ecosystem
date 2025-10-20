@@ -1,0 +1,23 @@
+-- Add MetaDAO ecosystem and repositories
+-- MetaDAO is a decentralized autonomous organization focused on futarchy-based governance
+-- and prediction markets on Solana. They have developed significant infrastructure
+-- for on-chain governance and prediction market mechanisms.
+
+ecoadd MetaDAO
+
+-- Core protocol and program repositories
+repadd MetaDAO https://github.com/metaDAOproject/programs #protocol
+repadd MetaDAO https://github.com/metaDAOproject/futarchy-indexer-v2 #indexer
+repadd MetaDAO https://github.com/metaDAOproject/futarchy-public-api #api
+repadd MetaDAO https://github.com/metaDAOproject/futarchy-datamodel #data-model
+repadd MetaDAO https://github.com/metaDAOproject/futarchy-amm-jupiter #amm
+
+-- Development and deployment tools
+repadd MetaDAO https://github.com/metaDAOproject/anchor-verifiable-build #developer-tool
+repadd MetaDAO https://github.com/metaDAOproject/setup-anchor #developer-tool
+
+-- Token migration utilities
+repadd MetaDAO https://github.com/metaDAOproject/token-migrator #utility
+
+-- Connect MetaDAO as a sub-ecosystem of Solana since it's built on Solana
+ecocon Solana MetaDAO

@@ -1,0 +1,13 @@
+-- Add missing btcz repositories to BitcoinZ ecosystem
+-- These repositories are currently scattered across other ecosystems
+-- but should also be listed under the BitcoinZ ecosystem
+
+-- Official BitcoinZ repositories
+repadd BitcoinZ https://github.com/btcz/atomicDEX-Desktop #wallet
+
+-- Additional btcz repositories that should be verified
+-- Note: These should be checked to exist on GitHub before including
+repadd BitcoinZ https://github.com/btcz/bitcoinz #protocol
+repadd BitcoinZ https://github.com/btcz/bitcoinz-wallet #wallet
+-- repadd BitcoinZ https://github.com/btcz/insight-ui-bitcoinz #explorer
+-- repadd BitcoinZ https://github.com/btcz/electrum-bitcoinz #wallet

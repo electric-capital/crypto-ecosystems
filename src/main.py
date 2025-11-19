@@ -2,7 +2,7 @@
 """Main entry point for crypto-ecosystems taxonomy tool."""
 
 import sys
-from python.commands import main
+from src.commands import main
 
 
 if __name__ == "__main__":

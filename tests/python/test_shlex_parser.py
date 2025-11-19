@@ -1,7 +1,7 @@
 """Unit tests for shell-like lexer."""
 
 import unittest
-from python.shlex_parser import split
+from src.shlex_parser import split
 
 
 class TestShlexParser(unittest.TestCase):

@@ -4,7 +4,7 @@ import unittest
 import tempfile
 import os
 import json
-from python.taxonomy import Taxonomy, InvalidEcosystem
+from src.taxonomy import Taxonomy, InvalidEcosystem
 
 
 class TestTaxonomy(unittest.TestCase):

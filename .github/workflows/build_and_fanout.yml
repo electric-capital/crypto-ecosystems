@@ -11,31 +11,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - name: Generate hash of core files
-        id: hash
-        run: |
-          echo "files_hash=$(find . -maxdepth 2 -name "run.sh" -o -path "./src/*" \( -name "*.zig" -o -name "*.sh" \) | sort | xargs sha1sum | sha1sum | cut -d ' ' -f1)" >> $GITHUB_OUTPUT
-
-      - name: Cache build artifacts
-        id: cache
-        uses: actions/cache@v3
+      - name: "Set up Python"
+        uses: actions/setup-python@v6
         with:
-          path: zig-out/bin/ce
-          key: ${{ runner.os }}-build-${{ steps.hash.outputs.files_hash }}
-          restore-keys: |
-            ${{ runner.os }}-build-
+          python-version-file: ".python-version"
 
-      - name: Build if cache miss
-        if: steps.cache.outputs.cache-hit != 'true'
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Run tests
         run: |
-          ./run.sh build
           ./run.sh test
 
       - name: Validate Migrations from Genesis
         run: |
-          ./zig-out/bin/ce validate
+          ./run.sh validate
 
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v3

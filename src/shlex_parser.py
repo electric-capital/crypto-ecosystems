@@ -37,7 +37,6 @@ def split(line: str) -> list[str]:
         if line[i] in ('"', "'"):
             # Quoted token
             quote = line[i]
-            start = i
             i += 1
             token_chars = []
 

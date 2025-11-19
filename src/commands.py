@@ -3,7 +3,6 @@
 import sys
 import os
 import argparse
-from typing import Optional
 
 from . import taxonomy
 
@@ -124,10 +123,10 @@ def main() -> None:
     export_parser.add_argument("output", nargs="?", help="Output file path")
 
     # Help command
-    help_parser = subparsers.add_parser("help", add_help=False)
+    subparsers.add_parser("help", add_help=False)
 
     # Version command
-    version_parser = subparsers.add_parser("version", add_help=False)
+    subparsers.add_parser("version", add_help=False)
 
     # Parse arguments
     if len(sys.argv) < 2:

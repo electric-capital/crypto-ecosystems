@@ -4,7 +4,7 @@ import unittest
 import tempfile
 import os
 import json
-from python.taxonomy import Taxonomy, ValidationFailed, InvalidEcosystem
+from python.taxonomy import Taxonomy, InvalidEcosystem
 
 
 class TestTaxonomy(unittest.TestCase):
@@ -266,6 +266,42 @@ class TestTaxonomy(unittest.TestCase):
         try:
             with self.assertRaises(InvalidEcosystem):
                 tax.export_json(temp_file, "NonExistent")
+        finally:
+            if os.path.exists(temp_file):
+                os.unlink(temp_file)
+
+    def test_tags_are_sorted_alphabetically(self):
+        """Test that tags are sorted alphabetically (case-insensitive) in exports."""
+        tax = Taxonomy()
+        tax._add_eco("TestEco")
+        # Add tags in non-alphabetical order with # prefix
+        tax._add_repo(
+            "TestEco",
+            "https://github.com/test/repo",
+            ["#zephyr", "#Apple", "#banana", "#MIDDLEWARE"],
+        )
+
+        # Export to temp file
+        with tempfile.NamedTemporaryFile(mode="w", delete=False, suffix=".json") as f:
+            temp_file = f.name
+
+        try:
+            tax.export_json(temp_file, None)
+
+            # Read and parse the JSON
+            with open(temp_file, "r") as f:
+                line = f.readline()
+                data = json.loads(line)
+
+            # Verify tags are sorted alphabetically (case-insensitive)
+            expected_tags = ["#Apple", "#banana", "#MIDDLEWARE", "#zephyr"]
+            self.assertEqual(expected_tags, data["tags"])
+
+            # Verify the order is case-insensitive (Apple before banana before MIDDLEWARE before zephyr)
+            self.assertEqual("#Apple", data["tags"][0])
+            self.assertEqual("#banana", data["tags"][1])
+            self.assertEqual("#MIDDLEWARE", data["tags"][2])
+            self.assertEqual("#zephyr", data["tags"][3])
         finally:
             if os.path.exists(temp_file):
                 os.unlink(temp_file)

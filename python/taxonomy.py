@@ -539,7 +539,8 @@ class Taxonomy:
         key = (eco_id, repo_id)
         if key in self.eco_repo_to_tags:
             tag_ids = self.eco_repo_to_tags[key]
-            return [self.tag_id_to_name[tag_id] for tag_id in tag_ids]
+            tags = [self.tag_id_to_name[tag_id] for tag_id in tag_ids]
+            return sorted(tags, key=str.casefold)
         return None
 
     def _emit_ecosystem_json(self, f, top: str, branch: list[str], eco_id: int) -> None:

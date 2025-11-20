@@ -1,6 +1,5 @@
 <h3 align="center">
 </h3>
-
 Open Dev Data is a taxonomy of open source blockchain, web3, cryptocurrency, and decentralized ecosystems and their code repositories.  This dataset is not complete, and hopefully it never will be as there are new ecosystems and repositories created every day.
 
 ## How to use this taxonomy
@@ -177,28 +176,55 @@ repadd Lightning https://github.com/lightningnetwork/lnd #protocol
 ecocon Bitcoin Lighting
 ```
   
-## How to Give Attribution For Usage of the Electric Capital Crypto Ecosystems
+## License and Attribution
 
-The repository is licensed under [MIT license with attribution](https://github.com/electric-capital/open-dev-data/blob/master/LICENSE).
+### Dual Licensing
 
-To use the Electric Capital Crypto Ecosystems Map in your project, you will need an attribution.
+**Open Dev Data** uses dual licensing to cover different types of content:
+
+#### Code - MIT License
+All software code in this project is licensed under the [MIT License](LICENSE-MIT.md).
+
+This includes:
+- All source code files (.py, .js, etc.)
+- Scripts and build configurations
+- Software libraries and modules
+
+#### Data and Documentation - CC BY 4.0
+All data, documentation, and creative works in this project are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE-CC-BY.md).
+
+This includes:
+- Ecosystem taxonomy data and parquet files
+- Documentation files
+- Examples and tutorials
+
+See the full [LICENSE.md](LICENSE.md) for complete details and disclaimers.
+
+### How to Give Attribution for Open Dev Data
+
+When using **Open Dev Data** in your project:
+
+**For Code Usage (MIT License):**
+- Include a copy of the MIT License
+- Provide attribution to Electric Capital
+
+**For Data Usage (CC BY 4.0):**
 
 Attribution needs to have 3 components:
 
-1. Source: “Electric Capital Crypto Ecosystems”
-2. Link: https://github.com/electric-capital/open-dev-data
-3. Logo: [Link to logo](static/electric_capital_logo_transparent.png)
+1. **Source**: "Open Dev Data by Electric Capital"
+2. **Link**: https://github.com/electric-capital/open-dev-data
+3. **License**: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
-Optional:
+**Optional but encouraged:**
 Everyone in the crypto ecosystem benefits from additions to this repository.
 It is a help to everyone to include an ask to contribute next to your attribution.
 
-Sample request language: "If you’re working in open source crypto, submit your repository here to be counted."
+Sample request language: "If you're working in open source crypto, submit your repository here to be counted."
 
-<ins>Sample attribution</ins>
+#### Sample Attribution
 
-Data Source: [Electric Capital Crypto Ecosystems](https://github.com/electric-capital/open-dev-data)
+Data Source: [Open Dev Data by Electric Capital](https://github.com/electric-capital/open-dev-data)
+License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-If you’re working in open source crypto, submit your repository [here](https://github.com/electric-capital/open-dev-data) to be counted.
-
-Thank you for contributing and for reading the contribution guide! ❤️
+If you're working in open source crypto, submit your repository [here](https://github.com/electric-capital/open-dev-data) to be counted.

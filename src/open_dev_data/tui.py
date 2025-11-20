@@ -4,7 +4,6 @@ import argparse
 import asyncio
 import json
 import shutil
-import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -12,6 +11,8 @@ from typing import Any, Dict, List
 
 import aiohttp
 import duckdb
+from harlequin import Harlequin
+from harlequin.plugins import load_adapter_plugins
 from platformdirs import user_cache_dir
 from rich.console import Console, Group
 from rich.live import Live
@@ -343,27 +344,32 @@ def launch_harlequin(db_path: Path | None = None) -> None:
         console.print(f"[red]✗ Database not found: {db_path}[/red]")
         return
 
-    # Check if harlequin is installed
-    try:
-        result = subprocess.run(
-            ["harlequin", "--version"],
-            capture_output=True,
-            text=True,
-        )
-        if result.returncode != 0:
-            raise FileNotFoundError()
-    except FileNotFoundError:
-        console.print(
-            "[red]✗ Harlequin is not installed or not in PATH[/red]\n"
-            "[yellow]Install with: pip install harlequin[/yellow]"
-        )
-        return
-
     console.print(f"\n[cyan]Launching Harlequin...[/cyan]")
     console.print(f"[dim]Database: {db_path}[/dim]\n")
 
-    # Launch harlequin
-    subprocess.run(["harlequin", "-a", "duckdb", str(db_path)])
+    # Launch harlequin using the library
+    try:
+        # Load adapter plugins and get the DuckDB adapter
+        adapters = load_adapter_plugins()
+        adapter_cls = adapters.get("duckdb")
+
+        if adapter_cls is None:
+            console.print("[red]✗ DuckDB adapter not found[/red]")
+            console.print(
+                "[yellow]The DuckDB adapter should be available with harlequin[/yellow]"
+            )
+            sys.exit(1)
+
+        # Instantiate the adapter with the connection string
+        adapter_instance = adapter_cls(conn_str=(str(db_path),))
+
+        # Create and run the Harlequin app
+        app = Harlequin(adapter=adapter_instance)
+        app.run()
+    except Exception as e:
+        console.print(f"[red]✗ Failed to launch Harlequin: {e}[/red]")
+        console.print("[yellow]Make sure harlequin is properly installed[/yellow]")
+        sys.exit(1)
 
 
 def clear_cache_dir() -> None:

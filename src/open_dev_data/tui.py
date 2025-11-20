@@ -26,7 +26,7 @@ from rich.progress import (
     TransferSpeedColumn,
 )
 
-from .download import download_file, fetch_manifest, get_remote_file_size
+from .download import compute_blake3, download_file, fetch_manifest
 from .duckify import import_parquet_to_duckdb, sanitize_table_name
 
 console = Console()
@@ -71,75 +71,85 @@ def save_metadata(metadata: Dict[str, Any]) -> None:
         json.dump(metadata, f, indent=2)
 
 
-async def validate_cache(files_to_check: List[str]) -> tuple[bool, List[str]]:
-    """Validate cached files against remote sizes.
+async def validate_cache(files_to_check: List[str]) -> tuple[bool, List[str], str]:
+    """Validate cached files against remote checksums.
 
     Returns:
-        (all_valid, files_to_download): Tuple of whether all files are valid and list of files to download
+        (all_valid, files_to_download, version): Tuple of validity, files to download, and version
     """
     cache_dir = get_cache_dir()
     parquet_dir = cache_dir / "parquet"
 
-    if not parquet_dir.exists():
-        return False, files_to_check
-
-    metadata = load_metadata()
-    files_to_download = []
-
-    # Fetch manifest to get resource URLs
+    # Fetch manifest to get version and resource info
     try:
         manifest = await fetch_manifest()
+        version = manifest["dataset"]["version"]
         resources_by_name = {
             r["path"].split("/")[-1]: r
             for r in manifest.get("dataset", {}).get("resources", [])
         }
     except Exception:
         # If manifest fetch fails, re-download all
-        return False, files_to_check
+        return False, files_to_check, ""
+
+    # Check version-specific directory
+    version_dir = parquet_dir / version
+    if not version_dir.exists():
+        return False, files_to_check, version
+
+    metadata = load_metadata()
+    files_to_download = []
 
     # Check each file
-    async with aiohttp.ClientSession() as session:
-        for filename in files_to_check:
-            local_path = parquet_dir / filename
+    for filename in files_to_check:
+        local_path = version_dir / filename
 
-            # Check if file exists locally
-            if not local_path.exists():
+        # Check if file exists locally
+        if not local_path.exists():
+            files_to_download.append(filename)
+            continue
+
+        # Get resource info from manifest
+        resource = resources_by_name.get(filename)
+        if not resource:
+            files_to_download.append(filename)
+            continue
+
+        # Get expected size and blake3 from manifest
+        expected_size = resource.get("size_bytes", 0)
+        expected_b3sum = resource.get("b3sum", None)
+
+        # Check size first
+        local_size = local_path.stat().st_size
+        if expected_size > 0 and local_size != expected_size:
+            files_to_download.append(filename)
+            continue
+
+        # If size matches, check blake3 if available
+        if expected_b3sum:
+            local_b3sum = compute_blake3(local_path)
+            if local_b3sum != expected_b3sum:
                 files_to_download.append(filename)
                 continue
-
-            # Get remote size
-            resource = resources_by_name.get(filename)
-            if not resource:
-                files_to_download.append(filename)
-                continue
-
-            remote_url = resource["path"]
-            if not remote_url.startswith("http"):
-                remote_url = f"https://data.developerreport.com/{remote_url}"
-
-            remote_size = await get_remote_file_size(session, remote_url)
-            local_size = local_path.stat().st_size
-
-            # Compare sizes
-            if remote_size > 0 and local_size != remote_size:
-                files_to_download.append(filename)
-            elif remote_size == 0:
-                # If we can't get remote size, assume cache is valid
-                pass
 
     all_valid = len(files_to_download) == 0
-    return all_valid, files_to_download
+    return all_valid, files_to_download, version
 
 
-async def download_lite_dataset(files_to_download: List[str]) -> bool:
+async def download_lite_dataset(files_to_download: List[str], version: str) -> bool:
     """Download lite dataset files with progress display.
+
+    Args:
+        files_to_download: List of filenames to download
+        version: Version string for creating versioned subfolder
 
     Returns:
         True if all downloads succeeded, False otherwise
     """
     cache_dir = get_cache_dir()
     parquet_dir = cache_dir / "parquet"
-    parquet_dir.mkdir(parents=True, exist_ok=True)
+    version_dir = parquet_dir / version
+    version_dir.mkdir(parents=True, exist_ok=True)
 
     # Fetch manifest
     try:
@@ -233,9 +243,10 @@ async def download_lite_dataset(files_to_download: List[str]) -> bool:
                 filename = resource["path"].split("/")[-1]
                 url = resource["path"]
                 if not url.startswith("http"):
-                    url = f"https://data.developerreport.com/{url}"
+                    url = f"https://data.opendevdata.org{url}"
 
-                output_path = parquet_dir / filename
+                output_path = version_dir / filename
+                expected_b3sum = resource.get("b3sum", None)
 
                 task = download_file(
                     session=session,
@@ -243,6 +254,7 @@ async def download_lite_dataset(files_to_download: List[str]) -> bool:
                     output_path=output_path,
                     progress=file_progress,
                     semaphore=semaphore,
+                    expected_b3sum=expected_b3sum,
                     retry_count=5,
                     log_callback=log_callback,
                 )
@@ -253,13 +265,13 @@ async def download_lite_dataset(files_to_download: List[str]) -> bool:
 
     # Save metadata
     metadata = {
-        "version": "1.0",
+        "version": version,
         "downloaded_at": datetime.now(timezone.utc).isoformat(),
         "files": {},
     }
 
     for filename in completed_files:
-        file_path = parquet_dir / filename
+        file_path = version_dir / filename
         if file_path.exists():
             metadata["files"][filename] = {
                 "size": file_path.stat().st_size,
@@ -277,18 +289,24 @@ async def download_lite_dataset(files_to_download: List[str]) -> bool:
     return True
 
 
-def import_to_duckdb() -> bool:
+def import_to_duckdb(version: str) -> bool:
     """Import cached parquet files into DuckDB.
+
+    Args:
+        version: Version string for the dataset
 
     Returns:
         True if import succeeded, False otherwise
     """
     cache_dir = get_cache_dir()
     parquet_dir = cache_dir / "parquet"
+    version_dir = parquet_dir / version
     db_path = cache_dir / "data.duckdb"
 
-    if not parquet_dir.exists():
-        console.print("[red]✗ No cached parquet files found[/red]")
+    if not version_dir.exists():
+        console.print(
+            f"[red]✗ No cached parquet files found for version {version}[/red]"
+        )
         return False
 
     # Remove existing database to avoid stale data
@@ -304,7 +322,7 @@ def import_to_duckdb() -> bool:
     imported = 0
     failed = 0
 
-    for parquet_file in sorted(parquet_dir.glob("*.parquet")):
+    for parquet_file in sorted(version_dir.glob("*.parquet")):
         table_name = sanitize_table_name(parquet_file.name)
 
         try:
@@ -431,19 +449,29 @@ def cmd_tui(args: argparse.Namespace) -> None:
     files_to_work_with = LITE_FILES
 
     cache_dir = get_cache_dir()
+    version = None
 
     # Check cache validity
     if not args.refresh:
         console.print("[cyan]Checking cache...[/cyan]")
-        cache_valid, files_to_download = asyncio.run(validate_cache(files_to_work_with))
+        cache_valid, files_to_download, version = asyncio.run(
+            validate_cache(files_to_work_with)
+        )
 
         if cache_valid:
             metadata = load_metadata()
             downloaded_at = metadata.get("downloaded_at", "unknown")
+            dataset_version = metadata.get("version", version)
             console.print(
                 f"[green]✓ Using cached data from {cache_dir}[/green]\n"
+                f"[cyan]Version: {dataset_version}[/cyan]\n"
                 f"[dim]Downloaded: {downloaded_at}[/dim]\n"
             )
+            # Import to DuckDB before launching
+            success = import_to_duckdb(version)
+            if not success:
+                console.print("[red]✗ Import failed. Exiting.[/red]")
+                return
             # Skip download, go straight to launching Harlequin
             launch_harlequin()
             return
@@ -459,16 +487,23 @@ def cmd_tui(args: argparse.Namespace) -> None:
         if parquet_dir.exists():
             shutil.rmtree(parquet_dir)
         files_to_download = files_to_work_with
+        # Fetch version from manifest
+        try:
+            manifest = asyncio.run(fetch_manifest())
+            version = manifest["dataset"]["version"]
+        except Exception as e:
+            console.print(f"[red]✗ Failed to fetch manifest: {e}[/red]")
+            return
 
     # Download files
-    success = asyncio.run(download_lite_dataset(files_to_download))
+    success = asyncio.run(download_lite_dataset(files_to_download, version))
 
     if not success:
         console.print("[red]✗ Download failed. Exiting.[/red]")
         return
 
     # Import to DuckDB
-    success = import_to_duckdb()
+    success = import_to_duckdb(version)
 
     if not success:
         console.print("[red]✗ Import failed. Exiting.[/red]")

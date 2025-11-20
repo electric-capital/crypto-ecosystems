@@ -8,6 +8,7 @@ from typing import Any, Callable, Dict, List
 from urllib.parse import urljoin
 
 import aiohttp
+import blake3
 from rich.console import Console, Group
 from rich.live import Live
 from rich.progress import (
@@ -21,7 +22,7 @@ from rich.progress import (
 
 console = Console()
 
-MANIFEST_URL = "https://data.developerreport.com/manifest.json"
+MANIFEST_URL = "https://data.opendevdata.org/manifest.json"
 
 
 async def fetch_manifest() -> Dict[str, Any]:
@@ -44,16 +45,26 @@ async def get_remote_file_size(session: aiohttp.ClientSession, url: str) -> int:
         return 0
 
 
+def compute_blake3(file_path: Path) -> str:
+    """Compute blake3 checksum of a file."""
+    hasher = blake3.blake3()
+    with open(file_path, "rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            hasher.update(chunk)
+    return hasher.hexdigest()
+
+
 async def download_file(
     session: aiohttp.ClientSession,
     url: str,
     output_path: Path,
     progress: Progress,
     semaphore: asyncio.Semaphore,
+    expected_b3sum: str | None = None,
     retry_count: int = 3,
     log_callback: Callable[[str, bool], None] = None,
 ) -> bool:
-    """Download a single file with progress tracking and retry logic."""
+    """Download a single file with progress tracking, retry logic, and blake3 validation."""
     task_id = None
     async with semaphore:
         # Create progress task when download starts
@@ -93,6 +104,16 @@ async def download_file(
 
                 # Atomic rename after successful download
                 temp_path.rename(output_path)
+
+                # Validate blake3 checksum if provided
+                if expected_b3sum:
+                    actual_b3sum = compute_blake3(output_path)
+                    if actual_b3sum != expected_b3sum:
+                        # Checksum mismatch, remove file and fail
+                        output_path.unlink()
+                        raise ValueError(
+                            f"Blake3 checksum mismatch: expected {expected_b3sum}, got {actual_b3sum}"
+                        )
 
                 # Hide progress task and log completion
                 progress.update(task_id, visible=False)
@@ -135,57 +156,79 @@ async def download_file(
 async def download_all_files(
     resources: List[Dict[str, str]],
     output_dir: Path,
+    version: str,
     workers: int,
     retry: int,
     resume: bool,
 ) -> tuple[int, int, int]:
     """Download all files concurrently with progress bars."""
+    # Create version-specific subfolder
+    version_dir = output_dir / version
+    version_dir.mkdir(parents=True, exist_ok=True)
+
     # Create semaphore to limit concurrent downloads
     semaphore = asyncio.Semaphore(workers)
 
     # Prepare download list and validate existing files if resuming
     downloads = []
     skipped = 0
-    size_mismatches = 0
+    mismatches = 0
 
-    # Create a session for checking file sizes
-    async with aiohttp.ClientSession() as check_session:
-        for resource in resources:
-            path = resource["path"]
-            # Resolve relative paths against manifest base URL
-            if not path.startswith("http"):
-                url = urljoin(MANIFEST_URL, path)
-            else:
-                url = path
+    for resource in resources:
+        path = resource["path"]
+        # Resolve relative paths against manifest base URL
+        if not path.startswith("http"):
+            url = urljoin(MANIFEST_URL, path)
+        else:
+            url = path
 
-            filename = Path(path).name
-            output_path = output_dir / filename
+        filename = Path(path).name
+        output_path = version_dir / filename
 
-            # Check if file already exists and validate size
-            if resume and output_path.exists():
-                local_size = output_path.stat().st_size
-                remote_size = await get_remote_file_size(check_session, url)
+        # Get expected size and blake3 checksum from manifest
+        expected_size = resource.get("size_bytes", 0)
+        expected_b3sum = resource.get("b3sum", None)
 
-                if remote_size > 0 and local_size == remote_size:
-                    # File exists and size matches, skip
+        # Check if file already exists and validate size + blake3
+        if resume and output_path.exists():
+            local_size = output_path.stat().st_size
+
+            # First check size
+            if expected_size > 0 and local_size == expected_size:
+                # Size matches, check blake3 if available
+                if expected_b3sum:
+                    local_b3sum = compute_blake3(output_path)
+                    if local_b3sum == expected_b3sum:
+                        # File is valid, skip
+                        skipped += 1
+                        console.print(
+                            f"[dim]⊙ Skipping {filename} (verified: {local_size:,} bytes, blake3 OK)[/dim]"
+                        )
+                        continue
+                    else:
+                        # Blake3 mismatch, re-download
+                        mismatches += 1
+                        console.print(
+                            f"[yellow]⚠ Re-downloading {filename} (blake3 mismatch)[/yellow]"
+                        )
+                else:
+                    # No blake3 in manifest, just trust size
                     skipped += 1
                     console.print(
                         f"[dim]⊙ Skipping {filename} (size matches: {local_size:,} bytes)[/dim]"
                     )
                     continue
-                elif remote_size > 0:
-                    # File exists but size doesn't match, re-download
-                    size_mismatches += 1
-                    console.print(
-                        f"[yellow]⚠ Re-downloading {filename} (size mismatch: local={local_size:,}, remote={remote_size:,})[/yellow]"
-                    )
+            else:
+                # Size mismatch, re-download
+                mismatches += 1
+                console.print(
+                    f"[yellow]⚠ Re-downloading {filename} (size mismatch: local={local_size:,}, expected={expected_size:,})[/yellow]"
+                )
 
-            downloads.append((url, output_path))
+        downloads.append((url, output_path, expected_b3sum))
 
-    if size_mismatches > 0:
-        console.print(
-            f"[yellow]Found {size_mismatches} file(s) with size mismatches[/yellow]\n"
-        )
+    if mismatches > 0:
+        console.print(f"[yellow]Found {mismatches} file(s) with mismatches[/yellow]\n")
 
     if not downloads:
         return 0, 0, skipped
@@ -262,10 +305,11 @@ async def download_all_files(
                     output_path,
                     file_progress,
                     semaphore,
+                    expected_b3sum,
                     retry,
                     log_completion,
                 )
-                for url, output_path in downloads
+                for url, output_path, expected_b3sum in downloads
             ]
 
             # Wait for all downloads to complete
@@ -306,14 +350,16 @@ def cmd_download(args: argparse.Namespace) -> None:
         console.print(f"[red]Error fetching manifest: {e}[/red]")
         sys.exit(1)
 
-    # Extract resources
+    # Extract version and resources
     try:
+        version = manifest["dataset"]["version"]
         resources = manifest["dataset"]["resources"]
-    except KeyError:
-        console.print("[red]Error: Invalid manifest format[/red]")
+    except KeyError as e:
+        console.print(f"[red]Error: Invalid manifest format (missing {e})[/red]")
         sys.exit(1)
 
     console.print(f"[green]Found {len(resources)} files in manifest[/green]")
+    console.print(f"[cyan]Dataset version: {version}[/cyan]")
 
     # Dry run mode
     if args.dry_run:
@@ -330,7 +376,9 @@ def cmd_download(args: argparse.Namespace) -> None:
     console.print(f"\n[cyan]Starting download with {args.workers} workers...[/cyan]\n")
 
     successful, failed, skipped = asyncio.run(
-        download_all_files(resources, output_dir, args.workers, args.retry, args.resume)
+        download_all_files(
+            resources, output_dir, version, args.workers, args.retry, args.resume
+        )
     )
 
     # Display summary
@@ -342,7 +390,7 @@ def cmd_download(args: argparse.Namespace) -> None:
     if skipped > 0:
         console.print(f"  [yellow]Skipped: {skipped}[/yellow]")
     console.print(f"  [cyan]Total: {len(resources)}[/cyan]")
-    console.print(f"\n[green]Files saved to: {output_dir.absolute()}[/green]")
+    console.print(f"\n[green]Files saved to: {output_dir.absolute() / version}[/green]")
 
     # Exit with error code if any downloads failed
     if failed > 0:

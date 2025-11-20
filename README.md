@@ -6,20 +6,71 @@ Open Dev Data is a taxonomy of open source blockchain, web3, cryptocurrency, and
 ## How to use this taxonomy
 The taxonomy can be used to generate the set of crypto ecosystems, their corresponding sub ecosystems, and repositories at a particular time.
 ### 🖼️ GUI Mode
-You can use the taxonomy viewer at [crypto-ecosystems.xyz](https://crypto-ecosystems.xyz).  Here you can query for ecosystems and repos as well as export all of the repos for specific ecosystems.
+You can use the taxonomy viewer at [Open Dev Data](https://opendevdata.org).  Here you can query for ecosystems and repos as well as export all of the repos for specific ecosystems.
 <div align="center">
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/8003fa92-6874-42d8-a398-7b1741964498" />
 </div>
 
 ### 💻 CLI Mode
-For more data science uses, one can export the taxonomy to a json format by using the following command:
+
+## Installation
+
+The easiest way to use the CLI tools is with `uvx` (no installation required):
+
 ```bash
-./run.sh export exports.jsonl
+# Run directly with uvx (downloads and runs the latest version)
+uvx open-dev-data --help
 ```
 
-If you want to export a single ecosystem, its sub ecosystems, and its repositories, you can use the `-e` parameter to specify a particular ecosystem.
+Or install with `uv`:
+
 ```bash
-./run.sh export -e Bitcoin bitcoin.jsonl
+# Install with uv
+uv tool install open-dev-data
+
+# Run after installation
+open-dev-data --help
+```
+
+Alternatively, install from source:
+
+```bash
+# Clone the repository
+git clone https://github.com/electric-capital/open-dev-data.git
+cd open-dev-data
+
+# Install with uv
+uv sync
+
+# Run commands
+uv run open-dev-data --help
+```
+
+## Available Commands
+
+### Taxonomy Commands
+
+#### Validate
+Validate all migrations in the taxonomy:
+```bash
+open-dev-data validate
+open-dev-data validate -r ./migrations  # Specify custom migrations directory
+```
+
+#### Export
+Export the taxonomy to JSON format:
+```bash
+# Export all ecosystems
+open-dev-data export output.jsonl
+
+# Export a single ecosystem
+open-dev-data export -e Bitcoin bitcoin.jsonl
+
+# Export with custom migrations directory
+open-dev-data export -r ./migrations output.jsonl
+
+# Export taxonomy state at a specific date
+open-dev-data export -m 2023-12-31 output.jsonl
 ```
 
 The export format is one json entry per line like the following:
@@ -28,6 +79,74 @@ The export format is one json entry per line like the following:
 {"eco_name":"Bitcoin","branch":["Lightning"],"repo_url":"https://github.com/bottlepay/lnd","tags":[]}
 ```
 By using the branch attribute, you can see how particular repos are attributed to the parent ecosystem.
+
+### Data Commands
+
+#### Download
+Download parquet files from the Open Dev Data manifest:
+```bash
+# Download all files to a directory (creates version-specific subfolder)
+open-dev-data download -o ./data
+
+# Download with 8 concurrent workers
+open-dev-data download -o ./data -w 8
+
+# Resume interrupted download (skips existing files with matching checksums)
+open-dev-data download -o ./data --resume
+```
+
+Downloads are organized by version (e.g., `./data/20251119T124952/`) and validated using blake3 checksums.
+
+#### Duckify
+Import parquet files into a DuckDB database:
+```bash
+# Import all parquet files from a directory
+open-dev-data duckify -i ./data/20251119T124952 -o odd.duckdb
+```
+
+DuckDB is a fantastic database product for local analytics.  Please reserve about 100GB to work with both the parquet files and duckdb.
+
+#### TUI (Interactive SQL Interface)
+Launch an interactive SQL interface powered by Harlequin:
+```bash
+# Download lite dataset and open interactive SQL interface
+open-dev-data tui --lite
+
+# Force refresh cached data
+open-dev-data tui --lite --refresh
+
+# Open existing DuckDB file
+open-dev-data tui --db ./database.duckdb
+
+# Clear cached data
+open-dev-data tui --clear-cache
+```
+
+The TUI provides an interactive interface to explore the data with:
+- SQL query editor with syntax highlighting
+- Results viewer with sorting and filtering
+- Schema browser
+- Query history
+
+## Quick Start Example
+
+Here's a complete workflow to download and explore the data:
+
+```bash
+# 1. Download the lite dataset and launch interactive SQL interface
+uvx open-dev-data tui --lite
+
+# Or, for full control:
+
+# 2. Download all parquet files
+uvx open-dev-data download -o ./data --resume
+
+# 3. Import into DuckDB
+uvx open-dev-data duckify -i ./data/20251119T124952 -o ecosystem.duckdb --show-schema
+
+# 4. Open in interactive SQL interface
+uvx open-dev-data tui --db ecosystem.duckdb
+```
 
 ## How to update the taxonomy
 There is a domain specific language (DSL) containing the keywords that can make changes to the taxonomy.  You specify migrations by using files of the format
@@ -60,14 +179,14 @@ ecocon Bitcoin Lighting
   
 ## How to Give Attribution For Usage of the Electric Capital Crypto Ecosystems
 
-The repository is licensed under [MIT license with attribution](https://github.com/electric-capital/crypto-ecosystems/blob/master/LICENSE).
+The repository is licensed under [MIT license with attribution](https://github.com/electric-capital/open-dev-data/blob/master/LICENSE).
 
 To use the Electric Capital Crypto Ecosystems Map in your project, you will need an attribution.
 
 Attribution needs to have 3 components:
 
 1. Source: “Electric Capital Crypto Ecosystems”
-2. Link: https://github.com/electric-capital/crypto-ecosystems
+2. Link: https://github.com/electric-capital/open-dev-data
 3. Logo: [Link to logo](static/electric_capital_logo_transparent.png)
 
 Optional:
@@ -78,8 +197,8 @@ Sample request language: "If you’re working in open source crypto, submit your
 
 <ins>Sample attribution</ins>
 
-Data Source: [Electric Capital Crypto Ecosystems](https://github.com/electric-capital/crypto-ecosystems)
+Data Source: [Electric Capital Crypto Ecosystems](https://github.com/electric-capital/open-dev-data)
 
-If you’re working in open source crypto, submit your repository [here](https://github.com/electric-capital/crypto-ecosystems) to be counted.
+If you’re working in open source crypto, submit your repository [here](https://github.com/electric-capital/open-dev-data) to be counted.
 
 Thank you for contributing and for reading the contribution guide! ❤️

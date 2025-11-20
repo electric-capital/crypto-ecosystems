@@ -1,7 +1,8 @@
 """Unit tests for shell-like lexer."""
 
 import unittest
-from src.shlex_parser import split
+
+from src.open_dev_data.shlex_parser import split
 
 
 class TestShlexParser(unittest.TestCase):

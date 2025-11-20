@@ -6,6 +6,9 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
 
+[project.scripts]
+open-dev-data = "src.open_dev_data.commands:main"
+
 [dependency-groups]
 dev = [
     "pytest>=9.0.1",

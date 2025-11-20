@@ -1,7 +1,8 @@
 """Unit tests for timestamp validation."""
 
 import unittest
-from src.timestamp import has_valid_timestamp, is_leap_year
+
+from src.open_dev_data.timestamp import has_valid_timestamp, is_leap_year
 
 
 class TestTimestamp(unittest.TestCase):

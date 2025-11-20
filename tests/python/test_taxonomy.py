@@ -1,10 +1,11 @@
 """Unit tests for taxonomy core functionality."""
 
-import unittest
-import tempfile
-import os
 import json
-from src.taxonomy import Taxonomy, InvalidEcosystem
+import os
+import tempfile
+import unittest
+
+from src.open_dev_data.taxonomy import InvalidEcosystem, Taxonomy
 
 
 class TestTaxonomy(unittest.TestCase):

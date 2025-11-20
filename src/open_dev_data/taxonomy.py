@@ -1,13 +1,12 @@
 """Core taxonomy data structures and operations."""
 
-import os
 import json
+import os
 import sys
 from dataclasses import dataclass
 from typing import Optional
 
-from . import shlex_parser
-from . import timestamp
+from . import shlex_parser, timestamp
 
 
 # Custom exceptions

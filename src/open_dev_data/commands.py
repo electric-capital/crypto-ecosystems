@@ -1,8 +1,8 @@
 """Command-line interface handler for crypto-ecosystems taxonomy."""
 
-import sys
-import os
 import argparse
+import os
+import sys
 
 from . import taxonomy
 

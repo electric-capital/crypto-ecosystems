@@ -1,4 +1,5 @@
 <h3 align="center">
+<img width="442" height="143" alt="open_dev_data" src="https://github.com/user-attachments/assets/a0f386d3-eee5-4125-853b-59c50730e917" />
 </h3>
 Open Dev Data is a taxonomy of open source blockchain, web3, cryptocurrency, and decentralized ecosystems and their code repositories.  This dataset is not complete, and hopefully it never will be as there are new ecosystems and repositories created every day.
 
@@ -221,10 +222,3 @@ Everyone in the crypto ecosystem benefits from additions to this repository.
 It is a help to everyone to include an ask to contribute next to your attribution.
 
 Sample request language: "If you're working in open source crypto, submit your repository here to be counted."
-
-#### Sample Attribution
-
-Data Source: [Open Dev Data by Electric Capital](https://github.com/electric-capital/open-dev-data)
-License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-If you're working in open source crypto, submit your repository [here](https://github.com/electric-capital/open-dev-data) to be counted.

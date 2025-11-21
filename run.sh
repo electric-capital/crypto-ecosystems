@@ -35,11 +35,11 @@ check_uv() {
 check_uv
 
 validate() {
-    uv run python main.py validate
+    uv run open-dev-data validate
 }
 
 export_taxonomy() {
-    uv run python main.py export "${@}"
+    uv run open-dev-data export "${@}"
 }
 
 test() {
@@ -47,7 +47,7 @@ test() {
 }
 
 help() {
-    uv run python main.py help
+    uv run open-dev-data help
 }
 
 # Main script logic

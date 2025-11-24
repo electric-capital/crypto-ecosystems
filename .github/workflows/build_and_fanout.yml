@@ -33,6 +33,6 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PAT }}
-          repository: electric-capital/taxonomy-viewer
+          repository: electric-capital/open-dev-data-website
           event-type: master-merge
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'

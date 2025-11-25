@@ -1,0 +1,1 @@
+"""Crypto ecosystems taxonomy package."""

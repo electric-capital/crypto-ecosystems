@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-dev-data"
+version = "1.3"
+description = "A taxonomy of crypto and decentralized web ecosystems and repositories"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.13.2",
+    "blake3>=1.0.8",
+    "duckdb>=1.4.2",
+    "harlequin>=2.4.1",
+    "platformdirs>=4.5.0",
+    "rich>=14.2.0",
+]
+
+[project.scripts]
+open-dev-data = "open_dev_data.commands:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = "."

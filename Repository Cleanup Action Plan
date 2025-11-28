@@ -1,0 +1,355 @@
+# Repository Cleanup Action Plan
+
+## Overview
+Systematic approach to verify, validate, and update the repository list to ensure accuracy and quality standards.
+
+## Phase 1: Repository Verification (Day 1)
+
+### Step 1: Accessibility Audit
+Create a verification script to test all repository URLs:
+
+```bash
+#!/bin/bash
+# verify_repos.sh
+
+REPOS_FILE="repositories.txt"
+INACCESSIBLE_FILE="inaccessible_repos.txt"
+ACCESSIBLE_FILE="verified_repos.txt"
+
+> "$INACCESSIBLE_FILE"
+> "$ACCESSIBLE_FILE"
+
+while IFS= read -r repo; do
+    if curl --output /dev/null --silent --head --fail "$repo"; then
+        echo "$repo" >> "$ACCESSIBLE_FILE"
+        echo "✓ $repo"
+    else
+        echo "$repo" >> "$INACCESSIBLE_FILE"
+        echo "✗ $repo"
+    fi
+done < "$REPOS_FILE"
+
+echo "Verification complete. Check $INACCESSIBLE_FILE for failed repos."
+```
+
+**Action Items:**
+- Run accessibility checks on all listed repositories
+- Document error codes (404, 403, 410) for each inaccessible repo
+- Check if repos were renamed, moved, or archived
+- Search for replacement repos if original projects migrated
+
+### Step 2: Create Verification Spreadsheet
+
+| Repository | Status | Issue | Action | Notes |
+|------------|--------|-------|--------|-------|
+| repo-name | ✗ Inaccessible | 404 Not Found | Remove | No archive found |
+| repo-name | ✓ Accessible | None | Keep | Verified active |
+| repo-name | ⚠ Moved | 301 Redirect | Update URL | New location found |
+
+## Phase 2: TON Integration Verification (Day 1-2)
+
+### Step 1: Evidence Collection Framework
+
+For each repository, document TON evidence using this checklist:
+
+**Primary Evidence (Required - at least 2):**
+- [ ] TON SDK import/dependency in package.json or requirements.txt
+- [ ] Smart contract deployment scripts referencing TON
+- [ ] TON wallet integration in codebase
+- [ ] TON API calls in source code
+- [ ] TON testnet/mainnet configuration files
+
+**Secondary Evidence (Supporting):**
+- [ ] README mentions TON functionality
+- [ ] Documentation includes TON setup instructions
+- [ ] Example transactions or contract addresses
+- [ ] TON-related tests or test cases
+- [ ] Commit history showing TON development
+
+### Step 2: Code Search Patterns
+
+Use these search queries to find TON integration:
+
+```bash
+# Search for TON-related imports and dependencies
+grep -r "ton-" package.json
+grep -r "@ton/" package.json
+grep -r "tonweb" .
+grep -r "ton-core" .
+
+# Search for TON API endpoints
+grep -r "toncenter.com" .
+grep -r "tonapi.io" .
+
+# Search for TON wallet connections
+grep -r "TonConnect" .
+grep -r "TON Wallet" .
+
+# Search for smart contract interactions
+grep -r "\.ton$" .
+grep -r "func" . | grep -i contract
+```
+
+### Step 3: Evidence Documentation Template
+
+```markdown
+## Repository: [Repo Name]
+**URL:** [GitHub URL]
+**TON Integration Level:** [Active/Partial/Minimal]
+
+### Evidence Found:
+1. **Dependencies:**
+   - File: `package.json`
+   - Line: 24
+   - Content: `"@ton/ton": "^13.5.0"`
+
+2. **Code Implementation:**
+   - File: `src/wallet/connector.ts`
+   - Lines: 45-67
+   - Summary: Implements TonConnect wallet integration
+
+3. **Smart Contracts:**
+   - File: `contracts/payment.func`
+   - Description: TON payment processing contract
+
+### Verification Status:
+- [x] Active TON integration confirmed
+- [ ] Partial integration (incomplete)
+- [ ] No substantial TON code found
+
+### Recommendation: **KEEP** | **REMOVE** | **NEEDS REVIEW**
+```
+
+## Phase 3: Integration Completeness Assessment (Day 2-3)
+
+### Classification Criteria
+
+**Active Integration (KEEP):**
+- Working smart contracts deployed or deployable
+- Functional wallet connection implementation
+- Transaction handling code present
+- Tests covering TON functionality
+- Recent commits touching TON code (within 6 months)
+
+**Partial Integration (FLAG FOR REVIEW):**
+- TON dependencies installed but minimal usage
+- Proof-of-concept code without full implementation
+- Abandoned development (no TON commits in 12+ months)
+- Documentation mentions TON but code incomplete
+
+**No Integration (REMOVE):**
+- Only TON mentioned in README without code
+- Dependencies present but never imported
+- Commented-out TON code
+- Placeholder files with no implementation
+
+### Deep Dive Checklist
+
+For repositories flagged as "partial," investigate:
+
+```bash
+# Check import usage
+git log --all --full-history --source --all -- *ton* *TON*
+
+# Count meaningful TON references
+grep -r "ton" --include="*.ts" --include="*.js" --include="*.py" | wc -l
+
+# Find actual function calls (not just imports)
+grep -r "TonClient\|TonWeb\|sendTransaction" --include="*.ts" --include="*.js"
+
+# Check for test coverage
+find . -name "*test*" -o -name "*spec*" | xargs grep -l "ton"
+```
+
+## Phase 4: Correction Implementation (Day 3)
+
+### Step 1: Prepare Updates
+
+Create three lists:
+
+**remove_list.txt** - Repositories to remove
+```
+https://github.com/user/repo1 - Reason: 404 Not Found
+https://github.com/user/repo2 - Reason: No TON evidence found
+https://github.com/user/repo3 - Reason: Partial integration, inactive 18 months
+```
+
+**update_list.txt** - Repositories needing URL changes
+```
+OLD: https://github.com/user/old-name
+NEW: https://github.com/user/new-name
+REASON: Repository renamed
+```
+
+**enhance_list.txt** - Repositories needing better documentation
+```
+https://github.com/user/repo4
+EVIDENCE: Add note about TonConnect integration in /src/wallet/
+PROOF: Lines 45-120 in connector.ts
+```
+
+### Step 2: Update PR Structure
+
+```markdown
+## Changes Made
+
+### Removed Repositories (X total)
+- `repo-name` - Inaccessible (404 error)
+- `repo-name` - No TON integration found after codebase review
+- `repo-name` - Partial integration abandoned 18 months ago
+
+### Updated Repository URLs (Y total)
+- `old-url` → `new-url` (repository renamed)
+- `old-url` → `new-url` (organization migrated)
+
+### Enhanced Documentation (Z total)
+- `repo-name` - Added evidence: TON smart contract in `/contracts/payment.func`
+- `repo-name` - Added evidence: TonConnect implementation in `/src/wallet/`
+
+### Verification Summary
+- Total repositories reviewed: XXX
+- Repositories verified with active TON integration: XXX
+- Repositories removed: XXX
+- Repositories updated: XXX
+- Evidence documentation added: XXX
+
+### Evidence Documentation
+For each retained repository, concrete evidence includes:
+1. Specific file paths containing TON code
+2. Line numbers of key implementations
+3. Description of TON functionality
+4. Links to deployed contracts (if applicable)
+```
+
+## Phase 5: Quality Assurance (Day 4)
+
+### Pre-Submission Checklist
+
+- [ ] All repository URLs tested and accessible
+- [ ] Every retained repo has documented TON evidence
+- [ ] Removed repos have clear reasons documented
+- [ ] Updated URLs verified to point to correct locations
+- [ ] Evidence includes specific file paths and line numbers
+- [ ] No subjective claims without code proof
+- [ ] Commit message clearly explains all changes
+- [ ] PR description includes verification methodology
+
+### Peer Review Request Template
+
+```markdown
+## Review Request
+
+I've completed a comprehensive audit of the repository list. Please review:
+
+1. **Verification Methodology:** [Describe your process]
+2. **Evidence Standards:** [Explain criteria used]
+3. **Sample Evidence:** [Provide 3 examples of well-documented repos]
+
+### Requesting feedback on:
+- Are the evidence standards appropriate?
+- Should any removed repos be reconsidered?
+- Is the documentation level sufficient?
+
+### Changes Summary:
+- Removed: X repositories
+- Updated: Y repositories  
+- Enhanced: Z repositories
+```
+
+## Tools and Automation
+
+### Repository Verification Script
+
+```python
+import requests
+import json
+from typing import Dict, List
+
+def verify_repository(repo_url: str) -> Dict:
+    """Verify repository accessibility and gather metadata."""
+    
+    api_url = repo_url.replace("github.com", "api.github.com/repos")
+    
+    try:
+        response = requests.get(api_url)
+        
+        if response.status_code == 200:
+            data = response.json()
+            return {
+                "url": repo_url,
+                "accessible": True,
+                "stars": data.get("stargazers_count", 0),
+                "last_update": data.get("updated_at", "Unknown"),
+                "archived": data.get("archived", False),
+                "description": data.get("description", "")
+            }
+        else:
+            return {
+                "url": repo_url,
+                "accessible": False,
+                "error_code": response.status_code
+            }
+    except Exception as e:
+        return {
+            "url": repo_url,
+            "accessible": False,
+            "error": str(e)
+        }
+
+def check_ton_evidence(repo_owner: str, repo_name: str, github_token: str) -> List[str]:
+    """Search repository for TON-related code."""
+    
+    evidence = []
+    search_terms = ["TON", "ton-core", "TonWeb", "TonConnect", "@ton/"]
+    
+    headers = {"Authorization": f"token {github_token}"}
+    
+    for term in search_terms:
+        search_url = f"https://api.github.com/search/code?q={term}+repo:{repo_owner}/{repo_name}"
+        response = requests.get(search_url, headers=headers)
+        
+        if response.status_code == 200:
+            results = response.json()
+            if results.get("total_count", 0) > 0:
+                for item in results.get("items", [])[:5]:  # Top 5 results
+                    evidence.append({
+                        "file": item.get("path"),
+                        "url": item.get("html_url")
+                    })
+    
+    return evidence
+```
+
+## Timeline Summary
+
+| Phase | Duration | Key Deliverable |
+|-------|----------|----------------|
+| 1. Accessibility Audit | 4 hours | List of inaccessible repos |
+| 2. TON Evidence Collection | 8 hours | Evidence documentation per repo |
+| 3. Integration Assessment | 8 hours | Classification of all repos |
+| 4. PR Preparation | 4 hours | Updated repository list + documentation |
+| 5. Quality Review | 2 hours | Final verification and PR submission |
+
+**Total Estimated Time:** 26 hours (3-4 days)
+
+## Success Criteria
+
+A successful cleanup achieves:
+
+1. **100% Accessibility:** All listed repositories are accessible and active
+2. **Documented Evidence:** Every repository has specific, verifiable TON integration proof
+3. **Clear Criteria:** Objective standards applied consistently
+4. **Transparent Process:** Methodology and reasoning clearly documented
+5. **Maintainable List:** Future contributors can easily verify and add repositories
+
+## Next Steps
+
+1. Set up verification environment and tools
+2. Begin Phase 1 accessibility checks immediately
+3. Document findings in structured format
+4. Schedule daily progress updates
+5. Submit PR with comprehensive documentation
+
+---
+
+**Note:** This is a living document. Update timelines and findings as the audit progresses.

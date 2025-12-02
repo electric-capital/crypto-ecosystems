@@ -2,6 +2,7 @@
 
 import argparse
 import asyncio
+import socket
 import sys
 from pathlib import Path
 from typing import Any, Callable, Dict, List
@@ -61,11 +62,19 @@ async def download_file(
     progress: Progress,
     semaphore: asyncio.Semaphore,
     expected_b3sum: str | None = None,
-    retry_count: int = 3,
+    expected_size: int = 0,
+    retry_count: int = 5,
     log_callback: Callable[[str, bool], None] = None,
 ) -> bool:
-    """Download a single file with progress tracking, retry logic, and blake3 validation."""
+    """Download a single file with progress tracking, resumable retry logic, and blake3 validation.
+
+    Uses HTTP Range requests to resume partial downloads on connection errors,
+    which is critical for large files (e.g., 16GB) that may experience
+    ClientPayloadError or other transient network issues.
+    """
     task_id = None
+    temp_path = output_path.with_suffix(output_path.suffix + ".tmp")
+
     async with semaphore:
         # Create progress task when download starts
         task_id = progress.add_task(
@@ -75,38 +84,89 @@ async def download_file(
 
         for attempt in range(retry_count):
             try:
-                # Download to temporary file first
-                temp_path = output_path.with_suffix(output_path.suffix + ".tmp")
+                # Check if we have a partial download to resume
+                downloaded = 0
+                if temp_path.exists():
+                    downloaded = temp_path.stat().st_size
 
                 # Use sock_read timeout instead of total timeout for large files
-                # This only times out if no data is received for 60 seconds
+                # This only times out if no data is received for 120 seconds
                 timeout = aiohttp.ClientTimeout(
                     total=None,  # No total timeout
-                    connect=30,  # 30s to establish connection
-                    sock_read=60,  # 60s between reads
+                    connect=60,  # 60s to establish connection
+                    sock_read=120,  # 120s between reads (increased for slow connections)
                 )
 
-                async with session.get(url, timeout=timeout) as response:
+                # Set up headers for Range request if resuming
+                headers = {}
+                if downloaded > 0:
+                    headers["Range"] = f"bytes={downloaded}-"
+                    console.print(
+                        f"[cyan]↻ {output_path.name}: Resuming from {downloaded:,} bytes[/cyan]"
+                    )
+
+                async with session.get(url, timeout=timeout, headers=headers) as response:
+                    # Handle both 200 (full content) and 206 (partial content)
+                    if response.status == 416:
+                        # Range not satisfiable - file might be complete or server doesn't support ranges
+                        # Check if temp file matches expected size
+                        if expected_size > 0 and downloaded >= expected_size:
+                            # File is complete, just rename it
+                            temp_path.rename(output_path)
+                            progress.update(task_id, total=expected_size, completed=expected_size, visible=False)
+                            if log_callback:
+                                log_callback(output_path.name, True)
+                            return True
+                        else:
+                            # Delete and restart
+                            temp_path.unlink()
+                            downloaded = 0
+                            continue
+
                     response.raise_for_status()
 
-                    # Get file size for progress tracking
-                    total_size = int(response.headers.get("content-length", 0))
-                    progress.update(task_id, total=total_size)
+                    # Determine total size and whether we're resuming
+                    if response.status == 206:
+                        # Partial content - parse Content-Range header
+                        content_range = response.headers.get("Content-Range", "")
+                        if "/" in content_range:
+                            total_size = int(content_range.split("/")[-1])
+                        else:
+                            total_size = downloaded + int(response.headers.get("content-length", 0))
+                    else:
+                        # Full content - server may not support Range or sent full file
+                        total_size = int(response.headers.get("content-length", 0))
+                        if downloaded > 0:
+                            # Server didn't honor Range request, restart download
+                            downloaded = 0
+                            if temp_path.exists():
+                                temp_path.unlink()
+
+                    progress.update(task_id, total=total_size, completed=downloaded)
 
                     # Stream download to disk with larger chunks for better throughput
-                    downloaded = 0
                     chunk_size = 1024 * 1024  # 1MB chunks for large files
-                    with open(temp_path, "wb") as f:
+                    mode = "ab" if downloaded > 0 and response.status == 206 else "wb"
+
+                    with open(temp_path, mode) as f:
                         async for chunk in response.content.iter_chunked(chunk_size):
                             f.write(chunk)
                             downloaded += len(chunk)
                             progress.update(task_id, completed=downloaded)
+
+                # Verify downloaded size matches expected
+                final_size = temp_path.stat().st_size
+                if expected_size > 0 and final_size != expected_size:
+                    raise ValueError(
+                        f"Size mismatch: expected {expected_size:,}, got {final_size:,}"
+                    )
 
                 # Atomic rename after successful download
                 temp_path.rename(output_path)
 
                 # Validate blake3 checksum if provided
                 if expected_b3sum:
+                    progress.update(task_id, description=f"🔍 {output_path.name} (verifying)")
                     actual_b3sum = compute_blake3(output_path)
                     if actual_b3sum != expected_b3sum:
                         # Checksum mismatch, remove file and fail
@@ -123,29 +183,101 @@ async def download_file(
 
                 return True
 
-            except Exception as e:
+            except aiohttp.ClientPayloadError as e:
+                # Connection error during download - this is resumable
                 if attempt < retry_count - 1:
-                    wait_time = 2**attempt  # Exponential backoff
+                    wait_time = min(2 ** (attempt + 1), 60)  # Exponential backoff, max 60s
                     progress.update(
                         task_id,
                         description=f"⚠ {output_path.name} (retry {attempt + 1}/{retry_count})",
                     )
-                    # Log the error type for debugging large file issues
+                    console.print(
+                        f"[yellow]⚠ {output_path.name}: Connection interrupted at "
+                        f"{downloaded:,} bytes - resuming in {wait_time}s...[/yellow]"
+                    )
+                    await asyncio.sleep(wait_time)
+                    # Don't delete temp file - we'll resume from it
+                else:
+                    if task_id is not None:
+                        progress.update(task_id, visible=False)
+                    if log_callback:
+                        log_callback(
+                            f"{output_path.name} - {type(e).__name__}: {e}", False
+                        )
+                    # Keep temp file for manual resume on next run
+                    console.print(
+                        f"[yellow]Partial download saved: {temp_path} ({downloaded:,} bytes)[/yellow]"
+                    )
+                    return False
+
+            except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+                # Other connection errors - also resumable
+                if attempt < retry_count - 1:
+                    wait_time = min(2 ** (attempt + 1), 60)
+                    progress.update(
+                        task_id,
+                        description=f"⚠ {output_path.name} (retry {attempt + 1}/{retry_count})",
+                    )
+                    console.print(
+                        f"[yellow]⚠ {output_path.name}: {type(e).__name__} - retrying in {wait_time}s...[/yellow]"
+                    )
+                    await asyncio.sleep(wait_time)
+                else:
+                    if task_id is not None:
+                        progress.update(task_id, visible=False)
+                    if log_callback:
+                        log_callback(
+                            f"{output_path.name} - {type(e).__name__}: {e}", False
+                        )
+                    if temp_path.exists() and downloaded > 0:
+                        console.print(
+                            f"[yellow]Partial download saved: {temp_path} ({downloaded:,} bytes)[/yellow]"
+                        )
+                    return False
+
+            except ValueError as e:
+                # Checksum or size mismatch - not resumable, need full re-download
+                if attempt < retry_count - 1:
+                    wait_time = min(2 ** (attempt + 1), 60)
+                    progress.update(
+                        task_id,
+                        description=f"⚠ {output_path.name} (retry {attempt + 1}/{retry_count})",
+                    )
+                    console.print(
+                        f"[yellow]⚠ {output_path.name}: {e} - retrying...[/yellow]"
+                    )
+                    # Delete temp/output file to force fresh download
+                    if temp_path.exists():
+                        temp_path.unlink()
+                    if output_path.exists():
+                        output_path.unlink()
+                    await asyncio.sleep(wait_time)
+                else:
+                    if task_id is not None:
+                        progress.update(task_id, visible=False)
+                    if log_callback:
+                        log_callback(f"{output_path.name} - {e}", False)
+                    return False
+
+            except Exception as e:
+                # Unexpected error
+                if attempt < retry_count - 1:
+                    wait_time = min(2 ** (attempt + 1), 60)
+                    progress.update(
+                        task_id,
+                        description=f"⚠ {output_path.name} (retry {attempt + 1}/{retry_count})",
+                    )
                     console.print(
                         f"[yellow]⚠ {output_path.name}: {type(e).__name__} - retrying...[/yellow]"
                     )
                     await asyncio.sleep(wait_time)
                 else:
-                    # Hide progress task and log failure
                     if task_id is not None:
                         progress.update(task_id, visible=False)
-
                     if log_callback:
                         log_callback(
                             f"{output_path.name} - {type(e).__name__}: {e}", False
                         )
-
-                    # Clean up temp file if it exists
                     if temp_path.exists():
                         temp_path.unlink()
                     return False
@@ -189,6 +321,16 @@ async def download_all_files(
         expected_size = resource.get("size_bytes", 0)
         expected_b3sum = resource.get("b3sum", None)
 
+        # Check for partial download (.tmp file) from previous interrupted run
+        temp_path = output_path.with_suffix(output_path.suffix + ".tmp")
+        if resume and temp_path.exists():
+            partial_size = temp_path.stat().st_size
+            console.print(
+                f"[cyan]↻ Found partial download: {filename} ({partial_size:,} / {expected_size:,} bytes)[/cyan]"
+            )
+            downloads.append((url, output_path, expected_b3sum, expected_size))
+            continue
+
         # Check if file already exists and validate size + blake3
         if resume and output_path.exists():
             local_size = output_path.stat().st_size
@@ -225,7 +367,7 @@ async def download_all_files(
                     f"[yellow]⚠ Re-downloading {filename} (size mismatch: local={local_size:,}, expected={expected_size:,})[/yellow]"
                 )
 
-        downloads.append((url, output_path, expected_b3sum))
+        downloads.append((url, output_path, expected_b3sum, expected_size))
 
     if mismatches > 0:
         console.print(f"[yellow]Found {mismatches} file(s) with mismatches[/yellow]\n")
@@ -288,12 +430,30 @@ async def download_all_files(
         auto_refresh=True,
     ):
         # Configure TCP keepalive for long downloads
+        # This prevents routers/NATs/firewalls from dropping idle connections
+        socket_options = [
+            # Enable TCP keepalive
+            (socket.SOL_SOCKET, socket.SO_KEEPALIVE, 1),
+        ]
+        # Add platform-specific keepalive tuning (Linux only)
+        if hasattr(socket, "TCP_KEEPIDLE"):
+            socket_options.extend([
+                # Send first keepalive probe after 60s of idle
+                (socket.IPPROTO_TCP, socket.TCP_KEEPIDLE, 60),
+                # Send keepalive probes every 15s
+                (socket.IPPROTO_TCP, socket.TCP_KEEPINTVL, 15),
+                # Consider connection dead after 4 failed probes
+                (socket.IPPROTO_TCP, socket.TCP_KEEPCNT, 4),
+            ])
+
         connector = aiohttp.TCPConnector(
             limit=workers,  # Limit total connections
             limit_per_host=workers,  # Limit per host
             ttl_dns_cache=300,  # Cache DNS for 5 minutes
             keepalive_timeout=90,  # Keep connections alive for 90s
             force_close=False,  # Reuse connections
+            enable_cleanup_closed=True,
+            socket_options=socket_options,
         )
 
         async with aiohttp.ClientSession(connector=connector) as session:
@@ -306,10 +466,11 @@ async def download_all_files(
                     file_progress,
                     semaphore,
                     expected_b3sum,
+                    expected_size,
                     retry,
                     log_completion,
                 )
-                for url, output_path, expected_b3sum in downloads
+                for url, output_path, expected_b3sum, expected_size in downloads
             ]
 
             # Wait for all downloads to complete

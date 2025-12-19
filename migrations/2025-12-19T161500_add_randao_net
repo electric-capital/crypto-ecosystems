@@ -1,0 +1,13 @@
+-- Add randao.net ecosystem
+ecoadd randao.net
+
+-- Connect randao.net to AO ecosystem
+ecocon AO randao.net
+
+-- Core randao.net protocol repositories
+repadd randao.net https://github.com/RandAOLabs/Randomness-Provider #protocol
+repadd randao.net https://github.com/RandAOLabs/RandAO #protocol
+
+-- randao.net AO tooling and modules
+repadd randao.net https://github.com/RandAOLabs/ao-process-clients #developer-tool
+repadd randao.net https://github.com/RandAOLabs/Random-Module #developer-tool
